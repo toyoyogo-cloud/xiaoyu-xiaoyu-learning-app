@@ -1,8 +1,8 @@
 {
   "title": "1000題題庫建置規格",
   "target": 1000,
-  "currentVerifiedNewGradeSpecificQuestions": 150,
-  "targetRemainder": 778,
+  "currentVerifiedNewGradeSpecificQuestions": 228,
+  "targetRemainder": 700,
   "updatedAt": "2026-11-12",
   "distributionTarget": [
     {
@@ -104,5 +104,13 @@
     "每批執行重複題、答案索引、欄位完整性及語法檢查"
   ],
   "releasePolicy": "1000題是可驗收的最低目標，不以未核對的自動生成題充數；按批次提交，統計正式入庫且通過檢查的題目數。",
-  "currentVerifiedQuestions": 222
+  "currentVerifiedQuestions": 300,
+  "batchLog": [
+    {
+      "batch": 3,
+      "added": 78,
+      "coverage": "國小一至六年級、國中七至九年級、高中高一至高三",
+      "validation": "四選項、答案索引、解析、年級科目欄位、重複題與JS語法檢查通過"
+    }
+  ]
 }
