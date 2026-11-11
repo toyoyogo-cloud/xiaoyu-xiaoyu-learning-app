@@ -1,7 +1,7 @@
 {
   "title": "1000題題庫建置規格",
   "target": 1000,
-  "currentVerifiedNewGradeSpecificQuestions": 360,
+  "currentVerifiedNewGradeSpecificQuestions": 413,
   "targetRemainder": 568,
   "updatedAt": "2026-11-12",
   "distributionTarget": [
@@ -81,7 +81,7 @@
     "每批執行重複題、答案索引、欄位完整性及語法檢查"
   ],
   "releasePolicy": "1000題最低目標全部集中於國小五、六年級與高中高一至高三；國小一至四年級及國中七至九年級暫停新增，既有題目保留。每題須經答案、解析、課綱標籤及重複度檢查。",
-  "currentVerifiedQuestions": 432,
+  "currentVerifiedQuestions": 485,
   "batchLog": [
     {
       "batch": 3,
@@ -106,6 +106,12 @@
       "added": 58,
       "coverage": "國小五、六年級及高中高一至高三；國語、數學、自然、社會、英語及高中核心學科",
       "validation": "58題均屬目前指定年級；四選項、答案索引、解析、批次內題目唯一性及JavaScript語法檢查通過"
+    },
+    {
+      "batch": 7,
+      "added": 53,
+      "coverage": "國小五、六年級各五科；高中高一至高三各十科",
+      "validation": "題目欄位、四選項、答案索引、解析、指定年級/科目及題幹去重規則檢查通過；主要計算題已重新核算。"
     }
   ],
   "activeScope": {
@@ -133,5 +139,12 @@
       "依學年度標記教材版本及課綱來源",
       "歷屆試題採官方連結及原創考點衍生題"
     ]
+  },
+  "lastBatchDistribution": {
+    "五年級": 13,
+    "六年級": 10,
+    "高一": 10,
+    "高二": 10,
+    "高三": 10
   }
 }
