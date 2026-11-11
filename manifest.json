@@ -1,0 +1,19 @@
+{
+  "name": "小宇小妤智慧學習測驗",
+  "short_name": "智慧學習測驗",
+  "lang": "zh-TW",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f5f6fc",
+  "theme_color": "#4f46c8",
+  "description": "依年級、科目與單元練習，建立個人學習紀錄。",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
