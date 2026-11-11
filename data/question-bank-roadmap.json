@@ -1,0 +1,107 @@
+{
+  "title": "1000題題庫建置規格",
+  "target": 1000,
+  "currentVerifiedNewGradeSpecificQuestions": 150,
+  "targetRemainder": 850,
+  "updatedAt": "2026-11-12",
+  "distributionTarget": [
+    {
+      "stage": "國小",
+      "target": 300,
+      "grades": [
+        "一年級",
+        "二年級",
+        "三年級",
+        "四年級",
+        "五年級",
+        "六年級"
+      ],
+      "subjects": [
+        "國語",
+        "數學",
+        "生活",
+        "自然",
+        "社會",
+        "英語"
+      ]
+    },
+    {
+      "stage": "國中",
+      "target": 350,
+      "grades": [
+        "七年級",
+        "八年級",
+        "九年級"
+      ],
+      "subjects": [
+        "國文",
+        "英文",
+        "數學",
+        "自然",
+        "地理",
+        "公民",
+        "歷史"
+      ]
+    },
+    {
+      "stage": "高中",
+      "target": 350,
+      "grades": [
+        "高一",
+        "高二",
+        "高三"
+      ],
+      "subjects": [
+        "國文",
+        "英文",
+        "數學",
+        "歷史",
+        "地理",
+        "公民",
+        "物理",
+        "化學",
+        "生物",
+        "地球科學"
+      ]
+    }
+  ],
+  "itemSchema": {
+    "required": [
+      "id",
+      "stage",
+      "grade",
+      "subject",
+      "unit",
+      "topic",
+      "difficulty",
+      "q",
+      "o",
+      "a",
+      "e",
+      "frameworkId",
+      "sourceType",
+      "sourceRef",
+      "reviewStatus"
+    ],
+    "optionCount": 4,
+    "answerIndexRange": [
+      0,
+      3
+    ],
+    "minimumExplanation": true,
+    "sourceTypes": [
+      "original-curriculum-aligned",
+      "past-exam-derived",
+      "licensed-public-item"
+    ]
+  },
+  "qualityGates": [
+    "每題四個選項且只有一個正確答案（非選題需另訂評分規準）",
+    "答案與解析經人工或雙重規則檢查",
+    "標記課綱版本、年級、科目、單元與能力指標",
+    "歷屆考點衍生題需記錄考試名稱與年度，不複製受保護原文",
+    "避免跨年級重複題與只改數字的低品質重複題",
+    "每批執行重複題、答案索引、欄位完整性及語法檢查"
+  ],
+  "releasePolicy": "1000題是可驗收的最低目標，不以未核對的自動生成題充數；按批次提交，統計正式入庫且通過檢查的題目數。"
+}
