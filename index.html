@@ -156,7 +156,7 @@ document.getElementById("guestMode").onclick=()=>{db.profile.name="";persist();t
 document.getElementById("quickStart").onclick=()=>{page("quiz");document.getElementById("stage").value=db.profile.stage||"國小";renderGradeOptions()};
 document.getElementById("quickWrong").onclick=()=>{page("wrong")};
 document.getElementById("stage").onchange=renderGradeOptions;
-document.getElementById("grade").onchange=()=>{if(state.subject)renderUnits();updateAvailable();renderSubjects()};
+document.getElementById("grade").onchange=()=>{const s=document.getElementById("stage").value,g=document.getElementById("grade").value;document.querySelectorAll("[data-sub]").forEach(b=>{const sub=b.dataset.sub;b.innerHTML=esc(sub)+'<small>'+bankFor(s,sub,g).length+' 道現有題目</small>';b.classList.toggle("selected",sub===state.subject)});if(state.subject)renderUnits();updateAvailable()};
 document.getElementById("mode").onchange=updateAvailable;
 document.getElementById("difficulty").onchange=updateAvailable;
 document.getElementById("unit").onchange=updateAvailable;
