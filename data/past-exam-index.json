@@ -1,0 +1,104 @@
+{
+  "title": "歷屆考試試題索引",
+  "schemaVersion": "1.0.0",
+  "updatedAt": "2026-11-12",
+  "reusePolicy": "本索引保存考試名稱、年度、科目、官方來源與考點標記。原始試卷及解析如受著作權保護，APP不複製整份原卷；使用者可前往官方頁面查閱。衍生練習題須重新撰寫題幹、選項與解析，不得只是替換人名或數字。",
+  "exams": [
+    {
+      "id": "cap",
+      "name": "國中教育會考",
+      "organizer": "國立臺灣師範大學心理與教育測驗研究發展中心",
+      "years": "102年試辦至最新年度；另含90年起國中基測資料",
+      "subjects": [
+        "國文",
+        "英語",
+        "數學",
+        "社會",
+        "自然",
+        "寫作測驗"
+      ],
+      "officialUrl": "https://cap.rcpet.edu.tw/examination.html",
+      "answerSource": "各年度題本頁之參考答案與相關公告",
+      "curriculumTagRule": "按考試年度、當年度適用課綱與命題範圍標註；早期基測不得直接標成108課綱。"
+    },
+    {
+      "id": "gsat",
+      "name": "大學學科能力測驗",
+      "organizer": "大學入學考試中心",
+      "years": "歷年公開試題",
+      "subjects": [
+        "國文綜合",
+        "國語文寫作",
+        "英文",
+        "數學A",
+        "數學B",
+        "社會",
+        "自然"
+      ],
+      "officialUrl": "https://www.ceec.edu.tw/xmfile?xsmsid=0J052424829869345634",
+      "referencePapersUrl": "https://www.ceec.edu.tw/xmdoc?XsmSId=0j018586101460336585",
+      "curriculumTagRule": "依考試年度、考科、適用課綱版本及考試說明分類；數學A/B、自然與社會分科標註。"
+    },
+    {
+      "id": "分科測驗",
+      "name": "分科測驗（含舊制指定科目考試）",
+      "organizer": "大學入學考試中心",
+      "years": "歷年公開試題",
+      "subjects": [
+        "數學甲",
+        "數學乙",
+        "物理",
+        "化學",
+        "生物",
+        "歷史",
+        "地理",
+        "公民與社會"
+      ],
+      "officialUrl": "https://www.ceec.edu.tw/",
+      "curriculumTagRule": "舊制指考與新制分科測驗分開標記，並保留當年度考試範圍及課綱版本。"
+    },
+    {
+      "id": "統測",
+      "name": "四技二專統一入學測驗",
+      "organizer": "技專校院入學測驗中心",
+      "years": "歷年公開試題",
+      "subjects": [
+        "共同科目",
+        "各群專業科目"
+      ],
+      "officialUrl": "https://www.tcte.edu.tw/",
+      "curriculumTagRule": "按群類、年度、共同科目/專業科目及技高課程綱要標註。"
+    },
+    {
+      "id": "基測",
+      "name": "國中基本學力測驗（歷史考試）",
+      "organizer": "歷年主辦單位與官方資料保存機構",
+      "years": "90年至101年等歷史年度",
+      "subjects": [
+        "國文",
+        "英語",
+        "數學",
+        "社會",
+        "自然"
+      ],
+      "officialUrl": "https://cap.rcpet.edu.tw/examination.html",
+      "curriculumTagRule": "標記為九年一貫或當年度適用課程版本，僅作歷史題型與基礎能力參考。"
+    }
+  ],
+  "metadataFields": [
+    "examId",
+    "examYear",
+    "examName",
+    "subject",
+    "paperType",
+    "curriculumVersion",
+    "topic",
+    "competency",
+    "difficulty",
+    "officialSourceUrl",
+    "answerKeyUrl",
+    "copyrightStatus",
+    "derivedQuestionIds"
+  ],
+  "ingestionStatus": "目前完成官方入口與分類欄位建檔；逐年逐科試卷清單、答案與考點標註仍須逐筆擷取及核對。"
+}
