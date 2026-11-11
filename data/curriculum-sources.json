@@ -1,0 +1,127 @@
+{
+  "title": "課綱與教材版本來源索引",
+  "schemaVersion": "1.0.0",
+  "updatedAt": "2026-11-12",
+  "policy": "課綱版本以教育部及國家教育研究院正式發布資料為準；出版社版本屬教科書審定本與各校選用資訊，不等同不同國家課綱。",
+  "frameworks": [
+    {
+      "id": "curriculum-108",
+      "name": "十二年國民基本教育課程綱要（108課綱）",
+      "effectiveFrom": "108學年度起逐年實施",
+      "scope": [
+        "國民小學",
+        "國民中學",
+        "普通型高級中等學校"
+      ],
+      "status": "current-framework",
+      "notes": "總綱於103年發布，106年修正實施期程；各領域/科目課綱於107年起陸續發布。110年修正總綱並自111學年度逐年實施，國家語言等內容依修正版本校對。",
+      "officialSources": [
+        {
+          "title": "國家教育研究院－十二年國教課程綱要",
+          "url": "https://www.naer.edu.tw/PageSyllabus?fid=52"
+        },
+        {
+          "title": "教育部主管法規共用系統－十二年國教課綱總綱沿革",
+          "url": "https://edu.law.moe.gov.tw/LawContentSource.aspx?id=GL002057"
+        },
+        {
+          "title": "教育部國教署－新課綱推動相關法令規定",
+          "url": "https://www.k12ea.gov.tw/Tw/Common/SinglePage?filter=11C2C6C1-D64E-475E-916B-D20C83896343"
+        }
+      ]
+    },
+    {
+      "id": "curriculum-9year",
+      "name": "國民中小學九年一貫課程綱要",
+      "effectiveFrom": "90學年度起逐步實施，後續多次修正",
+      "scope": [
+        "國民小學",
+        "國民中學"
+      ],
+      "status": "historical-framework",
+      "notes": "用於舊年度基測及早期學習資料的課綱脈絡比對，不應直接當作現行108課綱。",
+      "officialSources": [
+        {
+          "title": "教育部主管法規共用系統－九年一貫課程綱要沿革",
+          "url": "https://edu.law.moe.gov.tw/LawContentSource.aspx?id=GL000342"
+        },
+        {
+          "title": "教育部部史－課程改革沿革",
+          "url": "https://history.moe.gov.tw/Policy/Detail/0697417e-275b-44f3-98ec-3d906f6c7747"
+        }
+      ]
+    },
+    {
+      "id": "curriculum-99-senior",
+      "name": "普通高級中學課程綱要（99課綱時期）",
+      "effectiveFrom": "99學年度起逐年實施（依科目與年級）",
+      "scope": [
+        "普通高級中學"
+      ],
+      "status": "historical-framework",
+      "notes": "歷屆學測/指考題目須依考試年度及適用課綱標記；不可直接以現行課綱單元標籤取代。",
+      "officialSources": [
+        {
+          "title": "教育部部史－課程改革沿革",
+          "url": "https://history.moe.gov.tw/Policy/Detail/0697417e-275b-44f3-98ec-3d906f6c7747"
+        }
+      ]
+    },
+    {
+      "id": "curriculum-technical",
+      "name": "技術型高級中等學校群科課程綱要",
+      "effectiveFrom": "依各版課綱與群科實施年度",
+      "scope": [
+        "技術型高級中等學校"
+      ],
+      "status": "separate-track",
+      "notes": "需依群科（機械、電機電子、商管、家政、餐旅等）分流建置，不與普通高中題庫混用。",
+      "officialSources": [
+        {
+          "title": "教育部國教署－新課綱推動相關法令規定",
+          "url": "https://www.k12ea.gov.tw/Tw/Common/SinglePage?filter=11C2C6C1-D64E-475E-916B-D20C83896343"
+        },
+        {
+          "title": "國家教育研究院－十二年國教課程綱要",
+          "url": "https://www.naer.edu.tw/PageSyllabus?fid=52"
+        }
+      ]
+    }
+  ],
+  "textbookPublishers": [
+    {
+      "id": "knsh",
+      "name": "康軒",
+      "subjects": "依學校與年級選用",
+      "officialUrl": "https://www.knsh.com.tw/_KNSH/Version"
+    },
+    {
+      "id": "hanlin",
+      "name": "翰林",
+      "subjects": "依學校與年級選用",
+      "officialUrl": "https://www.hle.com.tw/"
+    },
+    {
+      "id": "nani",
+      "name": "南一",
+      "subjects": "依學校與年級選用",
+      "officialUrl": "https://www.nani.com.tw/"
+    }
+  ],
+  "textbookVersionPolicy": "國小、國中教科書版本由各校課程發展委員會選用，並非全台同一年級固定同一版本。系統須保存學年度、縣市、學校、年級、科目、出版社與冊次；未取得特定學校資料時，題目以共同核心能力與課綱學習表現標註，不假稱完全對應某出版社某冊。",
+  "alignmentFields": [
+    "frameworkId",
+    "schoolYear",
+    "stage",
+    "grade",
+    "subject",
+    "publisher",
+    "volume",
+    "unit",
+    "learningContent",
+    "learningPerformance",
+    "coreCompetency",
+    "sourceUrl",
+    "verifiedAt"
+  ]
+}
