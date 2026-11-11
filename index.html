@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="zh-Hant">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#4f46c8">
+<meta charset="utf-8"><link rel="manifest" href="manifest.json"><link rel="icon" href="icon.svg" type="image/svg+xml"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#4f46c8">
 <title>小宇小妤智慧學習測驗</title>
 <style>
 :root{--bg:#f5f6fc;--card:#fff;--ink:#25243b;--muted:#74758b;--brand:#5750cf;--brand2:#eeedff;--line:#e7e8f1;--good:#16865a;--bad:#c64c5b;--shadow:0 10px 30px #26205b0b}
@@ -172,4 +172,5 @@ document.getElementById("exportData").onclick=()=>{const blob=new Blob([JSON.str
 document.getElementById("importFile").onchange=async e=>{const f=e.target.files[0];if(!f)return;try{const x=JSON.parse(await f.text());if(!x||!Array.isArray(x.records)||!Array.isArray(x.wrong)||!Array.isArray(x.saved))throw new Error("格式不正確");db.records=x.records.concat(db.records).slice(0,300);db.wrong=x.wrong.concat(db.wrong);db.saved=x.saved.concat(db.saved);if(x.profile)db.profile=x.profile;persist();toast("資料匯入完成")}catch(err){toast("匯入失敗：備份格式不正確")}e.target.value=""};
 document.getElementById("clearData").onclick=()=>{if(confirm("確定清除這台裝置的暱稱、紀錄、錯題與收藏？此操作無法復原。")){db=fresh();persist();profileInit();toast("本機資料已清除")}};
 profileInit();renderGradeOptions();refreshAll();
+if("serviceWorker" in navigator){window.addEventListener("load",()=>navigator.serviceWorker.register("./sw.js").catch(()=>{}));}
 </script></body></html>
