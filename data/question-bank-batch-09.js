@@ -1,0 +1,528 @@
+/* 第九批原創題庫：國小五、六年級及高中高一至高三 */
+window.EXTRA9_GRADE_BANK = [
+  {
+    "id": "b9-001",
+    "stage": "國小",
+    "grade": "五年級",
+    "subject": "數學",
+    "d": "進階",
+    "t": "小數乘法",
+    "q": "一盒彩色筆重 0.35 公斤，買 4 盒共重多少公斤？",
+    "o": [
+      "0.14",
+      "1.4",
+      "14",
+      "140"
+    ],
+    "a": 1,
+    "e": "0.35×4＝1.40，所以四盒彩色筆共重 1.4 公斤。",
+    "frameworkId": "curriculum-108",
+    "sourceType": "original-curriculum-aligned",
+    "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
+    "reviewStatus": "rule-checked"
+  },
+  {
+    "id": "b9-002",
+    "stage": "國小",
+    "grade": "五年級",
+    "subject": "自然",
+    "d": "進階",
+    "t": "植物繁殖",
+    "q": "把馬鈴薯帶有芽眼的塊莖切塊後種植，長出新植株，這種繁殖方式屬於？",
+    "o": [
+      "種子繁殖",
+      "營養繁殖",
+      "孢子繁殖",
+      "授粉作用"
+    ],
+    "a": 1,
+    "e": "馬鈴薯塊莖具有芽眼，可由植物的營養器官長成新個體，屬營養繁殖。",
+    "frameworkId": "curriculum-108",
+    "sourceType": "original-curriculum-aligned",
+    "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
+    "reviewStatus": "rule-checked"
+  },
+  {
+    "id": "b9-003",
+    "stage": "國小",
+    "grade": "五年級",
+    "subject": "社會",
+    "d": "進階",
+    "t": "地圖判讀",
+    "q": "地圖上甲地位於乙地的正北方。若從乙地前往甲地，應朝哪個方向移動？",
+    "o": [
+      "向南",
+      "向東",
+      "向北",
+      "向西"
+    ],
+    "a": 2,
+    "e": "正北方表示沿地圖上方移動，因此應由乙地向北前往甲地。",
+    "frameworkId": "curriculum-108",
+    "sourceType": "original-curriculum-aligned",
+    "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
+    "reviewStatus": "rule-checked"
+  },
+  {
+    "id": "b9-004",
+    "stage": "國小",
+    "grade": "六年級",
+    "subject": "國語",
+    "d": "挑戰",
+    "t": "因果關係",
+    "q": "「因為連日豪雨，山區土壤含水量增加，因此道路旁發生土石滑落。」句中「因此」連接的是哪種關係？",
+    "o": [
+      "轉折",
+      "因果",
+      "並列",
+      "假設"
+    ],
+    "a": 1,
+    "e": "前句的連日豪雨與土壤含水量增加是原因，後句土石滑落是結果，屬因果關係。",
+    "frameworkId": "curriculum-108",
+    "sourceType": "original-curriculum-aligned",
+    "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
+    "reviewStatus": "rule-checked"
+  },
+  {
+    "id": "b9-005",
+    "stage": "國小",
+    "grade": "六年級",
+    "subject": "數學",
+    "d": "挑戰",
+    "t": "圓周率與圓周長",
+    "q": "一個圓的半徑是 7 公分，取 π＝22/7，圓周長是多少公分？",
+    "o": [
+      "22",
+      "44",
+      "77",
+      "154"
+    ],
+    "a": 1,
+    "e": "圓周長＝2πr＝2×(22/7)×7＝44 公分。",
+    "frameworkId": "curriculum-108",
+    "sourceType": "original-curriculum-aligned",
+    "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
+    "reviewStatus": "rule-checked"
+  },
+  {
+    "id": "b9-006",
+    "stage": "高中",
+    "grade": "高一",
+    "subject": "數學",
+    "d": "進階",
+    "t": "直線斜率",
+    "q": "通過點 (2, 3) 與 (6, 11) 的直線斜率為何？",
+    "o": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "a": 1,
+    "e": "斜率＝(11−3)/(6−2)＝8/4＝2。",
+    "frameworkId": "curriculum-108",
+    "sourceType": "original-curriculum-aligned",
+    "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
+    "reviewStatus": "rule-checked"
+  },
+  {
+    "id": "b9-007",
+    "stage": "高中",
+    "grade": "高一",
+    "subject": "公民",
+    "d": "挑戰",
+    "t": "比例原則",
+    "q": "政府為降低噪音，規定全市所有戶外活動一律永久禁止，未評估地區與時段差異。此措施最可能受到哪項質疑？",
+    "o": [
+      "手段可能超過達成目的所必要的程度",
+      "政府完全沒有公共目的",
+      "人民不享有任何基本權",
+      "只要有公告就必然合憲"
+    ],
+    "a": 0,
+    "e": "降低噪音可屬正當目的，但全面且永久禁止可能存在侵害較小的替代手段，涉及必要性及比例原則。",
+    "frameworkId": "curriculum-108",
+    "sourceType": "original-curriculum-aligned",
+    "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
+    "reviewStatus": "rule-checked"
+  },
+  {
+    "id": "b9-008",
+    "stage": "高中",
+    "grade": "高一",
+    "subject": "歷史",
+    "d": "進階",
+    "t": "史料與觀點",
+    "q": "研究者使用政府公文與民間日記了解同一事件，兩者記載不同。最適當的做法是？",
+    "o": [
+      "只採信官方公文",
+      "只採信私人日記",
+      "比較兩種史料的作者、目的與形成情境",
+      "將不同記載全部刪除"
+    ],
+    "a": 2,
+    "e": "不同史料反映不同位置與目的，應交叉比對來源及形成脈絡，而非預設某一類必然正確。",
+    "frameworkId": "curriculum-108",
+    "sourceType": "original-curriculum-aligned",
+    "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
+    "reviewStatus": "rule-checked"
+  },
+  {
+    "id": "b9-009",
+    "stage": "高中",
+    "grade": "高一",
+    "subject": "地理",
+    "d": "進階",
+    "t": "都市熱島",
+    "q": "都市中心大量鋪設柏油與水泥，綠地較少，夜間氣溫常高於郊區。最主要的原因是？",
+    "o": [
+      "人工鋪面蓄熱且蒸散作用較弱",
+      "都市海拔必定較高",
+      "都市日照時間一定較短",
+      "郊區完全沒有風"
+    ],
+    "a": 0,
+    "e": "不透水鋪面容易吸收並儲存熱量，綠地減少也使蒸散冷卻效果降低，形成都市熱島。",
+    "frameworkId": "curriculum-108",
+    "sourceType": "original-curriculum-aligned",
+    "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
+    "reviewStatus": "rule-checked"
+  },
+  {
+    "id": "b9-010",
+    "stage": "高中",
+    "grade": "高一",
+    "subject": "物理",
+    "d": "進階",
+    "t": "速度與加速度",
+    "q": "汽車沿直線行駛，速度由每秒 10 公尺均勻增加到每秒 20 公尺，歷時 5 秒，平均加速度為多少？",
+    "o": [
+      "1 m/s²",
+      "2 m/s²",
+      "5 m/s²",
+      "10 m/s²"
+    ],
+    "a": 1,
+    "e": "平均加速度＝速度變化量÷時間＝(20−10)÷5＝2 m/s²。",
+    "frameworkId": "curriculum-108",
+    "sourceType": "original-curriculum-aligned",
+    "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
+    "reviewStatus": "rule-checked"
+  },
+  {
+    "id": "b9-011",
+    "stage": "高中",
+    "grade": "高一",
+    "subject": "化學",
+    "d": "進階",
+    "t": "元素與化合物",
+    "q": "下列哪一項是純化合物，而不是元素或混合物？",
+    "o": [
+      "氧氣",
+      "蒸餾水",
+      "空氣",
+      "銅片"
+    ],
+    "a": 1,
+    "e": "蒸餾水主要由水分子構成，屬純化合物；氧氣與銅是元素，空氣是混合物。",
+    "frameworkId": "curriculum-108",
+    "sourceType": "original-curriculum-aligned",
+    "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
+    "reviewStatus": "rule-checked"
+  },
+  {
+    "id": "b9-012",
+    "stage": "高中",
+    "grade": "高二",
+    "subject": "數學",
+    "d": "挑戰",
+    "t": "向量內積",
+    "q": "向量 a=(1,2)、b=(3,−1)，則 a·b 等於多少？",
+    "o": [
+      "−1",
+      "0",
+      "1",
+      "5"
+    ],
+    "a": 2,
+    "e": "內積＝1×3＋2×(−1)＝3−2＝1。",
+    "frameworkId": "curriculum-108",
+    "sourceType": "original-curriculum-aligned",
+    "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
+    "reviewStatus": "rule-checked"
+  },
+  {
+    "id": "b9-013",
+    "stage": "高中",
+    "grade": "高二",
+    "subject": "公民",
+    "d": "挑戰",
+    "t": "法律保留",
+    "q": "某行政機關以內部作業要點創設人民原本不須負擔的罰鍰，且沒有法律授權。最主要的疑慮是？",
+    "o": [
+      "違反法律保留及依法行政要求",
+      "違反無罪推定原則",
+      "違反罪刑相當原則中的刑度規定",
+      "違反地方自治保障"
+    ],
+    "a": 0,
+    "e": "行政機關不得僅以內部行政規則創設人民新的金錢負擔，涉及法律保留及依法行政。",
+    "frameworkId": "curriculum-108",
+    "sourceType": "original-curriculum-aligned",
+    "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
+    "reviewStatus": "rule-checked"
+  },
+  {
+    "id": "b9-014",
+    "stage": "高中",
+    "grade": "高二",
+    "subject": "歷史",
+    "d": "進階",
+    "t": "工業化與社會變遷",
+    "q": "工業化後，大量人口由農村移往城市，工廠集中於交通便利地區。這最直接反映哪種變遷？",
+    "o": [
+      "人口與產業的空間重新分布",
+      "農業完全消失",
+      "國際貿易必然停止",
+      "城市人口必然全部從事農業"
+    ],
+    "a": 0,
+    "e": "工業化帶動工廠與就業機會集中，促使人口移動及都市化，改變人口與產業的空間分布。",
+    "frameworkId": "curriculum-108",
+    "sourceType": "original-curriculum-aligned",
+    "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
+    "reviewStatus": "rule-checked"
+  },
+  {
+    "id": "b9-015",
+    "stage": "高中",
+    "grade": "高二",
+    "subject": "地理",
+    "d": "挑戰",
+    "t": "產業區位",
+    "q": "某科技廠選址時重視高素質人才、研發機構與供應商密集，這些條件最能說明？",
+    "o": [
+      "聚集經濟",
+      "區位孤立",
+      "人口自然增加",
+      "農業粗放經營"
+    ],
+    "a": 0,
+    "e": "相關企業、人才與研究機構集中，可共享資訊、技術與專業勞動力，形成聚集經濟。",
+    "frameworkId": "curriculum-108",
+    "sourceType": "original-curriculum-aligned",
+    "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
+    "reviewStatus": "rule-checked"
+  },
+  {
+    "id": "b9-016",
+    "stage": "高中",
+    "grade": "高二",
+    "subject": "物理",
+    "d": "挑戰",
+    "t": "電路與電功率",
+    "q": "一個電阻接在 12 V 電源兩端，電流為 2 A，電阻消耗的功率是多少？",
+    "o": [
+      "6 W",
+      "12 W",
+      "24 W",
+      "48 W"
+    ],
+    "a": 2,
+    "e": "電功率 P＝VI＝12×2＝24 W。",
+    "frameworkId": "curriculum-108",
+    "sourceType": "original-curriculum-aligned",
+    "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
+    "reviewStatus": "rule-checked"
+  },
+  {
+    "id": "b9-017",
+    "stage": "高中",
+    "grade": "高二",
+    "subject": "化學",
+    "d": "進階",
+    "t": "氧化還原",
+    "q": "在反應 Zn＋Cu²⁺→Zn²⁺＋Cu 中，鋅原子變成鋅離子時發生什麼變化？",
+    "o": [
+      "得到電子，被還原",
+      "失去電子，被氧化",
+      "得到質子，被氧化",
+      "失去中子，被還原"
+    ],
+    "a": 1,
+    "e": "Zn 由 0 價變成 +2 價，失去兩個電子，因此鋅被氧化。",
+    "frameworkId": "curriculum-108",
+    "sourceType": "original-curriculum-aligned",
+    "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
+    "reviewStatus": "rule-checked"
+  },
+  {
+    "id": "b9-018",
+    "stage": "高中",
+    "grade": "高二",
+    "subject": "生物",
+    "d": "挑戰",
+    "t": "生態系能量流動",
+    "q": "生態系中能量沿食物鏈傳遞時，營養階層越高，可利用的能量通常越少。主要原因是？",
+    "o": [
+      "能量在各階層部分以熱散失",
+      "能量會被分解者全部變成物質",
+      "高階消費者不需要能量",
+      "能量可在食物鏈中無限增加"
+    ],
+    "a": 0,
+    "e": "生物代謝與活動會使部分能量以熱散失，只有部分能量轉移到下一營養階層。",
+    "frameworkId": "curriculum-108",
+    "sourceType": "original-curriculum-aligned",
+    "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
+    "reviewStatus": "rule-checked"
+  },
+  {
+    "id": "b9-019",
+    "stage": "高中",
+    "grade": "高三",
+    "subject": "數學",
+    "d": "挑戰",
+    "t": "導數應用",
+    "q": "函數 f(x)=x³−3x 的導數 f'(x) 為何？",
+    "o": [
+      "3x²−3",
+      "x²−3",
+      "3x−3",
+      "x³−3"
+    ],
+    "a": 0,
+    "e": "依冪次微分法則，(x³)'＝3x²、(−3x)'＝−3，因此 f'(x)=3x²−3。",
+    "frameworkId": "curriculum-108",
+    "sourceType": "original-curriculum-aligned",
+    "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
+    "reviewStatus": "rule-checked"
+  },
+  {
+    "id": "b9-020",
+    "stage": "高中",
+    "grade": "高三",
+    "subject": "公民",
+    "d": "挑戰",
+    "t": "權力分立",
+    "q": "法院審理案件時，行政機關不得以行政命令要求法官作成特定判決。此要求主要保障？",
+    "o": [
+      "司法獨立",
+      "行政一體",
+      "地方自治",
+      "政黨輪替"
+    ],
+    "a": 0,
+    "e": "法院應依憲法與法律獨立審判，不受行政機關指揮干預，這是司法獨立的核心。",
+    "frameworkId": "curriculum-108",
+    "sourceType": "original-curriculum-aligned",
+    "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
+    "reviewStatus": "rule-checked"
+  },
+  {
+    "id": "b9-021",
+    "stage": "高中",
+    "grade": "高三",
+    "subject": "地理",
+    "d": "挑戰",
+    "t": "全球化與供應鏈",
+    "q": "企業將零組件分散在多國生產，再集中組裝並銷往全球，最能反映哪項現象？",
+    "o": [
+      "全球生產網絡與國際分工",
+      "地方自給自足",
+      "國際經濟完全封閉",
+      "人口遷移停止"
+    ],
+    "a": 0,
+    "e": "不同生產階段分布於不同國家，透過跨國供應鏈連結，呈現全球化下的國際分工。",
+    "frameworkId": "curriculum-108",
+    "sourceType": "original-curriculum-aligned",
+    "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
+    "reviewStatus": "rule-checked"
+  },
+  {
+    "id": "b9-022",
+    "stage": "高中",
+    "grade": "高三",
+    "subject": "物理",
+    "d": "挑戰",
+    "t": "簡諧運動",
+    "q": "理想彈簧振子在平衡位置時，位移為零。此時彈簧的彈力大小為何？",
+    "o": [
+      "最大",
+      "最小且為零",
+      "等於重力的兩倍",
+      "無法判斷且必不為零"
+    ],
+    "a": 1,
+    "e": "彈簧彈力大小與相對平衡位置的位移成正比，平衡位置位移為零時，彈簧彈力為零。",
+    "frameworkId": "curriculum-108",
+    "sourceType": "original-curriculum-aligned",
+    "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
+    "reviewStatus": "rule-checked"
+  },
+  {
+    "id": "b9-023",
+    "stage": "高中",
+    "grade": "高三",
+    "subject": "化學",
+    "d": "進階",
+    "t": "反應速率",
+    "q": "在其他條件相同下，將固體反應物磨成粉末，通常可使反應速率加快，主要原因是？",
+    "o": [
+      "增加固體與反應物接觸的表面積",
+      "降低所有粒子的溫度",
+      "使反應物質量消失",
+      "必定改變反應的平衡常數"
+    ],
+    "a": 0,
+    "e": "粉末化增加可接觸的表面積，使有效碰撞機會增加，通常提高反應速率。",
+    "frameworkId": "curriculum-108",
+    "sourceType": "original-curriculum-aligned",
+    "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
+    "reviewStatus": "rule-checked"
+  },
+  {
+    "id": "b9-024",
+    "stage": "高中",
+    "grade": "高三",
+    "subject": "生物",
+    "d": "挑戰",
+    "t": "基因表現",
+    "q": "細胞中 DNA 的遺傳訊息先轉錄成 mRNA，再由核糖體依序讀取密碼子合成多肽。此過程稱為？",
+    "o": [
+      "蛋白質合成中的轉錄與轉譯",
+      "DNA 直接變成脂質",
+      "細胞呼吸與發酵",
+      "染色體複製與分離"
+    ],
+    "a": 0,
+    "e": "DNA 的資訊先經轉錄形成 mRNA，再由核糖體進行轉譯，依密碼子排列胺基酸形成多肽。",
+    "frameworkId": "curriculum-108",
+    "sourceType": "original-curriculum-aligned",
+    "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
+    "reviewStatus": "rule-checked"
+  },
+  {
+    "id": "b9-025",
+    "stage": "高中",
+    "grade": "高三",
+    "subject": "地球科學",
+    "d": "挑戰",
+    "t": "板塊構造",
+    "q": "兩個海洋板塊相互聚合，其中一個板塊向另一個板塊下方隱沒，最可能形成？",
+    "o": [
+      "海溝與火山島弧",
+      "中央裂谷與新生洋殼",
+      "大陸內部沙漠",
+      "穩定的平坦海盆"
+    ],
+    "a": 0,
+    "e": "海洋板塊聚合時常發生隱沒作用，可形成海溝，並因上覆地函部分熔融而形成火山島弧。",
+    "frameworkId": "curriculum-108",
+    "sourceType": "original-curriculum-aligned",
+    "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
+    "reviewStatus": "rule-checked"
+  }
+];
