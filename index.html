@@ -1,85 +1,100 @@
 <!doctype html>
-<html lang="zh-Hant">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#635bdb">
-<title>小宇小妤智慧學習測驗</title>
+<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#5149c9"><title>小宇小妤智慧學習測驗</title>
 <style>
-:root{--ink:#24243a;--muted:#72738a;--brand:#635bdb;--brand2:#8b83f4;--bg:#f5f6fc;--card:#fff;--line:#e8e9f2;--good:#198754}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,"Noto Sans TC",sans-serif}
-header{background:linear-gradient(120deg,#5149c9,#8d83f5);color:white;padding:26px 18px 34px}
-.wrap{max-width:900px;margin:auto;padding:0 16px}
-.top{display:flex;align-items:center;justify-content:space-between;gap:12px}.brand{font-weight:800;font-size:20px}.tag{font-size:12px;background:#ffffff25;padding:6px 10px;border-radius:20px}
-h1{font-size:clamp(25px,5vw,38px);margin:25px 0 7px}.sub{opacity:.9;margin:0}
-main{margin:-18px auto 40px;position:relative}.panel{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:22px;margin-bottom:16px;box-shadow:0 8px 25px #29265b0a}
-h2{font-size:19px;margin:0 0 14px}.muted{color:var(--muted);font-size:14px}
-label{display:block;font-size:14px;font-weight:700;margin:12px 0 7px}input,select{width:100%;padding:13px 14px;border:1px solid #dcddea;border-radius:12px;font:inherit;background:white;color:var(--ink)}
-.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
-button{font:inherit;cursor:pointer;border:0;border-radius:12px;padding:13px 16px;font-weight:700}
-.primary{background:var(--brand);color:white}.secondary{background:#efefff;color:var(--brand)}.choice{background:white;border:1px solid var(--line);text-align:left;color:var(--ink);min-height:72px}.choice:hover,.choice.selected{border:2px solid var(--brand);background:#f5f4ff}.choice strong{display:block;font-size:16px}.choice small{display:block;color:var(--muted);margin-top:4px}
-.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}.hidden{display:none!important}
-.progress{height:8px;background:#eeeef6;border-radius:20px;overflow:hidden;margin:12px 0 18px}.bar{height:100%;background:var(--brand);width:0}
-.option{display:block;width:100%;text-align:left;background:#fafaff;border:1px solid var(--line);margin:9px 0;color:var(--ink)}.option.correct{border-color:#2b9b69;background:#edfaf3}.option.wrong{border-color:#d85b67;background:#fff1f2}
-.stat{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.stat div{background:#f7f7ff;border-radius:14px;padding:14px;text-align:center}.stat b{font-size:23px;display:block;color:var(--brand)}
-.record{padding:12px 0;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:12px;font-size:14px}
-footer{text-align:center;color:var(--muted);font-size:12px;padding:20px}
-@media(max-width:560px){.grid{grid-template-columns:1fr}.panel{padding:18px}.stat{gap:6px}.stat div{padding:10px 5px}.stat b{font-size:19px}}
-</style>
-</head>
-<body>
-<header><div class="wrap"><div class="top"><div class="brand">📚 小宇小妤智慧學習測驗</div><span class="tag">學習・練習・成長</span></div><h1>今天想挑戰什麼？</h1><p class="sub">依年級與科目選擇練習，完成測驗後查看成績。</p></div></header>
+:root{--ink:#25243b;--muted:#70718a;--brand:#5c55d6;--bg:#f5f6fc;--line:#e7e8f1;--good:#18865a;--bad:#c94d5a}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,"Noto Sans TC",sans-serif}header{background:linear-gradient(120deg,#4c45bd,#8c83f1);color:white;padding:25px 16px 38px}.wrap{max-width:920px;margin:auto;padding:0 16px}.top{display:flex;align-items:center;justify-content:space-between;gap:12px}.brand{font-weight:850;font-size:19px}.tag{font-size:12px;background:#ffffff26;padding:6px 10px;border-radius:30px}h1{font-size:clamp(26px,5vw,38px);margin:23px 0 7px}.sub{margin:0;opacity:.9}main{margin:-20px auto 40px;position:relative}.panel{background:white;border:1px solid var(--line);border-radius:19px;padding:21px;margin-bottom:15px;box-shadow:0 7px 24px #24204e0a}h2{font-size:19px;margin:0 0 14px}.muted{font-size:13px;color:var(--muted)}label{display:block;font-size:14px;font-weight:700;margin:12px 0 6px}input,select{width:100%;padding:12px;border:1px solid #d9daea;border-radius:11px;background:white;color:var(--ink);font:inherit}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.subjects{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px}button{font:inherit;border:0;border-radius:11px;padding:12px 15px;font-weight:700;cursor:pointer}.primary{background:var(--brand);color:white}.secondary{background:#efefff;color:var(--brand)}.choice{background:#fff;border:1px solid var(--line);text-align:left;min-height:58px;color:var(--ink)}.choice.selected{border:2px solid var(--brand);background:#f6f5ff}.choice small{display:block;color:var(--muted);font-weight:400;margin-top:3px}.actions{display:flex;gap:9px;flex-wrap:wrap;margin-top:16px}.hidden{display:none!important}.pill{display:inline-block;border-radius:30px;padding:5px 9px;background:#f0efff;color:var(--brand);font-size:12px;font-weight:700}.progress{height:8px;border-radius:10px;background:#eeeef5;overflow:hidden;margin:13px 0 18px}.bar{height:100%;background:var(--brand);width:0}.option{display:block;width:100%;text-align:left;margin:8px 0;background:#fafaff;border:1px solid var(--line);color:var(--ink)}.option.correct{background:#edfaf3;border-color:#26996a}.option.wrong{background:#fff0f1;border-color:#d45a65}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:9px}.stats div{background:#f7f7ff;border-radius:13px;padding:13px;text-align:center}.stats b{display:block;font-size:23px;color:var(--brand)}.record{padding:11px 0;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:10px;font-size:13px}.notice{background:#f5f4ff;border:1px solid #e4e1ff;border-radius:12px;padding:12px;font-size:13px;line-height:1.65}.tabs{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0}.tabs button{padding:9px 12px}.tabs .active{background:var(--brand);color:#fff}.question-meta{display:flex;justify-content:space-between;gap:8px;align-items:center;flex-wrap:wrap}footer{text-align:center;color:var(--muted);font-size:12px;padding:20px}@media(max-width:560px){.subjects{grid-template-columns:repeat(2,minmax(0,1fr))}.panel{padding:17px}.stats div{padding:9px 4px}.stats b{font-size:19px}}
+</style></head><body>
+<header><div class="wrap"><div class="top"><div class="brand">📚 小宇小妤智慧學習測驗</div><span class="tag">第二階段・全學段題庫</span></div><h1>讓每一次練習，都更進步</h1><p class="sub">課綱概念練習・素養題型・模擬考・錯題複習</p></div></header>
 <main class="wrap">
-<section class="panel" id="welcome">
-<h2>👋 歡迎來到智慧學習測驗</h2>
-<p class="muted">可以直接開始測驗，也可以輸入暱稱保存本機學習紀錄。</p>
-<label for="nickname">暱稱（選填）</label><input id="nickname" maxlength="20" placeholder="例如：小宇、小妤">
-<div class="actions"><button class="primary" id="saveName">使用暱稱並保存紀錄</button><button class="secondary" id="guest">直接開始（免登入）</button></div>
-<p class="muted" id="welcomeMsg"></p>
-</section>
-<section class="panel" id="setup">
-<h2>🎯 選擇學習範圍</h2>
-<label for="level">學習階段</label><select id="level"><option value="國小">國小</option><option value="高中">高中</option></select>
-<label for="grade">年級</label><select id="grade"></select>
-<label>選擇科目</label><div class="grid" id="subjects"></div>
-<div class="actions"><button class="primary" id="start" disabled>開始測驗 →</button></div>
-</section>
-<section class="panel hidden" id="quiz">
-<div class="top"><span class="muted" id="quizMeta"></span><strong id="counter"></strong></div><div class="progress"><div class="bar" id="bar"></div></div>
-<h2 id="question"></h2><div id="options"></div><p class="muted" id="feedback"></p>
-<div class="actions"><button class="primary" id="next" disabled>下一題</button><button class="secondary" id="quit">結束測驗</button></div>
-</section>
-<section class="panel hidden" id="result">
-<h2>🎉 測驗完成！</h2><div class="stat"><div><b id="score">0</b><span class="muted">答對題數</span></div><div><b id="percent">0%</b><span class="muted">正確率</span></div><div><b id="total">0</b><span class="muted">總題數</span></div></div>
-<p id="resultText"></p><div class="actions"><button class="primary" id="again">再測一次</button><button class="secondary" id="back">回選擇科目</button></div>
-</section>
-<section class="panel" id="records"><h2>📈 學習紀錄</h2><p class="muted" id="recordHint">登入暱稱後，測驗紀錄會保存在這台裝置的瀏覽器。</p><div id="recordList"></div></section>
-</main><footer>小宇小妤智慧學習測驗 · 第一階段體驗版</footer>
+<section class="panel" id="welcome"><h2>👋 歡迎回來</h2><p class="muted">可使用暱稱保存這台裝置的學習紀錄，也可以免登入直接練習。</p><label for="nickname">學生暱稱（選填）</label><input id="nickname" maxlength="20" placeholder="例如：小宇、小妤"><div class="actions"><button class="primary" id="login">使用暱稱</button><button class="secondary" id="guest">免登入開始</button></div><p class="muted" id="welcomeMsg"></p></section>
+<section class="panel hidden" id="setup"><h2>🎯 選擇測驗內容</h2><div class="grid"><div><label for="stage">學習階段</label><select id="stage"><option value="國小">國小</option><option value="高中">高中</option></select></div><div><label for="grade">年級</label><select id="grade"></select></div></div><label>科目</label><div class="subjects" id="subjects"></div><div class="grid"><div><label for="difficulty">難度</label><select id="difficulty"><option value="全部">混合難度</option><option value="基礎">基礎</option><option value="進階">進階</option><option value="挑戰">挑戰</option></select></div><div><label for="mode">測驗模式</label><select id="mode"><option value="練習">逐題練習</option><option value="模擬考">模擬考（最多10題）</option><option value="錯題重練">錯題重練</option></select></div></div><div class="notice" id="scopeNote">題目依學段與科目篩選。這是持續擴充中的示範題庫，並非官方完整教材或歷屆試題原卷。</div><div class="actions"><button class="primary" id="start" disabled>開始測驗 →</button><button class="secondary" id="showRecords">查看學習紀錄</button></div></section>
+<section class="panel hidden" id="quiz"><div class="question-meta"><span class="muted" id="quizMeta"></span><strong id="counter"></strong></div><div class="progress"><div class="bar" id="bar"></div></div><span class="pill" id="qLevel"></span><h2 id="question" style="margin-top:12px"></h2><div id="options"></div><p id="feedback" class="muted"></p><div class="actions"><button class="primary" id="next" disabled>下一題</button><button class="secondary" id="quit">結束測驗</button></div></section>
+<section class="panel hidden" id="result"><h2>📊 本次測驗結果</h2><div class="stats"><div><b id="score">0</b><span class="muted">答對題數</span></div><div><b id="percent">0%</b><span class="muted">正確率</span></div><div><b id="total">0</b><span class="muted">總題數</span></div></div><p id="resultText"></p><h3 style="font-size:16px">本次錯題</h3><div id="wrongList"></div><div class="actions"><button class="primary" id="retryWrong">重練本次錯題</button><button class="secondary" id="again">再測一次</button><button class="secondary" id="back">回選擇內容</button></div></section>
+<section class="panel" id="records"><h2>📈 學習紀錄</h2><p class="muted">暱稱模式的紀錄儲存在目前瀏覽器；免登入模式不保存個人紀錄。</p><div id="recordList"></div></section>
+<section class="panel"><h2>🧠 AI 智慧出題規劃</h2><div class="notice"><b>目前版本：</b>已提供依年級、科目、難度篩選與錯題重練的智慧練習基礎。<br><b>下一個串接項目：</b>安全的 AI 後端服務，依學生弱點即時生成新題、詳解與相似題。正式啟用前需要設定後端服務與 API 金鑰；不會把金鑰放在公開網頁。</div></section>
+</main><footer>小宇小妤智慧學習測驗 · 第二階段題庫架構版</footer>
 <script>
-const bank={
-'國小':{
-'國語':[{q:'「守株待兔」主要是在提醒我們什麼？',o:['要努力工作','不能只靠運氣、不知變通','兔子跑得很快','要多種樹'],a:1,e:'守株待兔比喻不主動努力，只想靠僥倖獲得成功。'},{q:'下列哪個詞語的意思最接近「勤奮」？',o:['懶惰','努力','猶豫','慌張'],a:1,e:'勤奮就是認真努力、不懈怠。'}],
-'數學':[{q:'一盒彩色筆有 12 枝，買了 3 盒，共有幾枝？',o:['15枝','24枝','36枝','48枝'],a:2,e:'12 × 3 = 36。'},{q:'一個長方形長 8 公分、寬 5 公分，面積是多少？',o:['13平方公分','26平方公分','40平方公分','80平方公分'],a:2,e:'長方形面積＝長 × 寬＝8 × 5＝40。'}],
-'自然':[{q:'植物通常利用哪個部位吸收土壤中的水分？',o:['花','葉','根','果實'],a:2,e:'根能吸收水分與礦物質。'},{q:'水結冰時，狀態會如何改變？',o:['固態變液態','液態變固態','氣態變液態','固態變氣態'],a:1,e:'水結冰是液態變成固態。'}],
-'英文':[{q:'“apple” 的中文是什麼？',o:['香蕉','蘋果','橘子','葡萄'],a:1,e:'apple 是蘋果。'},{q:'“Good morning” 通常是什麼意思？',o:['晚安','再見','早安','謝謝'],a:2,e:'Good morning 是早安。'}]
-},
-'高中':{
-'國文':[{q:'「先天下之憂而憂，後天下之樂而樂」出自哪位作者？',o:['陶淵明','范仲淹','蘇軾','韓愈'],a:1,e:'此句出自范仲淹〈岳陽樓記〉。'},{q:'「不以物喜，不以己悲」主要強調什麼態度？',o:['隨外物起伏','保持豁達平穩','追求名利','逃避責任'],a:1,e:'強調不因外在得失而過度悲喜。'}],
-'數學':[{q:'若 log₁₀100 = x，則 x 等於多少？',o:['1','2','10','100'],a:1,e:'因為 10²＝100，所以 log₁₀100＝2。'},{q:'向量 (3,4) 的長度是多少？',o:['4','5','7','12'],a:1,e:'長度＝√(3²＋4²)＝√25＝5。'}],
-'英文':[{q:'Choose the correct sentence.',o:['She go to school.','She goes to school.','She going school.','She gone to school.'],a:1,e:'第三人稱單數現在式，動詞 go 要加 es。'},{q:'“Although it was raining, we went out.” 的 although 表示？',o:['因為','所以','雖然','除非'],a:2,e:'Although 表示「雖然」，引導讓步子句。'}],
-'地理':[{q:'外國企業到另一個國家設廠，最直接屬於哪種現象？',o:['外國直接投資','人口自然增加','季風環流','地形侵蝕'],a:0,e:'企業在國外設立或取得生產據點，屬於外國直接投資。'},{q:'大量生產使平均成本下降，稱為什麼？',o:['聚集經濟','規模經濟','機會成本','外部成本'],a:1,e:'規模經濟是產量增加時，平均生產成本下降。'}],
-'歷史':[{q:'工業革命最早起源於哪個國家？',o:['法國','英國','德國','美國'],a:1,e:'第一次工業革命最早於 18 世紀後期在英國展開。'},{q:'秦始皇統一六國後，推行哪一項措施以統一文字？',o:['書同文','郡國並行','科舉制度','均田制'],a:0,e:'秦朝推行書同文，統一文字書寫。'}]
-}};
-const $=id=>document.getElementById(id);let nickname='',subject='',questions=[],index=0,correct=0,answered=false;
-function show(id){['welcome','setup','quiz','result'].forEach(x=>$(x).classList.toggle('hidden',x!==id))}
-function setGrades(){const level=$('level').value;const vals=level==='國小'?['一年級','二年級','三年級','四年級','五年級','六年級']:['高一','高二','高三'];$('grade').innerHTML=vals.map(x=>'<option>'+x+'</option>').join('');renderSubjects()}
-function renderSubjects(){const level=$('level').value;const names=Object.keys(bank[level]);$('subjects').innerHTML=names.map(s=>'<button class="choice" data-sub="'+s+'"><strong>'+s+'</strong><small>練習題目</small></button>').join('');$('start').disabled=true;subject='';document.querySelectorAll('[data-sub]').forEach(b=>b.onclick=()=>{subject=b.dataset.sub;document.querySelectorAll('[data-sub]').forEach(x=>x.classList.toggle('selected',x===b));$('start').disabled=false})}
-function records(){const all=JSON.parse(localStorage.getItem('xy_records')||'[]');$('recordList').innerHTML=all.length?all.slice(0,8).map(r=>'<div class="record"><span>'+r.name+' · '+r.grade+' '+r.subject+'</span><strong>'+r.score+'/'+r.total+'（'+r.percent+'%）</strong></div>').join(''):'<p class="muted">目前還沒有測驗紀錄。</p>'}
-function startQuiz(){questions=bank[$('level').value][subject].slice();index=0;correct=0;answered=false;$('quizMeta').textContent=$('level').value+' · '+$('grade').value+' · '+subject;show('quiz');renderQuestion()}
-function renderQuestion(){const q=questions[index];$('counter').textContent=(index+1)+' / '+questions.length;$('bar').style.width=(index/questions.length*100)+'%';$('question').textContent=q.q;$('options').innerHTML=q.o.map((v,i)=>'<button class="option" data-i="'+i+'">'+String.fromCharCode(65+i)+'. '+v+'</button>').join('');$('feedback').textContent='';$('next').disabled=true;$('next').textContent=index===questions.length-1?'查看結果':'下一題';document.querySelectorAll('[data-i]').forEach(b=>b.onclick=()=>answer(Number(b.dataset.i)))}
-function answer(n){if(answered)return;answered=true;const q=questions[index];if(n===q.a)correct++;document.querySelectorAll('[data-i]').forEach((b,i)=>{b.disabled=true;if(i===q.a)b.classList.add('correct');else if(i===n)b.classList.add('wrong')});$('feedback').textContent=(n===q.a?'答對了！':'再接再厲！')+' '+q.e;$('next').disabled=false}
-function finish(){const total=questions.length,pct=Math.round(correct/total*100);$('score').textContent=correct;$('percent').textContent=pct+'%';$('total').textContent=total;$('resultText').textContent=(nickname?nickname+'，':'')+(pct>=80?'表現很棒，繼續保持！':pct>=60?'做得不錯，再複習一次會更好！':'別氣餒，看看解析再挑戰一次！');if(nickname){const all=JSON.parse(localStorage.getItem('xy_records')||'[]');all.unshift({name:nickname,grade:$('grade').value,subject,score:correct,total,percent:pct,date:new Date().toLocaleDateString()});localStorage.setItem('xy_records',JSON.stringify(all.slice(0,30)))}records();show('result')}
-$('saveName').onclick=()=>{nickname=$('nickname').value.trim();if(!nickname){$('welcomeMsg').textContent='請先輸入暱稱，或選擇免登入測驗。';return}$('welcomeMsg').textContent='你好，'+nickname+'！紀錄將保存在這台裝置。';show('setup')};
-$('guest').onclick=()=>{nickname='';show('setup')};$('level').onchange=setGrades;$('start').onclick=startQuiz;$('next').onclick=()=>{if(index<questions.length-1){index++;answered=false;renderQuestion()}else finish()};$('quit').onclick=()=>show('setup');$('again').onclick=startQuiz;$('back').onclick=()=>show('setup');setGrades();records();show('welcome');
-</script>
-</body></html>
+const $=id=>document.getElementById(id);
+const BANK={
+"國小":{
+"國語":[
+{d:"基礎",t:"成語",q:"「守株待兔」最主要提醒我們什麼？",o:["凡事等待別人幫忙","不能只靠僥倖、不知變通","做事一定要很快","每天都要種樹"],a:1,e:"守株待兔比喻不主動努力，只想靠偶然的機會獲得成功。"},
+{d:"進階",t:"修辭",q:"「月亮悄悄爬上夜空」使用了哪一種修辭？",o:["譬喻","擬人","排比","誇飾"],a:1,e:"把月亮寫成會「悄悄爬上去」的人，賦予事物人的動作，是擬人。"},
+{d:"挑戰",t:"閱讀理解",q:"文章寫道：「他雖然遇到挫折，仍每天練習，最後完成目標。」最適合的主旨是？",o:["成功完全靠運氣","遇到困難應立即放棄","持續努力有助於克服困難","目標不需要計畫"],a:2,e:"關鍵線索是「仍每天練習」與「最後完成目標」，強調持續努力。"}],
+"數學":[
+{d:"基礎",t:"四則運算",q:"一盒彩筆有12枝，買3盒後送給弟弟5枝，還剩幾枝？",o:["26枝","31枝","36枝","41枝"],a:0,e:"先算總數12×3＝36，再減去5，得到31？注意：36－5＝31，因此正確答案應為31枝。",fix:1},
+{d:"進階",t:"分數",q:"一條緞帶長2公尺，用掉全長的3/4，還剩多少公尺？",o:["1/4公尺","1/2公尺","3/4公尺","1公尺"],a:1,e:"剩下1－3/4＝1/4，全長2公尺的1/4是1/2公尺。"},
+{d:"挑戰",t:"幾何",q:"長方形周長為30公分，長比寬多3公分，面積是多少平方公分？",o:["45","54","56","60"],a:1,e:"長＋寬＝15，且長＝寬＋3，得寬6、長9，面積9×6＝54。"}],
+"生活":[
+{d:"基礎",t:"生活安全",q:"過馬路時，最安全的做法是？",o:["低頭看手機快步走","走斑馬線並注意號誌與車輛","跟著跑最快的人","從停著的車子前方突然穿越"],a:1,e:"應走行人穿越道，遵守號誌，並確認車輛停讓。"},
+{d:"進階",t:"環境",q:"看到水龍頭持續滴水，最適當的處理方式是？",o:["不理會","把水量開大","關緊水龍頭並告知大人檢修","用紙巾一直擦"],a:2,e:"及時關閉並通報修理，可以避免浪費水資源。"},
+{d:"挑戰",t:"合作",q:"小組討論時，兩位同學意見不同，較好的做法是？",o:["大聲要求大家聽自己的","不讓對方發言","輪流說明理由並尋找共同方案","直接離開"],a:2,e:"尊重表達、聆聽理由並協調，是合作解決問題的方法。"}],
+"自然":[
+{d:"基礎",t:"植物",q:"植物主要利用哪個部位吸收土壤中的水分？",o:["花","葉","根","果實"],a:2,e:"根具有吸收水分與礦物質的功能。"},
+{d:"進階",t:"物質變化",q:"冰塊放在室溫下逐漸變成水，這種變化稱為？",o:["凝固","融化","蒸發","凝結"],a:1,e:"固態的冰吸收熱量變成液態的水，稱為融化。"},
+{d:"挑戰",t:"實驗設計",q:"想比較陽光對植物生長的影響，最公平的實驗方式是？",o:["兩盆植物使用不同土壤和水量","一盆放陽光下、一盆放陰暗處，其餘條件相同","兩盆植物使用不同種類","每天任意改變照光時間"],a:1,e:"控制其他變因相同，只改變光照條件，才能比較陽光的影響。"}],
+"社會":[
+{d:"基礎",t:"地理",q:"地圖上用來表示實際距離與圖上距離關係的是？",o:["圖例","比例尺","方向標","標題"],a:1,e:"比例尺表示地圖距離與實際地面距離的縮小比例。"},
+{d:"進階",t:"公民",q:"班級共同訂定生活公約，最能培養哪種能力？",o:["民主參與與溝通","單方面服從","避免表達意見","只重視個人利益"],a:0,e:"共同討論與訂定規則，能練習表達、溝通與民主參與。"},
+{d:"挑戰",t:"歷史",q:"研究家鄉過去的生活方式，下列哪一項最接近第一手史料？",o:["後人編寫的旅遊文章","當時居民留下的日記","現代課本的摘要","多年後的電影改編"],a:1,e:"當時留下的日記是接近事件發生時的直接資料，屬於第一手史料。"}],
+"英語":[
+{d:"基礎",t:"單字",q:"“apple” 的中文意思是？",o:["香蕉","蘋果","橘子","葡萄"],a:1,e:"apple 是蘋果。"},
+{d:"進階",t:"文法",q:"Choose the correct sentence.",o:["She go to school every day.","She goes to school every day.","She going to school every day.","She gone to school every day."],a:1,e:"主詞 She 是第三人稱單數，現在簡單式動詞 go 要加 -es。"},
+{d:"挑戰",t:"閱讀",q:"Tom gets up at six. He eats breakfast at seven and takes the bus at seven thirty. What time does Tom take the bus?",o:["6:00","7:00","7:30","8:00"],a:2,e:"文章明確指出 he takes the bus at seven thirty。"}]},
+"高中":{
+"國文":[
+{d:"基礎",t:"古典文學",q:"「先天下之憂而憂，後天下之樂而樂」出自哪一篇文章？",o:["桃花源記","岳陽樓記","醉翁亭記","赤壁賦"],a:1,e:"此句出自范仲淹〈岳陽樓記〉。"},
+{d:"進階",t:"文意判讀",q:"「不以物喜，不以己悲」主要表達何種態度？",o:["隨外在得失起伏","不因外物或個人境遇而過度悲喜","拒絕所有情感","只重視個人利益"],a:1,e:"強調胸襟開闊，不因外在環境與個人得失而動搖。"},
+{d:"挑戰",t:"閱讀素養",q:"論說文以數據支持主張時，最重要的判讀原則是？",o:["數字越大越可信","只看作者立場","確認資料來源、樣本與統計方式","忽略資料蒐集時間"],a:2,e:"數據必須檢查來源、樣本代表性、統計方法與時效，才能評估論證品質。"}],
+"英文":[
+{d:"基礎",t:"文法",q:"Choose the correct sentence.",o:["She go to school.","She goes to school.","She going school.","She gone school."],a:1,e:"第三人稱單數現在式，go 要加 -es。"},
+{d:"進階",t:"連接詞",q:"“Although it was raining, we went out.” 中 although 表示？",o:["因為","所以","雖然","除非"],a:2,e:"Although 表示「雖然」，引導讓步子句。"},
+{d:"挑戰",t:"閱讀理解",q:"A notice says: “The library will close at 5 p.m. on Friday for maintenance.” When will the library close?",o:["Friday at 5 p.m.","Friday at 7 p.m.","Saturday at 5 p.m.","Every weekday at 5 p.m."],a:0,e:"公告指出圖書館星期五下午五點因維護而關閉。"}],
+"數學":[
+{d:"基礎",t:"對數",q:"若 log₁₀100＝x，則 x 為何？",o:["1","2","10","100"],a:1,e:"因為10²＝100，所以 log₁₀100＝2。"},
+{d:"進階",t:"向量",q:"向量 (3,4) 的長度是多少？",o:["4","5","7","12"],a:1,e:"長度＝√(3²＋4²)＝√25＝5。"},
+{d:"挑戰",t:"函數",q:"二次函數 y＝x²－4x＋3 的最小值為何？",o:["－1","0","1","3"],a:0,e:"配方得 y＝(x－2)²－1，平方項最小為0，因此最小值為－1。"}],
+"歷史":[
+{d:"基礎",t:"世界史",q:"第一次工業革命最早起源於哪個國家？",o:["法國","英國","德國","美國"],a:1,e:"第一次工業革命於18世紀後期最早在英國展開。"},
+{d:"進階",t:"中國史",q:"秦始皇統一六國後，為促進政令與文化交流，推行哪項措施？",o:["書同文","科舉制度","均田制","行省制度"],a:0,e:"秦朝統一文字，推行書同文。"},
+{d:"挑戰",t:"史料判讀",q:"比較兩份對同一事件立場不同的史料，最適當的研究方法是？",o:["只採用年代較晚者","直接選擇符合自己看法者","分析作者背景、目的與時代脈絡","認定其中一份必定造假"],a:2,e:"史料需放回脈絡，分析作者立場、目的、受眾與形成背景。"}],
+"地理":[
+{d:"基礎",t:"經濟地理",q:"大量生產使平均成本下降，稱為？",o:["聚集經濟","規模經濟","機會成本","外部成本"],a:1,e:"規模經濟指產量增加時，平均生產成本下降。"},
+{d:"進階",t:"產業區位",q:"企業將工廠設在海外，直接涉及哪一種經濟活動？",o:["外國直接投資","人口自然增加","地形作用","季風環流"],a:0,e:"企業在海外設立或取得生產據點，屬於外國直接投資。"},
+{d:"挑戰",t:"都市地理",q:"都市熱島效應較明顯的主要原因為何？",o:["植被面積增加","大量人工鋪面蓄熱且綠地較少","人口密度降低","夜間完全沒有交通"],a:1,e:"建築物與柏油等人工鋪面吸熱蓄熱，加上綠地少、廢熱排放，使都市較熱。"}],
+"公民":[
+{d:"基礎",t:"憲法",q:"憲法保障人民基本權利，主要目的為何？",o:["讓政府不受限制","保障個人尊嚴並限制公權力","取消法律制度","只保障特定職業"],a:1,e:"憲法保障基本權利，也透過制度限制國家權力。"},
+{d:"進階",t:"比例原則",q:"政府限制人民權利時，手段不得超過達成目的所必要的程度，主要是哪一項要求？",o:["適當性","必要性","法律保留","平等原則"],a:1,e:"必要性要求在可達成目的的方法中，選擇侵害權利較小者。"},
+{d:"挑戰",t:"民主政治",q:"在民主制度中，權力分立最重要的功能是？",o:["讓行政機關擁有全部權力","避免權力過度集中並形成制衡","取消司法審查","減少人民參與"],a:1,e:"權力分立使不同機關互相制衡，避免權力集中與濫用。"}],
+"物理":[
+{d:"基礎",t:"運動學",q:"物體在等時間內通過相等距離，稱為？",o:["等加速度運動","等速度運動","自由落體","圓周運動"],a:1,e:"等時間通過等距離，表示速度大小與方向保持不變。"},
+{d:"進階",t:"牛頓運動定律",q:"質量2 kg的物體受到合力10 N，則加速度為？",o:["2 m/s²","5 m/s²","10 m/s²","20 m/s²"],a:1,e:"由 F＝ma，a＝F/m＝10/2＝5 m/s²。"},
+{d:"挑戰",t:"能量",q:"忽略空氣阻力，物體自由落下時，下列何者守恆？",o:["動能","重力位能","力學能","速度"],a:2,e:"只有重力作功時，動能與重力位能互相轉換，總力學能守恆。"}],
+"化學":[
+{d:"基礎",t:"原子結構",q:"原子核主要由哪些粒子組成？",o:["質子與中子","電子與中子","只有電子","質子與電子"],a:0,e:"原子核由帶正電的質子與不帶電的中子組成。"},
+{d:"進階",t:"化學計量",q:"水的化學式 H₂O 中，氫原子與氧原子的個數比為？",o:["1：1","1：2","2：1","2：2"],a:2,e:"下標2表示兩個氫原子，氧原子為1個，因此為2：1。"},
+{d:"挑戰",t:"酸鹼",q:"在25°C時，若溶液 pH＝3，表示其性質為？",o:["酸性","中性","鹼性","無法判斷"],a:0,e:"25°C時 pH 小於7為酸性，大於7為鹼性。"}],
+"生物":[
+{d:"基礎",t:"細胞",q:"一般認為細胞中負責控制細胞活動、含有遺傳物質的構造是？",o:["細胞壁","細胞核","液胞","粒線體"],a:1,e:"細胞核含有主要遺傳物質，並參與細胞活動調控。"},
+{d:"進階",t:"遺傳",q:"DNA最主要的功能是？",o:["儲存遺傳資訊","分解食物","運送氧氣","製造細胞壁"],a:0,e:"DNA攜帶生物遺傳資訊，參與遺傳特徵的傳遞與表現。"},
+{d:"挑戰",t:"生態",q:"食物鏈中，若生產者數量大量減少，最可能造成什麼結果？",o:["所有消費者立即增加","依賴生產者的消費者可能因食物減少而下降","能量總量增加","生態系不受影響"],a:1,e:"生產者是能量進入多數生態系的起點，其減少會影響上層消費者。"}],
+"地球科學":[
+{d:"基礎",t:"地球構造",q:"地震主要與地球哪一層的板塊運動有關？",o:["地殼與上部地函構成的岩石圈","外核","內核","大氣層"],a:0,e:"板塊是岩石圈的一部分，板塊互動常造成地震與火山活動。"},
+{d:"進階",t:"天氣",q:"北半球低氣壓附近的地面風，整體而言較接近哪種方向？",o:["順時針向外","逆時針向內","順時針向內","直線向外"],a:1,e:"受氣壓梯度力與科氏力影響，北半球低氣壓近地面風呈逆時針向中心輻合。"},
+{d:"挑戰",t:"天文",q:"四季變化最主要的原因是？",o:["地球與太陽距離一年中變化","地球自轉軸傾斜且地球公轉","太陽亮度每季改變","月球遮住太陽"],a:1,e:"地軸傾斜加上地球公轉，使不同半球一年中日照角度與日照時間改變。"}]}
+};
+const SUBJECTS={"國小":["國語","數學","生活","自然","社會","英語"],"高中":["國文","英文","數學","歷史","地理","公民","物理","化學","生物","地球科學"]};
+const GRADES={"國小":["一年級","二年級","三年級","四年級","五年級","六年級"],"高中":["高一","高二","高三"]};
+let nickname="",subject="",questions=[],idx=0,score=0,answered=false,wrongNow=[],lastConfig=null;
+function show(id){["welcome","setup","quiz","result"].forEach(x=>$(x).classList.toggle("hidden",x!==id))}
+function renderGrades(){let s=$("stage").value;$("grade").innerHTML=GRADES[s].map(x=>'<option>'+x+'</option>').join("");renderSubjects()}
+function renderSubjects(){let s=$("stage").value;subject="";$("subjects").innerHTML=SUBJECTS[s].map(x=>'<button class="choice" data-sub="'+x+'">'+x+'<small>'+((BANK[s][x]||[]).length)+' 道示範題</small></button>').join("");$("start").disabled=true;document.querySelectorAll("[data-sub]").forEach(b=>b.onclick=()=>{subject=b.dataset.sub;document.querySelectorAll("[data-sub]").forEach(x=>x.classList.toggle("selected",x===b));$("start").disabled=false;let count=(BANK[s][subject]||[]).length;$("scopeNote").textContent="目前此科目有 "+count+" 道示範題，涵蓋基礎、進階與挑戰。題目為教學示例，並非官方完整題庫或歷屆試題原卷。"})}
+function getRecords(){try{return JSON.parse(localStorage.getItem("xy_records")||"[]")}catch(e){return []}}
+function renderRecords(){let a=getRecords();$("recordList").innerHTML=a.length?a.slice(0,10).map(r=>'<div class="record"><span>'+esc(r.name)+' · '+esc(r.grade)+' '+esc(r.subject)+' · '+esc(r.mode||"練習")+'</span><b>'+r.score+'/'+r.total+'（'+r.percent+'%）</b></div>').join(""):'<p class="muted">目前尚無暱稱測驗紀錄。</p>'}
+function esc(s){return String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
+function shuffle(a){let b=a.slice();for(let i=b.length-1;i>0;i--){let j=Math.floor(Math.random()*(i+1));[b[i],b[j]]=[b[j],b[i]]}return b}
+function begin(source){let stage=$("stage").value,grade=$("grade").value,mode=$("mode").value,diff=$("difficulty").value;let pool=(source||BANK[stage][subject]||[]).filter(q=>diff==="全部"||q.d===diff);if(!pool.length){alert("目前沒有符合條件的題目，請更換難度或先完成一般練習。");return}questions=shuffle(pool);if(mode==="模擬考")questions=questions.slice(0,Math.min(10,questions.length));idx=0;score=0;answered=false;wrongNow=[];lastConfig={stage,grade,subject,mode,diff};$("quizMeta").textContent=grade+"・"+subject+"・"+mode;$("next").textContent="下一題";show("quiz");renderQ()}
+function renderQ(){let q=questions[idx];$("counter").textContent=(idx+1)+" / "+questions.length;$("bar").style.width=(idx/questions.length*100)+"%";$("qLevel").textContent=q.d+"｜"+q.t;$("question").textContent=q.q;$("options").innerHTML=q.o.map((x,i)=>'<button class="option" data-answer="'+i+'">'+String.fromCharCode(65+i)+". "+esc(x)+'</button>').join("");$("feedback").textContent="";$("next").disabled=true;$("next").textContent=idx===questions.length-1?"查看結果":"下一題";document.querySelectorAll("[data-answer]").forEach(b=>b.onclick=()=>answer(Number(b.dataset.answer)))}
+function answer(n){if(answered)return;answered=true;let q=questions[idx],correct=q.fix===undefined?q.a:q.fix;if(n===correct)score++;else wrongNow.push(q);document.querySelectorAll("[data-answer]").forEach((b,i)=>{b.disabled=true;if(i===correct)b.classList.add("correct");else if(i===n)b.classList.add("wrong")});$("feedback").textContent=(n===correct?"答對了！":"再接再厲！")+" "+q.e;$("next").disabled=false}
+function finish(){let total=questions.length,pct=Math.round(score/total*100);$("score").textContent=score;$("percent").textContent=pct+"%";$("total").textContent=total;$("resultText").textContent=(nickname?nickname+"，":"")+(pct>=80?"表現很棒，繼續保持！":pct>=60?"做得不錯，建議針對錯題再練習。":"別氣餒，先看解析，再用錯題重練。");$("wrongList").innerHTML=wrongNow.length?wrongNow.map(q=>'<div class="record"><span>'+esc(q.t)+' · '+esc(q.q)+'</span><span class="muted">'+q.d+'</span></div>').join(""):'<p class="muted">太棒了！本次沒有答錯題目。</p>';$("retryWrong").disabled=!wrongNow.length;if(nickname){let a=getRecords();a.unshift({name:nickname,grade:lastConfig.grade,subject:lastConfig.subject,mode:lastConfig.mode,score,total,percent:pct,date:new Date().toLocaleDateString()});localStorage.setItem("xy_records",JSON.stringify(a.slice(0,50)))}renderRecords();show("result")}
+$("login").onclick=()=>{nickname=$("nickname").value.trim();if(!nickname){$("welcomeMsg").textContent="請先輸入暱稱，或使用免登入模式。";return}show("setup")};$("guest").onclick=()=>{nickname="";show("setup")};$("stage").onchange=renderGrades;$("start").onclick=()=>begin();$("next").onclick=()=>{if(idx<questions.length-1){idx++;answered=false;renderQ()}else finish()};$("quit").onclick=()=>show("setup");$("again").onclick=()=>begin();$("back").onclick=()=>show("setup");$("retryWrong").onclick=()=>{let w=wrongNow.slice();$("mode").value="錯題重練";begin(w)};$("showRecords").onclick=()=>{renderRecords();$("records").scrollIntoView({behavior:"smooth"})};renderGrades();renderRecords();
+</script></body></html>
