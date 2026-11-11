@@ -6,7 +6,7 @@
 <header><div class="wrap"><div class="top"><div class="brand">📚 小宇小妤智慧學習測驗</div><span class="tag">第二階段・全學段題庫</span></div><h1>讓每一次練習，都更進步</h1><p class="sub">課綱概念練習・素養題型・模擬考・錯題複習</p></div></header>
 <main class="wrap">
 <section class="panel" id="welcome"><h2>👋 歡迎回來</h2><p class="muted">可使用暱稱保存這台裝置的學習紀錄，也可以免登入直接練習。</p><label for="nickname">學生暱稱（選填）</label><input id="nickname" maxlength="20" placeholder="例如：小宇、小妤"><div class="actions"><button class="primary" id="login">使用暱稱</button><button class="secondary" id="guest">免登入開始</button></div><p class="muted" id="welcomeMsg"></p></section>
-<section class="panel hidden" id="setup"><h2>🎯 選擇測驗內容</h2><div class="grid"><div><label for="stage">學習階段</label><select id="stage"><option value="國小">國小</option><option value="高中">高中</option></select></div><div><label for="grade">年級</label><select id="grade"></select></div></div><label>科目</label><div class="subjects" id="subjects"></div><div class="notice" id="unitMap" style="margin-top:10px">正在載入年級單元地圖…</div><div class="grid"><div><label for="difficulty">難度</label><select id="difficulty"><option value="全部">混合難度</option><option value="基礎">基礎</option><option value="進階">進階</option><option value="挑戰">挑戰</option></select></div><div><label for="mode">測驗模式</label><select id="mode"><option value="練習">逐題練習</option><option value="模擬考">模擬考（最多10題）</option><option value="錯題重練">錯題重練</option></select></div></div><div class="notice" id="scopeNote">題目依學段與科目篩選。這是持續擴充中的示範題庫，並非官方完整教材或歷屆試題原卷。</div><div class="actions"><button class="primary" id="start" disabled>開始測驗 →</button><button class="secondary" id="showRecords">查看學習紀錄</button></div></section>
+<section class="panel hidden" id="setup"><h2>🎯 選擇測驗內容</h2><div class="grid"><div><label for="stage">學習階段</label><select id="stage"><option value="國小">國小</option><option value="國中">國中</option><option value="高中">高中</option></select></div><div><label for="grade">年級</label><select id="grade"></select></div></div><label>科目</label><div class="subjects" id="subjects"></div><div class="notice" id="unitMap" style="margin-top:10px">正在載入年級單元地圖…</div><div class="grid"><div><label for="difficulty">難度</label><select id="difficulty"><option value="全部">混合難度</option><option value="基礎">基礎</option><option value="進階">進階</option><option value="挑戰">挑戰</option></select></div><div><label for="mode">測驗模式</label><select id="mode"><option value="練習">逐題練習</option><option value="模擬考">模擬考（最多10題）</option><option value="錯題重練">錯題重練</option></select></div></div><div class="notice" id="scopeNote">題目依學段與科目篩選。這是持續擴充中的示範題庫，並非官方完整教材或歷屆試題原卷。</div><div class="actions"><button class="primary" id="start" disabled>開始測驗 →</button><button class="secondary" id="showRecords">查看學習紀錄</button></div></section>
 <section class="panel hidden" id="quiz"><div class="question-meta"><span class="muted" id="quizMeta"></span><strong id="counter"></strong></div><div class="progress"><div class="bar" id="bar"></div></div><span class="pill" id="qLevel"></span><h2 id="question" style="margin-top:12px"></h2><div id="options"></div><p id="feedback" class="muted"></p><div class="actions"><button class="primary" id="next" disabled>下一題</button><button class="secondary" id="quit">結束測驗</button></div></section>
 <section class="panel hidden" id="result"><h2>📊 本次測驗結果</h2><div class="stats"><div><b id="score">0</b><span class="muted">答對題數</span></div><div><b id="percent">0%</b><span class="muted">正確率</span></div><div><b id="total">0</b><span class="muted">總題數</span></div></div><p id="resultText"></p><h3 style="font-size:16px">本次錯題</h3><div id="wrongList"></div><div class="actions"><button class="primary" id="retryWrong">重練本次錯題</button><button class="secondary" id="again">再測一次</button><button class="secondary" id="back">回選擇內容</button></div></section>
 <section class="panel" id="dashboard"><h2>📊 學習分析</h2><div class="stats"><div><b id="attemptCount">0</b><span class="muted">測驗次數</span></div><div><b id="averageScore">—</b><span class="muted">平均正確率</span></div><div><b id="bestScore">—</b><span class="muted">最高正確率</span></div></div><p class="muted" id="focusHint">使用暱稱完成測驗後，這裡會整理學習表現。</p></section>
@@ -99,12 +99,39 @@ BANK["高中"]["地理"].push(
 {d:"進階",t:"全球化與產業",q:"某品牌將研發留在母國，把零件交由不同國家製造，再集中於另一國組裝，最能反映哪種現象？",o:["全球商品價值鏈分工","人口自然增加","地方性自給自足","農業粗放化"],a:0,e:"企業將研發、零件製造與組裝配置在不同國家，呈現跨國生產網絡與全球價值鏈分工。"},
 {d:"挑戰",t:"聚集經濟",q:"某地因同產業廠商集中，逐漸形成專業人才市場、零件供應商與技術交流網絡，使各廠商受益。這最符合哪個概念？",o:["規模經濟","聚集經濟","比較利益","機會成本"],a:1,e:"聚集經濟強調廠商因地理集中，享有共享供應鏈、人才、知識外溢等外部效益；規模經濟則是單一廠商擴大產量而降低平均成本。"}
 );
-const SUBJECTS={"國小":["國語","數學","生活","自然","社會","英語"],"高中":["國文","英文","數學","歷史","地理","公民","物理","化學","生物","地球科學"]};
-const GRADES={"國小":["一年級","二年級","三年級","四年級","五年級","六年級"],"高中":["高一","高二","高三"]};
+// 國中階段題庫：七至九年級共用基礎題組，後續依年級單元逐步細分
+BANK["國中"]={
+"國文":[
+{d:"基礎",t:"語文常識",q:"「春風又綠江南岸」中的「綠」字，主要運用了哪種修辭？",o:["譬喻","轉化（使動用法）","排比","設問"],a:1,e:"以「綠」描述春風吹過後的景象，將顏色變化寫得生動，屬於詞類活用與轉化的表現。"},
+{d:"進階",t:"閱讀理解",q:"一篇文章先提出主張，再引用調查數據與實例支持。判斷論證是否有說服力，最應注意什麼？",o:["文章長度","作者使用多少成語","證據是否可靠且能支持主張","標題是否吸引人"],a:2,e:"論證的關鍵在於證據的可信度，以及證據與主張之間是否有合理關聯。"},
+{d:"挑戰",t:"文意判讀",q:"作者寫道：「真正的勇敢，不是從不害怕，而是明知困難仍願意採取行動。」最能概括這段話的是？",o:["勇敢就是沒有情緒","勇敢是面對恐懼並採取行動","困難都應該避免","行動前不必思考"],a:1,e:"作者區分「不害怕」與「克服害怕後仍行動」，強調面對恐懼的勇氣。"}],
+"英文":[
+{d:"基礎",t:"現在簡單式",q:"My brother _____ basketball every Sunday.",o:["play","plays","playing","played"],a:1,e:"主詞 My brother 是第三人稱單數，現在簡單式動詞加 -s。"},
+{d:"進階",t:"過去進行式",q:"When I called Tina, she _____ dinner.",o:["cooks","cooked","was cooking","has cooked"],a:2,e:"描述電話打來時正在進行的動作，使用過去進行式 was cooking。"},
+{d:"挑戰",t:"閱讀理解",q:"A sign says: 'Please return all books before the library closes at 6 p.m.' What should readers do?",o:["Keep books overnight","Return books before 6 p.m.","Arrive at 6 p.m.","Borrow books only"],a:1,e:"公告要求在圖書館下午六點關門前歸還所有書籍。"}],
+"數學":[
+{d:"基礎",t:"一元一次方程式",q:"方程式 3x－5＝10 的解為何？",o:["3","5","10","15"],a:1,e:"兩邊加5得3x＝15，再除以3，x＝5。"},
+{d:"進階",t:"比例與百分率",q:"一件商品原價800元，打八折後再折價50元，最後售價是多少？",o:["590元","590元","640元","690元"],a:0,e:"八折為800×0.8＝640元，再減50元，售價590元。"},
+{d:"挑戰",t:"幾何",q:"三角形三內角的比為2：3：4，最大角為幾度？",o:["40°","60°","80°","100°"],a:2,e:"內角和180°，共9份，每份20°；最大角4×20°＝80°。"}],
+"自然":[
+{d:"基礎",t:"細胞",q:"植物細胞具有、動物細胞通常沒有的構造是哪一項？",o:["細胞膜","細胞質","細胞核","細胞壁"],a:3,e:"植物細胞具有細胞壁，能提供支持與保護；動物細胞沒有細胞壁。"},
+{d:"進階",t:"力與運動",q:"物體受到的合力為零時，若原本靜止，接下來最可能如何運動？",o:["保持靜止","一定加速","一定轉彎","速度愈來愈快"],a:0,e:"合力為零代表加速度為零；原本靜止的物體會維持靜止。"},
+{d:"挑戰",t:"生態系",q:"農田大量使用殺蟲劑後，害蟲減少，但以害蟲為食的鳥類也下降。最合理的解釋是？",o:["鳥類不需要食物","食物網中的生物彼此依存","殺蟲劑增加植物種類","鳥類都改吃石頭"],a:1,e:"害蟲是部分鳥類的食物，族群減少可能使捕食者食物來源不足，顯示食物網的連結。"}],
+"地理":[
+{d:"基礎",t:"地圖判讀",q:"地圖比例尺為1：50,000，圖上距離4公分代表實際距離多少公里？",o:["0.2公里","2公里","20公里","200公里"],a:1,e:"4×50,000＝200,000公分＝2,000公尺＝2公里。"},
+{d:"進階",t:"氣候",q:"臺灣夏季常受西南季風影響，西南部較容易出現哪種天氣特徵？",o:["炎熱且可能有午後對流雨","全年降雪","完全沒有降雨","氣溫低於零度"],a:0,e:"夏季西南季風帶來暖濕空氣，配合地形與熱力作用，容易出現降雨。"},
+{d:"挑戰",t:"人口與都市",q:"某都市人口持續向郊區移動，市中心人口密度下降、郊區住宅增加，較接近哪種現象？",o:["都市擴張與郊區化","人口自然減少必然為零","農業集約化","全球暖化停止"],a:0,e:"人口與住宅活動向都市外圍擴散，是郊區化及都市擴張的常見表現。"}],
+"公民":[
+{d:"基礎",t:"權利與義務",q:"人民依法納稅，最主要是為了？",o:["只增加個人財富","支應公共服務與政府施政","讓政府不必受監督","取消公共設施"],a:1,e:"稅收是政府提供教育、交通、治安等公共服務的重要財源。"},
+{d:"進階",t:"民主政治",q:"選舉時，候選人提出政見並接受選民檢驗，主要展現民主政治的哪項精神？",o:["政治責任與民意政治","君主世襲","權力不受限制","取消公共討論"],a:0,e:"候選人提出政見、接受選民選擇，反映民意政治及政治責任。"},
+{d:"挑戰",t:"基本人權",q:"學校為維護秩序，要求學生不得在任何時間、任何地點表達不同意見。此規定最值得檢視的是？",o:["是否過度限制言論自由","是否增加課本頁數","是否改變天氣","是否影響地球公轉"],a:0,e:"維持秩序是正當考量，但全面禁止表達可能過度限制言論自由，應檢視限制是否必要且合乎比例。"}]
+};
+const SUBJECTS={"國中":["國文","英文","數學","自然","地理","公民"],"國小":["國語","數學","生活","自然","社會","英語"],"高中":["國文","英文","數學","歷史","地理","公民","物理","化學","生物","地球科學"]};
+const GRADES={"國中":["七年級","八年級","九年級"],"國小":["一年級","二年級","三年級","四年級","五年級","六年級"],"高中":["高一","高二","高三"]};
 let nickname="",subject="",questions=[],idx=0,score=0,answered=false,wrongNow=[],correctNow=[],lastConfig=null;
 function show(id){["welcome","setup","quiz","result"].forEach(x=>$(x).classList.toggle("hidden",x!==id))}
 function renderGrades(){let s=$("stage").value;$("grade").innerHTML=GRADES[s].map(x=>'<option>'+x+'</option>').join("");renderSubjects()}
-let curriculumMap=null;function renderUnitMap(){let box=$("unitMap");if(!box)return;if(!curriculumMap){box.textContent="年級單元地圖載入中…";return}if(!subject){box.innerHTML="<b>📚 年級單元地圖</b><br>選擇科目後，這裡會顯示該年級的學習單元。";return}let stage=$("stage").value,grade=$("grade").value,root=stage==="國小"?curriculumMap.elementary:curriculumMap.senior_high,units=(root[grade]&&root[grade][subject])||[];box.innerHTML="<b>📚 "+esc(grade)+"・"+esc(subject)+" 單元規劃</b><br>"+(units.length?units.map((u,i)=>(i+1)+". "+esc(u)).join("　／　"):"此年級暫無此科目的單元資料")+"</div>"}fetch("curriculum-map.json").then(r=>{if(!r.ok)throw new Error("load failed");return r.json()}).then(data=>{curriculumMap=data;renderUnitMap()}).catch(()=>{$("unitMap").textContent="單元地圖暫時無法載入，請稍後重新整理。"});
+let curriculumMap=null;function renderUnitMap(){let box=$("unitMap");if(!box)return;if(!curriculumMap){box.textContent="年級單元地圖載入中…";return}if(!subject){box.innerHTML="<b>📚 年級單元地圖</b><br>選擇科目後，這裡會顯示該年級的學習單元。";return}let stage=$("stage").value,grade=$("grade").value,root=stage==="國小"?curriculumMap.elementary:(stage==="國中"?(curriculumMap.junior_high||{}):curriculumMap.senior_high),units=(root[grade]&&root[grade][subject])||[];box.innerHTML="<b>📚 "+esc(grade)+"・"+esc(subject)+" 單元規劃</b><br>"+(units.length?units.map((u,i)=>(i+1)+". "+esc(u)).join("　／　"):"此年級暫無此科目的單元資料")+"</div>"}fetch("curriculum-map.json").then(r=>{if(!r.ok)throw new Error("load failed");return r.json()}).then(data=>{curriculumMap=data;renderUnitMap()}).catch(()=>{$("unitMap").textContent="單元地圖暫時無法載入，請稍後重新整理。"});
 function renderSubjects(){let s=$("stage").value;subject="";$("subjects").innerHTML=SUBJECTS[s].map(x=>'<button class="choice" data-sub="'+x+'">'+x+'<small>'+((BANK[s][x]||[]).length)+' 道示範題</small></button>').join("");$("start").disabled=true;document.querySelectorAll("[data-sub]").forEach(b=>b.onclick=()=>{subject=b.dataset.sub;document.querySelectorAll("[data-sub]").forEach(x=>x.classList.toggle("selected",x===b));$("start").disabled=false;let count=(BANK[s][subject]||[]).length;$("scopeNote").textContent="目前此科目有 "+count+" 道示範題；以下顯示所選年級的單元規劃，題目仍會逐單元補齊。";renderUnitMap()});renderUnitMap()}
 function getRecords(){try{return JSON.parse(localStorage.getItem("xy_records")||"[]")}catch(e){return []}}
 function getWrongBank(){try{return JSON.parse(localStorage.getItem("xy_wrong_bank")||"[]")}catch(e){return []}}
