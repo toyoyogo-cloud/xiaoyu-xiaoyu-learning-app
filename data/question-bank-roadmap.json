@@ -164,5 +164,8 @@
     "indexHtml": "data/question-bank-batch-20.js loaded; EXTRA20_GRADE_BANK included in bankFor() grade/subject filtering",
     "serviceWorkerCache": "xy-learning-v24",
     "serviceWorkerAsset": "data/question-bank-batch-20.js"
-  }
+  },
+  "currentIndependentBatchQuestions": 799,
+  "currentIndependentBatchRange": "第8至第20批",
+  "currentVerifiedQuestionsNote": "此舊欄位保留 index.html 內嵌題庫盤點值，不含獨立批次檔；獨立批次總數請看 currentIndependentBatchQuestions。"
 }
