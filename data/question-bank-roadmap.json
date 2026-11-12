@@ -185,9 +185,9 @@
   },
   "lastBatchFile": "data/question-bank-batch-24.js",
   "currentIntegration": {
-    "indexHtml": "main branch index.html loads question-bank-batch-23.js and question-bank-batch-24.js; EXTRA23_GRADE_BANK and EXTRA24_GRADE_BANK are included in bankFor() grade/subject filtering; existing academic competition batches 01-07 remain loaded",
+    "indexHtml": "Restored the last known syntactically valid UTF-8 index.html; loads question-bank batches 08-24 and includes EXTRA23_GRADE_BANK/EXTRA24_GRADE_BANK in bankFor() grade/subject filtering; loads academic competition batches 01-07; both inline JavaScript blocks pass syntax parsing.",
     "serviceWorkerCache": "xy-learning-v34",
-    "serviceWorkerAsset": "data/question-bank-batch-23.js; data/question-bank-batch-24.js"
+    "serviceWorkerAsset": "data/question-bank-batch-23.js; data/question-bank-batch-24.js; academic-competition-batch-01.js through academic-competition-batch-07.js preserved"
   },
   "currentIndependentBatchQuestions": 1200,
   "currentIndependentBatchRange": "第8至第24批",
@@ -200,5 +200,5 @@
     "高二": 274,
     "高三": 273
   },
-  "integrationAuditNote": "2026-11-12 main branch audit found that batch23 existed but was not actually loaded by index.html or listed in sw.js despite earlier roadmap wording. This was corrected together with batch24 integration; do not rely on the prior integration claim."
+  "integrationAuditNote": "2026-11-12 main branch audit found two issues: batch23 existed but was not loaded by the then-current index.html or sw.js, and index.html contained a literal tool-output truncation marker inside inline JavaScript causing a syntax error. Restored the last known syntactically valid UTF-8 index.html from commit 193134e95bc9caa682b349d14adf91562528d2b6, then re-added academic competition batch 04-07 script tags and question bank batch24 integration. Service Worker v34 lists question bank batches 08-24 and academic competition batches 01-07. Browser-level interaction testing remains unperformed."
 }
