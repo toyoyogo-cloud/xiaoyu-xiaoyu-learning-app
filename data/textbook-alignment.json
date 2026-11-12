@@ -152,13 +152,167 @@
     "未來新增題目優先對照南一、翰林、康軒各版本的冊別及單元；同題可對應多個出版社版本，無可靠依據時標示課綱核心或待核對。",
     "題庫新增資源集中優先於國小六年級與高中高二；其他年級既有題目保留。"
   ],
-  "mappings": [],
-  "mappingStatus": "schema-ready-no-publisher-unit-mappings-yet",
+  "mappings": [
+    {
+      "id": "hanlin-h2-math-3a-u1",
+      "schoolYear": "未標示",
+      "stage": "高中",
+      "grade": "高二",
+      "subject": "數學",
+      "semester": "上學期",
+      "publisher": "hanlin",
+      "volume": "數學(3A)（官方互動式教學講義，搭配翰林教材）",
+      "unitCode": "1",
+      "unitName": "三角函數",
+      "learningContent": "弧度量、正弦、餘弦、正切函數圖形與週期現象",
+      "sourceType": "official-publisher",
+      "sourceUrl": "https://books.hanlin.com.tw/product/433021",
+      "sourceTitle": "翰林書城－高中互動式教學講義數學(3A)",
+      "verifiedAt": "2026-11-13",
+      "verificationStatus": "source-checked",
+      "notes": "官方頁明示高二、上學期與108課綱高二數學A版，目次列三角函數；只作單元對照，不表示題目取自教材。"
+    },
+    {
+      "id": "hanlin-h2-math-3a-u2",
+      "schoolYear": "未標示",
+      "stage": "高中",
+      "grade": "高二",
+      "subject": "數學",
+      "semester": "上學期",
+      "publisher": "hanlin",
+      "volume": "數學(3A)（官方互動式教學講義，搭配翰林教材）",
+      "unitCode": "2",
+      "unitName": "指數與對數函數",
+      "learningContent": "按比例成長模型、指數與對數圖形及生活應用",
+      "sourceType": "official-publisher",
+      "sourceUrl": "https://books.hanlin.com.tw/product/433021",
+      "sourceTitle": "翰林書城－高中互動式教學講義數學(3A)",
+      "verifiedAt": "2026-11-13",
+      "verificationStatus": "source-checked",
+      "notes": "官方頁明示高二、上學期與目次單元；段考區間仍為題庫依單元順序推定。"
+    },
+    {
+      "id": "hanlin-h2-math-3a-u3",
+      "schoolYear": "未標示",
+      "stage": "高中",
+      "grade": "高二",
+      "subject": "數學",
+      "semester": "上學期",
+      "publisher": "hanlin",
+      "volume": "數學(3A)（官方互動式教學講義，搭配翰林教材）",
+      "unitCode": "3",
+      "unitName": "平面向量",
+      "learningContent": "平面向量運算、內積、行列式與幾何應用",
+      "sourceType": "official-publisher",
+      "sourceUrl": "https://books.hanlin.com.tw/product/433021",
+      "sourceTitle": "翰林書城－高中互動式教學講義數學(3A)",
+      "verifiedAt": "2026-11-13",
+      "verificationStatus": "source-checked",
+      "notes": "官方頁明示高二、上學期與目次單元；段考區間仍為題庫依單元順序推定。"
+    },
+    {
+      "id": "hanlin-h2-physics-ii",
+      "schoolYear": "未標示",
+      "stage": "高中",
+      "grade": "高二",
+      "subject": "物理",
+      "semester": "上學期",
+      "publisher": "hanlin",
+      "volume": "選修物理(II) 力學二與熱學",
+      "unitCode": "全冊",
+      "unitName": "力學二與熱學",
+      "learningContent": "高二上選修物理(II)冊別層級對照；官方商品頁未列完整章節，故不進一步推定段考。",
+      "sourceType": "official-publisher",
+      "sourceUrl": "https://books.hanlin.com.tw/product/004022",
+      "sourceTitle": "翰林書城－高中課本選修物理(II)力學二與熱學",
+      "verifiedAt": "2026-11-13",
+      "verificationStatus": "source-checked",
+      "notes": "官方頁明示高中二年級、上學期及課本名稱；僅作冊別／主題層級對照。"
+    },
+    {
+      "id": "hanlin-h2-chemistry-iii-u1",
+      "schoolYear": "未標示",
+      "stage": "高中",
+      "grade": "高二、高三",
+      "subject": "化學",
+      "semester": "全學年",
+      "publisher": "hanlin",
+      "volume": "選修化學(III)（官方互動式教學講義）",
+      "unitCode": "1",
+      "unitName": "化學平衡",
+      "learningContent": "化學平衡與平衡移動",
+      "sourceType": "official-publisher",
+      "sourceUrl": "https://books.hanlin.com.tw/product/435023",
+      "sourceTitle": "翰林書城－高中互動式教學講義選修化學(III)",
+      "verifiedAt": "2026-11-13",
+      "verificationStatus": "source-checked",
+      "notes": "官方頁明示高二、高三、全學年，目次列化學平衡；不推定學校段考。"
+    },
+    {
+      "id": "hanlin-h2-chemistry-iii-u2",
+      "schoolYear": "未標示",
+      "stage": "高中",
+      "grade": "高二、高三",
+      "subject": "化學",
+      "semester": "全學年",
+      "publisher": "hanlin",
+      "volume": "選修化學(III)（官方互動式教學講義）",
+      "unitCode": "2",
+      "unitName": "沉澱反應與溶解平衡",
+      "learningContent": "溶解平衡、沉澱與溶度積概念",
+      "sourceType": "official-publisher",
+      "sourceUrl": "https://books.hanlin.com.tw/product/435023",
+      "sourceTitle": "翰林書城－高中互動式教學講義選修化學(III)",
+      "verifiedAt": "2026-11-13",
+      "verificationStatus": "source-checked",
+      "notes": "官方頁明示目次列沉澱反應與溶解平衡；不推定學校段考。"
+    },
+    {
+      "id": "hanlin-h2-chemistry-iii-u3",
+      "schoolYear": "未標示",
+      "stage": "高中",
+      "grade": "高二、高三",
+      "subject": "化學",
+      "semester": "全學年",
+      "publisher": "hanlin",
+      "volume": "選修化學(III)（官方互動式教學講義）",
+      "unitCode": "3",
+      "unitName": "酸鹼反應",
+      "learningContent": "酸鹼反應、滴定與緩衝概念",
+      "sourceType": "official-publisher",
+      "sourceUrl": "https://books.hanlin.com.tw/product/435023",
+      "sourceTitle": "翰林書城－高中互動式教學講義選修化學(III)",
+      "verifiedAt": "2026-11-13",
+      "verificationStatus": "source-checked",
+      "notes": "官方頁明示目次列酸鹼反應與酸鹼滴定實驗；不推定學校段考。"
+    },
+    {
+      "id": "knsh-g6-social-6a-u2-1",
+      "schoolYear": "未標示",
+      "stage": "國小",
+      "grade": "六年級",
+      "subject": "社會",
+      "semester": "上學期",
+      "publisher": "knsh",
+      "volume": "社會六上",
+      "unitCode": "2-1",
+      "unitName": "個人發展如何受到社會變遷的影響",
+      "learningContent": "個人角色、性別角色與族群文化隨社會變遷的影響",
+      "sourceType": "official-publisher",
+      "sourceUrl": "https://sdgs.knsh.com.tw/campus/SDGS_FILE_E/%E7%A4%BE%E6%9C%83%E5%85%AD%E4%B8%8ACH2L1%E5%80%8B%E4%BA%BA%E7%99%BC%E5%B1%95%E5%A6%82%E4%BD%95%E5%8F%97%E5%88%B0%E7%A4%BE%E6%9C%83%E8%AE%8A%E9%81%B7%E7%9A%84%E5%BD%B1%E9%9F%BF_%E6%95%99%E5%AD%B8%E8%B3%87%E6%BA%90.pdf",
+      "sourceTitle": "康軒社會六上2-1教學資源PDF",
+      "verifiedAt": "2026-11-13",
+      "verificationStatus": "source-checked",
+      "notes": "官方教學資源直接標示社會六上2-1，並列六年級學習重點；僅對應涉及個人發展／社會變遷的題目。"
+    }
+  ],
+  "mappingStatus": "partial-source-verified-8-mappings",
   "nextSteps": [
-    "依現有題庫題幹、單元及知識點，先為小六與高二整理上/下學期及三次段考的建議分類。",
-    "將每筆分類標示推定依據與信心等級；不確定者列入未分類。",
-    "未來新增題目優先核對南一、翰林、康軒各版本的冊別與單元，同一題可對應多個版本。",
-    "在APP測驗設定加入學期、段考與出版社篩選，清楚區分題庫建議範圍與正式學校考試範圍。"
+    "小六與高二既有題目由分類推定器依題幹、單元及知識點分類；低信心或無法核對者維持未分類。",
+    "高二數學A三角函數、指數與對數、平面向量已建立翰林3A官方配套講義單元對照；段考次序仍為題庫推定。",
+    "高二物理II與化學III只在官方頁明示冊別／單元的範圍建立翰林對照；其他題目保留108課綱共同核心或待核對。",
+    "小六社會六上2-1建立康軒官方教學資源對照；南一與其他康軒／翰林單元需再取得官方目次後才標記。",
+    "APP測驗設定已加入學期、段考、出版社篩選；介面明示題庫推定不是正式學校段考範圍。"
   ],
   "examOrganization": {
     "semesters": [
@@ -217,6 +371,87 @@
       "medium",
       "low"
     ],
-    "publisherPolicy": "未來題庫盡可能依南一、翰林、康軒三版本的冊別與單元分類；每題可關聯一個或多個版本。沒有可核對的版本依據時，先列為108課綱共同核心／待核對，不冒稱出版社專屬題。"
+    "publisherPolicy": "未來題庫盡可能依南一、翰林、康軒三版本的冊別與單元分類；每題可關聯一個或多個版本。沒有可核對的版本依據時，先列為108課綱共同核心／待核對，不冒稱出版社專屬題。",
+    "appFilters": [
+      "grade",
+      "semester",
+      "examPeriod",
+      "subject",
+      "unit",
+      "publisher"
+    ],
+    "runtimeClassifier": "data/question-classification-inference.js"
+  },
+  "sourceRegistry": [
+    {
+      "id": "naer-108-curriculum",
+      "publisher": "curriculum-core",
+      "sourceType": "curriculum-reference",
+      "sourceUrl": "https://stv.naer.edu.tw/teaching/course_outline.jsp",
+      "sourceTitle": "國家教育研究院愛學網－十二年國教課程綱要",
+      "verifiedAt": "2026-11-13",
+      "verificationStatus": "source-checked",
+      "notes": "官方課綱索引，作為108課綱共同核心依據，不提供學校段考週次。"
+    },
+    {
+      "id": "naer-math-course-handbook",
+      "publisher": "curriculum-core",
+      "sourceType": "curriculum-reference",
+      "sourceUrl": "https://www.naer.edu.tw/upload/1/16/doc/2021/%E6%95%B8%E5%AD%B8%E9%A0%98%E5%9F%9F%E8%AA%B2%E7%A8%8B%E6%89%8B%E5%86%8A%EF%BC%88113%E5%B9%B43%E6%9C%88%E6%9B%B4%E6%96%B0%E7%89%88%EF%BC%89.pdf",
+      "sourceTitle": "十二年國教數學領域課程手冊",
+      "verifiedAt": "2026-11-13",
+      "verificationStatus": "source-checked",
+      "notes": "課程與學習重點參考；不是出版社版本目次。"
+    },
+    {
+      "id": "nani-publisher",
+      "publisher": "nani",
+      "sourceType": "official-publisher",
+      "sourceUrl": "https://www.nani.com.tw/",
+      "sourceTitle": "南一書局官方網站",
+      "verifiedAt": "2026-11-13",
+      "verificationStatus": "pending",
+      "notes": "本次尚未取得可核對的小六／高二對應冊別及單元頁面；相關題目先標108課綱共同核心或待核對。"
+    },
+    {
+      "id": "hanlin-publisher",
+      "publisher": "hanlin",
+      "sourceType": "official-publisher",
+      "sourceUrl": "https://books.hanlin.com.tw/",
+      "sourceTitle": "翰林書城官方教材目錄",
+      "verifiedAt": "2026-11-13",
+      "verificationStatus": "source-checked",
+      "notes": "僅在 mappings 列明的冊別／單元範圍建立對照；其他題目不自動標成翰林版。"
+    },
+    {
+      "id": "knsh-publisher",
+      "publisher": "knsh",
+      "sourceType": "official-publisher",
+      "sourceUrl": "https://www.knsh.com.tw/_KNSH/Version",
+      "sourceTitle": "康軒版本查詢",
+      "verifiedAt": "2026-11-13",
+      "verificationStatus": "source-checked",
+      "notes": "本次僅對照有官方教學資源PDF明示的六上社會2-1；其他版本單元仍待核對。"
+    }
+  ],
+  "classificationAudit": {
+    "updatedAt": "2026-11-13",
+    "priorityGrades": [
+      "六年級",
+      "高二"
+    ],
+    "existingQuestionCounts": {
+      "六年級": 290,
+      "高二": 374,
+      "total": 664
+    },
+    "newBatch": {
+      "batch": 30,
+      "total": 100,
+      "六年級": 50,
+      "高二": 50
+    },
+    "runtimeClassifier": "data/question-classification-inference.js",
+    "policy": "每題依題幹、t/unit與知識點產生 semester、examPeriod、classificationBasis、confidence、publisherStatus、publisherMappings。無法可靠推定者保持 unassigned；段考為題庫複習建議，不是學校正式範圍。"
   }
 }
