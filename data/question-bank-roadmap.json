@@ -1,7 +1,7 @@
 {
   "title": "題庫建置與持續擴充規格",
   "target": 1000,
-  "currentVerifiedNewGradeSpecificQuestions": 2100,
+  "currentVerifiedNewGradeSpecificQuestions": 2200,
   "targetRemainder": 0,
   "updatedAt": "2026-11-13",
   "distributionTarget": [
@@ -208,6 +208,14 @@
       "validation": "b33-001至b33-100共100題；小六50、高二50；每題四個不同選項、答案索引0至3、解析與分類欄位完整。批次內正規化題幹唯一；與第8至32批2,000題以多重雜湊Bloom預篩，所有命中候選逐批精確核對；初稿一題與b25-067重複，已改寫，修正後完全相同正規化題幹0組。主要計算題獨立核算。程式規則檢查（rule-checked），尚未教師逐題審核。",
       "publisherAlignment": "沿用已核對的翰林數學3A、選修物理II、選修化學I/II/III、選修生物II及康軒六上社會2-1映射；沒有新增未核對的南一或其他出版社標籤。",
       "integration": "index.html載入第33批並納入bankFor()；Service Worker升級xy-learning-v58並加入第33批資產；README與roadmap更新。"
+    },
+    {
+      "batch": 34,
+      "added": 100,
+      "coverage": "國小六年級50題（國語10、英語8、數學12、自然10、社會10）；高中高二50題（數學12、物理8、化學8、生物6、地理4、歷史4、公民4、英文2、國文2）。其他年級不新增。",
+      "validation": "b34-001至b34-100共100題；小六50、高二50；ID唯一；每題四個不同選項、答案索引0至3及非空解析。批次內正規化題幹唯一；與第8至33批目標年級題幹逐批比對，完全相同正規化題幹0組。主要數值與計算題依公式複核。程式規則檢查（rule-checked），未經教師逐題審閱。",
+      "publisherAlignment": "沿用已核對的翰林官方映射：數學3A三角函數、指數與對數、平面向量；選修物理(II)力學二與熱學；選修化學(I)/(II)/(III)冊別或單元；選修生物(II)植物。共24題有出版社映射，其餘76題標示108課綱共同核心。未新增南一或康軒映射；未新增textbook-alignment資料列。",
+      "integration": "index.html載入第34批並納入bankFor()；Service Worker升級xy-learning-v59並加入第34批資產；README與roadmap更新。學藝活動歷屆題庫第1至14批與既有圖片資產保留。"
     }
   ],
   "activeScope": {
@@ -240,29 +248,29 @@
     "六年級": 50,
     "高二": 50
   },
-  "lastBatchFile": "data/question-bank-batch-33.js",
+  "lastBatchFile": "data/question-bank-batch-34.js",
   "currentIntegration": {
-    "indexHtml": "Main branch audit on 2026-11-13: loads original question-bank batches 08-33; EXTRA33_GRADE_BANK is included in bankFor() stage/grade/subject filtering. Setup filters follow grade → semester → exam → subject → unit, with publisher filter and visible classification basis/confidence. Academic-competition batches 01-14, classification inference, textbook alignment and existing quiz flows are preserved.",
-    "serviceWorkerCache": "xy-learning-v58",
-    "serviceWorkerAsset": "question-bank-batch-08.js through batch-33.js; question-classification-inference.js; textbook-alignment.json; academic-competition-batch-01.js through batch-14.js; existing image assets preserved"
+    "indexHtml": "Main branch audit on 2026-11-13: loads original question-bank batches 08-34; EXTRA34_GRADE_BANK is included in bankFor() stage/grade/subject filtering. Study filters follow grade → semester → exam → subject → unit, with publisher filter and visible classification basis/confidence. Academic-competition batches 01-14, classification inference, textbook alignment and existing quiz flows are preserved.",
+    "serviceWorkerCache": "xy-learning-v59",
+    "serviceWorkerAsset": "question-bank-batch-08.js through batch-34.js; question-classification-inference.js; textbook-alignment.json (13 verified mappings); academic-competition-batch-01.js through batch-14.js; existing image assets preserved"
   },
-  "currentIndependentBatchQuestions": 2000,
-  "currentIndependentBatchRange": "第8至第32批",
+  "currentIndependentBatchQuestions": 2200,
+  "currentIndependentBatchRange": "第8至第34批",
   "currentVerifiedQuestionsNote": "currentVerifiedQuestions 為 index.html 內嵌示範題的歷史盤點欄位，不含獨立批次檔；currentVerifiedNewGradeSpecificQuestions 與 currentIndependentBatchQuestions 統計第8至第32批獨立題庫，不代表教師逐題審核數。",
   "legacyFieldNotes": "currentVerifiedQuestions 保留內嵌示範題歷史盤點值；獨立批次累計以 currentIndependentBatchQuestions 為準；rule-checked 僅代表程式結構與文字規則檢查，並非教師審核。",
   "currentDistribution": {
     "五年級": 290,
-    "六年級": 440,
+    "六年級": 540,
     "高一": 373,
-    "高二": 524,
+    "高二": 624,
     "高三": 373
   },
-  "integrationAuditNote": "2026-11-12 main branch audit found two issues: batch23 existed but was not loaded by the then-current index.html or sw.js, and index.html contained a literal tool-output truncation marker inside inline JavaScript causing a syntax error. Restored the last known syntactically valid UTF-8 index.html from commit 193134e95bc9caa682b349d14adf91562528d2b6, then re-added academic competition batch 04-07 script tags and question bank batch24 integration. Service Worker v34 lists question bank batches 08-24 and academic competition batches 01-07. Browser-level interaction testing remains unperformed. 2026-11-12 batch27 audit: immediately before integration, main contained original question-bank batches 08-26, index.html loaded and filtered batches 08-26, and Service Worker cache was v43 with academic competition assets 01-12. Added batch27 to index script loading and bankFor() filtering, and added its Service Worker asset while preserving academic batches 01-12 and existing image assets. Cache advanced to v44. Browser-level interaction testing and teacher review remain unperformed. 2026-11-13 batch28 audit: main baseline was batches08-27 (1,500 questions, 1,500 unique IDs), index.html loaded and filtered batches08-27, and Service Worker was v48 with academic competition batches01-14 and image assets. Added batch28 to index script loading and bankFor() filtering, advanced Service Worker to v49 and added its asset, while preserving all prior question banks and academic competition assets. Browser-level interaction testing and teacher review remain unperformed. Post-commit audit found b28-045 duplicated the normalized stem of b19-033; replaced it with a quadratic-vertex item and recorded the correction. Cross-batch exact-stem verification was repeated after the fix. A further item-quality pass refined distractors in selected questions and replaced one grade-5 sound item with a more age-appropriate vibration observation; count and IDs remain unchanged.\n2026-11-13 batch29 audit: main baseline contained question-bank batches 08-28 (1,600 items, 1,600 unique IDs), index.html loaded and filtered batches08-28, and Service Worker was xy-learning-v49 with academic competition batches01-14. Added batch29 as window.EXTRA29_GRADE_BANK, integrated its script and pack29 filter in bankFor(), advanced Service Worker to v50 and added its asset, while preserving academic competition batches01-14 and existing image assets. Cross-batch normalized-stem comparison against batches08-28 found five exact matches in the first draft (b29-003, b29-015, b29-042, b29-043, b29-082); all five were rewritten and the comparisons rerun in three groups covering all 1,600 existing questions, with no remaining exact-stem or ID conflicts. Batch29 contains 100 questions, 20 for each active grade. Browser-level interaction testing and teacher review remain unperformed. 2026-11-13 batch32 audit: main baseline commit 1154a9156ca31d13c8d55636d47b23f565f0a513 contained batches08-31 (1,900 questions, 1,900 unique IDs), index.html loaded/filtered batches08-31, and Service Worker was xy-learning-v56 with academic competition assets01-14. Added batch32 as window.EXTRA32_GRADE_BANK, integrated its script tag and pack32 into bankFor(), advanced cache to v57 and added its asset; academic batches and images preserved. Added one Hanlin Chemistry(I) volume-level official mapping; no chapter-level claim. Browser interaction and teacher review remain unperformed. Post-commit batch32 HTML audit found the existing batch31 external script tag lacked its closing </script>, which would have swallowed the batch32 tag. Fixed the closing tag in a follow-up commit and rechecked script-tag pairing and inline JavaScript syntax.\n2026-11-13 batch33 audit: baseline main commit 7cf809349585eca4294838a63d8ce2ee4a84556d contained batches08-32 (2,000 items; grade distribution 5th 290, 6th 440, H1 373, H2 524, H3 373), index.html loaded/filtered batches08-32, and Service Worker was xy-learning-v57. Added batch33 (100 items, 50 sixth-grade and 50 high-two), integrated its script and pack33 into bankFor(), advanced cache to v58 and added its asset. Existing academic batches01-14 and image assets remain listed. Cross-batch prefilter found one exact duplicate with b25-067; it was rewritten and rechecked.",
+  "integrationAuditNote": "2026-11-12 main branch audit found two issues: batch23 existed but was not loaded by the then-current index.html or sw.js, and index.html contained a literal tool-output truncation marker inside inline JavaScript causing a syntax error. Restored the last known syntactically valid UTF-8 index.html from commit 193134e95bc9caa682b349d14adf91562528d2b6, then re-added academic competition batch 04-07 script tags and question bank batch24 integration. Service Worker v34 lists question bank batches 08-24 and academic competition batches 01-07. Browser-level interaction testing remains unperformed. 2026-11-12 batch27 audit: immediately before integration, main contained original question-bank batches 08-26, index.html loaded and filtered batches 08-26, and Service Worker cache was v43 with academic competition assets 01-12. Added batch27 to index script loading and bankFor() filtering, and added its Service Worker asset while preserving academic batches 01-12 and existing image assets. Cache advanced to v44. Browser-level interaction testing and teacher review remain unperformed. 2026-11-13 batch28 audit: main baseline was batches08-27 (1,500 questions, 1,500 unique IDs), index.html loaded and filtered batches08-27, and Service Worker was v48 with academic competition batches01-14 and image assets. Added batch28 to index script loading and bankFor() filtering, advanced Service Worker to v49 and added its asset, while preserving all prior question banks and academic competition assets. Browser-level interaction testing and teacher review remain unperformed. Post-commit audit found b28-045 duplicated the normalized stem of b19-033; replaced it with a quadratic-vertex item and recorded the correction. Cross-batch exact-stem verification was repeated after the fix. A further item-quality pass refined distractors in selected questions and replaced one grade-5 sound item with a more age-appropriate vibration observation; count and IDs remain unchanged.\n2026-11-13 batch29 audit: main baseline contained question-bank batches 08-28 (1,600 items, 1,600 unique IDs), index.html loaded and filtered batches08-28, and Service Worker was xy-learning-v49 with academic competition batches01-14. Added batch29 as window.EXTRA29_GRADE_BANK, integrated its script and pack29 filter in bankFor(), advanced Service Worker to v50 and added its asset, while preserving academic competition batches01-14 and existing image assets. Cross-batch normalized-stem comparison against batches08-28 found five exact matches in the first draft (b29-003, b29-015, b29-042, b29-043, b29-082); all five were rewritten and the comparisons rerun in three groups covering all 1,600 existing questions, with no remaining exact-stem or ID conflicts. Batch29 contains 100 questions, 20 for each active grade. Browser-level interaction testing and teacher review remain unperformed. 2026-11-13 batch32 audit: main baseline commit 1154a9156ca31d13c8d55636d47b23f565f0a513 contained batches08-31 (1,900 questions, 1,900 unique IDs), index.html loaded/filtered batches08-31, and Service Worker was xy-learning-v56 with academic competition assets01-14. Added batch32 as window.EXTRA32_GRADE_BANK, integrated its script tag and pack32 into bankFor(), advanced cache to v57 and added its asset; academic batches and images preserved. Added one Hanlin Chemistry(I) volume-level official mapping; no chapter-level claim. Browser interaction and teacher review remain unperformed. Post-commit batch32 HTML audit found the existing batch31 external script tag lacked its closing </script>, which would have swallowed the batch32 tag. Fixed the closing tag in a follow-up commit and rechecked script-tag pairing and inline JavaScript syntax.\n2026-11-13 batch33 audit: baseline main commit 7cf809349585eca4294838a63d8ce2ee4a84556d contained batches08-32 (2,000 items; grade distribution 5th 290, 6th 440, H1 373, H2 524, H3 373), index.html loaded/filtered batches08-32, and Service Worker was xy-learning-v57. Added batch33 (100 items, 50 sixth-grade and 50 high-two), integrated its script and pack33 into bankFor(), advanced cache to v58 and added its asset. Existing academic batches01-14 and image assets remain listed. Cross-batch prefilter found one exact duplicate with b25-067; it was rewritten and rechecked.\n2026-11-13：第34批已加入index.html及Service Worker v59；第8至34批獨立題庫累計2,200題，五個既有年級分布更新為小五290、小六540、高一373、高二624、高三373。",
   "lastMainBranchAudit": {
     "date": "2026-11-13",
-    "independentBatchRange": "第8至第33批",
-    "independentBatchQuestions": 2000,
-    "uniqueIds": 2000,
+    "independentBatchRange": "第8至第34批",
+    "independentBatchQuestions": 2200,
+    "uniqueIds": 2200,
     "duplicateIds": 0,
     "exactNormalizedDuplicateStemGroups": [
       [
@@ -276,13 +284,13 @@
     ],
     "gradeDistribution": {
       "五年級": 290,
-      "六年級": 490,
+      "六年級": 540,
       "高一": 373,
-      "高二": 574,
+      "高二": 624,
       "高三": 373
     },
-    "indexBatchReferences": "08-32",
-    "serviceWorkerCache": "xy-learning-v57",
+    "indexBatchReferences": "08-34",
+    "serviceWorkerCache": "xy-learning-v59",
     "academicCompetitionCacheReferences": "01-14",
     "classificationScope": {
       "newBatch": {
@@ -291,49 +299,56 @@
           "questionBankInference": 0,
           "publisherSourceVerified": 0,
           "curriculumCore": 50,
+          "publisherMappedQuestions": 0,
           "unassignedSemester": 50,
           "examUnassigned": 50
         },
         "高二": {
           "total": 50,
-          "questionBankInference": 0,
-          "publisherSourceVerified": 3,
-          "curriculumCore": 47,
-          "upperSemester": 3,
-          "unassignedSemester": 47,
-          "examUnassigned": 50
+          "questionBankInference": 12,
+          "publisherSourceVerified": 12,
+          "curriculumCore": 26,
+          "publisherMappedQuestions": 24,
+          "upperSemester": 20,
+          "fullYear": 4,
+          "unassignedSemester": 26,
+          "examAssigned": {
+            "第一次段考": 4,
+            "第二次段考": 4,
+            "第三次段考": 4,
+            "unassigned": 38
+          }
         },
         "overall": {
           "total": 100,
-          "questionBankInference": 0,
-          "publisherSourceVerified": 3,
-          "curriculumCore": 97,
-          "publisherMappedQuestions": 3,
-          "upperSemester": 3,
-          "lowerSemester": 0,
-          "fullYear": 0,
-          "unassignedSemester": 97,
+          "questionBankInference": 12,
+          "publisherSourceVerified": 12,
+          "curriculumCore": 76,
+          "publisherMappedQuestions": 24,
+          "upperSemester": 20,
+          "fullYear": 4,
+          "unassignedSemester": 76,
           "examAssigned": {
-            "第一次段考": 0,
-            "第二次段考": 0,
-            "第三次段考": 0,
-            "unassigned": 100
+            "第一次段考": 4,
+            "第二次段考": 4,
+            "第三次段考": 4,
+            "unassigned": 88
           }
         }
       },
       "classifier": "data/question-classification-inference.js",
-      "note": "新批次缺乏可靠段考範圍者維持未分類；教材映射只代表官方冊別／單元可核對，不代表題目取自教材。題庫推定不是學校正式段考範圍。"
+      "note": "新批次缺乏可靠段考範圍者維持未分類；出版社映射只代表官方冊別／單元可核對，不代表題目取自教材。題庫推定不是學校正式段考範圍。"
     },
-    "note": "第32批新增100題，僅小六50題與高二50題；第8至32批共2,000題。兩組既有歷史重複題保留；本批ID唯一，與20至31批無完全相同題幹，對8至19批使用目標年級Bloom預篩無候選命中。教材對照共13筆。",
-    "independentQuestionCount": 2100,
-    "uniqueIdCount": 2100,
-    "latestBaselineCommit": "7cf809349585eca4294838a63d8ce2ee4a84556d"
+    "note": "第34批新增100題，僅國小六年級50題與高中高二50題；第8至34批共2,200題。新增ID b34-001至b34-100唯一；與第8至33批目標年級題幹逐批比對無完全相同正規化題幹。既有歷史重複題保留；本批使用既有13筆教材對照中的映射，不新增未核對版本標籤。",
+    "independentQuestionCount": 2200,
+    "uniqueIdCount": 2200,
+    "latestBaselineCommit": "71f273f8232b1f5462f4313cd32b9f233d0faaa3"
   },
   "gradeDistribution": {
     "五年級": 290,
-    "六年級": 490,
+    "六年級": 540,
     "高一": 373,
-    "高二": 574,
+    "高二": 624,
     "高三": 373
   }
 }
