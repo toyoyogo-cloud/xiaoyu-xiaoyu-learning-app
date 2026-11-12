@@ -1,8 +1,8 @@
 {
   "title": "1000題題庫建置規格",
   "target": 1000,
-  "currentVerifiedNewGradeSpecificQuestions": 899,
-  "targetRemainder": 101,
+  "currentVerifiedNewGradeSpecificQuestions": 1000,
+  "targetRemainder": 0,
   "updatedAt": "2026-11-12",
   "distributionTarget": [
     {
@@ -130,6 +130,12 @@
       "added": 100,
       "coverage": "國小五年級20題、六年級20題；高中高一、高二、高三各20題。涵蓋國小國語、數學、自然、社會、英語及高中國文、英文、數學、歷史、地理、公民、物理、化學、生物、地球科學。",
       "validation": "100題；ID為b21-001至b21-100。四個不同選項、答案索引0至3、解析非空、指定年級各20題；與第8至20批799題比對ID及正規化題幹無重複。程式規則檢查，尚未經教師逐題審閱。"
+    },
+    {
+      "batch": 22,
+      "added": 101,
+      "coverage": "國小五年級3題、六年級4題；高中高一32題、高二30題、高三32題。依既有配置補足國小300題、高中700題目標，涵蓋國語／國文、英文、數學、自然、社會、歷史、地理、公民、物理、化學、生物及地球科學。",
+      "validation": "101題；ID為b22-001至b22-101。四個不同選項、答案索引0至3、解析非空、指定年級分布正確；既有批次比對曾發現一個通用英文題幹，已改寫為不同的否定副詞倒裝題；其他題目未發現完全相同正規化題幹。主要計算題獨立重算通過。程式規則檢查，尚未經教師逐題審閱。"
     }
   ],
   "activeScope": {
@@ -159,20 +165,20 @@
     ]
   },
   "lastBatchDistribution": {
-    "五年級": 20,
-    "六年級": 20,
-    "高一": 20,
-    "高二": 20,
-    "高三": 20
+    "五年級": 3,
+    "六年級": 4,
+    "高一": 32,
+    "高二": 30,
+    "高三": 32
   },
-  "lastBatchFile": "data/question-bank-batch-21.js",
+  "lastBatchFile": "data/question-bank-batch-22.js",
   "currentIntegration": {
-    "indexHtml": "data/question-bank-batch-21.js loaded; EXTRA21_GRADE_BANK included in bankFor() grade/subject filtering",
-    "serviceWorkerCache": "xy-learning-v25",
-    "serviceWorkerAsset": "data/question-bank-batch-21.js"
+    "indexHtml": "data/question-bank-batch-22.js loaded; EXTRA22_GRADE_BANK included in bankFor() grade/subject filtering",
+    "serviceWorkerCache": "xy-learning-v26",
+    "serviceWorkerAsset": "data/question-bank-batch-22.js"
   },
-  "currentIndependentBatchQuestions": 899,
-  "currentIndependentBatchRange": "第8至第21批",
-  "currentVerifiedQuestionsNote": "currentVerifiedQuestions 為 index.html 內嵌示範題的歷史盤點欄位，不含獨立批次檔；currentVerifiedNewGradeSpecificQuestions 與 currentIndependentBatchQuestions 僅統計第8至第21批獨立題庫，並非教師審核數。",
+  "currentIndependentBatchQuestions": 1000,
+  "currentIndependentBatchRange": "第8至第22批",
+  "currentVerifiedQuestionsNote": "currentVerifiedQuestions 為 index.html 內嵌示範題的歷史盤點欄位，不含獨立批次檔；currentVerifiedNewGradeSpecificQuestions 與 currentIndependentBatchQuestions 僅統計第8至第22批獨立題庫，並非教師審核數。",
   "legacyFieldNotes": "currentVerifiedQuestions 保留內嵌示範題歷史盤點值；獨立批次累計以 currentIndependentBatchQuestions 為準。rule-checked 僅代表程式結構與文字規則檢查，並非教師審核。"
 }
