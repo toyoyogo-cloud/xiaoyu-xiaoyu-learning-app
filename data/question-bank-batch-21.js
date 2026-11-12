@@ -175,7 +175,7 @@ window.EXTRA21_GRADE_BANK = [
     "subject": "自然",
     "d": "進階",
     "t": "植物蒸散觀察",
-    "q": "研究者用透明塑膠袋套住一盆有葉植物，袋口綁緊，放在明亮處一段時間後，袋內壁出現小水珠。最合理的解釋是什麼？",
+    "q": "研究者先用防水膜覆蓋盆土，再用透明塑膠袋套住葉片並綁緊袋口。放在明亮處一段時間後，袋內壁出現水珠。最合理的解釋是什麼？",
     "o": [
       "土壤中的泥沙變成水珠",
       "葉片散出的水蒸氣遇冷凝結",
@@ -322,7 +322,7 @@ window.EXTRA21_GRADE_BANK = [
     "subject": "社會",
     "d": "挑戰",
     "t": "文化資產保存參與",
-    "q": "地方要修復一座具有原住民族歷史意義的傳統建築。下列哪種做法最能尊重文化主體？",
+    "q": "According to the information, which sentence is true?",
     "o": [
       "由外地設計者單方面決定所有細節",
       "只保留外觀，完全不詢問部落",
@@ -1078,7 +1078,7 @@ window.EXTRA21_GRADE_BANK = [
     "subject": "公民",
     "d": "進階",
     "t": "契約成立要件",
-    "q": "店家公告一台二手腳踏車售價3,000元，顧客表示願意以該價格購買，店家也同意成交。這最能說明契約成立中的哪種關係？",
+    "q": "甲對乙說：「我願以3,000元出售這台腳踏車。」乙回答：「我接受。」甲隨即確認成交。這段互動最能說明契約成立中的哪種關係？",
     "o": [
       "要約與承諾合致",
       "單方面沉默即代表同意",
@@ -1086,7 +1086,7 @@ window.EXTRA21_GRADE_BANK = [
       "契約必須由法院先核准"
     ],
     "a": 0,
-    "e": "店家提出交易條件可構成要約，顧客表示接受且店家同意，雙方意思表示合致時，契約可能成立；仍須依個案判斷。",
+    "e": "甲提出具體交易條件，乙表示接受，甲再確認成交，呈現雙方要約與承諾合致的過程；契約成立仍須符合相關法律要件。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心素養與學科概念原創編寫；非歷屆試題原文",
@@ -1750,15 +1750,15 @@ window.EXTRA21_GRADE_BANK = [
     "subject": "英文",
     "d": "進階",
     "t": "代名詞指涉",
-    "q": "Read: “The research team interviewed the farmers before publishing its report. They also checked the weather records.” In this context, who does “They” most naturally refer to?",
+    "q": "Read: “The research team interviewed the farmers before publishing its report. The team also checked the weather records.” What does “The team” refer to?",
     "o": [
       "The farmers",
-      "The research team members",
+      "The research group",
       "The weather records",
       "The report"
     ],
     "a": 1,
-    "e": "They 指能執行 checked 動作的人；依前文最自然承接研究團隊成員，而不是紀錄或報告。",
+    "e": "The phrase “The team” repeats the earlier noun phrase “the research team,” so it refers to the group of researchers.",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心素養與學科概念原創編寫；非歷屆試題原文",
