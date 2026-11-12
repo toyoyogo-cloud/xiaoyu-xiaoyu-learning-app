@@ -1,7 +1,7 @@
 {
   "title": "1000題題庫建置規格",
   "target": 1000,
-  "currentVerifiedNewGradeSpecificQuestions": 1200,
+  "currentVerifiedNewGradeSpecificQuestions": 1300,
   "targetRemainder": 0,
   "updatedAt": "2026-11-12",
   "distributionTarget": [
@@ -148,6 +148,12 @@
       "added": 100,
       "coverage": "國小五年級20題、六年級20題；高中高一、高二、高三各20題。國小國語、英語、數學、自然、社會；高中國文、英文、數學、歷史、地理、公民、物理、化學、生物、地球科學。包含閱讀推論、資料查證、生活計算、實驗概念、史料判讀、法治推理與跨單元應用。",
       "validation": "100題，ID為b24-001至b24-100；每題四個不同選項、答案索引0至3、解析與必要欄位完整，五個指定年級各20題。與第8至23批1,100題比對 ID 及正規化題幹無重複。index.html 載入及 bankFor() 年級／科目篩選、Service Worker v34 資產引用已整合。程式規則檢查，尚未經教師逐題審閱。"
+    },
+    {
+      "batch": 25,
+      "added": 100,
+      "coverage": "國小五年級20題、六年級20題；高中高一、高二、高三各20題。國小國語、數學、自然、社會、英語；高中國文、英文、數學、物理、化學、生物、地球科學、地理、歷史、公民。",
+      "validation": "100題，ID為b25-001至b25-100；四個不同選項、答案索引0至3、解析及必要欄位完整，五個指定年級各20題。與第8至24批既有題目比對，修正兩個題幹完全相同的草稿題後，完成批次內題幹唯一性檢查。程式規則檢查，尚未經教師逐題審閱。"
     }
   ],
   "activeScope": {
@@ -183,22 +189,22 @@
     "高二": 20,
     "高三": 20
   },
-  "lastBatchFile": "data/question-bank-batch-24.js",
+  "lastBatchFile": "data/question-bank-batch-25.js",
   "currentIntegration": {
-    "indexHtml": "Restored the last known syntactically valid UTF-8 index.html; loads question-bank batches 08-24 and includes EXTRA23_GRADE_BANK/EXTRA24_GRADE_BANK in bankFor() grade/subject filtering; loads academic competition batches 01-07; both inline JavaScript blocks pass syntax parsing.",
-    "serviceWorkerCache": "xy-learning-v34",
-    "serviceWorkerAsset": "data/question-bank-batch-23.js; data/question-bank-batch-24.js; academic-competition-batch-01.js through academic-competition-batch-07.js preserved"
+    "indexHtml": "Loads independent original question-bank batches 08-25; includes EXTRA25_GRADE_BANK in bankFor() grade/subject filtering; preserves academic competition batches 01-10 and existing quiz flows.",
+    "serviceWorkerCache": "xy-learning-v38",
+    "serviceWorkerAsset": "data/question-bank-batch-08.js through data/question-bank-batch-25.js; academic-competition-batch-01.js through batch-10 and existing image assets preserved"
   },
-  "currentIndependentBatchQuestions": 1200,
-  "currentIndependentBatchRange": "第8至第24批",
-  "currentVerifiedQuestionsNote": "currentVerifiedQuestions 為 index.html 內嵌示範題的歷史盤點欄位，不含獨立批次檔；currentVerifiedNewGradeSpecificQuestions 與 currentIndependentBatchQuestions 僅統計第8至第23批獨立題庫，並非教師審核數。",
-  "legacyFieldNotes": "currentVerifiedQuestions 保留內嵌示範題歷史盤點值；獨立批次累計以 currentIndependentBatchQuestions 為準。rule-checked 僅代表程式結構與文字規則檢查，並非教師審核。",
+  "currentIndependentBatchQuestions": 1300,
+  "currentIndependentBatchRange": "第8至第25批",
+  "currentVerifiedQuestionsNote": "currentVerifiedQuestions 為 index.html 內嵌示範題的歷史盤點欄位，不含獨立批次檔；currentVerifiedNewGradeSpecificQuestions 與 currentIndependentBatchQuestions 統計第8至第25批獨立題庫，不代表教師逐題審核數。",
+  "legacyFieldNotes": "currentVerifiedQuestions 保留內嵌示範題歷史盤點值；獨立批次累計以 currentIndependentBatchQuestions 為準；rule-checked 僅代表程式結構與文字規則檢查，並非教師審核。",
   "currentDistribution": {
-    "五年級": 190,
-    "六年級": 190,
-    "高一": 273,
-    "高二": 274,
-    "高三": 273
+    "五年級": 210,
+    "六年級": 210,
+    "高一": 293,
+    "高二": 294,
+    "高三": 293
   },
   "integrationAuditNote": "2026-11-12 main branch audit found two issues: batch23 existed but was not loaded by the then-current index.html or sw.js, and index.html contained a literal tool-output truncation marker inside inline JavaScript causing a syntax error. Restored the last known syntactically valid UTF-8 index.html from commit 193134e95bc9caa682b349d14adf91562528d2b6, then re-added academic competition batch 04-07 script tags and question bank batch24 integration. Service Worker v34 lists question bank batches 08-24 and academic competition batches 01-07. Browser-level interaction testing remains unperformed."
 }
