@@ -380,9 +380,28 @@
       "verifiedAt": "2026-11-13",
       "verificationStatus": "source-checked",
       "notes": "官方頁明示高中二年級、上學期及冊名；此映射不代表已核對具體單元目次。"
+    },
+    {
+      "id": "hanlin-h2-chemistry-i-matter-energy",
+      "schoolYear": "未標示",
+      "stage": "高中",
+      "grade": "高二",
+      "subject": "化學",
+      "semester": "上學期",
+      "publisher": "hanlin",
+      "volume": "選修化學(I)物質與能量",
+      "unitCode": "冊別層級",
+      "unitName": "物質與能量（冊別層級）",
+      "learningContent": "官方課本頁確認高中二年級、上學期及冊名；未提供可核對細分目次，僅限冊別層級，不據此推定具體單元或段考。",
+      "sourceType": "official-publisher",
+      "sourceUrl": "https://books.hanlin.com.tw/product/005021",
+      "sourceTitle": "翰林書城－高中課本選修化學(I)物質與能量",
+      "verifiedAt": "2026-11-13",
+      "verificationStatus": "source-checked",
+      "notes": "官方商品頁明示高中二年級、上學期及課本名稱「物質與能量」；本映射只證明冊別層級，不能推論細分單元或學校段考範圍。題目為原創，非教材或歷屆試題原文。"
     }
   ],
-  "mappingStatus": "partial-source-verified-12-mappings",
+  "mappingStatus": "partial-source-verified-13-mappings",
   "nextSteps": [
     "小六與高二既有題目由分類推定器依題幹、單元及知識點分類；低信心或無法核對者維持未分類。",
     "高二數學A三角函數、指數與對數、平面向量已建立翰林3A官方配套講義單元對照；段考次序仍為題庫推定。",
@@ -577,6 +596,16 @@
       "verifiedAt": "2026-11-13",
       "verificationStatus": "source-checked",
       "notes": "確認國小六年級上學期社會配套；頁面未公開具體單元目次，因此不據此標記出版社單元。"
+    },
+    {
+      "id": "hanlin-h2-chemistry-i",
+      "publisher": "hanlin",
+      "sourceType": "official-publisher",
+      "sourceUrl": "https://books.hanlin.com.tw/product/005021",
+      "sourceTitle": "翰林書城－高中課本選修化學(I)物質與能量",
+      "verifiedAt": "2026-11-13",
+      "verificationStatus": "source-checked",
+      "notes": "官方頁明示高中二年級、上學期及冊名；未公開細分目次，僅可作冊別層級對照。"
     }
   ],
   "classificationAudit": {
@@ -688,6 +717,19 @@
         "curriculumCore": 16
       }
     },
-    "note": "既有小六290題中，68題依常見數學主題群推定學期與段考（中信心），222題因沒有可靠單元／版本次序依據而未分類；既有高二374題中，39題依翰林3A單元次序推定段考、42題有翰林冊別／單元來源對照、293題保留108課綱共同核心且學期／段考未分類。第30批小六50題中9題數學依題庫主題序列推定、1題康軒社會六上2-1來源核對、40題未推定學期；高二50題中18題數學依翰林3A單元順序推定、16題物理／化學有官方冊別或單元對照、16題共同核心未分類。所有段考分類僅供複習建議，不是學校正式範圍。"
+    "note": "既有小六290題中，68題依常見數學主題群推定學期與段考（中信心），222題因沒有可靠單元／版本次序依據而未分類；既有高二374題中，39題依翰林3A單元次序推定段考、42題有翰林冊別／單元來源對照、293題保留108課綱共同核心且學期／段考未分類。第30批小六50題中9題數學依題庫主題序列推定、1題康軒社會六上2-1來源核對、40題未推定學期；高二50題中18題數學依翰林3A單元順序推定、16題物理／化學有官方冊別或單元對照、16題共同核心未分類。所有段考分類僅供複習建議，不是學校正式範圍。",
+    "batch32": {
+      "total": 100,
+      "gradeDistribution": {
+        "六年級": 50,
+        "高二": 50
+      },
+      "publisherSourceVerified": 3,
+      "curriculumCore": 97,
+      "upperSemester": 3,
+      "unassignedSemester": 97,
+      "examUnassigned": 100,
+      "note": "段考未指定；出版社映射僅含1題翰林數學3A單元對照與2題翰林化學(I)冊別層級對照。"
+    }
   }
 }
