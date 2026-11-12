@@ -426,7 +426,7 @@ window.EXTRA17_GRADE_BANK = [
     "subject": "英語",
     "d": "進階",
     "t": "副詞比較級",
-    "q": "Choose the correct sentence.",
+    "q": "Mia and Ben are giving directions to a new student. Which sentence correctly compares how clearly they speak?",
     "o": [
       "Mia speaks more clearly than Ben.",
       "Mia speaks clearlier than Ben.",
