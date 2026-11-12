@@ -1586,32 +1586,24 @@
       "照顧工作不再需要任何人"
     ],
     "a": 0,
-    "e": {
-      "semester": "上學期",
-      "examPeriod": "unassigned",
-      "classificationBasis": "publisher-source-verified",
-      "confidence": "medium",
-      "publisherStatus": "publisher-mapped",
-      "publisherMappings": [
-        {
-          "publisher": "knsh",
-          "mappingId": "knsh-g6-social-6a-u2-1"
-        }
-      ],
-      "classificationNotes": "依既有康軒官方教學資源可核對六上2-1主題；未有學校正式範圍，段考維持未分類。"
-    },
+    "e": "這反映家庭角色與性別分工隨社會變遷而更加多元；仍應尊重不同家庭的實際情況。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱共同核心概念原創編寫；非出版社或歷屆試題原文。",
     "reviewStatus": "rule-checked",
     "learningContent": "社會變遷與家庭分工",
-    "semester": "unassigned",
+    "semester": "上學期",
     "examPeriod": "unassigned",
-    "classificationBasis": "curriculum-core",
-    "confidence": "low",
-    "publisherStatus": "curriculum-core",
-    "publisherMappings": [],
-    "classificationNotes": "依108課綱共同核心概念原創編寫；沒有足夠可靠資料確認出版社細分單元或學校段考範圍，因此維持未分類。"
+    "classificationBasis": "publisher-source-verified",
+    "confidence": "medium",
+    "publisherStatus": "publisher-mapped",
+    "publisherMappings": [
+      {
+        "publisher": "knsh",
+        "mappingId": "knsh-g6-social-6a-u2-1"
+      }
+    ],
+    "classificationNotes": "依既有康軒官方教學資源可核對六上2-1主題；未有學校正式範圍，段考維持未分類。"
   },
   {
     "id": "b33-051",
