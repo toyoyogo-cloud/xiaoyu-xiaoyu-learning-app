@@ -183,7 +183,7 @@
       "batch": 30,
       "added": 100,
       "coverage": "國小六年級50題（國語、數學、自然、社會、英語各10題）；高中高二50題（數學18、物理8、化學8、生物5、地理4、歷史2、公民3、英文1、國文1）。其他年級不新增。",
-      "validation": "b30-001至b30-100共100題；六年級50、高二50；ID唯一；每題四個不同選項、答案索引0至3、解析與分類欄位完整。初次跨批次比對發現2題完全相同題幹，已改寫b30-046與b30-049；修正後分組與第8至29批1,700題比對無完全相同正規化題幹。新增既有小六／高二分類推定器、教材對照資料及學期／段考／出版社篩選。段考為題庫推定複習建議，非學校正式範圍。Service Worker升級v53。程式規則檢查（rule-checked），未經教師逐題審閱。 小六既有數學主題群分類推定規則已加入；第30批小六數學9題已標上／下學期與三次段考推定，康軒六上2-1社會1題來源核對；高二數學18題依翰林3A單元順序推定段考，物理8題對照翰林選修物理(II)上學期，化學8題對照翰林選修化學(III)全學年。其他不確定者維持未分類。"
+      "validation": "b30-001至b30-100共100題；六年級50、高二50；ID唯一；每題四個不同選項、答案索引0至3、解析與分類欄位完整。初次跨批次比對發現2題完全相同題幹，已改寫b30-046與b30-049；修正後分組與第8至29批1,700題比對無完全相同正規化題幹。新增既有小六／高二分類推定器、教材對照資料及學期／段考／出版社篩選。段考為題庫推定複習建議，非學校正式範圍。Service Worker升級v53。程式規則檢查（rule-checked），未經教師逐題審閱。 小六既有數學主題群分類推定規則已加入；第30批小六數學9題已標上／下學期與三次段考推定，康軒六上2-1社會1題來源核對；高二數學18題依翰林3A單元順序推定段考，物理8題對照翰林選修物理(II)上學期，化學8題對照翰林選修化學(III)全學年。其他不確定者維持未分類。 最後複核將b30-030補明支點兩側的垂直向下施力，確保力矩方向相反；重新核算兩側力矩皆為6 N·m。"
     }
   ],
   "activeScope": {
@@ -219,7 +219,7 @@
   "lastBatchFile": "data/question-bank-batch-30.js",
   "currentIntegration": {
     "indexHtml": "Main branch audit on 2026-11-13: loads original question-bank batches 08-30; EXTRA30_GRADE_BANK is filtered by stage, grade and subject through bankFor(); setup filters now follow grade → semester → exam → subject → unit, with publisher filter and visible classification basis/confidence. question-classification-inference.js classifies existing sixth-grade and high-two questions conservatively. Academic-competition batches 01-14 and existing quiz flows are preserved.",
-    "serviceWorkerCache": "xy-learning-v54",
+    "serviceWorkerCache": "xy-learning-v55",
     "serviceWorkerAsset": "question-bank-batch-08.js through batch-30.js; question-classification-inference.js; textbook-alignment.json; academic-competition-batch-01.js through batch-14.js; existing image assets preserved"
   },
   "currentIndependentBatchQuestions": 1800,
@@ -258,7 +258,7 @@
       "高三": 373
     },
     "indexBatchReferences": "08-30",
-    "serviceWorkerCache": "xy-learning-v54",
+    "serviceWorkerCache": "xy-learning-v55",
     "academicCompetitionCacheReferences": "01-14",
     "classificationScope": {
       "existing": {
@@ -295,6 +295,6 @@
       "classifier": "data/question-classification-inference.js",
       "note": "未分類代表缺乏可靠學期／段考依據；題庫推定不是學校正式段考範圍。"
     },
-    "note": "第30批新增100題，僅六年級50題與高二50題；其他年級題庫保留且本批不新增。第30批兩題在跨批次比對後改寫，修正後與第8至29批1,700題分組比對無完全相同正規化題幹。新分類推定器依題幹、單元與知識點標記學期、段考、依據、信心與出版社映射；無可靠依據者維持未分類。出版社對照僅限textbook-alignment.json列出的8筆官方來源映射，未核對的南一／其他單元標示共同核心或待核對。段考分類僅供複習建議，不是學校正式範圍。全庫仍保留兩組舊批次完全重複題幹（b9-006/b13-013、b13-020/b20-065），本次未刪改。 分類推定稽核：既有小六290題中68題依常見數學主題群推定、222題未分類；既有高二374題中39題依翰林3A單元次序推定、42題有出版社冊別／單元來源、293題未分類。第30批新增題目依逐題分類欄位標記。"
+    "note": "第30批新增100題，僅六年級50題與高二50題；其他年級題庫保留且本批不新增。第30批兩題在跨批次比對後改寫，修正後與第8至29批1,700題分組比對無完全相同正規化題幹。新分類推定器依題幹、單元與知識點標記學期、段考、依據、信心與出版社映射；無可靠依據者維持未分類。出版社對照僅限textbook-alignment.json列出的8筆官方來源映射，未核對的南一／其他單元標示共同核心或待核對。段考分類僅供複習建議，不是學校正式範圍。全庫仍保留兩組舊批次完全重複題幹（b9-006/b13-013、b13-020/b20-065），本次未刪改。 分類推定稽核：既有小六290題中68題依常見數學主題群推定、222題未分類；既有高二374題中39題依翰林3A單元次序推定、42題有出版社冊別／單元來源、293題未分類。第30批新增題目依逐題分類欄位標記。 最後複核補明b30-030槓桿施力方向，避免力矩方向歧義；Service Worker更新至v55。"
   }
 }
