@@ -362,7 +362,7 @@
     "topic": "電子郵件重點擷取",
     "d": "進階",
     "difficulty": "進階",
-    "q": "Read the message: “Hi Leo, please bring your library card and the book you borrowed. We will return them before lunch.” What should Leo bring?",
+    "q": "According to Leo's message, which two items must he take to the library?",
     "o": [
       "A library card and a book",
       "A lunch box and a map",
@@ -394,7 +394,7 @@
     "topic": "現在完成式與時間起點",
     "d": "進階",
     "difficulty": "進階",
-    "q": "Amy moved to Tainan in 2022 and still lives there. Which sentence best describes her situation?",
+    "q": "Amy moved to Tainan in 2022 and continues to live there. Which verb phrase correctly expresses this ongoing situation?",
     "o": [
       "Amy lived in Tainan for one day.",
       "Amy has lived in Tainan since 2022.",
@@ -458,7 +458,7 @@
     "topic": "情態動詞語意辨析",
     "d": "進階",
     "difficulty": "進階",
-    "q": "The museum sign says, “You mustn't touch the paintings.” What does it mean?",
+    "q": "A museum visitor guide says that paintings must not be touched. Which sentence restates this rule?",
     "o": [
       "Visitors are not allowed to touch the paintings.",
       "Visitors do not need to see the paintings.",
@@ -490,7 +490,7 @@
     "topic": "過去進行式與事件背景",
     "d": "進階",
     "difficulty": "進階",
-    "q": "When the lights went out, we _____ a science video.",
+    "q": "A power cut happened while our class was watching a science video. Which verb phrase describes the activity already in progress?",
     "o": [
       "watch",
       "watched",
@@ -3234,7 +3234,7 @@
     "topic": "假設語氣與情境推論",
     "d": "進階",
     "difficulty": "進階",
-    "q": "Choose the sentence that correctly describes an unreal or unlikely present situation.",
+    "q": "The city currently has very few bike lanes. Which sentence describes a hypothetical result if it built more?",
     "o": [
       "If the city had more bike lanes, fewer people would drive.",
       "If the city has more bike lanes, fewer people drove yesterday.",
