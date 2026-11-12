@@ -349,7 +349,7 @@
       "stage": "高中",
       "grade": "高二",
       "subject": "化學",
-      "semester": "上學期",
+      "semester": "下學期",
       "publisher": "hanlin",
       "volume": "選修化學(II)物質構造與反應速率",
       "unitCode": "冊名主題",
@@ -360,7 +360,7 @@
       "sourceTitle": "翰林書城－高中課本選修化學(II)物質構造與反應速率",
       "verifiedAt": "2026-11-13",
       "verificationStatus": "source-checked",
-      "notes": "官方頁明示高中二年級、上學期及課本名稱；本映射限冊名主題層級。"
+      "notes": "官方頁明示高中二年級、下學期及課本名稱「物質構造與反應速率」；本映射只證明冊名／學期層級，不能推論細分單元或學校段考範圍。"
     },
     {
       "id": "hanlin-h2-biology-ii-plant",

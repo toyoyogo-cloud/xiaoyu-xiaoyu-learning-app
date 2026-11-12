@@ -1,4 +1,4 @@
-/* 第三十一批108課綱原創題庫：國小六年級50題、高中高二50題；教材映射僅限可核對官方來源。 */
+/* 第三十一批108課綱原創題庫：國小六年級50題、高中高二50題；其他年級不新增。 */
 (function(){window.EXTRA31_GRADE_BANK=[
   {
     "id": "b31-001",
@@ -2333,7 +2333,7 @@
     "sourceType": "original-curriculum-aligned",
     "reviewStatus": "rule-checked",
     "learningContent": "反應速率與溫度",
-    "semester": "上學期",
+    "semester": "下學期",
     "examPeriod": "unassigned",
     "classificationBasis": "publisher-source-verified",
     "confidence": "medium",
@@ -2345,8 +2345,8 @@
         "verificationStatus": "source-checked"
       }
     ],
-    "classificationNotes": "翰林官方課本頁確認高二上選修化學(II)冊名為「物質構造與反應速率」；本題對應冊名所示主題，不推定段考。",
-    "sourceRef": "題目為原創；教材冊別／單元對照僅參照出版社官方商品頁或目次，非教材或歷屆試題原文。"
+    "classificationNotes": "翰林官方課本頁確認高中二年級下學期選修化學(II)冊名為「物質構造與反應速率」；此處限冊名／主題層級對照，不推定細分單元或段考。",
+    "sourceRef": "翰林官方教材頁確認高中二年級下學期選修化學(II)「物質構造與反應速率」；本題為108課綱取向原創題，非教材或歷屆試題原文。"
   },
   {
     "id": "b31-074",
@@ -2369,7 +2369,7 @@
     "sourceType": "original-curriculum-aligned",
     "reviewStatus": "rule-checked",
     "learningContent": "催化劑與活化能",
-    "semester": "上學期",
+    "semester": "下學期",
     "examPeriod": "unassigned",
     "classificationBasis": "publisher-source-verified",
     "confidence": "medium",
@@ -2381,8 +2381,8 @@
         "verificationStatus": "source-checked"
       }
     ],
-    "classificationNotes": "翰林官方課本頁確認高二上選修化學(II)冊名為「物質構造與反應速率」；本題對應冊名所示主題，不推定段考。",
-    "sourceRef": "題目為原創；教材冊別／單元對照僅參照出版社官方商品頁或目次，非教材或歷屆試題原文。"
+    "classificationNotes": "翰林官方課本頁確認高中二年級下學期選修化學(II)冊名為「物質構造與反應速率」；此處限冊名／主題層級對照，不推定細分單元或段考。",
+    "sourceRef": "翰林官方教材頁確認高中二年級下學期選修化學(II)「物質構造與反應速率」；本題為108課綱取向原創題，非教材或歷屆試題原文。"
   },
   {
     "id": "b31-075",
@@ -2585,7 +2585,7 @@
     "sourceType": "original-curriculum-aligned",
     "reviewStatus": "rule-checked",
     "learningContent": "反應級數與速率資料",
-    "semester": "上學期",
+    "semester": "下學期",
     "examPeriod": "unassigned",
     "classificationBasis": "publisher-source-verified",
     "confidence": "medium",
@@ -2597,8 +2597,8 @@
         "verificationStatus": "source-checked"
       }
     ],
-    "classificationNotes": "翰林官方課本頁確認高二上選修化學(II)冊名為「物質構造與反應速率」；本題對應冊名所示主題，不推定段考。",
-    "sourceRef": "題目為原創；教材冊別／單元對照僅參照出版社官方商品頁或目次，非教材或歷屆試題原文。"
+    "classificationNotes": "翰林官方課本頁確認高中二年級下學期選修化學(II)冊名為「物質構造與反應速率」；此處限冊名／主題層級對照，不推定細分單元或段考。",
+    "sourceRef": "翰林官方教材頁確認高中二年級下學期選修化學(II)「物質構造與反應速率」；本題為108課綱取向原創題，非教材或歷屆試題原文。"
   },
   {
     "id": "b31-081",

@@ -1,4 +1,4 @@
-/* 第三十三批108課綱原創題庫：國小六年級50題、高中高二50題；其他年級不新增。出版社標籤僅使用既有官方來源可核對的冊別／單元。 */
+/* 第三十三批108課綱原創題庫：國小六年級50題、高中高二50題；其他年級不新增。 */
 (function(){window.EXTRA33_GRADE_BANK=[
   {
     "id": "b33-001",
@@ -2366,10 +2366,10 @@
     "e": "粉末具有較大的總接觸表面積，單位時間內較多粒子能接觸反應，因此通常反應較快。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
-    "sourceRef": "依108課綱共同核心概念原創編寫；非出版社或歷屆試題原文。",
+    "sourceRef": "翰林官方教材頁確認高中二年級下學期選修化學(II)「物質構造與反應速率」；本題為108課綱取向原創題，非教材或歷屆試題原文。",
     "reviewStatus": "rule-checked",
     "learningContent": "反應速率與表面積",
-    "semester": "上學期",
+    "semester": "下學期",
     "examPeriod": "unassigned",
     "classificationBasis": "publisher-source-verified",
     "confidence": "medium",
@@ -2380,7 +2380,7 @@
         "mappingId": "hanlin-h2-chemistry-ii-structure-rate"
       }
     ],
-    "classificationNotes": "依既有翰林官方教材來源作冊別／單元層級對照；不推定學校段考次序，題目仍為原創而非教材原文。"
+    "classificationNotes": "翰林官方課本頁確認高中二年級下學期選修化學(II)冊名為「物質構造與反應速率」；此處限冊名／主題層級對照，不推定細分單元或段考。"
   },
   {
     "id": "b33-072",

@@ -2489,10 +2489,10 @@
     "e": "催化劑降低活化能並加快正逆反應，不改變反應總焓變或平衡常數。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
-    "sourceRef": "依108課綱共同核心原創編寫；出版社對照依既有官方來源映射，非教材或歷屆試題原文。",
+    "sourceRef": "翰林官方教材頁確認高中二年級下學期選修化學(II)「物質構造與反應速率」；本題為108課綱取向原創題，非教材或歷屆試題原文。",
     "reviewStatus": "rule-checked",
     "learningContent": "催化劑與活化能",
-    "semester": "上學期",
+    "semester": "下學期",
     "examPeriod": "unassigned",
     "classificationBasis": "publisher-source-verified",
     "confidence": "medium",
@@ -2503,7 +2503,7 @@
         "mappingId": "hanlin-h2-chemistry-ii-structure-rate"
       }
     ],
-    "classificationNotes": "依既有已核對的出版社官方來源作冊別／單元層級對照；未推定學校段考，題目為原創而非教材原文。"
+    "classificationNotes": "翰林官方課本頁確認高中二年級下學期選修化學(II)冊名為「物質構造與反應速率」；此處限冊名／主題層級對照，不推定細分單元或段考。"
   },
   {
     "id": "b34-076",
@@ -2595,10 +2595,10 @@
     "e": "最外層是第三層，組態為3s²，因此最外層有2個電子。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
-    "sourceRef": "依108課綱共同核心原創編寫；出版社對照依既有官方來源映射，非教材或歷屆試題原文。",
+    "sourceRef": "翰林官方教材頁確認高中二年級下學期選修化學(II)「物質構造與反應速率」；本題為108課綱取向原創題，非教材或歷屆試題原文。",
     "reviewStatus": "rule-checked",
     "learningContent": "電子組態與價電子",
-    "semester": "上學期",
+    "semester": "下學期",
     "examPeriod": "unassigned",
     "classificationBasis": "publisher-source-verified",
     "confidence": "medium",
@@ -2609,7 +2609,7 @@
         "mappingId": "hanlin-h2-chemistry-ii-structure-rate"
       }
     ],
-    "classificationNotes": "依既有已核對的出版社官方來源作冊別／單元層級對照；未推定學校段考，題目為原創而非教材原文。"
+    "classificationNotes": "翰林官方課本頁確認高中二年級下學期選修化學(II)冊名為「物質構造與反應速率」；此處限冊名／主題層級對照，不推定細分單元或段考。"
   },
   {
     "id": "b34-079",
