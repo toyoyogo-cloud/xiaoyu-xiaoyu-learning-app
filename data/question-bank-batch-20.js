@@ -343,7 +343,7 @@ window.EXTRA20_GRADE_BANK = [
     "subject": "英語",
     "d": "基礎",
     "t": "現在簡單式",
-    "q": "Choose the correct sentence.",
+    "q": "Choose the sentence that correctly describes Mia's daily routine.",
     "o": [
       "Mia walk to school every day.",
       "Mia walks to school every day.",
@@ -784,7 +784,7 @@ window.EXTRA20_GRADE_BANK = [
     "subject": "英語",
     "d": "基礎",
     "t": "形容詞比較級",
-    "q": "Choose the correct sentence.",
+    "q": "Which sentence correctly tells what the group did yesterday?",
     "o": [
       "This road is more wide than that one.",
       "This road is wider than that one.",
@@ -910,7 +910,7 @@ window.EXTRA20_GRADE_BANK = [
     "subject": "英文",
     "d": "進階",
     "t": "被動語態",
-    "q": "Choose the correct sentence.",
+    "q": "Which sentence correctly compares the widths of two roads?",
     "o": [
       "The report wrote by Nina yesterday.",
       "The report was written by Nina yesterday.",
@@ -1309,7 +1309,7 @@ window.EXTRA20_GRADE_BANK = [
     "subject": "英文",
     "d": "進階",
     "t": "介系詞與連接詞",
-    "q": "Choose the correct sentence.",
+    "q": "Which sentence correctly uses the past passive voice?",
     "o": [
       "Despite it was raining, we continued the game.",
       "Despite the rain, we continued the game.",
@@ -1729,7 +1729,7 @@ window.EXTRA20_GRADE_BANK = [
     "subject": "英文",
     "d": "進階",
     "t": "倒裝句",
-    "q": "Choose the correct sentence.",
+    "q": "Which sentence correctly uses inversion after the phrase 'Not until'?",
     "o": [
       "Not until the meeting ended we understood the decision.",
       "Not until the meeting ended did we understand the decision.",
