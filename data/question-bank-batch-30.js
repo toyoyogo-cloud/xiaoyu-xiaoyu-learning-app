@@ -1319,15 +1319,15 @@
     "unit": "頻率問句",
     "t": "頻率問句",
     "d": "日常溝通",
-    "q": "A: How often do you visit the library? B: _____.",
+    "q": "A notice says, “The art room is closed on Friday. Students may collect finished projects from the office after 3 p.m.” Where can a student collect a project at 3:30 p.m. on Friday?",
     "o": [
-      "At four o'clock",
-      "Three times a week",
-      "In the reading room",
-      "For two hours yesterday"
+      "Inside the closed art room",
+      "At the school office",
+      "At the library before noon",
+      "Only at home on Monday"
     ],
     "a": 1,
-    "e": "How often 詢問頻率，Three times a week 表示每週三次；其他選項回答時間、地點或過去時長。",
+    "e": "The notice says the art room is closed on Friday and finished projects can be collected from the office after 3 p.m.; 3:30 p.m. meets both conditions.",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依國家教育研究院公開108課綱課程綱要／課程手冊與學科共同核心原創編寫；非出版社或歷屆試題原文",
