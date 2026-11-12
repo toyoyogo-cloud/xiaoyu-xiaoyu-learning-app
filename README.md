@@ -193,3 +193,10 @@ Repository → Settings → Pages → Build and deployment → Deploy from a bra
 - `index.html` 內嵌題庫共辨識 485 個題幹欄位，正規化後有 483 個不同題幹。
 - 第八至第十九批獨立題庫共 699 題，699 個 ID 唯一，題幹亦無批次間重複。
 - 以題幹文字去除空白後比對，批次題幹與內嵌題庫無重複，合計 1,182 個不同題幹。此為文字去重統計，不等同教師對語意近似題的審查。
+
+
+## 學藝活動歷屆試題任務
+
+- 獨立題庫規格、來源 PDF 清單、去重結果、答案核對狀態與接續開發清單，請見 [`docs/academic-competition-progress.md`](docs/academic-competition-progress.md)。
+- 本功能規劃為依科目抽題，每次隨機 30 題；年度與原始題號只保留作為來源資訊。
+- 僅完成答案核對的題目才會進入正式抽題池；此功能仍在整理與開發中，尚未對外啟用。
