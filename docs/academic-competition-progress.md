@@ -94,7 +94,7 @@
 - [x] 實作每次最多30題隨機抽題、同場不重複、作答、計分、解析及錯題檢討；題庫不足30題時停用測驗，不重複抽題。
 - [x] 測試題目隨機性、同場不重複、來源 metadata、手機版及既有功能回歸（30題完整測驗、5題原創題庫流程、紀錄隔離與圖檔載入均通過）。
 - [x] 更新 README 與 Service Worker 快取版本。
-- [ ] 提交 GitHub 後確認 GitHub Pages 部署成功。
+- [x] 已提交 GitHub；Pages build and deployment 於 2026-11-12 成功（commit `cd7d4c0`，workflow run `43189080130`）。
 
 ## 重要接續規則
 
