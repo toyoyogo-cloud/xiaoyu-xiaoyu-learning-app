@@ -432,6 +432,66 @@
       "verifiedAt": "2026-11-13",
       "verificationStatus": "source-checked",
       "notes": "本次僅對照有官方教學資源PDF明示的六上社會2-1；其他版本單元仍待核對。"
+    },
+    {
+      "id": "hanlin-g6-chinese-6a",
+      "publisher": "hanlin",
+      "sourceType": "official-publisher",
+      "sourceUrl": "https://books.hanlin.com.tw/product/3110111",
+      "sourceTitle": "翰林書城－國小作業簿國語6上",
+      "verifiedAt": "2026-11-13",
+      "verificationStatus": "source-checked",
+      "notes": "確認國小六年級上學期國語配套；頁面未公開具體單元目次，因此不據此標記出版社單元。"
+    },
+    {
+      "id": "hanlin-g6-math-6a",
+      "publisher": "hanlin",
+      "sourceType": "official-publisher",
+      "sourceUrl": "https://books.hanlin.com.tw/product/1030111",
+      "sourceTitle": "翰林書城－國小課本數學6上",
+      "verifiedAt": "2026-11-13",
+      "verificationStatus": "source-checked",
+      "notes": "確認國小六年級上學期數學課本；頁面未公開具體單元目次，因此不據此標記出版社單元。"
+    },
+    {
+      "id": "hanlin-g6-math-6b",
+      "publisher": "hanlin",
+      "sourceType": "official-publisher",
+      "sourceUrl": "https://books.hanlin.com.tw/product/1030121",
+      "sourceTitle": "翰林書城－國小課本數學6下",
+      "verifiedAt": "2026-11-13",
+      "verificationStatus": "source-checked",
+      "notes": "確認國小六年級下學期數學課本；頁面未公開具體單元目次，因此不據此標記出版社單元。"
+    },
+    {
+      "id": "hanlin-g6-science-6a",
+      "publisher": "hanlin",
+      "sourceType": "official-publisher",
+      "sourceUrl": "https://books.hanlin.com.tw/product/1140111",
+      "sourceTitle": "翰林書城－國小習作自然科學6上",
+      "verifiedAt": "2026-11-13",
+      "verificationStatus": "source-checked",
+      "notes": "確認國小六年級上學期自然科學配套；頁面未公開具體單元目次，因此不據此標記出版社單元。"
+    },
+    {
+      "id": "hanlin-g6-science-6b",
+      "publisher": "hanlin",
+      "sourceType": "official-publisher",
+      "sourceUrl": "https://books.hanlin.com.tw/product/2040121",
+      "sourceTitle": "翰林書城－國小自修自然科學6下",
+      "verifiedAt": "2026-11-13",
+      "verificationStatus": "source-checked",
+      "notes": "確認國小六年級下學期自然科學配套；頁面未公開具體單元目次，因此不據此標記出版社單元。"
+    },
+    {
+      "id": "hanlin-g6-social-6a",
+      "publisher": "hanlin",
+      "sourceType": "official-publisher",
+      "sourceUrl": "https://books.hanlin.com.tw/product/3250111",
+      "sourceTitle": "翰林書城－國小課堂練習社會6上",
+      "verifiedAt": "2026-11-13",
+      "verificationStatus": "source-checked",
+      "notes": "確認國小六年級上學期社會配套；頁面未公開具體單元目次，因此不據此標記出版社單元。"
     }
   ],
   "classificationAudit": {
@@ -452,6 +512,82 @@
       "高二": 50
     },
     "runtimeClassifier": "data/question-classification-inference.js",
-    "policy": "每題依題幹、t/unit與知識點產生 semester、examPeriod、classificationBasis、confidence、publisherStatus、publisherMappings。無法可靠推定者保持 unassigned；段考為題庫複習建議，不是學校正式範圍。"
+    "policy": "每題依題幹、t/unit與知識點產生 semester、examPeriod、classificationBasis、confidence、publisherStatus、publisherMappings。無法可靠推定者保持 unassigned；段考為題庫複習建議，不是學校正式範圍。",
+    "existingClassificationCounts": {
+      "六年級": {
+        "total": 290,
+        "semester": {
+          "unassigned": 290
+        },
+        "examPeriod": {
+          "unassigned": 290
+        },
+        "classificationBasis": {
+          "unassigned": 290
+        },
+        "publisherStatus": {
+          "curriculumCore": 290
+        }
+      },
+      "高二": {
+        "total": 374,
+        "semester": {
+          "上學期": 63,
+          "全學年": 18,
+          "unassigned": 293
+        },
+        "examPeriod": {
+          "第一次段考": 10,
+          "第二次段考": 19,
+          "第三次段考": 10,
+          "unassigned": 335
+        },
+        "classificationBasis": {
+          "questionBankInference": 39,
+          "publisherSourceVerified": 42,
+          "unassigned": 293
+        },
+        "publisherStatus": {
+          "publisherMapped": 81,
+          "curriculumCore": 293
+        }
+      }
+    },
+    "newBatchClassificationCounts": {
+      "六年級": {
+        "total": 50,
+        "semester": {
+          "上學期": 1,
+          "unassigned": 49
+        },
+        "examPeriod": {
+          "unassigned": 50
+        },
+        "publisherMapped": 1,
+        "curriculumCore": 49
+      },
+      "高二": {
+        "total": 50,
+        "semester": {
+          "上學期": 26,
+          "全學年": 8,
+          "unassigned": 16
+        },
+        "examPeriod": {
+          "第一次段考": 6,
+          "第二次段考": 6,
+          "第三次段考": 6,
+          "unassigned": 32
+        },
+        "classificationBasis": {
+          "questionBankInference": 18,
+          "publisherSourceVerified": 16,
+          "curriculumCore": 16
+        },
+        "publisherMapped": 34,
+        "curriculumCore": 16
+      }
+    },
+    "note": "既有小六290題目前因未取得足以可靠確認學期／段考與單元順序的來源，保守標記未分類；高二374題中，39題依翰林3A單元順序推定段考，42題有翰林冊別／單元來源對照，其餘293題保留108課綱共同核心且學期／段考未分類。第30批新增題目則依逐題 metadata 標記。未分類不是漏標成正式範圍，而是避免猜測。"
   }
 }
