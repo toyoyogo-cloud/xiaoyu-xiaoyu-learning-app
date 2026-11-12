@@ -317,7 +317,8 @@
   "examOrganization": {
     "semesters": [
       "上學期",
-      "下學期"
+      "下學期",
+      "全學年"
     ],
     "exams": [
       "第一次段考",
@@ -339,7 +340,12 @@
       "sourceType",
       "sourceUrl",
       "verifiedAt",
-      "verificationStatus"
+      "verificationStatus",
+      "unit",
+      "classificationBasis",
+      "confidence",
+      "publisherStatus",
+      "publisherMappings"
     ],
     "examPeriodEnum": [
       "第一次段考",
@@ -517,13 +523,19 @@
       "六年級": {
         "total": 290,
         "semester": {
-          "unassigned": 290
+          "上學期": 42,
+          "下學期": 26,
+          "unassigned": 222
         },
         "examPeriod": {
-          "unassigned": 290
+          "第一次段考": 16,
+          "第二次段考": 22,
+          "第三次段考": 30,
+          "unassigned": 222
         },
         "classificationBasis": {
-          "unassigned": 290
+          "questionBankInference": 68,
+          "unassigned": 222
         },
         "publisherStatus": {
           "curriculumCore": 290
@@ -557,11 +569,20 @@
       "六年級": {
         "total": 50,
         "semester": {
-          "上學期": 1,
-          "unassigned": 49
+          "上學期": 5,
+          "下學期": 5,
+          "unassigned": 40
         },
         "examPeriod": {
-          "unassigned": 50
+          "第一次段考": 2,
+          "第二次段考": 2,
+          "第三次段考": 5,
+          "unassigned": 41
+        },
+        "classificationBasis": {
+          "questionBankInference": 9,
+          "publisherSourceVerified": 1,
+          "curriculumCore": 40
         },
         "publisherMapped": 1,
         "curriculumCore": 49
@@ -588,6 +609,6 @@
         "curriculumCore": 16
       }
     },
-    "note": "既有小六290題目前因未取得足以可靠確認學期／段考與單元順序的來源，保守標記未分類；高二374題中，39題依翰林3A單元順序推定段考，42題有翰林冊別／單元來源對照，其餘293題保留108課綱共同核心且學期／段考未分類。第30批新增題目則依逐題 metadata 標記。未分類不是漏標成正式範圍，而是避免猜測。"
+    "note": "既有小六290題中，68題依常見數學主題群推定學期與段考（中信心），222題因沒有可靠單元／版本次序依據而未分類；既有高二374題中，39題依翰林3A單元次序推定段考、42題有翰林冊別／單元來源對照、293題保留108課綱共同核心且學期／段考未分類。第30批小六50題中9題數學依題庫主題序列推定、1題康軒社會六上2-1來源核對、40題未推定學期；高二50題中18題數學依翰林3A單元順序推定、16題物理／化學有官方冊別或單元對照、16題共同核心未分類。所有段考分類僅供複習建議，不是學校正式範圍。"
   }
 }
