@@ -311,13 +311,14 @@
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依國家教育研究院公開108課綱課程綱要／課程手冊與學科共同核心原創編寫；非出版社或歷屆試題原文",
     "reviewStatus": "rule-checked",
-    "semester": "unassigned",
-    "examPeriod": "unassigned",
-    "classificationBasis": "curriculum-core",
+    "semester": "上學期",
+    "examPeriod": "第二次段考",
+    "classificationBasis": "question-bank-inference",
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "百分率折扣"
+    "learningContent": "百分率折扣",
+    "classificationNotes": "依小六常見數學主題群與題庫單元先後推定；不是特定出版社單元或學校正式段考範圍，各校進度可能不同。"
   },
   {
     "id": "b30-012",
@@ -340,13 +341,14 @@
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依國家教育研究院公開108課綱課程綱要／課程手冊與學科共同核心原創編寫；非出版社或歷屆試題原文",
     "reviewStatus": "rule-checked",
-    "semester": "unassigned",
-    "examPeriod": "unassigned",
-    "classificationBasis": "curriculum-core",
+    "semester": "上學期",
+    "examPeriod": "第一次段考",
+    "classificationBasis": "question-bank-inference",
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "比與比例"
+    "learningContent": "比與比例",
+    "classificationNotes": "依小六常見數學主題群與題庫單元先後推定；不是特定出版社單元或學校正式段考範圍，各校進度可能不同。"
   },
   {
     "id": "b30-013",
@@ -369,13 +371,14 @@
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依國家教育研究院公開108課綱課程綱要／課程手冊與學科共同核心原創編寫；非出版社或歷屆試題原文",
     "reviewStatus": "rule-checked",
-    "semester": "unassigned",
-    "examPeriod": "unassigned",
-    "classificationBasis": "curriculum-core",
+    "semester": "上學期",
+    "examPeriod": "第三次段考",
+    "classificationBasis": "question-bank-inference",
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "地圖比例尺"
+    "learningContent": "地圖比例尺",
+    "classificationNotes": "依小六常見數學主題群與題庫單元先後推定；不是特定出版社單元或學校正式段考範圍，各校進度可能不同。"
   },
   {
     "id": "b30-014",
@@ -398,13 +401,14 @@
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依國家教育研究院公開108課綱課程綱要／課程手冊與學科共同核心原創編寫；非出版社或歷屆試題原文",
     "reviewStatus": "rule-checked",
-    "semester": "unassigned",
-    "examPeriod": "unassigned",
-    "classificationBasis": "curriculum-core",
+    "semester": "上學期",
+    "examPeriod": "第三次段考",
+    "classificationBasis": "question-bank-inference",
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "平均速率"
+    "learningContent": "平均速率",
+    "classificationNotes": "依小六常見數學主題群與題庫單元先後推定；不是特定出版社單元或學校正式段考範圍，各校進度可能不同。"
   },
   {
     "id": "b30-015",
@@ -427,13 +431,14 @@
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依國家教育研究院公開108課綱課程綱要／課程手冊與學科共同核心原創編寫；非出版社或歷屆試題原文",
     "reviewStatus": "rule-checked",
-    "semester": "unassigned",
-    "examPeriod": "unassigned",
-    "classificationBasis": "curriculum-core",
+    "semester": "下學期",
+    "examPeriod": "第三次段考",
+    "classificationBasis": "question-bank-inference",
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "平均數"
+    "learningContent": "平均數",
+    "classificationNotes": "依小六常見數學主題群與題庫單元先後推定；不是特定出版社單元或學校正式段考範圍，各校進度可能不同。"
   },
   {
     "id": "b30-016",
@@ -456,13 +461,14 @@
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依國家教育研究院公開108課綱課程綱要／課程手冊與學科共同核心原創編寫；非出版社或歷屆試題原文",
     "reviewStatus": "rule-checked",
-    "semester": "unassigned",
-    "examPeriod": "unassigned",
-    "classificationBasis": "curriculum-core",
+    "semester": "下學期",
+    "examPeriod": "第三次段考",
+    "classificationBasis": "question-bank-inference",
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "中位數"
+    "learningContent": "中位數",
+    "classificationNotes": "依小六常見數學主題群與題庫單元先後推定；不是特定出版社單元或學校正式段考範圍，各校進度可能不同。"
   },
   {
     "id": "b30-017",
@@ -485,13 +491,14 @@
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依國家教育研究院公開108課綱課程綱要／課程手冊與學科共同核心原創編寫；非出版社或歷屆試題原文",
     "reviewStatus": "rule-checked",
-    "semester": "unassigned",
-    "examPeriod": "unassigned",
-    "classificationBasis": "curriculum-core",
+    "semester": "下學期",
+    "examPeriod": "第一次段考",
+    "classificationBasis": "question-bank-inference",
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "圓面積"
+    "learningContent": "圓面積",
+    "classificationNotes": "依小六常見數學主題群與題庫單元先後推定；不是特定出版社單元或學校正式段考範圍，各校進度可能不同。"
   },
   {
     "id": "b30-018",
@@ -514,13 +521,14 @@
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依國家教育研究院公開108課綱課程綱要／課程手冊與學科共同核心原創編寫；非出版社或歷屆試題原文",
     "reviewStatus": "rule-checked",
-    "semester": "unassigned",
-    "examPeriod": "unassigned",
-    "classificationBasis": "curriculum-core",
+    "semester": "下學期",
+    "examPeriod": "第二次段考",
+    "classificationBasis": "question-bank-inference",
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "長方體體積"
+    "learningContent": "長方體體積",
+    "classificationNotes": "依小六常見數學主題群與題庫單元先後推定；不是特定出版社單元或學校正式段考範圍，各校進度可能不同。"
   },
   {
     "id": "b30-019",
@@ -543,13 +551,14 @@
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依國家教育研究院公開108課綱課程綱要／課程手冊與學科共同核心原創編寫；非出版社或歷屆試題原文",
     "reviewStatus": "rule-checked",
-    "semester": "unassigned",
-    "examPeriod": "unassigned",
-    "classificationBasis": "curriculum-core",
+    "semester": "下學期",
+    "examPeriod": "第三次段考",
+    "classificationBasis": "question-bank-inference",
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "簡單機率"
+    "learningContent": "簡單機率",
+    "classificationNotes": "依小六常見數學主題群與題庫單元先後推定；不是特定出版社單元或學校正式段考範圍，各校進度可能不同。"
   },
   {
     "id": "b30-020",
