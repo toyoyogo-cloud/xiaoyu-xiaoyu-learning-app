@@ -225,7 +225,8 @@ document.querySelectorAll(".nav").forEach(b=>b.onclick=()=>page(b.dataset.page))
 document.getElementById("beginAcademicQuiz").onclick=startAcademicQuiz;
 document.getElementById("nextAcademicQuestion").onclick=nextAcademicQuestion;
 document.getElementById("exitAcademicQuiz").onclick=exitAcademicQuiz;
-document.getElementById("retryAcademicMissed").onclick=retryAcademicMissed;\ndocument.getElementById("againAcademicQuiz").onclick=()=>{document.getElementById("academicResultPanel").classList.add("hidden");document.getElementById("academicSetup").classList.remove("hidden");startAcademicQuiz()};
+document.getElementById("retryAcademicMissed").onclick=retryAcademicMissed;
+document.getElementById("againAcademicQuiz").onclick=()=>{document.getElementById("academicResultPanel").classList.add("hidden");document.getElementById("academicSetup").classList.remove("hidden");startAcademicQuiz()};
 document.getElementById("backAcademicSetup").onclick=()=>{document.getElementById("academicResultPanel").classList.add("hidden");document.getElementById("academicSetup").classList.remove("hidden");page("academic")};
 document.getElementById("saveProfile").onclick=()=>{db.profile.name=document.getElementById("studentName").value.trim();db.profile.stage=document.getElementById("profileStage").value;persist();toast("暱稱已儲存")};
 document.getElementById("guestMode").onclick=()=>{db.profile.name="";persist();toast("已切換免登入模式")};
