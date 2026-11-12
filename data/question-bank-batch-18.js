@@ -699,7 +699,7 @@ window.EXTRA18_GRADE_BANK = [
     "subject": "英文",
     "d": "進階",
     "t": "介系詞片語語意",
-    "q": "_____ the heavy rain, the outdoor event continued as planned.",
+    "q": "_____ the unexpected delay, the train staff kept passengers informed.",
     "o": [
       "Because",
       "Despite",
@@ -707,7 +707,7 @@ window.EXTRA18_GRADE_BANK = [
       "During of"
     ],
     "a": 1,
-    "e": "Despite 後接名詞片語，表示「儘管」；the heavy rain 是名詞片語，語意也符合轉折。",
+    "e": "Despite 後接名詞片語，表示「儘管」；the unexpected delay 是名詞片語，後句說明即使延誤仍持續通知乘客，語意符合讓步。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
