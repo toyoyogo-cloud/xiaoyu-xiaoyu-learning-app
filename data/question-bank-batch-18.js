@@ -594,7 +594,7 @@ window.EXTRA18_GRADE_BANK = [
     "subject": "英語",
     "d": "進階",
     "t": "第一類條件句",
-    "q": "Choose the correct sentence.",
+    "q": "Which sentence correctly uses a present-tense if-clause for a possible future situation?",
     "o": [
       "If it rains, we will stay indoors.",
       "If it will rain, we stay indoors yesterday.",
