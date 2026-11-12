@@ -217,15 +217,15 @@ window.EXTRA12_GRADE_BANK = [
     "subject": "英語",
     "d": "進階",
     "t": "比較級",
-    "q": "Which sentence is correct?",
+    "q": "This is the ____ book I have ever read.",
     "o": [
-      "This bag is heavy than that one.",
-      "This bag is heavier than that one.",
-      "This bag is more heavy that one.",
-      "This bag heavier than that one."
+      "interesting",
+      "more interesting",
+      "most interesting",
+      "interest"
     ],
-    "a": 1,
-    "e": "heavy的比較級為heavier，兩者比較使用than。",
+    "a": 2,
+    "e": "句中的I have ever read表示在所有讀過的書中比較，應使用最高級most interesting。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
