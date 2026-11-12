@@ -237,7 +237,7 @@ window.EXTRA15_GRADE_BANK = [
     "subject": "英語",
     "d": "進階",
     "t": "第三人稱單數現在式",
-    "q": "選出正確句子：",
+    "q": "Amy想表達「她每天晚餐後看電視」的習慣，哪個英文句子正確？",
     "o": [
       "Amy watch TV after dinner.",
       "Amy watches TV after dinner.",
@@ -552,7 +552,7 @@ window.EXTRA15_GRADE_BANK = [
     "subject": "英語",
     "d": "進階",
     "t": "There is與There are",
-    "q": "選出正確句子：",
+    "q": "下列句子中，哪一句的There is／There are與後面的名詞單複數一致？",
     "o": [
       "There are a book on the desk.",
       "There is three pencils in the box.",
