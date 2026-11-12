@@ -245,7 +245,7 @@ window.EXTRA13_GRADE_BANK = [
       "960元",
       "1,000元"
     ],
-    "a": 1,
+    "a": 0,
     "e": "八折為1,200×0.8＝960元，再減100元，售價為860元。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
@@ -283,12 +283,12 @@ window.EXTRA13_GRADE_BANK = [
     "q": "The movie was so ____ that most students stayed awake until the end.",
     "o": [
       "bored",
-      "boring",
+      "exciting",
       "bore",
       "bores"
     ],
     "a": 1,
-    "e": "形容電影本身令人感到有趣、引人入勝，使用boring；bored通常形容人的感受。",
+    "e": "形容電影本身令人感到有趣、引人入勝，使用exciting；bored通常形容人的感受。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
