@@ -364,7 +364,7 @@ window.EXTRA21_GRADE_BANK = [
     "subject": "英語",
     "d": "基礎",
     "t": "時間介系詞",
-    "q": "Choose the correct sentence.",
+    "q": "Which sentence correctly uses a preposition before a day of the week?",
     "o": [
       "We have music in Monday.",
       "We have music on Monday.",
@@ -763,7 +763,7 @@ window.EXTRA21_GRADE_BANK = [
     "subject": "英語",
     "d": "基礎",
     "t": "不規則過去式",
-    "q": "Choose the correct sentence about yesterday.",
+    "q": "Maya wants to describe a completed purchase from yesterday. Which sentence uses the past form of “buy” correctly?",
     "o": [
       "She buy a new bag yesterday.",
       "She buys a new bag yesterday.",
@@ -805,7 +805,7 @@ window.EXTRA21_GRADE_BANK = [
     "subject": "英語",
     "d": "基礎",
     "t": "可數與不可數量詞",
-    "q": "Choose the correct sentence.",
+    "q": "Which sentence correctly matches a plural count noun with its quantifier and verb?",
     "o": [
       "There are much apples in the box.",
       "There is many rice in the bowl.",
@@ -1330,7 +1330,7 @@ window.EXTRA21_GRADE_BANK = [
     "subject": "英文",
     "d": "挑戰",
     "t": "讓步連接詞結構",
-    "q": "Choose the grammatically correct sentence.",
+    "q": "Choose the sentence that correctly uses “although” to introduce a complete clause.",
     "o": [
       "Despite it was raining, the match continued.",
       "Although the rain, the match continued.",
