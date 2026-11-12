@@ -821,21 +821,16 @@
     "e": "相對次數＝62÷200＝0.31，因此估計機率約31%；實驗估計不代表下一次結果必然如此。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
-    "sourceRef": "原創題；單元對照依翰林官方教材資料 https://books.hanlin.com.tw/product/433021；非教材或歷屆試題原文。",
+    "sourceRef": "依108課綱共同核心概念原創編寫；非出版社或歷屆試題原文。",
     "reviewStatus": "rule-checked",
     "learningContent": "相對次數與機率估計",
-    "semester": "上學期",
+    "semester": "下學期",
     "examPeriod": "第三次段考",
     "classificationBasis": "question-bank-inference",
     "confidence": "medium",
-    "publisherStatus": "publisher-mapped",
-    "publisherMappings": [
-      {
-        "publisher": "hanlin",
-        "mappingId": "hanlin-h2-math-3a-u1"
-      }
-    ],
-    "classificationNotes": "翰林數學3A官方目次可核對三角函數單元；段考次序依單元順序推定，僅供複習建議，不代表學校正式段考範圍。"
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依小六統計與機率常見課程主題群及題庫單元順序推定；各校進度可能不同，僅供複習建議，不代表學校正式段考範圍。"
   },
   {
     "id": "b35-027",
