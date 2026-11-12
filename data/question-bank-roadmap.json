@@ -198,7 +198,7 @@
   "lastBatchFile": "data/question-bank-batch-26.js",
   "currentIntegration": {
     "indexHtml": "Loads independent original question-bank batches 08-26; includes EXTRA26_GRADE_BANK in bankFor() grade/subject filtering; preserves academic competition batches 01-10 and existing quiz flows.",
-    "serviceWorkerCache": "xy-learning-v39",
+    "serviceWorkerCache": "xy-learning-v40",
     "serviceWorkerAsset": "data/question-bank-batch-08.js through data/question-bank-batch-26.js; academic-competition-batch-01.js through batch-10 and existing image assets preserved"
   },
   "currentIndependentBatchQuestions": 1400,
@@ -214,3 +214,4 @@
   },
   "integrationAuditNote": "2026-11-12 main branch audit found two issues: batch23 existed but was not loaded by the then-current index.html or sw.js, and index.html contained a literal tool-output truncation marker inside inline JavaScript causing a syntax error. Restored the last known syntactically valid UTF-8 index.html from commit 193134e95bc9caa682b349d14adf91562528d2b6, then re-added academic competition batch 04-07 script tags and question bank batch24 integration. Service Worker v34 lists question bank batches 08-24 and academic competition batches 01-07. Browser-level interaction testing remains unperformed."
 }
+
