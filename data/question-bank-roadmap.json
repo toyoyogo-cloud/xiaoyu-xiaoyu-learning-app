@@ -1,8 +1,8 @@
 {
   "title": "1000題題庫建置規格",
   "target": 1000,
-  "currentVerifiedNewGradeSpecificQuestions": 413,
-  "targetRemainder": 568,
+  "currentVerifiedNewGradeSpecificQuestions": 513,
+  "targetRemainder": 487,
   "updatedAt": "2026-11-12",
   "distributionTarget": [
     {
@@ -118,6 +118,12 @@
       "added": 25,
       "coverage": "國小五年級 3 題、六年級 2 題；高中高一、高二各 6 題，高三 8 題，涵蓋數學、自然、社會、國語及高中核心學科",
       "validation": "已檢查四選項、答案索引、解析欄位、ID 唯一性及 APP 載入／篩選整合；仍需教師逐題審閱。"
+    },
+    {
+      "batch": 20,
+      "added": 100,
+      "coverage": "國小五年級20題、六年級20題；高中高一至高三各20題。國小國語、數學、自然、社會、英語；高中國文、英文、數學、歷史、地理、公民、物理、化學、生物、地球科學。",
+      "validation": "新增批次100題；與第8至19批699個ID及正規化題幹比對無重複。四選項、答案索引0至3、解析欄位、年級分布及JavaScript語法檢查通過。程式規則檢查，尚未經教師逐題審閱。"
     }
   ],
   "activeScope": {
@@ -147,10 +153,16 @@
     ]
   },
   "lastBatchDistribution": {
-    "五年級": 3,
-    "六年級": 2,
-    "高一": 6,
-    "高二": 6,
-    "高三": 8
+    "五年級": 20,
+    "六年級": 20,
+    "高一": 20,
+    "高二": 20,
+    "高三": 20
+  },
+  "lastBatchFile": "data/question-bank-batch-20.js",
+  "currentIntegration": {
+    "indexHtml": "data/question-bank-batch-20.js loaded; EXTRA20_GRADE_BANK included in bankFor() grade/subject filtering",
+    "serviceWorkerCache": "xy-learning-v24",
+    "serviceWorkerAsset": "data/question-bank-batch-20.js"
   }
 }
