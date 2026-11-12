@@ -1,4 +1,4 @@
-const CACHE="xy-learning-v18";
+const CACHE="xy-learning-v19";
 const ASSETS=["./","./index.html","./manifest.json","./icon.svg","./data/question-bank-batch-08.js","./data/question-bank-batch-09.js","./data/question-bank-batch-10.js","./data/question-bank-batch-11.js","./data/question-bank-batch-12.js","./data/question-bank-batch-13.js","./data/question-bank-batch-14.js","./data/question-bank-batch-15.js","./data/question-bank-batch-16.js"];
 self.addEventListener("install",event=>{event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(ASSETS)).then(()=>self.skipWaiting()))});
 self.addEventListener("activate",event=>{event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key!==CACHE).map(key=>caches.delete(key)))).then(()=>self.clients.claim()))});
