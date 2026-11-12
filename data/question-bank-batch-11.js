@@ -511,15 +511,15 @@ window.EXTRA11_GRADE_BANK = [
     "subject": "英文",
     "d": "挑戰",
     "t": "倒裝句",
-    "q": "Not until the meeting ended _____ the reason for the delay.",
+    "q": "Only after the train left _____ that she had left her bag on it.",
     "o": [
-      "we understood",
-      "did we understand",
-      "we did understood",
-      "understood we"
+      "she realized",
+      "did she realize",
+      "she did realize",
+      "realized she"
     ],
     "a": 1,
-    "e": "Not until 置於句首時，主句需部分倒裝，使用 did＋主詞＋原形動詞。",
+    "e": "Only after置於句首表示「直到……之後才」，主句須使用部分倒裝，因此助動詞did要放在主詞she之前，並搭配原形realize。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
