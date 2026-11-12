@@ -266,7 +266,7 @@ window.EXTRA14_GRADE_BANK = [
       "9",
       "12"
     ],
-    "a": 2,
+    "a": 1,
     "e": "f'(x)=4x－5，代入x＝3得12－5＝7。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
