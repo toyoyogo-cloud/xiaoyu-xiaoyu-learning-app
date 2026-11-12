@@ -145,14 +145,57 @@
     "高中需依實際科目、課程類型與冊次核對，不可將普通高中與技術型高中混為一談。",
     "跨版本共同單元必須逐版本核對學習內容；名稱相似不代表內容完全相同。",
     "只有課綱概念依據的題目，publisher 應標記 curriculum-core，不得標示為南一、翰林或康軒專屬題。",
-    "題目本身仍需保留原有 id、stage、grade、subject、d、t、q、o、a、e、sourceRef、reviewStatus 等欄位；教材對照作為額外 metadata，不覆蓋原始題目欄位。"
+    "題目本身仍需保留原有 id、stage、grade、subject、d、t、q、o、a、e、sourceRef、reviewStatus 等欄位；教材對照作為額外 metadata，不覆蓋原始題目欄位。",
+    "每道題目新增 semester 與 examPeriod 分類；examPeriod 僅可為第一次段考、第二次段考、第三次段考或 unassigned。",
+    "段考範圍必須依指定學校/教師公布的範圍表或使用者提供的考試範圍核對；不得僅憑一般教學進度猜測。",
+    "優先擴充國小六年級與高中高二；其他年級既有題目保留，不新增優先級。"
   ],
   "mappings": [],
   "mappingStatus": "schema-ready-no-publisher-unit-mappings-yet",
   "nextSteps": [
-    "逐學段與年級蒐集各出版社當學年度教材目錄或學校選用資料。",
-    "逐冊逐單元建立對照紀錄與來源證據。",
-    "為既有題目新增教材對照 metadata；無法確認者保留課綱核心標籤。",
-    "在APP測驗設定加入整合模式與指定出版社模式，再依對照資料篩選題目。"
-  ]
+    "優先整理國小六年級與高中高二各科上下學期的單元架構。",
+    "取得學校或教師段考範圍後，逐題標記第一次、第二次、第三次段考；未核對題目保留未分配。",
+    "為既有題目新增學期與段考 metadata，不改動原始題幹、選項、答案與解析。",
+    "在APP測驗設定加入學期及段考篩選；若該範圍尚無核對題目，清楚提示而不以其他範圍題目冒充。"
+  ],
+  "examOrganization": {
+    "semesters": [
+      "上學期",
+      "下學期"
+    ],
+    "exams": [
+      "第一次段考",
+      "第二次段考",
+      "第三次段考"
+    ],
+    "fields": [
+      "schoolYear",
+      "stage",
+      "grade",
+      "subject",
+      "semester",
+      "examPeriod",
+      "publisher",
+      "volume",
+      "unitCode",
+      "unitName",
+      "learningContent",
+      "sourceType",
+      "sourceUrl",
+      "verifiedAt",
+      "verificationStatus"
+    ],
+    "examPeriodEnum": [
+      "第一次段考",
+      "第二次段考",
+      "第三次段考"
+    ],
+    "policy": "段考範圍依各校、各教師與當學期教學進度而異。未取得學校段考範圍表或教師確認前，不得推定某單元屬於第幾次段考；未知範圍保留 examPeriod=unassigned。",
+    "unassignedValue": "unassigned",
+    "supportedGradePriority": [
+      "國小六年級",
+      "高中高二"
+    ],
+    "notes": "每題可同時標記學期與段考次序；同一單元若在不同學校或不同學年度段考安排不同，須建立不同範圍紀錄，不可覆蓋。"
+  }
 }
