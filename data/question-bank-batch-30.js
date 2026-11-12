@@ -1406,15 +1406,15 @@
     "unit": "關係代名詞",
     "t": "關係代名詞",
     "d": "句型辨識",
-    "q": "Choose the correct sentence.",
+    "q": "Ms. Lin is the teacher _____ helped our class prepare the science exhibition.",
     "o": [
-      "The student which won the prize is my cousin.",
-      "The student who won the prize is my cousin.",
-      "The student where won the prize is my cousin.",
-      "The student when won the prize is my cousin."
+      "which",
+      "who",
+      "where",
+      "when"
     ],
     "a": 1,
-    "e": "先行詞 student 指人，關係代名詞在子句中作主詞，使用 who。",
+    "e": "The antecedent “teacher” refers to a person, and the relative pronoun is the subject of “helped,” so “who” is correct.",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依國家教育研究院公開108課綱課程綱要／課程手冊與學科共同核心原創編寫；非出版社或歷屆試題原文",
