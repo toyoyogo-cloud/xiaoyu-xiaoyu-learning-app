@@ -174,7 +174,7 @@
   "lastBatchFile": "data/question-bank-batch-22.js",
   "currentIntegration": {
     "indexHtml": "data/question-bank-batch-22.js loaded; EXTRA22_GRADE_BANK included in bankFor() grade/subject filtering",
-    "serviceWorkerCache": "xy-learning-v26",
+    "serviceWorkerCache": "xy-learning-v27",
     "serviceWorkerAsset": "data/question-bank-batch-22.js"
   },
   "currentIndependentBatchQuestions": 1000,
