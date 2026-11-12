@@ -765,13 +765,13 @@ window.EXTRA21_GRADE_BANK = [
     "t": "不規則過去式",
     "q": "Maya wants to describe a completed purchase from yesterday. Which sentence uses the past form of “buy” correctly?",
     "o": [
-      "She buy a new bag yesterday.",
-      "She buys a new bag yesterday.",
-      "She bought a new bag yesterday.",
-      "She buying a new bag yesterday."
+      "Maya buy a new bag yesterday.",
+      "Maya buys a new bag yesterday.",
+      "Maya bought a new bag yesterday.",
+      "Maya buying a new bag yesterday."
     ],
     "a": 2,
-    "e": "yesterday 表示過去時間，buy 的過去式是不規則變化 bought，因此第三句正確。",
+    "e": "yesterday 表示過去時間，buy 的不規則過去式是 bought，因此第三句的時態與主詞搭配正確。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心素養與學科概念原創編寫；非歷屆試題原文",
