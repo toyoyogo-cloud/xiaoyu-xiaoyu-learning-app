@@ -203,9 +203,9 @@
   },
   "lastBatchFile": "data/question-bank-batch-27.js",
   "currentIntegration": {
-    "indexHtml": "Loads independent original question-bank batches 08-27; includes EXTRA27_GRADE_BANK in bankFor() grade/subject filtering; preserves academic competition batches 01-12 and existing quiz flows.",
-    "serviceWorkerCache": "xy-learning-v44",
-    "serviceWorkerAsset": "data/question-bank-batch-08.js through data/question-bank-batch-27.js; academic-competition-batch-01.js through batch-12 and existing image assets preserved"
+    "indexHtml": "Main branch audit on 2026-11-12: loads original question-bank batches 08-27 and filters EXTRA27_GRADE_BANK through bankFor(); preserves the existing academic-competition scripts and quiz flows.",
+    "serviceWorkerCache": "xy-learning-v47",
+    "serviceWorkerAsset": "question-bank-batch-08.js through batch-27.js; academic-competition-batch-01.js through batch-14.js; existing image assets preserved"
   },
   "currentIndependentBatchQuestions": 1500,
   "currentIndependentBatchRange": "第8至第27批",
@@ -218,5 +218,33 @@
     "高二": 334,
     "高三": 333
   },
-  "integrationAuditNote": "2026-11-12 main branch audit found two issues: batch23 existed but was not loaded by the then-current index.html or sw.js, and index.html contained a literal tool-output truncation marker inside inline JavaScript causing a syntax error. Restored the last known syntactically valid UTF-8 index.html from commit 193134e95bc9caa682b349d14adf91562528d2b6, then re-added academic competition batch 04-07 script tags and question bank batch24 integration. Service Worker v34 lists question bank batches 08-24 and academic competition batches 01-07. Browser-level interaction testing remains unperformed. 2026-11-12 batch27 audit: immediately before integration, main contained original question-bank batches 08-26, index.html loaded and filtered batches 08-26, and Service Worker cache was v43 with academic competition assets 01-12. Added batch27 to index script loading and bankFor() filtering, and added its Service Worker asset while preserving academic batches 01-12 and existing image assets. Cache advanced to v44. Browser-level interaction testing and teacher review remain unperformed."
+  "integrationAuditNote": "2026-11-12 main branch audit found two issues: batch23 existed but was not loaded by the then-current index.html or sw.js, and index.html contained a literal tool-output truncation marker inside inline JavaScript causing a syntax error. Restored the last known syntactically valid UTF-8 index.html from commit 193134e95bc9caa682b349d14adf91562528d2b6, then re-added academic competition batch 04-07 script tags and question bank batch24 integration. Service Worker v34 lists question bank batches 08-24 and academic competition batches 01-07. Browser-level interaction testing remains unperformed. 2026-11-12 batch27 audit: immediately before integration, main contained original question-bank batches 08-26, index.html loaded and filtered batches 08-26, and Service Worker cache was v43 with academic competition assets 01-12. Added batch27 to index script loading and bankFor() filtering, and added its Service Worker asset while preserving academic batches 01-12 and existing image assets. Cache advanced to v44. Browser-level interaction testing and teacher review remain unperformed.",
+  "lastMainBranchAudit": {
+    "date": "2026-11-12",
+    "independentBatchRange": "第8至第27批",
+    "independentBatchQuestions": 1500,
+    "uniqueIds": 1500,
+    "duplicateIds": 0,
+    "exactNormalizedDuplicateStemGroups": [
+      [
+        "b9-006",
+        "b13-013"
+      ],
+      [
+        "b13-020",
+        "b20-065"
+      ]
+    ],
+    "gradeDistribution": {
+      "五年級": 250,
+      "六年級": 250,
+      "高一": 333,
+      "高二": 334,
+      "高三": 333
+    },
+    "indexBatchReferences": "08-27",
+    "serviceWorkerCache": "xy-learning-v47",
+    "academicCompetitionCacheReferences": "01-14",
+    "note": "本次核對 main 分支最新檔案。第28批草稿未通過品質閘門，未建立正式檔案、未修改網站載入或快取；正式題庫維持1,500題。"
+  }
 }
