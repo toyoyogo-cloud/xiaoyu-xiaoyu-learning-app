@@ -1,0 +1,158 @@
+{
+  "title": "南一／翰林／康軒教材版本對照資料庫",
+  "schemaVersion": "1.0.0",
+  "updatedAt": "2026-11-13",
+  "purpose": "同時支援跨版本共同核心整合與指定出版社版本練習。此檔先建立資料規格；未經官方或學校教材核對的單元不得標示為已對應。",
+  "modes": [
+    {
+      "id": "integrated",
+      "name": "三版本整合",
+      "description": "以108課綱共同核心能力與學習重點組織練習；只有在三版本內容均經核對後，才標示三版共同。"
+    },
+    {
+      "id": "publisher",
+      "name": "指定出版社",
+      "description": "依選定出版社、學年度、學段、年級、科目、學期、冊別及單元篩選。"
+    }
+  ],
+  "publishers": [
+    {
+      "id": "nani",
+      "name": "南一",
+      "officialUrl": "https://www.nani.com.tw/"
+    },
+    {
+      "id": "hanlin",
+      "name": "翰林",
+      "officialUrl": "https://www.hle.com.tw/"
+    },
+    {
+      "id": "knsh",
+      "name": "康軒",
+      "officialUrl": "https://www.knsh.com.tw/_KNSH/Version"
+    }
+  ],
+  "dimensions": {
+    "schoolYear": {
+      "type": "string",
+      "required": true,
+      "example": "115"
+    },
+    "stage": {
+      "enum": [
+        "國小",
+        "國中",
+        "高中"
+      ],
+      "required": true
+    },
+    "grade": {
+      "type": "string",
+      "required": true,
+      "examples": [
+        "五年級",
+        "六年級",
+        "高一",
+        "高二",
+        "高三"
+      ]
+    },
+    "subject": {
+      "type": "string",
+      "required": true
+    },
+    "semester": {
+      "enum": [
+        "上學期",
+        "下學期",
+        "全學年"
+      ],
+      "required": true
+    },
+    "publisher": {
+      "enum": [
+        "nani",
+        "hanlin",
+        "knsh",
+        "cross-version",
+        "curriculum-core"
+      ],
+      "required": true
+    },
+    "volume": {
+      "type": "string",
+      "required": false,
+      "description": "例如上冊、下冊或出版社實際冊次；依來源記錄，不自行推定。"
+    },
+    "unitCode": {
+      "type": "string",
+      "required": false
+    },
+    "unitName": {
+      "type": "string",
+      "required": true
+    },
+    "learningContent": {
+      "type": "string",
+      "required": true
+    },
+    "learningPerformance": {
+      "type": "string",
+      "required": false
+    },
+    "coreCompetency": {
+      "type": "array",
+      "items": "string",
+      "required": false
+    },
+    "sourceType": {
+      "enum": [
+        "official-publisher",
+        "school-adoption",
+        "teacher-confirmed",
+        "curriculum-reference"
+      ],
+      "required": true
+    },
+    "sourceUrl": {
+      "type": "string",
+      "required": false
+    },
+    "sourceTitle": {
+      "type": "string",
+      "required": false
+    },
+    "verifiedAt": {
+      "type": "string",
+      "required": false
+    },
+    "verificationStatus": {
+      "enum": [
+        "pending",
+        "source-checked",
+        "teacher-reviewed"
+      ],
+      "required": true
+    },
+    "notes": {
+      "type": "string",
+      "required": false
+    }
+  },
+  "alignmentRules": [
+    "出版社版本需保存學年度；不可把不同學年度冊次混用。",
+    "國小、國中版本可能依學校選用；未取得學校採用資訊時不得假定全台一致。",
+    "高中需依實際科目、課程類型與冊次核對，不可將普通高中與技術型高中混為一談。",
+    "跨版本共同單元必須逐版本核對學習內容；名稱相似不代表內容完全相同。",
+    "只有課綱概念依據的題目，publisher 應標記 curriculum-core，不得標示為南一、翰林或康軒專屬題。",
+    "題目本身仍需保留原有 id、stage、grade、subject、d、t、q、o、a、e、sourceRef、reviewStatus 等欄位；教材對照作為額外 metadata，不覆蓋原始題目欄位。"
+  ],
+  "mappings": [],
+  "mappingStatus": "schema-ready-no-publisher-unit-mappings-yet",
+  "nextSteps": [
+    "逐學段與年級蒐集各出版社當學年度教材目錄或學校選用資料。",
+    "逐冊逐單元建立對照紀錄與來源證據。",
+    "為既有題目新增教材對照 metadata；無法確認者保留課綱核心標籤。",
+    "在APP測驗設定加入整合模式與指定出版社模式，再依對照資料篩選題目。"
+  ]
+}
