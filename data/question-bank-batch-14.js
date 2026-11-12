@@ -1,0 +1,360 @@
+/* 第十四批原創題庫：國小五、六年級及高中高一至高三；17題 */
+window.EXTRA14_GRADE_BANK = [
+  {
+    "id": "b14-001",
+    "stage": "國小",
+    "grade": "五年級",
+    "subject": "國語",
+    "d": "進階",
+    "t": "閱讀推論",
+    "q": "文章說明社區改用雨水桶澆花後，自來水用量下降，但植物仍生長良好。最合理的結論是？",
+    "o": [
+      "雨水完全不含雜質",
+      "收集雨水可在合適用途減少自來水使用",
+      "植物不需要水",
+      "自來水用量下降必使植物枯萎"
+    ],
+    "a": 1,
+    "e": "資料顯示雨水取代部分澆灌用水，且植物仍正常生長，可推論節省自來水。",
+    "frameworkId": "curriculum-108",
+    "sourceType": "original-curriculum-aligned",
+    "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
+    "reviewStatus": "rule-checked"
+  },
+  {
+    "id": "b14-002",
+    "stage": "國小",
+    "grade": "五年級",
+    "subject": "數學",
+    "d": "進階",
+    "t": "分數應用",
+    "q": "一條長3公尺的繩子剪去全長的2/5，還剩多少公尺？",
+    "o": [
+      "1又1/5",
+      "1又4/5",
+      "2",
+      "2又1/5"
+    ],
+    "a": 1,
+    "e": "剩下3/5，全長3公尺的3/5為9/5＝1又4/5公尺。",
+    "frameworkId": "curriculum-108",
+    "sourceType": "original-curriculum-aligned",
+    "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
+    "reviewStatus": "rule-checked"
+  },
+  {
+    "id": "b14-003",
+    "stage": "國小",
+    "grade": "五年級",
+    "subject": "自然",
+    "d": "進階",
+    "t": "簡單機械",
+    "q": "使用定滑輪把重物垂直向上拉，定滑輪最主要的作用是？",
+    "o": [
+      "減少重物重量",
+      "改變施力方向",
+      "使重物不受重力",
+      "讓繩子不必拉動"
+    ],
+    "a": 1,
+    "e": "理想定滑輪主要改變施力方向，不會降低所需力量。",
+    "frameworkId": "curriculum-108",
+    "sourceType": "original-curriculum-aligned",
+    "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
+    "reviewStatus": "rule-checked"
+  },
+  {
+    "id": "b14-004",
+    "stage": "國小",
+    "grade": "六年級",
+    "subject": "社會",
+    "d": "進階",
+    "t": "公共決策",
+    "q": "社區要增設腳踏車停放區，居民提出不同位置方案。決策前最適合蒐集哪項資訊？",
+    "o": [
+      "提案者的年齡",
+      "各地點使用需求、安全與通行影響",
+      "哪個方案名稱最好聽",
+      "只統計贊成者的朋友"
+    ],
+    "a": 1,
+    "e": "公共設施位置需評估需求、安全及對通行的影響，才能作出較周延決策。",
+    "frameworkId": "curriculum-108",
+    "sourceType": "original-curriculum-aligned",
+    "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
+    "reviewStatus": "rule-checked"
+  },
+  {
+    "id": "b14-005",
+    "stage": "國小",
+    "grade": "六年級",
+    "subject": "數學",
+    "d": "進階",
+    "t": "比例",
+    "q": "食譜麵粉與糖的重量比為5：2，使用麵粉750公克，糖需多少公克？",
+    "o": [
+      "150",
+      "250",
+      "300",
+      "375"
+    ],
+    "a": 2,
+    "e": "糖是麵粉的2/5，750×2/5＝300公克。",
+    "frameworkId": "curriculum-108",
+    "sourceType": "original-curriculum-aligned",
+    "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
+    "reviewStatus": "rule-checked"
+  },
+  {
+    "id": "b14-006",
+    "stage": "國小",
+    "grade": "六年級",
+    "subject": "自然",
+    "d": "進階",
+    "t": "變因控制",
+    "q": "研究光照時間是否影響豆苗高度，哪一組設計較公平？",
+    "o": [
+      "各組使用不同種子並改變光照",
+      "種子、土壤、水量相同，只改變光照時間",
+      "每組每天換不同花盆",
+      "同時改變光照與肥料"
+    ],
+    "a": 1,
+    "e": "只改變欲研究的光照時間，其他條件盡量一致，才能判斷其影響。",
+    "frameworkId": "curriculum-108",
+    "sourceType": "original-curriculum-aligned",
+    "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
+    "reviewStatus": "rule-checked"
+  },
+  {
+    "id": "b14-007",
+    "stage": "高中",
+    "grade": "高一",
+    "subject": "數學",
+    "d": "進階",
+    "t": "一次函數",
+    "q": "直線通過(2,5)與(4,9)，其斜率為何？",
+    "o": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "a": 1,
+    "e": "斜率＝(9－5)/(4－2)＝2。",
+    "frameworkId": "curriculum-108",
+    "sourceType": "original-curriculum-aligned",
+    "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
+    "reviewStatus": "rule-checked"
+  },
+  {
+    "id": "b14-008",
+    "stage": "高中",
+    "grade": "高一",
+    "subject": "化學",
+    "d": "進階",
+    "t": "元素週期表",
+    "q": "同一週期由左向右，原子序增加的主要原因是？",
+    "o": [
+      "質子數逐一增加",
+      "中子數必定減少",
+      "電子層數逐一增加",
+      "原子核消失"
+    ],
+    "a": 0,
+    "e": "原子序就是質子數，同一週期向右原子序逐一增加。",
+    "frameworkId": "curriculum-108",
+    "sourceType": "original-curriculum-aligned",
+    "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
+    "reviewStatus": "rule-checked"
+  },
+  {
+    "id": "b14-009",
+    "stage": "高中",
+    "grade": "高一",
+    "subject": "公民",
+    "d": "進階",
+    "t": "基本權利",
+    "q": "人民批評政府政策但未涉及暴力，政府若僅因批評內容不受歡迎而禁止發言，最直接涉及哪項權利？",
+    "o": [
+      "財產權",
+      "言論自由",
+      "工作權",
+      "受教育權"
+    ],
+    "a": 1,
+    "e": "對政府政策表達意見屬言論自由保障的重要範圍。",
+    "frameworkId": "curriculum-108",
+    "sourceType": "original-curriculum-aligned",
+    "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
+    "reviewStatus": "rule-checked"
+  },
+  {
+    "id": "b14-010",
+    "stage": "高中",
+    "grade": "高二",
+    "subject": "數學",
+    "d": "進階",
+    "t": "三角比",
+    "q": "直角三角形某銳角θ的對邊長3、斜邊長5，sinθ為何？",
+    "o": [
+      "3/5",
+      "4/5",
+      "3/4",
+      "5/3"
+    ],
+    "a": 0,
+    "e": "正弦值＝對邊／斜邊＝3/5。",
+    "frameworkId": "curriculum-108",
+    "sourceType": "original-curriculum-aligned",
+    "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
+    "reviewStatus": "rule-checked"
+  },
+  {
+    "id": "b14-011",
+    "stage": "高中",
+    "grade": "高二",
+    "subject": "物理",
+    "d": "進階",
+    "t": "牛頓第三定律",
+    "q": "甲用手推牆，牆也對甲施力。這兩個力的關係為何？",
+    "o": [
+      "大小相等、方向相反且作用在不同物體",
+      "大小不同且方向相同",
+      "作用在同一物體所以互相抵銷",
+      "只有甲對牆有力"
+    ],
+    "a": 0,
+    "e": "作用力與反作用力大小相等、方向相反，分別作用於不同物體。",
+    "frameworkId": "curriculum-108",
+    "sourceType": "original-curriculum-aligned",
+    "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
+    "reviewStatus": "rule-checked"
+  },
+  {
+    "id": "b14-012",
+    "stage": "高中",
+    "grade": "高二",
+    "subject": "公民",
+    "d": "進階",
+    "t": "外部性",
+    "q": "政府對污染排放課徵費用，主要希望廠商將污染造成的外部成本納入決策。這種作法稱為？",
+    "o": [
+      "外部成本內部化",
+      "價格完全固定",
+      "取消市場交易",
+      "所得平均分配"
+    ],
+    "a": 0,
+    "e": "污染費使廠商承擔部分外部成本，促使其在生產決策中考量污染代價。",
+    "frameworkId": "curriculum-108",
+    "sourceType": "original-curriculum-aligned",
+    "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
+    "reviewStatus": "rule-checked"
+  },
+  {
+    "id": "b14-013",
+    "stage": "高中",
+    "grade": "高三",
+    "subject": "數學",
+    "d": "進階",
+    "t": "微分應用",
+    "q": "若f(x)=2x²－5x，則f'(3)為何？",
+    "o": [
+      "5",
+      "7",
+      "9",
+      "12"
+    ],
+    "a": 2,
+    "e": "f'(x)=4x－5，代入x＝3得12－5＝7。",
+    "frameworkId": "curriculum-108",
+    "sourceType": "original-curriculum-aligned",
+    "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
+    "reviewStatus": "rule-checked"
+  },
+  {
+    "id": "b14-014",
+    "stage": "高中",
+    "grade": "高三",
+    "subject": "生物",
+    "d": "進階",
+    "t": "自然選擇",
+    "q": "某昆蟲族群中原本就有深色與淺色個體，環境變暗後深色個體較不易被捕食。數代後深色比例上升，最符合哪個概念？",
+    "o": [
+      "自然選擇",
+      "個體為適應而立即改變基因",
+      "用進廢退",
+      "所有突變都有利"
+    ],
+    "a": 0,
+    "e": "環境使原有深色變異者具有較高存活繁殖率，族群性狀比例因此改變。",
+    "frameworkId": "curriculum-108",
+    "sourceType": "original-curriculum-aligned",
+    "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
+    "reviewStatus": "rule-checked"
+  },
+  {
+    "id": "b14-015",
+    "stage": "高中",
+    "grade": "高三",
+    "subject": "歷史",
+    "d": "進階",
+    "t": "史料批判",
+    "q": "回憶錄作者在事件發生三十年後才寫作，研究者特別應注意哪項限制？",
+    "o": [
+      "回憶可能受時間與事後觀點影響",
+      "回憶錄必定完全虛假",
+      "作者不可能親歷事件",
+      "文字資料不能作史料"
+    ],
+    "a": 0,
+    "e": "回憶錄具有親身經驗價值，但記憶可能受時間及後來立場影響，需交叉查證。",
+    "frameworkId": "curriculum-108",
+    "sourceType": "original-curriculum-aligned",
+    "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
+    "reviewStatus": "rule-checked"
+  },
+  {
+    "id": "b14-016",
+    "stage": "高中",
+    "grade": "高三",
+    "subject": "公民",
+    "d": "進階",
+    "t": "法律保留",
+    "q": "行政機關以公告新增人民原本無須負擔的重大義務，卻找不到法律授權，最主要的憲法疑慮？",
+    "o": [
+      "違反法律保留要求",
+      "違反無罪推定",
+      "違反地方自治",
+      "違反選舉制度"
+    ],
+    "a": 0,
+    "e": "行政機關增加人民重要義務，原則上須有法律依據或明確授權。",
+    "frameworkId": "curriculum-108",
+    "sourceType": "original-curriculum-aligned",
+    "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
+    "reviewStatus": "rule-checked"
+  },
+  {
+    "id": "b14-017",
+    "stage": "高中",
+    "grade": "高三",
+    "subject": "地理",
+    "d": "進階",
+    "t": "人口結構",
+    "q": "某國總生育率長期低於人口替代水準，若沒有大量移入人口，長期較可能出現？",
+    "o": [
+      "人口自然增加率持續提高",
+      "人口老化與勞動年齡人口比重下降",
+      "幼年人口比例快速上升",
+      "扶養需求必定消失"
+    ],
+    "a": 1,
+    "e": "低生育率長期會使年輕世代規模縮小，人口老化及勞動力占比下降。",
+    "frameworkId": "curriculum-108",
+    "sourceType": "original-curriculum-aligned",
+    "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
+    "reviewStatus": "rule-checked"
+  }
+];
