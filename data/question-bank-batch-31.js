@@ -1268,6 +1268,13 @@ window.EXTRA31_GRADE_BANK = [
         "volume": "社會六上",
         "unitCode": "2-1",
         "unitName": "個人發展如何受到社會變遷的影響",
+        "unitAliases": [
+          "個人發展如何受到社會變遷的影響",
+          "社會變遷與性別角色",
+          "社會變遷與家庭分工",
+          "個人發展與社會變遷"
+        ],
+        "scopeKeywords": [],
         "semester": "上學期",
         "grade": "六年級",
         "subject": "社會",
@@ -1277,7 +1284,7 @@ window.EXTRA31_GRADE_BANK = [
       }
     ],
     "classificationNotes": "康軒官方社會六上2-1教學資源明示個人發展與社會變遷；本題對應社會角色變化，未推定學校段考。",
-    "sourceRef": "題目為原創；教材冊別／單元對照僅參照出版社官方商品頁或目次，非教材或歷屆試題原文。"
+    "sourceRef": "https://sdgs.knsh.com.tw/campus/SDGS_FILE_E/%E7%A4%BE%E6%9C%83%E5%85%AD%E4%B8%8ACH2L1%E5%80%8B%E4%BA%BA%E7%99%BC%E5%B1%95%E5%A6%82%E4%BD%95%E5%8F%97%E5%88%B0%E7%A4%BE%E6%9C%83%E8%AE%8A%E9%81%B7%E7%9A%84%E5%BD%B1%E9%9F%BF_%E6%95%99%E5%AD%B8%E8%B3%87%E6%BA%90.pdf"
   },
   {
     "id": "b31-043",
@@ -1978,16 +1985,40 @@ window.EXTRA31_GRADE_BANK = [
         "volume": "選修物理(II) 力學二與熱學",
         "unitCode": "全冊",
         "unitName": "力學二與熱學",
+        "unitAliases": [],
+        "scopeKeywords": [
+          "動量",
+          "衝量",
+          "碰撞",
+          "功",
+          "位能",
+          "動能",
+          "力矩",
+          "角動量",
+          "熱",
+          "比熱",
+          "熱膨脹",
+          "熱傳導",
+          "熱力學",
+          "熱機",
+          "氣體",
+          "彈簧",
+          "圓周",
+          "向心",
+          "波以耳",
+          "線膨脹",
+          "機械能"
+        ],
         "semester": "上學期",
         "grade": "高二",
         "subject": "物理",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
       }
     ],
     "classificationNotes": "翰林官方課本頁確認高二上選修物理(II)冊名為「力學二與熱學」；僅作冊別／主題對照，不推定段考。",
-    "sourceRef": "題目為原創；教材冊別／單元對照僅參照出版社官方商品頁或目次，非教材或歷屆試題原文。"
+    "sourceRef": "https://books.hanlin.com.tw/product/004022"
   },
   {
     "id": "b31-066",
@@ -2028,16 +2059,40 @@ window.EXTRA31_GRADE_BANK = [
         "volume": "選修物理(II) 力學二與熱學",
         "unitCode": "全冊",
         "unitName": "力學二與熱學",
+        "unitAliases": [],
+        "scopeKeywords": [
+          "動量",
+          "衝量",
+          "碰撞",
+          "功",
+          "位能",
+          "動能",
+          "力矩",
+          "角動量",
+          "熱",
+          "比熱",
+          "熱膨脹",
+          "熱傳導",
+          "熱力學",
+          "熱機",
+          "氣體",
+          "彈簧",
+          "圓周",
+          "向心",
+          "波以耳",
+          "線膨脹",
+          "機械能"
+        ],
         "semester": "上學期",
         "grade": "高二",
         "subject": "物理",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
       }
     ],
     "classificationNotes": "翰林官方課本頁確認高二上選修物理(II)冊名為「力學二與熱學」；僅作冊別／主題對照，不推定段考。",
-    "sourceRef": "題目為原創；教材冊別／單元對照僅參照出版社官方商品頁或目次，非教材或歷屆試題原文。"
+    "sourceRef": "https://books.hanlin.com.tw/product/004022"
   },
   {
     "id": "b31-067",
@@ -2078,16 +2133,40 @@ window.EXTRA31_GRADE_BANK = [
         "volume": "選修物理(II) 力學二與熱學",
         "unitCode": "全冊",
         "unitName": "力學二與熱學",
+        "unitAliases": [],
+        "scopeKeywords": [
+          "動量",
+          "衝量",
+          "碰撞",
+          "功",
+          "位能",
+          "動能",
+          "力矩",
+          "角動量",
+          "熱",
+          "比熱",
+          "熱膨脹",
+          "熱傳導",
+          "熱力學",
+          "熱機",
+          "氣體",
+          "彈簧",
+          "圓周",
+          "向心",
+          "波以耳",
+          "線膨脹",
+          "機械能"
+        ],
         "semester": "上學期",
         "grade": "高二",
         "subject": "物理",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
       }
     ],
     "classificationNotes": "翰林官方課本頁確認高二上選修物理(II)冊名為「力學二與熱學」；僅作冊別／主題對照，不推定段考。",
-    "sourceRef": "題目為原創；教材冊別／單元對照僅參照出版社官方商品頁或目次，非教材或歷屆試題原文。"
+    "sourceRef": "https://books.hanlin.com.tw/product/004022"
   },
   {
     "id": "b31-068",
@@ -2128,16 +2207,40 @@ window.EXTRA31_GRADE_BANK = [
         "volume": "選修物理(II) 力學二與熱學",
         "unitCode": "全冊",
         "unitName": "力學二與熱學",
+        "unitAliases": [],
+        "scopeKeywords": [
+          "動量",
+          "衝量",
+          "碰撞",
+          "功",
+          "位能",
+          "動能",
+          "力矩",
+          "角動量",
+          "熱",
+          "比熱",
+          "熱膨脹",
+          "熱傳導",
+          "熱力學",
+          "熱機",
+          "氣體",
+          "彈簧",
+          "圓周",
+          "向心",
+          "波以耳",
+          "線膨脹",
+          "機械能"
+        ],
         "semester": "上學期",
         "grade": "高二",
         "subject": "物理",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
       }
     ],
     "classificationNotes": "翰林官方課本頁確認高二上選修物理(II)冊名為「力學二與熱學」；僅作冊別／主題對照，不推定段考。",
-    "sourceRef": "題目為原創；教材冊別／單元對照僅參照出版社官方商品頁或目次，非教材或歷屆試題原文。"
+    "sourceRef": "https://books.hanlin.com.tw/product/004022"
   },
   {
     "id": "b31-069",
@@ -2178,16 +2281,40 @@ window.EXTRA31_GRADE_BANK = [
         "volume": "選修物理(II) 力學二與熱學",
         "unitCode": "全冊",
         "unitName": "力學二與熱學",
+        "unitAliases": [],
+        "scopeKeywords": [
+          "動量",
+          "衝量",
+          "碰撞",
+          "功",
+          "位能",
+          "動能",
+          "力矩",
+          "角動量",
+          "熱",
+          "比熱",
+          "熱膨脹",
+          "熱傳導",
+          "熱力學",
+          "熱機",
+          "氣體",
+          "彈簧",
+          "圓周",
+          "向心",
+          "波以耳",
+          "線膨脹",
+          "機械能"
+        ],
         "semester": "上學期",
         "grade": "高二",
         "subject": "物理",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
       }
     ],
     "classificationNotes": "翰林官方課本頁確認高二上選修物理(II)冊名為「力學二與熱學」；僅作冊別／主題對照，不推定段考。",
-    "sourceRef": "題目為原創；教材冊別／單元對照僅參照出版社官方商品頁或目次，非教材或歷屆試題原文。"
+    "sourceRef": "https://books.hanlin.com.tw/product/004022"
   },
   {
     "id": "b31-070",
@@ -2228,16 +2355,40 @@ window.EXTRA31_GRADE_BANK = [
         "volume": "選修物理(II) 力學二與熱學",
         "unitCode": "全冊",
         "unitName": "力學二與熱學",
+        "unitAliases": [],
+        "scopeKeywords": [
+          "動量",
+          "衝量",
+          "碰撞",
+          "功",
+          "位能",
+          "動能",
+          "力矩",
+          "角動量",
+          "熱",
+          "比熱",
+          "熱膨脹",
+          "熱傳導",
+          "熱力學",
+          "熱機",
+          "氣體",
+          "彈簧",
+          "圓周",
+          "向心",
+          "波以耳",
+          "線膨脹",
+          "機械能"
+        ],
         "semester": "上學期",
         "grade": "高二",
         "subject": "物理",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
       }
     ],
     "classificationNotes": "翰林官方課本頁確認高二上選修物理(II)冊名為「力學二與熱學」；僅作冊別／主題對照，不推定段考。",
-    "sourceRef": "題目為原創；教材冊別／單元對照僅參照出版社官方商品頁或目次，非教材或歷屆試題原文。"
+    "sourceRef": "https://books.hanlin.com.tw/product/004022"
   },
   {
     "id": "b31-071",
@@ -2278,16 +2429,40 @@ window.EXTRA31_GRADE_BANK = [
         "volume": "選修物理(II) 力學二與熱學",
         "unitCode": "全冊",
         "unitName": "力學二與熱學",
+        "unitAliases": [],
+        "scopeKeywords": [
+          "動量",
+          "衝量",
+          "碰撞",
+          "功",
+          "位能",
+          "動能",
+          "力矩",
+          "角動量",
+          "熱",
+          "比熱",
+          "熱膨脹",
+          "熱傳導",
+          "熱力學",
+          "熱機",
+          "氣體",
+          "彈簧",
+          "圓周",
+          "向心",
+          "波以耳",
+          "線膨脹",
+          "機械能"
+        ],
         "semester": "上學期",
         "grade": "高二",
         "subject": "物理",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
       }
     ],
     "classificationNotes": "翰林官方課本頁確認高二上選修物理(II)冊名為「力學二與熱學」；僅作冊別／主題對照，不推定段考。",
-    "sourceRef": "題目為原創；教材冊別／單元對照僅參照出版社官方商品頁或目次，非教材或歷屆試題原文。"
+    "sourceRef": "https://books.hanlin.com.tw/product/004022"
   },
   {
     "id": "b31-072",
@@ -2328,16 +2503,40 @@ window.EXTRA31_GRADE_BANK = [
         "volume": "選修物理(II) 力學二與熱學",
         "unitCode": "全冊",
         "unitName": "力學二與熱學",
+        "unitAliases": [],
+        "scopeKeywords": [
+          "動量",
+          "衝量",
+          "碰撞",
+          "功",
+          "位能",
+          "動能",
+          "力矩",
+          "角動量",
+          "熱",
+          "比熱",
+          "熱膨脹",
+          "熱傳導",
+          "熱力學",
+          "熱機",
+          "氣體",
+          "彈簧",
+          "圓周",
+          "向心",
+          "波以耳",
+          "線膨脹",
+          "機械能"
+        ],
         "semester": "上學期",
         "grade": "高二",
         "subject": "物理",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
       }
     ],
     "classificationNotes": "翰林官方課本頁確認高二上選修物理(II)冊名為「力學二與熱學」；僅作冊別／主題對照，不推定段考。",
-    "sourceRef": "題目為原創；教材冊別／單元對照僅參照出版社官方商品頁或目次，非教材或歷屆試題原文。"
+    "sourceRef": "https://books.hanlin.com.tw/product/004022"
   },
   {
     "id": "b31-073",
@@ -2373,21 +2572,31 @@ window.EXTRA31_GRADE_BANK = [
         "sourceTitle": "翰林書城－高中課本選修化學(II)物質構造與反應速率",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "官方翰林課本頁明示高中2年級、上學期及冊名「選修化學(II)物質構造與反應速率」；僅冊名／主題層級，未核對完整細分目次。此前曾誤標下學期，本次依官方頁更正。此映射不代表學校採用版本。",
-        "mappingLevel": "title-topic",
+        "notes": "翰林官方課本頁明示高中2年級、上學期及冊名「選修化學(II)物質構造與反應速率」；僅冊別層級，不宣稱細分單元已核對。不同商品編號的實驗手冊或習作可能有不同學期，不能與此課本頁混用。此映射不代表學校採用版本。",
+        "mappingLevel": "volume",
         "volume": "選修化學(II)物質構造與反應速率",
-        "unitCode": "冊名主題",
-        "unitName": "物質構造與反應速率（冊名層級）",
+        "unitCode": "全冊",
+        "unitName": "物質構造與反應速率（冊別層級；未核對細分目次）",
+        "unitAliases": [],
+        "scopeKeywords": [
+          "反應速率",
+          "催化劑",
+          "活化能",
+          "反應級數",
+          "物質構造",
+          "電子組態",
+          "價電子"
+        ],
         "semester": "上學期",
         "grade": "高二",
         "subject": "化學",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
       }
     ],
     "classificationNotes": "依翰林官方課本頁核對：高中2年級、上學期、選修化學(II)「物質構造與反應速率」；此為冊名／主題層級對照，非學校正式進度。",
-    "sourceRef": "翰林官方教材頁確認高中二年級下學期選修化學(II)「物質構造與反應速率」；本題為108課綱取向原創題，非教材或歷屆試題原文。"
+    "sourceRef": "https://books.hanlin.com.tw/product/005022"
   },
   {
     "id": "b31-074",
@@ -2423,21 +2632,31 @@ window.EXTRA31_GRADE_BANK = [
         "sourceTitle": "翰林書城－高中課本選修化學(II)物質構造與反應速率",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "官方翰林課本頁明示高中2年級、上學期及冊名「選修化學(II)物質構造與反應速率」；僅冊名／主題層級，未核對完整細分目次。此前曾誤標下學期，本次依官方頁更正。此映射不代表學校採用版本。",
-        "mappingLevel": "title-topic",
+        "notes": "翰林官方課本頁明示高中2年級、上學期及冊名「選修化學(II)物質構造與反應速率」；僅冊別層級，不宣稱細分單元已核對。不同商品編號的實驗手冊或習作可能有不同學期，不能與此課本頁混用。此映射不代表學校採用版本。",
+        "mappingLevel": "volume",
         "volume": "選修化學(II)物質構造與反應速率",
-        "unitCode": "冊名主題",
-        "unitName": "物質構造與反應速率（冊名層級）",
+        "unitCode": "全冊",
+        "unitName": "物質構造與反應速率（冊別層級；未核對細分目次）",
+        "unitAliases": [],
+        "scopeKeywords": [
+          "反應速率",
+          "催化劑",
+          "活化能",
+          "反應級數",
+          "物質構造",
+          "電子組態",
+          "價電子"
+        ],
         "semester": "上學期",
         "grade": "高二",
         "subject": "化學",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
       }
     ],
     "classificationNotes": "依翰林官方課本頁核對：高中2年級、上學期、選修化學(II)「物質構造與反應速率」；此為冊名／主題層級對照，非學校正式進度。",
-    "sourceRef": "翰林官方教材頁確認高中二年級下學期選修化學(II)「物質構造與反應速率」；本題為108課綱取向原創題，非教材或歷屆試題原文。"
+    "sourceRef": "https://books.hanlin.com.tw/product/005022"
   },
   {
     "id": "b31-075",
@@ -2478,16 +2697,24 @@ window.EXTRA31_GRADE_BANK = [
         "volume": "選修化學(III)（官方互動式教學講義）",
         "unitCode": "1",
         "unitName": "化學平衡",
+        "unitAliases": [
+          "化學平衡",
+          "平衡常數",
+          "勒沙特列",
+          "反應商",
+          "平衡移動"
+        ],
+        "scopeKeywords": [],
         "semester": "全學年",
         "grade": "高二、高三",
         "subject": "化學",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
       }
     ],
     "classificationNotes": "翰林官方選修化學(III)目次列化學平衡；本題對應該單元，不推定學校段考。",
-    "sourceRef": "題目為原創；教材冊別／單元對照僅參照出版社官方商品頁或目次，非教材或歷屆試題原文。"
+    "sourceRef": "https://books.hanlin.com.tw/product/435023"
   },
   {
     "id": "b31-076",
@@ -2528,16 +2755,24 @@ window.EXTRA31_GRADE_BANK = [
         "volume": "選修化學(III)（官方互動式教學講義）",
         "unitCode": "2",
         "unitName": "沉澱反應與溶解平衡",
+        "unitAliases": [
+          "沉澱",
+          "溶解平衡",
+          "溶度積",
+          "共同離子",
+          "Ksp"
+        ],
+        "scopeKeywords": [],
         "semester": "全學年",
         "grade": "高二、高三",
         "subject": "化學",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
       }
     ],
     "classificationNotes": "翰林官方選修化學(III)目次列沉澱反應與溶解平衡；本題對應該單元，不推定學校段考。",
-    "sourceRef": "題目為原創；教材冊別／單元對照僅參照出版社官方商品頁或目次，非教材或歷屆試題原文。"
+    "sourceRef": "https://books.hanlin.com.tw/product/435023"
   },
   {
     "id": "b31-077",
@@ -2578,16 +2813,24 @@ window.EXTRA31_GRADE_BANK = [
         "volume": "選修化學(III)（官方互動式教學講義）",
         "unitCode": "3",
         "unitName": "酸鹼反應",
+        "unitAliases": [
+          "酸鹼",
+          "pH",
+          "滴定",
+          "緩衝",
+          "鹽類水解"
+        ],
+        "scopeKeywords": [],
         "semester": "全學年",
         "grade": "高二、高三",
         "subject": "化學",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
       }
     ],
     "classificationNotes": "翰林官方選修化學(III)目次列酸鹼反應；本題對應該單元，不推定學校段考。",
-    "sourceRef": "題目為原創；教材冊別／單元對照僅參照出版社官方商品頁或目次，非教材或歷屆試題原文。"
+    "sourceRef": "https://books.hanlin.com.tw/product/435023"
   },
   {
     "id": "b31-078",
@@ -2628,16 +2871,24 @@ window.EXTRA31_GRADE_BANK = [
         "volume": "選修化學(III)（官方互動式教學講義）",
         "unitCode": "3",
         "unitName": "酸鹼反應",
+        "unitAliases": [
+          "酸鹼",
+          "pH",
+          "滴定",
+          "緩衝",
+          "鹽類水解"
+        ],
+        "scopeKeywords": [],
         "semester": "全學年",
         "grade": "高二、高三",
         "subject": "化學",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
       }
     ],
     "classificationNotes": "翰林官方選修化學(III)目次列酸鹼反應；本題對應該單元，不推定學校段考。",
-    "sourceRef": "題目為原創；教材冊別／單元對照僅參照出版社官方商品頁或目次，非教材或歷屆試題原文。"
+    "sourceRef": "https://books.hanlin.com.tw/product/435023"
   },
   {
     "id": "b31-079",
@@ -2678,16 +2929,24 @@ window.EXTRA31_GRADE_BANK = [
         "volume": "選修化學(III)（官方互動式教學講義）",
         "unitCode": "3",
         "unitName": "酸鹼反應",
+        "unitAliases": [
+          "酸鹼",
+          "pH",
+          "滴定",
+          "緩衝",
+          "鹽類水解"
+        ],
+        "scopeKeywords": [],
         "semester": "全學年",
         "grade": "高二、高三",
         "subject": "化學",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
       }
     ],
     "classificationNotes": "翰林官方選修化學(III)目次列酸鹼反應；本題對應該單元，不推定學校段考。",
-    "sourceRef": "題目為原創；教材冊別／單元對照僅參照出版社官方商品頁或目次，非教材或歷屆試題原文。"
+    "sourceRef": "https://books.hanlin.com.tw/product/435023"
   },
   {
     "id": "b31-080",
@@ -2723,21 +2982,31 @@ window.EXTRA31_GRADE_BANK = [
         "sourceTitle": "翰林書城－高中課本選修化學(II)物質構造與反應速率",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "官方翰林課本頁明示高中2年級、上學期及冊名「選修化學(II)物質構造與反應速率」；僅冊名／主題層級，未核對完整細分目次。此前曾誤標下學期，本次依官方頁更正。此映射不代表學校採用版本。",
-        "mappingLevel": "title-topic",
+        "notes": "翰林官方課本頁明示高中2年級、上學期及冊名「選修化學(II)物質構造與反應速率」；僅冊別層級，不宣稱細分單元已核對。不同商品編號的實驗手冊或習作可能有不同學期，不能與此課本頁混用。此映射不代表學校採用版本。",
+        "mappingLevel": "volume",
         "volume": "選修化學(II)物質構造與反應速率",
-        "unitCode": "冊名主題",
-        "unitName": "物質構造與反應速率（冊名層級）",
+        "unitCode": "全冊",
+        "unitName": "物質構造與反應速率（冊別層級；未核對細分目次）",
+        "unitAliases": [],
+        "scopeKeywords": [
+          "反應速率",
+          "催化劑",
+          "活化能",
+          "反應級數",
+          "物質構造",
+          "電子組態",
+          "價電子"
+        ],
         "semester": "上學期",
         "grade": "高二",
         "subject": "化學",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
       }
     ],
     "classificationNotes": "依翰林官方課本頁核對：高中2年級、上學期、選修化學(II)「物質構造與反應速率」；此為冊名／主題層級對照，非學校正式進度。",
-    "sourceRef": "翰林官方教材頁確認高中二年級下學期選修化學(II)「物質構造與反應速率」；本題為108課綱取向原創題，非教材或歷屆試題原文。"
+    "sourceRef": "https://books.hanlin.com.tw/product/005022"
   },
   {
     "id": "b31-081",
@@ -2778,16 +3047,26 @@ window.EXTRA31_GRADE_BANK = [
         "volume": "選修生物(II)生命的起源與植物",
         "unitCode": "冊別層級",
         "unitName": "生命的起源與植物（冊別層級）",
+        "unitAliases": [],
+        "scopeKeywords": [
+          "植物",
+          "光合作用",
+          "蒸散",
+          "氣孔",
+          "維管束",
+          "木質部",
+          "韌皮部"
+        ],
         "semester": "上學期",
         "grade": "高二",
         "subject": "生物",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
       }
     ],
     "classificationNotes": "翰林官方課本頁確認高二上選修生物(II)冊名為「生命的起源與植物」；此處僅作冊別層級對照，官方頁未提供完整單元目次，不推定段考。",
-    "sourceRef": "題目為原創；教材冊別／單元對照僅參照出版社官方商品頁或目次，非教材或歷屆試題原文。"
+    "sourceRef": "https://books.hanlin.com.tw/product/006022"
   },
   {
     "id": "b31-082",
@@ -2828,16 +3107,26 @@ window.EXTRA31_GRADE_BANK = [
         "volume": "選修生物(II)生命的起源與植物",
         "unitCode": "冊別層級",
         "unitName": "生命的起源與植物（冊別層級）",
+        "unitAliases": [],
+        "scopeKeywords": [
+          "植物",
+          "光合作用",
+          "蒸散",
+          "氣孔",
+          "維管束",
+          "木質部",
+          "韌皮部"
+        ],
         "semester": "上學期",
         "grade": "高二",
         "subject": "生物",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
       }
     ],
     "classificationNotes": "翰林官方課本頁確認高二上選修生物(II)冊名為「生命的起源與植物」；此處僅作冊別層級對照，官方頁未提供完整單元目次，不推定段考。",
-    "sourceRef": "題目為原創；教材冊別／單元對照僅參照出版社官方商品頁或目次，非教材或歷屆試題原文。"
+    "sourceRef": "https://books.hanlin.com.tw/product/006022"
   },
   {
     "id": "b31-083",
@@ -2878,16 +3167,26 @@ window.EXTRA31_GRADE_BANK = [
         "volume": "選修生物(II)生命的起源與植物",
         "unitCode": "冊別層級",
         "unitName": "生命的起源與植物（冊別層級）",
+        "unitAliases": [],
+        "scopeKeywords": [
+          "植物",
+          "光合作用",
+          "蒸散",
+          "氣孔",
+          "維管束",
+          "木質部",
+          "韌皮部"
+        ],
         "semester": "上學期",
         "grade": "高二",
         "subject": "生物",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
       }
     ],
     "classificationNotes": "翰林官方課本頁確認高二上選修生物(II)冊名為「生命的起源與植物」；此處僅作冊別層級對照，官方頁未提供完整單元目次，不推定段考。",
-    "sourceRef": "題目為原創；教材冊別／單元對照僅參照出版社官方商品頁或目次，非教材或歷屆試題原文。"
+    "sourceRef": "https://books.hanlin.com.tw/product/006022"
   },
   {
     "id": "b31-084",
@@ -2928,16 +3227,26 @@ window.EXTRA31_GRADE_BANK = [
         "volume": "選修生物(II)生命的起源與植物",
         "unitCode": "冊別層級",
         "unitName": "生命的起源與植物（冊別層級）",
+        "unitAliases": [],
+        "scopeKeywords": [
+          "植物",
+          "光合作用",
+          "蒸散",
+          "氣孔",
+          "維管束",
+          "木質部",
+          "韌皮部"
+        ],
         "semester": "上學期",
         "grade": "高二",
         "subject": "生物",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
       }
     ],
     "classificationNotes": "翰林官方課本頁確認高二上選修生物(II)冊名為「生命的起源與植物」；此處僅作冊別層級對照，官方頁未提供完整單元目次，不推定段考。",
-    "sourceRef": "題目為原創；教材冊別／單元對照僅參照出版社官方商品頁或目次，非教材或歷屆試題原文。"
+    "sourceRef": "https://books.hanlin.com.tw/product/006022"
   },
   {
     "id": "b31-085",
