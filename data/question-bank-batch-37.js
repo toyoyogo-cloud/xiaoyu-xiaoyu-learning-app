@@ -787,7 +787,7 @@ window.EXTRA37_GRADE_BANK = [
     "e": "若24隻全是雞，共48腳；多出70－48＝22腳。每隻兔比雞多2腳，所以兔有22÷2＝11隻。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
-    "sourceRef": "https://tpack.nani.com.tw/nani_content?a=394&b=1",
+    "sourceRef": "https://tpack.nani.com.tw/nani_content?a=341&b=1",
     "reviewStatus": "rule-checked",
     "semester": "下學期",
     "examPeriod": "unassigned",
@@ -798,11 +798,12 @@ window.EXTRA37_GRADE_BANK = [
       {
         "publisher": "nani",
         "mappingId": "nani-g6-math-6b-chicken-rabbit",
-        "sourceUrl": "https://tpack.nani.com.tw/nani_content?a=394&b=1",
-        "sourceTitle": "南一官方平台教學資源－數學6下｜怎樣解題：雞兔問題",
+        "sourceUrl": "https://tpack.nani.com.tw/nani_content?a=341&b=1",
+        "sourceTitle": "南一官方資源頁熱門文章連結－數學6下｜怎樣解題：雞兔問題",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "official-index-link-only",
-        "notes": "南一官方資源頁a=341的熱門文章連結列出「數學6下｜怎樣解題：雞兔問題」，可由官方索引標題確認年級、科目、學期與主題；目標詳情頁目前請求逾時，未能檢視內容與作者細節，因此只作官方平台資源索引標題對照，不宣稱南一課本單元或南一編寫原題。"
+        "notes": "南一官方資源頁a=341的熱門文章連結列出「數學6下｜怎樣解題：雞兔問題」，可由官方索引標題確認年級、科目、學期與主題；目標詳情頁目前請求逾時，未能檢視內容與作者細節，因此只作官方平台資源索引標題對照，不宣稱南一課本單元或南一編寫原題。",
+        "targetUrl": "https://tpack.nani.com.tw/nani_content?a=394&b=1"
       }
     ],
     "classificationNotes": "南一官方資源頁a=341的熱門文章連結列出「數學6下｜怎樣解題：雞兔問題」，可由官方索引標題確認年級、科目、學期與主題；目標詳情頁目前請求逾時，未能檢視內容與作者細節，因此只作官方平台資源索引標題對照，不宣稱南一課本單元或南一編寫原題。",
@@ -830,7 +831,7 @@ window.EXTRA37_GRADE_BANK = [
     "e": "若30輛全是機車有60輪；多出26輪。每輛汽車比機車多2輪，所以汽車有26÷2＝13輛。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
-    "sourceRef": "https://tpack.nani.com.tw/nani_content?a=394&b=1",
+    "sourceRef": "https://tpack.nani.com.tw/nani_content?a=341&b=1",
     "reviewStatus": "rule-checked",
     "semester": "下學期",
     "examPeriod": "unassigned",
@@ -841,11 +842,12 @@ window.EXTRA37_GRADE_BANK = [
       {
         "publisher": "nani",
         "mappingId": "nani-g6-math-6b-chicken-rabbit",
-        "sourceUrl": "https://tpack.nani.com.tw/nani_content?a=394&b=1",
-        "sourceTitle": "南一官方平台教學資源－數學6下｜怎樣解題：雞兔問題",
+        "sourceUrl": "https://tpack.nani.com.tw/nani_content?a=341&b=1",
+        "sourceTitle": "南一官方資源頁熱門文章連結－數學6下｜怎樣解題：雞兔問題",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "official-index-link-only",
-        "notes": "南一官方資源頁a=341的熱門文章連結列出「數學6下｜怎樣解題：雞兔問題」，可由官方索引標題確認年級、科目、學期與主題；目標詳情頁目前請求逾時，未能檢視內容與作者細節，因此只作官方平台資源索引標題對照，不宣稱南一課本單元或南一編寫原題。"
+        "notes": "南一官方資源頁a=341的熱門文章連結列出「數學6下｜怎樣解題：雞兔問題」，可由官方索引標題確認年級、科目、學期與主題；目標詳情頁目前請求逾時，未能檢視內容與作者細節，因此只作官方平台資源索引標題對照，不宣稱南一課本單元或南一編寫原題。",
+        "targetUrl": "https://tpack.nani.com.tw/nani_content?a=394&b=1"
       }
     ],
     "classificationNotes": "南一官方資源頁a=341的熱門文章連結列出「數學6下｜怎樣解題：雞兔問題」，可由官方索引標題確認年級、科目、學期與主題；目標詳情頁目前請求逾時，未能檢視內容與作者細節，因此只作官方平台資源索引標題對照，不宣稱南一課本單元或南一編寫原題。",
