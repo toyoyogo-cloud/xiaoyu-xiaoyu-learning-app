@@ -39683,10 +39683,34 @@
     "b36-020": {
       "semester": "下學期",
       "examPeriod": "unassigned",
-      "classificationBasis": "curriculum-core",
+      "classificationBasis": "publisher-source-verified",
       "confidence": "medium",
-      "publisherStatus": "curriculum-core",
-      "publisherMappings": [],
+      "publisherStatus": "publisher-mapped",
+      "publisherMappings": [
+        {
+          "publisher": "nani",
+          "mappingId": "nani-g6-math-6b-four-operations",
+          "sourceUrl": "https://tpack.nani.com.tw/nani_list?b=1&page=6&t=",
+          "sourceTitle": "南一資源_國小資源索引－數學6下：四則混合運算",
+          "verifiedAt": "2026-11-13",
+          "verificationStatus": "official-index-link-only",
+          "notes": "南一官方資源列表頁明示「數學6下｜四則混合運算」、數學及六年級；詳情頁未能由本次查詢直接讀取，故只標官方索引標題層級，不宣稱完整教科書目次或學校採用版本。",
+          "mappingLevel": "official-resource-title",
+          "volume": "數學6下",
+          "unitCode": "索引標題",
+          "unitName": "四則混合運算（官方索引標題層級）",
+          "unitAliases": [
+            "四則混合運算"
+          ],
+          "scopeKeywords": [],
+          "semester": "下學期",
+          "grade": "六年級",
+          "subject": "數學",
+          "courseTrack": null,
+          "schoolYear": "未標示",
+          "courseType": "國小"
+        }
+      ],
       "classificationNotes": "南一官方資源索引標題明示數學6下「四則混合運算」；只作官方索引標題層級對照，詳情頁未核對。",
       "sourceRef": "https://tpack.nani.com.tw/nani_list?b=1&page=6&t=",
       "learningDomain": "數與運算",
@@ -41478,10 +41502,34 @@
     "b37-021": {
       "semester": "下學期",
       "examPeriod": "unassigned",
-      "classificationBasis": "curriculum-core",
+      "classificationBasis": "publisher-source-verified",
       "confidence": "medium",
-      "publisherStatus": "curriculum-core",
-      "publisherMappings": [],
+      "publisherStatus": "publisher-mapped",
+      "publisherMappings": [
+        {
+          "publisher": "nani",
+          "mappingId": "nani-g6-math-6b-four-operations",
+          "sourceUrl": "https://tpack.nani.com.tw/nani_list?b=1&page=6&t=",
+          "sourceTitle": "南一資源_國小資源索引－數學6下：四則混合運算",
+          "verifiedAt": "2026-11-13",
+          "verificationStatus": "official-index-link-only",
+          "notes": "南一官方資源列表頁明示「數學6下｜四則混合運算」、數學及六年級；詳情頁未能由本次查詢直接讀取，故只標官方索引標題層級，不宣稱完整教科書目次或學校採用版本。",
+          "mappingLevel": "official-resource-title",
+          "volume": "數學6下",
+          "unitCode": "索引標題",
+          "unitName": "四則混合運算（官方索引標題層級）",
+          "unitAliases": [
+            "四則混合運算"
+          ],
+          "scopeKeywords": [],
+          "semester": "下學期",
+          "grade": "六年級",
+          "subject": "數學",
+          "courseTrack": null,
+          "schoolYear": "未標示",
+          "courseType": "國小"
+        }
+      ],
       "classificationNotes": "南一官方資源索引標題明示數學6下「四則混合運算」；只作官方索引標題層級對照，詳情頁未核對。",
       "sourceRef": "https://tpack.nani.com.tw/nani_list?b=1&page=6&t=",
       "learningDomain": "數與運算",
@@ -41492,10 +41540,34 @@
     "b37-022": {
       "semester": "下學期",
       "examPeriod": "unassigned",
-      "classificationBasis": "curriculum-core",
+      "classificationBasis": "publisher-source-verified",
       "confidence": "medium",
-      "publisherStatus": "curriculum-core",
-      "publisherMappings": [],
+      "publisherStatus": "publisher-mapped",
+      "publisherMappings": [
+        {
+          "publisher": "nani",
+          "mappingId": "nani-g6-math-6b-four-operations",
+          "sourceUrl": "https://tpack.nani.com.tw/nani_list?b=1&page=6&t=",
+          "sourceTitle": "南一資源_國小資源索引－數學6下：四則混合運算",
+          "verifiedAt": "2026-11-13",
+          "verificationStatus": "official-index-link-only",
+          "notes": "南一官方資源列表頁明示「數學6下｜四則混合運算」、數學及六年級；詳情頁未能由本次查詢直接讀取，故只標官方索引標題層級，不宣稱完整教科書目次或學校採用版本。",
+          "mappingLevel": "official-resource-title",
+          "volume": "數學6下",
+          "unitCode": "索引標題",
+          "unitName": "四則混合運算（官方索引標題層級）",
+          "unitAliases": [
+            "四則混合運算"
+          ],
+          "scopeKeywords": [],
+          "semester": "下學期",
+          "grade": "六年級",
+          "subject": "數學",
+          "courseTrack": null,
+          "schoolYear": "未標示",
+          "courseType": "國小"
+        }
+      ],
       "classificationNotes": "南一官方資源索引標題明示數學6下「四則混合運算」；只作官方索引標題層級對照，詳情頁未核對。",
       "sourceRef": "https://tpack.nani.com.tw/nani_list?b=1&page=6&t=",
       "learningDomain": "數與運算",
@@ -43464,10 +43536,34 @@
     "b38-024": {
       "semester": "下學期",
       "examPeriod": "unassigned",
-      "classificationBasis": "curriculum-core",
+      "classificationBasis": "publisher-source-verified",
       "confidence": "medium",
-      "publisherStatus": "curriculum-core",
-      "publisherMappings": [],
+      "publisherStatus": "publisher-mapped",
+      "publisherMappings": [
+        {
+          "publisher": "nani",
+          "mappingId": "nani-g6-math-6b-four-operations",
+          "sourceUrl": "https://tpack.nani.com.tw/nani_list?b=1&page=6&t=",
+          "sourceTitle": "南一資源_國小資源索引－數學6下：四則混合運算",
+          "verifiedAt": "2026-11-13",
+          "verificationStatus": "official-index-link-only",
+          "notes": "南一官方資源列表頁明示「數學6下｜四則混合運算」、數學及六年級；詳情頁未能由本次查詢直接讀取，故只標官方索引標題層級，不宣稱完整教科書目次或學校採用版本。",
+          "mappingLevel": "official-resource-title",
+          "volume": "數學6下",
+          "unitCode": "索引標題",
+          "unitName": "四則混合運算（官方索引標題層級）",
+          "unitAliases": [
+            "四則混合運算"
+          ],
+          "scopeKeywords": [],
+          "semester": "下學期",
+          "grade": "六年級",
+          "subject": "數學",
+          "courseTrack": null,
+          "schoolYear": "未標示",
+          "courseType": "國小"
+        }
+      ],
       "classificationNotes": "南一官方資源索引標題明示數學6下「四則混合運算」；只作官方索引標題層級對照，詳情頁未核對。",
       "sourceRef": "https://tpack.nani.com.tw/nani_list?b=1&page=6&t=",
       "learningDomain": "統計與機率",
@@ -43478,10 +43574,34 @@
     "b38-025": {
       "semester": "下學期",
       "examPeriod": "unassigned",
-      "classificationBasis": "curriculum-core",
+      "classificationBasis": "publisher-source-verified",
       "confidence": "medium",
-      "publisherStatus": "curriculum-core",
-      "publisherMappings": [],
+      "publisherStatus": "publisher-mapped",
+      "publisherMappings": [
+        {
+          "publisher": "nani",
+          "mappingId": "nani-g6-math-6b-four-operations",
+          "sourceUrl": "https://tpack.nani.com.tw/nani_list?b=1&page=6&t=",
+          "sourceTitle": "南一資源_國小資源索引－數學6下：四則混合運算",
+          "verifiedAt": "2026-11-13",
+          "verificationStatus": "official-index-link-only",
+          "notes": "南一官方資源列表頁明示「數學6下｜四則混合運算」、數學及六年級；詳情頁未能由本次查詢直接讀取，故只標官方索引標題層級，不宣稱完整教科書目次或學校採用版本。",
+          "mappingLevel": "official-resource-title",
+          "volume": "數學6下",
+          "unitCode": "索引標題",
+          "unitName": "四則混合運算（官方索引標題層級）",
+          "unitAliases": [
+            "四則混合運算"
+          ],
+          "scopeKeywords": [],
+          "semester": "下學期",
+          "grade": "六年級",
+          "subject": "數學",
+          "courseTrack": null,
+          "schoolYear": "未標示",
+          "courseType": "國小"
+        }
+      ],
       "classificationNotes": "南一官方資源索引標題明示數學6下「四則混合運算」；只作官方索引標題層級對照，詳情頁未核對。",
       "sourceRef": "https://tpack.nani.com.tw/nani_list?b=1&page=6&t=",
       "learningDomain": "數與運算",
@@ -43492,10 +43612,34 @@
     "b38-026": {
       "semester": "下學期",
       "examPeriod": "unassigned",
-      "classificationBasis": "curriculum-core",
+      "classificationBasis": "publisher-source-verified",
       "confidence": "medium",
-      "publisherStatus": "curriculum-core",
-      "publisherMappings": [],
+      "publisherStatus": "publisher-mapped",
+      "publisherMappings": [
+        {
+          "publisher": "nani",
+          "mappingId": "nani-g6-math-6b-four-operations",
+          "sourceUrl": "https://tpack.nani.com.tw/nani_list?b=1&page=6&t=",
+          "sourceTitle": "南一資源_國小資源索引－數學6下：四則混合運算",
+          "verifiedAt": "2026-11-13",
+          "verificationStatus": "official-index-link-only",
+          "notes": "南一官方資源列表頁明示「數學6下｜四則混合運算」、數學及六年級；詳情頁未能由本次查詢直接讀取，故只標官方索引標題層級，不宣稱完整教科書目次或學校採用版本。",
+          "mappingLevel": "official-resource-title",
+          "volume": "數學6下",
+          "unitCode": "索引標題",
+          "unitName": "四則混合運算（官方索引標題層級）",
+          "unitAliases": [
+            "四則混合運算"
+          ],
+          "scopeKeywords": [],
+          "semester": "下學期",
+          "grade": "六年級",
+          "subject": "數學",
+          "courseTrack": null,
+          "schoolYear": "未標示",
+          "courseType": "國小"
+        }
+      ],
       "classificationNotes": "南一官方資源索引標題明示數學6下「四則混合運算」；只作官方索引標題層級對照，詳情頁未核對。",
       "sourceRef": "https://tpack.nani.com.tw/nani_list?b=1&page=6&t=",
       "learningDomain": "數與運算",
@@ -43506,10 +43650,34 @@
     "b38-027": {
       "semester": "下學期",
       "examPeriod": "unassigned",
-      "classificationBasis": "curriculum-core",
+      "classificationBasis": "publisher-source-verified",
       "confidence": "medium",
-      "publisherStatus": "curriculum-core",
-      "publisherMappings": [],
+      "publisherStatus": "publisher-mapped",
+      "publisherMappings": [
+        {
+          "publisher": "nani",
+          "mappingId": "nani-g6-math-6b-four-operations",
+          "sourceUrl": "https://tpack.nani.com.tw/nani_list?b=1&page=6&t=",
+          "sourceTitle": "南一資源_國小資源索引－數學6下：四則混合運算",
+          "verifiedAt": "2026-11-13",
+          "verificationStatus": "official-index-link-only",
+          "notes": "南一官方資源列表頁明示「數學6下｜四則混合運算」、數學及六年級；詳情頁未能由本次查詢直接讀取，故只標官方索引標題層級，不宣稱完整教科書目次或學校採用版本。",
+          "mappingLevel": "official-resource-title",
+          "volume": "數學6下",
+          "unitCode": "索引標題",
+          "unitName": "四則混合運算（官方索引標題層級）",
+          "unitAliases": [
+            "四則混合運算"
+          ],
+          "scopeKeywords": [],
+          "semester": "下學期",
+          "grade": "六年級",
+          "subject": "數學",
+          "courseTrack": null,
+          "schoolYear": "未標示",
+          "courseType": "國小"
+        }
+      ],
       "classificationNotes": "南一官方資源索引標題明示數學6下「四則混合運算」；只作官方索引標題層級對照，詳情頁未核對。",
       "sourceRef": "https://tpack.nani.com.tw/nani_list?b=1&page=6&t=",
       "learningDomain": "數與運算",
@@ -43520,10 +43688,34 @@
     "b38-028": {
       "semester": "下學期",
       "examPeriod": "unassigned",
-      "classificationBasis": "curriculum-core",
+      "classificationBasis": "publisher-source-verified",
       "confidence": "medium",
-      "publisherStatus": "curriculum-core",
-      "publisherMappings": [],
+      "publisherStatus": "publisher-mapped",
+      "publisherMappings": [
+        {
+          "publisher": "nani",
+          "mappingId": "nani-g6-math-6b-four-operations",
+          "sourceUrl": "https://tpack.nani.com.tw/nani_list?b=1&page=6&t=",
+          "sourceTitle": "南一資源_國小資源索引－數學6下：四則混合運算",
+          "verifiedAt": "2026-11-13",
+          "verificationStatus": "official-index-link-only",
+          "notes": "南一官方資源列表頁明示「數學6下｜四則混合運算」、數學及六年級；詳情頁未能由本次查詢直接讀取，故只標官方索引標題層級，不宣稱完整教科書目次或學校採用版本。",
+          "mappingLevel": "official-resource-title",
+          "volume": "數學6下",
+          "unitCode": "索引標題",
+          "unitName": "四則混合運算（官方索引標題層級）",
+          "unitAliases": [
+            "四則混合運算"
+          ],
+          "scopeKeywords": [],
+          "semester": "下學期",
+          "grade": "六年級",
+          "subject": "數學",
+          "courseTrack": null,
+          "schoolYear": "未標示",
+          "courseType": "國小"
+        }
+      ],
       "classificationNotes": "南一官方資源索引標題明示數學6下「四則混合運算」；只作官方索引標題層級對照，詳情頁未核對。",
       "sourceRef": "https://tpack.nani.com.tw/nani_list?b=1&page=6&t=",
       "learningDomain": "數與運算",
