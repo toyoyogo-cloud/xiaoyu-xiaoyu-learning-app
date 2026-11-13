@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.1.0",
   "updatedAt": "2026-11-14",
-  "classificationRuleVersion": "2026-11-14.31",
+  "classificationRuleVersion": "2026-11-14.33",
   "batchRange": "38-41",
   "sourceBatchShas": {
     "38": "d5f0aed52035624b1aa72f3052577b8e13f11c91",
@@ -310,7 +310,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心與該年級學習表現原創編寫；沒有足以確認出版社冊別／單元或學校段考進度的證據，故不掛出版社標籤並保留未分類。",
       "sourceRef": "108課綱共同核心原創編寫；非出版社教材原文或歷屆試題原文。",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "文法句型",
       "questionType": "推理判斷",
       "learningUnit": "主詞動詞一致",
       "difficultyLevel": "進階"
@@ -392,7 +392,7 @@
       ],
       "classificationNotes": "南一官方6下資源明示「基準量和比較量」；只作單元層級對照。",
       "sourceRef": "https://tpack.nani.com.tw/nani_content?a=341&b=1",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "數與運算",
       "questionType": "推理判斷",
       "learningUnit": "基準量和比較量",
       "difficultyLevel": "進階"
@@ -436,7 +436,7 @@
       ],
       "classificationNotes": "南一官方6下資源明示「基準量和比較量」；只作單元層級對照。",
       "sourceRef": "https://tpack.nani.com.tw/nani_content?a=341&b=1",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "數與運算",
       "questionType": "推理判斷",
       "learningUnit": "基準量和比較量",
       "difficultyLevel": "進階"
@@ -524,7 +524,7 @@
       ],
       "classificationNotes": "南一官方6下資源明示「基準量和比較量」；只作單元層級對照。",
       "sourceRef": "https://tpack.nani.com.tw/nani_content?a=341&b=1",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "數與運算",
       "questionType": "推理判斷",
       "learningUnit": "基準量和比較量",
       "difficultyLevel": "進階"
@@ -568,7 +568,7 @@
       ],
       "classificationNotes": "南一官方6下資源明示「基準量和比較量」；只作單元層級對照。",
       "sourceRef": "https://tpack.nani.com.tw/nani_content?a=341&b=1",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "數與運算",
       "questionType": "推理判斷",
       "learningUnit": "基準量和比較量",
       "difficultyLevel": "進階"
@@ -1281,7 +1281,7 @@
       ],
       "classificationNotes": "已確認題目課程軌別為數學A；依翰林數學3A官方單元次序推定段考，非學校正式範圍。",
       "sourceRef": "https://books.hanlin.com.tw/product/433021",
-      "learningDomain": "代數與函數",
+      "learningDomain": "幾何與測量",
       "questionType": "計算應用",
       "learningUnit": "三角函數",
       "difficultyLevel": "進階"
@@ -1334,7 +1334,7 @@
       ],
       "classificationNotes": "已確認題目課程軌別為數學A；依翰林數學3A官方單元次序推定段考，非學校正式範圍。",
       "sourceRef": "https://books.hanlin.com.tw/product/433021",
-      "learningDomain": "代數與函數",
+      "learningDomain": "幾何與測量",
       "questionType": "計算應用",
       "learningUnit": "三角函數圖形",
       "difficultyLevel": "進階"
@@ -1387,7 +1387,7 @@
       ],
       "classificationNotes": "已確認題目課程軌別為數學A；依翰林數學3A官方單元次序推定段考，非學校正式範圍。",
       "sourceRef": "https://books.hanlin.com.tw/product/433021",
-      "learningDomain": "代數與函數",
+      "learningDomain": "幾何與測量",
       "questionType": "計算應用",
       "learningUnit": "三角函數象限判斷",
       "difficultyLevel": "進階"
@@ -1824,7 +1824,7 @@
       ],
       "classificationNotes": "已確認題目課程軌別為數學A；依翰林數學3A官方單元次序推定段考，非學校正式範圍。",
       "sourceRef": "https://books.hanlin.com.tw/product/433021",
-      "learningDomain": "數與運算",
+      "learningDomain": "幾何與測量",
       "questionType": "計算應用",
       "learningUnit": "行列式與平行四邊形面積",
       "difficultyLevel": "進階"
@@ -1919,7 +1919,7 @@
       "publisherMappings": [],
       "classificationNotes": "翰林官方頁確認高二上選修物理(II)冊名「力學二與熱學」；只作冊別層級對照，未核對細分單元或段考。 原出版社映射因年級、科目、學期、課程軌別、選修課程類型或單元／冊別範圍未通過一致性檢查，故不納入出版社篩選；若原學期／段考僅依該映射而來，已一併撤回。",
       "sourceRef": "108課綱共同核心；原出版社映射未通過範圍檢查",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "熱學能量",
       "questionType": "推理判斷",
       "learningUnit": "線膨脹",
       "difficultyLevel": "進階"
@@ -2932,7 +2932,7 @@
       ],
       "classificationNotes": "南一官方6下資源明示「基準量和比較量」；只作單元層級對照。",
       "sourceRef": "https://tpack.nani.com.tw/nani_content?a=341&b=1",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "數與運算",
       "questionType": "情境應用",
       "learningUnit": "基準量和比較量",
       "difficultyLevel": "進階"
@@ -2976,7 +2976,7 @@
       ],
       "classificationNotes": "南一官方6下資源明示「基準量和比較量」；只作單元層級對照。",
       "sourceRef": "https://tpack.nani.com.tw/nani_content?a=341&b=1",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "數與運算",
       "questionType": "情境應用",
       "learningUnit": "基準量和比較量",
       "difficultyLevel": "進階"
@@ -3020,7 +3020,7 @@
       ],
       "classificationNotes": "南一官方6下資源明示「基準量和比較量」；只作單元層級對照。",
       "sourceRef": "https://tpack.nani.com.tw/nani_content?a=341&b=1",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "數與運算",
       "questionType": "情境應用",
       "learningUnit": "基準量和比較量",
       "difficultyLevel": "進階"
@@ -3064,7 +3064,7 @@
       ],
       "classificationNotes": "南一官方6下資源明示「基準量和比較量」；只作單元層級對照。",
       "sourceRef": "https://tpack.nani.com.tw/nani_content?a=341&b=1",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "數與運算",
       "questionType": "閱讀推理",
       "learningUnit": "基準量和比較量",
       "difficultyLevel": "進階"
@@ -3216,7 +3216,7 @@
       "publisherMappings": [],
       "classificationNotes": "依六年級題庫常見單元群推定上學期前段；非學校正式段考範圍。",
       "sourceRef": "108課綱共同核心原創編寫；非出版社教材原文或歷屆試題原文。",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "數與運算",
       "questionType": "閱讀推理",
       "learningUnit": "比與分配",
       "difficultyLevel": "進階"
@@ -3649,7 +3649,7 @@
       ],
       "classificationNotes": "已確認題目課程軌別為數學A；依翰林數學3A官方單元次序推定段考，非學校正式範圍。",
       "sourceRef": "https://books.hanlin.com.tw/product/433021",
-      "learningDomain": "代數與函數",
+      "learningDomain": "幾何與測量",
       "questionType": "情境應用",
       "learningUnit": "三角函數週期模型",
       "difficultyLevel": "進階"
@@ -3702,7 +3702,7 @@
       ],
       "classificationNotes": "已確認題目課程軌別為數學A；依翰林數學3A官方單元次序推定段考，非學校正式範圍。",
       "sourceRef": "https://books.hanlin.com.tw/product/433021",
-      "learningDomain": "代數與函數",
+      "learningDomain": "幾何與測量",
       "questionType": "情境應用",
       "learningUnit": "三角函數週期",
       "difficultyLevel": "進階"
@@ -4344,7 +4344,7 @@
       "publisherMappings": [],
       "classificationNotes": "翰林官方頁確認高二上選修物理(II)冊名「力學二與熱學」；只作冊別層級對照，未核對細分單元或段考。 原出版社映射因年級、科目、學期、課程軌別、選修課程類型或單元／冊別範圍未通過一致性檢查，故不納入出版社篩選；若原學期／段考僅依該映射而來，已一併撤回。",
       "sourceRef": "108課綱共同核心；原出版社映射未通過範圍檢查",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "熱學能量",
       "questionType": "情境應用",
       "learningUnit": "線膨脹",
       "difficultyLevel": "進階"
@@ -4724,7 +4724,7 @@
       "publisherMappings": [],
       "classificationNotes": "108課綱共同核心原創編寫；未取得可同時核對該年級、科目、冊別與單元的出版社來源，因此不標出版社；學期及段考保留未分類。",
       "sourceRef": "108課綱共同核心原創編寫；非出版社教材原文或歷屆試題原文。",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "世界史",
       "questionType": "閱讀推理",
       "learningUnit": "法國大革命背景",
       "difficultyLevel": "進階"
@@ -5142,7 +5142,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
       "sourceRef": "108課綱共同核心原創編寫；非出版社教材原文或歷屆試題原文。",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "文法句型",
       "questionType": "概念辨識",
       "learningUnit": "比較級句型",
       "difficultyLevel": "進階"
@@ -5161,7 +5161,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
       "sourceRef": "108課綱共同核心原創編寫；非出版社教材原文或歷屆試題原文。",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "文法句型",
       "questionType": "概念辨識",
       "learningUnit": "過去進行式",
       "difficultyLevel": "進階"
@@ -5199,7 +5199,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
       "sourceRef": "108課綱共同核心原創編寫；非出版社教材原文或歷屆試題原文。",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "文法句型",
       "questionType": "概念辨識",
       "learningUnit": "可數名詞量詞",
       "difficultyLevel": "進階"
@@ -5218,7 +5218,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
       "sourceRef": "108課綱共同核心原創編寫；非出版社教材原文或歷屆試題原文。",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "文法句型",
       "questionType": "概念辨識",
       "learningUnit": "連接詞語意",
       "difficultyLevel": "進階"
@@ -5237,7 +5237,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
       "sourceRef": "108課綱共同核心原創編寫；非出版社教材原文或歷屆試題原文。",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "文法句型",
       "questionType": "概念辨識",
       "learningUnit": "第一類條件句",
       "difficultyLevel": "進階"
@@ -5300,7 +5300,7 @@
       ],
       "classificationNotes": "南一官方6下資源明示「基準量和比較量」；只作單元層級對照。",
       "sourceRef": "https://tpack.nani.com.tw/nani_content?a=341&b=1",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "數與運算",
       "questionType": "計算應用",
       "learningUnit": "基準量和比較量",
       "difficultyLevel": "進階"
@@ -5344,7 +5344,7 @@
       ],
       "classificationNotes": "南一官方6下資源明示「基準量和比較量」；只作單元層級對照。",
       "sourceRef": "https://tpack.nani.com.tw/nani_content?a=341&b=1",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "數與運算",
       "questionType": "計算應用",
       "learningUnit": "基準量和比較量",
       "difficultyLevel": "進階"
@@ -5388,7 +5388,7 @@
       ],
       "classificationNotes": "南一官方6下資源明示「基準量和比較量」；只作單元層級對照。",
       "sourceRef": "https://tpack.nani.com.tw/nani_content?a=341&b=1",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "數與運算",
       "questionType": "計算應用",
       "learningUnit": "基準量和比較量",
       "difficultyLevel": "進階"
@@ -5432,7 +5432,7 @@
       ],
       "classificationNotes": "南一官方6下資源明示「基準量和比較量」；只作單元層級對照。",
       "sourceRef": "https://tpack.nani.com.tw/nani_content?a=341&b=1",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "數與運算",
       "questionType": "計算應用",
       "learningUnit": "基準量和比較量",
       "difficultyLevel": "進階"
@@ -5476,7 +5476,7 @@
       ],
       "classificationNotes": "南一官方索引標題顯示數學6下雞兔問題；詳情頁未能讀取，僅保留官方資源標題層級。",
       "sourceRef": "https://tpack.nani.com.tw/nani_content?a=394&b=1",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "數與運算",
       "questionType": "概念辨識",
       "learningUnit": "雞兔問題",
       "difficultyLevel": "進階"
@@ -5520,7 +5520,7 @@
       ],
       "classificationNotes": "南一官方索引標題顯示數學6下雞兔問題；詳情頁未能讀取，僅保留官方資源標題層級。",
       "sourceRef": "https://tpack.nani.com.tw/nani_content?a=394&b=1",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "數與運算",
       "questionType": "概念辨識",
       "learningUnit": "雞兔問題",
       "difficultyLevel": "進階"
@@ -5577,7 +5577,7 @@
       "publisherMappings": [],
       "classificationNotes": "依六年級題庫常見比例尺與速率單元群推定；非學校正式段考範圍。",
       "sourceRef": "108課綱共同核心原創編寫；非出版社教材原文或歷屆試題原文。",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "數與運算",
       "questionType": "計算應用",
       "learningUnit": "平均速率",
       "difficultyLevel": "進階"
@@ -5748,7 +5748,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
       "sourceRef": "108課綱共同核心原創編寫；非出版社教材原文或歷屆試題原文。",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "物理能量",
       "questionType": "概念辨識",
       "learningUnit": "凝結現象",
       "difficultyLevel": "進階"
@@ -5824,7 +5824,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
       "sourceRef": "108課綱共同核心原創編寫；非出版社教材原文或歷屆試題原文。",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "地球環境",
       "questionType": "推理判斷",
       "learningUnit": "月相與日食",
       "difficultyLevel": "進階"
@@ -5862,7 +5862,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
       "sourceRef": "108課綱共同核心原創編寫；非出版社教材原文或歷屆試題原文。",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "公民制度與公共參與",
       "questionType": "概念辨識",
       "learningUnit": "秘密投票",
       "difficultyLevel": "進階"
@@ -5881,7 +5881,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
       "sourceRef": "108課綱共同核心原創編寫；非出版社教材原文或歷屆試題原文。",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "公民制度與公共參與",
       "questionType": "概念辨識",
       "learningUnit": "公共預算與取捨",
       "difficultyLevel": "進階"
@@ -5900,7 +5900,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
       "sourceRef": "108課綱共同核心原創編寫；非出版社教材原文或歷屆試題原文。",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "地理空間與環境",
       "questionType": "推理判斷",
       "learningUnit": "人口金字塔判讀",
       "difficultyLevel": "進階"
@@ -5919,7 +5919,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
       "sourceRef": "108課綱共同核心原創編寫；非出版社教材原文或歷屆試題原文。",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "社會探究與公共議題",
       "questionType": "閱讀理解",
       "learningUnit": "媒體資訊查證",
       "difficultyLevel": "進階"
@@ -5938,7 +5938,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
       "sourceRef": "108課綱共同核心原創編寫；非出版社教材原文或歷屆試題原文。",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "地理空間與環境",
       "questionType": "圖表資料判讀",
       "learningUnit": "等高線判讀",
       "difficultyLevel": "進階"
@@ -5957,7 +5957,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
       "sourceRef": "108課綱共同核心原創編寫；非出版社教材原文或歷屆試題原文。",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "社會探究與公共議題",
       "questionType": "概念辨識",
       "learningUnit": "進出口概念",
       "difficultyLevel": "進階"
@@ -6003,7 +6003,7 @@
       ],
       "classificationNotes": "康軒官方六上2-1教學資源明示個人發展與社會變遷單元；不代表學校採用版本。",
       "sourceRef": "https://sdgs.knsh.com.tw/campus/SDGS_FILE_E/%E7%A4%BE%E6%9C%83%E5%85%AD%E4%B8%8ACH2L1%E5%80%8B%E4%BA%BA%E7%99%BC%E5%B1%95%E5%A6%82%E4%BD%95%E5%8F%97%E5%88%B0%E7%A4%BE%E6%9C%83%E8%AE%8A%E9%81%B7%E7%9A%84%E5%BD%B1%E9%9F%BF_%E6%95%99%E5%AD%B8%E8%B3%87%E6%BA%90.pdf",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "社會變遷與文化",
       "questionType": "概念辨識",
       "learningUnit": "個人發展與社會變遷",
       "difficultyLevel": "進階"
@@ -6022,7 +6022,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
       "sourceRef": "108課綱共同核心原創編寫；非出版社教材原文或歷屆試題原文。",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "歷史脈絡與史料",
       "questionType": "概念辨識",
       "learningUnit": "第一手史料與限制",
       "difficultyLevel": "進階"
@@ -6041,7 +6041,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
       "sourceRef": "108課綱共同核心原創編寫；非出版社教材原文或歷屆試題原文。",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "地理空間與環境",
       "questionType": "概念辨識",
       "learningUnit": "永續交通選擇",
       "difficultyLevel": "進階"
@@ -6688,7 +6688,7 @@
       "publisherMappings": [],
       "classificationNotes": "翰林官方頁確認高二上選修物理(II)冊名「力學二與熱學」；只作冊別層級對照，未核對細分單元或段考。 原出版社映射因年級、科目、學期、課程軌別、選修課程類型或單元／冊別範圍未通過一致性檢查，故不納入出版社篩選；若原學期／段考僅依該映射而來，已一併撤回。",
       "sourceRef": "108課綱共同核心；原出版社映射未通過範圍檢查",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "力學運動",
       "questionType": "計算應用",
       "learningUnit": "彈簧位能",
       "difficultyLevel": "進階"
@@ -6764,7 +6764,7 @@
       "publisherMappings": [],
       "classificationNotes": "翰林官方化學(III)目次明示沉澱反應與溶解平衡單元；教材標示高二、高三全學年。 原出版社映射因年級、科目、學期、課程軌別、選修課程類型或單元／冊別範圍未通過一致性檢查，故不納入出版社篩選；若原學期／段考僅依該映射而來，已一併撤回。",
       "sourceRef": "108課綱共同核心；原出版社映射未通過範圍檢查",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "反應與計量",
       "questionType": "概念辨識",
       "learningUnit": "共同離子效應",
       "difficultyLevel": "進階"
@@ -7030,7 +7030,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
       "sourceRef": "108課綱共同核心原創編寫；非出版社教材原文或歷屆試題原文。",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "人文地理",
       "questionType": "概念辨識",
       "learningUnit": "供應鏈區位",
       "difficultyLevel": "進階"
@@ -7258,7 +7258,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
       "sourceRef": "108課綱共同核心原創編寫；非出版社教材原文或歷屆試題原文。",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "語文修辭",
       "questionType": "推理判斷",
       "learningUnit": "反諷語氣判讀",
       "difficultyLevel": "進階"
@@ -7644,7 +7644,7 @@
       ],
       "classificationNotes": "南一官方6下資源明示「基準量和比較量」；只作單元層級對照。",
       "sourceRef": "https://tpack.nani.com.tw/nani_content?a=341&b=1",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "數與運算",
       "questionType": "情境推理",
       "learningUnit": "基準量和比較量",
       "difficultyLevel": "進階"
@@ -7688,7 +7688,7 @@
       ],
       "classificationNotes": "南一官方6下資源明示「基準量和比較量」；只作單元層級對照。",
       "sourceRef": "https://tpack.nani.com.tw/nani_content?a=341&b=1",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "數與運算",
       "questionType": "情境推理",
       "learningUnit": "基準量和比較量",
       "difficultyLevel": "進階"
@@ -7732,7 +7732,7 @@
       ],
       "classificationNotes": "南一官方6下資源明示「基準量和比較量」；只作單元層級對照。",
       "sourceRef": "https://tpack.nani.com.tw/nani_content?a=341&b=1",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "數與運算",
       "questionType": "情境推理",
       "learningUnit": "基準量和比較量",
       "difficultyLevel": "進階"
@@ -7776,7 +7776,7 @@
       ],
       "classificationNotes": "南一官方索引標題顯示數學6下雞兔問題；詳情頁未能讀取，僅保留官方資源標題層級。",
       "sourceRef": "https://tpack.nani.com.tw/nani_content?a=394&b=1",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "數與運算",
       "questionType": "情境推理",
       "learningUnit": "雞兔問題",
       "difficultyLevel": "進階"
@@ -7820,7 +7820,7 @@
       ],
       "classificationNotes": "南一官方索引標題顯示數學6下雞兔問題；詳情頁未能讀取，僅保留官方資源標題層級。",
       "sourceRef": "https://tpack.nani.com.tw/nani_content?a=394&b=1",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "數與運算",
       "questionType": "情境推理",
       "learningUnit": "雞兔問題",
       "difficultyLevel": "進階"
@@ -7864,7 +7864,7 @@
       ],
       "classificationNotes": "南一官方索引標題顯示數學6下雞兔問題；詳情頁未能讀取，僅保留官方資源標題層級。",
       "sourceRef": "https://tpack.nani.com.tw/nani_content?a=394&b=1",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "數與運算",
       "questionType": "情境推理",
       "learningUnit": "雞兔問題",
       "difficultyLevel": "進階"
@@ -7883,7 +7883,7 @@
       "publisherMappings": [],
       "classificationNotes": "依六年級題庫常見單元群推定上學期前段；非學校正式段考範圍。",
       "sourceRef": "108課綱共同核心原創編寫；非出版社教材原文或歷屆試題原文。",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "數與運算",
       "questionType": "情境推理",
       "learningUnit": "比與比值",
       "difficultyLevel": "進階"
@@ -7902,7 +7902,7 @@
       "publisherMappings": [],
       "classificationNotes": "依六年級題庫常見百分率單元群推定；非學校正式段考範圍。",
       "sourceRef": "108課綱共同核心原創編寫；非出版社教材原文或歷屆試題原文。",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "數與運算",
       "questionType": "情境推理",
       "learningUnit": "百分率與折扣",
       "difficultyLevel": "進階"
@@ -7921,7 +7921,7 @@
       "publisherMappings": [],
       "classificationNotes": "依六年級題庫常見百分率單元群推定；非學校正式段考範圍。",
       "sourceRef": "108課綱共同核心原創編寫；非出版社教材原文或歷屆試題原文。",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "數與運算",
       "questionType": "情境推理",
       "learningUnit": "百分率與折扣",
       "difficultyLevel": "進階"
@@ -7940,7 +7940,7 @@
       "publisherMappings": [],
       "classificationNotes": "依六年級題庫常見圓形單元群推定；非學校正式段考範圍。",
       "sourceRef": "108課綱共同核心原創編寫；非出版社教材原文或歷屆試題原文。",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "幾何與測量",
       "questionType": "情境推理",
       "learningUnit": "圓周長與圓面積",
       "difficultyLevel": "進階"
@@ -7959,7 +7959,7 @@
       "publisherMappings": [],
       "classificationNotes": "依六年級題庫常見圓形單元群推定；非學校正式段考範圍。",
       "sourceRef": "108課綱共同核心原創編寫；非出版社教材原文或歷屆試題原文。",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "幾何與測量",
       "questionType": "情境推理",
       "learningUnit": "圓周長與圓面積",
       "difficultyLevel": "進階"
@@ -7978,7 +7978,7 @@
       "publisherMappings": [],
       "classificationNotes": "依六年級題庫常見立體形體單元群推定；非學校正式段考範圍。",
       "sourceRef": "108課綱共同核心原創編寫；非出版社教材原文或歷屆試題原文。",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "幾何與測量",
       "questionType": "情境推理",
       "learningUnit": "立體形體體積",
       "difficultyLevel": "進階"
@@ -7997,7 +7997,7 @@
       "publisherMappings": [],
       "classificationNotes": "依六年級題庫常見統計與機率單元群推定；非學校正式段考範圍。",
       "sourceRef": "108課綱共同核心原創編寫；非出版社教材原文或歷屆試題原文。",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "數與運算",
       "questionType": "情境推理",
       "learningUnit": "資料統計與機率",
       "difficultyLevel": "進階"
@@ -8016,7 +8016,7 @@
       "publisherMappings": [],
       "classificationNotes": "依六年級題庫常見統計與機率單元群推定；非學校正式段考範圍。",
       "sourceRef": "108課綱共同核心原創編寫；非出版社教材原文或歷屆試題原文。",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "統計與機率",
       "questionType": "情境推理",
       "learningUnit": "資料統計與機率",
       "difficultyLevel": "進階"
@@ -8252,7 +8252,7 @@
       ],
       "classificationNotes": "康軒官方六上2-1教學資源明示個人發展與社會變遷單元；不代表學校採用版本。",
       "sourceRef": "https://sdgs.knsh.com.tw/campus/SDGS_FILE_E/%E7%A4%BE%E6%9C%83%E5%85%AD%E4%B8%8ACH2L1%E5%80%8B%E4%BA%BA%E7%99%BC%E5%B1%95%E5%A6%82%E4%BD%95%E5%8F%97%E5%88%B0%E7%A4%BE%E6%9C%83%E8%AE%8A%E9%81%B7%E7%9A%84%E5%BD%B1%E9%9F%BF_%E6%95%99%E5%AD%B8%E8%B3%87%E6%BA%90.pdf",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "社會變遷與文化",
       "questionType": "情境推理",
       "learningUnit": "個人發展與社會變遷",
       "difficultyLevel": "進階"
@@ -8298,7 +8298,7 @@
       ],
       "classificationNotes": "康軒官方六上2-1教學資源明示個人發展與社會變遷單元；不代表學校採用版本。",
       "sourceRef": "https://sdgs.knsh.com.tw/campus/SDGS_FILE_E/%E7%A4%BE%E6%9C%83%E5%85%AD%E4%B8%8ACH2L1%E5%80%8B%E4%BA%BA%E7%99%BC%E5%B1%95%E5%A6%82%E4%BD%95%E5%8F%97%E5%88%B0%E7%A4%BE%E6%9C%83%E8%AE%8A%E9%81%B7%E7%9A%84%E5%BD%B1%E9%9F%BF_%E6%95%99%E5%AD%B8%E8%B3%87%E6%BA%90.pdf",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "地理空間與環境",
       "questionType": "情境推理",
       "learningUnit": "個人發展與社會變遷",
       "difficultyLevel": "進階"
@@ -8317,7 +8317,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，因此不標出版社；學期與段考保留未分類。",
       "sourceRef": "108課綱共同核心原創編寫；非出版社教材原文或歷屆試題原文。",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "地理空間與環境",
       "questionType": "情境推理",
       "learningUnit": "人口移動與公共服務",
       "difficultyLevel": "進階"
@@ -8336,7 +8336,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，因此不標出版社；學期與段考保留未分類。",
       "sourceRef": "108課綱共同核心原創編寫；非出版社教材原文或歷屆試題原文。",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "公民制度與公共參與",
       "questionType": "情境推理",
       "learningUnit": "地方自治與公共參與",
       "difficultyLevel": "進階"
@@ -8355,7 +8355,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，因此不標出版社；學期與段考保留未分類。",
       "sourceRef": "108課綱共同核心原創編寫；非出版社教材原文或歷屆試題原文。",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "公民制度與公共參與",
       "questionType": "情境推理",
       "learningUnit": "選舉與民主責任",
       "difficultyLevel": "進階"
@@ -8374,7 +8374,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，因此不標出版社；學期與段考保留未分類。",
       "sourceRef": "108課綱共同核心原創編寫；非出版社教材原文或歷屆試題原文。",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "社會探究與公共議題",
       "questionType": "情境推理",
       "learningUnit": "消費者權益與資訊",
       "difficultyLevel": "進階"
@@ -8393,7 +8393,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，因此不標出版社；學期與段考保留未分類。",
       "sourceRef": "108課綱共同核心原創編寫；非出版社教材原文或歷屆試題原文。",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "社會探究與公共議題",
       "questionType": "情境推理",
       "learningUnit": "機會成本與選擇",
       "difficultyLevel": "進階"
@@ -8412,7 +8412,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，因此不標出版社；學期與段考保留未分類。",
       "sourceRef": "108課綱共同核心原創編寫；非出版社教材原文或歷屆試題原文。",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "地理空間與環境",
       "questionType": "情境推理",
       "learningUnit": "全球供應鏈",
       "difficultyLevel": "進階"
@@ -8431,7 +8431,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，因此不標出版社；學期與段考保留未分類。",
       "sourceRef": "108課綱共同核心原創編寫；非出版社教材原文或歷屆試題原文。",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "社會變遷與文化",
       "questionType": "情境推理",
       "learningUnit": "文化保存與多元尊重",
       "difficultyLevel": "進階"
@@ -8450,7 +8450,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，因此不標出版社；學期與段考保留未分類。",
       "sourceRef": "108課綱共同核心原創編寫；非出版社教材原文或歷屆試題原文。",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "公民制度與公共參與",
       "questionType": "情境推理",
       "learningUnit": "資源分配與公共利益",
       "difficultyLevel": "進階"
@@ -8503,7 +8503,7 @@
       ],
       "classificationNotes": "已確認題目課程軌別為數學A；依翰林數學3A官方單元次序推定段考，非學校正式範圍。",
       "sourceRef": "https://books.hanlin.com.tw/product/433021",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "幾何與測量",
       "questionType": "情境推理",
       "learningUnit": "三角函數",
       "difficultyLevel": "進階"
@@ -8556,7 +8556,7 @@
       ],
       "classificationNotes": "已確認題目課程軌別為數學A；依翰林數學3A官方單元次序推定段考，非學校正式範圍。",
       "sourceRef": "https://books.hanlin.com.tw/product/433021",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "幾何與測量",
       "questionType": "情境推理",
       "learningUnit": "三角函數",
       "difficultyLevel": "進階"
@@ -8609,7 +8609,7 @@
       ],
       "classificationNotes": "已確認題目課程軌別為數學A；依翰林數學3A官方單元次序推定段考，非學校正式範圍。",
       "sourceRef": "https://books.hanlin.com.tw/product/433021",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "幾何與測量",
       "questionType": "情境推理",
       "learningUnit": "三角函數",
       "difficultyLevel": "進階"
@@ -8662,7 +8662,7 @@
       ],
       "classificationNotes": "已確認題目課程軌別為數學A；依翰林數學3A官方單元次序推定段考，非學校正式範圍。",
       "sourceRef": "https://books.hanlin.com.tw/product/433021",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "幾何與測量",
       "questionType": "情境推理",
       "learningUnit": "三角函數",
       "difficultyLevel": "進階"
@@ -8710,7 +8710,7 @@
       ],
       "classificationNotes": "已確認題目課程軌別為數學A；依翰林數學3A官方單元次序推定段考，非學校正式範圍。",
       "sourceRef": "https://books.hanlin.com.tw/product/433021",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "代數與函數",
       "questionType": "情境推理",
       "learningUnit": "指數與對數函數",
       "difficultyLevel": "進階"
@@ -8758,7 +8758,7 @@
       ],
       "classificationNotes": "已確認題目課程軌別為數學A；依翰林數學3A官方單元次序推定段考，非學校正式範圍。",
       "sourceRef": "https://books.hanlin.com.tw/product/433021",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "代數與函數",
       "questionType": "情境推理",
       "learningUnit": "指數與對數函數",
       "difficultyLevel": "進階"
@@ -8806,7 +8806,7 @@
       ],
       "classificationNotes": "已確認題目課程軌別為數學A；依翰林數學3A官方單元次序推定段考，非學校正式範圍。",
       "sourceRef": "https://books.hanlin.com.tw/product/433021",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "代數與函數",
       "questionType": "情境推理",
       "learningUnit": "指數與對數函數",
       "difficultyLevel": "進階"
@@ -8854,7 +8854,7 @@
       ],
       "classificationNotes": "已確認題目課程軌別為數學A；依翰林數學3A官方單元次序推定段考，非學校正式範圍。",
       "sourceRef": "https://books.hanlin.com.tw/product/433021",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "代數與函數",
       "questionType": "情境推理",
       "learningUnit": "指數與對數函數",
       "difficultyLevel": "進階"
@@ -8902,7 +8902,7 @@
       ],
       "classificationNotes": "已確認題目課程軌別為數學A；依翰林數學3A官方單元次序推定段考，非學校正式範圍。",
       "sourceRef": "https://books.hanlin.com.tw/product/433021",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "幾何與測量",
       "questionType": "情境推理",
       "learningUnit": "平面向量",
       "difficultyLevel": "進階"
@@ -8950,7 +8950,7 @@
       ],
       "classificationNotes": "已確認題目課程軌別為數學A；依翰林數學3A官方單元次序推定段考，非學校正式範圍。",
       "sourceRef": "https://books.hanlin.com.tw/product/433021",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "幾何與測量",
       "questionType": "情境推理",
       "learningUnit": "平面向量",
       "difficultyLevel": "進階"
@@ -8998,7 +8998,7 @@
       ],
       "classificationNotes": "已確認題目課程軌別為數學A；依翰林數學3A官方單元次序推定段考，非學校正式範圍。",
       "sourceRef": "https://books.hanlin.com.tw/product/433021",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "幾何與測量",
       "questionType": "情境推理",
       "learningUnit": "平面向量",
       "difficultyLevel": "進階"
@@ -9046,7 +9046,7 @@
       ],
       "classificationNotes": "已確認題目課程軌別為數學A；依翰林數學3A官方單元次序推定段考，非學校正式範圍。",
       "sourceRef": "https://books.hanlin.com.tw/product/433021",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "幾何與測量",
       "questionType": "情境推理",
       "learningUnit": "平面向量",
       "difficultyLevel": "進階"
@@ -9065,7 +9065,7 @@
       "publisherMappings": [],
       "classificationNotes": "翰林官方頁確認高二上選修物理(II)冊名「力學二與熱學」；只作冊別層級對照，未核對細分單元或段考。 原出版社映射因年級、科目、學期、課程軌別、選修課程類型或單元／冊別範圍未通過一致性檢查，故不納入出版社篩選；若原學期／段考僅依該映射而來，已一併撤回。",
       "sourceRef": "108課綱共同核心；原出版社映射未通過範圍檢查",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "力學運動",
       "questionType": "情境推理",
       "learningUnit": "衝量與動量",
       "difficultyLevel": "進階"
@@ -9084,7 +9084,7 @@
       "publisherMappings": [],
       "classificationNotes": "翰林官方頁確認高二上選修物理(II)冊名「力學二與熱學」；只作冊別層級對照，未核對細分單元或段考。 原出版社映射因年級、科目、學期、課程軌別、選修課程類型或單元／冊別範圍未通過一致性檢查，故不納入出版社篩選；若原學期／段考僅依該映射而來，已一併撤回。",
       "sourceRef": "108課綱共同核心；原出版社映射未通過範圍檢查",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "力學運動",
       "questionType": "情境推理",
       "learningUnit": "力矩與平衡",
       "difficultyLevel": "進階"
@@ -9103,7 +9103,7 @@
       "publisherMappings": [],
       "classificationNotes": "翰林官方頁確認高二上選修物理(II)冊名「力學二與熱學」；只作冊別層級對照，未核對細分單元或段考。 原出版社映射因年級、科目、學期、課程軌別、選修課程類型或單元／冊別範圍未通過一致性檢查，故不納入出版社篩選；若原學期／段考僅依該映射而來，已一併撤回。",
       "sourceRef": "108課綱共同核心；原出版社映射未通過範圍檢查",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "熱學能量",
       "questionType": "情境推理",
       "learningUnit": "比熱與熱量",
       "difficultyLevel": "進階"
@@ -9141,7 +9141,7 @@
       "publisherMappings": [],
       "classificationNotes": "翰林官方課本頁確認高二上選修物理(II)冊名「力學二與熱學」；本題知識點符合該冊力學二範圍，僅作冊別層級對照，未核對細分單元或段考範圍，亦不代表學校採用版本。 原出版社映射因年級、科目、學期、課程軌別、選修課程類型或單元／冊別範圍未通過一致性檢查，故不納入出版社篩選；若原學期／段考僅依該映射而來，已一併撤回。",
       "sourceRef": "108課綱共同核心；原出版社映射未通過範圍檢查",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "力學運動",
       "questionType": "情境推理",
       "learningUnit": "機械能守恆",
       "difficultyLevel": "進階"
@@ -9160,7 +9160,7 @@
       "publisherMappings": [],
       "classificationNotes": "翰林官方課本頁確認高二上選修物理(II)冊名「力學二與熱學」；本題知識點符合該冊力學二範圍，僅作冊別層級對照，未核對細分單元或段考範圍，亦不代表學校採用版本。 原出版社映射因年級、科目、學期、課程軌別、選修課程類型或單元／冊別範圍未通過一致性檢查，故不納入出版社篩選；若原學期／段考僅依該映射而來，已一併撤回。",
       "sourceRef": "108課綱共同核心；原出版社映射未通過範圍檢查",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "力學運動",
       "questionType": "情境推理",
       "learningUnit": "等速圓周運動",
       "difficultyLevel": "進階"
@@ -9179,7 +9179,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，因此不標出版社；學期與段考保留未分類。",
       "sourceRef": "108課綱共同核心原創編寫；非出版社教材原文或歷屆試題原文。",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "力學運動",
       "questionType": "情境推理",
       "learningUnit": "簡諧運動",
       "difficultyLevel": "進階"
@@ -9198,7 +9198,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，因此不標出版社；學期與段考保留未分類。",
       "sourceRef": "108課綱共同核心原創編寫；非出版社教材原文或歷屆試題原文。",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "電磁學",
       "questionType": "情境推理",
       "learningUnit": "電場與電位差",
       "difficultyLevel": "進階"
@@ -9217,7 +9217,7 @@
       "publisherMappings": [],
       "classificationNotes": "翰林官方頁確認高二上選修化學(II)冊名「物質構造與反應速率」；只作冊別／主題層級對照。 原出版社映射因年級、科目、學期、課程軌別、選修課程類型或單元／冊別範圍未通過一致性檢查，故不納入出版社篩選；若原學期／段考僅依該映射而來，已一併撤回。",
       "sourceRef": "108課綱共同核心；原出版社映射未通過範圍檢查",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "反應與計量",
       "questionType": "情境推理",
       "learningUnit": "反應速率與活化能",
       "difficultyLevel": "進階"
@@ -9236,7 +9236,7 @@
       "publisherMappings": [],
       "classificationNotes": "翰林官方頁確認高二上選修化學(II)冊名「物質構造與反應速率」；只作冊別／主題層級對照。 原出版社映射因年級、科目、學期、課程軌別、選修課程類型或單元／冊別範圍未通過一致性檢查，故不納入出版社篩選；若原學期／段考僅依該映射而來，已一併撤回。",
       "sourceRef": "108課綱共同核心；原出版社映射未通過範圍檢查",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "反應與計量",
       "questionType": "情境推理",
       "learningUnit": "反應速率與活化能",
       "difficultyLevel": "進階"
@@ -9255,7 +9255,7 @@
       "publisherMappings": [],
       "classificationNotes": "翰林官方化學(III)目次明示化學平衡單元；教材標示高二、高三全學年。 原出版社映射因年級、科目、學期、課程軌別、選修課程類型或單元／冊別範圍未通過一致性檢查，故不納入出版社篩選；若原學期／段考僅依該映射而來，已一併撤回。",
       "sourceRef": "108課綱共同核心；原出版社映射未通過範圍檢查",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "平衡與酸鹼",
       "questionType": "情境推理",
       "learningUnit": "化學平衡與平衡移動",
       "difficultyLevel": "進階"
@@ -9274,7 +9274,7 @@
       "publisherMappings": [],
       "classificationNotes": "翰林官方化學(III)目次明示化學平衡單元；教材標示高二、高三全學年。 原出版社映射因年級、科目、學期、課程軌別、選修課程類型或單元／冊別範圍未通過一致性檢查，故不納入出版社篩選；若原學期／段考僅依該映射而來，已一併撤回。",
       "sourceRef": "108課綱共同核心；原出版社映射未通過範圍檢查",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "反應與計量",
       "questionType": "情境推理",
       "learningUnit": "化學平衡與平衡常數",
       "difficultyLevel": "進階"
@@ -9293,7 +9293,7 @@
       "publisherMappings": [],
       "classificationNotes": "翰林官方化學(III)目次明示沉澱反應與溶解平衡單元；教材標示高二、高三全學年。 原出版社映射因年級、科目、學期、課程軌別、選修課程類型或單元／冊別範圍未通過一致性檢查，故不納入出版社篩選；若原學期／段考僅依該映射而來，已一併撤回。",
       "sourceRef": "108課綱共同核心；原出版社映射未通過範圍檢查",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "反應與計量",
       "questionType": "情境推理",
       "learningUnit": "溶度積與沉澱",
       "difficultyLevel": "進階"
@@ -9312,7 +9312,7 @@
       "publisherMappings": [],
       "classificationNotes": "翰林官方化學(III)目次明示沉澱反應與溶解平衡單元；教材標示高二、高三全學年。 原出版社映射因年級、科目、學期、課程軌別、選修課程類型或單元／冊別範圍未通過一致性檢查，故不納入出版社篩選；若原學期／段考僅依該映射而來，已一併撤回。",
       "sourceRef": "108課綱共同核心；原出版社映射未通過範圍檢查",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "反應與計量",
       "questionType": "情境推理",
       "learningUnit": "溶度積與沉澱",
       "difficultyLevel": "進階"
@@ -9331,7 +9331,7 @@
       "publisherMappings": [],
       "classificationNotes": "翰林官方化學(III)目次明示酸鹼反應單元；教材標示高二、高三全學年。 原出版社映射因年級、科目、學期、課程軌別、選修課程類型或單元／冊別範圍未通過一致性檢查，故不納入出版社篩選；若原學期／段考僅依該映射而來，已一併撤回。",
       "sourceRef": "108課綱共同核心；原出版社映射未通過範圍檢查",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "反應與計量",
       "questionType": "情境推理",
       "learningUnit": "酸鹼滴定與當量點",
       "difficultyLevel": "進階"
@@ -9350,7 +9350,7 @@
       "publisherMappings": [],
       "classificationNotes": "翰林官方化學(III)目次明示酸鹼反應單元；教材標示高二、高三全學年。 原出版社映射因年級、科目、學期、課程軌別、選修課程類型或單元／冊別範圍未通過一致性檢查，故不納入出版社篩選；若原學期／段考僅依該映射而來，已一併撤回。",
       "sourceRef": "108課綱共同核心；原出版社映射未通過範圍檢查",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "反應與計量",
       "questionType": "情境推理",
       "learningUnit": "緩衝溶液",
       "difficultyLevel": "進階"
@@ -9369,7 +9369,7 @@
       "publisherMappings": [],
       "classificationNotes": "翰林官方課本頁確認高二上選修生物(II)「生命的起源與植物」；只作冊別層級對照，不宣稱細分目次。 原出版社映射因年級、科目、學期、課程軌別、選修課程類型或單元／冊別範圍未通過一致性檢查，故不納入出版社篩選；若原學期／段考僅依該映射而來，已一併撤回。",
       "sourceRef": "108課綱共同核心；原出版社映射未通過範圍檢查",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "生理植物",
       "questionType": "情境推理",
       "learningUnit": "植物蒸散與氣孔",
       "difficultyLevel": "進階"
@@ -9388,7 +9388,7 @@
       "publisherMappings": [],
       "classificationNotes": "翰林官方課本頁確認高二上選修生物(II)「生命的起源與植物」；只作冊別層級對照，不宣稱細分目次。 原出版社映射因年級、科目、學期、課程軌別、選修課程類型或單元／冊別範圍未通過一致性檢查，故不納入出版社篩選；若原學期／段考僅依該映射而來，已一併撤回。",
       "sourceRef": "108課綱共同核心；原出版社映射未通過範圍檢查",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "生理植物",
       "questionType": "情境推理",
       "learningUnit": "韌皮部與有機養分運輸",
       "difficultyLevel": "進階"
@@ -9407,7 +9407,7 @@
       "publisherMappings": [],
       "classificationNotes": "翰林官方課本頁確認高二上選修生物(II)「生命的起源與植物」；只作冊別層級對照，不宣稱細分目次。 原出版社映射因年級、科目、學期、課程軌別、選修課程類型或單元／冊別範圍未通過一致性檢查，故不納入出版社篩選；若原學期／段考僅依該映射而來，已一併撤回。",
       "sourceRef": "108課綱共同核心；原出版社映射未通過範圍檢查",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "生理植物",
       "questionType": "情境推理",
       "learningUnit": "植物向光性",
       "difficultyLevel": "進階"
@@ -9426,7 +9426,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，因此不標出版社；學期與段考保留未分類。",
       "sourceRef": "108課綱共同核心原創編寫；非出版社教材原文或歷屆試題原文。",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "細胞分子",
       "questionType": "情境推理",
       "learningUnit": "細胞膜與物質運輸",
       "difficultyLevel": "進階"
@@ -9445,7 +9445,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，因此不標出版社；學期與段考保留未分類。",
       "sourceRef": "108課綱共同核心原創編寫；非出版社教材原文或歷屆試題原文。",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "遺傳演化",
       "questionType": "情境推理",
       "learningUnit": "遺傳與分離律",
       "difficultyLevel": "進階"
@@ -9464,7 +9464,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，因此不標出版社；學期與段考保留未分類。",
       "sourceRef": "108課綱共同核心原創編寫；非出版社教材原文或歷屆試題原文。",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "生態環境",
       "questionType": "情境推理",
       "learningUnit": "族群與環境承載量",
       "difficultyLevel": "進階"
@@ -9483,7 +9483,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，因此不標出版社；學期與段考保留未分類。",
       "sourceRef": "108課綱共同核心原創編寫；非出版社教材原文或歷屆試題原文。",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "人文地理",
       "questionType": "情境推理",
       "learningUnit": "人口結構與扶養比",
       "difficultyLevel": "進階"
@@ -9521,7 +9521,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，因此不標出版社；學期與段考保留未分類。",
       "sourceRef": "108課綱共同核心原創編寫；非出版社教材原文或歷屆試題原文。",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "人文地理",
       "questionType": "情境推理",
       "learningUnit": "地理資訊系統與圖層",
       "difficultyLevel": "進階"
@@ -9540,7 +9540,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，因此不標出版社；學期與段考保留未分類。",
       "sourceRef": "108課綱共同核心原創編寫；非出版社教材原文或歷屆試題原文。",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "人文地理",
       "questionType": "情境推理",
       "learningUnit": "都市熱島與土地利用",
       "difficultyLevel": "進階"
@@ -9559,7 +9559,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，因此不標出版社；學期與段考保留未分類。",
       "sourceRef": "108課綱共同核心原創編寫；非出版社教材原文或歷屆試題原文。",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "史料判讀",
       "questionType": "情境推理",
       "learningUnit": "史料立場與互證",
       "difficultyLevel": "進階"
@@ -9578,7 +9578,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，因此不標出版社；學期與段考保留未分類。",
       "sourceRef": "108課綱共同核心原創編寫；非出版社教材原文或歷屆試題原文。",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "中國東亞史",
       "questionType": "情境推理",
       "learningUnit": "工業革命與社會變遷",
       "difficultyLevel": "進階"
@@ -9597,7 +9597,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，因此不標出版社；學期與段考保留未分類。",
       "sourceRef": "108課綱共同核心原創編寫；非出版社教材原文或歷屆試題原文。",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "世界史",
       "questionType": "情境推理",
       "learningUnit": "革命的多重原因",
       "difficultyLevel": "進階"
@@ -9635,7 +9635,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，因此不標出版社；學期與段考保留未分類。",
       "sourceRef": "108課綱共同核心原創編寫；非出版社教材原文或歷屆試題原文。",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "憲法政府",
       "questionType": "情境推理",
       "learningUnit": "法律保留原則",
       "difficultyLevel": "進階"
@@ -9654,7 +9654,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，因此不標出版社；學期與段考保留未分類。",
       "sourceRef": "108課綱共同核心原創編寫；非出版社教材原文或歷屆試題原文。",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "憲法政府",
       "questionType": "情境推理",
       "learningUnit": "比例原則與必要性",
       "difficultyLevel": "進階"
@@ -9673,7 +9673,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，因此不標出版社；學期與段考保留未分類。",
       "sourceRef": "108課綱共同核心原創編寫；非出版社教材原文或歷屆試題原文。",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "憲法政府",
       "questionType": "情境推理",
       "learningUnit": "權力分立與制衡",
       "difficultyLevel": "進階"
@@ -9692,7 +9692,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，因此不標出版社；學期與段考保留未分類。",
       "sourceRef": "108課綱共同核心原創編寫；非出版社教材原文或歷屆試題原文。",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "經濟社會",
       "questionType": "情境推理",
       "learningUnit": "勞動權益與契約",
       "difficultyLevel": "進階"
