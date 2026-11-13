@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.1.0",
   "updatedAt": "2026-11-14",
-  "classificationRuleVersion": "2026-11-14.29",
+  "classificationRuleVersion": "2026-11-14.31",
   "batchRange": "08-13",
   "sourceBatchShas": {
     "10": "37481b26e30f6fc7e2fd6b93accd5996931b8e0a",
@@ -103,7 +103,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。",
       "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "文法句型",
       "questionType": "概念辨識",
       "learningUnit": "現在進行式",
       "difficultyLevel": "基礎"
@@ -1699,7 +1699,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。",
       "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "文法句型",
       "questionType": "概念辨識",
       "learningUnit": "篇章連貫",
       "difficultyLevel": "挑戰"
@@ -1965,7 +1965,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。",
       "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "史料判讀",
       "questionType": "概念辨識",
       "learningUnit": "史學方法",
       "difficultyLevel": "挑戰"
@@ -2022,7 +2022,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。",
       "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "力學運動",
       "questionType": "計算應用",
       "learningUnit": "功與能",
       "difficultyLevel": "進階"
@@ -2041,7 +2041,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。",
       "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "物質構造",
       "questionType": "概念辨識",
       "learningUnit": "化學鍵",
       "difficultyLevel": "挑戰"
@@ -2193,7 +2193,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。",
       "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-      "learningDomain": "地球系統",
+      "learningDomain": "大氣氣候",
       "questionType": "概念辨識",
       "learningUnit": "季風成因",
       "difficultyLevel": "進階"
@@ -2250,7 +2250,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。",
       "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "臺灣史",
       "questionType": "概念辨識",
       "learningUnit": "民主化進程",
       "difficultyLevel": "挑戰"
