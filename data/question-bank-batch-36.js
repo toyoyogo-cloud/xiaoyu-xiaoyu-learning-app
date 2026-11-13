@@ -617,6 +617,11 @@ window.EXTRA36_GRADE_BANK = [
         "volume": "數學6下",
         "unitCode": "官方數位教學資源單元",
         "unitName": "基準量和比較量",
+        "unitAliases": [
+          "基準量和比較量",
+          "基準量與比較量"
+        ],
+        "scopeKeywords": [],
         "semester": "下學期",
         "grade": "六年級",
         "subject": "數學",
@@ -648,27 +653,31 @@ window.EXTRA36_GRADE_BANK = [
     "e": "先算括號7＋5＝12，再算84÷12＝7，最後7×3＝21。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
-    "sourceRef": "https://tpack.nani.com.tw/nani_content?a=340&b=1",
+    "sourceRef": "https://tpack.nani.com.tw/nani_list?b=1&page=6&t=",
     "reviewStatus": "rule-checked",
     "learningContent": "四則混合運算",
     "semester": "下學期",
     "examPeriod": "unassigned",
     "classificationBasis": "publisher-source-verified",
-    "confidence": "high",
+    "confidence": "medium",
     "publisherStatus": "publisher-mapped",
     "publisherMappings": [
       {
         "publisher": "nani",
         "mappingId": "nani-g6-math-6b-four-operations",
-        "sourceUrl": "https://tpack.nani.com.tw/nani_content?a=340&b=1",
-        "sourceTitle": "南一資源_內文－數學6下｜四則混合運算",
+        "sourceUrl": "https://tpack.nani.com.tw/nani_list?b=1&page=6&t=",
+        "sourceTitle": "南一資源_國小資源索引－數學6下：四則混合運算",
         "verifiedAt": "2026-11-13",
-        "verificationStatus": "source-checked",
-        "notes": "南一官方資源頁明示數學6下、國小數學6年級及「四則混合運算」單元標題；僅支持此資源單元層級，不代表完整教科書目次或學校採用版本。",
-        "mappingLevel": "unit",
+        "verificationStatus": "official-index-link-only",
+        "notes": "南一官方資源列表頁明示「數學6下｜四則混合運算」、數學及六年級；詳情頁未能由本次查詢直接讀取，故只標官方索引標題層級，不宣稱完整教科書目次或學校採用版本。",
+        "mappingLevel": "official-resource-title",
         "volume": "數學6下",
-        "unitCode": "官方數位教學資源單元",
-        "unitName": "四則混合運算",
+        "unitCode": "索引標題",
+        "unitName": "四則混合運算（官方索引標題層級）",
+        "unitAliases": [
+          "四則混合運算"
+        ],
+        "scopeKeywords": [],
         "semester": "下學期",
         "grade": "六年級",
         "subject": "數學",
@@ -677,7 +686,7 @@ window.EXTRA36_GRADE_BANK = [
         "courseType": "國小"
       }
     ],
-    "classificationNotes": "南一官方6下資源頁明示「四則混合運算」單元；只作單元層級對照。"
+    "classificationNotes": "南一官方資源索引標題明示數學6下「四則混合運算」；僅作官方索引標題層級對照，詳情頁未核對；段考未確認。"
   },
   {
     "id": "b36-021",
@@ -700,7 +709,7 @@ window.EXTRA36_GRADE_BANK = [
     "e": "若20隻全是雞，腳數為40；實際多16隻腳，每增加一隻兔比雞多2腳，所以兔有16÷2＝8隻。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
-    "sourceRef": "https://tpack.nani.com.tw/nani_content?a=394&b=1",
+    "sourceRef": "https://tpack.nani.com.tw/nani_content?a=341&b=1",
     "reviewStatus": "rule-checked",
     "learningContent": "雞兔問題",
     "semester": "下學期",
@@ -712,15 +721,20 @@ window.EXTRA36_GRADE_BANK = [
       {
         "publisher": "nani",
         "mappingId": "nani-g6-math-6b-chicken-rabbit",
-        "sourceUrl": "https://tpack.nani.com.tw/nani_content?a=394&b=1",
-        "sourceTitle": "南一資源_內文－數學6下｜怎樣解題：雞兔問題",
+        "sourceUrl": "https://tpack.nani.com.tw/nani_content?a=341&b=1",
+        "sourceTitle": "南一官方資源頁熱門文章連結－數學6下｜怎樣解題：雞兔問題",
         "verifiedAt": "2026-11-13",
-        "verificationStatus": "source-checked",
-        "notes": "南一官方資源平台頁面明示數學6下、國小數學6年級及雞兔同籠主題；頁面分享者為高師大，屬官方平台教學資源，不宣稱為南一課本原題或學校採用版本。",
-        "mappingLevel": "unit",
+        "verificationStatus": "official-index-link-only",
+        "notes": "南一官方資源頁a=341的熱門文章連結列出「數學6下｜怎樣解題：雞兔問題」，可由可讀取的官方索引頁確認年級、科目、學期與主題；目標詳情頁a=394目前請求逾時，未能檢視內容與作者細節，因此只作官方平台資源索引標題對照，不宣稱南一課本單元或南一編寫原題。",
+        "mappingLevel": "official-resource-title",
         "volume": "數學6下",
-        "unitCode": "官方教學資源主題",
-        "unitName": "怎樣解題：雞兔問題",
+        "unitCode": "官方索引連結標題",
+        "unitName": "怎樣解題：雞兔問題（官方資源標題層級；詳情頁未能讀取）",
+        "unitAliases": [
+          "雞兔問題",
+          "雞兔同籠"
+        ],
+        "scopeKeywords": [],
         "semester": "下學期",
         "grade": "六年級",
         "subject": "數學",
@@ -1669,6 +1683,13 @@ window.EXTRA36_GRADE_BANK = [
         "volume": "社會六上",
         "unitCode": "2-1",
         "unitName": "個人發展如何受到社會變遷的影響",
+        "unitAliases": [
+          "個人發展如何受到社會變遷的影響",
+          "社會變遷與性別角色",
+          "社會變遷與家庭分工",
+          "個人發展與社會變遷"
+        ],
+        "scopeKeywords": [],
         "semester": "上學期",
         "grade": "六年級",
         "subject": "社會",
@@ -1721,12 +1742,26 @@ window.EXTRA36_GRADE_BANK = [
         "volume": "數學(3A)（官方互動式教學講義，搭配翰林教材）",
         "unitCode": "1",
         "unitName": "三角函數",
+        "unitAliases": [
+          "三角函數",
+          "三角比",
+          "特殊角",
+          "三角測量",
+          "弧度",
+          "正弦",
+          "餘弦",
+          "正切",
+          "週期",
+          "象限",
+          "三角方程式"
+        ],
+        "scopeKeywords": [],
         "semester": "上學期",
         "grade": "高二",
         "subject": "數學",
         "courseTrack": "數學A",
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁確認數學A軌別，學校採用版本未確認"
       }
     ],
     "classificationNotes": "題目明確標記數學A；翰林數學3A官方目次列有三角函數。段考次序依單元順序推定。",
@@ -1774,12 +1809,26 @@ window.EXTRA36_GRADE_BANK = [
         "volume": "數學(3A)（官方互動式教學講義，搭配翰林教材）",
         "unitCode": "1",
         "unitName": "三角函數",
+        "unitAliases": [
+          "三角函數",
+          "三角比",
+          "特殊角",
+          "三角測量",
+          "弧度",
+          "正弦",
+          "餘弦",
+          "正切",
+          "週期",
+          "象限",
+          "三角方程式"
+        ],
+        "scopeKeywords": [],
         "semester": "上學期",
         "grade": "高二",
         "subject": "數學",
         "courseTrack": "數學A",
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁確認數學A軌別，學校採用版本未確認"
       }
     ],
     "classificationNotes": "題目明確標記數學A；翰林數學3A官方目次列有三角函數。段考次序依單元順序推定。",
@@ -1827,12 +1876,21 @@ window.EXTRA36_GRADE_BANK = [
         "volume": "數學(3A)（官方互動式教學講義，搭配翰林教材）",
         "unitCode": "2",
         "unitName": "指數與對數函數",
+        "unitAliases": [
+          "指數",
+          "對數",
+          "log",
+          "成長模型",
+          "衰變",
+          "半衰期"
+        ],
+        "scopeKeywords": [],
         "semester": "上學期",
         "grade": "高二",
         "subject": "數學",
         "courseTrack": "數學A",
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁確認數學A軌別，學校採用版本未確認"
       }
     ],
     "classificationNotes": "題目明確標記數學A；翰林數學3A官方目次列有指數與對數函數。段考次序依單元順序推定。",
@@ -1880,12 +1938,21 @@ window.EXTRA36_GRADE_BANK = [
         "volume": "數學(3A)（官方互動式教學講義，搭配翰林教材）",
         "unitCode": "2",
         "unitName": "指數與對數函數",
+        "unitAliases": [
+          "指數",
+          "對數",
+          "log",
+          "成長模型",
+          "衰變",
+          "半衰期"
+        ],
+        "scopeKeywords": [],
         "semester": "上學期",
         "grade": "高二",
         "subject": "數學",
         "courseTrack": "數學A",
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁確認數學A軌別，學校採用版本未確認"
       }
     ],
     "classificationNotes": "題目明確標記數學A；翰林數學3A官方目次列有指數與對數函數。段考次序依單元順序推定。",
@@ -1933,12 +2000,21 @@ window.EXTRA36_GRADE_BANK = [
         "volume": "數學(3A)（官方互動式教學講義，搭配翰林教材）",
         "unitCode": "3",
         "unitName": "平面向量",
+        "unitAliases": [
+          "平面向量",
+          "向量",
+          "內積",
+          "投影",
+          "行列式",
+          "單位向量"
+        ],
+        "scopeKeywords": [],
         "semester": "上學期",
         "grade": "高二",
         "subject": "數學",
         "courseTrack": "數學A",
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁確認數學A軌別，學校採用版本未確認"
       }
     ],
     "classificationNotes": "題目明確標記數學A；翰林數學3A官方目次列有平面向量與內積。段考次序依單元順序推定。",
@@ -1986,12 +2062,21 @@ window.EXTRA36_GRADE_BANK = [
         "volume": "數學(3A)（官方互動式教學講義，搭配翰林教材）",
         "unitCode": "3",
         "unitName": "平面向量",
+        "unitAliases": [
+          "平面向量",
+          "向量",
+          "內積",
+          "投影",
+          "行列式",
+          "單位向量"
+        ],
+        "scopeKeywords": [],
         "semester": "上學期",
         "grade": "高二",
         "subject": "數學",
         "courseTrack": "數學A",
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁確認數學A軌別，學校採用版本未確認"
       }
     ],
     "classificationNotes": "題目明確標記數學A；翰林數學3A官方目次列有平面向量與內積。段考次序依單元順序推定。",
@@ -2231,12 +2316,36 @@ window.EXTRA36_GRADE_BANK = [
         "volume": "選修物理(II) 力學二與熱學",
         "unitCode": "全冊",
         "unitName": "力學二與熱學",
+        "unitAliases": [],
+        "scopeKeywords": [
+          "動量",
+          "衝量",
+          "碰撞",
+          "功",
+          "位能",
+          "動能",
+          "力矩",
+          "角動量",
+          "熱",
+          "比熱",
+          "熱膨脹",
+          "熱傳導",
+          "熱力學",
+          "熱機",
+          "氣體",
+          "彈簧",
+          "圓周",
+          "向心",
+          "波以耳",
+          "線膨脹",
+          "機械能"
+        ],
         "semester": "上學期",
         "grade": "高二",
         "subject": "物理",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
       }
     ],
     "classificationNotes": "翰林官方課本頁確認高二上選修物理(II)「力學二與熱學」；僅冊別層級，不宣稱細分單元或學校採用版本。"
@@ -2283,12 +2392,36 @@ window.EXTRA36_GRADE_BANK = [
         "volume": "選修物理(II) 力學二與熱學",
         "unitCode": "全冊",
         "unitName": "力學二與熱學",
+        "unitAliases": [],
+        "scopeKeywords": [
+          "動量",
+          "衝量",
+          "碰撞",
+          "功",
+          "位能",
+          "動能",
+          "力矩",
+          "角動量",
+          "熱",
+          "比熱",
+          "熱膨脹",
+          "熱傳導",
+          "熱力學",
+          "熱機",
+          "氣體",
+          "彈簧",
+          "圓周",
+          "向心",
+          "波以耳",
+          "線膨脹",
+          "機械能"
+        ],
         "semester": "上學期",
         "grade": "高二",
         "subject": "物理",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
       }
     ],
     "classificationNotes": "翰林官方課本頁確認高二上選修物理(II)「力學二與熱學」；僅冊別層級，不宣稱細分單元或學校採用版本。"
@@ -2522,17 +2655,27 @@ window.EXTRA36_GRADE_BANK = [
         "sourceTitle": "翰林書城－高中課本選修化學(II)物質構造與反應速率",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "官方翰林課本頁明示高中2年級、上學期及冊名「選修化學(II)物質構造與反應速率」；僅冊名／主題層級，未核對完整細分目次。此前曾誤標下學期，本次依官方頁更正。此映射不代表學校採用版本。",
-        "mappingLevel": "title-topic",
+        "notes": "翰林官方課本頁明示高中2年級、上學期及冊名「選修化學(II)物質構造與反應速率」；僅冊別層級，不宣稱細分單元已核對。不同商品編號的實驗手冊或習作可能有不同學期，不能與此課本頁混用。此映射不代表學校採用版本。",
+        "mappingLevel": "volume",
         "volume": "選修化學(II)物質構造與反應速率",
-        "unitCode": "冊名主題",
-        "unitName": "物質構造與反應速率（冊名層級）",
+        "unitCode": "全冊",
+        "unitName": "物質構造與反應速率（冊別層級；未核對細分目次）",
+        "unitAliases": [],
+        "scopeKeywords": [
+          "反應速率",
+          "催化劑",
+          "活化能",
+          "反應級數",
+          "物質構造",
+          "電子組態",
+          "價電子"
+        ],
         "semester": "上學期",
         "grade": "高二",
         "subject": "化學",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
       }
     ],
     "classificationNotes": "翰林官方頁確認高二上選修化學(II)冊名含「物質構造與反應速率」；僅冊名／主題層級。"
@@ -2574,17 +2717,27 @@ window.EXTRA36_GRADE_BANK = [
         "sourceTitle": "翰林書城－高中課本選修化學(II)物質構造與反應速率",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "官方翰林課本頁明示高中2年級、上學期及冊名「選修化學(II)物質構造與反應速率」；僅冊名／主題層級，未核對完整細分目次。此前曾誤標下學期，本次依官方頁更正。此映射不代表學校採用版本。",
-        "mappingLevel": "title-topic",
+        "notes": "翰林官方課本頁明示高中2年級、上學期及冊名「選修化學(II)物質構造與反應速率」；僅冊別層級，不宣稱細分單元已核對。不同商品編號的實驗手冊或習作可能有不同學期，不能與此課本頁混用。此映射不代表學校採用版本。",
+        "mappingLevel": "volume",
         "volume": "選修化學(II)物質構造與反應速率",
-        "unitCode": "冊名主題",
-        "unitName": "物質構造與反應速率（冊名層級）",
+        "unitCode": "全冊",
+        "unitName": "物質構造與反應速率（冊別層級；未核對細分目次）",
+        "unitAliases": [],
+        "scopeKeywords": [
+          "反應速率",
+          "催化劑",
+          "活化能",
+          "反應級數",
+          "物質構造",
+          "電子組態",
+          "價電子"
+        ],
         "semester": "上學期",
         "grade": "高二",
         "subject": "化學",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
       }
     ],
     "classificationNotes": "翰林官方頁確認高二上選修化學(II)冊名含「物質構造與反應速率」；僅冊名／主題層級。"
@@ -2631,12 +2784,20 @@ window.EXTRA36_GRADE_BANK = [
         "volume": "選修化學(III)（官方互動式教學講義）",
         "unitCode": "1",
         "unitName": "化學平衡",
+        "unitAliases": [
+          "化學平衡",
+          "平衡常數",
+          "勒沙特列",
+          "反應商",
+          "平衡移動"
+        ],
+        "scopeKeywords": [],
         "semester": "全學年",
         "grade": "高二、高三",
         "subject": "化學",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
       }
     ],
     "classificationNotes": "翰林選修化學(III)官方目次明示化學平衡單元，教材頁標示高二、高三全學年。"
@@ -2683,12 +2844,20 @@ window.EXTRA36_GRADE_BANK = [
         "volume": "選修化學(III)（官方互動式教學講義）",
         "unitCode": "2",
         "unitName": "沉澱反應與溶解平衡",
+        "unitAliases": [
+          "沉澱",
+          "溶解平衡",
+          "溶度積",
+          "共同離子",
+          "Ksp"
+        ],
+        "scopeKeywords": [],
         "semester": "全學年",
         "grade": "高二、高三",
         "subject": "化學",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
       }
     ],
     "classificationNotes": "翰林選修化學(III)官方目次明示沉澱反應與溶解平衡單元，教材頁標示高二、高三全學年。"
@@ -2735,12 +2904,20 @@ window.EXTRA36_GRADE_BANK = [
         "volume": "選修化學(III)（官方互動式教學講義）",
         "unitCode": "3",
         "unitName": "酸鹼反應",
+        "unitAliases": [
+          "酸鹼",
+          "pH",
+          "滴定",
+          "緩衝",
+          "鹽類水解"
+        ],
+        "scopeKeywords": [],
         "semester": "全學年",
         "grade": "高二、高三",
         "subject": "化學",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
       }
     ],
     "classificationNotes": "翰林選修化學(III)官方目次明示酸鹼反應與酸鹼滴定實驗，教材頁標示高二、高三全學年。"
@@ -2851,12 +3028,19 @@ window.EXTRA36_GRADE_BANK = [
         "volume": "選修化學(I)物質與能量",
         "unitCode": "冊別層級",
         "unitName": "物質與能量（冊別層級）",
+        "unitAliases": [],
+        "scopeKeywords": [
+          "焓",
+          "反應熱",
+          "能量",
+          "赫斯定律"
+        ],
         "semester": "上學期",
         "grade": "高二",
         "subject": "化學",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
       }
     ],
     "classificationNotes": "翰林官方頁確認高二選修化學(I)冊名「物質與能量」；僅冊別層級，未宣稱細分單元。"
@@ -2903,12 +3087,22 @@ window.EXTRA36_GRADE_BANK = [
         "volume": "選修生物(II)生命的起源與植物",
         "unitCode": "冊別層級",
         "unitName": "生命的起源與植物（冊別層級）",
+        "unitAliases": [],
+        "scopeKeywords": [
+          "植物",
+          "光合作用",
+          "蒸散",
+          "氣孔",
+          "維管束",
+          "木質部",
+          "韌皮部"
+        ],
         "semester": "上學期",
         "grade": "高二",
         "subject": "生物",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
       }
     ],
     "classificationNotes": "翰林官方課本頁確認高二上選修生物(II)「生命的起源與植物」；僅冊別層級，不宣稱細分目次。"
