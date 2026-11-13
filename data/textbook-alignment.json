@@ -496,12 +496,13 @@
       "mappingLevel": "official-resource-title",
       "schoolYear": "未標示",
       "courseType": "國小",
-      "sourceUrl": "https://tpack.nani.com.tw/nani_content?a=394&b=1",
-      "sourceTitle": "南一資源_內文－數學6下｜怎樣解題：雞兔問題",
+      "sourceUrl": "https://tpack.nani.com.tw/nani_content?a=341&b=1",
+      "sourceTitle": "南一官方資源頁熱門文章連結－數學6下｜怎樣解題：雞兔問題",
       "verifiedAt": "2026-11-13",
       "verificationStatus": "official-index-link-only",
-      "notes": "南一官方資源頁 a=341 的熱門文章連結列出「數學6下｜怎樣解題：雞兔問題」，可由官方索引標題確認年級、科目、學期與主題；目標詳情頁目前請求逾時，未能檢視內容與作者細節，因此只作官方平台資源索引標題對照，不宣稱南一課本單元或南一編寫原題。",
-      "learningContent": "官方索引連結標題顯示數學6下與雞兔問題；詳情頁未能讀取，內容與作者待核對。"
+      "notes": "南一官方資源頁a=341的熱門文章連結列出「數學6下｜怎樣解題：雞兔問題」，可由可讀取的官方索引頁確認年級、科目、學期與主題；目標詳情頁a=394目前請求逾時，未能檢視內容與作者細節，因此只作官方平台資源索引標題對照，不宣稱南一課本單元或南一編寫原題。",
+      "learningContent": "官方索引連結標題顯示數學6下與雞兔問題；詳情頁未能讀取，內容與作者待核對。",
+      "targetUrl": "https://tpack.nani.com.tw/nani_content?a=394&b=1"
     }
   ],
   "mappingStatus": "partial-source-verified-13-mappings",
@@ -846,7 +847,8 @@
     "化學(II)冊別層級校正：以翰林課本商品頁005022為準，確認高二上學期；不同商品編號的習作或實驗手冊學期不可混用。",
     "第37批新增30題來源映射均以中央mappingId連結；執行時分類器回歸測試確認100題的semester、examPeriod、classificationBasis、publisherStatus及publisherMappings均與批次檔儲存欄位一致。",
     "第37批已透過PR #1合併至main，merge commit 0b76d6e99d66502f39f6e9c32ad8032bbcc47494；main已包含第37批及本次全庫來源稽核。",
-    "2026-11-13來源狀態細化：南一平台「數學6下｜怎樣解題：雞兔問題」詳情頁請求逾時，僅能由南一官方資源頁的熱門文章連結標題確認主題與年級／科目／學期；映射降為official-resource-title與official-index-link-only，不宣稱南一課本單元或原題。"
+    "2026-11-13來源狀態細化：南一平台「數學6下｜怎樣解題：雞兔問題」詳情頁請求逾時，僅能由南一官方資源頁的熱門文章連結標題確認主題與年級／科目／學期；映射降為official-resource-title與official-index-link-only，不宣稱南一課本單元或原題。",
+    "雞兔問題mapping的sourceUrl改指向可讀取的南一官方索引頁a=341，另保留targetUrl=a=394作為連結目標；verificationStatus仍為official-index-link-only。"
   ],
   "lastAudit": {
     "verifiedAt": "2026-11-13",
