@@ -654,7 +654,7 @@
   "pullRequest": 6,
   "mainVerifiedAt": "2026-11-13",
   "pagesDeployment": "workflow-run-in-progress",
-  "runtimeClassificationAuditStatus": "v17-static-classification-index-batches08-and31; browser-runtime-pending",
+  "runtimeClassificationAuditStatus": "v18-static-classification-index-batches08-10-and31; browser-runtime-pending",
   "mappingVerificationStatusCountsBatches30to40": {
     "source-checked": 254,
     "official-index-link-only": 8
@@ -727,6 +727,93 @@
   },
   "classificationPersistence": {
     "latestRun": {
+      "date": "2026-11-13",
+      "sourceHeadBeforeRun": "942ad5f18abfba4bc7fff5d0a0e01f8dc1f4261d",
+      "writeHead": "041487ddc8dd550c96fc2bc435906277790b3b60",
+      "batches": "10",
+      "auditedQuestionCount": 30,
+      "classificationIndexEntriesBeforeRun": 162,
+      "addedToClassificationIndex": 30,
+      "persistedExtendedMetadataCount": 392,
+      "classificationIndexTotal": 192,
+      "remainingExtendedMetadataCount": 2508,
+      "file": "data/question-classification.json",
+      "fields": [
+        "semester",
+        "examPeriod",
+        "classificationBasis",
+        "confidence",
+        "publisherStatus",
+        "publisherMappings",
+        "classificationNotes",
+        "sourceRef",
+        "learningDomain",
+        "questionType",
+        "learningUnit",
+        "difficultyLevel"
+      ],
+      "semesterDistribution": {
+        "unassigned": 27,
+        "上學期": 2,
+        "全學年": 1
+      },
+      "examPeriodDistribution": {
+        "unassigned": 29,
+        "第一次段考": 1
+      },
+      "classificationBasisDistribution": {
+        "curriculum-core": 27,
+        "publisher-source-verified": 2,
+        "question-bank-inference": 1
+      },
+      "publisherStatusDistribution": {
+        "curriculum-core": 28,
+        "publisher-mapped": 2
+      },
+      "publisherMappedQuestionCount": 2,
+      "publisherMappingReferences": 2,
+      "pendingQuestionCount": 0,
+      "mappingReferencesValidated": 2,
+      "mappingConsistencyErrors": 0,
+      "extendedMetadataComplete": 30,
+      "newQuestionsAdded": 0,
+      "validation": {
+        "jsonParse": true,
+        "idsMatchBatch10": true,
+        "noExistingEntriesOverwritten": true,
+        "requiredFieldsComplete": true,
+        "sourceRefsComplete": true,
+        "legalClassificationValues": true,
+        "sourceMappings": "2/2",
+        "mappingConsistencyErrors": 0,
+        "fourOptions": true,
+        "answerIndices0to3": true,
+        "explanationsPresent": true,
+        "staticFilterValidation": {
+          "combinations": 12600,
+          "violations": 0,
+          "all30Reachable": true,
+          "publisherResults": {
+            "all": 30,
+            "hanlin": 2,
+            "nani": 0,
+            "knsh": 0,
+            "core": 28,
+            "pending": 0
+          },
+          "browserTested": false
+        },
+        "indexReadsClassificationFile": true,
+        "classifierUsesSavedIndex": true,
+        "classificationIndexAsset": true,
+        "batch10Asset": true,
+        "zeroResultMessagePresent": true,
+        "serviceWorkerCache": "xy-learning-v80",
+        "cacheVersionBumped": true
+      },
+      "notes": "第10批30題只補齊擴充欄位並寫入獨立分類索引；保留原始學期、段考、分類依據、信心及出版社狀態。b10-022翰林選修物理(II)只標冊別層級；b10-023翰林選修化學(III)官方目次明列化學平衡，標單元層級。其他無足夠官方版本證據者維持108課綱共同核心；b10-005保留題庫推定，不代表學校正式段考範圍。未新增題目。"
+    },
+    "previousRun": {
       "date": "2026-11-13",
       "sourceHeadBeforeRun": "69170954ce54831ac270ac5230699106c10934f9",
       "writeHead": "48bc575d83c2f2d6dbe67187bc4f988a927f2d7f",
@@ -802,97 +889,20 @@
       },
       "notes": "第9批25題新增持久化擴充分類。b9-016原翰林選修物理(II)映射因官方頁只確認高二上「力學二與熱學」冊別，未支持電路與電功率單元，已撤除映射及上學期標籤，改為pending並將semester/examPeriod設為unassigned。其他未有足夠依據的學期／段考維持unassigned。未新增題目。"
     },
-    "previousRun": {
-      "date": "2026-11-13",
-      "sourceHeadBeforeRun": "d697d7c380ffe1429d29a66fa9ec3124d1cd8af5",
-      "writeHead": "2a9e893ae483713490f51302de8e25b7ed0886ad",
-      "auditedBatches": "08",
-      "auditedQuestionCount": 37,
-      "classificationIndexEntriesBeforeRun": 100,
-      "persistedExtendedMetadataCount": 137,
-      "classificationIndexTotal": 137,
-      "remainingExtendedMetadataCount": 2563,
-      "file": "data/question-classification.json",
-      "fields": [
-        "semester",
-        "examPeriod",
-        "classificationBasis",
-        "confidence",
-        "publisherStatus",
-        "publisherMappings",
-        "classificationNotes",
-        "sourceRef",
-        "learningDomain",
-        "questionType",
-        "learningUnit",
-        "difficultyLevel"
-      ],
-      "semesterDistribution": {
-        "unassigned": 33,
-        "上學期": 3,
-        "全學年": 1
-      },
-      "examPeriodDistribution": {
-        "unassigned": 35,
-        "第三次段考": 2
-      },
-      "classificationBasisDistribution": {
-        "publisher-source-verified": 2,
-        "question-bank-inference": 2,
-        "curriculum-core": 33
-      },
-      "publisherStatusDistribution": {
-        "publisher-mapped": 2,
-        "curriculum-core": 35
-      },
-      "publisherMappedQuestionCount": 2,
-      "publisherMappingReferences": 2,
-      "publisherReferenceCounts": {
-        "hanlin": 2
-      },
-      "mappingReferencesValidated": 2,
-      "mappingConsistencyErrors": 0,
-      "extendedMetadataComplete": 37,
-      "newQuestionsAdded": 0,
-      "validation": {
-        "jsonParse": true,
-        "idsMatchBatch08": true,
-        "requiredFieldsComplete": true,
-        "sourceRefsComplete": true,
-        "legalClassificationValues": true,
-        "mappingReferences": "2/2",
-        "mappingConsistencyErrors": 0,
-        "fourOptions": true,
-        "answerIndices0to3": true,
-        "explanationsPresent": true,
-        "staticFilterValidation": {
-          "combinations": 5550,
-          "violations": 0,
-          "publisherLeak": 0,
-          "all37Reachable": true,
-          "browserTested": false
-        },
-        "serviceWorkerCache": "xy-learning-v78",
-        "classificationIndexAsset": true,
-        "batch08Asset": true,
-        "cacheVersionBumped": true
-      },
-      "notes": "第8批37題以穩定ID新增至獨立分類索引；保留原始學期、段考、分類依據、信心、出版社狀態、映射、分類說明及來源。依分類器v17相同欄位規則補齊learningDomain、questionType、learningUnit、difficultyLevel。兩筆翰林映射沿用中央登錄，b8-023為冊別層級、b8-024為單元層級；2/2來源欄位及年級／科目／學期範圍一致。未新增題目，未推定缺乏依據的學期或段考。"
-    },
     "currentIndexReconciliation": {
       "verifiedAt": "2026-11-13",
-      "sourceHeadBeforeRun": "69170954ce54831ac270ac5230699106c10934f9",
+      "sourceHeadBeforeRun": "942ad5f18abfba4bc7fff5d0a0e01f8dc1f4261d",
       "file": "data/question-classification.json",
-      "entriesBeforeRun": 137,
-      "entriesAddedThisRun": 25,
-      "currentEntries": 162,
-      "note": "本次從main讀取索引137筆，新增第9批25筆後共162筆；不沿用早期曾誤報的1,800筆。"
+      "entriesBeforeRun": 162,
+      "entriesAddedThisRun": 30,
+      "currentEntries": 192,
+      "note": "本次實際讀取索引162筆，新增第10批30筆後共192筆；現有索引批次為第8、9、10及31批。"
     }
   },
   "fullMainClassificationAudit": {
     "auditedAt": "2026-11-13",
     "branch": "main",
-    "sourceHeadBeforeRun": "69170954ce54831ac270ac5230699106c10934f9",
+    "sourceHeadBeforeRun": "942ad5f18abfba4bc7fff5d0a0e01f8dc1f4261d",
     "batches": "08-41",
     "questionCount": 2900,
     "uniqueQuestionIds": 2900,
@@ -922,10 +932,6 @@
       "資訊": 1,
       "經濟": 6,
       "資訊素養": 2
-    },
-    "unitLabelCoverage": {
-      "questionsWithUnitOrTopic": 2900,
-      "missingUnitOrTopic": 0
     },
     "storedClassificationFields": {
       "complete": 2900,
@@ -964,31 +970,30 @@
       "pending": 1
     },
     "publisherMappedQuestionCount": 339,
-    "publisherMappingReferenceCount": 339,
     "centralMappingRegistryCount": 16,
     "pendingQuestionCount": 1,
     "mappingValidationThisRun": {
-      "batches": "08-41",
-      "mappingReferences": 339,
-      "registryReferencesFound": 339,
+      "batch": "10",
+      "questionMappingsChecked": 2,
+      "registryReferencesFound": 2,
       "missingRegistryReferences": 0,
       "sourceFieldErrors": 0,
       "gradeSubjectSemesterErrors": 0,
-      "knownScopeMismatchCorrected": 1,
-      "limitation": "339 remaining references exist in the central registry and have complete source metadata; the known b9-016 scope mismatch was removed after opening the official Hanlin page. Other official URLs were not all freshly reopened in this run."
+      "officialSourcePagesReopened": 2,
+      "note": "本次重新開啟並核對第10批兩筆翰林官方來源；其餘全庫映射數量為現有資料盤點，並非本次重新逐頁開啟339個來源。"
     },
     "extendedMetadata": {
-      "complete": 362,
-      "remaining": 2538,
-      "separateClassificationIndex": 162,
+      "complete": 392,
+      "remaining": 2508,
+      "separateClassificationIndex": 192,
       "embeddedInBatches40to41": 200,
-      "learningDomain": 362,
-      "questionType": 662,
-      "learningUnit": 362,
-      "difficultyLevel": 362
+      "learningDomain": 392,
+      "questionType": 692,
+      "learningUnit": 392,
+      "difficultyLevel": 392
     },
     "newQuestionsAdded": 0,
-    "notes": "重新讀取main第8至41批34個題庫檔。基本分類欄位2,900/2,900完整；擴充欄位完整362題（獨立索引162題＋第40至41批內建200題），尚有2,538題缺少至少一項擴充欄位。第9批25題已持久化。b9-016原翰林選修物理(II)映射因官方頁只確認「力學二與熱學」冊別、未提供電路與電功率單元證據，已撤除映射及上學期標籤，改為待核對。全庫映射339筆；未新增題目。"
+    "notes": "本次重新讀取main第8至41批34個題庫檔並分組計算：2,900題、唯一ID 2,900、重複0；基本分類欄位2,900/2,900完整。第10批30題新增至持久分類索引；擴充欄位完整392題（獨立索引192＋第40至41批內建200），剩餘2,508題。全庫學期、段考、分類依據及出版社狀態分布由當前批次資料與分類索引合併計算。未新增題目。"
   },
   "unassignedRecheckAudit": {
     "date": "2026-11-13",
@@ -1056,12 +1061,49 @@
         "browserTested": false
       },
       "notes": "第9批25題新增持久化擴充分類。b9-016原翰林選修物理(II)映射因官方頁只確認高二上「力學二與熱學」冊別，未支持電路與電功率單元，已撤除映射及上學期標籤，改為pending並將semester/examPeriod設為unassigned。其他未有足夠依據的學期／段考維持unassigned。未新增題目。"
+    },
+    {
+      "date": "2026-11-13",
+      "batches": "10",
+      "questions": 30,
+      "addedToClassificationIndex": 30,
+      "indexTotal": 192,
+      "remainingExtendedMetadata": 2508,
+      "semesterDistribution": {
+        "unassigned": 27,
+        "上學期": 2,
+        "全學年": 1
+      },
+      "examPeriodDistribution": {
+        "unassigned": 29,
+        "第一次段考": 1
+      },
+      "classificationBasisDistribution": {
+        "curriculum-core": 27,
+        "publisher-source-verified": 2,
+        "question-bank-inference": 1
+      },
+      "publisherStatusDistribution": {
+        "curriculum-core": 28,
+        "publisher-mapped": 2
+      },
+      "publisherMappedQuestionCount": 2,
+      "pendingQuestionCount": 0,
+      "newQuestionsAdded": 0,
+      "extendedMetadataComplete": 30,
+      "staticFilterValidation": {
+        "combinations": 12600,
+        "violations": 0,
+        "all30Reachable": true,
+        "browserTested": false
+      },
+      "notes": "第10批30題只補齊擴充欄位並寫入獨立分類索引；保留原始學期、段考、分類依據、信心及出版社狀態。b10-022翰林選修物理(II)只標冊別層級；b10-023翰林選修化學(III)官方目次明列化學平衡，標單元層級。其他無足夠官方版本證據者維持108課綱共同核心；b10-005保留題庫推定，不代表學校正式段考範圍。未新增題目。"
     }
   ],
   "latestMainClassificationAudit": {
     "auditedAt": "2026-11-13",
     "branch": "main",
-    "sourceHeadBeforeRun": "69170954ce54831ac270ac5230699106c10934f9",
+    "sourceHeadBeforeRun": "942ad5f18abfba4bc7fff5d0a0e01f8dc1f4261d",
     "batches": "08-41",
     "questionCount": 2900,
     "uniqueQuestionIds": 2900,
@@ -1091,10 +1133,6 @@
       "資訊": 1,
       "經濟": 6,
       "資訊素養": 2
-    },
-    "unitLabelCoverage": {
-      "questionsWithUnitOrTopic": 2900,
-      "missingUnitOrTopic": 0
     },
     "storedClassificationFields": {
       "complete": 2900,
@@ -1133,36 +1171,35 @@
       "pending": 1
     },
     "publisherMappedQuestionCount": 339,
-    "publisherMappingReferenceCount": 339,
     "centralMappingRegistryCount": 16,
     "pendingQuestionCount": 1,
     "mappingValidationThisRun": {
-      "batches": "08-41",
-      "mappingReferences": 339,
-      "registryReferencesFound": 339,
+      "batch": "10",
+      "questionMappingsChecked": 2,
+      "registryReferencesFound": 2,
       "missingRegistryReferences": 0,
       "sourceFieldErrors": 0,
       "gradeSubjectSemesterErrors": 0,
-      "knownScopeMismatchCorrected": 1,
-      "limitation": "339 remaining references exist in the central registry and have complete source metadata; the known b9-016 scope mismatch was removed after opening the official Hanlin page. Other official URLs were not all freshly reopened in this run."
+      "officialSourcePagesReopened": 2,
+      "note": "本次重新開啟並核對第10批兩筆翰林官方來源；其餘全庫映射數量為現有資料盤點，並非本次重新逐頁開啟339個來源。"
     },
     "extendedMetadata": {
-      "complete": 362,
-      "remaining": 2538,
-      "separateClassificationIndex": 162,
+      "complete": 392,
+      "remaining": 2508,
+      "separateClassificationIndex": 192,
       "embeddedInBatches40to41": 200,
-      "learningDomain": 362,
-      "questionType": 662,
-      "learningUnit": 362,
-      "difficultyLevel": 362
+      "learningDomain": 392,
+      "questionType": 692,
+      "learningUnit": 392,
+      "difficultyLevel": 392
     },
     "newQuestionsAdded": 0,
-    "notes": "重新讀取main第8至41批34個題庫檔。基本分類欄位2,900/2,900完整；擴充欄位完整362題（獨立索引162題＋第40至41批內建200題），尚有2,538題缺少至少一項擴充欄位。第9批25題已持久化。b9-016原翰林選修物理(II)映射因官方頁只確認「力學二與熱學」冊別、未提供電路與電功率單元證據，已撤除映射及上學期標籤，改為待核對。全庫映射339筆；未新增題目。"
+    "notes": "本次重新讀取main第8至41批34個題庫檔並分組計算：2,900題、唯一ID 2,900、重複0；基本分類欄位2,900/2,900完整。第10批30題新增至持久分類索引；擴充欄位完整392題（獨立索引192＋第40至41批內建200），剩餘2,508題。全庫學期、段考、分類依據及出版社狀態分布由當前批次資料與分類索引合併計算。未新增題目。"
   },
   "latestClassificationBackfill": {
     "auditedAt": "2026-11-13",
     "branch": "main",
-    "sourceHeadBeforeRun": "69170954ce54831ac270ac5230699106c10934f9",
+    "sourceHeadBeforeRun": "942ad5f18abfba4bc7fff5d0a0e01f8dc1f4261d",
     "batches": "08-41",
     "questionCount": 2900,
     "uniqueQuestionIds": 2900,
@@ -1192,10 +1229,6 @@
       "資訊": 1,
       "經濟": 6,
       "資訊素養": 2
-    },
-    "unitLabelCoverage": {
-      "questionsWithUnitOrTopic": 2900,
-      "missingUnitOrTopic": 0
     },
     "storedClassificationFields": {
       "complete": 2900,
@@ -1234,31 +1267,32 @@
       "pending": 1
     },
     "publisherMappedQuestionCount": 339,
-    "publisherMappingReferenceCount": 339,
     "centralMappingRegistryCount": 16,
     "pendingQuestionCount": 1,
     "mappingValidationThisRun": {
-      "batches": "08-41",
-      "mappingReferences": 339,
-      "registryReferencesFound": 339,
+      "batch": "10",
+      "questionMappingsChecked": 2,
+      "registryReferencesFound": 2,
       "missingRegistryReferences": 0,
       "sourceFieldErrors": 0,
       "gradeSubjectSemesterErrors": 0,
-      "knownScopeMismatchCorrected": 1,
-      "limitation": "339 remaining references exist in the central registry and have complete source metadata; the known b9-016 scope mismatch was removed after opening the official Hanlin page. Other official URLs were not all freshly reopened in this run."
+      "officialSourcePagesReopened": 2,
+      "note": "本次重新開啟並核對第10批兩筆翰林官方來源；其餘全庫映射數量為現有資料盤點，並非本次重新逐頁開啟339個來源。"
     },
     "extendedMetadata": {
-      "complete": 362,
-      "remaining": 2538,
-      "separateClassificationIndex": 162,
+      "complete": 392,
+      "remaining": 2508,
+      "separateClassificationIndex": 192,
       "embeddedInBatches40to41": 200,
-      "learningDomain": 362,
-      "questionType": 662,
-      "learningUnit": 362,
-      "difficultyLevel": 362
+      "learningDomain": 392,
+      "questionType": 692,
+      "learningUnit": 392,
+      "difficultyLevel": 392
     },
     "newQuestionsAdded": 0,
-    "notes": "重新讀取main第8至41批34個題庫檔。基本分類欄位2,900/2,900完整；擴充欄位完整362題（獨立索引162題＋第40至41批內建200題），尚有2,538題缺少至少一項擴充欄位。第9批25題已持久化。b9-016原翰林選修物理(II)映射因官方頁只確認「力學二與熱學」冊別、未提供電路與電功率單元證據，已撤除映射及上學期標籤，改為待核對。全庫映射339筆；未新增題目。"
+    "notes": "本次重新讀取main第8至41批34個題庫檔並分組計算：2,900題、唯一ID 2,900、重複0；基本分類欄位2,900/2,900完整。第10批30題新增至持久分類索引；擴充欄位完整392題（獨立索引192＋第40至41批內建200），剩餘2,508題。全庫學期、段考、分類依據及出版社狀態分布由當前批次資料與分類索引合併計算。未新增題目。",
+    "batch": "10",
+    "batchQuestionCount": 30
   },
   "batch09UnassignedReview": {
     "date": "2026-11-13",
@@ -1294,5 +1328,138 @@
       "b9-025"
     ],
     "notes": "逐題檢查未分類學期／段考；缺乏足以指定冊別、單元次序或學校考試範圍的證據者維持unassigned。b9-016原上學期推定依據撤除後改回unassigned。"
+  },
+  "batch10ClassificationAudit": {
+    "total": 30,
+    "gradeDistribution": {
+      "五年級": 4,
+      "六年級": 4,
+      "高一": 8,
+      "高三": 5,
+      "高二": 9
+    },
+    "subjectDistribution": {
+      "公民": 3,
+      "化學": 2,
+      "國語": 1,
+      "地球科學": 1,
+      "地理": 3,
+      "數學": 5,
+      "歷史": 3,
+      "物理": 2,
+      "生物": 2,
+      "社會": 2,
+      "自然": 2,
+      "英文": 3,
+      "英語": 1
+    },
+    "semesterDistribution": {
+      "unassigned": 27,
+      "上學期": 2,
+      "全學年": 1
+    },
+    "examPeriodDistribution": {
+      "unassigned": 29,
+      "第一次段考": 1
+    },
+    "classificationBasisDistribution": {
+      "curriculum-core": 27,
+      "publisher-source-verified": 2,
+      "question-bank-inference": 1
+    },
+    "publisherStatusDistribution": {
+      "curriculum-core": 28,
+      "publisher-mapped": 2
+    },
+    "publisherMappedQuestions": 2,
+    "publisherMappingReferences": 2,
+    "pendingQuestions": 0,
+    "questionIds": [
+      "b10-001",
+      "b10-002",
+      "b10-003",
+      "b10-004",
+      "b10-005",
+      "b10-006",
+      "b10-007",
+      "b10-008",
+      "b10-009",
+      "b10-010",
+      "b10-011",
+      "b10-012",
+      "b10-013",
+      "b10-014",
+      "b10-015",
+      "b10-016",
+      "b10-017",
+      "b10-018",
+      "b10-019",
+      "b10-020",
+      "b10-021",
+      "b10-022",
+      "b10-023",
+      "b10-024",
+      "b10-025",
+      "b10-026",
+      "b10-027",
+      "b10-028",
+      "b10-029",
+      "b10-030"
+    ],
+    "officialSources": [
+      {
+        "publisher": "hanlin",
+        "mappingId": "hanlin-h2-physics-ii",
+        "mappingLevel": "volume",
+        "sourceUrl": "https://books.hanlin.com.tw/product/004022",
+        "sourceTitle": "翰林書城－高中課本選修物理(II)力學二與熱學",
+        "verifiedAt": "2026-11-13",
+        "verificationStatus": "source-checked"
+      },
+      {
+        "publisher": "hanlin",
+        "mappingId": "hanlin-h2-chemistry-iii-u1",
+        "mappingLevel": "unit",
+        "sourceUrl": "https://books.hanlin.com.tw/product/435023",
+        "sourceTitle": "翰林書城－高中互動式教學講義選修化學(III)",
+        "verifiedAt": "2026-11-13",
+        "verificationStatus": "source-checked"
+      }
+    ],
+    "validation": {
+      "jsonParse": true,
+      "idsMatchBatch10": true,
+      "noExistingEntriesOverwritten": true,
+      "requiredFieldsComplete": true,
+      "sourceRefsComplete": true,
+      "legalClassificationValues": true,
+      "sourceMappings": "2/2",
+      "mappingConsistencyErrors": 0,
+      "fourOptions": true,
+      "answerIndices0to3": true,
+      "explanationsPresent": true,
+      "staticFilterValidation": {
+        "combinations": 12600,
+        "violations": 0,
+        "all30Reachable": true,
+        "publisherResults": {
+          "all": 30,
+          "hanlin": 2,
+          "nani": 0,
+          "knsh": 0,
+          "core": 28,
+          "pending": 0
+        },
+        "browserTested": false
+      },
+      "indexReadsClassificationFile": true,
+      "classifierUsesSavedIndex": true,
+      "classificationIndexAsset": true,
+      "batch10Asset": true,
+      "zeroResultMessagePresent": true,
+      "serviceWorkerCache": "xy-learning-v80",
+      "cacheVersionBumped": true
+    },
+    "notes": "第10批30題只補齊擴充欄位並寫入獨立分類索引；保留原始學期、段考、分類依據、信心及出版社狀態。b10-022翰林選修物理(II)只標冊別層級；b10-023翰林選修化學(III)官方目次明列化學平衡，標單元層級。其他無足夠官方版本證據者維持108課綱共同核心；b10-005保留題庫推定，不代表學校正式段考範圍。未新增題目。"
   }
 }
