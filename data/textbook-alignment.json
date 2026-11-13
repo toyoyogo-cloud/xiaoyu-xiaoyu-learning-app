@@ -1663,16 +1663,16 @@
       "missing": 0
     },
     "classificationBasisDistribution": {
-      "publisher-source-verified": 259,
+      "publisher-source-verified": 261,
       "question-bank-inference": 218,
-      "curriculum-core": 2423,
+      "curriculum-core": 2421,
       "unassigned": 0
     },
     "semesterDistribution": {
-      "上學期": 301,
+      "上學期": 303,
       "下學期": 102,
       "全學年": 74,
-      "unassigned": 2423
+      "unassigned": 2421
     },
     "examPeriodDistribution": {
       "第一次段考": 58,
@@ -1681,12 +1681,12 @@
       "unassigned": 2682
     },
     "publisherStatusDistribution": {
-      "publisher-mapped": 338,
-      "curriculum-core": 2562,
+      "publisher-mapped": 340,
+      "curriculum-core": 2560,
       "pending": 0
     },
-    "publisherMappedQuestionCount": 338,
-    "publisherMappingReferenceCount": 338,
+    "publisherMappedQuestionCount": 340,
+    "publisherMappingReferenceCount": 340,
     "centralMappingRegistryCount": 16,
     "publisherMappingConsistencyErrors": 0,
     "pendingQuestionCount": 0,
@@ -1697,7 +1697,7 @@
       "embeddedInBatches40to41": 200
     },
     "newQuestionsAdded": 0,
-    "notes": "第8至30批1,800題已持久化於獨立分類索引；第40至41批200題已有批次內建擴充分類；第31至39批900題仍待補齊learningDomain、questionType、learningUnit、difficultyLevel。第30批34筆出版社映射引用沿用中央16筆登錄並全部核對一致；全庫既有映射登錄未新增。學期、段考無可靠依據者保留unassigned。 Service Worker已升級xy-learning-v75，並確認分類索引與第30批均列入快取資產。"
+    "notes": "第8至30批1,800題已持久化於獨立分類索引；第40至41批200題已有批次內建擴充分類；第31至39批900題仍待補齊learningDomain、questionType、learningUnit、difficultyLevel。第30批34筆出版社映射引用沿用中央16筆登錄並全部核對一致；全庫既有映射登錄未新增。學期、段考無可靠依據者保留unassigned。 Service Worker已升級xy-learning-v75，並確認分類索引與第30批均列入快取資產。 全庫unassigned再檢查第8至41批2,682筆未分類學期／段考候選，256筆符合現行規則，其中254筆已保存；新增b41-067、b41-068兩筆翰林選修物理(II)上學期冊別層級映射，未推定段考。"
   },
   "classificationPersistenceRuns": [
     {
@@ -2056,5 +2056,23 @@
       "cacheVersionBumped": true
     },
     "notes": "第30批100題擴充分類已寫入獨立分類索引；原有分類欄位保留。34筆映射沿用中央16筆官方來源登錄且全部source-checked，逐筆核對publisher、mappingId、來源欄位、年級、科目、學期及課程軌別一致；未新增中央映射。75題難度標示未標示，因原始d欄位為題型／情境標籤。靜態模擬篩選8,400組通過，非瀏覽器實測。"
+  },
+  "batch41UnassignedRecheck": {
+    "date": "2026-11-13",
+    "questionsRechecked": 2682,
+    "currentInferenceRuleMatches": 256,
+    "alreadyStored": 254,
+    "newlyPersisted": 2,
+    "questionIds": [
+      "b41-067",
+      "b41-068"
+    ],
+    "mappingId": "hanlin-h2-physics-ii",
+    "publisher": "hanlin",
+    "mappingLevel": "volume",
+    "verificationStatus": "source-checked",
+    "semesterAssignments": 2,
+    "examPeriodAssignments": 0,
+    "consistencyErrors": 0
   }
 }
