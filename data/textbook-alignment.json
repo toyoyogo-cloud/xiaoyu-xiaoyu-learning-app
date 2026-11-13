@@ -842,44 +842,54 @@
     "出版社來源只證明教材冊別／單元對照，不代表學校採用該版本。",
     "翰林選修化學(II)官方課本頁明示高二上學期，已由下學期更正為上學期。",
     "2026-11-13 main 全庫盤點：第8至36批共2,400題、2,400個唯一ID；第8至29批1,700題沒有內嵌出版社／學期分類欄位，改由 question-classification-inference.js 依可辨識知識點動態推定，無證據者保留unassigned/pending；第30至36批700題有分類欄位，出版社映射引用119筆，對照16筆中央映射後未發現年級、科目、學期或課程軌別不符。第30批有91題未儲存classificationNotes，執行時由分類器以sourceRef／預設理由補出說明。此為結構與來源欄位稽核，不表示每題都已取得出版社對照。",
-    "化學(II)冊別層級校正：以翰林課本商品頁005022為準，確認高二上學期；不同商品編號的習作或實驗手冊學期不可混用。"
+    "化學(II)冊別層級校正：以翰林課本商品頁005022為準，確認高二上學期；不同商品編號的習作或實驗手冊學期不可混用。",
+    "第37批新增30題來源映射均以中央mappingId連結；執行時分類器回歸測試確認100題的semester、examPeriod、classificationBasis、publisherStatus及publisherMappings均與批次檔儲存欄位一致。"
   ],
   "lastAudit": {
     "verifiedAt": "2026-11-13",
-    "sourceBranch": "main",
+    "sourceBranch": "main-before-batch37",
     "sourceHead": "33292250997ea8247ff3eb43c8e7160f3af8825f",
-    "batchRange": "第8至36批",
-    "batchCount": 29,
-    "independentQuestions": 2400,
-    "uniqueIds": 2400,
+    "batchRange": "第8至37批",
+    "batchCount": 30,
+    "independentQuestions": 2500,
+    "uniqueIds": 2500,
     "batchQuestionCounts": {
       "22": 101,
+      "37": 100,
       "08-14": 199,
       "15-21": 700,
       "23-36": 1400
     },
     "gradeDistribution": {
       "五年級": 290,
-      "六年級": 640,
+      "六年級": 690,
       "高一": 373,
-      "高二": 724,
+      "高二": 774,
       "高三": 373
     },
     "legacyRecords": {
       "batchRange": "第8至29批",
       "count": 1700,
       "inlineClassificationMetadata": "absent",
-      "handling": "runtime inference by question-classification-inference.js; no evidence -> unassigned/pending"
+      "handling": "question-classification-inference.js applies topic-based inference where evidence exists; no reliable evidence remains unassigned/pending"
     },
     "classifiedRecords": {
-      "batchRange": "第30至36批",
-      "count": 700,
-      "publisherMappedQuestions": 119,
+      "batchRange": "第30至37批",
+      "count": 800,
+      "publisherMappedQuestions": 149,
       "centralMappingRecords": 16,
       "mappingConsistencyErrors": 0,
       "batch30MissingClassificationNotes": 91,
-      "handling": "classifier supplies reason/notes fallback from sourceRef or explicit rule"
+      "newBatch37": {
+        "questions": 100,
+        "gradeDistribution": {
+          "六年級": 50,
+          "高二": 50
+        },
+        "publisherMappedQuestions": 30,
+        "runtimeClassificationMatchesStoredFields": true
+      }
     },
-    "policy": "Math A/B are not mixed; only questions explicitly tagged courseTrack=數學A can resolve the Hanlin 3A mappings. Publisher source confirms only the level stated in mappingLevel. School adoption remains unknown unless separately documented."
+    "policy": "Math A/B are not mixed; only questions explicitly tagged courseTrack=數學A can resolve Hanlin 3A mappings. Publisher source confirms only the level stated in mappingLevel. School adoption remains unknown unless separately documented."
   }
 }
