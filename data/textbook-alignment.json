@@ -1105,31 +1105,38 @@
   },
   "auditSummary": {
     "auditedAt": "2026-11-13",
-    "auditedRef": "main at b72eb277b7a18da37998ebbce7763c6f065070d3",
-    "batchRange": "08-37",
-    "batchFileCount": 30,
-    "questionCount": 2500,
-    "uniqueQuestionIdCount": 2500,
+    "auditedRef": "main at b72eb277b7a18da37998ebbce7763c6f065070d3; development branch includes batch38",
+    "batchRange": "08-38",
+    "batchFileCount": 31,
+    "questionCount": 2600,
+    "uniqueQuestionIdCount": 2600,
     "gradeCounts": {
       "五年級": 290,
-      "六年級": 690,
+      "六年級": 740,
       "高一": 373,
-      "高二": 774,
+      "高二": 824,
       "高三": 373
     },
     "embeddedClassification": {
       "batches08to29": 0,
-      "batches30to37": 800,
-      "missingClassificationNotesInBatch30to37": 91,
-      "sourceRefPresent": 2500
+      "batches30to38": 900,
+      "missingClassificationNotes": 0,
+      "sourceRefPresent": 2600
     },
-    "rawPublisherMappingReferencesInBatches30to37": 149,
+    "mappingReferencesInBatches30to38": 185,
+    "validatedMappingReferencesInBatches30to38": 185,
     "centralMappingCount": 16,
+    "publisherReferenceCounts": {
+      "hanlin": 160,
+      "knsh": 6,
+      "nani": 19
+    },
     "notes": [
-      "第8至29批共1700題未內嵌semester、examPeriod、classificationBasis、confidence、publisherStatus及publisherMappings；由分類推定器執行時依題目知識點推定，不能視為已回寫批次檔。",
-      "第30至37批共800題已內嵌主要分類欄位，其中第30批有91題缺少classificationNotes；分類器提供執行時備援說明，仍建議後續回寫。",
-      "publisherMappings只在年級、科目、學期、課程軌別及單元／冊別範圍驗證通過後才可用於出版社篩選。",
-      "未確認學校採用版本、學年度或普通高中／技術型高中時，不作學校指定版本宣稱。",
+      "第8至29批共1700題未內嵌semester、examPeriod、classificationBasis、confidence、publisherStatus及publisherMappings；由分類推定器依可辨識題幹、單元與知識點動態推定，不能視為已回寫批次檔。",
+      "第30至38批共900題已內嵌主要分類欄位與classificationNotes；第30批原缺少的91筆classificationNotes已補齊。",
+      "第30至38批185筆出版社映射引用已逐筆驗證中央mappingId、publisher、sourceUrl、sourceTitle、verifiedAt、verificationStatus、notes、年級、科目、學期、課程軌別及單元／冊別範圍，185筆均通過。",
+      "只有來源可支持的層級才標記出版社；volume映射使用scopeKeywords限制，unit映射使用unitAliases限制；不符合範圍者從舊批次移除出版社標籤。",
+      "數學A/B以courseTrack隔離；未確認普通高中／技術型高中、學年度或學校採用版本者不作指定版本宣稱。",
       "段考分類為題庫複習建議，不代表學校正式考試範圍。"
     ]
   }
