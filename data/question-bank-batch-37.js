@@ -625,7 +625,7 @@ window.EXTRA37_GRADE_BANK = [
     "publisherMappings": [
       {
         "publisher": "nani",
-        "mappingId": "nBase",
+        "mappingId": "nani-g6-math-6b-base-comparison",
         "sourceUrl": "https://tpack.nani.com.tw/nani_content?a=341&b=1",
         "sourceTitle": "南一官方資源－數學6下｜基準量和比較量",
         "verifiedAt": "2026-11-13",
@@ -668,7 +668,7 @@ window.EXTRA37_GRADE_BANK = [
     "publisherMappings": [
       {
         "publisher": "nani",
-        "mappingId": "nBase",
+        "mappingId": "nani-g6-math-6b-base-comparison",
         "sourceUrl": "https://tpack.nani.com.tw/nani_content?a=341&b=1",
         "sourceTitle": "南一官方資源－數學6下｜基準量和比較量",
         "verifiedAt": "2026-11-13",
@@ -711,7 +711,7 @@ window.EXTRA37_GRADE_BANK = [
     "publisherMappings": [
       {
         "publisher": "nani",
-        "mappingId": "nOps",
+        "mappingId": "nani-g6-math-6b-four-operations",
         "sourceUrl": "https://tpack.nani.com.tw/nani_content?a=340&b=1",
         "sourceTitle": "南一官方資源－數學6下｜四則混合運算",
         "verifiedAt": "2026-11-13",
@@ -754,7 +754,7 @@ window.EXTRA37_GRADE_BANK = [
     "publisherMappings": [
       {
         "publisher": "nani",
-        "mappingId": "nOps",
+        "mappingId": "nani-g6-math-6b-four-operations",
         "sourceUrl": "https://tpack.nani.com.tw/nani_content?a=340&b=1",
         "sourceTitle": "南一官方資源－數學6下｜四則混合運算",
         "verifiedAt": "2026-11-13",
@@ -797,7 +797,7 @@ window.EXTRA37_GRADE_BANK = [
     "publisherMappings": [
       {
         "publisher": "nani",
-        "mappingId": "nChicken",
+        "mappingId": "nani-g6-math-6b-chicken-rabbit",
         "sourceUrl": "https://tpack.nani.com.tw/nani_content?a=394&b=1",
         "sourceTitle": "南一官方平台教學資源－數學6下｜怎樣解題：雞兔問題",
         "verifiedAt": "2026-11-13",
@@ -840,7 +840,7 @@ window.EXTRA37_GRADE_BANK = [
     "publisherMappings": [
       {
         "publisher": "nani",
-        "mappingId": "nChicken",
+        "mappingId": "nani-g6-math-6b-chicken-rabbit",
         "sourceUrl": "https://tpack.nani.com.tw/nani_content?a=394&b=1",
         "sourceTitle": "南一官方平台教學資源－數學6下｜怎樣解題：雞兔問題",
         "verifiedAt": "2026-11-13",
@@ -908,13 +908,13 @@ window.EXTRA37_GRADE_BANK = [
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱共同核心原創編寫；非出版社或歷屆試題原文。",
     "reviewStatus": "rule-checked",
-    "semester": "unassigned",
-    "examPeriod": "unassigned",
-    "classificationBasis": "curriculum-core",
+    "semester": "上學期",
+    "examPeriod": "第三次段考",
+    "classificationBasis": "question-bank-inference",
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "classificationNotes": "依108課綱共同核心原創編寫；無足夠出版社單元或學校採用證據，不掛出版社標籤。",
+    "classificationNotes": "依六年級題庫常見比例尺／速率單元群推定上學期第三次段考複習位置；此為題庫推定，非學校正式段考範圍。",
     "questionType": "圖表資料判讀"
   },
   {
@@ -1007,13 +1007,13 @@ window.EXTRA37_GRADE_BANK = [
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱共同核心原創編寫；非出版社或歷屆試題原文。",
     "reviewStatus": "rule-checked",
-    "semester": "unassigned",
-    "examPeriod": "unassigned",
-    "classificationBasis": "curriculum-core",
+    "semester": "上學期",
+    "examPeriod": "第三次段考",
+    "classificationBasis": "question-bank-inference",
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "classificationNotes": "依108課綱共同核心原創編寫；無足夠出版社單元或學校採用證據，不掛出版社標籤。",
+    "classificationNotes": "依六年級題庫常見比例尺／速率單元群推定上學期第三次段考複習位置；此為題庫推定，非學校正式段考範圍。",
     "questionType": "計算應用"
   },
   {
@@ -1040,13 +1040,13 @@ window.EXTRA37_GRADE_BANK = [
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱共同核心原創編寫；非出版社或歷屆試題原文。",
     "reviewStatus": "rule-checked",
-    "semester": "unassigned",
-    "examPeriod": "unassigned",
-    "classificationBasis": "curriculum-core",
+    "semester": "下學期",
+    "examPeriod": "第三次段考",
+    "classificationBasis": "question-bank-inference",
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "classificationNotes": "依108課綱共同核心原創編寫；無足夠出版社單元或學校採用證據，不掛出版社標籤。",
+    "classificationNotes": "依六年級題庫常見統計與機率單元群推定下學期第三次段考複習位置；此為題庫推定，非學校正式段考範圍。",
     "questionType": "計算應用"
   },
   {
@@ -1549,10 +1549,10 @@ window.EXTRA37_GRADE_BANK = [
     "stage": "國小",
     "grade": "六年級",
     "subject": "社會",
-    "unit": "社會變遷與個人發展",
-    "t": "社會變遷與個人發展",
-    "topic": "社會變遷與個人發展",
-    "learningContent": "社會變遷與個人發展",
+    "unit": "個人發展如何受到社會變遷的影響",
+    "t": "個人發展如何受到社會變遷的影響",
+    "topic": "個人發展如何受到社會變遷的影響",
+    "learningContent": "個人發展如何受到社會變遷的影響",
     "d": "進階",
     "difficulty": "進階",
     "q": "過去某地家庭多由一人外出工作、另一人照顧家務；近年遠距工作增加，家庭成員重新分配照顧工作。這最能說明？",
@@ -1576,7 +1576,7 @@ window.EXTRA37_GRADE_BANK = [
     "publisherMappings": [
       {
         "publisher": "knsh",
-        "mappingId": "kSocial",
+        "mappingId": "knsh-g6-social-6a-u2-1",
         "sourceUrl": "https://sdgs.knsh.com.tw/campus/SDGS_FILE_E/%E7%A4%BE%E6%9C%83%E5%85%AD%E4%B8%8ACH2L1%E5%80%8B%E4%BA%BA%E7%99%BC%E5%B1%95%E5%A6%82%E4%BD%95%E5%8F%97%E5%88%B0%E7%A4%BE%E6%9C%83%E8%AE%8A%E9%81%B7%E7%9A%84%E5%BD%B1%E9%9F%BF_%E6%95%99%E5%AD%B8%E8%B3%87%E6%BA%90.pdf",
         "sourceTitle": "康軒官方教學資源－社會六上2-1個人發展如何受到社會變遷的影響",
         "verifiedAt": "2026-11-13",
@@ -1751,7 +1751,7 @@ window.EXTRA37_GRADE_BANK = [
     "publisherMappings": [
       {
         "publisher": "hanlin",
-        "mappingId": "hTrig",
+        "mappingId": "hanlin-h2-math-3a-u1",
         "sourceUrl": "https://books.hanlin.com.tw/product/433021",
         "sourceTitle": "翰林書城－高中互動式教學講義數學(3A)",
         "verifiedAt": "2026-11-13",
@@ -1795,7 +1795,7 @@ window.EXTRA37_GRADE_BANK = [
     "publisherMappings": [
       {
         "publisher": "hanlin",
-        "mappingId": "hTrig",
+        "mappingId": "hanlin-h2-math-3a-u1",
         "sourceUrl": "https://books.hanlin.com.tw/product/433021",
         "sourceTitle": "翰林書城－高中互動式教學講義數學(3A)",
         "verifiedAt": "2026-11-13",
@@ -1839,7 +1839,7 @@ window.EXTRA37_GRADE_BANK = [
     "publisherMappings": [
       {
         "publisher": "hanlin",
-        "mappingId": "hTrig",
+        "mappingId": "hanlin-h2-math-3a-u1",
         "sourceUrl": "https://books.hanlin.com.tw/product/433021",
         "sourceTitle": "翰林書城－高中互動式教學講義數學(3A)",
         "verifiedAt": "2026-11-13",
@@ -1883,7 +1883,7 @@ window.EXTRA37_GRADE_BANK = [
     "publisherMappings": [
       {
         "publisher": "hanlin",
-        "mappingId": "hLog",
+        "mappingId": "hanlin-h2-math-3a-u2",
         "sourceUrl": "https://books.hanlin.com.tw/product/433021",
         "sourceTitle": "翰林書城－高中互動式教學講義數學(3A)",
         "verifiedAt": "2026-11-13",
@@ -1927,7 +1927,7 @@ window.EXTRA37_GRADE_BANK = [
     "publisherMappings": [
       {
         "publisher": "hanlin",
-        "mappingId": "hLog",
+        "mappingId": "hanlin-h2-math-3a-u2",
         "sourceUrl": "https://books.hanlin.com.tw/product/433021",
         "sourceTitle": "翰林書城－高中互動式教學講義數學(3A)",
         "verifiedAt": "2026-11-13",
@@ -1971,7 +1971,7 @@ window.EXTRA37_GRADE_BANK = [
     "publisherMappings": [
       {
         "publisher": "hanlin",
-        "mappingId": "hLog",
+        "mappingId": "hanlin-h2-math-3a-u2",
         "sourceUrl": "https://books.hanlin.com.tw/product/433021",
         "sourceTitle": "翰林書城－高中互動式教學講義數學(3A)",
         "verifiedAt": "2026-11-13",
@@ -2015,7 +2015,7 @@ window.EXTRA37_GRADE_BANK = [
     "publisherMappings": [
       {
         "publisher": "hanlin",
-        "mappingId": "hVector",
+        "mappingId": "hanlin-h2-math-3a-u3",
         "sourceUrl": "https://books.hanlin.com.tw/product/433021",
         "sourceTitle": "翰林書城－高中互動式教學講義數學(3A)",
         "verifiedAt": "2026-11-13",
@@ -2059,7 +2059,7 @@ window.EXTRA37_GRADE_BANK = [
     "publisherMappings": [
       {
         "publisher": "hanlin",
-        "mappingId": "hVector",
+        "mappingId": "hanlin-h2-math-3a-u3",
         "sourceUrl": "https://books.hanlin.com.tw/product/433021",
         "sourceTitle": "翰林書城－高中互動式教學講義數學(3A)",
         "verifiedAt": "2026-11-13",
@@ -2103,7 +2103,7 @@ window.EXTRA37_GRADE_BANK = [
     "publisherMappings": [
       {
         "publisher": "hanlin",
-        "mappingId": "hVector",
+        "mappingId": "hanlin-h2-math-3a-u3",
         "sourceUrl": "https://books.hanlin.com.tw/product/433021",
         "sourceTitle": "翰林書城－高中互動式教學講義數學(3A)",
         "verifiedAt": "2026-11-13",
@@ -2246,7 +2246,7 @@ window.EXTRA37_GRADE_BANK = [
     "publisherMappings": [
       {
         "publisher": "hanlin",
-        "mappingId": "hPhysics",
+        "mappingId": "hanlin-h2-physics-ii",
         "sourceUrl": "https://books.hanlin.com.tw/product/004022",
         "sourceTitle": "翰林書城－高中課本選修物理(II)力學二與熱學",
         "verifiedAt": "2026-11-13",
@@ -2289,7 +2289,7 @@ window.EXTRA37_GRADE_BANK = [
     "publisherMappings": [
       {
         "publisher": "hanlin",
-        "mappingId": "hPhysics",
+        "mappingId": "hanlin-h2-physics-ii",
         "sourceUrl": "https://books.hanlin.com.tw/product/004022",
         "sourceTitle": "翰林書城－高中課本選修物理(II)力學二與熱學",
         "verifiedAt": "2026-11-13",
@@ -2332,7 +2332,7 @@ window.EXTRA37_GRADE_BANK = [
     "publisherMappings": [
       {
         "publisher": "hanlin",
-        "mappingId": "hPhysics",
+        "mappingId": "hanlin-h2-physics-ii",
         "sourceUrl": "https://books.hanlin.com.tw/product/004022",
         "sourceTitle": "翰林書城－高中課本選修物理(II)力學二與熱學",
         "verifiedAt": "2026-11-13",
@@ -2375,7 +2375,7 @@ window.EXTRA37_GRADE_BANK = [
     "publisherMappings": [
       {
         "publisher": "hanlin",
-        "mappingId": "hPhysics",
+        "mappingId": "hanlin-h2-physics-ii",
         "sourceUrl": "https://books.hanlin.com.tw/product/004022",
         "sourceTitle": "翰林書城－高中課本選修物理(II)力學二與熱學",
         "verifiedAt": "2026-11-13",
@@ -2517,7 +2517,7 @@ window.EXTRA37_GRADE_BANK = [
     "publisherMappings": [
       {
         "publisher": "hanlin",
-        "mappingId": "hPhysics",
+        "mappingId": "hanlin-h2-physics-ii",
         "sourceUrl": "https://books.hanlin.com.tw/product/004022",
         "sourceTitle": "翰林書城－高中課本選修物理(II)力學二與熱學",
         "verifiedAt": "2026-11-13",
@@ -2560,7 +2560,7 @@ window.EXTRA37_GRADE_BANK = [
     "publisherMappings": [
       {
         "publisher": "hanlin",
-        "mappingId": "hChem2",
+        "mappingId": "hanlin-h2-chemistry-ii-structure-rate",
         "sourceUrl": "https://books.hanlin.com.tw/product/005022",
         "sourceTitle": "翰林書城－高中課本選修化學(II)物質構造與反應速率",
         "verifiedAt": "2026-11-13",
@@ -2603,7 +2603,7 @@ window.EXTRA37_GRADE_BANK = [
     "publisherMappings": [
       {
         "publisher": "hanlin",
-        "mappingId": "hChem2",
+        "mappingId": "hanlin-h2-chemistry-ii-structure-rate",
         "sourceUrl": "https://books.hanlin.com.tw/product/005022",
         "sourceTitle": "翰林書城－高中課本選修化學(II)物質構造與反應速率",
         "verifiedAt": "2026-11-13",
@@ -2646,7 +2646,7 @@ window.EXTRA37_GRADE_BANK = [
     "publisherMappings": [
       {
         "publisher": "hanlin",
-        "mappingId": "hChem3a",
+        "mappingId": "hanlin-h2-chemistry-iii-u1",
         "sourceUrl": "https://books.hanlin.com.tw/product/435023",
         "sourceTitle": "翰林書城－高中互動式教學講義選修化學(III)",
         "verifiedAt": "2026-11-13",
@@ -2689,7 +2689,7 @@ window.EXTRA37_GRADE_BANK = [
     "publisherMappings": [
       {
         "publisher": "hanlin",
-        "mappingId": "hChem3b",
+        "mappingId": "hanlin-h2-chemistry-iii-u2",
         "sourceUrl": "https://books.hanlin.com.tw/product/435023",
         "sourceTitle": "翰林書城－高中互動式教學講義選修化學(III)",
         "verifiedAt": "2026-11-13",
@@ -2732,7 +2732,7 @@ window.EXTRA37_GRADE_BANK = [
     "publisherMappings": [
       {
         "publisher": "hanlin",
-        "mappingId": "hChem3c",
+        "mappingId": "hanlin-h2-chemistry-iii-u3",
         "sourceUrl": "https://books.hanlin.com.tw/product/435023",
         "sourceTitle": "翰林書城－高中互動式教學講義選修化學(III)",
         "verifiedAt": "2026-11-13",
@@ -2775,7 +2775,7 @@ window.EXTRA37_GRADE_BANK = [
     "publisherMappings": [
       {
         "publisher": "hanlin",
-        "mappingId": "hChem3c",
+        "mappingId": "hanlin-h2-chemistry-iii-u3",
         "sourceUrl": "https://books.hanlin.com.tw/product/435023",
         "sourceTitle": "翰林書城－高中互動式教學講義選修化學(III)",
         "verifiedAt": "2026-11-13",
@@ -2851,7 +2851,7 @@ window.EXTRA37_GRADE_BANK = [
     "publisherMappings": [
       {
         "publisher": "hanlin",
-        "mappingId": "hChem2",
+        "mappingId": "hanlin-h2-chemistry-ii-structure-rate",
         "sourceUrl": "https://books.hanlin.com.tw/product/005022",
         "sourceTitle": "翰林書城－高中課本選修化學(II)物質構造與反應速率",
         "verifiedAt": "2026-11-13",
@@ -2894,7 +2894,7 @@ window.EXTRA37_GRADE_BANK = [
     "publisherMappings": [
       {
         "publisher": "hanlin",
-        "mappingId": "hBio",
+        "mappingId": "hanlin-h2-biology-ii-plant",
         "sourceUrl": "https://books.hanlin.com.tw/product/006022",
         "sourceTitle": "翰林書城－高中課本選修生物(II)生命的起源與植物",
         "verifiedAt": "2026-11-13",
@@ -2937,7 +2937,7 @@ window.EXTRA37_GRADE_BANK = [
     "publisherMappings": [
       {
         "publisher": "hanlin",
-        "mappingId": "hBio",
+        "mappingId": "hanlin-h2-biology-ii-plant",
         "sourceUrl": "https://books.hanlin.com.tw/product/006022",
         "sourceTitle": "翰林書城－高中課本選修生物(II)生命的起源與植物",
         "verifiedAt": "2026-11-13",
