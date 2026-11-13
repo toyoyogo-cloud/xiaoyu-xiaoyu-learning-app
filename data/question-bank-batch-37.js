@@ -792,7 +792,7 @@ window.EXTRA37_GRADE_BANK = [
     "semester": "下學期",
     "examPeriod": "unassigned",
     "classificationBasis": "publisher-source-verified",
-    "confidence": "high",
+    "confidence": "medium",
     "publisherStatus": "publisher-mapped",
     "publisherMappings": [
       {
@@ -801,11 +801,11 @@ window.EXTRA37_GRADE_BANK = [
         "sourceUrl": "https://tpack.nani.com.tw/nani_content?a=394&b=1",
         "sourceTitle": "南一官方平台教學資源－數學6下｜怎樣解題：雞兔問題",
         "verifiedAt": "2026-11-13",
-        "verificationStatus": "source-checked",
-        "notes": "南一官方平台頁明示數學6下及雞兔同籠主題；分享者為高師大，僅標示官方平台教學資源主題，不宣稱南一課本原題或學校採用版本。"
+        "verificationStatus": "official-index-link-only",
+        "notes": "南一官方資源頁a=341的熱門文章連結列出「數學6下｜怎樣解題：雞兔問題」，可由官方索引標題確認年級、科目、學期與主題；目標詳情頁目前請求逾時，未能檢視內容與作者細節，因此只作官方平台資源索引標題對照，不宣稱南一課本單元或南一編寫原題。"
       }
     ],
-    "classificationNotes": "南一官方平台頁明示數學6下及雞兔同籠主題；分享者為高師大，僅標示官方平台教學資源主題，不宣稱南一課本原題或學校採用版本。",
+    "classificationNotes": "南一官方資源頁a=341的熱門文章連結列出「數學6下｜怎樣解題：雞兔問題」，可由官方索引標題確認年級、科目、學期與主題；目標詳情頁目前請求逾時，未能檢視內容與作者細節，因此只作官方平台資源索引標題對照，不宣稱南一課本單元或南一編寫原題。",
     "questionType": "計算應用"
   },
   {
@@ -835,7 +835,7 @@ window.EXTRA37_GRADE_BANK = [
     "semester": "下學期",
     "examPeriod": "unassigned",
     "classificationBasis": "publisher-source-verified",
-    "confidence": "high",
+    "confidence": "medium",
     "publisherStatus": "publisher-mapped",
     "publisherMappings": [
       {
@@ -844,11 +844,11 @@ window.EXTRA37_GRADE_BANK = [
         "sourceUrl": "https://tpack.nani.com.tw/nani_content?a=394&b=1",
         "sourceTitle": "南一官方平台教學資源－數學6下｜怎樣解題：雞兔問題",
         "verifiedAt": "2026-11-13",
-        "verificationStatus": "source-checked",
-        "notes": "南一官方平台頁明示數學6下及雞兔同籠主題；分享者為高師大，僅標示官方平台教學資源主題，不宣稱南一課本原題或學校採用版本。"
+        "verificationStatus": "official-index-link-only",
+        "notes": "南一官方資源頁a=341的熱門文章連結列出「數學6下｜怎樣解題：雞兔問題」，可由官方索引標題確認年級、科目、學期與主題；目標詳情頁目前請求逾時，未能檢視內容與作者細節，因此只作官方平台資源索引標題對照，不宣稱南一課本單元或南一編寫原題。"
       }
     ],
-    "classificationNotes": "南一官方平台頁明示數學6下及雞兔同籠主題；分享者為高師大，僅標示官方平台教學資源主題，不宣稱南一課本原題或學校採用版本。",
+    "classificationNotes": "南一官方資源頁a=341的熱門文章連結列出「數學6下｜怎樣解題：雞兔問題」，可由官方索引標題確認年級、科目、學期與主題；目標詳情頁目前請求逾時，未能檢視內容與作者細節，因此只作官方平台資源索引標題對照，不宣稱南一課本單元或南一編寫原題。",
     "questionType": "計算應用"
   },
   {
