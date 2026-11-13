@@ -204,7 +204,7 @@
       "sourceType": "official-publisher",
       "sourceUrl": "https://books.hanlin.com.tw/product/433021",
       "sourceTitle": "翰林書城－高中互動式教學講義數學(3A)",
-      "verifiedAt": "2026-11-13",
+      "verifiedAt": "2026-11-14",
       "verificationStatus": "source-checked",
       "notes": "官方頁明示高二、上學期與目次單元；段考區間仍為題庫依單元順序推定。",
       "mappingId": "hanlin-h2-math-3a-u2",
@@ -322,7 +322,7 @@
       "sourceType": "official-publisher",
       "sourceUrl": "https://books.hanlin.com.tw/product/435023",
       "sourceTitle": "翰林書城－高中互動式教學講義選修化學(III)",
-      "verifiedAt": "2026-11-13",
+      "verifiedAt": "2026-11-14",
       "verificationStatus": "source-checked",
       "notes": "官方頁明示高二、高三、全學年，目次列化學平衡；不推定學校段考。",
       "mappingId": "hanlin-h2-chemistry-iii-u1",
@@ -516,7 +516,7 @@
       "sourceTitle": "翰林書城－高中課本選修生物(II)生命的起源與植物",
       "verifiedAt": "2026-11-13",
       "verificationStatus": "source-checked",
-      "notes": "官方頁明示高中二年級、上學期及冊名；此映射不代表已核對具體單元目次。",
+      "notes": "僅作植物相關知識點的冊別層級對照；官方商品頁未列完整單元目次。若題目實際考點為遺傳、基因型、顯隱性或族群遺傳，不因情境出現「植物」一詞而映射至本冊。",
       "mappingId": "hanlin-h2-biology-ii-plant",
       "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元",
       "mappingLevel": "volume",
@@ -528,6 +528,17 @@
         "維管束",
         "木質部",
         "韌皮部"
+      ],
+      "excludedTopics": [
+        "遺傳",
+        "基因型",
+        "基因",
+        "表現型",
+        "等位基因",
+        "顯性",
+        "隱性",
+        "染色體",
+        "孟德爾"
       ]
     },
     {
@@ -1409,6 +1420,17 @@
       "sourceUrl": "https://books.hanlin.com.tw/product/004022",
       "sourceTitle": "翰林書城－高中課本選修物理(II)力學二與熱學",
       "result": "publisherStatus=pending; semester=unassigned; examPeriod=unassigned; publisherMappings=[]"
+    },
+    {
+      "date": "2026-11-14",
+      "questionId": "b12-024",
+      "mappingId": "hanlin-h2-biology-ii-plant",
+      "publisher": "hanlin",
+      "action": "rejected-by-scope-rule",
+      "reason": "題目以植物作遺傳情境，實際知識點為基因型、顯隱性與遺傳機率；僅有「植物」字樣不足以支持「生命的起源與植物」冊別。新增遺傳詞排除條件，避免通用關鍵字誤配。",
+      "sourceUrl": "https://books.hanlin.com.tw/product/006022",
+      "sourceTitle": "翰林書城－高中課本選修生物(II)生命的起源與植物",
+      "result": "publisherStatus=curriculum-core; publisherMappings=[]; semester=unassigned; examPeriod=unassigned"
     }
   ],
   "batch40UsageAudit": {
@@ -2157,6 +2179,69 @@
         "browserTested": false
       },
       "notes": "第10批30題只補齊擴充欄位並寫入獨立分類索引；保留原始學期、段考、分類依據、信心及出版社狀態。b10-022翰林選修物理(II)只標冊別層級；b10-023翰林選修化學(III)官方目次明列化學平衡，標單元層級。其他無足夠官方版本證據者維持108課綱共同核心；b10-005保留題庫推定，不代表學校正式段考範圍。未新增題目。"
+    },
+    {
+      "date": "2026-11-14",
+      "sourceHeadBeforeRun": "48b075643e9a20103e3e5aed08bd2e7f7f5732ae",
+      "batches": "12",
+      "questions": 30,
+      "classificationIndexEntriesBeforeRun": 226,
+      "addedToClassificationIndex": 29,
+      "classificationIndexTotal": 255,
+      "extendedMetadataComplete": 455,
+      "remainingExtendedMetadata": 2445,
+      "semesterDistribution": {
+        "上學期": 1,
+        "下學期": 1,
+        "全學年": 1,
+        "unassigned": 27
+      },
+      "examPeriodDistribution": {
+        "第一次段考": 2,
+        "unassigned": 28
+      },
+      "classificationBasisDistribution": {
+        "curriculum-core": 27,
+        "question-bank-inference": 2,
+        "publisher-source-verified": 1
+      },
+      "publisherStatusDistribution": {
+        "curriculum-core": 28,
+        "publisher-mapped": 1,
+        "pending": 1
+      },
+      "publisherMappedQuestionCount": 1,
+      "publisherMappingReferences": 1,
+      "publisherReferenceCounts": {
+        "hanlin": 1
+      },
+      "mappingLevelCounts": {
+        "unit": 1
+      },
+      "sourceMappingsValidated": 1,
+      "newQuestionsAdded": 0,
+      "validation": {
+        "jsonParse": true,
+        "idsMatchBatch12": true,
+        "allRequiredFieldsComplete": true,
+        "legalClassificationValues": true,
+        "sourceMappingsValidated": "1/1",
+        "mappingConsistencyErrors": 0,
+        "fourOptions": true,
+        "answerIndices0to3": true,
+        "explanationsPresent": true,
+        "staticFilterCombinations": 9750,
+        "filterViolations": 0,
+        "all30QuestionsReachable": true,
+        "browserTested": false,
+        "serviceWorkerCache": "xy-learning-v82",
+        "classificationIndexAsset": true,
+        "batch12Asset": true,
+        "cacheVersionBumped": true,
+        "inferenceRuntimeSmokeTest": true,
+        "safariRealDeviceTested": false
+      },
+      "notes": "第12批30題完成擴充分類；b12-025原有待核對覆寫保留，其餘29題新增持久索引。b12-008與b12-012保留題庫推定學期／段考；b12-026依翰林官方選修化學(III)目次確認化學平衡單元及高二、高三全學年。b12-020未標明數學A/B軌別，不掛出版社、不推定學期。b12-024因題目實際考遺傳而非植物單元，已排除僅以「植物」關鍵字造成的冊別誤配。b12-011原始unit標籤與題幹最高級考點不完全一致，分類索引採「比較級與最高級」並保留原題欄位。未新增題目；手機Safari實機仍待使用者端確認."
     }
   ],
   "batch30ExtendedMetadataAudit": {
