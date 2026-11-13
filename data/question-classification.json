@@ -2,7 +2,7 @@
   "title": "題目分類持久索引",
   "schemaVersion": "1.1.0",
   "updatedAt": "2026-11-14",
-  "classificationRuleVersion": "2026-11-14.29",
+  "classificationRuleVersion": "2026-11-14.33",
   "sourceBranch": "main",
   "batchRange": "08-41",
   "batchFileCount": 34,
