@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.1.0",
   "updatedAt": "2026-11-14",
-  "classificationRuleVersion": "2026-11-14.31",
+  "classificationRuleVersion": "2026-11-14.33",
   "batchRange": "32-37",
   "sourceBatchShas": {
     "32": "7635d93cf435082eaabdad9fd0c9b746846a13c9",
@@ -255,7 +255,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心概念原創編寫；缺乏可核對的出版社細分單元或學校段考依據，故學期與段考維持未分類。",
       "sourceRef": "依108課綱共同核心概念原創編寫；非出版社或歷屆試題原文。",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "數與運算",
       "questionType": "計算應用",
       "learningUnit": "公制換算",
       "difficultyLevel": "基礎"
@@ -312,7 +312,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心概念原創編寫；缺乏可核對的出版社細分單元或學校段考依據，故學期與段考維持未分類。",
       "sourceRef": "依108課綱共同核心概念原創編寫；非出版社或歷屆試題原文。",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "數與運算",
       "questionType": "概念辨識",
       "learningUnit": "最大公因數",
       "difficultyLevel": "基礎"
@@ -863,7 +863,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心概念原創編寫；缺乏可核對的出版社細分單元或學校段考依據，故學期與段考維持未分類。",
       "sourceRef": "依108課綱共同核心概念原創編寫；非出版社或歷屆試題原文。",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "文法句型",
       "questionType": "概念辨識",
       "learningUnit": "同等比較",
       "difficultyLevel": "基礎"
@@ -882,7 +882,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心概念原創編寫；缺乏可核對的出版社細分單元或學校段考依據，故學期與段考維持未分類。",
       "sourceRef": "依108課綱共同核心概念原創編寫；非出版社或歷屆試題原文。",
-      "learningDomain": "文法句型",
+      "learningDomain": "閱讀理解",
       "questionType": "概念辨識",
       "learningUnit": "代名詞指涉",
       "difficultyLevel": "進階"
@@ -901,7 +901,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心概念原創編寫；缺乏可核對的出版社細分單元或學校段考依據，故學期與段考維持未分類。",
       "sourceRef": "依108課綱共同核心概念原創編寫；非出版社或歷屆試題原文。",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "閱讀理解",
       "questionType": "概念辨識",
       "learningUnit": "程序指示",
       "difficultyLevel": "進階"
@@ -1186,7 +1186,7 @@
       "publisherMappings": [],
       "classificationNotes": "原先依翰林數學3A單元次序標記，但題目未記錄數學A/B軌別；依版本隔離原則移除出版社映射並恢復未分類，待確認課程軌別後再映射。",
       "sourceRef": "題目為原創；教材對照僅參照出版社官方資料，非教材或歷屆試題原文。",
-      "learningDomain": "代數與函數",
+      "learningDomain": "幾何與測量",
       "questionType": "概念辨識",
       "learningUnit": "三角函數模型",
       "difficultyLevel": "進階"
@@ -2193,7 +2193,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心概念原創編寫；沒有足夠可靠資料確認出版社細分單元或學校段考範圍，因此維持未分類。",
       "sourceRef": "依108課綱共同核心概念原創編寫；非出版社或歷屆試題原文。",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "文法句型",
       "questionType": "概念辨識",
       "learningUnit": "義務與禁止",
       "difficultyLevel": "進階"
@@ -2440,7 +2440,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心概念原創編寫；沒有足夠可靠資料確認出版社細分單元或學校段考範圍，因此維持未分類。",
       "sourceRef": "依108課綱共同核心概念原創編寫；非出版社或歷屆試題原文。",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "數與運算",
       "questionType": "計算應用",
       "learningUnit": "公制換算",
       "difficultyLevel": "基礎"
@@ -2459,7 +2459,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心概念原創編寫；沒有足夠可靠資料確認出版社細分單元或學校段考範圍，因此維持未分類。",
       "sourceRef": "依108課綱共同核心概念原創編寫；非出版社或歷屆試題原文。",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "數與運算",
       "questionType": "計算應用",
       "learningUnit": "最大公因數",
       "difficultyLevel": "進階"
@@ -2904,7 +2904,7 @@
       "publisherMappings": [],
       "classificationNotes": "原先依翰林數學3A單元次序標記，但題目未記錄數學A/B軌別；依版本隔離原則移除出版社映射並恢復未分類，待確認課程軌別後再映射。",
       "sourceRef": "依108課綱共同核心概念原創編寫；非出版社或歷屆試題原文。",
-      "learningDomain": "代數與函數",
+      "learningDomain": "幾何與測量",
       "questionType": "概念辨識",
       "learningUnit": "銳角三角函數",
       "difficultyLevel": "進階"
@@ -2942,7 +2942,7 @@
       "publisherMappings": [],
       "classificationNotes": "原先依翰林數學3A單元次序標記，但題目未記錄數學A/B軌別；依版本隔離原則移除出版社映射並恢復未分類，待確認課程軌別後再映射。",
       "sourceRef": "依108課綱共同核心概念原創編寫；非出版社或歷屆試題原文。",
-      "learningDomain": "代數與函數",
+      "learningDomain": "幾何與測量",
       "questionType": "概念辨識",
       "learningUnit": "三角函數模型",
       "difficultyLevel": "進階"
@@ -2961,7 +2961,7 @@
       "publisherMappings": [],
       "classificationNotes": "原先依翰林數學3A單元次序標記，但題目未記錄數學A/B軌別；依版本隔離原則移除出版社映射並恢復未分類，待確認課程軌別後再映射。",
       "sourceRef": "依108課綱共同核心概念原創編寫；非出版社或歷屆試題原文。",
-      "learningDomain": "代數與函數",
+      "learningDomain": "幾何與測量",
       "questionType": "概念辨識",
       "learningUnit": "三角函數關係",
       "difficultyLevel": "基礎"
@@ -4804,7 +4804,7 @@
       "publisherMappings": [],
       "classificationNotes": "原先依翰林數學3A單元次序標記，但題目未記錄數學A/B軌別；依版本隔離原則移除出版社映射並恢復未分類，待確認課程軌別後再映射。",
       "sourceRef": "依108課綱共同核心原創編寫；出版社對照依既有官方來源映射，非教材或歷屆試題原文。",
-      "learningDomain": "代數與函數",
+      "learningDomain": "幾何與測量",
       "questionType": "概念辨識",
       "learningUnit": "三角函數圖形變換",
       "difficultyLevel": "進階"
@@ -4842,7 +4842,7 @@
       "publisherMappings": [],
       "classificationNotes": "原先依翰林數學3A單元次序標記，但題目未記錄數學A/B軌別；依版本隔離原則移除出版社映射並恢復未分類，待確認課程軌別後再映射。",
       "sourceRef": "依108課綱共同核心原創編寫；出版社對照依既有官方來源映射，非教材或歷屆試題原文。",
-      "learningDomain": "代數與函數",
+      "learningDomain": "幾何與測量",
       "questionType": "概念辨識",
       "learningUnit": "三角函數模型與值域",
       "difficultyLevel": "進階"
@@ -5013,7 +5013,7 @@
       "publisherMappings": [],
       "classificationNotes": "原先依翰林數學3A單元次序標記，但題目未記錄數學A/B軌別；依版本隔離原則移除出版社映射並恢復未分類，待確認課程軌別後再映射。",
       "sourceRef": "依108課綱共同核心原創編寫；出版社對照依既有官方來源映射，非教材或歷屆試題原文。",
-      "learningDomain": "數與運算",
+      "learningDomain": "幾何與測量",
       "questionType": "概念辨識",
       "learningUnit": "內分點與向量比例",
       "difficultyLevel": "進階"
@@ -5640,7 +5640,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創編寫；無足夠可靠資料確認出版社細分單元或學校段考範圍，故維持未分類。",
       "sourceRef": "依108課綱共同核心概念原創編寫；非出版社或歷屆試題原文。",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "法律人權",
       "questionType": "概念辨識",
       "learningUnit": "個資蒐集與目的限制",
       "difficultyLevel": "進階"
@@ -6704,7 +6704,7 @@
       "publisherMappings": [],
       "classificationNotes": "原先依翰林數學3A單元次序標記，但題目未記錄數學A/B軌別；依版本隔離原則移除出版社映射並恢復未分類，待確認課程軌別後再映射。",
       "sourceRef": "原創題；單元對照依翰林官方教材資料 https://books.hanlin.com.tw/product/433021；非教材或歷屆試題原文。",
-      "learningDomain": "代數與函數",
+      "learningDomain": "幾何與測量",
       "questionType": "計算應用",
       "learningUnit": "三角函數週期模型",
       "difficultyLevel": "進階"
@@ -6723,7 +6723,7 @@
       "publisherMappings": [],
       "classificationNotes": "原先依翰林數學3A單元次序標記，但題目未記錄數學A/B軌別；依版本隔離原則移除出版社映射並恢復未分類，待確認課程軌別後再映射。",
       "sourceRef": "原創題；單元對照依翰林官方教材資料 https://books.hanlin.com.tw/product/433021；非教材或歷屆試題原文。",
-      "learningDomain": "代數與函數",
+      "learningDomain": "幾何與測量",
       "questionType": "概念辨識",
       "learningUnit": "三角函數週期與相位",
       "difficultyLevel": "進階"
@@ -6742,7 +6742,7 @@
       "publisherMappings": [],
       "classificationNotes": "原先依翰林數學3A單元次序標記，但題目未記錄數學A/B軌別；依版本隔離原則移除出版社映射並恢復未分類，待確認課程軌別後再映射。",
       "sourceRef": "原創題；單元對照依翰林官方教材資料 https://books.hanlin.com.tw/product/433021；非教材或歷屆試題原文。",
-      "learningDomain": "代數與函數",
+      "learningDomain": "幾何與測量",
       "questionType": "概念辨識",
       "learningUnit": "三角函數線性組合的最大值",
       "difficultyLevel": "進階"
@@ -6761,7 +6761,7 @@
       "publisherMappings": [],
       "classificationNotes": "原先依翰林數學3A單元次序標記，但題目未記錄數學A/B軌別；依版本隔離原則移除出版社映射並恢復未分類，待確認課程軌別後再映射。",
       "sourceRef": "原創題；單元對照依翰林官方教材資料 https://books.hanlin.com.tw/product/433021；非教材或歷屆試題原文。",
-      "learningDomain": "代數與函數",
+      "learningDomain": "幾何與測量",
       "questionType": "概念辨識",
       "learningUnit": "象限符號與三角函數",
       "difficultyLevel": "進階"
@@ -8021,7 +8021,7 @@
       ],
       "classificationNotes": "南一官方6下資源明示「基準量和比較量」；只作單元層級對照。",
       "sourceRef": "https://tpack.nani.com.tw/nani_content?a=341&b=1",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "數與運算",
       "questionType": "計算應用",
       "learningUnit": "基準量和比較量",
       "difficultyLevel": "挑戰"
@@ -8108,7 +8108,7 @@
       ],
       "classificationNotes": "南一官方索引標題顯示數學6下雞兔問題；詳情頁未能讀取，僅保留官方資源標題層級。",
       "sourceRef": "https://tpack.nani.com.tw/nani_content?a=394&b=1",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "數與運算",
       "questionType": "實驗探究",
       "learningUnit": "雞兔問題",
       "difficultyLevel": "挑戰"
@@ -8739,7 +8739,7 @@
       ],
       "classificationNotes": "已確認題目課程軌別為數學A；依翰林數學3A官方單元次序推定段考，非學校正式範圍。",
       "sourceRef": "https://books.hanlin.com.tw/product/433021",
-      "learningDomain": "代數與函數",
+      "learningDomain": "幾何與測量",
       "questionType": "計算應用",
       "learningUnit": "三角函數週期",
       "difficultyLevel": "挑戰"
@@ -8792,7 +8792,7 @@
       ],
       "classificationNotes": "已確認題目課程軌別為數學A；依翰林數學3A官方單元次序推定段考，非學校正式範圍。",
       "sourceRef": "https://books.hanlin.com.tw/product/433021",
-      "learningDomain": "代數與函數",
+      "learningDomain": "幾何與測量",
       "questionType": "概念辨識",
       "learningUnit": "象限與三角函數",
       "difficultyLevel": "進階"
@@ -8936,7 +8936,7 @@
       ],
       "classificationNotes": "已確認題目課程軌別為數學A；依翰林數學3A官方單元次序推定段考，非學校正式範圍。",
       "sourceRef": "https://books.hanlin.com.tw/product/433021",
-      "learningDomain": "數與運算",
+      "learningDomain": "幾何與測量",
       "questionType": "計算應用",
       "learningUnit": "向量行列式與平行四邊形面積",
       "difficultyLevel": "進階"
@@ -10162,7 +10162,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創編寫；無足夠出版社單元或學校採用證據，不掛出版社標籤。",
       "sourceRef": "依108課綱共同核心原創編寫；非出版社或歷屆試題原文。",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "文法句型",
       "questionType": "推理判斷",
       "learningUnit": "主詞動詞一致",
       "difficultyLevel": "進階"
@@ -10206,7 +10206,7 @@
       ],
       "classificationNotes": "南一官方6下資源明示「基準量和比較量」；只作單元層級對照。",
       "sourceRef": "https://tpack.nani.com.tw/nani_content?a=341&b=1",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "數與運算",
       "questionType": "計算應用",
       "learningUnit": "基準量和比較量",
       "difficultyLevel": "進階"
@@ -10250,7 +10250,7 @@
       ],
       "classificationNotes": "南一官方6下資源明示「基準量和比較量」；只作單元層級對照。",
       "sourceRef": "https://tpack.nani.com.tw/nani_content?a=341&b=1",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "數與運算",
       "questionType": "計算應用",
       "learningUnit": "基準量和比較量",
       "difficultyLevel": "進階"
@@ -10380,7 +10380,7 @@
       ],
       "classificationNotes": "南一官方索引標題顯示數學6下雞兔問題；詳情頁未能讀取，僅保留官方資源標題層級。",
       "sourceRef": "https://tpack.nani.com.tw/nani_content?a=394&b=1",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "數與運算",
       "questionType": "計算應用",
       "learningUnit": "雞兔問題",
       "difficultyLevel": "進階"
@@ -10424,7 +10424,7 @@
       ],
       "classificationNotes": "南一官方索引標題顯示數學6下雞兔問題；詳情頁未能讀取，僅保留官方資源標題層級。",
       "sourceRef": "https://tpack.nani.com.tw/nani_content?a=394&b=1",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "數與運算",
       "questionType": "計算應用",
       "learningUnit": "雞兔問題",
       "difficultyLevel": "進階"
@@ -10998,7 +10998,7 @@
       ],
       "classificationNotes": "已確認題目課程軌別為數學A；依翰林數學3A官方單元次序推定段考，非學校正式範圍。",
       "sourceRef": "https://books.hanlin.com.tw/product/433021",
-      "learningDomain": "代數與函數",
+      "learningDomain": "幾何與測量",
       "questionType": "推理判斷",
       "learningUnit": "三角函數",
       "difficultyLevel": "進階"
@@ -11051,7 +11051,7 @@
       ],
       "classificationNotes": "已確認題目課程軌別為數學A；依翰林數學3A官方單元次序推定段考，非學校正式範圍。",
       "sourceRef": "https://books.hanlin.com.tw/product/433021",
-      "learningDomain": "代數與函數",
+      "learningDomain": "幾何與測量",
       "questionType": "計算應用",
       "learningUnit": "三角函數",
       "difficultyLevel": "進階"
@@ -11104,7 +11104,7 @@
       ],
       "classificationNotes": "已確認題目課程軌別為數學A；依翰林數學3A官方單元次序推定段考，非學校正式範圍。",
       "sourceRef": "https://books.hanlin.com.tw/product/433021",
-      "learningDomain": "代數與函數",
+      "learningDomain": "幾何與測量",
       "questionType": "計算應用",
       "learningUnit": "三角函數",
       "difficultyLevel": "進階"
