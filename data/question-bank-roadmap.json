@@ -299,13 +299,13 @@
   "lastBatchFile": "data/question-bank-batch-40.js",
   "currentIntegration": {
     "indexHtml": "Main branch loads original batches 08-40; EXTRA40_GRADE_BANK is included in bankFor() stage/grade/subject filtering. Existing semester, exam, publisher and explicit Mathematics A/B track filters remain. Academic-competition batches 01-14, wrong-book, favorites and quiz history flows were not removed or rewritten.",
-    "serviceWorkerCache": "xy-learning-v69",
-    "serviceWorkerAsset": "question-bank-batch-08.js through batch-40.js; question-classification-inference.js v13; textbook-alignment.json; academic-competition-batch-01.js through batch-14.js; existing image assets preserved"
+    "serviceWorkerCache": "xy-learning-v70",
+    "serviceWorkerAsset": "question-bank-batch-08.js through batch-40.js; all batches 08-40 now contain complete classification fields; question-classification-inference.js v13; textbook-alignment.json; academic-competition-batch-01.js through batch-14.js; existing image assets preserved"
   },
   "currentIndependentBatchQuestions": 2800,
   "currentIndependentBatchRange": "第8至第40批",
   "currentVerifiedQuestionsNote": "currentVerifiedQuestions為index.html內嵌示範題的歷史盤點欄位，不含獨立批次檔；currentVerifiedNewGradeSpecificQuestions與currentIndependentBatchQuestions統計第8至第39批獨立題庫，rule-checked僅代表程式檢查，並非教師逐題審核。",
-  "legacyFieldNotes": "第8至29批1,700題均有sourceRef，但缺少semester、examPeriod、classificationBasis、confidence、publisherStatus、publisherMappings及classificationNotes；由分類器v13執行時依題幹、單元與知識點推定，未回寫原始批次。第30至40批1,100題上述欄位完整。無足夠依據者保留unassigned。",
+  "legacyFieldNotes": "已完成第8至29批1,700題分類欄位回寫；第30至39批另補正24筆原unassigned學期、20筆原unassigned段考及4筆可由官方冊別資料支持的映射。第8至40批2,800題均具備完整分類欄位；無足夠依據者保留unassigned。",
   "currentDistribution": {
     "五年級": 290,
     "六年級": 840,
@@ -386,7 +386,7 @@
     "integration": {
       "indexHtmlBatch40": true,
       "bankForBatch40": true,
-      "serviceWorkerCache": "xy-learning-v69",
+      "serviceWorkerCache": "xy-learning-v70",
       "batch40Asset": true,
       "classifierVersion": "2026-11-13.13",
       "textbookAlignmentUpdated": true,
@@ -405,9 +405,14 @@
       "calculationChecksPassed": 30,
       "batch40ClassifierMatchesStoredFields": "100/100",
       "batch40CalculationChecks": 30,
-      "batch40CalculationChecksPassed": 30
+      "batch40CalculationChecksPassed": 30,
+      "legacyBackfilledQuestions": 1700,
+      "batch30to39ExistingUnassignedSemesterReclassified": 24,
+      "batch30to39ExistingUnassignedExamReclassified": 20,
+      "totalStoredMappings": 303,
+      "runtimeMappingMismatches": 0
     },
-    "legacyClassification": "第8至29批1,700題原始批次未內嵌完整分類欄位；由分類器執行時推定，未回寫原始檔。無足夠依據者保留unassigned。",
+    "legacyClassification": "第8至29批1,700題已回寫完整分類欄位；第30至39批補正24筆unassigned學期、20筆unassigned段考及4筆出版社映射；第8至40批2,800題全部欄位完整。",
     "browserTesting": "尚未在真實瀏覽器執行年級／學期／段考／科目／出版社交互篩選、錯題本、收藏、測驗紀錄及離線快取回歸。",
     "pagesDeployment": "未取得GitHub Actions workflow run或commit status，最新Pages部署尚未確認。",
     "reviewStatus": "rule-checked；非教師逐題審核。",
@@ -444,23 +449,24 @@
       "runtimeErrors": 0,
       "notes": "分類器v13分批實際執行第8至40批共2,800題；第8至29批1,700題缺少儲存分類欄位，執行時動態推定。",
       "storedFieldsCoverage": {
-        "batches08to29": {
-          "questions": 1700,
-          "sourceRefPresent": 1700,
-          "missingSemester": 1700,
-          "missingExamPeriod": 1700,
-          "missingClassificationBasis": 1700,
-          "missingConfidence": 1700,
-          "missingPublisherStatus": 1700,
-          "missingPublisherMappings": 1700,
-          "missingClassificationNotes": 1700
-        },
-        "batches30to40": {
-          "questions": 1100,
+        "batches08to40": {
+          "questions": 2800,
           "allRequiredClassificationFieldsComplete": true
         }
+      },
+      "storedMappingReferences": 303,
+      "dynamicMappingReferences": 0,
+      "mappingVerificationStatusCounts": {
+        "source-checked": 295,
+        "official-index-link-only": 8
+      },
+      "mappingLevelCounts": {
+        "unit": 158,
+        "volume": 132,
+        "officialResourceTitle": 13
       }
-    }
+    },
+    "serviceWorkerCache": "xy-learning-v70"
   },
   "gradeDistribution": {
     "五年級": 290,
@@ -587,9 +593,9 @@
   "lastBatchNote": "第40批新增100題（小六50、高二50）；35題有中央來源映射（南一6、翰林28、康軒1），65題未標出版社；v13實際執行分類器後100/100與儲存欄位一致。",
   "candidateBranchAudit": {
     "date": "2026-11-13",
-    "branch": "automation/batch-40-2026-11-13",
-    "baseMainHead": "16dd9d40ecd1a4ec02fa6d94609d24d8bef52fa0",
-    "status": "merged",
+    "branch": "automation/legacy-classification-backfill-2026-11-13",
+    "baseMainHead": "b614a956602549f0b7e07725657fabd8d15d15ed",
+    "status": "pending-pull-request",
     "independentBatchRange": "第8至第40批",
     "independentBatchQuestions": 2800,
     "uniqueIds": 2800,
@@ -600,39 +606,35 @@
       "高二": 924,
       "高三": 373
     },
-    "batch40": {
-      "questions": 100,
-      "gradeDistribution": {
-        "六年級": 50,
-        "高二": 50
-      },
-      "publisherMappedQuestions": 35,
-      "curriculumCore": 57,
-      "mappingReferences": 35,
-      "validation": "100題分類器v13實際執行後，儲存欄位與執行結果100/100一致；35筆映射中央資料一致；與既有2,700題完全相同題幹0組。",
-      "browserFunctionalTests": "pending",
-      "pagesDeployment": "not-verified-no-workflow-run",
-      "questionBankInference": 18,
-      "publisherSourceVerified": 25,
-      "semester": {
-        "上學期": 27,
-        "下學期": 10,
-        "全學年": 6,
-        "unassigned": 57
-      },
-      "examPeriod": {
-        "第一次段考": 5,
-        "第二次段考": 5,
-        "第三次段考": 8,
-        "unassigned": 82
-      }
+    "legacyBackfill": {
+      "questions": 1700,
+      "batches": "08-29",
+      "mappingReferences": 41,
+      "requiredFieldsComplete": true
     },
-    "serviceWorkerCache": "xy-learning-v69",
-    "classifierVersion": "2026-11-13.13",
-    "pullRequest": 4,
-    "pullRequestUrl": "https://github.com/toyoyogo-cloud/xiaoyu-xiaoyu-learning-app/pull/4",
-    "mergeCommit": "3f49fa239ff31a991f76ec9ae9e8d3b715c69fa1",
-    "mergedAt": "2026-11-13"
+    "batch30to39Reclassification": {
+      "questions": 1000,
+      "previousUnassignedSemesterReclassified": 24,
+      "previousUnassignedExamPeriodReclassified": 20,
+      "additionalPublisherMappings": 4
+    },
+    "integration": {
+      "indexHtmlBatch40": true,
+      "serviceWorkerCache": "xy-learning-v70",
+      "classifierVersion": "2026-11-13.13",
+      "textbookAlignmentUpdated": true,
+      "readmeUpdated": true
+    },
+    "runtimeAudit": {
+      "questions": 2800,
+      "errors": 0,
+      "storedVsRuntimeMismatches": 0,
+      "missingClassificationNotes": 0,
+      "storedPublisherMappings": 303,
+      "dynamicUnpersistedMappings": 0
+    },
+    "browserFunctionalTests": "pending",
+    "pagesDeployment": "not-verified-no-workflow-run"
   },
   "mappingVerificationStatusCountsBatches30to39": {
     "source-checked": 212,
@@ -643,26 +645,81 @@
     "volume": 92,
     "officialResourceTitle": 11
   },
-  "sourceBranch": "main",
-  "sourceHead": "3f49fa239ff31a991f76ec9ae9e8d3b715c69fa1",
+  "sourceBranch": "automation/legacy-classification-backfill-2026-11-13",
+  "sourceHead": "b614a956602549f0b7e07725657fabd8d15d15ed",
   "mergeCommit": "3f49fa239ff31a991f76ec9ae9e8d3b715c69fa1",
-  "pullRequest": 4,
+  "pullRequest": null,
   "mainVerifiedAt": "2026-11-13",
   "pagesDeployment": "not-verified-no-workflow-run",
-  "runtimeClassificationAuditStatus": "static-v13-audit-batch40-browser-runtime-pending",
+  "runtimeClassificationAuditStatus": "v13-full-2800-backfilled-all-fields-match",
   "mappingVerificationStatusCountsBatches30to40": {
-    "source-checked": 250,
+    "source-checked": 254,
     "official-index-link-only": 8
   },
   "mappingLevelCountsBatches30to40": {
     "unit": 141,
-    "volume": 104,
-    "official-resource-title": 13
+    "volume": 108,
+    "officialResourceTitle": 13
   },
   "publisherReferenceCountsBatches30to40": {
-    "hanlin": 222,
+    "hanlin": 226,
     "knsh": 7,
     "nani": 29
   },
-  "pullRequestUrl": "https://github.com/toyoyogo-cloud/xiaoyu-xiaoyu-learning-app/pull/4"
+  "pullRequestUrl": "https://github.com/toyoyogo-cloud/xiaoyu-xiaoyu-learning-app/pull/4",
+  "mappingVerificationStatusCountsBatches08to40": {
+    "source-checked": 295,
+    "official-index-link-only": 8
+  },
+  "mappingLevelCountsBatches08to40": {
+    "unit": 158,
+    "volume": 132,
+    "officialResourceTitle": 13
+  },
+  "publisherReferenceCountsBatches08to40": {
+    "hanlin": 267,
+    "knsh": 7,
+    "nani": 29
+  },
+  "legacyBackfillAudit": {
+    "date": "2026-11-13",
+    "batches": "08-29",
+    "questions": 1700,
+    "fieldsBackfilled": 1700,
+    "classificationBasis": {
+      "curriculumCore": 1594,
+      "questionBankInference": 65,
+      "publisherSourceVerified": 41
+    },
+    "semester": {
+      "unassigned": 1594,
+      "上學期": 64,
+      "下學期": 25,
+      "全學年": 17
+    },
+    "examPeriod": {
+      "unassigned": 1635,
+      "第一次段考": 15,
+      "第二次段考": 22,
+      "第三次段考": 28
+    },
+    "publisherStatus": {
+      "curriculumCore": 1659,
+      "publisherMapped": 41,
+      "pending": 0
+    },
+    "publisherReferences": {
+      "hanlin": 41
+    },
+    "mappingLevels": {
+      "unit": 17,
+      "volume": 24
+    },
+    "validation": {
+      "requiredFieldsComplete": true,
+      "storedVsRuntimeMismatches": 0,
+      "errors": 0,
+      "missingNotes": 0
+    }
+  }
 }
