@@ -729,7 +729,7 @@
         "14"
       ],
       "persistedExtendedMetadataCount": 199,
-      "remainingExtendedMetadataCount": 2701,
+      "remainingExtendedMetadataCount": 2501,
       "file": "data/question-classification.json",
       "fields": [
         "semester",
@@ -761,7 +761,9 @@
       "curriculumCoreQuestionCount": 190,
       "pendingQuestionCount": 0,
       "newQuestionsAdded": 0,
-      "notes": "第8至14批199題擴充分類欄位已持久化；學期、段考及出版社狀態沿用既有題目欄位及已核對映射。未有足夠證據者保留unassigned或curriculum-core；後續批次待分批補入。"
+      "notes": "第8至14批199題擴充分類欄位已持久化；學期、段考及出版社狀態沿用既有題目欄位及已核對映射。未有足夠證據者保留unassigned或curriculum-core；後續批次待分批補入。 第40至41批200題已在原始批次內建learningDomain、questionType、learningUnit與difficultyLevel，不需重複寫入分類索引。",
+      "questionRecordsNotIndexed": 2701,
+      "alreadyEmbeddedExtendedMetadataOutsideIndex": 200
     }
   }
 }
