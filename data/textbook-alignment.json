@@ -1165,53 +1165,57 @@
     "runtimeClassification": {
       "executedAt": "2026-11-13",
       "classifierVersion": "2026-11-13.12",
-      "questionCount": 2600,
+      "questionCount": 2700,
       "classificationBasis": {
-        "curriculum-core": 2252,
-        "question-bank-inference": 163,
-        "publisher-source-verified": 185
+        "curriculumCore": 2309,
+        "questionBankInference": 180,
+        "publisherSourceVerified": 211
       },
       "publisherStatus": {
-        "curriculum-core": 2370,
-        "publisher-mapped": 230,
+        "curriculumCore": 2432,
+        "publisherMapped": 268,
         "pending": 0
       },
       "publisherQuestionCounts": {
-        "hanlin": 205,
-        "nani": 19,
+        "hanlin": 239,
+        "nani": 23,
         "knsh": 6
       },
       "semester": {
-        "unassigned": 2252,
-        "上學期": 220,
-        "下學期": 72,
-        "全學年": 56
+        "unassigned": 2309,
+        "上學期": 248,
+        "下學期": 81,
+        "全學年": 62
       },
       "examPeriod": {
-        "unassigned": 2437,
-        "第一次段考": 41,
-        "第二次段考": 53,
-        "第三次段考": 69
+        "unassigned": 2520,
+        "第一次段考": 46,
+        "第二次段考": 59,
+        "第三次段考": 75
       },
       "storedMappingReferences": {
-        "total": 185,
-        "validated": 185,
+        "total": 223,
+        "validated": 223,
         "invalid": 0
       },
       "inferredPublisherMappedQuestions": 45,
       "runtimeClassificationNotesMissing": 0,
       "high2MathCourseTrack": {
-        "total": 178,
-        "數學A": 45,
+        "total": 190,
+        "數學A": 57,
         "數學B": 0,
         "未標示軌別": 133
       },
+      "incrementalExecution": {
+        "previousBatches08to38": 2600,
+        "currentBatch39": 100,
+        "currentBatch39MatchesStoredFields": true
+      },
       "notes": [
-        "以目前main的question-classification-inference.js v12實際執行全部第8至38批2,600題；每題皆回傳分類說明，未發現執行錯誤。",
-        "第8至29批1,700題沒有內嵌分類欄位，以上結果為執行時動態推定，沒有回寫其原始批次檔；無足夠依據者仍保留unassigned。",
-        "230題取得有效出版社映射，其中185題使用批次內已儲存且通過驗證的映射，另45題由分類器依題目單元／知識點及中央來源規則推定。",
-        "publisherStatus為curriculum-core的2,370題仍保留在全部版本及共同核心篩選中；pending目前0題；出版社篩選只顯示有效映射。",
-        "段考仍為題庫複習建議，不代表學校正式段考範圍；未標示數學A/B軌別的高二數學題獨立列出，不自動併入數學A或B。"
+        "分類器v12先前已執行第8至38批2,600題；本次再對第39批100題執行相同v12，兩部分合計2,700題。第39批100/100分類欄位及映射引用與執行結果一致。",
+        "第8至29批1,700題沒有內嵌分類欄位，屬執行時動態推定；沒有可靠依據者保留unassigned。",
+        "第39批最終38題有出版社映射、62題為共同核心；來源映射均限於官方可支持的單元或冊別層級。",
+        "學校採用版本未確認；段考分類僅為題庫複習建議，不代表學校正式考試範圍。"
       ]
     },
     "mappingReferencesInBatches30to39": 223,
@@ -1246,17 +1250,21 @@
     },
     "publisherMappedQuestions": 38,
     "classificationBasis": {
-      "publisherSourceVerified": 38,
-      "curriculumCore": 62
+      "publisherSourceVerified": 26,
+      "questionBankInference": 17,
+      "curriculumCore": 57
     },
     "semester": {
       "上學期": 28,
-      "下學期": 4,
+      "下學期": 9,
       "全學年": 6,
-      "unassigned": 62
+      "unassigned": 57
     },
     "examPeriod": {
-      "unassigned": 100
+      "第一次段考": 5,
+      "第二次段考": 6,
+      "第三次段考": 6,
+      "unassigned": 83
     },
     "publisherStatus": {
       "publisherMapped": 38,
@@ -1286,14 +1294,48 @@
       "batchInternalExactDuplicateStems": 0,
       "crossBatchExactDuplicateStems": 0,
       "crossBatchComparedAgainst": "第8至38批共2,600題",
-      "arithmeticChecks": "數學、物理計算題與化學平衡式逐題重算；規則檢查",
-      "runtimeClassificationMatchesStoredFields": "not-run",
-      "browserFunctionalTests": "pending"
+      "runtimeClassificationMatchesStoredFields": true,
+      "runtimeClassifierVersion": "2026-11-13.12",
+      "runtimeErrors": 0,
+      "runtimeMismatches": 0
     },
     "mergeStatus": "merged",
     "pullRequest": 3,
     "mergeCommit": "ab7f638772ddc0baf9b8d0957e9ca38835a6cb46",
     "mappingReferences": 38,
-    "mappingReferencesValidated": 38
+    "mappingReferencesValidated": 38,
+    "runtimeClassification": {
+      "executedAt": "2026-11-13",
+      "classifierVersion": "2026-11-13.12",
+      "questionCount": 100,
+      "classificationBasis": {
+        "curriculumCore": 57,
+        "questionBankInference": 17,
+        "publisherSourceVerified": 26
+      },
+      "publisherStatus": {
+        "curriculumCore": 62,
+        "publisherMapped": 38,
+        "pending": 0
+      },
+      "semester": {
+        "unassigned": 57,
+        "上學期": 28,
+        "下學期": 9,
+        "全學年": 6
+      },
+      "examPeriod": {
+        "unassigned": 83,
+        "第一次段考": 5,
+        "第二次段考": 6,
+        "第三次段考": 6
+      },
+      "storedMappingReferences": 38,
+      "validatedMappingReferences": 38,
+      "runtimeMatchesStoredFields": true,
+      "errors": 0,
+      "mismatches": 0,
+      "notes": "以main上的分類器v12實際執行第39批100題；全部semester、examPeriod、classificationBasis、confidence、publisherStatus與publisherMappings均與批次儲存欄位一致。"
+    }
   }
 }
