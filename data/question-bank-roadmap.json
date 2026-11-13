@@ -712,5 +712,58 @@
       "errors": 0,
       "missingNotes": 0
     }
+  },
+  "classificationPersistence": {
+    "latestRun": {
+      "date": "2026-11-13",
+      "sourceBranch": "main",
+      "auditedBatches": "08-41",
+      "auditedQuestionCount": 2900,
+      "persistedExtendedMetadataBatches": [
+        "08",
+        "09",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14"
+      ],
+      "persistedExtendedMetadataCount": 199,
+      "remainingExtendedMetadataCount": 2501,
+      "file": "data/question-classification.json",
+      "fields": [
+        "semester",
+        "examPeriod",
+        "classificationBasis",
+        "confidence",
+        "publisherStatus",
+        "publisherMappings",
+        "classificationNotes",
+        "sourceRef",
+        "learningDomain",
+        "questionType",
+        "learningUnit",
+        "difficultyLevel"
+      ],
+      "semesterDistribution": {
+        "上學期": 13,
+        "下學期": 3,
+        "全學年": 3,
+        "unassigned": 180
+      },
+      "examPeriodDistribution": {
+        "第一次段考": 6,
+        "第二次段考": 1,
+        "第三次段考": 3,
+        "unassigned": 189
+      },
+      "publisherMappedQuestionCount": 9,
+      "curriculumCoreQuestionCount": 190,
+      "pendingQuestionCount": 0,
+      "newQuestionsAdded": 0,
+      "notes": "第8至14批199題擴充分類欄位已持久化；學期、段考及出版社狀態沿用既有題目欄位及已核對映射。未有足夠證據者保留unassigned或curriculum-core；後續批次待分批補入。 第40至41批200題已在原始批次內建learningDomain、questionType、learningUnit與difficultyLevel，不需重複寫入分類索引。",
+      "questionRecordsNotIndexed": 2701,
+      "alreadyEmbeddedExtendedMetadataOutsideIndex": 200
+    }
   }
 }

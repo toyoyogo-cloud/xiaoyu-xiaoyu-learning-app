@@ -134,6 +134,15 @@ function typeFor(q){
 }
 function classify(q){
  q=q||{};
+ const savedIndex=window.QUESTION_CLASSIFICATION_INDEX;
+ const saved=savedIndex&&q.id?savedIndex[q.id]:null;
+ if(saved){
+  return Object.assign({},saved,{
+   reason:saved.classificationNotes||saved.reason||"已載入持久化分類資料。",
+   learningUnit:saved.learningUnit||label(q)||"未標示",
+   difficultyLevel:saved.difficultyLevel||q.d||q.difficulty||"未標示"
+  });
+ }
  const isCore=core(q);
  let semester=q.semester||UN, examPeriod=q.examPeriod||UN;
  let basis=q.classificationBasis||(isCore?"curriculum-core":"unassigned");
