@@ -261,8 +261,8 @@
       "batch": 40,
       "added": 100,
       "coverage": "國小六年級50題（國語10、英語8、數學14、自然9、社會9）；高中高二50題（數學10、物理8、化學8、生物6、地理4、歷史4、公民4、英文3、國文3）。",
-      "validation": "b40-001至b40-100共100題；四個不同選項、答案索引0–3、解析及完整分類欄位。ID唯一；與第8至39批2,700題正規化題幹完全相同0組，批次內0組。35筆出版社映射與中央16筆mappingId及來源欄位一致。主要數值題已逐式複核；程式規則檢查，非教師逐題審核。",
-      "publisherAlignment": "南一6題、翰林28題、康軒1題，共35題有來源映射；65題為108課綱共同核心。單元21、冊別12、官方資源標題2。數學A明確標軌別；物理II、化學II、生物II只標冊別層級。",
+      "validation": "b40-001至b40-100共100題；四個不同選項、答案索引0–3、解析及完整分類欄位。ID唯一；與第8至39批2,700題正規化題幹完全相同0組，批次內0組。35筆出版社映射與中央16筆mappingId及來源欄位一致。分類器v13實際執行後，semester、examPeriod、classificationBasis、confidence、publisherStatus及publisherMappings與儲存欄位100/100一致；8題小六數學依知識點推定學期／段考。30項主要計算／數值檢查通過。程式規則檢查，非教師逐題審核。",
+      "publisherAlignment": "南一6題、翰林28題、康軒1題，共35題有來源映射；65題未標出版社，其中8題小六數學為題庫知識點推定、57題為108課綱共同核心。單元21、冊別12、官方資源標題2。數學A明確標軌別；物理II、化學II、生物II只標冊別層級。",
       "integration": "候選分支整合index.html批次40載入與bankFor()；Service Worker升級xy-learning-v69並加入批次40；分類器更新v13；textbook-alignment及README同步更新。錯題本、收藏、測驗紀錄與學藝活動題庫引用保留。"
     }
   ],
@@ -346,6 +346,23 @@
         "unit": 21,
         "volume": 12,
         "officialResourceTitle": 2
+      },
+      "classificationBasis": {
+        "publisherSourceVerified": 25,
+        "questionBankInference": 18,
+        "curriculumCore": 57
+      },
+      "semester": {
+        "上學期": 27,
+        "下學期": 10,
+        "全學年": 6,
+        "unassigned": 57
+      },
+      "examPeriod": {
+        "第一次段考": 5,
+        "第二次段考": 5,
+        "第三次段考": 8,
+        "unassigned": 82
       }
     },
     "textbookMappings": {
@@ -385,12 +402,48 @@
       "mappingReferences35of35": true,
       "crossBatchExactDuplicateStems": 0,
       "calculationChecks": 30,
-      "calculationChecksPassed": 30
+      "calculationChecksPassed": 30,
+      "batch40ClassifierMatchesStoredFields": "100/100",
+      "batch40CalculationChecks": 30,
+      "batch40CalculationChecksPassed": 30
     },
     "legacyClassification": "第8至29批1,700題原始批次未內嵌完整分類欄位；由分類器執行時推定，未回寫原始檔。無足夠依據者保留unassigned。",
     "browserTesting": "尚未在真實瀏覽器執行年級／學期／段考／科目／出版社交互篩選、錯題本、收藏、測驗紀錄及離線快取回歸。",
     "pagesDeployment": "未取得GitHub Actions workflow run或commit status，最新Pages部署尚未確認。",
-    "reviewStatus": "rule-checked；非教師逐題審核。"
+    "reviewStatus": "rule-checked；非教師逐題審核。",
+    "runtimeClassificationAudit": {
+      "classifierVersion": "2026-11-13.13",
+      "totalQuestions": 2800,
+      "basis": {
+        "curriculumCore": 2366,
+        "questionBankInference": 198,
+        "publisherSourceVerified": 236
+      },
+      "publisherStatus": {
+        "curriculumCore": 2497,
+        "publisherMapped": 303,
+        "pending": 0
+      },
+      "publisherReferences": {
+        "hanlin": 267,
+        "knsh": 7,
+        "nani": 29
+      },
+      "semester": {
+        "unassigned": 2366,
+        "上學期": 275,
+        "下學期": 91,
+        "全學年": 68
+      },
+      "examPeriod": {
+        "unassigned": 2602,
+        "第一次段考": 51,
+        "第二次段考": 64,
+        "第三次段考": 83
+      },
+      "runtimeErrors": 0,
+      "notes": "分類器v13分批實際執行第8至40批共2,800題；第8至29批1,700題缺少儲存分類欄位，執行時動態推定。"
+    }
   },
   "gradeDistribution": {
     "五年級": 290,
@@ -431,20 +484,20 @@
     "publisherMappedQuestions": 35,
     "classificationBasis": {
       "publisherSourceVerified": 25,
-      "questionBankInference": 10,
-      "curriculumCore": 65
+      "questionBankInference": 18,
+      "curriculumCore": 57
     },
     "semester": {
-      "上學期": 23,
-      "下學期": 6,
+      "上學期": 27,
+      "下學期": 10,
       "全學年": 6,
-      "unassigned": 65
+      "unassigned": 57
     },
     "examPeriod": {
-      "第一次段考": 3,
-      "第二次段考": 3,
-      "第三次段考": 4,
-      "unassigned": 90
+      "第一次段考": 5,
+      "第二次段考": 5,
+      "第三次段考": 8,
+      "unassigned": 82
     },
     "publisherStatus": {
       "publisherMapped": 35,
@@ -484,8 +537,8 @@
       "classifierVersion": "2026-11-13.13",
       "questionCount": 100,
       "classificationBasis": {
-        "curriculumCore": 65,
-        "questionBankInference": 10,
+        "curriculumCore": 57,
+        "questionBankInference": 18,
         "publisherSourceVerified": 25
       },
       "publisherStatus": {
@@ -494,27 +547,27 @@
         "pending": 0
       },
       "semester": {
-        "unassigned": 65,
-        "上學期": 23,
-        "下學期": 6,
+        "unassigned": 57,
+        "上學期": 27,
+        "下學期": 10,
         "全學年": 6
       },
       "examPeriod": {
-        "unassigned": 90,
-        "第一次段考": 3,
-        "第二次段考": 3,
-        "第三次段考": 4
+        "unassigned": 82,
+        "第一次段考": 5,
+        "第二次段考": 5,
+        "第三次段考": 8
       },
       "storedMappingReferences": 35,
       "validatedMappingReferences": 35,
-      "runtimeMatchesStoredFields": "static-rule-crosscheck; browser runtime not executed",
+      "runtimeMatchesStoredFields": "100/100 exact",
       "errors": 0,
       "mismatches": 0,
-      "notes": "依v13規則逐筆靜態核對可推定映射、年級／科目／學期／軌別與單元／冊別範圍；尚未在瀏覽器實際載入執行分類器。"
+      "notes": "實際執行v13分類器逐題比對；8題六年級數學原先存為未分類，已依題庫知識點補上複習建議。"
     }
   },
   "textbookMappingCount": 16,
-  "lastBatchNote": "第40批新增100題（小六50、高二50）；35題有中央來源映射（南一6、翰林28、康軒1），65題為108課綱共同核心；v13規則靜態核對35筆映射，瀏覽器執行仍待測。",
+  "lastBatchNote": "第40批新增100題（小六50、高二50）；35題有中央來源映射（南一6、翰林28、康軒1），65題未標出版社；v13實際執行分類器後100/100與儲存欄位一致。",
   "candidateBranchAudit": {
     "date": "2026-11-13",
     "branch": "automation/batch-40-2026-11-13",
@@ -537,11 +590,25 @@
         "高二": 50
       },
       "publisherMappedQuestions": 35,
-      "curriculumCore": 65,
+      "curriculumCore": 57,
       "mappingReferences": 35,
-      "validation": "100題四選項、答案索引、解析、分類欄位、映射資料及ID檢查通過；與既有2,700題正規化題幹完全相同0組；35筆映射與中央資料一致。",
+      "validation": "100題分類器v13實際執行後，儲存欄位與執行結果100/100一致；35筆映射中央資料一致；與既有2,700題完全相同題幹0組。",
       "browserFunctionalTests": "pending",
-      "pagesDeployment": "not-verified-no-workflow-run"
+      "pagesDeployment": "not-verified-no-workflow-run",
+      "questionBankInference": 18,
+      "publisherSourceVerified": 25,
+      "semester": {
+        "上學期": 27,
+        "下學期": 10,
+        "全學年": 6,
+        "unassigned": 57
+      },
+      "examPeriod": {
+        "第一次段考": 5,
+        "第二次段考": 5,
+        "第三次段考": 8,
+        "unassigned": 82
+      }
     },
     "serviceWorkerCache": "xy-learning-v69",
     "classifierVersion": "2026-11-13.13",
