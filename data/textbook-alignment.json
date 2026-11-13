@@ -1105,7 +1105,7 @@
   },
   "auditSummary": {
     "auditedAt": "2026-11-13",
-    "auditedRef": "main at 6f8bb1a1865f858885c724e99c64594028ff5e47",
+    "auditedRef": "main at 6c01e81c8af5105c9c38af040ae77f26fd4ad483 (pre-final audit metadata refresh)",
     "batchRange": "08-38",
     "batchFileCount": 31,
     "questionCount": 2600,
@@ -1139,7 +1139,8 @@
       "數學A/B以courseTrack隔離；未確認普通高中／技術型高中、學年度或學校採用版本者不作指定版本宣稱。",
       "段考分類為題庫複習建議，不代表學校正式考試範圍。",
       "第38批已合併main；第30至38批共185筆儲存映射引用全部通過範圍驗證。",
-      "南一「四則混合運算」詳情頁本次無法直接讀取，已降為official-index-link-only與official-resource-title層級；官方資源列表頁可見數學6下、六年級及單元標題，不宣稱已核對詳情目次。"
+      "南一「四則混合運算」詳情頁本次無法直接讀取，已降為official-index-link-only與official-resource-title層級；官方資源列表頁可見數學6下、六年級及單元標題，不宣稱已核對詳情目次。",
+      "官方索引標題層級映射仍可出現在對應出版社篩選，但UI需保留verificationStatus與mappingLevel提示；不得等同完整課本目次核對。"
     ],
     "mappingVerificationStatusCountsBatches30to38": {
       "source-checked": 174,
