@@ -2004,7 +2004,7 @@ window.EXTRA34_GRADE_BANK = [
     "e": "角動量L＝Iω近似守恆；收臂使I減小，因此角速度增加。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
-    "sourceRef": "依108課綱共同核心原創編寫；出版社對照依既有官方來源映射，非教材或歷屆試題原文。",
+    "sourceRef": "https://books.hanlin.com.tw/product/004022",
     "reviewStatus": "rule-checked",
     "learningContent": "角動量守恆",
     "semester": "上學期",
@@ -2025,12 +2025,36 @@ window.EXTRA34_GRADE_BANK = [
         "volume": "選修物理(II) 力學二與熱學",
         "unitCode": "全冊",
         "unitName": "力學二與熱學",
+        "unitAliases": [],
+        "scopeKeywords": [
+          "動量",
+          "衝量",
+          "碰撞",
+          "功",
+          "位能",
+          "動能",
+          "力矩",
+          "角動量",
+          "熱",
+          "比熱",
+          "熱膨脹",
+          "熱傳導",
+          "熱力學",
+          "熱機",
+          "氣體",
+          "彈簧",
+          "圓周",
+          "向心",
+          "波以耳",
+          "線膨脹",
+          "機械能"
+        ],
         "semester": "上學期",
         "grade": "高二",
         "subject": "物理",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
       }
     ],
     "classificationNotes": "依既有已核對的出版社官方來源作冊別／單元層級對照；未推定學校段考，題目為原創而非教材原文。"
@@ -2056,36 +2080,16 @@ window.EXTRA34_GRADE_BANK = [
     "e": "浮力F＝ρgV＝1,000×9.8×0.002＝19.6 N。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
-    "sourceRef": "依108課綱共同核心原創編寫；出版社對照依既有官方來源映射，非教材或歷屆試題原文。",
+    "sourceRef": "108課綱共同核心；原出版社映射未通過年級、科目、學期、課程軌別或單元／冊別範圍檢查。",
     "reviewStatus": "rule-checked",
     "learningContent": "浮力與阿基米德原理",
-    "semester": "上學期",
+    "semester": "unassigned",
     "examPeriod": "unassigned",
-    "classificationBasis": "publisher-source-verified",
+    "classificationBasis": "curriculum-core",
     "confidence": "medium",
-    "publisherStatus": "publisher-mapped",
-    "publisherMappings": [
-      {
-        "publisher": "hanlin",
-        "mappingId": "hanlin-h2-physics-ii",
-        "sourceUrl": "https://books.hanlin.com.tw/product/004022",
-        "sourceTitle": "翰林書城－高中課本選修物理(II)力學二與熱學",
-        "verifiedAt": "2026-11-13",
-        "verificationStatus": "source-checked",
-        "notes": "官方頁明示高中二年級、上學期及課本名稱；僅作冊別／主題層級對照。",
-        "mappingLevel": "volume",
-        "volume": "選修物理(II) 力學二與熱學",
-        "unitCode": "全冊",
-        "unitName": "力學二與熱學",
-        "semester": "上學期",
-        "grade": "高二",
-        "subject": "物理",
-        "courseTrack": null,
-        "schoolYear": "未標示",
-        "courseType": "未確認"
-      }
-    ],
-    "classificationNotes": "依既有已核對的出版社官方來源作冊別／單元層級對照；未推定學校段考，題目為原創而非教材原文。"
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創編寫；原出版社映射未通過單元／冊別範圍核對，故不掛出版社標籤；學期與段考保留未分類。"
   },
   {
     "id": "b34-065",
@@ -2108,7 +2112,7 @@ window.EXTRA34_GRADE_BANK = [
     "e": "ΔL＝αLΔT＝1.2×10⁻⁵×20×40＝0.0096 m，即9.6 mm。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
-    "sourceRef": "依108課綱共同核心原創編寫；出版社對照依既有官方來源映射，非教材或歷屆試題原文。",
+    "sourceRef": "https://books.hanlin.com.tw/product/004022",
     "reviewStatus": "rule-checked",
     "learningContent": "線膨脹與溫度變化",
     "semester": "上學期",
@@ -2129,12 +2133,36 @@ window.EXTRA34_GRADE_BANK = [
         "volume": "選修物理(II) 力學二與熱學",
         "unitCode": "全冊",
         "unitName": "力學二與熱學",
+        "unitAliases": [],
+        "scopeKeywords": [
+          "動量",
+          "衝量",
+          "碰撞",
+          "功",
+          "位能",
+          "動能",
+          "力矩",
+          "角動量",
+          "熱",
+          "比熱",
+          "熱膨脹",
+          "熱傳導",
+          "熱力學",
+          "熱機",
+          "氣體",
+          "彈簧",
+          "圓周",
+          "向心",
+          "波以耳",
+          "線膨脹",
+          "機械能"
+        ],
         "semester": "上學期",
         "grade": "高二",
         "subject": "物理",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
       }
     ],
     "classificationNotes": "依既有已核對的出版社官方來源作冊別／單元層級對照；未推定學校段考，題目為原創而非教材原文。"
@@ -2160,7 +2188,7 @@ window.EXTRA34_GRADE_BANK = [
     "e": "Q＝mcΔT＝0.2×4,200×10＝8,400 J。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
-    "sourceRef": "依108課綱共同核心原創編寫；出版社對照依既有官方來源映射，非教材或歷屆試題原文。",
+    "sourceRef": "https://books.hanlin.com.tw/product/004022",
     "reviewStatus": "rule-checked",
     "learningContent": "比熱與熱量計算",
     "semester": "上學期",
@@ -2181,12 +2209,36 @@ window.EXTRA34_GRADE_BANK = [
         "volume": "選修物理(II) 力學二與熱學",
         "unitCode": "全冊",
         "unitName": "力學二與熱學",
+        "unitAliases": [],
+        "scopeKeywords": [
+          "動量",
+          "衝量",
+          "碰撞",
+          "功",
+          "位能",
+          "動能",
+          "力矩",
+          "角動量",
+          "熱",
+          "比熱",
+          "熱膨脹",
+          "熱傳導",
+          "熱力學",
+          "熱機",
+          "氣體",
+          "彈簧",
+          "圓周",
+          "向心",
+          "波以耳",
+          "線膨脹",
+          "機械能"
+        ],
         "semester": "上學期",
         "grade": "高二",
         "subject": "物理",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
       }
     ],
     "classificationNotes": "依既有已核對的出版社官方來源作冊別／單元層級對照；未推定學校段考，題目為原創而非教材原文。"
@@ -2340,7 +2392,7 @@ window.EXTRA34_GRADE_BANK = [
     "e": "Q<K表示生成物相對不足，系統會朝正反應方向進行，使Q逐漸增加至K。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
-    "sourceRef": "依108課綱共同核心原創編寫；出版社對照依既有官方來源映射，非教材或歷屆試題原文。",
+    "sourceRef": "https://books.hanlin.com.tw/product/435023",
     "reviewStatus": "rule-checked",
     "learningContent": "反應商與平衡移動",
     "semester": "全學年",
@@ -2361,12 +2413,20 @@ window.EXTRA34_GRADE_BANK = [
         "volume": "選修化學(III)（官方互動式教學講義）",
         "unitCode": "1",
         "unitName": "化學平衡",
+        "unitAliases": [
+          "化學平衡",
+          "平衡常數",
+          "勒沙特列",
+          "反應商",
+          "平衡移動"
+        ],
+        "scopeKeywords": [],
         "semester": "全學年",
         "grade": "高二、高三",
         "subject": "化學",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
       }
     ],
     "classificationNotes": "依既有已核對的出版社官方來源作冊別／單元層級對照；未推定學校段考，題目為原創而非教材原文。"
@@ -2392,7 +2452,7 @@ window.EXTRA34_GRADE_BANK = [
     "e": "生成物放分子、反應物放分母，指數用係數，故Kc＝[NH₃]²/([N₂][H₂]³)。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
-    "sourceRef": "依108課綱共同核心原創編寫；出版社對照依既有官方來源映射，非教材或歷屆試題原文。",
+    "sourceRef": "https://books.hanlin.com.tw/product/435023",
     "reviewStatus": "rule-checked",
     "learningContent": "平衡常數表達式",
     "semester": "全學年",
@@ -2413,12 +2473,20 @@ window.EXTRA34_GRADE_BANK = [
         "volume": "選修化學(III)（官方互動式教學講義）",
         "unitCode": "1",
         "unitName": "化學平衡",
+        "unitAliases": [
+          "化學平衡",
+          "平衡常數",
+          "勒沙特列",
+          "反應商",
+          "平衡移動"
+        ],
+        "scopeKeywords": [],
         "semester": "全學年",
         "grade": "高二、高三",
         "subject": "化學",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
       }
     ],
     "classificationNotes": "依既有已核對的出版社官方來源作冊別／單元層級對照；未推定學校段考，題目為原創而非教材原文。"
@@ -2444,7 +2512,7 @@ window.EXTRA34_GRADE_BANK = [
     "e": "弱酸可與OH⁻反應，共軛鹼可與H⁺反應，因此能抵抗少量酸鹼造成的pH變化。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
-    "sourceRef": "依108課綱共同核心原創編寫；出版社對照依既有官方來源映射，非教材或歷屆試題原文。",
+    "sourceRef": "https://books.hanlin.com.tw/product/435023",
     "reviewStatus": "rule-checked",
     "learningContent": "緩衝溶液",
     "semester": "全學年",
@@ -2465,12 +2533,20 @@ window.EXTRA34_GRADE_BANK = [
         "volume": "選修化學(III)（官方互動式教學講義）",
         "unitCode": "3",
         "unitName": "酸鹼反應",
+        "unitAliases": [
+          "酸鹼",
+          "pH",
+          "滴定",
+          "緩衝",
+          "鹽類水解"
+        ],
+        "scopeKeywords": [],
         "semester": "全學年",
         "grade": "高二、高三",
         "subject": "化學",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
       }
     ],
     "classificationNotes": "依既有已核對的出版社官方來源作冊別／單元層級對照；未推定學校段考，題目為原創而非教材原文。"
@@ -2496,7 +2572,7 @@ window.EXTRA34_GRADE_BANK = [
     "e": "稀釋10倍後[H⁺]約為1×10⁻³ M，pH＝3。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
-    "sourceRef": "依108課綱共同核心原創編寫；出版社對照依既有官方來源映射，非教材或歷屆試題原文。",
+    "sourceRef": "https://books.hanlin.com.tw/product/435023",
     "reviewStatus": "rule-checked",
     "learningContent": "強酸稀釋與pH",
     "semester": "全學年",
@@ -2517,12 +2593,20 @@ window.EXTRA34_GRADE_BANK = [
         "volume": "選修化學(III)（官方互動式教學講義）",
         "unitCode": "3",
         "unitName": "酸鹼反應",
+        "unitAliases": [
+          "酸鹼",
+          "pH",
+          "滴定",
+          "緩衝",
+          "鹽類水解"
+        ],
+        "scopeKeywords": [],
         "semester": "全學年",
         "grade": "高二、高三",
         "subject": "化學",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
       }
     ],
     "classificationNotes": "依既有已核對的出版社官方來源作冊別／單元層級對照；未推定學校段考，題目為原創而非教材原文。"
@@ -2548,7 +2632,7 @@ window.EXTRA34_GRADE_BANK = [
     "e": "催化劑降低活化能並加快正逆反應，不改變反應總焓變或平衡常數。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
-    "sourceRef": "翰林官方教材頁確認高中二年級下學期選修化學(II)「物質構造與反應速率」；本題為108課綱取向原創題，非教材或歷屆試題原文。",
+    "sourceRef": "https://books.hanlin.com.tw/product/005022",
     "reviewStatus": "rule-checked",
     "learningContent": "催化劑與活化能",
     "semester": "上學期",
@@ -2564,17 +2648,27 @@ window.EXTRA34_GRADE_BANK = [
         "sourceTitle": "翰林書城－高中課本選修化學(II)物質構造與反應速率",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "官方翰林課本頁明示高中2年級、上學期及冊名「選修化學(II)物質構造與反應速率」；僅冊名／主題層級，未核對完整細分目次。此前曾誤標下學期，本次依官方頁更正。此映射不代表學校採用版本。",
-        "mappingLevel": "title-topic",
+        "notes": "翰林官方課本頁明示高中2年級、上學期及冊名「選修化學(II)物質構造與反應速率」；僅冊別層級，不宣稱細分單元已核對。不同商品編號的實驗手冊或習作可能有不同學期，不能與此課本頁混用。此映射不代表學校採用版本。",
+        "mappingLevel": "volume",
         "volume": "選修化學(II)物質構造與反應速率",
-        "unitCode": "冊名主題",
-        "unitName": "物質構造與反應速率（冊名層級）",
+        "unitCode": "全冊",
+        "unitName": "物質構造與反應速率（冊別層級；未核對細分目次）",
+        "unitAliases": [],
+        "scopeKeywords": [
+          "反應速率",
+          "催化劑",
+          "活化能",
+          "反應級數",
+          "物質構造",
+          "電子組態",
+          "價電子"
+        ],
         "semester": "上學期",
         "grade": "高二",
         "subject": "化學",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
       }
     ],
     "classificationNotes": "依翰林官方課本頁核對：高中2年級、上學期、選修化學(II)「物質構造與反應速率」；此為冊名／主題層級對照，非學校正式進度。"
@@ -2600,7 +2694,7 @@ window.EXTRA34_GRADE_BANK = [
     "e": "ΔH＝−120＋45＝−75 kJ。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
-    "sourceRef": "依108課綱共同核心原創編寫；出版社對照依既有官方來源映射，非教材或歷屆試題原文。",
+    "sourceRef": "https://books.hanlin.com.tw/product/005021",
     "reviewStatus": "rule-checked",
     "learningContent": "赫斯定律與反應焓",
     "semester": "上學期",
@@ -2621,12 +2715,19 @@ window.EXTRA34_GRADE_BANK = [
         "volume": "選修化學(I)物質與能量",
         "unitCode": "冊別層級",
         "unitName": "物質與能量（冊別層級）",
+        "unitAliases": [],
+        "scopeKeywords": [
+          "焓",
+          "反應熱",
+          "能量",
+          "赫斯定律"
+        ],
         "semester": "上學期",
         "grade": "高二",
         "subject": "化學",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
       }
     ],
     "classificationNotes": "依既有已核對的出版社官方來源作冊別／單元層級對照；未推定學校段考，題目為原創而非教材原文。"
@@ -2684,7 +2785,7 @@ window.EXTRA34_GRADE_BANK = [
     "e": "最外層是第三層，組態為3s²，因此最外層有2個電子。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
-    "sourceRef": "翰林官方教材頁確認高中二年級下學期選修化學(II)「物質構造與反應速率」；本題為108課綱取向原創題，非教材或歷屆試題原文。",
+    "sourceRef": "https://books.hanlin.com.tw/product/005022",
     "reviewStatus": "rule-checked",
     "learningContent": "電子組態與價電子",
     "semester": "上學期",
@@ -2700,17 +2801,27 @@ window.EXTRA34_GRADE_BANK = [
         "sourceTitle": "翰林書城－高中課本選修化學(II)物質構造與反應速率",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "官方翰林課本頁明示高中2年級、上學期及冊名「選修化學(II)物質構造與反應速率」；僅冊名／主題層級，未核對完整細分目次。此前曾誤標下學期，本次依官方頁更正。此映射不代表學校採用版本。",
-        "mappingLevel": "title-topic",
+        "notes": "翰林官方課本頁明示高中2年級、上學期及冊名「選修化學(II)物質構造與反應速率」；僅冊別層級，不宣稱細分單元已核對。不同商品編號的實驗手冊或習作可能有不同學期，不能與此課本頁混用。此映射不代表學校採用版本。",
+        "mappingLevel": "volume",
         "volume": "選修化學(II)物質構造與反應速率",
-        "unitCode": "冊名主題",
-        "unitName": "物質構造與反應速率（冊名層級）",
+        "unitCode": "全冊",
+        "unitName": "物質構造與反應速率（冊別層級；未核對細分目次）",
+        "unitAliases": [],
+        "scopeKeywords": [
+          "反應速率",
+          "催化劑",
+          "活化能",
+          "反應級數",
+          "物質構造",
+          "電子組態",
+          "價電子"
+        ],
         "semester": "上學期",
         "grade": "高二",
         "subject": "化學",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
       }
     ],
     "classificationNotes": "依翰林官方課本頁核對：高中2年級、上學期、選修化學(II)「物質構造與反應速率」；此為冊名／主題層級對照，非學校正式進度。"
@@ -2832,7 +2943,7 @@ window.EXTRA34_GRADE_BANK = [
     "e": "木質部主要運輸水與無機鹽；韌皮部主要運輸有機養分。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
-    "sourceRef": "依108課綱共同核心原創編寫；出版社對照依既有官方來源映射，非教材或歷屆試題原文。",
+    "sourceRef": "https://books.hanlin.com.tw/product/006022",
     "reviewStatus": "rule-checked",
     "learningContent": "植物維管束運輸",
     "semester": "上學期",
@@ -2853,12 +2964,22 @@ window.EXTRA34_GRADE_BANK = [
         "volume": "選修生物(II)生命的起源與植物",
         "unitCode": "冊別層級",
         "unitName": "生命的起源與植物（冊別層級）",
+        "unitAliases": [],
+        "scopeKeywords": [
+          "植物",
+          "光合作用",
+          "蒸散",
+          "氣孔",
+          "維管束",
+          "木質部",
+          "韌皮部"
+        ],
         "semester": "上學期",
         "grade": "高二",
         "subject": "生物",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
       }
     ],
     "classificationNotes": "依既有已核對的出版社官方來源作冊別／單元層級對照；未推定學校段考，題目為原創而非教材原文。"
