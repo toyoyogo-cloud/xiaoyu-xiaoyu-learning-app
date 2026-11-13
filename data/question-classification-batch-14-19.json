@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.1.0",
   "updatedAt": "2026-11-14",
-  "classificationRuleVersion": "2026-11-14.31",
+  "classificationRuleVersion": "2026-11-14.33",
   "batchRange": "14-19",
   "sourceBatchShas": {
     "14": "938f1b45a5dd17867e7f566566f9ee495469434f",
@@ -825,7 +825,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。",
       "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "生活溝通",
       "questionType": "概念辨識",
       "learningUnit": "未來計畫",
       "difficultyLevel": "進階"
@@ -3751,7 +3751,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。",
       "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-      "learningDomain": "幾何與測量",
+      "learningDomain": "代數與函數",
       "questionType": "計算應用",
       "learningUnit": "定積分面積",
       "difficultyLevel": "進階"
@@ -3827,7 +3827,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。",
       "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "閱讀理解",
       "questionType": "概念辨識",
       "learningUnit": "來源可信度",
       "difficultyLevel": "挑戰"
@@ -4131,7 +4131,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。",
       "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "閱讀理解",
       "questionType": "概念辨識",
       "learningUnit": "引用資料目的",
       "difficultyLevel": "進階"
@@ -4245,7 +4245,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。",
       "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "文法句型",
       "questionType": "概念辨識",
       "learningUnit": "There is與There are",
       "difficultyLevel": "進階"
@@ -5613,7 +5613,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。",
       "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-      "learningDomain": "幾何與測量",
+      "learningDomain": "代數與函數",
       "questionType": "計算應用",
       "learningUnit": "定積分面積",
       "difficultyLevel": "挑戰"
@@ -7589,7 +7589,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。",
       "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "代數與函數",
       "questionType": "計算應用",
       "learningUnit": "定積分計算",
       "difficultyLevel": "挑戰"
@@ -7665,7 +7665,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。",
       "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "代數與函數",
       "questionType": "計算應用",
       "learningUnit": "二階行列式",
       "difficultyLevel": "挑戰"
@@ -8292,7 +8292,7 @@
       "publisherMappings": [],
       "classificationNotes": "依六年級題庫常見單元群推定上學期前段；非學校正式段考範圍。",
       "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "數與運算",
       "questionType": "概念辨識",
       "learningUnit": "比的應用",
       "difficultyLevel": "進階"
@@ -8900,7 +8900,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。",
       "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "閱讀理解",
       "questionType": "概念辨識",
       "learningUnit": "代名詞指涉",
       "difficultyLevel": "進階"
@@ -9413,7 +9413,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。",
       "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "代數與函數",
       "questionType": "計算應用",
       "learningUnit": "定積分",
       "difficultyLevel": "進階"
