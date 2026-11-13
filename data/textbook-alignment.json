@@ -1701,10 +1701,15 @@
     "publisherMappingReferenceCount": 340,
     "centralMappingRegistryCount": 16,
     "mappingValidationThisRun": {
-      "batch": "31",
-      "publisherMappedQuestions": 21,
-      "mappingReferencesValidated": 21,
-      "errors": 0
+      "batches": "08-41",
+      "questions": 2900,
+      "mappingReferences": 340,
+      "registryReferencesFound": 340,
+      "sourceFieldErrors": 0,
+      "gradeSubjectSemesterErrors": 0,
+      "unitOrVolumeScopeErrors": 0,
+      "result": "340/340 internal consistency checks passed",
+      "limitation": "This validates the stored central registry and question-to-mapping consistency; it is not a fresh live re-open of every official publisher URL."
     },
     "pendingQuestionCount": 0,
     "extendedMetadata": {
@@ -1718,7 +1723,8 @@
       "difficultyLevel": 300
     },
     "newQuestionsAdded": 0,
-    "notes": "本次直接解析main第8至41批34個題庫檔與教材對照資料。所有2,900題均有基本分類欄位；擴充欄位learningDomain、learningUnit、difficultyLevel目前完整300題，questionType欄位600題。重要更正：本次開始前data/question-classification.json實際為0 bytes，與先前歷史稽核所稱1,800筆索引不符；本次只新增並驗證第31批100筆索引，不能把先前未存在於main的1,800筆計入。批次40至41有200題在批次檔內建擴充欄位。尚有2,600題缺少至少一項擴充欄位，後續需逐批補齊。全庫學期／段考統計依批次檔實際欄位計算；unassigned不代表無法推定，仍需後續按單元檢查。全庫映射總數依各批次publisherMappings陣列計數；本次完整重驗第31批21筆映射，其餘映射尚未在本次逐筆重新驗證。"
+    "notes": "本次直接解析main第8至41批34個題庫檔與教材對照資料。所有2,900題均有基本分類欄位；擴充欄位learningDomain、learningUnit、difficultyLevel目前完整300題，questionType欄位600題。重要更正：本次開始前data/question-classification.json實際為0 bytes，與先前歷史稽核所稱1,800筆索引不符；本次只新增並驗證第31批100筆索引，不能把先前未存在於main的1,800筆計入。批次40至41有200題在批次檔內建擴充欄位。尚有2,600題缺少至少一項擴充欄位，後續需逐批補齊。全庫學期／段考統計依批次檔實際欄位計算；unassigned不代表無法推定，仍需後續按單元檢查。全庫映射總數依各批次publisherMappings陣列計數；本次重新核對全庫340筆映射引用：中央登錄存在340/340、來源欄位缺漏0、年級／科目／學期／軌別不符0、單元或冊別範圍不符0；此為資料內部一致性驗證，非本次逐一重新開啟340個官方網頁。",
+    "publisherMappingConsistencyErrors": 0
   },
   "classificationPersistenceRuns": [
     {
@@ -2163,5 +2169,17 @@
     "entriesAddedThisRun": 100,
     "currentIndexEntries": 100,
     "historicalAuditNote": "先前分類持久化稽核記錄曾聲稱已有1,800筆獨立索引，但本次從main直接讀取該JSON時內容為空檔。故前述1,800筆不可視為目前main已持久化資料，需重新補建；本次先恢復第31批100筆。"
+  },
+  "fullCorpusMappingValidation": {
+    "auditedAt": "2026-11-13",
+    "batches": "08-41",
+    "mappingReferences": 340,
+    "centralRegistryCount": 16,
+    "registryReferencesFound": 340,
+    "sourceFieldErrors": 0,
+    "gradeSubjectSemesterTrackErrors": 0,
+    "unitOrVolumeScopeErrors": 0,
+    "result": "340/340 internal consistency checks passed",
+    "limitation": "No claim that every official source URL was freshly re-opened during this run."
   }
 }
