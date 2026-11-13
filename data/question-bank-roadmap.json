@@ -716,8 +716,8 @@
   "classificationPersistence": {
     "latestRun": {
       "date": "2026-11-13",
-      "sourceBranch": "main@cc1b2ee",
-      "writeBranch": "automation/classification-backfill-b30-20261113-run11",
+      "sourceBranch": "main@7c899ae",
+      "writeBranch": "automation/classification-backfill-b30-20261113-run11b",
       "auditedBatches": "30",
       "auditedQuestionCount": 100,
       "persistedExtendedMetadataBatches": [
@@ -871,7 +871,9 @@
       },
       "mappingVerificationStatusCounts": {
         "source-checked": 34
-      }
+      },
+      "baseMainHead": "7c899ae95dcfb8ec8354c244be6729b5e4a936e4",
+      "rebaseNote": "原工作分支建立後main新增2個提交（分類器及Service Worker）；已在最新main 7c899ae上重建分支並重套分類資料，保留main最新分類器與xy-learning-v75。"
     },
     "previousRun": {
       "date": "2026-11-13",
