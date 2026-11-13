@@ -595,7 +595,7 @@
     "date": "2026-11-13",
     "branch": "automation/legacy-classification-backfill-2026-11-13",
     "baseMainHead": "b614a956602549f0b7e07725657fabd8d15d15ed",
-    "status": "pending-pull-request",
+    "status": "pull-request-open",
     "independentBatchRange": "第8至第40批",
     "independentBatchQuestions": 2800,
     "uniqueIds": 2800,
@@ -634,7 +634,9 @@
       "dynamicUnpersistedMappings": 0
     },
     "browserFunctionalTests": "pending",
-    "pagesDeployment": "not-verified-no-workflow-run"
+    "pagesDeployment": "not-verified-no-workflow-run",
+    "pullRequest": 5,
+    "pullRequestUrl": "https://github.com/toyoyogo-cloud/xiaoyu-xiaoyu-learning-app/pull/5"
   },
   "mappingVerificationStatusCountsBatches30to39": {
     "source-checked": 212,
@@ -648,7 +650,7 @@
   "sourceBranch": "automation/legacy-classification-backfill-2026-11-13",
   "sourceHead": "b614a956602549f0b7e07725657fabd8d15d15ed",
   "mergeCommit": "3f49fa239ff31a991f76ec9ae9e8d3b715c69fa1",
-  "pullRequest": null,
+  "pullRequest": 5,
   "mainVerifiedAt": "2026-11-13",
   "pagesDeployment": "not-verified-no-workflow-run",
   "runtimeClassificationAuditStatus": "v13-full-2800-backfilled-all-fields-match",
@@ -666,7 +668,7 @@
     "knsh": 7,
     "nani": 29
   },
-  "pullRequestUrl": "https://github.com/toyoyogo-cloud/xiaoyu-xiaoyu-learning-app/pull/4",
+  "pullRequestUrl": "https://github.com/toyoyogo-cloud/xiaoyu-xiaoyu-learning-app/pull/5",
   "mappingVerificationStatusCountsBatches08to40": {
     "source-checked": 295,
     "official-index-link-only": 8
