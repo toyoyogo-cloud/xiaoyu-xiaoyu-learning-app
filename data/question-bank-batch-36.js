@@ -709,7 +709,7 @@ window.EXTRA36_GRADE_BANK = [
     "e": "若20隻全是雞，腳數為40；實際多16隻腳，每增加一隻兔比雞多2腳，所以兔有16÷2＝8隻。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
-    "sourceRef": "https://tpack.nani.com.tw/nani_content?a=341&b=1",
+    "sourceRef": "https://tpack.nani.com.tw/nani_content?a=394&b=1",
     "reviewStatus": "rule-checked",
     "learningContent": "雞兔問題",
     "semester": "下學期",
@@ -721,15 +721,15 @@ window.EXTRA36_GRADE_BANK = [
       {
         "publisher": "nani",
         "mappingId": "nani-g6-math-6b-chicken-rabbit",
-        "sourceUrl": "https://tpack.nani.com.tw/nani_content?a=341&b=1",
-        "sourceTitle": "南一官方資源頁熱門文章連結－數學6下｜怎樣解題：雞兔問題",
+        "sourceUrl": "https://tpack.nani.com.tw/nani_content?a=394&b=1",
+        "sourceTitle": "南一資源_內文－數學6下｜怎樣解題：雞兔問題",
         "verifiedAt": "2026-11-13",
-        "verificationStatus": "official-index-link-only",
-        "notes": "南一官方資源頁a=341的熱門文章連結列出「數學6下｜怎樣解題：雞兔問題」，可由可讀取的官方索引頁確認年級、科目、學期與主題；目標詳情頁a=394目前請求逾時，未能檢視內容與作者細節，因此只作官方平台資源索引標題對照，不宣稱南一課本單元或南一編寫原題。",
+        "verificationStatus": "source-checked",
+        "notes": "南一官方詳情頁明示「數學6下｜怎樣解題：雞兔問題」、國小數學數位教學應用及國小數學6年級標籤；僅作官方資源標題層級對照，不宣稱完整教科書目次或學校採用版本。",
         "mappingLevel": "official-resource-title",
         "volume": "數學6下",
-        "unitCode": "官方索引連結標題",
-        "unitName": "怎樣解題：雞兔問題（官方資源標題層級；詳情頁未能讀取）",
+        "unitCode": "官方資源標題",
+        "unitName": "怎樣解題：雞兔問題（官方資源標題層級）",
         "unitAliases": [
           "雞兔問題",
           "雞兔同籠"
@@ -743,7 +743,7 @@ window.EXTRA36_GRADE_BANK = [
         "courseType": "國小"
       }
     ],
-    "classificationNotes": "南一官方資源頁a=341的熱門文章連結列出「數學6下｜怎樣解題：雞兔問題」，可由可讀取的官方索引頁確認年級、科目、學期與主題；目標詳情頁a=394目前請求逾時，未能檢視內容與作者細節，因此只作官方平台資源索引標題對照，不宣稱南一課本單元或南一編寫原題。；段考範圍未經學校確認。"
+    "classificationNotes": "南一官方詳情頁明示「數學6下｜怎樣解題：雞兔問題」、國小數學數位教學應用及國小數學6年級標籤；僅作官方資源標題層級對照，不宣稱完整教科書目次或學校採用版本。；段考範圍未經學校確認。"
   },
   {
     "id": "b36-022",

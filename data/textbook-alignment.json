@@ -603,16 +603,16 @@
       "subject": "數學",
       "semester": "下學期",
       "volume": "數學6下",
-      "unitCode": "官方索引連結標題",
-      "unitName": "怎樣解題：雞兔問題（官方資源標題層級；詳情頁未能讀取）",
+      "unitCode": "官方資源標題",
+      "unitName": "怎樣解題：雞兔問題（官方資源標題層級）",
       "mappingLevel": "official-resource-title",
       "schoolYear": "未標示",
       "courseType": "國小",
-      "sourceUrl": "https://tpack.nani.com.tw/nani_content?a=341&b=1",
-      "sourceTitle": "南一官方資源頁熱門文章連結－數學6下｜怎樣解題：雞兔問題",
+      "sourceUrl": "https://tpack.nani.com.tw/nani_content?a=394&b=1",
+      "sourceTitle": "南一資源_內文－數學6下｜怎樣解題：雞兔問題",
       "verifiedAt": "2026-11-13",
-      "verificationStatus": "official-index-link-only",
-      "notes": "南一官方資源頁a=341的熱門文章連結列出「數學6下｜怎樣解題：雞兔問題」，可由可讀取的官方索引頁確認年級、科目、學期與主題；目標詳情頁a=394目前請求逾時，未能檢視內容與作者細節，因此只作官方平台資源索引標題對照，不宣稱南一課本單元或南一編寫原題。",
+      "verificationStatus": "source-checked",
+      "notes": "南一官方詳情頁明示「數學6下｜怎樣解題：雞兔問題」、國小數學數位教學應用及國小數學6年級標籤；僅作官方資源標題層級對照，不宣稱完整教科書目次或學校採用版本。",
       "learningContent": "官方索引連結標題顯示數學6下與雞兔問題；詳情頁未能讀取，內容與作者待核對。",
       "targetUrl": "https://tpack.nani.com.tw/nani_content?a=394&b=1",
       "unitAliases": [
@@ -1337,5 +1337,35 @@
       "mismatches": 0,
       "notes": "以main上的分類器v12實際執行第39批100題；全部semester、examPeriod、classificationBasis、confidence、publisherStatus與publisherMappings均與批次儲存欄位一致。"
     }
+  },
+  "sourceCorrectionLog": [
+    {
+      "date": "2026-11-13",
+      "mappingId": "nani-g6-math-6b-chicken-rabbit",
+      "change": "由僅索引連結升級為可讀取官方詳情頁核對",
+      "sourceUrl": "https://tpack.nani.com.tw/nani_content?a=394&b=1",
+      "scope": "僅官方資源標題層級；未宣稱課本完整目次或學校採用版本"
+    }
+  ],
+  "batch40UsageAudit": {
+    "batch": 40,
+    "questions": 100,
+    "gradeDistribution": {
+      "六年級": 50,
+      "高二": 50
+    },
+    "publisherMappedQuestions": 35,
+    "publisherReferenceCounts": {
+      "nani": 6,
+      "knsh": 1,
+      "hanlin": 28
+    },
+    "curriculumCoreQuestions": 65,
+    "mappingLevels": {
+      "unit": 21,
+      "volume": 12,
+      "official-resource-title": 2
+    },
+    "notes": "本批所有出版社映射均使用既有中央mappingId；官方頁只支持所記錄的年級、科目、學期、冊別或單元層級。其餘題目標示108課綱共同核心。"
   }
 }
