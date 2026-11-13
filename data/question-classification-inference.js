@@ -110,6 +110,7 @@ function inferred(q){
 }
 function domainFor(q){
  const subject=q.subject||"",t=label(q)+" "+String(q.q||"");
+ if(subject==="數學"&&/三角函數|弧度|正弦|餘弦|正切|平面向量|向量|內積/.test(t))return "幾何與測量";
  const rules={
  "國語":[["閱讀理解",/閱讀|文本|文章|摘要|主旨|推論|觀點|證據|敘事|段落|說明文|程序|論證|公告|資訊|論據|句意|事實|意見/],["詞語修辭",/詞語|成語|字義|詞義|語境|修辭|譬喻|擬人/],["語文句型",/句型|複句|關聯詞|語意|語法|標點|詞性|轉折|因果|讓步|反諷|反語/],["文學寫作",/詩|文言|古文|文學|寫作|作文|意象/]],
  "國文":[["閱讀理解",/閱讀|文本|文章|摘要|主旨|推論|觀點|證據|論證|論述|文意|語意/],["字詞文言",/字音|字形|字義|詞義|文言|古文|成語|古典/],["語文修辭",/句型|語法|修辭|譬喻|排比|倒裝|論述|語意|反諷|反語|謬誤|人身攻擊/],["文學寫作",/詩|詞|曲|文學|寫作|作文|意象/]],
@@ -196,5 +197,5 @@ function classify(q){
  return {semester,examPeriod,classificationBasis:basis,confidence,publisherStatus,publisherMappings:mappings,classificationNotes:notes,reason:notes,sourceRef,learningDomain:(source.learningDomain&&source.learningDomain!=="綜合／待細分")?source.learningDomain:domainFor(source),questionType:source.questionType||typeFor(source),learningUnit:source.learningUnit||label(source)||"未標示",difficultyLevel:difficultyFor(source)};
 }
 window.questionClassificationFor=classify;
-window.QUESTION_CLASSIFICATION_RULES_VERSION="2026-11-14.32";
+window.QUESTION_CLASSIFICATION_RULES_VERSION="2026-11-14.33";
 })();
