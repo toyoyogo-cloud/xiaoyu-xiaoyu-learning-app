@@ -1943,8 +1943,10 @@
         "filterViolations": 0,
         "all100QuestionsReachable": true,
         "browserTested": false,
-        "serviceWorkerCache": "xy-learning-v74",
-        "classificationIndexAsset": true
+        "serviceWorkerCache": "xy-learning-v75",
+        "classificationIndexAsset": true,
+        "batch30Asset": true,
+        "cacheVersionBumped": true
       },
       "notes": "第30批100題擴充分類已寫入獨立分類索引；原有分類欄位保留。34筆映射沿用中央16筆官方來源登錄且全部source-checked，逐筆核對publisher、mappingId、來源欄位、年級、科目、學期及課程軌別一致；未新增中央映射。75題難度標示未標示，因原始d欄位為題型／情境標籤。靜態模擬篩選8,400組通過，非瀏覽器實測。"
     }
