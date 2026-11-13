@@ -1,5 +1,6 @@
 /* 第九批原創題庫：國小五、六年級及高中高一至高三 */
-window.EXTRA9_GRADE_BANK = [
+window.EXTRA9_GRADE_BANK =
+[
   {
     "id": "b9-001",
     "stage": "國小",
@@ -438,59 +439,15 @@ window.EXTRA9_GRADE_BANK = [
     "e": "電功率 P＝VI＝12×2＝24 W。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
-    "sourceRef": "https://books.hanlin.com.tw/product/004022",
+    "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文。出版社與冊別待核對。",
     "reviewStatus": "rule-checked",
-    "semester": "上學期",
+    "semester": "unassigned",
     "examPeriod": "unassigned",
-    "classificationBasis": "publisher-source-verified",
-    "confidence": "medium",
-    "publisherStatus": "publisher-mapped",
-    "publisherMappings": [
-      {
-        "publisher": "hanlin",
-        "mappingId": "hanlin-h2-physics-ii",
-        "sourceUrl": "https://books.hanlin.com.tw/product/004022",
-        "sourceTitle": "翰林書城－高中課本選修物理(II)力學二與熱學",
-        "verifiedAt": "2026-11-13",
-        "verificationStatus": "source-checked",
-        "notes": "官方頁明示高中二年級、上學期及課本名稱；僅作冊別／主題層級對照。",
-        "mappingLevel": "volume",
-        "volume": "選修物理(II) 力學二與熱學",
-        "unitCode": "全冊",
-        "unitName": "力學二與熱學",
-        "unitAliases": [],
-        "scopeKeywords": [
-          "動量",
-          "衝量",
-          "碰撞",
-          "功",
-          "位能",
-          "動能",
-          "力矩",
-          "角動量",
-          "熱",
-          "比熱",
-          "熱膨脹",
-          "熱傳導",
-          "熱力學",
-          "熱機",
-          "氣體",
-          "彈簧",
-          "圓周",
-          "向心",
-          "波以耳",
-          "線膨脹",
-          "機械能"
-        ],
-        "semester": "上學期",
-        "grade": "高二",
-        "subject": "物理",
-        "courseTrack": null,
-        "schoolYear": "未標示",
-        "courseType": "未確認"
-      }
-    ],
-    "classificationNotes": "翰林官方頁確認高二上選修物理(II)冊名「力學二與熱學」；只作冊別層級對照，未核對細分單元或段考。"
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "pending",
+    "publisherMappings": [],
+    "classificationNotes": "原有翰林選修物理(II)映射已撤除：官方頁只確認該冊為「力學二與熱學」、高二上學期，未提供本題「電路與電功率」的單元目次證據，因此不能支持此題的出版社或學期標籤。保留為待核對；不推定段考。參考排除性核對頁：https://books.hanlin.com.tw/product/004022"
   },
   {
     "id": "b9-017",
