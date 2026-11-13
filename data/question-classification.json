@@ -14,8 +14,10 @@
       "14"
     ],
     "questionCount": 199,
-    "remainingFromLatestMain": 2701,
-    "notes": "其餘批次後續分批補入；不以推定結果覆蓋已有官方映射。"
+    "notes": "其餘批次後續分批補入；不以推定結果覆蓋已有官方映射。",
+    "questionRecordsNotIndexed": 2701,
+    "alreadyEmbeddedExtendedMetadataOutsideIndex": 200,
+    "remainingExtendedMetadataToEnrich": 2501
   },
   "allowedValues": {
     "semester": [
