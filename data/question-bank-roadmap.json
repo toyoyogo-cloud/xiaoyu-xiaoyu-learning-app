@@ -338,6 +338,11 @@
         "第二次段考": 3,
         "第三次段考": 6,
         "unassigned": 88
+      },
+      "publisherStatus": {
+        "publisherMapped": 30,
+        "curriculumCore": 70,
+        "pending": 0
       }
     },
     "corrections": [
@@ -473,6 +478,11 @@
       ],
       "crossBatchComparedAgainst": "第8至36批共2,400題",
       "runtimeClassificationMatchesStoredFields": true
+    },
+    "publisherStatus": {
+      "publisherMapped": 30,
+      "curriculumCore": 70,
+      "pending": 0
     }
   },
   "textbookMappingCount": 16,
