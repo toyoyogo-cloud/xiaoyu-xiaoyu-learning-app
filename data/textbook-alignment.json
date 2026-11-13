@@ -150,7 +150,8 @@
     "優先擴充國小六年級與高中高二；其他年級既有題目保留，不新增優先級。",
     "既有題目可依題目內容與單元知識點推定學期及段考範圍，必須明確標示為題庫推定，不能稱為學校正式段考範圍。",
     "未來新增題目優先對照南一、翰林、康軒各版本的冊別及單元；同題可對應多個出版社版本，無可靠依據時標示課綱核心或待核對。",
-    "題庫新增資源集中優先於國小六年級與高中高二；其他年級既有題目保留。"
+    "題庫新增資源集中優先於國小六年級與高中高二；其他年級既有題目保留。",
+    "高中選修物理(II)、選修化學(II)/(III)、選修生物(II)僅在題目明示相同 courseType 時才可建立出版社映射；缺少課程類型不得以年級、科目或知識點相似推定選修版本。"
   ],
   "mappings": [
     {
@@ -268,9 +269,9 @@
       "sourceTitle": "翰林書城－高中課本選修物理(II)力學二與熱學",
       "verifiedAt": "2026-11-14",
       "verificationStatus": "source-checked",
-      "notes": "官方頁明示高中二年級、物理、上學期及課本名稱；僅作冊別／主題層級對照，未提供細分單元目次；不代表學校採用版本。",
+      "notes": "官方頁明示高中二年級、物理、上學期及課本名稱；僅作冊別／主題層級對照，未提供細分單元目次；不代表學校採用版本。 官方教材標示選修物理(II)；題目必須明示相同 courseType 才能連結，未標課程類型者保留待核對。",
       "mappingId": "hanlin-h2-physics-ii",
-      "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元",
+      "courseType": "選修物理(II)",
       "mappingLevel": "volume",
       "scopeKeywords": [
         "動量",
@@ -324,9 +325,9 @@
       "sourceTitle": "翰林書城－高中互動式教學講義選修化學(III)",
       "verifiedAt": "2026-11-14",
       "verificationStatus": "source-checked",
-      "notes": "官方頁明示高二、高三、全學年，目次列化學平衡；不推定學校段考。",
+      "notes": "官方頁明示高二、高三、全學年，目次列化學平衡；不推定學校段考。 官方教材標示選修化學(III)；題目必須明示相同 courseType 才能連結，未標課程類型者保留待核對。",
       "mappingId": "hanlin-h2-chemistry-iii-u1",
-      "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元",
+      "courseType": "選修化學(III)",
       "mappingLevel": "unit",
       "unitAliases": [
         "化學平衡",
@@ -353,9 +354,9 @@
       "sourceTitle": "翰林書城－高中互動式教學講義選修化學(III)",
       "verifiedAt": "2026-11-13",
       "verificationStatus": "source-checked",
-      "notes": "官方頁明示目次列沉澱反應與溶解平衡；不推定學校段考。",
+      "notes": "官方頁明示目次列沉澱反應與溶解平衡；不推定學校段考。 官方教材標示選修化學(III)；題目必須明示相同 courseType 才能連結，未標課程類型者保留待核對。",
       "mappingId": "hanlin-h2-chemistry-iii-u2",
-      "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元",
+      "courseType": "選修化學(III)",
       "mappingLevel": "unit",
       "unitAliases": [
         "沉澱",
@@ -382,9 +383,9 @@
       "sourceTitle": "翰林書城－高中互動式教學講義選修化學(III)",
       "verifiedAt": "2026-11-13",
       "verificationStatus": "source-checked",
-      "notes": "官方頁明示目次列酸鹼反應與酸鹼滴定實驗；不推定學校段考。",
+      "notes": "官方頁明示目次列酸鹼反應與酸鹼滴定實驗；不推定學校段考。 官方教材標示選修化學(III)；題目必須明示相同 courseType 才能連結，未標課程類型者保留待核對。",
       "mappingId": "hanlin-h2-chemistry-iii-u3",
-      "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元",
+      "courseType": "選修化學(III)",
       "mappingLevel": "unit",
       "unitAliases": [
         "酸鹼",
@@ -485,9 +486,9 @@
       "sourceTitle": "翰林書城－高中課本選修化學(II)物質構造與反應速率",
       "verifiedAt": "2026-11-13",
       "verificationStatus": "source-checked",
-      "notes": "翰林官方課本頁明示高中2年級、上學期及冊名「選修化學(II)物質構造與反應速率」；僅冊別層級，不宣稱細分單元已核對。不同商品編號的實驗手冊或習作可能有不同學期，不能與此課本頁混用。此映射不代表學校採用版本。",
+      "notes": "翰林官方課本頁明示高中2年級、上學期及冊名「選修化學(II)物質構造與反應速率」；僅冊別層級，不宣稱細分單元已核對。不同商品編號的實驗手冊或習作可能有不同學期，不能與此課本頁混用。此映射不代表學校採用版本。 官方教材標示選修化學(II)；題目必須明示相同 courseType 才能連結，未標課程類型者保留待核對。",
       "mappingId": "hanlin-h2-chemistry-ii-structure-rate",
-      "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元",
+      "courseType": "選修化學(II)",
       "mappingLevel": "volume",
       "scopeKeywords": [
         "反應速率",
@@ -516,9 +517,9 @@
       "sourceTitle": "翰林書城－高中課本選修生物(II)生命的起源與植物",
       "verifiedAt": "2026-11-14",
       "verificationStatus": "source-checked",
-      "notes": "僅作植物專題的冊別層級對照；翰林官方商品頁確認高中二年級、生物、上學期及冊名「生命的起源與植物」，但未列完整章節，故不宣稱細分單元已核對。只接受具體植物知識點（植物細胞、光合作用、蒸散、氣孔、維管束、向光性、花粉管、雙重受精、植物激素、乙烯、果實成熟）作冊別層級比對；遺傳、基因型、族群遺傳及僅以植物作生態例子的題目不映射本冊。",
+      "notes": "僅作植物專題的冊別層級對照；翰林官方商品頁確認高中二年級、生物、上學期及冊名「生命的起源與植物」，但未列完整章節，故不宣稱細分單元已核對。只接受具體植物知識點（植物細胞、光合作用、蒸散、氣孔、維管束、向光性、花粉管、雙重受精、植物激素、乙烯、果實成熟）作冊別層級比對；遺傳、基因型、族群遺傳及僅以植物作生態例子的題目不映射本冊。 官方教材標示選修生物(II)；題目必須明示相同 courseType 才能連結，未標課程類型者保留待核對。",
       "mappingId": "hanlin-h2-biology-ii-plant",
-      "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元",
+      "courseType": "選修生物(II)",
       "mappingLevel": "volume",
       "scopeKeywords": [
         "植物細胞",
