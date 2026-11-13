@@ -282,7 +282,7 @@
   },
   "lastBatchFile": "data/question-bank-batch-38.js",
   "currentIntegration": {
-    "indexHtml": "Main branch loads original batches 08-38; EXTRA38_GRADE_BANK is included in bankFor() stage/grade/subject filtering. Grade→semester→exam→subject→unit and publisher filters remain; unit options are regenerated from the filtered pool, all-version view retains all records, publisher filters require source/grade/subject/semester/track/scope validation, and zero-result hints remain. High-school second-year Mathematics now requires explicit Mathematics A, Mathematics B, unlabelled-track, or deliberate all-tracks selection to prevent accidental A/B mixing. Academic-competition batches 01-14, wrong-book, favorites and quiz history flows are preserved.",
+    "indexHtml": "Main branch loads original batches 08-38; EXTRA38_GRADE_BANK is included in bankFor() stage/grade/subject filtering. Grade→semester→exam→subject→unit and publisher filters remain; unit options are regenerated from the filtered pool, all-version view retains all records, publisher filters require source/grade/subject/semester/track/scope validation, and zero-result hints remain. High-school second-year Mathematics now requires explicit Mathematics A, Mathematics B, unlabelled-track, or deliberate all-tracks selection to prevent accidental A/B mixing. Academic-competition batches 01-14, wrong-book, favorites and quiz history flows are preserved. Runtime classifier v12 executed on all 2,600 questions: 2,370 curriculum-core, 230 publisher-mapped, 0 pending; high2 Mathematics track counts are A45, B0, unlabelled133, with explicit track selection required.",
     "serviceWorkerCache": "xy-learning-v67",
     "serviceWorkerAsset": "question-bank-batch-08.js through batch-38.js; question-classification-inference.js; textbook-alignment.json; academic-competition-batch-01.js through batch-14.js; existing image assets preserved"
   },
@@ -297,7 +297,7 @@
     "高二": 824,
     "高三": 373
   },
-  "integrationAuditNote": "2026-11-13 main audit after PR #2 merge and follow-up corrections: batches 08-38 contain 2,600 independent questions and 2,600 unique IDs; index.html references batches 08-38 and bankFor() includes EXTRA38; sw.js is xy-learning-v67 and lists all 31 batch assets. Classifier v12 enforces source metadata, grade, subject, semester, course track, school year, course type and unit/volume scope. High-school second-year Mathematics requires explicit track selection to avoid A/B mixing. GitHub Actions workflow/status queries returned no runs/statuses, so Pages deployment and browser interactions remain unverified.",
+  "integrationAuditNote": "2026-11-13 main audit: 2,600 questions across batches 08-38, 2,600 unique IDs; index loads all 31 batches and bankFor() includes batch38; Service Worker v67 includes batch38. Classifier v12 executed across all 2,600 questions with no runtime errors or missing classification notes. Stored mappings 185/185 valid; runtime returns 230 mapped questions (45 inferred) and 2,370 curriculum-core, pending 0. High2 Math track counts A45, B0, unlabelled133; UI requires explicit track selection. GitHub Actions workflow/status queries returned no runs/statuses, so Pages deployment and browser interactions remain unverified.",
   "lastMainBranchAudit": {
     "date": "2026-11-13",
     "independentBatchRange": "第8至第38批",
@@ -419,12 +419,12 @@
     "classifierVersion": "2026-11-13.12",
     "note": "rule-checked代表程式規則與資料結構檢查，非教師逐題審核；段考為複習建議，不代表學校正式考試範圍。",
     "sourceBranch": "main",
-    "sourceHead": "cb0898feed1b17d1dcd3e2b99d446b5492a76396",
+    "sourceHead": "7487711150a0250a2d115c795fa71a1d7f301d76",
     "mergeCommit": "6f8bb1a1865f858885c724e99c64594028ff5e47",
     "pullRequest": 2,
     "mainVerifiedAt": "2026-11-13",
     "pagesDeployment": "not-verified-no-workflow-run",
-    "runtimeClassificationAuditStatus": "not-run-after-classifier-v12",
+    "runtimeClassificationAuditStatus": "executed-v12",
     "mappingVerificationStatusCountsBatches30to38": {
       "source-checked": 174,
       "official-index-link-only": 11
@@ -433,6 +433,52 @@
       "unit": 98,
       "volume": 76,
       "official-resource-title": 11
+    },
+    "runtimeClassification": {
+      "executedAt": "2026-11-13",
+      "classifierVersion": "2026-11-13.12",
+      "questionCount": 2600,
+      "classificationBasis": {
+        "curriculum-core": 2252,
+        "question-bank-inference": 163,
+        "publisher-source-verified": 185
+      },
+      "publisherStatus": {
+        "curriculum-core": 2370,
+        "publisher-mapped": 230,
+        "pending": 0
+      },
+      "publisherQuestionCounts": {
+        "hanlin": 205,
+        "nani": 19,
+        "knsh": 6
+      },
+      "semester": {
+        "unassigned": 2252,
+        "上學期": 220,
+        "下學期": 72,
+        "全學年": 56
+      },
+      "examPeriod": {
+        "unassigned": 2437,
+        "第一次段考": 41,
+        "第二次段考": 53,
+        "第三次段考": 69
+      },
+      "storedMappingReferences": {
+        "total": 185,
+        "validated": 185,
+        "invalid": 0
+      },
+      "inferredPublisherMappedQuestions": 45,
+      "runtimeClassificationNotesMissing": 0,
+      "high2MathCourseTrack": {
+        "total": 178,
+        "數學A": 45,
+        "數學B": 0,
+        "未標示軌別": 133
+      },
+      "notes": "分類器v12已分四組實際執行第8至38批全部2,600題；舊批次8至29共1,700題的分類是執行時動態推定，未回寫原始批次檔。"
     }
   },
   "gradeDistribution": {
@@ -529,7 +575,7 @@
     "notes": "南一四則混合運算5題只標官方索引標題層級；其餘38筆來源為source-checked。"
   },
   "textbookMappingCount": 16,
-  "lastBatchNote": "第38批100題（小六50、高二50）；43題有出版社映射，其中38筆source-checked、5筆official-index-link-only；第30至38批185筆映射引用全部通過中央來源與年級／科目／學期／軌別／範圍驗證；移除7筆不受來源支持的舊映射；第30批91筆分類說明已補齊；分類器v12、Service Worker v67；PR #2已合併main。",
+  "lastBatchNote": "第38批100題（小六50、高二50）；43題有出版社映射，其中38筆source-checked、5筆official-index-link-only；第30至38批185筆映射引用全部通過中央來源與年級／科目／學期／軌別／範圍驗證；全庫分類器v12已執行2,600題，230題有效出版社映射、2,370題共同核心、pending 0；高二數學A45題、B0題、未標示軌別133題；Service Worker v67。",
   "candidateBranchAudit": {
     "date": "2026-11-13",
     "sourceBranch": "automation/batch-38-classification-audit",
