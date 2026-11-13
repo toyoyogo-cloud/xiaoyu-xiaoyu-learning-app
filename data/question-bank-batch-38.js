@@ -905,26 +905,26 @@ window.EXTRA38_GRADE_BANK = [
     "e": "先算一組：3.6＋1.4＝5元，再乘2.5組，得到12.5元。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
-    "sourceRef": "https://tpack.nani.com.tw/nani_content?a=340&b=1",
+    "sourceRef": "https://tpack.nani.com.tw/nani_list?b=1&page=6&t=",
     "reviewStatus": "rule-checked",
     "semester": "下學期",
     "examPeriod": "unassigned",
     "classificationBasis": "publisher-source-verified",
-    "confidence": "high",
+    "confidence": "medium",
     "publisherStatus": "publisher-mapped",
     "publisherMappings": [
       {
         "publisher": "nani",
         "mappingId": "nani-g6-math-6b-four-operations",
-        "sourceUrl": "https://tpack.nani.com.tw/nani_content?a=340&b=1",
-        "sourceTitle": "南一資源_內文－數學6下｜四則混合運算",
+        "sourceUrl": "https://tpack.nani.com.tw/nani_list?b=1&page=6&t=",
+        "sourceTitle": "南一資源_國小資源索引－數學6下：四則混合運算",
         "verifiedAt": "2026-11-13",
-        "verificationStatus": "source-checked",
-        "notes": "南一官方資源頁明示數學6下、國小數學6年級及「四則混合運算」單元標題；僅支持此資源單元層級，不代表完整教科書目次或學校採用版本。",
-        "mappingLevel": "unit",
+        "verificationStatus": "official-index-link-only",
+        "notes": "南一官方資源列表頁明示「數學6下｜四則混合運算」、數學及六年級；詳情頁未能由本次查詢直接讀取，故只標官方索引標題層級，不宣稱完整教科書目次或學校採用版本。",
+        "mappingLevel": "official-resource-title",
         "volume": "數學6下",
-        "unitCode": "官方數位教學資源單元",
-        "unitName": "四則混合運算",
+        "unitCode": "索引標題",
+        "unitName": "四則混合運算（官方索引標題層級）",
         "unitAliases": [
           "四則混合運算"
         ],
@@ -937,7 +937,7 @@ window.EXTRA38_GRADE_BANK = [
         "courseType": "國小"
       }
     ],
-    "classificationNotes": "南一官方資源頁明示數學6下、國小六年級、數學及「四則混合運算」主題；只作單元層級對照，不表示學校採用版本或題目取自教材。",
+    "classificationNotes": "南一官方資源索引標題明示數學6下「四則混合運算」；僅作官方索引標題層級對照，詳情頁未核對；段考未確認。",
     "questionType": "推理判斷"
   },
   {
@@ -962,26 +962,26 @@ window.EXTRA38_GRADE_BANK = [
     "e": "先算除法：3/4÷1/2＝3/2；再減1/3，得9/6−2/6＝7/6。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
-    "sourceRef": "https://tpack.nani.com.tw/nani_content?a=340&b=1",
+    "sourceRef": "https://tpack.nani.com.tw/nani_list?b=1&page=6&t=",
     "reviewStatus": "rule-checked",
     "semester": "下學期",
     "examPeriod": "unassigned",
     "classificationBasis": "publisher-source-verified",
-    "confidence": "high",
+    "confidence": "medium",
     "publisherStatus": "publisher-mapped",
     "publisherMappings": [
       {
         "publisher": "nani",
         "mappingId": "nani-g6-math-6b-four-operations",
-        "sourceUrl": "https://tpack.nani.com.tw/nani_content?a=340&b=1",
-        "sourceTitle": "南一資源_內文－數學6下｜四則混合運算",
+        "sourceUrl": "https://tpack.nani.com.tw/nani_list?b=1&page=6&t=",
+        "sourceTitle": "南一資源_國小資源索引－數學6下：四則混合運算",
         "verifiedAt": "2026-11-13",
-        "verificationStatus": "source-checked",
-        "notes": "南一官方資源頁明示數學6下、國小數學6年級及「四則混合運算」單元標題；僅支持此資源單元層級，不代表完整教科書目次或學校採用版本。",
-        "mappingLevel": "unit",
+        "verificationStatus": "official-index-link-only",
+        "notes": "南一官方資源列表頁明示「數學6下｜四則混合運算」、數學及六年級；詳情頁未能由本次查詢直接讀取，故只標官方索引標題層級，不宣稱完整教科書目次或學校採用版本。",
+        "mappingLevel": "official-resource-title",
         "volume": "數學6下",
-        "unitCode": "官方數位教學資源單元",
-        "unitName": "四則混合運算",
+        "unitCode": "索引標題",
+        "unitName": "四則混合運算（官方索引標題層級）",
         "unitAliases": [
           "四則混合運算"
         ],
@@ -994,7 +994,7 @@ window.EXTRA38_GRADE_BANK = [
         "courseType": "國小"
       }
     ],
-    "classificationNotes": "南一官方資源頁明示數學6下、國小六年級、數學及「四則混合運算」主題；只作單元層級對照，不表示學校採用版本或題目取自教材。",
+    "classificationNotes": "南一官方資源索引標題明示數學6下「四則混合運算」；僅作官方索引標題層級對照，詳情頁未核對；段考未確認。",
     "questionType": "推理判斷"
   },
   {
@@ -1019,26 +1019,26 @@ window.EXTRA38_GRADE_BANK = [
     "e": "剩下2.4−0.9＝1.5公尺；1.5÷0.3＝5段。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
-    "sourceRef": "https://tpack.nani.com.tw/nani_content?a=340&b=1",
+    "sourceRef": "https://tpack.nani.com.tw/nani_list?b=1&page=6&t=",
     "reviewStatus": "rule-checked",
     "semester": "下學期",
     "examPeriod": "unassigned",
     "classificationBasis": "publisher-source-verified",
-    "confidence": "high",
+    "confidence": "medium",
     "publisherStatus": "publisher-mapped",
     "publisherMappings": [
       {
         "publisher": "nani",
         "mappingId": "nani-g6-math-6b-four-operations",
-        "sourceUrl": "https://tpack.nani.com.tw/nani_content?a=340&b=1",
-        "sourceTitle": "南一資源_內文－數學6下｜四則混合運算",
+        "sourceUrl": "https://tpack.nani.com.tw/nani_list?b=1&page=6&t=",
+        "sourceTitle": "南一資源_國小資源索引－數學6下：四則混合運算",
         "verifiedAt": "2026-11-13",
-        "verificationStatus": "source-checked",
-        "notes": "南一官方資源頁明示數學6下、國小數學6年級及「四則混合運算」單元標題；僅支持此資源單元層級，不代表完整教科書目次或學校採用版本。",
-        "mappingLevel": "unit",
+        "verificationStatus": "official-index-link-only",
+        "notes": "南一官方資源列表頁明示「數學6下｜四則混合運算」、數學及六年級；詳情頁未能由本次查詢直接讀取，故只標官方索引標題層級，不宣稱完整教科書目次或學校採用版本。",
+        "mappingLevel": "official-resource-title",
         "volume": "數學6下",
-        "unitCode": "官方數位教學資源單元",
-        "unitName": "四則混合運算",
+        "unitCode": "索引標題",
+        "unitName": "四則混合運算（官方索引標題層級）",
         "unitAliases": [
           "四則混合運算"
         ],
@@ -1051,7 +1051,7 @@ window.EXTRA38_GRADE_BANK = [
         "courseType": "國小"
       }
     ],
-    "classificationNotes": "南一官方資源頁明示數學6下、國小六年級、數學及「四則混合運算」主題；只作單元層級對照，不表示學校採用版本或題目取自教材。",
+    "classificationNotes": "南一官方資源索引標題明示數學6下「四則混合運算」；僅作官方索引標題層級對照，詳情頁未核對；段考未確認。",
     "questionType": "推理判斷"
   },
   {
@@ -1076,26 +1076,26 @@ window.EXTRA38_GRADE_BANK = [
     "e": "先算括號：1/3×3/4＝1/4；5/6−1/4＝10/12−3/12＝7/12。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
-    "sourceRef": "https://tpack.nani.com.tw/nani_content?a=340&b=1",
+    "sourceRef": "https://tpack.nani.com.tw/nani_list?b=1&page=6&t=",
     "reviewStatus": "rule-checked",
     "semester": "下學期",
     "examPeriod": "unassigned",
     "classificationBasis": "publisher-source-verified",
-    "confidence": "high",
+    "confidence": "medium",
     "publisherStatus": "publisher-mapped",
     "publisherMappings": [
       {
         "publisher": "nani",
         "mappingId": "nani-g6-math-6b-four-operations",
-        "sourceUrl": "https://tpack.nani.com.tw/nani_content?a=340&b=1",
-        "sourceTitle": "南一資源_內文－數學6下｜四則混合運算",
+        "sourceUrl": "https://tpack.nani.com.tw/nani_list?b=1&page=6&t=",
+        "sourceTitle": "南一資源_國小資源索引－數學6下：四則混合運算",
         "verifiedAt": "2026-11-13",
-        "verificationStatus": "source-checked",
-        "notes": "南一官方資源頁明示數學6下、國小數學6年級及「四則混合運算」單元標題；僅支持此資源單元層級，不代表完整教科書目次或學校採用版本。",
-        "mappingLevel": "unit",
+        "verificationStatus": "official-index-link-only",
+        "notes": "南一官方資源列表頁明示「數學6下｜四則混合運算」、數學及六年級；詳情頁未能由本次查詢直接讀取，故只標官方索引標題層級，不宣稱完整教科書目次或學校採用版本。",
+        "mappingLevel": "official-resource-title",
         "volume": "數學6下",
-        "unitCode": "官方數位教學資源單元",
-        "unitName": "四則混合運算",
+        "unitCode": "索引標題",
+        "unitName": "四則混合運算（官方索引標題層級）",
         "unitAliases": [
           "四則混合運算"
         ],
@@ -1108,7 +1108,7 @@ window.EXTRA38_GRADE_BANK = [
         "courseType": "國小"
       }
     ],
-    "classificationNotes": "南一官方資源頁明示數學6下、國小六年級、數學及「四則混合運算」主題；只作單元層級對照，不表示學校採用版本或題目取自教材。",
+    "classificationNotes": "南一官方資源索引標題明示數學6下「四則混合運算」；僅作官方索引標題層級對照，詳情頁未核對；段考未確認。",
     "questionType": "推理判斷"
   },
   {
@@ -1133,26 +1133,26 @@ window.EXTRA38_GRADE_BANK = [
     "e": "先乘除：2.5×1.2＝3，0.8÷0.4＝2，再相減得1。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
-    "sourceRef": "https://tpack.nani.com.tw/nani_content?a=340&b=1",
+    "sourceRef": "https://tpack.nani.com.tw/nani_list?b=1&page=6&t=",
     "reviewStatus": "rule-checked",
     "semester": "下學期",
     "examPeriod": "unassigned",
     "classificationBasis": "publisher-source-verified",
-    "confidence": "high",
+    "confidence": "medium",
     "publisherStatus": "publisher-mapped",
     "publisherMappings": [
       {
         "publisher": "nani",
         "mappingId": "nani-g6-math-6b-four-operations",
-        "sourceUrl": "https://tpack.nani.com.tw/nani_content?a=340&b=1",
-        "sourceTitle": "南一資源_內文－數學6下｜四則混合運算",
+        "sourceUrl": "https://tpack.nani.com.tw/nani_list?b=1&page=6&t=",
+        "sourceTitle": "南一資源_國小資源索引－數學6下：四則混合運算",
         "verifiedAt": "2026-11-13",
-        "verificationStatus": "source-checked",
-        "notes": "南一官方資源頁明示數學6下、國小數學6年級及「四則混合運算」單元標題；僅支持此資源單元層級，不代表完整教科書目次或學校採用版本。",
-        "mappingLevel": "unit",
+        "verificationStatus": "official-index-link-only",
+        "notes": "南一官方資源列表頁明示「數學6下｜四則混合運算」、數學及六年級；詳情頁未能由本次查詢直接讀取，故只標官方索引標題層級，不宣稱完整教科書目次或學校採用版本。",
+        "mappingLevel": "official-resource-title",
         "volume": "數學6下",
-        "unitCode": "官方數位教學資源單元",
-        "unitName": "四則混合運算",
+        "unitCode": "索引標題",
+        "unitName": "四則混合運算（官方索引標題層級）",
         "unitAliases": [
           "四則混合運算"
         ],
@@ -1165,7 +1165,7 @@ window.EXTRA38_GRADE_BANK = [
         "courseType": "國小"
       }
     ],
-    "classificationNotes": "南一官方資源頁明示數學6下、國小六年級、數學及「四則混合運算」主題；只作單元層級對照，不表示學校採用版本或題目取自教材。",
+    "classificationNotes": "南一官方資源索引標題明示數學6下「四則混合運算」；僅作官方索引標題層級對照，詳情頁未核對；段考未確認。",
     "questionType": "推理判斷"
   },
   {
@@ -2760,7 +2760,8 @@ window.EXTRA38_GRADE_BANK = [
           "圓周",
           "向心",
           "波以耳",
-          "線膨脹"
+          "線膨脹",
+          "機械能"
         ],
         "semester": "上學期",
         "grade": "高二",
@@ -2836,7 +2837,8 @@ window.EXTRA38_GRADE_BANK = [
           "圓周",
           "向心",
           "波以耳",
-          "線膨脹"
+          "線膨脹",
+          "機械能"
         ],
         "semester": "上學期",
         "grade": "高二",
@@ -2912,7 +2914,8 @@ window.EXTRA38_GRADE_BANK = [
           "圓周",
           "向心",
           "波以耳",
-          "線膨脹"
+          "線膨脹",
+          "機械能"
         ],
         "semester": "上學期",
         "grade": "高二",
@@ -2988,7 +2991,8 @@ window.EXTRA38_GRADE_BANK = [
           "圓周",
           "向心",
           "波以耳",
-          "線膨脹"
+          "線膨脹",
+          "機械能"
         ],
         "semester": "上學期",
         "grade": "高二",
@@ -3064,7 +3068,8 @@ window.EXTRA38_GRADE_BANK = [
           "圓周",
           "向心",
           "波以耳",
-          "線膨脹"
+          "線膨脹",
+          "機械能"
         ],
         "semester": "上學期",
         "grade": "高二",
@@ -3140,7 +3145,8 @@ window.EXTRA38_GRADE_BANK = [
           "圓周",
           "向心",
           "波以耳",
-          "線膨脹"
+          "線膨脹",
+          "機械能"
         ],
         "semester": "上學期",
         "grade": "高二",
@@ -3216,7 +3222,8 @@ window.EXTRA38_GRADE_BANK = [
           "圓周",
           "向心",
           "波以耳",
-          "線膨脹"
+          "線膨脹",
+          "機械能"
         ],
         "semester": "上學期",
         "grade": "高二",
@@ -3292,7 +3299,8 @@ window.EXTRA38_GRADE_BANK = [
           "圓周",
           "向心",
           "波以耳",
-          "線膨脹"
+          "線膨脹",
+          "機械能"
         ],
         "semester": "上學期",
         "grade": "高二",
