@@ -1105,7 +1105,7 @@
   },
   "auditSummary": {
     "auditedAt": "2026-11-13",
-    "auditedRef": "automation/batch-39-2026-11-13",
+    "auditedRef": "main",
     "batchRange": "08-39",
     "batchFileCount": 32,
     "questionCount": 2700,
@@ -1144,7 +1144,8 @@
       "第39批新增100題（小六50、高二50）；37筆出版社映射引用全部使用中央16筆mappingId，逐筆核對publisher、sourceUrl、sourceTitle、verifiedAt、verificationStatus、notes、年級、科目、學期、數學A軌別及單元／冊別範圍，37/37通過。",
       "第39批37筆來源映射為南一4、翰林33；映射層級為單元22、冊別15。物理II、化學II、生物II僅冊別層級，不宣稱細分目次已核對；學校採用版本未確認。",
       "第39批其餘63題標示108課綱共同核心，學期與段考保留未分類；段考不代表學校正式範圍。跨第8至38批正規化題幹比對0組重複。",
-      "本次只對第39批執行結構與映射一致性靜態驗證；分類器v12尚未重新執行全庫2,700題，瀏覽器互動及Pages部署尚待確認。"
+      "本次只對第39批執行結構與映射一致性靜態驗證；分類器v12尚未重新執行全庫2,700題，瀏覽器互動及Pages部署尚待確認。",
+      "第39批已透過PR #3合併main，merge commit ab7f638772ddc0baf9b8d0957e9ca38835a6cb46；main載入批次08至39，Service Worker v68含第39批資產。"
     ],
     "mappingVerificationStatusCountsBatches30to38": {
       "source-checked": 174,
@@ -1287,6 +1288,9 @@
       "arithmeticChecks": "數學、物理計算題與化學平衡式逐題重算；規則檢查",
       "runtimeClassificationMatchesStoredFields": "not-run",
       "browserFunctionalTests": "pending"
-    }
+    },
+    "mergeStatus": "merged",
+    "pullRequest": 3,
+    "mergeCommit": "ab7f638772ddc0baf9b8d0957e9ca38835a6cb46"
   }
 }
