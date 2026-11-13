@@ -954,10 +954,14 @@
     "publisherMappingReferenceCount": 340,
     "centralMappingRegistryCount": 16,
     "mappingValidationThisRun": {
-      "batch": "31",
-      "publisherMappedQuestions": 21,
-      "mappingReferencesValidated": 21,
-      "errors": 0
+      "batches": "08-41",
+      "mappingReferences": 340,
+      "registryReferencesFound": 340,
+      "sourceFieldErrors": 0,
+      "gradeSubjectSemesterTrackErrors": 0,
+      "unitOrVolumeScopeErrors": 0,
+      "result": "340/340 internal consistency checks passed",
+      "limitation": "Stored registry consistency only; not a fresh live re-open of every official publisher URL."
     },
     "pendingQuestionCount": 0,
     "extendedMetadata": {
@@ -971,7 +975,8 @@
       "difficultyLevel": 300
     },
     "newQuestionsAdded": 0,
-    "notes": "本次直接解析main第8至41批34個題庫檔。所有2,900題均有基本分類欄位；擴充欄位目前完整300題，其中獨立分類索引100題、第40至41批內建200題。重要更正：本次開始前data/question-classification.json實際為0 bytes，先前稽核所稱1,800筆索引未存在於當時main檔案，故不計入目前完成數。本次已補建第31批100筆。尚有2,600題缺少至少一項擴充欄位。全庫映射數量依實際批次欄位計算；本次逐筆重驗第31批21筆映射，其餘映射仍待全量重驗。"
+    "notes": "本次直接解析main第8至41批34個題庫檔。所有2,900題均有基本分類欄位；擴充欄位目前完整300題，其中獨立分類索引100題、第40至41批內建200題。重要更正：本次開始前data/question-classification.json實際為0 bytes，先前稽核所稱1,800筆索引未存在於當時main檔案，故不計入目前完成數。本次已補建第31批100筆。尚有2,600題缺少至少一項擴充欄位。全庫映射數量依實際批次欄位計算；本次逐筆重驗第31批21筆映射，其餘映射仍待全量重驗。",
+    "publisherMappingConsistencyErrors": 0
   },
   "unassignedRecheckAudit": {
     "date": "2026-11-13",
@@ -991,5 +996,17 @@
     "publisher": "hanlin",
     "mappingId": "hanlin-h2-physics-ii",
     "notes": "依現行分類器v17的單元／冊別範圍規則重新檢查；第8至38批及第39至40批未發現需新增的持久化更動。第41批b41-067機械能守恆、b41-068等速圓周運動符合翰林選修物理(II)冊別層級範圍，新增上學期與冊別映射；不推定段考。"
+  },
+  "fullCorpusMappingValidation": {
+    "auditedAt": "2026-11-13",
+    "batches": "08-41",
+    "mappingReferences": 340,
+    "centralRegistryCount": 16,
+    "registryReferencesFound": 340,
+    "sourceFieldErrors": 0,
+    "gradeSubjectSemesterTrackErrors": 0,
+    "unitOrVolumeScopeErrors": 0,
+    "result": "340/340 internal consistency checks passed",
+    "limitation": "No claim that every official source URL was freshly re-opened during this run."
   }
 }
