@@ -329,7 +329,7 @@
       "翰林選修化學(II)官方頁明示高二上學期，既有錯誤下學期標記已更正。",
       "教材映射新增mappingId、mappingLevel、schoolYear、courseType，並保留sourceUrl/sourceTitle/verifiedAt/verificationStatus/notes。"
     ],
-    "duplicateAuditNote": "已確認歷史題庫至少有3組完全相同正規化題幹（b9-006/b13-013、b10-009/b18-037、b13-020/b20-065）；其餘全庫跨所有批次的語意近似仍需持續審查，未擅自刪改舊題。",
+    "duplicateAuditNote": "第36批初次與第8至35批2,300題比對發現4個完全相同正規化題幹，已改寫b36-011、b36-018、b36-055、b36-081並重新檢查；本批內與舊批次完全相同題幹均為0組。舊題庫歷史重複至少3組（b9-006/b13-013、b10-009/b18-037、b13-020/b20-065）；不擅自刪改舊題。",
     "classifier": "data/question-classification-inference.js",
     "note": "第36批新增100題；只新增小六與高二。出版社映射僅在來源支持年級、科目、學期／冊別及單元或冊別層級時套用；數學A/B軌別未確認者不掛3A。"
   },
@@ -381,9 +381,18 @@
       "explanationsPresent": true,
       "classificationFieldsComplete": true,
       "mappingMetadataComplete": true,
-      "idsUnique": true
+      "idsUnique": true,
+      "batchInternalExactDuplicateStems": 0,
+      "crossBatchExactDuplicateStems": 0,
+      "duplicateStemCorrections": [
+        "b36-011",
+        "b36-018",
+        "b36-055",
+        "b36-081"
+      ],
+      "crossBatchComparedAgainst": "第8至35批共2,300題"
     }
   },
   "textbookMappingCount": 16,
-  "lastBatchNote": "第36批100題（小六50、高二50）；新增南一數學6下三項官方資源映射，並依官方來源校正既有Math A/B與化學II學期標記。"
+  "lastBatchNote": "第36批100題（小六50、高二50）；新增南一數學6下三項官方資源映射，依官方來源校正Math A/B與化學II學期標記，並改寫4個跨批次重複題幹。"
 }
