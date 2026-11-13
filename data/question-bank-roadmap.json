@@ -347,7 +347,62 @@
     ],
     "duplicateAuditNote": "第37批初檢發現b37-032與b13-006題幹完全相同，已改寫為水箱容積應用題；修正後重新與第8至36批2,400題正規化比對，完全相同題幹0組，批次內0組。分類器回歸測試亦確認所有100題的儲存分類欄位與執行時結果一致。舊題庫已知歷史重複（b9-006/b13-013、b10-009/b18-037、b13-020/b20-065）保留，不擅自刪除。",
     "classifier": "data/question-classification-inference.js",
-    "note": "新增題目僅小六與高二；rule-checked代表程式規則檢查，不是教師逐題審核。出版社映射只限官方來源可支持的層級；冊別層級不冒稱單元，學校採用版本未確認。"
+    "note": "新增題目僅小六與高二；rule-checked代表程式規則檢查，不是教師逐題審核。出版社映射只限官方來源可支持的層級；冊別層級不冒稱單元，學校採用版本未確認。",
+    "runtimeClassificationAudit": {
+      "beforeBatch37": {
+        "questions": 2400,
+        "basis": {
+          "curriculumCore": 2134,
+          "questionBankInference": 136,
+          "publisherSourceVerified": 130
+        },
+        "semester": {
+          "unassigned": 2134,
+          "firstSemester": 166,
+          "secondSemester": 53,
+          "fullYear": 47
+        },
+        "examPeriod": {
+          "unassigned": 2264,
+          "firstExam": 34,
+          "secondExam": 45,
+          "thirdExam": 57
+        },
+        "previouslyUnassignedQuestionsNowAssignedSemester": 117,
+        "publisherMappingReferences": {
+          "hanlin": 147,
+          "knsh": 4,
+          "nani": 3
+        }
+      },
+      "afterBatch37": {
+        "questions": 2500,
+        "basis": {
+          "curriculumCore": 2201,
+          "questionBankInference": 148,
+          "publisherSourceVerified": 151
+        },
+        "semester": {
+          "unassigned": 2201,
+          "firstSemester": 188,
+          "secondSemester": 60,
+          "fullYear": 51
+        },
+        "examPeriod": {
+          "unassigned": 2352,
+          "firstExam": 37,
+          "secondExam": 48,
+          "thirdExam": 63
+        },
+        "publisherMappingReferences": {
+          "hanlin": 170,
+          "knsh": 5,
+          "nani": 9
+        },
+        "centralMappingRecords": 16
+      },
+      "note": "Counts are produced by executing question-classification-inference.js against all question objects; semester/exam assignments remain revision recommendations, not official school scope."
+    }
   },
   "gradeDistribution": {
     "五年級": 290,
