@@ -649,11 +649,11 @@
     "officialResourceTitle": 11
   },
   "sourceBranch": "main",
-  "sourceHead": "4c2f57a8972b8f6910b443f97881839d934052f7",
+  "sourceHead": "f6d5c10fb3701bf842111297cd9f7dba85622e1c",
   "mergeCommit": "4c2f57a8972b8f6910b443f97881839d934052f7",
   "pullRequest": 6,
   "mainVerifiedAt": "2026-11-14",
-  "pagesDeployment": "pending-after-commit-workflow-check",
+  "pagesDeployment": "workflow-run-success:43467223025",
   "runtimeClassificationAuditStatus": "v18-static-classification-index-batches08-10-and31; browser-runtime-pending",
   "mappingVerificationStatusCountsBatches30to40": {
     "source-checked": 254,
@@ -787,7 +787,7 @@
         "answerIndices0to3": true,
         "explanationsPresent": true,
         "staticFilterValidation": {
-          "combinations": 93600,
+          "combinations": 421848,
           "violations": 0,
           "all30Reachable": true,
           "publisherResults": {
@@ -808,7 +808,8 @@
         "serviceWorkerCache": "xy-learning-v81",
         "cacheVersionBumped": true
       },
-      "notes": "第11批30題已補齊learningDomain、questionType、learningUnit、difficultyLevel並寫入獨立分類索引。b11-005依六年級圓周單元群保留下學期／第一次段考複習建議，不代表學校正式範圍。b11-021及跨批次b12-025、b16-059、b23-074、b37-069原翰林選修物理(II)映射均因電路／電功率超出冊別對照範圍而撤除，改列待核對。其餘無足夠出版社來源者不掛出版社；本次新增題目0題。"
+      "notes": "第11批30題已補齊learningDomain、questionType、learningUnit、difficultyLevel並寫入獨立分類索引。b11-005依六年級圓周單元群保留下學期／第一次段考複習建議，不代表學校正式範圍。b11-021及跨批次b12-025、b16-059、b23-074、b37-069原翰林選修物理(II)映射均因電路／電功率超出冊別對照範圍而撤除，改列待核對。其餘無足夠出版社來源者不掛出版社；本次新增題目0題。",
+      "writeHead": "f6d5c10fb3701bf842111297cd9f7dba85622e1c"
     },
     "previousRun": {
       "date": "2026-11-13",
@@ -893,7 +894,8 @@
       "entriesBeforeRun": 192,
       "entriesAddedThisRun": 34,
       "currentEntries": 226,
-      "note": "新增第11批30題擴充分類，另加入4筆跨批次電功率映射撤除的完整覆寫資料；既有索引條目未覆蓋。"
+      "note": "新增第11批30題擴充分類，另加入4筆跨批次電功率映射撤除的完整覆寫資料；既有索引條目未覆蓋。",
+      "sourceHeadAfterRun": "f6d5c10fb3701bf842111297cd9f7dba85622e1c"
     }
   },
   "fullMainClassificationAudit": {
@@ -1124,7 +1126,7 @@
       "newQuestionsAdded": 0,
       "extendedMetadataComplete": 30,
       "staticFilterValidation": {
-        "combinations": 93600,
+        "combinations": 421848,
         "violations": 0,
         "all30Reachable": true,
         "publisherResults": {
@@ -1242,7 +1244,8 @@
       "difficultyLevel": 426
     },
     "newQuestionsAdded": 0,
-    "notes": "第11批30題已補齊learningDomain、questionType、learningUnit、difficultyLevel並寫入獨立分類索引。b11-005依六年級圓周單元群保留下學期／第一次段考複習建議，不代表學校正式範圍。b11-021及跨批次b12-025、b16-059、b23-074、b37-069原翰林選修物理(II)映射均因電路／電功率超出冊別對照範圍而撤除，改列待核對。其餘無足夠出版社來源者不掛出版社；本次新增題目0題。"
+    "notes": "第11批30題已補齊learningDomain、questionType、learningUnit、difficultyLevel並寫入獨立分類索引。b11-005依六年級圓周單元群保留下學期／第一次段考複習建議，不代表學校正式範圍。b11-021及跨批次b12-025、b16-059、b23-074、b37-069原翰林選修物理(II)映射均因電路／電功率超出冊別對照範圍而撤除，改列待核對。其餘無足夠出版社來源者不掛出版社；本次新增題目0題。",
+    "sourceHeadAfterRun": "f6d5c10fb3701bf842111297cd9f7dba85622e1c"
   },
   "latestClassificationBackfill": {
     "auditedAt": "2026-11-14",
@@ -1348,7 +1351,8 @@
     "newQuestionsAdded": 0,
     "notes": "第11批30題已補齊learningDomain、questionType、learningUnit、difficultyLevel並寫入獨立分類索引。b11-005依六年級圓周單元群保留下學期／第一次段考複習建議，不代表學校正式範圍。b11-021及跨批次b12-025、b16-059、b23-074、b37-069原翰林選修物理(II)映射均因電路／電功率超出冊別對照範圍而撤除，改列待核對。其餘無足夠出版社來源者不掛出版社；本次新增題目0題。",
     "batch": "11",
-    "batchQuestionCount": 30
+    "batchQuestionCount": 30,
+    "sourceHeadAfterRun": "f6d5c10fb3701bf842111297cd9f7dba85622e1c"
   },
   "batch09UnassignedReview": {
     "date": "2026-11-13",
@@ -1603,7 +1607,7 @@
       "answerIndices0to3": true,
       "explanationsPresent": true,
       "staticFilterValidation": {
-        "combinations": 93600,
+        "combinations": 421848,
         "violations": 0,
         "all30Reachable": true,
         "publisherResults": {
