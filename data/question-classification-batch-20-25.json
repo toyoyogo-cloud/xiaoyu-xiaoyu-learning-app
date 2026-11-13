@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.1.0",
   "updatedAt": "2026-11-14",
-  "classificationRuleVersion": "2026-11-14.31",
+  "classificationRuleVersion": "2026-11-14.33",
   "batchRange": "20-25",
   "sourceBatchShas": {
     "20": "679b5752f1be7ee03e8b20de4221fa873c0f5bf5",
@@ -350,7 +350,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。",
       "sourceRef": "依108課綱核心素養與學科概念原創編寫；非歷屆試題原文",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "文法句型",
       "questionType": "概念辨識",
       "learningUnit": "There is/are",
       "difficultyLevel": "基礎"
@@ -711,7 +711,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。",
       "sourceRef": "依108課綱核心素養與學科概念原創編寫；非歷屆試題原文",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "文法句型",
       "questionType": "概念辨識",
       "learningUnit": "過去簡單式",
       "difficultyLevel": "基礎"
@@ -1376,7 +1376,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。",
       "sourceRef": "依108課綱核心素養與學科概念原創編寫；非歷屆試題原文",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "經濟社會",
       "questionType": "概念辨識",
       "learningUnit": "貨幣政策",
       "difficultyLevel": "基礎"
@@ -1756,7 +1756,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。",
       "sourceRef": "依108課綱核心素養與學科概念原創編寫；非歷屆試題原文",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "經濟社會",
       "questionType": "概念辨識",
       "learningUnit": "租稅公平",
       "difficultyLevel": "進階"
@@ -2022,7 +2022,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。",
       "sourceRef": "依108課綱核心素養與學科概念原創編寫；非歷屆試題原文",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "數與運算",
       "questionType": "概念辨識",
       "learningUnit": "最大公因數分組",
       "difficultyLevel": "挑戰"
@@ -2668,7 +2668,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。",
       "sourceRef": "依108課綱核心素養與學科概念原創編寫；非歷屆試題原文",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "生活溝通",
       "questionType": "概念辨識",
       "learningUnit": "未來計畫句型",
       "difficultyLevel": "進階"
@@ -2896,7 +2896,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。",
       "sourceRef": "依108課綱核心素養與學科概念原創編寫；非歷屆試題原文",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "法律人權",
       "questionType": "概念辨識",
       "learningUnit": "契約成立要件",
       "difficultyLevel": "進階"
@@ -3143,7 +3143,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。",
       "sourceRef": "依108課綱核心素養與學科概念原創編寫；非歷屆試題原文",
-      "learningDomain": "代數與函數",
+      "learningDomain": "幾何與測量",
       "questionType": "計算應用",
       "learningUnit": "三角函數最大值",
       "difficultyLevel": "進階"
@@ -3219,7 +3219,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。",
       "sourceRef": "依108課綱核心素養與學科概念原創編寫；非歷屆試題原文",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "人文地理",
       "questionType": "推理判斷",
       "learningUnit": "土地使用分區衝突",
       "difficultyLevel": "進階"
@@ -3504,7 +3504,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。",
       "sourceRef": "依108課綱核心素養與學科概念原創編寫；非歷屆試題原文",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "閱讀理解",
       "questionType": "概念辨識",
       "learningUnit": "代名詞指涉",
       "difficultyLevel": "進階"
@@ -3542,7 +3542,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。",
       "sourceRef": "依108課綱核心素養與學科概念原創編寫；非歷屆試題原文",
-      "learningDomain": "數與運算",
+      "learningDomain": "幾何與測量",
       "questionType": "計算應用",
       "learningUnit": "向量投影",
       "difficultyLevel": "挑戰"
@@ -3637,7 +3637,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。",
       "sourceRef": "依108課綱核心素養與學科概念原創編寫；非歷屆試題原文",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "法律人權",
       "questionType": "概念辨識",
       "learningUnit": "個資目的限制",
       "difficultyLevel": "進階"
@@ -4188,7 +4188,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。",
       "sourceRef": "依108課綱核心素養與學科概念原創編寫；非歷屆試題原文",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "世界史",
       "questionType": "概念辨識",
       "learningUnit": "法國大革命思想",
       "difficultyLevel": "進階"
@@ -4872,7 +4872,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。",
       "sourceRef": "依108課綱核心素養與學科概念原創編寫；非歷屆試題原文",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "經濟社會",
       "questionType": "推理判斷",
       "learningUnit": "貨幣政策與通膨",
       "difficultyLevel": "進階"
@@ -5328,7 +5328,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。",
       "sourceRef": "依108課綱核心素養與學科概念原創編寫；非歷屆試題原文",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "世界史",
       "questionType": "概念辨識",
       "learningUnit": "柏林圍牆倒塌的象徵",
       "difficultyLevel": "進階"
@@ -5366,7 +5366,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。",
       "sourceRef": "依108課綱核心素養與學科概念原創編寫；非歷屆試題原文",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "世界史",
       "questionType": "概念辨識",
       "learningUnit": "口述歷史交叉查證",
       "difficultyLevel": "進階"
@@ -5632,7 +5632,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。",
       "sourceRef": "依108課綱核心素養與學科概念原創編寫；非歷屆試題原文",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "細胞分子",
       "questionType": "概念辨識",
       "learningUnit": "PCR退火步驟",
       "difficultyLevel": "進階"
@@ -6449,7 +6449,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。",
       "sourceRef": "依108課綱核心素養與學科概念原創編寫；非歷屆試題原文",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "生活溝通",
       "questionType": "概念辨識",
       "learningUnit": "未來計畫",
       "difficultyLevel": "進階"
@@ -10249,7 +10249,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。",
       "sourceRef": "依108課綱核心素養與學科概念原創編寫；非歷屆試題原文",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "文法句型",
       "questionType": "概念辨識",
       "learningUnit": "義務與禁止",
       "difficultyLevel": "進階"
