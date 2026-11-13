@@ -1105,7 +1105,7 @@
   },
   "auditSummary": {
     "auditedAt": "2026-11-13",
-    "auditedRef": "main at 6c01e81c8af5105c9c38af040ae77f26fd4ad483 (pre-final audit metadata refresh)",
+    "auditedRef": "main classifier v12 runtime execution across batches 08-38",
     "batchRange": "08-38",
     "batchFileCount": 31,
     "questionCount": 2600,
@@ -1155,6 +1155,58 @@
       "hanlin": 160,
       "knsh": 6,
       "nani": 19
+    },
+    "runtimeClassification": {
+      "executedAt": "2026-11-13",
+      "classifierVersion": "2026-11-13.12",
+      "questionCount": 2600,
+      "classificationBasis": {
+        "curriculum-core": 2252,
+        "question-bank-inference": 163,
+        "publisher-source-verified": 185
+      },
+      "publisherStatus": {
+        "curriculum-core": 2370,
+        "publisher-mapped": 230,
+        "pending": 0
+      },
+      "publisherQuestionCounts": {
+        "hanlin": 205,
+        "nani": 19,
+        "knsh": 6
+      },
+      "semester": {
+        "unassigned": 2252,
+        "上學期": 220,
+        "下學期": 72,
+        "全學年": 56
+      },
+      "examPeriod": {
+        "unassigned": 2437,
+        "第一次段考": 41,
+        "第二次段考": 53,
+        "第三次段考": 69
+      },
+      "storedMappingReferences": {
+        "total": 185,
+        "validated": 185,
+        "invalid": 0
+      },
+      "inferredPublisherMappedQuestions": 45,
+      "runtimeClassificationNotesMissing": 0,
+      "high2MathCourseTrack": {
+        "total": 178,
+        "數學A": 45,
+        "數學B": 0,
+        "未標示軌別": 133
+      },
+      "notes": [
+        "以目前main的question-classification-inference.js v12實際執行全部第8至38批2,600題；每題皆回傳分類說明，未發現執行錯誤。",
+        "第8至29批1,700題沒有內嵌分類欄位，以上結果為執行時動態推定，沒有回寫其原始批次檔；無足夠依據者仍保留unassigned。",
+        "230題取得有效出版社映射，其中185題使用批次內已儲存且通過驗證的映射，另45題由分類器依題目單元／知識點及中央來源規則推定。",
+        "publisherStatus為curriculum-core的2,370題仍保留在全部版本及共同核心篩選中；pending目前0題；出版社篩選只顯示有效映射。",
+        "段考仍為題庫複習建議，不代表學校正式段考範圍；未標示數學A/B軌別的高二數學題獨立列出，不自動併入數學A或B。"
+      ]
     }
   }
 }
