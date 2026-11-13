@@ -137,5 +137,5 @@ function classify(q){
  return {semester,examPeriod,classificationBasis:basis,confidence,publisherStatus,publisherMappings:mappings,classificationNotes:notes,reason:notes,sourceRef,learningDomain,questionType,learningUnit:label(q)||"未標示",difficultyLevel:q.d||q.difficulty||"未標示"};
 }
 window.questionClassificationFor=classify;
-window.QUESTION_CLASSIFICATION_RULES_VERSION="2026-11-13.8";
+window.QUESTION_CLASSIFICATION_RULES_VERSION="2026-11-13.9";
 })();
