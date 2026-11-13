@@ -385,18 +385,18 @@
       "semester": "上學期",
       "publisher": "hanlin",
       "volume": "選修化學(II)物質構造與反應速率",
-      "unitCode": "冊名主題",
-      "unitName": "物質構造與反應速率（冊名層級）",
-      "learningContent": "對應官方課本名稱所示的物質構造與反應速率主題；商品頁未列完整章節目次，故不再推定細分單元或段考。",
+      "unitCode": "全冊",
+      "unitName": "物質構造與反應速率（冊別層級；未核對細分目次）",
+      "learningContent": "官方課本頁僅確認高中二年級上學期及冊名「物質構造與反應速率」；未取得可核對的完整細分目次，因此只標示冊別層級。",
       "sourceType": "official-publisher",
       "sourceUrl": "https://books.hanlin.com.tw/product/005022",
       "sourceTitle": "翰林書城－高中課本選修化學(II)物質構造與反應速率",
       "verifiedAt": "2026-11-13",
       "verificationStatus": "source-checked",
-      "notes": "官方翰林課本頁明示高中2年級、上學期及冊名「選修化學(II)物質構造與反應速率」；僅冊名／主題層級，未核對完整細分目次。此前曾誤標下學期，本次依官方頁更正。此映射不代表學校採用版本。",
+      "notes": "翰林官方課本頁明示高中2年級、上學期及冊名「選修化學(II)物質構造與反應速率」；僅冊別層級，不宣稱細分單元已核對。不同商品編號的實驗手冊或習作可能有不同學期，不能與此課本頁混用。此映射不代表學校採用版本。",
       "mappingId": "hanlin-h2-chemistry-ii-structure-rate",
       "courseType": "未確認",
-      "mappingLevel": "title-topic"
+      "mappingLevel": "volume"
     },
     {
       "id": "hanlin-h2-biology-ii-plant",
@@ -840,6 +840,46 @@
     "mappingLevel 區分 unit、title-topic、volume；冊別／冊名層級不代表細分單元已核對。",
     "數學3A映射限定 courseTrack=數學A；未確認數學A/B者不得套用。",
     "出版社來源只證明教材冊別／單元對照，不代表學校採用該版本。",
-    "翰林選修化學(II)官方課本頁明示高二上學期，已由下學期更正為上學期。"
-  ]
+    "翰林選修化學(II)官方課本頁明示高二上學期，已由下學期更正為上學期。",
+    "2026-11-13 main 全庫盤點：第8至36批共2,400題、2,400個唯一ID；第8至29批1,700題沒有內嵌出版社／學期分類欄位，改由 question-classification-inference.js 依可辨識知識點動態推定，無證據者保留unassigned/pending；第30至36批700題有分類欄位，出版社映射引用119筆，對照16筆中央映射後未發現年級、科目、學期或課程軌別不符。第30批有91題未儲存classificationNotes，執行時由分類器以sourceRef／預設理由補出說明。此為結構與來源欄位稽核，不表示每題都已取得出版社對照。",
+    "化學(II)冊別層級校正：以翰林課本商品頁005022為準，確認高二上學期；不同商品編號的習作或實驗手冊學期不可混用。"
+  ],
+  "lastAudit": {
+    "verifiedAt": "2026-11-13",
+    "sourceBranch": "main",
+    "sourceHead": "33292250997ea8247ff3eb43c8e7160f3af8825f",
+    "batchRange": "第8至36批",
+    "batchCount": 29,
+    "independentQuestions": 2400,
+    "uniqueIds": 2400,
+    "batchQuestionCounts": {
+      "22": 101,
+      "08-14": 199,
+      "15-21": 700,
+      "23-36": 1400
+    },
+    "gradeDistribution": {
+      "五年級": 290,
+      "六年級": 640,
+      "高一": 373,
+      "高二": 724,
+      "高三": 373
+    },
+    "legacyRecords": {
+      "batchRange": "第8至29批",
+      "count": 1700,
+      "inlineClassificationMetadata": "absent",
+      "handling": "runtime inference by question-classification-inference.js; no evidence -> unassigned/pending"
+    },
+    "classifiedRecords": {
+      "batchRange": "第30至36批",
+      "count": 700,
+      "publisherMappedQuestions": 119,
+      "centralMappingRecords": 16,
+      "mappingConsistencyErrors": 0,
+      "batch30MissingClassificationNotes": 91,
+      "handling": "classifier supplies reason/notes fallback from sourceRef or explicit rule"
+    },
+    "policy": "Math A/B are not mixed; only questions explicitly tagged courseTrack=數學A can resolve the Hanlin 3A mappings. Publisher source confirms only the level stated in mappingLevel. School adoption remains unknown unless separately documented."
+  }
 }
