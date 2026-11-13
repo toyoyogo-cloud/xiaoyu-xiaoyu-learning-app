@@ -589,7 +589,7 @@
     "date": "2026-11-13",
     "branch": "automation/batch-40-2026-11-13",
     "baseMainHead": "16dd9d40ecd1a4ec02fa6d94609d24d8bef52fa0",
-    "status": "pending-pull-request",
+    "status": "pull-request-open",
     "independentBatchRange": "第8至第40批",
     "independentBatchQuestions": 2800,
     "uniqueIds": 2800,
@@ -614,7 +614,9 @@
       "pagesDeployment": "not-verified-no-workflow-run"
     },
     "serviceWorkerCache": "xy-learning-v69",
-    "classifierVersion": "2026-11-13.13"
+    "classifierVersion": "2026-11-13.13",
+    "pullRequest": 4,
+    "pullRequestUrl": "https://github.com/toyoyogo-cloud/xiaoyu-xiaoyu-learning-app/pull/4"
   },
   "mappingVerificationStatusCountsBatches30to39": {
     "source-checked": 212,
@@ -628,7 +630,7 @@
   "sourceBranch": "automation/batch-40-2026-11-13",
   "sourceHead": "16dd9d40ecd1a4ec02fa6d94609d24d8bef52fa0",
   "mergeCommit": "ab7f638772ddc0baf9b8d0957e9ca38835a6cb46",
-  "pullRequest": null,
+  "pullRequest": 4,
   "mainVerifiedAt": "2026-11-13",
   "pagesDeployment": "not-verified-no-workflow-run",
   "runtimeClassificationAuditStatus": "static-v13-audit-batch40-browser-runtime-pending",
@@ -645,5 +647,6 @@
     "hanlin": 222,
     "knsh": 7,
     "nani": 29
-  }
+  },
+  "pullRequestUrl": "https://github.com/toyoyogo-cloud/xiaoyu-xiaoyu-learning-app/pull/4"
 }
