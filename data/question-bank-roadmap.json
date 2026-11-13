@@ -717,19 +717,20 @@
     "latestRun": {
       "date": "2026-11-13",
       "sourceBranch": "main",
-      "auditedBatches": "08-41",
-      "auditedQuestionCount": 2900,
+      "auditedBatches": "15-22",
+      "auditedQuestionCount": 801,
       "persistedExtendedMetadataBatches": [
-        "08",
-        "09",
-        "10",
-        "11",
-        "12",
-        "13",
-        "14"
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22"
       ],
-      "persistedExtendedMetadataCount": 199,
-      "remainingExtendedMetadataCount": 2501,
+      "persistedExtendedMetadataCount": 1000,
+      "remainingExtendedMetadataCount": 1700,
       "file": "data/question-classification.json",
       "fields": [
         "semester",
@@ -746,24 +747,27 @@
         "difficultyLevel"
       ],
       "semesterDistribution": {
-        "上學期": 13,
-        "下學期": 3,
-        "全學年": 3,
-        "unassigned": 180
+        "上學期": 23,
+        "下學期": 10,
+        "全學年": 9,
+        "unassigned": 759
       },
       "examPeriodDistribution": {
-        "第一次段考": 6,
-        "第二次段考": 1,
-        "第三次段考": 3,
-        "unassigned": 189
+        "第一次段考": 4,
+        "第二次段考": 10,
+        "第三次段考": 10,
+        "unassigned": 777
       },
-      "publisherMappedQuestionCount": 9,
-      "curriculumCoreQuestionCount": 190,
+      "classificationBasisDistribution": {
+        "publisher-source-verified": 18,
+        "question-bank-inference": 24,
+        "curriculum-core": 759
+      },
+      "publisherMappedQuestionCount": 18,
+      "curriculumCoreQuestionCount": 783,
       "pendingQuestionCount": 0,
       "newQuestionsAdded": 0,
-      "notes": "第8至14批199題擴充分類欄位已持久化；學期、段考及出版社狀態沿用既有題目欄位及已核對映射。未有足夠證據者保留unassigned或curriculum-core；後續批次待分批補入。 第40至41批200題已在原始批次內建learningDomain、questionType、learningUnit與difficultyLevel，不需重複寫入分類索引。",
-      "questionRecordsNotIndexed": 2701,
-      "alreadyEmbeddedExtendedMetadataOutsideIndex": 200
+      "notes": "完整保存學習領域、題型、單元、難度及原始分類／來源欄位；18筆既有出版社映射欄位完整，沿用中央已核對來源，不新增或擴大出版社映射。"
     }
   },
   "fullMainClassificationAudit": {
@@ -836,12 +840,12 @@
     "publisherMappingConsistencyErrors": 0,
     "pendingQuestionCount": 0,
     "extendedMetadata": {
-      "complete": 399,
-      "remaining": 2501,
-      "separateClassificationIndex": 199,
+      "complete": 1200,
+      "remaining": 1700,
+      "separateClassificationIndex": 1000,
       "embeddedInBatches40to41": 200
     },
     "newQuestionsAdded": 0,
-    "notes": "所有題目原始批次的semester、examPeriod、classificationBasis、confidence、publisherStatus、publisherMappings、classificationNotes及sourceRef均存在；learningDomain、questionType、learningUnit、difficultyLevel目前由第8至14批199題的獨立索引及第40至41批200題原始欄位持久保存，其餘2501題尚待分批補齊。段考欄位只代表題庫複習建議，不是學校正式段考範圍。出版社映射僅在16筆中央官方來源映射範圍一致時納入。"
+    "notes": "所有題目原始批次的semester、examPeriod、classificationBasis、confidence、publisherStatus、publisherMappings、classificationNotes及sourceRef均存在；learningDomain、questionType、learningUnit、difficultyLevel目前由第8至14批199題的獨立索引及第40至41批200題原始欄位持久保存，其餘2501題尚待分批補齊。段考欄位只代表題庫複習建議，不是學校正式段考範圍。出版社映射僅在16筆中央官方來源映射範圍一致時納入。 第15至22批801題已加入持久化分類索引，索引累計1,000題；第40至41批200題保留原始欄位內建分類；剩餘1,700題待處理。"
   }
 }
