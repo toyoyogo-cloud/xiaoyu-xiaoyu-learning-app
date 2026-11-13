@@ -793,13 +793,13 @@ window.EXTRA39_GRADE_BANK = [
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "108課綱共同核心原創編寫；非出版社教材原文或歷屆試題原文。",
     "reviewStatus": "rule-checked",
-    "semester": "unassigned",
-    "examPeriod": "unassigned",
-    "classificationBasis": "curriculum-core",
-    "confidence": "low",
+    "semester": "下學期",
+    "examPeriod": "第一次段考",
+    "classificationBasis": "question-bank-inference",
+    "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "classificationNotes": "108課綱共同核心原創編寫；未取得可同時核對該年級、科目、冊別與單元的出版社來源，因此不標出版社；學期及段考保留未分類。",
+    "classificationNotes": "依六年級題庫常見圓形單元群推定；非學校正式段考範圍。",
     "questionType": "情境應用"
   },
   {
@@ -826,13 +826,13 @@ window.EXTRA39_GRADE_BANK = [
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "108課綱共同核心原創編寫；非出版社教材原文或歷屆試題原文。",
     "reviewStatus": "rule-checked",
-    "semester": "unassigned",
-    "examPeriod": "unassigned",
-    "classificationBasis": "curriculum-core",
-    "confidence": "low",
+    "semester": "下學期",
+    "examPeriod": "第二次段考",
+    "classificationBasis": "question-bank-inference",
+    "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "classificationNotes": "108課綱共同核心原創編寫；未取得可同時核對該年級、科目、冊別與單元的出版社來源，因此不標出版社；學期及段考保留未分類。",
+    "classificationNotes": "依六年級題庫常見立體形體單元群推定；非學校正式段考範圍。",
     "questionType": "情境應用"
   },
   {
@@ -892,13 +892,13 @@ window.EXTRA39_GRADE_BANK = [
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "108課綱共同核心原創編寫；非出版社教材原文或歷屆試題原文。",
     "reviewStatus": "rule-checked",
-    "semester": "unassigned",
-    "examPeriod": "unassigned",
-    "classificationBasis": "curriculum-core",
-    "confidence": "low",
+    "semester": "下學期",
+    "examPeriod": "第三次段考",
+    "classificationBasis": "question-bank-inference",
+    "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "classificationNotes": "108課綱共同核心原創編寫；未取得可同時核對該年級、科目、冊別與單元的出版社來源，因此不標出版社；學期及段考保留未分類。",
+    "classificationNotes": "依六年級題庫常見統計與機率單元群推定；非學校正式段考範圍。",
     "questionType": "情境應用"
   },
   {
@@ -925,13 +925,13 @@ window.EXTRA39_GRADE_BANK = [
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "108課綱共同核心原創編寫；非出版社教材原文或歷屆試題原文。",
     "reviewStatus": "rule-checked",
-    "semester": "unassigned",
-    "examPeriod": "unassigned",
-    "classificationBasis": "curriculum-core",
-    "confidence": "low",
+    "semester": "下學期",
+    "examPeriod": "第三次段考",
+    "classificationBasis": "question-bank-inference",
+    "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "classificationNotes": "108課綱共同核心原創編寫；未取得可同時核對該年級、科目、冊別與單元的出版社來源，因此不標出版社；學期及段考保留未分類。",
+    "classificationNotes": "依六年級題庫常見統計與機率單元群推定；非學校正式段考範圍。",
     "questionType": "資料判讀"
   },
   {
@@ -958,13 +958,13 @@ window.EXTRA39_GRADE_BANK = [
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "108課綱共同核心原創編寫；非出版社教材原文或歷屆試題原文。",
     "reviewStatus": "rule-checked",
-    "semester": "unassigned",
-    "examPeriod": "unassigned",
-    "classificationBasis": "curriculum-core",
-    "confidence": "low",
+    "semester": "下學期",
+    "examPeriod": "第二次段考",
+    "classificationBasis": "question-bank-inference",
+    "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "classificationNotes": "108課綱共同核心原創編寫；未取得可同時核對該年級、科目、冊別與單元的出版社來源，因此不標出版社；學期及段考保留未分類。",
+    "classificationNotes": "依六年級題庫常見立體形體單元群推定；非學校正式段考範圍。",
     "questionType": "情境應用"
   },
   {
@@ -1718,9 +1718,9 @@ window.EXTRA39_GRADE_BANK = [
     "sourceRef": "https://books.hanlin.com.tw/product/433021",
     "reviewStatus": "rule-checked",
     "semester": "上學期",
-    "examPeriod": "unassigned",
-    "classificationBasis": "publisher-source-verified",
-    "confidence": "high",
+    "examPeriod": "第一次段考",
+    "classificationBasis": "question-bank-inference",
+    "confidence": "medium",
     "publisherStatus": "publisher-mapped",
     "publisherMappings": [
       {
@@ -1734,7 +1734,7 @@ window.EXTRA39_GRADE_BANK = [
         "mappingLevel": "unit"
       }
     ],
-    "classificationNotes": "官方頁標示高中二年級、上學期、108課綱數學A，目次列三角函數；只作單元對照，不表示學校採用版本。 學校採用版本未確認；官方來源未提供該校段考進度，因此段考保留未分類。",
+    "classificationNotes": "已確認題目課程軌別為數學A；依翰林數學3A官方單元次序推定段考，非學校正式範圍。",
     "questionType": "情境應用",
     "courseTrack": "數學A",
     "courseType": "未確認"
@@ -1764,9 +1764,9 @@ window.EXTRA39_GRADE_BANK = [
     "sourceRef": "https://books.hanlin.com.tw/product/433021",
     "reviewStatus": "rule-checked",
     "semester": "上學期",
-    "examPeriod": "unassigned",
-    "classificationBasis": "publisher-source-verified",
-    "confidence": "high",
+    "examPeriod": "第一次段考",
+    "classificationBasis": "question-bank-inference",
+    "confidence": "medium",
     "publisherStatus": "publisher-mapped",
     "publisherMappings": [
       {
@@ -1780,7 +1780,7 @@ window.EXTRA39_GRADE_BANK = [
         "mappingLevel": "unit"
       }
     ],
-    "classificationNotes": "官方頁標示高中二年級、上學期、108課綱數學A，目次列三角函數；只作單元對照，不表示學校採用版本。 學校採用版本未確認；官方來源未提供該校段考進度，因此段考保留未分類。",
+    "classificationNotes": "已確認題目課程軌別為數學A；依翰林數學3A官方單元次序推定段考，非學校正式範圍。",
     "questionType": "情境應用",
     "courseTrack": "數學A",
     "courseType": "未確認"
@@ -1810,9 +1810,9 @@ window.EXTRA39_GRADE_BANK = [
     "sourceRef": "https://books.hanlin.com.tw/product/433021",
     "reviewStatus": "rule-checked",
     "semester": "上學期",
-    "examPeriod": "unassigned",
-    "classificationBasis": "publisher-source-verified",
-    "confidence": "high",
+    "examPeriod": "第一次段考",
+    "classificationBasis": "question-bank-inference",
+    "confidence": "medium",
     "publisherStatus": "publisher-mapped",
     "publisherMappings": [
       {
@@ -1826,7 +1826,7 @@ window.EXTRA39_GRADE_BANK = [
         "mappingLevel": "unit"
       }
     ],
-    "classificationNotes": "官方頁標示高中二年級、上學期、108課綱數學A，目次列三角函數；只作單元對照，不表示學校採用版本。 學校採用版本未確認；官方來源未提供該校段考進度，因此段考保留未分類。",
+    "classificationNotes": "已確認題目課程軌別為數學A；依翰林數學3A官方單元次序推定段考，非學校正式範圍。",
     "questionType": "情境應用",
     "courseTrack": "數學A",
     "courseType": "未確認"
@@ -1856,9 +1856,9 @@ window.EXTRA39_GRADE_BANK = [
     "sourceRef": "https://books.hanlin.com.tw/product/433021",
     "reviewStatus": "rule-checked",
     "semester": "上學期",
-    "examPeriod": "unassigned",
-    "classificationBasis": "publisher-source-verified",
-    "confidence": "high",
+    "examPeriod": "第一次段考",
+    "classificationBasis": "question-bank-inference",
+    "confidence": "medium",
     "publisherStatus": "publisher-mapped",
     "publisherMappings": [
       {
@@ -1872,7 +1872,7 @@ window.EXTRA39_GRADE_BANK = [
         "mappingLevel": "unit"
       }
     ],
-    "classificationNotes": "官方頁標示高中二年級、上學期、108課綱數學A，目次列三角函數；只作單元對照，不表示學校採用版本。 學校採用版本未確認；官方來源未提供該校段考進度，因此段考保留未分類。",
+    "classificationNotes": "已確認題目課程軌別為數學A；依翰林數學3A官方單元次序推定段考，非學校正式範圍。",
     "questionType": "情境應用",
     "courseTrack": "數學A",
     "courseType": "未確認"
@@ -1902,9 +1902,9 @@ window.EXTRA39_GRADE_BANK = [
     "sourceRef": "https://books.hanlin.com.tw/product/433021",
     "reviewStatus": "rule-checked",
     "semester": "上學期",
-    "examPeriod": "unassigned",
-    "classificationBasis": "publisher-source-verified",
-    "confidence": "high",
+    "examPeriod": "第二次段考",
+    "classificationBasis": "question-bank-inference",
+    "confidence": "medium",
     "publisherStatus": "publisher-mapped",
     "publisherMappings": [
       {
@@ -1918,7 +1918,7 @@ window.EXTRA39_GRADE_BANK = [
         "mappingLevel": "unit"
       }
     ],
-    "classificationNotes": "官方頁標示高中二年級、上學期、108課綱數學A，目次列指數與對數函數；只作單元對照，不表示學校採用版本。 學校採用版本未確認；官方來源未提供該校段考進度，因此段考保留未分類。",
+    "classificationNotes": "已確認題目課程軌別為數學A；依翰林數學3A官方單元次序推定段考，非學校正式範圍。",
     "questionType": "情境應用",
     "courseTrack": "數學A",
     "courseType": "未確認"
@@ -1948,9 +1948,9 @@ window.EXTRA39_GRADE_BANK = [
     "sourceRef": "https://books.hanlin.com.tw/product/433021",
     "reviewStatus": "rule-checked",
     "semester": "上學期",
-    "examPeriod": "unassigned",
-    "classificationBasis": "publisher-source-verified",
-    "confidence": "high",
+    "examPeriod": "第二次段考",
+    "classificationBasis": "question-bank-inference",
+    "confidence": "medium",
     "publisherStatus": "publisher-mapped",
     "publisherMappings": [
       {
@@ -1964,7 +1964,7 @@ window.EXTRA39_GRADE_BANK = [
         "mappingLevel": "unit"
       }
     ],
-    "classificationNotes": "官方頁標示高中二年級、上學期、108課綱數學A，目次列指數與對數函數；只作單元對照，不表示學校採用版本。 學校採用版本未確認；官方來源未提供該校段考進度，因此段考保留未分類。",
+    "classificationNotes": "已確認題目課程軌別為數學A；依翰林數學3A官方單元次序推定段考，非學校正式範圍。",
     "questionType": "情境應用",
     "courseTrack": "數學A",
     "courseType": "未確認"
@@ -1994,9 +1994,9 @@ window.EXTRA39_GRADE_BANK = [
     "sourceRef": "https://books.hanlin.com.tw/product/433021",
     "reviewStatus": "rule-checked",
     "semester": "上學期",
-    "examPeriod": "unassigned",
-    "classificationBasis": "publisher-source-verified",
-    "confidence": "high",
+    "examPeriod": "第二次段考",
+    "classificationBasis": "question-bank-inference",
+    "confidence": "medium",
     "publisherStatus": "publisher-mapped",
     "publisherMappings": [
       {
@@ -2010,7 +2010,7 @@ window.EXTRA39_GRADE_BANK = [
         "mappingLevel": "unit"
       }
     ],
-    "classificationNotes": "官方頁標示高中二年級、上學期、108課綱數學A，目次列指數與對數函數；只作單元對照，不表示學校採用版本。 學校採用版本未確認；官方來源未提供該校段考進度，因此段考保留未分類。",
+    "classificationNotes": "已確認題目課程軌別為數學A；依翰林數學3A官方單元次序推定段考，非學校正式範圍。",
     "questionType": "情境應用",
     "courseTrack": "數學A",
     "courseType": "未確認"
@@ -2040,9 +2040,9 @@ window.EXTRA39_GRADE_BANK = [
     "sourceRef": "https://books.hanlin.com.tw/product/433021",
     "reviewStatus": "rule-checked",
     "semester": "上學期",
-    "examPeriod": "unassigned",
-    "classificationBasis": "publisher-source-verified",
-    "confidence": "high",
+    "examPeriod": "第二次段考",
+    "classificationBasis": "question-bank-inference",
+    "confidence": "medium",
     "publisherStatus": "publisher-mapped",
     "publisherMappings": [
       {
@@ -2056,7 +2056,7 @@ window.EXTRA39_GRADE_BANK = [
         "mappingLevel": "unit"
       }
     ],
-    "classificationNotes": "官方頁標示高中二年級、上學期、108課綱數學A，目次列指數與對數函數；只作單元對照，不表示學校採用版本。 學校採用版本未確認；官方來源未提供該校段考進度，因此段考保留未分類。",
+    "classificationNotes": "已確認題目課程軌別為數學A；依翰林數學3A官方單元次序推定段考，非學校正式範圍。",
     "questionType": "情境應用",
     "courseTrack": "數學A",
     "courseType": "未確認"
@@ -2086,9 +2086,9 @@ window.EXTRA39_GRADE_BANK = [
     "sourceRef": "https://books.hanlin.com.tw/product/433021",
     "reviewStatus": "rule-checked",
     "semester": "上學期",
-    "examPeriod": "unassigned",
-    "classificationBasis": "publisher-source-verified",
-    "confidence": "high",
+    "examPeriod": "第三次段考",
+    "classificationBasis": "question-bank-inference",
+    "confidence": "medium",
     "publisherStatus": "publisher-mapped",
     "publisherMappings": [
       {
@@ -2102,7 +2102,7 @@ window.EXTRA39_GRADE_BANK = [
         "mappingLevel": "unit"
       }
     ],
-    "classificationNotes": "官方頁標示高中二年級、上學期、108課綱數學A，目次列平面向量；只作單元對照，不表示學校採用版本。 學校採用版本未確認；官方來源未提供該校段考進度，因此段考保留未分類。",
+    "classificationNotes": "已確認題目課程軌別為數學A；依翰林數學3A官方單元次序推定段考，非學校正式範圍。",
     "questionType": "情境應用",
     "courseTrack": "數學A",
     "courseType": "未確認"
@@ -2132,9 +2132,9 @@ window.EXTRA39_GRADE_BANK = [
     "sourceRef": "https://books.hanlin.com.tw/product/433021",
     "reviewStatus": "rule-checked",
     "semester": "上學期",
-    "examPeriod": "unassigned",
-    "classificationBasis": "publisher-source-verified",
-    "confidence": "high",
+    "examPeriod": "第三次段考",
+    "classificationBasis": "question-bank-inference",
+    "confidence": "medium",
     "publisherStatus": "publisher-mapped",
     "publisherMappings": [
       {
@@ -2148,7 +2148,7 @@ window.EXTRA39_GRADE_BANK = [
         "mappingLevel": "unit"
       }
     ],
-    "classificationNotes": "官方頁標示高中二年級、上學期、108課綱數學A，目次列平面向量；只作單元對照，不表示學校採用版本。 學校採用版本未確認；官方來源未提供該校段考進度，因此段考保留未分類。",
+    "classificationNotes": "已確認題目課程軌別為數學A；依翰林數學3A官方單元次序推定段考，非學校正式範圍。",
     "questionType": "情境應用",
     "courseTrack": "數學A",
     "courseType": "未確認"
@@ -2178,9 +2178,9 @@ window.EXTRA39_GRADE_BANK = [
     "sourceRef": "https://books.hanlin.com.tw/product/433021",
     "reviewStatus": "rule-checked",
     "semester": "上學期",
-    "examPeriod": "unassigned",
-    "classificationBasis": "publisher-source-verified",
-    "confidence": "high",
+    "examPeriod": "第三次段考",
+    "classificationBasis": "question-bank-inference",
+    "confidence": "medium",
     "publisherStatus": "publisher-mapped",
     "publisherMappings": [
       {
@@ -2194,7 +2194,7 @@ window.EXTRA39_GRADE_BANK = [
         "mappingLevel": "unit"
       }
     ],
-    "classificationNotes": "官方頁標示高中二年級、上學期、108課綱數學A，目次列平面向量；只作單元對照，不表示學校採用版本。 學校採用版本未確認；官方來源未提供該校段考進度，因此段考保留未分類。",
+    "classificationNotes": "已確認題目課程軌別為數學A；依翰林數學3A官方單元次序推定段考，非學校正式範圍。",
     "questionType": "情境應用",
     "courseTrack": "數學A",
     "courseType": "未確認"
@@ -2224,9 +2224,9 @@ window.EXTRA39_GRADE_BANK = [
     "sourceRef": "https://books.hanlin.com.tw/product/433021",
     "reviewStatus": "rule-checked",
     "semester": "上學期",
-    "examPeriod": "unassigned",
-    "classificationBasis": "publisher-source-verified",
-    "confidence": "high",
+    "examPeriod": "第三次段考",
+    "classificationBasis": "question-bank-inference",
+    "confidence": "medium",
     "publisherStatus": "publisher-mapped",
     "publisherMappings": [
       {
@@ -2240,7 +2240,7 @@ window.EXTRA39_GRADE_BANK = [
         "mappingLevel": "unit"
       }
     ],
-    "classificationNotes": "官方頁標示高中二年級、上學期、108課綱數學A，目次列平面向量；只作單元對照，不表示學校採用版本。 學校採用版本未確認；官方來源未提供該校段考進度，因此段考保留未分類。",
+    "classificationNotes": "已確認題目課程軌別為數學A；依翰林數學3A官方單元次序推定段考，非學校正式範圍。",
     "questionType": "情境應用",
     "courseTrack": "數學A",
     "courseType": "未確認"
