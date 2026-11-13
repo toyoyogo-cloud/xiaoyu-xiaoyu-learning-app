@@ -26,7 +26,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "論證與資料證據"
+    "learningContent": "論證與資料證據",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-002",
@@ -55,7 +56,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "比較文本觀點"
+    "learningContent": "比較文本觀點",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-003",
@@ -84,7 +86,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "摘要主旨"
+    "learningContent": "摘要主旨",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-004",
@@ -113,7 +116,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "資訊查證"
+    "learningContent": "資訊查證",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-005",
@@ -142,7 +146,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "複句關係"
+    "learningContent": "複句關係",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-006",
@@ -171,7 +176,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "成語語意"
+    "learningContent": "成語語意",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-007",
@@ -200,7 +206,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "事實與意見"
+    "learningContent": "事實與意見",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-008",
@@ -229,7 +236,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "論證謬誤"
+    "learningContent": "論證謬誤",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-009",
@@ -258,7 +266,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "人物行為推論"
+    "learningContent": "人物行為推論",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-010",
@@ -287,7 +296,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "史料互證"
+    "learningContent": "史料互證",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-011",
@@ -586,7 +596,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "單位價格比較"
+    "learningContent": "單位價格比較",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-021",
@@ -615,7 +626,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "公平實驗與控制變因"
+    "learningContent": "公平實驗與控制變因",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-022",
@@ -644,7 +656,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "蒸發與凝結"
+    "learningContent": "蒸發與凝結",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-023",
@@ -673,7 +686,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "並聯電路"
+    "learningContent": "並聯電路",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-024",
@@ -702,7 +716,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "電磁鐵強度"
+    "learningContent": "電磁鐵強度",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-025",
@@ -731,7 +746,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "食物網與生態"
+    "learningContent": "食物網與生態",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-026",
@@ -760,7 +776,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "光合作用"
+    "learningContent": "光合作用",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-027",
@@ -789,7 +806,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "月相變化"
+    "learningContent": "月相變化",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-028",
@@ -818,7 +836,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "低氣壓與降雨"
+    "learningContent": "低氣壓與降雨",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-029",
@@ -847,7 +866,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "密度計算"
+    "learningContent": "密度計算",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-030",
@@ -876,7 +896,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "槓桿力矩"
+    "learningContent": "槓桿力矩",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-031",
@@ -905,7 +926,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "人口金字塔判讀"
+    "learningContent": "人口金字塔判讀",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-032",
@@ -934,7 +956,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "人口遷移推力與拉力"
+    "learningContent": "人口遷移推力與拉力",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-033",
@@ -963,7 +986,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "地方政府職責"
+    "learningContent": "地方政府職責",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-034",
@@ -992,7 +1016,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "秘密投票"
+    "learningContent": "秘密投票",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-035",
@@ -1021,7 +1046,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "史料來源與立場"
+    "learningContent": "史料來源與立場",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-036",
@@ -1050,7 +1076,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "季風與迎風降雨"
+    "learningContent": "季風與迎風降雨",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-037",
@@ -1079,7 +1106,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "國際分工與供應鏈"
+    "learningContent": "國際分工與供應鏈",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-038",
@@ -1108,7 +1136,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "機會成本"
+    "learningContent": "機會成本",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-039",
@@ -1137,7 +1166,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "公共參與"
+    "learningContent": "公共參與",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-040",
@@ -1158,7 +1188,7 @@ window.EXTRA30_GRADE_BANK = [
     "e": "個人發展與性別角色會受到時代、制度和社會觀念影響；照顧工作不應被視為某一性別專屬。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
-    "sourceRef": "依國家教育研究院公開108課綱課程綱要／課程手冊與學科共同核心原創編寫；非出版社或歷屆試題原文",
+    "sourceRef": "https://sdgs.knsh.com.tw/campus/SDGS_FILE_E/%E7%A4%BE%E6%9C%83%E5%85%AD%E4%B8%8ACH2L1%E5%80%8B%E4%BA%BA%E7%99%BC%E5%B1%95%E5%A6%82%E4%BD%95%E5%8F%97%E5%88%B0%E7%A4%BE%E6%9C%83%E8%AE%8A%E9%81%B7%E7%9A%84%E5%BD%B1%E9%9F%BF_%E6%95%99%E5%AD%B8%E8%B3%87%E6%BA%90.pdf",
     "reviewStatus": "rule-checked",
     "semester": "上學期",
     "examPeriod": "unassigned",
@@ -1178,6 +1208,13 @@ window.EXTRA30_GRADE_BANK = [
         "volume": "社會六上",
         "unitCode": "2-1",
         "unitName": "個人發展如何受到社會變遷的影響",
+        "unitAliases": [
+          "個人發展如何受到社會變遷的影響",
+          "社會變遷與性別角色",
+          "社會變遷與家庭分工",
+          "個人發展與社會變遷"
+        ],
+        "scopeKeywords": [],
         "semester": "上學期",
         "grade": "六年級",
         "subject": "社會",
@@ -1186,7 +1223,8 @@ window.EXTRA30_GRADE_BANK = [
         "courseType": "國小"
       }
     ],
-    "learningContent": "社會變遷與性別角色"
+    "learningContent": "社會變遷與性別角色",
+    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 knsh-g6-social-6a-u2-1；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
   },
   {
     "id": "b30-041",
@@ -1215,7 +1253,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "過去式否定句"
+    "learningContent": "過去式否定句",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-042",
@@ -1244,7 +1283,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "現在完成式"
+    "learningContent": "現在完成式",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-043",
@@ -1273,7 +1313,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "副詞比較級"
+    "learningContent": "副詞比較級",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-044",
@@ -1302,7 +1343,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "圖書館告示閱讀"
+    "learningContent": "圖書館告示閱讀",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-045",
@@ -1331,7 +1373,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "時刻表閱讀"
+    "learningContent": "時刻表閱讀",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-046",
@@ -1360,7 +1403,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "頻率問句"
+    "learningContent": "頻率問句",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-047",
@@ -1389,7 +1433,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "第一類條件句"
+    "learningContent": "第一類條件句",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-048",
@@ -1418,7 +1463,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "不可數名詞量詞"
+    "learningContent": "不可數名詞量詞",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-049",
@@ -1447,7 +1493,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "關係代名詞"
+    "learningContent": "關係代名詞",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-050",
@@ -1476,7 +1523,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "閱讀推論"
+    "learningContent": "閱讀推論",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-051",
@@ -1497,7 +1545,7 @@ window.EXTRA30_GRADE_BANK = [
     "e": "30°、60°、90°直角三角形的邊長比為 1：√3：2，因此 sin30°＝對邊／斜邊＝1/2。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
-    "sourceRef": "依國家教育研究院公開108課綱課程綱要／課程手冊與學科共同核心原創編寫；非出版社或歷屆試題原文",
+    "sourceRef": "https://books.hanlin.com.tw/product/433021",
     "reviewStatus": "rule-checked",
     "semester": "上學期",
     "examPeriod": "第一次段考",
@@ -1517,16 +1565,31 @@ window.EXTRA30_GRADE_BANK = [
         "volume": "數學(3A)（官方互動式教學講義，搭配翰林教材）",
         "unitCode": "1",
         "unitName": "三角函數",
+        "unitAliases": [
+          "三角函數",
+          "三角比",
+          "特殊角",
+          "三角測量",
+          "弧度",
+          "正弦",
+          "餘弦",
+          "正切",
+          "週期",
+          "象限",
+          "三角方程式"
+        ],
+        "scopeKeywords": [],
         "semester": "上學期",
         "grade": "高二",
         "subject": "數學",
         "courseTrack": "數學A",
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁確認數學A軌別，學校採用版本未確認"
       }
     ],
     "learningContent": "三角比與特殊角",
-    "courseTrack": "數學A"
+    "courseTrack": "數學A",
+    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-math-3a-u1；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
   },
   {
     "id": "b30-052",
@@ -1547,7 +1610,7 @@ window.EXTRA30_GRADE_BANK = [
     "e": "cos60°＝鄰邊／斜邊＝1/2，可由 30°－60°－90°直角三角形得到。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
-    "sourceRef": "依國家教育研究院公開108課綱課程綱要／課程手冊與學科共同核心原創編寫；非出版社或歷屆試題原文",
+    "sourceRef": "https://books.hanlin.com.tw/product/433021",
     "reviewStatus": "rule-checked",
     "semester": "上學期",
     "examPeriod": "第一次段考",
@@ -1567,16 +1630,31 @@ window.EXTRA30_GRADE_BANK = [
         "volume": "數學(3A)（官方互動式教學講義，搭配翰林教材）",
         "unitCode": "1",
         "unitName": "三角函數",
+        "unitAliases": [
+          "三角函數",
+          "三角比",
+          "特殊角",
+          "三角測量",
+          "弧度",
+          "正弦",
+          "餘弦",
+          "正切",
+          "週期",
+          "象限",
+          "三角方程式"
+        ],
+        "scopeKeywords": [],
         "semester": "上學期",
         "grade": "高二",
         "subject": "數學",
         "courseTrack": "數學A",
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁確認數學A軌別，學校採用版本未確認"
       }
     ],
     "learningContent": "三角比與特殊角",
-    "courseTrack": "數學A"
+    "courseTrack": "數學A",
+    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-math-3a-u1；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
   },
   {
     "id": "b30-053",
@@ -1597,7 +1675,7 @@ window.EXTRA30_GRADE_BANK = [
     "e": "正切值＝對邊÷鄰邊＝3÷4＝3/4；斜邊長不需要參與此比值。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
-    "sourceRef": "依國家教育研究院公開108課綱課程綱要／課程手冊與學科共同核心原創編寫；非出版社或歷屆試題原文",
+    "sourceRef": "https://books.hanlin.com.tw/product/433021",
     "reviewStatus": "rule-checked",
     "semester": "上學期",
     "examPeriod": "第一次段考",
@@ -1617,16 +1695,31 @@ window.EXTRA30_GRADE_BANK = [
         "volume": "數學(3A)（官方互動式教學講義，搭配翰林教材）",
         "unitCode": "1",
         "unitName": "三角函數",
+        "unitAliases": [
+          "三角函數",
+          "三角比",
+          "特殊角",
+          "三角測量",
+          "弧度",
+          "正弦",
+          "餘弦",
+          "正切",
+          "週期",
+          "象限",
+          "三角方程式"
+        ],
+        "scopeKeywords": [],
         "semester": "上學期",
         "grade": "高二",
         "subject": "數學",
         "courseTrack": "數學A",
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁確認數學A軌別，學校採用版本未確認"
       }
     ],
     "learningContent": "三角比應用",
-    "courseTrack": "數學A"
+    "courseTrack": "數學A",
+    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-math-3a-u1；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
   },
   {
     "id": "b30-054",
@@ -1647,7 +1740,7 @@ window.EXTRA30_GRADE_BANK = [
     "e": "sinx 的值介於 −1 與 1；最大時 sinx＝1，因此 y 最大為 3×1－2＝1。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
-    "sourceRef": "依國家教育研究院公開108課綱課程綱要／課程手冊與學科共同核心原創編寫；非出版社或歷屆試題原文",
+    "sourceRef": "https://books.hanlin.com.tw/product/433021",
     "reviewStatus": "rule-checked",
     "semester": "上學期",
     "examPeriod": "第一次段考",
@@ -1667,16 +1760,31 @@ window.EXTRA30_GRADE_BANK = [
         "volume": "數學(3A)（官方互動式教學講義，搭配翰林教材）",
         "unitCode": "1",
         "unitName": "三角函數",
+        "unitAliases": [
+          "三角函數",
+          "三角比",
+          "特殊角",
+          "三角測量",
+          "弧度",
+          "正弦",
+          "餘弦",
+          "正切",
+          "週期",
+          "象限",
+          "三角方程式"
+        ],
+        "scopeKeywords": [],
         "semester": "上學期",
         "grade": "高二",
         "subject": "數學",
         "courseTrack": "數學A",
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁確認數學A軌別，學校採用版本未確認"
       }
     ],
     "learningContent": "三角函數圖形",
-    "courseTrack": "數學A"
+    "courseTrack": "數學A",
+    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-math-3a-u1；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
   },
   {
     "id": "b30-055",
@@ -1697,7 +1805,7 @@ window.EXTRA30_GRADE_BANK = [
     "e": "角度換弧度要乘 π/180°，150×π/180＝5π/6。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
-    "sourceRef": "依國家教育研究院公開108課綱課程綱要／課程手冊與學科共同核心原創編寫；非出版社或歷屆試題原文",
+    "sourceRef": "https://books.hanlin.com.tw/product/433021",
     "reviewStatus": "rule-checked",
     "semester": "上學期",
     "examPeriod": "第一次段考",
@@ -1717,16 +1825,31 @@ window.EXTRA30_GRADE_BANK = [
         "volume": "數學(3A)（官方互動式教學講義，搭配翰林教材）",
         "unitCode": "1",
         "unitName": "三角函數",
+        "unitAliases": [
+          "三角函數",
+          "三角比",
+          "特殊角",
+          "三角測量",
+          "弧度",
+          "正弦",
+          "餘弦",
+          "正切",
+          "週期",
+          "象限",
+          "三角方程式"
+        ],
+        "scopeKeywords": [],
         "semester": "上學期",
         "grade": "高二",
         "subject": "數學",
         "courseTrack": "數學A",
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁確認數學A軌別，學校採用版本未確認"
       }
     ],
     "learningContent": "弧度量",
-    "courseTrack": "數學A"
+    "courseTrack": "數學A",
+    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-math-3a-u1；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
   },
   {
     "id": "b30-056",
@@ -1747,7 +1870,7 @@ window.EXTRA30_GRADE_BANK = [
     "e": "高度是斜邊的正弦分量：10×sin30°＝10×1/2＝5 公尺。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
-    "sourceRef": "依國家教育研究院公開108課綱課程綱要／課程手冊與學科共同核心原創編寫；非出版社或歷屆試題原文",
+    "sourceRef": "https://books.hanlin.com.tw/product/433021",
     "reviewStatus": "rule-checked",
     "semester": "上學期",
     "examPeriod": "第一次段考",
@@ -1767,16 +1890,31 @@ window.EXTRA30_GRADE_BANK = [
         "volume": "數學(3A)（官方互動式教學講義，搭配翰林教材）",
         "unitCode": "1",
         "unitName": "三角函數",
+        "unitAliases": [
+          "三角函數",
+          "三角比",
+          "特殊角",
+          "三角測量",
+          "弧度",
+          "正弦",
+          "餘弦",
+          "正切",
+          "週期",
+          "象限",
+          "三角方程式"
+        ],
+        "scopeKeywords": [],
         "semester": "上學期",
         "grade": "高二",
         "subject": "數學",
         "courseTrack": "數學A",
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁確認數學A軌別，學校採用版本未確認"
       }
     ],
     "learningContent": "三角測量",
-    "courseTrack": "數學A"
+    "courseTrack": "數學A",
+    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-math-3a-u1；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
   },
   {
     "id": "b30-057",
@@ -1797,7 +1935,7 @@ window.EXTRA30_GRADE_BANK = [
     "e": "因為 2 的 6 次方等於 64，所以 log₂64＝6。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
-    "sourceRef": "依國家教育研究院公開108課綱課程綱要／課程手冊與學科共同核心原創編寫；非出版社或歷屆試題原文",
+    "sourceRef": "https://books.hanlin.com.tw/product/433021",
     "reviewStatus": "rule-checked",
     "semester": "上學期",
     "examPeriod": "第二次段考",
@@ -1817,16 +1955,26 @@ window.EXTRA30_GRADE_BANK = [
         "volume": "數學(3A)（官方互動式教學講義，搭配翰林教材）",
         "unitCode": "2",
         "unitName": "指數與對數函數",
+        "unitAliases": [
+          "指數",
+          "對數",
+          "log",
+          "成長模型",
+          "衰變",
+          "半衰期"
+        ],
+        "scopeKeywords": [],
         "semester": "上學期",
         "grade": "高二",
         "subject": "數學",
         "courseTrack": "數學A",
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁確認數學A軌別，學校採用版本未確認"
       }
     ],
     "learningContent": "對數定義",
-    "courseTrack": "數學A"
+    "courseTrack": "數學A",
+    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-math-3a-u2；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
   },
   {
     "id": "b30-058",
@@ -1847,7 +1995,7 @@ window.EXTRA30_GRADE_BANK = [
     "e": "由對數定義可得 x＝3²＝9，且符合 x＞0 的條件。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
-    "sourceRef": "依國家教育研究院公開108課綱課程綱要／課程手冊與學科共同核心原創編寫；非出版社或歷屆試題原文",
+    "sourceRef": "https://books.hanlin.com.tw/product/433021",
     "reviewStatus": "rule-checked",
     "semester": "上學期",
     "examPeriod": "第二次段考",
@@ -1867,16 +2015,26 @@ window.EXTRA30_GRADE_BANK = [
         "volume": "數學(3A)（官方互動式教學講義，搭配翰林教材）",
         "unitCode": "2",
         "unitName": "指數與對數函數",
+        "unitAliases": [
+          "指數",
+          "對數",
+          "log",
+          "成長模型",
+          "衰變",
+          "半衰期"
+        ],
+        "scopeKeywords": [],
         "semester": "上學期",
         "grade": "高二",
         "subject": "數學",
         "courseTrack": "數學A",
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁確認數學A軌別，學校採用版本未確認"
       }
     ],
     "learningContent": "對數方程式",
-    "courseTrack": "數學A"
+    "courseTrack": "數學A",
+    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-math-3a-u2；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
   },
   {
     "id": "b30-059",
@@ -1897,7 +2055,7 @@ window.EXTRA30_GRADE_BANK = [
     "e": "log₅25＝2，log₂8＝3，兩者相加為 5。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
-    "sourceRef": "依國家教育研究院公開108課綱課程綱要／課程手冊與學科共同核心原創編寫；非出版社或歷屆試題原文",
+    "sourceRef": "https://books.hanlin.com.tw/product/433021",
     "reviewStatus": "rule-checked",
     "semester": "上學期",
     "examPeriod": "第二次段考",
@@ -1917,16 +2075,26 @@ window.EXTRA30_GRADE_BANK = [
         "volume": "數學(3A)（官方互動式教學講義，搭配翰林教材）",
         "unitCode": "2",
         "unitName": "指數與對數函數",
+        "unitAliases": [
+          "指數",
+          "對數",
+          "log",
+          "成長模型",
+          "衰變",
+          "半衰期"
+        ],
+        "scopeKeywords": [],
         "semester": "上學期",
         "grade": "高二",
         "subject": "數學",
         "courseTrack": "數學A",
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁確認數學A軌別，學校採用版本未確認"
       }
     ],
     "learningContent": "對數性質",
-    "courseTrack": "數學A"
+    "courseTrack": "數學A",
+    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-math-3a-u2；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
   },
   {
     "id": "b30-060",
@@ -1947,7 +2115,7 @@ window.EXTRA30_GRADE_BANK = [
     "e": "合併對數得 log₂[(x－1)(x＋1)]＝3，所以 x²－1＝8，得 x²＝9；由 x＞1，取 x＝3。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
-    "sourceRef": "依國家教育研究院公開108課綱課程綱要／課程手冊與學科共同核心原創編寫；非出版社或歷屆試題原文",
+    "sourceRef": "https://books.hanlin.com.tw/product/433021",
     "reviewStatus": "rule-checked",
     "semester": "上學期",
     "examPeriod": "第二次段考",
@@ -1967,16 +2135,26 @@ window.EXTRA30_GRADE_BANK = [
         "volume": "數學(3A)（官方互動式教學講義，搭配翰林教材）",
         "unitCode": "2",
         "unitName": "指數與對數函數",
+        "unitAliases": [
+          "指數",
+          "對數",
+          "log",
+          "成長模型",
+          "衰變",
+          "半衰期"
+        ],
+        "scopeKeywords": [],
         "semester": "上學期",
         "grade": "高二",
         "subject": "數學",
         "courseTrack": "數學A",
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁確認數學A軌別，學校採用版本未確認"
       }
     ],
     "learningContent": "對數方程式與定義域",
-    "courseTrack": "數學A"
+    "courseTrack": "數學A",
+    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-math-3a-u2；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
   },
   {
     "id": "b30-061",
@@ -1997,7 +2175,7 @@ window.EXTRA30_GRADE_BANK = [
     "e": "每年乘以 1.2，兩年後為 1,000×1.2²＝1,440 人。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
-    "sourceRef": "依國家教育研究院公開108課綱課程綱要／課程手冊與學科共同核心原創編寫；非出版社或歷屆試題原文",
+    "sourceRef": "https://books.hanlin.com.tw/product/433021",
     "reviewStatus": "rule-checked",
     "semester": "上學期",
     "examPeriod": "第二次段考",
@@ -2017,16 +2195,26 @@ window.EXTRA30_GRADE_BANK = [
         "volume": "數學(3A)（官方互動式教學講義，搭配翰林教材）",
         "unitCode": "2",
         "unitName": "指數與對數函數",
+        "unitAliases": [
+          "指數",
+          "對數",
+          "log",
+          "成長模型",
+          "衰變",
+          "半衰期"
+        ],
+        "scopeKeywords": [],
         "semester": "上學期",
         "grade": "高二",
         "subject": "數學",
         "courseTrack": "數學A",
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁確認數學A軌別，學校採用版本未確認"
       }
     ],
     "learningContent": "指數成長模型",
-    "courseTrack": "數學A"
+    "courseTrack": "數學A",
+    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-math-3a-u2；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
   },
   {
     "id": "b30-062",
@@ -2047,7 +2235,7 @@ window.EXTRA30_GRADE_BANK = [
     "e": "0.01＝10⁻²，因此 log₁₀0.01＝−2。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
-    "sourceRef": "依國家教育研究院公開108課綱課程綱要／課程手冊與學科共同核心原創編寫；非出版社或歷屆試題原文",
+    "sourceRef": "https://books.hanlin.com.tw/product/433021",
     "reviewStatus": "rule-checked",
     "semester": "上學期",
     "examPeriod": "第二次段考",
@@ -2067,16 +2255,26 @@ window.EXTRA30_GRADE_BANK = [
         "volume": "數學(3A)（官方互動式教學講義，搭配翰林教材）",
         "unitCode": "2",
         "unitName": "指數與對數函數",
+        "unitAliases": [
+          "指數",
+          "對數",
+          "log",
+          "成長模型",
+          "衰變",
+          "半衰期"
+        ],
+        "scopeKeywords": [],
         "semester": "上學期",
         "grade": "高二",
         "subject": "數學",
         "courseTrack": "數學A",
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁確認數學A軌別，學校採用版本未確認"
       }
     ],
     "learningContent": "常用對數",
-    "courseTrack": "數學A"
+    "courseTrack": "數學A",
+    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-math-3a-u2；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
   },
   {
     "id": "b30-063",
@@ -2097,7 +2295,7 @@ window.EXTRA30_GRADE_BANK = [
     "e": "向量 AB＝B－A＝(3－(−2),5－1)＝(5,4)。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
-    "sourceRef": "依國家教育研究院公開108課綱課程綱要／課程手冊與學科共同核心原創編寫；非出版社或歷屆試題原文",
+    "sourceRef": "https://books.hanlin.com.tw/product/433021",
     "reviewStatus": "rule-checked",
     "semester": "上學期",
     "examPeriod": "第三次段考",
@@ -2117,16 +2315,26 @@ window.EXTRA30_GRADE_BANK = [
         "volume": "數學(3A)（官方互動式教學講義，搭配翰林教材）",
         "unitCode": "3",
         "unitName": "平面向量",
+        "unitAliases": [
+          "平面向量",
+          "向量",
+          "內積",
+          "投影",
+          "行列式",
+          "單位向量"
+        ],
+        "scopeKeywords": [],
         "semester": "上學期",
         "grade": "高二",
         "subject": "數學",
         "courseTrack": "數學A",
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁確認數學A軌別，學校採用版本未確認"
       }
     ],
     "learningContent": "向量座標",
-    "courseTrack": "數學A"
+    "courseTrack": "數學A",
+    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-math-3a-u3；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
   },
   {
     "id": "b30-064",
@@ -2147,7 +2355,7 @@ window.EXTRA30_GRADE_BANK = [
     "e": "內積＝2×4＋(−3)×2＝8－6＝2。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
-    "sourceRef": "依國家教育研究院公開108課綱課程綱要／課程手冊與學科共同核心原創編寫；非出版社或歷屆試題原文",
+    "sourceRef": "https://books.hanlin.com.tw/product/433021",
     "reviewStatus": "rule-checked",
     "semester": "上學期",
     "examPeriod": "第三次段考",
@@ -2167,16 +2375,26 @@ window.EXTRA30_GRADE_BANK = [
         "volume": "數學(3A)（官方互動式教學講義，搭配翰林教材）",
         "unitCode": "3",
         "unitName": "平面向量",
+        "unitAliases": [
+          "平面向量",
+          "向量",
+          "內積",
+          "投影",
+          "行列式",
+          "單位向量"
+        ],
+        "scopeKeywords": [],
         "semester": "上學期",
         "grade": "高二",
         "subject": "數學",
         "courseTrack": "數學A",
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁確認數學A軌別，學校採用版本未確認"
       }
     ],
     "learningContent": "向量內積",
-    "courseTrack": "數學A"
+    "courseTrack": "數學A",
+    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-math-3a-u3；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
   },
   {
     "id": "b30-065",
@@ -2197,7 +2415,7 @@ window.EXTRA30_GRADE_BANK = [
     "e": "向量長度＝√[(−5)²＋12²]＝√169＝13。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
-    "sourceRef": "依國家教育研究院公開108課綱課程綱要／課程手冊與學科共同核心原創編寫；非出版社或歷屆試題原文",
+    "sourceRef": "https://books.hanlin.com.tw/product/433021",
     "reviewStatus": "rule-checked",
     "semester": "上學期",
     "examPeriod": "第三次段考",
@@ -2217,16 +2435,26 @@ window.EXTRA30_GRADE_BANK = [
         "volume": "數學(3A)（官方互動式教學講義，搭配翰林教材）",
         "unitCode": "3",
         "unitName": "平面向量",
+        "unitAliases": [
+          "平面向量",
+          "向量",
+          "內積",
+          "投影",
+          "行列式",
+          "單位向量"
+        ],
+        "scopeKeywords": [],
         "semester": "上學期",
         "grade": "高二",
         "subject": "數學",
         "courseTrack": "數學A",
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁確認數學A軌別，學校採用版本未確認"
       }
     ],
     "learningContent": "向量長度",
-    "courseTrack": "數學A"
+    "courseTrack": "數學A",
+    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-math-3a-u3；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
   },
   {
     "id": "b30-066",
@@ -2247,7 +2475,7 @@ window.EXTRA30_GRADE_BANK = [
     "e": "內積為 1×2＋2×(−1)＝0；兩個非零向量內積為零，表示彼此垂直。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
-    "sourceRef": "依國家教育研究院公開108課綱課程綱要／課程手冊與學科共同核心原創編寫；非出版社或歷屆試題原文",
+    "sourceRef": "https://books.hanlin.com.tw/product/433021",
     "reviewStatus": "rule-checked",
     "semester": "上學期",
     "examPeriod": "第三次段考",
@@ -2267,16 +2495,26 @@ window.EXTRA30_GRADE_BANK = [
         "volume": "數學(3A)（官方互動式教學講義，搭配翰林教材）",
         "unitCode": "3",
         "unitName": "平面向量",
+        "unitAliases": [
+          "平面向量",
+          "向量",
+          "內積",
+          "投影",
+          "行列式",
+          "單位向量"
+        ],
+        "scopeKeywords": [],
         "semester": "上學期",
         "grade": "高二",
         "subject": "數學",
         "courseTrack": "數學A",
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁確認數學A軌別，學校採用版本未確認"
       }
     ],
     "learningContent": "向量垂直判定",
-    "courseTrack": "數學A"
+    "courseTrack": "數學A",
+    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-math-3a-u3；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
   },
   {
     "id": "b30-067",
@@ -2297,7 +2535,7 @@ window.EXTRA30_GRADE_BANK = [
     "e": "東西方向合位移為 3－2＝1 公尺向東；南北方向為 4 公尺向北，因此向量為 (1,4)。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
-    "sourceRef": "依國家教育研究院公開108課綱課程綱要／課程手冊與學科共同核心原創編寫；非出版社或歷屆試題原文",
+    "sourceRef": "https://books.hanlin.com.tw/product/433021",
     "reviewStatus": "rule-checked",
     "semester": "上學期",
     "examPeriod": "第三次段考",
@@ -2317,16 +2555,26 @@ window.EXTRA30_GRADE_BANK = [
         "volume": "數學(3A)（官方互動式教學講義，搭配翰林教材）",
         "unitCode": "3",
         "unitName": "平面向量",
+        "unitAliases": [
+          "平面向量",
+          "向量",
+          "內積",
+          "投影",
+          "行列式",
+          "單位向量"
+        ],
+        "scopeKeywords": [],
         "semester": "上學期",
         "grade": "高二",
         "subject": "數學",
         "courseTrack": "數學A",
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁確認數學A軌別，學校採用版本未確認"
       }
     ],
     "learningContent": "向量加法",
-    "courseTrack": "數學A"
+    "courseTrack": "數學A",
+    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-math-3a-u3；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
   },
   {
     "id": "b30-068",
@@ -2347,7 +2595,7 @@ window.EXTRA30_GRADE_BANK = [
     "e": "向量長度為 √(36＋64)＝10；各分量除以 10，得到 (3/5,4/5)。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
-    "sourceRef": "依國家教育研究院公開108課綱課程綱要／課程手冊與學科共同核心原創編寫；非出版社或歷屆試題原文",
+    "sourceRef": "https://books.hanlin.com.tw/product/433021",
     "reviewStatus": "rule-checked",
     "semester": "上學期",
     "examPeriod": "第三次段考",
@@ -2367,16 +2615,26 @@ window.EXTRA30_GRADE_BANK = [
         "volume": "數學(3A)（官方互動式教學講義，搭配翰林教材）",
         "unitCode": "3",
         "unitName": "平面向量",
+        "unitAliases": [
+          "平面向量",
+          "向量",
+          "內積",
+          "投影",
+          "行列式",
+          "單位向量"
+        ],
+        "scopeKeywords": [],
         "semester": "上學期",
         "grade": "高二",
         "subject": "數學",
         "courseTrack": "數學A",
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁確認數學A軌別，學校採用版本未確認"
       }
     ],
     "learningContent": "單位向量",
-    "courseTrack": "數學A"
+    "courseTrack": "數學A",
+    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-math-3a-u3；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
   },
   {
     "id": "b30-069",
@@ -2397,7 +2655,7 @@ window.EXTRA30_GRADE_BANK = [
     "e": "動量 p＝mv＝0.4×5＝2 kg·m/s；方向與速度相同，為向東。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
-    "sourceRef": "依國家教育研究院公開108課綱課程綱要／課程手冊與學科共同核心原創編寫；非出版社或歷屆試題原文",
+    "sourceRef": "https://books.hanlin.com.tw/product/004022",
     "reviewStatus": "rule-checked",
     "semester": "上學期",
     "examPeriod": "unassigned",
@@ -2417,15 +2675,40 @@ window.EXTRA30_GRADE_BANK = [
         "volume": "選修物理(II) 力學二與熱學",
         "unitCode": "全冊",
         "unitName": "力學二與熱學",
+        "unitAliases": [],
+        "scopeKeywords": [
+          "動量",
+          "衝量",
+          "碰撞",
+          "功",
+          "位能",
+          "動能",
+          "力矩",
+          "角動量",
+          "熱",
+          "比熱",
+          "熱膨脹",
+          "熱傳導",
+          "熱力學",
+          "熱機",
+          "氣體",
+          "彈簧",
+          "圓周",
+          "向心",
+          "波以耳",
+          "線膨脹",
+          "機械能"
+        ],
         "semester": "上學期",
         "grade": "高二",
         "subject": "物理",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
       }
     ],
-    "learningContent": "動量與方向"
+    "learningContent": "動量與方向",
+    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-physics-ii；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
   },
   {
     "id": "b30-070",
@@ -2446,7 +2729,7 @@ window.EXTRA30_GRADE_BANK = [
     "e": "動量守恆：2×4＋1×0＝(2＋1)v，得 v＝8/3 m/s，方向向右。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
-    "sourceRef": "依國家教育研究院公開108課綱課程綱要／課程手冊與學科共同核心原創編寫；非出版社或歷屆試題原文",
+    "sourceRef": "https://books.hanlin.com.tw/product/004022",
     "reviewStatus": "rule-checked",
     "semester": "上學期",
     "examPeriod": "unassigned",
@@ -2466,15 +2749,40 @@ window.EXTRA30_GRADE_BANK = [
         "volume": "選修物理(II) 力學二與熱學",
         "unitCode": "全冊",
         "unitName": "力學二與熱學",
+        "unitAliases": [],
+        "scopeKeywords": [
+          "動量",
+          "衝量",
+          "碰撞",
+          "功",
+          "位能",
+          "動能",
+          "力矩",
+          "角動量",
+          "熱",
+          "比熱",
+          "熱膨脹",
+          "熱傳導",
+          "熱力學",
+          "熱機",
+          "氣體",
+          "彈簧",
+          "圓周",
+          "向心",
+          "波以耳",
+          "線膨脹",
+          "機械能"
+        ],
         "semester": "上學期",
         "grade": "高二",
         "subject": "物理",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
       }
     ],
-    "learningContent": "完全非彈性碰撞"
+    "learningContent": "完全非彈性碰撞",
+    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-physics-ii；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
   },
   {
     "id": "b30-071",
@@ -2495,7 +2803,7 @@ window.EXTRA30_GRADE_BANK = [
     "e": "力與位移同方向，作功 W＝Fs＝30×4＝120 焦耳。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
-    "sourceRef": "依國家教育研究院公開108課綱課程綱要／課程手冊與學科共同核心原創編寫；非出版社或歷屆試題原文",
+    "sourceRef": "https://books.hanlin.com.tw/product/004022",
     "reviewStatus": "rule-checked",
     "semester": "上學期",
     "examPeriod": "unassigned",
@@ -2515,15 +2823,40 @@ window.EXTRA30_GRADE_BANK = [
         "volume": "選修物理(II) 力學二與熱學",
         "unitCode": "全冊",
         "unitName": "力學二與熱學",
+        "unitAliases": [],
+        "scopeKeywords": [
+          "動量",
+          "衝量",
+          "碰撞",
+          "功",
+          "位能",
+          "動能",
+          "力矩",
+          "角動量",
+          "熱",
+          "比熱",
+          "熱膨脹",
+          "熱傳導",
+          "熱力學",
+          "熱機",
+          "氣體",
+          "彈簧",
+          "圓周",
+          "向心",
+          "波以耳",
+          "線膨脹",
+          "機械能"
+        ],
         "semester": "上學期",
         "grade": "高二",
         "subject": "物理",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
       }
     ],
-    "learningContent": "功的計算"
+    "learningContent": "功的計算",
+    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-physics-ii；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
   },
   {
     "id": "b30-072",
@@ -2544,7 +2877,7 @@ window.EXTRA30_GRADE_BANK = [
     "e": "重力位能變化 ΔU＝mgh＝3×10×4＝120 焦耳。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
-    "sourceRef": "依國家教育研究院公開108課綱課程綱要／課程手冊與學科共同核心原創編寫；非出版社或歷屆試題原文",
+    "sourceRef": "https://books.hanlin.com.tw/product/004022",
     "reviewStatus": "rule-checked",
     "semester": "上學期",
     "examPeriod": "unassigned",
@@ -2564,15 +2897,40 @@ window.EXTRA30_GRADE_BANK = [
         "volume": "選修物理(II) 力學二與熱學",
         "unitCode": "全冊",
         "unitName": "力學二與熱學",
+        "unitAliases": [],
+        "scopeKeywords": [
+          "動量",
+          "衝量",
+          "碰撞",
+          "功",
+          "位能",
+          "動能",
+          "力矩",
+          "角動量",
+          "熱",
+          "比熱",
+          "熱膨脹",
+          "熱傳導",
+          "熱力學",
+          "熱機",
+          "氣體",
+          "彈簧",
+          "圓周",
+          "向心",
+          "波以耳",
+          "線膨脹",
+          "機械能"
+        ],
         "semester": "上學期",
         "grade": "高二",
         "subject": "物理",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
       }
     ],
-    "learningContent": "重力位能"
+    "learningContent": "重力位能",
+    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-physics-ii；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
   },
   {
     "id": "b30-073",
@@ -2593,7 +2951,7 @@ window.EXTRA30_GRADE_BANK = [
     "e": "動能 K＝(1/2)mv²＝0.5×2×3²＝9 焦耳。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
-    "sourceRef": "依國家教育研究院公開108課綱課程綱要／課程手冊與學科共同核心原創編寫；非出版社或歷屆試題原文",
+    "sourceRef": "https://books.hanlin.com.tw/product/004022",
     "reviewStatus": "rule-checked",
     "semester": "上學期",
     "examPeriod": "unassigned",
@@ -2613,15 +2971,40 @@ window.EXTRA30_GRADE_BANK = [
         "volume": "選修物理(II) 力學二與熱學",
         "unitCode": "全冊",
         "unitName": "力學二與熱學",
+        "unitAliases": [],
+        "scopeKeywords": [
+          "動量",
+          "衝量",
+          "碰撞",
+          "功",
+          "位能",
+          "動能",
+          "力矩",
+          "角動量",
+          "熱",
+          "比熱",
+          "熱膨脹",
+          "熱傳導",
+          "熱力學",
+          "熱機",
+          "氣體",
+          "彈簧",
+          "圓周",
+          "向心",
+          "波以耳",
+          "線膨脹",
+          "機械能"
+        ],
         "semester": "上學期",
         "grade": "高二",
         "subject": "物理",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
       }
     ],
-    "learningContent": "動能"
+    "learningContent": "動能",
+    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-physics-ii；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
   },
   {
     "id": "b30-074",
@@ -2642,7 +3025,7 @@ window.EXTRA30_GRADE_BANK = [
     "e": "平衡時兩側力矩相等：20×0.5＝F×1，因此 F＝10 N。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
-    "sourceRef": "依國家教育研究院公開108課綱課程綱要／課程手冊與學科共同核心原創編寫；非出版社或歷屆試題原文",
+    "sourceRef": "https://books.hanlin.com.tw/product/004022",
     "reviewStatus": "rule-checked",
     "semester": "上學期",
     "examPeriod": "unassigned",
@@ -2662,15 +3045,40 @@ window.EXTRA30_GRADE_BANK = [
         "volume": "選修物理(II) 力學二與熱學",
         "unitCode": "全冊",
         "unitName": "力學二與熱學",
+        "unitAliases": [],
+        "scopeKeywords": [
+          "動量",
+          "衝量",
+          "碰撞",
+          "功",
+          "位能",
+          "動能",
+          "力矩",
+          "角動量",
+          "熱",
+          "比熱",
+          "熱膨脹",
+          "熱傳導",
+          "熱力學",
+          "熱機",
+          "氣體",
+          "彈簧",
+          "圓周",
+          "向心",
+          "波以耳",
+          "線膨脹",
+          "機械能"
+        ],
         "semester": "上學期",
         "grade": "高二",
         "subject": "物理",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
       }
     ],
-    "learningContent": "力矩平衡"
+    "learningContent": "力矩平衡",
+    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-physics-ii；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
   },
   {
     "id": "b30-075",
@@ -2691,7 +3099,7 @@ window.EXTRA30_GRADE_BANK = [
     "e": "Q＝mcΔT＝200×4.2×(30－20)＝8,400 J。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
-    "sourceRef": "依國家教育研究院公開108課綱課程綱要／課程手冊與學科共同核心原創編寫；非出版社或歷屆試題原文",
+    "sourceRef": "https://books.hanlin.com.tw/product/004022",
     "reviewStatus": "rule-checked",
     "semester": "上學期",
     "examPeriod": "unassigned",
@@ -2711,15 +3119,40 @@ window.EXTRA30_GRADE_BANK = [
         "volume": "選修物理(II) 力學二與熱學",
         "unitCode": "全冊",
         "unitName": "力學二與熱學",
+        "unitAliases": [],
+        "scopeKeywords": [
+          "動量",
+          "衝量",
+          "碰撞",
+          "功",
+          "位能",
+          "動能",
+          "力矩",
+          "角動量",
+          "熱",
+          "比熱",
+          "熱膨脹",
+          "熱傳導",
+          "熱力學",
+          "熱機",
+          "氣體",
+          "彈簧",
+          "圓周",
+          "向心",
+          "波以耳",
+          "線膨脹",
+          "機械能"
+        ],
         "semester": "上學期",
         "grade": "高二",
         "subject": "物理",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
       }
     ],
-    "learningContent": "熱量計算"
+    "learningContent": "熱量計算",
+    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-physics-ii；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
   },
   {
     "id": "b30-076",
@@ -2740,35 +3173,16 @@ window.EXTRA30_GRADE_BANK = [
     "e": "牛頓第三定律指出作用力與反作用力大小相等、方向相反，且分別作用於兩個不同物體。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
-    "sourceRef": "依國家教育研究院公開108課綱課程綱要／課程手冊與學科共同核心原創編寫；非出版社或歷屆試題原文",
+    "sourceRef": "108課綱共同核心；原出版社映射未通過年級、科目、學期、課程軌別或單元／冊別範圍檢查。",
     "reviewStatus": "rule-checked",
-    "semester": "上學期",
+    "semester": "unassigned",
     "examPeriod": "unassigned",
-    "classificationBasis": "publisher-source-verified",
+    "classificationBasis": "curriculum-core",
     "confidence": "medium",
-    "publisherStatus": "publisher-mapped",
-    "publisherMappings": [
-      {
-        "publisher": "hanlin",
-        "mappingId": "hanlin-h2-physics-ii",
-        "sourceUrl": "https://books.hanlin.com.tw/product/004022",
-        "sourceTitle": "翰林書城－高中課本選修物理(II)力學二與熱學",
-        "verifiedAt": "2026-11-13",
-        "verificationStatus": "source-checked",
-        "notes": "官方頁明示高中二年級、上學期及課本名稱；僅作冊別／主題層級對照。",
-        "mappingLevel": "volume",
-        "volume": "選修物理(II) 力學二與熱學",
-        "unitCode": "全冊",
-        "unitName": "力學二與熱學",
-        "semester": "上學期",
-        "grade": "高二",
-        "subject": "物理",
-        "courseTrack": null,
-        "schoolYear": "未標示",
-        "courseType": "未確認"
-      }
-    ],
-    "learningContent": "牛頓第三運動定律"
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "learningContent": "牛頓第三運動定律",
+    "classificationNotes": "依108課綱共同核心原創編寫；原出版社映射未通過單元／冊別範圍核對，故不掛出版社標籤；學期與段考保留未分類。"
   },
   {
     "id": "b30-077",
@@ -2789,7 +3203,7 @@ window.EXTRA30_GRADE_BANK = [
     "e": "增加反應物 A 後，系統會消耗部分新增的 A，平衡向生成物 C 方向移動；定溫下平衡常數不因濃度改變。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
-    "sourceRef": "依國家教育研究院公開108課綱課程綱要／課程手冊與學科共同核心原創編寫；非出版社或歷屆試題原文",
+    "sourceRef": "https://books.hanlin.com.tw/product/435023",
     "reviewStatus": "rule-checked",
     "semester": "全學年",
     "examPeriod": "unassigned",
@@ -2809,15 +3223,24 @@ window.EXTRA30_GRADE_BANK = [
         "volume": "選修化學(III)（官方互動式教學講義）",
         "unitCode": "1",
         "unitName": "化學平衡",
+        "unitAliases": [
+          "化學平衡",
+          "平衡常數",
+          "勒沙特列",
+          "反應商",
+          "平衡移動"
+        ],
+        "scopeKeywords": [],
         "semester": "全學年",
         "grade": "高二、高三",
         "subject": "化學",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
       }
     ],
-    "learningContent": "化學平衡與濃度"
+    "learningContent": "化學平衡與濃度",
+    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-chemistry-iii-u1；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
   },
   {
     "id": "b30-078",
@@ -2838,7 +3261,7 @@ window.EXTRA30_GRADE_BANK = [
     "e": "升高溫度相當於增加熱量，系統傾向消耗熱量，因此朝吸熱的逆反應方向移動。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
-    "sourceRef": "依國家教育研究院公開108課綱課程綱要／課程手冊與學科共同核心原創編寫；非出版社或歷屆試題原文",
+    "sourceRef": "https://books.hanlin.com.tw/product/435023",
     "reviewStatus": "rule-checked",
     "semester": "全學年",
     "examPeriod": "unassigned",
@@ -2858,15 +3281,24 @@ window.EXTRA30_GRADE_BANK = [
         "volume": "選修化學(III)（官方互動式教學講義）",
         "unitCode": "1",
         "unitName": "化學平衡",
+        "unitAliases": [
+          "化學平衡",
+          "平衡常數",
+          "勒沙特列",
+          "反應商",
+          "平衡移動"
+        ],
+        "scopeKeywords": [],
         "semester": "全學年",
         "grade": "高二、高三",
         "subject": "化學",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
       }
     ],
-    "learningContent": "勒沙特列原理"
+    "learningContent": "勒沙特列原理",
+    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-chemistry-iii-u1；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
   },
   {
     "id": "b30-079",
@@ -2887,7 +3319,7 @@ window.EXTRA30_GRADE_BANK = [
     "e": "平衡常數以生成物濃度乘積除以反應物濃度乘積表示；此反應係數皆為 1，所以 Kc＝[C]/([A][B])。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
-    "sourceRef": "依國家教育研究院公開108課綱課程綱要／課程手冊與學科共同核心原創編寫；非出版社或歷屆試題原文",
+    "sourceRef": "https://books.hanlin.com.tw/product/435023",
     "reviewStatus": "rule-checked",
     "semester": "全學年",
     "examPeriod": "unassigned",
@@ -2907,15 +3339,24 @@ window.EXTRA30_GRADE_BANK = [
         "volume": "選修化學(III)（官方互動式教學講義）",
         "unitCode": "1",
         "unitName": "化學平衡",
+        "unitAliases": [
+          "化學平衡",
+          "平衡常數",
+          "勒沙特列",
+          "反應商",
+          "平衡移動"
+        ],
+        "scopeKeywords": [],
         "semester": "全學年",
         "grade": "高二、高三",
         "subject": "化學",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
       }
     ],
-    "learningContent": "平衡常數表示式"
+    "learningContent": "平衡常數表示式",
+    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-chemistry-iii-u1；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
   },
   {
     "id": "b30-080",
@@ -2936,7 +3377,7 @@ window.EXTRA30_GRADE_BANK = [
     "e": "當 Qsp＞Ksp，溶液中的離子量超過平衡溶解度，會析出沉澱，直到離子積回到平衡條件。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
-    "sourceRef": "依國家教育研究院公開108課綱課程綱要／課程手冊與學科共同核心原創編寫；非出版社或歷屆試題原文",
+    "sourceRef": "https://books.hanlin.com.tw/product/435023",
     "reviewStatus": "rule-checked",
     "semester": "全學年",
     "examPeriod": "unassigned",
@@ -2956,15 +3397,24 @@ window.EXTRA30_GRADE_BANK = [
         "volume": "選修化學(III)（官方互動式教學講義）",
         "unitCode": "2",
         "unitName": "沉澱反應與溶解平衡",
+        "unitAliases": [
+          "沉澱",
+          "溶解平衡",
+          "溶度積",
+          "共同離子",
+          "Ksp"
+        ],
+        "scopeKeywords": [],
         "semester": "全學年",
         "grade": "高二、高三",
         "subject": "化學",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
       }
     ],
-    "learningContent": "溶解平衡與沉澱"
+    "learningContent": "溶解平衡與沉澱",
+    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-chemistry-iii-u2；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
   },
   {
     "id": "b30-081",
@@ -2985,7 +3435,7 @@ window.EXTRA30_GRADE_BANK = [
     "e": "強酸完全解離時 [H⁺]＝1.0×10⁻⁴ M，因此 pH＝−log(10⁻⁴)＝4。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
-    "sourceRef": "依國家教育研究院公開108課綱課程綱要／課程手冊與學科共同核心原創編寫；非出版社或歷屆試題原文",
+    "sourceRef": "https://books.hanlin.com.tw/product/435023",
     "reviewStatus": "rule-checked",
     "semester": "全學年",
     "examPeriod": "unassigned",
@@ -3005,15 +3455,24 @@ window.EXTRA30_GRADE_BANK = [
         "volume": "選修化學(III)（官方互動式教學講義）",
         "unitCode": "3",
         "unitName": "酸鹼反應",
+        "unitAliases": [
+          "酸鹼",
+          "pH",
+          "滴定",
+          "緩衝",
+          "鹽類水解"
+        ],
+        "scopeKeywords": [],
         "semester": "全學年",
         "grade": "高二、高三",
         "subject": "化學",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
       }
     ],
-    "learningContent": "強酸與 pH"
+    "learningContent": "強酸與 pH",
+    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-chemistry-iii-u3；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
   },
   {
     "id": "b30-082",
@@ -3034,7 +3493,7 @@ window.EXTRA30_GRADE_BANK = [
     "e": "HCl 與 NaOH 以 1：1 反應，兩者莫耳數相同且完全中和；在 25°C 的理想條件下溶液約為中性。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
-    "sourceRef": "依國家教育研究院公開108課綱課程綱要／課程手冊與學科共同核心原創編寫；非出版社或歷屆試題原文",
+    "sourceRef": "https://books.hanlin.com.tw/product/435023",
     "reviewStatus": "rule-checked",
     "semester": "全學年",
     "examPeriod": "unassigned",
@@ -3054,15 +3513,24 @@ window.EXTRA30_GRADE_BANK = [
         "volume": "選修化學(III)（官方互動式教學講義）",
         "unitCode": "3",
         "unitName": "酸鹼反應",
+        "unitAliases": [
+          "酸鹼",
+          "pH",
+          "滴定",
+          "緩衝",
+          "鹽類水解"
+        ],
+        "scopeKeywords": [],
         "semester": "全學年",
         "grade": "高二、高三",
         "subject": "化學",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
       }
     ],
-    "learningContent": "酸鹼中和"
+    "learningContent": "酸鹼中和",
+    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-chemistry-iii-u3；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
   },
   {
     "id": "b30-083",
@@ -3083,7 +3551,7 @@ window.EXTRA30_GRADE_BANK = [
     "e": "緩衝溶液含有弱酸／共軛鹼或弱鹼／共軛酸，能消耗少量加入的 H⁺ 或 OH⁻，減緩 pH 變化。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
-    "sourceRef": "依國家教育研究院公開108課綱課程綱要／課程手冊與學科共同核心原創編寫；非出版社或歷屆試題原文",
+    "sourceRef": "https://books.hanlin.com.tw/product/435023",
     "reviewStatus": "rule-checked",
     "semester": "全學年",
     "examPeriod": "unassigned",
@@ -3103,15 +3571,24 @@ window.EXTRA30_GRADE_BANK = [
         "volume": "選修化學(III)（官方互動式教學講義）",
         "unitCode": "3",
         "unitName": "酸鹼反應",
+        "unitAliases": [
+          "酸鹼",
+          "pH",
+          "滴定",
+          "緩衝",
+          "鹽類水解"
+        ],
+        "scopeKeywords": [],
         "semester": "全學年",
         "grade": "高二、高三",
         "subject": "化學",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
       }
     ],
-    "learningContent": "緩衝溶液"
+    "learningContent": "緩衝溶液",
+    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-chemistry-iii-u3；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
   },
   {
     "id": "b30-084",
@@ -3132,7 +3609,7 @@ window.EXTRA30_GRADE_BANK = [
     "e": "加入共同離子 Cl⁻ 使平衡向左移動，較多 AgCl 固體形成，因此其溶解度降低。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
-    "sourceRef": "依國家教育研究院公開108課綱課程綱要／課程手冊與學科共同核心原創編寫；非出版社或歷屆試題原文",
+    "sourceRef": "https://books.hanlin.com.tw/product/435023",
     "reviewStatus": "rule-checked",
     "semester": "全學年",
     "examPeriod": "unassigned",
@@ -3152,15 +3629,24 @@ window.EXTRA30_GRADE_BANK = [
         "volume": "選修化學(III)（官方互動式教學講義）",
         "unitCode": "2",
         "unitName": "沉澱反應與溶解平衡",
+        "unitAliases": [
+          "沉澱",
+          "溶解平衡",
+          "溶度積",
+          "共同離子",
+          "Ksp"
+        ],
+        "scopeKeywords": [],
         "semester": "全學年",
         "grade": "高二、高三",
         "subject": "化學",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
       }
     ],
-    "learningContent": "共同離子效應"
+    "learningContent": "共同離子效應",
+    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-chemistry-iii-u2；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
   },
   {
     "id": "b30-085",
@@ -3189,7 +3675,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "減數分裂與染色體"
+    "learningContent": "減數分裂與染色體",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-086",
@@ -3218,7 +3705,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "獨立分配與配子"
+    "learningContent": "獨立分配與配子",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-087",
@@ -3247,7 +3735,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "DNA半保留複製"
+    "learningContent": "DNA半保留複製",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-088",
@@ -3276,7 +3765,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "自然選擇與抗藥性"
+    "learningContent": "自然選擇與抗藥性",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-089",
@@ -3305,7 +3795,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "酵素變性"
+    "learningContent": "酵素變性",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-090",
@@ -3334,7 +3825,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "GIS圖層疊合"
+    "learningContent": "GIS圖層疊合",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-091",
@@ -3363,7 +3855,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "人口轉型"
+    "learningContent": "人口轉型",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-092",
@@ -3392,7 +3885,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "聚集經濟"
+    "learningContent": "聚集經濟",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-093",
@@ -3421,7 +3915,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "全球供應鏈風險"
+    "learningContent": "全球供應鏈風險",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-094",
@@ -3450,7 +3945,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "史料立場與互證"
+    "learningContent": "史料立場與互證",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-095",
@@ -3479,7 +3975,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "戰後去殖民化"
+    "learningContent": "戰後去殖民化",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-096",
@@ -3508,7 +4005,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "比例原則必要性"
+    "learningContent": "比例原則必要性",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-097",
@@ -3537,7 +4035,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "法律保留"
+    "learningContent": "法律保留",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-098",
@@ -3566,7 +4065,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "比例原則衡量性"
+    "learningContent": "比例原則衡量性",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-099",
@@ -3595,7 +4095,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "第三類條件句"
+    "learningContent": "第三類條件句",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-100",
@@ -3624,6 +4125,7 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "論證證據與因果"
+    "learningContent": "論證證據與因果",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   }
 ];

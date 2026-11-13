@@ -174,7 +174,20 @@
       "mappingId": "hanlin-h2-math-3a-u1",
       "courseType": "未確認；官方頁確認數學A軌別，學校採用版本未確認",
       "mappingLevel": "unit",
-      "courseTrack": "數學A"
+      "courseTrack": "數學A",
+      "unitAliases": [
+        "三角函數",
+        "三角比",
+        "特殊角",
+        "三角測量",
+        "弧度",
+        "正弦",
+        "餘弦",
+        "正切",
+        "週期",
+        "象限",
+        "三角方程式"
+      ]
     },
     {
       "id": "hanlin-h2-math-3a-u2",
@@ -197,7 +210,15 @@
       "mappingId": "hanlin-h2-math-3a-u2",
       "courseType": "未確認；官方頁確認數學A軌別，學校採用版本未確認",
       "mappingLevel": "unit",
-      "courseTrack": "數學A"
+      "courseTrack": "數學A",
+      "unitAliases": [
+        "指數",
+        "對數",
+        "log",
+        "成長模型",
+        "衰變",
+        "半衰期"
+      ]
     },
     {
       "id": "hanlin-h2-math-3a-u3",
@@ -220,7 +241,15 @@
       "mappingId": "hanlin-h2-math-3a-u3",
       "courseType": "未確認；官方頁確認數學A軌別，學校採用版本未確認",
       "mappingLevel": "unit",
-      "courseTrack": "數學A"
+      "courseTrack": "數學A",
+      "unitAliases": [
+        "平面向量",
+        "向量",
+        "內積",
+        "投影",
+        "行列式",
+        "單位向量"
+      ]
     },
     {
       "id": "hanlin-h2-physics-ii",
@@ -242,7 +271,30 @@
       "notes": "官方頁明示高中二年級、上學期及課本名稱；僅作冊別／主題層級對照。",
       "mappingId": "hanlin-h2-physics-ii",
       "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元",
-      "mappingLevel": "volume"
+      "mappingLevel": "volume",
+      "scopeKeywords": [
+        "動量",
+        "衝量",
+        "碰撞",
+        "功",
+        "位能",
+        "動能",
+        "力矩",
+        "角動量",
+        "熱",
+        "比熱",
+        "熱膨脹",
+        "熱傳導",
+        "熱力學",
+        "熱機",
+        "氣體",
+        "彈簧",
+        "圓周",
+        "向心",
+        "波以耳",
+        "線膨脹",
+        "機械能"
+      ]
     },
     {
       "id": "hanlin-h2-chemistry-iii-u1",
@@ -264,7 +316,14 @@
       "notes": "官方頁明示高二、高三、全學年，目次列化學平衡；不推定學校段考。",
       "mappingId": "hanlin-h2-chemistry-iii-u1",
       "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元",
-      "mappingLevel": "unit"
+      "mappingLevel": "unit",
+      "unitAliases": [
+        "化學平衡",
+        "平衡常數",
+        "勒沙特列",
+        "反應商",
+        "平衡移動"
+      ]
     },
     {
       "id": "hanlin-h2-chemistry-iii-u2",
@@ -286,7 +345,14 @@
       "notes": "官方頁明示目次列沉澱反應與溶解平衡；不推定學校段考。",
       "mappingId": "hanlin-h2-chemistry-iii-u2",
       "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元",
-      "mappingLevel": "unit"
+      "mappingLevel": "unit",
+      "unitAliases": [
+        "沉澱",
+        "溶解平衡",
+        "溶度積",
+        "共同離子",
+        "Ksp"
+      ]
     },
     {
       "id": "hanlin-h2-chemistry-iii-u3",
@@ -308,7 +374,14 @@
       "notes": "官方頁明示目次列酸鹼反應與酸鹼滴定實驗；不推定學校段考。",
       "mappingId": "hanlin-h2-chemistry-iii-u3",
       "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元",
-      "mappingLevel": "unit"
+      "mappingLevel": "unit",
+      "unitAliases": [
+        "酸鹼",
+        "pH",
+        "滴定",
+        "緩衝",
+        "鹽類水解"
+      ]
     },
     {
       "id": "knsh-g6-social-6a-u2-1",
@@ -330,7 +403,13 @@
       "notes": "官方教學資源直接標示社會六上2-1，並列六年級學習重點；僅對應涉及個人發展／社會變遷的題目。",
       "mappingId": "knsh-g6-social-6a-u2-1",
       "courseType": "國小",
-      "mappingLevel": "unit"
+      "mappingLevel": "unit",
+      "unitAliases": [
+        "個人發展如何受到社會變遷的影響",
+        "社會變遷與性別角色",
+        "社會變遷與家庭分工",
+        "個人發展與社會變遷"
+      ]
     },
     {
       "id": "hanlin-g6-math-6a-volume",
@@ -352,7 +431,8 @@
       "notes": "僅作冊別／學期層級資料核對；不代表本批題目取自教材，也不將一般知識點冒稱翰林專屬單元。",
       "mappingId": "hanlin-g6-math-6a-volume",
       "courseType": "國小",
-      "mappingLevel": "volume"
+      "mappingLevel": "volume",
+      "scopeKeywords": []
     },
     {
       "id": "hanlin-g6-math-6b-volume",
@@ -374,7 +454,8 @@
       "notes": "僅作冊別／學期層級資料核對；不代表本批題目取自教材，也不將一般知識點冒稱翰林專屬單元。",
       "mappingId": "hanlin-g6-math-6b-volume",
       "courseType": "國小",
-      "mappingLevel": "volume"
+      "mappingLevel": "volume",
+      "scopeKeywords": []
     },
     {
       "id": "hanlin-h2-chemistry-ii-structure-rate",
@@ -396,7 +477,16 @@
       "notes": "翰林官方課本頁明示高中2年級、上學期及冊名「選修化學(II)物質構造與反應速率」；僅冊別層級，不宣稱細分單元已核對。不同商品編號的實驗手冊或習作可能有不同學期，不能與此課本頁混用。此映射不代表學校採用版本。",
       "mappingId": "hanlin-h2-chemistry-ii-structure-rate",
       "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元",
-      "mappingLevel": "volume"
+      "mappingLevel": "volume",
+      "scopeKeywords": [
+        "反應速率",
+        "催化劑",
+        "活化能",
+        "反應級數",
+        "物質構造",
+        "電子組態",
+        "價電子"
+      ]
     },
     {
       "id": "hanlin-h2-biology-ii-plant",
@@ -418,7 +508,16 @@
       "notes": "官方頁明示高中二年級、上學期及冊名；此映射不代表已核對具體單元目次。",
       "mappingId": "hanlin-h2-biology-ii-plant",
       "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元",
-      "mappingLevel": "volume"
+      "mappingLevel": "volume",
+      "scopeKeywords": [
+        "植物",
+        "光合作用",
+        "蒸散",
+        "氣孔",
+        "維管束",
+        "木質部",
+        "韌皮部"
+      ]
     },
     {
       "id": "hanlin-h2-chemistry-i-matter-energy",
@@ -440,7 +539,13 @@
       "notes": "官方商品頁明示高中二年級、上學期及課本名稱「物質與能量」；本映射只證明冊別層級，不能推論細分單元或學校段考範圍。題目為原創，非教材或歷屆試題原文。",
       "mappingId": "hanlin-h2-chemistry-i-matter-energy",
       "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元",
-      "mappingLevel": "volume"
+      "mappingLevel": "volume",
+      "scopeKeywords": [
+        "焓",
+        "反應熱",
+        "能量",
+        "赫斯定律"
+      ]
     },
     {
       "id": "nani-g6-math-6b-base-comparison",
@@ -460,7 +565,11 @@
       "sourceTitle": "南一資源_內文－數學6下｜基準量和比較量",
       "verifiedAt": "2026-11-13",
       "verificationStatus": "source-checked",
-      "notes": "南一官方資源頁明示數學6下、國小數學6年級及「基準量和比較量」單元標題；僅支持此資源單元層級，不代表完整教科書目次或學校採用版本。"
+      "notes": "南一官方資源頁明示數學6下、國小數學6年級及「基準量和比較量」單元標題；僅支持此資源單元層級，不代表完整教科書目次或學校採用版本。",
+      "unitAliases": [
+        "基準量和比較量",
+        "基準量與比較量"
+      ]
     },
     {
       "id": "nani-g6-math-6b-four-operations",
@@ -480,7 +589,10 @@
       "sourceTitle": "南一資源_內文－數學6下｜四則混合運算",
       "verifiedAt": "2026-11-13",
       "verificationStatus": "source-checked",
-      "notes": "南一官方資源頁明示數學6下、國小數學6年級及「四則混合運算」單元標題；僅支持此資源單元層級，不代表完整教科書目次或學校採用版本。"
+      "notes": "南一官方資源頁明示數學6下、國小數學6年級及「四則混合運算」單元標題；僅支持此資源單元層級，不代表完整教科書目次或學校採用版本。",
+      "unitAliases": [
+        "四則混合運算"
+      ]
     },
     {
       "id": "nani-g6-math-6b-chicken-rabbit",
@@ -502,7 +614,11 @@
       "verificationStatus": "official-index-link-only",
       "notes": "南一官方資源頁a=341的熱門文章連結列出「數學6下｜怎樣解題：雞兔問題」，可由可讀取的官方索引頁確認年級、科目、學期與主題；目標詳情頁a=394目前請求逾時，未能檢視內容與作者細節，因此只作官方平台資源索引標題對照，不宣稱南一課本單元或南一編寫原題。",
       "learningContent": "官方索引連結標題顯示數學6下與雞兔問題；詳情頁未能讀取，內容與作者待核對。",
-      "targetUrl": "https://tpack.nani.com.tw/nani_content?a=394&b=1"
+      "targetUrl": "https://tpack.nani.com.tw/nani_content?a=394&b=1",
+      "unitAliases": [
+        "雞兔問題",
+        "雞兔同籠"
+      ]
     }
   ],
   "mappingStatus": "partial-source-verified-13-mappings",
@@ -986,5 +1102,42 @@
       }
     },
     "mergeCommit": "0b76d6e99d66502f39f6e9c32ad8032bbcc47494"
+  },
+  "auditSummary": {
+    "auditedAt": "2026-11-13",
+    "auditedRef": "main at b72eb277b7a18da37998ebbce7763c6f065070d3; development branch includes batch38",
+    "batchRange": "08-38",
+    "batchFileCount": 31,
+    "questionCount": 2600,
+    "uniqueQuestionIdCount": 2600,
+    "gradeCounts": {
+      "五年級": 290,
+      "六年級": 740,
+      "高一": 373,
+      "高二": 824,
+      "高三": 373
+    },
+    "embeddedClassification": {
+      "batches08to29": 0,
+      "batches30to38": 900,
+      "missingClassificationNotes": 0,
+      "sourceRefPresent": 2600
+    },
+    "mappingReferencesInBatches30to38": 185,
+    "validatedMappingReferencesInBatches30to38": 185,
+    "centralMappingCount": 16,
+    "publisherReferenceCounts": {
+      "hanlin": 160,
+      "knsh": 6,
+      "nani": 19
+    },
+    "notes": [
+      "第8至29批共1700題未內嵌semester、examPeriod、classificationBasis、confidence、publisherStatus及publisherMappings；由分類推定器依可辨識題幹、單元與知識點動態推定，不能視為已回寫批次檔。",
+      "第30至38批共900題已內嵌主要分類欄位與classificationNotes；第30批原缺少的91筆classificationNotes已補齊。",
+      "第30至38批185筆出版社映射引用已逐筆驗證中央mappingId、publisher、sourceUrl、sourceTitle、verifiedAt、verificationStatus、notes、年級、科目、學期、課程軌別及單元／冊別範圍，185筆均通過。",
+      "只有來源可支持的層級才標記出版社；volume映射使用scopeKeywords限制，unit映射使用unitAliases限制；不符合範圍者從舊批次移除出版社標籤。",
+      "數學A/B以courseTrack隔離；未確認普通高中／技術型高中、學年度或學校採用版本者不作指定版本宣稱。",
+      "段考分類為題庫複習建議，不代表學校正式考試範圍。"
+    ]
   }
 }
