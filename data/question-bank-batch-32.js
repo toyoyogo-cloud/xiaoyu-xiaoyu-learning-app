@@ -1,5 +1,4 @@
-/* 第三十二批108課綱原創題庫：國小六年級50題、高中高二50題；出版社對照僅限可核對官方來源。 */
-(function(){window.EXTRA32_GRADE_BANK=[
+window.EXTRA32_GRADE_BANK = [
   {
     "id": "b32-001",
     "stage": "國小",
@@ -1976,19 +1975,13 @@
     "sourceRef": "題目為原創；教材對照僅參照出版社官方資料，非教材或歷屆試題原文。",
     "reviewStatus": "rule-checked",
     "learningContent": "三角函數模型",
-    "semester": "上學期",
+    "semester": "unassigned",
     "examPeriod": "unassigned",
-    "classificationBasis": "publisher-source-verified",
-    "confidence": "medium",
-    "publisherStatus": "publisher-mapped",
-    "publisherMappings": [
-      {
-        "publisher": "hanlin",
-        "mappingId": "hanlin-h2-math-3a-u1",
-        "verificationStatus": "source-checked"
-      }
-    ],
-    "classificationNotes": "題目為原創；翰林官方資料核對高二上數學(3A)列三角函數單元；段考未有學校範圍，故未分類。"
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "原先依翰林數學3A單元次序標記，但題目未記錄數學A/B軌別；依版本隔離原則移除出版社映射並恢復未分類，待確認課程軌別後再映射。"
   },
   {
     "id": "b32-063",
@@ -2471,7 +2464,21 @@
       {
         "publisher": "hanlin",
         "mappingId": "hanlin-h2-chemistry-i-matter-energy",
-        "verificationStatus": "source-checked"
+        "sourceUrl": "https://books.hanlin.com.tw/product/005021",
+        "sourceTitle": "翰林書城－高中課本選修化學(I)物質與能量",
+        "verifiedAt": "2026-11-13",
+        "verificationStatus": "source-checked",
+        "notes": "官方商品頁明示高中二年級、上學期及課本名稱「物質與能量」；本映射只證明冊別層級，不能推論細分單元或學校段考範圍。題目為原創，非教材或歷屆試題原文。",
+        "mappingLevel": "volume",
+        "volume": "選修化學(I)物質與能量",
+        "unitCode": "冊別層級",
+        "unitName": "物質與能量（冊別層級）",
+        "semester": "上學期",
+        "grade": "高二",
+        "subject": "化學",
+        "courseTrack": null,
+        "schoolYear": "未標示",
+        "courseType": "未確認"
       }
     ],
     "classificationNotes": "題目為原創；翰林官方課本頁僅核對高二上選修化學(I)冊名「物質與能量」，未公開細分目次，僅作冊別層級對照。"
@@ -2509,7 +2516,21 @@
       {
         "publisher": "hanlin",
         "mappingId": "hanlin-h2-chemistry-i-matter-energy",
-        "verificationStatus": "source-checked"
+        "sourceUrl": "https://books.hanlin.com.tw/product/005021",
+        "sourceTitle": "翰林書城－高中課本選修化學(I)物質與能量",
+        "verifiedAt": "2026-11-13",
+        "verificationStatus": "source-checked",
+        "notes": "官方商品頁明示高中二年級、上學期及課本名稱「物質與能量」；本映射只證明冊別層級，不能推論細分單元或學校段考範圍。題目為原創，非教材或歷屆試題原文。",
+        "mappingLevel": "volume",
+        "volume": "選修化學(I)物質與能量",
+        "unitCode": "冊別層級",
+        "unitName": "物質與能量（冊別層級）",
+        "semester": "上學期",
+        "grade": "高二",
+        "subject": "化學",
+        "courseTrack": null,
+        "schoolYear": "未標示",
+        "courseType": "未確認"
       }
     ],
     "classificationNotes": "題目為原創；翰林官方課本頁僅核對高二上選修化學(I)冊名「物質與能量」，未公開細分目次，僅作冊別層級對照。"
@@ -3218,4 +3239,4 @@
     "publisherMappings": [],
     "classificationNotes": "依108課綱共同核心概念原創編寫；缺乏可核對的出版社細分單元或學校段考依據，故學期與段考維持未分類。"
   }
-];})();
+];

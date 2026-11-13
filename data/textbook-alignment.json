@@ -170,7 +170,11 @@
       "sourceTitle": "翰林書城－高中互動式教學講義數學(3A)",
       "verifiedAt": "2026-11-13",
       "verificationStatus": "source-checked",
-      "notes": "官方頁明示高二、上學期與108課綱高二數學A版，目次列三角函數；只作單元對照，不表示題目取自教材。"
+      "notes": "官方頁明示高二、上學期與108課綱高二數學A版，目次列三角函數；只作單元對照，不表示題目取自教材。",
+      "mappingId": "hanlin-h2-math-3a-u1",
+      "courseType": "未確認",
+      "mappingLevel": "unit",
+      "courseTrack": "數學A"
     },
     {
       "id": "hanlin-h2-math-3a-u2",
@@ -189,7 +193,11 @@
       "sourceTitle": "翰林書城－高中互動式教學講義數學(3A)",
       "verifiedAt": "2026-11-13",
       "verificationStatus": "source-checked",
-      "notes": "官方頁明示高二、上學期與目次單元；段考區間仍為題庫依單元順序推定。"
+      "notes": "官方頁明示高二、上學期與目次單元；段考區間仍為題庫依單元順序推定。",
+      "mappingId": "hanlin-h2-math-3a-u2",
+      "courseType": "未確認",
+      "mappingLevel": "unit",
+      "courseTrack": "數學A"
     },
     {
       "id": "hanlin-h2-math-3a-u3",
@@ -208,7 +216,11 @@
       "sourceTitle": "翰林書城－高中互動式教學講義數學(3A)",
       "verifiedAt": "2026-11-13",
       "verificationStatus": "source-checked",
-      "notes": "官方頁明示高二、上學期與目次單元；段考區間仍為題庫依單元順序推定。"
+      "notes": "官方頁明示高二、上學期與目次單元；段考區間仍為題庫依單元順序推定。",
+      "mappingId": "hanlin-h2-math-3a-u3",
+      "courseType": "未確認",
+      "mappingLevel": "unit",
+      "courseTrack": "數學A"
     },
     {
       "id": "hanlin-h2-physics-ii",
@@ -227,7 +239,10 @@
       "sourceTitle": "翰林書城－高中課本選修物理(II)力學二與熱學",
       "verifiedAt": "2026-11-13",
       "verificationStatus": "source-checked",
-      "notes": "官方頁明示高中二年級、上學期及課本名稱；僅作冊別／主題層級對照。"
+      "notes": "官方頁明示高中二年級、上學期及課本名稱；僅作冊別／主題層級對照。",
+      "mappingId": "hanlin-h2-physics-ii",
+      "courseType": "未確認",
+      "mappingLevel": "volume"
     },
     {
       "id": "hanlin-h2-chemistry-iii-u1",
@@ -246,7 +261,10 @@
       "sourceTitle": "翰林書城－高中互動式教學講義選修化學(III)",
       "verifiedAt": "2026-11-13",
       "verificationStatus": "source-checked",
-      "notes": "官方頁明示高二、高三、全學年，目次列化學平衡；不推定學校段考。"
+      "notes": "官方頁明示高二、高三、全學年，目次列化學平衡；不推定學校段考。",
+      "mappingId": "hanlin-h2-chemistry-iii-u1",
+      "courseType": "未確認",
+      "mappingLevel": "unit"
     },
     {
       "id": "hanlin-h2-chemistry-iii-u2",
@@ -265,7 +283,10 @@
       "sourceTitle": "翰林書城－高中互動式教學講義選修化學(III)",
       "verifiedAt": "2026-11-13",
       "verificationStatus": "source-checked",
-      "notes": "官方頁明示目次列沉澱反應與溶解平衡；不推定學校段考。"
+      "notes": "官方頁明示目次列沉澱反應與溶解平衡；不推定學校段考。",
+      "mappingId": "hanlin-h2-chemistry-iii-u2",
+      "courseType": "未確認",
+      "mappingLevel": "unit"
     },
     {
       "id": "hanlin-h2-chemistry-iii-u3",
@@ -284,7 +305,10 @@
       "sourceTitle": "翰林書城－高中互動式教學講義選修化學(III)",
       "verifiedAt": "2026-11-13",
       "verificationStatus": "source-checked",
-      "notes": "官方頁明示目次列酸鹼反應與酸鹼滴定實驗；不推定學校段考。"
+      "notes": "官方頁明示目次列酸鹼反應與酸鹼滴定實驗；不推定學校段考。",
+      "mappingId": "hanlin-h2-chemistry-iii-u3",
+      "courseType": "未確認",
+      "mappingLevel": "unit"
     },
     {
       "id": "knsh-g6-social-6a-u2-1",
@@ -303,7 +327,10 @@
       "sourceTitle": "康軒社會六上2-1教學資源PDF",
       "verifiedAt": "2026-11-13",
       "verificationStatus": "source-checked",
-      "notes": "官方教學資源直接標示社會六上2-1，並列六年級學習重點；僅對應涉及個人發展／社會變遷的題目。"
+      "notes": "官方教學資源直接標示社會六上2-1，並列六年級學習重點；僅對應涉及個人發展／社會變遷的題目。",
+      "mappingId": "knsh-g6-social-6a-u2-1",
+      "courseType": "國小",
+      "mappingLevel": "unit"
     },
     {
       "id": "hanlin-g6-math-6a-volume",
@@ -322,7 +349,10 @@
       "sourceTitle": "翰林書城－國小課本數學(6上)",
       "verifiedAt": "2026-11-13",
       "verificationStatus": "source-checked",
-      "notes": "僅作冊別／學期層級資料核對；不代表本批題目取自教材，也不將一般知識點冒稱翰林專屬單元。"
+      "notes": "僅作冊別／學期層級資料核對；不代表本批題目取自教材，也不將一般知識點冒稱翰林專屬單元。",
+      "mappingId": "hanlin-g6-math-6a-volume",
+      "courseType": "國小",
+      "mappingLevel": "volume"
     },
     {
       "id": "hanlin-g6-math-6b-volume",
@@ -341,7 +371,10 @@
       "sourceTitle": "翰林書城－國小課本數學(6下)",
       "verifiedAt": "2026-11-13",
       "verificationStatus": "source-checked",
-      "notes": "僅作冊別／學期層級資料核對；不代表本批題目取自教材，也不將一般知識點冒稱翰林專屬單元。"
+      "notes": "僅作冊別／學期層級資料核對；不代表本批題目取自教材，也不將一般知識點冒稱翰林專屬單元。",
+      "mappingId": "hanlin-g6-math-6b-volume",
+      "courseType": "國小",
+      "mappingLevel": "volume"
     },
     {
       "id": "hanlin-h2-chemistry-ii-structure-rate",
@@ -349,7 +382,7 @@
       "stage": "高中",
       "grade": "高二",
       "subject": "化學",
-      "semester": "下學期",
+      "semester": "上學期",
       "publisher": "hanlin",
       "volume": "選修化學(II)物質構造與反應速率",
       "unitCode": "冊名主題",
@@ -360,7 +393,10 @@
       "sourceTitle": "翰林書城－高中課本選修化學(II)物質構造與反應速率",
       "verifiedAt": "2026-11-13",
       "verificationStatus": "source-checked",
-      "notes": "官方頁明示高中二年級、下學期及課本名稱「物質構造與反應速率」；本映射只證明冊名／學期層級，不能推論細分單元或學校段考範圍。"
+      "notes": "官方翰林課本頁明示高中2年級、上學期及冊名「選修化學(II)物質構造與反應速率」；僅冊名／主題層級，未核對完整細分目次。此前曾誤標下學期，本次依官方頁更正。此映射不代表學校採用版本。",
+      "mappingId": "hanlin-h2-chemistry-ii-structure-rate",
+      "courseType": "未確認",
+      "mappingLevel": "title-topic"
     },
     {
       "id": "hanlin-h2-biology-ii-plant",
@@ -379,7 +415,10 @@
       "sourceTitle": "翰林書城－高中課本選修生物(II)生命的起源與植物",
       "verifiedAt": "2026-11-13",
       "verificationStatus": "source-checked",
-      "notes": "官方頁明示高中二年級、上學期及冊名；此映射不代表已核對具體單元目次。"
+      "notes": "官方頁明示高中二年級、上學期及冊名；此映射不代表已核對具體單元目次。",
+      "mappingId": "hanlin-h2-biology-ii-plant",
+      "courseType": "未確認",
+      "mappingLevel": "volume"
     },
     {
       "id": "hanlin-h2-chemistry-i-matter-energy",
@@ -398,7 +437,70 @@
       "sourceTitle": "翰林書城－高中課本選修化學(I)物質與能量",
       "verifiedAt": "2026-11-13",
       "verificationStatus": "source-checked",
-      "notes": "官方商品頁明示高中二年級、上學期及課本名稱「物質與能量」；本映射只證明冊別層級，不能推論細分單元或學校段考範圍。題目為原創，非教材或歷屆試題原文。"
+      "notes": "官方商品頁明示高中二年級、上學期及課本名稱「物質與能量」；本映射只證明冊別層級，不能推論細分單元或學校段考範圍。題目為原創，非教材或歷屆試題原文。",
+      "mappingId": "hanlin-h2-chemistry-i-matter-energy",
+      "courseType": "未確認",
+      "mappingLevel": "volume"
+    },
+    {
+      "id": "nani-g6-math-6b-base-comparison",
+      "mappingId": "nani-g6-math-6b-base-comparison",
+      "publisher": "nani",
+      "stage": "國小",
+      "grade": "六年級",
+      "subject": "數學",
+      "semester": "下學期",
+      "volume": "數學6下",
+      "unitCode": "官方數位教學資源單元",
+      "unitName": "基準量和比較量",
+      "mappingLevel": "unit",
+      "schoolYear": "未標示",
+      "courseType": "國小",
+      "sourceUrl": "https://tpack.nani.com.tw/nani_content?a=341&b=1",
+      "sourceTitle": "南一資源_內文－數學6下｜基準量和比較量",
+      "verifiedAt": "2026-11-13",
+      "verificationStatus": "source-checked",
+      "notes": "南一官方資源頁明示數學6下、國小數學6年級及「基準量和比較量」單元標題；僅支持此資源單元層級，不代表完整教科書目次或學校採用版本。"
+    },
+    {
+      "id": "nani-g6-math-6b-four-operations",
+      "mappingId": "nani-g6-math-6b-four-operations",
+      "publisher": "nani",
+      "stage": "國小",
+      "grade": "六年級",
+      "subject": "數學",
+      "semester": "下學期",
+      "volume": "數學6下",
+      "unitCode": "官方數位教學資源單元",
+      "unitName": "四則混合運算",
+      "mappingLevel": "unit",
+      "schoolYear": "未標示",
+      "courseType": "國小",
+      "sourceUrl": "https://tpack.nani.com.tw/nani_content?a=340&b=1",
+      "sourceTitle": "南一資源_內文－數學6下｜四則混合運算",
+      "verifiedAt": "2026-11-13",
+      "verificationStatus": "source-checked",
+      "notes": "南一官方資源頁明示數學6下、國小數學6年級及「四則混合運算」單元標題；僅支持此資源單元層級，不代表完整教科書目次或學校採用版本。"
+    },
+    {
+      "id": "nani-g6-math-6b-chicken-rabbit",
+      "mappingId": "nani-g6-math-6b-chicken-rabbit",
+      "publisher": "nani",
+      "stage": "國小",
+      "grade": "六年級",
+      "subject": "數學",
+      "semester": "下學期",
+      "volume": "數學6下",
+      "unitCode": "官方教學資源主題",
+      "unitName": "怎樣解題：雞兔問題",
+      "mappingLevel": "unit",
+      "schoolYear": "未標示",
+      "courseType": "國小",
+      "sourceUrl": "https://tpack.nani.com.tw/nani_content?a=394&b=1",
+      "sourceTitle": "南一資源_內文－數學6下｜怎樣解題：雞兔問題",
+      "verifiedAt": "2026-11-13",
+      "verificationStatus": "source-checked",
+      "notes": "南一官方資源平台頁面明示數學6下、國小數學6年級及雞兔同籠主題；頁面分享者為高師大，屬官方平台教學資源，不宣稱為南一課本原題或學校採用版本。"
     }
   ],
   "mappingStatus": "partial-source-verified-13-mappings",
@@ -731,5 +833,13 @@
       "examUnassigned": 100,
       "note": "段考未指定；出版社映射僅含1題翰林數學3A單元對照與2題翰林化學(I)冊別層級對照。"
     }
-  }
+  },
+  "mappingCount": 16,
+  "auditNotes": [
+    "每筆映射均保留 publisher、mappingId、sourceUrl、sourceTitle、verifiedAt、verificationStatus、notes。",
+    "mappingLevel 區分 unit、title-topic、volume；冊別／冊名層級不代表細分單元已核對。",
+    "數學3A映射限定 courseTrack=數學A；未確認數學A/B者不得套用。",
+    "出版社來源只證明教材冊別／單元對照，不代表學校採用該版本。",
+    "翰林選修化學(II)官方課本頁明示高二上學期，已由下學期更正為上學期。"
+  ]
 }

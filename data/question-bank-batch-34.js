@@ -1,5 +1,4 @@
-/* 第三十四批108課綱原創題庫：國小六年級50題、高中高二50題；其他年級不新增。 */
-(function(){window.EXTRA34_GRADE_BANK=[
+window.EXTRA34_GRADE_BANK = [
   {
     "id": "b34-001",
     "stage": "國小",
@@ -1624,18 +1623,13 @@
     "sourceRef": "依108課綱共同核心原創編寫；出版社對照依既有官方來源映射，非教材或歷屆試題原文。",
     "reviewStatus": "rule-checked",
     "learningContent": "三角函數圖形變換",
-    "semester": "上學期",
-    "examPeriod": "第一次段考",
-    "classificationBasis": "question-bank-inference",
-    "confidence": "medium",
-    "publisherStatus": "publisher-mapped",
-    "publisherMappings": [
-      {
-        "publisher": "hanlin",
-        "mappingId": "hanlin-h2-math-3a-u1"
-      }
-    ],
-    "classificationNotes": "官方目次可核對本單元；段考次序依單元順序作題庫推定，僅供複習，不代表學校正式段考範圍。"
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "原先依翰林數學3A單元次序標記，但題目未記錄數學A/B軌別；依版本隔離原則移除出版社映射並恢復未分類，待確認課程軌別後再映射。"
   },
   {
     "id": "b34-052",
@@ -1661,18 +1655,13 @@
     "sourceRef": "依108課綱共同核心原創編寫；出版社對照依既有官方來源映射，非教材或歷屆試題原文。",
     "reviewStatus": "rule-checked",
     "learningContent": "三角方程式",
-    "semester": "上學期",
-    "examPeriod": "第一次段考",
-    "classificationBasis": "question-bank-inference",
-    "confidence": "medium",
-    "publisherStatus": "publisher-mapped",
-    "publisherMappings": [
-      {
-        "publisher": "hanlin",
-        "mappingId": "hanlin-h2-math-3a-u1"
-      }
-    ],
-    "classificationNotes": "官方目次可核對本單元；段考次序依單元順序作題庫推定，僅供複習，不代表學校正式段考範圍。"
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "原先依翰林數學3A單元次序標記，但題目未記錄數學A/B軌別；依版本隔離原則移除出版社映射並恢復未分類，待確認課程軌別後再映射。"
   },
   {
     "id": "b34-053",
@@ -1698,18 +1687,13 @@
     "sourceRef": "依108課綱共同核心原創編寫；出版社對照依既有官方來源映射，非教材或歷屆試題原文。",
     "reviewStatus": "rule-checked",
     "learningContent": "三角函數模型與值域",
-    "semester": "上學期",
-    "examPeriod": "第一次段考",
-    "classificationBasis": "question-bank-inference",
-    "confidence": "medium",
-    "publisherStatus": "publisher-mapped",
-    "publisherMappings": [
-      {
-        "publisher": "hanlin",
-        "mappingId": "hanlin-h2-math-3a-u1"
-      }
-    ],
-    "classificationNotes": "官方目次可核對本單元；段考次序依單元順序作題庫推定，僅供複習，不代表學校正式段考範圍。"
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "原先依翰林數學3A單元次序標記，但題目未記錄數學A/B軌別；依版本隔離原則移除出版社映射並恢復未分類，待確認課程軌別後再映射。"
   },
   {
     "id": "b34-054",
@@ -1735,18 +1719,13 @@
     "sourceRef": "依108課綱共同核心原創編寫；出版社對照依既有官方來源映射，非教材或歷屆試題原文。",
     "reviewStatus": "rule-checked",
     "learningContent": "正弦定理",
-    "semester": "上學期",
-    "examPeriod": "第一次段考",
-    "classificationBasis": "question-bank-inference",
-    "confidence": "medium",
-    "publisherStatus": "publisher-mapped",
-    "publisherMappings": [
-      {
-        "publisher": "hanlin",
-        "mappingId": "hanlin-h2-math-3a-u1"
-      }
-    ],
-    "classificationNotes": "官方目次可核對本單元；段考次序依單元順序作題庫推定，僅供複習，不代表學校正式段考範圍。"
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "原先依翰林數學3A單元次序標記，但題目未記錄數學A/B軌別；依版本隔離原則移除出版社映射並恢復未分類，待確認課程軌別後再映射。"
   },
   {
     "id": "b34-055",
@@ -1772,18 +1751,13 @@
     "sourceRef": "依108課綱共同核心原創編寫；出版社對照依既有官方來源映射，非教材或歷屆試題原文。",
     "reviewStatus": "rule-checked",
     "learningContent": "對數與換底概念",
-    "semester": "上學期",
-    "examPeriod": "第二次段考",
-    "classificationBasis": "question-bank-inference",
-    "confidence": "medium",
-    "publisherStatus": "publisher-mapped",
-    "publisherMappings": [
-      {
-        "publisher": "hanlin",
-        "mappingId": "hanlin-h2-math-3a-u2"
-      }
-    ],
-    "classificationNotes": "官方目次可核對本單元；段考次序依單元順序作題庫推定，僅供複習，不代表學校正式段考範圍。"
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "原先依翰林數學3A單元次序標記，但題目未記錄數學A/B軌別；依版本隔離原則移除出版社映射並恢復未分類，待確認課程軌別後再映射。"
   },
   {
     "id": "b34-056",
@@ -1809,18 +1783,13 @@
     "sourceRef": "依108課綱共同核心原創編寫；出版社對照依既有官方來源映射，非教材或歷屆試題原文。",
     "reviewStatus": "rule-checked",
     "learningContent": "對數方程式與定義域",
-    "semester": "上學期",
-    "examPeriod": "第二次段考",
-    "classificationBasis": "question-bank-inference",
-    "confidence": "medium",
-    "publisherStatus": "publisher-mapped",
-    "publisherMappings": [
-      {
-        "publisher": "hanlin",
-        "mappingId": "hanlin-h2-math-3a-u2"
-      }
-    ],
-    "classificationNotes": "官方目次可核對本單元；段考次序依單元順序作題庫推定，僅供複習，不代表學校正式段考範圍。"
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "原先依翰林數學3A單元次序標記，但題目未記錄數學A/B軌別；依版本隔離原則移除出版社映射並恢復未分類，待確認課程軌別後再映射。"
   },
   {
     "id": "b34-057",
@@ -1846,18 +1815,13 @@
     "sourceRef": "依108課綱共同核心原創編寫；出版社對照依既有官方來源映射，非教材或歷屆試題原文。",
     "reviewStatus": "rule-checked",
     "learningContent": "指數衰變模型",
-    "semester": "上學期",
-    "examPeriod": "第二次段考",
-    "classificationBasis": "question-bank-inference",
-    "confidence": "medium",
-    "publisherStatus": "publisher-mapped",
-    "publisherMappings": [
-      {
-        "publisher": "hanlin",
-        "mappingId": "hanlin-h2-math-3a-u2"
-      }
-    ],
-    "classificationNotes": "官方目次可核對本單元；段考次序依單元順序作題庫推定，僅供複習，不代表學校正式段考範圍。"
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "原先依翰林數學3A單元次序標記，但題目未記錄數學A/B軌別；依版本隔離原則移除出版社映射並恢復未分類，待確認課程軌別後再映射。"
   },
   {
     "id": "b34-058",
@@ -1883,18 +1847,13 @@
     "sourceRef": "依108課綱共同核心原創編寫；出版社對照依既有官方來源映射，非教材或歷屆試題原文。",
     "reviewStatus": "rule-checked",
     "learningContent": "指數成長倍率",
-    "semester": "上學期",
-    "examPeriod": "第二次段考",
-    "classificationBasis": "question-bank-inference",
-    "confidence": "medium",
-    "publisherStatus": "publisher-mapped",
-    "publisherMappings": [
-      {
-        "publisher": "hanlin",
-        "mappingId": "hanlin-h2-math-3a-u2"
-      }
-    ],
-    "classificationNotes": "官方目次可核對本單元；段考次序依單元順序作題庫推定，僅供複習，不代表學校正式段考範圍。"
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "原先依翰林數學3A單元次序標記，但題目未記錄數學A/B軌別；依版本隔離原則移除出版社映射並恢復未分類，待確認課程軌別後再映射。"
   },
   {
     "id": "b34-059",
@@ -1920,18 +1879,13 @@
     "sourceRef": "依108課綱共同核心原創編寫；出版社對照依既有官方來源映射，非教材或歷屆試題原文。",
     "reviewStatus": "rule-checked",
     "learningContent": "向量投影",
-    "semester": "上學期",
-    "examPeriod": "第三次段考",
-    "classificationBasis": "question-bank-inference",
-    "confidence": "medium",
-    "publisherStatus": "publisher-mapped",
-    "publisherMappings": [
-      {
-        "publisher": "hanlin",
-        "mappingId": "hanlin-h2-math-3a-u3"
-      }
-    ],
-    "classificationNotes": "官方目次可核對本單元；段考次序依單元順序作題庫推定，僅供複習，不代表學校正式段考範圍。"
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "原先依翰林數學3A單元次序標記，但題目未記錄數學A/B軌別；依版本隔離原則移除出版社映射並恢復未分類，待確認課程軌別後再映射。"
   },
   {
     "id": "b34-060",
@@ -1957,18 +1911,13 @@
     "sourceRef": "依108課綱共同核心原創編寫；出版社對照依既有官方來源映射，非教材或歷屆試題原文。",
     "reviewStatus": "rule-checked",
     "learningContent": "向量夾角",
-    "semester": "上學期",
-    "examPeriod": "第三次段考",
-    "classificationBasis": "question-bank-inference",
-    "confidence": "medium",
-    "publisherStatus": "publisher-mapped",
-    "publisherMappings": [
-      {
-        "publisher": "hanlin",
-        "mappingId": "hanlin-h2-math-3a-u3"
-      }
-    ],
-    "classificationNotes": "官方目次可核對本單元；段考次序依單元順序作題庫推定，僅供複習，不代表學校正式段考範圍。"
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "原先依翰林數學3A單元次序標記，但題目未記錄數學A/B軌別；依版本隔離原則移除出版社映射並恢復未分類，待確認課程軌別後再映射。"
   },
   {
     "id": "b34-061",
@@ -1994,18 +1943,13 @@
     "sourceRef": "依108課綱共同核心原創編寫；出版社對照依既有官方來源映射，非教材或歷屆試題原文。",
     "reviewStatus": "rule-checked",
     "learningContent": "行列式與平行四邊形面積",
-    "semester": "上學期",
-    "examPeriod": "第三次段考",
-    "classificationBasis": "question-bank-inference",
-    "confidence": "medium",
-    "publisherStatus": "publisher-mapped",
-    "publisherMappings": [
-      {
-        "publisher": "hanlin",
-        "mappingId": "hanlin-h2-math-3a-u3"
-      }
-    ],
-    "classificationNotes": "官方目次可核對本單元；段考次序依單元順序作題庫推定，僅供複習，不代表學校正式段考範圍。"
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "原先依翰林數學3A單元次序標記，但題目未記錄數學A/B軌別；依版本隔離原則移除出版社映射並恢復未分類，待確認課程軌別後再映射。"
   },
   {
     "id": "b34-062",
@@ -2031,18 +1975,13 @@
     "sourceRef": "依108課綱共同核心原創編寫；出版社對照依既有官方來源映射，非教材或歷屆試題原文。",
     "reviewStatus": "rule-checked",
     "learningContent": "內分點與向量比例",
-    "semester": "上學期",
-    "examPeriod": "第三次段考",
-    "classificationBasis": "question-bank-inference",
-    "confidence": "medium",
-    "publisherStatus": "publisher-mapped",
-    "publisherMappings": [
-      {
-        "publisher": "hanlin",
-        "mappingId": "hanlin-h2-math-3a-u3"
-      }
-    ],
-    "classificationNotes": "官方目次可核對本單元；段考次序依單元順序作題庫推定，僅供複習，不代表學校正式段考範圍。"
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "原先依翰林數學3A單元次序標記，但題目未記錄數學A/B軌別；依版本隔離原則移除出版社映射並恢復未分類，待確認課程軌別後再映射。"
   },
   {
     "id": "b34-063",
@@ -2076,7 +2015,22 @@
     "publisherMappings": [
       {
         "publisher": "hanlin",
-        "mappingId": "hanlin-h2-physics-ii"
+        "mappingId": "hanlin-h2-physics-ii",
+        "sourceUrl": "https://books.hanlin.com.tw/product/004022",
+        "sourceTitle": "翰林書城－高中課本選修物理(II)力學二與熱學",
+        "verifiedAt": "2026-11-13",
+        "verificationStatus": "source-checked",
+        "notes": "官方頁明示高中二年級、上學期及課本名稱；僅作冊別／主題層級對照。",
+        "mappingLevel": "volume",
+        "volume": "選修物理(II) 力學二與熱學",
+        "unitCode": "全冊",
+        "unitName": "力學二與熱學",
+        "semester": "上學期",
+        "grade": "高二",
+        "subject": "物理",
+        "courseTrack": null,
+        "schoolYear": "未標示",
+        "courseType": "未確認"
       }
     ],
     "classificationNotes": "依既有已核對的出版社官方來源作冊別／單元層級對照；未推定學校段考，題目為原創而非教材原文。"
@@ -2113,7 +2067,22 @@
     "publisherMappings": [
       {
         "publisher": "hanlin",
-        "mappingId": "hanlin-h2-physics-ii"
+        "mappingId": "hanlin-h2-physics-ii",
+        "sourceUrl": "https://books.hanlin.com.tw/product/004022",
+        "sourceTitle": "翰林書城－高中課本選修物理(II)力學二與熱學",
+        "verifiedAt": "2026-11-13",
+        "verificationStatus": "source-checked",
+        "notes": "官方頁明示高中二年級、上學期及課本名稱；僅作冊別／主題層級對照。",
+        "mappingLevel": "volume",
+        "volume": "選修物理(II) 力學二與熱學",
+        "unitCode": "全冊",
+        "unitName": "力學二與熱學",
+        "semester": "上學期",
+        "grade": "高二",
+        "subject": "物理",
+        "courseTrack": null,
+        "schoolYear": "未標示",
+        "courseType": "未確認"
       }
     ],
     "classificationNotes": "依既有已核對的出版社官方來源作冊別／單元層級對照；未推定學校段考，題目為原創而非教材原文。"
@@ -2150,7 +2119,22 @@
     "publisherMappings": [
       {
         "publisher": "hanlin",
-        "mappingId": "hanlin-h2-physics-ii"
+        "mappingId": "hanlin-h2-physics-ii",
+        "sourceUrl": "https://books.hanlin.com.tw/product/004022",
+        "sourceTitle": "翰林書城－高中課本選修物理(II)力學二與熱學",
+        "verifiedAt": "2026-11-13",
+        "verificationStatus": "source-checked",
+        "notes": "官方頁明示高中二年級、上學期及課本名稱；僅作冊別／主題層級對照。",
+        "mappingLevel": "volume",
+        "volume": "選修物理(II) 力學二與熱學",
+        "unitCode": "全冊",
+        "unitName": "力學二與熱學",
+        "semester": "上學期",
+        "grade": "高二",
+        "subject": "物理",
+        "courseTrack": null,
+        "schoolYear": "未標示",
+        "courseType": "未確認"
       }
     ],
     "classificationNotes": "依既有已核對的出版社官方來源作冊別／單元層級對照；未推定學校段考，題目為原創而非教材原文。"
@@ -2187,7 +2171,22 @@
     "publisherMappings": [
       {
         "publisher": "hanlin",
-        "mappingId": "hanlin-h2-physics-ii"
+        "mappingId": "hanlin-h2-physics-ii",
+        "sourceUrl": "https://books.hanlin.com.tw/product/004022",
+        "sourceTitle": "翰林書城－高中課本選修物理(II)力學二與熱學",
+        "verifiedAt": "2026-11-13",
+        "verificationStatus": "source-checked",
+        "notes": "官方頁明示高中二年級、上學期及課本名稱；僅作冊別／主題層級對照。",
+        "mappingLevel": "volume",
+        "volume": "選修物理(II) 力學二與熱學",
+        "unitCode": "全冊",
+        "unitName": "力學二與熱學",
+        "semester": "上學期",
+        "grade": "高二",
+        "subject": "物理",
+        "courseTrack": null,
+        "schoolYear": "未標示",
+        "courseType": "未確認"
       }
     ],
     "classificationNotes": "依既有已核對的出版社官方來源作冊別／單元層級對照；未推定學校段考，題目為原創而非教材原文。"
@@ -2352,7 +2351,22 @@
     "publisherMappings": [
       {
         "publisher": "hanlin",
-        "mappingId": "hanlin-h2-chemistry-iii-u1"
+        "mappingId": "hanlin-h2-chemistry-iii-u1",
+        "sourceUrl": "https://books.hanlin.com.tw/product/435023",
+        "sourceTitle": "翰林書城－高中互動式教學講義選修化學(III)",
+        "verifiedAt": "2026-11-13",
+        "verificationStatus": "source-checked",
+        "notes": "官方頁明示高二、高三、全學年，目次列化學平衡；不推定學校段考。",
+        "mappingLevel": "unit",
+        "volume": "選修化學(III)（官方互動式教學講義）",
+        "unitCode": "1",
+        "unitName": "化學平衡",
+        "semester": "全學年",
+        "grade": "高二、高三",
+        "subject": "化學",
+        "courseTrack": null,
+        "schoolYear": "未標示",
+        "courseType": "未確認"
       }
     ],
     "classificationNotes": "依既有已核對的出版社官方來源作冊別／單元層級對照；未推定學校段考，題目為原創而非教材原文。"
@@ -2389,7 +2403,22 @@
     "publisherMappings": [
       {
         "publisher": "hanlin",
-        "mappingId": "hanlin-h2-chemistry-iii-u1"
+        "mappingId": "hanlin-h2-chemistry-iii-u1",
+        "sourceUrl": "https://books.hanlin.com.tw/product/435023",
+        "sourceTitle": "翰林書城－高中互動式教學講義選修化學(III)",
+        "verifiedAt": "2026-11-13",
+        "verificationStatus": "source-checked",
+        "notes": "官方頁明示高二、高三、全學年，目次列化學平衡；不推定學校段考。",
+        "mappingLevel": "unit",
+        "volume": "選修化學(III)（官方互動式教學講義）",
+        "unitCode": "1",
+        "unitName": "化學平衡",
+        "semester": "全學年",
+        "grade": "高二、高三",
+        "subject": "化學",
+        "courseTrack": null,
+        "schoolYear": "未標示",
+        "courseType": "未確認"
       }
     ],
     "classificationNotes": "依既有已核對的出版社官方來源作冊別／單元層級對照；未推定學校段考，題目為原創而非教材原文。"
@@ -2426,7 +2455,22 @@
     "publisherMappings": [
       {
         "publisher": "hanlin",
-        "mappingId": "hanlin-h2-chemistry-iii-u3"
+        "mappingId": "hanlin-h2-chemistry-iii-u3",
+        "sourceUrl": "https://books.hanlin.com.tw/product/435023",
+        "sourceTitle": "翰林書城－高中互動式教學講義選修化學(III)",
+        "verifiedAt": "2026-11-13",
+        "verificationStatus": "source-checked",
+        "notes": "官方頁明示目次列酸鹼反應與酸鹼滴定實驗；不推定學校段考。",
+        "mappingLevel": "unit",
+        "volume": "選修化學(III)（官方互動式教學講義）",
+        "unitCode": "3",
+        "unitName": "酸鹼反應",
+        "semester": "全學年",
+        "grade": "高二、高三",
+        "subject": "化學",
+        "courseTrack": null,
+        "schoolYear": "未標示",
+        "courseType": "未確認"
       }
     ],
     "classificationNotes": "依既有已核對的出版社官方來源作冊別／單元層級對照；未推定學校段考，題目為原創而非教材原文。"
@@ -2463,7 +2507,22 @@
     "publisherMappings": [
       {
         "publisher": "hanlin",
-        "mappingId": "hanlin-h2-chemistry-iii-u3"
+        "mappingId": "hanlin-h2-chemistry-iii-u3",
+        "sourceUrl": "https://books.hanlin.com.tw/product/435023",
+        "sourceTitle": "翰林書城－高中互動式教學講義選修化學(III)",
+        "verifiedAt": "2026-11-13",
+        "verificationStatus": "source-checked",
+        "notes": "官方頁明示目次列酸鹼反應與酸鹼滴定實驗；不推定學校段考。",
+        "mappingLevel": "unit",
+        "volume": "選修化學(III)（官方互動式教學講義）",
+        "unitCode": "3",
+        "unitName": "酸鹼反應",
+        "semester": "全學年",
+        "grade": "高二、高三",
+        "subject": "化學",
+        "courseTrack": null,
+        "schoolYear": "未標示",
+        "courseType": "未確認"
       }
     ],
     "classificationNotes": "依既有已核對的出版社官方來源作冊別／單元層級對照；未推定學校段考，題目為原創而非教材原文。"
@@ -2492,7 +2551,7 @@
     "sourceRef": "翰林官方教材頁確認高中二年級下學期選修化學(II)「物質構造與反應速率」；本題為108課綱取向原創題，非教材或歷屆試題原文。",
     "reviewStatus": "rule-checked",
     "learningContent": "催化劑與活化能",
-    "semester": "下學期",
+    "semester": "上學期",
     "examPeriod": "unassigned",
     "classificationBasis": "publisher-source-verified",
     "confidence": "medium",
@@ -2500,10 +2559,25 @@
     "publisherMappings": [
       {
         "publisher": "hanlin",
-        "mappingId": "hanlin-h2-chemistry-ii-structure-rate"
+        "mappingId": "hanlin-h2-chemistry-ii-structure-rate",
+        "sourceUrl": "https://books.hanlin.com.tw/product/005022",
+        "sourceTitle": "翰林書城－高中課本選修化學(II)物質構造與反應速率",
+        "verifiedAt": "2026-11-13",
+        "verificationStatus": "source-checked",
+        "notes": "官方翰林課本頁明示高中2年級、上學期及冊名「選修化學(II)物質構造與反應速率」；僅冊名／主題層級，未核對完整細分目次。此前曾誤標下學期，本次依官方頁更正。此映射不代表學校採用版本。",
+        "mappingLevel": "title-topic",
+        "volume": "選修化學(II)物質構造與反應速率",
+        "unitCode": "冊名主題",
+        "unitName": "物質構造與反應速率（冊名層級）",
+        "semester": "上學期",
+        "grade": "高二",
+        "subject": "化學",
+        "courseTrack": null,
+        "schoolYear": "未標示",
+        "courseType": "未確認"
       }
     ],
-    "classificationNotes": "翰林官方課本頁確認高中二年級下學期選修化學(II)冊名為「物質構造與反應速率」；此處限冊名／主題層級對照，不推定細分單元或段考。"
+    "classificationNotes": "依翰林官方課本頁核對：高中2年級、上學期、選修化學(II)「物質構造與反應速率」；此為冊名／主題層級對照，非學校正式進度。"
   },
   {
     "id": "b34-076",
@@ -2537,7 +2611,22 @@
     "publisherMappings": [
       {
         "publisher": "hanlin",
-        "mappingId": "hanlin-h2-chemistry-i-matter-energy"
+        "mappingId": "hanlin-h2-chemistry-i-matter-energy",
+        "sourceUrl": "https://books.hanlin.com.tw/product/005021",
+        "sourceTitle": "翰林書城－高中課本選修化學(I)物質與能量",
+        "verifiedAt": "2026-11-13",
+        "verificationStatus": "source-checked",
+        "notes": "官方商品頁明示高中二年級、上學期及課本名稱「物質與能量」；本映射只證明冊別層級，不能推論細分單元或學校段考範圍。題目為原創，非教材或歷屆試題原文。",
+        "mappingLevel": "volume",
+        "volume": "選修化學(I)物質與能量",
+        "unitCode": "冊別層級",
+        "unitName": "物質與能量（冊別層級）",
+        "semester": "上學期",
+        "grade": "高二",
+        "subject": "化學",
+        "courseTrack": null,
+        "schoolYear": "未標示",
+        "courseType": "未確認"
       }
     ],
     "classificationNotes": "依既有已核對的出版社官方來源作冊別／單元層級對照；未推定學校段考，題目為原創而非教材原文。"
@@ -2598,7 +2687,7 @@
     "sourceRef": "翰林官方教材頁確認高中二年級下學期選修化學(II)「物質構造與反應速率」；本題為108課綱取向原創題，非教材或歷屆試題原文。",
     "reviewStatus": "rule-checked",
     "learningContent": "電子組態與價電子",
-    "semester": "下學期",
+    "semester": "上學期",
     "examPeriod": "unassigned",
     "classificationBasis": "publisher-source-verified",
     "confidence": "medium",
@@ -2606,10 +2695,25 @@
     "publisherMappings": [
       {
         "publisher": "hanlin",
-        "mappingId": "hanlin-h2-chemistry-ii-structure-rate"
+        "mappingId": "hanlin-h2-chemistry-ii-structure-rate",
+        "sourceUrl": "https://books.hanlin.com.tw/product/005022",
+        "sourceTitle": "翰林書城－高中課本選修化學(II)物質構造與反應速率",
+        "verifiedAt": "2026-11-13",
+        "verificationStatus": "source-checked",
+        "notes": "官方翰林課本頁明示高中2年級、上學期及冊名「選修化學(II)物質構造與反應速率」；僅冊名／主題層級，未核對完整細分目次。此前曾誤標下學期，本次依官方頁更正。此映射不代表學校採用版本。",
+        "mappingLevel": "title-topic",
+        "volume": "選修化學(II)物質構造與反應速率",
+        "unitCode": "冊名主題",
+        "unitName": "物質構造與反應速率（冊名層級）",
+        "semester": "上學期",
+        "grade": "高二",
+        "subject": "化學",
+        "courseTrack": null,
+        "schoolYear": "未標示",
+        "courseType": "未確認"
       }
     ],
-    "classificationNotes": "翰林官方課本頁確認高中二年級下學期選修化學(II)冊名為「物質構造與反應速率」；此處限冊名／主題層級對照，不推定細分單元或段考。"
+    "classificationNotes": "依翰林官方課本頁核對：高中2年級、上學期、選修化學(II)「物質構造與反應速率」；此為冊名／主題層級對照，非學校正式進度。"
   },
   {
     "id": "b34-079",
@@ -2739,7 +2843,22 @@
     "publisherMappings": [
       {
         "publisher": "hanlin",
-        "mappingId": "hanlin-h2-biology-ii-plant"
+        "mappingId": "hanlin-h2-biology-ii-plant",
+        "sourceUrl": "https://books.hanlin.com.tw/product/006022",
+        "sourceTitle": "翰林書城－高中課本選修生物(II)生命的起源與植物",
+        "verifiedAt": "2026-11-13",
+        "verificationStatus": "source-checked",
+        "notes": "官方頁明示高中二年級、上學期及冊名；此映射不代表已核對具體單元目次。",
+        "mappingLevel": "volume",
+        "volume": "選修生物(II)生命的起源與植物",
+        "unitCode": "冊別層級",
+        "unitName": "生命的起源與植物（冊別層級）",
+        "semester": "上學期",
+        "grade": "高二",
+        "subject": "生物",
+        "courseTrack": null,
+        "schoolYear": "未標示",
+        "courseType": "未確認"
       }
     ],
     "classificationNotes": "依既有已核對的出版社官方來源作冊別／單元層級對照；未推定學校段考，題目為原創而非教材原文。"
@@ -3320,4 +3439,4 @@
     "publisherMappings": [],
     "classificationNotes": "依108課綱共同核心原創編寫；無足夠可靠資料確認出版社細分單元或學校段考範圍，故維持未分類。"
   }
-];})();
+];

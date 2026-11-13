@@ -1,5 +1,4 @@
-/* 第三十批原創題庫：國小六年級50題、高中高二50題 */
-(function(){window.EXTRA30_GRADE_BANK=[
+window.EXTRA30_GRADE_BANK = [
   {
     "id": "b30-001",
     "stage": "國小",
@@ -1170,7 +1169,21 @@
       {
         "publisher": "knsh",
         "mappingId": "knsh-g6-social-6a-u2-1",
-        "verificationStatus": "source-checked"
+        "sourceUrl": "https://sdgs.knsh.com.tw/campus/SDGS_FILE_E/%E7%A4%BE%E6%9C%83%E5%85%AD%E4%B8%8ACH2L1%E5%80%8B%E4%BA%BA%E7%99%BC%E5%B1%95%E5%A6%82%E4%BD%95%E5%8F%97%E5%88%B0%E7%A4%BE%E6%9C%83%E8%AE%8A%E9%81%B7%E7%9A%84%E5%BD%B1%E9%9F%BF_%E6%95%99%E5%AD%B8%E8%B3%87%E6%BA%90.pdf",
+        "sourceTitle": "康軒社會六上2-1教學資源PDF",
+        "verifiedAt": "2026-11-13",
+        "verificationStatus": "source-checked",
+        "notes": "官方教學資源直接標示社會六上2-1，並列六年級學習重點；僅對應涉及個人發展／社會變遷的題目。",
+        "mappingLevel": "unit",
+        "volume": "社會六上",
+        "unitCode": "2-1",
+        "unitName": "個人發展如何受到社會變遷的影響",
+        "semester": "上學期",
+        "grade": "六年級",
+        "subject": "社會",
+        "courseTrack": null,
+        "schoolYear": "未標示",
+        "courseType": "國小"
       }
     ],
     "learningContent": "社會變遷與性別角色"
@@ -1495,8 +1508,21 @@
       {
         "publisher": "hanlin",
         "mappingId": "hanlin-h2-math-3a-u1",
+        "sourceUrl": "https://books.hanlin.com.tw/product/433021",
+        "sourceTitle": "翰林書城－高中互動式教學講義數學(3A)",
+        "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "examPeriodBasis": "依單元次序推定"
+        "notes": "官方頁明示高二、上學期與108課綱高二數學A版，目次列三角函數；只作單元對照，不表示題目取自教材。",
+        "mappingLevel": "unit",
+        "volume": "數學(3A)（官方互動式教學講義，搭配翰林教材）",
+        "unitCode": "1",
+        "unitName": "三角函數",
+        "semester": "上學期",
+        "grade": "高二",
+        "subject": "數學",
+        "courseTrack": "數學A",
+        "schoolYear": "未標示",
+        "courseType": "未確認"
       }
     ],
     "learningContent": "三角比與特殊角",
@@ -1532,8 +1558,21 @@
       {
         "publisher": "hanlin",
         "mappingId": "hanlin-h2-math-3a-u1",
+        "sourceUrl": "https://books.hanlin.com.tw/product/433021",
+        "sourceTitle": "翰林書城－高中互動式教學講義數學(3A)",
+        "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "examPeriodBasis": "依單元次序推定"
+        "notes": "官方頁明示高二、上學期與108課綱高二數學A版，目次列三角函數；只作單元對照，不表示題目取自教材。",
+        "mappingLevel": "unit",
+        "volume": "數學(3A)（官方互動式教學講義，搭配翰林教材）",
+        "unitCode": "1",
+        "unitName": "三角函數",
+        "semester": "上學期",
+        "grade": "高二",
+        "subject": "數學",
+        "courseTrack": "數學A",
+        "schoolYear": "未標示",
+        "courseType": "未確認"
       }
     ],
     "learningContent": "三角比與特殊角",
@@ -1569,8 +1608,21 @@
       {
         "publisher": "hanlin",
         "mappingId": "hanlin-h2-math-3a-u1",
+        "sourceUrl": "https://books.hanlin.com.tw/product/433021",
+        "sourceTitle": "翰林書城－高中互動式教學講義數學(3A)",
+        "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "examPeriodBasis": "依單元次序推定"
+        "notes": "官方頁明示高二、上學期與108課綱高二數學A版，目次列三角函數；只作單元對照，不表示題目取自教材。",
+        "mappingLevel": "unit",
+        "volume": "數學(3A)（官方互動式教學講義，搭配翰林教材）",
+        "unitCode": "1",
+        "unitName": "三角函數",
+        "semester": "上學期",
+        "grade": "高二",
+        "subject": "數學",
+        "courseTrack": "數學A",
+        "schoolYear": "未標示",
+        "courseType": "未確認"
       }
     ],
     "learningContent": "三角比應用",
@@ -1606,8 +1658,21 @@
       {
         "publisher": "hanlin",
         "mappingId": "hanlin-h2-math-3a-u1",
+        "sourceUrl": "https://books.hanlin.com.tw/product/433021",
+        "sourceTitle": "翰林書城－高中互動式教學講義數學(3A)",
+        "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "examPeriodBasis": "依單元次序推定"
+        "notes": "官方頁明示高二、上學期與108課綱高二數學A版，目次列三角函數；只作單元對照，不表示題目取自教材。",
+        "mappingLevel": "unit",
+        "volume": "數學(3A)（官方互動式教學講義，搭配翰林教材）",
+        "unitCode": "1",
+        "unitName": "三角函數",
+        "semester": "上學期",
+        "grade": "高二",
+        "subject": "數學",
+        "courseTrack": "數學A",
+        "schoolYear": "未標示",
+        "courseType": "未確認"
       }
     ],
     "learningContent": "三角函數圖形",
@@ -1643,8 +1708,21 @@
       {
         "publisher": "hanlin",
         "mappingId": "hanlin-h2-math-3a-u1",
+        "sourceUrl": "https://books.hanlin.com.tw/product/433021",
+        "sourceTitle": "翰林書城－高中互動式教學講義數學(3A)",
+        "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "examPeriodBasis": "依單元次序推定"
+        "notes": "官方頁明示高二、上學期與108課綱高二數學A版，目次列三角函數；只作單元對照，不表示題目取自教材。",
+        "mappingLevel": "unit",
+        "volume": "數學(3A)（官方互動式教學講義，搭配翰林教材）",
+        "unitCode": "1",
+        "unitName": "三角函數",
+        "semester": "上學期",
+        "grade": "高二",
+        "subject": "數學",
+        "courseTrack": "數學A",
+        "schoolYear": "未標示",
+        "courseType": "未確認"
       }
     ],
     "learningContent": "弧度量",
@@ -1680,8 +1758,21 @@
       {
         "publisher": "hanlin",
         "mappingId": "hanlin-h2-math-3a-u1",
+        "sourceUrl": "https://books.hanlin.com.tw/product/433021",
+        "sourceTitle": "翰林書城－高中互動式教學講義數學(3A)",
+        "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "examPeriodBasis": "依單元次序推定"
+        "notes": "官方頁明示高二、上學期與108課綱高二數學A版，目次列三角函數；只作單元對照，不表示題目取自教材。",
+        "mappingLevel": "unit",
+        "volume": "數學(3A)（官方互動式教學講義，搭配翰林教材）",
+        "unitCode": "1",
+        "unitName": "三角函數",
+        "semester": "上學期",
+        "grade": "高二",
+        "subject": "數學",
+        "courseTrack": "數學A",
+        "schoolYear": "未標示",
+        "courseType": "未確認"
       }
     ],
     "learningContent": "三角測量",
@@ -1717,8 +1808,21 @@
       {
         "publisher": "hanlin",
         "mappingId": "hanlin-h2-math-3a-u2",
+        "sourceUrl": "https://books.hanlin.com.tw/product/433021",
+        "sourceTitle": "翰林書城－高中互動式教學講義數學(3A)",
+        "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "examPeriodBasis": "依單元次序推定"
+        "notes": "官方頁明示高二、上學期與目次單元；段考區間仍為題庫依單元順序推定。",
+        "mappingLevel": "unit",
+        "volume": "數學(3A)（官方互動式教學講義，搭配翰林教材）",
+        "unitCode": "2",
+        "unitName": "指數與對數函數",
+        "semester": "上學期",
+        "grade": "高二",
+        "subject": "數學",
+        "courseTrack": "數學A",
+        "schoolYear": "未標示",
+        "courseType": "未確認"
       }
     ],
     "learningContent": "對數定義",
@@ -1754,8 +1858,21 @@
       {
         "publisher": "hanlin",
         "mappingId": "hanlin-h2-math-3a-u2",
+        "sourceUrl": "https://books.hanlin.com.tw/product/433021",
+        "sourceTitle": "翰林書城－高中互動式教學講義數學(3A)",
+        "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "examPeriodBasis": "依單元次序推定"
+        "notes": "官方頁明示高二、上學期與目次單元；段考區間仍為題庫依單元順序推定。",
+        "mappingLevel": "unit",
+        "volume": "數學(3A)（官方互動式教學講義，搭配翰林教材）",
+        "unitCode": "2",
+        "unitName": "指數與對數函數",
+        "semester": "上學期",
+        "grade": "高二",
+        "subject": "數學",
+        "courseTrack": "數學A",
+        "schoolYear": "未標示",
+        "courseType": "未確認"
       }
     ],
     "learningContent": "對數方程式",
@@ -1791,8 +1908,21 @@
       {
         "publisher": "hanlin",
         "mappingId": "hanlin-h2-math-3a-u2",
+        "sourceUrl": "https://books.hanlin.com.tw/product/433021",
+        "sourceTitle": "翰林書城－高中互動式教學講義數學(3A)",
+        "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "examPeriodBasis": "依單元次序推定"
+        "notes": "官方頁明示高二、上學期與目次單元；段考區間仍為題庫依單元順序推定。",
+        "mappingLevel": "unit",
+        "volume": "數學(3A)（官方互動式教學講義，搭配翰林教材）",
+        "unitCode": "2",
+        "unitName": "指數與對數函數",
+        "semester": "上學期",
+        "grade": "高二",
+        "subject": "數學",
+        "courseTrack": "數學A",
+        "schoolYear": "未標示",
+        "courseType": "未確認"
       }
     ],
     "learningContent": "對數性質",
@@ -1828,8 +1958,21 @@
       {
         "publisher": "hanlin",
         "mappingId": "hanlin-h2-math-3a-u2",
+        "sourceUrl": "https://books.hanlin.com.tw/product/433021",
+        "sourceTitle": "翰林書城－高中互動式教學講義數學(3A)",
+        "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "examPeriodBasis": "依單元次序推定"
+        "notes": "官方頁明示高二、上學期與目次單元；段考區間仍為題庫依單元順序推定。",
+        "mappingLevel": "unit",
+        "volume": "數學(3A)（官方互動式教學講義，搭配翰林教材）",
+        "unitCode": "2",
+        "unitName": "指數與對數函數",
+        "semester": "上學期",
+        "grade": "高二",
+        "subject": "數學",
+        "courseTrack": "數學A",
+        "schoolYear": "未標示",
+        "courseType": "未確認"
       }
     ],
     "learningContent": "對數方程式與定義域",
@@ -1865,8 +2008,21 @@
       {
         "publisher": "hanlin",
         "mappingId": "hanlin-h2-math-3a-u2",
+        "sourceUrl": "https://books.hanlin.com.tw/product/433021",
+        "sourceTitle": "翰林書城－高中互動式教學講義數學(3A)",
+        "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "examPeriodBasis": "依單元次序推定"
+        "notes": "官方頁明示高二、上學期與目次單元；段考區間仍為題庫依單元順序推定。",
+        "mappingLevel": "unit",
+        "volume": "數學(3A)（官方互動式教學講義，搭配翰林教材）",
+        "unitCode": "2",
+        "unitName": "指數與對數函數",
+        "semester": "上學期",
+        "grade": "高二",
+        "subject": "數學",
+        "courseTrack": "數學A",
+        "schoolYear": "未標示",
+        "courseType": "未確認"
       }
     ],
     "learningContent": "指數成長模型",
@@ -1902,8 +2058,21 @@
       {
         "publisher": "hanlin",
         "mappingId": "hanlin-h2-math-3a-u2",
+        "sourceUrl": "https://books.hanlin.com.tw/product/433021",
+        "sourceTitle": "翰林書城－高中互動式教學講義數學(3A)",
+        "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "examPeriodBasis": "依單元次序推定"
+        "notes": "官方頁明示高二、上學期與目次單元；段考區間仍為題庫依單元順序推定。",
+        "mappingLevel": "unit",
+        "volume": "數學(3A)（官方互動式教學講義，搭配翰林教材）",
+        "unitCode": "2",
+        "unitName": "指數與對數函數",
+        "semester": "上學期",
+        "grade": "高二",
+        "subject": "數學",
+        "courseTrack": "數學A",
+        "schoolYear": "未標示",
+        "courseType": "未確認"
       }
     ],
     "learningContent": "常用對數",
@@ -1939,8 +2108,21 @@
       {
         "publisher": "hanlin",
         "mappingId": "hanlin-h2-math-3a-u3",
+        "sourceUrl": "https://books.hanlin.com.tw/product/433021",
+        "sourceTitle": "翰林書城－高中互動式教學講義數學(3A)",
+        "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "examPeriodBasis": "依單元次序推定"
+        "notes": "官方頁明示高二、上學期與目次單元；段考區間仍為題庫依單元順序推定。",
+        "mappingLevel": "unit",
+        "volume": "數學(3A)（官方互動式教學講義，搭配翰林教材）",
+        "unitCode": "3",
+        "unitName": "平面向量",
+        "semester": "上學期",
+        "grade": "高二",
+        "subject": "數學",
+        "courseTrack": "數學A",
+        "schoolYear": "未標示",
+        "courseType": "未確認"
       }
     ],
     "learningContent": "向量座標",
@@ -1976,8 +2158,21 @@
       {
         "publisher": "hanlin",
         "mappingId": "hanlin-h2-math-3a-u3",
+        "sourceUrl": "https://books.hanlin.com.tw/product/433021",
+        "sourceTitle": "翰林書城－高中互動式教學講義數學(3A)",
+        "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "examPeriodBasis": "依單元次序推定"
+        "notes": "官方頁明示高二、上學期與目次單元；段考區間仍為題庫依單元順序推定。",
+        "mappingLevel": "unit",
+        "volume": "數學(3A)（官方互動式教學講義，搭配翰林教材）",
+        "unitCode": "3",
+        "unitName": "平面向量",
+        "semester": "上學期",
+        "grade": "高二",
+        "subject": "數學",
+        "courseTrack": "數學A",
+        "schoolYear": "未標示",
+        "courseType": "未確認"
       }
     ],
     "learningContent": "向量內積",
@@ -2013,8 +2208,21 @@
       {
         "publisher": "hanlin",
         "mappingId": "hanlin-h2-math-3a-u3",
+        "sourceUrl": "https://books.hanlin.com.tw/product/433021",
+        "sourceTitle": "翰林書城－高中互動式教學講義數學(3A)",
+        "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "examPeriodBasis": "依單元次序推定"
+        "notes": "官方頁明示高二、上學期與目次單元；段考區間仍為題庫依單元順序推定。",
+        "mappingLevel": "unit",
+        "volume": "數學(3A)（官方互動式教學講義，搭配翰林教材）",
+        "unitCode": "3",
+        "unitName": "平面向量",
+        "semester": "上學期",
+        "grade": "高二",
+        "subject": "數學",
+        "courseTrack": "數學A",
+        "schoolYear": "未標示",
+        "courseType": "未確認"
       }
     ],
     "learningContent": "向量長度",
@@ -2050,8 +2258,21 @@
       {
         "publisher": "hanlin",
         "mappingId": "hanlin-h2-math-3a-u3",
+        "sourceUrl": "https://books.hanlin.com.tw/product/433021",
+        "sourceTitle": "翰林書城－高中互動式教學講義數學(3A)",
+        "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "examPeriodBasis": "依單元次序推定"
+        "notes": "官方頁明示高二、上學期與目次單元；段考區間仍為題庫依單元順序推定。",
+        "mappingLevel": "unit",
+        "volume": "數學(3A)（官方互動式教學講義，搭配翰林教材）",
+        "unitCode": "3",
+        "unitName": "平面向量",
+        "semester": "上學期",
+        "grade": "高二",
+        "subject": "數學",
+        "courseTrack": "數學A",
+        "schoolYear": "未標示",
+        "courseType": "未確認"
       }
     ],
     "learningContent": "向量垂直判定",
@@ -2087,8 +2308,21 @@
       {
         "publisher": "hanlin",
         "mappingId": "hanlin-h2-math-3a-u3",
+        "sourceUrl": "https://books.hanlin.com.tw/product/433021",
+        "sourceTitle": "翰林書城－高中互動式教學講義數學(3A)",
+        "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "examPeriodBasis": "依單元次序推定"
+        "notes": "官方頁明示高二、上學期與目次單元；段考區間仍為題庫依單元順序推定。",
+        "mappingLevel": "unit",
+        "volume": "數學(3A)（官方互動式教學講義，搭配翰林教材）",
+        "unitCode": "3",
+        "unitName": "平面向量",
+        "semester": "上學期",
+        "grade": "高二",
+        "subject": "數學",
+        "courseTrack": "數學A",
+        "schoolYear": "未標示",
+        "courseType": "未確認"
       }
     ],
     "learningContent": "向量加法",
@@ -2124,8 +2358,21 @@
       {
         "publisher": "hanlin",
         "mappingId": "hanlin-h2-math-3a-u3",
+        "sourceUrl": "https://books.hanlin.com.tw/product/433021",
+        "sourceTitle": "翰林書城－高中互動式教學講義數學(3A)",
+        "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "examPeriodBasis": "依單元次序推定"
+        "notes": "官方頁明示高二、上學期與目次單元；段考區間仍為題庫依單元順序推定。",
+        "mappingLevel": "unit",
+        "volume": "數學(3A)（官方互動式教學講義，搭配翰林教材）",
+        "unitCode": "3",
+        "unitName": "平面向量",
+        "semester": "上學期",
+        "grade": "高二",
+        "subject": "數學",
+        "courseTrack": "數學A",
+        "schoolYear": "未標示",
+        "courseType": "未確認"
       }
     ],
     "learningContent": "單位向量",
@@ -2161,7 +2408,21 @@
       {
         "publisher": "hanlin",
         "mappingId": "hanlin-h2-physics-ii",
-        "verificationStatus": "source-checked"
+        "sourceUrl": "https://books.hanlin.com.tw/product/004022",
+        "sourceTitle": "翰林書城－高中課本選修物理(II)力學二與熱學",
+        "verifiedAt": "2026-11-13",
+        "verificationStatus": "source-checked",
+        "notes": "官方頁明示高中二年級、上學期及課本名稱；僅作冊別／主題層級對照。",
+        "mappingLevel": "volume",
+        "volume": "選修物理(II) 力學二與熱學",
+        "unitCode": "全冊",
+        "unitName": "力學二與熱學",
+        "semester": "上學期",
+        "grade": "高二",
+        "subject": "物理",
+        "courseTrack": null,
+        "schoolYear": "未標示",
+        "courseType": "未確認"
       }
     ],
     "learningContent": "動量與方向"
@@ -2196,7 +2457,21 @@
       {
         "publisher": "hanlin",
         "mappingId": "hanlin-h2-physics-ii",
-        "verificationStatus": "source-checked"
+        "sourceUrl": "https://books.hanlin.com.tw/product/004022",
+        "sourceTitle": "翰林書城－高中課本選修物理(II)力學二與熱學",
+        "verifiedAt": "2026-11-13",
+        "verificationStatus": "source-checked",
+        "notes": "官方頁明示高中二年級、上學期及課本名稱；僅作冊別／主題層級對照。",
+        "mappingLevel": "volume",
+        "volume": "選修物理(II) 力學二與熱學",
+        "unitCode": "全冊",
+        "unitName": "力學二與熱學",
+        "semester": "上學期",
+        "grade": "高二",
+        "subject": "物理",
+        "courseTrack": null,
+        "schoolYear": "未標示",
+        "courseType": "未確認"
       }
     ],
     "learningContent": "完全非彈性碰撞"
@@ -2231,7 +2506,21 @@
       {
         "publisher": "hanlin",
         "mappingId": "hanlin-h2-physics-ii",
-        "verificationStatus": "source-checked"
+        "sourceUrl": "https://books.hanlin.com.tw/product/004022",
+        "sourceTitle": "翰林書城－高中課本選修物理(II)力學二與熱學",
+        "verifiedAt": "2026-11-13",
+        "verificationStatus": "source-checked",
+        "notes": "官方頁明示高中二年級、上學期及課本名稱；僅作冊別／主題層級對照。",
+        "mappingLevel": "volume",
+        "volume": "選修物理(II) 力學二與熱學",
+        "unitCode": "全冊",
+        "unitName": "力學二與熱學",
+        "semester": "上學期",
+        "grade": "高二",
+        "subject": "物理",
+        "courseTrack": null,
+        "schoolYear": "未標示",
+        "courseType": "未確認"
       }
     ],
     "learningContent": "功的計算"
@@ -2266,7 +2555,21 @@
       {
         "publisher": "hanlin",
         "mappingId": "hanlin-h2-physics-ii",
-        "verificationStatus": "source-checked"
+        "sourceUrl": "https://books.hanlin.com.tw/product/004022",
+        "sourceTitle": "翰林書城－高中課本選修物理(II)力學二與熱學",
+        "verifiedAt": "2026-11-13",
+        "verificationStatus": "source-checked",
+        "notes": "官方頁明示高中二年級、上學期及課本名稱；僅作冊別／主題層級對照。",
+        "mappingLevel": "volume",
+        "volume": "選修物理(II) 力學二與熱學",
+        "unitCode": "全冊",
+        "unitName": "力學二與熱學",
+        "semester": "上學期",
+        "grade": "高二",
+        "subject": "物理",
+        "courseTrack": null,
+        "schoolYear": "未標示",
+        "courseType": "未確認"
       }
     ],
     "learningContent": "重力位能"
@@ -2301,7 +2604,21 @@
       {
         "publisher": "hanlin",
         "mappingId": "hanlin-h2-physics-ii",
-        "verificationStatus": "source-checked"
+        "sourceUrl": "https://books.hanlin.com.tw/product/004022",
+        "sourceTitle": "翰林書城－高中課本選修物理(II)力學二與熱學",
+        "verifiedAt": "2026-11-13",
+        "verificationStatus": "source-checked",
+        "notes": "官方頁明示高中二年級、上學期及課本名稱；僅作冊別／主題層級對照。",
+        "mappingLevel": "volume",
+        "volume": "選修物理(II) 力學二與熱學",
+        "unitCode": "全冊",
+        "unitName": "力學二與熱學",
+        "semester": "上學期",
+        "grade": "高二",
+        "subject": "物理",
+        "courseTrack": null,
+        "schoolYear": "未標示",
+        "courseType": "未確認"
       }
     ],
     "learningContent": "動能"
@@ -2336,7 +2653,21 @@
       {
         "publisher": "hanlin",
         "mappingId": "hanlin-h2-physics-ii",
-        "verificationStatus": "source-checked"
+        "sourceUrl": "https://books.hanlin.com.tw/product/004022",
+        "sourceTitle": "翰林書城－高中課本選修物理(II)力學二與熱學",
+        "verifiedAt": "2026-11-13",
+        "verificationStatus": "source-checked",
+        "notes": "官方頁明示高中二年級、上學期及課本名稱；僅作冊別／主題層級對照。",
+        "mappingLevel": "volume",
+        "volume": "選修物理(II) 力學二與熱學",
+        "unitCode": "全冊",
+        "unitName": "力學二與熱學",
+        "semester": "上學期",
+        "grade": "高二",
+        "subject": "物理",
+        "courseTrack": null,
+        "schoolYear": "未標示",
+        "courseType": "未確認"
       }
     ],
     "learningContent": "力矩平衡"
@@ -2371,7 +2702,21 @@
       {
         "publisher": "hanlin",
         "mappingId": "hanlin-h2-physics-ii",
-        "verificationStatus": "source-checked"
+        "sourceUrl": "https://books.hanlin.com.tw/product/004022",
+        "sourceTitle": "翰林書城－高中課本選修物理(II)力學二與熱學",
+        "verifiedAt": "2026-11-13",
+        "verificationStatus": "source-checked",
+        "notes": "官方頁明示高中二年級、上學期及課本名稱；僅作冊別／主題層級對照。",
+        "mappingLevel": "volume",
+        "volume": "選修物理(II) 力學二與熱學",
+        "unitCode": "全冊",
+        "unitName": "力學二與熱學",
+        "semester": "上學期",
+        "grade": "高二",
+        "subject": "物理",
+        "courseTrack": null,
+        "schoolYear": "未標示",
+        "courseType": "未確認"
       }
     ],
     "learningContent": "熱量計算"
@@ -2406,7 +2751,21 @@
       {
         "publisher": "hanlin",
         "mappingId": "hanlin-h2-physics-ii",
-        "verificationStatus": "source-checked"
+        "sourceUrl": "https://books.hanlin.com.tw/product/004022",
+        "sourceTitle": "翰林書城－高中課本選修物理(II)力學二與熱學",
+        "verifiedAt": "2026-11-13",
+        "verificationStatus": "source-checked",
+        "notes": "官方頁明示高中二年級、上學期及課本名稱；僅作冊別／主題層級對照。",
+        "mappingLevel": "volume",
+        "volume": "選修物理(II) 力學二與熱學",
+        "unitCode": "全冊",
+        "unitName": "力學二與熱學",
+        "semester": "上學期",
+        "grade": "高二",
+        "subject": "物理",
+        "courseTrack": null,
+        "schoolYear": "未標示",
+        "courseType": "未確認"
       }
     ],
     "learningContent": "牛頓第三運動定律"
@@ -2441,7 +2800,21 @@
       {
         "publisher": "hanlin",
         "mappingId": "hanlin-h2-chemistry-iii-u1",
-        "verificationStatus": "source-checked"
+        "sourceUrl": "https://books.hanlin.com.tw/product/435023",
+        "sourceTitle": "翰林書城－高中互動式教學講義選修化學(III)",
+        "verifiedAt": "2026-11-13",
+        "verificationStatus": "source-checked",
+        "notes": "官方頁明示高二、高三、全學年，目次列化學平衡；不推定學校段考。",
+        "mappingLevel": "unit",
+        "volume": "選修化學(III)（官方互動式教學講義）",
+        "unitCode": "1",
+        "unitName": "化學平衡",
+        "semester": "全學年",
+        "grade": "高二、高三",
+        "subject": "化學",
+        "courseTrack": null,
+        "schoolYear": "未標示",
+        "courseType": "未確認"
       }
     ],
     "learningContent": "化學平衡與濃度"
@@ -2476,7 +2849,21 @@
       {
         "publisher": "hanlin",
         "mappingId": "hanlin-h2-chemistry-iii-u1",
-        "verificationStatus": "source-checked"
+        "sourceUrl": "https://books.hanlin.com.tw/product/435023",
+        "sourceTitle": "翰林書城－高中互動式教學講義選修化學(III)",
+        "verifiedAt": "2026-11-13",
+        "verificationStatus": "source-checked",
+        "notes": "官方頁明示高二、高三、全學年，目次列化學平衡；不推定學校段考。",
+        "mappingLevel": "unit",
+        "volume": "選修化學(III)（官方互動式教學講義）",
+        "unitCode": "1",
+        "unitName": "化學平衡",
+        "semester": "全學年",
+        "grade": "高二、高三",
+        "subject": "化學",
+        "courseTrack": null,
+        "schoolYear": "未標示",
+        "courseType": "未確認"
       }
     ],
     "learningContent": "勒沙特列原理"
@@ -2511,7 +2898,21 @@
       {
         "publisher": "hanlin",
         "mappingId": "hanlin-h2-chemistry-iii-u1",
-        "verificationStatus": "source-checked"
+        "sourceUrl": "https://books.hanlin.com.tw/product/435023",
+        "sourceTitle": "翰林書城－高中互動式教學講義選修化學(III)",
+        "verifiedAt": "2026-11-13",
+        "verificationStatus": "source-checked",
+        "notes": "官方頁明示高二、高三、全學年，目次列化學平衡；不推定學校段考。",
+        "mappingLevel": "unit",
+        "volume": "選修化學(III)（官方互動式教學講義）",
+        "unitCode": "1",
+        "unitName": "化學平衡",
+        "semester": "全學年",
+        "grade": "高二、高三",
+        "subject": "化學",
+        "courseTrack": null,
+        "schoolYear": "未標示",
+        "courseType": "未確認"
       }
     ],
     "learningContent": "平衡常數表示式"
@@ -2546,7 +2947,21 @@
       {
         "publisher": "hanlin",
         "mappingId": "hanlin-h2-chemistry-iii-u2",
-        "verificationStatus": "source-checked"
+        "sourceUrl": "https://books.hanlin.com.tw/product/435023",
+        "sourceTitle": "翰林書城－高中互動式教學講義選修化學(III)",
+        "verifiedAt": "2026-11-13",
+        "verificationStatus": "source-checked",
+        "notes": "官方頁明示目次列沉澱反應與溶解平衡；不推定學校段考。",
+        "mappingLevel": "unit",
+        "volume": "選修化學(III)（官方互動式教學講義）",
+        "unitCode": "2",
+        "unitName": "沉澱反應與溶解平衡",
+        "semester": "全學年",
+        "grade": "高二、高三",
+        "subject": "化學",
+        "courseTrack": null,
+        "schoolYear": "未標示",
+        "courseType": "未確認"
       }
     ],
     "learningContent": "溶解平衡與沉澱"
@@ -2581,7 +2996,21 @@
       {
         "publisher": "hanlin",
         "mappingId": "hanlin-h2-chemistry-iii-u3",
-        "verificationStatus": "source-checked"
+        "sourceUrl": "https://books.hanlin.com.tw/product/435023",
+        "sourceTitle": "翰林書城－高中互動式教學講義選修化學(III)",
+        "verifiedAt": "2026-11-13",
+        "verificationStatus": "source-checked",
+        "notes": "官方頁明示目次列酸鹼反應與酸鹼滴定實驗；不推定學校段考。",
+        "mappingLevel": "unit",
+        "volume": "選修化學(III)（官方互動式教學講義）",
+        "unitCode": "3",
+        "unitName": "酸鹼反應",
+        "semester": "全學年",
+        "grade": "高二、高三",
+        "subject": "化學",
+        "courseTrack": null,
+        "schoolYear": "未標示",
+        "courseType": "未確認"
       }
     ],
     "learningContent": "強酸與 pH"
@@ -2616,7 +3045,21 @@
       {
         "publisher": "hanlin",
         "mappingId": "hanlin-h2-chemistry-iii-u3",
-        "verificationStatus": "source-checked"
+        "sourceUrl": "https://books.hanlin.com.tw/product/435023",
+        "sourceTitle": "翰林書城－高中互動式教學講義選修化學(III)",
+        "verifiedAt": "2026-11-13",
+        "verificationStatus": "source-checked",
+        "notes": "官方頁明示目次列酸鹼反應與酸鹼滴定實驗；不推定學校段考。",
+        "mappingLevel": "unit",
+        "volume": "選修化學(III)（官方互動式教學講義）",
+        "unitCode": "3",
+        "unitName": "酸鹼反應",
+        "semester": "全學年",
+        "grade": "高二、高三",
+        "subject": "化學",
+        "courseTrack": null,
+        "schoolYear": "未標示",
+        "courseType": "未確認"
       }
     ],
     "learningContent": "酸鹼中和"
@@ -2651,7 +3094,21 @@
       {
         "publisher": "hanlin",
         "mappingId": "hanlin-h2-chemistry-iii-u3",
-        "verificationStatus": "source-checked"
+        "sourceUrl": "https://books.hanlin.com.tw/product/435023",
+        "sourceTitle": "翰林書城－高中互動式教學講義選修化學(III)",
+        "verifiedAt": "2026-11-13",
+        "verificationStatus": "source-checked",
+        "notes": "官方頁明示目次列酸鹼反應與酸鹼滴定實驗；不推定學校段考。",
+        "mappingLevel": "unit",
+        "volume": "選修化學(III)（官方互動式教學講義）",
+        "unitCode": "3",
+        "unitName": "酸鹼反應",
+        "semester": "全學年",
+        "grade": "高二、高三",
+        "subject": "化學",
+        "courseTrack": null,
+        "schoolYear": "未標示",
+        "courseType": "未確認"
       }
     ],
     "learningContent": "緩衝溶液"
@@ -2686,7 +3143,21 @@
       {
         "publisher": "hanlin",
         "mappingId": "hanlin-h2-chemistry-iii-u2",
-        "verificationStatus": "source-checked"
+        "sourceUrl": "https://books.hanlin.com.tw/product/435023",
+        "sourceTitle": "翰林書城－高中互動式教學講義選修化學(III)",
+        "verifiedAt": "2026-11-13",
+        "verificationStatus": "source-checked",
+        "notes": "官方頁明示目次列沉澱反應與溶解平衡；不推定學校段考。",
+        "mappingLevel": "unit",
+        "volume": "選修化學(III)（官方互動式教學講義）",
+        "unitCode": "2",
+        "unitName": "沉澱反應與溶解平衡",
+        "semester": "全學年",
+        "grade": "高二、高三",
+        "subject": "化學",
+        "courseTrack": null,
+        "schoolYear": "未標示",
+        "courseType": "未確認"
       }
     ],
     "learningContent": "共同離子效應"
@@ -3155,4 +3626,4 @@
     "publisherMappings": [],
     "learningContent": "論證證據與因果"
   }
-];})();
+];
