@@ -371,8 +371,8 @@
         "pending": 0
       },
       "verificationStatusCounts": {
-        "sourceChecked": 43,
-        "officialIndexLinkOnly": 0
+        "sourceChecked": 38,
+        "officialIndexLinkOnly": 5
       },
       "publisherReferences": {
         "hanlin": 32,
@@ -396,7 +396,13 @@
         "arithmeticChecks": "主要數學、物理、化學計算題已逐題核算",
         "runtimeClassificationMatchesStoredFields": "not-run",
         "browserFunctionalTests": "pending"
-      }
+      },
+      "mappingLevelCounts": {
+        "unit": 24,
+        "volume": 14,
+        "officialResourceTitle": 5
+      },
+      "notes": "南一四則混合運算5題只標官方索引標題層級；其餘映射依官方可讀來源核對。"
     },
     "corrections": [
       "第8至29批共1700題沒有內嵌學期／出版社分類欄位；由分類推定器執行時依題幹、單元與知識點推定，未回寫舊批次，無足夠依據者保留unassigned。",
@@ -404,7 +410,8 @@
       "第30至38批185筆出版社映射引用全部通過中央16筆映射的來源欄位、年級、科目、學期、課程軌別及單元／冊別範圍檢查。",
       "移除7筆不受現有來源範圍支持的舊出版社映射：b30-076、b33-065、b33-066、b33-067、b33-070、b34-064、b35-072；題目保留為共同核心。",
       "數學A/B以courseTrack隔離；普通高中／技術型高中、學年度或學校採用版本未確認者不作指定版本宣稱。",
-      "第38批b38-026答案索引已修正為1（5段）。"
+      "第38批b38-026答案索引已修正為1（5段）。",
+      "南一四則混合運算詳情頁本次無法直接讀取，改用官方列表頁確認數學6下、六年級及標題，5題降為official-index-link-only／official-resource-title；詳情目次不宣稱已核對。"
     ],
     "duplicateAuditNote": "第38批與第8至37批2,500題分四組正規化題幹比對，完全相同題幹0組；本批內0組。舊題庫歷史重複（b9-006/b13-013、b10-009/b18-037、b13-020/b20-065）保留，不擅自刪除。",
     "classifier": "data/question-classification-inference.js",
@@ -416,7 +423,16 @@
     "pullRequest": 2,
     "mainVerifiedAt": "2026-11-13",
     "pagesDeployment": "not-verified-no-workflow-run",
-    "runtimeClassificationAuditStatus": "not-run-after-classifier-v12"
+    "runtimeClassificationAuditStatus": "not-run-after-classifier-v12",
+    "mappingVerificationStatusCountsBatches30to38": {
+      "source-checked": 174,
+      "official-index-link-only": 11
+    },
+    "mappingLevelCountsBatches30to38": {
+      "unit": 98,
+      "volume": 76,
+      "official-resource-title": 11
+    }
   },
   "gradeDistribution": {
     "五年級": 290,
@@ -478,8 +494,8 @@
       "pending": 0
     },
     "verificationStatusCounts": {
-      "sourceChecked": 43,
-      "officialIndexLinkOnly": 0
+      "sourceChecked": 38,
+      "officialIndexLinkOnly": 5
     },
     "publisherReferences": {
       "hanlin": 32,
@@ -503,10 +519,16 @@
       "arithmeticChecks": "主要數學、物理、化學計算題已逐題核算",
       "runtimeClassificationMatchesStoredFields": "not-run",
       "browserFunctionalTests": "pending"
-    }
+    },
+    "mappingLevelCounts": {
+      "unit": 24,
+      "volume": 14,
+      "officialResourceTitle": 5
+    },
+    "notes": "南一四則混合運算5題只標官方索引標題層級；其餘映射依官方可讀來源核對。"
   },
   "textbookMappingCount": 16,
-  "lastBatchNote": "第38批100題（小六50、高二50）；43題有出版社映射，185筆第30至38批映射引用全部通過中央來源與年級／科目／學期／軌別／範圍驗證；移除7筆不受來源支持的舊映射；第30批91筆分類說明已補齊；分類器v12、Service Worker v66；PR #2已合併main。",
+  "lastBatchNote": "第38批100題（小六50、高二50）；43題有出版社映射，其中38筆source-checked、5筆official-index-link-only；第30至38批185筆映射引用全部通過中央來源與年級／科目／學期／軌別／範圍驗證；移除7筆不受來源支持的舊映射；第30批91筆分類說明已補齊；分類器v12、Service Worker v66；PR #2已合併main。",
   "candidateBranchAudit": {
     "date": "2026-11-13",
     "sourceBranch": "automation/batch-38-classification-audit",
