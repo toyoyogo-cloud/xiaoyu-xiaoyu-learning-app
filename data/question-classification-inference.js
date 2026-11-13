@@ -155,16 +155,22 @@ function classify(q){
  let rejectedMapping=Array.isArray(source.publisherMappings)&&source.publisherMappings.length>0&&mappings.length===0;
  const rule=(semester===UN||examPeriod===UN)?inferred(source):null;
  if(rule){
-  if(semester===UN&&rule.semester)semester=rule.semester;
-  if(examPeriod===UN&&rule.examPeriod)examPeriod=rule.examPeriod;
-  if(rule.mappingId&&!mappings.some(m=>m.mappingId===rule.mappingId)){
-   const m=MAPS[rule.mappingId];
-   if(m&&validMappingForQuestion(source,m,rule.mappingId)){
-    mappings.push({publisher:m.publisher,mappingId:m.mappingId||m.id,sourceUrl:m.sourceUrl,sourceTitle:m.sourceTitle,verifiedAt:m.verifiedAt,verificationStatus:m.verificationStatus,notes:m.notes,mappingLevel:m.mappingLevel||"volume",volume:m.volume||m.unitName||"",unitCode:m.unitCode||"",unitName:m.unitName||"",unitAliases:UNIT_ALIASES[rule.mappingId]||[],scopeKeywords:VOLUME_SCOPES[rule.mappingId]||[],semester:m.semester||UN,grade:m.grade,subject:m.subject,courseTrack:m.courseTrack||null,schoolYear:m.schoolYear||"未標示",courseType:m.courseType||"未確認"});
-   }else rejectedMapping=true;
+  const ruleMap=rule.mappingId?MAPS[rule.mappingId]:null;
+  const samePublisherConflict=!!(ruleMap&&mappings.some(m=>m.publisher===ruleMap.publisher&&m.mappingId!==rule.mappingId));
+  if(!samePublisherConflict){
+   if(semester===UN&&rule.semester)semester=rule.semester;
+   if(examPeriod===UN&&rule.examPeriod)examPeriod=rule.examPeriod;
+   if(rule.mappingId&&!mappings.some(m=>m.mappingId===rule.mappingId)){
+    const m=ruleMap;
+    if(m&&validMappingForQuestion(source,m,rule.mappingId)){
+     mappings.push({publisher:m.publisher,mappingId:m.mappingId||m.id,sourceUrl:m.sourceUrl,sourceTitle:m.sourceTitle,verifiedAt:m.verifiedAt,verificationStatus:m.verificationStatus,notes:m.notes,mappingLevel:m.mappingLevel||"volume",volume:m.volume||m.unitName||"",unitCode:m.unitCode||"",unitName:m.unitName||"",unitAliases:UNIT_ALIASES[rule.mappingId]||[],scopeKeywords:VOLUME_SCOPES[rule.mappingId]||[],semester:m.semester||UN,grade:m.grade,subject:m.subject,courseTrack:m.courseTrack||null,schoolYear:m.schoolYear||"未標示",courseType:m.courseType||"未確認"});
+    }else rejectedMapping=true;
+   }
+   if(rule.basis==="question-bank-inference"&&basis!=="publisher-source-verified"){basis="question-bank-inference";confidence=rule.confidence||"medium";notes=rule.notes;}
+   else if(rule.basis==="publisher-source-verified"){basis="publisher-source-verified";confidence=rule.confidence||"medium";notes=rule.notes;}
+  }else{
+   notes+=" 同一出版社已有不同冊別／課程映射，為避免混用版本，保留既有映射且不新增第二筆。";
   }
-  if(rule.basis==="question-bank-inference"&&basis!=="publisher-source-verified"){basis="question-bank-inference";confidence=rule.confidence||"medium";notes=rule.notes;}
-  else if(rule.basis==="publisher-source-verified"){basis="publisher-source-verified";confidence=rule.confidence||"medium";notes=rule.notes;}
  }
  if(mappings.length){
   publisherStatus="publisher-mapped";
@@ -183,5 +189,5 @@ function classify(q){
  return {semester,examPeriod,classificationBasis:basis,confidence,publisherStatus,publisherMappings:mappings,classificationNotes:notes,reason:notes,sourceRef,learningDomain:source.learningDomain||domainFor(source),questionType:source.questionType||typeFor(source),learningUnit:source.learningUnit||label(source)||"未標示",difficultyLevel:difficultyFor(source)};
 }
 window.questionClassificationFor=classify;
-window.QUESTION_CLASSIFICATION_RULES_VERSION="2026-11-13.16";
+window.QUESTION_CLASSIFICATION_RULES_VERSION="2026-11-13.17";
 })();
