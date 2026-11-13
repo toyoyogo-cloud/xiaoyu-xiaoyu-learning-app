@@ -953,22 +953,7 @@
     }
   },
   "mappingCount": 16,
-  "auditNotes": [
-    "每筆映射均保留 publisher、mappingId、sourceUrl、sourceTitle、verifiedAt、verificationStatus、notes。",
-    "mappingLevel 區分 unit、title-topic、volume；冊別／冊名層級不代表細分單元已核對。",
-    "數學3A映射限定 courseTrack=數學A；未確認數學A/B者不得套用。",
-    "出版社來源只證明教材冊別／單元對照，不代表學校採用該版本。",
-    "翰林選修化學(II)官方課本頁明示高二上學期，已由下學期更正為上學期。",
-    "2026-11-13 main 全庫盤點：第8至36批共2,400題、2,400個唯一ID；第8至29批1,700題沒有內嵌出版社／學期分類欄位，改由 question-classification-inference.js 依可辨識知識點動態推定，無證據者保留unassigned/pending；第30至36批700題有分類欄位，出版社映射引用119筆，對照16筆中央映射後未發現年級、科目、學期或課程軌別不符。第30批有91題未儲存classificationNotes，執行時由分類器以sourceRef／預設理由補出說明。此為結構與來源欄位稽核，不表示每題都已取得出版社對照。",
-    "化學(II)冊別層級校正：以翰林課本商品頁005022為準，確認高二上學期；不同商品編號的習作或實驗手冊學期不可混用。",
-    "第37批新增30題來源映射均以中央mappingId連結；執行時分類器回歸測試確認100題的semester、examPeriod、classificationBasis、publisherStatus及publisherMappings均與批次檔儲存欄位一致。",
-    "第37批已透過PR #1合併至main，merge commit 0b76d6e99d66502f39f6e9c32ad8032bbcc47494；main已包含第37批及本次全庫來源稽核。",
-    "2026-11-13來源狀態細化：南一平台「數學6下｜怎樣解題：雞兔問題」詳情頁請求逾時，僅能由南一官方資源頁的熱門文章連結標題確認主題與年級／科目／學期；映射降為official-resource-title與official-index-link-only，不宣稱南一課本單元或原題。",
-    "雞兔問題mapping的sourceUrl改指向可讀取的南一官方索引頁a=341，另保留targetUrl=a=394作為連結目標；verificationStatus仍為official-index-link-only。",
-    "第37批30筆題目映射中，28筆為可直接讀取來源核對，2筆雞兔問題映射僅由南一官方索引頁標題確認（official-index-link-only）；中央16筆映射中15筆source-checked、1筆official-index-link-only。",
-    "第41批新增100題（小六50、高二50）；35筆來源映射引用全部指向中央16筆已核對mappingId，逐筆核對publisher、sourceUrl、sourceTitle、verifiedAt、verificationStatus、notes、年級、科目、學期、軌別及單元／冊別範圍，35/35通過。未新增中央映射紀錄。",
-    "第41批映射層級：單元23、冊別9、官方資源標題3；出版社引用翰林27、南一6、康軒2。冊別與官方資源標題層級不冒稱完整課本目次。"
-  ],
+  "auditNotes": "每筆映射均保留 publisher、mappingId、sourceUrl、sourceTitle、verifiedAt、verificationStatus、notes。,mappingLevel 區分 unit、title-topic、volume；冊別／冊名層級不代表細分單元已核對。,數學3A映射限定 courseTrack=數學A；未確認數學A/B者不得套用。,出版社來源只證明教材冊別／單元對照，不代表學校採用該版本。,翰林選修化學(II)官方課本頁明示高二上學期，已由下學期更正為上學期。,2026-11-13 main 全庫盤點：第8至36批共2,400題、2,400個唯一ID；第8至29批1,700題沒有內嵌出版社／學期分類欄位，改由 question-classification-inference.js 依可辨識知識點動態推定，無證據者保留unassigned/pending；第30至36批700題有分類欄位，出版社映射引用119筆，對照16筆中央映射後未發現年級、科目、學期或課程軌別不符。第30批有91題未儲存classificationNotes，執行時由分類器以sourceRef／預設理由補出說明。此為結構與來源欄位稽核，不表示每題都已取得出版社對照。,化學(II)冊別層級校正：以翰林課本商品頁005022為準，確認高二上學期；不同商品編號的習作或實驗手冊學期不可混用。,第37批新增30題來源映射均以中央mappingId連結；執行時分類器回歸測試確認100題的semester、examPeriod、classificationBasis、publisherStatus及publisherMappings均與批次檔儲存欄位一致。,第37批已透過PR #1合併至main，merge commit 0b76d6e99d66502f39f6e9c32ad8032bbcc47494；main已包含第37批及本次全庫來源稽核。,2026-11-13來源狀態細化：南一平台「數學6下｜怎樣解題：雞兔問題」詳情頁請求逾時，僅能由南一官方資源頁的熱門文章連結標題確認主題與年級／科目／學期；映射降為official-resource-title與official-index-link-only，不宣稱南一課本單元或原題。,雞兔問題mapping的sourceUrl改指向可讀取的南一官方索引頁a=341，另保留targetUrl=a=394作為連結目標；verificationStatus仍為official-index-link-only。,第37批30筆題目映射中，28筆為可直接讀取來源核對，2筆雞兔問題映射僅由南一官方索引頁標題確認（official-index-link-only）；中央16筆映射中15筆source-checked、1筆official-index-link-only。,第41批新增100題（小六50、高二50）；35筆來源映射引用全部指向中央16筆已核對mappingId，逐筆核對publisher、sourceUrl、sourceTitle、verifiedAt、verificationStatus、notes、年級、科目、學期、軌別及單元／冊別範圍，35/35通過。未新增中央映射紀錄。,第41批映射層級：單元23、冊別9、官方資源標題3；出版社引用翰林27、南一6、康軒2。冊別與官方資源標題層級不冒稱完整課本目次。 2026-11-13 main全庫盤點：第8至41批2,900題；338筆出版社映射引用與16筆中央映射一致，錯誤0。原始分類欄位2,900/2,900完整；擴充分類欄位已持久保存399題，尚待補齊2,501題。",
   "lastAudit": {
     "verifiedAt": "2026-11-13",
     "sourceBranch": "main",
@@ -1635,5 +1620,83 @@
       "分類器v13對第41批完成靜態規則交叉檢查；未在瀏覽器實際執行，教師逐題審核尚未完成。",
       "GitHub Pages workflow在合併後已觸發；部署結果待工作流程完成後確認。"
     ]
+  },
+  "latestMainClassificationAudit": {
+    "auditedAt": "2026-11-13",
+    "branch": "main",
+    "batches": "08-41",
+    "questionCount": 2900,
+    "uniqueQuestionIds": 2900,
+    "duplicateQuestionIds": 0,
+    "gradeDistribution": {
+      "五年級": 290,
+      "六年級": 890,
+      "高一": 373,
+      "高二": 974,
+      "高三": 373
+    },
+    "subjectDistribution": {
+      "國語": 218,
+      "國文": 104,
+      "英文": 128,
+      "英語": 193,
+      "數學": 634,
+      "自然": 243,
+      "社會": 226,
+      "歷史": 136,
+      "地理": 155,
+      "公民": 164,
+      "物理": 218,
+      "化學": 212,
+      "生物": 180,
+      "地球科學": 80,
+      "經濟": 6,
+      "資訊": 1,
+      "資訊素養": 2
+    },
+    "unitLabelCoverage": {
+      "questionsWithUnitOrTopic": 2900,
+      "missingUnitOrTopic": 0
+    },
+    "storedClassificationFields": {
+      "complete": 2900,
+      "missing": 0
+    },
+    "classificationBasisDistribution": {
+      "publisher-source-verified": 259,
+      "question-bank-inference": 218,
+      "curriculum-core": 2423,
+      "unassigned": 0
+    },
+    "semesterDistribution": {
+      "上學期": 301,
+      "下學期": 102,
+      "全學年": 74,
+      "unassigned": 2423
+    },
+    "examPeriodDistribution": {
+      "第一次段考": 58,
+      "第二次段考": 71,
+      "第三次段考": 89,
+      "unassigned": 2682
+    },
+    "publisherStatusDistribution": {
+      "publisher-mapped": 338,
+      "curriculum-core": 2562,
+      "pending": 0
+    },
+    "publisherMappedQuestionCount": 338,
+    "publisherMappingReferenceCount": 338,
+    "centralMappingRegistryCount": 16,
+    "publisherMappingConsistencyErrors": 0,
+    "pendingQuestionCount": 0,
+    "extendedMetadata": {
+      "complete": 399,
+      "remaining": 2501,
+      "separateClassificationIndex": 199,
+      "embeddedInBatches40to41": 200
+    },
+    "newQuestionsAdded": 0,
+    "notes": "所有題目原始批次的semester、examPeriod、classificationBasis、confidence、publisherStatus、publisherMappings、classificationNotes及sourceRef均存在；learningDomain、questionType、learningUnit、difficultyLevel目前由第8至14批199題的獨立索引及第40至41批200題原始欄位持久保存，其餘2501題尚待分批補齊。段考欄位只代表題庫複習建議，不是學校正式段考範圍。出版社映射僅在16筆中央官方來源映射範圍一致時納入。"
   }
 }
