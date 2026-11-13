@@ -294,7 +294,18 @@
         "波以耳",
         "線膨脹",
         "機械能"
-      ]
+      ],
+      "excludedTopics": [
+        "電路",
+        "電功率",
+        "電流",
+        "電壓",
+        "電阻",
+        "電磁",
+        "磁場",
+        "電場"
+      ],
+      "scopeLimitNote": "僅限官方頁可支持的「力學二與熱學」冊別範圍；不得因「功」字子字串把電路或電功率題目納入。"
     },
     {
       "id": "hanlin-h2-chemistry-iii-u1",
@@ -1332,6 +1343,17 @@
       "change": "由僅索引連結升級為可讀取官方詳情頁核對",
       "sourceUrl": "https://tpack.nani.com.tw/nani_content?a=394&b=1",
       "scope": "僅官方資源標題層級；未宣稱課本完整目次或學校採用版本"
+    },
+    {
+      "date": "2026-11-13",
+      "questionId": "b9-016",
+      "mappingId": "hanlin-h2-physics-ii",
+      "publisher": "hanlin",
+      "action": "removed",
+      "reason": "電路與電功率未獲官方「力學二與熱學」冊別頁面支持；原有「功」字子字串造成錯誤範圍命中。",
+      "sourceUrl": "https://books.hanlin.com.tw/product/004022",
+      "sourceTitle": "翰林書城－高中課本選修物理(II)力學二與熱學",
+      "result": "publisherStatus=pending; semester=unassigned; examPeriod=unassigned"
     }
   ],
   "batch40UsageAudit": {
@@ -1550,16 +1572,16 @@
     "pullRequestUrl": "https://github.com/toyoyogo-cloud/xiaoyu-xiaoyu-learning-app/pull/6"
   },
   "mappingVerificationStatusCountsBatches08to41": {
-    "source-checked": 330,
+    "source-checked": 331,
     "official-index-link-only": 8
   },
   "mappingLevelCountsBatches08to41": {
     "unit": 181,
-    "volume": 141,
+    "volume": 142,
     "official-resource-title": 16
   },
   "publisherReferenceCountsBatches08to41": {
-    "hanlin": 294,
+    "hanlin": 295,
     "knsh": 9,
     "nani": 35
   },
@@ -2217,5 +2239,160 @@
     "registryReferenceErrors": 0,
     "gradeSubjectSemesterScopeErrors": 0,
     "note": "沿用既有中央官方來源映射；b8-023僅冊別層級，b8-024為單元層級。未新增中央映射，也不代表學校採用版本。"
+  },
+  "batch09UsageAudit": {
+    "auditedAt": "2026-11-13",
+    "batch": "09",
+    "questionCount": 25,
+    "uniqueQuestionIdCount": 25,
+    "gradeCounts": {
+      "五年級": 3,
+      "六年級": 2,
+      "高一": 6,
+      "高二": 7,
+      "高三": 7
+    },
+    "subjectCounts": {
+      "數學": 5,
+      "自然": 1,
+      "社會": 1,
+      "國語": 1,
+      "公民": 3,
+      "歷史": 2,
+      "地理": 3,
+      "物理": 3,
+      "化學": 3,
+      "生物": 2,
+      "地球科學": 1
+    },
+    "classificationBasis": {
+      "curriculum-core": 24,
+      "question-bank-inference": 1
+    },
+    "publisherStatus": {
+      "curriculum-core": 24,
+      "pending": 1
+    },
+    "semester": {
+      "unassigned": 24,
+      "下學期": 1
+    },
+    "examPeriod": {
+      "unassigned": 24,
+      "第一次段考": 1
+    },
+    "difficultyLevel": {
+      "進階": 11,
+      "挑戰": 14
+    },
+    "learningDomain": {
+      "數與運算": 1,
+      "生物生命": 1,
+      "地理空間與環境": 1,
+      "語文句型": 1,
+      "幾何與測量": 2,
+      "代數與函數": 2,
+      "法律人權": 2,
+      "史料判讀": 1,
+      "人文地理": 3,
+      "力學運動": 2,
+      "物質構造": 1,
+      "世界史": 1,
+      "電磁學": 1,
+      "反應與計量": 2,
+      "生態環境": 1,
+      "憲法政府": 1,
+      "細胞分子": 1,
+      "地質地球內部": 1
+    },
+    "questionType": {
+      "計算應用": 7,
+      "概念辨識": 8,
+      "推理判斷": 10
+    },
+    "extendedMetadataComplete": 25,
+    "publisherMappedQuestions": 0,
+    "publisherReferenceCount": 0,
+    "pendingPublisherQuestions": 1,
+    "mappingCorrection": {
+      "questionId": "b9-016",
+      "mappingId": "hanlin-h2-physics-ii",
+      "action": "removed",
+      "reason": "官方頁只確認高二上「力學二與熱學」冊別，未提供「電路與電功率」單元證據。",
+      "evidenceUrl": "https://books.hanlin.com.tw/product/004022",
+      "verificationLevel": "official product page; book-level only"
+    },
+    "validation": {
+      "idsUnique": true,
+      "requiredFieldsComplete": true,
+      "fourOptions": true,
+      "answerIndices0to3": true,
+      "explanationsPresent": true,
+      "staticFilterCombinations": 32400,
+      "filterViolations": 0,
+      "all25Reachable": true,
+      "browserTested": false
+    },
+    "notes": "未因概念相似而新增出版社映射；b9-016改為pending，semester/examPeriod均unassigned；其他無足夠證據者保留原分類。"
+  },
+  "latestClassificationBackfill": {
+    "auditedAt": "2026-11-13",
+    "sourceHeadBeforeRun": "69170954ce54831ac270ac5230699106c10934f9",
+    "batch": "09",
+    "batchQuestionCount": 25,
+    "fullCorpusQuestionCount": 2900,
+    "uniqueQuestionIds": 2900,
+    "extendedMetadataComplete": 362,
+    "remainingExtendedMetadata": 2538,
+    "classificationIndexEntries": 162,
+    "embeddedInBatches40to41": 200,
+    "classificationBasis": {
+      "publisher-source-verified": 260,
+      "question-bank-inference": 218,
+      "curriculum-core": 2422
+    },
+    "semester": {
+      "上學期": 302,
+      "下學期": 102,
+      "全學年": 74,
+      "unassigned": 2422
+    },
+    "examPeriod": {
+      "第一次段考": 58,
+      "第二次段考": 71,
+      "第三次段考": 89,
+      "unassigned": 2682
+    },
+    "publisherStatus": {
+      "publisher-mapped": 339,
+      "curriculum-core": 2560,
+      "pending": 1
+    },
+    "publisherMappingReferences": 339,
+    "publisherReferenceCounts": {
+      "hanlin": 295,
+      "knsh": 9,
+      "nani": 35
+    },
+    "mappingVerificationStatusCounts": {
+      "source-checked": 331,
+      "official-index-link-only": 8
+    },
+    "mappingLevelCounts": {
+      "unit": 181,
+      "volume": 142,
+      "official-resource-title": 16
+    },
+    "centralMappingRegistryCount": 16,
+    "mappingValidation": {
+      "registryReferencesFound": 339,
+      "missingRegistryReferences": 0,
+      "sourceFieldErrors": 0,
+      "gradeSubjectSemesterErrors": 0,
+      "scopeCorrectionCount": 1
+    },
+    "newQuestionsAdded": 0,
+    "browserTested": false,
+    "notes": "擴充欄位完整362題（獨立索引162題＋批次內建200題），尚有2,538題缺少至少一項擴充欄位。b9-016不再映射翰林選修物理(II)。"
   }
 }
