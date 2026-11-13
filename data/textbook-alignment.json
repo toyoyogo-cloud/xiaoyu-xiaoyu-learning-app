@@ -1184,7 +1184,32 @@
       "剩餘123筆出版社映射完成內部一致性檢查；官方來源頁本次未重新開啟，來源驗證狀態沿用既有登錄。",
       "段考僅作題庫複習建議，不代表學校正式範圍；學校實際採用版本仍待學校資料確認。",
       "未新增題目；未進行瀏覽器或手機Safari實機測試。"
-    ]
+    ],
+    "staticFilterReachability": {
+      "auditedAt": "2026-11-14",
+      "batches": "08-41",
+      "questionsChecked": 2900,
+      "perQuestionIndexReachability": {
+        "reachable": 2900,
+        "unreachable": 0
+      },
+      "classificationValueAndMetadataErrors": 0,
+      "publisherStatusMappingConsistencyErrors": 0,
+      "publisherMappingScopeErrors": 0,
+      "publisherCategoryReachability": {
+        "curriculumCore": 2660,
+        "pending": 117,
+        "hanlin": 79,
+        "knsh": 9,
+        "nani": 35
+      },
+      "courseTrackAnomalies": 0,
+      "filterCodePath": "index.html getPool -> window.questionClassificationFor -> QUESTION_CLASSIFICATION_INDEX loaded from data/question-classification.json",
+      "staticPerQuestionCheck": true,
+      "exhaustiveCartesianCombinationTest": false,
+      "browserTested": false,
+      "note": "逐題檢查每題均可由持久索引取回，分類值與單元欄位完整，publisher-mapped狀態與映射存在性一致；不是所有篩選值笛卡兒組合或瀏覽器實測。"
+    }
   },
   "batch39UsageAudit": {
     "batch": 39,
@@ -1816,7 +1841,32 @@
     "serviceWorkerCache": "xy-learning-v91",
     "newQuestionsAdded": 0,
     "browserTested": false,
-    "notes": "本次重新讀取main第8至41批34個題庫檔，逐批比對分類索引：2,900題均有且僅有一筆索引，無缺漏、額外ID或批內重複。發現211筆高二物理／化學／生物選修教材映射未有題目明示相同courseType；依版本隔離規則撤除映射，並撤回僅由該映射帶入的上學期／全學年分類，改回108課綱共同核心及未分類。剩餘123筆出版社映射全部通過年級、科目、courseTrack／courseType、單元範圍與來源欄位內部檢查。沒有新增題目；瀏覽器與手機Safari實機互動仍未測。"
+    "notes": "本次重新讀取main第8至41批34個題庫檔，逐批比對分類索引：2,900題均有且僅有一筆索引，無缺漏、額外ID或批內重複。發現211筆高二物理／化學／生物選修教材映射未有題目明示相同courseType；依版本隔離規則撤除映射，並撤回僅由該映射帶入的上學期／全學年分類，改回108課綱共同核心及未分類。剩餘123筆出版社映射全部通過年級、科目、courseTrack／courseType、單元範圍與來源欄位內部檢查。沒有新增題目；瀏覽器與手機Safari實機互動仍未測。",
+    "staticFilterReachability": {
+      "auditedAt": "2026-11-14",
+      "batches": "08-41",
+      "questionsChecked": 2900,
+      "perQuestionIndexReachability": {
+        "reachable": 2900,
+        "unreachable": 0
+      },
+      "classificationValueAndMetadataErrors": 0,
+      "publisherStatusMappingConsistencyErrors": 0,
+      "publisherMappingScopeErrors": 0,
+      "publisherCategoryReachability": {
+        "curriculumCore": 2660,
+        "pending": 117,
+        "hanlin": 79,
+        "knsh": 9,
+        "nani": 35
+      },
+      "courseTrackAnomalies": 0,
+      "filterCodePath": "index.html getPool -> window.questionClassificationFor -> QUESTION_CLASSIFICATION_INDEX loaded from data/question-classification.json",
+      "staticPerQuestionCheck": true,
+      "exhaustiveCartesianCombinationTest": false,
+      "browserTested": false,
+      "note": "逐題檢查每題均可由持久索引取回，分類值與單元欄位完整，publisher-mapped狀態與映射存在性一致；不是所有篩選值笛卡兒組合或瀏覽器實測。"
+    }
   },
   "classificationPersistenceRuns": [
     {
@@ -2386,7 +2436,32 @@
         "mappingConsistencyErrors": 0,
         "filterScriptReferencesPersistedIndex": true,
         "serviceWorkerCache": "xy-learning-v91",
-        "browserTested": false
+        "browserTested": false,
+        "staticFilterReachability": {
+          "auditedAt": "2026-11-14",
+          "batches": "08-41",
+          "questionsChecked": 2900,
+          "perQuestionIndexReachability": {
+            "reachable": 2900,
+            "unreachable": 0
+          },
+          "classificationValueAndMetadataErrors": 0,
+          "publisherStatusMappingConsistencyErrors": 0,
+          "publisherMappingScopeErrors": 0,
+          "publisherCategoryReachability": {
+            "curriculumCore": 2660,
+            "pending": 117,
+            "hanlin": 79,
+            "knsh": 9,
+            "nani": 35
+          },
+          "courseTrackAnomalies": 0,
+          "filterCodePath": "index.html getPool -> window.questionClassificationFor -> QUESTION_CLASSIFICATION_INDEX loaded from data/question-classification.json",
+          "staticPerQuestionCheck": true,
+          "exhaustiveCartesianCombinationTest": false,
+          "browserTested": false,
+          "note": "逐題檢查每題均可由持久索引取回，分類值與單元欄位完整，publisher-mapped狀態與映射存在性一致；不是所有篩選值笛卡兒組合或瀏覽器實測。"
+        }
       },
       "newQuestionsAdded": 0,
       "notes": "修正未明示選修courseType的高二出版社映射，撤回僅由該映射推定的學期；未改動題幹、選項、答案、解析、錯題本、收藏或測驗紀錄。"
@@ -2543,7 +2618,32 @@
     "unitOrVolumeScopeErrors": 0,
     "result": "123/123 remaining stored publisher mapping references pass internal registry and question-scope checks",
     "correction": "Removed 211 mappings where the question did not explicitly identify the corresponding elective courseType; cleared semester values derived solely from those unsupported mappings.",
-    "limitation": "Existing official-source verification statuses are retained; no official publisher page was reopened during this run. School adoption is still unknown unless separately documented."
+    "limitation": "Existing official-source verification statuses are retained; no official publisher page was reopened during this run. School adoption is still unknown unless separately documented.",
+    "staticFilterReachability": {
+      "auditedAt": "2026-11-14",
+      "batches": "08-41",
+      "questionsChecked": 2900,
+      "perQuestionIndexReachability": {
+        "reachable": 2900,
+        "unreachable": 0
+      },
+      "classificationValueAndMetadataErrors": 0,
+      "publisherStatusMappingConsistencyErrors": 0,
+      "publisherMappingScopeErrors": 0,
+      "publisherCategoryReachability": {
+        "curriculumCore": 2660,
+        "pending": 117,
+        "hanlin": 79,
+        "knsh": 9,
+        "nani": 35
+      },
+      "courseTrackAnomalies": 0,
+      "filterCodePath": "index.html getPool -> window.questionClassificationFor -> QUESTION_CLASSIFICATION_INDEX loaded from data/question-classification.json",
+      "staticPerQuestionCheck": true,
+      "exhaustiveCartesianCombinationTest": false,
+      "browserTested": false,
+      "note": "逐題檢查每題均可由持久索引取回，分類值與單元欄位完整，publisher-mapped狀態與映射存在性一致；不是所有篩選值笛卡兒組合或瀏覽器實測。"
+    }
   },
   "batch08UsageAudit": {
     "auditedAt": "2026-11-13",
@@ -3075,5 +3175,30 @@
     "action": "移除 publisherMappings、改回108課綱共同核心、confidence=low、semester/examPeriod=unassigned，sourceRef改指向108課綱共同核心。",
     "noQuestionContentChanged": true,
     "newQuestionsAdded": 0
+  },
+  "latestFilterValidation": {
+    "auditedAt": "2026-11-14",
+    "batches": "08-41",
+    "questionsChecked": 2900,
+    "perQuestionIndexReachability": {
+      "reachable": 2900,
+      "unreachable": 0
+    },
+    "classificationValueAndMetadataErrors": 0,
+    "publisherStatusMappingConsistencyErrors": 0,
+    "publisherMappingScopeErrors": 0,
+    "publisherCategoryReachability": {
+      "curriculumCore": 2660,
+      "pending": 117,
+      "hanlin": 79,
+      "knsh": 9,
+      "nani": 35
+    },
+    "courseTrackAnomalies": 0,
+    "filterCodePath": "index.html getPool -> window.questionClassificationFor -> QUESTION_CLASSIFICATION_INDEX loaded from data/question-classification.json",
+    "staticPerQuestionCheck": true,
+    "exhaustiveCartesianCombinationTest": false,
+    "browserTested": false,
+    "note": "逐題檢查每題均可由持久索引取回，分類值與單元欄位完整，publisher-mapped狀態與映射存在性一致；不是所有篩選值笛卡兒組合或瀏覽器實測。"
   }
 }
