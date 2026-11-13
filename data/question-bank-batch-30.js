@@ -26,7 +26,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "論證與資料證據"
+    "learningContent": "論證與資料證據",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-002",
@@ -55,7 +56,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "比較文本觀點"
+    "learningContent": "比較文本觀點",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-003",
@@ -84,7 +86,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "摘要主旨"
+    "learningContent": "摘要主旨",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-004",
@@ -113,7 +116,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "資訊查證"
+    "learningContent": "資訊查證",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-005",
@@ -142,7 +146,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "複句關係"
+    "learningContent": "複句關係",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-006",
@@ -171,7 +176,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "成語語意"
+    "learningContent": "成語語意",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-007",
@@ -200,7 +206,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "事實與意見"
+    "learningContent": "事實與意見",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-008",
@@ -229,7 +236,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "論證謬誤"
+    "learningContent": "論證謬誤",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-009",
@@ -258,7 +266,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "人物行為推論"
+    "learningContent": "人物行為推論",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-010",
@@ -287,7 +296,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "史料互證"
+    "learningContent": "史料互證",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-011",
@@ -586,7 +596,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "單位價格比較"
+    "learningContent": "單位價格比較",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-021",
@@ -615,7 +626,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "公平實驗與控制變因"
+    "learningContent": "公平實驗與控制變因",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-022",
@@ -644,7 +656,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "蒸發與凝結"
+    "learningContent": "蒸發與凝結",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-023",
@@ -673,7 +686,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "並聯電路"
+    "learningContent": "並聯電路",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-024",
@@ -702,7 +716,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "電磁鐵強度"
+    "learningContent": "電磁鐵強度",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-025",
@@ -731,7 +746,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "食物網與生態"
+    "learningContent": "食物網與生態",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-026",
@@ -760,7 +776,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "光合作用"
+    "learningContent": "光合作用",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-027",
@@ -789,7 +806,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "月相變化"
+    "learningContent": "月相變化",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-028",
@@ -818,7 +836,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "低氣壓與降雨"
+    "learningContent": "低氣壓與降雨",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-029",
@@ -847,7 +866,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "密度計算"
+    "learningContent": "密度計算",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-030",
@@ -876,7 +896,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "槓桿力矩"
+    "learningContent": "槓桿力矩",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-031",
@@ -905,7 +926,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "人口金字塔判讀"
+    "learningContent": "人口金字塔判讀",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-032",
@@ -934,7 +956,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "人口遷移推力與拉力"
+    "learningContent": "人口遷移推力與拉力",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-033",
@@ -963,7 +986,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "地方政府職責"
+    "learningContent": "地方政府職責",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-034",
@@ -992,7 +1016,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "秘密投票"
+    "learningContent": "秘密投票",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-035",
@@ -1021,7 +1046,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "史料來源與立場"
+    "learningContent": "史料來源與立場",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-036",
@@ -1050,7 +1076,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "季風與迎風降雨"
+    "learningContent": "季風與迎風降雨",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-037",
@@ -1079,7 +1106,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "國際分工與供應鏈"
+    "learningContent": "國際分工與供應鏈",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-038",
@@ -1108,7 +1136,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "機會成本"
+    "learningContent": "機會成本",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-039",
@@ -1137,7 +1166,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "公共參與"
+    "learningContent": "公共參與",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-040",
@@ -1186,7 +1216,8 @@ window.EXTRA30_GRADE_BANK = [
         "courseType": "國小"
       }
     ],
-    "learningContent": "社會變遷與性別角色"
+    "learningContent": "社會變遷與性別角色",
+    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 knsh-g6-social-6a-u2-1；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
   },
   {
     "id": "b30-041",
@@ -1215,7 +1246,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "過去式否定句"
+    "learningContent": "過去式否定句",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-042",
@@ -1244,7 +1276,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "現在完成式"
+    "learningContent": "現在完成式",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-043",
@@ -1273,7 +1306,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "副詞比較級"
+    "learningContent": "副詞比較級",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-044",
@@ -1302,7 +1336,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "圖書館告示閱讀"
+    "learningContent": "圖書館告示閱讀",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-045",
@@ -1331,7 +1366,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "時刻表閱讀"
+    "learningContent": "時刻表閱讀",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-046",
@@ -1360,7 +1396,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "頻率問句"
+    "learningContent": "頻率問句",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-047",
@@ -1389,7 +1426,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "第一類條件句"
+    "learningContent": "第一類條件句",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-048",
@@ -1418,7 +1456,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "不可數名詞量詞"
+    "learningContent": "不可數名詞量詞",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-049",
@@ -1447,7 +1486,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "關係代名詞"
+    "learningContent": "關係代名詞",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-050",
@@ -1476,7 +1516,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "閱讀推論"
+    "learningContent": "閱讀推論",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-051",
@@ -1526,7 +1567,8 @@ window.EXTRA30_GRADE_BANK = [
       }
     ],
     "learningContent": "三角比與特殊角",
-    "courseTrack": "數學A"
+    "courseTrack": "數學A",
+    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-math-3a-u1；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
   },
   {
     "id": "b30-052",
@@ -1576,7 +1618,8 @@ window.EXTRA30_GRADE_BANK = [
       }
     ],
     "learningContent": "三角比與特殊角",
-    "courseTrack": "數學A"
+    "courseTrack": "數學A",
+    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-math-3a-u1；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
   },
   {
     "id": "b30-053",
@@ -1626,7 +1669,8 @@ window.EXTRA30_GRADE_BANK = [
       }
     ],
     "learningContent": "三角比應用",
-    "courseTrack": "數學A"
+    "courseTrack": "數學A",
+    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-math-3a-u1；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
   },
   {
     "id": "b30-054",
@@ -1676,7 +1720,8 @@ window.EXTRA30_GRADE_BANK = [
       }
     ],
     "learningContent": "三角函數圖形",
-    "courseTrack": "數學A"
+    "courseTrack": "數學A",
+    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-math-3a-u1；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
   },
   {
     "id": "b30-055",
@@ -1726,7 +1771,8 @@ window.EXTRA30_GRADE_BANK = [
       }
     ],
     "learningContent": "弧度量",
-    "courseTrack": "數學A"
+    "courseTrack": "數學A",
+    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-math-3a-u1；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
   },
   {
     "id": "b30-056",
@@ -1776,7 +1822,8 @@ window.EXTRA30_GRADE_BANK = [
       }
     ],
     "learningContent": "三角測量",
-    "courseTrack": "數學A"
+    "courseTrack": "數學A",
+    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-math-3a-u1；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
   },
   {
     "id": "b30-057",
@@ -1826,7 +1873,8 @@ window.EXTRA30_GRADE_BANK = [
       }
     ],
     "learningContent": "對數定義",
-    "courseTrack": "數學A"
+    "courseTrack": "數學A",
+    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-math-3a-u2；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
   },
   {
     "id": "b30-058",
@@ -1876,7 +1924,8 @@ window.EXTRA30_GRADE_BANK = [
       }
     ],
     "learningContent": "對數方程式",
-    "courseTrack": "數學A"
+    "courseTrack": "數學A",
+    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-math-3a-u2；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
   },
   {
     "id": "b30-059",
@@ -1926,7 +1975,8 @@ window.EXTRA30_GRADE_BANK = [
       }
     ],
     "learningContent": "對數性質",
-    "courseTrack": "數學A"
+    "courseTrack": "數學A",
+    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-math-3a-u2；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
   },
   {
     "id": "b30-060",
@@ -1976,7 +2026,8 @@ window.EXTRA30_GRADE_BANK = [
       }
     ],
     "learningContent": "對數方程式與定義域",
-    "courseTrack": "數學A"
+    "courseTrack": "數學A",
+    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-math-3a-u2；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
   },
   {
     "id": "b30-061",
@@ -2026,7 +2077,8 @@ window.EXTRA30_GRADE_BANK = [
       }
     ],
     "learningContent": "指數成長模型",
-    "courseTrack": "數學A"
+    "courseTrack": "數學A",
+    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-math-3a-u2；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
   },
   {
     "id": "b30-062",
@@ -2076,7 +2128,8 @@ window.EXTRA30_GRADE_BANK = [
       }
     ],
     "learningContent": "常用對數",
-    "courseTrack": "數學A"
+    "courseTrack": "數學A",
+    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-math-3a-u2；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
   },
   {
     "id": "b30-063",
@@ -2126,7 +2179,8 @@ window.EXTRA30_GRADE_BANK = [
       }
     ],
     "learningContent": "向量座標",
-    "courseTrack": "數學A"
+    "courseTrack": "數學A",
+    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-math-3a-u3；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
   },
   {
     "id": "b30-064",
@@ -2176,7 +2230,8 @@ window.EXTRA30_GRADE_BANK = [
       }
     ],
     "learningContent": "向量內積",
-    "courseTrack": "數學A"
+    "courseTrack": "數學A",
+    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-math-3a-u3；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
   },
   {
     "id": "b30-065",
@@ -2226,7 +2281,8 @@ window.EXTRA30_GRADE_BANK = [
       }
     ],
     "learningContent": "向量長度",
-    "courseTrack": "數學A"
+    "courseTrack": "數學A",
+    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-math-3a-u3；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
   },
   {
     "id": "b30-066",
@@ -2276,7 +2332,8 @@ window.EXTRA30_GRADE_BANK = [
       }
     ],
     "learningContent": "向量垂直判定",
-    "courseTrack": "數學A"
+    "courseTrack": "數學A",
+    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-math-3a-u3；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
   },
   {
     "id": "b30-067",
@@ -2326,7 +2383,8 @@ window.EXTRA30_GRADE_BANK = [
       }
     ],
     "learningContent": "向量加法",
-    "courseTrack": "數學A"
+    "courseTrack": "數學A",
+    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-math-3a-u3；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
   },
   {
     "id": "b30-068",
@@ -2376,7 +2434,8 @@ window.EXTRA30_GRADE_BANK = [
       }
     ],
     "learningContent": "單位向量",
-    "courseTrack": "數學A"
+    "courseTrack": "數學A",
+    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-math-3a-u3；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
   },
   {
     "id": "b30-069",
@@ -2425,7 +2484,8 @@ window.EXTRA30_GRADE_BANK = [
         "courseType": "未確認"
       }
     ],
-    "learningContent": "動量與方向"
+    "learningContent": "動量與方向",
+    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-physics-ii；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
   },
   {
     "id": "b30-070",
@@ -2474,7 +2534,8 @@ window.EXTRA30_GRADE_BANK = [
         "courseType": "未確認"
       }
     ],
-    "learningContent": "完全非彈性碰撞"
+    "learningContent": "完全非彈性碰撞",
+    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-physics-ii；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
   },
   {
     "id": "b30-071",
@@ -2523,7 +2584,8 @@ window.EXTRA30_GRADE_BANK = [
         "courseType": "未確認"
       }
     ],
-    "learningContent": "功的計算"
+    "learningContent": "功的計算",
+    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-physics-ii；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
   },
   {
     "id": "b30-072",
@@ -2572,7 +2634,8 @@ window.EXTRA30_GRADE_BANK = [
         "courseType": "未確認"
       }
     ],
-    "learningContent": "重力位能"
+    "learningContent": "重力位能",
+    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-physics-ii；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
   },
   {
     "id": "b30-073",
@@ -2621,7 +2684,8 @@ window.EXTRA30_GRADE_BANK = [
         "courseType": "未確認"
       }
     ],
-    "learningContent": "動能"
+    "learningContent": "動能",
+    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-physics-ii；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
   },
   {
     "id": "b30-074",
@@ -2670,7 +2734,8 @@ window.EXTRA30_GRADE_BANK = [
         "courseType": "未確認"
       }
     ],
-    "learningContent": "力矩平衡"
+    "learningContent": "力矩平衡",
+    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-physics-ii；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
   },
   {
     "id": "b30-075",
@@ -2719,7 +2784,8 @@ window.EXTRA30_GRADE_BANK = [
         "courseType": "未確認"
       }
     ],
-    "learningContent": "熱量計算"
+    "learningContent": "熱量計算",
+    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-physics-ii；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
   },
   {
     "id": "b30-076",
@@ -2768,7 +2834,8 @@ window.EXTRA30_GRADE_BANK = [
         "courseType": "未確認"
       }
     ],
-    "learningContent": "牛頓第三運動定律"
+    "learningContent": "牛頓第三運動定律",
+    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-physics-ii；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
   },
   {
     "id": "b30-077",
@@ -2817,7 +2884,8 @@ window.EXTRA30_GRADE_BANK = [
         "courseType": "未確認"
       }
     ],
-    "learningContent": "化學平衡與濃度"
+    "learningContent": "化學平衡與濃度",
+    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-chemistry-iii-u1；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
   },
   {
     "id": "b30-078",
@@ -2866,7 +2934,8 @@ window.EXTRA30_GRADE_BANK = [
         "courseType": "未確認"
       }
     ],
-    "learningContent": "勒沙特列原理"
+    "learningContent": "勒沙特列原理",
+    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-chemistry-iii-u1；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
   },
   {
     "id": "b30-079",
@@ -2915,7 +2984,8 @@ window.EXTRA30_GRADE_BANK = [
         "courseType": "未確認"
       }
     ],
-    "learningContent": "平衡常數表示式"
+    "learningContent": "平衡常數表示式",
+    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-chemistry-iii-u1；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
   },
   {
     "id": "b30-080",
@@ -2964,7 +3034,8 @@ window.EXTRA30_GRADE_BANK = [
         "courseType": "未確認"
       }
     ],
-    "learningContent": "溶解平衡與沉澱"
+    "learningContent": "溶解平衡與沉澱",
+    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-chemistry-iii-u2；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
   },
   {
     "id": "b30-081",
@@ -3013,7 +3084,8 @@ window.EXTRA30_GRADE_BANK = [
         "courseType": "未確認"
       }
     ],
-    "learningContent": "強酸與 pH"
+    "learningContent": "強酸與 pH",
+    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-chemistry-iii-u3；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
   },
   {
     "id": "b30-082",
@@ -3062,7 +3134,8 @@ window.EXTRA30_GRADE_BANK = [
         "courseType": "未確認"
       }
     ],
-    "learningContent": "酸鹼中和"
+    "learningContent": "酸鹼中和",
+    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-chemistry-iii-u3；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
   },
   {
     "id": "b30-083",
@@ -3111,7 +3184,8 @@ window.EXTRA30_GRADE_BANK = [
         "courseType": "未確認"
       }
     ],
-    "learningContent": "緩衝溶液"
+    "learningContent": "緩衝溶液",
+    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-chemistry-iii-u3；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
   },
   {
     "id": "b30-084",
@@ -3160,7 +3234,8 @@ window.EXTRA30_GRADE_BANK = [
         "courseType": "未確認"
       }
     ],
-    "learningContent": "共同離子效應"
+    "learningContent": "共同離子效應",
+    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-chemistry-iii-u2；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
   },
   {
     "id": "b30-085",
@@ -3189,7 +3264,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "減數分裂與染色體"
+    "learningContent": "減數分裂與染色體",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-086",
@@ -3218,7 +3294,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "獨立分配與配子"
+    "learningContent": "獨立分配與配子",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-087",
@@ -3247,7 +3324,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "DNA半保留複製"
+    "learningContent": "DNA半保留複製",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-088",
@@ -3276,7 +3354,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "自然選擇與抗藥性"
+    "learningContent": "自然選擇與抗藥性",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-089",
@@ -3305,7 +3384,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "酵素變性"
+    "learningContent": "酵素變性",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-090",
@@ -3334,7 +3414,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "GIS圖層疊合"
+    "learningContent": "GIS圖層疊合",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-091",
@@ -3363,7 +3444,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "人口轉型"
+    "learningContent": "人口轉型",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-092",
@@ -3392,7 +3474,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "聚集經濟"
+    "learningContent": "聚集經濟",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-093",
@@ -3421,7 +3504,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "全球供應鏈風險"
+    "learningContent": "全球供應鏈風險",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-094",
@@ -3450,7 +3534,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "史料立場與互證"
+    "learningContent": "史料立場與互證",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-095",
@@ -3479,7 +3564,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "戰後去殖民化"
+    "learningContent": "戰後去殖民化",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-096",
@@ -3508,7 +3594,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "比例原則必要性"
+    "learningContent": "比例原則必要性",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-097",
@@ -3537,7 +3624,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "法律保留"
+    "learningContent": "法律保留",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-098",
@@ -3566,7 +3654,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "比例原則衡量性"
+    "learningContent": "比例原則衡量性",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-099",
@@ -3595,7 +3684,8 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "第三類條件句"
+    "learningContent": "第三類條件句",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   },
   {
     "id": "b30-100",
@@ -3624,6 +3714,7 @@ window.EXTRA30_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "learningContent": "論證證據與因果"
+    "learningContent": "論證證據與因果",
+    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社版本或學校段考範圍的證據。"
   }
 ];
