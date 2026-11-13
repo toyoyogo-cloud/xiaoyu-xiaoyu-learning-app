@@ -1,7 +1,7 @@
 {
   "title": "南一／翰林／康軒教材版本對照資料庫",
   "schemaVersion": "1.0.0",
-  "updatedAt": "2026-11-13",
+  "updatedAt": "2026-11-14",
   "purpose": "同時支援跨版本共同核心整合與指定出版社版本練習。此檔先建立資料規格；未經官方或學校教材核對的單元不得標示為已對應。",
   "modes": [
     {
@@ -1354,6 +1354,61 @@
       "sourceUrl": "https://books.hanlin.com.tw/product/004022",
       "sourceTitle": "翰林書城－高中課本選修物理(II)力學二與熱學",
       "result": "publisherStatus=pending; semester=unassigned; examPeriod=unassigned"
+    },
+    {
+      "date": "2026-11-14",
+      "questionId": "b11-021",
+      "mappingId": "hanlin-h2-physics-ii",
+      "publisher": "hanlin",
+      "action": "removed",
+      "reason": "原映射引用翰林選修物理(II)「力學二與熱學」冊別頁；官方頁僅列高中二年級、上學期及冊名，未提供可支持電路／電功率的細分目次。中央映射範圍排除電路、電功率、電流、電壓、電阻、電磁、磁場及電場，故撤除出版社映射與上學期標記，改列待核對。",
+      "sourceUrl": "https://books.hanlin.com.tw/product/004022",
+      "sourceTitle": "翰林書城－高中課本選修物理(II)力學二與熱學",
+      "result": "publisherStatus=pending; semester=unassigned; examPeriod=unassigned; publisherMappings=[]"
+    },
+    {
+      "date": "2026-11-14",
+      "questionId": "b12-025",
+      "mappingId": "hanlin-h2-physics-ii",
+      "publisher": "hanlin",
+      "action": "removed",
+      "reason": "原映射引用翰林選修物理(II)「力學二與熱學」冊別頁；官方頁僅列高中二年級、上學期及冊名，未提供可支持電路／電功率的細分目次。中央映射範圍排除電路、電功率、電流、電壓、電阻、電磁、磁場及電場，故撤除出版社映射與上學期標記，改列待核對。",
+      "sourceUrl": "https://books.hanlin.com.tw/product/004022",
+      "sourceTitle": "翰林書城－高中課本選修物理(II)力學二與熱學",
+      "result": "publisherStatus=pending; semester=unassigned; examPeriod=unassigned; publisherMappings=[]"
+    },
+    {
+      "date": "2026-11-14",
+      "questionId": "b16-059",
+      "mappingId": "hanlin-h2-physics-ii",
+      "publisher": "hanlin",
+      "action": "removed",
+      "reason": "原映射引用翰林選修物理(II)「力學二與熱學」冊別頁；官方頁僅列高中二年級、上學期及冊名，未提供可支持電路／電功率的細分目次。中央映射範圍排除電路、電功率、電流、電壓、電阻、電磁、磁場及電場，故撤除出版社映射與上學期標記，改列待核對。",
+      "sourceUrl": "https://books.hanlin.com.tw/product/004022",
+      "sourceTitle": "翰林書城－高中課本選修物理(II)力學二與熱學",
+      "result": "publisherStatus=pending; semester=unassigned; examPeriod=unassigned; publisherMappings=[]"
+    },
+    {
+      "date": "2026-11-14",
+      "questionId": "b23-074",
+      "mappingId": "hanlin-h2-physics-ii",
+      "publisher": "hanlin",
+      "action": "removed",
+      "reason": "原映射引用翰林選修物理(II)「力學二與熱學」冊別頁；官方頁僅列高中二年級、上學期及冊名，未提供可支持電路／電功率的細分目次。中央映射範圍排除電路、電功率、電流、電壓、電阻、電磁、磁場及電場，故撤除出版社映射與上學期標記，改列待核對。",
+      "sourceUrl": "https://books.hanlin.com.tw/product/004022",
+      "sourceTitle": "翰林書城－高中課本選修物理(II)力學二與熱學",
+      "result": "publisherStatus=pending; semester=unassigned; examPeriod=unassigned; publisherMappings=[]"
+    },
+    {
+      "date": "2026-11-14",
+      "questionId": "b37-069",
+      "mappingId": "hanlin-h2-physics-ii",
+      "publisher": "hanlin",
+      "action": "removed",
+      "reason": "原映射引用翰林選修物理(II)「力學二與熱學」冊別頁；官方頁僅列高中二年級、上學期及冊名，未提供可支持電路／電功率的細分目次。中央映射範圍排除電路、電功率、電流、電壓、電阻、電磁、磁場及電場，故撤除出版社映射與上學期標記，改列待核對。",
+      "sourceUrl": "https://books.hanlin.com.tw/product/004022",
+      "sourceTitle": "翰林書城－高中課本選修物理(II)力學二與熱學",
+      "result": "publisherStatus=pending; semester=unassigned; examPeriod=unassigned; publisherMappings=[]"
     }
   ],
   "batch40UsageAudit": {
@@ -1572,16 +1627,16 @@
     "pullRequestUrl": "https://github.com/toyoyogo-cloud/xiaoyu-xiaoyu-learning-app/pull/6"
   },
   "mappingVerificationStatusCountsBatches08to41": {
-    "source-checked": 331,
+    "source-checked": 326,
     "official-index-link-only": 8
   },
   "mappingLevelCountsBatches08to41": {
     "unit": 181,
-    "volume": 142,
+    "volume": 137,
     "official-resource-title": 16
   },
   "publisherReferenceCountsBatches08to41": {
-    "hanlin": 295,
+    "hanlin": 290,
     "knsh": 9,
     "nani": 35
   },
@@ -1644,10 +1699,9 @@
     ]
   },
   "latestMainClassificationAudit": {
-    "auditedAt": "2026-11-13",
+    "auditedAt": "2026-11-14",
     "branch": "main",
-    "sourceHeadBeforeRun": "22177ba3af17cbdddf581b0ffdbc188cfe9ec606",
-    "sourceHeadAfterRun": "5a47443a8f0b96a922f20099cd13f8b065261a95",
+    "sourceHeadBeforeRun": "3505de0e68af43d38c510c0e89b454c55bbbb954",
     "batches": "08-41",
     "questionCount": 2900,
     "uniqueQuestionIds": 2900,
@@ -1697,16 +1751,16 @@
       ]
     },
     "classificationBasisDistribution": {
-      "publisher-source-verified": 261,
+      "publisher-source-verified": 255,
       "question-bank-inference": 218,
-      "curriculum-core": 2421,
+      "curriculum-core": 2427,
       "unassigned": 0
     },
     "semesterDistribution": {
-      "上學期": 303,
+      "上學期": 297,
       "下學期": 102,
       "全學年": 74,
-      "unassigned": 2421
+      "unassigned": 2427
     },
     "examPeriodDistribution": {
       "第一次段考": 58,
@@ -1715,38 +1769,38 @@
       "unassigned": 2682
     },
     "publisherStatusDistribution": {
-      "publisher-mapped": 340,
+      "publisher-mapped": 334,
       "curriculum-core": 2560,
-      "pending": 0
+      "pending": 6
     },
-    "publisherMappedQuestionCount": 340,
-    "publisherMappingReferenceCount": 340,
+    "publisherMappedQuestionCount": 334,
+    "publisherMappingReferenceCount": 334,
     "centralMappingRegistryCount": 16,
     "mappingValidationThisRun": {
       "batches": "08-41",
       "questions": 2900,
-      "mappingReferences": 340,
-      "registryReferencesFound": 340,
+      "mappingReferences": 334,
+      "registryReferencesFound": 334,
       "sourceFieldErrors": 0,
       "gradeSubjectSemesterErrors": 0,
       "unitOrVolumeScopeErrors": 0,
-      "result": "340/340 internal consistency checks passed",
-      "limitation": "This validates the stored central registry and question-to-mapping consistency; it is not a fresh live re-open of every official publisher URL."
+      "excludedScopeMappingsRemoved": 5,
+      "officialSourcePagesReopened": 1,
+      "limitation": "本次重新開啟翰林官方商品頁1筆；其餘映射以中央登錄及題目欄位做內部一致性檢查，並非重新逐一開啟全部334個官方網址。"
     },
-    "pendingQuestionCount": 0,
+    "pendingQuestionCount": 6,
     "extendedMetadata": {
-      "complete": 300,
-      "remaining": 2600,
-      "separateClassificationIndex": 100,
+      "complete": 426,
+      "remaining": 2474,
+      "separateClassificationIndex": 226,
       "embeddedInBatches40to41": 200,
-      "learningDomain": 300,
-      "questionType": 600,
-      "learningUnit": 300,
-      "difficultyLevel": 300
+      "learningDomain": 426,
+      "questionType": 726,
+      "learningUnit": 426,
+      "difficultyLevel": 426
     },
     "newQuestionsAdded": 0,
-    "notes": "本次直接解析main第8至41批34個題庫檔與教材對照資料。所有2,900題均有基本分類欄位；擴充欄位learningDomain、learningUnit、difficultyLevel目前完整300題，questionType欄位600題。重要更正：本次開始前data/question-classification.json實際為0 bytes，與先前歷史稽核所稱1,800筆索引不符；本次只新增並驗證第31批100筆索引，不能把先前未存在於main的1,800筆計入。批次40至41有200題在批次檔內建擴充欄位。尚有2,600題缺少至少一項擴充欄位，後續需逐批補齊。全庫學期／段考統計依批次檔實際欄位計算；unassigned不代表無法推定，仍需後續按單元檢查。全庫映射總數依各批次publisherMappings陣列計數；本次重新核對全庫340筆映射引用：中央登錄存在340/340、來源欄位缺漏0、年級／科目／學期／軌別不符0、單元或冊別範圍不符0；此為資料內部一致性驗證，非本次逐一重新開啟340個官方網頁。",
-    "publisherMappingConsistencyErrors": 0
+    "notes": "第11批30題已補齊擴充分類；另修正4筆跨批次錯誤翰林物理(II)電功率映射。全庫出版社映射由339降為334；學期上學期由302降為297，未分類由2422增為2427。全庫2,900題與唯一ID數不變。"
   },
   "classificationPersistenceRuns": [
     {
@@ -2240,16 +2294,17 @@
     "historicalAuditNote": "先前分類持久化稽核記錄曾聲稱已有1,800筆獨立索引，但本次從main直接讀取該JSON時內容為空檔。故前述1,800筆不可視為目前main已持久化資料，需重新補建；本次先恢復第31批100筆。"
   },
   "fullCorpusMappingValidation": {
-    "auditedAt": "2026-11-13",
+    "auditedAt": "2026-11-14",
     "batches": "08-41",
-    "mappingReferences": 340,
+    "mappingReferences": 334,
     "centralRegistryCount": 16,
-    "registryReferencesFound": 340,
+    "registryReferencesFound": 334,
     "sourceFieldErrors": 0,
     "gradeSubjectSemesterTrackErrors": 0,
     "unitOrVolumeScopeErrors": 0,
-    "result": "340/340 internal consistency checks passed",
-    "limitation": "No claim that every official source URL was freshly re-opened during this run."
+    "excludedScopeMappingsRemoved": 5,
+    "result": "334/334 remaining references pass internal registry and scope checks",
+    "limitation": "本次重新開啟翰林官方商品頁1筆；其餘映射以中央登錄及題目欄位做內部一致性檢查，並非重新逐一開啟全部334個官方網址。"
   },
   "batch08UsageAudit": {
     "auditedAt": "2026-11-13",
@@ -2612,5 +2667,37 @@
       "cacheVersionBumped": true
     },
     "notes": "第10批30題只補齊擴充欄位並寫入獨立分類索引；保留原始學期、段考、分類依據、信心及出版社狀態。b10-022翰林選修物理(II)只標冊別層級；b10-023翰林選修化學(III)官方目次明列化學平衡，標單元層級。其他無足夠官方版本證據者維持108課綱共同核心；b10-005保留題庫推定，不代表學校正式段考範圍。未新增題目。"
+  },
+  "batch11UsageAudit": {
+    "auditedAt": "2026-11-14",
+    "batchRange": "11",
+    "questionCount": 30,
+    "uniqueQuestionIdCount": 30,
+    "gradeCounts": {
+      "五年級": 4,
+      "六年級": 4,
+      "高一": 7,
+      "高二": 8,
+      "高三": 7
+    },
+    "classificationBasis": {
+      "curriculumCore": 29,
+      "questionBankInference": 1
+    },
+    "publisherStatus": {
+      "curriculumCore": 29,
+      "pending": 1,
+      "publisherMapped": 0
+    },
+    "semester": {
+      "unassigned": 29,
+      "下學期": 1
+    },
+    "examPeriod": {
+      "unassigned": 29,
+      "第一次段考": 1
+    },
+    "publisherMappingReferences": 0,
+    "notes": "第11批30題完成持久擴充分類；b11-005依六年級圓周單元群保留下學期／第一次段考複習建議，不代表學校正式範圍。b11-021原翰林物理(II)映射因冊別範圍不支持電路功率已撤除，改待核對。其餘未取得足夠來源者保留未分類或108課綱共同核心。"
   }
 }

@@ -17,7 +17,7 @@ const UNIT_ALIASES={
  "nani-g6-math-6b-chicken-rabbit":["雞兔問題","雞兔同籠"]
 };
 const VOLUME_SCOPES={
- "hanlin-h2-physics-ii":["動量","衝量","碰撞","作功","機械功","位能","動能","力矩","角動量","熱","比熱","熱膨脹","熱傳導","熱力學","熱機","氣體","彈簧","圓周","向心","波以耳","線膨脹","機械能"],
+ "hanlin-h2-physics-ii":["動量","衝量","碰撞","作功","做功","做的功","機械功","位能","動能","力矩","角動量","熱","比熱","熱膨脹","熱傳導","熱力學","熱機","氣體","彈簧","圓周","向心","波以耳","線膨脹","機械能"],
  "hanlin-h2-chemistry-ii-structure-rate":["反應速率","催化劑","活化能","反應級數","物質構造","電子組態","價電子"],
  "hanlin-h2-biology-ii-plant":["植物","光合作用","蒸散","氣孔","維管束","木質部","韌皮部"],
  "hanlin-h2-chemistry-i-matter-energy":["焓","反應熱","能量","赫斯定律"],
@@ -25,11 +25,12 @@ const VOLUME_SCOPES={
  "hanlin-g6-math-6b-volume":[]
 };
 function questionText(q){
- return [q.unit,q.t,q.topic,q.learningContent].filter(Boolean).join(" ");
+ return [q.unit,q.t,q.topic,q.learningContent,q.q,q.e].filter(Boolean).join(" ");
 }
 function mappingScopeMatches(q,m,id){
  const text=questionText(q);
- if(id==="hanlin-h2-physics-ii"&&/電路|電功率|電流|電壓|電阻|電磁|磁場|電場/.test(text))return false;
+ const excluded=id==="hanlin-h2-physics-ii"?["電路","電功率","電流","電壓","電阻","電磁","磁場","電場"]:[];
+ if(excluded.some(term=>text.includes(term)))return false;
  const level=m.mappingLevel||"volume";
  const terms=level==="unit"||level==="official-resource-title"?UNIT_ALIASES[id]:VOLUME_SCOPES[id];
  if(!Array.isArray(terms)||!terms.length)return false;
@@ -190,5 +191,5 @@ function classify(q){
  return {semester,examPeriod,classificationBasis:basis,confidence,publisherStatus,publisherMappings:mappings,classificationNotes:notes,reason:notes,sourceRef,learningDomain:source.learningDomain||domainFor(source),questionType:source.questionType||typeFor(source),learningUnit:source.learningUnit||label(source)||"未標示",difficultyLevel:difficultyFor(source)};
 }
 window.questionClassificationFor=classify;
-window.QUESTION_CLASSIFICATION_RULES_VERSION="2026-11-13.18";
+window.QUESTION_CLASSIFICATION_RULES_VERSION="2026-11-14.19";
 })();
