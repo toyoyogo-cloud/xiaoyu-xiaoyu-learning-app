@@ -648,15 +648,15 @@ window.EXTRA39_GRADE_BANK = [
     "learningContent": "基準量和比較量",
     "d": "進階",
     "difficulty": "進階",
-    "q": "一件外套打八折後售價為960元，原價是多少元？",
+    "q": "書店一本書打75折後售價為300元，原價是多少元？",
     "o": [
-      "768元",
-      "1,152元",
-      "1,200元",
-      "1,280元"
+      "225元",
+      "350元",
+      "400元",
+      "450元"
     ],
     "a": 2,
-    "e": "八折表示售價是原價的80%，原價＝960÷0.8＝1,200元；不能把售價再乘0.8。",
+    "e": "75折表示售價是原價的75%，原價＝300÷0.75＝400元；折扣後價格是比較量，原價才是基準量。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "https://tpack.nani.com.tw/nani_content?a=341&b=1",
