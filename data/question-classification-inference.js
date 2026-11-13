@@ -122,11 +122,11 @@ function domainFor(q){
  "資訊":[["資訊科技與資料素養",/資訊|資料|演算法|程式|網路|媒體|查證|隱私|安全/]],
  "資訊素養":[["資訊科技與資料素養",/資訊|資料|演算法|程式|網路|媒體|查證|隱私|安全/]]
  };
- for(const [n,re] of (rules[s]||[]))if(re.test(t))return n;
- if(s==="社會")return "社會探究與公共議題";
- if(s==="經濟")return "經濟與資源配置";
- if(s==="資訊"||s==="資訊素養")return "資訊科技與媒體素養";
- if(s==="地球科學")return /天氣|氣候|大氣/.test(t)?"大氣氣候":/地震|岩石|板塊|地層/.test(t)?"地質地球內部":/星|月|行星|宇宙/.test(t)?"天文宇宙":"地球系統";
+ for(const [n,re] of (rules[subject]||[]))if(re.test(t))return n;
+ if(subject==="社會")return "社會探究與公共議題";
+ if(subject==="經濟")return "經濟與資源配置";
+ if(subject==="資訊"||subject==="資訊素養")return "資訊科技與媒體素養";
+ if(subject==="地球科學")return /天氣|氣候|大氣/.test(t)?"大氣氣候":/地震|岩石|板塊|地層/.test(t)?"地質地球內部":/星|月|行星|宇宙/.test(t)?"天文宇宙":"地球系統";
  return "綜合／待細分";
 }
 function typeFor(q){
