@@ -81,12 +81,12 @@ function inferred(q){
   if(/基準量和比較量|基準量與比較量/.test(unit)) return {mappingId:"nani-g6-math-6b-base-comparison",semester:"下學期",basis:"publisher-source-verified",confidence:"high",notes:"南一官方6下資源明示「基準量和比較量」；只作單元層級對照。"};
   if(/四則混合運算/.test(unit)) return {mappingId:"nani-g6-math-6b-four-operations",semester:"下學期",basis:"publisher-source-verified",confidence:"medium",notes:"南一官方資源索引標題明示數學6下「四則混合運算」；只作官方索引標題層級對照，詳情頁未核對。"};
   if(/雞兔問題|雞兔同籠/.test(unit)) return {mappingId:"nani-g6-math-6b-chicken-rabbit",semester:"下學期",basis:"publisher-source-verified",confidence:"medium",notes:"南一官方索引標題顯示數學6下雞兔問題；詳情頁未能讀取，僅保留官方資源標題層級。"};
-  if(/比與比值|比與比例|比例(?!尺)|配比/.test(unit)) return {semester:"上學期",examPeriod:"第一次段考",basis:"question-bank-inference",confidence:"medium",notes:"依六年級題庫常見單元群推定上學期前段；非學校正式段考範圍。"};
+  if(/比與比值|比與比例|比值分配|比的應用|比與分配|單位價格比較|單價比較|比例(?!尺)|配比/.test(unit)) return {semester:"上學期",examPeriod:"第一次段考",basis:"question-bank-inference",confidence:"medium",notes:"依六年級題庫常見單元群推定上學期前段；非學校正式段考範圍。"};
   if(/百分率|折扣/.test(unit)) return {semester:"上學期",examPeriod:"第二次段考",basis:"question-bank-inference",confidence:"medium",notes:"依六年級題庫常見百分率單元群推定；非學校正式段考範圍。"};
   if(/比例尺|速率/.test(unit)) return {semester:"上學期",examPeriod:"第三次段考",basis:"question-bank-inference",confidence:"medium",notes:"依六年級題庫常見比例尺與速率單元群推定；非學校正式段考範圍。"};
   if(/圓周|圓面積/.test(unit)) return {semester:"下學期",examPeriod:"第一次段考",basis:"question-bank-inference",confidence:"medium",notes:"依六年級題庫常見圓形單元群推定；非學校正式段考範圍。"};
   if(/體積|表面積/.test(unit)) return {semester:"下學期",examPeriod:"第二次段考",basis:"question-bank-inference",confidence:"medium",notes:"依六年級題庫常見立體形體單元群推定；非學校正式段考範圍。"};
-  if(/平均數|中位數|統計|機率|全距|相對次數/.test(unit)) return {semester:"下學期",examPeriod:"第三次段考",basis:"question-bank-inference",confidence:"medium",notes:"依六年級題庫常見統計與機率單元群推定；非學校正式段考範圍。"};
+  if(/平均|中位數|統計|機率|獨立事件|等可能事件|獨立試驗|全距|相對次數/.test(unit)) return {semester:"下學期",examPeriod:"第三次段考",basis:"question-bank-inference",confidence:"medium",notes:"依六年級題庫常見統計與機率單元群推定；非學校正式段考範圍。"};
  }
  if(grade==="高二"&&subject==="數學"&&q.courseTrack==="數學A"){
   if(/三角|弧度|正弦|餘弦|正切/.test(unit)) return {mappingId:"hanlin-h2-math-3a-u1",semester:"上學期",examPeriod:"第一次段考",basis:"question-bank-inference",confidence:"medium",notes:"已確認題目課程軌別為數學A；依翰林數學3A官方單元次序推定段考，非學校正式範圍。"};
@@ -195,5 +195,5 @@ function classify(q){
  return {semester,examPeriod,classificationBasis:basis,confidence,publisherStatus,publisherMappings:mappings,classificationNotes:notes,reason:notes,sourceRef,learningDomain:source.learningDomain||domainFor(source),questionType:source.questionType||typeFor(source),learningUnit:source.learningUnit||label(source)||"未標示",difficultyLevel:difficultyFor(source)};
 }
 window.questionClassificationFor=classify;
-window.QUESTION_CLASSIFICATION_RULES_VERSION="2026-11-14.26";
+window.QUESTION_CLASSIFICATION_RULES_VERSION="2026-11-14.27";
 })();
