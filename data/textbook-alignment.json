@@ -2181,5 +2181,41 @@
     "unitOrVolumeScopeErrors": 0,
     "result": "340/340 internal consistency checks passed",
     "limitation": "No claim that every official source URL was freshly re-opened during this run."
+  },
+  "batch08UsageAudit": {
+    "auditedAt": "2026-11-13",
+    "batch": "08",
+    "questionCount": 37,
+    "publisherMappedQuestions": 2,
+    "publisherReferenceCount": 2,
+    "publisherReferenceCounts": {
+      "hanlin": 2
+    },
+    "mappingLevelCounts": {
+      "volume": 1,
+      "unit": 1
+    },
+    "mappings": [
+      {
+        "questionId": "b8-023",
+        "mappingId": "hanlin-h2-physics-ii",
+        "publisher": "hanlin",
+        "mappingLevel": "volume",
+        "verificationStatus": "source-checked",
+        "schoolAdoption": "未確認"
+      },
+      {
+        "questionId": "b8-024",
+        "mappingId": "hanlin-h2-chemistry-iii-u1",
+        "publisher": "hanlin",
+        "mappingLevel": "unit",
+        "verificationStatus": "source-checked",
+        "schoolAdoption": "未確認"
+      }
+    ],
+    "sourceFieldErrors": 0,
+    "registryReferenceErrors": 0,
+    "gradeSubjectSemesterScopeErrors": 0,
+    "note": "沿用既有中央官方來源映射；b8-023僅冊別層級，b8-024為單元層級。未新增中央映射，也不代表學校採用版本。"
   }
 }
