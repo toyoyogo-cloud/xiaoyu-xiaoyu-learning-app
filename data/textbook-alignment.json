@@ -965,7 +965,9 @@
     "第37批已透過PR #1合併至main，merge commit 0b76d6e99d66502f39f6e9c32ad8032bbcc47494；main已包含第37批及本次全庫來源稽核。",
     "2026-11-13來源狀態細化：南一平台「數學6下｜怎樣解題：雞兔問題」詳情頁請求逾時，僅能由南一官方資源頁的熱門文章連結標題確認主題與年級／科目／學期；映射降為official-resource-title與official-index-link-only，不宣稱南一課本單元或原題。",
     "雞兔問題mapping的sourceUrl改指向可讀取的南一官方索引頁a=341，另保留targetUrl=a=394作為連結目標；verificationStatus仍為official-index-link-only。",
-    "第37批30筆題目映射中，28筆為可直接讀取來源核對，2筆雞兔問題映射僅由南一官方索引頁標題確認（official-index-link-only）；中央16筆映射中15筆source-checked、1筆official-index-link-only。"
+    "第37批30筆題目映射中，28筆為可直接讀取來源核對，2筆雞兔問題映射僅由南一官方索引頁標題確認（official-index-link-only）；中央16筆映射中15筆source-checked、1筆official-index-link-only。",
+    "第41批新增100題（小六50、高二50）；35筆來源映射引用全部指向中央16筆已核對mappingId，逐筆核對publisher、sourceUrl、sourceTitle、verifiedAt、verificationStatus、notes、年級、科目、學期、軌別及單元／冊別範圍，35/35通過。未新增中央映射紀錄。",
+    "第41批映射層級：單元23、冊別9、官方資源標題3；出版社引用翰林27、南一6、康軒2。冊別與官方資源標題層級不冒稱完整課本目次。"
   ],
   "lastAudit": {
     "verifiedAt": "2026-11-13",
@@ -1467,5 +1469,124 @@
     "hanlin": 226,
     "knsh": 7,
     "nani": 29
+  },
+  "batch41UsageAudit": {
+    "auditedAt": "2026-11-13",
+    "batchRange": "第41批",
+    "questionCount": 100,
+    "uniqueQuestionIdCount": 100,
+    "gradeCounts": {
+      "六年級": 50,
+      "高二": 50
+    },
+    "subjectCounts": {
+      "六年級|國語": 8,
+      "六年級|英語": 8,
+      "六年級|數學": 14,
+      "六年級|自然": 10,
+      "六年級|社會": 10,
+      "高二|數學": 12,
+      "高二|物理": 8,
+      "高二|化學": 8,
+      "高二|生物": 6,
+      "高二|地理": 4,
+      "高二|歷史": 4,
+      "高二|公民": 4,
+      "高二|英文": 2,
+      "高二|國文": 2
+    },
+    "classificationBasis": {
+      "publisherSourceVerified": 23,
+      "questionBankInference": 20,
+      "curriculumCore": 57
+    },
+    "publisherStatus": {
+      "publisherMapped": 35,
+      "curriculumCore": 65,
+      "pending": 0
+    },
+    "semester": {
+      "上學期": 26,
+      "下學期": 11,
+      "全學年": 6,
+      "unassigned": 57
+    },
+    "examPeriod": {
+      "第一次段考": 7,
+      "第二次段考": 7,
+      "第三次段考": 6,
+      "unassigned": 80
+    },
+    "publisherReferenceCounts": {
+      "hanlin": 27,
+      "nani": 6,
+      "knsh": 2
+    },
+    "mappingLevelCounts": {
+      "unit": 23,
+      "volume": 9,
+      "official-resource-title": 3
+    },
+    "mappingVerificationStatusCounts": {
+      "source-checked": 35
+    },
+    "mappingReferences": 35,
+    "validatedMappingReferences": 35,
+    "mappingIdsUsed": [
+      "nani-g6-math-6b-base-comparison",
+      "nani-g6-math-6b-chicken-rabbit",
+      "knsh-g6-social-6a-u2-1",
+      "hanlin-h2-math-3a-u1",
+      "hanlin-h2-math-3a-u2",
+      "hanlin-h2-math-3a-u3",
+      "hanlin-h2-physics-ii",
+      "hanlin-h2-chemistry-ii-structure-rate",
+      "hanlin-h2-chemistry-iii-u1",
+      "hanlin-h2-chemistry-iii-u2",
+      "hanlin-h2-chemistry-iii-u3",
+      "hanlin-h2-biology-ii-plant"
+    ],
+    "notes": "本批未新增中央mapping紀錄；只重用已核對官方來源的中央16筆映射。翰林數學3A限courseTrack=數學A；物理II、化學II、生物II只標冊別層級；南一雞兔問題只標官方資源標題層級；康軒社會六上2-1只對應個人發展／社會變遷主題。學校採用版本未確認，段考僅為複習建議。",
+    "validation": {
+      "idsUnique": true,
+      "fourOptions": true,
+      "answerIndices": true,
+      "explanationsPresent": true,
+      "classificationFieldsComplete": true,
+      "mappingMetadataComplete": true,
+      "mappingReferencesValidated": true,
+      "batchInternalExactDuplicateStems": 0,
+      "crossBatchExactDuplicateStems": 0,
+      "crossBatchComparedAgainst": "第8至40批共2,800題；重複b41-080已改寫並複查",
+      "classification": "v13 static-rule-crosscheck; browser runtime not executed"
+    }
+  },
+  "mappingVerificationStatusCountsBatches08to41": {
+    "source-checked": 330,
+    "official-index-link-only": 8
+  },
+  "mappingLevelCountsBatches08to41": {
+    "unit": 181,
+    "volume": 141,
+    "official-resource-title": 16
+  },
+  "publisherReferenceCountsBatches08to41": {
+    "hanlin": 294,
+    "knsh": 9,
+    "nani": 35
+  },
+  "mappingVerificationStatusCountsBatches30to41": {
+    "source-checked": 289,
+    "official-index-link-only": 8
+  },
+  "mappingLevelCountsBatches30to41": {
+    "unit": 164,
+    "volume": 117,
+    "official-resource-title": 16
+  },
+  "publisherReferenceCountsBatches30to41": {
+    "hanlin": 253,
+    "knsh": 9,
+    "nani": 35
   }
 }
