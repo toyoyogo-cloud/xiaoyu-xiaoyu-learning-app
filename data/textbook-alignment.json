@@ -268,7 +268,7 @@
       "sourceTitle": "翰林書城－高中課本選修物理(II)力學二與熱學",
       "verifiedAt": "2026-11-14",
       "verificationStatus": "source-checked",
-      "notes": "官方頁明示高中二年級、上學期及課本名稱；僅作冊別／主題層級對照。",
+      "notes": "官方頁明示高中二年級、物理、上學期及課本名稱；僅作冊別／主題層級對照，未提供細分單元目次；不代表學校採用版本。",
       "mappingId": "hanlin-h2-physics-ii",
       "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元",
       "mappingLevel": "volume",
@@ -1669,7 +1669,7 @@
     "official-resource-title": 16
   },
   "publisherReferenceCountsBatches08to41": {
-    "hanlin": 290,
+    "hanlin": 295,
     "knsh": 9,
     "nani": 35
   },
@@ -1734,8 +1734,15 @@
   "latestMainClassificationAudit": {
     "auditedAt": "2026-11-14",
     "branch": "main",
-    "sourceHeadBeforeRun": "3505de0e68af43d38c510c0e89b454c55bbbb954",
+    "sourceHeadBeforeRun": "0d03256407a8f63519dd3515a894e23c4c36aca7",
     "batches": "08-41",
+    "batchFileCount": 34,
+    "batchQuestionCounts": {
+      "08-15": 299,
+      "16-23": 801,
+      "24-31": 800,
+      "32-41": 1000
+    },
     "questionCount": 2900,
     "uniqueQuestionIds": 2900,
     "duplicateQuestionIds": 0,
@@ -1784,16 +1791,16 @@
       ]
     },
     "classificationBasisDistribution": {
-      "publisher-source-verified": 255,
+      "publisher-source-verified": 259,
       "question-bank-inference": 218,
-      "curriculum-core": 2427,
+      "curriculum-core": 2423,
       "unassigned": 0
     },
     "semesterDistribution": {
-      "上學期": 297,
+      "上學期": 301,
       "下學期": 102,
       "全學年": 74,
-      "unassigned": 2427
+      "unassigned": 2423
     },
     "examPeriodDistribution": {
       "第一次段考": 58,
@@ -1802,39 +1809,42 @@
       "unassigned": 2682
     },
     "publisherStatusDistribution": {
-      "publisher-mapped": 334,
-      "curriculum-core": 2560,
+      "publisher-mapped": 338,
+      "curriculum-core": 2556,
       "pending": 6
     },
-    "publisherMappedQuestionCount": 334,
-    "publisherMappingReferenceCount": 334,
+    "publisherMappedQuestionCount": 338,
+    "publisherMappingReferenceCount": 339,
     "centralMappingRegistryCount": 16,
-    "mappingValidationThisRun": {
-      "batches": "08-41",
-      "questions": 2900,
-      "mappingReferences": 334,
-      "registryReferencesFound": 334,
-      "sourceFieldErrors": 0,
-      "gradeSubjectSemesterErrors": 0,
-      "unitOrVolumeScopeErrors": 0,
-      "excludedScopeMappingsRemoved": 5,
-      "officialSourcePagesReopened": 1,
-      "limitation": "本次重新開啟翰林官方商品頁1筆；其餘映射以中央登錄及題目欄位做內部一致性檢查，並非重新逐一開啟全部334個官方網址。"
+    "publisherReferenceCounts": {
+      "hanlin": 295,
+      "knsh": 9,
+      "nani": 35
     },
     "pendingQuestionCount": 6,
+    "mappingValidationThisRun": {
+      "batch": "13",
+      "questionMappingsChecked": 1,
+      "registryReferencesFound": 1,
+      "sourceFieldErrors": 0,
+      "gradeSubjectSemesterErrors": 0,
+      "scopeErrors": 0,
+      "officialSourcePagesReopened": 1,
+      "limitation": "本次重新開啟翰林官方商品頁確認高二、物理、上學期與冊名；僅冊別層級。既有338筆映射引用沿用main先前稽核結果，未在本次逐一重開全部來源。"
+    },
     "extendedMetadata": {
-      "complete": 426,
-      "remaining": 2474,
-      "separateClassificationIndex": 226,
+      "complete": 489,
+      "remaining": 2411,
+      "separateClassificationIndex": 290,
       "embeddedInBatches40to41": 200,
-      "learningDomain": 426,
-      "questionType": 726,
-      "learningUnit": 426,
-      "difficultyLevel": 426
+      "overlap": 1,
+      "learningDomain": 489,
+      "questionType": 788,
+      "learningUnit": 489,
+      "difficultyLevel": 489
     },
     "newQuestionsAdded": 0,
-    "notes": "第11批30題已補齊擴充分類；另修正4筆跨批次錯誤翰林物理(II)電功率映射。全庫出版社映射由339降為334；學期上學期由302降為297，未分類由2422增為2427。全庫2,900題與唯一ID數不變。",
-    "sourceHeadAfterRun": "f6d5c10fb3701bf842111297cd9f7dba85622e1c"
+    "notes": "第13批30題完成持久擴充分類；b13-008與b13-012保留既有題庫推定；b13-025補齊翰林高二上選修物理(II)冊別層級映射，未宣稱單元級目次已核對。全庫基本分類欄位2,900/2,900完整；擴充分類完整489/2,900，尚有2,411題。"
   },
   "classificationPersistenceRuns": [
     {
@@ -2863,5 +2873,63 @@
       },
       "browserTested": false
     }
+  },
+  "batch13UsageAudit": {
+    "auditedAt": "2026-11-14",
+    "batch": "13",
+    "questionCount": 30,
+    "gradeDistribution": {
+      "五年級": 6,
+      "六年級": 6,
+      "高一": 7,
+      "高二": 7,
+      "高三": 4
+    },
+    "subjectDistribution": {
+      "國語": 2,
+      "數學": 7,
+      "自然": 2,
+      "社會": 2,
+      "英語": 2,
+      "英文": 2,
+      "歷史": 1,
+      "地理": 2,
+      "公民": 3,
+      "物理": 2,
+      "化學": 2,
+      "生物": 2,
+      "地球科學": 1
+    },
+    "semesterDistribution": {
+      "unassigned": 27,
+      "上學期": 3
+    },
+    "examPeriodDistribution": {
+      "unassigned": 28,
+      "第三次段考": 1,
+      "第二次段考": 1
+    },
+    "classificationBasisDistribution": {
+      "curriculum-core": 27,
+      "question-bank-inference": 2,
+      "publisher-source-verified": 1
+    },
+    "publisherStatusDistribution": {
+      "curriculum-core": 29,
+      "publisher-mapped": 1
+    },
+    "publisherMappedQuestions": 1,
+    "publisherMappingReferences": 1,
+    "publisherMappings": [
+      {
+        "questionId": "b13-025",
+        "mappingId": "hanlin-h2-physics-ii",
+        "publisher": "hanlin",
+        "mappingLevel": "volume",
+        "sourceUrl": "https://books.hanlin.com.tw/product/004022"
+      }
+    ],
+    "officialSourcePagesReopened": 1,
+    "notes": "僅b13-025有翰林官方冊別層級映射；官方頁確認高二、物理、上學期與課本名稱，未列細分目次。其餘題目不掛出版社。段考為題庫複習建議，不代表學校正式範圍。"
   }
 }
