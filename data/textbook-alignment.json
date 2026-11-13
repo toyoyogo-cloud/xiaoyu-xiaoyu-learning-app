@@ -1697,7 +1697,7 @@
       "embeddedInBatches40to41": 200
     },
     "newQuestionsAdded": 0,
-    "notes": "第8至30批1,800題已持久化於獨立分類索引；第40至41批200題已有批次內建擴充分類；第31至39批900題仍待補齊learningDomain、questionType、learningUnit、difficultyLevel。第30批34筆出版社映射引用沿用中央16筆登錄並全部核對一致；全庫既有映射登錄未新增。學期、段考無可靠依據者保留unassigned。"
+    "notes": "第8至30批1,800題已持久化於獨立分類索引；第40至41批200題已有批次內建擴充分類；第31至39批900題仍待補齊learningDomain、questionType、learningUnit、difficultyLevel。第30批34筆出版社映射引用沿用中央16筆登錄並全部核對一致；全庫既有映射登錄未新增。學期、段考無可靠依據者保留unassigned。 Service Worker已升級xy-learning-v75，並確認分類索引與第30批均列入快取資產。"
   },
   "classificationPersistenceRuns": [
     {
@@ -2048,8 +2048,10 @@
       "filterViolations": 0,
       "all100QuestionsReachable": true,
       "browserTested": false,
-      "serviceWorkerCache": "xy-learning-v74",
-      "classificationIndexAsset": true
+      "serviceWorkerCache": "xy-learning-v75",
+      "classificationIndexAsset": true,
+      "batch30Asset": true,
+      "cacheVersionBumped": true
     },
     "notes": "第30批100題擴充分類已寫入獨立分類索引；原有分類欄位保留。34筆映射沿用中央16筆官方來源登錄且全部source-checked，逐筆核對publisher、mappingId、來源欄位、年級、科目、學期及課程軌別一致；未新增中央映射。75題難度標示未標示，因原始d欄位為題型／情境標籤。靜態模擬篩選8,400組通過，非瀏覽器實測。"
   }
