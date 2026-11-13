@@ -237,7 +237,7 @@
       "batch": 37,
       "added": 100,
       "coverage": "國小六年級50題（國語10、英語8、數學14、自然9、社會9）；高中高二50題（數學12、物理8、化學8、生物6、地理4、歷史4、公民4、英文2、國文2）。",
-      "validation": "b37-001至b37-100；四個不同選項、答案索引0–3、解析及分類欄位完整；ID唯一。初檢發現b37-032與b13-006題幹完全相同，已改寫為水箱容積應用；與第8至36批重新比對完全相同正規化題幹0組，批次內0組。主要計算題已核算。程式規則檢查，非教師逐題審核。",
+      "validation": "b37-001至b37-100；四個不同選項、答案索引0–3、解析及分類欄位完整；ID唯一。初檢發現b37-032與b13-006題幹完全相同，已改寫為水箱容積應用；與第8至36批重新比對完全相同正規化題幹0組，批次內0組。執行時分類結果與儲存欄位一致：官方來源核對21、題庫推定12、共同核心67；學期上22／下7／全學年4／未分類67；段考第一次3／第二次3／第三次6／未分類88。主要計算題已核算。程式規則檢查，非教師逐題審核。",
       "publisherAlignment": "30題具來源映射：南一數學6下6題、康軒社會六上2-1 1題、翰林數學3A數學A軌別9題、翰林選修物理II冊別5題、翰林選修化學II冊別3題、化學III單元4題、選修生物II冊別2題。未取得可靠依據者標108課綱共同核心；不代表學校採用版本。",
       "integration": "index.html載入第37批並納入bankFor()；Service Worker升級xy-learning-v64；textbook-alignment維持16筆來源映射並補全庫稽核；classifier同步化學II冊別層級與六年級舊題推定；README更新。"
     }
@@ -330,14 +330,14 @@
       },
       "publisherMappedQuestions": 30,
       "publisherSourceVerified": 21,
-      "questionBankInference": 9,
-      "curriculumCore": 70,
-      "unassignedSemester": 70,
+      "questionBankInference": 12,
+      "curriculumCore": 67,
+      "unassignedSemester": 67,
       "examAssigned": {
         "第一次段考": 3,
         "第二次段考": 3,
-        "第三次段考": 3,
-        "unassigned": 91
+        "第三次段考": 6,
+        "unassigned": 88
       }
     },
     "corrections": [
@@ -345,9 +345,9 @@
       "數學3A僅套用至明確標記courseTrack=數學A的題目；未確認A/B軌別不掛版。",
       "第8至29批1,700題沒有內嵌分類欄位，分類推定器依可辨識單元與知識點動態推定；沒有依據者保留unassigned/pending。第30批91題缺少儲存的classificationNotes，執行時以sourceRef／規則理由補出。"
     ],
-    "duplicateAuditNote": "第37批初檢發現b37-032與b13-006題幹完全相同，已改寫為水箱容積應用題；重新與第8至36批2,400題正規化比對後完全相同題幹0組，批次內0組。舊題庫已知歷史重複（b9-006/b13-013、b10-009/b18-037、b13-020/b20-065）保留，不擅自刪除。",
+    "duplicateAuditNote": "第37批初檢發現b37-032與b13-006題幹完全相同，已改寫為水箱容積應用題；修正後重新與第8至36批2,400題正規化比對，完全相同題幹0組，批次內0組。分類器回歸測試亦確認所有100題的儲存分類欄位與執行時結果一致。舊題庫已知歷史重複（b9-006/b13-013、b10-009/b18-037、b13-020/b20-065）保留，不擅自刪除。",
     "classifier": "data/question-classification-inference.js",
-    "note": "新增題目僅小六與高二；rule-checked代表程式規則檢查，不是教師逐題審核。"
+    "note": "新增題目僅小六與高二；rule-checked代表程式規則檢查，不是教師逐題審核。出版社映射只限官方來源可支持的層級；冊別層級不冒稱單元，學校採用版本未確認。"
   },
   "gradeDistribution": {
     "五年級": 290,
@@ -388,20 +388,20 @@
     "publisherMappedQuestions": 30,
     "classificationBasis": {
       "publisherSourceVerified": 21,
-      "questionBankInference": 9,
-      "curriculumCore": 70
+      "questionBankInference": 12,
+      "curriculumCore": 67
     },
     "semester": {
-      "上學期": 20,
-      "下學期": 6,
+      "上學期": 22,
+      "下學期": 7,
       "全學年": 4,
-      "unassigned": 70
+      "unassigned": 67
     },
     "examPeriod": {
       "第一次段考": 3,
       "第二次段考": 3,
-      "第三次段考": 3,
-      "unassigned": 91
+      "第三次段考": 6,
+      "unassigned": 88
     },
     "validation": {
       "fourOptions": true,
@@ -416,9 +416,10 @@
       "duplicateStemCorrections": [
         "b37-032"
       ],
-      "crossBatchComparedAgainst": "第8至36批共2,400題"
+      "crossBatchComparedAgainst": "第8至36批共2,400題",
+      "runtimeClassificationMatchesStoredFields": true
     }
   },
   "textbookMappingCount": 16,
-  "lastBatchNote": "第37批100題（小六50、高二50）；逐題寫入分類欄位，30題具官方出版社來源映射；數學A/B明確隔離；化學(II)課本商品頁005022僅作高二上冊別層級；跨批次重複b37-032已改寫為水箱容積題。 全庫來源稽核：第8至29批1,700題無內嵌分類欄位，透過分類器依知識點推定；不確定者保留未分類。"
+  "lastBatchNote": "第37批100題（小六50、高二50）；逐題附分類欄位，30題具官方出版社來源映射；數學A/B明確隔離；化學(II)課本商品頁005022僅作高二上冊別層級；跨批次重複b37-032已改寫為水箱容積題。動態分類回歸測試與儲存欄位一致。"
 }
