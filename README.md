@@ -551,7 +551,7 @@ Repository → Settings → Pages → Build and deployment → Deploy from a bra
 - 新增100題原創108課綱練習題，國小六年級50題、高中高二50題；其他年級既有題庫不新增、不刪除。
 - 國小六年級：國語10、英語8、數學14、自然9、社會9；高中高二：數學12、物理8、化學8、生物6、地理4、歷史4、公民4、英文2、國文2。
 - 題目ID為 b39-001 至 b39-100；每題均含四個選項、答案索引、解析及 semester、examPeriod、classificationBasis、confidence、publisherStatus、publisherMappings、classificationNotes、sourceRef。
-- 37題連結至中央教材對照資料中已核對的官方映射（南一4、翰林33）；其中翰林數學3A題明確標記數學A軌別。63題因沒有足以核對出版社冊別／單元的來源，標示108課綱共同核心。段考未有學校進度證據，全部保留未分類。
-- 37筆映射逐筆核對中央mappingId、來源URL／標題、verifiedAt、verificationStatus、年級、科目、學期、軌別及單元／冊別範圍；物理II、化學II、生物II僅標冊別層級。
+- 38題連結至中央教材對照資料中已核對的官方映射（南一4、翰林34）；其中翰林數學3A題明確標記數學A軌別。63題因沒有足以核對出版社冊別／單元的來源，標示108課綱共同核心。段考未有學校進度證據，全部保留未分類。
+- 38筆映射逐筆核對中央mappingId、來源URL／標題、verifiedAt、verificationStatus、年級、科目、學期、軌別及單元／冊別範圍；物理II、化學II、生物II僅標冊別層級。
 - 完成四選項、答案索引、解析、分類欄位、ID唯一、批次內重複題及跨第8至38批正規化題幹比對；程式規則檢查，不代表教師逐題審核。瀏覽器端互動及Pages部署仍待確認。
 - index.html 載入第39批並納入 bankFor()；Service Worker 快取升級至 v68 並加入第39批資產。錯題本、收藏、測驗紀錄及學藝活動題庫維持原有引用。
