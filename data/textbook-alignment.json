@@ -1559,7 +1559,10 @@
       "crossBatchExactDuplicateStems": 0,
       "crossBatchComparedAgainst": "第8至40批共2,800題；重複b41-080已改寫並複查",
       "classification": "v13 static-rule-crosscheck; browser runtime not executed"
-    }
+    },
+    "mainMergeCommit": "4c2f57a8972b8f6910b443f97881839d934052f7",
+    "pullRequest": 6,
+    "pullRequestUrl": "https://github.com/toyoyogo-cloud/xiaoyu-xiaoyu-learning-app/pull/6"
   },
   "mappingVerificationStatusCountsBatches08to41": {
     "source-checked": 330,
@@ -1588,5 +1591,49 @@
     "hanlin": 253,
     "knsh": 9,
     "nani": 35
+  },
+  "postBatch41Audit": {
+    "auditedAt": "2026-11-13",
+    "auditedRef": "main",
+    "batchRange": "08-41",
+    "batchFileCount": 34,
+    "questionCount": 2900,
+    "uniqueQuestionIdCount": 2900,
+    "gradeCounts": {
+      "五年級": 290,
+      "六年級": 890,
+      "高一": 373,
+      "高二": 974,
+      "高三": 373
+    },
+    "embeddedClassification": {
+      "batches08to29": 1700,
+      "batches30to41": 1200,
+      "missingRequiredClassificationFields": 0,
+      "sourceRefPresent": 2900
+    },
+    "storedMappingReferences": 338,
+    "validatedStoredMappingReferences": 338,
+    "centralMappingCount": 16,
+    "publisherReferenceCounts": {
+      "hanlin": 294,
+      "knsh": 9,
+      "nani": 35
+    },
+    "batch41": {
+      "questions": 100,
+      "publisherMappedQuestions": 35,
+      "curriculumCore": 65,
+      "staticRuleMismatches": 0,
+      "exactDuplicateStemsAgainstBatches08to40": 0
+    },
+    "mergeCommit": "4c2f57a8972b8f6910b443f97881839d934052f7",
+    "pullRequest": 6,
+    "notes": [
+      "第41批已合併main。",
+      "第41批100題完成四選項、答案索引、解析、分類欄位、中央映射與跨批次完全相同題幹靜態驗證。",
+      "分類器v13對第41批完成靜態規則交叉檢查；未在瀏覽器實際執行，教師逐題審核尚未完成。",
+      "GitHub Pages workflow在合併後已觸發；部署結果待工作流程完成後確認。"
+    ]
   }
 }

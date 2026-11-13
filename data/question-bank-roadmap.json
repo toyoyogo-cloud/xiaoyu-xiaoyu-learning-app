@@ -306,7 +306,7 @@
   },
   "lastBatchFile": "data/question-bank-batch-41.js",
   "currentIntegration": {
-    "indexHtml": "Main branch candidate loads batches 08-41; EXTRA41_GRADE_BANK is included in bankFor() stage/grade/subject filtering. Existing semester, exam, publisher and explicit Mathematics A/B track filters remain. Academic-competition batches 01-14, wrong-book, favorites and quiz history flows were not removed or rewritten.",
+    "indexHtml": "Main branch loads batches 08-41; EXTRA41_GRADE_BANK is included in bankFor() stage/grade/subject filtering. Existing semester, exam, publisher and explicit Mathematics A/B track filters remain. Academic-competition batches 01-14, wrong-book, favorites and quiz history flows were not removed or rewritten.",
     "serviceWorkerCache": "xy-learning-v71",
     "serviceWorkerAsset": "question-bank-batch-08.js through batch-41.js; question-classification-inference.js v13; textbook-alignment.json; academic-competition-batch-01.js through batch-14.js; existing image assets preserved"
   },
@@ -585,7 +585,7 @@
     "date": "2026-11-13",
     "branch": "automation/batch-41-2026-11-13",
     "baseMainHead": "75b54104e92bc65a8c7f1c99ad1984879a2d8c24",
-    "status": "pending-review",
+    "status": "merged",
     "independentBatchRange": "第8至第41批",
     "independentBatchQuestions": 2900,
     "uniqueIds": 2900,
@@ -620,7 +620,12 @@
       "readmeUpdated": true
     },
     "browserFunctionalTests": "pending",
-    "pagesDeployment": "not-verified-no-workflow-run"
+    "pagesDeployment": "not-verified-no-workflow-run",
+    "pullRequest": 6,
+    "pullRequestUrl": "https://github.com/toyoyogo-cloud/xiaoyu-xiaoyu-learning-app/pull/6",
+    "mergeCommit": "4c2f57a8972b8f6910b443f97881839d934052f7",
+    "mergedAt": "2026-11-13T08:41:06Z",
+    "mainHeadAfterMerge": "4c2f57a8972b8f6910b443f97881839d934052f7"
   },
   "mappingVerificationStatusCountsBatches30to39": {
     "source-checked": 212,
@@ -631,12 +636,12 @@
     "volume": 92,
     "officialResourceTitle": 11
   },
-  "sourceBranch": "automation/batch-41-2026-11-13",
-  "sourceHead": "95bea12600f8d8d0506ffb2bc395d30fdfb065b6",
-  "mergeCommit": "30a509d9f2c335634f1b6c1aefea21c7da725292",
-  "pullRequest": 5,
+  "sourceBranch": "main",
+  "sourceHead": "4c2f57a8972b8f6910b443f97881839d934052f7",
+  "mergeCommit": "4c2f57a8972b8f6910b443f97881839d934052f7",
+  "pullRequest": 6,
   "mainVerifiedAt": "2026-11-13",
-  "pagesDeployment": "not-verified-no-workflow-run",
+  "pagesDeployment": "workflow-run-in-progress",
   "runtimeClassificationAuditStatus": "v13-static-rule-crosscheck-batch41; browser-runtime-pending",
   "mappingVerificationStatusCountsBatches30to40": {
     "source-checked": 254,
@@ -652,7 +657,7 @@
     "knsh": 7,
     "nani": 29
   },
-  "pullRequestUrl": "https://github.com/toyoyogo-cloud/xiaoyu-xiaoyu-learning-app/pull/5",
+  "pullRequestUrl": "https://github.com/toyoyogo-cloud/xiaoyu-xiaoyu-learning-app/pull/6",
   "mappingVerificationStatusCountsBatches08to40": {
     "source-checked": 295,
     "official-index-link-only": 8
