@@ -144,10 +144,10 @@ window.EXTRA39_GRADE_BANK = [
     "difficulty": "進階",
     "q": "班長宣布：「明天的校外教學，請大家帶水壺、帽子和雨具。」下列哪一項最能正確保留班長原話？",
     "o": [
-      "班長說明，明天校外教學要帶水壺、帽子和雨具。",
+      "班長說明校外教學要帶水壺、帽子和雨具。",
       "班長說：「明天的校外教學，請大家帶水壺、帽子和雨具。」",
-      "班長說明明天校外教學請大家帶水壺帽子和雨具？",
-      "班長說：「明天的校外教學。請大家帶水壺、帽子和雨具？」"
+      "班長詢問同學是否願意參加校外教學。",
+      "班長轉述同學對校外教學安排的抱怨。"
     ],
     "a": 1,
     "e": "直接引述要用引號標示完整原話，句末標點放在引號內，避免把陳述句誤標成疑問句。",
@@ -627,10 +627,10 @@ window.EXTRA39_GRADE_BANK = [
         "publisher": "nani",
         "mappingId": "nani-g6-math-6b-base-comparison",
         "sourceUrl": "https://tpack.nani.com.tw/nani_content?a=341&b=1",
-        "sourceTitle": "南一官方教材資源－數學6下基準量和比較量",
+        "sourceTitle": "南一資源_內文－數學6下｜基準量和比較量",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "南一官方資源頁標示數學6下「基準量和比較量」；僅對應此單元，不表示題目取自教材，也不代表學校採用版本。",
+        "notes": "南一官方資源頁明示數學6下、國小數學6年級及「基準量和比較量」單元標題；僅支持此資源單元層級，不代表完整教科書目次或學校採用版本。",
         "mappingLevel": "unit"
       }
     ],
@@ -671,10 +671,10 @@ window.EXTRA39_GRADE_BANK = [
         "publisher": "nani",
         "mappingId": "nani-g6-math-6b-base-comparison",
         "sourceUrl": "https://tpack.nani.com.tw/nani_content?a=341&b=1",
-        "sourceTitle": "南一官方教材資源－數學6下基準量和比較量",
+        "sourceTitle": "南一資源_內文－數學6下｜基準量和比較量",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "南一官方資源頁標示數學6下「基準量和比較量」；僅對應此單元，不表示題目取自教材，也不代表學校採用版本。",
+        "notes": "南一官方資源頁明示數學6下、國小數學6年級及「基準量和比較量」單元標題；僅支持此資源單元層級，不代表完整教科書目次或學校採用版本。",
         "mappingLevel": "unit"
       }
     ],
@@ -715,10 +715,10 @@ window.EXTRA39_GRADE_BANK = [
         "publisher": "nani",
         "mappingId": "nani-g6-math-6b-base-comparison",
         "sourceUrl": "https://tpack.nani.com.tw/nani_content?a=341&b=1",
-        "sourceTitle": "南一官方教材資源－數學6下基準量和比較量",
+        "sourceTitle": "南一資源_內文－數學6下｜基準量和比較量",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "南一官方資源頁標示數學6下「基準量和比較量」；僅對應此單元，不表示題目取自教材，也不代表學校採用版本。",
+        "notes": "南一官方資源頁明示數學6下、國小數學6年級及「基準量和比較量」單元標題；僅支持此資源單元層級，不代表完整教科書目次或學校採用版本。",
         "mappingLevel": "unit"
       }
     ],
@@ -759,10 +759,10 @@ window.EXTRA39_GRADE_BANK = [
         "publisher": "nani",
         "mappingId": "nani-g6-math-6b-base-comparison",
         "sourceUrl": "https://tpack.nani.com.tw/nani_content?a=341&b=1",
-        "sourceTitle": "南一官方教材資源－數學6下基準量和比較量",
+        "sourceTitle": "南一資源_內文－數學6下｜基準量和比較量",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "南一官方資源頁標示數學6下「基準量和比較量」；僅對應此單元，不表示題目取自教材，也不代表學校採用版本。",
+        "notes": "南一官方資源頁明示數學6下、國小數學6年級及「基準量和比較量」單元標題；僅支持此資源單元層級，不代表完整教科書目次或學校採用版本。",
         "mappingLevel": "unit"
       }
     ],
@@ -1730,14 +1730,14 @@ window.EXTRA39_GRADE_BANK = [
         "sourceTitle": "翰林書城－高中互動式教學講義數學(3A)",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "官方頁標示高中二年級、上學期、108課綱數學A，目次列三角函數；只作單元對照，不表示學校採用版本。",
+        "notes": "官方頁明示高二、上學期與108課綱高二數學A版，目次列三角函數；只作單元對照，不表示題目取自教材。",
         "mappingLevel": "unit"
       }
     ],
     "classificationNotes": "官方頁標示高中二年級、上學期、108課綱數學A，目次列三角函數；只作單元對照，不表示學校採用版本。 學校採用版本未確認；官方來源未提供該校段考進度，因此段考保留未分類。",
     "questionType": "情境應用",
     "courseTrack": "數學A",
-    "courseType": "普通高中課程軌別；學校採用課程未確認"
+    "courseType": "未確認"
   },
   {
     "id": "b39-052",
@@ -1776,14 +1776,14 @@ window.EXTRA39_GRADE_BANK = [
         "sourceTitle": "翰林書城－高中互動式教學講義數學(3A)",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "官方頁標示高中二年級、上學期、108課綱數學A，目次列三角函數；只作單元對照，不表示學校採用版本。",
+        "notes": "官方頁明示高二、上學期與108課綱高二數學A版，目次列三角函數；只作單元對照，不表示題目取自教材。",
         "mappingLevel": "unit"
       }
     ],
     "classificationNotes": "官方頁標示高中二年級、上學期、108課綱數學A，目次列三角函數；只作單元對照，不表示學校採用版本。 學校採用版本未確認；官方來源未提供該校段考進度，因此段考保留未分類。",
     "questionType": "情境應用",
     "courseTrack": "數學A",
-    "courseType": "普通高中課程軌別；學校採用課程未確認"
+    "courseType": "未確認"
   },
   {
     "id": "b39-053",
@@ -1822,14 +1822,14 @@ window.EXTRA39_GRADE_BANK = [
         "sourceTitle": "翰林書城－高中互動式教學講義數學(3A)",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "官方頁標示高中二年級、上學期、108課綱數學A，目次列三角函數；只作單元對照，不表示學校採用版本。",
+        "notes": "官方頁明示高二、上學期與108課綱高二數學A版，目次列三角函數；只作單元對照，不表示題目取自教材。",
         "mappingLevel": "unit"
       }
     ],
     "classificationNotes": "官方頁標示高中二年級、上學期、108課綱數學A，目次列三角函數；只作單元對照，不表示學校採用版本。 學校採用版本未確認；官方來源未提供該校段考進度，因此段考保留未分類。",
     "questionType": "情境應用",
     "courseTrack": "數學A",
-    "courseType": "普通高中課程軌別；學校採用課程未確認"
+    "courseType": "未確認"
   },
   {
     "id": "b39-054",
@@ -1868,14 +1868,14 @@ window.EXTRA39_GRADE_BANK = [
         "sourceTitle": "翰林書城－高中互動式教學講義數學(3A)",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "官方頁標示高中二年級、上學期、108課綱數學A，目次列三角函數；只作單元對照，不表示學校採用版本。",
+        "notes": "官方頁明示高二、上學期與108課綱高二數學A版，目次列三角函數；只作單元對照，不表示題目取自教材。",
         "mappingLevel": "unit"
       }
     ],
     "classificationNotes": "官方頁標示高中二年級、上學期、108課綱數學A，目次列三角函數；只作單元對照，不表示學校採用版本。 學校採用版本未確認；官方來源未提供該校段考進度，因此段考保留未分類。",
     "questionType": "情境應用",
     "courseTrack": "數學A",
-    "courseType": "普通高中課程軌別；學校採用課程未確認"
+    "courseType": "未確認"
   },
   {
     "id": "b39-055",
@@ -1914,14 +1914,14 @@ window.EXTRA39_GRADE_BANK = [
         "sourceTitle": "翰林書城－高中互動式教學講義數學(3A)",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "官方頁標示高中二年級、上學期、108課綱數學A，目次列指數與對數函數；只作單元對照，不表示學校採用版本。",
+        "notes": "官方頁明示高二、上學期與目次單元；段考區間仍為題庫依單元順序推定。",
         "mappingLevel": "unit"
       }
     ],
     "classificationNotes": "官方頁標示高中二年級、上學期、108課綱數學A，目次列指數與對數函數；只作單元對照，不表示學校採用版本。 學校採用版本未確認；官方來源未提供該校段考進度，因此段考保留未分類。",
     "questionType": "情境應用",
     "courseTrack": "數學A",
-    "courseType": "普通高中課程軌別；學校採用課程未確認"
+    "courseType": "未確認"
   },
   {
     "id": "b39-056",
@@ -1960,14 +1960,14 @@ window.EXTRA39_GRADE_BANK = [
         "sourceTitle": "翰林書城－高中互動式教學講義數學(3A)",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "官方頁標示高中二年級、上學期、108課綱數學A，目次列指數與對數函數；只作單元對照，不表示學校採用版本。",
+        "notes": "官方頁明示高二、上學期與目次單元；段考區間仍為題庫依單元順序推定。",
         "mappingLevel": "unit"
       }
     ],
     "classificationNotes": "官方頁標示高中二年級、上學期、108課綱數學A，目次列指數與對數函數；只作單元對照，不表示學校採用版本。 學校採用版本未確認；官方來源未提供該校段考進度，因此段考保留未分類。",
     "questionType": "情境應用",
     "courseTrack": "數學A",
-    "courseType": "普通高中課程軌別；學校採用課程未確認"
+    "courseType": "未確認"
   },
   {
     "id": "b39-057",
@@ -2006,14 +2006,14 @@ window.EXTRA39_GRADE_BANK = [
         "sourceTitle": "翰林書城－高中互動式教學講義數學(3A)",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "官方頁標示高中二年級、上學期、108課綱數學A，目次列指數與對數函數；只作單元對照，不表示學校採用版本。",
+        "notes": "官方頁明示高二、上學期與目次單元；段考區間仍為題庫依單元順序推定。",
         "mappingLevel": "unit"
       }
     ],
     "classificationNotes": "官方頁標示高中二年級、上學期、108課綱數學A，目次列指數與對數函數；只作單元對照，不表示學校採用版本。 學校採用版本未確認；官方來源未提供該校段考進度，因此段考保留未分類。",
     "questionType": "情境應用",
     "courseTrack": "數學A",
-    "courseType": "普通高中課程軌別；學校採用課程未確認"
+    "courseType": "未確認"
   },
   {
     "id": "b39-058",
@@ -2052,14 +2052,14 @@ window.EXTRA39_GRADE_BANK = [
         "sourceTitle": "翰林書城－高中互動式教學講義數學(3A)",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "官方頁標示高中二年級、上學期、108課綱數學A，目次列指數與對數函數；只作單元對照，不表示學校採用版本。",
+        "notes": "官方頁明示高二、上學期與目次單元；段考區間仍為題庫依單元順序推定。",
         "mappingLevel": "unit"
       }
     ],
     "classificationNotes": "官方頁標示高中二年級、上學期、108課綱數學A，目次列指數與對數函數；只作單元對照，不表示學校採用版本。 學校採用版本未確認；官方來源未提供該校段考進度，因此段考保留未分類。",
     "questionType": "情境應用",
     "courseTrack": "數學A",
-    "courseType": "普通高中課程軌別；學校採用課程未確認"
+    "courseType": "未確認"
   },
   {
     "id": "b39-059",
@@ -2098,14 +2098,14 @@ window.EXTRA39_GRADE_BANK = [
         "sourceTitle": "翰林書城－高中互動式教學講義數學(3A)",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "官方頁標示高中二年級、上學期、108課綱數學A，目次列平面向量；只作單元對照，不表示學校採用版本。",
+        "notes": "官方頁明示高二、上學期與目次單元；段考區間仍為題庫依單元順序推定。",
         "mappingLevel": "unit"
       }
     ],
     "classificationNotes": "官方頁標示高中二年級、上學期、108課綱數學A，目次列平面向量；只作單元對照，不表示學校採用版本。 學校採用版本未確認；官方來源未提供該校段考進度，因此段考保留未分類。",
     "questionType": "情境應用",
     "courseTrack": "數學A",
-    "courseType": "普通高中課程軌別；學校採用課程未確認"
+    "courseType": "未確認"
   },
   {
     "id": "b39-060",
@@ -2144,14 +2144,14 @@ window.EXTRA39_GRADE_BANK = [
         "sourceTitle": "翰林書城－高中互動式教學講義數學(3A)",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "官方頁標示高中二年級、上學期、108課綱數學A，目次列平面向量；只作單元對照，不表示學校採用版本。",
+        "notes": "官方頁明示高二、上學期與目次單元；段考區間仍為題庫依單元順序推定。",
         "mappingLevel": "unit"
       }
     ],
     "classificationNotes": "官方頁標示高中二年級、上學期、108課綱數學A，目次列平面向量；只作單元對照，不表示學校採用版本。 學校採用版本未確認；官方來源未提供該校段考進度，因此段考保留未分類。",
     "questionType": "情境應用",
     "courseTrack": "數學A",
-    "courseType": "普通高中課程軌別；學校採用課程未確認"
+    "courseType": "未確認"
   },
   {
     "id": "b39-061",
@@ -2190,14 +2190,14 @@ window.EXTRA39_GRADE_BANK = [
         "sourceTitle": "翰林書城－高中互動式教學講義數學(3A)",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "官方頁標示高中二年級、上學期、108課綱數學A，目次列平面向量；只作單元對照，不表示學校採用版本。",
+        "notes": "官方頁明示高二、上學期與目次單元；段考區間仍為題庫依單元順序推定。",
         "mappingLevel": "unit"
       }
     ],
     "classificationNotes": "官方頁標示高中二年級、上學期、108課綱數學A，目次列平面向量；只作單元對照，不表示學校採用版本。 學校採用版本未確認；官方來源未提供該校段考進度，因此段考保留未分類。",
     "questionType": "情境應用",
     "courseTrack": "數學A",
-    "courseType": "普通高中課程軌別；學校採用課程未確認"
+    "courseType": "未確認"
   },
   {
     "id": "b39-062",
@@ -2236,14 +2236,14 @@ window.EXTRA39_GRADE_BANK = [
         "sourceTitle": "翰林書城－高中互動式教學講義數學(3A)",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "官方頁標示高中二年級、上學期、108課綱數學A，目次列平面向量；只作單元對照，不表示學校採用版本。",
+        "notes": "官方頁明示高二、上學期與目次單元；段考區間仍為題庫依單元順序推定。",
         "mappingLevel": "unit"
       }
     ],
     "classificationNotes": "官方頁標示高中二年級、上學期、108課綱數學A，目次列平面向量；只作單元對照，不表示學校採用版本。 學校採用版本未確認；官方來源未提供該校段考進度，因此段考保留未分類。",
     "questionType": "情境應用",
     "courseTrack": "數學A",
-    "courseType": "普通高中課程軌別；學校採用課程未確認"
+    "courseType": "未確認"
   },
   {
     "id": "b39-063",
@@ -2282,7 +2282,7 @@ window.EXTRA39_GRADE_BANK = [
         "sourceTitle": "翰林書城－高中課本選修物理(II)力學二與熱學",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "官方頁標示高中二年級、上學期及選修物理(II)力學二與熱學；僅冊別／主題層級對照，未核對細分目次，不表示學校採用版本。",
+        "notes": "官方頁明示高中二年級、上學期及課本名稱；僅作冊別／主題層級對照。",
         "mappingLevel": "volume"
       }
     ],
@@ -2326,7 +2326,7 @@ window.EXTRA39_GRADE_BANK = [
         "sourceTitle": "翰林書城－高中課本選修物理(II)力學二與熱學",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "官方頁標示高中二年級、上學期及選修物理(II)力學二與熱學；僅冊別／主題層級對照，未核對細分目次，不表示學校採用版本。",
+        "notes": "官方頁明示高中二年級、上學期及課本名稱；僅作冊別／主題層級對照。",
         "mappingLevel": "volume"
       }
     ],
@@ -2370,7 +2370,7 @@ window.EXTRA39_GRADE_BANK = [
         "sourceTitle": "翰林書城－高中課本選修物理(II)力學二與熱學",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "官方頁標示高中二年級、上學期及選修物理(II)力學二與熱學；僅冊別／主題層級對照，未核對細分目次，不表示學校採用版本。",
+        "notes": "官方頁明示高中二年級、上學期及課本名稱；僅作冊別／主題層級對照。",
         "mappingLevel": "volume"
       }
     ],
@@ -2414,7 +2414,7 @@ window.EXTRA39_GRADE_BANK = [
         "sourceTitle": "翰林書城－高中課本選修物理(II)力學二與熱學",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "官方頁標示高中二年級、上學期及選修物理(II)力學二與熱學；僅冊別／主題層級對照，未核對細分目次，不表示學校採用版本。",
+        "notes": "官方頁明示高中二年級、上學期及課本名稱；僅作冊別／主題層級對照。",
         "mappingLevel": "volume"
       }
     ],
@@ -2458,7 +2458,7 @@ window.EXTRA39_GRADE_BANK = [
         "sourceTitle": "翰林書城－高中課本選修物理(II)力學二與熱學",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "官方頁標示高中二年級、上學期及選修物理(II)力學二與熱學；僅冊別／主題層級對照，未核對細分目次，不表示學校採用版本。",
+        "notes": "官方頁明示高中二年級、上學期及課本名稱；僅作冊別／主題層級對照。",
         "mappingLevel": "volume"
       }
     ],
@@ -2502,7 +2502,7 @@ window.EXTRA39_GRADE_BANK = [
         "sourceTitle": "翰林書城－高中課本選修物理(II)力學二與熱學",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "官方頁標示高中二年級、上學期及選修物理(II)力學二與熱學；僅冊別／主題層級對照，未核對細分目次，不表示學校採用版本。",
+        "notes": "官方頁明示高中二年級、上學期及課本名稱；僅作冊別／主題層級對照。",
         "mappingLevel": "volume"
       }
     ],
@@ -2579,7 +2579,7 @@ window.EXTRA39_GRADE_BANK = [
         "sourceTitle": "翰林書城－高中課本選修物理(II)力學二與熱學",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "官方頁標示高中二年級、上學期及選修物理(II)力學二與熱學；僅冊別／主題層級對照，未核對細分目次，不表示學校採用版本。",
+        "notes": "官方頁明示高中二年級、上學期及課本名稱；僅作冊別／主題層級對照。",
         "mappingLevel": "volume"
       }
     ],
@@ -2623,7 +2623,7 @@ window.EXTRA39_GRADE_BANK = [
         "sourceTitle": "翰林書城－高中互動式教學講義選修化學(III)",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "官方頁標示高中二、三年級、全學年，目次列化學平衡；只作單元對照，不表示學校採用版本。",
+        "notes": "官方頁明示高二、高三、全學年，目次列化學平衡；不推定學校段考。",
         "mappingLevel": "unit"
       }
     ],
@@ -2667,7 +2667,7 @@ window.EXTRA39_GRADE_BANK = [
         "sourceTitle": "翰林書城－高中互動式教學講義選修化學(III)",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "官方頁標示高中二、三年級、全學年，目次列化學平衡；只作單元對照，不表示學校採用版本。",
+        "notes": "官方頁明示高二、高三、全學年，目次列化學平衡；不推定學校段考。",
         "mappingLevel": "unit"
       }
     ],
@@ -2711,7 +2711,7 @@ window.EXTRA39_GRADE_BANK = [
         "sourceTitle": "翰林書城－高中互動式教學講義選修化學(III)",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "官方頁標示高中二、三年級、全學年，目次列沉澱反應與溶解平衡；只作單元對照，不表示學校採用版本。",
+        "notes": "官方頁明示目次列沉澱反應與溶解平衡；不推定學校段考。",
         "mappingLevel": "unit"
       }
     ],
@@ -2755,7 +2755,7 @@ window.EXTRA39_GRADE_BANK = [
         "sourceTitle": "翰林書城－高中互動式教學講義選修化學(III)",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "官方頁標示高中二、三年級、全學年，目次列沉澱反應與溶解平衡；只作單元對照，不表示學校採用版本。",
+        "notes": "官方頁明示目次列沉澱反應與溶解平衡；不推定學校段考。",
         "mappingLevel": "unit"
       }
     ],
@@ -2799,7 +2799,7 @@ window.EXTRA39_GRADE_BANK = [
         "sourceTitle": "翰林書城－高中互動式教學講義選修化學(III)",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "官方頁標示高中二、三年級、全學年，目次列酸鹼反應；只作單元對照，不表示學校採用版本。",
+        "notes": "官方頁明示目次列酸鹼反應與酸鹼滴定實驗；不推定學校段考。",
         "mappingLevel": "unit"
       }
     ],
@@ -2843,7 +2843,7 @@ window.EXTRA39_GRADE_BANK = [
         "sourceTitle": "翰林書城－高中互動式教學講義選修化學(III)",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "官方頁標示高中二、三年級、全學年，目次列酸鹼反應；只作單元對照，不表示學校採用版本。",
+        "notes": "官方頁明示目次列酸鹼反應與酸鹼滴定實驗；不推定學校段考。",
         "mappingLevel": "unit"
       }
     ],
@@ -2887,7 +2887,7 @@ window.EXTRA39_GRADE_BANK = [
         "sourceTitle": "翰林書城－高中課本選修化學(II)物質構造與反應速率",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "官方頁標示高中二年級、上學期及冊名物質構造與反應速率；僅冊別層級對照，不推定細分單元或學校採用版本。",
+        "notes": "翰林官方課本頁明示高中2年級、上學期及冊名「選修化學(II)物質構造與反應速率」；僅冊別層級，不宣稱細分單元已核對。不同商品編號的實驗手冊或習作可能有不同學期，不能與此課本頁混用。此映射不代表學校採用版本。",
         "mappingLevel": "volume"
       }
     ],
@@ -2931,7 +2931,7 @@ window.EXTRA39_GRADE_BANK = [
         "sourceTitle": "翰林書城－高中課本選修化學(II)物質構造與反應速率",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "官方頁標示高中二年級、上學期及冊名物質構造與反應速率；僅冊別層級對照，不推定細分單元或學校採用版本。",
+        "notes": "翰林官方課本頁明示高中2年級、上學期及冊名「選修化學(II)物質構造與反應速率」；僅冊別層級，不宣稱細分單元已核對。不同商品編號的實驗手冊或習作可能有不同學期，不能與此課本頁混用。此映射不代表學校採用版本。",
         "mappingLevel": "volume"
       }
     ],
@@ -2975,7 +2975,7 @@ window.EXTRA39_GRADE_BANK = [
         "sourceTitle": "翰林書城－高中課本選修生物(II)生命的起源與植物",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "官方頁標示高中二年級、上學期及冊名生命的起源與植物；僅冊別層級對照，不推定細分單元或學校採用版本。",
+        "notes": "官方頁明示高中二年級、上學期及冊名；此映射不代表已核對具體單元目次。",
         "mappingLevel": "volume"
       }
     ],
@@ -3019,7 +3019,7 @@ window.EXTRA39_GRADE_BANK = [
         "sourceTitle": "翰林書城－高中課本選修生物(II)生命的起源與植物",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "官方頁標示高中二年級、上學期及冊名生命的起源與植物；僅冊別層級對照，不推定細分單元或學校採用版本。",
+        "notes": "官方頁明示高中二年級、上學期及冊名；此映射不代表已核對具體單元目次。",
         "mappingLevel": "volume"
       }
     ],
@@ -3063,7 +3063,7 @@ window.EXTRA39_GRADE_BANK = [
         "sourceTitle": "翰林書城－高中課本選修生物(II)生命的起源與植物",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "官方頁標示高中二年級、上學期及冊名生命的起源與植物；僅冊別層級對照，不推定細分單元或學校採用版本。",
+        "notes": "官方頁明示高中二年級、上學期及冊名；此映射不代表已核對具體單元目次。",
         "mappingLevel": "volume"
       }
     ],
@@ -3107,7 +3107,7 @@ window.EXTRA39_GRADE_BANK = [
         "sourceTitle": "翰林書城－高中課本選修生物(II)生命的起源與植物",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "官方頁標示高中二年級、上學期及冊名生命的起源與植物；僅冊別層級對照，不推定細分單元或學校採用版本。",
+        "notes": "官方頁明示高中二年級、上學期及冊名；此映射不代表已核對具體單元目次。",
         "mappingLevel": "volume"
       }
     ],
@@ -3151,7 +3151,7 @@ window.EXTRA39_GRADE_BANK = [
         "sourceTitle": "翰林書城－高中課本選修生物(II)生命的起源與植物",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "官方頁標示高中二年級、上學期及冊名生命的起源與植物；僅冊別層級對照，不推定細分單元或學校採用版本。",
+        "notes": "官方頁明示高中二年級、上學期及冊名；此映射不代表已核對具體單元目次。",
         "mappingLevel": "volume"
       }
     ],
@@ -3195,7 +3195,7 @@ window.EXTRA39_GRADE_BANK = [
         "sourceTitle": "翰林書城－高中課本選修生物(II)生命的起源與植物",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "官方頁標示高中二年級、上學期及冊名生命的起源與植物；僅冊別層級對照，不推定細分單元或學校採用版本。",
+        "notes": "官方頁明示高中二年級、上學期及冊名；此映射不代表已核對具體單元目次。",
         "mappingLevel": "volume"
       }
     ],
