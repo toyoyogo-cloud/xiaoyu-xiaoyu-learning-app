@@ -407,7 +407,13 @@
         "centralMappingRecords": 16
       },
       "note": "Counts are produced by executing question-classification-inference.js against all question objects; semester/exam assignments remain revision recommendations, not official school scope."
-    }
+    },
+    "sourceBranch": "main",
+    "sourceHead": "0b76d6e99d66502f39f6e9c32ad8032bbcc47494",
+    "mergeCommit": "0b76d6e99d66502f39f6e9c32ad8032bbcc47494",
+    "pullRequest": 1,
+    "mainVerifiedAt": "2026-11-13",
+    "pagesDeployment": "pending-verification"
   },
   "gradeDistribution": {
     "五年級": 290,
