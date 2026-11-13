@@ -794,7 +794,8 @@
         "classifierUsesSavedIndex": true,
         "browserTested": false
       },
-      "notes": "第15批100題全部具備獨立擴充分類；原有b15-067索引保留，新增99筆。b15-066僅採翰林選修物理(II)冊別層級映射；官方頁確認高二物理上學期及課本名稱，未提供細分目次且不代表學校採用版本。b15-020與b15-028保留題庫推定的下學期／第三次段考複習建議；其餘未有可靠依據者保留未分類。"
+      "notes": "第15批100題全部具備獨立擴充分類；原有b15-067索引保留，新增99筆。b15-066與b15-067均對應翰林選修物理(II)冊別層級；官方頁確認高二物理上學期及課本名稱，未提供細分目次且不代表學校採用版本。b15-020與b15-028保留題庫推定的下學期／第三次段考複習建議；其餘未有可靠依據者保留未分類。",
+      "sourceHeadAfterRun": "5b54df34fdbfb58e5d3b0c9b2a310fee4271b690"
     },
     "previousRun": {
       "date": "2026-11-14",
@@ -1204,17 +1205,18 @@
     "centralMappingRegistryCount": 16,
     "mappingValidationThisRun": {
       "batch": "15",
-      "mappedQuestions": 1,
-      "mappingReferences": 1,
-      "registryReferencesFound": 1,
+      "mappedQuestions": 2,
+      "mappingReferences": 2,
+      "registryReferencesFound": 2,
       "sourceFieldErrors": 0,
       "gradeSubjectSemesterErrors": 0,
       "unitOrVolumeScopeErrors": 0,
       "officialSourcePagesReopened": 1,
-      "limitation": "本次只重新開啟翰林選修物理(II)官方商品頁；其他映射為既有中央登錄及題目欄位內部一致性，不代表重新逐一開啟全部官方網址。"
+      "limitation": "本次重新開啟翰林選修物理(II)官方商品頁1次，支持b15-066與b15-067兩筆冊別層級引用；頁面未列細分目次。其他映射為既有中央登錄及題目欄位內部一致性，不代表重新逐一開啟全部官方網址。"
     },
     "newQuestionsAdded": 0,
-    "notes": "依目前main第8至41批與分類索引合併重算。最新main基準含79筆新增翰林數學A單元分類；第15批100題本次完成擴充分類，分類索引增至485筆。"
+    "notes": "依目前main第8至41批與分類索引合併重算。最新main基準含79筆新增翰林數學A單元分類；第15批100題本次完成擴充分類，分類索引增至485筆；第15批有2題沿用同一筆翰林物理II冊別映射。",
+    "sourceHeadAfterRun": "5b54df34fdbfb58e5d3b0c9b2a310fee4271b690"
   },
   "latestClassificationBackfill": {
     "auditedAt": "2026-11-14",
@@ -1806,7 +1808,7 @@
       },
       "browserTested": false
     },
-    "notes": "本批不新增題目。b15-066使用翰林選修物理(II)冊別層級映射；b15-092電功率不掛入該物理II映射，避免超出官方冊別範圍。"
+    "notes": "本批不新增題目。b15-066與b15-067均採翰林選修物理(II)冊別層級映射；b15-092電功率不掛入該物理II映射，避免超出官方冊別範圍。"
   },
   "nextBatchForClassification": 16
 }
