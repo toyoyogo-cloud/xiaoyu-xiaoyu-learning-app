@@ -1386,5 +1386,86 @@
       "第三次段考": 8,
       "unassigned": 82
     }
+  },
+  "legacyBackfillAudit": {
+    "date": "2026-11-13",
+    "batches": "08-29",
+    "questions": 1700,
+    "requiredFieldsBackfilled": 1700,
+    "fields": [
+      "semester",
+      "examPeriod",
+      "classificationBasis",
+      "confidence",
+      "publisherStatus",
+      "publisherMappings",
+      "classificationNotes",
+      "sourceRef"
+    ],
+    "classificationBasis": {
+      "curriculumCore": 1594,
+      "questionBankInference": 65,
+      "publisherSourceVerified": 41
+    },
+    "publisherStatus": {
+      "curriculumCore": 1659,
+      "publisherMapped": 41,
+      "pending": 0
+    },
+    "semester": {
+      "unassigned": 1594,
+      "上學期": 64,
+      "下學期": 25,
+      "全學年": 17
+    },
+    "examPeriod": {
+      "unassigned": 1635,
+      "第一次段考": 15,
+      "第二次段考": 22,
+      "第三次段考": 28
+    },
+    "publisherReferences": 41,
+    "publisherReferenceCounts": {
+      "hanlin": 41
+    },
+    "mappingLevels": {
+      "unit": 17,
+      "volume": 24
+    },
+    "runtimeValidation": {
+      "questions": 1700,
+      "errors": 0,
+      "missingRequiredFields": 0,
+      "storedVsRuntimeMismatches": 0
+    },
+    "notes": "逐題依分類器v13實際輸出回寫；來源映射只使用中央16筆已核對資料。分類為題庫複習建議，非教師逐題審核或學校正式段考範圍。"
+  },
+  "mappingVerificationStatusCountsBatches08to40": {
+    "source-checked": 295,
+    "official-index-link-only": 8
+  },
+  "mappingLevelCountsBatches08to40": {
+    "unit": 158,
+    "volume": 132,
+    "official-resource-title": 13
+  },
+  "publisherReferenceCountsBatches08to40": {
+    "hanlin": 267,
+    "knsh": 7,
+    "nani": 29
+  },
+  "mappingVerificationStatusCountsBatches30to40": {
+    "source-checked": 254,
+    "official-index-link-only": 8
+  },
+  "mappingLevelCountsBatches30to40": {
+    "unit": 141,
+    "volume": 108,
+    "official-resource-title": 13
+  },
+  "publisherReferenceCountsBatches30to40": {
+    "hanlin": 226,
+    "knsh": 7,
+    "nani": 29
   }
 }

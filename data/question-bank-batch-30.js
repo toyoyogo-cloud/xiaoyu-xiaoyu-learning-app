@@ -327,7 +327,7 @@ window.EXTRA30_GRADE_BANK = [
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
     "learningContent": "百分率折扣",
-    "classificationNotes": "依小六常見數學主題群與題庫單元先後推定；不是特定出版社單元或學校正式段考範圍，各校進度可能不同。"
+    "classificationNotes": "依六年級題庫常見百分率單元群推定；非學校正式段考範圍。"
   },
   {
     "id": "b30-012",
@@ -357,7 +357,7 @@ window.EXTRA30_GRADE_BANK = [
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
     "learningContent": "比與比例",
-    "classificationNotes": "依小六常見數學主題群與題庫單元先後推定；不是特定出版社單元或學校正式段考範圍，各校進度可能不同。"
+    "classificationNotes": "依六年級題庫常見單元群推定上學期前段；非學校正式段考範圍。"
   },
   {
     "id": "b30-013",
@@ -387,7 +387,7 @@ window.EXTRA30_GRADE_BANK = [
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
     "learningContent": "地圖比例尺",
-    "classificationNotes": "依小六常見數學主題群與題庫單元先後推定；不是特定出版社單元或學校正式段考範圍，各校進度可能不同。"
+    "classificationNotes": "依六年級題庫常見比例尺與速率單元群推定；非學校正式段考範圍。"
   },
   {
     "id": "b30-014",
@@ -417,7 +417,7 @@ window.EXTRA30_GRADE_BANK = [
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
     "learningContent": "平均速率",
-    "classificationNotes": "依小六常見數學主題群與題庫單元先後推定；不是特定出版社單元或學校正式段考範圍，各校進度可能不同。"
+    "classificationNotes": "依六年級題庫常見比例尺與速率單元群推定；非學校正式段考範圍。"
   },
   {
     "id": "b30-015",
@@ -447,7 +447,7 @@ window.EXTRA30_GRADE_BANK = [
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
     "learningContent": "平均數",
-    "classificationNotes": "依小六常見數學主題群與題庫單元先後推定；不是特定出版社單元或學校正式段考範圍，各校進度可能不同。"
+    "classificationNotes": "依六年級題庫常見統計與機率單元群推定；非學校正式段考範圍。"
   },
   {
     "id": "b30-016",
@@ -477,7 +477,7 @@ window.EXTRA30_GRADE_BANK = [
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
     "learningContent": "中位數",
-    "classificationNotes": "依小六常見數學主題群與題庫單元先後推定；不是特定出版社單元或學校正式段考範圍，各校進度可能不同。"
+    "classificationNotes": "依六年級題庫常見統計與機率單元群推定；非學校正式段考範圍。"
   },
   {
     "id": "b30-017",
@@ -507,7 +507,7 @@ window.EXTRA30_GRADE_BANK = [
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
     "learningContent": "圓面積",
-    "classificationNotes": "依小六常見數學主題群與題庫單元先後推定；不是特定出版社單元或學校正式段考範圍，各校進度可能不同。"
+    "classificationNotes": "依六年級題庫常見圓形單元群推定；非學校正式段考範圍。"
   },
   {
     "id": "b30-018",
@@ -537,7 +537,7 @@ window.EXTRA30_GRADE_BANK = [
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
     "learningContent": "長方體體積",
-    "classificationNotes": "依小六常見數學主題群與題庫單元先後推定；不是特定出版社單元或學校正式段考範圍，各校進度可能不同。"
+    "classificationNotes": "依六年級題庫常見立體形體單元群推定；非學校正式段考範圍。"
   },
   {
     "id": "b30-019",
@@ -567,7 +567,7 @@ window.EXTRA30_GRADE_BANK = [
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
     "learningContent": "簡單機率",
-    "classificationNotes": "依小六常見數學主題群與題庫單元先後推定；不是特定出版社單元或學校正式段考範圍，各校進度可能不同。"
+    "classificationNotes": "依六年級題庫常見統計與機率單元群推定；非學校正式段考範圍。"
   },
   {
     "id": "b30-020",
@@ -1193,7 +1193,7 @@ window.EXTRA30_GRADE_BANK = [
     "semester": "上學期",
     "examPeriod": "unassigned",
     "classificationBasis": "publisher-source-verified",
-    "confidence": "medium",
+    "confidence": "high",
     "publisherStatus": "publisher-mapped",
     "publisherMappings": [
       {
@@ -1224,7 +1224,7 @@ window.EXTRA30_GRADE_BANK = [
       }
     ],
     "learningContent": "社會變遷與性別角色",
-    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 knsh-g6-social-6a-u2-1；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
+    "classificationNotes": "康軒官方六上2-1教學資源明示個人發展與社會變遷單元；不代表學校採用版本。"
   },
   {
     "id": "b30-041",
@@ -1584,12 +1584,12 @@ window.EXTRA30_GRADE_BANK = [
         "subject": "數學",
         "courseTrack": "數學A",
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁確認數學A軌別，學校採用版本未確認"
+        "courseType": "未確認"
       }
     ],
     "learningContent": "三角比與特殊角",
     "courseTrack": "數學A",
-    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-math-3a-u1；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
+    "classificationNotes": "已確認題目課程軌別為數學A；依翰林數學3A官方單元次序推定段考，非學校正式範圍。"
   },
   {
     "id": "b30-052",
@@ -1649,12 +1649,12 @@ window.EXTRA30_GRADE_BANK = [
         "subject": "數學",
         "courseTrack": "數學A",
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁確認數學A軌別，學校採用版本未確認"
+        "courseType": "未確認"
       }
     ],
     "learningContent": "三角比與特殊角",
     "courseTrack": "數學A",
-    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-math-3a-u1；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
+    "classificationNotes": "已確認題目課程軌別為數學A；依翰林數學3A官方單元次序推定段考，非學校正式範圍。"
   },
   {
     "id": "b30-053",
@@ -1714,12 +1714,12 @@ window.EXTRA30_GRADE_BANK = [
         "subject": "數學",
         "courseTrack": "數學A",
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁確認數學A軌別，學校採用版本未確認"
+        "courseType": "未確認"
       }
     ],
     "learningContent": "三角比應用",
     "courseTrack": "數學A",
-    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-math-3a-u1；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
+    "classificationNotes": "已確認題目課程軌別為數學A；依翰林數學3A官方單元次序推定段考，非學校正式範圍。"
   },
   {
     "id": "b30-054",
@@ -1779,12 +1779,12 @@ window.EXTRA30_GRADE_BANK = [
         "subject": "數學",
         "courseTrack": "數學A",
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁確認數學A軌別，學校採用版本未確認"
+        "courseType": "未確認"
       }
     ],
     "learningContent": "三角函數圖形",
     "courseTrack": "數學A",
-    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-math-3a-u1；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
+    "classificationNotes": "已確認題目課程軌別為數學A；依翰林數學3A官方單元次序推定段考，非學校正式範圍。"
   },
   {
     "id": "b30-055",
@@ -1844,12 +1844,12 @@ window.EXTRA30_GRADE_BANK = [
         "subject": "數學",
         "courseTrack": "數學A",
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁確認數學A軌別，學校採用版本未確認"
+        "courseType": "未確認"
       }
     ],
     "learningContent": "弧度量",
     "courseTrack": "數學A",
-    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-math-3a-u1；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
+    "classificationNotes": "已確認題目課程軌別為數學A；依翰林數學3A官方單元次序推定段考，非學校正式範圍。"
   },
   {
     "id": "b30-056",
@@ -1909,12 +1909,12 @@ window.EXTRA30_GRADE_BANK = [
         "subject": "數學",
         "courseTrack": "數學A",
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁確認數學A軌別，學校採用版本未確認"
+        "courseType": "未確認"
       }
     ],
     "learningContent": "三角測量",
     "courseTrack": "數學A",
-    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-math-3a-u1；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
+    "classificationNotes": "已確認題目課程軌別為數學A；依翰林數學3A官方單元次序推定段考，非學校正式範圍。"
   },
   {
     "id": "b30-057",
@@ -1969,12 +1969,12 @@ window.EXTRA30_GRADE_BANK = [
         "subject": "數學",
         "courseTrack": "數學A",
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁確認數學A軌別，學校採用版本未確認"
+        "courseType": "未確認"
       }
     ],
     "learningContent": "對數定義",
     "courseTrack": "數學A",
-    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-math-3a-u2；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
+    "classificationNotes": "已確認題目課程軌別為數學A；依翰林數學3A官方單元次序推定段考，非學校正式範圍。"
   },
   {
     "id": "b30-058",
@@ -2029,12 +2029,12 @@ window.EXTRA30_GRADE_BANK = [
         "subject": "數學",
         "courseTrack": "數學A",
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁確認數學A軌別，學校採用版本未確認"
+        "courseType": "未確認"
       }
     ],
     "learningContent": "對數方程式",
     "courseTrack": "數學A",
-    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-math-3a-u2；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
+    "classificationNotes": "已確認題目課程軌別為數學A；依翰林數學3A官方單元次序推定段考，非學校正式範圍。"
   },
   {
     "id": "b30-059",
@@ -2089,12 +2089,12 @@ window.EXTRA30_GRADE_BANK = [
         "subject": "數學",
         "courseTrack": "數學A",
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁確認數學A軌別，學校採用版本未確認"
+        "courseType": "未確認"
       }
     ],
     "learningContent": "對數性質",
     "courseTrack": "數學A",
-    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-math-3a-u2；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
+    "classificationNotes": "已確認題目課程軌別為數學A；依翰林數學3A官方單元次序推定段考，非學校正式範圍。"
   },
   {
     "id": "b30-060",
@@ -2149,12 +2149,12 @@ window.EXTRA30_GRADE_BANK = [
         "subject": "數學",
         "courseTrack": "數學A",
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁確認數學A軌別，學校採用版本未確認"
+        "courseType": "未確認"
       }
     ],
     "learningContent": "對數方程式與定義域",
     "courseTrack": "數學A",
-    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-math-3a-u2；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
+    "classificationNotes": "已確認題目課程軌別為數學A；依翰林數學3A官方單元次序推定段考，非學校正式範圍。"
   },
   {
     "id": "b30-061",
@@ -2209,12 +2209,12 @@ window.EXTRA30_GRADE_BANK = [
         "subject": "數學",
         "courseTrack": "數學A",
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁確認數學A軌別，學校採用版本未確認"
+        "courseType": "未確認"
       }
     ],
     "learningContent": "指數成長模型",
     "courseTrack": "數學A",
-    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-math-3a-u2；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
+    "classificationNotes": "已確認題目課程軌別為數學A；依翰林數學3A官方單元次序推定段考，非學校正式範圍。"
   },
   {
     "id": "b30-062",
@@ -2269,12 +2269,12 @@ window.EXTRA30_GRADE_BANK = [
         "subject": "數學",
         "courseTrack": "數學A",
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁確認數學A軌別，學校採用版本未確認"
+        "courseType": "未確認"
       }
     ],
     "learningContent": "常用對數",
     "courseTrack": "數學A",
-    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-math-3a-u2；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
+    "classificationNotes": "已確認題目課程軌別為數學A；依翰林數學3A官方單元次序推定段考，非學校正式範圍。"
   },
   {
     "id": "b30-063",
@@ -2329,12 +2329,12 @@ window.EXTRA30_GRADE_BANK = [
         "subject": "數學",
         "courseTrack": "數學A",
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁確認數學A軌別，學校採用版本未確認"
+        "courseType": "未確認"
       }
     ],
     "learningContent": "向量座標",
     "courseTrack": "數學A",
-    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-math-3a-u3；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
+    "classificationNotes": "已確認題目課程軌別為數學A；依翰林數學3A官方單元次序推定段考，非學校正式範圍。"
   },
   {
     "id": "b30-064",
@@ -2389,12 +2389,12 @@ window.EXTRA30_GRADE_BANK = [
         "subject": "數學",
         "courseTrack": "數學A",
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁確認數學A軌別，學校採用版本未確認"
+        "courseType": "未確認"
       }
     ],
     "learningContent": "向量內積",
     "courseTrack": "數學A",
-    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-math-3a-u3；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
+    "classificationNotes": "已確認題目課程軌別為數學A；依翰林數學3A官方單元次序推定段考，非學校正式範圍。"
   },
   {
     "id": "b30-065",
@@ -2449,12 +2449,12 @@ window.EXTRA30_GRADE_BANK = [
         "subject": "數學",
         "courseTrack": "數學A",
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁確認數學A軌別，學校採用版本未確認"
+        "courseType": "未確認"
       }
     ],
     "learningContent": "向量長度",
     "courseTrack": "數學A",
-    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-math-3a-u3；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
+    "classificationNotes": "已確認題目課程軌別為數學A；依翰林數學3A官方單元次序推定段考，非學校正式範圍。"
   },
   {
     "id": "b30-066",
@@ -2509,12 +2509,12 @@ window.EXTRA30_GRADE_BANK = [
         "subject": "數學",
         "courseTrack": "數學A",
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁確認數學A軌別，學校採用版本未確認"
+        "courseType": "未確認"
       }
     ],
     "learningContent": "向量垂直判定",
     "courseTrack": "數學A",
-    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-math-3a-u3；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
+    "classificationNotes": "已確認題目課程軌別為數學A；依翰林數學3A官方單元次序推定段考，非學校正式範圍。"
   },
   {
     "id": "b30-067",
@@ -2569,12 +2569,12 @@ window.EXTRA30_GRADE_BANK = [
         "subject": "數學",
         "courseTrack": "數學A",
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁確認數學A軌別，學校採用版本未確認"
+        "courseType": "未確認"
       }
     ],
     "learningContent": "向量加法",
     "courseTrack": "數學A",
-    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-math-3a-u3；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
+    "classificationNotes": "已確認題目課程軌別為數學A；依翰林數學3A官方單元次序推定段考，非學校正式範圍。"
   },
   {
     "id": "b30-068",
@@ -2629,12 +2629,12 @@ window.EXTRA30_GRADE_BANK = [
         "subject": "數學",
         "courseTrack": "數學A",
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁確認數學A軌別，學校採用版本未確認"
+        "courseType": "未確認"
       }
     ],
     "learningContent": "單位向量",
     "courseTrack": "數學A",
-    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-math-3a-u3；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
+    "classificationNotes": "已確認題目課程軌別為數學A；依翰林數學3A官方單元次序推定段考，非學校正式範圍。"
   },
   {
     "id": "b30-069",
@@ -2704,11 +2704,11 @@ window.EXTRA30_GRADE_BANK = [
         "subject": "物理",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
+        "courseType": "未確認"
       }
     ],
     "learningContent": "動量與方向",
-    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-physics-ii；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
+    "classificationNotes": "翰林官方頁確認高二上選修物理(II)冊名「力學二與熱學」；只作冊別層級對照，未核對細分單元或段考。"
   },
   {
     "id": "b30-070",
@@ -2778,11 +2778,11 @@ window.EXTRA30_GRADE_BANK = [
         "subject": "物理",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
+        "courseType": "未確認"
       }
     ],
     "learningContent": "完全非彈性碰撞",
-    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-physics-ii；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
+    "classificationNotes": "翰林官方頁確認高二上選修物理(II)冊名「力學二與熱學」；只作冊別層級對照，未核對細分單元或段考。"
   },
   {
     "id": "b30-071",
@@ -2852,11 +2852,11 @@ window.EXTRA30_GRADE_BANK = [
         "subject": "物理",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
+        "courseType": "未確認"
       }
     ],
     "learningContent": "功的計算",
-    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-physics-ii；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
+    "classificationNotes": "翰林官方頁確認高二上選修物理(II)冊名「力學二與熱學」；只作冊別層級對照，未核對細分單元或段考。"
   },
   {
     "id": "b30-072",
@@ -2926,11 +2926,11 @@ window.EXTRA30_GRADE_BANK = [
         "subject": "物理",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
+        "courseType": "未確認"
       }
     ],
     "learningContent": "重力位能",
-    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-physics-ii；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
+    "classificationNotes": "翰林官方頁確認高二上選修物理(II)冊名「力學二與熱學」；只作冊別層級對照，未核對細分單元或段考。"
   },
   {
     "id": "b30-073",
@@ -3000,11 +3000,11 @@ window.EXTRA30_GRADE_BANK = [
         "subject": "物理",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
+        "courseType": "未確認"
       }
     ],
     "learningContent": "動能",
-    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-physics-ii；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
+    "classificationNotes": "翰林官方頁確認高二上選修物理(II)冊名「力學二與熱學」；只作冊別層級對照，未核對細分單元或段考。"
   },
   {
     "id": "b30-074",
@@ -3074,11 +3074,11 @@ window.EXTRA30_GRADE_BANK = [
         "subject": "物理",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
+        "courseType": "未確認"
       }
     ],
     "learningContent": "力矩平衡",
-    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-physics-ii；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
+    "classificationNotes": "翰林官方頁確認高二上選修物理(II)冊名「力學二與熱學」；只作冊別層級對照，未核對細分單元或段考。"
   },
   {
     "id": "b30-075",
@@ -3148,11 +3148,11 @@ window.EXTRA30_GRADE_BANK = [
         "subject": "物理",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
+        "courseType": "未確認"
       }
     ],
     "learningContent": "熱量計算",
-    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-physics-ii；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
+    "classificationNotes": "翰林官方頁確認高二上選修物理(II)冊名「力學二與熱學」；只作冊別層級對照，未核對細分單元或段考。"
   },
   {
     "id": "b30-076",
@@ -3208,7 +3208,7 @@ window.EXTRA30_GRADE_BANK = [
     "semester": "全學年",
     "examPeriod": "unassigned",
     "classificationBasis": "publisher-source-verified",
-    "confidence": "medium",
+    "confidence": "high",
     "publisherStatus": "publisher-mapped",
     "publisherMappings": [
       {
@@ -3236,11 +3236,11 @@ window.EXTRA30_GRADE_BANK = [
         "subject": "化學",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
+        "courseType": "未確認"
       }
     ],
     "learningContent": "化學平衡與濃度",
-    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-chemistry-iii-u1；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
+    "classificationNotes": "翰林官方化學(III)目次明示化學平衡單元；教材標示高二、高三全學年。"
   },
   {
     "id": "b30-078",
@@ -3266,7 +3266,7 @@ window.EXTRA30_GRADE_BANK = [
     "semester": "全學年",
     "examPeriod": "unassigned",
     "classificationBasis": "publisher-source-verified",
-    "confidence": "medium",
+    "confidence": "high",
     "publisherStatus": "publisher-mapped",
     "publisherMappings": [
       {
@@ -3294,11 +3294,11 @@ window.EXTRA30_GRADE_BANK = [
         "subject": "化學",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
+        "courseType": "未確認"
       }
     ],
     "learningContent": "勒沙特列原理",
-    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-chemistry-iii-u1；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
+    "classificationNotes": "翰林官方化學(III)目次明示化學平衡單元；教材標示高二、高三全學年。"
   },
   {
     "id": "b30-079",
@@ -3324,7 +3324,7 @@ window.EXTRA30_GRADE_BANK = [
     "semester": "全學年",
     "examPeriod": "unassigned",
     "classificationBasis": "publisher-source-verified",
-    "confidence": "medium",
+    "confidence": "high",
     "publisherStatus": "publisher-mapped",
     "publisherMappings": [
       {
@@ -3352,11 +3352,11 @@ window.EXTRA30_GRADE_BANK = [
         "subject": "化學",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
+        "courseType": "未確認"
       }
     ],
     "learningContent": "平衡常數表示式",
-    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-chemistry-iii-u1；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
+    "classificationNotes": "翰林官方化學(III)目次明示化學平衡單元；教材標示高二、高三全學年。"
   },
   {
     "id": "b30-080",
@@ -3382,7 +3382,7 @@ window.EXTRA30_GRADE_BANK = [
     "semester": "全學年",
     "examPeriod": "unassigned",
     "classificationBasis": "publisher-source-verified",
-    "confidence": "medium",
+    "confidence": "high",
     "publisherStatus": "publisher-mapped",
     "publisherMappings": [
       {
@@ -3410,11 +3410,11 @@ window.EXTRA30_GRADE_BANK = [
         "subject": "化學",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
+        "courseType": "未確認"
       }
     ],
     "learningContent": "溶解平衡與沉澱",
-    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-chemistry-iii-u2；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
+    "classificationNotes": "翰林官方化學(III)目次明示沉澱反應與溶解平衡單元；教材標示高二、高三全學年。"
   },
   {
     "id": "b30-081",
@@ -3440,7 +3440,7 @@ window.EXTRA30_GRADE_BANK = [
     "semester": "全學年",
     "examPeriod": "unassigned",
     "classificationBasis": "publisher-source-verified",
-    "confidence": "medium",
+    "confidence": "high",
     "publisherStatus": "publisher-mapped",
     "publisherMappings": [
       {
@@ -3468,11 +3468,11 @@ window.EXTRA30_GRADE_BANK = [
         "subject": "化學",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
+        "courseType": "未確認"
       }
     ],
     "learningContent": "強酸與 pH",
-    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-chemistry-iii-u3；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
+    "classificationNotes": "翰林官方化學(III)目次明示酸鹼反應單元；教材標示高二、高三全學年。"
   },
   {
     "id": "b30-082",
@@ -3498,7 +3498,7 @@ window.EXTRA30_GRADE_BANK = [
     "semester": "全學年",
     "examPeriod": "unassigned",
     "classificationBasis": "publisher-source-verified",
-    "confidence": "medium",
+    "confidence": "high",
     "publisherStatus": "publisher-mapped",
     "publisherMappings": [
       {
@@ -3526,11 +3526,11 @@ window.EXTRA30_GRADE_BANK = [
         "subject": "化學",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
+        "courseType": "未確認"
       }
     ],
     "learningContent": "酸鹼中和",
-    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-chemistry-iii-u3；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
+    "classificationNotes": "翰林官方化學(III)目次明示酸鹼反應單元；教材標示高二、高三全學年。"
   },
   {
     "id": "b30-083",
@@ -3556,7 +3556,7 @@ window.EXTRA30_GRADE_BANK = [
     "semester": "全學年",
     "examPeriod": "unassigned",
     "classificationBasis": "publisher-source-verified",
-    "confidence": "medium",
+    "confidence": "high",
     "publisherStatus": "publisher-mapped",
     "publisherMappings": [
       {
@@ -3584,11 +3584,11 @@ window.EXTRA30_GRADE_BANK = [
         "subject": "化學",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
+        "courseType": "未確認"
       }
     ],
     "learningContent": "緩衝溶液",
-    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-chemistry-iii-u3；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
+    "classificationNotes": "翰林官方化學(III)目次明示酸鹼反應單元；教材標示高二、高三全學年。"
   },
   {
     "id": "b30-084",
@@ -3614,7 +3614,7 @@ window.EXTRA30_GRADE_BANK = [
     "semester": "全學年",
     "examPeriod": "unassigned",
     "classificationBasis": "publisher-source-verified",
-    "confidence": "medium",
+    "confidence": "high",
     "publisherStatus": "publisher-mapped",
     "publisherMappings": [
       {
@@ -3642,11 +3642,11 @@ window.EXTRA30_GRADE_BANK = [
         "subject": "化學",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
+        "courseType": "未確認"
       }
     ],
     "learningContent": "共同離子效應",
-    "classificationNotes": "依題目年級、科目與單元對照既有教材映射 hanlin-h2-chemistry-iii-u2；出版社範圍仍須經中央映射規則驗證，段考未經學校確認。"
+    "classificationNotes": "翰林官方化學(III)目次明示沉澱反應與溶解平衡單元；教材標示高二、高三全學年。"
   },
   {
     "id": "b30-085",

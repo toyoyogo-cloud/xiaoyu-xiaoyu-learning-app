@@ -471,13 +471,13 @@ window.EXTRA32_GRADE_BANK = [
     "sourceRef": "依108課綱共同核心概念原創編寫；非出版社或歷屆試題原文。",
     "reviewStatus": "rule-checked",
     "learningContent": "正方體表面積",
-    "semester": "unassigned",
-    "examPeriod": "unassigned",
-    "classificationBasis": "curriculum-core",
-    "confidence": "low",
+    "semester": "下學期",
+    "examPeriod": "第二次段考",
+    "classificationBasis": "question-bank-inference",
+    "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "classificationNotes": "依108課綱共同核心概念原創編寫；缺乏可核對的出版社細分單元或學校段考依據，故學期與段考維持未分類。"
+    "classificationNotes": "依六年級題庫常見立體形體單元群推定；非學校正式段考範圍。"
   },
   {
     "id": "b32-016",
@@ -567,13 +567,13 @@ window.EXTRA32_GRADE_BANK = [
     "sourceRef": "依108課綱共同核心概念原創編寫；非出版社或歷屆試題原文。",
     "reviewStatus": "rule-checked",
     "learningContent": "折扣反推",
-    "semester": "unassigned",
-    "examPeriod": "unassigned",
-    "classificationBasis": "curriculum-core",
-    "confidence": "low",
+    "semester": "上學期",
+    "examPeriod": "第二次段考",
+    "classificationBasis": "question-bank-inference",
+    "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "classificationNotes": "依108課綱共同核心概念原創編寫；缺乏可核對的出版社細分單元或學校段考依據，故學期與段考維持未分類。"
+    "classificationNotes": "依六年級題庫常見百分率單元群推定；非學校正式段考範圍。"
   },
   {
     "id": "b32-019",
@@ -2485,7 +2485,7 @@ window.EXTRA32_GRADE_BANK = [
         "subject": "化學",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
+        "courseType": "未確認"
       }
     ],
     "classificationNotes": "題目為原創；翰林官方課本頁僅核對高二上選修化學(I)冊名「物質與能量」，未公開細分目次，僅作冊別層級對照。"
@@ -2544,7 +2544,7 @@ window.EXTRA32_GRADE_BANK = [
         "subject": "化學",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
+        "courseType": "未確認"
       }
     ],
     "classificationNotes": "題目為原創；翰林官方課本頁僅核對高二上選修化學(I)冊名「物質與能量」，未公開細分目次，僅作冊別層級對照。"
