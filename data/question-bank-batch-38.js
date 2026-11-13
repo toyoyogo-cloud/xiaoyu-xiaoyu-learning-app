@@ -982,7 +982,7 @@ window.EXTRA38_GRADE_BANK = [
       "6段",
       "8段"
     ],
-    "a": 2,
+    "a": 1,
     "e": "剩下2.4−0.9＝1.5公尺；1.5÷0.3＝5段。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
