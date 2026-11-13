@@ -498,7 +498,7 @@ Repository → Settings → Pages → Build and deployment → Deploy from a bra
 - 重新核算主要數學、物理、化學題，包括基準量反推、四則運算、雞兔問題、比例尺、加權平均、分數除法、速率、機率、三角函數、指數對數、向量、力矩、動量、功與動能、熱量、氣體定律、反應速率、Ksp、滴定、緩衝及稀釋。
 - 全庫教材稽核：第8至36批共2,400題、2,400個唯一ID；第8至29批1,700題沒有內嵌出版社／學期分類欄位，交由分類推定器依可辨識知識點動態推定，無證據者保留未分類／待核對；第30至36批700題的119筆出版社映射引用均與16筆中央映射核對，未發現年級、科目、學期或課程軌別不符。第30批有91題未儲存classificationNotes，執行時由分類器以sourceRef／預設理由補出說明。
 - 驗證：100題、小六50／高二50；ID b37-001至b37-100唯一；每題四個不同選項、答案索引0–3、解析非空；分類欄位完整；30題出版社映射來源欄位完整且與年級、科目、學期及數學A軌別一致。此為程式規則檢查（`rule-checked`），非教師逐題審核。
-- `index.html` 載入第37批並納入 `bankFor()`；教材分類篩選保留全部版本／共同核心／待核對與零題提示。Service Worker升級至 `xy-learning-v64` 並加入第37批資產；學藝活動歷屆題庫第1至14批與既有圖片資產保留。
+- `index.html` 載入第37批並納入 `bankFor()`；教材分類篩選保留全部版本／共同核心／待核對與零題提示。Service Worker升級至 `xy-learning-v65` 並加入第37批資產；學藝活動歷屆題庫第1至14批與既有圖片資產保留。
 - 瀏覽器端抽題、交卷、錯題重練、收藏與離線快取仍須部署後實測；未宣稱教師審核。
 
 
@@ -515,3 +515,5 @@ Repository → Settings → Pages → Build and deployment → Deploy from a bra
 
 - GitHub合併紀錄：PR [#1](https://github.com/toyoyogo-cloud/xiaoyu-xiaoyu-learning-app/pull/1) 已合併至main，merge commit `0b76d6e99d66502f39f6e9c32ad8032bbcc47494`。
 - 南一雞兔問題來源狀態補充：可讀取的南一官方資源頁a=341列出「數學6下｜怎樣解題：雞兔問題」連結；目標詳情頁a=394本次請求逾時，故映射標為 `official-index-link-only`，只確認官方索引標題所示年級／科目／學期／主題，不宣稱課本單元或出版社編寫原題。
+
+- 後續來源校正：南一雞兔問題詳情頁a=394逾時，改用可讀取的官方索引頁a=341作來源，標示`official-index-link-only`；為刷新分類器及來源狀態，Service Worker再升級至`xy-learning-v65`。
