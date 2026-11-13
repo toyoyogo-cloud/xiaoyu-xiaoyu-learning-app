@@ -765,5 +765,83 @@
       "questionRecordsNotIndexed": 2701,
       "alreadyEmbeddedExtendedMetadataOutsideIndex": 200
     }
+  },
+  "fullMainClassificationAudit": {
+    "auditedAt": "2026-11-13",
+    "branch": "main",
+    "batches": "08-41",
+    "questionCount": 2900,
+    "uniqueQuestionIds": 2900,
+    "duplicateQuestionIds": 0,
+    "gradeDistribution": {
+      "五年級": 290,
+      "六年級": 890,
+      "高一": 373,
+      "高二": 974,
+      "高三": 373
+    },
+    "subjectDistribution": {
+      "國語": 218,
+      "國文": 104,
+      "英文": 128,
+      "英語": 193,
+      "數學": 634,
+      "自然": 243,
+      "社會": 226,
+      "歷史": 136,
+      "地理": 155,
+      "公民": 164,
+      "物理": 218,
+      "化學": 212,
+      "生物": 180,
+      "地球科學": 80,
+      "經濟": 6,
+      "資訊": 1,
+      "資訊素養": 2
+    },
+    "unitLabelCoverage": {
+      "questionsWithUnitOrTopic": 2900,
+      "missingUnitOrTopic": 0
+    },
+    "storedClassificationFields": {
+      "complete": 2900,
+      "missing": 0
+    },
+    "classificationBasisDistribution": {
+      "publisher-source-verified": 259,
+      "question-bank-inference": 218,
+      "curriculum-core": 2423,
+      "unassigned": 0
+    },
+    "semesterDistribution": {
+      "上學期": 301,
+      "下學期": 102,
+      "全學年": 74,
+      "unassigned": 2423
+    },
+    "examPeriodDistribution": {
+      "第一次段考": 58,
+      "第二次段考": 71,
+      "第三次段考": 89,
+      "unassigned": 2682
+    },
+    "publisherStatusDistribution": {
+      "publisher-mapped": 338,
+      "curriculum-core": 2562,
+      "pending": 0
+    },
+    "publisherMappedQuestionCount": 338,
+    "publisherMappingReferenceCount": 338,
+    "centralMappingRegistryCount": 16,
+    "publisherMappingConsistencyErrors": 0,
+    "pendingQuestionCount": 0,
+    "extendedMetadata": {
+      "complete": 399,
+      "remaining": 2501,
+      "separateClassificationIndex": 199,
+      "embeddedInBatches40to41": 200
+    },
+    "newQuestionsAdded": 0,
+    "notes": "所有題目原始批次的semester、examPeriod、classificationBasis、confidence、publisherStatus、publisherMappings、classificationNotes及sourceRef均存在；learningDomain、questionType、learningUnit、difficultyLevel目前由第8至14批199題的獨立索引及第40至41批200題原始欄位持久保存，其餘2501題尚待分批補齊。段考欄位只代表題庫複習建議，不是學校正式段考範圍。出版社映射僅在16筆中央官方來源映射範圍一致時納入。"
   }
 }
