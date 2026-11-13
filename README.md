@@ -555,3 +555,5 @@ Repository → Settings → Pages → Build and deployment → Deploy from a bra
 - 38筆映射逐筆核對中央mappingId、來源URL／標題、verifiedAt、verificationStatus、年級、科目、學期、軌別及單元／冊別範圍；物理II、化學II、生物II僅標冊別層級。
 - 完成四選項、答案索引、解析、分類欄位、ID唯一、批次內重複題及跨第8至38批正規化題幹比對；程式規則檢查，不代表教師逐題審核。瀏覽器端互動及Pages部署仍待確認。
 - index.html 載入第39批並納入 bankFor()；Service Worker 快取升級至 v68 並加入第39批資產。錯題本、收藏、測驗紀錄及學藝活動題庫維持原有引用。
+
+- 追加執行分類器 v12 對第39批100題逐題回歸：semester、examPeriod、classificationBasis、confidence、publisherStatus及publisherMappings與儲存欄位100/100一致，執行錯誤0、不一致0；17題依題庫知識點推定學期／段考，未有依據者保留未分類。
