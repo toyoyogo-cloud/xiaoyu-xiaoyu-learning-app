@@ -631,13 +631,13 @@ window.EXTRA33_GRADE_BANK = [
     "sourceRef": "依108課綱共同核心概念原創編寫；非出版社或歷屆試題原文。",
     "reviewStatus": "rule-checked",
     "learningContent": "比與比例",
-    "semester": "unassigned",
-    "examPeriod": "unassigned",
-    "classificationBasis": "curriculum-core",
-    "confidence": "low",
+    "semester": "上學期",
+    "examPeriod": "第一次段考",
+    "classificationBasis": "question-bank-inference",
+    "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "classificationNotes": "依108課綱共同核心概念原創編寫；沒有足夠可靠資料確認出版社細分單元或學校段考範圍，因此維持未分類。"
+    "classificationNotes": "依六年級題庫常見單元群推定上學期前段；非學校正式段考範圍。"
   },
   {
     "id": "b33-021",
@@ -663,13 +663,13 @@ window.EXTRA33_GRADE_BANK = [
     "sourceRef": "依108課綱共同核心概念原創編寫；非出版社或歷屆試題原文。",
     "reviewStatus": "rule-checked",
     "learningContent": "折扣反推",
-    "semester": "unassigned",
-    "examPeriod": "unassigned",
-    "classificationBasis": "curriculum-core",
-    "confidence": "low",
+    "semester": "上學期",
+    "examPeriod": "第二次段考",
+    "classificationBasis": "question-bank-inference",
+    "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "classificationNotes": "依108課綱共同核心概念原創編寫；沒有足夠可靠資料確認出版社細分單元或學校段考範圍，因此維持未分類。"
+    "classificationNotes": "依六年級題庫常見百分率單元群推定；非學校正式段考範圍。"
   },
   {
     "id": "b33-022",
@@ -695,13 +695,13 @@ window.EXTRA33_GRADE_BANK = [
     "sourceRef": "依108課綱共同核心概念原創編寫；非出版社或歷屆試題原文。",
     "reviewStatus": "rule-checked",
     "learningContent": "平均速率",
-    "semester": "unassigned",
-    "examPeriod": "unassigned",
-    "classificationBasis": "curriculum-core",
-    "confidence": "low",
+    "semester": "上學期",
+    "examPeriod": "第三次段考",
+    "classificationBasis": "question-bank-inference",
+    "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "classificationNotes": "依108課綱共同核心概念原創編寫；沒有足夠可靠資料確認出版社細分單元或學校段考範圍，因此維持未分類。"
+    "classificationNotes": "依六年級題庫常見比例尺與速率單元群推定；非學校正式段考範圍。"
   },
   {
     "id": "b33-023",
@@ -759,13 +759,13 @@ window.EXTRA33_GRADE_BANK = [
     "sourceRef": "依108課綱共同核心概念原創編寫；非出版社或歷屆試題原文。",
     "reviewStatus": "rule-checked",
     "learningContent": "長方體體積",
-    "semester": "unassigned",
-    "examPeriod": "unassigned",
-    "classificationBasis": "curriculum-core",
-    "confidence": "low",
+    "semester": "下學期",
+    "examPeriod": "第二次段考",
+    "classificationBasis": "question-bank-inference",
+    "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "classificationNotes": "依108課綱共同核心概念原創編寫；沒有足夠可靠資料確認出版社細分單元或學校段考範圍，因此維持未分類。"
+    "classificationNotes": "依六年級題庫常見立體形體單元群推定；非學校正式段考範圍。"
   },
   {
     "id": "b33-025",
@@ -791,13 +791,13 @@ window.EXTRA33_GRADE_BANK = [
     "sourceRef": "依108課綱共同核心概念原創編寫；非出版社或歷屆試題原文。",
     "reviewStatus": "rule-checked",
     "learningContent": "比例尺",
-    "semester": "unassigned",
-    "examPeriod": "unassigned",
-    "classificationBasis": "curriculum-core",
-    "confidence": "low",
+    "semester": "上學期",
+    "examPeriod": "第三次段考",
+    "classificationBasis": "question-bank-inference",
+    "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "classificationNotes": "依108課綱共同核心概念原創編寫；沒有足夠可靠資料確認出版社細分單元或學校段考範圍，因此維持未分類。"
+    "classificationNotes": "依六年級題庫常見比例尺與速率單元群推定；非學校正式段考範圍。"
   },
   {
     "id": "b33-026",
@@ -823,13 +823,13 @@ window.EXTRA33_GRADE_BANK = [
     "sourceRef": "依108課綱共同核心概念原創編寫；非出版社或歷屆試題原文。",
     "reviewStatus": "rule-checked",
     "learningContent": "平均數",
-    "semester": "unassigned",
-    "examPeriod": "unassigned",
-    "classificationBasis": "curriculum-core",
-    "confidence": "low",
+    "semester": "下學期",
+    "examPeriod": "第三次段考",
+    "classificationBasis": "question-bank-inference",
+    "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "classificationNotes": "依108課綱共同核心概念原創編寫；沒有足夠可靠資料確認出版社細分單元或學校段考範圍，因此維持未分類。"
+    "classificationNotes": "依六年級題庫常見統計與機率單元群推定；非學校正式段考範圍。"
   },
   {
     "id": "b33-027",
@@ -855,13 +855,13 @@ window.EXTRA33_GRADE_BANK = [
     "sourceRef": "依108課綱共同核心概念原創編寫；非出版社或歷屆試題原文。",
     "reviewStatus": "rule-checked",
     "learningContent": "獨立事件機率",
-    "semester": "unassigned",
-    "examPeriod": "unassigned",
-    "classificationBasis": "curriculum-core",
-    "confidence": "low",
+    "semester": "下學期",
+    "examPeriod": "第三次段考",
+    "classificationBasis": "question-bank-inference",
+    "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "classificationNotes": "依108課綱共同核心概念原創編寫；沒有足夠可靠資料確認出版社細分單元或學校段考範圍，因此維持未分類。"
+    "classificationNotes": "依六年級題庫常見統計與機率單元群推定；非學校正式段考範圍。"
   },
   {
     "id": "b33-028",
@@ -951,13 +951,13 @@ window.EXTRA33_GRADE_BANK = [
     "sourceRef": "依108課綱共同核心概念原創編寫；非出版社或歷屆試題原文。",
     "reviewStatus": "rule-checked",
     "learningContent": "圓周長",
-    "semester": "unassigned",
-    "examPeriod": "unassigned",
-    "classificationBasis": "curriculum-core",
-    "confidence": "low",
+    "semester": "下學期",
+    "examPeriod": "第一次段考",
+    "classificationBasis": "question-bank-inference",
+    "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "classificationNotes": "依108課綱共同核心概念原創編寫；沒有足夠可靠資料確認出版社細分單元或學校段考範圍，因此維持未分類。"
+    "classificationNotes": "依六年級題庫常見圓形單元群推定；非學校正式段考範圍。"
   },
   {
     "id": "b33-031",
@@ -1594,7 +1594,7 @@ window.EXTRA33_GRADE_BANK = [
     "semester": "上學期",
     "examPeriod": "unassigned",
     "classificationBasis": "publisher-source-verified",
-    "confidence": "medium",
+    "confidence": "high",
     "publisherStatus": "publisher-mapped",
     "publisherMappings": [
       {
@@ -1624,7 +1624,7 @@ window.EXTRA33_GRADE_BANK = [
         "courseType": "國小"
       }
     ],
-    "classificationNotes": "依既有康軒官方教學資源可核對六上2-1主題；未有學校正式範圍，段考維持未分類。"
+    "classificationNotes": "康軒官方六上2-1教學資源明示個人發展與社會變遷單元；不代表學校採用版本。"
   },
   {
     "id": "b33-051",
@@ -2081,10 +2081,10 @@ window.EXTRA33_GRADE_BANK = [
         "subject": "物理",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
+        "courseType": "未確認"
       }
     ],
-    "classificationNotes": "依既有翰林官方教材來源作冊別／單元層級對照；不推定學校段考次序，題目仍為原創而非教材原文。"
+    "classificationNotes": "翰林官方頁確認高二上選修物理(II)冊名「力學二與熱學」；只作冊別層級對照，未核對細分單元或段考。"
   },
   {
     "id": "b33-064",
@@ -2157,10 +2157,10 @@ window.EXTRA33_GRADE_BANK = [
         "subject": "物理",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
+        "courseType": "未確認"
       }
     ],
-    "classificationNotes": "依既有翰林官方教材來源作冊別／單元層級對照；不推定學校段考次序，題目仍為原創而非教材原文。"
+    "classificationNotes": "翰林官方頁確認高二上選修物理(II)冊名「力學二與熱學」；只作冊別層級對照，未核對細分單元或段考。"
   },
   {
     "id": "b33-065",
@@ -2329,10 +2329,10 @@ window.EXTRA33_GRADE_BANK = [
         "subject": "物理",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
+        "courseType": "未確認"
       }
     ],
-    "classificationNotes": "依既有翰林官方教材來源作冊別／單元層級對照；不推定學校段考次序，題目仍為原創而非教材原文。"
+    "classificationNotes": "翰林官方頁確認高二上選修物理(II)冊名「力學二與熱學」；只作冊別層級對照，未核對細分單元或段考。"
   },
   {
     "id": "b33-069",
@@ -2405,10 +2405,10 @@ window.EXTRA33_GRADE_BANK = [
         "subject": "物理",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
+        "courseType": "未確認"
       }
     ],
-    "classificationNotes": "依既有翰林官方教材來源作冊別／單元層級對照；不推定學校段考次序，題目仍為原創而非教材原文。"
+    "classificationNotes": "翰林官方頁確認高二上選修物理(II)冊名「力學二與熱學」；只作冊別層級對照，未核對細分單元或段考。"
   },
   {
     "id": "b33-070",
@@ -2479,7 +2479,7 @@ window.EXTRA33_GRADE_BANK = [
         "sourceTitle": "翰林書城－高中課本選修化學(II)物質構造與反應速率",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "翰林官方課本頁明示高中2年級、上學期及冊名「選修化學(II)物質構造與反應速率」；僅冊別層級，不宣稱細分單元已核對。不同商品編號的實驗手冊或習作可能有不同學期，不能與此課本頁混用。此映射不代表學校採用版本。",
+        "notes": "官方翰林課本頁明示高中2年級、上學期及冊名「選修化學(II)物質構造與反應速率」；僅冊別層級，不宣稱細分單元已核對。不同商品編號的實驗手冊或習作可能有不同學期，不能與此課本頁混用。此映射不代表學校採用版本。",
         "mappingLevel": "volume",
         "volume": "選修化學(II)物質構造與反應速率",
         "unitCode": "全冊",
@@ -2499,10 +2499,10 @@ window.EXTRA33_GRADE_BANK = [
         "subject": "化學",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
+        "courseType": "未確認"
       }
     ],
-    "classificationNotes": "依翰林官方課本頁核對：高中2年級、上學期、選修化學(II)「物質構造與反應速率」；此為冊名／主題層級對照，非學校正式進度。"
+    "classificationNotes": "翰林官方頁確認高二上選修化學(II)冊名「物質構造與反應速率」；只作冊別／主題層級對照。"
   },
   {
     "id": "b33-072",
@@ -2531,7 +2531,7 @@ window.EXTRA33_GRADE_BANK = [
     "semester": "全學年",
     "examPeriod": "unassigned",
     "classificationBasis": "publisher-source-verified",
-    "confidence": "medium",
+    "confidence": "high",
     "publisherStatus": "publisher-mapped",
     "publisherMappings": [
       {
@@ -2559,10 +2559,10 @@ window.EXTRA33_GRADE_BANK = [
         "subject": "化學",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
+        "courseType": "未確認"
       }
     ],
-    "classificationNotes": "依既有翰林官方教材來源作冊別／單元層級對照；不推定學校段考次序，題目仍為原創而非教材原文。"
+    "classificationNotes": "翰林官方化學(III)目次明示化學平衡單元；教材標示高二、高三全學年。"
   },
   {
     "id": "b33-073",
@@ -2591,7 +2591,7 @@ window.EXTRA33_GRADE_BANK = [
     "semester": "全學年",
     "examPeriod": "unassigned",
     "classificationBasis": "publisher-source-verified",
-    "confidence": "medium",
+    "confidence": "high",
     "publisherStatus": "publisher-mapped",
     "publisherMappings": [
       {
@@ -2619,10 +2619,10 @@ window.EXTRA33_GRADE_BANK = [
         "subject": "化學",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
+        "courseType": "未確認"
       }
     ],
-    "classificationNotes": "依既有翰林官方教材來源作冊別／單元層級對照；不推定學校段考次序，題目仍為原創而非教材原文。"
+    "classificationNotes": "翰林官方化學(III)目次明示化學平衡單元；教材標示高二、高三全學年。"
   },
   {
     "id": "b33-074",
@@ -2651,7 +2651,7 @@ window.EXTRA33_GRADE_BANK = [
     "semester": "全學年",
     "examPeriod": "unassigned",
     "classificationBasis": "publisher-source-verified",
-    "confidence": "medium",
+    "confidence": "high",
     "publisherStatus": "publisher-mapped",
     "publisherMappings": [
       {
@@ -2679,10 +2679,10 @@ window.EXTRA33_GRADE_BANK = [
         "subject": "化學",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
+        "courseType": "未確認"
       }
     ],
-    "classificationNotes": "依既有翰林官方教材來源作冊別／單元層級對照；不推定學校段考次序，題目仍為原創而非教材原文。"
+    "classificationNotes": "翰林官方化學(III)目次明示沉澱反應與溶解平衡單元；教材標示高二、高三全學年。"
   },
   {
     "id": "b33-075",
@@ -2711,7 +2711,7 @@ window.EXTRA33_GRADE_BANK = [
     "semester": "全學年",
     "examPeriod": "unassigned",
     "classificationBasis": "publisher-source-verified",
-    "confidence": "medium",
+    "confidence": "high",
     "publisherStatus": "publisher-mapped",
     "publisherMappings": [
       {
@@ -2739,10 +2739,10 @@ window.EXTRA33_GRADE_BANK = [
         "subject": "化學",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
+        "courseType": "未確認"
       }
     ],
-    "classificationNotes": "依既有翰林官方教材來源作冊別／單元層級對照；不推定學校段考次序，題目仍為原創而非教材原文。"
+    "classificationNotes": "翰林官方化學(III)目次明示酸鹼反應單元；教材標示高二、高三全學年。"
   },
   {
     "id": "b33-076",
@@ -2771,7 +2771,7 @@ window.EXTRA33_GRADE_BANK = [
     "semester": "全學年",
     "examPeriod": "unassigned",
     "classificationBasis": "publisher-source-verified",
-    "confidence": "medium",
+    "confidence": "high",
     "publisherStatus": "publisher-mapped",
     "publisherMappings": [
       {
@@ -2799,10 +2799,10 @@ window.EXTRA33_GRADE_BANK = [
         "subject": "化學",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
+        "courseType": "未確認"
       }
     ],
-    "classificationNotes": "依既有翰林官方教材來源作冊別／單元層級對照；不推定學校段考次序，題目仍為原創而非教材原文。"
+    "classificationNotes": "翰林官方化學(III)目次明示酸鹼反應單元；教材標示高二、高三全學年。"
   },
   {
     "id": "b33-077",
@@ -2890,7 +2890,7 @@ window.EXTRA33_GRADE_BANK = [
         "subject": "化學",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
+        "courseType": "未確認"
       }
     ],
     "classificationNotes": "翰林官方頁確認高二上選修化學(I)「物質與能量」冊別；本題只作冊別層級對照，不推定細分單元或段考。"
@@ -2984,10 +2984,10 @@ window.EXTRA33_GRADE_BANK = [
         "subject": "生物",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
+        "courseType": "未確認"
       }
     ],
-    "classificationNotes": "依既有翰林官方教材來源作冊別／單元層級對照；不推定學校段考次序，題目仍為原創而非教材原文。"
+    "classificationNotes": "翰林官方課本頁確認高二上選修生物(II)「生命的起源與植物」；只作冊別層級對照，不宣稱細分目次。"
   },
   {
     "id": "b33-081",
@@ -3046,10 +3046,10 @@ window.EXTRA33_GRADE_BANK = [
         "subject": "生物",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
+        "courseType": "未確認"
       }
     ],
-    "classificationNotes": "依既有翰林官方教材來源作冊別／單元層級對照；不推定學校段考次序，題目仍為原創而非教材原文。"
+    "classificationNotes": "翰林官方課本頁確認高二上選修生物(II)「生命的起源與植物」；只作冊別層級對照，不宣稱細分目次。"
   },
   {
     "id": "b33-082",
