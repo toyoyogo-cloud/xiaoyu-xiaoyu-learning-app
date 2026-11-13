@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.1.0",
   "updatedAt": "2026-11-14",
-  "classificationRuleVersion": "2026-11-14.31",
+  "classificationRuleVersion": "2026-11-14.33",
   "batchRange": "26-31",
   "sourceBatchShas": {
     "26": "6b3087b61bdacfb141f64498040285ffe18a4ddc",
@@ -1604,7 +1604,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。",
       "sourceRef": "依108課綱核心素養與學科概念原創編寫；非歷屆試題原文",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "閱讀理解",
       "questionType": "推理判斷",
       "learningUnit": "因果推論",
       "difficultyLevel": "挑戰"
@@ -3694,7 +3694,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。",
       "sourceRef": "依108課綱核心素養與學科概念原創編寫；非歷屆試題原文",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "人文地理",
       "questionType": "概念辨識",
       "learningUnit": "外部成本與政策",
       "difficultyLevel": "進階"
@@ -3751,7 +3751,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。",
       "sourceRef": "依108課綱核心素養與學科概念原創編寫；非歷屆試題原文",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "閱讀理解",
       "questionType": "概念辨識",
       "learningUnit": "篇章轉折",
       "difficultyLevel": "進階"
@@ -4245,7 +4245,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。",
       "sourceRef": "依108課綱核心素養與學科概念原創編寫；非歷屆試題原文",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "文法句型",
       "questionType": "概念辨識",
       "learningUnit": "過去簡單式",
       "difficultyLevel": "基礎"
@@ -4340,7 +4340,7 @@
       "publisherMappings": [],
       "classificationNotes": "依六年級題庫常見單元群推定上學期前段；非學校正式段考範圍。",
       "sourceRef": "依108課綱核心素養與學科概念原創編寫；非歷屆試題原文",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "數與運算",
       "questionType": "概念辨識",
       "learningUnit": "比與分配",
       "difficultyLevel": "進階"
@@ -5898,7 +5898,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。",
       "sourceRef": "依108課綱核心素養與學科概念原創編寫；非歷屆試題原文",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "數與運算",
       "questionType": "計算應用",
       "learningUnit": "比的應用",
       "difficultyLevel": "挑戰"
@@ -6145,7 +6145,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。",
       "sourceRef": "依108課綱核心素養與學科概念原創編寫；非歷屆試題原文",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "文法句型",
       "questionType": "概念辨識",
       "learningUnit": "過去簡單式",
       "difficultyLevel": "基礎"
@@ -8797,7 +8797,7 @@
       ],
       "classificationNotes": "已確認題目課程軌別為數學A；依翰林數學3A官方單元次序推定段考，非學校正式範圍。",
       "sourceRef": "https://books.hanlin.com.tw/product/433021",
-      "learningDomain": "代數與函數",
+      "learningDomain": "幾何與測量",
       "questionType": "計算應用",
       "learningUnit": "三角函數圖形",
       "difficultyLevel": "進階"
@@ -8850,7 +8850,7 @@
       ],
       "classificationNotes": "已確認題目課程軌別為數學A；依翰林數學3A官方單元次序推定段考，非學校正式範圍。",
       "sourceRef": "https://books.hanlin.com.tw/product/433021",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "幾何與測量",
       "questionType": "概念辨識",
       "learningUnit": "弧度量",
       "difficultyLevel": "進階"
@@ -9479,7 +9479,7 @@
       ],
       "classificationNotes": "已確認題目課程軌別為數學A；依翰林數學3A官方單元次序推定段考，非學校正式範圍。",
       "sourceRef": "https://books.hanlin.com.tw/product/433021",
-      "learningDomain": "數與運算",
+      "learningDomain": "幾何與測量",
       "questionType": "概念辨識",
       "learningUnit": "單位向量",
       "difficultyLevel": "挑戰"
@@ -10353,7 +10353,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心編寫；缺乏可核對的出版社單元或段考依據，故維持未分類。",
       "sourceRef": "依108課綱共同核心概念原創編寫；非出版社或歷屆試題原文。",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "文法句型",
       "questionType": "概念辨識",
       "learningUnit": "情態助動詞",
       "difficultyLevel": "進階"
@@ -10847,7 +10847,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心編寫；缺乏可核對的出版社單元或段考依據，故維持未分類。",
       "sourceRef": "依108課綱共同核心概念原創編寫；非出版社或歷屆試題原文。",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "地球環境",
       "questionType": "推理判斷",
       "learningUnit": "溫室效應",
       "difficultyLevel": "未標示"
@@ -11083,7 +11083,7 @@
       "publisherMappings": [],
       "classificationNotes": "原先依翰林數學3A單元次序標記，但題目未記錄數學A/B軌別；依版本隔離原則移除出版社映射並恢復未分類，待確認課程軌別後再映射。",
       "sourceRef": "題目為原創；教材冊別／單元對照僅參照出版社官方商品頁或目次，非教材或歷屆試題原文。",
-      "learningDomain": "代數與函數",
+      "learningDomain": "幾何與測量",
       "questionType": "概念辨識",
       "learningUnit": "三角函數基本關係",
       "difficultyLevel": "基礎"
@@ -11121,7 +11121,7 @@
       "publisherMappings": [],
       "classificationNotes": "原先依翰林數學3A單元次序標記，但題目未記錄數學A/B軌別；依版本隔離原則移除出版社映射並恢復未分類，待確認課程軌別後再映射。",
       "sourceRef": "題目為原創；教材冊別／單元對照僅參照出版社官方商品頁或目次，非教材或歷屆試題原文。",
-      "learningDomain": "代數與函數",
+      "learningDomain": "幾何與測量",
       "questionType": "概念辨識",
       "learningUnit": "三角函數週期",
       "difficultyLevel": "進階"
@@ -11140,7 +11140,7 @@
       "publisherMappings": [],
       "classificationNotes": "原先依翰林數學3A單元次序標記，但題目未記錄數學A/B軌別；依版本隔離原則移除出版社映射並恢復未分類，待確認課程軌別後再映射。",
       "sourceRef": "題目為原創；教材冊別／單元對照僅參照出版社官方商品頁或目次，非教材或歷屆試題原文。",
-      "learningDomain": "代數與函數",
+      "learningDomain": "幾何與測量",
       "questionType": "概念辨識",
       "learningUnit": "三角函數值域",
       "difficultyLevel": "進階"
@@ -11273,7 +11273,7 @@
       "publisherMappings": [],
       "classificationNotes": "原先依翰林數學3A單元次序標記，但題目未記錄數學A/B軌別；依版本隔離原則移除出版社映射並恢復未分類，待確認課程軌別後再映射。",
       "sourceRef": "題目為原創；教材冊別／單元對照僅參照出版社官方商品頁或目次，非教材或歷屆試題原文。",
-      "learningDomain": "數與運算",
+      "learningDomain": "幾何與測量",
       "questionType": "概念辨識",
       "learningUnit": "單位向量",
       "difficultyLevel": "基礎"
