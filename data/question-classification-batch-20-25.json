@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.1.0",
   "updatedAt": "2026-11-14",
-  "classificationRuleVersion": "2026-11-14.29",
+  "classificationRuleVersion": "2026-11-14.31",
   "batchRange": "20-25",
   "sourceBatchShas": {
     "20": "679b5752f1be7ee03e8b20de4221fa873c0f5bf5",
@@ -1718,7 +1718,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。",
       "sourceRef": "依108課綱核心素養與學科概念原創編寫；非歷屆試題原文",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "人文地理",
       "questionType": "概念辨識",
       "learningUnit": "國際貿易",
       "difficultyLevel": "挑戰"
@@ -2060,7 +2060,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。",
       "sourceRef": "依108課綱核心素養與學科概念原創編寫；非歷屆試題原文",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "統計與機率",
       "questionType": "圖表資料判讀",
       "learningUnit": "折線圖變化量",
       "difficultyLevel": "進階"
@@ -2744,7 +2744,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。",
       "sourceRef": "依108課綱核心素養與學科概念原創編寫；非歷屆試題原文",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "文法句型",
       "questionType": "概念辨識",
       "learningUnit": "平行結構",
       "difficultyLevel": "挑戰"
@@ -2839,7 +2839,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。",
       "sourceRef": "依108課綱核心素養與學科概念原創編寫；非歷屆試題原文",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "自然地理",
       "questionType": "概念辨識",
       "learningUnit": "坡地災害風險",
       "difficultyLevel": "進階"
@@ -2915,7 +2915,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。",
       "sourceRef": "依108課綱核心素養與學科概念原創編寫；非歷屆試題原文",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "力學運動",
       "questionType": "概念辨識",
       "learningUnit": "浮力與排開液體",
       "difficultyLevel": "進階"
@@ -4302,7 +4302,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。",
       "sourceRef": "依108課綱核心素養與學科概念原創編寫；非歷屆試題原文",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "法律人權",
       "questionType": "概念辨識",
       "learningUnit": "個人資料目的限制",
       "difficultyLevel": "進階"
@@ -4435,7 +4435,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。",
       "sourceRef": "依108課綱核心素養與學科概念原創編寫；非歷屆試題原文",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "反應與計量",
       "questionType": "概念辨識",
       "learningUnit": "化學變化辨識",
       "difficultyLevel": "進階"
@@ -4796,7 +4796,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。",
       "sourceRef": "依108課綱核心素養與學科概念原創編寫；非歷屆試題原文",
-      "learningDomain": "區域地理",
+      "learningDomain": "自然地理",
       "questionType": "推理判斷",
       "learningUnit": "季風形成",
       "difficultyLevel": "進階"
@@ -5556,7 +5556,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。",
       "sourceRef": "依108課綱核心素養與學科概念原創編寫；非歷屆試題原文",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "波動聲光",
       "questionType": "計算應用",
       "learningUnit": "薄透鏡成像距離",
       "difficultyLevel": "挑戰"
@@ -6848,7 +6848,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。",
       "sourceRef": "依108課綱核心素養與學科概念原創編寫；非歷屆試題原文",
-      "learningDomain": "地球系統",
+      "learningDomain": "大氣氣候",
       "questionType": "概念辨識",
       "learningUnit": "颱風結構",
       "difficultyLevel": "進階"
@@ -8558,7 +8558,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。",
       "sourceRef": "依108課綱核心素養與學科概念原創編寫；非歷屆試題原文",
-      "learningDomain": "區域地理",
+      "learningDomain": "自然地理",
       "questionType": "概念辨識",
       "learningUnit": "季風",
       "difficultyLevel": "基礎"
