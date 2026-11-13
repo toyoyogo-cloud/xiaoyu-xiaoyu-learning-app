@@ -848,7 +848,8 @@
     "第37批新增30題來源映射均以中央mappingId連結；執行時分類器回歸測試確認100題的semester、examPeriod、classificationBasis、publisherStatus及publisherMappings均與批次檔儲存欄位一致。",
     "第37批已透過PR #1合併至main，merge commit 0b76d6e99d66502f39f6e9c32ad8032bbcc47494；main已包含第37批及本次全庫來源稽核。",
     "2026-11-13來源狀態細化：南一平台「數學6下｜怎樣解題：雞兔問題」詳情頁請求逾時，僅能由南一官方資源頁的熱門文章連結標題確認主題與年級／科目／學期；映射降為official-resource-title與official-index-link-only，不宣稱南一課本單元或原題。",
-    "雞兔問題mapping的sourceUrl改指向可讀取的南一官方索引頁a=341，另保留targetUrl=a=394作為連結目標；verificationStatus仍為official-index-link-only。"
+    "雞兔問題mapping的sourceUrl改指向可讀取的南一官方索引頁a=341，另保留targetUrl=a=394作為連結目標；verificationStatus仍為official-index-link-only。",
+    "第37批30筆題目映射中，28筆為可直接讀取來源核對，2筆雞兔問題映射僅由南一官方索引頁標題確認（official-index-link-only）；中央16筆映射中15筆source-checked、1筆official-index-link-only。"
   ],
   "lastAudit": {
     "verifiedAt": "2026-11-13",
@@ -947,7 +948,11 @@
         "knsh": 1,
         "nani": 6
       },
-      "runtimeMatchesStoredFields": true
+      "runtimeMatchesStoredFields": true,
+      "verificationStatusCounts": {
+        "sourceChecked": 28,
+        "officialIndexLinkOnly": 2
+      }
     },
     "afterBatch37": {
       "questions": 2500,
@@ -974,7 +979,11 @@
         "knsh": 5,
         "nani": 9
       },
-      "centralMappingRecords": 16
+      "centralMappingRecords": 16,
+      "centralMappingVerificationStatusCounts": {
+        "sourceChecked": 15,
+        "officialIndexLinkOnly": 1
+      }
     },
     "mergeCommit": "0b76d6e99d66502f39f6e9c32ad8032bbcc47494"
   }
