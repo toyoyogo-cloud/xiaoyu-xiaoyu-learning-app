@@ -275,14 +275,30 @@ document.getElementById("practiceSaved").onclick=()=>{if(!db.saved.length){toast
 document.getElementById("exportData").onclick=()=>{const blob=new Blob([JSON.stringify(db,null,2)],{type:"application/json"});const a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download="小宇小妤學習資料備份.json";a.click();URL.revokeObjectURL(a.href);toast("備份檔已匯出")};
 document.getElementById("importFile").onchange=async e=>{const f=e.target.files[0];if(!f)return;try{const x=JSON.parse(await f.text());if(!x||!Array.isArray(x.records)||!Array.isArray(x.wrong)||!Array.isArray(x.saved))throw new Error("格式不正確");db.records=x.records.concat(db.records).slice(0,300);db.wrong=x.wrong.concat(db.wrong);db.saved=x.saved.concat(db.saved);db.academicRecords=(Array.isArray(x.academicRecords)?x.academicRecords:[]).concat(db.academicRecords||[]).slice(0,300);if(x.profile)db.profile=x.profile;persist();toast("資料匯入完成")}catch(err){toast("匯入失敗：備份格式不正確")}e.target.value=""};
 document.getElementById("clearData").onclick=()=>{if(confirm("確定清除這台裝置的暱稱、紀錄、錯題與收藏？此操作無法復原。")){db=fresh();persist();profileInit();toast("本機資料已清除")}};
-function loadPersistedClassifications(){
- fetch("./data/question-classification.json").then(r=>{if(!r.ok)throw new Error("classification index unavailable");return r.json();}).then(data=>{
+async function loadPersistedClassifications(){
+ try{
+  const response=await fetch("./data/question-classification.json");
+  if(!response.ok)throw new Error("classification manifest unavailable");
+  const data=await response.json();
   const index=data&&data.questions&&typeof data.questions==="object"?data.questions:{};
+  const shards=Array.isArray(data.shards)?data.shards:[];
+  const parts=await Promise.all(shards.map(async shard=>{
+   const path=typeof shard==="string"?shard:shard.path;
+   if(!path)throw new Error("invalid classification shard path");
+   const url=path.startsWith("./")?path:"./"+path;
+   const r=await fetch(url);
+   if(!r.ok)throw new Error("classification shard unavailable: "+path);
+   return r.json();
+  }));
+  parts.forEach(part=>{
+   const saved=part&&part.questions&&typeof part.questions==="object"?part.questions:part;
+   if(saved&&typeof saved==="object")Object.assign(index,saved);
+  });
   window.QUESTION_CLASSIFICATION_INDEX=index;
   if(state.subject)renderUnits();
   updateAvailable();
   if(state.questions.length&&!document.getElementById("quizPanel").classList.contains("hidden"))renderQuestion();
- }).catch(()=>{});
+ }catch(err){}
 }
 profileInit();renderGradeOptions();refreshAll();loadPersistedClassifications();
 if("serviceWorker" in navigator){window.addEventListener("load",()=>navigator.serviceWorker.register("./sw.js").catch(()=>{}));}
