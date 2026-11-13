@@ -19,7 +19,7 @@ const UNIT_ALIASES={
 const VOLUME_SCOPES={
  "hanlin-h2-physics-ii":["動量","衝量","碰撞","作功","做功","做的功","機械功","位能","動能","力矩","角動量","熱","比熱","熱膨脹","熱傳導","熱力學","熱機","氣體","彈簧","圓周","向心","波以耳","線膨脹","機械能"],
  "hanlin-h2-chemistry-ii-structure-rate":["反應速率","催化劑","活化能","反應級數","物質構造","電子組態","價電子"],
- "hanlin-h2-biology-ii-plant":["植物細胞","光合作用","蒸散","氣孔","維管束","木質部","韌皮部"],
+ "hanlin-h2-biology-ii-plant":["植物細胞","光合作用","蒸散","氣孔","維管束","木質部","韌皮部","向光性","花粉管","雙重受精","植物激素","乙烯","果實成熟"],
  "hanlin-h2-chemistry-i-matter-energy":["焓","反應熱","能量","赫斯定律"],
  "hanlin-g6-math-6a-volume":[],
  "hanlin-g6-math-6b-volume":[]
@@ -193,5 +193,5 @@ function classify(q){
  return {semester,examPeriod,classificationBasis:basis,confidence,publisherStatus,publisherMappings:mappings,classificationNotes:notes,reason:notes,sourceRef,learningDomain:source.learningDomain||domainFor(source),questionType:source.questionType||typeFor(source),learningUnit:source.learningUnit||label(source)||"未標示",difficultyLevel:difficultyFor(source)};
 }
 window.questionClassificationFor=classify;
-window.QUESTION_CLASSIFICATION_RULES_VERSION="2026-11-14.22";
+window.QUESTION_CLASSIFICATION_RULES_VERSION="2026-11-14.23";
 })();
