@@ -136,69 +136,45 @@ function classify(q){
  q=q||{};
  const savedIndex=window.QUESTION_CLASSIFICATION_INDEX;
  const saved=savedIndex&&q.id?savedIndex[q.id]:null;
- if(saved){
-  return Object.assign({},saved,{
-   reason:saved.classificationNotes||saved.reason||"已載入持久化分類資料。",
-   learningUnit:saved.learningUnit||label(q)||"未標示",
-   difficultyLevel:saved.difficultyLevel||q.d||q.difficulty||"未標示"
-  });
- }
- const isCore=core(q);
- let semester=q.semester||UN, examPeriod=q.examPeriod||UN;
- let basis=q.classificationBasis||(isCore?"curriculum-core":"unassigned");
- let confidence=q.confidence||"low";
- let publisherStatus=q.publisherStatus||(isCore?"curriculum-core":"pending");
- let notes=q.classificationNotes||q.reason||(isCore?"依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。":"來源與分類資料不足，待核對。");
- let mappings=resolveMappings(q);
- let rejectedMapping=Array.isArray(q.publisherMappings)&&q.publisherMappings.length>0&&mappings.length===0;
- const rule=inferred(q);
+ // 已保存分類優先；但未分類學期／段考仍可由後續有依據的規則補齊。
+ const source=saved?Object.assign({},q,saved):q;
+ const isCore=core(source);
+ let semester=source.semester||UN, examPeriod=source.examPeriod||UN;
+ let basis=source.classificationBasis||(isCore?"curriculum-core":"unassigned");
+ let confidence=source.confidence||"low";
+ let publisherStatus=source.publisherStatus||(isCore?"curriculum-core":"pending");
+ let notes=source.classificationNotes||source.reason||(isCore?"依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。":"來源與分類資料不足，待核對。");
+ let mappings=resolveMappings(source);
+ let rejectedMapping=Array.isArray(source.publisherMappings)&&source.publisherMappings.length>0&&mappings.length===0;
+ const rule=(semester===UN||examPeriod===UN)?inferred(source):null;
  if(rule){
   if(semester===UN&&rule.semester)semester=rule.semester;
   if(examPeriod===UN&&rule.examPeriod)examPeriod=rule.examPeriod;
   if(rule.mappingId&&!mappings.some(m=>m.mappingId===rule.mappingId)){
    const m=MAPS[rule.mappingId];
-   if(m&&validMappingForQuestion(q,m,rule.mappingId)){
-    mappings.push({
-     publisher:m.publisher,mappingId:m.mappingId||m.id,sourceUrl:m.sourceUrl,
-     sourceTitle:m.sourceTitle,verifiedAt:m.verifiedAt,verificationStatus:m.verificationStatus,
-     notes:m.notes,mappingLevel:m.mappingLevel||"volume",volume:m.volume||m.unitName||"",
-     unitCode:m.unitCode||"",unitName:m.unitName||"",unitAliases:UNIT_ALIASES[rule.mappingId]||[],
-     scopeKeywords:VOLUME_SCOPES[rule.mappingId]||[],semester:m.semester||UN,
-     grade:m.grade,subject:m.subject,courseTrack:m.courseTrack||null,
-     schoolYear:m.schoolYear||"未標示",courseType:m.courseType||"未確認"
-    });
+   if(m&&validMappingForQuestion(source,m,rule.mappingId)){
+    mappings.push({publisher:m.publisher,mappingId:m.mappingId||m.id,sourceUrl:m.sourceUrl,sourceTitle:m.sourceTitle,verifiedAt:m.verifiedAt,verificationStatus:m.verificationStatus,notes:m.notes,mappingLevel:m.mappingLevel||"volume",volume:m.volume||m.unitName||"",unitCode:m.unitCode||"",unitName:m.unitName||"",unitAliases:UNIT_ALIASES[rule.mappingId]||[],scopeKeywords:VOLUME_SCOPES[rule.mappingId]||[],semester:m.semester||UN,grade:m.grade,subject:m.subject,courseTrack:m.courseTrack||null,schoolYear:m.schoolYear||"未標示",courseType:m.courseType||"未確認"});
    }else rejectedMapping=true;
   }
-  if(rule.basis==="question-bank-inference"){
-   basis="question-bank-inference";confidence=rule.confidence||"medium";notes=rule.notes;
-  }else if(rule.basis==="publisher-source-verified"){
-   basis="publisher-source-verified";confidence=rule.confidence||"medium";notes=rule.notes;
-  }
+  if(rule.basis==="question-bank-inference"&&basis!=="publisher-source-verified"){basis="question-bank-inference";confidence=rule.confidence||"medium";notes=rule.notes;}
+  else if(rule.basis==="publisher-source-verified"){basis="publisher-source-verified";confidence=rule.confidence||"medium";notes=rule.notes;}
  }
  if(mappings.length){
   publisherStatus="publisher-mapped";
   const officialSemesters=[...new Set(mappings.map(m=>m.semester).filter(x=>x&&x!==UN))];
-  if(officialSemesters.length===1){
-   const official=officialSemesters[0];
-   if(semester===UN||basis==="publisher-source-verified")semester=official;
-  }
+  if(officialSemesters.length===1&&(semester===UN||basis==="publisher-source-verified"))semester=officialSemesters[0];
   if(basis==="curriculum-core"||basis==="unassigned")basis="publisher-source-verified";
-  if(!q.classificationNotes&&!rule)notes=mappings.map(m=>m.notes).join(" ");
+  if(!source.classificationNotes&&!rule)notes=mappings.map(m=>m.notes).join(" ");
   if(confidence==="low")confidence=mappings.every(m=>m.mappingLevel==="unit")?"high":"medium";
  }else{
-  const hadInvalid=rejectedMapping;
-  if(hadInvalid){
-   publisherStatus=isCore?"curriculum-core":"pending";
-   notes+=" 原出版社映射因年級、科目、學期、課程軌別或單元／冊別範圍未通過一致性檢查，故不納入出版社篩選。";
-  }
+  if(rejectedMapping){publisherStatus=isCore?"curriculum-core":"pending";notes+=" 原出版社映射因年級、科目、學期、課程軌別或單元／冊別範圍未通過一致性檢查，故不納入出版社篩選。";}
   if(basis==="publisher-source-verified")basis=isCore?"curriculum-core":"unassigned";
   if(!isCore&&basis==="curriculum-core")basis="unassigned";
   if(!notes)notes=isCore?"依108課綱共同核心；未取得足以指定出版社或段考範圍的證據。":"來源與分類資料不足，待核對。";
  }
- const sourceRef=mappings.length?mappings.map(m=>m.sourceUrl).join("|"):(rejectedMapping?"108課綱共同核心；原出版社映射未通過範圍檢查":(q.sourceRef||""));
- const learningDomain=domainFor(q),questionType=typeFor(q);
- return {semester,examPeriod,classificationBasis:basis,confidence,publisherStatus,publisherMappings:mappings,classificationNotes:notes,reason:notes,sourceRef,learningDomain,questionType,learningUnit:label(q)||"未標示",difficultyLevel:q.d||q.difficulty||"未標示"};
+ const sourceRef=mappings.length?mappings.map(m=>m.sourceUrl).join("|"):(rejectedMapping?"108課綱共同核心；原出版社映射未通過範圍檢查":(source.sourceRef||""));
+ return {semester,examPeriod,classificationBasis:basis,confidence,publisherStatus,publisherMappings:mappings,classificationNotes:notes,reason:notes,sourceRef,learningDomain:source.learningDomain||domainFor(source),questionType:source.questionType||typeFor(source),learningUnit:source.learningUnit||label(source)||"未標示",difficultyLevel:source.difficultyLevel||source.d||source.difficulty||"未標示"};
 }
 window.questionClassificationFor=classify;
-window.QUESTION_CLASSIFICATION_RULES_VERSION="2026-11-13.13";
+window.QUESTION_CLASSIFICATION_RULES_VERSION="2026-11-13.14";
 })();
