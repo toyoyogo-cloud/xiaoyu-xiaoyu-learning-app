@@ -266,7 +266,7 @@
       "sourceType": "official-publisher",
       "sourceUrl": "https://books.hanlin.com.tw/product/004022",
       "sourceTitle": "翰林書城－高中課本選修物理(II)力學二與熱學",
-      "verifiedAt": "2026-11-13",
+      "verifiedAt": "2026-11-14",
       "verificationStatus": "source-checked",
       "notes": "官方頁明示高中二年級、上學期及課本名稱；僅作冊別／主題層級對照。",
       "mappingId": "hanlin-h2-physics-ii",
@@ -514,14 +514,14 @@
       "sourceType": "official-publisher",
       "sourceUrl": "https://books.hanlin.com.tw/product/006022",
       "sourceTitle": "翰林書城－高中課本選修生物(II)生命的起源與植物",
-      "verifiedAt": "2026-11-13",
+      "verifiedAt": "2026-11-14",
       "verificationStatus": "source-checked",
-      "notes": "僅作植物相關知識點的冊別層級對照；官方商品頁未列完整單元目次。若題目實際考點為遺傳、基因型、顯隱性或族群遺傳，不因情境出現「植物」一詞而映射至本冊。",
+      "notes": "僅作植物專題的冊別層級對照；官方商品頁未列完整單元目次。需有「植物細胞」或光合作用、蒸散、氣孔、維管束等具體植物知識點才可對照；遺傳、基因型、族群遺傳及僅以植物作生態例子的題目不映射本冊。",
       "mappingId": "hanlin-h2-biology-ii-plant",
       "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元",
       "mappingLevel": "volume",
       "scopeKeywords": [
-        "植物",
+        "植物細胞",
         "光合作用",
         "蒸散",
         "氣孔",
@@ -1431,6 +1431,17 @@
       "sourceUrl": "https://books.hanlin.com.tw/product/006022",
       "sourceTitle": "翰林書城－高中課本選修生物(II)生命的起源與植物",
       "result": "publisherStatus=curriculum-core; publisherMappings=[]; semester=unassigned; examPeriod=unassigned"
+    },
+    {
+      "date": "2026-11-14",
+      "questionId": "b36-084",
+      "mappingId": "hanlin-h2-biology-ii-plant",
+      "publisher": "hanlin",
+      "action": "removed",
+      "reason": "題目考生態系生物量金字塔，植物僅為生產者例子；官方商品頁僅確認「生命的起源與植物」冊名，未提供生態單元目次。收緊範圍關鍵字，不再以一般「植物」字樣映射。",
+      "sourceUrl": "https://books.hanlin.com.tw/product/006022",
+      "sourceTitle": "翰林書城－高中課本選修生物(II)生命的起源與植物",
+      "result": "publisherStatus=curriculum-core; publisherMappings=[]; semester=unassigned; examPeriod=unassigned"
     }
   ],
   "batch40UsageAudit": {
@@ -2242,6 +2253,58 @@
         "safariRealDeviceTested": false
       },
       "notes": "第12批30題完成擴充分類；b12-025原有待核對覆寫保留，其餘29題新增持久索引。b12-008與b12-012保留題庫推定學期／段考；b12-026依翰林官方選修化學(III)目次確認化學平衡單元及高二、高三全學年。b12-020未標明數學A/B軌別，不掛出版社、不推定學期。b12-024因題目實際考遺傳而非植物單元，已排除僅以「植物」關鍵字造成的冊別誤配。b12-011原始unit標籤與題幹最高級考點不完全一致，分類索引採「比較級與最高級」並保留原題欄位。未新增題目；手機Safari實機仍待使用者端確認."
+    },
+    {
+      "date": "2026-11-14",
+      "sourceHeadBeforeRun": "71d6bd08e419c59fca8b8f6cf16bf065f0983ad0",
+      "batches": "15,33,34,36,41",
+      "questions": 5,
+      "classificationIndexEntriesBeforeRun": 255,
+      "addedToClassificationIndex": 5,
+      "classificationIndexTotal": 260,
+      "extendedMetadataComplete": 459,
+      "remainingExtendedMetadata": 2441,
+      "semesterDistribution": {
+        "上學期": 4,
+        "unassigned": 1
+      },
+      "examPeriodDistribution": {
+        "unassigned": 5
+      },
+      "classificationBasisDistribution": {
+        "publisher-source-verified": 4,
+        "curriculum-core": 1
+      },
+      "publisherStatusDistribution": {
+        "publisher-mapped": 4,
+        "curriculum-core": 1
+      },
+      "publisherMappedQuestionCount": 4,
+      "publisherMappingReferences": 4,
+      "publisherReferenceCounts": {
+        "hanlin": 4
+      },
+      "mappingLevelCounts": {
+        "volume": 4
+      },
+      "sourceMappingsValidated": 4,
+      "newQuestionsAdded": 0,
+      "validation": {
+        "jsonParse": true,
+        "idsMatchSourceBatches": true,
+        "allRequiredFieldsComplete": true,
+        "legalClassificationValues": true,
+        "sourceMappingsValidated": "4/4",
+        "mappingConsistencyErrors": 0,
+        "allFourMappingsVolumeLevel": true,
+        "biologyFalsePositiveRemoved": true,
+        "geneticsFalsePositiveStillExcluded": true,
+        "inferenceRuntimeSmokeTest": true,
+        "browserTested": false,
+        "serviceWorkerCache": "xy-learning-v83",
+        "cacheVersionBumped": true
+      },
+      "notes": "全庫分類器掃描發現5筆只有執行時推定、尚未寫入獨立索引的映射。4筆符合官方冊別範圍者（3筆物理力學、1筆植物細胞滲透）已持久化；1筆生態系生物量金字塔僅在解析中提到植物，撤除錯誤冊別映射。將翰林生物(II)冊別範圍由泛用「植物」收緊為「植物細胞」及明確植物生理詞，並保留遺傳排除詞。所有4筆映射均標冊別層級，不宣稱單元目次已核對。"
     }
   ],
   "batch30ExtendedMetadataAudit": {
