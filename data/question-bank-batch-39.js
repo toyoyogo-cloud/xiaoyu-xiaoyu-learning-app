@@ -2531,15 +2531,26 @@ window.EXTRA39_GRADE_BANK = [
     "e": "熱機效率＝輸出有用功÷吸收熱量×100%＝600÷2,000×100%＝30%。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
-    "sourceRef": "108課綱共同核心原創編寫；非出版社教材原文或歷屆試題原文。",
+    "sourceRef": "https://books.hanlin.com.tw/product/004022",
     "reviewStatus": "rule-checked",
-    "semester": "unassigned",
+    "semester": "上學期",
     "examPeriod": "unassigned",
-    "classificationBasis": "curriculum-core",
-    "confidence": "low",
-    "publisherStatus": "curriculum-core",
-    "publisherMappings": [],
-    "classificationNotes": "108課綱共同核心原創編寫；未取得可同時核對該年級、科目、冊別與單元的出版社來源，因此不標出版社；學期及段考保留未分類。",
+    "classificationBasis": "publisher-source-verified",
+    "confidence": "medium",
+    "publisherStatus": "publisher-mapped",
+    "publisherMappings": [
+      {
+        "publisher": "hanlin",
+        "mappingId": "hanlin-h2-physics-ii",
+        "sourceUrl": "https://books.hanlin.com.tw/product/004022",
+        "sourceTitle": "翰林書城－高中課本選修物理(II)力學二與熱學",
+        "verifiedAt": "2026-11-13",
+        "verificationStatus": "source-checked",
+        "notes": "官方頁明示高中二年級、上學期及課本名稱；僅作冊別／主題層級對照。",
+        "mappingLevel": "volume"
+      }
+    ],
+    "classificationNotes": "官方頁明示高中二年級、上學期及課本名稱；僅作冊別／主題層級對照。 學校採用版本未確認；官方來源未提供該校段考進度，因此段考保留未分類。",
     "questionType": "情境應用"
   },
   {
