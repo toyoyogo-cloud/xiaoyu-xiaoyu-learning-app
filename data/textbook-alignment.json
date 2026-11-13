@@ -1105,7 +1105,7 @@
   },
   "auditSummary": {
     "auditedAt": "2026-11-13",
-    "auditedRef": "main at b72eb277b7a18da37998ebbce7763c6f065070d3; development branch includes batch38",
+    "auditedRef": "main at 6f8bb1a1865f858885c724e99c64594028ff5e47",
     "batchRange": "08-38",
     "batchFileCount": 31,
     "questionCount": 2600,
@@ -1137,7 +1137,8 @@
       "第30至38批185筆出版社映射引用已逐筆驗證中央mappingId、publisher、sourceUrl、sourceTitle、verifiedAt、verificationStatus、notes、年級、科目、學期、課程軌別及單元／冊別範圍，185筆均通過。",
       "只有來源可支持的層級才標記出版社；volume映射使用scopeKeywords限制，unit映射使用unitAliases限制；不符合範圍者從舊批次移除出版社標籤。",
       "數學A/B以courseTrack隔離；未確認普通高中／技術型高中、學年度或學校採用版本者不作指定版本宣稱。",
-      "段考分類為題庫複習建議，不代表學校正式考試範圍。"
+      "段考分類為題庫複習建議，不代表學校正式考試範圍。",
+      "第38批已合併main；第30至38批共185筆儲存映射引用全部通過範圍驗證。"
     ]
   }
 }
