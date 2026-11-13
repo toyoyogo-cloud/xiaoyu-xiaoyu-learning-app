@@ -239,7 +239,7 @@
       "coverage": "國小六年級50題（國語10、英語8、數學14、自然9、社會9）；高中高二50題（數學12、物理8、化學8、生物6、地理4、歷史4、公民4、英文2、國文2）。",
       "validation": "b37-001至b37-100；四個不同選項、答案索引0–3、解析及分類欄位完整；ID唯一。初檢發現b37-032與b13-006題幹完全相同，已改寫為水箱容積應用；與第8至36批重新比對完全相同正規化題幹0組，批次內0組。執行時分類結果與儲存欄位一致：官方來源核對21、題庫推定12、共同核心67；學期上22／下7／全學年4／未分類67；段考第一次3／第二次3／第三次6／未分類88。主要計算題已核算。程式規則檢查，非教師逐題審核。",
       "publisherAlignment": "30題具來源映射：南一數學6下官方資源6題（其中雞兔問題僅由可讀取的南一官方資源頁熱門文章連結標題確認；目標詳情頁a=394逾時，降為official-index-link-only，不宣稱南一課本原題或已核對課本單元）、康軒社會六上2-1 1題、翰林數學3A數學A軌別9題、翰林選修物理II冊別5題、翰林選修化學II冊別3題、化學III單元4題、選修生物II冊別2題。未取得可靠依據者標108課綱共同核心；不代表學校採用版本。",
-      "integration": "index.html載入第37批並納入bankFor()；Service Worker升級xy-learning-v64；textbook-alignment維持16筆來源映射並補全庫稽核；classifier同步化學II冊別層級與六年級舊題推定；README更新。"
+      "integration": "index.html載入第37批並納入bankFor()；Service Worker升級xy-learning-v65；textbook-alignment維持16筆來源映射並補全庫稽核；classifier同步化學II冊別層級與六年級舊題推定；README更新。"
     }
   ],
   "activeScope": {
@@ -275,7 +275,7 @@
   "lastBatchFile": "data/question-bank-batch-37.js",
   "currentIntegration": {
     "indexHtml": "Main branch audit: loads original question-bank batches 08-37; EXTRA37_GRADE_BANK is included in bankFor() stage/grade/subject filtering. Study filters retain grade → semester → exam → subject → unit, plus publisher and visible classification basis/confidence; all-version view retains all records, publisher filters require valid source mappings, and zero-result hints are preserved. Academic-competition batches 01-14, wrong-book, favorites and quiz history flows are preserved.",
-    "serviceWorkerCache": "xy-learning-v64",
+    "serviceWorkerCache": "xy-learning-v65",
     "serviceWorkerAsset": "question-bank-batch-08.js through batch-37.js; question-classification-inference.js; textbook-alignment.json; academic-competition-batch-01.js through batch-14.js; existing image assets preserved"
   },
   "currentIndependentBatchQuestions": 2500,
@@ -303,7 +303,7 @@
       "高三": 373
     },
     "indexBatchReferences": "08-37",
-    "serviceWorkerCache": "xy-learning-v64",
+    "serviceWorkerCache": "xy-learning-v65",
     "academicCompetitionCacheReferences": "01-14",
     "textbookMappingCount": 16,
     "newBatch": {
@@ -414,7 +414,8 @@
     "mergeCommit": "0b76d6e99d66502f39f6e9c32ad8032bbcc47494",
     "pullRequest": 1,
     "mainVerifiedAt": "2026-11-13",
-    "pagesDeployment": "pending-verification"
+    "pagesDeployment": "pending-verification",
+    "latestSourceCorrection": "南一雞兔問題詳情頁a=394逾時，改以可讀取官方索引頁a=341為sourceUrl，targetUrl另存；verificationStatus=official-index-link-only，mappingLevel=official-resource-title。"
   },
   "gradeDistribution": {
     "五年級": 290,
