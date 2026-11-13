@@ -1127,7 +1127,7 @@
     "validatedMappingReferencesInBatches30to38": 185,
     "centralMappingCount": 16,
     "publisherReferenceCounts": {
-      "hanlin": 193,
+      "hanlin": 194,
       "knsh": 6,
       "nani": 23
     },
@@ -1145,7 +1145,8 @@
       "第39批37筆來源映射為南一4、翰林33；映射層級為單元22、冊別15。物理II、化學II、生物II僅冊別層級，不宣稱細分目次已核對；學校採用版本未確認。",
       "第39批其餘63題標示108課綱共同核心，學期與段考保留未分類；段考不代表學校正式範圍。跨第8至38批正規化題幹比對0組重複。",
       "本次只對第39批執行結構與映射一致性靜態驗證；分類器v12尚未重新執行全庫2,700題，瀏覽器互動及Pages部署尚待確認。",
-      "第39批已透過PR #3合併main，merge commit ab7f638772ddc0baf9b8d0957e9ca38835a6cb46；main載入批次08至39，Service Worker v68含第39批資產。"
+      "第39批已透過PR #3合併main，merge commit ab7f638772ddc0baf9b8d0957e9ca38835a6cb46；main載入批次08至39，Service Worker v68含第39批資產。",
+      "追加稽核修正：b39-069熱機效率題符合翰林選修物理(II)「力學二與熱學」冊別主題範圍，補列1筆冊別層級來源映射；未推定細分單元。第39批現為38筆來源映射（南一4、翰林34）及62題共同核心。"
     ],
     "mappingVerificationStatusCountsBatches30to38": {
       "source-checked": 174,
@@ -1213,8 +1214,8 @@
         "段考仍為題庫複習建議，不代表學校正式段考範圍；未標示數學A/B軌別的高二數學題獨立列出，不自動併入數學A或B。"
       ]
     },
-    "mappingReferencesInBatches30to39": 222,
-    "validatedMappingReferencesInBatches30to39": 222
+    "mappingReferencesInBatches30to39": 223,
+    "validatedMappingReferencesInBatches30to39": 223
   },
   "batch39UsageAudit": {
     "batch": 39,
@@ -1243,36 +1244,36 @@
       "高二|英文": 2,
       "高二|國文": 2
     },
-    "publisherMappedQuestions": 37,
+    "publisherMappedQuestions": 38,
     "classificationBasis": {
-      "publisherSourceVerified": 37,
-      "curriculumCore": 63
+      "publisherSourceVerified": 38,
+      "curriculumCore": 62
     },
     "semester": {
-      "上學期": 27,
+      "上學期": 28,
       "下學期": 4,
       "全學年": 6,
-      "unassigned": 63
+      "unassigned": 62
     },
     "examPeriod": {
       "unassigned": 100
     },
     "publisherStatus": {
-      "publisherMapped": 37,
-      "curriculumCore": 63,
+      "publisherMapped": 38,
+      "curriculumCore": 62,
       "pending": 0
     },
     "verificationStatusCounts": {
       "sourceChecked": 37
     },
     "publisherReferences": {
-      "hanlin": 33,
+      "hanlin": 34,
       "nani": 4,
       "knsh": 0
     },
     "mappingLevelCounts": {
       "unit": 22,
-      "volume": 15
+      "volume": 16
     },
     "validation": {
       "fourOptions": true,
@@ -1291,6 +1292,8 @@
     },
     "mergeStatus": "merged",
     "pullRequest": 3,
-    "mergeCommit": "ab7f638772ddc0baf9b8d0957e9ca38835a6cb46"
+    "mergeCommit": "ab7f638772ddc0baf9b8d0957e9ca38835a6cb46",
+    "mappingReferences": 38,
+    "mappingReferencesValidated": 38
   }
 }
