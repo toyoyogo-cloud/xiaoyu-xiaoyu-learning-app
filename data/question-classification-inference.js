@@ -105,13 +105,13 @@ function inferred(q){
 function domainFor(q){
  const subject=q.subject||"",t=label(q)+" "+String(q.q||"")+" "+String(q.learningContent||"");
  const rules={
- "國語":[["閱讀理解",/閱讀|文本|文章|摘要|主旨|推論|觀點|證據|敘事|段落/],["詞語修辭",/詞語|成語|字義|詞義|語境|修辭|譬喻|擬人/],["語文句型",/句型|複句|語意|語法|標點|詞性|轉折|因果|讓步/],["文學寫作",/詩|文言|古文|文學|寫作|作文|意象/]],
+ "國語":[["閱讀理解",/閱讀|文本|文章|摘要|主旨|推論|觀點|證據|敘事|段落|說明文|程序|論證/],["詞語修辭",/詞語|成語|字義|詞義|語境|修辭|譬喻|擬人/],["語文句型",/句型|複句|語意|語法|標點|詞性|轉折|因果|讓步/],["文學寫作",/詩|文言|古文|文學|寫作|作文|意象/]],
  "國文":[["閱讀理解",/閱讀|文本|文章|摘要|主旨|推論|觀點|證據/],["字詞文言",/字音|字形|字義|詞義|文言|古文|成語/],["語文修辭",/句型|語法|修辭|譬喻|排比|倒裝/],["文學寫作",/詩|詞|曲|文學|寫作|作文|意象/]],
  "英文":[["閱讀理解",/閱讀|文章|對話|公告|表格|圖表|信件|主旨/],["字彙片語",/字彙|單字|片語|詞義|同義|反義/],["文法句型",/文法|時態|被動|關係子句|假設|分詞|動名詞|不定詞|主詞|動詞/],["寫作溝通",/寫作|改寫|翻譯|情境|回應|溝通/]],
  "英語":[["閱讀理解",/閱讀|文章|對話|公告|表格|圖表|信件|主旨/],["字彙片語",/字彙|單字|片語|詞義|同義|反義/],["文法句型",/文法|時態|被動|關係子句|假設|分詞|動名詞|不定詞/],["生活溝通",/問候|對話|情境|溝通|日常|表達/]],
  "數學":[["數與運算",/整數|分數|小數|四則|比例|比值|百分率|根式|數列/],["代數與函數",/代數|方程|不等式|多項式|函數|一次|二次|指數|對數/],["幾何與測量",/幾何|角|三角形|圓|面積|體積|表面積|向量|三角函數|座標/],["統計與機率",/統計|平均數|中位數|眾數|機率|排列|組合|抽樣/]],
- "自然":[["生物生命",/生物|植物|動物|細胞|遺傳|生態|光合作用|食物鏈|人體/],["物理能量",/力|運動|速度|加速度|電|磁|光|聲|熱|能量|浮力/],["化學物質",/化學|物質|原子|分子|溶液|酸鹼|反應|溶解/],["地球環境",/地球|地層|岩石|地震|火山|天氣|氣候|水循環|天文/],["科學探究",/實驗|變因|假設|觀察|測量|數據|控制組/]],
- "物理":[["力學運動",/力學|運動|速度|加速度|牛頓|動量|衝量|碰撞|力矩/],["熱學能量",/熱|溫度|熱量|內能|熱力學|能量|功率/],["波動聲光",/波動|波長|頻率|聲|光|折射|反射|干涉/],["電磁學",/電場|電流|電壓|電阻|磁場|電磁|感應|電路/],["近代物理",/量子|光電效應|原子核|放射|相對論/]],
+ "自然":[["生物生命",/生物|植物|動物|細胞|遺傳|生態|光合作用|食物鏈|食物網|天擇|人體/],["物理能量",/力|運動|速度|加速度|電|磁|光|聲|熱|能量|浮力/],["化學物質",/化學|物質|原子|分子|溶液|酸鹼|反應|溶解/],["地球環境",/地球|地層|岩石|地震|火山|天氣|氣候|水循環|天文|月相|月食|日食|太陽|星座/],["科學探究",/實驗|變因|假設|觀察|測量|數據|控制組/]],
+ "物理":[["力學運動",/力學|運動|速度|加速度|牛頓|動量|衝量|碰撞|力矩/],["熱學能量",/熱|溫度|熱量|內能|熱力學|能量|功率/],["波動聲光",/波動|波長|頻率|聲|光|折射|反射|干涉/],["電磁學",/電場|電流|電壓|電阻|磁場|電磁|感應|電路|功率|電能/],["近代物理",/量子|光電效應|原子核|放射|相對論/]],
  "化學":[["物質構造",/原子|分子|電子|軌域|鍵結|週期表|價電子/],["反應與計量",/反應|莫耳|濃度|計量|氧化|還原|速率|催化/],["平衡與酸鹼",/平衡|沉澱|溶度積|酸鹼|滴定|緩衝|pH|水解/],["有機化學",/有機|官能基|聚合|高分子/],["實驗分析",/實驗|測量|分析|指示劑/]],
  "生物":[["細胞分子",/細胞|細胞膜|酵素|DNA|RNA|蛋白質|代謝|分裂/],["遺傳演化",/遺傳|基因|染色體|演化|天擇|突變/],["生理植物",/植物|光合作用|蒸散|氣孔|維管束|循環|神經|免疫/],["生態環境",/生態|族群|群集|食物網|生物多樣性/]],
  "歷史":[["臺灣史",/臺灣|原住民|荷西|清領|日治|戰後|解嚴/],["中國東亞史",/中國|秦|漢|唐|宋|明|清|東亞|日本|韓國/],["世界史",/世界|希臘|羅馬|歐洲|工業革命|殖民|冷戰|全球化/],["史料判讀",/史料|史觀|年代|歷史解釋|史料互證/]],
@@ -119,6 +119,9 @@ function domainFor(q){
  "公民":[["憲法政府",/憲法|憲政|政府|權力分立|行政|立法|司法/],["法律人權",/法律|法治|人權|權利|義務|比例原則|正當程序|法律保留/],["政治參與",/政治|選舉|民主|政黨|公共政策|公民參與/],["經濟社會",/經濟|市場|供需|價格|消費|生產|勞動|社會福利/]]
  };
  for(const [name,re] of (rules[subject]||[]))if(re.test(t))return name;
+ if(subject==="社會")return "社會探究與公共議題";
+ if(subject==="經濟")return "經濟與資源配置";
+ if(subject==="資訊"||subject==="資訊素養")return "資訊科技與媒體素養";
  if(subject==="生活")return /安全|交通|防災/.test(t)?"生活安全防災":/環境|水|能源|回收/.test(t)?"環境資源":"生活觀察應用";
  if(subject==="地球科學")return /天氣|氣候|大氣/.test(t)?"大氣氣候":/地震|岩石|板塊|地層/.test(t)?"地質地球內部":/星|月|行星|宇宙/.test(t)?"天文宇宙":"地球系統";
  return "綜合／待細分";
@@ -132,6 +135,7 @@ function typeFor(q){
  if(/原因|最可能|推論|結論|理由|最適當/.test(t))return "推理判斷";
  return "概念辨識";
 }
+function difficultyFor(q){const v=q.difficultyLevel||q.d||q.difficulty||"";return ["基礎","中等","進階","挑戰"].includes(v)?v:"未標示";}
 function classify(q){
  q=q||{};
  const savedIndex=window.QUESTION_CLASSIFICATION_INDEX;
@@ -173,8 +177,8 @@ function classify(q){
   if(!notes)notes=isCore?"依108課綱共同核心；未取得足以指定出版社或段考範圍的證據。":"來源與分類資料不足，待核對。";
  }
  const sourceRef=mappings.length?mappings.map(m=>m.sourceUrl).join("|"):(rejectedMapping?"108課綱共同核心；原出版社映射未通過範圍檢查":(source.sourceRef||""));
- return {semester,examPeriod,classificationBasis:basis,confidence,publisherStatus,publisherMappings:mappings,classificationNotes:notes,reason:notes,sourceRef,learningDomain:source.learningDomain||domainFor(source),questionType:source.questionType||typeFor(source),learningUnit:source.learningUnit||label(source)||"未標示",difficultyLevel:source.difficultyLevel||source.d||source.difficulty||"未標示"};
+ return {semester,examPeriod,classificationBasis:basis,confidence,publisherStatus,publisherMappings:mappings,classificationNotes:notes,reason:notes,sourceRef,learningDomain:source.learningDomain||domainFor(source),questionType:source.questionType||typeFor(source),learningUnit:source.learningUnit||label(source)||"未標示",difficultyLevel:difficultyFor(source)};
 }
 window.questionClassificationFor=classify;
-window.QUESTION_CLASSIFICATION_RULES_VERSION="2026-11-13.14";
+window.QUESTION_CLASSIFICATION_RULES_VERSION="2026-11-13.15";
 })();
