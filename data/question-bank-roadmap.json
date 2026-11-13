@@ -300,7 +300,7 @@
   "currentIntegration": {
     "indexHtml": "Main branch loads original batches 08-40; EXTRA40_GRADE_BANK is included in bankFor() stage/grade/subject filtering. Existing semester, exam, publisher and explicit Mathematics A/B track filters remain. Academic-competition batches 01-14, wrong-book, favorites and quiz history flows were not removed or rewritten.",
     "serviceWorkerCache": "xy-learning-v70",
-    "serviceWorkerAsset": "question-bank-batch-08.js through batch-40.js; all batches 08-40 now contain complete classification fields; question-classification-inference.js v13; textbook-alignment.json; academic-competition-batch-01.js through batch-14.js; existing image assets preserved"
+    "serviceWorkerAsset": "question-bank-batch-08.js through batch-40.js; all batches 08-40 contain complete classification fields; question-classification-inference.js v13; textbook-alignment.json; academic-competition-batch-01.js through batch-14.js; existing image assets preserved"
   },
   "currentIndependentBatchQuestions": 2800,
   "currentIndependentBatchRange": "第8至第40批",
@@ -316,9 +316,9 @@
   "integrationAuditNote": "2026-11-13 main audit: 2,700 independent questions across batches 08-39. The previous v12 audit covered batches 08-38 (2,600 questions); this run executed the same v12 classifier on batch39 (100 questions), with 100/100 stored classification fields and mapping references matching runtime output. Batch39 static validation passed required fields, four unique options, answer index 0-3, explanations, 38/38 source mappings and exact normalized stem comparison against batches 08-38 with 0 matches. Browser interactions and Pages deployment remain unverified.",
   "lastMainBranchAudit": {
     "date": "2026-11-13",
-    "sourceHead": "3f49fa239ff31a991f76ec9ae9e8d3b715c69fa1",
-    "mergeCommit": "3f49fa239ff31a991f76ec9ae9e8d3b715c69fa1",
-    "pullRequest": 4,
+    "sourceHead": "30a509d9f2c335634f1b6c1aefea21c7da725292",
+    "mergeCommit": "30a509d9f2c335634f1b6c1aefea21c7da725292",
+    "pullRequest": 5,
     "independentQuestionCount": 2800,
     "uniqueIdCount": 2800,
     "gradeDistribution": {
@@ -390,7 +390,8 @@
       "batch40Asset": true,
       "classifierVersion": "2026-11-13.13",
       "textbookAlignmentUpdated": true,
-      "readmeUpdated": true
+      "readmeUpdated": true,
+      "legacyClassificationFieldsComplete": true
     },
     "staticValidation": {
       "batch40Count": 100,
@@ -466,7 +467,21 @@
         "officialResourceTitle": 13
       }
     },
-    "serviceWorkerCache": "xy-learning-v70"
+    "serviceWorkerCache": "xy-learning-v70",
+    "legacyBackfill": {
+      "questions": 1700,
+      "batches": "08-29",
+      "fieldsBackfilled": 1700,
+      "mappingReferences": 41,
+      "storedVsRuntimeMismatches": 0,
+      "questionContentChanged": 0
+    },
+    "batch30to39Reclassification": {
+      "previousUnassignedSemesterReclassified": 24,
+      "previousUnassignedExamPeriodReclassified": 20,
+      "additionalPublisherMappings": 4,
+      "questionContentChanged": 0
+    }
   },
   "gradeDistribution": {
     "五年級": 290,
@@ -595,7 +610,7 @@
     "date": "2026-11-13",
     "branch": "automation/legacy-classification-backfill-2026-11-13",
     "baseMainHead": "b614a956602549f0b7e07725657fabd8d15d15ed",
-    "status": "pull-request-open",
+    "status": "merged",
     "independentBatchRange": "第8至第40批",
     "independentBatchQuestions": 2800,
     "uniqueIds": 2800,
@@ -636,7 +651,9 @@
     "browserFunctionalTests": "pending",
     "pagesDeployment": "not-verified-no-workflow-run",
     "pullRequest": 5,
-    "pullRequestUrl": "https://github.com/toyoyogo-cloud/xiaoyu-xiaoyu-learning-app/pull/5"
+    "pullRequestUrl": "https://github.com/toyoyogo-cloud/xiaoyu-xiaoyu-learning-app/pull/5",
+    "mergeCommit": "30a509d9f2c335634f1b6c1aefea21c7da725292",
+    "mergedAt": "2026-11-13"
   },
   "mappingVerificationStatusCountsBatches30to39": {
     "source-checked": 212,
@@ -647,9 +664,9 @@
     "volume": 92,
     "officialResourceTitle": 11
   },
-  "sourceBranch": "automation/legacy-classification-backfill-2026-11-13",
-  "sourceHead": "b614a956602549f0b7e07725657fabd8d15d15ed",
-  "mergeCommit": "3f49fa239ff31a991f76ec9ae9e8d3b715c69fa1",
+  "sourceBranch": "main",
+  "sourceHead": "30a509d9f2c335634f1b6c1aefea21c7da725292",
+  "mergeCommit": "30a509d9f2c335634f1b6c1aefea21c7da725292",
   "pullRequest": 5,
   "mainVerifiedAt": "2026-11-13",
   "pagesDeployment": "not-verified-no-workflow-run",
