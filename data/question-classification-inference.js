@@ -39,7 +39,7 @@ function mappingScopeMatches(q,m,id){
 function validMappingForQuestion(q,m,id){
  if(!m||!m.publisher||!m.sourceUrl||!m.sourceTitle||!m.verifiedAt||!m.verificationStatus||!m.notes)return false;
  if(!/^https:\/\//.test(m.sourceUrl))return false;
- if(!["source-checked","teacher-reviewed"].includes(m.verificationStatus))return false;
+ if(!["source-checked","teacher-reviewed"].includes(m.verificationStatus)&&!(m.verificationStatus==="official-index-link-only"&&m.mappingLevel==="official-resource-title"))return false;
  if(!["unit","volume","official-resource-title"].includes(m.mappingLevel||""))return false;
  if(m.stage&&q.stage&&m.stage!==q.stage)return false;
  if(m.grade&&String(m.grade).split(/[、,，]/).indexOf(q.grade)<0)return false;
