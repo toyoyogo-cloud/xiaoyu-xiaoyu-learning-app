@@ -322,9 +322,9 @@
     "serviceWorkerCache": "xy-learning-v68",
     "academicCompetitionCacheReferences": "01-14",
     "textbookMappingCount": 16,
-    "validatedMappingReferencesBatches30to39": 222,
+    "validatedMappingReferencesBatches30to39": 223,
     "publisherReferenceCountsBatches30to39": {
-      "hanlin": 193,
+      "hanlin": 194,
       "knsh": 6,
       "nani": 23
     },
@@ -355,36 +355,36 @@
         "高二|英文": 2,
         "高二|國文": 2
       },
-      "publisherMappedQuestions": 37,
+      "publisherMappedQuestions": 38,
       "classificationBasis": {
-        "publisherSourceVerified": 37,
-        "curriculumCore": 63
+        "publisherSourceVerified": 38,
+        "curriculumCore": 62
       },
       "semester": {
-        "上學期": 27,
+        "上學期": 28,
         "下學期": 4,
         "全學年": 6,
-        "unassigned": 63
+        "unassigned": 62
       },
       "examPeriod": {
         "unassigned": 100
       },
       "publisherStatus": {
-        "publisherMapped": 37,
-        "curriculumCore": 63,
+        "publisherMapped": 38,
+        "curriculumCore": 62,
         "pending": 0
       },
       "verificationStatusCounts": {
         "sourceChecked": 37
       },
       "publisherReferences": {
-        "hanlin": 33,
+        "hanlin": 34,
         "nani": 4,
         "knsh": 0
       },
       "mappingLevelCounts": {
         "unit": 22,
-        "volume": 15
+        "volume": 16
       },
       "validation": {
         "fourOptions": true,
@@ -399,14 +399,27 @@
         "crossBatchComparedAgainst": "第8至38批共2,600題",
         "arithmeticChecks": "數學、物理計算題與化學平衡式逐題重算；規則檢查",
         "runtimeClassificationMatchesStoredFields": "not-run",
-        "browserFunctionalTests": "pending"
+        "browserFunctionalTests": "pending",
+        "sourceMappedQuestions": 38,
+        "mappingReferences": 38,
+        "mappingReferencesValidated": 38
       }
     },
     "runtimeClassifier": "v12 previously executed on 2,600 questions (batches08-38); batch39 has static schema/source validation but full 2,700-question runtime rerun not yet performed.",
     "browserFunctionalTests": "pending",
     "pagesDeployment": "not-verified-no-workflow-run",
     "pullRequest": 3,
-    "mergeCommit": "ab7f638772ddc0baf9b8d0957e9ca38835a6cb46"
+    "mergeCommit": "ab7f638772ddc0baf9b8d0957e9ca38835a6cb46",
+    "mappingVerificationStatusCountsBatches30to39": {
+      "source-checked": 212,
+      "official-index-link-only": 11
+    },
+    "mappingLevelCountsBatches30to39": {
+      "unit": 120,
+      "volume": 92,
+      "officialResourceTitle": 11
+    },
+    "additionalCorrection": "b39-069熱機效率補上翰林選修物理II冊別層級映射；官方來源只支持冊別／主題，不宣稱細分目次。"
   },
   "gradeDistribution": {
     "五年級": 290,
@@ -444,36 +457,36 @@
       "高二|英文": 2,
       "高二|國文": 2
     },
-    "publisherMappedQuestions": 37,
+    "publisherMappedQuestions": 38,
     "classificationBasis": {
-      "publisherSourceVerified": 37,
-      "curriculumCore": 63
+      "publisherSourceVerified": 38,
+      "curriculumCore": 62
     },
     "semester": {
-      "上學期": 27,
+      "上學期": 28,
       "下學期": 4,
       "全學年": 6,
-      "unassigned": 63
+      "unassigned": 62
     },
     "examPeriod": {
       "unassigned": 100
     },
     "publisherStatus": {
-      "publisherMapped": 37,
-      "curriculumCore": 63,
+      "publisherMapped": 38,
+      "curriculumCore": 62,
       "pending": 0
     },
     "verificationStatusCounts": {
       "sourceChecked": 37
     },
     "publisherReferences": {
-      "hanlin": 33,
+      "hanlin": 34,
       "nani": 4,
       "knsh": 0
     },
     "mappingLevelCounts": {
       "unit": 22,
-      "volume": 15
+      "volume": 16
     },
     "validation": {
       "fourOptions": true,
@@ -488,11 +501,14 @@
       "crossBatchComparedAgainst": "第8至38批共2,600題",
       "arithmeticChecks": "數學、物理計算題與化學平衡式逐題重算；規則檢查",
       "runtimeClassificationMatchesStoredFields": "not-run",
-      "browserFunctionalTests": "pending"
+      "browserFunctionalTests": "pending",
+      "sourceMappedQuestions": 38,
+      "mappingReferences": 38,
+      "mappingReferencesValidated": 38
     }
   },
   "textbookMappingCount": 16,
-  "lastBatchNote": "第39批新增100題（小六50、高二50）；37題有中央官方來源映射（南一4、翰林33；37筆source-checked），63題標108課綱共同核心；37/37映射通過來源與範圍一致性檢查；跨第8至38批正規化題幹重複0組；Service Worker v68。",
+  "lastBatchNote": "第39批新增100題（小六50、高二50）；38題有中央官方來源映射（南一4、翰林34；38筆source-checked），62題標108課綱共同核心；38/38映射通過來源與範圍一致性檢查；跨第8至38批正規化題幹重複0組；Service Worker v68。",
   "candidateBranchAudit": {
     "date": "2026-11-13",
     "sourceBranch": "automation/batch-39-2026-11-13",
@@ -507,9 +523,9 @@
       "高三": 373
     },
     "textbookMappingCount": 16,
-    "validatedMappingReferencesBatches30to39": 222,
+    "validatedMappingReferencesBatches30to39": 223,
     "publisherReferenceCountsBatches30to39": {
-      "hanlin": 193,
+      "hanlin": 194,
       "knsh": 6,
       "nani": 23
     },
@@ -519,9 +535,9 @@
         "六年級": 50,
         "高二": 50
       },
-      "publisherMappedQuestions": 37,
-      "curriculumCore": 63,
-      "mappingReferences": 37,
+      "publisherMappedQuestions": 38,
+      "curriculumCore": 62,
+      "mappingReferences": 38,
       "validation": "100題欄位／選項／答案／解析／ID檢查通過；37/37映射來源及範圍一致；與第8至38批正規化題幹重複0組。"
     },
     "classifierVersion": "2026-11-13.12",
@@ -532,12 +548,12 @@
     "mergeCommit": "ab7f638772ddc0baf9b8d0957e9ca38835a6cb46"
   },
   "mappingVerificationStatusCountsBatches30to39": {
-    "source-checked": 211,
+    "source-checked": 212,
     "official-index-link-only": 11
   },
   "mappingLevelCountsBatches30to39": {
     "unit": 120,
-    "volume": 91,
+    "volume": 92,
     "officialResourceTitle": 11
   },
   "sourceBranch": "main",
