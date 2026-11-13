@@ -580,16 +580,16 @@
       "subject": "數學",
       "semester": "下學期",
       "volume": "數學6下",
-      "unitCode": "官方數位教學資源單元",
-      "unitName": "四則混合運算",
-      "mappingLevel": "unit",
+      "unitCode": "索引標題",
+      "unitName": "四則混合運算（官方索引標題層級）",
+      "mappingLevel": "official-resource-title",
       "schoolYear": "未標示",
       "courseType": "國小",
-      "sourceUrl": "https://tpack.nani.com.tw/nani_content?a=340&b=1",
-      "sourceTitle": "南一資源_內文－數學6下｜四則混合運算",
+      "sourceUrl": "https://tpack.nani.com.tw/nani_list?b=1&page=6&t=",
+      "sourceTitle": "南一資源_國小資源索引－數學6下：四則混合運算",
       "verifiedAt": "2026-11-13",
-      "verificationStatus": "source-checked",
-      "notes": "南一官方資源頁明示數學6下、國小數學6年級及「四則混合運算」單元標題；僅支持此資源單元層級，不代表完整教科書目次或學校採用版本。",
+      "verificationStatus": "official-index-link-only",
+      "notes": "南一官方資源列表頁明示「數學6下｜四則混合運算」、數學及六年級；詳情頁未能由本次查詢直接讀取，故只標官方索引標題層級，不宣稱完整教科書目次或學校採用版本。",
       "unitAliases": [
         "四則混合運算"
       ]
