@@ -306,14 +306,14 @@
   },
   "lastBatchFile": "data/question-bank-batch-41.js",
   "currentIntegration": {
-    "indexHtml": "Main branch loads batches 08-41; EXTRA41_GRADE_BANK is included in bankFor() stage/grade/subject filtering. Existing semester, exam, publisher and explicit Mathematics A/B track filters remain. Academic-competition batches 01-14, wrong-book, favorites and quiz history flows were not removed or rewritten.",
-    "serviceWorkerCache": "xy-learning-v71",
-    "serviceWorkerAsset": "question-bank-batch-08.js through batch-41.js; question-classification-inference.js v13; textbook-alignment.json; academic-competition-batch-01.js through batch-14.js; existing image assets preserved"
+    "indexHtml": "Main branch loads batches 08-41; bankFor() filters by stage/grade/subject and uses q.unit or q.t for unit labels. index.html loads data/question-classification.json into window.QUESTION_CLASSIFICATION_INDEX; questionClassificationFor() reads saved ID classifications before inference. Existing semester, exam, publisher and Mathematics A/B track filters remain. Academic-competition, wrong-book, favorites and quiz-history flows were not changed in this run.",
+    "serviceWorkerCache": "xy-learning-v78",
+    "serviceWorkerAsset": "question-bank-batch-08.js through batch-41.js; question-classification.json; question-classification-inference.js v17; textbook-alignment.json; academic-competition-batch-01.js through batch-14.js; existing image assets preserved"
   },
   "currentIndependentBatchQuestions": 2900,
   "currentIndependentBatchRange": "第8至第41批",
-  "currentVerifiedQuestionsNote": "currentVerifiedQuestions為index.html內嵌示範題的歷史盤點欄位，不含獨立批次檔；currentVerifiedNewGradeSpecificQuestions與currentIndependentBatchQuestions統計第8至第39批獨立題庫，rule-checked僅代表程式檢查，並非教師逐題審核。",
-  "legacyFieldNotes": "已完成第8至29批1,700題分類欄位回寫；第30至39批另補正24筆原unassigned學期、20筆原unassigned段考及4筆可由官方冊別資料支持的映射。第8至40批2,800題均具備完整分類欄位；無足夠依據者保留unassigned。",
+  "currentVerifiedQuestionsNote": "currentVerifiedQuestions為index.html內嵌示範題的歷史盤點欄位，不含獨立批次檔；currentVerifiedNewGradeSpecificQuestions與currentIndependentBatchQuestions統計第8至第41批獨立題庫。rule-checked僅代表程式檢查，並非教師逐題審核。",
+  "legacyFieldNotes": "第8至29批1,700題原始資料已有semester、examPeriod、classificationBasis、confidence、publisherStatus、publisherMappings、classificationNotes及sourceRef等基本分類欄位，但尚缺learningDomain、questionType、learningUnit、difficultyLevel等擴充欄位。已將第8批37題及第31批100題寫入獨立分類索引；第40至41批200題在批次檔內建擴充欄位。目前擴充分類完整337/2,900題，尚有2,563題待分批補齊。",
   "currentDistribution": {
     "五年級": 290,
     "六年級": 840,
@@ -654,7 +654,7 @@
   "pullRequest": 6,
   "mainVerifiedAt": "2026-11-13",
   "pagesDeployment": "workflow-run-in-progress",
-  "runtimeClassificationAuditStatus": "v17-static-classification-index-batch31; browser-runtime-pending",
+  "runtimeClassificationAuditStatus": "v17-static-classification-index-batches08-and31; browser-runtime-pending",
   "mappingVerificationStatusCountsBatches30to40": {
     "source-checked": 254,
     "official-index-link-only": 8
@@ -728,14 +728,14 @@
   "classificationPersistence": {
     "latestRun": {
       "date": "2026-11-13",
-      "sourceHeadBeforeRun": "22177ba3af17cbdddf581b0ffdbc188cfe9ec606",
-      "writeHead": "145c14270674a12ae5a89a3a6241cedfb5bf1065",
-      "auditedBatches": "31",
-      "auditedQuestionCount": 100,
-      "classificationIndexEntriesBeforeRun": 0,
-      "persistedExtendedMetadataCount": 100,
-      "classificationIndexTotal": 100,
-      "remainingExtendedMetadataCount": 2600,
+      "sourceHeadBeforeRun": "d697d7c380ffe1429d29a66fa9ec3124d1cd8af5",
+      "writeHead": "2a9e893ae483713490f51302de8e25b7ed0886ad",
+      "auditedBatches": "08",
+      "auditedQuestionCount": 37,
+      "classificationIndexEntriesBeforeRun": 100,
+      "persistedExtendedMetadataCount": 137,
+      "classificationIndexTotal": 137,
+      "remainingExtendedMetadataCount": 2563,
       "file": "data/question-classification.json",
       "fields": [
         "semester",
@@ -752,58 +752,56 @@
         "difficultyLevel"
       ],
       "semesterDistribution": {
-        "上學期": 21,
-        "下學期": 8,
-        "全學年": 5,
-        "unassigned": 66
+        "unassigned": 33,
+        "上學期": 3,
+        "全學年": 1
       },
       "examPeriodDistribution": {
-        "第一次段考": 3,
-        "第二次段考": 4,
-        "第三次段考": 6,
-        "unassigned": 87
+        "unassigned": 35,
+        "第三次段考": 2
       },
       "classificationBasisDistribution": {
-        "publisher-source-verified": 21,
-        "question-bank-inference": 13,
-        "curriculum-core": 66
+        "publisher-source-verified": 2,
+        "question-bank-inference": 2,
+        "curriculum-core": 33
       },
       "publisherStatusDistribution": {
-        "publisher-mapped": 21,
-        "curriculum-core": 79
+        "publisher-mapped": 2,
+        "curriculum-core": 35
       },
-      "publisherMappedQuestionCount": 21,
-      "publisherMappingReferences": 21,
+      "publisherMappedQuestionCount": 2,
+      "publisherMappingReferences": 2,
       "publisherReferenceCounts": {
-        "hanlin": 20,
-        "knsh": 1,
-        "nani": 0
+        "hanlin": 2
       },
-      "mappingReferencesValidated": 21,
+      "mappingReferencesValidated": 2,
       "mappingConsistencyErrors": 0,
-      "extendedMetadataComplete": 100,
+      "extendedMetadataComplete": 37,
       "newQuestionsAdded": 0,
       "validation": {
         "jsonParse": true,
-        "idsMatchBatch31": true,
+        "idsMatchBatch08": true,
         "requiredFieldsComplete": true,
+        "sourceRefsComplete": true,
         "legalClassificationValues": true,
-        "mappingReferences": "21/21",
+        "mappingReferences": "2/2",
         "mappingConsistencyErrors": 0,
         "fourOptions": true,
         "answerIndices0to3": true,
         "explanationsPresent": true,
         "staticFilterValidation": {
-          "combinations": 1272600,
+          "combinations": 5550,
           "violations": 0,
-          "all100Reachable": true,
+          "publisherLeak": 0,
+          "all37Reachable": true,
           "browserTested": false
         },
-        "serviceWorkerCache": "xy-learning-v77",
+        "serviceWorkerCache": "xy-learning-v78",
         "classificationIndexAsset": true,
+        "batch08Asset": true,
         "cacheVersionBumped": true
       },
-      "notes": "第31批100題以穩定ID寫入獨立分類索引。保留原有分類與來源欄位，依分類器v17同等規則補齊learningDomain、questionType、learningUnit、difficultyLevel；21筆出版社映射逐筆檢查來源欄位及年級、科目、學期、單元／冊別範圍，21/21通過。沒有足夠依據的學期與段考維持unassigned。"
+      "notes": "第8批37題以穩定ID新增至獨立分類索引；保留原始學期、段考、分類依據、信心、出版社狀態、映射、分類說明及來源。依分類器v17相同欄位規則補齊learningDomain、questionType、learningUnit、difficultyLevel。兩筆翰林映射沿用中央登錄，b8-023為冊別層級、b8-024為單元層級；2/2來源欄位及年級／科目／學期範圍一致。未新增題目，未推定缺乏依據的學期或段考。"
     },
     "previousRun": {
       "date": "2026-11-13",
@@ -876,19 +874,19 @@
     "currentIndexReconciliation": {
       "verifiedAt": "2026-11-13",
       "file": "data/question-classification.json",
-      "preRunBytes": 0,
+      "preRunBytes": 71006,
       "previousAuditClaimedEntries": 1800,
-      "entriesActuallyPresentBeforeRun": 0,
-      "entriesAddedThisRun": 100,
-      "currentEntries": 100,
-      "note": "先前歷史稽核曾記載獨立索引1,800筆，但本次直接讀取main檔案為空檔。以實際main內容為準，先前1,800筆不列入目前持久化數。"
+      "entriesActuallyPresentBeforeRun": 100,
+      "entriesAddedThisRun": 37,
+      "currentEntries": 137,
+      "note": "本次執行前main中的分類索引實際有100筆（第31批），不是歷史紀錄曾聲稱的1,800筆；本次新增第8批37筆，現在為137筆。"
     }
   },
   "fullMainClassificationAudit": {
     "auditedAt": "2026-11-13",
     "branch": "main",
-    "sourceHeadBeforeRun": "22177ba3af17cbdddf581b0ffdbc188cfe9ec606",
-    "sourceHeadAfterRun": "145c14270674a12ae5a89a3a6241cedfb5bf1065",
+    "sourceHeadBeforeRun": "d697d7c380ffe1429d29a66fa9ec3124d1cd8af5",
+    "sourceHeadAfterRun": "c20800d8823cafb0ed5dd02dfe880e65f5bb4f5b",
     "batches": "08-41",
     "questionCount": 2900,
     "uniqueQuestionIds": 2900,
@@ -965,17 +963,17 @@
     },
     "pendingQuestionCount": 0,
     "extendedMetadata": {
-      "complete": 300,
-      "remaining": 2600,
-      "separateClassificationIndex": 100,
+      "complete": 337,
+      "remaining": 2563,
+      "separateClassificationIndex": 137,
       "embeddedInBatches40to41": 200,
-      "learningDomain": 300,
-      "questionType": 600,
-      "learningUnit": 300,
-      "difficultyLevel": 300
+      "learningDomain": 337,
+      "questionType": 637,
+      "learningUnit": 337,
+      "difficultyLevel": 337
     },
     "newQuestionsAdded": 0,
-    "notes": "本次直接解析main第8至41批34個題庫檔。所有2,900題均有基本分類欄位；擴充欄位目前完整300題，其中獨立分類索引100題、第40至41批內建200題。重要更正：本次開始前data/question-classification.json實際為0 bytes，先前稽核所稱1,800筆索引未存在於當時main檔案，故不計入目前完成數。本次已補建第31批100筆。尚有2,600題缺少至少一項擴充欄位。全庫映射數量依實際批次欄位計算；本次逐筆重驗第31批21筆映射，其餘映射仍待全量重驗。",
+    "notes": "本次重新讀取main第8至41批34個題庫檔，共2,900題。基本分類欄位2,900/2,900完整；擴充欄位完整337題，其中獨立索引137題（第8批37、第31批100），第40至41批內建200題；尚有2,563題缺少至少一項擴充欄位。全庫出版社映射340筆、中央登錄16筆；本次另逐筆驗證第8批2筆既有翰林映射。未新增題目；靜態篩選測試通過但瀏覽器實機及離線回歸尚未完成。教師逐題審核未完成。",
     "publisherMappingConsistencyErrors": 0
   },
   "unassignedRecheckAudit": {
