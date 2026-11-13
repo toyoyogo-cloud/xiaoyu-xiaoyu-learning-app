@@ -30,7 +30,10 @@ window.EXTRA40_GRADE_BANK = [
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
     "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
-    "questionType": "閱讀推理"
+    "questionType": "概念辨識",
+    "learningDomain": "閱讀理解",
+    "learningUnit": "論點與證據",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-002",
@@ -63,7 +66,10 @@ window.EXTRA40_GRADE_BANK = [
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
     "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
-    "questionType": "閱讀推理"
+    "questionType": "閱讀理解",
+    "learningDomain": "閱讀理解",
+    "learningUnit": "敘事觀點與線索",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-003",
@@ -96,7 +102,10 @@ window.EXTRA40_GRADE_BANK = [
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
     "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
-    "questionType": "閱讀素養"
+    "questionType": "概念辨識",
+    "learningDomain": "閱讀理解",
+    "learningUnit": "摘要與主旨",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-004",
@@ -129,7 +138,10 @@ window.EXTRA40_GRADE_BANK = [
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
     "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
-    "questionType": "語文應用"
+    "questionType": "推理判斷",
+    "learningDomain": "閱讀理解",
+    "learningUnit": "語境推論",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-005",
@@ -162,7 +174,10 @@ window.EXTRA40_GRADE_BANK = [
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
     "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
-    "questionType": "修辭辨識"
+    "questionType": "概念辨識",
+    "learningDomain": "詞語修辭",
+    "learningUnit": "譬喻與表達效果",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-006",
@@ -195,7 +210,10 @@ window.EXTRA40_GRADE_BANK = [
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
     "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
-    "questionType": "比較閱讀"
+    "questionType": "閱讀理解",
+    "learningDomain": "閱讀理解",
+    "learningUnit": "比較文本觀點",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-007",
@@ -228,7 +246,10 @@ window.EXTRA40_GRADE_BANK = [
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
     "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
-    "questionType": "資料判讀"
+    "questionType": "推理判斷",
+    "learningDomain": "語文句型",
+    "learningUnit": "相關與因果",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-008",
@@ -261,7 +282,10 @@ window.EXTRA40_GRADE_BANK = [
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
     "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
-    "questionType": "論證推理"
+    "questionType": "概念辨識",
+    "learningDomain": "綜合／待細分",
+    "learningUnit": "回應反方論點",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-009",
@@ -294,7 +318,10 @@ window.EXTRA40_GRADE_BANK = [
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
     "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
-    "questionType": "語文應用"
+    "questionType": "概念辨識",
+    "learningDomain": "語文句型",
+    "learningUnit": "直接引語標點",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-010",
@@ -327,7 +354,10 @@ window.EXTRA40_GRADE_BANK = [
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
     "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
-    "questionType": "媒體識讀"
+    "questionType": "概念辨識",
+    "learningDomain": "綜合／待細分",
+    "learningUnit": "新聞標題與立場",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-011",
@@ -360,7 +390,10 @@ window.EXTRA40_GRADE_BANK = [
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
     "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
-    "questionType": "閱讀理解"
+    "questionType": "閱讀理解",
+    "learningDomain": "閱讀理解",
+    "learningUnit": "時刻表閱讀",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-012",
@@ -393,7 +426,10 @@ window.EXTRA40_GRADE_BANK = [
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
     "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
-    "questionType": "文法句型"
+    "questionType": "概念辨識",
+    "learningDomain": "綜合／待細分",
+    "learningUnit": "比較級句型",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-013",
@@ -426,7 +462,10 @@ window.EXTRA40_GRADE_BANK = [
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
     "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
-    "questionType": "文法句型"
+    "questionType": "概念辨識",
+    "learningDomain": "綜合／待細分",
+    "learningUnit": "過去進行式",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-014",
@@ -459,7 +498,10 @@ window.EXTRA40_GRADE_BANK = [
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
     "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
-    "questionType": "閱讀理解"
+    "questionType": "閱讀理解",
+    "learningDomain": "閱讀理解",
+    "learningUnit": "公告資訊判讀",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-015",
@@ -492,7 +534,10 @@ window.EXTRA40_GRADE_BANK = [
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
     "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
-    "questionType": "文法句型"
+    "questionType": "概念辨識",
+    "learningDomain": "綜合／待細分",
+    "learningUnit": "可數名詞量詞",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-016",
@@ -525,7 +570,10 @@ window.EXTRA40_GRADE_BANK = [
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
     "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
-    "questionType": "文法句型"
+    "questionType": "概念辨識",
+    "learningDomain": "綜合／待細分",
+    "learningUnit": "連接詞語意",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-017",
@@ -558,7 +606,10 @@ window.EXTRA40_GRADE_BANK = [
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
     "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
-    "questionType": "文法句型"
+    "questionType": "概念辨識",
+    "learningDomain": "綜合／待細分",
+    "learningUnit": "第一類條件句",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-018",
@@ -591,7 +642,10 @@ window.EXTRA40_GRADE_BANK = [
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
     "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
-    "questionType": "閱讀理解"
+    "questionType": "推理判斷",
+    "learningDomain": "綜合／待細分",
+    "learningUnit": "短文推論",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-019",
@@ -635,8 +689,12 @@ window.EXTRA40_GRADE_BANK = [
         "volume": "數學6下",
         "unitCode": "官方數位教學資源單元",
         "unitName": "基準量和比較量",
+        "unitAliases": [
+          "基準量和比較量",
+          "基準量與比較量"
+        ],
+        "scopeKeywords": [],
         "semester": "下學期",
-        "stage": "國小",
         "grade": "六年級",
         "subject": "數學",
         "courseTrack": null,
@@ -644,8 +702,11 @@ window.EXTRA40_GRADE_BANK = [
         "courseType": "國小"
       }
     ],
-    "classificationNotes": "南一官方數學6下資源明示基準量和比較量；本題對應該資源單元，段考未有依據故保留未分類。",
-    "questionType": "生活情境計算"
+    "classificationNotes": "南一官方6下資源明示「基準量和比較量」；只作單元層級對照。",
+    "questionType": "計算應用",
+    "learningDomain": "綜合／待細分",
+    "learningUnit": "基準量和比較量",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-020",
@@ -689,8 +750,12 @@ window.EXTRA40_GRADE_BANK = [
         "volume": "數學6下",
         "unitCode": "官方數位教學資源單元",
         "unitName": "基準量和比較量",
+        "unitAliases": [
+          "基準量和比較量",
+          "基準量與比較量"
+        ],
+        "scopeKeywords": [],
         "semester": "下學期",
-        "stage": "國小",
         "grade": "六年級",
         "subject": "數學",
         "courseTrack": null,
@@ -698,8 +763,11 @@ window.EXTRA40_GRADE_BANK = [
         "courseType": "國小"
       }
     ],
-    "classificationNotes": "南一官方數學6下資源明示基準量和比較量；本題對應該資源單元，段考未有依據故保留未分類。",
-    "questionType": "生活情境計算"
+    "classificationNotes": "南一官方6下資源明示「基準量和比較量」；只作單元層級對照。",
+    "questionType": "計算應用",
+    "learningDomain": "綜合／待細分",
+    "learningUnit": "基準量和比較量",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-021",
@@ -743,8 +811,12 @@ window.EXTRA40_GRADE_BANK = [
         "volume": "數學6下",
         "unitCode": "官方數位教學資源單元",
         "unitName": "基準量和比較量",
+        "unitAliases": [
+          "基準量和比較量",
+          "基準量與比較量"
+        ],
+        "scopeKeywords": [],
         "semester": "下學期",
-        "stage": "國小",
         "grade": "六年級",
         "subject": "數學",
         "courseTrack": null,
@@ -752,8 +824,11 @@ window.EXTRA40_GRADE_BANK = [
         "courseType": "國小"
       }
     ],
-    "classificationNotes": "南一官方數學6下資源明示基準量和比較量；本題對應該資源單元，段考未有依據故保留未分類。",
-    "questionType": "生活情境計算"
+    "classificationNotes": "南一官方6下資源明示「基準量和比較量」；只作單元層級對照。",
+    "questionType": "計算應用",
+    "learningDomain": "綜合／待細分",
+    "learningUnit": "基準量和比較量",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-022",
@@ -797,8 +872,12 @@ window.EXTRA40_GRADE_BANK = [
         "volume": "數學6下",
         "unitCode": "官方數位教學資源單元",
         "unitName": "基準量和比較量",
+        "unitAliases": [
+          "基準量和比較量",
+          "基準量與比較量"
+        ],
+        "scopeKeywords": [],
         "semester": "下學期",
-        "stage": "國小",
         "grade": "六年級",
         "subject": "數學",
         "courseTrack": null,
@@ -806,8 +885,11 @@ window.EXTRA40_GRADE_BANK = [
         "courseType": "國小"
       }
     ],
-    "classificationNotes": "南一官方數學6下資源明示基準量和比較量；本題對應該資源單元，段考未有依據故保留未分類。",
-    "questionType": "生活情境計算"
+    "classificationNotes": "南一官方6下資源明示「基準量和比較量」；只作單元層級對照。",
+    "questionType": "計算應用",
+    "learningDomain": "綜合／待細分",
+    "learningUnit": "基準量和比較量",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-023",
@@ -851,8 +933,12 @@ window.EXTRA40_GRADE_BANK = [
         "volume": "數學6下",
         "unitCode": "官方資源標題",
         "unitName": "怎樣解題：雞兔問題（官方資源標題層級）",
+        "unitAliases": [
+          "雞兔問題",
+          "雞兔同籠"
+        ],
+        "scopeKeywords": [],
         "semester": "下學期",
-        "stage": "國小",
         "grade": "六年級",
         "subject": "數學",
         "courseTrack": null,
@@ -860,8 +946,11 @@ window.EXTRA40_GRADE_BANK = [
         "courseType": "國小"
       }
     ],
-    "classificationNotes": "南一官方資源詳情頁明示數學6下雞兔問題；僅官方資源標題層級，段考未有依據故保留未分類。",
-    "questionType": "情境計算"
+    "classificationNotes": "南一官方索引標題顯示數學6下雞兔問題；詳情頁未能讀取，僅保留官方資源標題層級。",
+    "questionType": "概念辨識",
+    "learningDomain": "綜合／待細分",
+    "learningUnit": "雞兔問題",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-024",
@@ -905,8 +994,12 @@ window.EXTRA40_GRADE_BANK = [
         "volume": "數學6下",
         "unitCode": "官方資源標題",
         "unitName": "怎樣解題：雞兔問題（官方資源標題層級）",
+        "unitAliases": [
+          "雞兔問題",
+          "雞兔同籠"
+        ],
+        "scopeKeywords": [],
         "semester": "下學期",
-        "stage": "國小",
         "grade": "六年級",
         "subject": "數學",
         "courseTrack": null,
@@ -914,8 +1007,11 @@ window.EXTRA40_GRADE_BANK = [
         "courseType": "國小"
       }
     ],
-    "classificationNotes": "南一官方資源詳情頁明示數學6下雞兔問題；僅官方資源標題層級，段考未有依據故保留未分類。",
-    "questionType": "情境計算"
+    "classificationNotes": "南一官方索引標題顯示數學6下雞兔問題；詳情頁未能讀取，僅保留官方資源標題層級。",
+    "questionType": "概念辨識",
+    "learningDomain": "綜合／待細分",
+    "learningUnit": "雞兔問題",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-025",
@@ -941,14 +1037,17 @@ window.EXTRA40_GRADE_BANK = [
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "108課綱共同核心原創編寫；非出版社教材原文或歷屆試題原文。",
     "reviewStatus": "rule-checked",
-    "semester": "unassigned",
-    "examPeriod": "unassigned",
-    "classificationBasis": "curriculum-core",
-    "confidence": "low",
+    "semester": "上學期",
+    "examPeriod": "第一次段考",
+    "classificationBasis": "question-bank-inference",
+    "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
-    "questionType": "情境計算"
+    "classificationNotes": "依六年級題庫常見單元群推定上學期前段；非學校正式段考範圍。",
+    "questionType": "計算應用",
+    "learningDomain": "數與運算",
+    "learningUnit": "比與比值",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-026",
@@ -974,14 +1073,17 @@ window.EXTRA40_GRADE_BANK = [
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "108課綱共同核心原創編寫；非出版社教材原文或歷屆試題原文。",
     "reviewStatus": "rule-checked",
-    "semester": "unassigned",
-    "examPeriod": "unassigned",
-    "classificationBasis": "curriculum-core",
-    "confidence": "low",
+    "semester": "上學期",
+    "examPeriod": "第三次段考",
+    "classificationBasis": "question-bank-inference",
+    "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
-    "questionType": "資料判讀"
+    "classificationNotes": "依六年級題庫常見比例尺與速率單元群推定；非學校正式段考範圍。",
+    "questionType": "圖表資料判讀",
+    "learningDomain": "數與運算",
+    "learningUnit": "比例尺",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-027",
@@ -1007,14 +1109,17 @@ window.EXTRA40_GRADE_BANK = [
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "108課綱共同核心原創編寫；非出版社教材原文或歷屆試題原文。",
     "reviewStatus": "rule-checked",
-    "semester": "unassigned",
-    "examPeriod": "unassigned",
-    "classificationBasis": "curriculum-core",
-    "confidence": "low",
+    "semester": "上學期",
+    "examPeriod": "第三次段考",
+    "classificationBasis": "question-bank-inference",
+    "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
-    "questionType": "生活情境計算"
+    "classificationNotes": "依六年級題庫常見比例尺與速率單元群推定；非學校正式段考範圍。",
+    "questionType": "計算應用",
+    "learningDomain": "綜合／待細分",
+    "learningUnit": "平均速率",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-028",
@@ -1040,14 +1145,17 @@ window.EXTRA40_GRADE_BANK = [
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "108課綱共同核心原創編寫；非出版社教材原文或歷屆試題原文。",
     "reviewStatus": "rule-checked",
-    "semester": "unassigned",
-    "examPeriod": "unassigned",
-    "classificationBasis": "curriculum-core",
-    "confidence": "low",
+    "semester": "下學期",
+    "examPeriod": "第一次段考",
+    "classificationBasis": "question-bank-inference",
+    "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
-    "questionType": "計算應用"
+    "classificationNotes": "依六年級題庫常見圓形單元群推定；非學校正式段考範圍。",
+    "questionType": "計算應用",
+    "learningDomain": "幾何與測量",
+    "learningUnit": "圓周長",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-029",
@@ -1073,14 +1181,17 @@ window.EXTRA40_GRADE_BANK = [
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "108課綱共同核心原創編寫；非出版社教材原文或歷屆試題原文。",
     "reviewStatus": "rule-checked",
-    "semester": "unassigned",
-    "examPeriod": "unassigned",
-    "classificationBasis": "curriculum-core",
-    "confidence": "low",
+    "semester": "下學期",
+    "examPeriod": "第二次段考",
+    "classificationBasis": "question-bank-inference",
+    "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
-    "questionType": "計算應用"
+    "classificationNotes": "依六年級題庫常見立體形體單元群推定；非學校正式段考範圍。",
+    "questionType": "計算應用",
+    "learningDomain": "幾何與測量",
+    "learningUnit": "長方體體積",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-030",
@@ -1106,14 +1217,17 @@ window.EXTRA40_GRADE_BANK = [
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "108課綱共同核心原創編寫；非出版社教材原文或歷屆試題原文。",
     "reviewStatus": "rule-checked",
-    "semester": "unassigned",
-    "examPeriod": "unassigned",
-    "classificationBasis": "curriculum-core",
-    "confidence": "low",
+    "semester": "下學期",
+    "examPeriod": "第三次段考",
+    "classificationBasis": "question-bank-inference",
+    "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
-    "questionType": "機率推理"
+    "classificationNotes": "依六年級題庫常見統計與機率單元群推定；非學校正式段考範圍。",
+    "questionType": "計算應用",
+    "learningDomain": "統計與機率",
+    "learningUnit": "簡單機率",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-031",
@@ -1139,14 +1253,17 @@ window.EXTRA40_GRADE_BANK = [
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "108課綱共同核心原創編寫；非出版社教材原文或歷屆試題原文。",
     "reviewStatus": "rule-checked",
-    "semester": "unassigned",
-    "examPeriod": "unassigned",
-    "classificationBasis": "curriculum-core",
-    "confidence": "low",
+    "semester": "下學期",
+    "examPeriod": "第三次段考",
+    "classificationBasis": "question-bank-inference",
+    "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
-    "questionType": "資料判讀"
+    "classificationNotes": "依六年級題庫常見統計與機率單元群推定；非學校正式段考範圍。",
+    "questionType": "計算應用",
+    "learningDomain": "統計與機率",
+    "learningUnit": "中位數",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-032",
@@ -1172,14 +1289,17 @@ window.EXTRA40_GRADE_BANK = [
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "108課綱共同核心原創編寫；非出版社教材原文或歷屆試題原文。",
     "reviewStatus": "rule-checked",
-    "semester": "unassigned",
-    "examPeriod": "unassigned",
-    "classificationBasis": "curriculum-core",
-    "confidence": "low",
+    "semester": "上學期",
+    "examPeriod": "第二次段考",
+    "classificationBasis": "question-bank-inference",
+    "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
-    "questionType": "生活情境計算"
+    "classificationNotes": "依六年級題庫常見百分率單元群推定；非學校正式段考範圍。",
+    "questionType": "計算應用",
+    "learningDomain": "數與運算",
+    "learningUnit": "百分率變化",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-033",
@@ -1212,7 +1332,10 @@ window.EXTRA40_GRADE_BANK = [
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
     "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
-    "questionType": "科學推理"
+    "questionType": "推理判斷",
+    "learningDomain": "物理能量",
+    "learningUnit": "並聯電路",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-034",
@@ -1245,7 +1368,10 @@ window.EXTRA40_GRADE_BANK = [
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
     "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
-    "questionType": "實驗探究"
+    "questionType": "推理判斷",
+    "learningDomain": "物理能量",
+    "learningUnit": "電磁鐵強度因素",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-035",
@@ -1278,7 +1404,10 @@ window.EXTRA40_GRADE_BANK = [
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
     "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
-    "questionType": "實驗探究"
+    "questionType": "實驗探究",
+    "learningDomain": "科學探究",
+    "learningUnit": "公平實驗控制變因",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-036",
@@ -1311,7 +1440,10 @@ window.EXTRA40_GRADE_BANK = [
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
     "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
-    "questionType": "科學推理"
+    "questionType": "概念辨識",
+    "learningDomain": "綜合／待細分",
+    "learningUnit": "凝結現象",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-037",
@@ -1344,7 +1476,10 @@ window.EXTRA40_GRADE_BANK = [
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
     "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
-    "questionType": "跨概念推理"
+    "questionType": "推理判斷",
+    "learningDomain": "生物生命",
+    "learningUnit": "生態系能量流",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-038",
@@ -1377,7 +1512,10 @@ window.EXTRA40_GRADE_BANK = [
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
     "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
-    "questionType": "資料判讀"
+    "questionType": "推理判斷",
+    "learningDomain": "物理能量",
+    "learningUnit": "日照角度與受熱",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-039",
@@ -1410,7 +1548,10 @@ window.EXTRA40_GRADE_BANK = [
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
     "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
-    "questionType": "生活應用"
+    "questionType": "概念辨識",
+    "learningDomain": "物理能量",
+    "learningUnit": "熱傳遞與保溫",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-040",
@@ -1443,7 +1584,10 @@ window.EXTRA40_GRADE_BANK = [
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
     "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
-    "questionType": "科學推理"
+    "questionType": "推理判斷",
+    "learningDomain": "綜合／待細分",
+    "learningUnit": "月相與日食",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-041",
@@ -1476,7 +1620,10 @@ window.EXTRA40_GRADE_BANK = [
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
     "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
-    "questionType": "實驗探究"
+    "questionType": "概念辨識",
+    "learningDomain": "化學物質",
+    "learningUnit": "混合物分離",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-042",
@@ -1509,7 +1656,10 @@ window.EXTRA40_GRADE_BANK = [
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
     "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
-    "questionType": "公民素養"
+    "questionType": "概念辨識",
+    "learningDomain": "綜合／待細分",
+    "learningUnit": "秘密投票",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-043",
@@ -1542,7 +1692,10 @@ window.EXTRA40_GRADE_BANK = [
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
     "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
-    "questionType": "公共議題推理"
+    "questionType": "概念辨識",
+    "learningDomain": "綜合／待細分",
+    "learningUnit": "公共預算與取捨",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-044",
@@ -1575,7 +1728,10 @@ window.EXTRA40_GRADE_BANK = [
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
     "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
-    "questionType": "資料判讀"
+    "questionType": "推理判斷",
+    "learningDomain": "綜合／待細分",
+    "learningUnit": "人口金字塔判讀",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-045",
@@ -1608,7 +1764,10 @@ window.EXTRA40_GRADE_BANK = [
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
     "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
-    "questionType": "媒體識讀"
+    "questionType": "閱讀理解",
+    "learningDomain": "綜合／待細分",
+    "learningUnit": "媒體資訊查證",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-046",
@@ -1641,7 +1800,10 @@ window.EXTRA40_GRADE_BANK = [
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
     "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
-    "questionType": "地圖判讀"
+    "questionType": "圖表資料判讀",
+    "learningDomain": "綜合／待細分",
+    "learningUnit": "等高線判讀",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-047",
@@ -1674,7 +1836,10 @@ window.EXTRA40_GRADE_BANK = [
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
     "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
-    "questionType": "生活經濟"
+    "questionType": "概念辨識",
+    "learningDomain": "綜合／待細分",
+    "learningUnit": "進出口概念",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-048",
@@ -1718,8 +1883,14 @@ window.EXTRA40_GRADE_BANK = [
         "volume": "社會六上",
         "unitCode": "2-1",
         "unitName": "個人發展如何受到社會變遷的影響",
+        "unitAliases": [
+          "個人發展如何受到社會變遷的影響",
+          "社會變遷與性別角色",
+          "社會變遷與家庭分工",
+          "個人發展與社會變遷"
+        ],
+        "scopeKeywords": [],
         "semester": "上學期",
-        "stage": "國小",
         "grade": "六年級",
         "subject": "社會",
         "courseTrack": null,
@@ -1727,8 +1898,11 @@ window.EXTRA40_GRADE_BANK = [
         "courseType": "國小"
       }
     ],
-    "classificationNotes": "康軒官方社會六上2-1教學資源明示個人發展與社會變遷；本題對應該單元，不代表學校採用版本。",
-    "questionType": "社會變遷"
+    "classificationNotes": "康軒官方六上2-1教學資源明示個人發展與社會變遷單元；不代表學校採用版本。",
+    "questionType": "概念辨識",
+    "learningDomain": "綜合／待細分",
+    "learningUnit": "個人發展與社會變遷",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-049",
@@ -1761,7 +1935,10 @@ window.EXTRA40_GRADE_BANK = [
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
     "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
-    "questionType": "史料判讀"
+    "questionType": "概念辨識",
+    "learningDomain": "綜合／待細分",
+    "learningUnit": "第一手史料與限制",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-050",
@@ -1794,7 +1971,10 @@ window.EXTRA40_GRADE_BANK = [
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
     "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
-    "questionType": "跨領域資料判讀"
+    "questionType": "概念辨識",
+    "learningDomain": "綜合／待細分",
+    "learningUnit": "永續交通選擇",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-051",
@@ -1838,18 +2018,34 @@ window.EXTRA40_GRADE_BANK = [
         "volume": "數學(3A)（官方互動式教學講義，搭配翰林教材）",
         "unitCode": "1",
         "unitName": "三角函數",
+        "unitAliases": [
+          "三角函數",
+          "三角比",
+          "特殊角",
+          "三角測量",
+          "弧度",
+          "正弦",
+          "餘弦",
+          "正切",
+          "週期",
+          "象限",
+          "三角方程式"
+        ],
+        "scopeKeywords": [],
         "semester": "上學期",
-        "stage": "高中",
         "grade": "高二",
         "subject": "數學",
         "courseTrack": "數學A",
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁確認數學A軌別，學校採用版本未確認"
+        "courseType": "未確認"
       }
     ],
-    "classificationNotes": "翰林官方數學3A頁明示高二上、數學A及三角函數單元；第一次段考為依題庫單元順序推定，非學校正式範圍。",
-    "questionType": "數學A計算",
-    "courseTrack": "數學A"
+    "classificationNotes": "已確認題目課程軌別為數學A；依翰林數學3A官方單元次序推定段考，非學校正式範圍。",
+    "questionType": "概念辨識",
+    "courseTrack": "數學A",
+    "learningDomain": "代數與函數",
+    "learningUnit": "三角函數",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-052",
@@ -1893,18 +2089,34 @@ window.EXTRA40_GRADE_BANK = [
         "volume": "數學(3A)（官方互動式教學講義，搭配翰林教材）",
         "unitCode": "1",
         "unitName": "三角函數",
+        "unitAliases": [
+          "三角函數",
+          "三角比",
+          "特殊角",
+          "三角測量",
+          "弧度",
+          "正弦",
+          "餘弦",
+          "正切",
+          "週期",
+          "象限",
+          "三角方程式"
+        ],
+        "scopeKeywords": [],
         "semester": "上學期",
-        "stage": "高中",
         "grade": "高二",
         "subject": "數學",
         "courseTrack": "數學A",
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁確認數學A軌別，學校採用版本未確認"
+        "courseType": "未確認"
       }
     ],
-    "classificationNotes": "翰林官方數學3A頁明示高二上、數學A及三角函數單元；第一次段考為依題庫單元順序推定，非學校正式範圍。",
-    "questionType": "數學A推理",
-    "courseTrack": "數學A"
+    "classificationNotes": "已確認題目課程軌別為數學A；依翰林數學3A官方單元次序推定段考，非學校正式範圍。",
+    "questionType": "計算應用",
+    "courseTrack": "數學A",
+    "learningDomain": "代數與函數",
+    "learningUnit": "三角函數",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-053",
@@ -1948,18 +2160,34 @@ window.EXTRA40_GRADE_BANK = [
         "volume": "數學(3A)（官方互動式教學講義，搭配翰林教材）",
         "unitCode": "1",
         "unitName": "三角函數",
+        "unitAliases": [
+          "三角函數",
+          "三角比",
+          "特殊角",
+          "三角測量",
+          "弧度",
+          "正弦",
+          "餘弦",
+          "正切",
+          "週期",
+          "象限",
+          "三角方程式"
+        ],
+        "scopeKeywords": [],
         "semester": "上學期",
-        "stage": "高中",
         "grade": "高二",
         "subject": "數學",
         "courseTrack": "數學A",
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁確認數學A軌別，學校採用版本未確認"
+        "courseType": "未確認"
       }
     ],
-    "classificationNotes": "翰林官方數學3A頁明示高二上、數學A及三角函數單元；第一次段考為依題庫單元順序推定，非學校正式範圍。",
-    "questionType": "生活情境計算",
-    "courseTrack": "數學A"
+    "classificationNotes": "已確認題目課程軌別為數學A；依翰林數學3A官方單元次序推定段考，非學校正式範圍。",
+    "questionType": "計算應用",
+    "courseTrack": "數學A",
+    "learningDomain": "代數與函數",
+    "learningUnit": "三角函數",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-054",
@@ -2003,18 +2231,29 @@ window.EXTRA40_GRADE_BANK = [
         "volume": "數學(3A)（官方互動式教學講義，搭配翰林教材）",
         "unitCode": "2",
         "unitName": "指數與對數函數",
+        "unitAliases": [
+          "指數",
+          "對數",
+          "log",
+          "成長模型",
+          "衰變",
+          "半衰期"
+        ],
+        "scopeKeywords": [],
         "semester": "上學期",
-        "stage": "高中",
         "grade": "高二",
         "subject": "數學",
         "courseTrack": "數學A",
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁確認數學A軌別，學校採用版本未確認"
+        "courseType": "未確認"
       }
     ],
-    "classificationNotes": "翰林官方數學3A頁明示高二上、數學A及指數與對數函數單元；第二次段考為依題庫單元順序推定，非學校正式範圍。",
-    "questionType": "數學A計算",
-    "courseTrack": "數學A"
+    "classificationNotes": "已確認題目課程軌別為數學A；依翰林數學3A官方單元次序推定段考，非學校正式範圍。",
+    "questionType": "概念辨識",
+    "courseTrack": "數學A",
+    "learningDomain": "代數與函數",
+    "learningUnit": "指數與對數函數",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-055",
@@ -2058,18 +2297,29 @@ window.EXTRA40_GRADE_BANK = [
         "volume": "數學(3A)（官方互動式教學講義，搭配翰林教材）",
         "unitCode": "2",
         "unitName": "指數與對數函數",
+        "unitAliases": [
+          "指數",
+          "對數",
+          "log",
+          "成長模型",
+          "衰變",
+          "半衰期"
+        ],
+        "scopeKeywords": [],
         "semester": "上學期",
-        "stage": "高中",
         "grade": "高二",
         "subject": "數學",
         "courseTrack": "數學A",
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁確認數學A軌別，學校採用版本未確認"
+        "courseType": "未確認"
       }
     ],
-    "classificationNotes": "翰林官方數學3A頁明示高二上、數學A及指數與對數函數單元；第二次段考為依題庫單元順序推定，非學校正式範圍。",
-    "questionType": "生活情境計算",
-    "courseTrack": "數學A"
+    "classificationNotes": "已確認題目課程軌別為數學A；依翰林數學3A官方單元次序推定段考，非學校正式範圍。",
+    "questionType": "計算應用",
+    "courseTrack": "數學A",
+    "learningDomain": "代數與函數",
+    "learningUnit": "指數與對數函數",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-056",
@@ -2113,18 +2363,29 @@ window.EXTRA40_GRADE_BANK = [
         "volume": "數學(3A)（官方互動式教學講義，搭配翰林教材）",
         "unitCode": "2",
         "unitName": "指數與對數函數",
+        "unitAliases": [
+          "指數",
+          "對數",
+          "log",
+          "成長模型",
+          "衰變",
+          "半衰期"
+        ],
+        "scopeKeywords": [],
         "semester": "上學期",
-        "stage": "高中",
         "grade": "高二",
         "subject": "數學",
         "courseTrack": "數學A",
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁確認數學A軌別，學校採用版本未確認"
+        "courseType": "未確認"
       }
     ],
-    "classificationNotes": "翰林官方數學3A頁明示高二上、數學A及指數與對數函數單元；第二次段考為依題庫單元順序推定，非學校正式範圍。",
-    "questionType": "數學A計算",
-    "courseTrack": "數學A"
+    "classificationNotes": "已確認題目課程軌別為數學A；依翰林數學3A官方單元次序推定段考，非學校正式範圍。",
+    "questionType": "概念辨識",
+    "courseTrack": "數學A",
+    "learningDomain": "代數與函數",
+    "learningUnit": "指數與對數函數",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-057",
@@ -2168,18 +2429,29 @@ window.EXTRA40_GRADE_BANK = [
         "volume": "數學(3A)（官方互動式教學講義，搭配翰林教材）",
         "unitCode": "3",
         "unitName": "平面向量",
+        "unitAliases": [
+          "平面向量",
+          "向量",
+          "內積",
+          "投影",
+          "行列式",
+          "單位向量"
+        ],
+        "scopeKeywords": [],
         "semester": "上學期",
-        "stage": "高中",
         "grade": "高二",
         "subject": "數學",
         "courseTrack": "數學A",
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁確認數學A軌別，學校採用版本未確認"
+        "courseType": "未確認"
       }
     ],
-    "classificationNotes": "翰林官方數學3A頁明示高二上、數學A及平面向量單元；第三次段考為依題庫單元順序推定，非學校正式範圍。",
-    "questionType": "數學A計算",
-    "courseTrack": "數學A"
+    "classificationNotes": "已確認題目課程軌別為數學A；依翰林數學3A官方單元次序推定段考，非學校正式範圍。",
+    "questionType": "概念辨識",
+    "courseTrack": "數學A",
+    "learningDomain": "幾何與測量",
+    "learningUnit": "平面向量",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-058",
@@ -2223,18 +2495,29 @@ window.EXTRA40_GRADE_BANK = [
         "volume": "數學(3A)（官方互動式教學講義，搭配翰林教材）",
         "unitCode": "3",
         "unitName": "平面向量",
+        "unitAliases": [
+          "平面向量",
+          "向量",
+          "內積",
+          "投影",
+          "行列式",
+          "單位向量"
+        ],
+        "scopeKeywords": [],
         "semester": "上學期",
-        "stage": "高中",
         "grade": "高二",
         "subject": "數學",
         "courseTrack": "數學A",
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁確認數學A軌別，學校採用版本未確認"
+        "courseType": "未確認"
       }
     ],
-    "classificationNotes": "翰林官方數學3A頁明示高二上、數學A及平面向量單元；第三次段考為依題庫單元順序推定，非學校正式範圍。",
-    "questionType": "數學A計算",
-    "courseTrack": "數學A"
+    "classificationNotes": "已確認題目課程軌別為數學A；依翰林數學3A官方單元次序推定段考，非學校正式範圍。",
+    "questionType": "計算應用",
+    "courseTrack": "數學A",
+    "learningDomain": "幾何與測量",
+    "learningUnit": "平面向量",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-059",
@@ -2278,18 +2561,29 @@ window.EXTRA40_GRADE_BANK = [
         "volume": "數學(3A)（官方互動式教學講義，搭配翰林教材）",
         "unitCode": "3",
         "unitName": "平面向量",
+        "unitAliases": [
+          "平面向量",
+          "向量",
+          "內積",
+          "投影",
+          "行列式",
+          "單位向量"
+        ],
+        "scopeKeywords": [],
         "semester": "上學期",
-        "stage": "高中",
         "grade": "高二",
         "subject": "數學",
         "courseTrack": "數學A",
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁確認數學A軌別，學校採用版本未確認"
+        "courseType": "未確認"
       }
     ],
-    "classificationNotes": "翰林官方數學3A頁明示高二上、數學A及平面向量單元；第三次段考為依題庫單元順序推定，非學校正式範圍。",
-    "questionType": "數學A計算",
-    "courseTrack": "數學A"
+    "classificationNotes": "已確認題目課程軌別為數學A；依翰林數學3A官方單元次序推定段考，非學校正式範圍。",
+    "questionType": "概念辨識",
+    "courseTrack": "數學A",
+    "learningDomain": "幾何與測量",
+    "learningUnit": "平面向量",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-060",
@@ -2333,18 +2627,29 @@ window.EXTRA40_GRADE_BANK = [
         "volume": "數學(3A)（官方互動式教學講義，搭配翰林教材）",
         "unitCode": "3",
         "unitName": "平面向量",
+        "unitAliases": [
+          "平面向量",
+          "向量",
+          "內積",
+          "投影",
+          "行列式",
+          "單位向量"
+        ],
+        "scopeKeywords": [],
         "semester": "上學期",
-        "stage": "高中",
         "grade": "高二",
         "subject": "數學",
         "courseTrack": "數學A",
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁確認數學A軌別，學校採用版本未確認"
+        "courseType": "未確認"
       }
     ],
-    "classificationNotes": "翰林官方數學3A頁明示高二上、數學A及平面向量單元；第三次段考為依題庫單元順序推定，非學校正式範圍。",
-    "questionType": "數學A計算",
-    "courseTrack": "數學A"
+    "classificationNotes": "已確認題目課程軌別為數學A；依翰林數學3A官方單元次序推定段考，非學校正式範圍。",
+    "questionType": "計算應用",
+    "courseTrack": "數學A",
+    "learningDomain": "幾何與測量",
+    "learningUnit": "平面向量",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-061",
@@ -2388,17 +2693,43 @@ window.EXTRA40_GRADE_BANK = [
         "volume": "選修物理(II) 力學二與熱學",
         "unitCode": "全冊",
         "unitName": "力學二與熱學",
+        "unitAliases": [],
+        "scopeKeywords": [
+          "動量",
+          "衝量",
+          "碰撞",
+          "功",
+          "位能",
+          "動能",
+          "力矩",
+          "角動量",
+          "熱",
+          "比熱",
+          "熱膨脹",
+          "熱傳導",
+          "熱力學",
+          "熱機",
+          "氣體",
+          "彈簧",
+          "圓周",
+          "向心",
+          "波以耳",
+          "線膨脹",
+          "機械能"
+        ],
         "semester": "上學期",
-        "stage": "高中",
         "grade": "高二",
         "subject": "物理",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
+        "courseType": "未確認"
       }
     ],
-    "classificationNotes": "翰林官方選修物理II課本頁確認高二上及力學二與熱學冊名；僅冊別層級，不推定段考。",
-    "questionType": "計算應用"
+    "classificationNotes": "翰林官方頁確認高二上選修物理(II)冊名「力學二與熱學」；只作冊別層級對照，未核對細分單元或段考。",
+    "questionType": "計算應用",
+    "learningDomain": "力學運動",
+    "learningUnit": "力矩與轉動平衡",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-062",
@@ -2442,17 +2773,43 @@ window.EXTRA40_GRADE_BANK = [
         "volume": "選修物理(II) 力學二與熱學",
         "unitCode": "全冊",
         "unitName": "力學二與熱學",
+        "unitAliases": [],
+        "scopeKeywords": [
+          "動量",
+          "衝量",
+          "碰撞",
+          "功",
+          "位能",
+          "動能",
+          "力矩",
+          "角動量",
+          "熱",
+          "比熱",
+          "熱膨脹",
+          "熱傳導",
+          "熱力學",
+          "熱機",
+          "氣體",
+          "彈簧",
+          "圓周",
+          "向心",
+          "波以耳",
+          "線膨脹",
+          "機械能"
+        ],
         "semester": "上學期",
-        "stage": "高中",
         "grade": "高二",
         "subject": "物理",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
+        "courseType": "未確認"
       }
     ],
-    "classificationNotes": "翰林官方選修物理II課本頁確認高二上及力學二與熱學冊名；僅冊別層級，不推定段考。",
-    "questionType": "計算應用"
+    "classificationNotes": "翰林官方頁確認高二上選修物理(II)冊名「力學二與熱學」；只作冊別層級對照，未核對細分單元或段考。",
+    "questionType": "計算應用",
+    "learningDomain": "力學運動",
+    "learningUnit": "衝量與動量",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-063",
@@ -2496,17 +2853,43 @@ window.EXTRA40_GRADE_BANK = [
         "volume": "選修物理(II) 力學二與熱學",
         "unitCode": "全冊",
         "unitName": "力學二與熱學",
+        "unitAliases": [],
+        "scopeKeywords": [
+          "動量",
+          "衝量",
+          "碰撞",
+          "功",
+          "位能",
+          "動能",
+          "力矩",
+          "角動量",
+          "熱",
+          "比熱",
+          "熱膨脹",
+          "熱傳導",
+          "熱力學",
+          "熱機",
+          "氣體",
+          "彈簧",
+          "圓周",
+          "向心",
+          "波以耳",
+          "線膨脹",
+          "機械能"
+        ],
         "semester": "上學期",
-        "stage": "高中",
         "grade": "高二",
         "subject": "物理",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
+        "courseType": "未確認"
       }
     ],
-    "classificationNotes": "翰林官方選修物理II課本頁確認高二上及力學二與熱學冊名；僅冊別層級，不推定段考。",
-    "questionType": "計算應用"
+    "classificationNotes": "翰林官方頁確認高二上選修物理(II)冊名「力學二與熱學」；只作冊別層級對照，未核對細分單元或段考。",
+    "questionType": "概念辨識",
+    "learningDomain": "力學運動",
+    "learningUnit": "動量守恆與碰撞",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-064",
@@ -2550,17 +2933,43 @@ window.EXTRA40_GRADE_BANK = [
         "volume": "選修物理(II) 力學二與熱學",
         "unitCode": "全冊",
         "unitName": "力學二與熱學",
+        "unitAliases": [],
+        "scopeKeywords": [
+          "動量",
+          "衝量",
+          "碰撞",
+          "功",
+          "位能",
+          "動能",
+          "力矩",
+          "角動量",
+          "熱",
+          "比熱",
+          "熱膨脹",
+          "熱傳導",
+          "熱力學",
+          "熱機",
+          "氣體",
+          "彈簧",
+          "圓周",
+          "向心",
+          "波以耳",
+          "線膨脹",
+          "機械能"
+        ],
         "semester": "上學期",
-        "stage": "高中",
         "grade": "高二",
         "subject": "物理",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
+        "courseType": "未確認"
       }
     ],
-    "classificationNotes": "翰林官方選修物理II課本頁確認高二上及力學二與熱學冊名；僅冊別層級，不推定段考。",
-    "questionType": "概念推理"
+    "classificationNotes": "翰林官方頁確認高二上選修物理(II)冊名「力學二與熱學」；只作冊別層級對照，未核對細分單元或段考。",
+    "questionType": "概念辨識",
+    "learningDomain": "熱學能量",
+    "learningUnit": "理想氣體與壓力",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-065",
@@ -2604,17 +3013,43 @@ window.EXTRA40_GRADE_BANK = [
         "volume": "選修物理(II) 力學二與熱學",
         "unitCode": "全冊",
         "unitName": "力學二與熱學",
+        "unitAliases": [],
+        "scopeKeywords": [
+          "動量",
+          "衝量",
+          "碰撞",
+          "功",
+          "位能",
+          "動能",
+          "力矩",
+          "角動量",
+          "熱",
+          "比熱",
+          "熱膨脹",
+          "熱傳導",
+          "熱力學",
+          "熱機",
+          "氣體",
+          "彈簧",
+          "圓周",
+          "向心",
+          "波以耳",
+          "線膨脹",
+          "機械能"
+        ],
         "semester": "上學期",
-        "stage": "高中",
         "grade": "高二",
         "subject": "物理",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
+        "courseType": "未確認"
       }
     ],
-    "classificationNotes": "翰林官方選修物理II課本頁確認高二上及力學二與熱學冊名；僅冊別層級，不推定段考。",
-    "questionType": "計算應用"
+    "classificationNotes": "翰林官方頁確認高二上選修物理(II)冊名「力學二與熱學」；只作冊別層級對照，未核對細分單元或段考。",
+    "questionType": "計算應用",
+    "learningDomain": "熱學能量",
+    "learningUnit": "比熱與熱量",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-066",
@@ -2658,17 +3093,43 @@ window.EXTRA40_GRADE_BANK = [
         "volume": "選修物理(II) 力學二與熱學",
         "unitCode": "全冊",
         "unitName": "力學二與熱學",
+        "unitAliases": [],
+        "scopeKeywords": [
+          "動量",
+          "衝量",
+          "碰撞",
+          "功",
+          "位能",
+          "動能",
+          "力矩",
+          "角動量",
+          "熱",
+          "比熱",
+          "熱膨脹",
+          "熱傳導",
+          "熱力學",
+          "熱機",
+          "氣體",
+          "彈簧",
+          "圓周",
+          "向心",
+          "波以耳",
+          "線膨脹",
+          "機械能"
+        ],
         "semester": "上學期",
-        "stage": "高中",
         "grade": "高二",
         "subject": "物理",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
+        "courseType": "未確認"
       }
     ],
-    "classificationNotes": "翰林官方選修物理II課本頁確認高中2年級、上學期及力學二與熱學冊名；本題涉及熱機／彈簧主題，僅作冊別層級對照，官方頁未列完整章節目次，不推定段考。",
-    "questionType": "計算應用"
+    "classificationNotes": "翰林官方頁確認高二上選修物理(II)冊名「力學二與熱學」；只作冊別層級對照，未核對細分單元或段考。",
+    "questionType": "計算應用",
+    "learningDomain": "熱學能量",
+    "learningUnit": "熱機效率",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-067",
@@ -2701,7 +3162,10 @@ window.EXTRA40_GRADE_BANK = [
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
     "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
-    "questionType": "計算應用"
+    "questionType": "計算應用",
+    "learningDomain": "波動聲光",
+    "learningUnit": "波速與頻率",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-068",
@@ -2745,17 +3209,43 @@ window.EXTRA40_GRADE_BANK = [
         "volume": "選修物理(II) 力學二與熱學",
         "unitCode": "全冊",
         "unitName": "力學二與熱學",
+        "unitAliases": [],
+        "scopeKeywords": [
+          "動量",
+          "衝量",
+          "碰撞",
+          "功",
+          "位能",
+          "動能",
+          "力矩",
+          "角動量",
+          "熱",
+          "比熱",
+          "熱膨脹",
+          "熱傳導",
+          "熱力學",
+          "熱機",
+          "氣體",
+          "彈簧",
+          "圓周",
+          "向心",
+          "波以耳",
+          "線膨脹",
+          "機械能"
+        ],
         "semester": "上學期",
-        "stage": "高中",
         "grade": "高二",
         "subject": "物理",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
+        "courseType": "未確認"
       }
     ],
-    "classificationNotes": "翰林官方選修物理II課本頁確認高中2年級、上學期及力學二與熱學冊名；本題涉及熱機／彈簧主題，僅作冊別層級對照，官方頁未列完整章節目次，不推定段考。",
-    "questionType": "計算應用"
+    "classificationNotes": "翰林官方頁確認高二上選修物理(II)冊名「力學二與熱學」；只作冊別層級對照，未核對細分單元或段考。",
+    "questionType": "計算應用",
+    "learningDomain": "綜合／待細分",
+    "learningUnit": "彈簧位能",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-069",
@@ -2799,17 +3289,27 @@ window.EXTRA40_GRADE_BANK = [
         "volume": "選修化學(III)（官方互動式教學講義）",
         "unitCode": "1",
         "unitName": "化學平衡",
+        "unitAliases": [
+          "化學平衡",
+          "平衡常數",
+          "勒沙特列",
+          "反應商",
+          "平衡移動"
+        ],
+        "scopeKeywords": [],
         "semester": "全學年",
-        "stage": "高中",
         "grade": "高二、高三",
         "subject": "化學",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
+        "courseType": "未確認"
       }
     ],
-    "classificationNotes": "翰林官方選修化學III目次明列化學平衡；本題對應該單元，教材標示全學年，不推定段考。",
-    "questionType": "平衡推理"
+    "classificationNotes": "翰林官方化學(III)目次明示化學平衡單元；教材標示高二、高三全學年。",
+    "questionType": "推理判斷",
+    "learningDomain": "反應與計量",
+    "learningUnit": "化學平衡與反應商",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-070",
@@ -2853,17 +3353,27 @@ window.EXTRA40_GRADE_BANK = [
         "volume": "選修化學(III)（官方互動式教學講義）",
         "unitCode": "1",
         "unitName": "化學平衡",
+        "unitAliases": [
+          "化學平衡",
+          "平衡常數",
+          "勒沙特列",
+          "反應商",
+          "平衡移動"
+        ],
+        "scopeKeywords": [],
         "semester": "全學年",
-        "stage": "高中",
         "grade": "高二、高三",
         "subject": "化學",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
+        "courseType": "未確認"
       }
     ],
-    "classificationNotes": "翰林官方選修化學III目次明列化學平衡；本題對應該單元，教材標示全學年，不推定段考。",
-    "questionType": "平衡推理"
+    "classificationNotes": "翰林官方化學(III)目次明示化學平衡單元；教材標示高二、高三全學年。",
+    "questionType": "概念辨識",
+    "learningDomain": "反應與計量",
+    "learningUnit": "化學平衡與溫度",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-071",
@@ -2907,17 +3417,27 @@ window.EXTRA40_GRADE_BANK = [
         "volume": "選修化學(III)（官方互動式教學講義）",
         "unitCode": "2",
         "unitName": "沉澱反應與溶解平衡",
+        "unitAliases": [
+          "沉澱",
+          "溶解平衡",
+          "溶度積",
+          "共同離子",
+          "Ksp"
+        ],
+        "scopeKeywords": [],
         "semester": "全學年",
-        "stage": "高中",
         "grade": "高二、高三",
         "subject": "化學",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
+        "courseType": "未確認"
       }
     ],
-    "classificationNotes": "翰林官方選修化學III目次明列沉澱反應與溶解平衡；本題對應該單元，教材標示全學年，不推定段考。",
-    "questionType": "計算與平衡"
+    "classificationNotes": "翰林官方化學(III)目次明示沉澱反應與溶解平衡單元；教材標示高二、高三全學年。",
+    "questionType": "概念辨識",
+    "learningDomain": "平衡與酸鹼",
+    "learningUnit": "沉澱與溶解平衡",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-072",
@@ -2961,17 +3481,27 @@ window.EXTRA40_GRADE_BANK = [
         "volume": "選修化學(III)（官方互動式教學講義）",
         "unitCode": "2",
         "unitName": "沉澱反應與溶解平衡",
+        "unitAliases": [
+          "沉澱",
+          "溶解平衡",
+          "溶度積",
+          "共同離子",
+          "Ksp"
+        ],
+        "scopeKeywords": [],
         "semester": "全學年",
-        "stage": "高中",
         "grade": "高二、高三",
         "subject": "化學",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
+        "courseType": "未確認"
       }
     ],
-    "classificationNotes": "翰林官方選修化學III目次明列沉澱反應與溶解平衡；本題對應該單元，教材標示全學年，不推定段考。",
-    "questionType": "平衡推理"
+    "classificationNotes": "翰林官方化學(III)目次明示沉澱反應與溶解平衡單元；教材標示高二、高三全學年。",
+    "questionType": "概念辨識",
+    "learningDomain": "綜合／待細分",
+    "learningUnit": "共同離子效應",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-073",
@@ -3015,17 +3545,27 @@ window.EXTRA40_GRADE_BANK = [
         "volume": "選修化學(III)（官方互動式教學講義）",
         "unitCode": "3",
         "unitName": "酸鹼反應",
+        "unitAliases": [
+          "酸鹼",
+          "pH",
+          "滴定",
+          "緩衝",
+          "鹽類水解"
+        ],
+        "scopeKeywords": [],
         "semester": "全學年",
-        "stage": "高中",
         "grade": "高二、高三",
         "subject": "化學",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
+        "courseType": "未確認"
       }
     ],
-    "classificationNotes": "翰林官方選修化學III目次明列酸鹼反應及酸鹼滴定；本題對應該單元，教材標示全學年，不推定段考。",
-    "questionType": "計算應用"
+    "classificationNotes": "翰林官方化學(III)目次明示酸鹼反應單元；教材標示高二、高三全學年。",
+    "questionType": "計算應用",
+    "learningDomain": "反應與計量",
+    "learningUnit": "酸鹼滴定",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-074",
@@ -3069,17 +3609,27 @@ window.EXTRA40_GRADE_BANK = [
         "volume": "選修化學(III)（官方互動式教學講義）",
         "unitCode": "3",
         "unitName": "酸鹼反應",
+        "unitAliases": [
+          "酸鹼",
+          "pH",
+          "滴定",
+          "緩衝",
+          "鹽類水解"
+        ],
+        "scopeKeywords": [],
         "semester": "全學年",
-        "stage": "高中",
         "grade": "高二、高三",
         "subject": "化學",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
+        "courseType": "未確認"
       }
     ],
-    "classificationNotes": "翰林官方選修化學III目次明列酸鹼反應；本題對應酸鹼與緩衝概念，教材標示全學年，不推定段考。",
-    "questionType": "概念推理"
+    "classificationNotes": "翰林官方化學(III)目次明示酸鹼反應單元；教材標示高二、高三全學年。",
+    "questionType": "推理判斷",
+    "learningDomain": "平衡與酸鹼",
+    "learningUnit": "緩衝溶液",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-075",
@@ -3118,22 +3668,34 @@ window.EXTRA40_GRADE_BANK = [
         "sourceTitle": "翰林書城－高中課本選修化學(II)物質構造與反應速率",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "翰林官方課本頁明示高中2年級、上學期及冊名「選修化學(II)物質構造與反應速率」；僅冊別層級，不宣稱細分單元已核對。不同商品編號的實驗手冊或習作可能有不同學期，不能與此課本頁混用。此映射不代表學校採用版本。",
+        "notes": "官方翰林課本頁明示高中2年級、上學期及冊名「選修化學(II)物質構造與反應速率」；僅冊別層級，不宣稱細分單元已核對。不同商品編號的實驗手冊或習作可能有不同學期，不能與此課本頁混用。此映射不代表學校採用版本。",
         "mappingLevel": "volume",
         "volume": "選修化學(II)物質構造與反應速率",
         "unitCode": "全冊",
         "unitName": "物質構造與反應速率（冊別層級；未核對細分目次）",
+        "unitAliases": [],
+        "scopeKeywords": [
+          "反應速率",
+          "催化劑",
+          "活化能",
+          "反應級數",
+          "物質構造",
+          "電子組態",
+          "價電子"
+        ],
         "semester": "上學期",
-        "stage": "高中",
         "grade": "高二",
         "subject": "化學",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
+        "courseType": "未確認"
       }
     ],
-    "classificationNotes": "翰林官方選修化學II課本頁確認高二上及物質構造與反應速率冊名；本題對應反應速率主題，僅冊別層級，不宣稱細分目次或段考。",
-    "questionType": "概念推理"
+    "classificationNotes": "翰林官方頁確認高二上選修化學(II)冊名「物質構造與反應速率」；只作冊別／主題層級對照。",
+    "questionType": "概念辨識",
+    "learningDomain": "反應與計量",
+    "learningUnit": "反應速率與溫度",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-076",
@@ -3172,22 +3734,34 @@ window.EXTRA40_GRADE_BANK = [
         "sourceTitle": "翰林書城－高中課本選修化學(II)物質構造與反應速率",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "翰林官方課本頁明示高中2年級、上學期及冊名「選修化學(II)物質構造與反應速率」；僅冊別層級，不宣稱細分單元已核對。不同商品編號的實驗手冊或習作可能有不同學期，不能與此課本頁混用。此映射不代表學校採用版本。",
+        "notes": "官方翰林課本頁明示高中2年級、上學期及冊名「選修化學(II)物質構造與反應速率」；僅冊別層級，不宣稱細分單元已核對。不同商品編號的實驗手冊或習作可能有不同學期，不能與此課本頁混用。此映射不代表學校採用版本。",
         "mappingLevel": "volume",
         "volume": "選修化學(II)物質構造與反應速率",
         "unitCode": "全冊",
         "unitName": "物質構造與反應速率（冊別層級；未核對細分目次）",
+        "unitAliases": [],
+        "scopeKeywords": [
+          "反應速率",
+          "催化劑",
+          "活化能",
+          "反應級數",
+          "物質構造",
+          "電子組態",
+          "價電子"
+        ],
         "semester": "上學期",
-        "stage": "高中",
         "grade": "高二",
         "subject": "化學",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
+        "courseType": "未確認"
       }
     ],
-    "classificationNotes": "翰林官方選修化學II課本頁確認高二上及物質構造與反應速率冊名；僅冊別層級，不宣稱細分目次或段考。",
-    "questionType": "概念推理"
+    "classificationNotes": "翰林官方頁確認高二上選修化學(II)冊名「物質構造與反應速率」；只作冊別／主題層級對照。",
+    "questionType": "概念辨識",
+    "learningDomain": "反應與計量",
+    "learningUnit": "反應速率與活化能",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-077",
@@ -3231,17 +3805,29 @@ window.EXTRA40_GRADE_BANK = [
         "volume": "選修生物(II)生命的起源與植物",
         "unitCode": "冊別層級",
         "unitName": "生命的起源與植物（冊別層級）",
+        "unitAliases": [],
+        "scopeKeywords": [
+          "植物",
+          "光合作用",
+          "蒸散",
+          "氣孔",
+          "維管束",
+          "木質部",
+          "韌皮部"
+        ],
         "semester": "上學期",
-        "stage": "高中",
         "grade": "高二",
         "subject": "生物",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
+        "courseType": "未確認"
       }
     ],
-    "classificationNotes": "翰林官方選修生物II課本頁確認高二上及生命的起源與植物冊名；僅冊別層級，不宣稱細分目次。",
-    "questionType": "生理推理"
+    "classificationNotes": "翰林官方課本頁確認高二上選修生物(II)「生命的起源與植物」；只作冊別層級對照，不宣稱細分目次。",
+    "questionType": "概念辨識",
+    "learningDomain": "生理植物",
+    "learningUnit": "植物蒸散與氣孔調節",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-078",
@@ -3285,17 +3871,29 @@ window.EXTRA40_GRADE_BANK = [
         "volume": "選修生物(II)生命的起源與植物",
         "unitCode": "冊別層級",
         "unitName": "生命的起源與植物（冊別層級）",
+        "unitAliases": [],
+        "scopeKeywords": [
+          "植物",
+          "光合作用",
+          "蒸散",
+          "氣孔",
+          "維管束",
+          "木質部",
+          "韌皮部"
+        ],
         "semester": "上學期",
-        "stage": "高中",
         "grade": "高二",
         "subject": "生物",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
+        "courseType": "未確認"
       }
     ],
-    "classificationNotes": "翰林官方選修生物II課本頁確認高二上及生命的起源與植物冊名；僅冊別層級，不宣稱細分目次。",
-    "questionType": "概念辨識"
+    "classificationNotes": "翰林官方課本頁確認高二上選修生物(II)「生命的起源與植物」；只作冊別層級對照，不宣稱細分目次。",
+    "questionType": "概念辨識",
+    "learningDomain": "生理植物",
+    "learningUnit": "木質部與水分運輸",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-079",
@@ -3339,17 +3937,29 @@ window.EXTRA40_GRADE_BANK = [
         "volume": "選修生物(II)生命的起源與植物",
         "unitCode": "冊別層級",
         "unitName": "生命的起源與植物（冊別層級）",
+        "unitAliases": [],
+        "scopeKeywords": [
+          "植物",
+          "光合作用",
+          "蒸散",
+          "氣孔",
+          "維管束",
+          "木質部",
+          "韌皮部"
+        ],
         "semester": "上學期",
-        "stage": "高中",
         "grade": "高二",
         "subject": "生物",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
+        "courseType": "未確認"
       }
     ],
-    "classificationNotes": "翰林官方選修生物II課本頁確認高二上及生命的起源與植物冊名；僅冊別層級，不宣稱細分目次。",
-    "questionType": "實驗探究"
+    "classificationNotes": "翰林官方課本頁確認高二上選修生物(II)「生命的起源與植物」；只作冊別層級對照，不宣稱細分目次。",
+    "questionType": "概念辨識",
+    "learningDomain": "生理植物",
+    "learningUnit": "光合作用與環境因素",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-080",
@@ -3382,7 +3992,10 @@ window.EXTRA40_GRADE_BANK = [
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
     "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
-    "questionType": "概念推理"
+    "questionType": "推理判斷",
+    "learningDomain": "細胞分子",
+    "learningUnit": "酵素與溫度",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-081",
@@ -3415,7 +4028,10 @@ window.EXTRA40_GRADE_BANK = [
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
     "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
-    "questionType": "概念辨識"
+    "questionType": "概念辨識",
+    "learningDomain": "細胞分子",
+    "learningUnit": "DNA半保留複製",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-082",
@@ -3448,7 +4064,10 @@ window.EXTRA40_GRADE_BANK = [
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
     "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
-    "questionType": "遺傳計算"
+    "questionType": "計算應用",
+    "learningDomain": "遺傳演化",
+    "learningUnit": "孟德爾單因子遺傳",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-083",
@@ -3481,7 +4100,10 @@ window.EXTRA40_GRADE_BANK = [
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
     "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
-    "questionType": "空間資料判讀"
+    "questionType": "概念辨識",
+    "learningDomain": "人文地理",
+    "learningUnit": "GIS圖層疊合",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-084",
@@ -3514,7 +4136,10 @@ window.EXTRA40_GRADE_BANK = [
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
     "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
-    "questionType": "概念辨識"
+    "questionType": "概念辨識",
+    "learningDomain": "人文地理",
+    "learningUnit": "人口遷移推力與拉力",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-085",
@@ -3547,7 +4172,10 @@ window.EXTRA40_GRADE_BANK = [
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
     "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
-    "questionType": "環境議題推理"
+    "questionType": "概念辨識",
+    "learningDomain": "人文地理",
+    "learningUnit": "都市熱島調適",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-086",
@@ -3580,7 +4208,10 @@ window.EXTRA40_GRADE_BANK = [
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
     "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
-    "questionType": "區位分析"
+    "questionType": "概念辨識",
+    "learningDomain": "綜合／待細分",
+    "learningUnit": "供應鏈區位",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-087",
@@ -3613,7 +4244,10 @@ window.EXTRA40_GRADE_BANK = [
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
     "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
-    "questionType": "史料判讀"
+    "questionType": "閱讀理解",
+    "learningDomain": "史料判讀",
+    "learningUnit": "史料立場與互證",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-088",
@@ -3646,7 +4280,10 @@ window.EXTRA40_GRADE_BANK = [
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
     "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
-    "questionType": "歷史因果"
+    "questionType": "推理判斷",
+    "learningDomain": "世界史",
+    "learningUnit": "工業革命與社會變遷",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-089",
@@ -3679,7 +4316,10 @@ window.EXTRA40_GRADE_BANK = [
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
     "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
-    "questionType": "歷史概念"
+    "questionType": "概念辨識",
+    "learningDomain": "世界史",
+    "learningUnit": "冷戰圍堵政策",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-090",
@@ -3712,7 +4352,10 @@ window.EXTRA40_GRADE_BANK = [
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
     "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
-    "questionType": "歷史因果"
+    "questionType": "概念辨識",
+    "learningDomain": "中國東亞史",
+    "learningUnit": "明治維新與中央集權",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-091",
@@ -3745,7 +4388,10 @@ window.EXTRA40_GRADE_BANK = [
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
     "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
-    "questionType": "法治國原則"
+    "questionType": "閱讀理解",
+    "learningDomain": "憲法政府",
+    "learningUnit": "法律保留原則",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-092",
@@ -3778,7 +4424,10 @@ window.EXTRA40_GRADE_BANK = [
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
     "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
-    "questionType": "憲法推理"
+    "questionType": "概念辨識",
+    "learningDomain": "憲法政府",
+    "learningUnit": "比例原則必要性",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-093",
@@ -3811,7 +4460,10 @@ window.EXTRA40_GRADE_BANK = [
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
     "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
-    "questionType": "制度分析"
+    "questionType": "概念辨識",
+    "learningDomain": "憲法政府",
+    "learningUnit": "權力分立與制衡",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-094",
@@ -3844,7 +4496,10 @@ window.EXTRA40_GRADE_BANK = [
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
     "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
-    "questionType": "經濟推理"
+    "questionType": "概念辨識",
+    "learningDomain": "憲法政府",
+    "learningUnit": "負外部性與政策工具",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-095",
@@ -3877,7 +4532,10 @@ window.EXTRA40_GRADE_BANK = [
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
     "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
-    "questionType": "文法句型"
+    "questionType": "實驗探究",
+    "learningDomain": "文法句型",
+    "learningUnit": "第三類假設語氣",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-096",
@@ -3910,7 +4568,10 @@ window.EXTRA40_GRADE_BANK = [
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
     "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
-    "questionType": "文法句型"
+    "questionType": "概念辨識",
+    "learningDomain": "文法句型",
+    "learningUnit": "被動語態與主詞一致",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-097",
@@ -3943,7 +4604,10 @@ window.EXTRA40_GRADE_BANK = [
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
     "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
-    "questionType": "閱讀素養"
+    "questionType": "閱讀理解",
+    "learningDomain": "閱讀理解",
+    "learningUnit": "閱讀資料與因果",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-098",
@@ -3976,7 +4640,10 @@ window.EXTRA40_GRADE_BANK = [
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
     "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
-    "questionType": "文本判讀"
+    "questionType": "推理判斷",
+    "learningDomain": "綜合／待細分",
+    "learningUnit": "反諷語氣判讀",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-099",
@@ -4009,7 +4676,10 @@ window.EXTRA40_GRADE_BANK = [
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
     "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
-    "questionType": "文意理解"
+    "questionType": "概念辨識",
+    "learningDomain": "閱讀理解",
+    "learningUnit": "文言文思想主旨",
+    "difficultyLevel": "進階"
   },
   {
     "id": "b40-100",
@@ -4042,6 +4712,9 @@ window.EXTRA40_GRADE_BANK = [
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
     "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，故不標出版社；學期與段考保留未分類，僅作複習建議。",
-    "questionType": "論證推理"
+    "questionType": "閱讀理解",
+    "learningDomain": "閱讀理解",
+    "learningUnit": "論證結構與證據",
+    "difficultyLevel": "進階"
   }
 ];
