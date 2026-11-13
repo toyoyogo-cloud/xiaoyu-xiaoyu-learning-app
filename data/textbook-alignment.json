@@ -890,6 +890,86 @@
         "runtimeClassificationMatchesStoredFields": true
       }
     },
-    "policy": "Math A/B are not mixed; only questions explicitly tagged courseTrack=數學A can resolve Hanlin 3A mappings. Publisher source confirms only the level stated in mappingLevel. School adoption remains unknown unless separately documented."
+    "policy": "Math A/B are not mixed; only questions explicitly tagged courseTrack=數學A can resolve Hanlin 3A mappings. Publisher source confirms only the level stated in mappingLevel. School adoption remains unknown unless separately documented.",
+    "classificationAuditBeforeBatch37": {
+      "questions": 2400,
+      "basis": {
+        "curriculumCore": 2134,
+        "questionBankInference": 136,
+        "publisherSourceVerified": 130
+      },
+      "semester": {
+        "unassigned": 2134,
+        "firstSemester": 166,
+        "secondSemester": 53,
+        "fullYear": 47
+      },
+      "examPeriod": {
+        "unassigned": 2264,
+        "firstExam": 34,
+        "secondExam": 45,
+        "thirdExam": 57
+      },
+      "previouslyUnassignedQuestionsNowAssignedSemester": 117,
+      "publisherMappingReferences": {
+        "hanlin": 147,
+        "knsh": 4,
+        "nani": 3
+      },
+      "note": "以main現有分類推定器對第8至36批全部題目逐題執行所得；題庫推定僅為複習建議，未分類代表沒有足夠依據。"
+    },
+    "newBatch37RuntimeClassification": {
+      "questions": 100,
+      "basis": {
+        "curriculumCore": 67,
+        "questionBankInference": 12,
+        "publisherSourceVerified": 21
+      },
+      "semester": {
+        "unassigned": 67,
+        "firstSemester": 22,
+        "secondSemester": 7,
+        "fullYear": 4
+      },
+      "examPeriod": {
+        "unassigned": 88,
+        "firstExam": 3,
+        "secondExam": 3,
+        "thirdExam": 6
+      },
+      "publisherMappingReferences": {
+        "hanlin": 23,
+        "knsh": 1,
+        "nani": 6
+      },
+      "runtimeMatchesStoredFields": true
+    },
+    "afterBatch37": {
+      "questions": 2500,
+      "uniqueIds": 2500,
+      "basis": {
+        "curriculumCore": 2201,
+        "questionBankInference": 148,
+        "publisherSourceVerified": 151
+      },
+      "semester": {
+        "unassigned": 2201,
+        "firstSemester": 188,
+        "secondSemester": 60,
+        "fullYear": 51
+      },
+      "examPeriod": {
+        "unassigned": 2352,
+        "firstExam": 37,
+        "secondExam": 48,
+        "thirdExam": 63
+      },
+      "publisherMappingReferences": {
+        "hanlin": 170,
+        "knsh": 5,
+        "nani": 9
+      },
+      "centralMappingRecords": 16
+    }
   }
 }
