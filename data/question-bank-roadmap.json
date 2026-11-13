@@ -305,7 +305,7 @@
   "currentIndependentBatchQuestions": 2800,
   "currentIndependentBatchRange": "第8至第40批",
   "currentVerifiedQuestionsNote": "currentVerifiedQuestions為index.html內嵌示範題的歷史盤點欄位，不含獨立批次檔；currentVerifiedNewGradeSpecificQuestions與currentIndependentBatchQuestions統計第8至第39批獨立題庫，rule-checked僅代表程式檢查，並非教師逐題審核。",
-  "legacyFieldNotes": "第8至29批1,700題原始批次沒有內嵌完整分類欄位；網站由分類器v13在執行時依題幹、單元與知識點推定。無足夠依據者保留unassigned。此執行時推定不等於已回寫舊批次檔。",
+  "legacyFieldNotes": "第8至29批1,700題均有sourceRef，但缺少semester、examPeriod、classificationBasis、confidence、publisherStatus、publisherMappings及classificationNotes；由分類器v13執行時依題幹、單元與知識點推定，未回寫原始批次。第30至40批1,100題上述欄位完整。無足夠依據者保留unassigned。",
   "currentDistribution": {
     "五年級": 290,
     "六年級": 840,
@@ -442,7 +442,24 @@
         "第三次段考": 83
       },
       "runtimeErrors": 0,
-      "notes": "分類器v13分批實際執行第8至40批共2,800題；第8至29批1,700題缺少儲存分類欄位，執行時動態推定。"
+      "notes": "分類器v13分批實際執行第8至40批共2,800題；第8至29批1,700題缺少儲存分類欄位，執行時動態推定。",
+      "storedFieldsCoverage": {
+        "batches08to29": {
+          "questions": 1700,
+          "sourceRefPresent": 1700,
+          "missingSemester": 1700,
+          "missingExamPeriod": 1700,
+          "missingClassificationBasis": 1700,
+          "missingConfidence": 1700,
+          "missingPublisherStatus": 1700,
+          "missingPublisherMappings": 1700,
+          "missingClassificationNotes": 1700
+        },
+        "batches30to40": {
+          "questions": 1100,
+          "allRequiredClassificationFieldsComplete": true
+        }
+      }
     }
   },
   "gradeDistribution": {
