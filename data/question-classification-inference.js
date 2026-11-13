@@ -31,7 +31,7 @@ function inferred(q){
   if(/基準量和比較量|基準量與比較量/.test(u)) return {mappingId:"nani-g6-math-6b-base-comparison",semester:"下學期",basis:"publisher-source-verified",confidence:"high",notes:"南一官方6下資源明示「基準量和比較量」；只作單元層級對照。"};
   if(/四則混合運算/.test(u)) return {mappingId:"nani-g6-math-6b-four-operations",semester:"下學期",basis:"publisher-source-verified",confidence:"high",notes:"南一官方6下資源明示「四則混合運算」；只作單元層級對照。"};
   if(/雞兔問題|雞兔同籠/.test(u)) return {mappingId:"nani-g6-math-6b-chicken-rabbit",semester:"下學期",basis:"publisher-source-verified",confidence:"high",notes:"南一官方6下教學資源明示雞兔問題；屬教學資源主題對照。"};
-  if(/比與比值|比與比例|比例|配比/.test(u)) return {semester:"上學期",examPeriod:"第一次段考",basis:"question-bank-inference",confidence:"medium",notes:"依六年級題庫常見單元群推定上學期前段；非學校正式段考範圍。"};
+  if(/比與比值|比與比例|比例(?!尺)|配比/.test(u)) return {semester:"上學期",examPeriod:"第一次段考",basis:"question-bank-inference",confidence:"medium",notes:"依六年級題庫常見單元群推定上學期前段；非學校正式段考範圍。"};
   if(/百分率|折扣/.test(u)) return {semester:"上學期",examPeriod:"第二次段考",basis:"question-bank-inference",confidence:"medium",notes:"依六年級題庫常見百分率單元群推定；非學校正式段考範圍。"};
   if(/比例尺|速率/.test(u)) return {semester:"上學期",examPeriod:"第三次段考",basis:"question-bank-inference",confidence:"medium",notes:"依六年級題庫常見比例尺與速率單元群推定；非學校正式段考範圍。"};
   if(/圓周|圓面積/.test(u)) return {semester:"下學期",examPeriod:"第一次段考",basis:"question-bank-inference",confidence:"medium",notes:"依六年級題庫常見圓形單元群推定；非學校正式段考範圍。"};
