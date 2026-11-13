@@ -1,4 +1,4 @@
-window.EXTRA34_GRADE_BANK = [
+window.EXTRA33_GRADE_BANK = [
   {
     "id": "b33-001",
     "stage": "國小",
