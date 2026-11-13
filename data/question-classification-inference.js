@@ -4,21 +4,65 @@ const MAPS={"hanlin-h2-math-3a-u1":{"id":"hanlin-h2-math-3a-u1","schoolYear":"�
 const UN="unassigned";
 const core=q=>q&&(q.frameworkId==="curriculum-108"||q.sourceType==="original-curriculum-aligned");
 const label=q=>String(q.unit||q.learningContent||q.t||q.topic||"");
+const UNIT_ALIASES={
+ "hanlin-h2-math-3a-u1":["三角函數","三角比","特殊角","三角測量","弧度","正弦","餘弦","正切","週期","象限"],
+ "hanlin-h2-math-3a-u2":["指數","對數","log","成長模型","衰變","半衰期"],
+ "hanlin-h2-math-3a-u3":["平面向量","向量","內積","投影","行列式","單位向量"],
+ "knsh-g6-social-6a-u2-1":["個人發展如何受到社會變遷的影響","社會變遷與性別角色","社會變遷與家庭分工"],
+ "hanlin-h2-chemistry-iii-u1":["化學平衡","平衡常數","勒沙特列","反應商","平衡移動"],
+ "hanlin-h2-chemistry-iii-u2":["沉澱","溶解平衡","溶度積","共同離子","Ksp"],
+ "hanlin-h2-chemistry-iii-u3":["酸鹼","pH","滴定","緩衝","鹽類水解"],
+ "nani-g6-math-6b-base-comparison":["基準量和比較量","基準量與比較量"],
+ "nani-g6-math-6b-four-operations":["四則混合運算"],
+ "nani-g6-math-6b-chicken-rabbit":["雞兔問題","雞兔同籠"]
+};
+const VOLUME_SCOPES={
+ "hanlin-h2-physics-ii":["動量","衝量","碰撞","功","位能","動能","力矩","角動量","熱","比熱","熱膨脹","熱傳導","熱力學","熱機","氣體","彈簧","圓周","向心","波以耳"],
+ "hanlin-h2-chemistry-ii-structure-rate":["反應速率","催化劑","活化能","反應級數","物質構造","電子組態","價電子"],
+ "hanlin-h2-biology-ii-plant":["植物","光合作用","蒸散","氣孔","維管束","木質部","韌皮部"],
+ "hanlin-h2-chemistry-i-matter-energy":["焓","反應熱","能量","赫斯定律"],
+ "hanlin-g6-math-6a-volume":[],
+ "hanlin-g6-math-6b-volume":[]
+};
+function questionText(q){
+ return [q.unit,q.t,q.topic,q.learningContent].filter(Boolean).join(" ");
+}
+function mappingScopeMatches(q,m,id){
+ const text=questionText(q);
+ const level=m.mappingLevel||"volume";
+ const terms=level==="unit"||level==="official-resource-title"?UNIT_ALIASES[id]:VOLUME_SCOPES[id];
+ if(!Array.isArray(terms)||!terms.length)return false;
+ return terms.some(term=>text.toLowerCase().includes(String(term).toLowerCase()));
+}
+function validMappingForQuestion(q,m,id){
+ if(!m||!m.publisher||!m.sourceUrl||!m.sourceTitle||!m.verifiedAt||!m.verificationStatus||!m.notes)return false;
+ if(!/^https:\/\//.test(m.sourceUrl))return false;
+ if(!["source-checked","official-index-link-only"].includes(m.verificationStatus))return false;
+ if(!["unit","volume","official-resource-title"].includes(m.mappingLevel||""))return false;
+ if(m.stage&&q.stage&&m.stage!==q.stage)return false;
+ if(m.grade&&String(m.grade).split(/[、,，]/).indexOf(q.grade)<0)return false;
+ if(m.subject&&q.subject!==m.subject)return false;
+ if(m.courseTrack&&q.courseTrack!==m.courseTrack)return false;
+ if(q.courseType&&q.courseType!=="未確認"&&m.courseType!==q.courseType)return false;
+ if(q.schoolYear&&q.schoolYear!=="未標示"&&m.schoolYear!==q.schoolYear)return false;
+ const qs=q.semester||UN,ms=m.semester||UN;
+ if(qs!==UN&&ms!==UN&&ms!=="全學年"&&qs!==ms)return false;
+ return mappingScopeMatches(q,m,id);
+}
 function resolveMappings(q){
  const raw=Array.isArray(q.publisherMappings)?q.publisherMappings:[];
  const out=[];
  for(const x of raw){
   const id=x.mappingId||x.id;
   const m=MAPS[id];
-  if(!m) continue;
-  if(m.courseTrack&&q.courseTrack!==m.courseTrack) continue;
-  if(m.grade&&String(m.grade).split(/[、,，]/).indexOf(q.grade)<0) continue;
-  if(m.subject&&q.subject!==m.subject) continue;
+  if(!validMappingForQuestion(q,m,id))continue;
+  const level=m.mappingLevel||"volume";
   out.push({
    publisher:m.publisher,mappingId:id,sourceUrl:m.sourceUrl,sourceTitle:m.sourceTitle,
    verifiedAt:m.verifiedAt,verificationStatus:m.verificationStatus,notes:m.notes,
-   mappingLevel:m.mappingLevel||"volume",volume:m.volume||m.unitName||"",
-   unitCode:m.unitCode||"",unitName:m.unitName||"",semester:m.semester||UN,
+   mappingLevel:level,volume:m.volume||m.unitName||"",unitCode:m.unitCode||"",
+   unitName:m.unitName||"",unitAliases:UNIT_ALIASES[id]||[],
+   scopeKeywords:VOLUME_SCOPES[id]||[],semester:m.semester||UN,
    grade:m.grade,subject:m.subject,courseTrack:m.courseTrack||null,
    schoolYear:m.schoolYear||"未標示",courseType:m.courseType||"未確認"
   });
@@ -30,7 +74,7 @@ function inferred(q){
  if(g==="六年級"&&s==="數學"){
   if(/基準量和比較量|基準量與比較量/.test(u)) return {mappingId:"nani-g6-math-6b-base-comparison",semester:"下學期",basis:"publisher-source-verified",confidence:"high",notes:"南一官方6下資源明示「基準量和比較量」；只作單元層級對照。"};
   if(/四則混合運算/.test(u)) return {mappingId:"nani-g6-math-6b-four-operations",semester:"下學期",basis:"publisher-source-verified",confidence:"high",notes:"南一官方6下資源明示「四則混合運算」；只作單元層級對照。"};
-  if(/雞兔問題|雞兔同籠/.test(u)) return {mappingId:"nani-g6-math-6b-chicken-rabbit",semester:"下學期",basis:"publisher-source-verified",confidence:"high",notes:"南一官方6下教學資源明示雞兔問題；屬教學資源主題對照。"};
+  if(/雞兔問題|雞兔同籠/.test(u)) return {mappingId:"nani-g6-math-6b-chicken-rabbit",semester:"下學期",basis:"publisher-source-verified",confidence:"medium",notes:"南一官方索引標題顯示數學6下雞兔問題；詳情頁未能讀取，僅保留官方資源標題層級。"};
   if(/比與比值|比與比例|比例(?!尺)|配比/.test(u)) return {semester:"上學期",examPeriod:"第一次段考",basis:"question-bank-inference",confidence:"medium",notes:"依六年級題庫常見單元群推定上學期前段；非學校正式段考範圍。"};
   if(/百分率|折扣/.test(u)) return {semester:"上學期",examPeriod:"第二次段考",basis:"question-bank-inference",confidence:"medium",notes:"依六年級題庫常見百分率單元群推定；非學校正式段考範圍。"};
   if(/比例尺|速率/.test(u)) return {semester:"上學期",examPeriod:"第三次段考",basis:"question-bank-inference",confidence:"medium",notes:"依六年級題庫常見比例尺與速率單元群推定；非學校正式段考範圍。"};
@@ -43,19 +87,19 @@ function inferred(q){
   if(/指數|對數|log|成長|衰變/.test(u)) return {mappingId:"hanlin-h2-math-3a-u2",semester:"上學期",examPeriod:"第二次段考",basis:"question-bank-inference",confidence:"medium",notes:"已確認題目課程軌別為數學A；依翰林數學3A官方單元次序推定段考，非學校正式範圍。"};
   if(/向量|內積|投影|行列式/.test(u)) return {mappingId:"hanlin-h2-math-3a-u3",semester:"上學期",examPeriod:"第三次段考",basis:"question-bank-inference",confidence:"medium",notes:"已確認題目課程軌別為數學A；依翰林數學3A官方單元次序推定段考，非學校正式範圍。"};
  }
- if(g==="高二"&&s==="物理"&&/動量|衝量|碰撞|力矩|角動量|彈簧|熱量|熱學|熱傳導|熱膨脹|靜力|力學|牛頓/.test(u))
-  return {mappingId:"hanlin-h2-physics-ii",semester:"上學期",basis:"publisher-source-verified",confidence:"medium",notes:"翰林官方頁確認高二上選修物理(II)冊名「力學二與熱學」；本映射僅冊別層級，不代表學校採用版本或細分段考。"};
- if(g==="高二"&&s==="化學"&&/反應速率|催化劑|活化能|碰撞理論|物質構造|電子組態|價電子/.test(u))
-  return {mappingId:"hanlin-h2-chemistry-ii-structure-rate",semester:"上學期",basis:"publisher-source-verified",confidence:"medium",notes:"翰林官方頁確認高二上選修化學(II)冊名「物質構造與反應速率」；此為冊名／主題層級，不宣稱完整單元目次。"};
+ if(g==="高二"&&s==="物理"&&mappingScopeMatches(q,MAPS["hanlin-h2-physics-ii"],"hanlin-h2-physics-ii"))
+  return {mappingId:"hanlin-h2-physics-ii",semester:"上學期",basis:"publisher-source-verified",confidence:"medium",notes:"翰林官方頁確認高二上選修物理(II)冊名「力學二與熱學」；只作冊別層級對照，未核對細分單元或段考。"};
+ if(g==="高二"&&s==="化學"&&mappingScopeMatches(q,MAPS["hanlin-h2-chemistry-ii-structure-rate"],"hanlin-h2-chemistry-ii-structure-rate"))
+  return {mappingId:"hanlin-h2-chemistry-ii-structure-rate",semester:"上學期",basis:"publisher-source-verified",confidence:"medium",notes:"翰林官方頁確認高二上選修化學(II)冊名「物質構造與反應速率」；只作冊別／主題層級對照。"};
  if(g==="高二"&&s==="化學"){
-  if(/化學平衡|平衡常數|勒沙特列|反應商/.test(u)) return {mappingId:"hanlin-h2-chemistry-iii-u1",semester:"全學年",basis:"publisher-source-verified",confidence:"high",notes:"翰林官方化學(III)目次明示化學平衡單元；教材標示高二、高三全學年。"};
-  if(/溶解平衡|溶度積|沉澱|共同離子/.test(u)) return {mappingId:"hanlin-h2-chemistry-iii-u2",semester:"全學年",basis:"publisher-source-verified",confidence:"high",notes:"翰林官方化學(III)目次明示沉澱反應與溶解平衡單元；教材標示高二、高三全學年。"};
+  if(/化學平衡|平衡常數|勒沙特列|反應商|平衡移動/.test(u)) return {mappingId:"hanlin-h2-chemistry-iii-u1",semester:"全學年",basis:"publisher-source-verified",confidence:"high",notes:"翰林官方化學(III)目次明示化學平衡單元；教材標示高二、高三全學年。"};
+  if(/溶解平衡|溶度積|沉澱|共同離子|Ksp/.test(u)) return {mappingId:"hanlin-h2-chemistry-iii-u2",semester:"全學年",basis:"publisher-source-verified",confidence:"high",notes:"翰林官方化學(III)目次明示沉澱反應與溶解平衡單元；教材標示高二、高三全學年。"};
   if(/酸鹼|緩衝|滴定|鹽類水解|pH/.test(u)) return {mappingId:"hanlin-h2-chemistry-iii-u3",semester:"全學年",basis:"publisher-source-verified",confidence:"high",notes:"翰林官方化學(III)目次明示酸鹼反應單元；教材標示高二、高三全學年。"};
  }
- if(g==="高二"&&s==="生物"&&/蒸散|氣孔|植物|維管束|木質部|韌皮部/.test(u))
-  return {mappingId:"hanlin-h2-biology-ii-plant",semester:"上學期",basis:"publisher-source-verified",confidence:"medium",notes:"翰林官方課本頁確認高二上選修生物(II)「生命的起源與植物」；此為冊別層級，不宣稱完整細分目次。"};
- if(g==="六年級"&&s==="社會"&&/個人發展如何受到社會變遷的影響|社會變遷與性別角色|家庭分工與社會變遷/.test(u))
-  return {mappingId:"knsh-g6-social-6a-u2-1",semester:"上學期",basis:"publisher-source-verified",confidence:"high",notes:"康軒官方六上2-1教學資源明示單元「個人發展如何受到社會變遷的影響」；不代表學校採用版本。"};
+ if(g==="高二"&&s==="生物"&&mappingScopeMatches(q,MAPS["hanlin-h2-biology-ii-plant"],"hanlin-h2-biology-ii-plant"))
+  return {mappingId:"hanlin-h2-biology-ii-plant",semester:"上學期",basis:"publisher-source-verified",confidence:"medium",notes:"翰林官方課本頁確認高二上選修生物(II)「生命的起源與植物」；只作冊別層級對照，不宣稱細分目次。"};
+ if(g==="六年級"&&s==="社會"&&mappingScopeMatches(q,MAPS["knsh-g6-social-6a-u2-1"],"knsh-g6-social-6a-u2-1"))
+  return {mappingId:"knsh-g6-social-6a-u2-1",semester:"上學期",basis:"publisher-source-verified",confidence:"high",notes:"康軒官方六上2-1教學資源明示個人發展與社會變遷單元；不代表學校採用版本。"};
  return null;
 }
 function domainFor(q){
@@ -95,17 +139,26 @@ function classify(q){
  let basis=q.classificationBasis||(isCore?"curriculum-core":"unassigned");
  let confidence=q.confidence||"low";
  let publisherStatus=q.publisherStatus||(isCore?"curriculum-core":"pending");
- let notes=q.classificationNotes||q.reason|| (isCore?"依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。":"來源與分類資料不足，待核對。");
+ let notes=q.classificationNotes||q.reason||(isCore?"依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。":"來源與分類資料不足，待核對。");
  let mappings=resolveMappings(q);
+ let rejectedMapping=Array.isArray(q.publisherMappings)&&q.publisherMappings.length>0&&mappings.length===0;
  const rule=inferred(q);
  if(rule){
-  if(semester===UN&&rule.semester) semester=rule.semester;
-  if(examPeriod===UN&&rule.examPeriod) examPeriod=rule.examPeriod;
+  if(semester===UN&&rule.semester)semester=rule.semester;
+  if(examPeriod===UN&&rule.examPeriod)examPeriod=rule.examPeriod;
   if(rule.mappingId&&!mappings.some(m=>m.mappingId===rule.mappingId)){
    const m=MAPS[rule.mappingId];
-   if(m&&(!m.courseTrack||q.courseTrack===m.courseTrack)){
-    mappings.push({publisher:m.publisher,mappingId:m.mappingId||m.id,sourceUrl:m.sourceUrl,sourceTitle:m.sourceTitle,verifiedAt:m.verifiedAt,verificationStatus:m.verificationStatus,notes:m.notes,mappingLevel:m.mappingLevel||"volume",volume:m.volume||m.unitName||"",unitCode:m.unitCode||"",unitName:m.unitName||"",semester:m.semester||UN,grade:m.grade,subject:m.subject,courseTrack:m.courseTrack||null,schoolYear:m.schoolYear||"未標示",courseType:m.courseType||"未確認"});
-   }
+   if(m&&validMappingForQuestion(q,m,rule.mappingId)){
+    mappings.push({
+     publisher:m.publisher,mappingId:m.mappingId||m.id,sourceUrl:m.sourceUrl,
+     sourceTitle:m.sourceTitle,verifiedAt:m.verifiedAt,verificationStatus:m.verificationStatus,
+     notes:m.notes,mappingLevel:m.mappingLevel||"volume",volume:m.volume||m.unitName||"",
+     unitCode:m.unitCode||"",unitName:m.unitName||"",unitAliases:UNIT_ALIASES[rule.mappingId]||[],
+     scopeKeywords:VOLUME_SCOPES[rule.mappingId]||[],semester:m.semester||UN,
+     grade:m.grade,subject:m.subject,courseTrack:m.courseTrack||null,
+     schoolYear:m.schoolYear||"未標示",courseType:m.courseType||"未確認"
+    });
+   }else rejectedMapping=true;
   }
   if(rule.basis==="question-bank-inference"){
    basis="question-bank-inference";confidence=rule.confidence||"medium";notes=rule.notes;
@@ -118,24 +171,25 @@ function classify(q){
   const officialSemesters=[...new Set(mappings.map(m=>m.semester).filter(x=>x&&x!==UN))];
   if(officialSemesters.length===1){
    const official=officialSemesters[0];
-   if(semester===UN||basis==="publisher-source-verified") semester=official;
+   if(semester===UN||basis==="publisher-source-verified")semester=official;
   }
-  if(basis==="curriculum-core"||basis==="unassigned") basis="publisher-source-verified";
-  if(!q.classificationNotes&&!rule) notes=mappings.map(m=>m.notes).join(" ");
-  if(confidence==="low") confidence=mappings.every(m=>m.mappingLevel==="unit")?"high":"medium";
+  if(basis==="curriculum-core"||basis==="unassigned")basis="publisher-source-verified";
+  if(!q.classificationNotes&&!rule)notes=mappings.map(m=>m.notes).join(" ");
+  if(confidence==="low")confidence=mappings.every(m=>m.mappingLevel==="unit")?"high":"medium";
  }else{
-  const hadInvalid=Array.isArray(q.publisherMappings)&&q.publisherMappings.length>0;
+  const hadInvalid=rejectedMapping;
   if(hadInvalid){
    publisherStatus=isCore?"curriculum-core":"pending";
-   if(!rule) notes+=" 原出版社映射因缺少必要課程軌別或有效來源而未採用。";
+   notes+=" 原出版社映射因年級、科目、學期、課程軌別或單元／冊別範圍未通過一致性檢查，故不納入出版社篩選。";
   }
-  if(basis==="publisher-source-verified") basis=isCore?"curriculum-core":"unassigned";
-  if(!isCore&&basis==="curriculum-core") basis="unassigned";
+  if(basis==="publisher-source-verified")basis=isCore?"curriculum-core":"unassigned";
+  if(!isCore&&basis==="curriculum-core")basis="unassigned";
+  if(!notes)notes=isCore?"依108課綱共同核心；未取得足以指定出版社或段考範圍的證據。":"來源與分類資料不足，待核對。";
  }
- const sourceRef=mappings.length?mappings.map(m=>m.sourceUrl).join("|"):(q.sourceRef||"");
+ const sourceRef=mappings.length?mappings.map(m=>m.sourceUrl).join("|"):(rejectedMapping?"108課綱共同核心；原出版社映射未通過範圍檢查":(q.sourceRef||""));
  const learningDomain=domainFor(q),questionType=typeFor(q);
  return {semester,examPeriod,classificationBasis:basis,confidence,publisherStatus,publisherMappings:mappings,classificationNotes:notes,reason:notes,sourceRef,learningDomain,questionType,learningUnit:label(q)||"未標示",difficultyLevel:q.d||q.difficulty||"未標示"};
 }
 window.questionClassificationFor=classify;
-window.QUESTION_CLASSIFICATION_RULES_VERSION="2026-11-13.11";
+window.QUESTION_CLASSIFICATION_RULES_VERSION="2026-11-13.12";
 })();
