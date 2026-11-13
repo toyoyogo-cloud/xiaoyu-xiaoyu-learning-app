@@ -1,6 +1,6 @@
 {
   "title": "南一／翰林／康軒教材版本對照資料庫",
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "1.0.1",
   "updatedAt": "2026-11-14",
   "purpose": "同時支援跨版本共同核心整合與指定出版社版本練習。此檔先建立資料規格；未經官方或學校教材核對的單元不得標示為已對應。",
   "modes": [
@@ -151,7 +151,8 @@
     "既有題目可依題目內容與單元知識點推定學期及段考範圍，必須明確標示為題庫推定，不能稱為學校正式段考範圍。",
     "未來新增題目優先對照南一、翰林、康軒各版本的冊別及單元；同題可對應多個出版社版本，無可靠依據時標示課綱核心或待核對。",
     "題庫新增資源集中優先於國小六年級與高中高二；其他年級既有題目保留。",
-    "高中選修物理(II)、選修化學(II)/(III)、選修生物(II)僅在題目明示相同 courseType 時才可建立出版社映射；缺少課程類型不得以年級、科目或知識點相似推定選修版本。"
+    "高中選修物理(II)、選修化學(II)/(III)、選修生物(II)僅在題目明示相同 courseType 時才可建立出版社映射；缺少課程類型不得以年級、科目或知識點相似推定選修版本。",
+    "只有冊別層級、沒有官方單元目次或可驗證範圍詞的映射，只能作教材參考；不得自動套用到單題出版社篩選，也不得據此推定段考。"
   ],
   "mappings": [
     {
@@ -648,6 +649,50 @@
         "雞兔問題",
         "雞兔同籠"
       ]
+    },
+    {
+      "id": "hanlin-g6-natural-6a-volume",
+      "mappingId": "hanlin-g6-natural-6a-volume",
+      "publisher": "hanlin",
+      "stage": "國小",
+      "grade": "六年級",
+      "subject": "自然",
+      "semester": "上學期",
+      "volume": "自然科學(6上)",
+      "unitCode": "冊別層級",
+      "unitName": "自然科學(6上)冊別層級對照（未核對具體單元）",
+      "learningContent": "官方商品頁確認國小六年級、自然、上學期課本；頁面未提供細分目次，只能確認冊別與學期，不據此判定個別題目的單元或段考。",
+      "sourceType": "official-publisher",
+      "sourceUrl": "https://books.hanlin.com.tw/product/1040111",
+      "sourceTitle": "翰林書城－國小課本－自然科學(6上)",
+      "verifiedAt": "2026-11-14",
+      "verificationStatus": "source-checked",
+      "notes": "官方頁明示科目自然、年級國小6年級、學期上學期與課本習作；未列具體單元目次。僅作冊別層級參考，不代表學校採用版本，也不代表任何題目已對應該冊。",
+      "courseType": "國小",
+      "mappingLevel": "volume",
+      "schoolYear": "未標示"
+    },
+    {
+      "id": "hanlin-g6-natural-6b-volume",
+      "mappingId": "hanlin-g6-natural-6b-volume",
+      "publisher": "hanlin",
+      "stage": "國小",
+      "grade": "六年級",
+      "subject": "自然",
+      "semester": "下學期",
+      "volume": "自然科學(6下)",
+      "unitCode": "冊別層級",
+      "unitName": "自然科學(6下)冊別層級對照（未核對具體單元）",
+      "learningContent": "官方商品頁確認國小六年級、自然、下學期課本；頁面未提供細分目次，只能確認冊別與學期，不據此判定個別題目的單元或段考。",
+      "sourceType": "official-publisher",
+      "sourceUrl": "https://books.hanlin.com.tw/product/1040121",
+      "sourceTitle": "翰林書城－國小課本－自然科學(6下)",
+      "verifiedAt": "2026-11-14",
+      "verificationStatus": "source-checked",
+      "notes": "官方頁明示科目自然、年級國小6年級、學期下學期與課本習作；未列具體單元目次。僅作冊別層級參考，不代表學校採用版本，也不代表任何題目已對應該冊。",
+      "courseType": "國小",
+      "mappingLevel": "volume",
+      "schoolYear": "未標示"
     }
   ],
   "mappingStatus": "partial-source-verified-16-mappings",

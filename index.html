@@ -295,10 +295,15 @@ async function loadPersistedClassifications(){
    if(saved&&typeof saved==="object")Object.assign(index,saved);
   });
   window.QUESTION_CLASSIFICATION_INDEX=index;
+  window.QUESTION_CLASSIFICATION_LOAD_STATUS={loaded:true,questionCount:Object.keys(index).length,shardCount:parts.length};
   if(state.subject)renderUnits();
   updateAvailable();
   if(state.questions.length&&!document.getElementById("quizPanel").classList.contains("hidden"))renderQuestion();
- }catch(err){}
+ }catch(err){
+  window.QUESTION_CLASSIFICATION_LOAD_STATUS={loaded:false,error:String(err&&err.message||err)};
+  const hint=document.getElementById("classificationHint");
+  if(hint)hint.textContent+="（分類資料載入失敗，版本／學期／段考篩選可能不完整，請重新整理後再試。）";
+ }
 }
 profileInit();renderGradeOptions();refreshAll();loadPersistedClassifications();
 if("serviceWorker" in navigator){window.addEventListener("load",()=>navigator.serviceWorker.register("./sw.js").catch(()=>{}));}

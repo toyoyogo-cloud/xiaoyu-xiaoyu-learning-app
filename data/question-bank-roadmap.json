@@ -591,7 +591,7 @@
       }
     }
   },
-  "textbookMappingCount": 16,
+  "textbookMappingCount": 18,
   "lastBatchNote": "第41批新增100題（小六50、高二50）；35題有中央來源映射（南一6、翰林27、康軒2），65題為108課綱共同核心；分類器v13規則交叉檢查與儲存分類欄位一致，瀏覽器runtime尚未實測。",
   "candidateBranchAudit": {
     "date": "2026-11-13",
@@ -1079,16 +1079,17 @@
     "notes": "依現行分類器v17的單元／冊別範圍規則重新檢查；第8至38批及第39至40批未發現需新增的持久化更動。第41批b41-067機械能守恆、b41-068等速圓周運動符合翰林選修物理(II)冊別層級範圍，新增上學期與冊別映射；不推定段考。"
   },
   "fullCorpusMappingValidation": {
-    "auditedAt": "2026-11-13",
+    "auditedAt": "2026-11-14",
     "batches": "08-41",
-    "mappingReferences": 340,
-    "centralRegistryCount": 16,
-    "registryReferencesFound": 340,
+    "mappingReferences": 123,
+    "centralRegistryCount": 18,
+    "registryReferencesFound": 123,
     "sourceFieldErrors": 0,
     "gradeSubjectSemesterTrackErrors": 0,
     "unitOrVolumeScopeErrors": 0,
-    "result": "340/340 internal consistency checks passed",
-    "limitation": "No claim that every official source URL was freshly re-opened during this run."
+    "officialSourcePagesReopened": 2,
+    "result": "123/123 existing question-level mapping references passed internal consistency checks; two additional official volume references are not attached to questions.",
+    "limitation": "Only the two Hanlin grade-six Natural Science volume pages were reopened during this run; this is not a fresh re-verification of all official source URLs and does not confirm school adoption or teacher review."
   },
   "classificationPersistenceRuns": [
     {
@@ -1210,16 +1211,16 @@
   "latestMainClassificationAudit": {
     "auditedAt": "2026-11-14",
     "branch": "main",
-    "sourceHeadBeforeRun": "7cc979331423d38f5fb744c8674a97c3921e0021",
-    "sourceHeadAfterRun": "7f2105f6838fe1046750419d654a394cffd1f54c",
+    "sourceHeadBeforeRun": "39a6265b0bc5cb88ec627994fd20a96d5bc96d63",
     "batchRange": "08-41",
     "batchFileCount": 34,
     "batchQuestionCounts": {
-      "22": 101,
-      "08-14": 199,
-      "15-21": 700,
-      "23-29": 700,
-      "30-41": 1200
+      "08-13": 182,
+      "14-19": 517,
+      "20-25": 601,
+      "26-31": 600,
+      "32-37": 600,
+      "38-41": 400
     },
     "questionCount": 2900,
     "uniqueQuestionIds": 2900,
@@ -1263,10 +1264,10 @@
       "difficultyLevel": 2900
     },
     "classificationBasisDistribution": {
-      "publisher-source-verified": 123,
-      "question-bank-inference": 152,
-      "curriculum-core": 2621,
-      "unassigned": 4
+      "publisher-source-verified": 44,
+      "question-bank-inference": 231,
+      "curriculum-core": 2625,
+      "unassigned": 0
     },
     "semesterDistribution": {
       "上學期": 168,
@@ -1282,12 +1283,12 @@
     },
     "publisherStatusDistribution": {
       "publisher-mapped": 123,
-      "curriculum-core": 2660,
-      "pending": 117
+      "curriculum-core": 2771,
+      "pending": 6
     },
     "publisherMappedQuestionCount": 123,
     "publisherMappingReferenceCount": 123,
-    "centralMappingRegistryCount": 16,
+    "centralMappingRegistryCount": 18,
     "publisherReferenceCounts": {
       "hanlin": 79,
       "knsh": 9,
@@ -1302,11 +1303,11 @@
       "official-resource-title": 16
     },
     "confidenceDistribution": {
-      "low": 2446,
-      "medium": 426,
+      "low": 2445,
+      "medium": 427,
       "high": 28
     },
-    "pendingQuestionCount": 117,
+    "pendingQuestionCount": 6,
     "mappingValidationThisRun": {
       "mappingReferences": 123,
       "registryReferencesFound": 123,
@@ -1314,14 +1315,13 @@
       "gradeSubjectSemesterTrackErrors": 0,
       "courseTypeErrors": 0,
       "unitOrVolumeScopeErrors": 0,
-      "unsupportedElectiveMappingsRemoved": 211,
-      "officialSourcePagesReopened": 0,
-      "limitation": "本次未重新開啟出版社官方頁；剩餘映射沿用既有中央來源登錄並完成內部一致性檢查。"
+      "officialSourcePagesReopened": 2,
+      "limitation": "本次重新開啟翰林國小自然科學6上與6下官方商品頁，僅確認年級、科目、學期及冊別，未提供細分目次；新增2筆冊別層級參考但未套用到任何題目。其餘123筆題目映射沿用中央來源登錄並完成內部一致性檢查，未宣稱全部官方網址均於本次重新開啟。"
     },
     "newQuestionsAdded": 0,
-    "serviceWorkerCache": "xy-learning-v92",
+    "serviceWorkerCache": "xy-learning-v96",
     "browserTested": false,
-    "notes": "2,900題均有持久分類索引；211筆未明示相同選修courseType的高二物理／化學／生物映射已撤除，並清除僅由該映射帶入的學期分類。剩餘123筆出版社映射通過內部範圍驗證。",
+    "notes": "2,900題均有12項持久分類欄位且ID唯一。學期仍未分類2,625題、段考仍未分類2,669題，代表證據不足而非缺少持久欄位；出版社待核對6題。冊別層級官方參考不等於題目層級映射或學校採用版本。",
     "staticFilterReachability": {
       "auditedAt": "2026-11-14",
       "batches": "08-41",
@@ -1334,15 +1334,17 @@
       "publisherStatusMappingConsistencyErrors": 0,
       "publisherMappingScopeErrors": 0,
       "publisherCategoryReachability": {
-        "curriculumCore": 2660,
-        "pending": 117,
+        "curriculumCore": 2771,
+        "pending": 6,
         "hanlin": 79,
         "knsh": 9,
         "nani": 35
       },
       "courseTrackAnomalies": 0,
       "staticPerQuestionCheck": true,
-      "exhaustiveCartesianCombinationTest": false,
+      "exhaustiveCartesianCombinationTest": true,
+      "combinations": 48600,
+      "combinationViolations": 0,
       "browserTested": false
     }
   },
@@ -1735,8 +1737,7 @@
   },
   "latestClassificationProgress": {
     "auditedAt": "2026-11-14",
-    "sourceHeadBeforeRun": "7cc979331423d38f5fb744c8674a97c3921e0021",
-    "sourceHeadAfterRun": "7f2105f6838fe1046750419d654a394cffd1f54c",
+    "sourceHeadBeforeRun": "39a6265b0bc5cb88ec627994fd20a96d5bc96d63",
     "batchRange": "08-41",
     "batchFileCount": 34,
     "totalQuestions": 2900,
@@ -1768,21 +1769,21 @@
       "unassigned": 2669
     },
     "classificationBasisDistribution": {
-      "publisher-source-verified": 123,
-      "question-bank-inference": 152,
-      "curriculum-core": 2621,
-      "unassigned": 4
+      "publisher-source-verified": 44,
+      "question-bank-inference": 231,
+      "curriculum-core": 2625,
+      "unassigned": 0
     },
     "publisherStatusDistribution": {
       "publisher-mapped": 123,
-      "curriculum-core": 2660,
-      "pending": 117
+      "curriculum-core": 2771,
+      "pending": 6
     },
     "publisherMappedQuestions": 123,
-    "pendingQuestions": 117,
+    "pendingQuestions": 6,
     "confidenceDistribution": {
-      "low": 2446,
-      "medium": 426,
+      "low": 2445,
+      "medium": 427,
       "high": 28
     },
     "publisherReferenceCounts": {
@@ -1798,40 +1799,20 @@
       "unit": 107,
       "official-resource-title": 16
     },
-    "corrections": {
-      "unsupportedElectiveMappingsRemoved": 211,
-      "byBatch": {
-        "08-15": 7,
-        "16-23": 18,
-        "24-31": 46,
-        "32-36": 49,
-        "37-41": 91
-      }
-    },
     "nextBatchForClassification": null,
-    "nextClassificationWork": "全庫第一輪持久分類欄位已齊；後續優先補強南一、翰林、康軒官方目次與學校採用資料，對無足夠證據的題目維持108課綱共同核心或待核對，不為填滿學期／段考篩選器而推定。",
+    "nextClassificationWork": "既有題庫第8至41批第一輪持久分類欄位已完整。下一輪以年級／科目／單元分組，逐筆補強官方目次與學校採用資料；無足夠證據的學期、段考及出版社版本維持 unassigned／108課綱共同核心／待核對，不為填滿篩選器而推定。",
     "browserTested": false,
     "filterValidation": {
       "auditedAt": "2026-11-14",
       "batches": "08-41",
       "questionsChecked": 2900,
-      "perQuestionIndexReachability": {
-        "reachable": 2900,
-        "unreachable": 0
-      },
-      "classificationValueAndMetadataErrors": 0,
-      "publisherStatusMappingConsistencyErrors": 0,
-      "publisherMappingScopeErrors": 0,
-      "publisherCategoryReachability": {
-        "curriculumCore": 2660,
-        "pending": 117,
-        "hanlin": 79,
-        "knsh": 9,
-        "nani": 35
-      },
-      "courseTrackAnomalies": 0,
+      "reachable": 2900,
+      "unreachable": 0,
+      "publisherLeakage": 0,
+      "combinations": 48600,
+      "violations": 0,
       "staticPerQuestionCheck": true,
-      "exhaustiveCartesianCombinationTest": false,
+      "exhaustiveCartesianCombinationTest": true,
       "browserTested": false
     }
   },
@@ -1996,13 +1977,13 @@
     "notes": "本批不新增題目。b15-066與b15-067均採翰林選修物理(II)冊別層級映射；b15-092電功率不掛入該物理II映射，避免超出官方冊別範圍。"
   },
   "nextBatchForClassification": null,
-  "nextClassificationWork": "全庫既有批次08至41已完成第一輪持久分類欄位；下一階段以官方教材目次、課綱學習重點及學校採用資料補強待核對群組，未取得證據者維持共同核心／待核對。",
+  "nextClassificationWork": "既有題庫第8至41批第一輪持久分類欄位已完整。下一輪以年級／科目／單元分組，逐筆補強官方目次與學校採用資料；無足夠證據的學期、段考及出版社版本維持 unassigned／108課綱共同核心／待核對，不為填滿篩選器而推定。",
   "classificationIndexStorage": {
     "manifest": "data/question-classification.json",
     "storageMode": "sharded",
     "shardCount": 6,
     "questionCount": 2900,
-    "ruleVersion": "2026-11-14.33",
+    "ruleVersion": "2026-11-14.34",
     "coverageStatus": "complete",
     "shards": [
       "data/question-classification-batch-08-13.json",

@@ -2,7 +2,7 @@
   "title": "題目分類持久索引",
   "schemaVersion": "1.1.0",
   "updatedAt": "2026-11-14",
-  "classificationRuleVersion": "2026-11-14.33",
+  "classificationRuleVersion": "2026-11-14.34",
   "sourceBranch": "main",
   "batchRange": "08-41",
   "batchFileCount": 34,
@@ -55,5 +55,5 @@
     "learningUnit",
     "difficultyLevel"
   ],
-  "notes": "以穩定題目ID為鍵。各分片記錄原始批次檔 SHA，保留出版社來源與分類推定依據。學期與段考未能可靠判定者保留 unassigned。"
+  "notes": "以穩定題目ID為鍵。第8至41批共2,900題均已持久分類；六個分片保留原始批次檔 SHA。冊別層級來源僅作參考，未核對單元目次者不自動掛到單題。學期與段考未能可靠判定者保留 unassigned。"
 }
