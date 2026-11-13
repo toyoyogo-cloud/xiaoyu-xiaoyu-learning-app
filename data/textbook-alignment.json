@@ -1360,12 +1360,31 @@
       "knsh": 1,
       "hanlin": 28
     },
-    "curriculumCoreQuestions": 65,
+    "curriculumCoreQuestions": 57,
     "mappingLevels": {
       "unit": 21,
       "volume": 12,
       "official-resource-title": 2
     },
-    "notes": "本批所有出版社映射均使用既有中央mappingId；官方頁只支持所記錄的年級、科目、學期、冊別或單元層級。其餘題目標示108課綱共同核心。"
+    "notes": "本批所有出版社映射均使用既有中央mappingId；8題六年級數學依題庫知識點推定學期／段考，未標出版社。其餘無足夠依據者標示108課綱共同核心並保留未分類。",
+    "questionBankInferenceQuestions": 18,
+    "publisherSourceVerifiedQuestions": 25,
+    "classificationBasis": {
+      "curriculumCore": 57,
+      "questionBankInference": 18,
+      "publisherSourceVerified": 25
+    },
+    "semesterDistribution": {
+      "上學期": 27,
+      "下學期": 10,
+      "全學年": 6,
+      "unassigned": 57
+    },
+    "examPeriodDistribution": {
+      "第一次段考": 5,
+      "第二次段考": 5,
+      "第三次段考": 8,
+      "unassigned": 82
+    }
   }
 }
