@@ -516,7 +516,7 @@
       "sourceTitle": "翰林書城－高中課本選修生物(II)生命的起源與植物",
       "verifiedAt": "2026-11-14",
       "verificationStatus": "source-checked",
-      "notes": "僅作植物專題的冊別層級對照；官方商品頁未列完整單元目次。需有「植物細胞」或光合作用、蒸散、氣孔、維管束等具體植物知識點才可對照；遺傳、基因型、族群遺傳及僅以植物作生態例子的題目不映射本冊。",
+      "notes": "僅作植物專題的冊別層級對照；翰林官方商品頁確認高中二年級、生物、上學期及冊名「生命的起源與植物」，但未列完整章節，故不宣稱細分單元已核對。只接受具體植物知識點（植物細胞、光合作用、蒸散、氣孔、維管束、向光性、花粉管、雙重受精、植物激素、乙烯、果實成熟）作冊別層級比對；遺傳、基因型、族群遺傳及僅以植物作生態例子的題目不映射本冊。",
       "mappingId": "hanlin-h2-biology-ii-plant",
       "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元",
       "mappingLevel": "volume",
@@ -527,7 +527,13 @@
         "氣孔",
         "維管束",
         "木質部",
-        "韌皮部"
+        "韌皮部",
+        "向光性",
+        "花粉管",
+        "雙重受精",
+        "植物激素",
+        "乙烯",
+        "果實成熟"
       ],
       "excludedTopics": [
         "遺傳",
@@ -1734,14 +1740,15 @@
   "latestMainClassificationAudit": {
     "auditedAt": "2026-11-14",
     "branch": "main",
-    "sourceHeadBeforeRun": "0d03256407a8f63519dd3515a894e23c4c36aca7",
-    "batches": "08-41",
+    "sourceHeadBeforeRun": "6800905f76d79383d415a341e7be0de8451c898f",
+    "batchRange": "08-41",
     "batchFileCount": 34,
     "batchQuestionCounts": {
-      "08-15": 299,
-      "16-23": 801,
-      "24-31": 800,
-      "32-41": 1000
+      "22": 101,
+      "08-14": 199,
+      "15-21": 700,
+      "23-29": 700,
+      "30-41": 1200
     },
     "questionCount": 2900,
     "uniqueQuestionIds": 2900,
@@ -1752,25 +1759,6 @@
       "高一": 373,
       "高二": 974,
       "高三": 373
-    },
-    "subjectDistribution": {
-      "國語": 218,
-      "數學": 634,
-      "自然": 243,
-      "社會": 226,
-      "英語": 193,
-      "國文": 104,
-      "英文": 128,
-      "歷史": 136,
-      "地理": 155,
-      "公民": 164,
-      "物理": 218,
-      "化學": 212,
-      "生物": 180,
-      "地球科學": 80,
-      "資訊": 1,
-      "經濟": 6,
-      "資訊素養": 2
     },
     "unitLabelCoverage": {
       "questionsWithUnitOrTopic": 2900,
@@ -1791,16 +1779,15 @@
       ]
     },
     "classificationBasisDistribution": {
-      "publisher-source-verified": 259,
+      "publisher-source-verified": 256,
       "question-bank-inference": 218,
-      "curriculum-core": 2423,
-      "unassigned": 0
+      "curriculum-core": 2426
     },
     "semesterDistribution": {
-      "上學期": 301,
+      "上學期": 298,
       "下學期": 102,
       "全學年": 74,
-      "unassigned": 2423
+      "unassigned": 2426
     },
     "examPeriodDistribution": {
       "第一次段考": 58,
@@ -1809,42 +1796,54 @@
       "unassigned": 2682
     },
     "publisherStatusDistribution": {
-      "publisher-mapped": 338,
-      "curriculum-core": 2556,
+      "publisher-mapped": 335,
+      "curriculum-core": 2559,
       "pending": 6
     },
-    "publisherMappedQuestionCount": 338,
-    "publisherMappingReferenceCount": 339,
+    "publisherMappedQuestionCount": 335,
+    "publisherMappingReferenceCount": 335,
     "centralMappingRegistryCount": 16,
     "publisherReferenceCounts": {
-      "hanlin": 295,
+      "hanlin": 291,
       "knsh": 9,
       "nani": 35
     },
+    "confidenceDistribution": {
+      "low": 2243,
+      "medium": 555,
+      "high": 102
+    },
     "pendingQuestionCount": 6,
     "mappingValidationThisRun": {
-      "batch": "13",
-      "questionMappingsChecked": 1,
-      "registryReferencesFound": 1,
+      "mappingReferences": 335,
+      "registryReferencesFound": 335,
       "sourceFieldErrors": 0,
-      "gradeSubjectSemesterErrors": 0,
-      "scopeErrors": 0,
+      "gradeSubjectSemesterTrackErrors": 0,
+      "unitOrVolumeScopeErrors": 0,
+      "scopeCorrections": [
+        "向光性",
+        "花粉管",
+        "雙重受精",
+        "植物激素",
+        "乙烯",
+        "果實成熟"
+      ],
       "officialSourcePagesReopened": 1,
-      "limitation": "本次重新開啟翰林官方商品頁確認高二、物理、上學期與冊名；僅冊別層級。既有338筆映射引用沿用main先前稽核結果，未在本次逐一重開全部來源。"
+      "limitation": "僅重新開啟翰林生物(II)官方商品頁；其餘映射以中央登錄及題目欄位做內部一致性檢查，非逐一重新開啟全部官方網址。"
     },
     "extendedMetadata": {
-      "complete": 489,
-      "remaining": 2411,
-      "separateClassificationIndex": 290,
+      "complete": 507,
+      "remaining": 2393,
+      "separateClassificationIndex": 307,
       "embeddedInBatches40to41": 200,
-      "overlap": 1,
-      "learningDomain": 489,
-      "questionType": 788,
-      "learningUnit": 489,
-      "difficultyLevel": 489
+      "overlap": 0,
+      "learningDomain": 507,
+      "questionType": 807,
+      "learningUnit": 507,
+      "difficultyLevel": 507
     },
     "newQuestionsAdded": 0,
-    "notes": "第13批30題完成持久擴充分類；b13-008與b13-012保留既有題庫推定；b13-025補齊翰林高二上選修物理(II)冊別層級映射，未宣稱單元級目次已核對。全庫基本分類欄位2,900/2,900完整；擴充分類完整489/2,900，尚有2,411題。"
+    "notes": "本次重新讀取main第8至41批34個題庫檔。前次報告的擴充欄位與出版社映射統計有重疊／合併計算錯誤，現以批次資料與分類索引逐批合併重算。第14批17題已寫入獨立索引；四項擴充分類完整507題。翰林生物(II)維持冊別層級，不宣稱細分目次已核對。"
   },
   "classificationPersistenceRuns": [
     {
@@ -2315,6 +2314,57 @@
         "cacheVersionBumped": true
       },
       "notes": "全庫分類器掃描發現5筆只有執行時推定、尚未寫入獨立索引的映射。4筆符合官方冊別範圍者（3筆物理力學、1筆植物細胞滲透）已持久化；1筆生態系生物量金字塔僅在解析中提到植物，撤除錯誤冊別映射。將翰林生物(II)冊別範圍由泛用「植物」收緊為「植物細胞」及明確植物生理詞，並保留遺傳排除詞。所有4筆映射均標冊別層級，不宣稱單元目次已核對。"
+    },
+    {
+      "date": "2026-11-14",
+      "batches": "14",
+      "questions": 17,
+      "addedToClassificationIndex": 17,
+      "indexTotal": 307,
+      "extendedMetadataComplete": 507,
+      "remainingExtendedMetadata": 2393,
+      "semesterDistribution": {
+        "上學期": 1,
+        "unassigned": 16
+      },
+      "examPeriodDistribution": {
+        "第一次段考": 1,
+        "unassigned": 16
+      },
+      "classificationBasisDistribution": {
+        "curriculum-core": 16,
+        "question-bank-inference": 1
+      },
+      "publisherMappedQuestionCount": 0,
+      "publisherMappingReferences": 0,
+      "curriculumCoreQuestionCount": 17,
+      "pendingQuestionCount": 0,
+      "newQuestionsAdded": 0,
+      "validation": {
+        "jsonParse": true,
+        "idsMatchBatch14": true,
+        "allRequiredFieldsComplete": true,
+        "sourceRefsComplete": true,
+        "legalClassificationValues": true,
+        "mappingReferencesValidated": 335,
+        "mappingConsistencyErrors": 0,
+        "staticFilterValidation": {
+          "combinations": 128304,
+          "violations": 0,
+          "zeroResults": 126652,
+          "all17Reachable": true,
+          "results": {
+            "all": 17,
+            "core": 17,
+            "pending": 0,
+            "hanlin": 0,
+            "knsh": 0,
+            "nani": 0
+          }
+        },
+        "browserTested": false
+      },
+      "notes": "b14-005保留題庫知識點推定的上學期／第一次段考複習建議；其餘16題學期與段考未分類。17題均無足夠出版社目次或學校採用證據，不新增出版社映射。"
     }
   ],
   "batch30ExtendedMetadataAudit": {
@@ -2455,16 +2505,18 @@
   "fullCorpusMappingValidation": {
     "auditedAt": "2026-11-14",
     "batches": "08-41",
-    "mappingReferences": 334,
+    "mappingReferences": 335,
     "centralRegistryCount": 16,
-    "registryReferencesFound": 334,
+    "registryReferencesFound": 335,
     "sourceFieldErrors": 0,
     "gradeSubjectSemesterTrackErrors": 0,
     "unitOrVolumeScopeErrors": 0,
-    "excludedScopeMappingsRemoved": 5,
-    "result": "334/334 remaining references pass internal registry and scope checks",
-    "limitation": "本次重新開啟翰林官方商品頁1筆；其餘映射以中央登錄及題目欄位做內部一致性檢查，並非重新逐一開啟全部334個官方網址。",
-    "sourceHeadAfterRun": "f6d5c10fb3701bf842111297cd9f7dba85622e1c"
+    "scopeCorrections": [
+      "hanlin-h2-biology-ii-plant: 向光性、花粉管、雙重受精、植物激素、乙烯、果實成熟"
+    ],
+    "result": "335/335 stored publisher mapping references pass internal registry and scope checks",
+    "limitation": "本次重新開啟翰林生物(II)官方商品頁1筆，確認高中二年級、生物、上學期與冊名；頁面未列細分目次。其餘334筆沿用中央來源登錄並執行內部一致性檢查，未逐一重開全部官方網址。",
+    "sourceHeadBeforeRun": "6800905f76d79383d415a341e7be0de8451c898f"
   },
   "batch08UsageAudit": {
     "auditedAt": "2026-11-13",
@@ -2931,5 +2983,52 @@
     ],
     "officialSourcePagesReopened": 1,
     "notes": "僅b13-025有翰林官方冊別層級映射；官方頁確認高二、物理、上學期與課本名稱，未列細分目次。其餘題目不掛出版社。段考為題庫複習建議，不代表學校正式範圍。"
+  },
+  "batch14ClassificationAudit": {
+    "auditedAt": "2026-11-14",
+    "batch": 14,
+    "questionCount": 17,
+    "gradeDistribution": {
+      "五年級": 3,
+      "六年級": 3,
+      "高一": 3,
+      "高二": 3,
+      "高三": 5
+    },
+    "semesterDistribution": {
+      "上學期": 1,
+      "unassigned": 16
+    },
+    "examPeriodDistribution": {
+      "第一次段考": 1,
+      "unassigned": 16
+    },
+    "classificationBasisDistribution": {
+      "curriculum-core": 16,
+      "question-bank-inference": 1
+    },
+    "publisherStatusDistribution": {
+      "curriculum-core": 17
+    },
+    "publisherMappedQuestions": 0,
+    "publisherMappingReferences": 0,
+    "extendedMetadataComplete": 17,
+    "newQuestionsAdded": 0,
+    "validation": {
+      "jsonParse": true,
+      "idsMatchBatch14": true,
+      "noExistingEntriesOverwritten": true,
+      "allRequiredFieldsComplete": true,
+      "sourceRefsComplete": true,
+      "legalClassificationValues": true,
+      "fourUniqueOptions": 17,
+      "answerIndices0to3": 17,
+      "explanationsPresent": 17,
+      "staticFilterCombinations": 128304,
+      "filterViolations": 0,
+      "all17Reachable": true,
+      "browserTested": false
+    },
+    "notes": "b14-005保留題庫知識點推定的上學期／第一次段考複習建議；其餘16題學期與段考未分類。17題均無足夠出版社目次或學校採用證據，不新增出版社映射。"
   }
 }
