@@ -527,17 +527,17 @@
       "高二|英文": 2,
       "高二|國文": 2
     },
-    "publisherMappedQuestions": 35,
+    "publisherMappedQuestions": 37,
     "classificationBasis": {
-      "publisherSourceVerified": 23,
+      "publisherSourceVerified": 25,
       "questionBankInference": 20,
-      "curriculumCore": 57
+      "curriculumCore": 55
     },
     "semester": {
-      "上學期": 26,
+      "上學期": 28,
       "下學期": 11,
       "全學年": 6,
-      "unassigned": 57
+      "unassigned": 55
     },
     "examPeriod": {
       "第一次段考": 7,
@@ -546,21 +546,21 @@
       "unassigned": 80
     },
     "publisherStatus": {
-      "publisherMapped": 35,
-      "curriculumCore": 65,
+      "publisherMapped": 37,
+      "curriculumCore": 63,
       "pending": 0
     },
     "verificationStatusCounts": {
-      "sourceChecked": 35
+      "sourceChecked": 37
     },
     "publisherReferences": {
-      "hanlin": 27,
+      "hanlin": 29,
       "nani": 6,
       "knsh": 2
     },
     "mappingLevelCounts": {
       "unit": 23,
-      "volume": 9,
+      "volume": 11,
       "officialResourceTitle": 3
     },
     "validation": {
@@ -574,9 +574,21 @@
       "crossBatchExactDuplicateStems": 0,
       "crossBatchComparedAgainst": "第8至40批共2,800題；曾發現b41-080與b21-057重複並已改寫，修正後重新比對0組",
       "arithmeticChecks": "主要數值題逐式複核；修正b41-022及b41-059答案索引",
-      "mappingReferences": 35,
-      "mappingReferencesValidated": 35,
-      "runtimeClassificationMatchesStoredFields": "v13 static-rule-crosscheck; browser runtime not executed"
+      "mappingReferences": 37,
+      "mappingReferencesValidated": 37,
+      "runtimeClassificationMatchesStoredFields": "v13 static-rule-crosscheck; browser runtime not executed",
+      "unassignedRecheck": {
+        "candidates": 245,
+        "currentRuleMatches": 76,
+        "alreadyReflected": 74,
+        "newlyPersisted": 2,
+        "questionIds": [
+          "b41-067",
+          "b41-068"
+        ],
+        "semesterAssignments": 2,
+        "examPeriodAssignments": 0
+      }
     }
   },
   "textbookMappingCount": 16,
@@ -986,16 +998,16 @@
       "missing": 0
     },
     "classificationBasisDistribution": {
-      "publisher-source-verified": 259,
+      "publisher-source-verified": 261,
       "question-bank-inference": 218,
-      "curriculum-core": 2423,
+      "curriculum-core": 2421,
       "unassigned": 0
     },
     "semesterDistribution": {
-      "上學期": 301,
+      "上學期": 303,
       "下學期": 102,
       "全學年": 74,
-      "unassigned": 2423
+      "unassigned": 2421
     },
     "examPeriodDistribution": {
       "第一次段考": 58,
@@ -1004,12 +1016,12 @@
       "unassigned": 2682
     },
     "publisherStatusDistribution": {
-      "publisher-mapped": 338,
-      "curriculum-core": 2562,
+      "publisher-mapped": 340,
+      "curriculum-core": 2560,
       "pending": 0
     },
-    "publisherMappedQuestionCount": 338,
-    "publisherMappingReferenceCount": 338,
+    "publisherMappedQuestionCount": 340,
+    "publisherMappingReferenceCount": 340,
     "centralMappingRegistryCount": 16,
     "publisherMappingConsistencyErrors": 0,
     "pendingQuestionCount": 0,
@@ -1020,6 +1032,25 @@
       "embeddedInBatches40to41": 200
     },
     "newQuestionsAdded": 0,
-    "notes": "第8至30批1,800題已持久化於獨立分類索引；第40至41批200題已有批次內建擴充分類；第31至39批900題仍待補齊learningDomain、questionType、learningUnit、difficultyLevel。全庫338筆出版社映射引用仍以中央16筆登錄為準；本次對第30批34筆引用重新核對無一致性錯誤。學期、段考無可靠依據者保留unassigned。"
+    "notes": "第8至41批共2,900題、ID唯一。第8至30批1,800題已持久化擴充分類，第40至41批200題已有批次內建擴充分類；第31至39批900題仍待補齊。全庫出版社映射由338增至340筆，新增b41-067、b41-068兩筆翰林選修物理(II)冊別層級映射；中央映射16筆，來源及適用範圍一致性錯誤0。未取得學校採用版本或正式段考範圍資料，相關欄位保留未確認／unassigned。"
+  },
+  "unassignedRecheckAudit": {
+    "date": "2026-11-13",
+    "batches": "08-41",
+    "questionsRecheckedForUnassignedSemesterOrExam": 2682,
+    "currentInferenceRuleMatches": 256,
+    "alreadyReflectedInStoredFields": 254,
+    "newPersistentAssignments": 2,
+    "updatedQuestionIds": [
+      "b41-067",
+      "b41-068"
+    ],
+    "newSemesterAssignments": 2,
+    "newExamPeriodAssignments": 0,
+    "newPublisherMappings": 2,
+    "mappingLevel": "volume",
+    "publisher": "hanlin",
+    "mappingId": "hanlin-h2-physics-ii",
+    "notes": "依現行分類器v17的單元／冊別範圍規則重新檢查；第8至38批及第39至40批未發現需新增的持久化更動。第41批b41-067機械能守恆、b41-068等速圓周運動符合翰林選修物理(II)冊別層級範圍，新增上學期與冊別映射；不推定段考。"
   }
 }
