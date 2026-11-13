@@ -1,7 +1,7 @@
 {
   "title": "題庫建置與持續擴充規格",
   "target": 1000,
-  "currentVerifiedNewGradeSpecificQuestions": 2600,
+  "currentVerifiedNewGradeSpecificQuestions": 2700,
   "targetRemainder": 0,
   "updatedAt": "2026-11-13",
   "distributionTarget": [
@@ -248,6 +248,14 @@
       "validation": "b38-001至b38-100；四個不同選項、答案索引0至3、解析與分類欄位完整。43筆出版社映射與中央16筆資料的來源、年級、科目、學期、課程軌別及單元／冊別範圍一致。b38-026答案索引已修正。與第8至37批2,500題分組正規化題幹比對完全相同題幹0組，批次內0組。程式規則檢查（rule-checked），非教師逐題審核。",
       "publisherAlignment": "翰林32題、南一10題、康軒1題；其餘57題為108課綱共同核心。南一數學6下基準量和比較量及四則混合運算為單元層級；翰林數學3A只套用數學A；物理II、生物II、化學II僅在來源支持範圍內標冊別層級；化學III三個目次單元可標單元層級。學校採用版本未確認。",
       "integration": "index.html載入第38批並納入bankFor()；Service Worker v66加入第38批資產；分類器更新至2026-11-13.12，依來源欄位、年級、科目、學期、軌別及單元／冊別範圍驗證出版社映射；README、textbook-alignment與roadmap更新。"
+    },
+    {
+      "batch": 39,
+      "added": 100,
+      "coverage": "國小六年級50題（國語10、英語8、數學14、自然9、社會9）；高中高二50題（數學12、物理8、化學8、生物6、地理4、歷史4、公民4、英文2、國文2）。",
+      "validation": "b39-001至b39-100；四個不同選項、答案索引0–3、解析、分類欄位完整；ID唯一。與第8至38批2,600題正規化題幹分組比對0組完全相同；批次內0組。37筆映射逐筆核對中央16筆資料的來源欄位、年級、科目、學期、軌別及單元／冊別範圍；37/37通過。數學、物理計算題與化學平衡式已重新核算。程式規則檢查，非教師逐題審核。",
+      "publisherAlignment": "南一4題（數學6下基準量和比較量，單元層級）；翰林33題（數學3A數學A軌別12題；物理II冊別7題；化學III單元6題；化學II冊別2題；生物II冊別6題）；其餘63題為108課綱共同核心。學校採用版本未確認；物理II、化學II、生物II不冒稱細分單元。",
+      "integration": "index.html載入第39批並納入bankFor()；Service Worker升級xy-learning-v68並加入批次39；中央教材映射維持16筆；錯題本、收藏、測驗紀錄及學藝活動題庫引用未改。"
     }
   ],
   "activeScope": {
@@ -280,24 +288,24 @@
     "六年級": 50,
     "高二": 50
   },
-  "lastBatchFile": "data/question-bank-batch-38.js",
+  "lastBatchFile": "data/question-bank-batch-39.js",
   "currentIntegration": {
-    "indexHtml": "Main branch loads original batches 08-38; EXTRA38_GRADE_BANK is included in bankFor() stage/grade/subject filtering. Grade→semester→exam→subject→unit and publisher filters remain; unit options are regenerated from the filtered pool, all-version view retains all records, publisher filters require source/grade/subject/semester/track/scope validation, and zero-result hints remain. High-school second-year Mathematics now requires explicit Mathematics A, Mathematics B, unlabelled-track, or deliberate all-tracks selection to prevent accidental A/B mixing. Academic-competition batches 01-14, wrong-book, favorites and quiz history flows are preserved. Runtime classifier v12 executed on all 2,600 questions: 2,370 curriculum-core, 230 publisher-mapped, 0 pending; high2 Mathematics track counts are A45, B0, unlabelled133, with explicit track selection required.",
-    "serviceWorkerCache": "xy-learning-v67",
-    "serviceWorkerAsset": "question-bank-batch-08.js through batch-38.js; question-classification-inference.js; textbook-alignment.json; academic-competition-batch-01.js through batch-14.js; existing image assets preserved"
+    "indexHtml": "Main branch candidate loads original batches 08-39; EXTRA39_GRADE_BANK is included in bankFor() stage/grade/subject filtering. Existing semester, exam, publisher and explicit Mathematics A/B track filters are retained. Academic-competition batches 01-14, wrong-book, favorites and quiz history flows are not intentionally changed.",
+    "serviceWorkerCache": "xy-learning-v68",
+    "serviceWorkerAsset": "question-bank-batch-08.js through batch-39.js; question-classification-inference.js; textbook-alignment.json; academic-competition-batch-01.js through batch-14.js; existing image assets preserved"
   },
-  "currentIndependentBatchQuestions": 2600,
-  "currentIndependentBatchRange": "第8至第38批",
-  "currentVerifiedQuestionsNote": "currentVerifiedQuestions為index.html內嵌示範題的歷史盤點欄位，不含獨立批次檔；currentVerifiedNewGradeSpecificQuestions與currentIndependentBatchQuestions統計第8至第37批獨立題庫，不代表教師逐題審核數。",
-  "legacyFieldNotes": "currentVerifiedQuestions保留index.html內嵌示範題歷史盤點值；currentVerifiedNewGradeSpecificQuestions與currentIndependentBatchQuestions統計第8至第37批獨立題庫；rule-checked僅代表程式結構與文字規則檢查，並非教師審核。",
+  "currentIndependentBatchQuestions": 2700,
+  "currentIndependentBatchRange": "第8至第39批",
+  "currentVerifiedQuestionsNote": "currentVerifiedQuestions為index.html內嵌示範題的歷史盤點欄位，不含獨立批次檔；currentVerifiedNewGradeSpecificQuestions與currentIndependentBatchQuestions統計第8至第39批獨立題庫，rule-checked僅代表程式檢查，並非教師逐題審核。",
+  "legacyFieldNotes": "currentVerifiedQuestions保留index.html內嵌示範題歷史盤點值；currentVerifiedNewGradeSpecificQuestions與currentIndependentBatchQuestions統計第8至第39批獨立題庫；rule-checked僅代表程式規則與資料結構檢查，並非教師審核。",
   "currentDistribution": {
     "五年級": 290,
-    "六年級": 740,
+    "六年級": 790,
     "高一": 373,
-    "高二": 824,
+    "高二": 874,
     "高三": 373
   },
-  "integrationAuditNote": "2026-11-13 main audit: 2,600 questions across batches 08-38, 2,600 unique IDs; index loads all 31 batches and bankFor() includes batch38; Service Worker v67 includes batch38. Classifier v12 executed across all 2,600 questions with no runtime errors or missing classification notes. Stored mappings 185/185 valid; runtime returns 230 mapped questions (45 inferred) and 2,370 curriculum-core, pending 0. High2 Math track counts A45, B0, unlabelled133; UI requires explicit track selection. GitHub Actions workflow/status queries returned no runs/statuses, so Pages deployment and browser interactions remain unverified.",
+  "integrationAuditNote": "2026-11-13 candidate audit: 2,700 independent questions across batches 08-39; batch39 is loaded by index.html and bankFor(), and Service Worker v68 includes its asset. Batch39 static validation passed 100/100 required fields, 4 unique options, answer index 0-3, explanations, classification metadata, 37/37 source mappings and exact normalized stem comparison against batches 08-38 with 0 matches. Runtime classifier v12 has not yet been rerun on all 2,700 questions; browser interactions and Pages deployment remain unverified.",
   "lastMainBranchAudit": {
     "date": "2026-11-13",
     "independentBatchRange": "第8至第38批",
@@ -483,19 +491,19 @@
   },
   "gradeDistribution": {
     "五年級": 290,
-    "六年級": 740,
+    "六年級": 790,
     "高一": 373,
-    "高二": 824,
+    "高二": 874,
     "高三": 373
   },
-  "independentQuestionCount": 2600,
-  "uniqueIdCount": 2600,
+  "independentQuestionCount": 2700,
+  "uniqueIdCount": 2700,
   "lastBatchAudit": {
-    "batch": 38,
+    "batch": 39,
     "total": 100,
     "ids": [
-      "b38-001",
-      "b38-100"
+      "b39-001",
+      "b39-100"
     ],
     "gradeDistribution": {
       "六年級": 50,
@@ -517,37 +525,36 @@
       "高二|英文": 2,
       "高二|國文": 2
     },
-    "publisherMappedQuestions": 43,
+    "publisherMappedQuestions": 37,
     "classificationBasis": {
-      "publisherSourceVerified": 31,
-      "questionBankInference": 12,
-      "curriculumCore": 57
+      "publisherSourceVerified": 37,
+      "curriculumCore": 63
     },
     "semester": {
       "上學期": 27,
-      "下學期": 10,
+      "下學期": 4,
       "全學年": 6,
-      "unassigned": 57
+      "unassigned": 63
     },
     "examPeriod": {
-      "第一次段考": 4,
-      "第二次段考": 4,
-      "第三次段考": 4,
-      "unassigned": 88
+      "unassigned": 100
     },
     "publisherStatus": {
-      "publisherMapped": 43,
-      "curriculumCore": 57,
+      "publisherMapped": 37,
+      "curriculumCore": 63,
       "pending": 0
     },
     "verificationStatusCounts": {
-      "sourceChecked": 38,
-      "officialIndexLinkOnly": 5
+      "sourceChecked": 37
     },
     "publisherReferences": {
-      "hanlin": 32,
-      "nani": 10,
-      "knsh": 1
+      "hanlin": 33,
+      "nani": 4,
+      "knsh": 0
+    },
+    "mappingLevelCounts": {
+      "unit": 22,
+      "volume": 15
     },
     "validation": {
       "fourOptions": true,
@@ -559,52 +566,56 @@
       "idsUnique": true,
       "batchInternalExactDuplicateStems": 0,
       "crossBatchExactDuplicateStems": 0,
-      "crossBatchComparedAgainst": "第8至37批共2,500題",
-      "correctedAnswerIndices": [
-        "b38-026"
-      ],
-      "arithmeticChecks": "主要數學、物理、化學計算題已逐題核算",
+      "crossBatchComparedAgainst": "第8至38批共2,600題",
+      "arithmeticChecks": "數學、物理計算題與化學平衡式逐題重算；規則檢查",
       "runtimeClassificationMatchesStoredFields": "not-run",
       "browserFunctionalTests": "pending"
-    },
-    "mappingLevelCounts": {
-      "unit": 24,
-      "volume": 14,
-      "officialResourceTitle": 5
-    },
-    "notes": "南一四則混合運算5題只標官方索引標題層級；其餘38筆來源為source-checked。"
+    }
   },
   "textbookMappingCount": 16,
-  "lastBatchNote": "第38批100題（小六50、高二50）；43題有出版社映射，其中38筆source-checked、5筆official-index-link-only；第30至38批185筆映射引用全部通過中央來源與年級／科目／學期／軌別／範圍驗證；全庫分類器v12已執行2,600題，230題有效出版社映射、2,370題共同核心、pending 0；高二數學A45題、B0題、未標示軌別133題；Service Worker v67。",
+  "lastBatchNote": "第39批新增100題（小六50、高二50）；37題有中央官方來源映射（南一4、翰林33；37筆source-checked），63題標108課綱共同核心；37/37映射通過來源與範圍一致性檢查；跨第8至38批正規化題幹重複0組；Service Worker v68。",
   "candidateBranchAudit": {
     "date": "2026-11-13",
-    "sourceBranch": "automation/batch-38-classification-audit",
-    "independentBatchRange": "第8至38批",
-    "independentBatchQuestions": 2600,
-    "uniqueIds": 2600,
+    "sourceBranch": "automation/batch-39-2026-11-13",
+    "independentBatchRange": "第8至第39批",
+    "independentBatchQuestions": 2700,
+    "uniqueIds": 2700,
     "gradeDistribution": {
       "五年級": 290,
-      "六年級": 740,
+      "六年級": 790,
       "高一": 373,
-      "高二": 824,
+      "高二": 874,
       "高三": 373
     },
     "textbookMappingCount": 16,
-    "validatedMappingReferencesBatches30to38": 185,
-    "removedUnsupportedMappings": [
-      "b30-076",
-      "b33-065",
-      "b33-066",
-      "b33-067",
-      "b33-070",
-      "b34-064",
-      "b35-072"
-    ],
-    "legacyQuestionsWithoutEmbeddedClassification": 1700,
-    "batch30MissingClassificationNotesBackfilled": 91,
+    "validatedMappingReferencesBatches30to39": 222,
+    "publisherReferenceCountsBatches30to39": {
+      "hanlin": 193,
+      "knsh": 6,
+      "nani": 23
+    },
+    "batch39": {
+      "questions": 100,
+      "gradeDistribution": {
+        "六年級": 50,
+        "高二": 50
+      },
+      "publisherMappedQuestions": 37,
+      "curriculumCore": 63,
+      "mappingReferences": 37,
+      "validation": "100題欄位／選項／答案／解析／ID檢查通過；37/37映射來源及範圍一致；與第8至38批正規化題幹重複0組。"
+    },
     "classifierVersion": "2026-11-13.12",
-    "serviceWorkerCache": "xy-learning-v66",
-    "mergeStatus": "merged",
-    "mergeCommit": "6f8bb1a1865f858885c724e99c64594028ff5e47"
+    "serviceWorkerCache": "xy-learning-v68",
+    "mergeStatus": "PR not yet created"
+  },
+  "mappingVerificationStatusCountsBatches30to39": {
+    "source-checked": 211,
+    "official-index-link-only": 11
+  },
+  "mappingLevelCountsBatches30to39": {
+    "unit": 120,
+    "volume": 91,
+    "officialResourceTitle": 11
   }
 }
