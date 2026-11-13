@@ -630,7 +630,7 @@ window.EXTRA40_GRADE_BANK = [
         "sourceTitle": "南一資源_內文－數學6下｜基準量和比較量",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "南一官方資源頁明示數學6下、國小數學6年級及「基準量和比較量」；僅支持官方數位資源單元層級，不代表完整教科書目次或學校採用版本。",
+        "notes": "南一官方資源頁明示數學6下、國小數學6年級及「基準量和比較量」單元標題；僅支持此資源單元層級，不代表完整教科書目次或學校採用版本。",
         "mappingLevel": "unit",
         "volume": "數學6下",
         "unitCode": "官方數位教學資源單元",
@@ -684,7 +684,7 @@ window.EXTRA40_GRADE_BANK = [
         "sourceTitle": "南一資源_內文－數學6下｜基準量和比較量",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "南一官方資源頁明示數學6下、國小數學6年級及「基準量和比較量」；僅支持官方數位資源單元層級，不代表完整教科書目次或學校採用版本。",
+        "notes": "南一官方資源頁明示數學6下、國小數學6年級及「基準量和比較量」單元標題；僅支持此資源單元層級，不代表完整教科書目次或學校採用版本。",
         "mappingLevel": "unit",
         "volume": "數學6下",
         "unitCode": "官方數位教學資源單元",
@@ -738,7 +738,7 @@ window.EXTRA40_GRADE_BANK = [
         "sourceTitle": "南一資源_內文－數學6下｜基準量和比較量",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "南一官方資源頁明示數學6下、國小數學6年級及「基準量和比較量」；僅支持官方數位資源單元層級，不代表完整教科書目次或學校採用版本。",
+        "notes": "南一官方資源頁明示數學6下、國小數學6年級及「基準量和比較量」單元標題；僅支持此資源單元層級，不代表完整教科書目次或學校採用版本。",
         "mappingLevel": "unit",
         "volume": "數學6下",
         "unitCode": "官方數位教學資源單元",
@@ -792,7 +792,7 @@ window.EXTRA40_GRADE_BANK = [
         "sourceTitle": "南一資源_內文－數學6下｜基準量和比較量",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "南一官方資源頁明示數學6下、國小數學6年級及「基準量和比較量」；僅支持官方數位資源單元層級，不代表完整教科書目次或學校採用版本。",
+        "notes": "南一官方資源頁明示數學6下、國小數學6年級及「基準量和比較量」單元標題；僅支持此資源單元層級，不代表完整教科書目次或學校採用版本。",
         "mappingLevel": "unit",
         "volume": "數學6下",
         "unitCode": "官方數位教學資源單元",
@@ -1713,7 +1713,7 @@ window.EXTRA40_GRADE_BANK = [
         "sourceTitle": "康軒社會六上2-1教學資源PDF",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "康軒官方教學資源直接標示社會六上2-1「個人發展如何受到社會變遷的影響」；僅對應此單元相關題目，不代表學校採用版本。",
+        "notes": "官方教學資源直接標示社會六上2-1，並列六年級學習重點；僅對應涉及個人發展／社會變遷的題目。",
         "mappingLevel": "unit",
         "volume": "社會六上",
         "unitCode": "2-1",
@@ -1833,9 +1833,9 @@ window.EXTRA40_GRADE_BANK = [
         "sourceTitle": "翰林書城－高中互動式教學講義數學(3A)",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "翰林官方頁明示高中2年級、上學期及108課綱數學A版，目次列三角函數；只作單元對照，不表示題目取自教材。",
+        "notes": "官方頁明示高二、上學期與108課綱高二數學A版，目次列三角函數；只作單元對照，不表示題目取自教材。",
         "mappingLevel": "unit",
-        "volume": "數學(3A)",
+        "volume": "數學(3A)（官方互動式教學講義，搭配翰林教材）",
         "unitCode": "1",
         "unitName": "三角函數",
         "semester": "上學期",
@@ -1844,7 +1844,7 @@ window.EXTRA40_GRADE_BANK = [
         "subject": "數學",
         "courseTrack": "數學A",
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁確認數學A軌別，學校採用版本未確認"
       }
     ],
     "classificationNotes": "翰林官方數學3A頁明示高二上、數學A及三角函數單元；第一次段考為依題庫單元順序推定，非學校正式範圍。",
@@ -1888,9 +1888,9 @@ window.EXTRA40_GRADE_BANK = [
         "sourceTitle": "翰林書城－高中互動式教學講義數學(3A)",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "翰林官方頁明示高中2年級、上學期及108課綱數學A版，目次列三角函數；只作單元對照，不表示題目取自教材。",
+        "notes": "官方頁明示高二、上學期與108課綱高二數學A版，目次列三角函數；只作單元對照，不表示題目取自教材。",
         "mappingLevel": "unit",
-        "volume": "數學(3A)",
+        "volume": "數學(3A)（官方互動式教學講義，搭配翰林教材）",
         "unitCode": "1",
         "unitName": "三角函數",
         "semester": "上學期",
@@ -1899,7 +1899,7 @@ window.EXTRA40_GRADE_BANK = [
         "subject": "數學",
         "courseTrack": "數學A",
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁確認數學A軌別，學校採用版本未確認"
       }
     ],
     "classificationNotes": "翰林官方數學3A頁明示高二上、數學A及三角函數單元；第一次段考為依題庫單元順序推定，非學校正式範圍。",
@@ -1943,9 +1943,9 @@ window.EXTRA40_GRADE_BANK = [
         "sourceTitle": "翰林書城－高中互動式教學講義數學(3A)",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "翰林官方頁明示高中2年級、上學期及108課綱數學A版，目次列三角函數；只作單元對照，不表示題目取自教材。",
+        "notes": "官方頁明示高二、上學期與108課綱高二數學A版，目次列三角函數；只作單元對照，不表示題目取自教材。",
         "mappingLevel": "unit",
-        "volume": "數學(3A)",
+        "volume": "數學(3A)（官方互動式教學講義，搭配翰林教材）",
         "unitCode": "1",
         "unitName": "三角函數",
         "semester": "上學期",
@@ -1954,7 +1954,7 @@ window.EXTRA40_GRADE_BANK = [
         "subject": "數學",
         "courseTrack": "數學A",
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁確認數學A軌別，學校採用版本未確認"
       }
     ],
     "classificationNotes": "翰林官方數學3A頁明示高二上、數學A及三角函數單元；第一次段考為依題庫單元順序推定，非學校正式範圍。",
@@ -1998,9 +1998,9 @@ window.EXTRA40_GRADE_BANK = [
         "sourceTitle": "翰林書城－高中互動式教學講義數學(3A)",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "翰林官方頁明示高中2年級、上學期及108課綱數學A版，目次列指數與對數函數；只作單元對照，不表示題目取自教材。",
+        "notes": "官方頁明示高二、上學期與目次單元；段考區間仍為題庫依單元順序推定。",
         "mappingLevel": "unit",
-        "volume": "數學(3A)",
+        "volume": "數學(3A)（官方互動式教學講義，搭配翰林教材）",
         "unitCode": "2",
         "unitName": "指數與對數函數",
         "semester": "上學期",
@@ -2009,7 +2009,7 @@ window.EXTRA40_GRADE_BANK = [
         "subject": "數學",
         "courseTrack": "數學A",
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁確認數學A軌別，學校採用版本未確認"
       }
     ],
     "classificationNotes": "翰林官方數學3A頁明示高二上、數學A及指數與對數函數單元；第二次段考為依題庫單元順序推定，非學校正式範圍。",
@@ -2053,9 +2053,9 @@ window.EXTRA40_GRADE_BANK = [
         "sourceTitle": "翰林書城－高中互動式教學講義數學(3A)",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "翰林官方頁明示高中2年級、上學期及108課綱數學A版，目次列指數與對數函數；只作單元對照，不表示題目取自教材。",
+        "notes": "官方頁明示高二、上學期與目次單元；段考區間仍為題庫依單元順序推定。",
         "mappingLevel": "unit",
-        "volume": "數學(3A)",
+        "volume": "數學(3A)（官方互動式教學講義，搭配翰林教材）",
         "unitCode": "2",
         "unitName": "指數與對數函數",
         "semester": "上學期",
@@ -2064,7 +2064,7 @@ window.EXTRA40_GRADE_BANK = [
         "subject": "數學",
         "courseTrack": "數學A",
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁確認數學A軌別，學校採用版本未確認"
       }
     ],
     "classificationNotes": "翰林官方數學3A頁明示高二上、數學A及指數與對數函數單元；第二次段考為依題庫單元順序推定，非學校正式範圍。",
@@ -2108,9 +2108,9 @@ window.EXTRA40_GRADE_BANK = [
         "sourceTitle": "翰林書城－高中互動式教學講義數學(3A)",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "翰林官方頁明示高中2年級、上學期及108課綱數學A版，目次列指數與對數函數；只作單元對照，不表示題目取自教材。",
+        "notes": "官方頁明示高二、上學期與目次單元；段考區間仍為題庫依單元順序推定。",
         "mappingLevel": "unit",
-        "volume": "數學(3A)",
+        "volume": "數學(3A)（官方互動式教學講義，搭配翰林教材）",
         "unitCode": "2",
         "unitName": "指數與對數函數",
         "semester": "上學期",
@@ -2119,7 +2119,7 @@ window.EXTRA40_GRADE_BANK = [
         "subject": "數學",
         "courseTrack": "數學A",
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁確認數學A軌別，學校採用版本未確認"
       }
     ],
     "classificationNotes": "翰林官方數學3A頁明示高二上、數學A及指數與對數函數單元；第二次段考為依題庫單元順序推定，非學校正式範圍。",
@@ -2163,9 +2163,9 @@ window.EXTRA40_GRADE_BANK = [
         "sourceTitle": "翰林書城－高中互動式教學講義數學(3A)",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "翰林官方頁明示高中2年級、上學期及108課綱數學A版，目次列平面向量；只作單元對照，不表示題目取自教材。",
+        "notes": "官方頁明示高二、上學期與目次單元；段考區間仍為題庫依單元順序推定。",
         "mappingLevel": "unit",
-        "volume": "數學(3A)",
+        "volume": "數學(3A)（官方互動式教學講義，搭配翰林教材）",
         "unitCode": "3",
         "unitName": "平面向量",
         "semester": "上學期",
@@ -2174,7 +2174,7 @@ window.EXTRA40_GRADE_BANK = [
         "subject": "數學",
         "courseTrack": "數學A",
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁確認數學A軌別，學校採用版本未確認"
       }
     ],
     "classificationNotes": "翰林官方數學3A頁明示高二上、數學A及平面向量單元；第三次段考為依題庫單元順序推定，非學校正式範圍。",
@@ -2218,9 +2218,9 @@ window.EXTRA40_GRADE_BANK = [
         "sourceTitle": "翰林書城－高中互動式教學講義數學(3A)",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "翰林官方頁明示高中2年級、上學期及108課綱數學A版，目次列平面向量；只作單元對照，不表示題目取自教材。",
+        "notes": "官方頁明示高二、上學期與目次單元；段考區間仍為題庫依單元順序推定。",
         "mappingLevel": "unit",
-        "volume": "數學(3A)",
+        "volume": "數學(3A)（官方互動式教學講義，搭配翰林教材）",
         "unitCode": "3",
         "unitName": "平面向量",
         "semester": "上學期",
@@ -2229,7 +2229,7 @@ window.EXTRA40_GRADE_BANK = [
         "subject": "數學",
         "courseTrack": "數學A",
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁確認數學A軌別，學校採用版本未確認"
       }
     ],
     "classificationNotes": "翰林官方數學3A頁明示高二上、數學A及平面向量單元；第三次段考為依題庫單元順序推定，非學校正式範圍。",
@@ -2273,9 +2273,9 @@ window.EXTRA40_GRADE_BANK = [
         "sourceTitle": "翰林書城－高中互動式教學講義數學(3A)",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "翰林官方頁明示高中2年級、上學期及108課綱數學A版，目次列平面向量；只作單元對照，不表示題目取自教材。",
+        "notes": "官方頁明示高二、上學期與目次單元；段考區間仍為題庫依單元順序推定。",
         "mappingLevel": "unit",
-        "volume": "數學(3A)",
+        "volume": "數學(3A)（官方互動式教學講義，搭配翰林教材）",
         "unitCode": "3",
         "unitName": "平面向量",
         "semester": "上學期",
@@ -2284,7 +2284,7 @@ window.EXTRA40_GRADE_BANK = [
         "subject": "數學",
         "courseTrack": "數學A",
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁確認數學A軌別，學校採用版本未確認"
       }
     ],
     "classificationNotes": "翰林官方數學3A頁明示高二上、數學A及平面向量單元；第三次段考為依題庫單元順序推定，非學校正式範圍。",
@@ -2328,9 +2328,9 @@ window.EXTRA40_GRADE_BANK = [
         "sourceTitle": "翰林書城－高中互動式教學講義數學(3A)",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "翰林官方頁明示高中2年級、上學期及108課綱數學A版，目次列平面向量；只作單元對照，不表示題目取自教材。",
+        "notes": "官方頁明示高二、上學期與目次單元；段考區間仍為題庫依單元順序推定。",
         "mappingLevel": "unit",
-        "volume": "數學(3A)",
+        "volume": "數學(3A)（官方互動式教學講義，搭配翰林教材）",
         "unitCode": "3",
         "unitName": "平面向量",
         "semester": "上學期",
@@ -2339,7 +2339,7 @@ window.EXTRA40_GRADE_BANK = [
         "subject": "數學",
         "courseTrack": "數學A",
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁確認數學A軌別，學校採用版本未確認"
       }
     ],
     "classificationNotes": "翰林官方數學3A頁明示高二上、數學A及平面向量單元；第三次段考為依題庫單元順序推定，非學校正式範圍。",
@@ -2383,9 +2383,9 @@ window.EXTRA40_GRADE_BANK = [
         "sourceTitle": "翰林書城－高中課本選修物理(II)力學二與熱學",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "翰林官方課本頁明示高中2年級、上學期及選修物理(II)冊名；只作冊別／主題層級對照，官方頁未列完整章節目次，不推定段考。",
+        "notes": "官方頁明示高中二年級、上學期及課本名稱；僅作冊別／主題層級對照。",
         "mappingLevel": "volume",
-        "volume": "選修物理(II)力學二與熱學",
+        "volume": "選修物理(II) 力學二與熱學",
         "unitCode": "全冊",
         "unitName": "力學二與熱學",
         "semester": "上學期",
@@ -2394,7 +2394,7 @@ window.EXTRA40_GRADE_BANK = [
         "subject": "物理",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
       }
     ],
     "classificationNotes": "翰林官方選修物理II課本頁確認高二上及力學二與熱學冊名；僅冊別層級，不推定段考。",
@@ -2437,9 +2437,9 @@ window.EXTRA40_GRADE_BANK = [
         "sourceTitle": "翰林書城－高中課本選修物理(II)力學二與熱學",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "翰林官方課本頁明示高中2年級、上學期及選修物理(II)冊名；只作冊別／主題層級對照，官方頁未列完整章節目次，不推定段考。",
+        "notes": "官方頁明示高中二年級、上學期及課本名稱；僅作冊別／主題層級對照。",
         "mappingLevel": "volume",
-        "volume": "選修物理(II)力學二與熱學",
+        "volume": "選修物理(II) 力學二與熱學",
         "unitCode": "全冊",
         "unitName": "力學二與熱學",
         "semester": "上學期",
@@ -2448,7 +2448,7 @@ window.EXTRA40_GRADE_BANK = [
         "subject": "物理",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
       }
     ],
     "classificationNotes": "翰林官方選修物理II課本頁確認高二上及力學二與熱學冊名；僅冊別層級，不推定段考。",
@@ -2491,9 +2491,9 @@ window.EXTRA40_GRADE_BANK = [
         "sourceTitle": "翰林書城－高中課本選修物理(II)力學二與熱學",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "翰林官方課本頁明示高中2年級、上學期及選修物理(II)冊名；只作冊別／主題層級對照，官方頁未列完整章節目次，不推定段考。",
+        "notes": "官方頁明示高中二年級、上學期及課本名稱；僅作冊別／主題層級對照。",
         "mappingLevel": "volume",
-        "volume": "選修物理(II)力學二與熱學",
+        "volume": "選修物理(II) 力學二與熱學",
         "unitCode": "全冊",
         "unitName": "力學二與熱學",
         "semester": "上學期",
@@ -2502,7 +2502,7 @@ window.EXTRA40_GRADE_BANK = [
         "subject": "物理",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
       }
     ],
     "classificationNotes": "翰林官方選修物理II課本頁確認高二上及力學二與熱學冊名；僅冊別層級，不推定段考。",
@@ -2545,9 +2545,9 @@ window.EXTRA40_GRADE_BANK = [
         "sourceTitle": "翰林書城－高中課本選修物理(II)力學二與熱學",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "翰林官方課本頁明示高中2年級、上學期及選修物理(II)冊名；只作冊別／主題層級對照，官方頁未列完整章節目次，不推定段考。",
+        "notes": "官方頁明示高中二年級、上學期及課本名稱；僅作冊別／主題層級對照。",
         "mappingLevel": "volume",
-        "volume": "選修物理(II)力學二與熱學",
+        "volume": "選修物理(II) 力學二與熱學",
         "unitCode": "全冊",
         "unitName": "力學二與熱學",
         "semester": "上學期",
@@ -2556,7 +2556,7 @@ window.EXTRA40_GRADE_BANK = [
         "subject": "物理",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
       }
     ],
     "classificationNotes": "翰林官方選修物理II課本頁確認高二上及力學二與熱學冊名；僅冊別層級，不推定段考。",
@@ -2599,9 +2599,9 @@ window.EXTRA40_GRADE_BANK = [
         "sourceTitle": "翰林書城－高中課本選修物理(II)力學二與熱學",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "翰林官方課本頁明示高中2年級、上學期及選修物理(II)冊名；只作冊別／主題層級對照，官方頁未列完整章節目次，不推定段考。",
+        "notes": "官方頁明示高中二年級、上學期及課本名稱；僅作冊別／主題層級對照。",
         "mappingLevel": "volume",
-        "volume": "選修物理(II)力學二與熱學",
+        "volume": "選修物理(II) 力學二與熱學",
         "unitCode": "全冊",
         "unitName": "力學二與熱學",
         "semester": "上學期",
@@ -2610,7 +2610,7 @@ window.EXTRA40_GRADE_BANK = [
         "subject": "物理",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
       }
     ],
     "classificationNotes": "翰林官方選修物理II課本頁確認高二上及力學二與熱學冊名；僅冊別層級，不推定段考。",
@@ -2653,9 +2653,9 @@ window.EXTRA40_GRADE_BANK = [
         "sourceTitle": "翰林書城－高中課本選修物理(II)力學二與熱學",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "翰林官方課本頁明示高中2年級、上學期及選修物理(II)冊名；只作冊別／主題層級對照，官方頁未列完整章節目次，不推定段考。",
+        "notes": "官方頁明示高中二年級、上學期及課本名稱；僅作冊別／主題層級對照。",
         "mappingLevel": "volume",
-        "volume": "選修物理(II)力學二與熱學",
+        "volume": "選修物理(II) 力學二與熱學",
         "unitCode": "全冊",
         "unitName": "力學二與熱學",
         "semester": "上學期",
@@ -2664,7 +2664,7 @@ window.EXTRA40_GRADE_BANK = [
         "subject": "物理",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
       }
     ],
     "classificationNotes": "翰林官方選修物理II課本頁確認高中2年級、上學期及力學二與熱學冊名；本題涉及熱機／彈簧主題，僅作冊別層級對照，官方頁未列完整章節目次，不推定段考。",
@@ -2740,9 +2740,9 @@ window.EXTRA40_GRADE_BANK = [
         "sourceTitle": "翰林書城－高中課本選修物理(II)力學二與熱學",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "翰林官方課本頁明示高中2年級、上學期及選修物理(II)冊名；只作冊別／主題層級對照，官方頁未列完整章節目次，不推定段考。",
+        "notes": "官方頁明示高中二年級、上學期及課本名稱；僅作冊別／主題層級對照。",
         "mappingLevel": "volume",
-        "volume": "選修物理(II)力學二與熱學",
+        "volume": "選修物理(II) 力學二與熱學",
         "unitCode": "全冊",
         "unitName": "力學二與熱學",
         "semester": "上學期",
@@ -2751,7 +2751,7 @@ window.EXTRA40_GRADE_BANK = [
         "subject": "物理",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
       }
     ],
     "classificationNotes": "翰林官方選修物理II課本頁確認高中2年級、上學期及力學二與熱學冊名；本題涉及熱機／彈簧主題，僅作冊別層級對照，官方頁未列完整章節目次，不推定段考。",
@@ -2794,9 +2794,9 @@ window.EXTRA40_GRADE_BANK = [
         "sourceTitle": "翰林書城－高中互動式教學講義選修化學(III)",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "翰林官方頁明示高中2、3年級全學年，目次列化學平衡；只作單元對照，不代表學校採用版本。",
+        "notes": "官方頁明示高二、高三、全學年，目次列化學平衡；不推定學校段考。",
         "mappingLevel": "unit",
-        "volume": "選修化學(III)",
+        "volume": "選修化學(III)（官方互動式教學講義）",
         "unitCode": "1",
         "unitName": "化學平衡",
         "semester": "全學年",
@@ -2805,7 +2805,7 @@ window.EXTRA40_GRADE_BANK = [
         "subject": "化學",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
       }
     ],
     "classificationNotes": "翰林官方選修化學III目次明列化學平衡；本題對應該單元，教材標示全學年，不推定段考。",
@@ -2848,9 +2848,9 @@ window.EXTRA40_GRADE_BANK = [
         "sourceTitle": "翰林書城－高中互動式教學講義選修化學(III)",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "翰林官方頁明示高中2、3年級全學年，目次列化學平衡；只作單元對照，不代表學校採用版本。",
+        "notes": "官方頁明示高二、高三、全學年，目次列化學平衡；不推定學校段考。",
         "mappingLevel": "unit",
-        "volume": "選修化學(III)",
+        "volume": "選修化學(III)（官方互動式教學講義）",
         "unitCode": "1",
         "unitName": "化學平衡",
         "semester": "全學年",
@@ -2859,7 +2859,7 @@ window.EXTRA40_GRADE_BANK = [
         "subject": "化學",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
       }
     ],
     "classificationNotes": "翰林官方選修化學III目次明列化學平衡；本題對應該單元，教材標示全學年，不推定段考。",
@@ -2902,9 +2902,9 @@ window.EXTRA40_GRADE_BANK = [
         "sourceTitle": "翰林書城－高中互動式教學講義選修化學(III)",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "翰林官方頁目次列沉澱反應與溶解平衡；教材標示高中2、3年級全學年，只作單元對照。",
+        "notes": "官方頁明示目次列沉澱反應與溶解平衡；不推定學校段考。",
         "mappingLevel": "unit",
-        "volume": "選修化學(III)",
+        "volume": "選修化學(III)（官方互動式教學講義）",
         "unitCode": "2",
         "unitName": "沉澱反應與溶解平衡",
         "semester": "全學年",
@@ -2913,7 +2913,7 @@ window.EXTRA40_GRADE_BANK = [
         "subject": "化學",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
       }
     ],
     "classificationNotes": "翰林官方選修化學III目次明列沉澱反應與溶解平衡；本題對應該單元，教材標示全學年，不推定段考。",
@@ -2956,9 +2956,9 @@ window.EXTRA40_GRADE_BANK = [
         "sourceTitle": "翰林書城－高中互動式教學講義選修化學(III)",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "翰林官方頁目次列沉澱反應與溶解平衡；教材標示高中2、3年級全學年，只作單元對照。",
+        "notes": "官方頁明示目次列沉澱反應與溶解平衡；不推定學校段考。",
         "mappingLevel": "unit",
-        "volume": "選修化學(III)",
+        "volume": "選修化學(III)（官方互動式教學講義）",
         "unitCode": "2",
         "unitName": "沉澱反應與溶解平衡",
         "semester": "全學年",
@@ -2967,7 +2967,7 @@ window.EXTRA40_GRADE_BANK = [
         "subject": "化學",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
       }
     ],
     "classificationNotes": "翰林官方選修化學III目次明列沉澱反應與溶解平衡；本題對應該單元，教材標示全學年，不推定段考。",
@@ -3010,9 +3010,9 @@ window.EXTRA40_GRADE_BANK = [
         "sourceTitle": "翰林書城－高中互動式教學講義選修化學(III)",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "翰林官方頁目次列酸鹼反應；教材標示高中2、3年級全學年，只作單元對照。",
+        "notes": "官方頁明示目次列酸鹼反應與酸鹼滴定實驗；不推定學校段考。",
         "mappingLevel": "unit",
-        "volume": "選修化學(III)",
+        "volume": "選修化學(III)（官方互動式教學講義）",
         "unitCode": "3",
         "unitName": "酸鹼反應",
         "semester": "全學年",
@@ -3021,7 +3021,7 @@ window.EXTRA40_GRADE_BANK = [
         "subject": "化學",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
       }
     ],
     "classificationNotes": "翰林官方選修化學III目次明列酸鹼反應及酸鹼滴定；本題對應該單元，教材標示全學年，不推定段考。",
@@ -3064,9 +3064,9 @@ window.EXTRA40_GRADE_BANK = [
         "sourceTitle": "翰林書城－高中互動式教學講義選修化學(III)",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "翰林官方頁目次列酸鹼反應；教材標示高中2、3年級全學年，只作單元對照。",
+        "notes": "官方頁明示目次列酸鹼反應與酸鹼滴定實驗；不推定學校段考。",
         "mappingLevel": "unit",
-        "volume": "選修化學(III)",
+        "volume": "選修化學(III)（官方互動式教學講義）",
         "unitCode": "3",
         "unitName": "酸鹼反應",
         "semester": "全學年",
@@ -3075,7 +3075,7 @@ window.EXTRA40_GRADE_BANK = [
         "subject": "化學",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
       }
     ],
     "classificationNotes": "翰林官方選修化學III目次明列酸鹼反應；本題對應酸鹼與緩衝概念，教材標示全學年，不推定段考。",
@@ -3118,18 +3118,18 @@ window.EXTRA40_GRADE_BANK = [
         "sourceTitle": "翰林書城－高中課本選修化學(II)物質構造與反應速率",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "翰林官方課本頁明示高中2年級、上學期及選修化學(II)冊名；僅冊別層級，不宣稱細分目次或段考範圍。",
+        "notes": "翰林官方課本頁明示高中2年級、上學期及冊名「選修化學(II)物質構造與反應速率」；僅冊別層級，不宣稱細分單元已核對。不同商品編號的實驗手冊或習作可能有不同學期，不能與此課本頁混用。此映射不代表學校採用版本。",
         "mappingLevel": "volume",
         "volume": "選修化學(II)物質構造與反應速率",
         "unitCode": "全冊",
-        "unitName": "物質構造與反應速率（冊別層級）",
+        "unitName": "物質構造與反應速率（冊別層級；未核對細分目次）",
         "semester": "上學期",
         "stage": "高中",
         "grade": "高二",
         "subject": "化學",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
       }
     ],
     "classificationNotes": "翰林官方選修化學II課本頁確認高二上及物質構造與反應速率冊名；本題對應反應速率主題，僅冊別層級，不宣稱細分目次或段考。",
@@ -3172,18 +3172,18 @@ window.EXTRA40_GRADE_BANK = [
         "sourceTitle": "翰林書城－高中課本選修化學(II)物質構造與反應速率",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "翰林官方課本頁明示高中2年級、上學期及選修化學(II)冊名；僅冊別層級，不宣稱細分目次或段考範圍。",
+        "notes": "翰林官方課本頁明示高中2年級、上學期及冊名「選修化學(II)物質構造與反應速率」；僅冊別層級，不宣稱細分單元已核對。不同商品編號的實驗手冊或習作可能有不同學期，不能與此課本頁混用。此映射不代表學校採用版本。",
         "mappingLevel": "volume",
         "volume": "選修化學(II)物質構造與反應速率",
         "unitCode": "全冊",
-        "unitName": "物質構造與反應速率（冊別層級）",
+        "unitName": "物質構造與反應速率（冊別層級；未核對細分目次）",
         "semester": "上學期",
         "stage": "高中",
         "grade": "高二",
         "subject": "化學",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
       }
     ],
     "classificationNotes": "翰林官方選修化學II課本頁確認高二上及物質構造與反應速率冊名；僅冊別層級，不宣稱細分目次或段考。",
@@ -3226,18 +3226,18 @@ window.EXTRA40_GRADE_BANK = [
         "sourceTitle": "翰林書城－高中課本選修生物(II)生命的起源與植物",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "翰林官方課本頁明示高中2年級、上學期及選修生物(II)冊名；只作冊別層級對照，不宣稱細分目次。",
+        "notes": "官方頁明示高中二年級、上學期及冊名；此映射不代表已核對具體單元目次。",
         "mappingLevel": "volume",
         "volume": "選修生物(II)生命的起源與植物",
         "unitCode": "冊別層級",
-        "unitName": "生命的起源與植物",
+        "unitName": "生命的起源與植物（冊別層級）",
         "semester": "上學期",
         "stage": "高中",
         "grade": "高二",
         "subject": "生物",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
       }
     ],
     "classificationNotes": "翰林官方選修生物II課本頁確認高二上及生命的起源與植物冊名；僅冊別層級，不宣稱細分目次。",
@@ -3280,18 +3280,18 @@ window.EXTRA40_GRADE_BANK = [
         "sourceTitle": "翰林書城－高中課本選修生物(II)生命的起源與植物",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "翰林官方課本頁明示高中2年級、上學期及選修生物(II)冊名；只作冊別層級對照，不宣稱細分目次。",
+        "notes": "官方頁明示高中二年級、上學期及冊名；此映射不代表已核對具體單元目次。",
         "mappingLevel": "volume",
         "volume": "選修生物(II)生命的起源與植物",
         "unitCode": "冊別層級",
-        "unitName": "生命的起源與植物",
+        "unitName": "生命的起源與植物（冊別層級）",
         "semester": "上學期",
         "stage": "高中",
         "grade": "高二",
         "subject": "生物",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
       }
     ],
     "classificationNotes": "翰林官方選修生物II課本頁確認高二上及生命的起源與植物冊名；僅冊別層級，不宣稱細分目次。",
@@ -3334,18 +3334,18 @@ window.EXTRA40_GRADE_BANK = [
         "sourceTitle": "翰林書城－高中課本選修生物(II)生命的起源與植物",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "翰林官方課本頁明示高中2年級、上學期及選修生物(II)冊名；只作冊別層級對照，不宣稱細分目次。",
+        "notes": "官方頁明示高中二年級、上學期及冊名；此映射不代表已核對具體單元目次。",
         "mappingLevel": "volume",
         "volume": "選修生物(II)生命的起源與植物",
         "unitCode": "冊別層級",
-        "unitName": "生命的起源與植物",
+        "unitName": "生命的起源與植物（冊別層級）",
         "semester": "上學期",
         "stage": "高中",
         "grade": "高二",
         "subject": "生物",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
       }
     ],
     "classificationNotes": "翰林官方選修生物II課本頁確認高二上及生命的起源與植物冊名；僅冊別層級，不宣稱細分目次。",
