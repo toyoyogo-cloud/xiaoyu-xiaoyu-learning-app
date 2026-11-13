@@ -402,7 +402,7 @@
         "volume": 14,
         "officialResourceTitle": 5
       },
-      "notes": "南一四則混合運算5題只標官方索引標題層級；其餘映射依官方可讀來源核對。"
+      "notes": "南一四則混合運算5題只標官方索引標題層級；其餘38筆來源為source-checked。"
     },
     "corrections": [
       "第8至29批共1700題沒有內嵌學期／出版社分類欄位；由分類推定器執行時依題幹、單元與知識點推定，未回寫舊批次，無足夠依據者保留unassigned。",
@@ -418,7 +418,7 @@
     "classifierVersion": "2026-11-13.12",
     "note": "rule-checked代表程式規則與資料結構檢查，非教師逐題審核；段考為複習建議，不代表學校正式考試範圍。",
     "sourceBranch": "main",
-    "sourceHead": "6f8bb1a1865f858885c724e99c64594028ff5e47",
+    "sourceHead": "6c01e81c8af5105c9c38af040ae77f26fd4ad483",
     "mergeCommit": "6f8bb1a1865f858885c724e99c64594028ff5e47",
     "pullRequest": 2,
     "mainVerifiedAt": "2026-11-13",
@@ -525,7 +525,7 @@
       "volume": 14,
       "officialResourceTitle": 5
     },
-    "notes": "南一四則混合運算5題只標官方索引標題層級；其餘映射依官方可讀來源核對。"
+    "notes": "南一四則混合運算5題只標官方索引標題層級；其餘38筆來源為source-checked。"
   },
   "textbookMappingCount": 16,
   "lastBatchNote": "第38批100題（小六50、高二50）；43題有出版社映射，其中38筆source-checked、5筆official-index-link-only；第30至38批185筆映射引用全部通過中央來源與年級／科目／學期／軌別／範圍驗證；移除7筆不受來源支持的舊映射；第30批91筆分類說明已補齊；分類器v12、Service Worker v66；PR #2已合併main。",
