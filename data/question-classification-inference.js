@@ -45,7 +45,7 @@ function validMappingForQuestion(q,m,id){
  if(m.grade&&String(m.grade).split(/[、,，]/).indexOf(q.grade)<0)return false;
  if(m.subject&&q.subject!==m.subject)return false;
  const requiredCourseType=ELECTIVE_COURSE_TYPES[id];
- if(requiredCourseType&&String(q.courseType||"").replace(/\\s+/g,"")!==requiredCourseType.replace(/\\s+/g,""))return false;
+ if(requiredCourseType&&q.courseType!==requiredCourseType)return false;
  if(m.courseTrack&&q.courseTrack!==m.courseTrack)return false;
  if(q.courseType&&q.courseType!=="未確認"&&m.courseType!==q.courseType)return false;
  if(q.schoolYear&&q.schoolYear!=="未標示"&&m.schoolYear!==q.schoolYear)return false;
@@ -195,5 +195,5 @@ function classify(q){
  return {semester,examPeriod,classificationBasis:basis,confidence,publisherStatus,publisherMappings:mappings,classificationNotes:notes,reason:notes,sourceRef,learningDomain:source.learningDomain||domainFor(source),questionType:source.questionType||typeFor(source),learningUnit:source.learningUnit||label(source)||"未標示",difficultyLevel:difficultyFor(source)};
 }
 window.questionClassificationFor=classify;
-window.QUESTION_CLASSIFICATION_RULES_VERSION="2026-11-14.24";
+window.QUESTION_CLASSIFICATION_RULES_VERSION="2026-11-14.25";
 })();
