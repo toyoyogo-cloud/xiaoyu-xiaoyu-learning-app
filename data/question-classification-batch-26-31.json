@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.1.0",
   "updatedAt": "2026-11-14",
-  "classificationRuleVersion": "2026-11-14.29",
+  "classificationRuleVersion": "2026-11-14.31",
   "batchRange": "26-31",
   "sourceBatchShas": {
     "26": "6b3087b61bdacfb141f64498040285ffe18a4ddc",
@@ -2459,7 +2459,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。",
       "sourceRef": "依108課綱核心素養與學科概念原創編寫；非歷屆試題原文",
-      "learningDomain": "區域地理",
+      "learningDomain": "自然地理",
       "questionType": "概念辨識",
       "learningUnit": "季風與降雨",
       "difficultyLevel": "進階"
@@ -3010,7 +3010,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。",
       "sourceRef": "依108課綱核心素養與學科概念原創編寫；非歷屆試題原文",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "力學運動",
       "questionType": "計算應用",
       "learningUnit": "密度計算",
       "difficultyLevel": "基礎"
@@ -3428,7 +3428,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。",
       "sourceRef": "依108課綱核心素養與學科概念原創編寫；非歷屆試題原文",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "反應與計量",
       "questionType": "概念辨識",
       "learningUnit": "氣體定律",
       "difficultyLevel": "進階"
@@ -3542,7 +3542,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。",
       "sourceRef": "依108課綱核心素養與學科概念原創編寫；非歷屆試題原文",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "波動聲光",
       "questionType": "概念辨識",
       "learningUnit": "凸透鏡成像",
       "difficultyLevel": "進階"
@@ -4948,7 +4948,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。",
       "sourceRef": "依108課綱核心素養與學科概念原創編寫；非歷屆試題原文",
-      "learningDomain": "地球系統",
+      "learningDomain": "天文宇宙",
       "questionType": "推理判斷",
       "learningUnit": "四季成因",
       "difficultyLevel": "進階"
@@ -5138,7 +5138,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。",
       "sourceRef": "依108課綱核心素養與學科概念原創編寫；非歷屆試題原文",
-      "learningDomain": "區域地理",
+      "learningDomain": "自然地理",
       "questionType": "推理判斷",
       "learningUnit": "季風與降雨",
       "difficultyLevel": "挑戰"
@@ -6810,7 +6810,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。",
       "sourceRef": "依108課綱核心素養與學科概念原創編寫；非歷屆試題原文",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "力學運動",
       "questionType": "計算應用",
       "learningUnit": "密度計算",
       "difficultyLevel": "進階"
@@ -10277,7 +10277,7 @@
       "publisherMappings": [],
       "classificationNotes": "依108課綱共同核心編寫；缺乏可核對的出版社單元或段考依據，故維持未分類。",
       "sourceRef": "依108課綱共同核心概念原創編寫；非出版社或歷屆試題原文。",
-      "learningDomain": "綜合／待細分",
+      "learningDomain": "文法句型",
       "questionType": "概念辨識",
       "learningUnit": "過去進行式",
       "difficultyLevel": "基礎"
