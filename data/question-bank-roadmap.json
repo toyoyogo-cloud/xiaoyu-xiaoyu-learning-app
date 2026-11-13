@@ -854,8 +854,9 @@
           "all100Reachable": true,
           "browserTested": false
         },
-        "serviceWorkerCache": "xy-learning-v74",
-        "classificationIndexAsset": true
+        "serviceWorkerCache": "xy-learning-v75",
+        "classificationIndexAsset": true,
+        "cacheVersionBumped": true
       },
       "notes": "第30批100題加入獨立分類索引；保留批次原有學期、段考、依據、信心、出版社映射與來源。34筆出版社映射沿用中央16筆來源登錄並核對年級、科目、學期、軌別及來源欄位，無新增映射。75題難度保留未標示，因原始d欄位為題型／情境標籤，非標準難度。未新增題目。",
       "filterValidation": {
