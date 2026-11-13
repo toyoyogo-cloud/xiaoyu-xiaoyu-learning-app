@@ -305,7 +305,7 @@
     "高二": 874,
     "高三": 373
   },
-  "integrationAuditNote": "2026-11-13 main audit: 2,700 independent questions across batches 08-39; batch39 is loaded by index.html and bankFor(), and Service Worker v68 includes its asset. Batch39 static validation passed 100/100 required fields, four unique options, answer index 0-3, explanations, classification metadata, 37/37 source mappings and exact normalized stem comparison against batches 08-38 with 0 matches. Runtime classifier v12 has not yet been rerun on all 2,700 questions; browser interactions and Pages deployment remain unverified.",
+  "integrationAuditNote": "2026-11-13 main audit: 2,700 independent questions across batches 08-39. The previous v12 audit covered batches 08-38 (2,600 questions); this run executed the same v12 classifier on batch39 (100 questions), with 100/100 stored classification fields and mapping references matching runtime output. Batch39 static validation passed required fields, four unique options, answer index 0-3, explanations, 38/38 source mappings and exact normalized stem comparison against batches 08-38 with 0 matches. Browser interactions and Pages deployment remain unverified.",
   "lastMainBranchAudit": {
     "date": "2026-11-13",
     "independentBatchRange": "第8至第39批",
@@ -405,7 +405,7 @@
         "mappingReferencesValidated": 38
       }
     },
-    "runtimeClassifier": "v12 previously executed on 2,600 questions (batches08-38); batch39 has static schema/source validation but full 2,700-question runtime rerun not yet performed.",
+    "runtimeClassifier": "v12 executed incrementally across prior batches08-38 (2,600) and current batch39 (100); current batch39 runtime output matches stored classification fields 100/100.",
     "browserFunctionalTests": "pending",
     "pagesDeployment": "not-verified-no-workflow-run",
     "pullRequest": 3,
@@ -419,7 +419,40 @@
       "volume": 92,
       "officialResourceTitle": 11
     },
-    "additionalCorrection": "b39-069熱機效率補上翰林選修物理II冊別層級映射；官方來源只支持冊別／主題，不宣稱細分目次。"
+    "additionalCorrection": "b39-069熱機效率補上翰林選修物理II冊別層級映射；官方來源只支持冊別／主題，不宣稱細分目次。",
+    "runtimeClassification": {
+      "executedAt": "2026-11-13",
+      "classifierVersion": "2026-11-13.12",
+      "questionCount": 100,
+      "classificationBasis": {
+        "curriculumCore": 57,
+        "questionBankInference": 17,
+        "publisherSourceVerified": 26
+      },
+      "publisherStatus": {
+        "curriculumCore": 62,
+        "publisherMapped": 38,
+        "pending": 0
+      },
+      "semester": {
+        "unassigned": 57,
+        "上學期": 28,
+        "下學期": 9,
+        "全學年": 6
+      },
+      "examPeriod": {
+        "unassigned": 83,
+        "第一次段考": 5,
+        "第二次段考": 6,
+        "第三次段考": 6
+      },
+      "storedMappingReferences": 38,
+      "validatedMappingReferences": 38,
+      "runtimeMatchesStoredFields": true,
+      "errors": 0,
+      "mismatches": 0,
+      "notes": "以main上的分類器v12實際執行第39批100題；全部semester、examPeriod、classificationBasis、confidence、publisherStatus與publisherMappings均與批次儲存欄位一致。"
+    }
   },
   "gradeDistribution": {
     "五年級": 290,
@@ -459,17 +492,21 @@
     },
     "publisherMappedQuestions": 38,
     "classificationBasis": {
-      "publisherSourceVerified": 38,
-      "curriculumCore": 62
+      "publisherSourceVerified": 26,
+      "questionBankInference": 17,
+      "curriculumCore": 57
     },
     "semester": {
       "上學期": 28,
-      "下學期": 4,
+      "下學期": 9,
       "全學年": 6,
-      "unassigned": 62
+      "unassigned": 57
     },
     "examPeriod": {
-      "unassigned": 100
+      "第一次段考": 5,
+      "第二次段考": 6,
+      "第三次段考": 6,
+      "unassigned": 83
     },
     "publisherStatus": {
       "publisherMapped": 38,
@@ -500,15 +537,51 @@
       "crossBatchExactDuplicateStems": 0,
       "crossBatchComparedAgainst": "第8至38批共2,600題",
       "arithmeticChecks": "數學、物理計算題與化學平衡式逐題重算；規則檢查",
-      "runtimeClassificationMatchesStoredFields": "not-run",
+      "runtimeClassificationMatchesStoredFields": true,
       "browserFunctionalTests": "pending",
       "sourceMappedQuestions": 38,
       "mappingReferences": 38,
-      "mappingReferencesValidated": 38
+      "mappingReferencesValidated": 38,
+      "runtimeClassifierVersion": "2026-11-13.12",
+      "runtimeErrors": 0,
+      "runtimeMismatches": 0
+    },
+    "runtimeClassification": {
+      "executedAt": "2026-11-13",
+      "classifierVersion": "2026-11-13.12",
+      "questionCount": 100,
+      "classificationBasis": {
+        "curriculumCore": 57,
+        "questionBankInference": 17,
+        "publisherSourceVerified": 26
+      },
+      "publisherStatus": {
+        "curriculumCore": 62,
+        "publisherMapped": 38,
+        "pending": 0
+      },
+      "semester": {
+        "unassigned": 57,
+        "上學期": 28,
+        "下學期": 9,
+        "全學年": 6
+      },
+      "examPeriod": {
+        "unassigned": 83,
+        "第一次段考": 5,
+        "第二次段考": 6,
+        "第三次段考": 6
+      },
+      "storedMappingReferences": 38,
+      "validatedMappingReferences": 38,
+      "runtimeMatchesStoredFields": true,
+      "errors": 0,
+      "mismatches": 0,
+      "notes": "以main上的分類器v12實際執行第39批100題；全部semester、examPeriod、classificationBasis、confidence、publisherStatus與publisherMappings均與批次儲存欄位一致。"
     }
   },
   "textbookMappingCount": 16,
-  "lastBatchNote": "第39批新增100題（小六50、高二50）；38題有中央官方來源映射（南一4、翰林34；38筆source-checked），62題標108課綱共同核心；38/38映射通過來源與範圍一致性檢查；跨第8至38批正規化題幹重複0組；Service Worker v68。",
+  "lastBatchNote": "第39批新增100題（小六50、高二50）；38題有中央官方來源映射（南一4、翰林34），62題為共同核心；17題依題庫知識點推定學期／段考。分類器v12實際執行100題，儲存欄位100/100一致；38/38映射通過來源與範圍檢查；跨第8至38批正規化題幹重複0組；Service Worker v68。",
   "candidateBranchAudit": {
     "date": "2026-11-13",
     "sourceBranch": "automation/batch-39-2026-11-13",
@@ -538,7 +611,57 @@
       "publisherMappedQuestions": 38,
       "curriculumCore": 62,
       "mappingReferences": 38,
-      "validation": "100題欄位／選項／答案／解析／ID檢查通過；37/37映射來源及範圍一致；與第8至38批正規化題幹重複0組。"
+      "validation": "100題四選項、答案索引、解析、分類欄位及ID檢查通過；38/38來源映射通過；跨第8至38批題幹重複0組；分類器v12執行100題，儲存欄位100/100一致。",
+      "classificationBasis": {
+        "publisherSourceVerified": 26,
+        "questionBankInference": 17,
+        "curriculumCore": 57
+      },
+      "semester": {
+        "上學期": 28,
+        "下學期": 9,
+        "全學年": 6,
+        "unassigned": 57
+      },
+      "examPeriod": {
+        "第一次段考": 5,
+        "第二次段考": 6,
+        "第三次段考": 6,
+        "unassigned": 83
+      },
+      "runtimeClassification": {
+        "executedAt": "2026-11-13",
+        "classifierVersion": "2026-11-13.12",
+        "questionCount": 100,
+        "classificationBasis": {
+          "curriculumCore": 57,
+          "questionBankInference": 17,
+          "publisherSourceVerified": 26
+        },
+        "publisherStatus": {
+          "curriculumCore": 62,
+          "publisherMapped": 38,
+          "pending": 0
+        },
+        "semester": {
+          "unassigned": 57,
+          "上學期": 28,
+          "下學期": 9,
+          "全學年": 6
+        },
+        "examPeriod": {
+          "unassigned": 83,
+          "第一次段考": 5,
+          "第二次段考": 6,
+          "第三次段考": 6
+        },
+        "storedMappingReferences": 38,
+        "validatedMappingReferences": 38,
+        "runtimeMatchesStoredFields": true,
+        "errors": 0,
+        "mismatches": 0,
+        "notes": "以main上的分類器v12實際執行第39批100題；全部semester、examPeriod、classificationBasis、confidence、publisherStatus與publisherMappings均與批次儲存欄位一致。"
+      }
     },
     "classifierVersion": "2026-11-13.12",
     "serviceWorkerCache": "xy-learning-v68",
@@ -562,5 +685,5 @@
   "pullRequest": 3,
   "mainVerifiedAt": "2026-11-13",
   "pagesDeployment": "not-verified-no-workflow-run",
-  "runtimeClassificationAuditStatus": "executed-v12-through-2600; batch39-static-validated"
+  "runtimeClassificationAuditStatus": "executed-v12-incremental-2700"
 }
