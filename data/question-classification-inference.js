@@ -39,7 +39,7 @@ function mappingScopeMatches(q,m,id){
 function validMappingForQuestion(q,m,id){
  if(!m||!m.publisher||!m.sourceUrl||!m.sourceTitle||!m.verifiedAt||!m.verificationStatus||!m.notes)return false;
  if(!/^https:\/\//.test(m.sourceUrl))return false;
- if(!["source-checked","official-index-link-only"].includes(m.verificationStatus))return false;
+ if(!["source-checked","teacher-reviewed"].includes(m.verificationStatus))return false;
  if(!["unit","volume","official-resource-title"].includes(m.mappingLevel||""))return false;
  if(m.stage&&q.stage&&m.stage!==q.stage)return false;
  if(m.grade&&String(m.grade).split(/[、,，]/).indexOf(q.grade)<0)return false;
@@ -195,5 +195,5 @@ function classify(q){
  return {semester,examPeriod,classificationBasis:basis,confidence,publisherStatus,publisherMappings:mappings,classificationNotes:notes,reason:notes,sourceRef,learningDomain:source.learningDomain||domainFor(source),questionType:source.questionType||typeFor(source),learningUnit:source.learningUnit||label(source)||"未標示",difficultyLevel:difficultyFor(source)};
 }
 window.questionClassificationFor=classify;
-window.QUESTION_CLASSIFICATION_RULES_VERSION="2026-11-14.25";
+window.QUESTION_CLASSIFICATION_RULES_VERSION="2026-11-14.26";
 })();
