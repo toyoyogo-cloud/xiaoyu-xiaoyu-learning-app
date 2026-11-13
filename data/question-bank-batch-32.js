@@ -2452,7 +2452,7 @@ window.EXTRA32_GRADE_BANK = [
     "e": "水吸熱100×4.2×5＝2,100 J，反應放出等量熱2.1 kJ。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
-    "sourceRef": "題目為原創；教材對照僅參照出版社官方資料，非教材或歷屆試題原文。",
+    "sourceRef": "https://books.hanlin.com.tw/product/005021",
     "reviewStatus": "rule-checked",
     "learningContent": "量熱與反應熱",
     "semester": "上學期",
@@ -2473,12 +2473,19 @@ window.EXTRA32_GRADE_BANK = [
         "volume": "選修化學(I)物質與能量",
         "unitCode": "冊別層級",
         "unitName": "物質與能量（冊別層級）",
+        "unitAliases": [],
+        "scopeKeywords": [
+          "焓",
+          "反應熱",
+          "能量",
+          "赫斯定律"
+        ],
         "semester": "上學期",
         "grade": "高二",
         "subject": "化學",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
       }
     ],
     "classificationNotes": "題目為原創；翰林官方課本頁僅核對高二上選修化學(I)冊名「物質與能量」，未公開細分目次，僅作冊別層級對照。"
@@ -2504,7 +2511,7 @@ window.EXTRA32_GRADE_BANK = [
     "e": "ΔH＝生成物－反應物＝－40 kJ/mol，屬放熱反應。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
-    "sourceRef": "題目為原創；教材對照僅參照出版社官方資料，非教材或歷屆試題原文。",
+    "sourceRef": "https://books.hanlin.com.tw/product/005021",
     "reviewStatus": "rule-checked",
     "learningContent": "焓變與能量圖",
     "semester": "上學期",
@@ -2525,12 +2532,19 @@ window.EXTRA32_GRADE_BANK = [
         "volume": "選修化學(I)物質與能量",
         "unitCode": "冊別層級",
         "unitName": "物質與能量（冊別層級）",
+        "unitAliases": [],
+        "scopeKeywords": [
+          "焓",
+          "反應熱",
+          "能量",
+          "赫斯定律"
+        ],
         "semester": "上學期",
         "grade": "高二",
         "subject": "化學",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認"
+        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
       }
     ],
     "classificationNotes": "題目為原創；翰林官方課本頁僅核對高二上選修化學(I)冊名「物質與能量」，未公開細分目次，僅作冊別層級對照。"
