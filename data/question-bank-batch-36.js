@@ -630,7 +630,7 @@ window.EXTRA36_GRADE_BANK = [
         "courseType": "國小"
       }
     ],
-    "classificationNotes": "南一官方6下資源頁明示「基準量和比較量」單元；只作單元層級對照。"
+    "classificationNotes": "南一官方6下資源明示「基準量和比較量」；只作單元層級對照。"
   },
   {
     "id": "b36-020",
@@ -686,7 +686,7 @@ window.EXTRA36_GRADE_BANK = [
         "courseType": "國小"
       }
     ],
-    "classificationNotes": "南一官方資源列表頁明示「數學6下｜四則混合運算」、數學及六年級；詳情頁未能由本次查詢直接讀取，故只標官方索引標題層級，不宣稱完整教科書目次或學校採用版本。；段考範圍未經學校確認。"
+    "classificationNotes": "南一官方資源索引標題明示數學6下「四則混合運算」；只作官方索引標題層級對照，詳情頁未核對。"
   },
   {
     "id": "b36-021",
@@ -743,7 +743,7 @@ window.EXTRA36_GRADE_BANK = [
         "courseType": "國小"
       }
     ],
-    "classificationNotes": "南一官方詳情頁明示「數學6下｜怎樣解題：雞兔問題」、國小數學數位教學應用及國小數學6年級標籤；僅作官方資源標題層級對照，不宣稱完整教科書目次或學校採用版本。；段考範圍未經學校確認。"
+    "classificationNotes": "南一官方索引標題顯示數學6下雞兔問題；詳情頁未能讀取，僅保留官方資源標題層級。"
   },
   {
     "id": "b36-022",
@@ -769,13 +769,13 @@ window.EXTRA36_GRADE_BANK = [
     "sourceRef": "依108課綱共同核心概念原創編寫；非出版社或歷屆試題原文。",
     "reviewStatus": "rule-checked",
     "learningContent": "連續百分率變化",
-    "semester": "unassigned",
-    "examPeriod": "unassigned",
-    "classificationBasis": "curriculum-core",
-    "confidence": "low",
+    "semester": "上學期",
+    "examPeriod": "第二次段考",
+    "classificationBasis": "question-bank-inference",
+    "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社細分單元或學校段考範圍的證據，故不掛出版社標籤並保留未分類。"
+    "classificationNotes": "依六年級題庫常見百分率單元群推定；非學校正式段考範圍。"
   },
   {
     "id": "b36-023",
@@ -833,13 +833,13 @@ window.EXTRA36_GRADE_BANK = [
     "sourceRef": "依108課綱共同核心概念原創編寫；非出版社或歷屆試題原文。",
     "reviewStatus": "rule-checked",
     "learningContent": "平均數與新增資料",
-    "semester": "unassigned",
-    "examPeriod": "unassigned",
-    "classificationBasis": "curriculum-core",
-    "confidence": "low",
+    "semester": "下學期",
+    "examPeriod": "第三次段考",
+    "classificationBasis": "question-bank-inference",
+    "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社細分單元或學校段考範圍的證據，故不掛出版社標籤並保留未分類。"
+    "classificationNotes": "依六年級題庫常見統計與機率單元群推定；非學校正式段考範圍。"
   },
   {
     "id": "b36-025",
@@ -871,7 +871,7 @@ window.EXTRA36_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "classificationNotes": "依六年級題庫常見比例尺單元群推定；非學校正式段考範圍。"
+    "classificationNotes": "依六年級題庫常見比例尺與速率單元群推定；非學校正式段考範圍。"
   },
   {
     "id": "b36-026",
@@ -903,7 +903,7 @@ window.EXTRA36_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "classificationNotes": "依六年級題庫常見速率單元群推定；非學校正式段考範圍。"
+    "classificationNotes": "依六年級題庫常見比例尺與速率單元群推定；非學校正式段考範圍。"
   },
   {
     "id": "b36-027",
@@ -999,7 +999,7 @@ window.EXTRA36_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "classificationNotes": "依六年級題庫常見體積單元群推定；非學校正式段考範圍。"
+    "classificationNotes": "依六年級題庫常見立體形體單元群推定；非學校正式段考範圍。"
   },
   {
     "id": "b36-030",
@@ -1063,7 +1063,7 @@ window.EXTRA36_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "classificationNotes": "依六年級題庫常見統計單元群推定；非學校正式段考範圍。"
+    "classificationNotes": "依六年級題庫常見統計與機率單元群推定；非學校正式段考範圍。"
   },
   {
     "id": "b36-032",
@@ -1095,7 +1095,7 @@ window.EXTRA36_GRADE_BANK = [
     "confidence": "medium",
     "publisherStatus": "curriculum-core",
     "publisherMappings": [],
-    "classificationNotes": "依六年級題庫常見比與比例單元群推定；非學校正式段考範圍。"
+    "classificationNotes": "依六年級題庫常見單元群推定上學期前段；非學校正式段考範圍。"
   },
   {
     "id": "b36-033",
@@ -1698,7 +1698,7 @@ window.EXTRA36_GRADE_BANK = [
         "courseType": "國小"
       }
     ],
-    "classificationNotes": "康軒官方社會六上2-1教學資源明示個人發展與社會變遷單元；不代表學校採用版本。"
+    "classificationNotes": "康軒官方六上2-1教學資源明示個人發展與社會變遷單元；不代表學校採用版本。"
   },
   {
     "id": "b36-051",
@@ -1761,10 +1761,10 @@ window.EXTRA36_GRADE_BANK = [
         "subject": "數學",
         "courseTrack": "數學A",
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁確認數學A軌別，學校採用版本未確認"
+        "courseType": "未確認"
       }
     ],
-    "classificationNotes": "題目明確標記數學A；翰林數學3A官方目次列有三角函數。段考次序依單元順序推定。",
+    "classificationNotes": "已確認題目課程軌別為數學A；依翰林數學3A官方單元次序推定段考，非學校正式範圍。",
     "courseTrack": "數學A"
   },
   {
@@ -1828,10 +1828,10 @@ window.EXTRA36_GRADE_BANK = [
         "subject": "數學",
         "courseTrack": "數學A",
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁確認數學A軌別，學校採用版本未確認"
+        "courseType": "未確認"
       }
     ],
-    "classificationNotes": "題目明確標記數學A；翰林數學3A官方目次列有三角函數。段考次序依單元順序推定。",
+    "classificationNotes": "已確認題目課程軌別為數學A；依翰林數學3A官方單元次序推定段考，非學校正式範圍。",
     "courseTrack": "數學A"
   },
   {
@@ -1890,10 +1890,10 @@ window.EXTRA36_GRADE_BANK = [
         "subject": "數學",
         "courseTrack": "數學A",
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁確認數學A軌別，學校採用版本未確認"
+        "courseType": "未確認"
       }
     ],
-    "classificationNotes": "題目明確標記數學A；翰林數學3A官方目次列有指數與對數函數。段考次序依單元順序推定。",
+    "classificationNotes": "已確認題目課程軌別為數學A；依翰林數學3A官方單元次序推定段考，非學校正式範圍。",
     "courseTrack": "數學A"
   },
   {
@@ -1952,10 +1952,10 @@ window.EXTRA36_GRADE_BANK = [
         "subject": "數學",
         "courseTrack": "數學A",
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁確認數學A軌別，學校採用版本未確認"
+        "courseType": "未確認"
       }
     ],
-    "classificationNotes": "題目明確標記數學A；翰林數學3A官方目次列有指數與對數函數。段考次序依單元順序推定。",
+    "classificationNotes": "已確認題目課程軌別為數學A；依翰林數學3A官方單元次序推定段考，非學校正式範圍。",
     "courseTrack": "數學A"
   },
   {
@@ -2014,10 +2014,10 @@ window.EXTRA36_GRADE_BANK = [
         "subject": "數學",
         "courseTrack": "數學A",
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁確認數學A軌別，學校採用版本未確認"
+        "courseType": "未確認"
       }
     ],
-    "classificationNotes": "題目明確標記數學A；翰林數學3A官方目次列有平面向量與內積。段考次序依單元順序推定。",
+    "classificationNotes": "已確認題目課程軌別為數學A；依翰林數學3A官方單元次序推定段考，非學校正式範圍。",
     "courseTrack": "數學A"
   },
   {
@@ -2076,10 +2076,10 @@ window.EXTRA36_GRADE_BANK = [
         "subject": "數學",
         "courseTrack": "數學A",
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁確認數學A軌別，學校採用版本未確認"
+        "courseType": "未確認"
       }
     ],
-    "classificationNotes": "題目明確標記數學A；翰林數學3A官方目次列有平面向量與內積。段考次序依單元順序推定。",
+    "classificationNotes": "已確認題目課程軌別為數學A；依翰林數學3A官方單元次序推定段考，非學校正式範圍。",
     "courseTrack": "數學A"
   },
   {
@@ -2345,10 +2345,10 @@ window.EXTRA36_GRADE_BANK = [
         "subject": "物理",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
+        "courseType": "未確認"
       }
     ],
-    "classificationNotes": "翰林官方課本頁確認高二上選修物理(II)「力學二與熱學」；僅冊別層級，不宣稱細分單元或學校採用版本。"
+    "classificationNotes": "翰林官方頁確認高二上選修物理(II)冊名「力學二與熱學」；只作冊別層級對照，未核對細分單元或段考。"
   },
   {
     "id": "b36-064",
@@ -2421,10 +2421,10 @@ window.EXTRA36_GRADE_BANK = [
         "subject": "物理",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
+        "courseType": "未確認"
       }
     ],
-    "classificationNotes": "翰林官方課本頁確認高二上選修物理(II)「力學二與熱學」；僅冊別層級，不宣稱細分單元或學校採用版本。"
+    "classificationNotes": "翰林官方頁確認高二上選修物理(II)冊名「力學二與熱學」；只作冊別層級對照，未核對細分單元或段考。"
   },
   {
     "id": "b36-065",
@@ -2447,16 +2447,60 @@ window.EXTRA36_GRADE_BANK = [
     "e": "衝量J＝FΔt＝10×0.2＝2 N·s；Δv＝J/m＝2/0.5＝4 m/s。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
-    "sourceRef": "依108課綱共同核心概念原創編寫；非出版社或歷屆試題原文。",
+    "sourceRef": "https://books.hanlin.com.tw/product/004022",
     "reviewStatus": "rule-checked",
     "learningContent": "衝量與動量變化",
-    "semester": "unassigned",
+    "semester": "上學期",
     "examPeriod": "unassigned",
-    "classificationBasis": "curriculum-core",
-    "confidence": "low",
-    "publisherStatus": "curriculum-core",
-    "publisherMappings": [],
-    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社細分單元或學校段考範圍的證據，故不掛出版社標籤並保留未分類。"
+    "classificationBasis": "publisher-source-verified",
+    "confidence": "medium",
+    "publisherStatus": "publisher-mapped",
+    "publisherMappings": [
+      {
+        "publisher": "hanlin",
+        "mappingId": "hanlin-h2-physics-ii",
+        "sourceUrl": "https://books.hanlin.com.tw/product/004022",
+        "sourceTitle": "翰林書城－高中課本選修物理(II)力學二與熱學",
+        "verifiedAt": "2026-11-13",
+        "verificationStatus": "source-checked",
+        "notes": "官方頁明示高中二年級、上學期及課本名稱；僅作冊別／主題層級對照。",
+        "mappingLevel": "volume",
+        "volume": "選修物理(II) 力學二與熱學",
+        "unitCode": "全冊",
+        "unitName": "力學二與熱學",
+        "unitAliases": [],
+        "scopeKeywords": [
+          "動量",
+          "衝量",
+          "碰撞",
+          "功",
+          "位能",
+          "動能",
+          "力矩",
+          "角動量",
+          "熱",
+          "比熱",
+          "熱膨脹",
+          "熱傳導",
+          "熱力學",
+          "熱機",
+          "氣體",
+          "彈簧",
+          "圓周",
+          "向心",
+          "波以耳",
+          "線膨脹",
+          "機械能"
+        ],
+        "semester": "上學期",
+        "grade": "高二",
+        "subject": "物理",
+        "courseTrack": null,
+        "schoolYear": "未標示",
+        "courseType": "未確認"
+      }
+    ],
+    "classificationNotes": "翰林官方頁確認高二上選修物理(II)冊名「力學二與熱學」；只作冊別層級對照，未核對細分單元或段考。"
   },
   {
     "id": "b36-066",
@@ -2607,16 +2651,60 @@ window.EXTRA36_GRADE_BANK = [
     "e": "重力位能變化量大小＝mgh＝50×9.8×5＝2,450焦耳。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
-    "sourceRef": "依108課綱共同核心概念原創編寫；非出版社或歷屆試題原文。",
+    "sourceRef": "https://books.hanlin.com.tw/product/004022",
     "reviewStatus": "rule-checked",
     "learningContent": "重力位能轉換",
-    "semester": "unassigned",
+    "semester": "上學期",
     "examPeriod": "unassigned",
-    "classificationBasis": "curriculum-core",
-    "confidence": "low",
-    "publisherStatus": "curriculum-core",
-    "publisherMappings": [],
-    "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社細分單元或學校段考範圍的證據，故不掛出版社標籤並保留未分類。"
+    "classificationBasis": "publisher-source-verified",
+    "confidence": "medium",
+    "publisherStatus": "publisher-mapped",
+    "publisherMappings": [
+      {
+        "publisher": "hanlin",
+        "mappingId": "hanlin-h2-physics-ii",
+        "sourceUrl": "https://books.hanlin.com.tw/product/004022",
+        "sourceTitle": "翰林書城－高中課本選修物理(II)力學二與熱學",
+        "verifiedAt": "2026-11-13",
+        "verificationStatus": "source-checked",
+        "notes": "官方頁明示高中二年級、上學期及課本名稱；僅作冊別／主題層級對照。",
+        "mappingLevel": "volume",
+        "volume": "選修物理(II) 力學二與熱學",
+        "unitCode": "全冊",
+        "unitName": "力學二與熱學",
+        "unitAliases": [],
+        "scopeKeywords": [
+          "動量",
+          "衝量",
+          "碰撞",
+          "功",
+          "位能",
+          "動能",
+          "力矩",
+          "角動量",
+          "熱",
+          "比熱",
+          "熱膨脹",
+          "熱傳導",
+          "熱力學",
+          "熱機",
+          "氣體",
+          "彈簧",
+          "圓周",
+          "向心",
+          "波以耳",
+          "線膨脹",
+          "機械能"
+        ],
+        "semester": "上學期",
+        "grade": "高二",
+        "subject": "物理",
+        "courseTrack": null,
+        "schoolYear": "未標示",
+        "courseType": "未確認"
+      }
+    ],
+    "classificationNotes": "翰林官方頁確認高二上選修物理(II)冊名「力學二與熱學」；只作冊別層級對照，未核對細分單元或段考。"
   },
   {
     "id": "b36-071",
@@ -2655,7 +2743,7 @@ window.EXTRA36_GRADE_BANK = [
         "sourceTitle": "翰林書城－高中課本選修化學(II)物質構造與反應速率",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "翰林官方課本頁明示高中2年級、上學期及冊名「選修化學(II)物質構造與反應速率」；僅冊別層級，不宣稱細分單元已核對。不同商品編號的實驗手冊或習作可能有不同學期，不能與此課本頁混用。此映射不代表學校採用版本。",
+        "notes": "官方翰林課本頁明示高中2年級、上學期及冊名「選修化學(II)物質構造與反應速率」；僅冊別層級，不宣稱細分單元已核對。不同商品編號的實驗手冊或習作可能有不同學期，不能與此課本頁混用。此映射不代表學校採用版本。",
         "mappingLevel": "volume",
         "volume": "選修化學(II)物質構造與反應速率",
         "unitCode": "全冊",
@@ -2675,10 +2763,10 @@ window.EXTRA36_GRADE_BANK = [
         "subject": "化學",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
+        "courseType": "未確認"
       }
     ],
-    "classificationNotes": "翰林官方頁確認高二上選修化學(II)冊名含「物質構造與反應速率」；僅冊名／主題層級。"
+    "classificationNotes": "翰林官方頁確認高二上選修化學(II)冊名「物質構造與反應速率」；只作冊別／主題層級對照。"
   },
   {
     "id": "b36-072",
@@ -2717,7 +2805,7 @@ window.EXTRA36_GRADE_BANK = [
         "sourceTitle": "翰林書城－高中課本選修化學(II)物質構造與反應速率",
         "verifiedAt": "2026-11-13",
         "verificationStatus": "source-checked",
-        "notes": "翰林官方課本頁明示高中2年級、上學期及冊名「選修化學(II)物質構造與反應速率」；僅冊別層級，不宣稱細分單元已核對。不同商品編號的實驗手冊或習作可能有不同學期，不能與此課本頁混用。此映射不代表學校採用版本。",
+        "notes": "官方翰林課本頁明示高中2年級、上學期及冊名「選修化學(II)物質構造與反應速率」；僅冊別層級，不宣稱細分單元已核對。不同商品編號的實驗手冊或習作可能有不同學期，不能與此課本頁混用。此映射不代表學校採用版本。",
         "mappingLevel": "volume",
         "volume": "選修化學(II)物質構造與反應速率",
         "unitCode": "全冊",
@@ -2737,10 +2825,10 @@ window.EXTRA36_GRADE_BANK = [
         "subject": "化學",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
+        "courseType": "未確認"
       }
     ],
-    "classificationNotes": "翰林官方頁確認高二上選修化學(II)冊名含「物質構造與反應速率」；僅冊名／主題層級。"
+    "classificationNotes": "翰林官方頁確認高二上選修化學(II)冊名「物質構造與反應速率」；只作冊別／主題層級對照。"
   },
   {
     "id": "b36-073",
@@ -2797,10 +2885,10 @@ window.EXTRA36_GRADE_BANK = [
         "subject": "化學",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
+        "courseType": "未確認"
       }
     ],
-    "classificationNotes": "翰林選修化學(III)官方目次明示化學平衡單元，教材頁標示高二、高三全學年。"
+    "classificationNotes": "翰林官方化學(III)目次明示化學平衡單元；教材標示高二、高三全學年。"
   },
   {
     "id": "b36-074",
@@ -2857,10 +2945,10 @@ window.EXTRA36_GRADE_BANK = [
         "subject": "化學",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
+        "courseType": "未確認"
       }
     ],
-    "classificationNotes": "翰林選修化學(III)官方目次明示沉澱反應與溶解平衡單元，教材頁標示高二、高三全學年。"
+    "classificationNotes": "翰林官方化學(III)目次明示沉澱反應與溶解平衡單元；教材標示高二、高三全學年。"
   },
   {
     "id": "b36-075",
@@ -2917,10 +3005,10 @@ window.EXTRA36_GRADE_BANK = [
         "subject": "化學",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
+        "courseType": "未確認"
       }
     ],
-    "classificationNotes": "翰林選修化學(III)官方目次明示酸鹼反應與酸鹼滴定實驗，教材頁標示高二、高三全學年。"
+    "classificationNotes": "翰林官方化學(III)目次明示酸鹼反應單元；教材標示高二、高三全學年。"
   },
   {
     "id": "b36-076",
@@ -3040,7 +3128,7 @@ window.EXTRA36_GRADE_BANK = [
         "subject": "化學",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
+        "courseType": "未確認"
       }
     ],
     "classificationNotes": "翰林官方頁確認高二選修化學(I)冊名「物質與能量」；僅冊別層級，未宣稱細分單元。"
@@ -3102,10 +3190,10 @@ window.EXTRA36_GRADE_BANK = [
         "subject": "生物",
         "courseTrack": null,
         "schoolYear": "未標示",
-        "courseType": "未確認；官方頁僅標高中年級、科目及冊別／單元"
+        "courseType": "未確認"
       }
     ],
-    "classificationNotes": "翰林官方課本頁確認高二上選修生物(II)「生命的起源與植物」；僅冊別層級，不宣稱細分目次。"
+    "classificationNotes": "翰林官方課本頁確認高二上選修生物(II)「生命的起源與植物」；只作冊別層級對照，不宣稱細分目次。"
   },
   {
     "id": "b36-080",
