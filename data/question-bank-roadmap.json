@@ -654,7 +654,7 @@
   "pullRequest": 6,
   "mainVerifiedAt": "2026-11-14",
   "pagesDeployment": "workflow-run-success:43467223025",
-  "runtimeClassificationAuditStatus": "v18-static-classification-index-batches08-10-and31; browser-runtime-pending",
+  "runtimeClassificationAuditStatus": "v23-static-classification-index-batches08-14-and28-41; browser-runtime-pending",
   "mappingVerificationStatusCountsBatches30to40": {
     "source-checked": 254,
     "official-index-link-only": 8
@@ -727,6 +727,84 @@
   },
   "classificationPersistence": {
     "latestRun": {
+      "date": "2026-11-14",
+      "sourceHeadBeforeRun": "6800905f76d79383d415a341e7be0de8451c898f",
+      "batches": "14",
+      "auditedQuestionCount": 17,
+      "classificationIndexEntriesBeforeRun": 290,
+      "addedToClassificationIndex": 17,
+      "classificationIndexTotal": 307,
+      "persistedExtendedMetadataCount": 507,
+      "remainingExtendedMetadataCount": 2393,
+      "file": "data/question-classification.json",
+      "fields": [
+        "semester",
+        "examPeriod",
+        "classificationBasis",
+        "confidence",
+        "publisherStatus",
+        "publisherMappings",
+        "classificationNotes",
+        "sourceRef",
+        "learningDomain",
+        "questionType",
+        "learningUnit",
+        "difficultyLevel"
+      ],
+      "semesterDistribution": {
+        "上學期": 1,
+        "unassigned": 16
+      },
+      "examPeriodDistribution": {
+        "第一次段考": 1,
+        "unassigned": 16
+      },
+      "classificationBasisDistribution": {
+        "curriculum-core": 16,
+        "question-bank-inference": 1
+      },
+      "publisherStatusDistribution": {
+        "curriculum-core": 17
+      },
+      "publisherMappedQuestionCount": 0,
+      "publisherMappingReferences": 0,
+      "pendingQuestionCount": 0,
+      "newQuestionsAdded": 0,
+      "validation": {
+        "jsonParse": true,
+        "idsMatchBatch14": true,
+        "noExistingEntriesOverwritten": true,
+        "requiredFieldsComplete": true,
+        "sourceRefsComplete": true,
+        "legalClassificationValues": true,
+        "fourOptions": true,
+        "answerIndices0to3": true,
+        "explanationsPresent": true,
+        "sourceMappingsValidated": "335/335",
+        "mappingConsistencyErrors": 0,
+        "indexReadsClassificationFile": true,
+        "classifierUsesSavedIndex": true,
+        "staticFilterValidation": {
+          "combinations": 128304,
+          "violations": 0,
+          "zeroResults": 126652,
+          "all17Reachable": true,
+          "results": {
+            "all": 17,
+            "core": 17,
+            "pending": 0,
+            "hanlin": 0,
+            "knsh": 0,
+            "nani": 0
+          }
+        },
+        "browserTested": false,
+        "serviceWorkerCache": "xy-learning-v85",
+        "officialSourcePagesReopened": 1
+      },
+      "notes": "b14-005保留題庫知識點推定的上學期／第一次段考複習建議；其餘16題學期與段考未分類。17題均無足夠出版社目次或學校採用證據，不新增出版社映射。"
+    },
+    "previousRun": {
       "date": "2026-11-14",
       "sourceHeadBeforeRun": "0d03256407a8f63519dd3515a894e23c4c36aca7",
       "batches": "13",
@@ -812,82 +890,6 @@
         "cacheVersionBumped": true
       },
       "notes": "第13批30題完成分類持久化；僅b13-025有翰林官方冊別層級映射，未宣稱單元目次已核對。未新增題目。"
-    },
-    "previousRun": {
-      "date": "2026-11-13",
-      "sourceHeadBeforeRun": "69170954ce54831ac270ac5230699106c10934f9",
-      "writeHead": "48bc575d83c2f2d6dbe67187bc4f988a927f2d7f",
-      "auditedBatches": "09",
-      "auditedQuestionCount": 25,
-      "classificationIndexEntriesBeforeRun": 137,
-      "persistedExtendedMetadataCount": 162,
-      "classificationIndexTotal": 162,
-      "remainingExtendedMetadataCount": 2538,
-      "file": "data/question-classification.json",
-      "fields": [
-        "semester",
-        "examPeriod",
-        "classificationBasis",
-        "confidence",
-        "publisherStatus",
-        "publisherMappings",
-        "classificationNotes",
-        "sourceRef",
-        "learningDomain",
-        "questionType",
-        "learningUnit",
-        "difficultyLevel"
-      ],
-      "semesterDistribution": {
-        "unassigned": 24,
-        "下學期": 1
-      },
-      "examPeriodDistribution": {
-        "unassigned": 24,
-        "第一次段考": 1
-      },
-      "classificationBasisDistribution": {
-        "curriculum-core": 24,
-        "question-bank-inference": 1
-      },
-      "publisherStatusDistribution": {
-        "curriculum-core": 24,
-        "pending": 1
-      },
-      "publisherMappedQuestionCount": 0,
-      "publisherMappingReferences": 0,
-      "pendingQuestionCount": 1,
-      "mappingReferencesValidated": 0,
-      "mappingConsistencyErrors": 0,
-      "extendedMetadataComplete": 25,
-      "newQuestionsAdded": 0,
-      "validation": {
-        "jsonParse": true,
-        "idsMatchBatch09": true,
-        "requiredFieldsComplete": true,
-        "sourceRefsComplete": true,
-        "legalClassificationValues": true,
-        "mappingReferences": 0,
-        "mappingConsistencyErrors": 0,
-        "fourOptions": true,
-        "answerIndices0to3": true,
-        "explanationsPresent": true,
-        "staticFilterValidation": {
-          "combinations": 32400,
-          "violations": 0,
-          "all25Reachable": true,
-          "publisherCoreCount": 24,
-          "publisherPendingCount": 1,
-          "hanlinPublisherResults": 0,
-          "browserTested": false
-        },
-        "classificationIndexAsset": true,
-        "batch09Asset": true,
-        "inferenceScopeFix": true,
-        "serviceWorkerCache": "xy-learning-v79",
-        "cacheVersionBumped": true
-      },
-      "notes": "第9批25題新增持久化擴充分類。b9-016原翰林選修物理(II)映射因官方頁只確認高二上「力學二與熱學」冊別，未支持電路與電功率單元，已撤除映射及上學期標籤，改為pending並將semester/examPeriod設為unassigned。其他未有足夠依據的學期／段考維持unassigned。未新增題目。"
     },
     "currentIndexReconciliation": {
       "verifiedAt": "2026-11-14",
@@ -1147,8 +1149,16 @@
   "latestMainClassificationAudit": {
     "auditedAt": "2026-11-14",
     "branch": "main",
-    "sourceHeadBeforeRun": "3505de0e68af43d38c510c0e89b454c55bbbb954",
-    "batches": "08-41",
+    "sourceHeadBeforeRun": "6800905f76d79383d415a341e7be0de8451c898f",
+    "batchRange": "08-41",
+    "batchFileCount": 34,
+    "batchQuestionCounts": {
+      "22": 101,
+      "08-14": 199,
+      "15-21": 700,
+      "23-29": 700,
+      "30-41": 1200
+    },
     "questionCount": 2900,
     "uniqueQuestionIds": 2900,
     "duplicateQuestionIds": 0,
@@ -1158,25 +1168,6 @@
       "高一": 373,
       "高二": 974,
       "高三": 373
-    },
-    "subjectDistribution": {
-      "國語": 218,
-      "數學": 634,
-      "自然": 243,
-      "社會": 226,
-      "英語": 193,
-      "國文": 104,
-      "英文": 128,
-      "歷史": 136,
-      "地理": 155,
-      "公民": 164,
-      "物理": 218,
-      "化學": 212,
-      "生物": 180,
-      "地球科學": 80,
-      "資訊": 1,
-      "經濟": 6,
-      "資訊素養": 2
     },
     "unitLabelCoverage": {
       "questionsWithUnitOrTopic": 2900,
@@ -1197,16 +1188,15 @@
       ]
     },
     "classificationBasisDistribution": {
-      "publisher-source-verified": 255,
+      "publisher-source-verified": 256,
       "question-bank-inference": 218,
-      "curriculum-core": 2427,
-      "unassigned": 0
+      "curriculum-core": 2426
     },
     "semesterDistribution": {
-      "上學期": 297,
+      "上學期": 298,
       "下學期": 102,
       "全學年": 74,
-      "unassigned": 2427
+      "unassigned": 2426
     },
     "examPeriodDistribution": {
       "第一次段考": 58,
@@ -1215,39 +1205,54 @@
       "unassigned": 2682
     },
     "publisherStatusDistribution": {
-      "publisher-mapped": 334,
-      "curriculum-core": 2560,
+      "publisher-mapped": 335,
+      "curriculum-core": 2559,
       "pending": 6
     },
-    "publisherMappedQuestionCount": 334,
-    "publisherMappingReferenceCount": 334,
+    "publisherMappedQuestionCount": 335,
+    "publisherMappingReferenceCount": 335,
     "centralMappingRegistryCount": 16,
-    "mappingValidationThisRun": {
-      "batches": "08-41",
-      "questions": 2900,
-      "mappingReferences": 334,
-      "registryReferencesFound": 334,
-      "sourceFieldErrors": 0,
-      "gradeSubjectSemesterErrors": 0,
-      "unitOrVolumeScopeErrors": 0,
-      "excludedScopeMappingsRemoved": 5,
-      "officialSourcePagesReopened": 1,
-      "limitation": "本次重新開啟翰林官方商品頁1筆；其餘映射以中央登錄及題目欄位做內部一致性檢查，並非重新逐一開啟全部334個官方網址。"
+    "publisherReferenceCounts": {
+      "hanlin": 291,
+      "knsh": 9,
+      "nani": 35
+    },
+    "confidenceDistribution": {
+      "low": 2243,
+      "medium": 555,
+      "high": 102
     },
     "pendingQuestionCount": 6,
+    "mappingValidationThisRun": {
+      "mappingReferences": 335,
+      "registryReferencesFound": 335,
+      "sourceFieldErrors": 0,
+      "gradeSubjectSemesterTrackErrors": 0,
+      "unitOrVolumeScopeErrors": 0,
+      "scopeCorrections": [
+        "向光性",
+        "花粉管",
+        "雙重受精",
+        "植物激素",
+        "乙烯",
+        "果實成熟"
+      ],
+      "officialSourcePagesReopened": 1,
+      "limitation": "僅重新開啟翰林生物(II)官方商品頁；其餘映射以中央登錄及題目欄位做內部一致性檢查，非逐一重新開啟全部官方網址。"
+    },
     "extendedMetadata": {
-      "complete": 426,
-      "remaining": 2474,
-      "separateClassificationIndex": 226,
+      "complete": 507,
+      "remaining": 2393,
+      "separateClassificationIndex": 307,
       "embeddedInBatches40to41": 200,
-      "learningDomain": 426,
-      "questionType": 726,
-      "learningUnit": 426,
-      "difficultyLevel": 426
+      "overlap": 0,
+      "learningDomain": 507,
+      "questionType": 807,
+      "learningUnit": 507,
+      "difficultyLevel": 507
     },
     "newQuestionsAdded": 0,
-    "notes": "第11批30題已補齊learningDomain、questionType、learningUnit、difficultyLevel並寫入獨立分類索引。b11-005依六年級圓周單元群保留下學期／第一次段考複習建議，不代表學校正式範圍。b11-021及跨批次b12-025、b16-059、b23-074、b37-069原翰林選修物理(II)映射均因電路／電功率超出冊別對照範圍而撤除，改列待核對。其餘無足夠出版社來源者不掛出版社；本次新增題目0題。",
-    "sourceHeadAfterRun": "f6d5c10fb3701bf842111297cd9f7dba85622e1c"
+    "notes": "本次重新讀取main第8至41批34個題庫檔。前次報告的擴充欄位與出版社映射統計有重疊／合併計算錯誤，現以批次資料與分類索引逐批合併重算。第14批17題已寫入獨立索引；四項擴充分類完整507題。翰林生物(II)維持冊別層級，不宣稱細分目次已核對。"
   },
   "latestClassificationBackfill": {
     "auditedAt": "2026-11-14",
@@ -1628,23 +1633,29 @@
   },
   "latestClassificationProgress": {
     "auditedAt": "2026-11-14",
-    "sourceHeadBeforeRun": "0d03256407a8f63519dd3515a894e23c4c36aca7",
+    "sourceHeadBeforeRun": "6800905f76d79383d415a341e7be0de8451c898f",
     "batchRange": "08-41",
     "batchFileCount": 34,
     "totalQuestions": 2900,
     "uniqueIds": 2900,
     "duplicateIds": 0,
     "basicClassificationFieldsComplete": 2900,
-    "extendedMetadataComplete": 489,
-    "extendedMetadataRemaining": 2411,
-    "classificationIndexEntries": 290,
+    "extendedMetadataComplete": 507,
+    "extendedMetadataRemaining": 2393,
+    "classificationIndexEntries": 307,
     "embeddedExtendedMetadataBatch40to41": 200,
-    "overlapEntries": 1,
+    "overlapEntries": 0,
+    "extendedFieldCoverage": {
+      "learningDomain": 507,
+      "questionType": 807,
+      "learningUnit": 507,
+      "difficultyLevel": 507
+    },
     "semesterDistribution": {
-      "上學期": 301,
+      "上學期": 298,
       "下學期": 102,
       "全學年": 74,
-      "unassigned": 2423
+      "unassigned": 2426
     },
     "examPeriodDistribution": {
       "第一次段考": 58,
@@ -1653,32 +1664,150 @@
       "unassigned": 2682
     },
     "classificationBasisDistribution": {
-      "publisher-source-verified": 259,
+      "publisher-source-verified": 256,
       "question-bank-inference": 218,
-      "curriculum-core": 2423
+      "curriculum-core": 2426
     },
     "publisherStatusDistribution": {
-      "publisher-mapped": 338,
-      "curriculum-core": 2556,
+      "publisher-mapped": 335,
+      "curriculum-core": 2559,
       "pending": 6
     },
-    "publisherMappedQuestions": 338,
-    "publisherMappingReferences": 339,
+    "publisherMappedQuestions": 335,
+    "publisherMappingReferences": 335,
     "publisherReferenceCounts": {
-      "hanlin": 295,
+      "hanlin": 291,
       "knsh": 9,
       "nani": 35
     },
-    "nextBatchForClassification": 14,
+    "confidenceDistribution": {
+      "low": 2243,
+      "medium": 555,
+      "high": 102
+    },
+    "centralMappingRegistryCount": 16,
+    "pendingQuestions": 6,
+    "mappingValidation": {
+      "mappingReferences": 335,
+      "registryReferencesFound": 335,
+      "sourceFieldErrors": 0,
+      "gradeSubjectSemesterTrackErrors": 0,
+      "unitOrVolumeScopeErrors": 0,
+      "scopeCorrections": [
+        "向光性",
+        "花粉管",
+        "雙重受精",
+        "植物激素",
+        "乙烯",
+        "果實成熟"
+      ],
+      "officialSourcePagesReopened": 1,
+      "limitation": "僅重新開啟翰林生物(II)官方商品頁；其餘映射以中央登錄及題目欄位做內部一致性檢查，非逐一重新開啟全部官方網址。"
+    },
+    "batch14": {
+      "auditedAt": "2026-11-14",
+      "batch": 14,
+      "questionCount": 17,
+      "gradeDistribution": {
+        "五年級": 3,
+        "六年級": 3,
+        "高一": 3,
+        "高二": 3,
+        "高三": 5
+      },
+      "semesterDistribution": {
+        "上學期": 1,
+        "unassigned": 16
+      },
+      "examPeriodDistribution": {
+        "第一次段考": 1,
+        "unassigned": 16
+      },
+      "classificationBasisDistribution": {
+        "curriculum-core": 16,
+        "question-bank-inference": 1
+      },
+      "publisherStatusDistribution": {
+        "curriculum-core": 17
+      },
+      "publisherMappedQuestions": 0,
+      "publisherMappingReferences": 0,
+      "extendedMetadataComplete": 17,
+      "newQuestionsAdded": 0,
+      "validation": {
+        "jsonParse": true,
+        "idsMatchBatch14": true,
+        "noExistingEntriesOverwritten": true,
+        "allRequiredFieldsComplete": true,
+        "sourceRefsComplete": true,
+        "legalClassificationValues": true,
+        "fourUniqueOptions": 17,
+        "answerIndices0to3": 17,
+        "explanationsPresent": 17,
+        "staticFilterCombinations": 128304,
+        "filterViolations": 0,
+        "all17Reachable": true,
+        "browserTested": false
+      },
+      "notes": "b14-005保留題庫知識點推定的上學期／第一次段考複習建議；其餘16題學期與段考未分類。17題均無足夠出版社目次或學校採用證據，不新增出版社映射。"
+    },
+    "nextBatchForClassification": 15,
     "newQuestionsAdded": 0
   },
   "currentIndexReconciliation": {
     "verifiedAt": "2026-11-14",
-    "sourceHeadBeforeRun": "0d03256407a8f63519dd3515a894e23c4c36aca7",
+    "sourceHeadBeforeRun": "6800905f76d79383d415a341e7be0de8451c898f",
     "file": "data/question-classification.json",
-    "entriesBeforeRun": 260,
-    "entriesAddedThisRun": 30,
-    "currentEntries": 290,
-    "note": "新增第13批30題擴充分類；b13-025補入既有翰林選修物理(II)冊別映射引用，未覆蓋任何既有索引條目。"
+    "entriesBeforeRun": 290,
+    "entriesAddedThisRun": 17,
+    "currentEntries": 307,
+    "note": "第14批17題已新增持久擴充分類；既有290筆索引均保留，沒有覆蓋。"
+  },
+  "batch14ClassificationAudit": {
+    "auditedAt": "2026-11-14",
+    "batch": 14,
+    "questionCount": 17,
+    "gradeDistribution": {
+      "五年級": 3,
+      "六年級": 3,
+      "高一": 3,
+      "高二": 3,
+      "高三": 5
+    },
+    "semesterDistribution": {
+      "上學期": 1,
+      "unassigned": 16
+    },
+    "examPeriodDistribution": {
+      "第一次段考": 1,
+      "unassigned": 16
+    },
+    "classificationBasisDistribution": {
+      "curriculum-core": 16,
+      "question-bank-inference": 1
+    },
+    "publisherStatusDistribution": {
+      "curriculum-core": 17
+    },
+    "publisherMappedQuestions": 0,
+    "publisherMappingReferences": 0,
+    "extendedMetadataComplete": 17,
+    "newQuestionsAdded": 0,
+    "validation": {
+      "jsonParse": true,
+      "idsMatchBatch14": true,
+      "noExistingEntriesOverwritten": true,
+      "allRequiredFieldsComplete": true,
+      "sourceRefsComplete": true,
+      "legalClassificationValues": true,
+      "fourUniqueOptions": 17,
+      "answerIndices0to3": 17,
+      "explanationsPresent": 17,
+      "staticFilterCombinations": 128304,
+      "filterViolations": 0,
+      "all17Reachable": true,
+      "browserTested": false
+    },
+    "notes": "b14-005保留題庫知識點推定的上學期／第一次段考複習建議；其餘16題學期與段考未分類。17題均無足夠出版社目次或學校採用證據，不新增出版社映射。"
   }
 }
