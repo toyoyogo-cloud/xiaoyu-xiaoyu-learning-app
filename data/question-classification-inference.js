@@ -5,10 +5,10 @@ const UN="unassigned";
 const core=q=>q&&(q.frameworkId==="curriculum-108"||q.sourceType==="original-curriculum-aligned");
 const label=q=>String(q.unit||q.learningContent||q.t||q.topic||"");
 const UNIT_ALIASES={
- "hanlin-h2-math-3a-u1":["三角函數","三角比","特殊角","三角測量","弧度","正弦","餘弦","正切","週期","象限"],
+ "hanlin-h2-math-3a-u1":["三角函數","三角比","特殊角","三角測量","弧度","正弦","餘弦","正切","週期","象限","三角方程式"],
  "hanlin-h2-math-3a-u2":["指數","對數","log","成長模型","衰變","半衰期"],
  "hanlin-h2-math-3a-u3":["平面向量","向量","內積","投影","行列式","單位向量"],
- "knsh-g6-social-6a-u2-1":["個人發展如何受到社會變遷的影響","社會變遷與性別角色","社會變遷與家庭分工"],
+ "knsh-g6-social-6a-u2-1":["個人發展如何受到社會變遷的影響","社會變遷與性別角色","社會變遷與家庭分工","個人發展與社會變遷"],
  "hanlin-h2-chemistry-iii-u1":["化學平衡","平衡常數","勒沙特列","反應商","平衡移動"],
  "hanlin-h2-chemistry-iii-u2":["沉澱","溶解平衡","溶度積","共同離子","Ksp"],
  "hanlin-h2-chemistry-iii-u3":["酸鹼","pH","滴定","緩衝","鹽類水解"],
@@ -17,7 +17,7 @@ const UNIT_ALIASES={
  "nani-g6-math-6b-chicken-rabbit":["雞兔問題","雞兔同籠"]
 };
 const VOLUME_SCOPES={
- "hanlin-h2-physics-ii":["動量","衝量","碰撞","功","位能","動能","力矩","角動量","熱","比熱","熱膨脹","熱傳導","熱力學","熱機","氣體","彈簧","圓周","向心","波以耳"],
+ "hanlin-h2-physics-ii":["動量","衝量","碰撞","功","位能","動能","力矩","角動量","熱","比熱","熱膨脹","熱傳導","熱力學","熱機","氣體","彈簧","圓周","向心","波以耳","線膨脹"],
  "hanlin-h2-chemistry-ii-structure-rate":["反應速率","催化劑","活化能","反應級數","物質構造","電子組態","價電子"],
  "hanlin-h2-biology-ii-plant":["植物","光合作用","蒸散","氣孔","維管束","木質部","韌皮部"],
  "hanlin-h2-chemistry-i-matter-energy":["焓","反應熱","能量","赫斯定律"],
