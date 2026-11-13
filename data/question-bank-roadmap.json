@@ -256,101 +256,82 @@
     "六年級": 50,
     "高二": 50
   },
-  "lastBatchFile": "data/question-bank-batch-35.js",
+  "lastBatchFile": "data/question-bank-batch-36.js",
   "currentIntegration": {
     "indexHtml": "Main branch audit on 2026-11-13: loads original question-bank batches 08-35; EXTRA35_GRADE_BANK is included in bankFor() stage/grade/subject filtering. Study filters retain grade → semester → exam → subject → unit, plus publisher and visible classification basis/confidence. Academic-competition batches 01-14, classification inference, textbook alignment and existing quiz flows are preserved.",
     "serviceWorkerCache": "xy-learning-v61",
     "serviceWorkerAsset": "question-bank-batch-08.js through batch-35.js; question-classification-inference.js; textbook-alignment.json; academic-competition-batch-01.js through batch-14.js; existing image assets preserved"
   },
-  "currentIndependentBatchQuestions": 2300,
+  "currentIndependentBatchQuestions": 2400,
   "currentIndependentBatchRange": "第8至第35批",
   "currentVerifiedQuestionsNote": "currentVerifiedQuestions為index.html內嵌示範題的歷史盤點欄位，不含獨立批次檔；currentVerifiedNewGradeSpecificQuestions與currentIndependentBatchQuestions統計第8至第35批獨立題庫，不代表教師逐題審核數。",
   "legacyFieldNotes": "currentVerifiedQuestions保留index.html內嵌示範題歷史盤點值；currentVerifiedNewGradeSpecificQuestions與currentIndependentBatchQuestions統計第8至第35批獨立題庫；rule-checked僅代表程式結構與文字規則檢查，並非教師審核。",
   "currentDistribution": {
     "五年級": 290,
-    "六年級": 590,
+    "六年級": 640,
     "高一": 373,
-    "高二": 674,
+    "高二": 724,
     "高三": 373
   },
   "integrationAuditNote": "2026-11-13 main audit: before batch35, main head 3558df946d67269f606cede3c790107beec76d42 loaded batches 08-34 and sw.js was v60 while roadmap batch34 text still said v59. Batch35 integration updates index.html and Service Worker to v61; the official Hanlin Chemistry(II) page was rechecked and the semester corrected to high-school grade 2, second semester in the mapping, runtime classifier and affected existing batch metadata.",
   "lastMainBranchAudit": {
     "date": "2026-11-13",
-    "independentBatchRange": "第8至第34批",
-    "independentBatchQuestions": 2200,
-    "uniqueIds": 2200,
-    "duplicateIds": 0,
-    "exactNormalizedDuplicateStemGroups": [
-      [
-        "b9-006",
-        "b13-013"
-      ],
-      [
-        "b13-020",
-        "b20-065"
-      ]
-    ],
+    "independentBatchRange": "第8至36批",
+    "independentBatchQuestions": 2400,
+    "uniqueIds": 2400,
     "gradeDistribution": {
       "五年級": 290,
-      "六年級": 540,
+      "六年級": 640,
       "高一": 373,
-      "高二": 624,
+      "高二": 724,
       "高三": 373
     },
-    "indexBatchReferences": "08-34",
-    "serviceWorkerCache": "xy-learning-v59",
+    "indexBatchReferences": "08-36",
+    "serviceWorkerCache": "xy-learning-v62",
     "academicCompetitionCacheReferences": "01-14",
-    "classificationScope": {
-      "newBatch": {
-        "六年級": {
-          "total": 50,
-          "questionBankInference": 0,
-          "publisherSourceVerified": 0,
-          "curriculumCore": 50,
-          "publisherMappedQuestions": 0,
-          "unassignedSemester": 50,
-          "examUnassigned": 50
-        },
-        "高二": {
-          "total": 50,
-          "questionBankInference": 12,
-          "publisherSourceVerified": 12,
-          "curriculumCore": 26,
-          "publisherMappedQuestions": 24,
-          "upperSemester": 20,
-          "fullYear": 4,
-          "unassignedSemester": 26,
-          "examAssigned": {
-            "第一次段考": 4,
-            "第二次段考": 4,
-            "第三次段考": 4,
-            "unassigned": 38
-          }
-        },
-        "overall": {
-          "total": 100,
-          "questionBankInference": 12,
-          "publisherSourceVerified": 12,
-          "curriculumCore": 76,
-          "publisherMappedQuestions": 24,
-          "upperSemester": 20,
-          "fullYear": 4,
-          "unassignedSemester": 76,
-          "examAssigned": {
-            "第一次段考": 4,
-            "第二次段考": 4,
-            "第三次段考": 4,
-            "unassigned": 88
-          }
-        }
+    "textbookMappingCount": 16,
+    "newBatch": {
+      "total": 100,
+      "grades": {
+        "六年級": 50,
+        "高二": 50
       },
-      "classifier": "data/question-classification-inference.js",
-      "note": "新批次缺乏可靠段考範圍者維持未分類；出版社映射只代表官方冊別／單元可核對，不代表題目取自教材。題庫推定不是學校正式段考範圍。"
+      "subjects": {
+        "六年級|國語": 10,
+        "六年級|英語": 8,
+        "六年級|數學": 14,
+        "六年級|自然": 9,
+        "六年級|社會": 9,
+        "高二|數學": 12,
+        "高二|物理": 8,
+        "高二|化學": 8,
+        "高二|生物": 6,
+        "高二|地理": 4,
+        "高二|歷史": 3,
+        "高二|公民": 4,
+        "高二|英文": 2,
+        "高二|國文": 3
+      },
+      "publisherMappedQuestions": 19,
+      "publisherSourceVerified": 13,
+      "questionBankInference": 12,
+      "curriculumCore": 75,
+      "unassignedSemester": 75,
+      "examAssigned": {
+        "第一次段考": 4,
+        "第二次段考": 3,
+        "第三次段考": 5,
+        "unassigned": 88
+      }
     },
-    "note": "第34批新增100題，僅國小六年級50題與高中高二50題；第8至34批共2,200題。新增ID b34-001至b34-100唯一；與第8至33批目標年級題幹逐批比對無完全相同正規化題幹。既有歷史重複題保留；本批使用既有13筆教材對照中的映射，不新增未核對版本標籤。",
-    "independentQuestionCount": 2200,
-    "uniqueIdCount": 2200,
-    "latestBaselineCommit": "71f273f8232b1f5462f4313cd32b9f233d0faaa3"
+    "corrections": [
+      "第31至35批未確認數學A/B軌別的數學題移除翰林數學3A映射及依該映射推定的段考分類；第30批明確標記數學A者保留。",
+      "翰林選修化學(II)官方頁明示高二上學期，既有錯誤下學期標記已更正。",
+      "教材映射新增mappingId、mappingLevel、schoolYear、courseType，並保留sourceUrl/sourceTitle/verifiedAt/verificationStatus/notes。"
+    ],
+    "duplicateAuditNote": "已確認歷史題庫至少有3組完全相同正規化題幹（b9-006/b13-013、b10-009/b18-037、b13-020/b20-065）；其餘全庫跨所有批次的語意近似仍需持續審查，未擅自刪改舊題。",
+    "classifier": "data/question-classification-inference.js",
+    "note": "第36批新增100題；只新增小六與高二。出版社映射僅在來源支持年級、科目、學期／冊別及單元或冊別層級時套用；數學A/B軌別未確認者不掛3A。"
   },
   "gradeDistribution": {
     "五年級": 290,
@@ -358,5 +339,51 @@
     "高一": 373,
     "高二": 674,
     "高三": 373
-  }
+  },
+  "independentQuestionCount": 2400,
+  "uniqueIdCount": 2400,
+  "lastBatchAudit": {
+    "batch": 36,
+    "total": 100,
+    "ids": [
+      "b36-001",
+      "b36-100"
+    ],
+    "gradeDistribution": {
+      "六年級": 50,
+      "高二": 50
+    },
+    "subjectDistribution": {
+      "六年級|國語": 10,
+      "六年級|英語": 8,
+      "六年級|數學": 14,
+      "六年級|自然": 9,
+      "六年級|社會": 9,
+      "高二|數學": 12,
+      "高二|物理": 8,
+      "高二|化學": 8,
+      "高二|生物": 6,
+      "高二|地理": 4,
+      "高二|歷史": 3,
+      "高二|公民": 4,
+      "高二|英文": 2,
+      "高二|國文": 3
+    },
+    "publisherMappedQuestions": 19,
+    "classificationBasis": {
+      "publisherSourceVerified": 13,
+      "questionBankInference": 12,
+      "curriculumCore": 75
+    },
+    "validation": {
+      "fourOptions": true,
+      "answerIndexRange": "0-3",
+      "explanationsPresent": true,
+      "classificationFieldsComplete": true,
+      "mappingMetadataComplete": true,
+      "idsUnique": true
+    }
+  },
+  "textbookMappingCount": 16,
+  "lastBatchNote": "第36批100題（小六50、高二50）；新增南一數學6下三項官方資源映射，並依官方來源校正既有Math A/B與化學II學期標記。"
 }
