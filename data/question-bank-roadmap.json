@@ -729,7 +729,7 @@
     "latestRun": {
       "date": "2026-11-14",
       "sourceHeadBeforeRun": "7cc979331423d38f5fb744c8674a97c3921e0021",
-      "sourceHeadAfterRun": "9172d46f253a86ea864772008c5b1eaf2f231deb",
+      "sourceHeadAfterRun": "7f2105f6838fe1046750419d654a394cffd1f54c",
       "batches": "08-41",
       "auditedQuestionCount": 2900,
       "classificationIndexEntriesBeforeRun": 2900,
@@ -797,7 +797,30 @@
         "indexReadsClassificationFile": true,
         "classifierUsesSavedIndex": true,
         "serviceWorkerCache": "xy-learning-v92",
-        "browserTested": false
+        "browserTested": false,
+        "staticFilterReachability": {
+          "auditedAt": "2026-11-14",
+          "batches": "08-41",
+          "questionsChecked": 2900,
+          "perQuestionIndexReachability": {
+            "reachable": 2900,
+            "unreachable": 0
+          },
+          "classificationValueAndMetadataErrors": 0,
+          "publisherStatusMappingConsistencyErrors": 0,
+          "publisherMappingScopeErrors": 0,
+          "publisherCategoryReachability": {
+            "curriculumCore": 2660,
+            "pending": 117,
+            "hanlin": 79,
+            "knsh": 9,
+            "nani": 35
+          },
+          "courseTrackAnomalies": 0,
+          "staticPerQuestionCheck": true,
+          "exhaustiveCartesianCombinationTest": false,
+          "browserTested": false
+        }
       },
       "notes": "全庫分類索引2,900筆均保留；撤除211筆未明示相同選修courseType的出版社映射，並撤回其唯一來源為該映射的學期分類。未新增題目，未改動題幹、選項、答案或解析。"
     },
@@ -1186,7 +1209,7 @@
     "auditedAt": "2026-11-14",
     "branch": "main",
     "sourceHeadBeforeRun": "7cc979331423d38f5fb744c8674a97c3921e0021",
-    "sourceHeadAfterRun": "9172d46f253a86ea864772008c5b1eaf2f231deb",
+    "sourceHeadAfterRun": "7f2105f6838fe1046750419d654a394cffd1f54c",
     "batchRange": "08-41",
     "batchFileCount": 34,
     "batchQuestionCounts": {
@@ -1296,7 +1319,30 @@
     "newQuestionsAdded": 0,
     "serviceWorkerCache": "xy-learning-v92",
     "browserTested": false,
-    "notes": "2,900題均有持久分類索引；211筆未明示相同選修courseType的高二物理／化學／生物映射已撤除，並清除僅由該映射帶入的學期分類。剩餘123筆出版社映射通過內部範圍驗證。"
+    "notes": "2,900題均有持久分類索引；211筆未明示相同選修courseType的高二物理／化學／生物映射已撤除，並清除僅由該映射帶入的學期分類。剩餘123筆出版社映射通過內部範圍驗證。",
+    "staticFilterReachability": {
+      "auditedAt": "2026-11-14",
+      "batches": "08-41",
+      "questionsChecked": 2900,
+      "perQuestionIndexReachability": {
+        "reachable": 2900,
+        "unreachable": 0
+      },
+      "classificationValueAndMetadataErrors": 0,
+      "publisherStatusMappingConsistencyErrors": 0,
+      "publisherMappingScopeErrors": 0,
+      "publisherCategoryReachability": {
+        "curriculumCore": 2660,
+        "pending": 117,
+        "hanlin": 79,
+        "knsh": 9,
+        "nani": 35
+      },
+      "courseTrackAnomalies": 0,
+      "staticPerQuestionCheck": true,
+      "exhaustiveCartesianCombinationTest": false,
+      "browserTested": false
+    }
   },
   "latestClassificationBackfill": {
     "auditedAt": "2026-11-14",
@@ -1688,7 +1734,7 @@
   "latestClassificationProgress": {
     "auditedAt": "2026-11-14",
     "sourceHeadBeforeRun": "7cc979331423d38f5fb744c8674a97c3921e0021",
-    "sourceHeadAfterRun": "9172d46f253a86ea864772008c5b1eaf2f231deb",
+    "sourceHeadAfterRun": "7f2105f6838fe1046750419d654a394cffd1f54c",
     "batchRange": "08-41",
     "batchFileCount": 34,
     "totalQuestions": 2900,
@@ -1762,7 +1808,30 @@
     },
     "nextBatchForClassification": null,
     "nextClassificationWork": "全庫第一輪持久分類欄位已齊；後續優先補強南一、翰林、康軒官方目次與學校採用資料，對無足夠證據的題目維持108課綱共同核心或待核對，不為填滿學期／段考篩選器而推定。",
-    "browserTested": false
+    "browserTested": false,
+    "filterValidation": {
+      "auditedAt": "2026-11-14",
+      "batches": "08-41",
+      "questionsChecked": 2900,
+      "perQuestionIndexReachability": {
+        "reachable": 2900,
+        "unreachable": 0
+      },
+      "classificationValueAndMetadataErrors": 0,
+      "publisherStatusMappingConsistencyErrors": 0,
+      "publisherMappingScopeErrors": 0,
+      "publisherCategoryReachability": {
+        "curriculumCore": 2660,
+        "pending": 117,
+        "hanlin": 79,
+        "knsh": 9,
+        "nani": 35
+      },
+      "courseTrackAnomalies": 0,
+      "staticPerQuestionCheck": true,
+      "exhaustiveCartesianCombinationTest": false,
+      "browserTested": false
+    }
   },
   "currentIndexReconciliation": {
     "verifiedAt": "2026-11-14",
