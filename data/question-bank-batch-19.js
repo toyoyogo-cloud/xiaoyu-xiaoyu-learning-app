@@ -18,7 +18,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-002",
@@ -39,7 +46,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-003",
@@ -60,7 +74,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-004",
@@ -81,7 +102,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-005",
@@ -102,7 +130,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-006",
@@ -123,7 +158,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-007",
@@ -144,7 +186,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-008",
@@ -165,7 +214,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-009",
@@ -186,7 +242,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-010",
@@ -207,7 +270,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-011",
@@ -228,7 +298,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-012",
@@ -249,7 +326,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-013",
@@ -270,7 +354,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-014",
@@ -291,7 +382,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-015",
@@ -312,7 +410,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-016",
@@ -333,7 +438,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-017",
@@ -354,7 +466,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-018",
@@ -375,7 +494,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-019",
@@ -396,7 +522,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-020",
@@ -417,7 +550,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "上學期",
+    "examPeriod": "第二次段考",
+    "classificationBasis": "question-bank-inference",
+    "confidence": "medium",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依六年級題庫常見百分率單元群推定；非學校正式段考範圍。"
   },
   {
     "id": "b19-021",
@@ -438,7 +578,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "上學期",
+    "examPeriod": "第三次段考",
+    "classificationBasis": "question-bank-inference",
+    "confidence": "medium",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依六年級題庫常見比例尺與速率單元群推定；非學校正式段考範圍。"
   },
   {
     "id": "b19-022",
@@ -459,7 +606,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "下學期",
+    "examPeriod": "第二次段考",
+    "classificationBasis": "question-bank-inference",
+    "confidence": "medium",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依六年級題庫常見立體形體單元群推定；非學校正式段考範圍。"
   },
   {
     "id": "b19-023",
@@ -480,7 +634,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-024",
@@ -501,7 +662,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-025",
@@ -522,7 +690,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-026",
@@ -543,7 +718,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-027",
@@ -564,7 +746,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-028",
@@ -585,7 +774,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-029",
@@ -606,7 +802,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-030",
@@ -627,7 +830,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-031",
@@ -648,7 +858,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-032",
@@ -669,7 +886,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-033",
@@ -690,7 +914,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-034",
@@ -711,7 +942,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-035",
@@ -732,7 +970,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-036",
@@ -753,7 +998,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-037",
@@ -774,7 +1026,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-038",
@@ -795,7 +1054,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-039",
@@ -816,7 +1082,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-040",
@@ -837,7 +1110,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-041",
@@ -858,7 +1138,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-042",
@@ -879,7 +1166,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-043",
@@ -900,7 +1194,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-044",
@@ -921,7 +1222,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-045",
@@ -942,7 +1250,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-046",
@@ -963,7 +1278,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-047",
@@ -984,7 +1306,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-048",
@@ -1005,7 +1334,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-049",
@@ -1026,7 +1362,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-050",
@@ -1047,7 +1390,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-051",
@@ -1068,7 +1418,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-052",
@@ -1089,7 +1446,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-053",
@@ -1110,7 +1474,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-054",
@@ -1131,7 +1502,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-055",
@@ -1152,7 +1530,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-056",
@@ -1173,7 +1558,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-057",
@@ -1194,7 +1586,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-058",
@@ -1215,7 +1614,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-059",
@@ -1236,7 +1642,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-060",
@@ -1257,7 +1670,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-061",
@@ -1277,8 +1697,59 @@ window.EXTRA19_GRADE_BANK = [
     "e": "外力合力可忽略時，系統總動量守恆；動能是否守恆則取決於碰撞是否為彈性碰撞。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
-    "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "sourceRef": "https://books.hanlin.com.tw/product/004022",
+    "reviewStatus": "rule-checked",
+    "semester": "上學期",
+    "examPeriod": "unassigned",
+    "classificationBasis": "publisher-source-verified",
+    "confidence": "medium",
+    "publisherStatus": "publisher-mapped",
+    "publisherMappings": [
+      {
+        "publisher": "hanlin",
+        "mappingId": "hanlin-h2-physics-ii",
+        "sourceUrl": "https://books.hanlin.com.tw/product/004022",
+        "sourceTitle": "翰林書城－高中課本選修物理(II)力學二與熱學",
+        "verifiedAt": "2026-11-13",
+        "verificationStatus": "source-checked",
+        "notes": "官方頁明示高中二年級、上學期及課本名稱；僅作冊別／主題層級對照。",
+        "mappingLevel": "volume",
+        "volume": "選修物理(II) 力學二與熱學",
+        "unitCode": "全冊",
+        "unitName": "力學二與熱學",
+        "unitAliases": [],
+        "scopeKeywords": [
+          "動量",
+          "衝量",
+          "碰撞",
+          "功",
+          "位能",
+          "動能",
+          "力矩",
+          "角動量",
+          "熱",
+          "比熱",
+          "熱膨脹",
+          "熱傳導",
+          "熱力學",
+          "熱機",
+          "氣體",
+          "彈簧",
+          "圓周",
+          "向心",
+          "波以耳",
+          "線膨脹",
+          "機械能"
+        ],
+        "semester": "上學期",
+        "grade": "高二",
+        "subject": "物理",
+        "courseTrack": null,
+        "schoolYear": "未標示",
+        "courseType": "未確認"
+      }
+    ],
+    "classificationNotes": "翰林官方頁確認高二上選修物理(II)冊名「力學二與熱學」；只作冊別層級對照，未核對細分單元或段考。"
   },
   {
     "id": "b19-062",
@@ -1299,7 +1770,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-063",
@@ -1319,8 +1797,43 @@ window.EXTRA19_GRADE_BANK = [
     "e": "依勒沙特列原理，增壓會使平衡朝氣體總莫耳數較少的一側移動；若兩側氣體莫耳數相同則不因這項因素移動。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
-    "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "sourceRef": "https://books.hanlin.com.tw/product/435023",
+    "reviewStatus": "rule-checked",
+    "semester": "全學年",
+    "examPeriod": "unassigned",
+    "classificationBasis": "publisher-source-verified",
+    "confidence": "high",
+    "publisherStatus": "publisher-mapped",
+    "publisherMappings": [
+      {
+        "publisher": "hanlin",
+        "mappingId": "hanlin-h2-chemistry-iii-u1",
+        "sourceUrl": "https://books.hanlin.com.tw/product/435023",
+        "sourceTitle": "翰林書城－高中互動式教學講義選修化學(III)",
+        "verifiedAt": "2026-11-13",
+        "verificationStatus": "source-checked",
+        "notes": "官方頁明示高二、高三、全學年，目次列化學平衡；不推定學校段考。",
+        "mappingLevel": "unit",
+        "volume": "選修化學(III)（官方互動式教學講義）",
+        "unitCode": "1",
+        "unitName": "化學平衡",
+        "unitAliases": [
+          "化學平衡",
+          "平衡常數",
+          "勒沙特列",
+          "反應商",
+          "平衡移動"
+        ],
+        "scopeKeywords": [],
+        "semester": "全學年",
+        "grade": "高二、高三",
+        "subject": "化學",
+        "courseTrack": null,
+        "schoolYear": "未標示",
+        "courseType": "未確認"
+      }
+    ],
+    "classificationNotes": "翰林官方化學(III)目次明示化學平衡單元；教材標示高二、高三全學年。"
   },
   {
     "id": "b19-064",
@@ -1340,8 +1853,43 @@ window.EXTRA19_GRADE_BANK = [
     "e": "pH每相差1，氫離子濃度相差10倍；相差2代表10²＝100倍，pH較低的A酸性較強。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
-    "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "sourceRef": "https://books.hanlin.com.tw/product/435023",
+    "reviewStatus": "rule-checked",
+    "semester": "全學年",
+    "examPeriod": "unassigned",
+    "classificationBasis": "publisher-source-verified",
+    "confidence": "high",
+    "publisherStatus": "publisher-mapped",
+    "publisherMappings": [
+      {
+        "publisher": "hanlin",
+        "mappingId": "hanlin-h2-chemistry-iii-u3",
+        "sourceUrl": "https://books.hanlin.com.tw/product/435023",
+        "sourceTitle": "翰林書城－高中互動式教學講義選修化學(III)",
+        "verifiedAt": "2026-11-13",
+        "verificationStatus": "source-checked",
+        "notes": "官方頁明示目次列酸鹼反應與酸鹼滴定實驗；不推定學校段考。",
+        "mappingLevel": "unit",
+        "volume": "選修化學(III)（官方互動式教學講義）",
+        "unitCode": "3",
+        "unitName": "酸鹼反應",
+        "unitAliases": [
+          "酸鹼",
+          "pH",
+          "滴定",
+          "緩衝",
+          "鹽類水解"
+        ],
+        "scopeKeywords": [],
+        "semester": "全學年",
+        "grade": "高二、高三",
+        "subject": "化學",
+        "courseTrack": null,
+        "schoolYear": "未標示",
+        "courseType": "未確認"
+      }
+    ],
+    "classificationNotes": "翰林官方化學(III)目次明示酸鹼反應單元；教材標示高二、高三全學年。"
   },
   {
     "id": "b19-065",
@@ -1362,7 +1910,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-066",
@@ -1383,7 +1938,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-067",
@@ -1404,7 +1966,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-068",
@@ -1425,7 +1994,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-069",
@@ -1446,7 +2022,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-070",
@@ -1467,7 +2050,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-071",
@@ -1488,7 +2078,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-072",
@@ -1509,7 +2106,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-073",
@@ -1530,7 +2134,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-074",
@@ -1551,7 +2162,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-075",
@@ -1572,7 +2190,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-076",
@@ -1593,7 +2218,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-077",
@@ -1614,7 +2246,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-078",
@@ -1635,7 +2274,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-079",
@@ -1656,7 +2302,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-080",
@@ -1677,7 +2330,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-081",
@@ -1698,7 +2358,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-082",
@@ -1719,7 +2386,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-083",
@@ -1740,7 +2414,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-084",
@@ -1761,7 +2442,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-085",
@@ -1782,7 +2470,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-086",
@@ -1803,7 +2498,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-087",
@@ -1824,7 +2526,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-088",
@@ -1845,7 +2554,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-089",
@@ -1866,7 +2582,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-090",
@@ -1887,7 +2610,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-091",
@@ -1908,7 +2638,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-092",
@@ -1929,7 +2666,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-093",
@@ -1950,7 +2694,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-094",
@@ -1971,7 +2722,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-095",
@@ -1992,7 +2750,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-096",
@@ -2013,7 +2778,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-097",
@@ -2034,7 +2806,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-098",
@@ -2055,7 +2834,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-099",
@@ -2076,7 +2862,14 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   },
   {
     "id": "b19-100",
@@ -2097,6 +2890,13 @@ window.EXTRA19_GRADE_BANK = [
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
     "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-    "reviewStatus": "rule-checked"
+    "reviewStatus": "rule-checked",
+    "semester": "unassigned",
+    "examPeriod": "unassigned",
+    "classificationBasis": "curriculum-core",
+    "confidence": "low",
+    "publisherStatus": "curriculum-core",
+    "publisherMappings": [],
+    "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。"
   }
 ];
