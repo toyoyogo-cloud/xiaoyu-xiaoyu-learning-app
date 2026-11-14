@@ -1286,6 +1286,76 @@
       "verifiedAt": "2026-11-15",
       "verificationStatus": "source-checked",
       "notes": "教育部教育雲平台資源由明志科技大學提供；列國小5–6年級自然科INa-Ⅲ-8，明列康軒六上2、南一六上2、翰林五上3；本次六年級只映射前兩者，避免年級混用。非出版社出版頁或學校採用證明。"
+    },
+    {
+      "id": "ntue-g6-natural-6a-u3-geology",
+      "publisher": "curriculum-core",
+      "sourceType": "curriculum-reference",
+      "sourceUrl": "https://bilingual.ntue.edu.tw/p/404-1054-31326.php?Lang=zh-tw",
+      "sourceTitle": "國立臺北教育大學雙語教學研究中心－國小自然科學筆記本、雙語教學資源手冊",
+      "verifiedAt": "2026-11-15",
+      "verificationStatus": "source-checked",
+      "notes": "單元目錄列六年級自然上學期單元三「地質的變化」。此為國北教大中心與國北附設實驗國小教師群研編之輔助課程架構，不是出版社版次、學校採用證明或正式段考範圍。"
+    },
+    {
+      "id": "moe-cloud-ind-iii-9-land-change",
+      "publisher": "curriculum-core",
+      "sourceType": "curriculum-reference",
+      "sourceUrl": "https://market.cloud.edu.tw/resources/video/1848856",
+      "sourceTitle": "教育部教育雲－INd-Ⅲ-9-01：河流是改變地表最重要的力量",
+      "verifiedAt": "2026-11-15",
+      "verificationStatus": "source-checked",
+      "notes": "教育部資源明列國小5–6年級自然科INd-Ⅲ-9，內容為流水、風和波浪對砂石與土壤的侵蝕、風化、搬運及堆積；只支持課綱知識點核對，不是出版社單元映射。"
+    },
+    {
+      "id": "tainan-city-g6-weathering-soil",
+      "publisher": "curriculum-core",
+      "sourceType": "curriculum-reference",
+      "sourceUrl": "https://market.cloud.edu.tw/resources/video/1819590",
+      "sourceTitle": "臺南市政府教育局－27-2-1-1風化與土壤",
+      "verifiedAt": "2026-11-15",
+      "verificationStatus": "source-checked",
+      "notes": "資源列國小5–6年級自然科，說明風化使岩石碎裂、土壤形成及土地資源保育；僅作知識點參照，不標記出版社或學校版本。"
+    },
+    {
+      "id": "ntue-g6-natural-6b-u1-simple-machines",
+      "publisher": "curriculum-core",
+      "sourceType": "curriculum-reference",
+      "sourceUrl": "https://bilingual.ntue.edu.tw/p/404-1054-31326.php?Lang=zh-tw",
+      "sourceTitle": "國立臺北教育大學雙語教學研究中心－國小自然科學筆記本、雙語教學資源手冊",
+      "verifiedAt": "2026-11-15",
+      "verificationStatus": "source-checked",
+      "notes": "單元目錄列六年級自然下學期單元一「簡單機械」。只支持課程主題／學期推定，不作出版社或學校採用標記。"
+    },
+    {
+      "id": "moe-cloud-ep58-lever",
+      "publisher": "curriculum-core",
+      "sourceType": "curriculum-reference",
+      "sourceUrl": "https://market.cloud.edu.tw/resources/video/1830746",
+      "sourceTitle": "教育部教育雲－看見自然EP58：槓桿的生活應用",
+      "verifiedAt": "2026-11-15",
+      "verificationStatus": "source-checked",
+      "notes": "資源列國小5–6年級自然科INb-Ⅲ-4，內容涉及槓桿支點、施力點與抗力點；頁面列出翰林六下2、康軒六下1、南一六下1的教材配合說明。該頁由明志科技大學提供，並非出版社官方頁，因此僅作跨版本課程主題佐證，不建立任何出版社題目映射。"
+    },
+    {
+      "id": "moe-cloud-g6-simple-machines-lesson",
+      "publisher": "curriculum-core",
+      "sourceType": "curriculum-reference",
+      "sourceUrl": "https://market.cloud.edu.tw/resources/web/1802571",
+      "sourceTitle": "教育部教育雲－六年級第二單元「簡單機械」",
+      "verifiedAt": "2026-11-15",
+      "verificationStatus": "source-checked",
+      "notes": "教師教學資源標示六年級簡單機械及INb-Ⅲ-4；未明示學期或出版社版本，只作年級／主題佐證。"
+    },
+    {
+      "id": "moe-cloud-rust-antirust",
+      "publisher": "curriculum-core",
+      "sourceType": "curriculum-reference",
+      "sourceUrl": "https://market.cloud.edu.tw/resources/web/1845113",
+      "sourceTitle": "教育部教育雲－2025單元課程示例：國小自然生鏽及防鏽",
+      "verifiedAt": "2026-11-15",
+      "verificationStatus": "source-checked",
+      "notes": "資源列國小5–6年級自然科INe-Ⅲ-2，涵蓋生鏽與防鏽條件。本輪掃描第8至41批六年級自然題目，未找到直接以生鏽／食物腐敗為核心的題目，故不建立題目分類或出版社映射。"
     }
   ],
   "classificationAudit": {
@@ -4537,31 +4607,25 @@
   },
   "lastRunAudit": {
     "date": "2026-11-15",
-    "type": "g6-natural-water-cycle-heat-weather-mapping",
+    "type": "g6-natural-simple-machines-geological-change-semester-backfill",
     "sourceHeadBeforeRun": "6ad7a646076d6d0f4590e2b8c85a6465a8c7e6c2",
     "batches": "08-41",
     "batchFileCount": 34,
     "fullCorpusQuestionCount": 2900,
     "activeScopeQuestionCount": 1864,
-    "questionRecordsUpdated": 13,
+    "questionRecordsUpdated": 7,
     "updatedQuestionIds": [
-      "b33-034",
-      "b39-033",
-      "b40-036",
-      "b41-034",
-      "b32-023",
-      "b35-032",
-      "b35-040",
-      "b36-039",
-      "b37-035",
-      "b38-037",
-      "b40-039",
-      "b41-037",
-      "b33-039"
+      "b21-030",
+      "b27-039",
+      "b30-030",
+      "b32-028",
+      "b33-038",
+      "b32-021",
+      "b35-038"
     ],
-    "semesterAssigned": 10,
+    "semesterAssigned": 7,
     "examPeriodAssigned": 0,
-    "publisherMappingsAdded": 29,
+    "publisherMappingsAdded": 0,
     "newQuestionsAdded": 0,
     "centralMappingCount": 27,
     "fullCorpusSemesterDistribution": {
@@ -4615,7 +4679,8 @@
       "sourceBatchShasMatched": "34/34",
       "browserOrMobileRuntimeTested": false
     },
-    "notes": "新增六年級自然水循環、熱傳導／保溫與天氣資料判讀的持久單元映射；段考一律維持unassigned。教育雲來源明列教材對照，但不是出版社商品頁或學校採用證明。"
+    "notes": "新增六年級自然水循環、熱傳導／保溫與天氣資料判讀的持久單元映射；段考一律維持unassigned。教育雲來源明列教材對照，但不是出版社商品頁或學校採用證明。",
+    "classificationRuleVersion": "2026-11-15.51"
   },
   "latestMappingScopeCorrection": {
     "date": "2026-11-14",
@@ -4682,9 +4747,9 @@
       "courseTrack（高二數學）",
       "learningUnit"
     ],
-    "combinationsTested": 15750,
-    "nonEmptyResultCombinations": 1120,
-    "zeroResultCombinations": 14630,
+    "combinationsTested": 18900,
+    "nonEmptyResultCombinations": 1140,
+    "zeroResultCombinations": 17760,
     "publisherMappingLeaks": 0,
     "zeroResultHintPresent": true,
     "browserOrMobileRuntimeTested": false,
@@ -4695,23 +4760,23 @@
       "高二": 974
     },
     "activeScopeSemesterDistribution": {
-      "unassigned": 1315,
-      "上學期": 351,
-      "全學年": 74,
-      "下學期": 124
+      "unassigned": 1308,
+      "上學期": 353,
+      "下學期": 129,
+      "全學年": 74
     },
     "activeScopeExamPeriodDistribution": {
       "unassigned": 1633,
-      "第三次段考": 94,
       "第一次段考": 66,
-      "第二次段考": 71
+      "第二次段考": 71,
+      "第三次段考": 94
     },
     "activeScopePublisherStatus": {
       "curriculum-core": 1687,
       "pending": 6,
       "publisher-mapped": 171
     },
-    "unitFilterGroupsTested": 1184,
+    "unitFilterGroupsTested": 1180,
     "unitFilterErrors": 0,
     "high2MathTrackCounts": {
       "數學A": 79,
@@ -4723,9 +4788,43 @@
       "missingRequiredFields": 0,
       "illegalValues": 0,
       "mappingErrors": 0,
-      "sourceBatchShasMatched": "34/34"
+      "sourceBatchShasMatched": "34/34",
+      "publisherMappingLeaks": 0,
+      "unitFilterErrors": 0
     },
-    "notes": "依index.html getPool篩選維度，模擬所有年級／科目／難度／學期／段考／出版社／高二數學軌別組合，並逐一檢查所有單元群；資料層靜態驗收，未執行瀏覽器或手機實機操作。"
+    "notes": "依index.html getPool與renderUnits的持久分類篩選維度執行資料層靜態模擬；未執行瀏覽器或手機實機操作。"
   },
-  "notes": " 2026-11-14：新增國立臺北教育大學六年級自然上學期單元四「電磁作用」課程參考，12題串聯／並聯電路僅回填上學期，不掛出版社、不填段考。 2026-11-15：依國立臺北教育大學雙語教學研究中心官方單元目錄，新增3題六年級自然電磁鐵／線圈題目的上學期課程核心分類；段考維持unassigned，不掛出版社。"
+  "notes": " 2026-11-14：新增國立臺北教育大學六年級自然上學期單元四「電磁作用」課程參考，12題串聯／並聯電路僅回填上學期，不掛出版社、不填段考。 2026-11-15：依國立臺北教育大學雙語教學研究中心官方單元目錄，新增3題六年級自然電磁鐵／線圈題目的上學期課程核心分類；段考維持unassigned，不掛出版社。 2026-11-15：新增六年級自然「簡單機械」及「地質的變化」課程參考；7題依題庫知識點推定學期，沒有出版社官方單元來源，故不新增出版社映射。",
+  "latestCurriculumUnitClassificationAudit": {
+    "date": "2026-11-15",
+    "type": "g6-natural-simple-machines-geological-change-semester-backfill",
+    "updatedQuestionIds": [
+      "b21-030",
+      "b27-039",
+      "b30-030",
+      "b32-028",
+      "b33-038",
+      "b32-021",
+      "b35-038"
+    ],
+    "semesterAssignments": {
+      "下學期": 5,
+      "上學期": 2
+    },
+    "examPeriod": "unassigned",
+    "classificationBasis": "question-bank-inference",
+    "confidence": "medium",
+    "publisherMappingsAdded": 0,
+    "newQuestionsAdded": 0,
+    "sourceRegistryIds": [
+      "ntue-g6-natural-6a-u3-geology",
+      "moe-cloud-ind-iii-9-land-change",
+      "tainan-city-g6-weathering-soil",
+      "ntue-g6-natural-6b-u1-simple-machines",
+      "moe-cloud-ep58-lever",
+      "moe-cloud-g6-simple-machines-lesson",
+      "moe-cloud-rust-antirust"
+    ],
+    "notes": "單元目錄與教育部教育雲／地方教育局資源用於知識點及學期推定；非出版社官方教材目次或學校採用資料。未找到直接生鏽／食物腐敗題目；跨版本「珍愛家園」相關題目未因概念相似而強制歸期。"
+  }
 }
