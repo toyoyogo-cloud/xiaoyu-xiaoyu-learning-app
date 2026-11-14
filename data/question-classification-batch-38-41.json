@@ -3433,12 +3433,23 @@
       "courseType": null,
       "semester": "上學期",
       "examPeriod": "unassigned",
-      "classificationBasis": "curriculum-core",
+      "classificationBasis": "publisher-source-verified",
       "confidence": "medium",
-      "publisherStatus": "curriculum-core",
-      "publisherMappings": [],
-      "classificationNotes": "依國立臺北教育大學雙語教學研究中心官方六年級自然單元目錄：上學期單元一「天氣的變化」。本題內容直接對應「冷鋒與天氣變化」，僅作課程主題層級的上學期分類；來源未提供出版社版本、完整課本細目或學校段考範圍，因此不建立出版社映射，examPeriod維持unassigned。",
-      "sourceRef": "ntue-g6-natural-6a-u1-u2-weather-heat | 國立臺北教育大學雙語教學研究中心－國小自然科學筆記本、雙語教學資源手冊 | https://bilingual.ntue.edu.tw/p/404-1054-31326.php?Lang=zh-tw",
+      "publisherStatus": "publisher-mapped",
+      "publisherMappings": [
+        {
+          "publisher": "knsh",
+          "mappingId": "knsh-g6-natural-6a-u1-weather",
+          "sourceUrl": "https://market.cloud.edu.tw/resources/web/1809340",
+          "sourceTitle": "六上康軒版自然第一單元-天氣的變化",
+          "verifiedAt": "2026-11-15",
+          "verificationStatus": "source-checked",
+          "notes": "教育部教育雲教師編製教學資源頁標題明示康軒版六上自然第一單元「天氣的變化」；知識架構列INd-Ⅲ-7高、低氣壓、鋒面、颱風與天氣變化。本題單元「冷鋒與天氣變化」及題幹中的冷鋒通過、陣雨／雷雨直接符合該單元。此為單元層級映射，不代表康軒出版社完整課本目次、學校採用版本或正式段考範圍。",
+          "mappingLevel": "unit"
+        }
+      ],
+      "classificationNotes": "教育部教育雲教師編製教學資源頁標題明示康軒版六上自然第一單元「天氣的變化」；知識架構列INd-Ⅲ-7高、低氣壓、鋒面、颱風與天氣變化。本題單元「冷鋒與天氣變化」及題幹中的冷鋒通過、陣雨／雷雨直接符合該單元。此為單元層級映射，不代表康軒出版社完整課本目次、學校採用版本或正式段考範圍。",
+      "sourceRef": "knsh-g6-natural-6a-u1-weather | 六上康軒版自然第一單元-天氣的變化 | https://market.cloud.edu.tw/resources/web/1809340",
       "learningDomain": "地球環境",
       "questionType": "閱讀推理",
       "learningUnit": "冷鋒與天氣變化",
