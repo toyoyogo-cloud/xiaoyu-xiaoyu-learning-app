@@ -2029,7 +2029,8 @@
     },
     "newQuestionsAdded": 0,
     "browserTested": false,
-    "notes": "全庫2,900題持久分類欄位完整；本輪依南一官方雞兔同籠詳情頁，保留5筆直接題、撤回3筆類比情境映射。"
+    "notes": "全庫2,900題持久分類欄位完整；本輪依南一官方雞兔同籠詳情頁，保留5筆直接題、撤回3筆類比情境映射。",
+    "filterSimulationPassed": true
   },
   "classificationPersistenceRuns": [
     {
@@ -3986,10 +3987,51 @@
     "verificationStatusCounts": {
       "source-checked": 153
     },
-    "notes": "保留5筆直接雞兔同籠題；移除3筆只在原始標籤相同、但題幹為車輛或桌椅情境的類比題。"
+    "notes": "保留5筆直接雞兔同籠題；移除3筆只在原始標籤相同、但題幹為車輛或桌椅情境的類比題。 中央映射年級、科目、學期與題目分類欄位逐筆核對一致，scope mismatches 0。",
+    "centralScopeMismatches": 0
   },
   "lastFilterDataAudit": {
-    "mappingScopeCorrectionRecheck": "pending",
-    "notes": " 本輪移除3筆Nani出版社映射；需重新執行篩選資料層組合驗收。"
+    "auditedAt": "2026-11-14",
+    "batches": "08-41",
+    "questionsChecked": 2900,
+    "dimensions": [
+      "grade",
+      "subject",
+      "semester",
+      "examPeriod",
+      "publisher",
+      "courseTrack（僅高二數學）"
+    ],
+    "combinationsTested": 3150,
+    "nonEmptyCombinations": 232,
+    "zeroResultCombinations": 2918,
+    "publisherMappingLeaks": 0,
+    "zeroResultHintPresent": true,
+    "browserOrMobileRuntimeTested": false,
+    "fullCorpusRecords": 2900,
+    "activeScopeRecords": 1864,
+    "activeScopeByGrade": {
+      "六年級": 890,
+      "高二": 974
+    },
+    "activeScopeSemesterDistribution": {
+      "unassigned": 1348,
+      "上學期": 318,
+      "下學期": 124,
+      "全學年": 74
+    },
+    "activeScopeExamPeriodDistribution": {
+      "unassigned": 1633,
+      "第三次段考": 94,
+      "第一次段考": 66,
+      "第二次段考": 71
+    },
+    "activeScopePublisherStatus": {
+      "curriculum-core": 1705,
+      "pending": 6,
+      "publisher-mapped": 153
+    },
+    "mappingScopeCorrectionRecheck": "passed-static-3150-combinations",
+    "notes": "本輪以最新六個持久分類分片模擬index.html的年級／科目／學期／段考／出版社篩選及高二數學軌別條件，共3,150組；232組有題、2,918組為合理零題。全部版本預設可讀取1,864題，出版社篩選映射洩漏0，零題提示存在。僅為靜態資料層測試，未執行手機或桌面瀏覽器實機操作。"
   }
 }
