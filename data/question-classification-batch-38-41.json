@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.1.0",
   "updatedAt": "2026-11-14",
-  "classificationRuleVersion": "2026-11-14.36",
+  "classificationRuleVersion": "2026-11-14.38",
   "batchRange": "38-41",
   "sourceBatchShas": {
     "38": "d5f0aed52035624b1aa72f3052577b8e13f11c91",
@@ -588,15 +588,15 @@
         {
           "publisher": "nani",
           "mappingId": "nani-g6-math-6b-four-operations",
-          "sourceUrl": "https://tpack.nani.com.tw/nani_list?b=1&page=6&t=",
-          "sourceTitle": "南一資源_國小資源索引－數學6下：四則混合運算",
+          "sourceUrl": "https://tpack.nani.com.tw/nani_content?a=340&b=1",
+          "sourceTitle": "南一資源_內文－數學6下｜四則混合運算",
           "verifiedAt": "2026-11-14",
-          "verificationStatus": "official-index-link-only",
-          "notes": "2026-11-14重新開啟南一官方資源索引：列表明示「數學6下｜四則混合運算」，並列科目數學、年級6年級及差異化互動式教學LUMIO。僅能支持官方資源標題層級對照，不等同完整課本目次，不代表學校採用版本或正式段考範圍。",
+          "verificationStatus": "source-checked",
+          "notes": "2026-11-14重新開啟南一官方詳情頁：標題明示「數學6下｜四則混合運算」，頁面列國小、數學、6年級，學校／單位為南一書局。此為官方教學資源標題層級對照，不等同完整課本目次，不代表學校採用版本或正式段考範圍。",
           "mappingLevel": "official-resource-title",
           "volume": "數學6下",
-          "unitCode": "索引標題",
-          "unitName": "四則混合運算（官方索引標題層級）",
+          "unitCode": "官方資源標題",
+          "unitName": "四則混合運算（官方資源標題層級）",
           "unitAliases": [
             "四則混合運算"
           ],
@@ -609,8 +609,8 @@
           "courseType": "國小"
         }
       ],
-      "classificationNotes": "南一官方資源索引標題明示數學6下「四則混合運算」；只作官方索引標題層級對照，詳情頁未核對。",
-      "sourceRef": "https://tpack.nani.com.tw/nani_list?b=1&page=6&t=",
+      "classificationNotes": "2026-11-14重新開啟南一官方詳情頁：標題明示「數學6下｜四則混合運算」，頁面列國小、數學、6年級，學校／單位為南一書局。此為官方教學資源標題層級對照，不等同完整課本目次，不代表學校採用版本或正式段考範圍。",
+      "sourceRef": "https://tpack.nani.com.tw/nani_content?a=340&b=1",
       "learningDomain": "數與運算",
       "questionType": "推理判斷",
       "learningUnit": "四則混合運算",
@@ -631,15 +631,15 @@
         {
           "publisher": "nani",
           "mappingId": "nani-g6-math-6b-four-operations",
-          "sourceUrl": "https://tpack.nani.com.tw/nani_list?b=1&page=6&t=",
-          "sourceTitle": "南一資源_國小資源索引－數學6下：四則混合運算",
+          "sourceUrl": "https://tpack.nani.com.tw/nani_content?a=340&b=1",
+          "sourceTitle": "南一資源_內文－數學6下｜四則混合運算",
           "verifiedAt": "2026-11-14",
-          "verificationStatus": "official-index-link-only",
-          "notes": "2026-11-14重新開啟南一官方資源索引：列表明示「數學6下｜四則混合運算」，並列科目數學、年級6年級及差異化互動式教學LUMIO。僅能支持官方資源標題層級對照，不等同完整課本目次，不代表學校採用版本或正式段考範圍。",
+          "verificationStatus": "source-checked",
+          "notes": "2026-11-14重新開啟南一官方詳情頁：標題明示「數學6下｜四則混合運算」，頁面列國小、數學、6年級，學校／單位為南一書局。此為官方教學資源標題層級對照，不等同完整課本目次，不代表學校採用版本或正式段考範圍。",
           "mappingLevel": "official-resource-title",
           "volume": "數學6下",
-          "unitCode": "索引標題",
-          "unitName": "四則混合運算（官方索引標題層級）",
+          "unitCode": "官方資源標題",
+          "unitName": "四則混合運算（官方資源標題層級）",
           "unitAliases": [
             "四則混合運算"
           ],
@@ -652,8 +652,8 @@
           "courseType": "國小"
         }
       ],
-      "classificationNotes": "南一官方資源索引標題明示數學6下「四則混合運算」；只作官方索引標題層級對照，詳情頁未核對。",
-      "sourceRef": "https://tpack.nani.com.tw/nani_list?b=1&page=6&t=",
+      "classificationNotes": "2026-11-14重新開啟南一官方詳情頁：標題明示「數學6下｜四則混合運算」，頁面列國小、數學、6年級，學校／單位為南一書局。此為官方教學資源標題層級對照，不等同完整課本目次，不代表學校採用版本或正式段考範圍。",
+      "sourceRef": "https://tpack.nani.com.tw/nani_content?a=340&b=1",
       "learningDomain": "數與運算",
       "questionType": "推理判斷",
       "learningUnit": "四則混合運算",
@@ -674,15 +674,15 @@
         {
           "publisher": "nani",
           "mappingId": "nani-g6-math-6b-four-operations",
-          "sourceUrl": "https://tpack.nani.com.tw/nani_list?b=1&page=6&t=",
-          "sourceTitle": "南一資源_國小資源索引－數學6下：四則混合運算",
+          "sourceUrl": "https://tpack.nani.com.tw/nani_content?a=340&b=1",
+          "sourceTitle": "南一資源_內文－數學6下｜四則混合運算",
           "verifiedAt": "2026-11-14",
-          "verificationStatus": "official-index-link-only",
-          "notes": "2026-11-14重新開啟南一官方資源索引：列表明示「數學6下｜四則混合運算」，並列科目數學、年級6年級及差異化互動式教學LUMIO。僅能支持官方資源標題層級對照，不等同完整課本目次，不代表學校採用版本或正式段考範圍。",
+          "verificationStatus": "source-checked",
+          "notes": "2026-11-14重新開啟南一官方詳情頁：標題明示「數學6下｜四則混合運算」，頁面列國小、數學、6年級，學校／單位為南一書局。此為官方教學資源標題層級對照，不等同完整課本目次，不代表學校採用版本或正式段考範圍。",
           "mappingLevel": "official-resource-title",
           "volume": "數學6下",
-          "unitCode": "索引標題",
-          "unitName": "四則混合運算（官方索引標題層級）",
+          "unitCode": "官方資源標題",
+          "unitName": "四則混合運算（官方資源標題層級）",
           "unitAliases": [
             "四則混合運算"
           ],
@@ -695,8 +695,8 @@
           "courseType": "國小"
         }
       ],
-      "classificationNotes": "南一官方資源索引標題明示數學6下「四則混合運算」；只作官方索引標題層級對照，詳情頁未核對。",
-      "sourceRef": "https://tpack.nani.com.tw/nani_list?b=1&page=6&t=",
+      "classificationNotes": "2026-11-14重新開啟南一官方詳情頁：標題明示「數學6下｜四則混合運算」，頁面列國小、數學、6年級，學校／單位為南一書局。此為官方教學資源標題層級對照，不等同完整課本目次，不代表學校採用版本或正式段考範圍。",
+      "sourceRef": "https://tpack.nani.com.tw/nani_content?a=340&b=1",
       "learningDomain": "數與運算",
       "questionType": "推理判斷",
       "learningUnit": "四則混合運算",
@@ -717,15 +717,15 @@
         {
           "publisher": "nani",
           "mappingId": "nani-g6-math-6b-four-operations",
-          "sourceUrl": "https://tpack.nani.com.tw/nani_list?b=1&page=6&t=",
-          "sourceTitle": "南一資源_國小資源索引－數學6下：四則混合運算",
+          "sourceUrl": "https://tpack.nani.com.tw/nani_content?a=340&b=1",
+          "sourceTitle": "南一資源_內文－數學6下｜四則混合運算",
           "verifiedAt": "2026-11-14",
-          "verificationStatus": "official-index-link-only",
-          "notes": "2026-11-14重新開啟南一官方資源索引：列表明示「數學6下｜四則混合運算」，並列科目數學、年級6年級及差異化互動式教學LUMIO。僅能支持官方資源標題層級對照，不等同完整課本目次，不代表學校採用版本或正式段考範圍。",
+          "verificationStatus": "source-checked",
+          "notes": "2026-11-14重新開啟南一官方詳情頁：標題明示「數學6下｜四則混合運算」，頁面列國小、數學、6年級，學校／單位為南一書局。此為官方教學資源標題層級對照，不等同完整課本目次，不代表學校採用版本或正式段考範圍。",
           "mappingLevel": "official-resource-title",
           "volume": "數學6下",
-          "unitCode": "索引標題",
-          "unitName": "四則混合運算（官方索引標題層級）",
+          "unitCode": "官方資源標題",
+          "unitName": "四則混合運算（官方資源標題層級）",
           "unitAliases": [
             "四則混合運算"
           ],
@@ -738,8 +738,8 @@
           "courseType": "國小"
         }
       ],
-      "classificationNotes": "南一官方資源索引標題明示數學6下「四則混合運算」；只作官方索引標題層級對照，詳情頁未核對。",
-      "sourceRef": "https://tpack.nani.com.tw/nani_list?b=1&page=6&t=",
+      "classificationNotes": "2026-11-14重新開啟南一官方詳情頁：標題明示「數學6下｜四則混合運算」，頁面列國小、數學、6年級，學校／單位為南一書局。此為官方教學資源標題層級對照，不等同完整課本目次，不代表學校採用版本或正式段考範圍。",
+      "sourceRef": "https://tpack.nani.com.tw/nani_content?a=340&b=1",
       "learningDomain": "數與運算",
       "questionType": "推理判斷",
       "learningUnit": "四則混合運算",
@@ -760,15 +760,15 @@
         {
           "publisher": "nani",
           "mappingId": "nani-g6-math-6b-four-operations",
-          "sourceUrl": "https://tpack.nani.com.tw/nani_list?b=1&page=6&t=",
-          "sourceTitle": "南一資源_國小資源索引－數學6下：四則混合運算",
+          "sourceUrl": "https://tpack.nani.com.tw/nani_content?a=340&b=1",
+          "sourceTitle": "南一資源_內文－數學6下｜四則混合運算",
           "verifiedAt": "2026-11-14",
-          "verificationStatus": "official-index-link-only",
-          "notes": "2026-11-14重新開啟南一官方資源索引：列表明示「數學6下｜四則混合運算」，並列科目數學、年級6年級及差異化互動式教學LUMIO。僅能支持官方資源標題層級對照，不等同完整課本目次，不代表學校採用版本或正式段考範圍。",
+          "verificationStatus": "source-checked",
+          "notes": "2026-11-14重新開啟南一官方詳情頁：標題明示「數學6下｜四則混合運算」，頁面列國小、數學、6年級，學校／單位為南一書局。此為官方教學資源標題層級對照，不等同完整課本目次，不代表學校採用版本或正式段考範圍。",
           "mappingLevel": "official-resource-title",
           "volume": "數學6下",
-          "unitCode": "索引標題",
-          "unitName": "四則混合運算（官方索引標題層級）",
+          "unitCode": "官方資源標題",
+          "unitName": "四則混合運算（官方資源標題層級）",
           "unitAliases": [
             "四則混合運算"
           ],
@@ -781,8 +781,8 @@
           "courseType": "國小"
         }
       ],
-      "classificationNotes": "南一官方資源索引標題明示數學6下「四則混合運算」；只作官方索引標題層級對照，詳情頁未核對。",
-      "sourceRef": "https://tpack.nani.com.tw/nani_list?b=1&page=6&t=",
+      "classificationNotes": "2026-11-14重新開啟南一官方詳情頁：標題明示「數學6下｜四則混合運算」，頁面列國小、數學、6年級，學校／單位為南一書局。此為官方教學資源標題層級對照，不等同完整課本目次，不代表學校採用版本或正式段考範圍。",
+      "sourceRef": "https://tpack.nani.com.tw/nani_content?a=340&b=1",
       "learningDomain": "數與運算",
       "questionType": "推理判斷",
       "learningUnit": "四則混合運算",

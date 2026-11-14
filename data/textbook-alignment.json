@@ -610,16 +610,16 @@
       "subject": "數學",
       "semester": "下學期",
       "volume": "數學6下",
-      "unitCode": "索引標題",
-      "unitName": "四則混合運算（官方索引標題層級）",
+      "unitCode": "官方資源標題",
+      "unitName": "四則混合運算（官方資源標題層級）",
       "mappingLevel": "official-resource-title",
       "schoolYear": "未標示",
       "courseType": "國小",
-      "sourceUrl": "https://tpack.nani.com.tw/nani_list?b=1&page=6&t=",
-      "sourceTitle": "南一資源_國小資源索引－數學6下：四則混合運算",
+      "sourceUrl": "https://tpack.nani.com.tw/nani_content?a=340&b=1",
+      "sourceTitle": "南一資源_內文－數學6下｜四則混合運算",
       "verifiedAt": "2026-11-14",
-      "verificationStatus": "official-index-link-only",
-      "notes": "2026-11-14重新開啟南一官方資源索引：列表明示「數學6下｜四則混合運算」，並列科目數學、年級6年級及差異化互動式教學LUMIO。僅能支持官方資源標題層級對照，不等同完整課本目次，不代表學校採用版本或正式段考範圍。",
+      "verificationStatus": "source-checked",
+      "notes": "2026-11-14重新開啟南一官方詳情頁：標題明示「數學6下｜四則混合運算」，頁面列國小、數學、6年級，學校／單位為南一書局。此為官方教學資源標題層級對照，不等同完整課本目次，不代表學校採用版本或正式段考範圍。",
       "unitAliases": [
         "四則混合運算"
       ]
@@ -973,6 +973,16 @@
       "verifiedAt": "2026-11-14",
       "verificationStatus": "source-checked",
       "notes": "官方詳情頁明示國小社會六年級、社會6下、單元2科技與生活息息相關；只作官方教學資源標題層級參考。"
+    },
+    {
+      "id": "nani-g6-math-6b-four-operations",
+      "publisher": "nani",
+      "sourceType": "official-publisher",
+      "sourceUrl": "https://tpack.nani.com.tw/nani_content?a=340&b=1",
+      "sourceTitle": "南一資源_內文－數學6下｜四則混合運算",
+      "verifiedAt": "2026-11-14",
+      "verificationStatus": "source-checked",
+      "notes": "2026-11-14重新開啟南一官方詳情頁：標題明示「數學6下｜四則混合運算」，頁面列國小、數學、6年級，學校／單位為南一書局。此為官方教學資源標題層級對照，不等同完整課本目次，不代表學校採用版本或正式段考範圍。"
     }
   ],
   "classificationAudit": {
@@ -1540,6 +1550,26 @@
       "sourceUrl": "https://books.hanlin.com.tw/product/006022",
       "sourceTitle": "翰林書城－高中課本選修生物(II)生命的起源與植物",
       "result": "publisherStatus=curriculum-core; publisherMappings=[]; semester=unassigned; examPeriod=unassigned"
+    },
+    {
+      "date": "2026-11-14",
+      "mappingId": "nani-g6-math-6b-four-operations",
+      "publisher": "nani",
+      "action": "upgraded-from-official-index-link-only-to-detail-page-source-checked",
+      "reason": "重新開啟南一官方詳情頁，確認數學6下、國小數學六年級、四則混合運算及學校／單位南一書局；維持官方資源標題層級，不擴張為完整課本目次。",
+      "sourceUrl": "https://tpack.nani.com.tw/nani_content?a=340&b=1",
+      "sourceTitle": "南一資源_內文－數學6下｜四則混合運算",
+      "affectedQuestionIds": [
+        "b36-020",
+        "b37-021",
+        "b37-022",
+        "b38-024",
+        "b38-025",
+        "b38-026",
+        "b38-027",
+        "b38-028"
+      ],
+      "result": "8筆題目映射改為source-checked；semester維持下學期、examPeriod維持unassigned；不代表學校採用版本或正式段考範圍。"
     }
   ],
   "batch40UsageAudit": {
@@ -1758,8 +1788,8 @@
     "pullRequestUrl": "https://github.com/toyoyogo-cloud/xiaoyu-xiaoyu-learning-app/pull/6"
   },
   "mappingVerificationStatusCountsBatches08to41": {
-    "source-checked": 115,
-    "official-index-link-only": 8
+    "source-checked": 123,
+    "official-index-link-only": 0
   },
   "mappingLevelCountsBatches08to41": {
     "unit": 107,
@@ -3497,6 +3527,23 @@
       ],
       "questionRecordsUpdated": 0,
       "notes": "逐批掃描第8至41批國小六年級社會題目，未找到可逐題對應石化科技／資訊科技與生活的現有題目。新增中央教材參考，不建立題目級映射；不把科技、手機或供應鏈等概念相近題目硬掛此版本。官方資源不代表學校採用版本或完整課本目次。"
+    },
+    {
+      "runId": "2026-11-14-nani-g6-math-6b-four-operations-detail-check",
+      "verifiedAt": "2026-11-14",
+      "sourceChecks": [
+        {
+          "publisher": "nani",
+          "mappingIds": [
+            "nani-g6-math-6b-four-operations"
+          ],
+          "sourceUrl": "https://tpack.nani.com.tw/nani_content?a=340&b=1",
+          "sourceTitle": "南一資源_內文－數學6下｜四則混合運算",
+          "verifiedScope": "國小六年級數學6下；官方詳情頁明示「四則混合運算」，並列學校／單位南一書局；僅官方資源標題層級。"
+        }
+      ],
+      "questionRecordsUpdated": 8,
+      "notes": "逐一核對第36至38批共8題的年級、科目、單元與官方詳情頁標題。未將官方資源標題冒稱完整課本目次，未變更段考欄位，未宣稱學校採用版本或教師審核。"
     }
   ],
   "high2MathCourseTrackAudit": {
