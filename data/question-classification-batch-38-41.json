@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.1.0",
   "updatedAt": "2026-11-14",
-  "classificationRuleVersion": "2026-11-14.39",
+  "classificationRuleVersion": "2026-11-14.46",
   "batchRange": "38-41",
   "sourceBatchShas": {
     "38": "d5f0aed52035624b1aa72f3052577b8e13f11c91",
@@ -5579,7 +5579,7 @@
           "sourceTitle": "南一資源_內文－數學6下｜怎樣解題：雞兔問題",
           "verifiedAt": "2026-11-14",
           "verificationStatus": "source-checked",
-          "notes": "2026-11-14重新開啟南一資源官方頁，標題明示「數學6下｜怎樣解題：雞兔問題」，內容標示雞兔同籠。保留為官方資源標題層級，不宣稱完整課本目次或學校採用版本，也不代表正式段考範圍。",
+          "notes": "2026-11-14重新開啟南一官方詳情頁：標題明示「數學6下｜怎樣解題：雞兔問題」，內容介紹為國小數學數位教學應用「雞兔同籠」，頁面列國小、數學、6年級。此映射僅限官方資源標題層級與直接雞兔題；不等同完整課本目次、不代表學校採用版本或正式段考範圍。",
           "mappingLevel": "official-resource-title",
           "volume": "數學6下",
           "unitCode": "官方資源標題",
@@ -5597,7 +5597,7 @@
           "courseType": "國小"
         }
       ],
-      "classificationNotes": "南一官方索引標題顯示數學6下雞兔問題；詳情頁未能讀取，僅保留官方資源標題層級。",
+      "classificationNotes": "2026-11-14重新開啟南一官方詳情頁：標題明示「數學6下｜怎樣解題：雞兔問題」，內容介紹為國小數學數位教學應用「雞兔同籠」，頁面列國小、數學、6年級。此映射僅限官方資源標題層級與直接雞兔題；不等同完整課本目次、不代表學校採用版本或正式段考範圍。",
       "sourceRef": "https://tpack.nani.com.tw/nani_content?a=394&b=1",
       "learningDomain": "數與運算",
       "questionType": "概念辨識",
@@ -5623,7 +5623,7 @@
           "sourceTitle": "南一資源_內文－數學6下｜怎樣解題：雞兔問題",
           "verifiedAt": "2026-11-14",
           "verificationStatus": "source-checked",
-          "notes": "2026-11-14重新開啟南一資源官方頁，標題明示「數學6下｜怎樣解題：雞兔問題」，內容標示雞兔同籠。保留為官方資源標題層級，不宣稱完整課本目次或學校採用版本，也不代表正式段考範圍。",
+          "notes": "2026-11-14重新開啟南一官方詳情頁：標題明示「數學6下｜怎樣解題：雞兔問題」，內容介紹為國小數學數位教學應用「雞兔同籠」，頁面列國小、數學、6年級。此映射僅限官方資源標題層級與直接雞兔題；不等同完整課本目次、不代表學校採用版本或正式段考範圍。",
           "mappingLevel": "official-resource-title",
           "volume": "數學6下",
           "unitCode": "官方資源標題",
@@ -5641,7 +5641,7 @@
           "courseType": "國小"
         }
       ],
-      "classificationNotes": "南一官方索引標題顯示數學6下雞兔問題；詳情頁未能讀取，僅保留官方資源標題層級。",
+      "classificationNotes": "2026-11-14重新開啟南一官方詳情頁：標題明示「數學6下｜怎樣解題：雞兔問題」，內容介紹為國小數學數位教學應用「雞兔同籠」，頁面列國小、數學、6年級。此映射僅限官方資源標題層級與直接雞兔題；不等同完整課本目次、不代表學校採用版本或正式段考範圍。",
       "sourceRef": "https://tpack.nani.com.tw/nani_content?a=394&b=1",
       "learningDomain": "數與運算",
       "questionType": "概念辨識",
@@ -7890,7 +7890,7 @@
           "sourceTitle": "南一資源_內文－數學6下｜怎樣解題：雞兔問題",
           "verifiedAt": "2026-11-14",
           "verificationStatus": "source-checked",
-          "notes": "2026-11-14重新開啟南一資源官方頁，標題明示「數學6下｜怎樣解題：雞兔問題」，內容標示雞兔同籠。保留為官方資源標題層級，不宣稱完整課本目次或學校採用版本，也不代表正式段考範圍。",
+          "notes": "2026-11-14重新開啟南一官方詳情頁：標題明示「數學6下｜怎樣解題：雞兔問題」，內容介紹為國小數學數位教學應用「雞兔同籠」，頁面列國小、數學、6年級。此映射僅限官方資源標題層級與直接雞兔題；不等同完整課本目次、不代表學校採用版本或正式段考範圍。",
           "mappingLevel": "official-resource-title",
           "volume": "數學6下",
           "unitCode": "官方資源標題",
@@ -7908,7 +7908,7 @@
           "courseType": "國小"
         }
       ],
-      "classificationNotes": "南一官方索引標題顯示數學6下雞兔問題；詳情頁未能讀取，僅保留官方資源標題層級。",
+      "classificationNotes": "2026-11-14重新開啟南一官方詳情頁：標題明示「數學6下｜怎樣解題：雞兔問題」，內容介紹為國小數學數位教學應用「雞兔同籠」，頁面列國小、數學、6年級。此映射僅限官方資源標題層級與直接雞兔題；不等同完整課本目次、不代表學校採用版本或正式段考範圍。",
       "sourceRef": "https://tpack.nani.com.tw/nani_content?a=394&b=1",
       "learningDomain": "數與運算",
       "questionType": "情境推理",
@@ -7921,42 +7921,17 @@
       "subject": "數學",
       "courseTrack": null,
       "courseType": null,
-      "semester": "下學期",
+      "semester": "unassigned",
       "examPeriod": "unassigned",
-      "classificationBasis": "publisher-source-verified",
-      "confidence": "medium",
-      "publisherStatus": "publisher-mapped",
-      "publisherMappings": [
-        {
-          "publisher": "nani",
-          "mappingId": "nani-g6-math-6b-chicken-rabbit",
-          "sourceUrl": "https://tpack.nani.com.tw/nani_content?a=394&b=1",
-          "sourceTitle": "南一資源_內文－數學6下｜怎樣解題：雞兔問題",
-          "verifiedAt": "2026-11-14",
-          "verificationStatus": "source-checked",
-          "notes": "2026-11-14重新開啟南一資源官方頁，標題明示「數學6下｜怎樣解題：雞兔問題」，內容標示雞兔同籠。保留為官方資源標題層級，不宣稱完整課本目次或學校採用版本，也不代表正式段考範圍。",
-          "mappingLevel": "official-resource-title",
-          "volume": "數學6下",
-          "unitCode": "官方資源標題",
-          "unitName": "怎樣解題：雞兔問題（官方資源標題層級）",
-          "unitAliases": [
-            "雞兔問題",
-            "雞兔同籠"
-          ],
-          "scopeKeywords": [],
-          "semester": "下學期",
-          "grade": "六年級",
-          "subject": "數學",
-          "courseTrack": null,
-          "schoolYear": "未標示",
-          "courseType": "國小"
-        }
-      ],
-      "classificationNotes": "南一官方索引標題顯示數學6下雞兔問題；詳情頁未能讀取，僅保留官方資源標題層級。",
-      "sourceRef": "https://tpack.nani.com.tw/nani_content?a=394&b=1",
+      "classificationBasis": "curriculum-core",
+      "confidence": "low",
+      "publisherStatus": "curriculum-core",
+      "publisherMappings": [],
+      "classificationNotes": "原始題庫的 unit/t 標籤為「雞兔問題」，但題幹實際情境是汽車／機車或三腳椅／四腳桌，並非官方資源明示的雞兔同籠。為避免只因解題概念相似而掛出版社，改列108課綱共同核心；學期與段考均保留unassigned。分類索引將單元正規化為「頭數與腳數問題（假設法）」，原始題庫欄位不變。",
+      "sourceRef": "108課綱共同核心；南一雞兔同籠官方資源不支持此題幹情境",
       "learningDomain": "數與運算",
       "questionType": "情境推理",
-      "learningUnit": "雞兔問題",
+      "learningUnit": "頭數與腳數問題（假設法）",
       "difficultyLevel": "進階"
     },
     "b41-022": {
@@ -7965,42 +7940,17 @@
       "subject": "數學",
       "courseTrack": null,
       "courseType": null,
-      "semester": "下學期",
+      "semester": "unassigned",
       "examPeriod": "unassigned",
-      "classificationBasis": "publisher-source-verified",
-      "confidence": "medium",
-      "publisherStatus": "publisher-mapped",
-      "publisherMappings": [
-        {
-          "publisher": "nani",
-          "mappingId": "nani-g6-math-6b-chicken-rabbit",
-          "sourceUrl": "https://tpack.nani.com.tw/nani_content?a=394&b=1",
-          "sourceTitle": "南一資源_內文－數學6下｜怎樣解題：雞兔問題",
-          "verifiedAt": "2026-11-14",
-          "verificationStatus": "source-checked",
-          "notes": "2026-11-14重新開啟南一資源官方頁，標題明示「數學6下｜怎樣解題：雞兔問題」，內容標示雞兔同籠。保留為官方資源標題層級，不宣稱完整課本目次或學校採用版本，也不代表正式段考範圍。",
-          "mappingLevel": "official-resource-title",
-          "volume": "數學6下",
-          "unitCode": "官方資源標題",
-          "unitName": "怎樣解題：雞兔問題（官方資源標題層級）",
-          "unitAliases": [
-            "雞兔問題",
-            "雞兔同籠"
-          ],
-          "scopeKeywords": [],
-          "semester": "下學期",
-          "grade": "六年級",
-          "subject": "數學",
-          "courseTrack": null,
-          "schoolYear": "未標示",
-          "courseType": "國小"
-        }
-      ],
-      "classificationNotes": "南一官方索引標題顯示數學6下雞兔問題；詳情頁未能讀取，僅保留官方資源標題層級。",
-      "sourceRef": "https://tpack.nani.com.tw/nani_content?a=394&b=1",
+      "classificationBasis": "curriculum-core",
+      "confidence": "low",
+      "publisherStatus": "curriculum-core",
+      "publisherMappings": [],
+      "classificationNotes": "原始題庫的 unit/t 標籤為「雞兔問題」，但題幹實際情境是汽車／機車或三腳椅／四腳桌，並非官方資源明示的雞兔同籠。為避免只因解題概念相似而掛出版社，改列108課綱共同核心；學期與段考均保留unassigned。分類索引將單元正規化為「頭數與腳數問題（假設法）」，原始題庫欄位不變。",
+      "sourceRef": "108課綱共同核心；南一雞兔同籠官方資源不支持此題幹情境",
       "learningDomain": "數與運算",
       "questionType": "情境推理",
-      "learningUnit": "雞兔問題",
+      "learningUnit": "頭數與腳數問題（假設法）",
       "difficultyLevel": "進階"
     },
     "b41-023": {
@@ -9998,5 +9948,5 @@
       "difficultyLevel": "進階"
     }
   },
-  "notes": " 2026-11-14.36：逐筆比對第38-41批原始題庫 semester 欄位，將原題庫已填且分類索引仍為 unassigned 的學期值同步為 question-bank-inference；不改動 publisher-source-verified、不推定段考、不新增出版社映射。"
+  "notes": " 2026-11-14.36：逐筆比對第38-41批原始題庫 semester 欄位，將原題庫已填且分類索引仍為 unassigned 的學期值同步為 question-bank-inference；不改動 publisher-source-verified、不推定段考、不新增出版社映射。 2026-11-14.46：南一官方「數學6下｜怎樣解題：雞兔問題」詳情頁已開啟核對；保留5題直接雞兔同籠映射，將3題汽車／機車及三腳椅／四腳桌類比題撤回出版社映射並改列共同核心。"
 }
