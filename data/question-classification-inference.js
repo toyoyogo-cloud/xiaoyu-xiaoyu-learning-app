@@ -69,7 +69,7 @@ function inferred(q){
  const grade = q.grade || "";
  const subject = q.subject || "";
  const unit = label(q);
- if(grade==="六年級"&&subject==="自然"&&/串聯電路|並聯電路/.test(unit)){
+ if(grade==="六年級"&&subject==="自然"&&/串聯電路|並聯電路|電磁鐵|線圈/.test(unit)){
   const ref=CURRICULUM_REFERENCES["ntue-g6-natural-6a-u4-electricity-magnetism"];
   return {semester:"上學期",basis:"curriculum-core",confidence:"medium",notes:ref.notes,sourceRef:ref.sourceUrl};
  }
@@ -199,5 +199,5 @@ function classify(q){
  return {semester,examPeriod,classificationBasis:basis,confidence,publisherStatus,publisherMappings:mappings,classificationNotes:notes,reason:notes,sourceRef,learningDomain:(source.learningDomain&&source.learningDomain!=="綜合／待細分")?source.learningDomain:domainFor(source),questionType:source.questionType||typeFor(source),learningUnit:source.learningUnit||label(source)||"未標示",difficultyLevel:difficultyFor(source)};
 }
 window.questionClassificationFor=classify;
-window.QUESTION_CLASSIFICATION_RULES_VERSION="2026-11-14.47";
+window.QUESTION_CLASSIFICATION_RULES_VERSION="2026-11-15.48";
 })();
