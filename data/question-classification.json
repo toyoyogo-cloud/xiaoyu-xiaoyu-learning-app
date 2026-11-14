@@ -55,7 +55,7 @@
     "learningUnit",
     "difficultyLevel"
   ],
-  "notes": "以穩定題目ID為鍵。第8至41批共2,900題均已持久分類；六個分片保留原始批次檔 SHA。冊別層級來源僅作參考，未核對單元目次者不自動掛到單題。學期與段考未能可靠判定者保留 unassigned。 2026-11-14軌別回查：90筆高二數學單元標籤與翰林數學(3A)目次相近，但原題未標數學A/B軌別；不新增出版社映射，semester與examPeriod維持unassigned，並在分類備註留存理由。 2026-11-14品質盤點：六題高中高二物理電功率題（b9-016、b11-021、b12-025、b16-059、b23-074、b37-069）列為疑似近重複候選，維持待核對與unassigned，不自動刪除；另在第9與13批發現一組高一數學正規化題幹完全相同（b9-006、b13-013），列入品質複核。 2026-11-14.36學期欄位回填：逐筆比對原始第08-41批題庫欄位，將211筆既有semester值同步到分類索引（高二物理上學期82、高二化學上學期26／全學年74、高二生物上學期29）；分類依據為question-bank-inference、confidence=low，段考與出版社映射不變。 2026-11-14.37原始欄位交叉核對：第8至41批2,900題逐批比對原始semester與examPeriod；12筆為國小六年級數學依單元群推定的學期／段考值（原始批次仍為unassigned），原始已填值漏存0。六個分類分片2,900筆、必要欄位完整；官方來源未支持的題目不新增出版社映射。 2026-11-14.38南一數學6下「四則混合運算」詳情頁覆核：更新8筆既有題目（b36-020、b37-021、b37-022、b38-024至b38-028）的來源URL、標題與驗證狀態；維持官方資源標題層級，semester=下學期、examPeriod=unassigned，不宣稱完整課本目次或學校採用版本。 2026-11-14.39分類與映射索引稽核：確認六分片共2,900筆、必要欄位缺漏0、出版社映射123筆全部可解析至19筆中央映射與19筆推定器MAPS，來源欄位不一致0；修正原始欄位交叉核對清單，13筆題庫推定覆寫（新增補列b19-019），原始已填值漏存0。",
+  "notes": "以穩定題目ID為鍵。第8至41批共2,900題均已持久分類；六個分片保留原始批次檔 SHA。冊別層級來源僅作參考，未核對單元目次者不自動掛到單題。學期與段考未能可靠判定者保留 unassigned。 2026-11-14軌別回查：90筆高二數學單元標籤與翰林數學(3A)目次相近，但原題未標數學A/B軌別；不新增出版社映射，semester與examPeriod維持unassigned，並在分類備註留存理由。 2026-11-14品質盤點：六題高中高二物理電功率題（b9-016、b11-021、b12-025、b16-059、b23-074、b37-069）列為疑似近重複候選，維持待核對與unassigned，不自動刪除；另在第9與13批發現一組高一數學正規化題幹完全相同（b9-006、b13-013），列入品質複核。 2026-11-14.36學期欄位回填：逐筆比對原始第08-41批題庫欄位，將211筆既有semester值同步到分類索引（高二物理上學期82、高二化學上學期26／全學年74、高二生物上學期29）；分類依據為question-bank-inference、confidence=low，段考與出版社映射不變。 2026-11-14.37原始欄位交叉核對：第8至41批2,900題逐批比對原始semester與examPeriod；12筆為國小六年級數學依單元群推定的學期／段考值（原始批次仍為unassigned），原始已填值漏存0。六個分類分片2,900筆、必要欄位完整；官方來源未支持的題目不新增出版社映射。 2026-11-14.38南一數學6下「四則混合運算」詳情頁覆核：更新8筆既有題目（b36-020、b37-021、b37-022、b38-024至b38-028）的來源URL、標題與驗證狀態；維持官方資源標題層級，semester=下學期、examPeriod=unassigned，不宣稱完整課本目次或學校採用版本。 2026-11-14.39分類與映射索引稽核：確認六分片共2,900筆、必要欄位缺漏0、出版社映射123筆全部可解析至19筆中央映射與19筆推定器MAPS，來源欄位不一致0；修正原始欄位交叉核對清單，13筆題庫推定覆寫（新增補列b19-019），原始已填值漏存0。 2026-11-14.40篩選資料層靜態驗收：年級、科目、學期、段考、出版社共16,200組條件；804組有題、15,396組為合理零題組合，出版社映射洩漏0，全部預設條件可讀取2,900題。已確認index.html含指定出版社無題與一般零題提示；未執行瀏覽器實機測試。因manifest與教材對照資料更新，Service Worker快取版升至xy-learning-v108。",
   "lastReconciliation": {
     "date": "2026-11-14",
     "type": "original-question-bank-semester-sync",
@@ -128,5 +128,25 @@
     "sourceFieldMismatches": 0,
     "missingRequiredClassificationFields": 0,
     "notes": "六個持久分類分片重新解析後，123筆題目級出版社映射全部可在textbook-alignment.json與question-classification-inference.js找到相同mappingId；publisher、sourceUrl、sourceTitle、verifiedAt、verificationStatus一致。未將冊別層級參考擴張成題目級單元映射。"
+  },
+  "lastFilterDataAudit": {
+    "date": "2026-11-14",
+    "type": "classification-filter-data-layer-static-simulation",
+    "records": 2900,
+    "dimensions": [
+      "grade",
+      "subject",
+      "semester",
+      "examPeriod",
+      "publisher"
+    ],
+    "combinationsTested": 16200,
+    "nonEmptyCombinations": 804,
+    "zeroResultCombinations": 15396,
+    "defaultAllFilterReturns": 2900,
+    "publisherMappingLeaks": 0,
+    "zeroResultHintPresent": true,
+    "browserOrMobileRuntimeTested": false,
+    "notes": "以持久分類分片資料模擬index.html的年級、科目、學期、段考及出版社篩選條件；指定出版社只接受具有該publisher映射的題目。此為資料層靜態模擬，不代表瀏覽器實機測試。"
   }
 }
