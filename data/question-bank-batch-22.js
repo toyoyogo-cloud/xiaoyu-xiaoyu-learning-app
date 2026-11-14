@@ -172,7 +172,7 @@ window.EXTRA22_GRADE_BANK = [
     "id": "b22-007",
     "stage": "國小",
     "grade": "六年級",
-    "subject": "英文",
+    "subject": "英語",
     "d": "進階",
     "t": "一般過去式否定句",
     "q": "Choose the correct word: “Yesterday, Mia didn't ____ to school because she was sick.”",
