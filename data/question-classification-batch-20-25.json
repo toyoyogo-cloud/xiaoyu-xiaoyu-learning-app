@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.1.0",
   "updatedAt": "2026-11-14",
-  "classificationRuleVersion": "2026-11-14.39",
+  "classificationRuleVersion": "2026-11-14.47",
   "batchRange": "20-25",
   "sourceBatchShas": {
     "20": "679b5752f1be7ee03e8b20de4221fa873c0f5bf5",
@@ -10070,14 +10070,14 @@
       "subject": "自然",
       "courseTrack": null,
       "courseType": null,
-      "semester": "unassigned",
+      "semester": "上學期",
       "examPeriod": "unassigned",
       "classificationBasis": "curriculum-core",
-      "confidence": "low",
+      "confidence": "medium",
       "publisherStatus": "curriculum-core",
       "publisherMappings": [],
-      "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。",
-      "sourceRef": "依108課綱核心素養與學科概念原創編寫；非歷屆試題原文",
+      "classificationNotes": "依國立臺北教育大學雙語教學研究中心官方單元目錄，六年級自然上學期單元四為「電磁作用」。本題直接涉及串聯／並聯電路通路，僅在課程主題層級歸入該單元；來源未列出版社版本或細分課本目次，因此不建立南一、翰林、康軒映射；未提供學校段考範圍，examPeriod維持unassigned。",
+      "sourceRef": "ntue-g6-natural-6a-u4-electricity-magnetism | 國立臺北教育大學雙語教學研究中心－國小自然科學筆記本、雙語教學資源手冊 | https://bilingual.ntue.edu.tw/p/404-1054-31326.php?Lang=zh-tw",
       "learningDomain": "物理能量",
       "questionType": "概念辨識",
       "learningUnit": "並聯電路",
@@ -11444,5 +11444,5 @@
       "difficultyLevel": "挑戰"
     }
   },
-  "notes": " 2026-11-14.36：逐筆比對第20-25批原始題庫 semester 欄位，將原題庫已填且分類索引仍為 unassigned 的學期值同步為 question-bank-inference；不改動 publisher-source-verified、不推定段考、不新增出版社映射。"
+  "notes": " 2026-11-14.36：逐筆比對第20-25批原始題庫 semester 欄位，將原題庫已填且分類索引仍為 unassigned 的學期值同步為 question-bank-inference；不改動 publisher-source-verified、不推定段考、不新增出版社映射。 2026-11-14.47：依國立臺北教育大學雙語教學研究中心官方目錄，將六年級自然串聯／並聯電路題目對應至上學期單元四「電磁作用」之課程主題層級；共1題，僅更新semester，examPeriod與出版社映射不變。"
 }
