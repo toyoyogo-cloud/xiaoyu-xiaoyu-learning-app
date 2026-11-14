@@ -3,7 +3,7 @@
   "target": 1000,
   "currentVerifiedNewGradeSpecificQuestions": 2900,
   "targetRemainder": 0,
-  "updatedAt": "2026-11-14",
+  "updatedAt": "2026-11-15",
   "distributionTarget": [
     {
       "stage": "國小",
@@ -591,7 +591,7 @@
       }
     }
   },
-  "textbookMappingCount": 18,
+  "textbookMappingCount": 30,
   "lastBatchNote": "第41批新增100題（小六50、高二50）；35題有中央來源映射（南一6、翰林27、康軒2），65題為108課綱共同核心；分類器v13規則交叉檢查與儲存分類欄位一致，瀏覽器runtime尚未實測。",
   "candidateBranchAudit": {
     "date": "2026-11-13",
@@ -1206,22 +1206,41 @@
         "browserTested": false
       },
       "notes": "第11批30題已補齊learningDomain、questionType、learningUnit、difficultyLevel並寫入獨立分類索引。b11-005依六年級圓周單元群保留下學期／第一次段考複習建議，不代表學校正式範圍。b11-021及跨批次b12-025、b16-059、b23-074、b37-069原翰林選修物理(II)映射均因電路／電功率超出冊別對照範圍而撤除，改列待核對。其餘無足夠出版社來源者不掛出版社；本次新增題目0題。"
+    },
+    {
+      "date": "2026-11-15",
+      "runId": "2026-11-15-g6-math-fraction-division-cross-version-01",
+      "batches": "08-41",
+      "questions": 2900,
+      "classificationIndexTotal": 2900,
+      "questionRecordsUpdated": 4,
+      "updatedQuestionIds": [
+        "b32-012",
+        "b33-019",
+        "b37-028",
+        "b39-025"
+      ],
+      "publisherMappingReferencesAdded": 12,
+      "centralMappingRegistryCount": 30,
+      "semesterAssignments": {
+        "上學期": 4
+      },
+      "examPeriodAssignments": 0,
+      "classificationBasis": "publisher-source-verified",
+      "confidence": "medium",
+      "publisherStatus": "publisher-mapped",
+      "newQuestionsAdded": 0,
+      "sourceUrl": "https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
+      "sourceTitle": "翰林國小輔教行銷處－數學能力加強系列[6年級]抽印本，第50頁「六年級版本對照表」",
+      "notes": "翰林國小輔教行銷處第50頁明列單元2分數除法：翰林、康軒、南一三版均對應六上第2單元；未標示學年度，不代表學校採用版本。四題段考維持unassigned。"
     }
   ],
   "latestMainClassificationAudit": {
-    "auditedAt": "2026-11-14",
+    "auditedAt": "2026-11-15",
     "branch": "main",
-    "sourceHeadBeforeRun": "39a6265b0bc5cb88ec627994fd20a96d5bc96d63",
+    "sourceHeadBeforeRun": "954bf60b498c549af3fb7a6df33bf15b30c3ba6d",
     "batchRange": "08-41",
     "batchFileCount": 34,
-    "batchQuestionCounts": {
-      "08-13": 182,
-      "14-19": 517,
-      "20-25": 601,
-      "26-31": 600,
-      "32-37": 600,
-      "38-41": 400
-    },
     "questionCount": 2900,
     "uniqueQuestionIds": 2900,
     "duplicateQuestionIds": 0,
@@ -1232,48 +1251,20 @@
       "高二": 974,
       "高三": 373
     },
-    "unitLabelCoverage": {
-      "questionsWithUnitOrTopic": 2900,
-      "missingUnitOrTopic": 0
-    },
     "storedClassificationFields": {
       "complete": 2900,
-      "missing": 0,
-      "fields": [
-        "semester",
-        "examPeriod",
-        "classificationBasis",
-        "confidence",
-        "publisherStatus",
-        "publisherMappings",
-        "classificationNotes",
-        "sourceRef",
-        "learningDomain",
-        "questionType",
-        "learningUnit",
-        "difficultyLevel"
-      ]
-    },
-    "extendedMetadata": {
-      "complete": 2900,
-      "remaining": 0,
-      "classificationIndexEntries": 2900,
-      "learningDomain": 2900,
-      "questionType": 2900,
-      "learningUnit": 2900,
-      "difficultyLevel": 2900
+      "missing": 0
     },
     "classificationBasisDistribution": {
-      "publisher-source-verified": 44,
-      "question-bank-inference": 231,
-      "curriculum-core": 2625,
-      "unassigned": 0
+      "publisher-source-verified": 96,
+      "question-bank-inference": 451,
+      "curriculum-core": 2353
     },
     "semesterDistribution": {
-      "上學期": 168,
-      "下學期": 107,
-      "全學年": 0,
-      "unassigned": 2625
+      "上學期": 357,
+      "下學期": 131,
+      "全學年": 74,
+      "unassigned": 2338
     },
     "examPeriodDistribution": {
       "第一次段考": 66,
@@ -1282,78 +1273,60 @@
       "unassigned": 2669
     },
     "publisherStatusDistribution": {
-      "publisher-mapped": 123,
-      "curriculum-core": 2771,
+      "publisher-mapped": 175,
+      "curriculum-core": 2719,
       "pending": 6
     },
-    "publisherMappedQuestionCount": 123,
-    "publisherMappingReferenceCount": 123,
-    "centralMappingRegistryCount": 18,
+    "publisherMappedQuestionCount": 175,
+    "publisherMappingReferenceCount": 199,
+    "centralMappingRegistryCount": 30,
     "publisherReferenceCounts": {
-      "hanlin": 79,
-      "knsh": 9,
-      "nani": 35
+      "hanlin": 87,
+      "knsh": 64,
+      "nani": 48
     },
     "mappingVerificationStatusCounts": {
-      "source-checked": 115,
-      "official-index-link-only": 8
+      "source-checked": 199
     },
     "mappingLevelCounts": {
-      "unit": 107,
-      "official-resource-title": 16
+      "unit": 153,
+      "official-resource-title": 46
     },
     "confidenceDistribution": {
-      "low": 2445,
-      "medium": 427,
+      "low": 2384,
+      "medium": 488,
       "high": 28
     },
-    "pendingQuestionCount": 6,
-    "mappingValidationThisRun": {
-      "mappingReferences": 123,
-      "registryReferencesFound": 123,
-      "sourceFieldErrors": 0,
-      "gradeSubjectSemesterTrackErrors": 0,
-      "courseTypeErrors": 0,
-      "unitOrVolumeScopeErrors": 0,
-      "officialSourcePagesReopened": 2,
-      "limitation": "本次重新開啟翰林國小自然科學6上與6下官方商品頁，僅確認年級、科目、學期及冊別，未提供細分目次；新增2筆冊別層級參考但未套用到任何題目。其餘123筆題目映射沿用中央來源登錄並完成內部一致性檢查，未宣稱全部官方網址均於本次重新開啟。"
-    },
     "newQuestionsAdded": 0,
-    "serviceWorkerCache": "xy-learning-v96",
     "browserTested": false,
-    "notes": "2,900題均有12項持久分類欄位且ID唯一。學期仍未分類2,625題、段考仍未分類2,669題，代表證據不足而非缺少持久欄位；出版社待核對6題。冊別層級官方參考不等於題目層級映射或學校採用版本。",
-    "staticFilterReachability": {
-      "auditedAt": "2026-11-14",
+    "latestRun": {
+      "date": "2026-11-15",
+      "runId": "2026-11-15-g6-math-fraction-division-cross-version-01",
       "batches": "08-41",
-      "questionsChecked": 2900,
-      "perQuestionIndexReachability": {
-        "reachable": 2900,
-        "unreachable": 0
+      "questions": 2900,
+      "classificationIndexTotal": 2900,
+      "questionRecordsUpdated": 4,
+      "updatedQuestionIds": [
+        "b32-012",
+        "b33-019",
+        "b37-028",
+        "b39-025"
+      ],
+      "publisherMappingReferencesAdded": 12,
+      "centralMappingRegistryCount": 30,
+      "semesterAssignments": {
+        "上學期": 4
       },
-      "classificationValueAndMetadataErrors": 0,
-      "publisherStatusMappingConsistencyErrors": 0,
-      "publisherMappingScopeErrors": 0,
-      "publisherCategoryReachability": {
-        "curriculumCore": 2771,
-        "pending": 6,
-        "hanlin": 79,
-        "knsh": 9,
-        "nani": 35
-      },
-      "courseTrackAnomalies": 0,
-      "staticPerQuestionCheck": true,
-      "exhaustiveCartesianCombinationTest": true,
-      "combinations": 48600,
-      "combinationViolations": 0,
-      "browserTested": false
+      "examPeriodAssignments": 0,
+      "classificationBasis": "publisher-source-verified",
+      "confidence": "medium",
+      "publisherStatus": "publisher-mapped",
+      "newQuestionsAdded": 0,
+      "sourceUrl": "https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
+      "sourceTitle": "翰林國小輔教行銷處－數學能力加強系列[6年級]抽印本，第50頁「六年級版本對照表」",
+      "notes": "翰林國小輔教行銷處第50頁明列單元2分數除法：翰林、康軒、南一三版均對應六上第2單元；未標示學年度，不代表學校採用版本。四題段考維持unassigned。"
     },
-    "duplicateCandidateAudit": {
-      "exactStemGroups": 1,
-      "nearDuplicateGroups": 1,
-      "questionsFlagged": 8,
-      "reviewRequired": true
-    },
-    "sourceHead": "85694b7f0de42b1f018517c963d1f2f1caade8e3"
+    "notes": "第8至41批2,900題的分類索引完整；本輪持久分類4題六年級分數除法，段考未推定。"
   },
   "latestClassificationBackfill": {
     "auditedAt": "2026-11-14",
@@ -1743,8 +1716,8 @@
     "notes": "第11批30題已補齊learningDomain、questionType、learningUnit、difficultyLevel並寫入獨立分類索引。b11-005依六年級圓周單元群保留下學期／第一次段考複習建議，不代表學校正式範圍。b11-021及跨批次b12-025、b16-059、b23-074、b37-069原翰林選修物理(II)映射均因電路／電功率超出冊別對照範圍而撤除，改列待核對。其餘無足夠出版社來源者不掛出版社；本次新增題目0題。"
   },
   "latestClassificationProgress": {
-    "auditedAt": "2026-11-14",
-    "sourceHeadBeforeRun": "39a6265b0bc5cb88ec627994fd20a96d5bc96d63",
+    "auditedAt": "2026-11-15",
+    "sourceHeadBeforeRun": "954bf60b498c549af3fb7a6df33bf15b30c3ba6d",
     "batchRange": "08-41",
     "batchFileCount": 34,
     "totalQuestions": 2900,
@@ -1756,18 +1729,11 @@
     "classificationIndexEntries": 2900,
     "missingIndexIds": 0,
     "extraIndexIds": 0,
-    "gradeDistribution": {
-      "五年級": 290,
-      "六年級": 890,
-      "高一": 373,
-      "高二": 974,
-      "高三": 373
-    },
     "semesterDistribution": {
-      "上學期": 168,
-      "下學期": 107,
-      "全學年": 0,
-      "unassigned": 2625
+      "上學期": 357,
+      "下學期": 131,
+      "全學年": 74,
+      "unassigned": 2338
     },
     "examPeriodDistribution": {
       "第一次段考": 66,
@@ -1776,51 +1742,59 @@
       "unassigned": 2669
     },
     "classificationBasisDistribution": {
-      "publisher-source-verified": 44,
-      "question-bank-inference": 231,
-      "curriculum-core": 2625,
-      "unassigned": 0
+      "publisher-source-verified": 96,
+      "question-bank-inference": 451,
+      "curriculum-core": 2353
     },
     "publisherStatusDistribution": {
-      "publisher-mapped": 123,
-      "curriculum-core": 2771,
+      "publisher-mapped": 175,
+      "curriculum-core": 2719,
       "pending": 6
     },
-    "publisherMappedQuestions": 123,
-    "pendingQuestions": 6,
     "confidenceDistribution": {
-      "low": 2445,
-      "medium": 427,
+      "low": 2384,
+      "medium": 488,
       "high": 28
     },
+    "publisherMappedQuestions": 175,
+    "pendingQuestions": 6,
     "publisherReferenceCounts": {
-      "hanlin": 79,
-      "knsh": 9,
-      "nani": 35
+      "hanlin": 87,
+      "knsh": 64,
+      "nani": 48
     },
     "mappingVerificationStatusCounts": {
-      "source-checked": 115,
-      "official-index-link-only": 8
+      "source-checked": 199
     },
     "mappingLevelCounts": {
-      "unit": 107,
-      "official-resource-title": 16
+      "unit": 153,
+      "official-resource-title": 46
+    },
+    "browserTested": false,
+    "gradeDistribution": {
+      "五年級": 290,
+      "六年級": 890,
+      "高一": 373,
+      "高二": 974,
+      "高三": 373
     },
     "nextBatchForClassification": null,
-    "nextClassificationWork": "既有題庫第8至41批第一輪持久分類欄位已完整。下一輪以年級／科目／單元分組，逐筆補強官方目次與學校採用資料；無足夠證據的學期、段考及出版社版本維持 unassigned／108課綱共同核心／待核對，不為填滿篩選器而推定。",
-    "browserTested": false,
+    "nextClassificationWork": "持續以六年級與高二尚未分類題目為主，逐科逐單元核對官方目次與課綱資料；只有來源同時支持年級、科目、學期／冊別及單元才建立出版社映射。段考缺乏學校正式範圍時維持unassigned；不為增加題數而新增題目。",
     "filterValidation": {
-      "auditedAt": "2026-11-14",
-      "batches": "08-41",
-      "questionsChecked": 2900,
-      "reachable": 2900,
-      "unreachable": 0,
-      "publisherLeakage": 0,
-      "combinations": 48600,
-      "violations": 0,
-      "staticPerQuestionCheck": true,
-      "exhaustiveCartesianCombinationTest": true,
-      "browserTested": false
+      "auditedAt": "2026-11-15",
+      "questionsChecked": 4,
+      "questionIds": [
+        "b32-012",
+        "b33-019",
+        "b37-028",
+        "b39-025"
+      ],
+      "mappingReferencesChecked": 12,
+      "allMappingReferencesResolve": true,
+      "publisherMappingLeaks": 0,
+      "filterErrors": 0,
+      "browserTested": false,
+      "previousFullCorpusExhaustiveTestPreserved": true
     }
   },
   "currentIndexReconciliation": {
@@ -1990,7 +1964,7 @@
     "storageMode": "sharded",
     "shardCount": 6,
     "questionCount": 2900,
-    "ruleVersion": "2026-11-14.34",
+    "ruleVersion": "2026-11-15.53",
     "coverageStatus": "complete",
     "shards": [
       "data/question-classification-batch-08-13.json",
@@ -2002,7 +1976,7 @@
     ]
   },
   "classificationPriorityStatus": {
-    "auditedAt": "2026-11-14",
+    "auditedAt": "2026-11-15",
     "batches": "08-41",
     "batchFileCount": 34,
     "totalQuestions": 2900,
@@ -2013,16 +1987,16 @@
     "requiredFieldsComplete": 2900,
     "extendedMetadataComplete": 2900,
     "classificationBasis": {
-      "curriculumCore": 2625,
-      "questionBankInference": 231,
-      "publisherSourceVerified": 44,
+      "curriculumCore": 2353,
+      "questionBankInference": 451,
+      "publisherSourceVerified": 96,
       "unassigned": 0
     },
     "semester": {
-      "unassigned": 2625,
-      "firstSemester": 168,
-      "secondSemester": 107,
-      "fullYear": 0
+      "unassigned": 2338,
+      "firstSemester": 357,
+      "secondSemester": 131,
+      "fullYear": 74
     },
     "examPeriod": {
       "unassigned": 2669,
@@ -2031,62 +2005,37 @@
       "thirdExam": 94
     },
     "confidence": {
-      "low": 2445,
-      "medium": 427,
+      "low": 2384,
+      "medium": 488,
       "high": 28
     },
     "publisherStatus": {
-      "curriculumCore": 2771,
-      "publisherMapped": 123,
+      "curriculumCore": 2719,
+      "publisherMapped": 175,
       "pending": 6
     },
     "publisherReferences": {
-      "hanlin": 79,
-      "knsh": 9,
-      "nani": 35
+      "hanlin": 87,
+      "knsh": 64,
+      "nani": 48
     },
-    "centralMappingRegistryCount": 18,
-    "sourceMappingRecordsRefreshed": 106,
-    "officialPagesReopened": 3,
+    "centralMappingRegistryCount": 30,
+    "sourceMappingRecordsRefreshed": 199,
+    "officialPagesReopened": 1,
     "newQuestionsAdded": 0,
-    "nextPriority": "完成既有2,900題的語意品質複核，優先國小六年級與高中高二；對沒有官方學期／冊別／單元依據的題目維持unassigned。每次先檢查既有ID、來源SHA與分類分片，再逐批更新。",
     "activeQuestionCount": 1864,
-    "activeGradeSubjectCounts": {
-      "國小/六年級": {
-        "國語": 165,
-        "數學": 225,
-        "自然": 178,
-        "社會": 174,
-        "英語": 148
-      },
-      "高中/高二": {
-        "數學": 212,
-        "英文": 58,
-        "物理": 140,
-        "化學": 136,
-        "生物": 110,
-        "地理": 84,
-        "歷史": 72,
-        "公民": 85,
-        "地球科學": 24,
-        "國文": 50,
-        "社會": 1,
-        "經濟": 2
-      }
+    "activeScopeSemester": {
+      "unassigned": 1302,
+      "firstSemester": 357,
+      "secondSemester": 131,
+      "fullYear": 74
     },
-    "subjectLabelCorrections": 5,
-    "subjectOptionCoverageErrors": 0,
-    "filterCombinationsSimulated": 18900,
-    "filterCombinationErrors": 0,
-    "unitFilterGroupsTested": 960,
-    "browserTested": false,
-    "sourceHead": "85694b7f0de42b1f018517c963d1f2f1caade8e3",
-    "duplicateCandidateGroups": {
-      "exactStem": 1,
-      "nearDuplicate": 1,
-      "questionsFlagged": 8
+    "activeScopePublisherStatus": {
+      "curriculumCore": 1683,
+      "publisherMapped": 175,
+      "pending": 6
     },
-    "duplicateAuditScope": "分批題幹檢查；非全庫語意去重完成"
+    "nextPriority": "繼續分組處理六年級與高二尚未分類的既有題目；本輪未新增題目。"
   },
   "duplicateCandidateAudit": {
     "auditedAt": "2026-11-14",
