@@ -983,6 +983,26 @@
       "verifiedAt": "2026-11-14",
       "verificationStatus": "source-checked",
       "notes": "2026-11-14重新開啟南一官方詳情頁：標題明示「數學6下｜四則混合運算」，頁面列國小、數學、6年級，學校／單位為南一書局。此為官方教學資源標題層級對照，不等同完整課本目次，不代表學校採用版本或正式段考範圍。"
+    },
+    {
+      "id": "hanlin-g6-social-6a-volume-check-2026",
+      "publisher": "hanlin",
+      "sourceType": "official-publisher",
+      "sourceUrl": "https://books.hanlin.com.tw/product/1050111",
+      "sourceTitle": "翰林書城－國小課本－社會(6上)",
+      "verifiedAt": "2026-11-14",
+      "verificationStatus": "source-checked",
+      "notes": "官方商品頁明示科目社會、國小6年級、上學期及課本商品；頁面未提供細分單元目次。僅作冊別層級來源參考，不建立題目級映射，不代表學校採用版本。"
+    },
+    {
+      "id": "hanlin-g6-social-6b-volume-check-2026",
+      "publisher": "hanlin",
+      "sourceType": "official-publisher",
+      "sourceUrl": "https://books.hanlin.com.tw/product/1050121",
+      "sourceTitle": "翰林書城－國小課本－社會(6下)",
+      "verifiedAt": "2026-11-14",
+      "verificationStatus": "source-checked",
+      "notes": "官方商品頁明示科目社會、國小6年級、下學期及課本商品；頁面未提供細分單元目次。僅作冊別層級來源參考，不建立題目級映射，不代表學校採用版本。"
     }
   ],
   "classificationAudit": {
@@ -3569,6 +3589,28 @@
         }
       ],
       "notes": "重新開啟翰林官方6上與6下商品頁，核對既有冊別層級映射。已以精確網址確認6上商品/1040111頁面標題為「國小課本-自然科學(6上)」（更正本稽核紀錄先前誤寫的「習作」）；6下商品/1040121亦為「國小課本-自然科學(6下)」。兩頁都只支持年級、科目、學期與冊別層級，未提供細分目次；第8至41批小六自然題目沒有可同時支持題目單元與冊別的官方目次證據，因此不新增題目級出版社映射，也不依冊別頁面推定題目的學期或段考。"
+    },
+    {
+      "runId": "2026-11-14-hanlin-g6-social-volume-scope-check-01",
+      "verifiedAt": "2026-11-14",
+      "sourceChecks": [
+        {
+          "publisher": "hanlin",
+          "mappingIds": [],
+          "sourceUrl": "https://books.hanlin.com.tw/product/1050111",
+          "sourceTitle": "翰林書城－國小課本－社會(6上)",
+          "verifiedScope": "官方頁明示國小六年級社會及6上／6下冊別；未提供可逐題核對的細分單元目次。"
+        },
+        {
+          "publisher": "hanlin",
+          "mappingIds": [],
+          "sourceUrl": "https://books.hanlin.com.tw/product/1050121",
+          "sourceTitle": "翰林書城－國小課本－社會(6下)",
+          "verifiedScope": "官方頁明示國小六年級社會及6上／6下冊別；未提供可逐題核對的細分單元目次。"
+        }
+      ],
+      "questionRecordsUpdated": 0,
+      "notes": "重新核對第8至41批國小六年級社會共174題。分類索引中9題已有上學期來源核對、其餘165題學期仍為unassigned，段考均未指定。翰林官方課本頁只支持6上／6下冊別，不足以判斷未分類題目屬哪一冊或哪個單元，因此僅登錄來源，不新增中央教材單元映射或題目級出版社標籤；不推定學校採用版本。"
     }
   ],
   "high2MathCourseTrackAudit": {
@@ -3735,5 +3777,16 @@
     "unresolvedReferences": 0,
     "sourceFieldMismatches": 0,
     "notes": "所有題目級映射的mappingId均可追溯至中央教材對照與分類推定器；冊別層級參考不自動產生題目級出版社標籤。"
+  },
+  "lastSourceVerificationAudit": {
+    "date": "2026-11-14",
+    "type": "hanlin-grade6-social-volume-only-no-question-mapping",
+    "questionCountReviewed": 174,
+    "semesterAssigned": 9,
+    "semesterUnassigned": 165,
+    "examAssigned": 0,
+    "questionRecordsUpdated": 0,
+    "sourceRegistryRecordsAdded": 2,
+    "notes": "重新核對第8至41批國小六年級社會共174題。分類索引中9題已有上學期來源核對、其餘165題學期仍為unassigned，段考均未指定。翰林官方課本頁只支持6上／6下冊別，不足以判斷未分類題目屬哪一冊或哪個單元，因此僅登錄來源，不新增中央教材單元映射或題目級出版社標籤；不推定學校採用版本。"
   }
 }
