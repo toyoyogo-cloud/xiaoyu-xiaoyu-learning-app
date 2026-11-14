@@ -1178,6 +1178,49 @@
       "高二": 974,
       "高三": 373
     },
+    "subjectCounts": {
+      "國語": 218,
+      "數學": 634,
+      "自然": 243,
+      "社會": 230,
+      "英語": 194,
+      "國文": 104,
+      "英文": 127,
+      "歷史": 135,
+      "地理": 153,
+      "公民": 163,
+      "物理": 218,
+      "化學": 212,
+      "生物": 180,
+      "地球科學": 80,
+      "資訊": 1,
+      "經濟": 6,
+      "資訊素養": 2
+    },
+    "activeQuestionCount": 1864,
+    "activeGradeSubjectCounts": {
+      "國小/六年級": {
+        "國語": 165,
+        "數學": 225,
+        "自然": 178,
+        "社會": 174,
+        "英語": 148
+      },
+      "高中/高二": {
+        "數學": 212,
+        "英文": 58,
+        "物理": 140,
+        "化學": 136,
+        "生物": 110,
+        "地理": 84,
+        "歷史": 72,
+        "公民": 85,
+        "地球科學": 24,
+        "國文": 50,
+        "社會": 1,
+        "經濟": 2
+      }
+    },
     "classificationIndexEntries": 2900,
     "classificationIndexMissingIds": 0,
     "classificationIndexExtraIds": 0,
@@ -1214,8 +1257,8 @@
       "pending": 6
     },
     "publisherReferenceCounts": {
-      "hanlin": 79,
       "knsh": 9,
+      "hanlin": 79,
       "nani": 35
     },
     "publisherMappedQuestionCount": 123,
@@ -1235,6 +1278,27 @@
     "newQuestionsAdded": 0,
     "officialPagesReopened": 3,
     "sourceMappingRecordsRefreshed": 106,
+    "sourceSubjectLabelCorrections": 5,
+    "filterSimulation": {
+      "auditedAt": "2026-11-14",
+      "activeQuestions": 1864,
+      "activeGrades": [
+        "國小六年級",
+        "高中高二"
+      ],
+      "cartesianCombinationsTested": 18900,
+      "unitFilterGroupsTested": 960,
+      "zeroResultCombinations": 17940,
+      "nonzeroCombinations": 960,
+      "allPoolErrors": 0,
+      "unitFilterCountErrors": 0,
+      "subjectOptionCoverageErrors": 0,
+      "publisherCategoryCoverageErrors": 0,
+      "courseTrackPlaceholderChecks": 900,
+      "courseTrackPlaceholderErrors": 0,
+      "browserTested": false,
+      "note": "以持久分類索引模擬目前啟用年級的全部科目、難度、學期、段考、出版社與數學軌別組合；零題組合正常回傳0並由APP零題提示處理。這是資料層／篩選邏輯模擬，不是瀏覽器或手機實機測試。"
+    },
     "validation": {
       "duplicateQuestionIds": 0,
       "missingRequiredFields": 0,
@@ -1243,11 +1307,13 @@
       "mappingSourceFieldErrors": 0
     },
     "notes": [
-      "第8至41批34個原始題庫檔共2,900題，分類索引2,900筆；批次內ID與分類年級／科目對照完整，無重複或缺漏。",
-      "學習領域、題型、單元與難度等擴充欄位2,900/2,900完整；這是欄位完整性檢查，不等於教師逐題審核。",
-      "學期與段考無足夠證據者維持unassigned；段考分類僅作題庫複習建議，不代表學校正式範圍。",
-      "本次重新開啟翰林數學3A及南一數學6下兩個官方資源頁共三個頁面，刷新106筆既有映射的verifiedAt與來源說明；沒有新增題目或擴大出版社映射。",
-      "學校實際採用出版社版本未確認；高二數學A/B及高中選修課程仍依明示軌別／courseType隔離。"
+      "第8至41批34個原始題庫檔共2,900題、唯一ID 2,900；六個分類分片共2,900筆，題目ID與年級／科目對照完整。",
+      "學習領域、題型、單元、難度及分類欄位完整2,900/2,900；欄位完整不等於教師逐題審核。",
+      "本次將5筆國小六年級科目標籤正規化：公民／地理／歷史併入社會、英文併入英語；四個來源批次SHA同步更新。",
+      "目前啟用年級共1,864題，科目選項與實際分類一致；高二另保留社會與經濟科目。",
+      "學期與段考無足夠證據者維持unassigned；段考僅供題庫複習，不代表學校正式考試範圍。",
+      "重新開啟翰林數學3A及南一數學6下三個官方頁，刷新106筆既有映射來源資訊；未新增題目或擴大出版社標記。",
+      "學校實際採用版本未確認；未進行瀏覽器／手機實機測試。"
     ],
     "staticFilterReachability": {
       "auditedAt": "2026-11-14",
@@ -1269,9 +1335,11 @@
       "courseTrackAnomalies": 0,
       "filterCodePath": "index.html getPool -> window.questionClassificationFor -> QUESTION_CLASSIFICATION_INDEX loaded from data/question-classification.json",
       "staticPerQuestionCheck": true,
-      "exhaustiveCartesianCombinationTest": false,
+      "exhaustiveCartesianCombinationTest": true,
+      "cartesianCombinationsTested": 18900,
+      "unitFilterGroupsTested": 960,
       "browserTested": false,
-      "note": "已逐批核對2,900個來源ID與持久分類索引；分類值、來源欄位及出版社映射範圍靜態檢查通過。未進行完整篩選笛卡兒組合或瀏覽器實機測試。"
+      "note": "以持久分類索引模擬目前啟用年級的全部科目、難度、學期、段考、出版社與數學軌別組合；零題組合正常回傳0並由APP零題提示處理。這是資料層／篩選邏輯模擬，不是瀏覽器或手機實機測試。"
     }
   },
   "batch39UsageAudit": {
@@ -2660,17 +2728,17 @@
     "file": "data/question-classification.json",
     "fileSha": "35b3c6e896e792cfd2718ac7d3667ecb257e528b",
     "manifestBytes": 1497,
-    "shardBytesTotal": 1892319,
+    "shardBytesTotal": 1892242,
     "entriesBeforeCorrection": 2900,
     "entriesAfterCorrection": 2900,
-    "correctedEntries": 0,
+    "correctedEntries": 5,
     "sourceMetadataRefreshedEntries": 106,
     "missingQuestionIds": 0,
     "extraQuestionIds": 0,
     "duplicateQuestionIds": 0,
     "requiredFieldsComplete": 2900,
     "extendedMetadataComplete": 2900,
-    "notes": "所有34批題目ID均可在六個持久分類分片中找到；本次不改題目分類值，只更新106筆已有出版社映射的官方來源複核日期與說明。"
+    "notes": "所有34批題目ID均有持久分類資料；本次正規化5筆國小六年級科目標籤並同步來源SHA，另更新106筆既有出版社映射的來源複核資訊。"
   },
   "fullCorpusMappingValidation": {
     "auditedAt": "2026-11-14",
@@ -2682,9 +2750,9 @@
     "sourceFieldErrors": 0,
     "courseTypeErrors": 0,
     "unitOrVolumeScopeErrors": 0,
-    "result": "123/123 publisher mapping references resolve to the 18-entry central registry; all required source fields are present and scope checks passed.",
+    "result": "123/123 mapping references resolve to the 18-entry central registry; required source fields and explicit scope checks pass.",
     "sourceVerificationRunId": "2026-11-14-official-source-recheck-01",
-    "limitation": "Only three official source pages were reopened in this run; the remaining registered source verification dates are retained from earlier checks. School adoption is unknown unless separately documented."
+    "limitation": "Only three official source pages were reopened in this run; remaining registered source verification dates are retained from earlier checks. School adoption is unknown unless separately documented."
   },
   "batch08UsageAudit": {
     "auditedAt": "2026-11-13",
@@ -3237,9 +3305,11 @@
     "courseTrackAnomalies": 0,
     "filterCodePath": "index.html getPool -> window.questionClassificationFor -> QUESTION_CLASSIFICATION_INDEX loaded from data/question-classification.json",
     "staticPerQuestionCheck": true,
-    "exhaustiveCartesianCombinationTest": false,
+    "exhaustiveCartesianCombinationTest": true,
+    "cartesianCombinationsTested": 18900,
+    "unitFilterGroupsTested": 960,
     "browserTested": false,
-    "note": "已逐批核對2,900個來源ID與持久分類索引；分類值、來源欄位及出版社映射範圍靜態檢查通過。未進行完整篩選笛卡兒組合或瀏覽器實機測試。"
+    "note": "以持久分類索引模擬目前啟用年級的全部科目、難度、學期、段考、出版社與數學軌別組合；零題組合正常回傳0並由APP零題提示處理。這是資料層／篩選邏輯模擬，不是瀏覽器或手機實機測試。"
   },
   "sourceVerificationLog": [
     {
