@@ -1,7 +1,7 @@
 {
   "title": "南一／翰林／康軒教材版本對照資料庫",
   "schemaVersion": "1.0.2",
-  "updatedAt": "2026-11-14",
+  "updatedAt": "2026-11-15",
   "purpose": "同時支援跨版本共同核心整合與指定出版社版本練習。此檔先建立資料規格；未經官方或學校教材核對的單元不得標示為已對應。",
   "modes": [
     {
@@ -2820,6 +2820,95 @@
         "browserOrMobileRuntimeTested": false
       },
       "notes": "官方課程參考確認六年級自然上學期單元四「電磁作用」；12題直接涉及串聯／並聯電路，僅回填上學期，保留examPeriod=unassigned、publisherStatus=curriculum-core及空publisherMappings。沒有新增題目，未宣稱出版社版本、學校採用版本或教師審核。"
+    },
+    {
+      "date": "2026-11-15",
+      "type": "ntue-g6-natural-electromagnet-semester-backfill",
+      "sourceHeadBeforeRun": "f72a74ba33572602a82de72373e0a15fb9b68795",
+      "batches": "08-41",
+      "batchFileCount": 34,
+      "fullCorpusQuestionCount": 2900,
+      "activeScopeQuestionCount": 1864,
+      "questionRecordsUpdated": 3,
+      "updatedQuestionIds": [
+        "b39-035",
+        "b40-034",
+        "b41-033"
+      ],
+      "curriculumReferenceId": "ntue-g6-natural-6a-u4-electricity-magnetism",
+      "sourceUrl": "https://bilingual.ntue.edu.tw/p/404-1054-31326.php?Lang=zh-tw",
+      "sourceTitle": "國立臺北教育大學雙語教學研究中心－國小自然科學筆記本、雙語教學資源手冊",
+      "verificationStatus": "source-checked",
+      "classificationBasis": "curriculum-core",
+      "confidence": "medium",
+      "semesterAssigned": 3,
+      "examPeriodAssigned": 0,
+      "publisherMappingsAdded": 0,
+      "newQuestionsAdded": 0,
+      "fullCorpusSemesterDistribution": {
+        "unassigned": 2369,
+        "上學期": 333,
+        "全學年": 74,
+        "下學期": 124
+      },
+      "fullCorpusExamPeriodDistribution": {
+        "unassigned": 2669,
+        "第三次段考": 94,
+        "第一次段考": 66,
+        "第二次段考": 71
+      },
+      "fullCorpusClassificationBasisDistribution": {
+        "curriculum-core": 2384,
+        "question-bank-inference": 442,
+        "publisher-source-verified": 74
+      },
+      "fullCorpusPublisherStatusDistribution": {
+        "curriculum-core": 2741,
+        "pending": 6,
+        "publisher-mapped": 153
+      },
+      "fullCorpusConfidenceDistribution": {
+        "low": 2410,
+        "medium": 462,
+        "high": 28
+      },
+      "activeScopeSemesterDistribution": {
+        "unassigned": 1333,
+        "上學期": 333,
+        "全學年": 74,
+        "下學期": 124
+      },
+      "activeScopeExamPeriodDistribution": {
+        "unassigned": 1633,
+        "第三次段考": 94,
+        "第一次段考": 66,
+        "第二次段考": 71
+      },
+      "activeScopePublisherStatus": {
+        "curriculum-core": 1705,
+        "pending": 6,
+        "publisher-mapped": 153
+      },
+      "sourceBatchShasMatched": "34/34",
+      "validation": {
+        "jsonParse": true,
+        "classificationRecords": 2900,
+        "missingRequiredFields": 0,
+        "emptyRequiredFields": 0,
+        "illegalClassificationValues": 0,
+        "publisherMappingConsistencyErrors": 0,
+        "duplicateClassificationIds": 0,
+        "sourceBatchShasMatched": "34/34",
+        "appReadsPersistedClassificationIndex": true,
+        "staticFilterCombinations": 45000,
+        "nonzeroResultCombinations": 1825,
+        "zeroResultCombinations": 43175,
+        "subjectUnitGroupsTested": 1919,
+        "filterErrors": 0,
+        "publisherMappingLeaks": 0,
+        "browserOrMobileRuntimeTested": false
+      },
+      "notes": "官方目錄明示六年級自然上學期單元四「電磁作用」；新增3題直接涉及電磁鐵／線圈的課程核心學期分類。只作課程主題層級對照，不掛出版社、不推定段考、不宣稱學校採用版本或教師審核。"
     }
   ],
   "batch30ExtendedMetadataAudit": {
@@ -3512,7 +3601,7 @@
     "newQuestionsAdded": 0
   },
   "latestFilterValidation": {
-    "auditedAt": "2026-11-14",
+    "auditedAt": "2026-11-15",
     "batches": "08-41",
     "questionsChecked": 2900,
     "perQuestionIndexReachability": {
@@ -3525,21 +3614,21 @@
       "curriculumCore": 2741,
       "pending": 6,
       "hanlin": 79,
-      "knsh": 42,
-      "nani": 32
+      "nani": 32,
+      "knsh": 42
     },
     "courseTrackAnomalies": 0,
     "filterCodePath": "index.html getPool -> window.questionClassificationFor -> QUESTION_CLASSIFICATION_INDEX loaded from data/question-classification.json and six shards",
     "staticPerQuestionCheck": true,
     "exhaustiveCartesianCombinationTest": true,
-    "cartesianCombinationsTested": 18900,
-    "nonzeroResultCombinations": 1076,
-    "zeroResultCombinations": 17824,
-    "subjectUnitGroupsTested": 1184,
+    "cartesianCombinationsTested": 45000,
+    "nonzeroResultCombinations": 1825,
+    "zeroResultCombinations": 43175,
+    "subjectUnitGroupsTested": 1919,
     "filterErrors": 0,
-    "unitFilterErrors": 0,
+    "publisherMappingLeaks": 0,
     "browserTested": false,
-    "note": "靜態驗收：2,900筆分類索引全部可達，必要欄位與分類值錯誤0，出版社來源欄位錯誤0；18,900組年級／科目／難度／學期／段考／出版社／高二數學軌別條件中1,076組有題、17,824組合理零題；另檢查1,184組年級／科目／單元。非瀏覽器或手機實機測試。"
+    "note": "靜態資料層測試：全庫分類紀錄可讀取、必要欄位與合法值檢查通過、出版社映射參照一致；篩選笛卡兒組合以六個持久分類分片模擬。未執行瀏覽器或手機實機測試。"
   },
   "sourceVerificationLog": [
     {
@@ -3813,6 +3902,21 @@
       ],
       "questionRecordsUpdated": 12,
       "notes": "將12題直接涉及串聯／並聯電路通路的六年級自然題目回填上學期；不新增出版社映射、不推定段考、不宣稱學校採用版本或教師審核。"
+    },
+    {
+      "runId": "2026-11-15-ntue-g6-natural-electromagnet-semester-backfill-01",
+      "verifiedAt": "2026-11-15",
+      "sourceChecks": [
+        {
+          "publisher": "curriculum-core",
+          "mappingIds": [],
+          "sourceUrl": "https://bilingual.ntue.edu.tw/p/404-1054-31326.php?Lang=zh-tw",
+          "sourceTitle": "國立臺北教育大學雙語教學研究中心－國小自然科學筆記本、雙語教學資源手冊",
+          "verifiedScope": "官方單元目錄明示六年級自然上學期單元四「電磁作用」；本次只用於直接涉及電磁鐵／線圈題目的課程主題層級學期分類，不代表出版社版本或學校採用版本。"
+        }
+      ],
+      "questionRecordsUpdated": 3,
+      "notes": "更新b39-035、b40-034、b41-033；semester=上學期、examPeriod=unassigned、classificationBasis=curriculum-core、confidence=medium、publisherMappings=[]。"
     }
   ],
   "high2MathCourseTrackAudit": {
@@ -3981,41 +4085,35 @@
     "notes": "所有題目級映射的mappingId均可追溯至中央教材對照與分類推定器；冊別層級參考不自動產生題目級出版社標籤。"
   },
   "lastSourceVerificationAudit": {
-    "date": "2026-11-14",
-    "type": "knsh-grade6-social-6b-2-1-official-resource-title-mapping",
-    "questionCountReviewed": 174,
-    "questionRecordsUpdated": 18,
-    "questionRecordsMapped": 18,
-    "semesterAssigned": 18,
+    "date": "2026-11-15",
+    "type": "ntue-g6-natural-electromagnet-curriculum-semester-backfill",
+    "questionCountReviewed": 3,
+    "questionRecordsUpdated": 3,
+    "questionRecordsMapped": 0,
+    "semesterAssigned": 3,
     "examAssigned": 0,
-    "sourceRegistryRecordsAdded": 1,
-    "mappingRecordsAdded": 1,
-    "mappingLevel": "official-resource-title",
-    "publisher": "knsh",
-    "sourceUrl": "https://sdgs.knsh.com.tw/api/uploads/curriculumMap/E_school/%E7%A4%BE%E6%9C%83%E5%85%AD%E4%B8%8BCH2L1%E7%A4%BE%E6%9C%83%E5%85%85%E9%9B%BB%E7%AB%99SDGs%E5%B0%B1%E5%9C%A8%E6%88%91%E5%80%91%E8%BA%AB%E9%82%8A_%E6%95%99%E5%AD%B8%E8%B3%87%E6%BA%90.pdf",
-    "sourceTitle": "康軒社會六下2-1「社會充電站：SDGs就在我們身邊」教學資源PDF",
-    "notes": "康軒官方教學資源明示社會6下2-1，內容涵蓋SDG11永續城市、公共建設／交通安全、社區參與及天然災害風險管理。僅建立18筆官方教學資源標題／學習情境對照；不等同完整課本目次、不代表學校採用版本或正式段考範圍。"
+    "sourceRegistryRecordsAdded": 0,
+    "mappingRecordsAdded": 0,
+    "mappingLevel": "curriculum-topic",
+    "publisher": "curriculum-core",
+    "sourceUrl": "https://bilingual.ntue.edu.tw/p/404-1054-31326.php?Lang=zh-tw",
+    "sourceTitle": "國立臺北教育大學雙語教學研究中心－國小自然科學筆記本、雙語教學資源手冊",
+    "verificationStatus": "source-checked",
+    "notes": "官方單元目錄支持六年級自然上學期單元四「電磁作用」；本次只分類直接涉及電磁鐵／線圈的3題，不建立出版社映射。"
   },
   "lastRunAudit": {
-    "date": "2026-11-14",
-    "type": "ntue-g6-natural-circuits-curriculum-semester-backfill",
-    "sourceHead": "3aa0d27f50cba96abcf6fa0cc77d198b258ecb3c",
+    "date": "2026-11-15",
+    "type": "ntue-g6-natural-electromagnet-semester-backfill",
+    "sourceHeadBeforeRun": "f72a74ba33572602a82de72373e0a15fb9b68795",
+    "batches": "08-41",
+    "batchFileCount": 34,
     "fullCorpusQuestionCount": 2900,
     "activeScopeQuestionCount": 1864,
-    "questionRecordsUpdated": 12,
+    "questionRecordsUpdated": 3,
     "updatedQuestionIds": [
-      "b15-021",
-      "b17-024",
-      "b18-023",
-      "b19-023",
-      "b25-029",
-      "b30-023",
-      "b31-032",
-      "b33-032",
-      "b37-034",
-      "b38-036",
-      "b40-033",
-      "b41-032"
+      "b39-035",
+      "b40-034",
+      "b41-033"
     ],
     "curriculumReferenceId": "ntue-g6-natural-6a-u4-electricity-magnetism",
     "sourceUrl": "https://bilingual.ntue.edu.tw/p/404-1054-31326.php?Lang=zh-tw",
@@ -4023,21 +4121,21 @@
     "verificationStatus": "source-checked",
     "classificationBasis": "curriculum-core",
     "confidence": "medium",
-    "semesterAssigned": 12,
+    "semesterAssigned": 3,
     "examPeriodAssigned": 0,
     "publisherMappingsAdded": 0,
     "newQuestionsAdded": 0,
     "fullCorpusSemesterDistribution": {
-      "unassigned": 2372,
-      "上學期": 330,
-      "下學期": 124,
-      "全學年": 74
+      "unassigned": 2369,
+      "上學期": 333,
+      "全學年": 74,
+      "下學期": 124
     },
     "fullCorpusExamPeriodDistribution": {
       "unassigned": 2669,
+      "第三次段考": 94,
       "第一次段考": 66,
-      "第二次段考": 71,
-      "第三次段考": 94
+      "第二次段考": 71
     },
     "fullCorpusClassificationBasisDistribution": {
       "curriculum-core": 2384,
@@ -4050,29 +4148,47 @@
       "publisher-mapped": 153
     },
     "fullCorpusConfidenceDistribution": {
-      "low": 2413,
-      "medium": 459,
+      "low": 2410,
+      "medium": 462,
       "high": 28
     },
     "activeScopeSemesterDistribution": {
-      "unassigned": 1336,
-      "上學期": 330,
-      "下學期": 124,
-      "全學年": 74
+      "unassigned": 1333,
+      "上學期": 333,
+      "全學年": 74,
+      "下學期": 124
     },
     "activeScopeExamPeriodDistribution": {
       "unassigned": 1633,
+      "第三次段考": 94,
       "第一次段考": 66,
-      "第二次段考": 71,
-      "第三次段考": 94
+      "第二次段考": 71
     },
     "activeScopePublisherStatus": {
       "curriculum-core": 1705,
       "pending": 6,
       "publisher-mapped": 153
     },
-    "sourceBatchShasMatched": 34,
-    "notes": "官方課程參考確認六年級自然上學期單元四「電磁作用」；12題直接涉及串聯／並聯電路，僅回填上學期，保留examPeriod=unassigned、publisherStatus=curriculum-core及空publisherMappings。沒有新增題目，未宣稱出版社版本、學校採用版本或教師審核。"
+    "sourceBatchShasMatched": "34/34",
+    "validation": {
+      "jsonParse": true,
+      "classificationRecords": 2900,
+      "missingRequiredFields": 0,
+      "emptyRequiredFields": 0,
+      "illegalClassificationValues": 0,
+      "publisherMappingConsistencyErrors": 0,
+      "duplicateClassificationIds": 0,
+      "sourceBatchShasMatched": "34/34",
+      "appReadsPersistedClassificationIndex": true,
+      "staticFilterCombinations": 45000,
+      "nonzeroResultCombinations": 1825,
+      "zeroResultCombinations": 43175,
+      "subjectUnitGroupsTested": 1919,
+      "filterErrors": 0,
+      "publisherMappingLeaks": 0,
+      "browserOrMobileRuntimeTested": false
+    },
+    "notes": "官方目錄明示六年級自然上學期單元四「電磁作用」；新增3題直接涉及電磁鐵／線圈的課程核心學期分類。只作課程主題層級對照，不掛出版社、不推定段考、不宣稱學校採用版本或教師審核。"
   },
   "latestMappingScopeCorrection": {
     "date": "2026-11-14",
@@ -4115,20 +4231,21 @@
     "notes": "課程核心學期回填未增加出版社映射；原有153筆出版社題目映射仍可解析至21筆中央映射及推定器MAPS。"
   },
   "lastFilterDataAudit": {
-    "auditedAt": "2026-11-14",
+    "auditedAt": "2026-11-15",
     "batches": "08-41",
     "questionsChecked": 2900,
     "dimensions": [
       "grade",
       "subject",
+      "difficulty",
       "semester",
       "examPeriod",
       "publisher",
       "courseTrack（僅高二數學）"
     ],
-    "combinationsTested": 3150,
-    "nonEmptyCombinations": 236,
-    "zeroResultCombinations": 2914,
+    "combinationsTested": 45000,
+    "nonEmptyCombinations": 1825,
+    "zeroResultCombinations": 43175,
     "publisherMappingLeaks": 0,
     "zeroResultHintPresent": true,
     "browserOrMobileRuntimeTested": false,
@@ -4139,29 +4256,29 @@
       "高二": 974
     },
     "activeScopeSemesterDistribution": {
-      "unassigned": 1336,
-      "上學期": 330,
-      "下學期": 124,
-      "全學年": 74
+      "unassigned": 1333,
+      "上學期": 333,
+      "全學年": 74,
+      "下學期": 124
     },
     "activeScopeExamPeriodDistribution": {
       "unassigned": 1633,
+      "第三次段考": 94,
       "第一次段考": 66,
-      "第二次段考": 71,
-      "第三次段考": 94
+      "第二次段考": 71
     },
     "activeScopePublisherStatus": {
       "curriculum-core": 1705,
       "pending": 6,
       "publisher-mapped": 153
     },
-    "fullCartesianCombinations": 18900,
-    "fullCartesianNonEmpty": 1076,
-    "fullCartesianZero": 17824,
-    "unitFilterGroupsTested": 1184,
+    "fullCartesianCombinations": 45000,
+    "fullCartesianNonEmpty": 1825,
+    "fullCartesianZero": 43175,
+    "unitFilterGroupsTested": 1919,
     "filterErrors": 0,
     "unitFilterErrors": 0,
-    "notes": "依目前index.html與六個持久分類分片靜態模擬3150組學期／段考／出版社／軌別條件及18900組含難度條件；出版社映射洩漏0，零題提示存在。未執行瀏覽器／手機實機操作。"
+    "notes": "依目前index.html getPool邏輯與六個分類分片靜態模擬；全庫索引可達，出版社指定篩選只命中相應publisherMappings，零題提示存在。未執行瀏覽器／手機實機操作。"
   },
-  "notes": " 2026-11-14：新增國立臺北教育大學六年級自然上學期單元四「電磁作用」課程參考，12題串聯／並聯電路僅回填上學期，不掛出版社、不填段考。"
+  "notes": " 2026-11-14：新增國立臺北教育大學六年級自然上學期單元四「電磁作用」課程參考，12題串聯／並聯電路僅回填上學期，不掛出版社、不填段考。 2026-11-15：依國立臺北教育大學雙語教學研究中心官方單元目錄，新增3題六年級自然電磁鐵／線圈題目的上學期課程核心分類；段考維持unassigned，不掛出版社。"
 }
