@@ -2025,7 +2025,7 @@
     "rawStoredFieldComparison": {
       "questionsCompared": 2900,
       "rawAssignedSemesterOrExamValuesMissingFromClassification": 0,
-      "notes": "本輪只修正分類索引中的3筆過寬出版社映射，未修改原始題庫；來源批次SHA與分類分片仍須在本輪驗收重核。"
+      "notes": "本輪重新讀取第8至41批34個原始題庫檔，逐一比對六個分類分片的sourceBatchShas，34/34完全一致；原始題庫的既有semester／examPeriod欄位無遺漏。本輪只修正分類索引，不修改原始題庫。"
     },
     "newQuestionsAdded": 0,
     "browserTested": false,
@@ -3935,7 +3935,8 @@
       "pending": 6,
       "publisher-mapped": 153
     },
-    "notes": "南一官方詳情頁明示雞兔同籠；5筆直接雞兔題保留官方資源標題層級映射。3筆汽車／機車與三腳椅／四腳桌類比題撤回出版社標籤，分類改為共同核心、單元正規化為頭數與腳數問題（假設法），semester/examPeriod unassigned。未修改原始題庫，不新增題目，不宣稱教師審核或學校採用版本。"
+    "notes": "南一官方詳情頁明示雞兔同籠；5筆直接雞兔題保留官方資源標題層級映射。3筆汽車／機車與三腳椅／四腳桌類比題撤回出版社標籤，分類改為共同核心、單元正規化為頭數與腳數問題（假設法），semester/examPeriod unassigned。未修改原始題庫，不新增題目，不宣稱教師審核或學校採用版本。",
+    "sourceBatchShasMatched": 34
   },
   "latestMappingScopeCorrection": {
     "date": "2026-11-14",
