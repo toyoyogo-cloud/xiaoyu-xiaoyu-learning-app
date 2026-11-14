@@ -1068,6 +1068,16 @@
       "verifiedAt": "2026-11-14",
       "verificationStatus": "source-checked",
       "notes": "官方單元目錄明示六年級自然上學期單元四「電磁作用」。只支持課程單元層級，不是出版社版次、完整課本細目或學校段考範圍。"
+    },
+    {
+      "id": "ntue-g6-natural-6a-u1-u2-weather-heat",
+      "publisher": "curriculum-core",
+      "sourceType": "curriculum-reference",
+      "sourceUrl": "https://bilingual.ntue.edu.tw/p/404-1054-31326.php?Lang=zh-tw",
+      "sourceTitle": "國立臺北教育大學雙語教學研究中心－國小自然科學筆記本、雙語教學資源手冊",
+      "verifiedAt": "2026-11-15",
+      "verificationStatus": "source-checked",
+      "notes": "官方單元目錄明示六年級自然上學期單元一「天氣的變化」及單元二「熱對物質的影響」。僅支持課程主題層級學期分類，不是出版社版次、完整課本目次、學校採用版本或正式段考範圍。"
     }
   ],
   "classificationAudit": {
@@ -3917,6 +3927,27 @@
       ],
       "questionRecordsUpdated": 3,
       "notes": "更新b39-035、b40-034、b41-033；semester=上學期、examPeriod=unassigned、classificationBasis=curriculum-core、confidence=medium、publisherMappings=[]。"
+    },
+    {
+      "runId": "2026-11-15-ntue-g6-natural-weather-heat-semester-backfill-01",
+      "verifiedAt": "2026-11-15",
+      "sourceChecks": [
+        {
+          "publisher": "curriculum-core",
+          "mappingIds": [],
+          "sourceUrl": "https://bilingual.ntue.edu.tw/p/404-1054-31326.php?Lang=zh-tw",
+          "sourceTitle": "國立臺北教育大學雙語教學研究中心－國小自然科學筆記本、雙語教學資源手冊",
+          "verifiedScope": "官方目錄第55-58行列六年級上學期單元一「天氣的變化」、單元二「熱對物質的影響」。僅將題目直接涉及冷鋒／天氣變化、熱傳導／熱傳遞的四題標記上學期；不建立出版社映射。"
+        }
+      ],
+      "questionRecordsUpdated": 4,
+      "updatedQuestionIds": [
+        "b39-037",
+        "b38-037",
+        "b40-039",
+        "b41-037"
+      ],
+      "notes": "semester=上學期、examPeriod=unassigned、classificationBasis=curriculum-core、confidence=medium、publisherStatus=curriculum-core、publisherMappings=[]；未新增題目。"
     }
   ],
   "high2MathCourseTrackAudit": {
