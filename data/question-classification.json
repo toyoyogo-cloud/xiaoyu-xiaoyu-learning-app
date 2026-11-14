@@ -225,7 +225,9 @@
     "allActiveQuestionsReachable": true,
     "appReadsPersistedClassificationIndex": true,
     "browserTested": false,
-    "note": "本輪增量檢查4題在學期／出版社／單元篩選中的持久分類讀取；全庫完整組合測試保留於previousExhaustiveTest，未在本輪重跑。"
+    "note": "本輪增量檢查4題在學期／出版社／單元篩選中的持久分類讀取；全庫完整組合測試保留於previousExhaustiveTest，未在本輪重跑。",
+    "filterCombinationsTested": 256,
+    "allUpdatedQuestionsReachable": true
   },
   "lastRawTagAudit": {
     "date": "2026-11-14",
@@ -303,7 +305,8 @@
       "incrementalQuestionsChecked": 4,
       "publisherMappingLeaks": 0,
       "filterErrors": 0,
-      "browserOrMobileRuntimeTested": false
+      "browserOrMobileRuntimeTested": false,
+      "filterCombinationsTested": 256
     },
     "classificationRuleVersion": "2026-11-15.53",
     "notes": "本輪未新增題目；只更新4筆六年級數學分數除法既有分類。"
@@ -457,7 +460,8 @@
         "mappingReferencesChecked": 12,
         "publisherFilterLeaks": 0,
         "filterErrors": 0,
-        "browserTested": false
+        "browserTested": false,
+        "combinations": 256
       }
     },
     "mappingConsistencyErrors": 0
