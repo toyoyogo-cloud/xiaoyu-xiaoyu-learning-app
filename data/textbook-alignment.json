@@ -770,6 +770,35 @@
       "notes": "康軒官方教學資源明示配合社會6上4-3；內容涵蓋都市化與鄉村人口移動、醫療／教育設施及交通網絡、天然災害風險管理、社區參與與文化資產保存。此為官方教學資源標題／單元層級對照，不等同完整課本目次，不代表學校採用版本或正式段考範圍。",
       "courseType": "國小",
       "mappingLevel": "official-resource-title"
+    },
+    {
+      "id": "knsh-g6-natural-6a-u1-weather",
+      "mappingId": "knsh-g6-natural-6a-u1-weather",
+      "publisher": "knsh",
+      "stage": "國小",
+      "grade": "六年級",
+      "subject": "自然",
+      "semester": "上學期",
+      "schoolYear": "未標示",
+      "courseType": "國小",
+      "volume": "自然六上（康軒版）",
+      "unitCode": "1",
+      "unitName": "天氣的變化",
+      "learningContent": "INd-Ⅲ-7：天氣圖上的高、低氣壓、鋒面、颱風符號與天氣變化。",
+      "sourceType": "official-government-hosted-teaching-resource",
+      "sourceUrl": "https://market.cloud.edu.tw/resources/web/1809340",
+      "sourceTitle": "六上康軒版自然第一單元-天氣的變化",
+      "verifiedAt": "2026-11-15",
+      "verificationStatus": "source-checked",
+      "notes": "教育部教育雲資源頁標題明示「康軒版六上自然第一單元－天氣的變化」；頁面知識內容列出國小5–6年級自然科 INd-Ⅲ-7，涵蓋高、低氣壓、鋒面、颱風及天氣變化。此為教育部平台上的教師編製教學設計，僅支持康軒版六上單元層級對照；不是康軒出版社商品頁或完整課本目次，不代表任何學校採用版本或正式段考範圍。",
+      "mappingLevel": "unit",
+      "unitAliases": [
+        "天氣與氣壓",
+        "氣壓變化與天氣",
+        "天氣圖與鋒面判讀",
+        "冷鋒與天氣",
+        "冷鋒與天氣變化"
+      ]
     }
   ],
   "mappingStatus": "partial-source-verified-21-mappings",
@@ -1078,6 +1107,16 @@
       "verifiedAt": "2026-11-15",
       "verificationStatus": "source-checked",
       "notes": "官方單元目錄明示六年級自然上學期單元一「天氣的變化」及單元二「熱對物質的影響」。僅支持課程主題層級學期分類，不是出版社版次、完整課本目次、學校採用版本或正式段考範圍。"
+    },
+    {
+      "id": "knsh-g6-natural-6a-u1-weather",
+      "publisher": "knsh",
+      "sourceType": "official-government-hosted-teaching-resource",
+      "sourceUrl": "https://market.cloud.edu.tw/resources/web/1809340",
+      "sourceTitle": "六上康軒版自然第一單元-天氣的變化",
+      "verifiedAt": "2026-11-15",
+      "verificationStatus": "source-checked",
+      "notes": "教育部教育雲資源頁標題明示「康軒版六上自然第一單元－天氣的變化」；頁面知識內容列出國小5–6年級自然科 INd-Ⅲ-7，涵蓋高、低氣壓、鋒面、颱風及天氣變化。此為教育部平台上的教師編製教學設計，僅支持康軒版六上單元層級對照；不是康軒出版社商品頁或完整課本目次，不代表任何學校採用版本或正式段考範圍。"
     }
   ],
   "classificationAudit": {
@@ -1204,7 +1243,7 @@
       "note": "段考未指定；出版社映射僅含1題翰林數學3A單元對照與2題翰林化學(I)冊別層級對照。"
     }
   },
-  "mappingCount": 21,
+  "mappingCount": 22,
   "auditNotes": "每筆映射均保留 publisher、mappingId、sourceUrl、sourceTitle、verifiedAt、verificationStatus、notes。,mappingLevel 區分 unit、title-topic、volume；冊別／冊名層級不代表細分單元已核對。,數學3A映射限定 courseTrack=數學A；未確認數學A/B者不得套用。,出版社來源只證明教材冊別／單元對照，不代表學校採用該版本。,翰林選修化學(II)官方課本頁明示高二上學期，已由下學期更正為上學期。,2026-11-13 main 全庫盤點：第8至36批共2,400題、2,400個唯一ID；第8至29批1,700題沒有內嵌出版社／學期分類欄位，改由 question-classification-inference.js 依可辨識知識點動態推定，無證據者保留unassigned/pending；第30至36批700題有分類欄位，出版社映射引用119筆，對照16筆中央映射後未發現年級、科目、學期或課程軌別不符。第30批有91題未儲存classificationNotes，執行時由分類器以sourceRef／預設理由補出說明。此為結構與來源欄位稽核，不表示每題都已取得出版社對照。,化學(II)冊別層級校正：以翰林課本商品頁005022為準，確認高二上學期；不同商品編號的習作或實驗手冊學期不可混用。,第37批新增30題來源映射均以中央mappingId連結；執行時分類器回歸測試確認100題的semester、examPeriod、classificationBasis、publisherStatus及publisherMappings均與批次檔儲存欄位一致。,第37批已透過PR #1合併至main，merge commit 0b76d6e99d66502f39f6e9c32ad8032bbcc47494；main已包含第37批及本次全庫來源稽核。,2026-11-13來源狀態細化：南一平台「數學6下｜怎樣解題：雞兔問題」詳情頁請求逾時，僅能由南一官方資源頁的熱門文章連結標題確認主題與年級／科目／學期；映射降為official-resource-title與official-index-link-only，不宣稱南一課本單元或原題。,雞兔問題mapping的sourceUrl改指向可讀取的南一官方索引頁a=341，另保留targetUrl=a=394作為連結目標；verificationStatus仍為official-index-link-only。,第37批30筆題目映射中，28筆為可直接讀取來源核對，2筆雞兔問題映射僅由南一官方索引頁標題確認（official-index-link-only）；中央16筆映射中15筆source-checked、1筆official-index-link-only。,第41批新增100題（小六50、高二50）；35筆來源映射引用全部指向中央16筆已核對mappingId，逐筆核對publisher、sourceUrl、sourceTitle、verifiedAt、verificationStatus、notes、年級、科目、學期、軌別及單元／冊別範圍，35/35通過。未新增中央映射紀錄。,第41批映射層級：單元23、冊別9、官方資源標題3；出版社引用翰林27、南一6、康軒2。冊別與官方資源標題層級不冒稱完整課本目次。 2026-11-13 main全庫盤點：第8至41批2,900題；338筆出版社映射引用與16筆中央映射一致，錯誤0。原始分類欄位2,900/2,900完整；擴充分類欄位已持久保存399題，尚待補齊2,501題。\n2026-11-14康軒社會六上4-3來源核對：官方教學資源明示都市與鄉村永續發展、人口移動、公共服務／交通網絡、災害風險管理、社區參與及文化資產保存；新增10筆直接對應題目級映射，層級為official-resource-title，段考保留unassigned。",
   "lastAudit": {
     "verifiedAt": "2026-11-14",
@@ -3948,6 +3987,31 @@
         "b41-037"
       ],
       "notes": "semester=上學期、examPeriod=unassigned、classificationBasis=curriculum-core、confidence=medium、publisherStatus=curriculum-core、publisherMappings=[]；未新增題目。"
+    },
+    {
+      "runId": "2026-11-15-knsh-g6-natural-weather-unit-mapping-01",
+      "verifiedAt": "2026-11-15",
+      "sourceChecks": [
+        {
+          "publisher": "knsh",
+          "mappingIds": [
+            "knsh-g6-natural-6a-u1-weather"
+          ],
+          "sourceUrl": "https://market.cloud.edu.tw/resources/web/1809340",
+          "sourceTitle": "六上康軒版自然第一單元-天氣的變化",
+          "sourceType": "official-government-hosted-teaching-resource",
+          "verifiedScope": "教育部教育雲資源頁標題明示康軒版六上自然第一單元「天氣的變化」；知識架構列INd-Ⅲ-7高低氣壓、鋒面、颱風及天氣變化。"
+        }
+      ],
+      "questionRecordsUpdated": 5,
+      "updatedQuestionIds": [
+        "b29-034",
+        "b34-032",
+        "b35-039",
+        "b37-041",
+        "b39-037"
+      ],
+      "notes": "5題均保留examPeriod=unassigned；其中4題由unassigned補為上學期，b39-037原已由課程目錄分類為上學期。未宣稱出版社官方課本完整目次、學校採用版本或教師審核。"
     }
   ],
   "high2MathCourseTrackAudit": {
@@ -4117,20 +4181,20 @@
   },
   "lastSourceVerificationAudit": {
     "date": "2026-11-15",
-    "type": "ntue-g6-natural-electromagnet-curriculum-semester-backfill",
-    "questionCountReviewed": 3,
-    "questionRecordsUpdated": 3,
-    "questionRecordsMapped": 0,
-    "semesterAssigned": 3,
+    "type": "knsh-g6-natural-weather-unit-mapping",
+    "questionCountReviewed": 5,
+    "questionRecordsUpdated": 5,
+    "questionRecordsMapped": 5,
+    "semesterAssigned": 4,
     "examAssigned": 0,
-    "sourceRegistryRecordsAdded": 0,
-    "mappingRecordsAdded": 0,
-    "mappingLevel": "curriculum-topic",
-    "publisher": "curriculum-core",
-    "sourceUrl": "https://bilingual.ntue.edu.tw/p/404-1054-31326.php?Lang=zh-tw",
-    "sourceTitle": "國立臺北教育大學雙語教學研究中心－國小自然科學筆記本、雙語教學資源手冊",
+    "sourceRegistryRecordsAdded": 1,
+    "mappingRecordsAdded": 1,
+    "mappingLevel": "unit",
+    "publisher": "knsh",
+    "sourceUrl": "https://market.cloud.edu.tw/resources/web/1809340",
+    "sourceTitle": "六上康軒版自然第一單元-天氣的變化",
     "verificationStatus": "source-checked",
-    "notes": "官方單元目錄支持六年級自然上學期單元四「電磁作用」；本次只分類直接涉及電磁鐵／線圈的3題，不建立出版社映射。"
+    "notes": "教育部教育雲教師教學設計頁明示康軒版六上自然第一單元「天氣的變化」及INd-Ⅲ-7。僅建立5題單元層級映射，不代表學校採用版本或正式段考範圍。"
   },
   "lastRunAudit": {
     "date": "2026-11-15",
@@ -4248,18 +4312,18 @@
     "notes": "詳情頁明示雞兔同籠，僅保留題幹直接涉及雞／兔的5題；3題汽車／機車與三腳椅／四腳桌雖沿用原始unit/t標籤「雞兔問題」，但官方資源沒有支持這些情境，撤回出版社映射、學期改回unassigned並正規化分類單元。段考仍全部unassigned。"
   },
   "lastMappingReferenceAudit": {
-    "date": "2026-11-14",
-    "type": "persisted-publisher-mapping-reference-audit-after-curriculum-backfill",
+    "date": "2026-11-15",
+    "type": "persisted-knsh-weather-mapping-reference-audit",
     "classificationRecordCount": 2900,
     "activeScopeQuestionCount": 1864,
-    "publisherMappedQuestionCount": 153,
-    "questionMappingReferenceCount": 153,
-    "centralMappingCount": 21,
-    "inferenceMapCount": 21,
+    "publisherMappedQuestionCount": 158,
+    "questionMappingReferenceCount": 158,
+    "centralMappingCount": 22,
+    "inferenceMapCount": 22,
     "unresolvedCentralMappingReferences": 0,
     "sourceFieldMismatches": 0,
     "missingRequiredClassificationFields": 0,
-    "notes": "課程核心學期回填未增加出版社映射；原有153筆出版社題目映射仍可解析至21筆中央映射及推定器MAPS。"
+    "notes": "新增康軒六上自然天氣單元映射；5筆題目參照均含完整來源欄位，映射範圍限六年級自然且精確單元別名。"
   },
   "lastFilterDataAudit": {
     "auditedAt": "2026-11-15",
