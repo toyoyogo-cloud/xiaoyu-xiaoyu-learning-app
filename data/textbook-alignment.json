@@ -4680,7 +4680,8 @@
       "browserOrMobileRuntimeTested": false
     },
     "notes": "新增六年級自然水循環、熱傳導／保溫與天氣資料判讀的持久單元映射；段考一律維持unassigned。教育雲來源明列教材對照，但不是出版社商品頁或學校採用證明。",
-    "classificationRuleVersion": "2026-11-15.51"
+    "classificationRuleVersion": "2026-11-15.51",
+    "inferenceSyntaxValid": true
   },
   "latestMappingScopeCorrection": {
     "date": "2026-11-14",
@@ -4792,9 +4793,11 @@
       "publisherMappingLeaks": 0,
       "unitFilterErrors": 0
     },
-    "notes": "依index.html getPool與renderUnits的持久分類篩選維度執行資料層靜態模擬；未執行瀏覽器或手機實機操作。"
+    "notes": "依index.html getPool與renderUnits的持久分類篩選維度執行資料層靜態模擬；未執行瀏覽器或手機實機操作。",
+    "inferenceSyntaxValid": true,
+    "filterUsesPersistedClassificationIndex": true
   },
-  "notes": " 2026-11-14：新增國立臺北教育大學六年級自然上學期單元四「電磁作用」課程參考，12題串聯／並聯電路僅回填上學期，不掛出版社、不填段考。 2026-11-15：依國立臺北教育大學雙語教學研究中心官方單元目錄，新增3題六年級自然電磁鐵／線圈題目的上學期課程核心分類；段考維持unassigned，不掛出版社。 2026-11-15：新增六年級自然「簡單機械」及「地質的變化」課程參考；7題依題庫知識點推定學期，沒有出版社官方單元來源，故不新增出版社映射。",
+  "notes": " 2026-11-14：新增國立臺北教育大學六年級自然上學期單元四「電磁作用」課程參考，12題串聯／並聯電路僅回填上學期，不掛出版社、不填段考。 2026-11-15：依國立臺北教育大學雙語教學研究中心官方單元目錄，新增3題六年級自然電磁鐵／線圈題目的上學期課程核心分類；段考維持unassigned，不掛出版社。 2026-11-15：新增六年級自然「簡單機械」及「地質的變化」課程參考；7題依題庫知識點推定學期，沒有出版社官方單元來源，故不新增出版社映射。 分類器載入修復：補齊5筆既有MAPS物件鍵並移除重複CURRICULUM_REFERENCES宣告；JavaScript語法編譯通過，publisher filter仍僅依持久映射資料判斷。",
   "latestCurriculumUnitClassificationAudit": {
     "date": "2026-11-15",
     "type": "g6-natural-simple-machines-geological-change-semester-backfill",
