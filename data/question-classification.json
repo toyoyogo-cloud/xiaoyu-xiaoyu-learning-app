@@ -55,7 +55,7 @@
     "learningUnit",
     "difficultyLevel"
   ],
-  "notes": "以穩定題目ID為鍵。第8至41批共2,900題均已持久分類；六個分片保留原始批次檔 SHA。冊別層級來源僅作參考，未核對單元目次者不自動掛到單題。學期與段考未能可靠判定者保留 unassigned。 2026-11-14軌別回查：90筆高二數學單元標籤與翰林數學(3A)目次相近，但原題未標數學A/B軌別；不新增出版社映射，semester與examPeriod維持unassigned，並在分類備註留存理由。 2026-11-14品質盤點：六題高中高二物理電功率題（b9-016、b11-021、b12-025、b16-059、b23-074、b37-069）列為疑似近重複候選，維持待核對與unassigned，不自動刪除；另在第9與13批發現一組高一數學正規化題幹完全相同（b9-006、b13-013），列入品質複核。 2026-11-14.36學期欄位回填：逐筆比對原始第08-41批題庫欄位，將211筆既有semester值同步到分類索引（高二物理上學期82、高二化學上學期26／全學年74、高二生物上學期29）；分類依據為question-bank-inference、confidence=low，段考與出版社映射不變。 2026-11-14.37原始欄位交叉核對：第8至41批2,900題逐批比對原始semester與examPeriod；12筆為國小六年級數學依單元群推定的學期／段考值（原始批次仍為unassigned），原始已填值漏存0。六個分類分片2,900筆、必要欄位完整；官方來源未支持的題目不新增出版社映射。 2026-11-14.38南一數學6下「四則混合運算」詳情頁覆核：更新8筆既有題目（b36-020、b37-021、b37-022、b38-024至b38-028）的來源URL、標題與驗證狀態；維持官方資源標題層級，semester=下學期、examPeriod=unassigned，不宣稱完整課本目次或學校採用版本。 2026-11-14.39分類與映射索引稽核：確認六分片共2,900筆、必要欄位缺漏0、出版社映射123筆全部可解析至19筆中央映射與19筆推定器MAPS，來源欄位不一致0；修正原始欄位交叉核對清單，13筆題庫推定覆寫（新增補列b19-019），原始已填值漏存0。 2026-11-14.40篩選資料層靜態驗收：年級、科目、學期、段考、出版社共16,200組條件；804組有題、15,396組為合理零題組合，出版社映射洩漏0，全部預設條件可讀取2,900題。已確認index.html含指定出版社無題與一般零題提示；未執行瀏覽器實機測試。因manifest與教材對照資料更新，Service Worker快取版升至xy-learning-v108。 2026-11-14.41原始d欄位語義稽核：2,900題中2,736筆d與difficultyLevel相符、7筆d與questionType相符、157筆d為其他題材／情境描述；不將異質d值強制轉成難度，未標示難度維持原值。 2026-11-14.42啟用題庫範圍回算：以34個原始批次按年級重新計數，六年級890題、高二974題，合計1,864題；各批區間08-17為194、18-27為390、28-37為880、38-41為400。全庫分類索引2,900題不等同APP當前啟用題池。 2026-11-14.43康軒社會6下2-1官方教學資源核對：將18筆直接對應公共建設、交通安全、社區參與與災害風險管理的六年級社會題目保存為下學期、康軒官方教學資源標題層級映射；段考維持unassigned，不宣稱學校採用版本。 2026-11-14.44康軒社會六上4-3官方教學資源核對：新增10筆六年級社會題目級映射（b34-050、b35-043、b35-049、b36-044、b36-046、b37-047、b38-046、b38-049、b41-043、b41-049），學期標記上學期、段考保留unassigned；層級為official-resource-title，不宣稱學校採用版本或完整課本目次。 本輪再逐組交叉比對原始第8至41批與六個分類分片：2,900題ID全數一對一對應，缺漏／額外／重複均為0。 2026-11-14.45康軒官方資源持久分類：新增5筆題目級映射（六上4-3文化資產保存3筆；六下2-1公共建設／居民參與2筆），學期依官方資源標示，段考維持unassigned。推定器移除過寬的「地方自治」單獨別名，避免把中央／地方政府職權題誤掛到六下2-1；新增精確公共預算與公民參與別名。無新增題目，未宣稱學校採用版本或教師審核。 2026-11-14.46南一雞兔問題官方詳情頁覆核：保留5筆直接雞兔同籠題；撤回3筆車輛／桌椅類比題的出版社映射與下學期標籤，改列108課綱共同核心，學期／段考unassigned。全庫總題數與分類紀錄數不變（2,900）；映射題數降為153。 靜態篩選驗收（2026-11-14.46）：依index.html現行選項模擬3,150組年級／科目／學期／段考／出版社及高二數學軌別條件，232組有題、2,918組合理零題，全部版本預設題池1,864題，出版社映射洩漏0；未做瀏覽器實機測試。 本輪已重新讀取第8至41批34個原始題庫檔，與六個分類分片 sourceBatchShas 逐筆核對，34/34一致；原始題庫沒有被本輪修改。 2026-11-14.47：依國立臺北教育大學雙語教學研究中心官方單元目錄，將12題六年級自然串聯／並聯電路題目回填至上學期；只作「電磁作用」課程主題層級對照，未掛出版社，段考維持unassigned。全庫學期分布：上學期330、下學期124、全學年74、未分類2372；出版社映射153題。 2026-11-15：依國立臺北教育大學雙語教學研究中心六年級自然上學期單元四「電磁作用」官方目錄，新增3題直接涉及電磁鐵／線圈的學期分類（b39-035、b40-034、b41-033）；維持108課綱共同核心、confidence=medium、段考unassigned、不掛出版社。",
+  "notes": "以穩定題目ID為鍵。第8至41批共2,900題均已持久分類；六個分片保留原始批次檔 SHA。冊別層級來源僅作參考，未核對單元目次者不自動掛到單題。學期與段考未能可靠判定者保留 unassigned。 2026-11-14軌別回查：90筆高二數學單元標籤與翰林數學(3A)目次相近，但原題未標數學A/B軌別；不新增出版社映射，semester與examPeriod維持unassigned，並在分類備註留存理由。 2026-11-14品質盤點：六題高中高二物理電功率題（b9-016、b11-021、b12-025、b16-059、b23-074、b37-069）列為疑似近重複候選，維持待核對與unassigned，不自動刪除；另在第9與13批發現一組高一數學正規化題幹完全相同（b9-006、b13-013），列入品質複核。 2026-11-14.36學期欄位回填：逐筆比對原始第08-41批題庫欄位，將211筆既有semester值同步到分類索引（高二物理上學期82、高二化學上學期26／全學年74、高二生物上學期29）；分類依據為question-bank-inference、confidence=low，段考與出版社映射不變。 2026-11-14.37原始欄位交叉核對：第8至41批2,900題逐批比對原始semester與examPeriod；12筆為國小六年級數學依單元群推定的學期／段考值（原始批次仍為unassigned），原始已填值漏存0。六個分類分片2,900筆、必要欄位完整；官方來源未支持的題目不新增出版社映射。 2026-11-14.38南一數學6下「四則混合運算」詳情頁覆核：更新8筆既有題目（b36-020、b37-021、b37-022、b38-024至b38-028）的來源URL、標題與驗證狀態；維持官方資源標題層級，semester=下學期、examPeriod=unassigned，不宣稱完整課本目次或學校採用版本。 2026-11-14.39分類與映射索引稽核：確認六分片共2,900筆、必要欄位缺漏0、出版社映射123筆全部可解析至19筆中央映射與19筆推定器MAPS，來源欄位不一致0；修正原始欄位交叉核對清單，13筆題庫推定覆寫（新增補列b19-019），原始已填值漏存0。 2026-11-14.40篩選資料層靜態驗收：年級、科目、學期、段考、出版社共16,200組條件；804組有題、15,396組為合理零題組合，出版社映射洩漏0，全部預設條件可讀取2,900題。已確認index.html含指定出版社無題與一般零題提示；未執行瀏覽器實機測試。因manifest與教材對照資料更新，Service Worker快取版升至xy-learning-v108。 2026-11-14.41原始d欄位語義稽核：2,900題中2,736筆d與difficultyLevel相符、7筆d與questionType相符、157筆d為其他題材／情境描述；不將異質d值強制轉成難度，未標示難度維持原值。 2026-11-14.42啟用題庫範圍回算：以34個原始批次按年級重新計數，六年級890題、高二974題，合計1,864題；各批區間08-17為194、18-27為390、28-37為880、38-41為400。全庫分類索引2,900題不等同APP當前啟用題池。 2026-11-14.43康軒社會6下2-1官方教學資源核對：將18筆直接對應公共建設、交通安全、社區參與與災害風險管理的六年級社會題目保存為下學期、康軒官方教學資源標題層級映射；段考維持unassigned，不宣稱學校採用版本。 2026-11-14.44康軒社會六上4-3官方教學資源核對：新增10筆六年級社會題目級映射（b34-050、b35-043、b35-049、b36-044、b36-046、b37-047、b38-046、b38-049、b41-043、b41-049），學期標記上學期、段考保留unassigned；層級為official-resource-title，不宣稱學校採用版本或完整課本目次。 本輪再逐組交叉比對原始第8至41批與六個分類分片：2,900題ID全數一對一對應，缺漏／額外／重複均為0。 2026-11-14.45康軒官方資源持久分類：新增5筆題目級映射（六上4-3文化資產保存3筆；六下2-1公共建設／居民參與2筆），學期依官方資源標示，段考維持unassigned。推定器移除過寬的「地方自治」單獨別名，避免把中央／地方政府職權題誤掛到六下2-1；新增精確公共預算與公民參與別名。無新增題目，未宣稱學校採用版本或教師審核。 2026-11-14.46南一雞兔問題官方詳情頁覆核：保留5筆直接雞兔同籠題；撤回3筆車輛／桌椅類比題的出版社映射與下學期標籤，改列108課綱共同核心，學期／段考unassigned。全庫總題數與分類紀錄數不變（2,900）；映射題數降為153。 靜態篩選驗收（2026-11-14.46）：依index.html現行選項模擬3,150組年級／科目／學期／段考／出版社及高二數學軌別條件，232組有題、2,918組合理零題，全部版本預設題池1,864題，出版社映射洩漏0；未做瀏覽器實機測試。 本輪已重新讀取第8至41批34個原始題庫檔，與六個分類分片 sourceBatchShas 逐筆核對，34/34一致；原始題庫沒有被本輪修改。 2026-11-14.47：依國立臺北教育大學雙語教學研究中心官方單元目錄，將12題六年級自然串聯／並聯電路題目回填至上學期；只作「電磁作用」課程主題層級對照，未掛出版社，段考維持unassigned。全庫學期分布：上學期330、下學期124、全學年74、未分類2372；出版社映射153題。 2026-11-15：依國立臺北教育大學雙語教學研究中心六年級自然上學期單元四「電磁作用」官方目錄，新增3題直接涉及電磁鐵／線圈的學期分類（b39-035、b40-034、b41-033）；維持108課綱共同核心、confidence=medium、段考unassigned、不掛出版社。 2026-11-15課程主題學期分類：依國立臺北教育大學雙語教學研究中心六年級自然官方單元目錄，新增4筆上學期分類（b39-037天氣變化、b38-037/b40-039/b41-037熱對物質影響）；全部維持共同核心、段考未分類、無出版社映射。",
   "lastReconciliation": {
     "date": "2026-11-14",
     "type": "original-question-bank-semester-sync",
@@ -132,20 +132,22 @@
     "notes": "12筆課程核心學期分類沒有新增出版社映射；原有153筆出版社題目映射均保留，來源欄位與中央映射參照未變。"
   },
   "lastFilterDataAudit": {
-    "auditedAt": "2026-11-14",
+    "auditedAt": "2026-11-15",
     "batches": "08-41",
     "questionsChecked": 2900,
     "dimensions": [
-      "grade",
+      "active grade",
       "subject",
+      "difficulty",
       "semester",
       "examPeriod",
       "publisher",
-      "courseTrack（僅高二數學）"
+      "courseTrack（另行檢查高二數學）",
+      "learningUnit"
     ],
-    "combinationsTested": 3150,
-    "nonEmptyCombinations": 236,
-    "zeroResultCombinations": 2914,
+    "combinationsTested": 22032,
+    "nonEmptyResultCombinations": 956,
+    "zeroResultCombinations": 21076,
     "publisherMappingLeaks": 0,
     "zeroResultHintPresent": true,
     "browserOrMobileRuntimeTested": false,
@@ -156,29 +158,36 @@
       "高二": 974
     },
     "activeScopeSemesterDistribution": {
-      "unassigned": 1336,
-      "上學期": 330,
-      "下學期": 124,
-      "全學年": 74
+      "unassigned": 1329,
+      "上學期": 337,
+      "全學年": 74,
+      "下學期": 124
     },
     "activeScopeExamPeriodDistribution": {
       "unassigned": 1633,
+      "第三次段考": 94,
       "第一次段考": 66,
-      "第二次段考": 71,
-      "第三次段考": 94
+      "第二次段考": 71
     },
     "activeScopePublisherStatus": {
       "curriculum-core": 1705,
       "pending": 6,
       "publisher-mapped": 153
     },
-    "fullCartesianCombinations": 18900,
-    "fullCartesianNonEmpty": 1076,
-    "fullCartesianZero": 17824,
     "unitFilterGroupsTested": 1184,
-    "filterErrors": 0,
     "unitFilterErrors": 0,
-    "notes": "依index.html現行篩選條件重新靜態模擬；3150組學期／段考／出版社／軌別條件中236組有題、2914組合理零題；含難度的18900組中1076組有題、17824組合理零題；另核對1184組年級／科目／單元組合。分類索引可讀取，出版社映射洩漏0。未執行瀏覽器或手機實機測試。"
+    "high2MathTrackCounts": {
+      "請選擇軌別": 0,
+      "數學A": 79,
+      "數學B": 0,
+      "未標示軌別": 133,
+      "全部軌別": 212
+    },
+    "validation": {
+      "missingRequiredFields": 0,
+      "illegalValues": 0,
+      "mappingErrors": 0
+    }
   },
   "lastRawTagAudit": {
     "date": "2026-11-14",
@@ -190,47 +199,39 @@
     "notes": "原始批次欄位d並非全庫一致的difficulty欄位。08-19與38-41批次多為難度標籤；20-25有2題d=閱讀理解對應questionType；26-31與32-37另有157筆d為生活情境、生活計算、單位換算等主題／題材描述，未與difficultyLevel、questionType、learningDomain或learningUnit直接相等。保留原始d不覆蓋；這157筆的difficultyLevel維持未標示，避免把題材標籤誤當難度。"
   },
   "lastRunAudit": {
-    "date": "2026-11-14",
-    "type": "ntue-g6-natural-circuits-curriculum-semester-backfill",
-    "sourceHead": "3aa0d27f50cba96abcf6fa0cc77d198b258ecb3c",
+    "date": "2026-11-15",
+    "type": "ntue-g6-natural-weather-heat-semester-backfill",
+    "sourceHeadBeforeRun": "d43f85d729a0038c551ed737d981d14f737d5cf2",
+    "batches": "08-41",
+    "batchFileCount": 34,
     "fullCorpusQuestionCount": 2900,
-    "activeScopeQuestionCount": 1864,
-    "questionRecordsUpdated": 12,
+    "questionRecordsUpdated": 4,
     "updatedQuestionIds": [
-      "b15-021",
-      "b17-024",
-      "b18-023",
-      "b19-023",
-      "b25-029",
-      "b30-023",
-      "b31-032",
-      "b33-032",
-      "b37-034",
-      "b38-036",
-      "b40-033",
-      "b41-032"
+      "b39-037",
+      "b38-037",
+      "b40-039",
+      "b41-037"
     ],
-    "curriculumReferenceId": "ntue-g6-natural-6a-u4-electricity-magnetism",
+    "curriculumReferenceId": "ntue-g6-natural-6a-u1-u2-weather-heat",
     "sourceUrl": "https://bilingual.ntue.edu.tw/p/404-1054-31326.php?Lang=zh-tw",
     "sourceTitle": "國立臺北教育大學雙語教學研究中心－國小自然科學筆記本、雙語教學資源手冊",
-    "verificationStatus": "source-checked",
     "classificationBasis": "curriculum-core",
     "confidence": "medium",
-    "semesterAssigned": 12,
+    "semesterAssigned": 4,
     "examPeriodAssigned": 0,
     "publisherMappingsAdded": 0,
     "newQuestionsAdded": 0,
     "fullCorpusSemesterDistribution": {
-      "unassigned": 2372,
-      "上學期": 330,
-      "下學期": 124,
-      "全學年": 74
+      "unassigned": 2365,
+      "上學期": 337,
+      "全學年": 74,
+      "下學期": 124
     },
     "fullCorpusExamPeriodDistribution": {
       "unassigned": 2669,
+      "第三次段考": 94,
       "第一次段考": 66,
-      "第二次段考": 71,
-      "第三次段考": 94
+      "第二次段考": 71
     },
     "fullCorpusClassificationBasisDistribution": {
       "curriculum-core": 2384,
@@ -243,29 +244,54 @@
       "publisher-mapped": 153
     },
     "fullCorpusConfidenceDistribution": {
-      "low": 2413,
-      "medium": 459,
+      "low": 2407,
+      "medium": 465,
       "high": 28
     },
+    "activeScopeQuestionCount": 1864,
     "activeScopeSemesterDistribution": {
-      "unassigned": 1336,
-      "上學期": 330,
-      "下學期": 124,
-      "全學年": 74
+      "unassigned": 1329,
+      "上學期": 337,
+      "全學年": 74,
+      "下學期": 124
     },
     "activeScopeExamPeriodDistribution": {
       "unassigned": 1633,
+      "第三次段考": 94,
       "第一次段考": 66,
-      "第二次段考": 71,
-      "第三次段考": 94
+      "第二次段考": 71
     },
     "activeScopePublisherStatus": {
       "curriculum-core": 1705,
       "pending": 6,
       "publisher-mapped": 153
     },
-    "sourceBatchShasMatched": 34,
-    "notes": "國立臺北教育大學雙語教學研究中心單元目錄明示六年級自然上學期單元四「電磁作用」。12題直接涉及串聯／並聯電路通路，僅作課程主題層級分類；未取得出版社目次或學校採用證據，故不掛出版社；段考維持unassigned。"
+    "validation": {
+      "missingRequiredFields": 0,
+      "illegalValues": 0,
+      "mappingErrors": 0
+    },
+    "filter": {
+      "contexts": 17,
+      "difficulties": 6,
+      "semesters": 6,
+      "examPeriods": 6,
+      "publishers": 6,
+      "combinationsTested": 22032,
+      "nonEmpty": 956,
+      "zero": 21076,
+      "publisherMappingLeaks": 0,
+      "unitGroupsTested": 1184,
+      "unitFilterErrors": 0,
+      "high2MathTrackCounts": {
+        "請選擇軌別": 0,
+        "數學A": 79,
+        "數學B": 0,
+        "未標示軌別": 133,
+        "全部軌別": 212
+      }
+    },
+    "notes": "只依官方課程主題目錄回填學期；不宣稱出版社版本、學校採用版本或正式段考範圍。"
   },
   "lastBatchClassificationReconciliation": {
     "date": "2026-11-14",
