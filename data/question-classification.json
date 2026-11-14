@@ -55,7 +55,7 @@
     "learningUnit",
     "difficultyLevel"
   ],
-  "notes": "以穩定題目ID為鍵。第8至41批共2,900題均已持久分類；六個分片保留原始批次檔 SHA。冊別層級來源僅作參考，未核對單元目次者不自動掛到單題。學期與段考未能可靠判定者保留 unassigned。 2026-11-14軌別回查：90筆高二數學單元標籤與翰林數學(3A)目次相近，但原題未標數學A/B軌別；不新增出版社映射，semester與examPeriod維持unassigned，並在分類備註留存理由。 2026-11-14品質盤點：六題高中高二物理電功率題（b9-016、b11-021、b12-025、b16-059、b23-074、b37-069）列為疑似近重複候選，維持待核對與unassigned，不自動刪除；另在第9與13批發現一組高一數學正規化題幹完全相同（b9-006、b13-013），列入品質複核。 2026-11-14.36學期欄位回填：逐筆比對原始第08-41批題庫欄位，將211筆既有semester值同步到分類索引（高二物理上學期82、高二化學上學期26／全學年74、高二生物上學期29）；分類依據為question-bank-inference、confidence=low，段考與出版社映射不變。 2026-11-14.37原始欄位交叉核對：第8至41批2,900題逐批比對原始semester與examPeriod；12筆為國小六年級數學依單元群推定的學期／段考值（原始批次仍為unassigned），原始已填值漏存0。六個分類分片2,900筆、必要欄位完整；官方來源未支持的題目不新增出版社映射。 2026-11-14.38南一數學6下「四則混合運算」詳情頁覆核：更新8筆既有題目（b36-020、b37-021、b37-022、b38-024至b38-028）的來源URL、標題與驗證狀態；維持官方資源標題層級，semester=下學期、examPeriod=unassigned，不宣稱完整課本目次或學校採用版本。",
+  "notes": "以穩定題目ID為鍵。第8至41批共2,900題均已持久分類；六個分片保留原始批次檔 SHA。冊別層級來源僅作參考，未核對單元目次者不自動掛到單題。學期與段考未能可靠判定者保留 unassigned。 2026-11-14軌別回查：90筆高二數學單元標籤與翰林數學(3A)目次相近，但原題未標數學A/B軌別；不新增出版社映射，semester與examPeriod維持unassigned，並在分類備註留存理由。 2026-11-14品質盤點：六題高中高二物理電功率題（b9-016、b11-021、b12-025、b16-059、b23-074、b37-069）列為疑似近重複候選，維持待核對與unassigned，不自動刪除；另在第9與13批發現一組高一數學正規化題幹完全相同（b9-006、b13-013），列入品質複核。 2026-11-14.36學期欄位回填：逐筆比對原始第08-41批題庫欄位，將211筆既有semester值同步到分類索引（高二物理上學期82、高二化學上學期26／全學年74、高二生物上學期29）；分類依據為question-bank-inference、confidence=low，段考與出版社映射不變。 2026-11-14.37原始欄位交叉核對：第8至41批2,900題逐批比對原始semester與examPeriod；12筆為國小六年級數學依單元群推定的學期／段考值（原始批次仍為unassigned），原始已填值漏存0。六個分類分片2,900筆、必要欄位完整；官方來源未支持的題目不新增出版社映射。 2026-11-14.38南一數學6下「四則混合運算」詳情頁覆核：更新8筆既有題目（b36-020、b37-021、b37-022、b38-024至b38-028）的來源URL、標題與驗證狀態；維持官方資源標題層級，semester=下學期、examPeriod=unassigned，不宣稱完整課本目次或學校採用版本。 2026-11-14.39分類與映射索引稽核：確認六分片共2,900筆、必要欄位缺漏0、出版社映射123筆全部可解析至19筆中央映射與19筆推定器MAPS，來源欄位不一致0；修正原始欄位交叉核對清單，13筆題庫推定覆寫（新增補列b19-019），原始已填值漏存0。",
   "lastReconciliation": {
     "date": "2026-11-14",
     "type": "original-question-bank-semester-sync",
@@ -83,10 +83,11 @@
   },
   "lastAudit": {
     "questionsCompared": 2900,
-    "expectedInferenceOverrides": 12,
+    "expectedInferenceOverrides": 13,
     "expectedInferenceOverrideIds": [
       "b15-019",
       "b18-019",
+      "b19-019",
       "b26-028",
       "b28-028",
       "b30-020",
@@ -99,6 +100,33 @@
       "b39-030"
     ],
     "rawAssignedSemesterOrExamValuesMissingFromClassification": 0,
-    "notes": "12筆皆為國小六年級數學：原始批次semester與examPeriod為unassigned，但持久分類索引依單元群推定已填學期／段考；屬question-bank-inference，不是原始欄位遺失或官方／教師確認。所有原始題庫已有的非unassigned semester與examPeriod均已在分類索引保留。"
+    "notes": "逐批比較第8至41批原始semester／examPeriod與持久分類索引。13筆國小六年級數學題目在原始批次仍為unassigned，但分類索引依題庫單元群推定出學期／段考；均屬question-bank-inference，非原始欄位遺失、官方或教師確認。原始題庫已有非unassigned semester／examPeriod而分類索引未保存的題數為0。此次補正先前稽核清單漏列的b19-019；其單元為「比的應用」，分類索引上學期／第一次段考，信心medium。"
+  },
+  "lastMappingReferenceAudit": {
+    "date": "2026-11-14",
+    "type": "persisted-publisher-mapping-reference-audit",
+    "classificationRecordCount": 2900,
+    "activeScopeQuestionCount": 1864,
+    "activeScopeSemesterDistribution": {
+      "上學期": 305,
+      "下學期": 107,
+      "全學年": 74,
+      "unassigned": 1378
+    },
+    "activeScopeExamPeriodDistribution": {
+      "第一次段考": 66,
+      "第二次段考": 71,
+      "第三次段考": 94,
+      "unassigned": 1633
+    },
+    "publisherMappedQuestionCount": 123,
+    "questionMappingReferenceCount": 123,
+    "centralMappingCount": 19,
+    "inferenceMapCount": 19,
+    "unresolvedCentralMappingReferences": 0,
+    "unresolvedInferenceMapReferences": 0,
+    "sourceFieldMismatches": 0,
+    "missingRequiredClassificationFields": 0,
+    "notes": "六個持久分類分片重新解析後，123筆題目級出版社映射全部可在textbook-alignment.json與question-classification-inference.js找到相同mappingId；publisher、sourceUrl、sourceTitle、verifiedAt、verificationStatus一致。未將冊別層級參考擴張成題目級單元映射。"
   }
 }
