@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.1.0",
   "updatedAt": "2026-11-15",
-  "classificationRuleVersion": "2026-11-15.51",
+  "classificationRuleVersion": "2026-11-15.53",
   "batchRange": "32-37",
   "sourceBatchShas": {
     "32": "7635d93cf435082eaabdad9fd0c9b746846a13c9",
@@ -228,16 +228,110 @@
       "subject": "數學",
       "courseTrack": null,
       "courseType": null,
-      "semester": "unassigned",
+      "semester": "上學期",
       "examPeriod": "unassigned",
-      "classificationBasis": "curriculum-core",
-      "confidence": "low",
-      "publisherStatus": "curriculum-core",
-      "publisherMappings": [],
-      "classificationNotes": "依108課綱共同核心概念原創編寫；缺乏可核對的出版社細分單元或學校段考依據，故學期與段考維持未分類。",
-      "sourceRef": "依108課綱共同核心概念原創編寫；非出版社或歷屆試題原文。",
+      "classificationBasis": "publisher-source-verified",
+      "confidence": "medium",
+      "publisherStatus": "publisher-mapped",
+      "publisherMappings": [
+        {
+          "publisher": "hanlin",
+          "mappingId": "hanlin-g6-math-6a-u2-fraction-division",
+          "sourceUrl": "https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
+          "sourceTitle": "翰林國小輔教行銷處－數學能力加強系列[6年級]抽印本，第50頁「六年級版本對照表」",
+          "verifiedAt": "2026-11-15",
+          "verificationStatus": "source-checked",
+          "notes": "翰林國小輔教行銷處發布的六年級數學版本對照表第50頁，明列「單元2 分數除法」：翰林版、康軒版、南一版均對應六上第2單元。此為翰林部門發布的跨版本對照資源，非三家各自課本詳情頁，且未標示學年度；僅支持此單元的版本／學期對照，不代表任何學校採用版本或正式段考範圍。",
+          "mappingLevel": "unit",
+          "volume": "六年級數學版本對照表（學年度未標示）",
+          "unitCode": "第2單元",
+          "unitName": "分數除法",
+          "unitAliases": [
+            "分數除法",
+            "分數除以分數",
+            "分數除以整數",
+            "異分母分數相除"
+          ],
+          "scopeKeywords": [
+            "分數除法",
+            "分數除以分數",
+            "分數除以整數",
+            "異分母分數相除"
+          ],
+          "semester": "上學期",
+          "grade": "六年級",
+          "subject": "數學",
+          "courseTrack": null,
+          "schoolYear": "未標示",
+          "courseType": "國小"
+        },
+        {
+          "publisher": "knsh",
+          "mappingId": "knsh-g6-math-6a-u2-fraction-division",
+          "sourceUrl": "https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
+          "sourceTitle": "翰林國小輔教行銷處－數學能力加強系列[6年級]抽印本，第50頁「六年級版本對照表」",
+          "verifiedAt": "2026-11-15",
+          "verificationStatus": "source-checked",
+          "notes": "翰林國小輔教行銷處發布的六年級數學版本對照表第50頁，明列「單元2 分數除法」：翰林版、康軒版、南一版均對應六上第2單元。此為翰林部門發布的跨版本對照資源，非三家各自課本詳情頁，且未標示學年度；僅支持此單元的版本／學期對照，不代表任何學校採用版本或正式段考範圍。",
+          "mappingLevel": "unit",
+          "volume": "六年級數學版本對照表（學年度未標示）",
+          "unitCode": "第2單元",
+          "unitName": "分數除法",
+          "unitAliases": [
+            "分數除法",
+            "分數除以分數",
+            "分數除以整數",
+            "異分母分數相除"
+          ],
+          "scopeKeywords": [
+            "分數除法",
+            "分數除以分數",
+            "分數除以整數",
+            "異分母分數相除"
+          ],
+          "semester": "上學期",
+          "grade": "六年級",
+          "subject": "數學",
+          "courseTrack": null,
+          "schoolYear": "未標示",
+          "courseType": "國小"
+        },
+        {
+          "publisher": "nani",
+          "mappingId": "nani-g6-math-6a-u2-fraction-division",
+          "sourceUrl": "https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
+          "sourceTitle": "翰林國小輔教行銷處－數學能力加強系列[6年級]抽印本，第50頁「六年級版本對照表」",
+          "verifiedAt": "2026-11-15",
+          "verificationStatus": "source-checked",
+          "notes": "翰林國小輔教行銷處發布的六年級數學版本對照表第50頁，明列「單元2 分數除法」：翰林版、康軒版、南一版均對應六上第2單元。此為翰林部門發布的跨版本對照資源，非三家各自課本詳情頁，且未標示學年度；僅支持此單元的版本／學期對照，不代表任何學校採用版本或正式段考範圍。",
+          "mappingLevel": "unit",
+          "volume": "六年級數學版本對照表（學年度未標示）",
+          "unitCode": "第2單元",
+          "unitName": "分數除法",
+          "unitAliases": [
+            "分數除法",
+            "分數除以分數",
+            "分數除以整數",
+            "異分母分數相除"
+          ],
+          "scopeKeywords": [
+            "分數除法",
+            "分數除以分數",
+            "分數除以整數",
+            "異分母分數相除"
+          ],
+          "semester": "上學期",
+          "grade": "六年級",
+          "subject": "數學",
+          "courseTrack": null,
+          "schoolYear": "未標示",
+          "courseType": "國小"
+        }
+      ],
+      "classificationNotes": "翰林國小輔教行銷處發布的六年級數學版本對照表第50頁，明列「單元2 分數除法」：翰林版、康軒版、南一版均對應六上第2單元。此為翰林部門發布的跨版本對照資源，非三家各自課本詳情頁，且未標示學年度；僅支持此單元的版本／學期對照，不代表任何學校採用版本或正式段考範圍。 題目單元與題幹均直接對應分數除法；本輪只補學期及版本映射，段考仍維持unassigned。",
+      "sourceRef": "hanlin-cross-version-g6-math-6a-u2-fraction-division | 翰林國小輔教行銷處－數學能力加強系列[6年級]抽印本，第50頁「六年級版本對照表」 | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
       "learningDomain": "數與運算",
-      "questionType": "概念辨識",
+      "questionType": "計算應用",
       "learningUnit": "分數除法",
       "difficultyLevel": "進階"
     },
@@ -2327,16 +2421,110 @@
       "subject": "數學",
       "courseTrack": null,
       "courseType": null,
-      "semester": "unassigned",
+      "semester": "上學期",
       "examPeriod": "unassigned",
-      "classificationBasis": "curriculum-core",
-      "confidence": "low",
-      "publisherStatus": "curriculum-core",
-      "publisherMappings": [],
-      "classificationNotes": "依108課綱共同核心概念原創編寫；沒有足夠可靠資料確認出版社細分單元或學校段考範圍，因此維持未分類。",
-      "sourceRef": "依108課綱共同核心概念原創編寫；非出版社或歷屆試題原文。",
+      "classificationBasis": "publisher-source-verified",
+      "confidence": "medium",
+      "publisherStatus": "publisher-mapped",
+      "publisherMappings": [
+        {
+          "publisher": "hanlin",
+          "mappingId": "hanlin-g6-math-6a-u2-fraction-division",
+          "sourceUrl": "https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
+          "sourceTitle": "翰林國小輔教行銷處－數學能力加強系列[6年級]抽印本，第50頁「六年級版本對照表」",
+          "verifiedAt": "2026-11-15",
+          "verificationStatus": "source-checked",
+          "notes": "翰林國小輔教行銷處發布的六年級數學版本對照表第50頁，明列「單元2 分數除法」：翰林版、康軒版、南一版均對應六上第2單元。此為翰林部門發布的跨版本對照資源，非三家各自課本詳情頁，且未標示學年度；僅支持此單元的版本／學期對照，不代表任何學校採用版本或正式段考範圍。",
+          "mappingLevel": "unit",
+          "volume": "六年級數學版本對照表（學年度未標示）",
+          "unitCode": "第2單元",
+          "unitName": "分數除法",
+          "unitAliases": [
+            "分數除法",
+            "分數除以分數",
+            "分數除以整數",
+            "異分母分數相除"
+          ],
+          "scopeKeywords": [
+            "分數除法",
+            "分數除以分數",
+            "分數除以整數",
+            "異分母分數相除"
+          ],
+          "semester": "上學期",
+          "grade": "六年級",
+          "subject": "數學",
+          "courseTrack": null,
+          "schoolYear": "未標示",
+          "courseType": "國小"
+        },
+        {
+          "publisher": "knsh",
+          "mappingId": "knsh-g6-math-6a-u2-fraction-division",
+          "sourceUrl": "https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
+          "sourceTitle": "翰林國小輔教行銷處－數學能力加強系列[6年級]抽印本，第50頁「六年級版本對照表」",
+          "verifiedAt": "2026-11-15",
+          "verificationStatus": "source-checked",
+          "notes": "翰林國小輔教行銷處發布的六年級數學版本對照表第50頁，明列「單元2 分數除法」：翰林版、康軒版、南一版均對應六上第2單元。此為翰林部門發布的跨版本對照資源，非三家各自課本詳情頁，且未標示學年度；僅支持此單元的版本／學期對照，不代表任何學校採用版本或正式段考範圍。",
+          "mappingLevel": "unit",
+          "volume": "六年級數學版本對照表（學年度未標示）",
+          "unitCode": "第2單元",
+          "unitName": "分數除法",
+          "unitAliases": [
+            "分數除法",
+            "分數除以分數",
+            "分數除以整數",
+            "異分母分數相除"
+          ],
+          "scopeKeywords": [
+            "分數除法",
+            "分數除以分數",
+            "分數除以整數",
+            "異分母分數相除"
+          ],
+          "semester": "上學期",
+          "grade": "六年級",
+          "subject": "數學",
+          "courseTrack": null,
+          "schoolYear": "未標示",
+          "courseType": "國小"
+        },
+        {
+          "publisher": "nani",
+          "mappingId": "nani-g6-math-6a-u2-fraction-division",
+          "sourceUrl": "https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
+          "sourceTitle": "翰林國小輔教行銷處－數學能力加強系列[6年級]抽印本，第50頁「六年級版本對照表」",
+          "verifiedAt": "2026-11-15",
+          "verificationStatus": "source-checked",
+          "notes": "翰林國小輔教行銷處發布的六年級數學版本對照表第50頁，明列「單元2 分數除法」：翰林版、康軒版、南一版均對應六上第2單元。此為翰林部門發布的跨版本對照資源，非三家各自課本詳情頁，且未標示學年度；僅支持此單元的版本／學期對照，不代表任何學校採用版本或正式段考範圍。",
+          "mappingLevel": "unit",
+          "volume": "六年級數學版本對照表（學年度未標示）",
+          "unitCode": "第2單元",
+          "unitName": "分數除法",
+          "unitAliases": [
+            "分數除法",
+            "分數除以分數",
+            "分數除以整數",
+            "異分母分數相除"
+          ],
+          "scopeKeywords": [
+            "分數除法",
+            "分數除以分數",
+            "分數除以整數",
+            "異分母分數相除"
+          ],
+          "semester": "上學期",
+          "grade": "六年級",
+          "subject": "數學",
+          "courseTrack": null,
+          "schoolYear": "未標示",
+          "courseType": "國小"
+        }
+      ],
+      "classificationNotes": "翰林國小輔教行銷處發布的六年級數學版本對照表第50頁，明列「單元2 分數除法」：翰林版、康軒版、南一版均對應六上第2單元。此為翰林部門發布的跨版本對照資源，非三家各自課本詳情頁，且未標示學年度；僅支持此單元的版本／學期對照，不代表任何學校採用版本或正式段考範圍。 題目單元與題幹均直接對應分數除法；本輪只補學期及版本映射，段考仍維持unassigned。",
+      "sourceRef": "hanlin-cross-version-g6-math-6a-u2-fraction-division | 翰林國小輔教行銷處－數學能力加強系列[6年級]抽印本，第50頁「六年級版本對照表」 | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
       "learningDomain": "數與運算",
-      "questionType": "概念辨識",
+      "questionType": "計算應用",
       "learningUnit": "分數除法",
       "difficultyLevel": "進階"
     },
@@ -11011,14 +11199,108 @@
       "subject": "數學",
       "courseTrack": null,
       "courseType": null,
-      "semester": "unassigned",
+      "semester": "上學期",
       "examPeriod": "unassigned",
-      "classificationBasis": "curriculum-core",
+      "classificationBasis": "publisher-source-verified",
       "confidence": "medium",
-      "publisherStatus": "curriculum-core",
-      "publisherMappings": [],
-      "classificationNotes": "依108課綱共同核心原創編寫；無足夠出版社單元或學校採用證據，不掛出版社標籤。",
-      "sourceRef": "依108課綱共同核心原創編寫；非出版社或歷屆試題原文。",
+      "publisherStatus": "publisher-mapped",
+      "publisherMappings": [
+        {
+          "publisher": "hanlin",
+          "mappingId": "hanlin-g6-math-6a-u2-fraction-division",
+          "sourceUrl": "https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
+          "sourceTitle": "翰林國小輔教行銷處－數學能力加強系列[6年級]抽印本，第50頁「六年級版本對照表」",
+          "verifiedAt": "2026-11-15",
+          "verificationStatus": "source-checked",
+          "notes": "翰林國小輔教行銷處發布的六年級數學版本對照表第50頁，明列「單元2 分數除法」：翰林版、康軒版、南一版均對應六上第2單元。此為翰林部門發布的跨版本對照資源，非三家各自課本詳情頁，且未標示學年度；僅支持此單元的版本／學期對照，不代表任何學校採用版本或正式段考範圍。",
+          "mappingLevel": "unit",
+          "volume": "六年級數學版本對照表（學年度未標示）",
+          "unitCode": "第2單元",
+          "unitName": "分數除法",
+          "unitAliases": [
+            "分數除法",
+            "分數除以分數",
+            "分數除以整數",
+            "異分母分數相除"
+          ],
+          "scopeKeywords": [
+            "分數除法",
+            "分數除以分數",
+            "分數除以整數",
+            "異分母分數相除"
+          ],
+          "semester": "上學期",
+          "grade": "六年級",
+          "subject": "數學",
+          "courseTrack": null,
+          "schoolYear": "未標示",
+          "courseType": "國小"
+        },
+        {
+          "publisher": "knsh",
+          "mappingId": "knsh-g6-math-6a-u2-fraction-division",
+          "sourceUrl": "https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
+          "sourceTitle": "翰林國小輔教行銷處－數學能力加強系列[6年級]抽印本，第50頁「六年級版本對照表」",
+          "verifiedAt": "2026-11-15",
+          "verificationStatus": "source-checked",
+          "notes": "翰林國小輔教行銷處發布的六年級數學版本對照表第50頁，明列「單元2 分數除法」：翰林版、康軒版、南一版均對應六上第2單元。此為翰林部門發布的跨版本對照資源，非三家各自課本詳情頁，且未標示學年度；僅支持此單元的版本／學期對照，不代表任何學校採用版本或正式段考範圍。",
+          "mappingLevel": "unit",
+          "volume": "六年級數學版本對照表（學年度未標示）",
+          "unitCode": "第2單元",
+          "unitName": "分數除法",
+          "unitAliases": [
+            "分數除法",
+            "分數除以分數",
+            "分數除以整數",
+            "異分母分數相除"
+          ],
+          "scopeKeywords": [
+            "分數除法",
+            "分數除以分數",
+            "分數除以整數",
+            "異分母分數相除"
+          ],
+          "semester": "上學期",
+          "grade": "六年級",
+          "subject": "數學",
+          "courseTrack": null,
+          "schoolYear": "未標示",
+          "courseType": "國小"
+        },
+        {
+          "publisher": "nani",
+          "mappingId": "nani-g6-math-6a-u2-fraction-division",
+          "sourceUrl": "https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
+          "sourceTitle": "翰林國小輔教行銷處－數學能力加強系列[6年級]抽印本，第50頁「六年級版本對照表」",
+          "verifiedAt": "2026-11-15",
+          "verificationStatus": "source-checked",
+          "notes": "翰林國小輔教行銷處發布的六年級數學版本對照表第50頁，明列「單元2 分數除法」：翰林版、康軒版、南一版均對應六上第2單元。此為翰林部門發布的跨版本對照資源，非三家各自課本詳情頁，且未標示學年度；僅支持此單元的版本／學期對照，不代表任何學校採用版本或正式段考範圍。",
+          "mappingLevel": "unit",
+          "volume": "六年級數學版本對照表（學年度未標示）",
+          "unitCode": "第2單元",
+          "unitName": "分數除法",
+          "unitAliases": [
+            "分數除法",
+            "分數除以分數",
+            "分數除以整數",
+            "異分母分數相除"
+          ],
+          "scopeKeywords": [
+            "分數除法",
+            "分數除以分數",
+            "分數除以整數",
+            "異分母分數相除"
+          ],
+          "semester": "上學期",
+          "grade": "六年級",
+          "subject": "數學",
+          "courseTrack": null,
+          "schoolYear": "未標示",
+          "courseType": "國小"
+        }
+      ],
+      "classificationNotes": "翰林國小輔教行銷處發布的六年級數學版本對照表第50頁，明列「單元2 分數除法」：翰林版、康軒版、南一版均對應六上第2單元。此為翰林部門發布的跨版本對照資源，非三家各自課本詳情頁，且未標示學年度；僅支持此單元的版本／學期對照，不代表任何學校採用版本或正式段考範圍。 題目單元與題幹均直接對應分數除法；本輪只補學期及版本映射，段考仍維持unassigned。",
+      "sourceRef": "hanlin-cross-version-g6-math-6a-u2-fraction-division | 翰林國小輔教行銷處－數學能力加強系列[6年級]抽印本，第50頁「六年級版本對照表」 | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
       "learningDomain": "數與運算",
       "questionType": "計算應用",
       "learningUnit": "分數除法",
@@ -12773,5 +13055,20 @@
       "difficultyLevel": "進階"
     }
   },
-  "notes": " 2026-11-14.36：逐筆比對第32-37批原始題庫 semester 欄位，將原題庫已填且分類索引仍為 unassigned 的學期值同步為 question-bank-inference；不改動 publisher-source-verified、不推定段考、不新增出版社映射。 2026-11-14.46：南一官方「數學6下｜怎樣解題：雞兔問題」詳情頁已開啟核對；保留5題直接雞兔同籠映射，將3題汽車／機車及三腳椅／四腳桌類比題撤回出版社映射並改列共同核心。 2026-11-14.47：依國立臺北教育大學雙語教學研究中心官方目錄，將六年級自然串聯／並聯電路題目對應至上學期單元四「電磁作用」之課程主題層級；共2題，僅更新semester，examPeriod與出版社映射不變。 2026-11-15.51：回填5題六下簡單機械、2題六上地質的變化；依課程主題推定，出版社映射0、段考維持unassigned。"
+  "notes": " 2026-11-14.36：逐筆比對第32-37批原始題庫 semester 欄位，將原題庫已填且分類索引仍為 unassigned 的學期值同步為 question-bank-inference；不改動 publisher-source-verified、不推定段考、不新增出版社映射。 2026-11-14.46：南一官方「數學6下｜怎樣解題：雞兔問題」詳情頁已開啟核對；保留5題直接雞兔同籠映射，將3題汽車／機車及三腳椅／四腳桌類比題撤回出版社映射並改列共同核心。 2026-11-14.47：依國立臺北教育大學雙語教學研究中心官方目錄，將六年級自然串聯／並聯電路題目對應至上學期單元四「電磁作用」之課程主題層級；共2題，僅更新semester，examPeriod與出版社映射不變。 2026-11-15.51：回填5題六下簡單機械、2題六上地質的變化；依課程主題推定，出版社映射0、段考維持unassigned。",
+  "lastUpdate": {
+    "runId": "2026-11-15-g6-math-fraction-division-cross-version-01",
+    "updatedQuestionIds": [
+      "b32-012",
+      "b33-019",
+      "b37-028"
+    ],
+    "publisherMappingReferencesAdded": 9,
+    "semesterAssigned": 3,
+    "examPeriodAssigned": 0,
+    "newQuestionsAdded": 0,
+    "sourceUrl": "https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
+    "sourceTitle": "翰林國小輔教行銷處－數學能力加強系列[6年級]抽印本，第50頁「六年級版本對照表」",
+    "notes": "翰林國小輔教行銷處發布的六年級數學版本對照表第50頁，明列「單元2 分數除法」：翰林版、康軒版、南一版均對應六上第2單元。此為翰林部門發布的跨版本對照資源，非三家各自課本詳情頁，且未標示學年度；僅支持此單元的版本／學期對照，不代表任何學校採用版本或正式段考範圍。"
+  }
 }
