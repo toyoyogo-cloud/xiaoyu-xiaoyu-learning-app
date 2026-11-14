@@ -900,6 +900,26 @@
       "verifiedAt": "2026-11-13",
       "verificationStatus": "source-checked",
       "notes": "官方頁明示高中二年級、上學期及冊名；未公開細分目次，僅可作冊別層級對照。"
+    },
+    {
+      "id": "knsh-g6-english-ww6-framework-112",
+      "publisher": "knsh",
+      "sourceType": "official-publisher",
+      "sourceUrl": "https://945cloud.knsh.com.tw/e/promo/show/upload/material/13/112%E8%8B%B1%E8%AA%9EWW%E6%95%99%E5%AD%B8%E5%AF%B6%E5%85%B8.pdf",
+      "sourceTitle": "康軒112國小英語教材簡介－Wonder World課程架構表",
+      "verifiedAt": "2026-11-14",
+      "verificationStatus": "source-checked",
+      "notes": "官方簡介列冊次6的Unit 1社區場所、Unit 2交通工具、Unit 3衣物、Unit 4所有物及地球日；僅作版本研究參考。未確認題庫或學校採用此版，且不得與其他學年度資料混用；本筆不建立題目映射。"
+    },
+    {
+      "id": "knsh-g6-english-ww6-assessment-2025",
+      "publisher": "knsh",
+      "sourceType": "official-publisher",
+      "sourceUrl": "https://945cloud.knsh.com.tw/CD/E/Study/KWW6/Upload/7/%E5%9C%8B%E5%B0%8F%E8%8B%B1%E8%AA%9E%20Wonder%20World%206%20%E5%AD%B8%E7%BF%92%E8%A9%95%E9%87%8F%E9%9F%B3%E6%AA%94%E6%9B%B2%E7%9B%AE%E8%A1%A8.pdf",
+      "sourceTitle": "康軒國小英語Wonder World 6學習評量音檔曲目表",
+      "verifiedAt": "2026-11-14",
+      "verificationStatus": "source-checked",
+      "notes": "官方曲目表列Unit 1 A Surprise for Jello、Unit 2 City Adventure、Unit 3 Clothes Shopping for a Wedding、Unit 4 School Trip，並列期中／期末評量。與112教材簡介中的冊次6單元主題不同；未確認版次／學年度一致，僅作版本研究參考，不建立題目映射。"
     }
   ],
   "classificationAudit": {
@@ -1287,7 +1307,7 @@
         "高中高二"
       ],
       "cartesianCombinationsTested": 18900,
-      "unitFilterGroupsTested": 960,
+      "unitFilterGroupsTested": 1183,
       "zeroResultCombinations": 17940,
       "nonzeroCombinations": 960,
       "allPoolErrors": 0,
@@ -2557,6 +2577,54 @@
       },
       "newQuestionsAdded": 0,
       "notes": "修正未明示選修courseType的高二出版社映射，撤回僅由該映射推定的學期；未改動題幹、選項、答案、解析、錯題本、收藏或測驗紀錄。"
+    },
+    {
+      "runId": "2026-11-14-knsh-ww6-version-compare-01",
+      "date": "2026-11-14",
+      "sourceHeadBeforeRun": "606c8fdbb4fcb3171387d2befa47a7fb0301944e",
+      "batches": "08-41",
+      "batchFileCount": 34,
+      "questions": 2900,
+      "classificationIndexTotal": 2900,
+      "activeQuestions": 1864,
+      "activeSemesterDistribution": {
+        "上學期": 168,
+        "下學期": 107,
+        "unassigned": 1589
+      },
+      "activeExamPeriodDistribution": {
+        "第一次段考": 66,
+        "第二次段考": 71,
+        "第三次段考": 94,
+        "unassigned": 1633
+      },
+      "activePublisherStatusDistribution": {
+        "publisher-mapped": 123,
+        "curriculum-core": 1735,
+        "pending": 6
+      },
+      "publisherMappingReferences": 123,
+      "sourceMappingFieldsComplete": "123/123",
+      "batchSourceShaMatches": "34/34",
+      "batchIdSetMatches": "34/34",
+      "newClassificationRecords": 0,
+      "newQuestionsAdded": 0,
+      "validation": {
+        "all34BatchSourceShasMatch": true,
+        "all34BatchIdSetsMatch": true,
+        "all2900RequiredFieldsComplete": true,
+        "legalClassificationValues": true,
+        "all123MappingSourceFieldsComplete": true,
+        "staticFilterCombinations": 18900,
+        "nonzeroResultCombinations": 960,
+        "zeroResultCombinations": 17940,
+        "subjectUnitGroupsTested": 1183,
+        "filterErrors": 0,
+        "unitFilterErrors": 0,
+        "browserTested": false,
+        "serviceWorkerCacheBeforeUpdate": "xy-learning-v101"
+      },
+      "notes": "本輪逐檔讀取第8至41批34個原始題庫及六個分類分片；每批原始檔SHA與分類分片記錄相符，題目ID集合34/34一致。全庫2,900筆分類欄位齊全，123筆出版社映射來源欄位齊全。未新增分類或題目：康軒Wonder World 6兩份官方文件的Unit 1至Unit 4主題不一致，未確認版次，故不將其套用到小六英語題目。"
     }
   ],
   "batch30ExtendedMetadataAudit": {
@@ -3273,9 +3341,9 @@
     "staticPerQuestionCheck": true,
     "exhaustiveCartesianCombinationTest": true,
     "cartesianCombinationsTested": 18900,
-    "unitFilterGroupsTested": 960,
+    "unitFilterGroupsTested": 1183,
     "browserTested": false,
-    "note": "以持久分類索引模擬目前啟用年級的全部科目、難度、學期、段考、出版社與數學軌別組合；零題組合正常回傳0並由APP零題提示處理。這是資料層／篩選邏輯模擬，不是瀏覽器或手機實機測試。"
+    "note": "重新以目前持久分類索引模擬全部啟用年級科目、難度、學期、段考、出版社與高二數學軌別組合：18,900組中960組有題、17,940組正常為0；另核對1,183組年級／科目＋單元篩選，無計數錯誤。屬資料層靜態模擬，非瀏覽器／手機實機測試。"
   },
   "sourceVerificationLog": [
     {
@@ -3342,6 +3410,28 @@
       ],
       "questionRecordsUpdated": 8,
       "notes": "重新開啟兩個官方來源頁。南一索引支持8筆既有題目的官方資源標題層級對照，將8筆題目映射、中央映射及推定器的verifiedAt更新至2026-11-14；保留official-index-link-only狀態，不升格為完整教材目次或unit層級。未新增題目。"
+    },
+    {
+      "runId": "2026-11-14-knsh-ww6-version-compare-01",
+      "verifiedAt": "2026-11-14",
+      "sourceChecks": [
+        {
+          "publisher": "knsh",
+          "mappingIds": [],
+          "sourceUrl": "https://945cloud.knsh.com.tw/e/promo/show/upload/material/13/112%E8%8B%B1%E8%AA%9EWW%E6%95%99%E5%AD%B8%E5%AF%B6%E5%85%B8.pdf",
+          "sourceTitle": "康軒112國小英語教材簡介－Wonder World課程架構表",
+          "verifiedScope": "冊次6列Unit 1社區場所、Unit 2交通工具、Unit 3衣物、Unit 4所有物及地球日。"
+        },
+        {
+          "publisher": "knsh",
+          "mappingIds": [],
+          "sourceUrl": "https://945cloud.knsh.com.tw/CD/E/Study/KWW6/Upload/7/%E5%9C%8B%E5%B0%8F%E8%8B%B1%E8%AA%9E%20Wonder%20World%206%20%E5%AD%B8%E7%BF%92%E8%A9%95%E9%87%8F%E9%9F%B3%E6%AA%94%E6%9B%B2%E7%9B%AE%E8%A1%A8.pdf",
+          "sourceTitle": "康軒國小英語Wonder World 6學習評量音檔曲目表",
+          "verifiedScope": "Unit 1 A Surprise for Jello、Unit 2 City Adventure、Unit 3 Clothes Shopping for a Wedding、Unit 4 School Trip；另有期中與期末評量。"
+        }
+      ],
+      "questionRecordsUpdated": 0,
+      "notes": "兩份均為康軒官方來源，但Unit 1至Unit 4主題不同，未能證實為同一版次／學年度。為避免版本混用，不新增出版社映射；國小六年級英語題目維持108課綱共同核心或待核對，待取得相同學年度課本目次或學校採用資料再處理。"
     }
   ]
 }
