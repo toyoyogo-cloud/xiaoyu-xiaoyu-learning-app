@@ -2252,7 +2252,7 @@
   },
   "latestMainClassificationAudit": {
     "auditedAt": "2026-11-15",
-    "sourceHeadBeforeRun": "0741b7dffcea77fd0d2c9608a407199d2d68d3c9",
+    "sourceHeadBeforeRun": "d28f8b85bc767ab323d7fe114ba9fbc48a198447",
     "batchRange": "08-41",
     "batchFileCount": 34,
     "questionCount": 2900,
@@ -2286,21 +2286,21 @@
       ]
     },
     "classificationBasisDistribution": {
-      "curriculum-core": 2359,
-      "question-bank-inference": 449,
+      "curriculum-core": 2357,
+      "question-bank-inference": 451,
       "publisher-source-verified": 92
     },
     "semesterDistribution": {
-      "unassigned": 2344,
+      "unassigned": 2342,
       "上學期": 353,
-      "全學年": 74,
-      "下學期": 129
+      "下學期": 131,
+      "全學年": 74
     },
     "examPeriodDistribution": {
       "unassigned": 2669,
-      "第三次段考": 94,
       "第一次段考": 66,
-      "第二次段考": 71
+      "第二次段考": 71,
+      "第三次段考": 94
     },
     "publisherStatusDistribution": {
       "curriculum-core": 2723,
@@ -2323,8 +2323,8 @@
       "unit": 141
     },
     "confidenceDistribution": {
-      "low": 2389,
-      "medium": 483,
+      "low": 2387,
+      "medium": 485,
       "high": 28
     },
     "pendingQuestionCount": 6,
@@ -2339,21 +2339,31 @@
       "高二": 974
     },
     "activeScopeSemesterDistribution": {
-      "unassigned": 1308,
+      "unassigned": 1306,
       "上學期": 353,
-      "全學年": 74,
-      "下學期": 129
+      "下學期": 131,
+      "全學年": 74
     },
     "activeScopeExamPeriodDistribution": {
       "unassigned": 1633,
-      "第三次段考": 94,
       "第一次段考": 66,
-      "第二次段考": 71
+      "第二次段考": 71,
+      "第三次段考": 94
     },
     "activeScopePublisherStatus": {
       "curriculum-core": 1687,
       "pending": 6,
       "publisher-mapped": 171
+    },
+    "activeScopeClassificationBasisDistribution": {
+      "curriculum-core": 1321,
+      "question-bank-inference": 451,
+      "publisher-source-verified": 92
+    },
+    "activeScopeConfidenceDistribution": {
+      "low": 1351,
+      "medium": 485,
+      "high": 28
     },
     "high2MathCourseTrackCounts": {
       "數學A": 79,
@@ -2364,9 +2374,9 @@
     "filterSimulationPassed": true,
     "filterSimulation": {
       "activeQuestions": 1864,
-      "cartesianCombinationsTested": 15000,
-      "nonzeroCombinations": 1140,
-      "zeroResultCombinations": 13860,
+      "cartesianCombinationsTested": 1433700,
+      "nonzeroCombinations": 24006,
+      "zeroResultCombinations": 1409694,
       "allActiveQuestionsReachable": true,
       "publisherFilterLeaks": 0,
       "browserTested": false
@@ -4079,14 +4089,14 @@
     "filterCodePath": "index.html getPool -> window.questionClassificationFor -> QUESTION_CLASSIFICATION_INDEX loaded from data/question-classification.json and six shards",
     "staticPerQuestionCheck": true,
     "exhaustiveCartesianCombinationTest": true,
-    "cartesianCombinationsTested": 15750,
-    "nonzeroResultCombinations": 1120,
-    "zeroResultCombinations": 14630,
-    "subjectUnitGroupsTested": 1184,
+    "cartesianCombinationsTested": 1433700,
+    "nonzeroResultCombinations": 24006,
+    "zeroResultCombinations": 1409694,
+    "subjectUnitGroupsTested": 1180,
     "filterErrors": 0,
     "publisherMappingLeaks": 0,
     "browserTested": false,
-    "note": "靜態資料層測試；未執行瀏覽器或手機實機操作。"
+    "note": "靜態資料層全組合測試；未執行瀏覽器或手機實機操作。"
   },
   "sourceVerificationLog": [
     {
@@ -4572,7 +4582,7 @@
     "teacherReviewStatus": "not-reviewed"
   },
   "activeScopeClassificationAudit": {
-    "auditedAt": "2026-11-14",
+    "auditedAt": "2026-11-15",
     "batchRange": "08-41",
     "batchFileCount": 34,
     "activeGrades": [
@@ -4581,35 +4591,35 @@
     ],
     "questionCount": 1864,
     "classificationBasisDistribution": {
-      "curriculum-core": 1378,
-      "question-bank-inference": 442,
-      "publisher-source-verified": 44
+      "curriculum-core": 1321,
+      "question-bank-inference": 451,
+      "publisher-source-verified": 92
     },
     "semesterDistribution": {
-      "上學期": 305,
-      "下學期": 107,
-      "全學年": 74,
-      "unassigned": 1378
+      "unassigned": 1306,
+      "上學期": 353,
+      "下學期": 131,
+      "全學年": 74
     },
     "examPeriodDistribution": {
+      "unassigned": 1633,
       "第一次段考": 66,
       "第二次段考": 71,
-      "第三次段考": 94,
-      "unassigned": 1633
+      "第三次段考": 94
     },
     "publisherStatusDistribution": {
-      "publisher-mapped": 123,
-      "curriculum-core": 1735,
-      "pending": 6
+      "curriculum-core": 1687,
+      "pending": 6,
+      "publisher-mapped": 171
     },
     "publisherReferenceCounts": {
-      "hanlin": 79,
-      "knsh": 9,
-      "nani": 35
+      "nani": 44,
+      "hanlin": 83,
+      "knsh": 60
     },
     "confidenceDistribution": {
-      "low": 1409,
-      "medium": 427,
+      "low": 1351,
+      "medium": 485,
       "high": 28
     },
     "pendingQuestionIds": [
@@ -4620,8 +4630,13 @@
       "b23-074",
       "b37-069"
     ],
-    "note": "本輪依最新main六個分類分片重算：啟用1,864題；學期已分類486（上305、下107、全學年74），段考已分類231；出版社映射123、共同核心狀態1,735、待核對6。分類依據共同核心1,378、題庫推定442、出版社來源核對44。",
-    "sourceHeadBeforeRun": "82b97e6a9180f858a20f97a3456eb9f194fb3e24"
+    "high2MathCourseTrackCounts": {
+      "數學A": 79,
+      "數學B": 0,
+      "未標示軌別": 133,
+      "全部軌別": 212
+    },
+    "note": "依2026-11-15 main六個持久分類分片重算；啟用1,864題，年級六年級890、高二974。學期上353／下131／全學年74／未分類1,306；段考第一次66／第二次71／第三次94／未分類1,633；出版社映射171、共同核心狀態1,687、待核對6。分類依據共同核心1,321、題庫推定451、出版社來源核對92。"
   },
   "questionBankSemesterReconciliation": {
     "auditedAt": "2026-11-14",
