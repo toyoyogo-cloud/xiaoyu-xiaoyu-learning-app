@@ -1993,5 +1993,55 @@
       "data/question-classification-batch-32-37.json",
       "data/question-classification-batch-38-41.json"
     ]
+  },
+  "classificationPriorityStatus": {
+    "auditedAt": "2026-11-14",
+    "batches": "08-41",
+    "batchFileCount": 34,
+    "totalQuestions": 2900,
+    "uniqueQuestionIds": 2900,
+    "persistedClassificationEntries": 2900,
+    "missingQuestionIds": 0,
+    "duplicateQuestionIds": 0,
+    "requiredFieldsComplete": 2900,
+    "extendedMetadataComplete": 2900,
+    "classificationBasis": {
+      "curriculumCore": 2625,
+      "questionBankInference": 231,
+      "publisherSourceVerified": 44,
+      "unassigned": 0
+    },
+    "semester": {
+      "unassigned": 2625,
+      "firstSemester": 168,
+      "secondSemester": 107,
+      "fullYear": 0
+    },
+    "examPeriod": {
+      "unassigned": 2669,
+      "firstExam": 66,
+      "secondExam": 71,
+      "thirdExam": 94
+    },
+    "confidence": {
+      "low": 2445,
+      "medium": 427,
+      "high": 28
+    },
+    "publisherStatus": {
+      "curriculumCore": 2771,
+      "publisherMapped": 123,
+      "pending": 6
+    },
+    "publisherReferences": {
+      "hanlin": 79,
+      "knsh": 9,
+      "nani": 35
+    },
+    "centralMappingRegistryCount": 18,
+    "sourceMappingRecordsRefreshed": 106,
+    "officialPagesReopened": 3,
+    "newQuestionsAdded": 0,
+    "nextPriority": "優先檢視國小六年級及高中高二尚未分類的題目，逐科比對官方教材目次與課程軌別；無可靠學期／段考依據者維持unassigned，不新增題目以追求數量。"
   }
 }
