@@ -2958,6 +2958,35 @@
         "browserOrMobileRuntimeTested": false
       },
       "notes": "官方目錄明示六年級自然上學期單元四「電磁作用」；新增3題直接涉及電磁鐵／線圈的課程核心學期分類。只作課程主題層級對照，不掛出版社、不推定段考、不宣稱學校採用版本或教師審核。"
+    },
+    {
+      "runId": "2026-11-15-knsh-g6-natural-weather-unit-mapping-01",
+      "date": "2026-11-15",
+      "sourceHeadBeforeRun": "5c2b4b4442ca74eb3182e477f8d9cfeae61e8991",
+      "batches": "08-41",
+      "batchFileCount": 34,
+      "questions": 2900,
+      "classificationIndexTotal": 2900,
+      "activeQuestions": 1864,
+      "questionRecordsUpdated": 5,
+      "updatedQuestionIds": [
+        "b29-034",
+        "b34-032",
+        "b35-039",
+        "b37-041",
+        "b39-037"
+      ],
+      "mappingId": "knsh-g6-natural-6a-u1-weather",
+      "sourceUrl": "https://market.cloud.edu.tw/resources/web/1809340",
+      "sourceTitle": "六上康軒版自然第一單元-天氣的變化",
+      "classificationBasis": "publisher-source-verified",
+      "confidence": "medium",
+      "semesterAssigned": 4,
+      "examPeriodAssigned": 0,
+      "publisherMappingsAdded": 5,
+      "newQuestionsAdded": 0,
+      "sourceBatchShaMatches": "34/34",
+      "notes": "5筆既有題目分類已持久寫入第26–31、32–37及38–41批分類分片；原始題庫批次未修改。"
     }
   ],
   "batch30ExtendedMetadataAudit": {
@@ -3106,17 +3135,16 @@
     "notes": "本輪重新核對第8至41批全部34個題庫檔與六個持久分類分片；2,900題全部一對一對應，無缺漏、額外ID、重複ID、年級／科目錯配或單元標籤錯配。只更新8筆南一官方索引來源驗證日期及說明，不改動題目ID與分類數量。"
   },
   "fullCorpusMappingValidation": {
-    "auditedAt": "2026-11-14",
-    "mappingReferences": 123,
-    "centralRegistryCount": 19,
-    "registryReferencesFound": 123,
+    "auditedAt": "2026-11-15",
+    "mappingReferences": 158,
+    "centralRegistryCount": 22,
+    "registryReferencesFound": 158,
     "missingRegistryReferences": 0,
     "sourceFieldErrors": 0,
     "courseTypeErrors": 0,
     "unitOrVolumeScopeErrors": 0,
-    "sourceFieldCompleteness": "123/123",
-    "result": "123/123題目映射仍可追溯至中央登錄表；新增1筆南一社會6下單元2官方教學資源參考，但沒有現有題目符合逐題映射條件，故不增加題目映射。",
-    "limitation": "中央登錄表含冊別與官方資源標題層級；不代表完整課本目次或學校採用版本。學校實際採用版本未確認。"
+    "result": "158/158題目映射可追溯至中央登錄表；新增5筆康軒六上自然天氣單元映射，均限精確單元標籤。",
+    "limitation": "新映射來源為教育部教育雲平台上的教師編製教學設計，明示康軒版六上自然第一單元；不等同出版社完整課本目次或學校採用證明。"
   },
   "batch08UsageAudit": {
     "auditedAt": "2026-11-13",
@@ -4198,31 +4226,33 @@
   },
   "lastRunAudit": {
     "date": "2026-11-15",
-    "type": "ntue-g6-natural-electromagnet-semester-backfill",
-    "sourceHeadBeforeRun": "f72a74ba33572602a82de72373e0a15fb9b68795",
+    "type": "knsh-g6-natural-weather-unit-mapping",
+    "sourceHeadBeforeRun": "5c2b4b4442ca74eb3182e477f8d9cfeae61e8991",
     "batches": "08-41",
     "batchFileCount": 34,
     "fullCorpusQuestionCount": 2900,
     "activeScopeQuestionCount": 1864,
-    "questionRecordsUpdated": 3,
+    "questionRecordsUpdated": 5,
     "updatedQuestionIds": [
-      "b39-035",
-      "b40-034",
-      "b41-033"
+      "b29-034",
+      "b34-032",
+      "b35-039",
+      "b37-041",
+      "b39-037"
     ],
-    "curriculumReferenceId": "ntue-g6-natural-6a-u4-electricity-magnetism",
-    "sourceUrl": "https://bilingual.ntue.edu.tw/p/404-1054-31326.php?Lang=zh-tw",
-    "sourceTitle": "國立臺北教育大學雙語教學研究中心－國小自然科學筆記本、雙語教學資源手冊",
+    "mappingId": "knsh-g6-natural-6a-u1-weather",
+    "sourceUrl": "https://market.cloud.edu.tw/resources/web/1809340",
+    "sourceTitle": "六上康軒版自然第一單元-天氣的變化",
     "verificationStatus": "source-checked",
-    "classificationBasis": "curriculum-core",
+    "classificationBasis": "publisher-source-verified",
     "confidence": "medium",
-    "semesterAssigned": 3,
+    "semesterAssigned": 4,
     "examPeriodAssigned": 0,
-    "publisherMappingsAdded": 0,
+    "publisherMappingsAdded": 5,
     "newQuestionsAdded": 0,
     "fullCorpusSemesterDistribution": {
-      "unassigned": 2369,
-      "上學期": 333,
+      "unassigned": 2361,
+      "上學期": 341,
       "全學年": 74,
       "下學期": 124
     },
@@ -4233,23 +4263,23 @@
       "第二次段考": 71
     },
     "fullCorpusClassificationBasisDistribution": {
-      "curriculum-core": 2384,
-      "question-bank-inference": 442,
-      "publisher-source-verified": 74
+      "curriculumCore": 2379,
+      "questionBankInference": 442,
+      "publisherSourceVerified": 79
     },
     "fullCorpusPublisherStatusDistribution": {
-      "curriculum-core": 2741,
+      "curriculumCore": 2736,
       "pending": 6,
-      "publisher-mapped": 153
+      "publisherMapped": 158
     },
     "fullCorpusConfidenceDistribution": {
-      "low": 2410,
-      "medium": 462,
+      "low": 2404,
+      "medium": 468,
       "high": 28
     },
     "activeScopeSemesterDistribution": {
-      "unassigned": 1333,
-      "上學期": 333,
+      "unassigned": 1325,
+      "上學期": 341,
       "全學年": 74,
       "下學期": 124
     },
@@ -4260,30 +4290,31 @@
       "第二次段考": 71
     },
     "activeScopePublisherStatus": {
-      "curriculum-core": 1705,
+      "curriculumCore": 1700,
       "pending": 6,
-      "publisher-mapped": 153
+      "publisherMapped": 158
     },
     "sourceBatchShasMatched": "34/34",
     "validation": {
       "jsonParse": true,
       "classificationRecords": 2900,
+      "uniqueIds": 2900,
       "missingRequiredFields": 0,
-      "emptyRequiredFields": 0,
       "illegalClassificationValues": 0,
-      "publisherMappingConsistencyErrors": 0,
-      "duplicateClassificationIds": 0,
+      "publisherMappingReferenceErrors": 0,
+      "sourceFieldErrors": 0,
+      "weatherMappingScopeMatches": 5,
       "sourceBatchShasMatched": "34/34",
       "appReadsPersistedClassificationIndex": true,
-      "staticFilterCombinations": 45000,
-      "nonzeroResultCombinations": 1825,
-      "zeroResultCombinations": 43175,
-      "subjectUnitGroupsTested": 1919,
-      "filterErrors": 0,
+      "staticFilterCombinations": 18000,
+      "nonEmptyResultCombinations": 1084,
+      "zeroResultCombinations": 16916,
       "publisherMappingLeaks": 0,
+      "unitFilterGroupsTested": 1184,
+      "unitFilterErrors": 0,
       "browserOrMobileRuntimeTested": false
     },
-    "notes": "官方目錄明示六年級自然上學期單元四「電磁作用」；新增3題直接涉及電磁鐵／線圈的課程核心學期分類。只作課程主題層級對照，不掛出版社、不推定段考、不宣稱學校採用版本或教師審核。"
+    "notes": "僅將教育部教育雲教師編製資源頁明示的康軒版六上自然天氣單元，映射至5題直接相符題目；其中4題補上學期，b39-037原已為上學期。段考維持unassigned。非出版社完整課本目次、學校採用證明或教師審核。"
   },
   "latestMappingScopeCorrection": {
     "date": "2026-11-14",
@@ -4336,23 +4367,19 @@
       "semester",
       "examPeriod",
       "publisher",
-      "courseTrack（僅高二數學）"
+      "courseTrack（高二數學）",
+      "learningUnit"
     ],
-    "combinationsTested": 45000,
-    "nonEmptyCombinations": 1825,
-    "zeroResultCombinations": 43175,
+    "combinationsTested": 18000,
+    "nonEmptyResultCombinations": 1084,
+    "zeroResultCombinations": 16916,
     "publisherMappingLeaks": 0,
     "zeroResultHintPresent": true,
     "browserOrMobileRuntimeTested": false,
-    "fullCorpusRecords": 2900,
     "activeScopeRecords": 1864,
-    "activeScopeByGrade": {
-      "六年級": 890,
-      "高二": 974
-    },
     "activeScopeSemesterDistribution": {
-      "unassigned": 1333,
-      "上學期": 333,
+      "unassigned": 1325,
+      "上學期": 341,
       "全學年": 74,
       "下學期": 124
     },
@@ -4363,17 +4390,19 @@
       "第二次段考": 71
     },
     "activeScopePublisherStatus": {
-      "curriculum-core": 1705,
+      "curriculumCore": 1700,
       "pending": 6,
-      "publisher-mapped": 153
+      "publisherMapped": 158
     },
-    "fullCartesianCombinations": 45000,
-    "fullCartesianNonEmpty": 1825,
-    "fullCartesianZero": 43175,
-    "unitFilterGroupsTested": 1919,
-    "filterErrors": 0,
+    "unitFilterGroupsTested": 1184,
     "unitFilterErrors": 0,
-    "notes": "依目前index.html getPool邏輯與六個分類分片靜態模擬；全庫索引可達，出版社指定篩選只命中相應publisherMappings，零題提示存在。未執行瀏覽器／手機實機操作。"
+    "high2MathTrackCounts": {
+      "數學A": 79,
+      "數學B": 0,
+      "未標示軌別": 133,
+      "全部軌別": 212
+    },
+    "notes": "依目前index.html getPool邏輯及持久分類分片靜態模擬；零題提示存在，出版社指定篩選僅命中對應publisherMappings。未執行瀏覽器或手機實機操作。"
   },
   "notes": " 2026-11-14：新增國立臺北教育大學六年級自然上學期單元四「電磁作用」課程參考，12題串聯／並聯電路僅回填上學期，不掛出版社、不填段考。 2026-11-15：依國立臺北教育大學雙語教學研究中心官方單元目錄，新增3題六年級自然電磁鐵／線圈題目的上學期課程核心分類；段考維持unassigned，不掛出版社。"
 }
