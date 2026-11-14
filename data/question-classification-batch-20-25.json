@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.1.0",
   "updatedAt": "2026-11-14",
-  "classificationRuleVersion": "2026-11-14.36",
+  "classificationRuleVersion": "2026-11-14.39",
   "batchRange": "20-25",
   "sourceBatchShas": {
     "20": "679b5752f1be7ee03e8b20de4221fa873c0f5bf5",
@@ -10184,14 +10184,25 @@
       "subject": "社會",
       "courseTrack": null,
       "courseType": null,
-      "semester": "unassigned",
+      "semester": "下學期",
       "examPeriod": "unassigned",
-      "classificationBasis": "curriculum-core",
-      "confidence": "low",
-      "publisherStatus": "curriculum-core",
-      "publisherMappings": [],
-      "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。",
-      "sourceRef": "依108課綱核心素養與學科概念原創編寫；非歷屆試題原文",
+      "classificationBasis": "publisher-source-verified",
+      "confidence": "medium",
+      "publisherStatus": "publisher-mapped",
+      "publisherMappings": [
+        {
+          "publisher": "knsh",
+          "mappingId": "knsh-g6-social-6b-u2-1-sdgs-community",
+          "sourceUrl": "https://sdgs.knsh.com.tw/api/uploads/curriculumMap/E_school/%E7%A4%BE%E6%9C%83%E5%85%AD%E4%B8%8BCH2L1%E7%A4%BE%E6%9C%83%E5%85%85%E9%9B%BB%E7%AB%99SDGs%E5%B0%B1%E5%9C%A8%E6%88%91%E5%80%91%E8%BA%AB%E9%82%8A_%E6%95%99%E5%AD%B8%E8%B3%87%E6%BA%90.pdf",
+          "sourceTitle": "康軒社會六下2-1「社會充電站：SDGs就在我們身邊」教學資源PDF",
+          "verifiedAt": "2026-11-14",
+          "verificationStatus": "source-checked",
+          "notes": "康軒官方教學資源明示「社會6下2-1」；內容涵蓋SDG11永續城市、公共建設與交通安全、居民參與公共事務，以及天然災害風險管理。此映射僅代表題目與官方教學資源標題／學習情境的對照（official-resource-title），不等同完整課本目次、不代表學校採用版本，也不代表正式段考範圍。",
+          "mappingLevel": "official-resource-title"
+        }
+      ],
+      "classificationNotes": "題幹明示地方政府就交通改善方案舉辦公聽會，對應官方資源中改善交通安全、公共建設及居民與政府協作。 康軒官方教學資源明示「社會6下2-1」；內容涵蓋SDG11永續城市、公共建設與交通安全、居民參與公共事務，以及天然災害風險管理。此映射僅代表題目與官方教學資源標題／學習情境的對照（official-resource-title），不等同完整課本目次、不代表學校採用版本，也不代表正式段考範圍。",
+      "sourceRef": "https://sdgs.knsh.com.tw/api/uploads/curriculumMap/E_school/%E7%A4%BE%E6%9C%83%E5%85%AD%E4%B8%8BCH2L1%E7%A4%BE%E6%9C%83%E5%85%85%E9%9B%BB%E7%AB%99SDGs%E5%B0%B1%E5%9C%A8%E6%88%91%E5%80%91%E8%BA%AB%E9%82%8A_%E6%95%99%E5%AD%B8%E8%B3%87%E6%BA%90.pdf",
       "learningDomain": "地理空間與環境",
       "questionType": "概念辨識",
       "learningUnit": "公共參與",
