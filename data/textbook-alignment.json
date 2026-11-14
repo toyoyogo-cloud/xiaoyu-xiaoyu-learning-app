@@ -2625,6 +2625,40 @@
         "serviceWorkerCacheBeforeUpdate": "xy-learning-v101"
       },
       "notes": "本輪逐檔讀取第8至41批34個原始題庫及六個分類分片；每批原始檔SHA與分類分片記錄相符，題目ID集合34/34一致。全庫2,900筆分類欄位齊全，123筆出版社映射來源欄位齊全。未新增分類或題目：康軒Wonder World 6兩份官方文件的Unit 1至Unit 4主題不一致，未確認版次，故不將其套用到小六英語題目。"
+    },
+    {
+      "date": "2026-11-14",
+      "batches": "08-41",
+      "questions": 211,
+      "updatedClassificationRecords": 211,
+      "sourceField": "original question-bank semester",
+      "semesterDistribution": {
+        "上學期": 137,
+        "全學年": 74
+      },
+      "subjectDistribution": {
+        "物理": 82,
+        "化學": 100,
+        "生物": 29
+      },
+      "classificationBasisDistribution": {
+        "question-bank-inference": 211
+      },
+      "confidenceDistribution": {
+        "low": 211
+      },
+      "examPeriodChanged": 0,
+      "publisherMappingsAdded": 0,
+      "newQuestionsAdded": 0,
+      "validation": {
+        "allSixShardsJsonParsed": true,
+        "uniqueIdsPreserved": true,
+        "requiredFieldsPreserved": true,
+        "legalClassificationValues": true,
+        "examPeriodUntouched": true,
+        "publisherMappingsUntouched": true
+      },
+      "notes": "逐題比對第8至41批原始題庫與六個持久分類分片；只回填原始題庫已填且分類索引為unassigned的semester值。"
     }
   ],
   "batch30ExtendedMetadataAudit": {
@@ -3432,6 +3466,52 @@
       ],
       "questionRecordsUpdated": 0,
       "notes": "兩份均為康軒官方來源，但Unit 1至Unit 4主題不同，未能證實為同一版次／學年度。為避免版本混用，不新增出版社映射；國小六年級英語題目維持108課綱共同核心或待核對，待取得相同學年度課本目次或學校採用資料再處理。"
+    },
+    {
+      "runId": "2026-11-14-h2-science-volume-scope-recheck",
+      "verifiedAt": "2026-11-14",
+      "sourceChecks": [
+        {
+          "publisher": "hanlin",
+          "mappingIds": [
+            "hanlin-h2-physics-ii"
+          ],
+          "sourceUrl": "https://books.hanlin.com.tw/product/004022",
+          "sourceTitle": "翰林書城－高中課本－選修物理(II)力學二與熱學",
+          "verifiedScope": "高中二年級物理上學期；只支持力學二與熱學冊別層級，未提供可逐題套用的完整細分目次。"
+        },
+        {
+          "publisher": "hanlin",
+          "mappingIds": [
+            "hanlin-h2-chemistry-ii-structure-rate"
+          ],
+          "sourceUrl": "https://books.hanlin.com.tw/product/005022",
+          "sourceTitle": "翰林書城－高中課本－選修化學(II)物質構造與反應速率",
+          "verifiedScope": "高中二年級化學上學期；僅冊名層級，不足以確認未標課程類型的個別題目。"
+        },
+        {
+          "publisher": "hanlin",
+          "mappingIds": [
+            "hanlin-h2-chemistry-iii-u1",
+            "hanlin-h2-chemistry-iii-u2",
+            "hanlin-h2-chemistry-iii-u3"
+          ],
+          "sourceUrl": "https://books.hanlin.com.tw/product/435023",
+          "sourceTitle": "翰林書城－高中互動式教學講義－選修化學(III)",
+          "verifiedScope": "高中二、高三、全學年；官方目次列化學平衡、沉澱反應與溶解平衡、酸鹼反應。"
+        },
+        {
+          "publisher": "hanlin",
+          "mappingIds": [
+            "hanlin-h2-biology-ii-plant"
+          ],
+          "sourceUrl": "https://books.hanlin.com.tw/product/006022",
+          "sourceTitle": "翰林書城－高中課本－選修生物(II)生命的起源與植物",
+          "verifiedScope": "高中二年級生物上學期；僅冊別層級，未提供完整細分目次。"
+        }
+      ],
+      "questionRecordsUpdated": 0,
+      "notes": "官方頁用於確認冊別、年級及學期範圍；題庫缺少courseType/軌別的題目不新增出版社映射。"
     }
   ],
   "high2MathCourseTrackAudit": {
@@ -3477,15 +3557,15 @@
     ],
     "questionCount": 1864,
     "classificationBasisDistribution": {
-      "curriculum-core": 1589,
-      "question-bank-inference": 231,
+      "curriculum-core": 1378,
+      "question-bank-inference": 442,
       "publisher-source-verified": 44
     },
     "semesterDistribution": {
-      "上學期": 168,
+      "上學期": 305,
       "下學期": 107,
-      "全學年": 0,
-      "unassigned": 1589
+      "全學年": 74,
+      "unassigned": 1378
     },
     "examPeriodDistribution": {
       "第一次段考": 66,
@@ -3516,6 +3596,54 @@
       "b23-074",
       "b37-069"
     ],
-    "note": "依最新main六個分類分片重新彙總；分類欄位完整不代表教師逐題審核。段考分類僅供複習安排，不代表學校正式範圍。"
+    "note": "本輪由最新main六個分類分片重算；另將原始題庫已填semester但分類索引仍為unassigned的211筆同步為question-bank-inference（low confidence）。不代表教師審核；段考仍僅作複習建議。"
+  },
+  "questionBankSemesterReconciliation": {
+    "auditedAt": "2026-11-14",
+    "sourceBatchRange": "08-41",
+    "batchFileCount": 34,
+    "activeScope": [
+      "國小六年級",
+      "高中高二"
+    ],
+    "recordsUpdated": 211,
+    "batchRangeCounts": {
+      "08-13": 6,
+      "14-19": 11,
+      "20-25": 11,
+      "26-31": 43,
+      "32-37": 63,
+      "38-41": 77
+    },
+    "byGradeSubjectSemester": {
+      "高中|高二|物理|上學期": 82,
+      "高中|高二|化學|上學期": 26,
+      "高中|高二|化學|全學年": 74,
+      "高中|高二|生物|上學期": 29
+    },
+    "activeScopeSemesterDistribution": {
+      "上學期": 305,
+      "下學期": 107,
+      "全學年": 74,
+      "unassigned": 1378
+    },
+    "activeScopeExamPeriodDistribution": {
+      "第一次段考": 66,
+      "第二次段考": 71,
+      "第三次段考": 94,
+      "unassigned": 1633
+    },
+    "activeScopeClassificationBasisDistribution": {
+      "curriculum-core": 1378,
+      "question-bank-inference": 442,
+      "publisher-source-verified": 44
+    },
+    "activeScopePublisherStatusDistribution": {
+      "publisher-mapped": 123,
+      "curriculum-core": 1735,
+      "pending": 6
+    },
+    "policy": "只同步原始題庫已明確填入的semester欄位；不推定段考，不覆蓋publisher-source-verified，不新增出版社映射。",
+    "notes": "211筆皆為原始題庫既有欄位，轉存分類索引時標記question-bank-inference、confidence=low。不是出版社核對或教師確認。"
   }
 }
