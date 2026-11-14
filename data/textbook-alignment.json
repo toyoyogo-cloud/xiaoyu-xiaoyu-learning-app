@@ -1186,10 +1186,10 @@
       "extendedMetadataComplete": 2900
     },
     "classificationBasis": {
-      "curriculumCore": 2621,
-      "questionBankInference": 152,
-      "publisherSourceVerified": 123,
-      "unassigned": 4
+      "curriculumCore": 2625,
+      "questionBankInference": 231,
+      "publisherSourceVerified": 44,
+      "unassigned": 0
     },
     "semester": {
       "unassigned": 2625,
@@ -1203,32 +1203,51 @@
       "secondExam": 71,
       "thirdExam": 94
     },
+    "confidence": {
+      "low": 2445,
+      "medium": 427,
+      "high": 28
+    },
     "publisherStatus": {
-      "curriculumCore": 2660,
+      "curriculumCore": 2771,
       "publisherMapped": 123,
-      "pending": 117
+      "pending": 6
     },
     "publisherReferenceCounts": {
       "hanlin": 79,
       "knsh": 9,
       "nani": 35
     },
+    "publisherMappedQuestionCount": 123,
+    "mappingReferenceCount": 123,
+    "centralMappingRegistryCount": 18,
+    "uniqueUsedMappingIds": 7,
     "mappingVerificationStatusCounts": {
       "sourceChecked": 115,
       "officialIndexLinkOnly": 8
     },
     "mappingLevelCounts": {
       "unit": 107,
-      "officialResourceTitle": 16
+      "officialResourceTitle": 16,
+      "volume": 0
     },
-    "pendingQuestionCount": 117,
+    "pendingQuestionCount": 6,
     "newQuestionsAdded": 0,
+    "officialPagesReopened": 3,
+    "sourceMappingRecordsRefreshed": 106,
+    "validation": {
+      "duplicateQuestionIds": 0,
+      "missingRequiredFields": 0,
+      "invalidClassificationValues": 0,
+      "missingMappingRegistry": 0,
+      "mappingSourceFieldErrors": 0
+    },
     "notes": [
-      "2,900題全部存在獨立分類索引，ID對照無缺漏、額外ID或重複。",
-      "211筆未明示選修courseType的高二物理／化學／生物出版社映射已撤除；僅由該映射推定的學期分類亦已清除。",
-      "剩餘123筆出版社映射完成內部一致性檢查；官方來源頁本次未重新開啟，來源驗證狀態沿用既有登錄。",
-      "段考僅作題庫複習建議，不代表學校正式範圍；學校實際採用版本仍待學校資料確認。",
-      "未新增題目；未進行瀏覽器或手機Safari實機測試。"
+      "第8至41批34個原始題庫檔共2,900題，分類索引2,900筆；批次內ID與分類年級／科目對照完整，無重複或缺漏。",
+      "學習領域、題型、單元與難度等擴充欄位2,900/2,900完整；這是欄位完整性檢查，不等於教師逐題審核。",
+      "學期與段考無足夠證據者維持unassigned；段考分類僅作題庫複習建議，不代表學校正式範圍。",
+      "本次重新開啟翰林數學3A及南一數學6下兩個官方資源頁共三個頁面，刷新106筆既有映射的verifiedAt與來源說明；沒有新增題目或擴大出版社映射。",
+      "學校實際採用出版社版本未確認；高二數學A/B及高中選修課程仍依明示軌別／courseType隔離。"
     ],
     "staticFilterReachability": {
       "auditedAt": "2026-11-14",
@@ -1240,10 +1259,9 @@
       },
       "classificationValueAndMetadataErrors": 0,
       "publisherStatusMappingConsistencyErrors": 0,
-      "publisherMappingScopeErrors": 0,
       "publisherCategoryReachability": {
-        "curriculumCore": 2660,
-        "pending": 117,
+        "curriculumCore": 2771,
+        "pending": 6,
         "hanlin": 79,
         "knsh": 9,
         "nani": 35
@@ -1253,7 +1271,7 @@
       "staticPerQuestionCheck": true,
       "exhaustiveCartesianCombinationTest": false,
       "browserTested": false,
-      "note": "逐題檢查每題均可由持久索引取回，分類值與單元欄位完整，publisher-mapped狀態與映射存在性一致；不是所有篩選值笛卡兒組合或瀏覽器實測。"
+      "note": "已逐批核對2,900個來源ID與持久分類索引；分類值、來源欄位及出版社映射範圍靜態檢查通過。未進行完整篩選笛卡兒組合或瀏覽器實機測試。"
     }
   },
   "batch39UsageAudit": {
@@ -2638,57 +2656,35 @@
   },
   "classificationIndexReconciliation": {
     "verifiedAt": "2026-11-14",
-    "sourceHeadBeforeRun": "7cc979331423d38f5fb744c8674a97c3921e0021",
+    "sourceHeadBeforeRun": "5b1a798a5dd2afe93e566496d55eca11d0387681",
     "file": "data/question-classification.json",
-    "fileSha": "5f75dd86939f526ad2ffbc218b7ce7facd764261",
-    "fileBytes": 1569903,
+    "fileSha": "35b3c6e896e792cfd2718ac7d3667ecb257e528b",
+    "manifestBytes": 1497,
+    "shardBytesTotal": 1892319,
     "entriesBeforeCorrection": 2900,
     "entriesAfterCorrection": 2900,
-    "correctedEntries": 211,
+    "correctedEntries": 0,
+    "sourceMetadataRefreshedEntries": 106,
     "missingQuestionIds": 0,
     "extraQuestionIds": 0,
     "duplicateQuestionIds": 0,
     "requiredFieldsComplete": 2900,
-    "notes": "獨立分類索引現已涵蓋第8至41批全部2,900題；本次僅修正211筆不符合選修課程類型隔離規則的映射，沒有刪除題目或題目ID。"
+    "extendedMetadataComplete": 2900,
+    "notes": "所有34批題目ID均可在六個持久分類分片中找到；本次不改題目分類值，只更新106筆已有出版社映射的官方來源複核日期與說明。"
   },
   "fullCorpusMappingValidation": {
     "auditedAt": "2026-11-14",
     "batches": "08-41",
     "mappingReferences": 123,
-    "centralRegistryCount": 16,
+    "centralRegistryCount": 18,
     "registryReferencesFound": 123,
+    "missingRegistryReferences": 0,
     "sourceFieldErrors": 0,
-    "gradeSubjectSemesterTrackErrors": 0,
     "courseTypeErrors": 0,
     "unitOrVolumeScopeErrors": 0,
-    "result": "123/123 remaining stored publisher mapping references pass internal registry and question-scope checks",
-    "correction": "Removed 211 mappings where the question did not explicitly identify the corresponding elective courseType; cleared semester values derived solely from those unsupported mappings.",
-    "limitation": "Existing official-source verification statuses are retained; no official publisher page was reopened during this run. School adoption is still unknown unless separately documented.",
-    "staticFilterReachability": {
-      "auditedAt": "2026-11-14",
-      "batches": "08-41",
-      "questionsChecked": 2900,
-      "perQuestionIndexReachability": {
-        "reachable": 2900,
-        "unreachable": 0
-      },
-      "classificationValueAndMetadataErrors": 0,
-      "publisherStatusMappingConsistencyErrors": 0,
-      "publisherMappingScopeErrors": 0,
-      "publisherCategoryReachability": {
-        "curriculumCore": 2660,
-        "pending": 117,
-        "hanlin": 79,
-        "knsh": 9,
-        "nani": 35
-      },
-      "courseTrackAnomalies": 0,
-      "filterCodePath": "index.html getPool -> window.questionClassificationFor -> QUESTION_CLASSIFICATION_INDEX loaded from data/question-classification.json",
-      "staticPerQuestionCheck": true,
-      "exhaustiveCartesianCombinationTest": false,
-      "browserTested": false,
-      "note": "逐題檢查每題均可由持久索引取回，分類值與單元欄位完整，publisher-mapped狀態與映射存在性一致；不是所有篩選值笛卡兒組合或瀏覽器實測。"
-    }
+    "result": "123/123 publisher mapping references resolve to the 18-entry central registry; all required source fields are present and scope checks passed.",
+    "sourceVerificationRunId": "2026-11-14-official-source-recheck-01",
+    "limitation": "Only three official source pages were reopened in this run; the remaining registered source verification dates are retained from earlier checks. School adoption is unknown unless separately documented."
   },
   "batch08UsageAudit": {
     "auditedAt": "2026-11-13",
@@ -3231,10 +3227,9 @@
     },
     "classificationValueAndMetadataErrors": 0,
     "publisherStatusMappingConsistencyErrors": 0,
-    "publisherMappingScopeErrors": 0,
     "publisherCategoryReachability": {
-      "curriculumCore": 2660,
-      "pending": 117,
+      "curriculumCore": 2771,
+      "pending": 6,
       "hanlin": 79,
       "knsh": 9,
       "nani": 35
@@ -3244,7 +3239,7 @@
     "staticPerQuestionCheck": true,
     "exhaustiveCartesianCombinationTest": false,
     "browserTested": false,
-    "note": "逐題檢查每題均可由持久索引取回，分類值與單元欄位完整，publisher-mapped狀態與映射存在性一致；不是所有篩選值笛卡兒組合或瀏覽器實測。"
+    "note": "已逐批核對2,900個來源ID與持久分類索引；分類值、來源欄位及出版社映射範圍靜態檢查通過。未進行完整篩選笛卡兒組合或瀏覽器實機測試。"
   },
   "sourceVerificationLog": [
     {
