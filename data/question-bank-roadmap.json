@@ -1794,7 +1794,8 @@
       "publisherMappingLeaks": 0,
       "filterErrors": 0,
       "browserTested": false,
-      "previousFullCorpusExhaustiveTestPreserved": true
+      "previousFullCorpusExhaustiveTestPreserved": true,
+      "filterCombinationsTested": 256
     }
   },
   "currentIndexReconciliation": {
