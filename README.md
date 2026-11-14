@@ -934,3 +934,10 @@ Repository → Settings → Pages → Build and deployment → Deploy from a bra
 - 篩選驗收時發現 `data/question-classification-inference.js` 的既有 `MAPS` 物件有 5 筆六年級自然水循環／熱傳導映射缺少物件鍵，且 `CURRICULUM_REFERENCES` 宣告重複，會使推定器無法解析並觸發篩選器的安全回退。
 - 已補齊 5 個映射鍵、移除重複宣告；本輪更新後以 JavaScript 引擎編譯驗證通過。分類索引仍由六個持久分類分片提供，出版社篩選仍只看有證據的 `publisherMappings`。
 - 更新 Service Worker 快取版為 `xy-learning-v124`。此為程式碼／資料層驗證，未執行瀏覽器或手機實機測試。
+
+
+## 2026-11-15｜持久分類優先保護
+
+- 修正 `questionClassificationFor`：若題目已有 `QUESTION_CLASSIFICATION_INDEX` 持久紀錄，即使 `semester` 或 `examPeriod` 為 `unassigned`，也不再由執行時推定器覆寫；只有尚無持久分類紀錄的舊題才允許暫時推定。
+- 後續分類必須先寫回分類分片，篩選器才會顯示更新結果；這避免畫面與持久資料統計不一致。
+- 分類器語法編譯通過，Service Worker 快取版更新為 `xy-learning-v125`。未執行瀏覽器／手機實機測試。

@@ -170,8 +170,9 @@ function difficultyFor(q){const v=q.difficultyLevel||q.d||q.difficulty||"";retur
 function classify(q){
  q=q||{};
  const savedIndex=window.QUESTION_CLASSIFICATION_INDEX;
- const saved=savedIndex&&q.id?savedIndex[q.id]:null;
- // 已保存分類優先；但未分類學期／段考仍可由後續有依據的規則補齊。
+ const hasSavedClassification=!!(savedIndex&&q.id&&savedIndex[q.id]);
+ const saved=hasSavedClassification?savedIndex[q.id]:null;
+ // 持久分類索引為權威資料；只有尚無持久紀錄的舊題才允許執行時推定。已保存為unassigned者必須先經分類批次更新，不能只在畫面上改值。
  const source=saved?Object.assign({},q,saved):q;
  const isCore=core(source);
  let semester=source.semester||UN, examPeriod=source.examPeriod||UN;
@@ -181,7 +182,7 @@ function classify(q){
  let notes=source.classificationNotes||source.reason||(isCore?"依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。":"來源與分類資料不足，待核對。");
  let mappings=resolveMappings(source);
  let rejectedMapping=Array.isArray(source.publisherMappings)&&source.publisherMappings.length>0&&mappings.length===0;
- const rule=(semester===UN||examPeriod===UN)?inferred(source):null;
+ const rule=(!hasSavedClassification&&(semester===UN||examPeriod===UN))?inferred(source):null;
  if(rule){
   const ruleMap=rule.mappingId?MAPS[rule.mappingId]:null;
   const samePublisherConflict=!!(ruleMap&&mappings.some(m=>m.publisher===ruleMap.publisher&&m.mappingId!==rule.mappingId));
