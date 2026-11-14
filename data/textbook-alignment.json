@@ -516,9 +516,9 @@
       "sourceType": "official-publisher",
       "sourceUrl": "https://books.hanlin.com.tw/product/006022",
       "sourceTitle": "翰林書城－高中課本選修生物(II)生命的起源與植物",
-      "verifiedAt": "2026-11-14",
+      "verifiedAt": "2026-11-15",
       "verificationStatus": "source-checked",
-      "notes": "僅作植物專題的冊別層級對照；翰林官方商品頁確認高中二年級、生物、上學期及冊名「生命的起源與植物」，但未列完整章節，故不宣稱細分單元已核對。只接受具體植物知識點（植物細胞、光合作用、蒸散、氣孔、維管束、向光性、花粉管、雙重受精、植物激素、乙烯、果實成熟）作冊別層級比對；遺傳、基因型、族群遺傳及僅以植物作生態例子的題目不映射本冊。 官方教材標示選修生物(II)；題目必須明示相同 courseType 才能連結，未標課程類型者保留待核對。",
+      "notes": "2026-11-15重新開啟翰林官方商品頁，確認高中二年級、生物、上學期及冊名；僅作冊別層級對照，官方頁未列完整章節目次，不代表學校採用版本。 僅冊別層級，題目需明示相同courseType；未新增題目級映射。",
       "mappingId": "hanlin-h2-biology-ii-plant",
       "courseType": "選修生物(II)",
       "mappingLevel": "volume",
@@ -2232,7 +2232,7 @@
   },
   "latestMainClassificationAudit": {
     "auditedAt": "2026-11-15",
-    "sourceHeadBeforeRun": "6ad7a646076d6d0f4590e2b8c85a6465a8c7e6c2",
+    "sourceHeadBeforeRun": "0741b7dffcea77fd0d2c9608a407199d2d68d3c9",
     "batchRange": "08-41",
     "batchFileCount": 34,
     "questionCount": 2900,
@@ -2266,15 +2266,15 @@
       ]
     },
     "classificationBasisDistribution": {
-      "curriculum-core": 2366,
-      "question-bank-inference": 442,
+      "curriculum-core": 2359,
+      "question-bank-inference": 449,
       "publisher-source-verified": 92
     },
     "semesterDistribution": {
-      "unassigned": 2351,
-      "上學期": 351,
+      "unassigned": 2344,
+      "上學期": 353,
       "全學年": 74,
-      "下學期": 124
+      "下學期": 129
     },
     "examPeriodDistribution": {
       "unassigned": 2669,
@@ -2303,8 +2303,8 @@
       "unit": 141
     },
     "confidenceDistribution": {
-      "low": 2395,
-      "medium": 477,
+      "low": 2389,
+      "medium": 483,
       "high": 28
     },
     "pendingQuestionCount": 6,
@@ -2319,10 +2319,10 @@
       "高二": 974
     },
     "activeScopeSemesterDistribution": {
-      "unassigned": 1315,
-      "上學期": 351,
+      "unassigned": 1308,
+      "上學期": 353,
       "全學年": 74,
-      "下學期": 124
+      "下學期": 129
     },
     "activeScopeExamPeriodDistribution": {
       "unassigned": 1633,
@@ -2341,7 +2341,17 @@
       "未標示軌別": 133,
       "全部軌別": 212
     },
-    "filterSimulationPassed": true
+    "filterSimulationPassed": true,
+    "filterSimulation": {
+      "activeQuestions": 1864,
+      "cartesianCombinationsTested": 15000,
+      "nonzeroCombinations": 1140,
+      "zeroResultCombinations": 13860,
+      "allActiveQuestionsReachable": true,
+      "publisherFilterLeaks": 0,
+      "browserTested": false
+    },
+    "mappingConsistencyErrors": 0
   },
   "classificationPersistenceRuns": [
     {
@@ -4384,6 +4394,26 @@
       ],
       "publisherMappingReferencesAdded": 29,
       "notes": "為六年級自然水循環4題、熱傳導／保溫8題建立單元層級映射，另為天氣資料判讀1題補上既有康軒六上天氣單元映射；段考維持unassigned，不把翰林五上混用至六年級。"
+    },
+    {
+      "runId": "2026-11-15-hanlin-h2-biology-volume-source-recheck-01",
+      "verifiedAt": "2026-11-15",
+      "sourceChecks": [
+        {
+          "publisher": "hanlin",
+          "mappingIds": [
+            "hanlin-h2-biology-ii-plant"
+          ],
+          "sourceUrl": "https://books.hanlin.com.tw/product/006022",
+          "sourceTitle": "翰林書城－高中課本選修生物(II)生命的起源與植物",
+          "verifiedScope": "官方頁明示高中2年級、生物、上學期及冊名「選修生物(II)生命的起源與植物」；未列完整章節目次，只支持冊別層級，不代表學校採用版本。",
+          "mappingLevel": "volume",
+          "courseType": "選修生物(II)"
+        }
+      ],
+      "questionRecordsUpdated": 0,
+      "publisherMappingReferencesAdded": 0,
+      "notes": "僅同步中央教材對照與推定器MAPS的verifiedAt；未新增題目級出版社映射、未變更題庫分類。"
     }
   ],
   "high2MathCourseTrackAudit": {
