@@ -3544,6 +3544,31 @@
       ],
       "questionRecordsUpdated": 8,
       "notes": "逐一核對第36至38批共8題的年級、科目、單元與官方詳情頁標題。未將官方資源標題冒稱完整課本目次，未變更段考欄位，未宣稱學校採用版本或教師審核。"
+    },
+    {
+      "runId": "2026-11-14-hanlin-g6-natural-volume-recheck-01",
+      "verifiedAt": "2026-11-14",
+      "sourceChecks": [
+        {
+          "publisher": "hanlin",
+          "mappingIds": [
+            "hanlin-g6-natural-6a-volume"
+          ],
+          "sourceUrl": "https://books.hanlin.com.tw/product/1040111",
+          "sourceTitle": "翰林書城－國小習作－自然科學(6上)",
+          "verifiedScope": "官方頁明示自然、國小六年級、上學期；僅確認冊別層級，頁面未列具體單元目次。"
+        },
+        {
+          "publisher": "hanlin",
+          "mappingIds": [
+            "hanlin-g6-natural-6b-volume"
+          ],
+          "sourceUrl": "https://books.hanlin.com.tw/product/1040121",
+          "sourceTitle": "翰林書城－國小課本－自然科學(6下)",
+          "verifiedScope": "官方頁明示自然、國小六年級、下學期；僅確認冊別層級，頁面未列具體單元目次。"
+        }
+      ],
+      "notes": "重新開啟翰林官方6上與6下商品頁，核對既有冊別層級映射。第8至41批小六自然題目未取得可同時支持題目單元與冊別的官方目次證據，因此不新增題目級出版社映射，也不依冊別頁面推定任何題目的學期或段考。"
     }
   ],
   "high2MathCourseTrackAudit": {
@@ -3698,5 +3723,17 @@
       "rawAssignedSemesterOrExamValuesMissingFromClassification": 0,
       "notes": "12筆皆為國小六年級數學：原始批次semester與examPeriod為unassigned，但持久分類索引依單元群推定已填學期／段考；屬question-bank-inference，不是原始欄位遺失或官方／教師確認。所有原始題庫已有的非unassigned semester與examPeriod均已在分類索引保留。"
     }
+  },
+  "latestMappingReferenceAudit": {
+    "date": "2026-11-14",
+    "activeScope": "國小六年級與高中高二",
+    "questionCount": 1864,
+    "publisherMappedQuestions": 123,
+    "mappingReferencesResolved": 123,
+    "centralMappings": 19,
+    "inferenceMaps": 19,
+    "unresolvedReferences": 0,
+    "sourceFieldMismatches": 0,
+    "notes": "所有題目級映射的mappingId均可追溯至中央教材對照與分類推定器；冊別層級參考不自動產生題目級出版社標籤。"
   }
 }
