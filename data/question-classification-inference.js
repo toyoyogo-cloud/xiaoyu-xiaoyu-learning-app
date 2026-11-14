@@ -195,7 +195,7 @@ function classify(q){
   if(!isCore&&basis==="curriculum-core")basis="unassigned";
   if(!notes)notes=isCore?"依108課綱共同核心；未取得足以指定出版社或段考範圍的證據。":"來源與分類資料不足，待核對。";
  }
- const sourceRef=mappings.length?mappings.map(m=>m.sourceUrl).join("|"):(rule&&rule.sourceRef?rule.sourceRef:(rejectedMapping?"108課綱共同核心；原出版社映射未通過範圍檢查":(source.sourceRef||"")));
+ const sourceRef=mappings.length?mappings.map(m=>m.sourceUrl).join("|"):(source.sourceRef||(rule&&rule.sourceRef?rule.sourceRef:(rejectedMapping?"108課綱共同核心；原出版社映射未通過範圍檢查":"")));
  return {semester,examPeriod,classificationBasis:basis,confidence,publisherStatus,publisherMappings:mappings,classificationNotes:notes,reason:notes,sourceRef,learningDomain:(source.learningDomain&&source.learningDomain!=="綜合／待細分")?source.learningDomain:domainFor(source),questionType:source.questionType||typeFor(source),learningUnit:source.learningUnit||label(source)||"未標示",difficultyLevel:difficultyFor(source)};
 }
 window.questionClassificationFor=classify;
