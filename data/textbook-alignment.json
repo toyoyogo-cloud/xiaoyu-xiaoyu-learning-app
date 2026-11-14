@@ -1058,6 +1058,16 @@
       "verifiedAt": "2026-11-14",
       "verificationStatus": "source-checked",
       "notes": "官方PDF明示社會6下2-1，內容涵蓋SDG11永續城市、公共建設與交通安全、社區參與及天然災害風險管理。只作官方教學資源標題／學習情境層級參考，不等同完整課本目次或學校採用版本。"
+    },
+    {
+      "id": "ntue-g6-natural-6a-u4-electricity-magnetism",
+      "publisher": "curriculum-core",
+      "sourceType": "curriculum-reference",
+      "sourceUrl": "https://bilingual.ntue.edu.tw/p/404-1054-31326.php?Lang=zh-tw",
+      "sourceTitle": "國立臺北教育大學雙語教學研究中心－國小自然科學筆記本、雙語教學資源手冊",
+      "verifiedAt": "2026-11-14",
+      "verificationStatus": "source-checked",
+      "notes": "官方單元目錄明示六年級自然上學期單元四「電磁作用」。只支持課程單元層級，不是出版社版次、完整課本細目或學校段考範圍。"
     }
   ],
   "classificationAudit": {
@@ -2711,6 +2721,105 @@
         "publisherMappingsUntouched": true
       },
       "notes": "逐題比對第8至41批原始題庫與六個持久分類分片；只回填原始題庫已填且分類索引為unassigned的semester值。"
+    },
+    {
+      "runId": "2026-11-14-ntue-g6-natural-circuits-semester-backfill-01",
+      "date": "2026-11-14",
+      "sourceHeadBeforeRun": "5e29a2efc8219b4495309a67a5a1145cf74776fa",
+      "sourceHeadAfterClassificationShards": "3aa0d27f50cba96abcf6fa0cc77d198b258ecb3c",
+      "batches": "08-41",
+      "batchFileCount": 34,
+      "questions": 2900,
+      "classificationIndexTotal": 2900,
+      "activeQuestions": 1864,
+      "questionRecordsUpdated": 12,
+      "updatedQuestionIds": [
+        "b15-021",
+        "b17-024",
+        "b18-023",
+        "b19-023",
+        "b25-029",
+        "b30-023",
+        "b31-032",
+        "b33-032",
+        "b37-034",
+        "b38-036",
+        "b40-033",
+        "b41-032"
+      ],
+      "curriculumReferenceId": "ntue-g6-natural-6a-u4-electricity-magnetism",
+      "sourceUrl": "https://bilingual.ntue.edu.tw/p/404-1054-31326.php?Lang=zh-tw",
+      "sourceTitle": "國立臺北教育大學雙語教學研究中心－國小自然科學筆記本、雙語教學資源手冊",
+      "classificationBasis": "curriculum-core",
+      "confidence": "medium",
+      "semesterAssigned": 12,
+      "examPeriodAssigned": 0,
+      "publisherMappingsAdded": 0,
+      "newQuestionsAdded": 0,
+      "fullCorpusSemesterDistribution": {
+        "unassigned": 2372,
+        "上學期": 330,
+        "下學期": 124,
+        "全學年": 74
+      },
+      "fullCorpusExamPeriodDistribution": {
+        "unassigned": 2669,
+        "第一次段考": 66,
+        "第二次段考": 71,
+        "第三次段考": 94
+      },
+      "fullCorpusClassificationBasisDistribution": {
+        "curriculum-core": 2384,
+        "question-bank-inference": 442,
+        "publisher-source-verified": 74
+      },
+      "fullCorpusPublisherStatusDistribution": {
+        "curriculum-core": 2741,
+        "pending": 6,
+        "publisher-mapped": 153
+      },
+      "fullCorpusConfidenceDistribution": {
+        "low": 2413,
+        "medium": 459,
+        "high": 28
+      },
+      "activeScopeSemesterDistribution": {
+        "unassigned": 1336,
+        "上學期": 330,
+        "下學期": 124,
+        "全學年": 74
+      },
+      "activeScopeExamPeriodDistribution": {
+        "unassigned": 1633,
+        "第一次段考": 66,
+        "第二次段考": 71,
+        "第三次段考": 94
+      },
+      "activeScopePublisherStatus": {
+        "curriculum-core": 1705,
+        "pending": 6,
+        "publisher-mapped": 153
+      },
+      "batchSourceShaMatches": "34/34",
+      "publisherMappingReferences": 153,
+      "validation": {
+        "all34BatchSourceShasMatch": true,
+        "classificationRecords": 2900,
+        "classificationIdsUnique": 2900,
+        "missingRequiredFields": 0,
+        "illegalClassificationValues": 0,
+        "publisherMappingSourceFieldErrors": 0,
+        "publisherMappingScopeErrors": 0,
+        "appReadsPersistedClassificationIndex": true,
+        "staticCartesianCombinations": 18900,
+        "nonzeroResultCombinations": 1076,
+        "zeroResultCombinations": 17824,
+        "subjectUnitGroupsTested": 1184,
+        "filterErrors": 0,
+        "unitFilterErrors": 0,
+        "browserOrMobileRuntimeTested": false
+      },
+      "notes": "官方課程參考確認六年級自然上學期單元四「電磁作用」；12題直接涉及串聯／並聯電路，僅回填上學期，保留examPeriod=unassigned、publisherStatus=curriculum-core及空publisherMappings。沒有新增題目，未宣稱出版社版本、學校採用版本或教師審核。"
     }
   ],
   "batch30ExtendedMetadataAudit": {
@@ -3413,20 +3522,24 @@
     "classificationValueAndMetadataErrors": 0,
     "publisherStatusMappingConsistencyErrors": 0,
     "publisherCategoryReachability": {
-      "curriculumCore": 2771,
+      "curriculumCore": 2741,
       "pending": 6,
       "hanlin": 79,
-      "knsh": 9,
-      "nani": 35
+      "knsh": 42,
+      "nani": 32
     },
     "courseTrackAnomalies": 0,
-    "filterCodePath": "index.html getPool -> window.questionClassificationFor -> QUESTION_CLASSIFICATION_INDEX loaded from data/question-classification.json",
+    "filterCodePath": "index.html getPool -> window.questionClassificationFor -> QUESTION_CLASSIFICATION_INDEX loaded from data/question-classification.json and six shards",
     "staticPerQuestionCheck": true,
     "exhaustiveCartesianCombinationTest": true,
     "cartesianCombinationsTested": 18900,
-    "unitFilterGroupsTested": 1183,
+    "nonzeroResultCombinations": 1076,
+    "zeroResultCombinations": 17824,
+    "subjectUnitGroupsTested": 1184,
+    "filterErrors": 0,
+    "unitFilterErrors": 0,
     "browserTested": false,
-    "note": "重新以目前持久分類索引模擬全部啟用年級科目、難度、學期、段考、出版社與高二數學軌別組合：18,900組中960組有題、17,940組正常為0；另核對1,183組年級／科目＋單元篩選，無計數錯誤。屬資料層靜態模擬，非瀏覽器／手機實機測試。"
+    "note": "靜態驗收：2,900筆分類索引全部可達，必要欄位與分類值錯誤0，出版社來源欄位錯誤0；18,900組年級／科目／難度／學期／段考／出版社／高二數學軌別條件中1,076組有題、17,824組合理零題；另檢查1,184組年級／科目／單元。非瀏覽器或手機實機測試。"
   },
   "sourceVerificationLog": [
     {
@@ -3685,6 +3798,21 @@
       ],
       "questionRecordsUpdated": 10,
       "notes": "只為題幹與上述官方資源內容直接相符的六年級社會題目建立題目級映射；保留examPeriod=unassigned，不代表學校採用版本或正式段考範圍。"
+    },
+    {
+      "runId": "2026-11-14-ntue-g6-natural-circuits-semester-backfill-01",
+      "verifiedAt": "2026-11-14",
+      "sourceChecks": [
+        {
+          "publisher": "curriculum-core",
+          "mappingIds": [],
+          "sourceUrl": "https://bilingual.ntue.edu.tw/p/404-1054-31326.php?Lang=zh-tw",
+          "sourceTitle": "國立臺北教育大學雙語教學研究中心－國小自然科學筆記本、雙語教學資源手冊",
+          "verifiedScope": "官方目錄明示六年級自然上學期單元四「電磁作用」；只作課程主題層級參考，未列出版社版本或細分目次。"
+        }
+      ],
+      "questionRecordsUpdated": 12,
+      "notes": "將12題直接涉及串聯／並聯電路通路的六年級自然題目回填上學期；不新增出版社映射、不推定段考、不宣稱學校採用版本或教師審核。"
     }
   ],
   "high2MathCourseTrackAudit": {
@@ -3870,43 +3998,46 @@
   },
   "lastRunAudit": {
     "date": "2026-11-14",
-    "type": "nani-g6-math-6b-chicken-rabbit-scope-correction",
-    "sourceHead": "ac27ec28598499a02691f62ff3fff4b5fd817512",
+    "type": "ntue-g6-natural-circuits-curriculum-semester-backfill",
+    "sourceHead": "3aa0d27f50cba96abcf6fa0cc77d198b258ecb3c",
     "fullCorpusQuestionCount": 2900,
     "activeScopeQuestionCount": 1864,
-    "questionRecordsUpdated": 8,
-    "retainedPublisherMappedQuestionIds": [
-      "b36-021",
-      "b37-023",
-      "b40-023",
-      "b40-024",
-      "b41-020"
+    "questionRecordsUpdated": 12,
+    "updatedQuestionIds": [
+      "b15-021",
+      "b17-024",
+      "b18-023",
+      "b19-023",
+      "b25-029",
+      "b30-023",
+      "b31-032",
+      "b33-032",
+      "b37-034",
+      "b38-036",
+      "b40-033",
+      "b41-032"
     ],
-    "removedPublisherMappingQuestionIds": [
-      "b37-024",
-      "b41-021",
-      "b41-022"
-    ],
-    "publisher": "nani",
-    "mappingId": "nani-g6-math-6b-chicken-rabbit",
-    "publisherMappingLevel": "official-resource-title",
-    "sourceUrl": "https://tpack.nani.com.tw/nani_content?a=394&b=1",
+    "curriculumReferenceId": "ntue-g6-natural-6a-u4-electricity-magnetism",
+    "sourceUrl": "https://bilingual.ntue.edu.tw/p/404-1054-31326.php?Lang=zh-tw",
+    "sourceTitle": "國立臺北教育大學雙語教學研究中心－國小自然科學筆記本、雙語教學資源手冊",
     "verificationStatus": "source-checked",
-    "semesterAssigned": 0,
-    "semesterRevertedToUnassigned": 3,
+    "classificationBasis": "curriculum-core",
+    "confidence": "medium",
+    "semesterAssigned": 12,
     "examPeriodAssigned": 0,
+    "publisherMappingsAdded": 0,
     "newQuestionsAdded": 0,
     "fullCorpusSemesterDistribution": {
-      "unassigned": 2384,
-      "上學期": 318,
+      "unassigned": 2372,
+      "上學期": 330,
       "下學期": 124,
       "全學年": 74
     },
     "fullCorpusExamPeriodDistribution": {
       "unassigned": 2669,
-      "第三次段考": 94,
       "第一次段考": 66,
-      "第二次段考": 71
+      "第二次段考": 71,
+      "第三次段考": 94
     },
     "fullCorpusClassificationBasisDistribution": {
       "curriculum-core": 2384,
@@ -3918,25 +4049,30 @@
       "pending": 6,
       "publisher-mapped": 153
     },
+    "fullCorpusConfidenceDistribution": {
+      "low": 2413,
+      "medium": 459,
+      "high": 28
+    },
     "activeScopeSemesterDistribution": {
-      "unassigned": 1348,
-      "上學期": 318,
+      "unassigned": 1336,
+      "上學期": 330,
       "下學期": 124,
       "全學年": 74
     },
     "activeScopeExamPeriodDistribution": {
       "unassigned": 1633,
-      "第三次段考": 94,
       "第一次段考": 66,
-      "第二次段考": 71
+      "第二次段考": 71,
+      "第三次段考": 94
     },
     "activeScopePublisherStatus": {
       "curriculum-core": 1705,
       "pending": 6,
       "publisher-mapped": 153
     },
-    "notes": "南一官方詳情頁明示雞兔同籠；5筆直接雞兔題保留官方資源標題層級映射。3筆汽車／機車與三腳椅／四腳桌類比題撤回出版社標籤，分類改為共同核心、單元正規化為頭數與腳數問題（假設法），semester/examPeriod unassigned。未修改原始題庫，不新增題目，不宣稱教師審核或學校採用版本。",
-    "sourceBatchShasMatched": 34
+    "sourceBatchShasMatched": 34,
+    "notes": "官方課程參考確認六年級自然上學期單元四「電磁作用」；12題直接涉及串聯／並聯電路，僅回填上學期，保留examPeriod=unassigned、publisherStatus=curriculum-core及空publisherMappings。沒有新增題目，未宣稱出版社版本、學校採用版本或教師審核。"
   },
   "latestMappingScopeCorrection": {
     "date": "2026-11-14",
@@ -3966,7 +4102,7 @@
   },
   "lastMappingReferenceAudit": {
     "date": "2026-11-14",
-    "type": "persisted-publisher-mapping-reference-audit-after-scope-correction",
+    "type": "persisted-publisher-mapping-reference-audit-after-curriculum-backfill",
     "classificationRecordCount": 2900,
     "activeScopeQuestionCount": 1864,
     "publisherMappedQuestionCount": 153,
@@ -3976,20 +4112,7 @@
     "unresolvedCentralMappingReferences": 0,
     "sourceFieldMismatches": 0,
     "missingRequiredClassificationFields": 0,
-    "publisherReferenceCounts": {
-      "hanlin": 79,
-      "knsh": 42,
-      "nani": 32
-    },
-    "mappingLevelCounts": {
-      "unit": 107,
-      "official-resource-title": 46
-    },
-    "verificationStatusCounts": {
-      "source-checked": 153
-    },
-    "notes": "保留5筆直接雞兔同籠題；移除3筆只在原始標籤相同、但題幹為車輛或桌椅情境的類比題。 中央映射年級、科目、學期與題目分類欄位逐筆核對一致，scope mismatches 0。",
-    "centralScopeMismatches": 0
+    "notes": "課程核心學期回填未增加出版社映射；原有153筆出版社題目映射仍可解析至21筆中央映射及推定器MAPS。"
   },
   "lastFilterDataAudit": {
     "auditedAt": "2026-11-14",
@@ -4004,8 +4127,8 @@
       "courseTrack（僅高二數學）"
     ],
     "combinationsTested": 3150,
-    "nonEmptyCombinations": 232,
-    "zeroResultCombinations": 2918,
+    "nonEmptyCombinations": 236,
+    "zeroResultCombinations": 2914,
     "publisherMappingLeaks": 0,
     "zeroResultHintPresent": true,
     "browserOrMobileRuntimeTested": false,
@@ -4016,23 +4139,29 @@
       "高二": 974
     },
     "activeScopeSemesterDistribution": {
-      "unassigned": 1348,
-      "上學期": 318,
+      "unassigned": 1336,
+      "上學期": 330,
       "下學期": 124,
       "全學年": 74
     },
     "activeScopeExamPeriodDistribution": {
       "unassigned": 1633,
-      "第三次段考": 94,
       "第一次段考": 66,
-      "第二次段考": 71
+      "第二次段考": 71,
+      "第三次段考": 94
     },
     "activeScopePublisherStatus": {
       "curriculum-core": 1705,
       "pending": 6,
       "publisher-mapped": 153
     },
-    "mappingScopeCorrectionRecheck": "passed-static-3150-combinations",
-    "notes": "本輪以最新六個持久分類分片模擬index.html的年級／科目／學期／段考／出版社篩選及高二數學軌別條件，共3,150組；232組有題、2,918組為合理零題。全部版本預設可讀取1,864題，出版社篩選映射洩漏0，零題提示存在。僅為靜態資料層測試，未執行手機或桌面瀏覽器實機操作。"
-  }
+    "fullCartesianCombinations": 18900,
+    "fullCartesianNonEmpty": 1076,
+    "fullCartesianZero": 17824,
+    "unitFilterGroupsTested": 1184,
+    "filterErrors": 0,
+    "unitFilterErrors": 0,
+    "notes": "依目前index.html與六個持久分類分片靜態模擬3150組學期／段考／出版社／軌別條件及18900組含難度條件；出版社映射洩漏0，零題提示存在。未執行瀏覽器／手機實機操作。"
+  },
+  "notes": " 2026-11-14：新增國立臺北教育大學六年級自然上學期單元四「電磁作用」課程參考，12題串聯／並聯電路僅回填上學期，不掛出版社、不填段考。"
 }
