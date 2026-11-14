@@ -3433,5 +3433,89 @@
       "questionRecordsUpdated": 0,
       "notes": "兩份均為康軒官方來源，但Unit 1至Unit 4主題不同，未能證實為同一版次／學年度。為避免版本混用，不新增出版社映射；國小六年級英語題目維持108課綱共同核心或待核對，待取得相同學年度課本目次或學校採用資料再處理。"
     }
-  ]
+  ],
+  "high2MathCourseTrackAudit": {
+    "auditedAt": "2026-11-14",
+    "batchRange": "08-37",
+    "candidateQuestionCount": 90,
+    "grade": "高二",
+    "subject": "數學",
+    "candidateUnitGroups": [
+      "三角函數",
+      "指數與對數函數",
+      "平面向量"
+    ],
+    "officialReference": {
+      "publisher": "hanlin",
+      "mappingIds": [
+        "hanlin-h2-math-3a-u1",
+        "hanlin-h2-math-3a-u2",
+        "hanlin-h2-math-3a-u3"
+      ],
+      "sourceUrl": "https://books.hanlin.com.tw/product/433021",
+      "sourceTitle": "翰林書城－高中互動式教學講義數學(3A)",
+      "verifiedScope": "高中二年級、上學期、數學A及三個目次單元"
+    },
+    "observedQuestionMetadata": {
+      "courseTrackMissing": 90,
+      "courseTypeMissing": 90,
+      "semesterUnassigned": 90,
+      "examPeriodUnassigned": 90,
+      "existingPublisherMappings": 0
+    },
+    "decision": "不新增出版社映射；不推定學期或段考；維持108課綱共同核心。",
+    "rationale": "官方頁只能證明翰林數學(3A)屬數學A，不能由單元名稱相似反推未標軌別的題目屬數學A。依數學A/B不得混用原則，90題僅在各自分類紀錄中追加軌別未確認的回查理由。",
+    "teacherReviewStatus": "not-reviewed"
+  },
+  "activeScopeClassificationAudit": {
+    "auditedAt": "2026-11-14",
+    "batchRange": "08-41",
+    "batchFileCount": 34,
+    "activeGrades": [
+      "國小六年級",
+      "高中高二"
+    ],
+    "questionCount": 1864,
+    "classificationBasisDistribution": {
+      "curriculum-core": 1589,
+      "question-bank-inference": 231,
+      "publisher-source-verified": 44
+    },
+    "semesterDistribution": {
+      "上學期": 168,
+      "下學期": 107,
+      "全學年": 0,
+      "unassigned": 1589
+    },
+    "examPeriodDistribution": {
+      "第一次段考": 66,
+      "第二次段考": 71,
+      "第三次段考": 94,
+      "unassigned": 1633
+    },
+    "publisherStatusDistribution": {
+      "publisher-mapped": 123,
+      "curriculum-core": 1735,
+      "pending": 6
+    },
+    "publisherReferenceCounts": {
+      "hanlin": 79,
+      "knsh": 9,
+      "nani": 35
+    },
+    "confidenceDistribution": {
+      "low": 1409,
+      "medium": 427,
+      "high": 28
+    },
+    "pendingQuestionIds": [
+      "b9-016",
+      "b11-021",
+      "b12-025",
+      "b16-059",
+      "b23-074",
+      "b37-069"
+    ],
+    "note": "依最新main六個分類分片重新彙總；分類欄位完整不代表教師逐題審核。段考分類僅供複習安排，不代表學校正式範圍。"
+  }
 }
