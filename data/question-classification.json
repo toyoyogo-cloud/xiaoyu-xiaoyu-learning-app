@@ -2,7 +2,7 @@
   "title": "題目分類持久索引",
   "schemaVersion": "1.1.0",
   "updatedAt": "2026-11-15",
-  "classificationRuleVersion": "2026-11-15.49",
+  "classificationRuleVersion": "2026-11-15.50",
   "sourceBranch": "main",
   "batchRange": "08-41",
   "batchFileCount": 34,
@@ -119,17 +119,28 @@
   },
   "lastMappingReferenceAudit": {
     "date": "2026-11-15",
-    "type": "persisted-knsh-weather-mapping-reference-audit",
+    "type": "g6-natural-water-heat-mapping-reference-audit",
     "classificationRecordCount": 2900,
     "activeScopeQuestionCount": 1864,
-    "publisherMappedQuestionCount": 158,
-    "questionMappingReferenceCount": 158,
-    "centralMappingCount": 22,
-    "inferenceMapCount": 22,
+    "publisherMappedQuestionCount": 171,
+    "questionMappingReferenceCount": 187,
+    "centralMappingCount": 27,
     "unresolvedCentralMappingReferences": 0,
     "sourceFieldMismatches": 0,
     "missingRequiredClassificationFields": 0,
-    "notes": "新增康軒六上自然天氣單元映射；5筆題目參照均可解析至中央登錄表與推定器MAPS，來源欄位完整。"
+    "publisherReferenceCounts": {
+      "nani": 44,
+      "hanlin": 83,
+      "knsh": 60
+    },
+    "mappingLevelCounts": {
+      "official-resource-title": 46,
+      "unit": 141
+    },
+    "verificationCounts": {
+      "source-checked": 187
+    },
+    "notes": "13題級映射紀錄共187筆來源參照；所有參照可解析至27筆中央映射與推定器MAPS。"
   },
   "lastFilterDataAudit": {
     "auditedAt": "2026-11-15",
@@ -145,9 +156,9 @@
       "courseTrack（高二數學）",
       "learningUnit"
     ],
-    "combinationsTested": 18000,
-    "nonEmptyResultCombinations": 1084,
-    "zeroResultCombinations": 16916,
+    "combinationsTested": 15750,
+    "nonEmptyResultCombinations": 1120,
+    "zeroResultCombinations": 14630,
     "publisherMappingLeaks": 0,
     "zeroResultHintPresent": true,
     "browserOrMobileRuntimeTested": false,
@@ -158,8 +169,8 @@
       "高二": 974
     },
     "activeScopeSemesterDistribution": {
-      "unassigned": 1325,
-      "上學期": 341,
+      "unassigned": 1315,
+      "上學期": 351,
       "全學年": 74,
       "下學期": 124
     },
@@ -170,9 +181,9 @@
       "第二次段考": 71
     },
     "activeScopePublisherStatus": {
-      "curriculumCore": 1700,
+      "curriculum-core": 1687,
       "pending": 6,
-      "publisherMapped": 158
+      "publisher-mapped": 171
     },
     "unitFilterGroupsTested": 1184,
     "unitFilterErrors": 0,
@@ -188,7 +199,7 @@
       "mappingErrors": 0,
       "sourceBatchShasMatched": "34/34"
     },
-    "notes": "依index.html getPool篩選欄位與持久分類分片進行靜態笛卡兒組合模擬；出版社篩選只依publisherMappings，未發現映射洩漏。單元分組檢查通過。未執行瀏覽器或手機實機操作。"
+    "notes": "依index.html getPool篩選維度，模擬所有年級／科目／難度／學期／段考／出版社／高二數學軌別組合，並逐一檢查所有單元群；資料層靜態驗收，未執行瀏覽器或手機實機操作。"
   },
   "lastRawTagAudit": {
     "date": "2026-11-14",
@@ -201,33 +212,36 @@
   },
   "lastRunAudit": {
     "date": "2026-11-15",
-    "type": "knsh-g6-natural-weather-unit-mapping",
-    "sourceHeadBeforeRun": "5c2b4b4442ca74eb3182e477f8d9cfeae61e8991",
+    "type": "g6-natural-water-cycle-heat-weather-mapping",
+    "sourceHeadBeforeRun": "6ad7a646076d6d0f4590e2b8c85a6465a8c7e6c2",
     "batches": "08-41",
     "batchFileCount": 34,
     "fullCorpusQuestionCount": 2900,
     "activeScopeQuestionCount": 1864,
-    "questionRecordsUpdated": 5,
+    "questionRecordsUpdated": 13,
     "updatedQuestionIds": [
-      "b29-034",
-      "b34-032",
-      "b35-039",
-      "b37-041",
-      "b39-037"
+      "b33-034",
+      "b39-033",
+      "b40-036",
+      "b41-034",
+      "b32-023",
+      "b35-032",
+      "b35-040",
+      "b36-039",
+      "b37-035",
+      "b38-037",
+      "b40-039",
+      "b41-037",
+      "b33-039"
     ],
-    "mappingId": "knsh-g6-natural-6a-u1-weather",
-    "sourceUrl": "https://market.cloud.edu.tw/resources/web/1809340",
-    "sourceTitle": "六上康軒版自然第一單元-天氣的變化",
-    "verificationStatus": "source-checked",
-    "classificationBasis": "publisher-source-verified",
-    "confidence": "medium",
-    "semesterAssigned": 4,
+    "semesterAssigned": 10,
     "examPeriodAssigned": 0,
-    "publisherMappingsAdded": 5,
+    "publisherMappingsAdded": 29,
     "newQuestionsAdded": 0,
+    "centralMappingCount": 27,
     "fullCorpusSemesterDistribution": {
-      "unassigned": 2361,
-      "上學期": 341,
+      "unassigned": 2351,
+      "上學期": 351,
       "全學年": 74,
       "下學期": 124
     },
@@ -238,36 +252,24 @@
       "第二次段考": 71
     },
     "fullCorpusClassificationBasisDistribution": {
-      "curriculumCore": 2379,
-      "questionBankInference": 442,
-      "publisherSourceVerified": 79
+      "curriculum-core": 2366,
+      "question-bank-inference": 442,
+      "publisher-source-verified": 92
     },
     "fullCorpusPublisherStatusDistribution": {
-      "curriculumCore": 2736,
+      "curriculum-core": 2723,
       "pending": 6,
-      "publisherMapped": 158
+      "publisher-mapped": 171
     },
     "fullCorpusConfidenceDistribution": {
-      "low": 2404,
-      "medium": 468,
+      "low": 2395,
+      "medium": 477,
       "high": 28
     },
-    "activeScopeSemesterDistribution": {
-      "unassigned": 1325,
-      "上學期": 341,
-      "全學年": 74,
-      "下學期": 124
-    },
-    "activeScopeExamPeriodDistribution": {
-      "unassigned": 1633,
-      "第三次段考": 94,
-      "第一次段考": 66,
-      "第二次段考": 71
-    },
-    "activeScopePublisherStatus": {
-      "curriculumCore": 1700,
-      "pending": 6,
-      "publisherMapped": 158
+    "publisherReferenceCounts": {
+      "nani": 44,
+      "hanlin": 83,
+      "knsh": 60
     },
     "sourceBatchShasMatched": "34/34",
     "validation": {
@@ -278,18 +280,17 @@
       "illegalClassificationValues": 0,
       "publisherMappingReferenceErrors": 0,
       "sourceFieldErrors": 0,
-      "weatherMappingScopeMatches": 5,
-      "sourceBatchShasMatched": "34/34",
       "appReadsPersistedClassificationIndex": true,
-      "staticFilterCombinations": 18000,
-      "nonEmptyResultCombinations": 1084,
-      "zeroResultCombinations": 16916,
+      "staticFilterCombinations": 15750,
+      "nonEmptyResultCombinations": 1120,
+      "zeroResultCombinations": 14630,
       "publisherMappingLeaks": 0,
       "unitFilterGroupsTested": 1184,
       "unitFilterErrors": 0,
+      "sourceBatchShasMatched": "34/34",
       "browserOrMobileRuntimeTested": false
     },
-    "notes": "僅將教育部教育雲教師編製資源頁明示的康軒版六上自然天氣單元，映射至5題直接相符題目；其中4題補上學期，b39-037原已為上學期。段考維持unassigned。非出版社完整課本目次、學校採用證明或教師審核。"
+    "notes": "本輪只更新既有題庫分類；未新增題目。教育雲資源明列教材對照，但非出版社出版頁、學校採用證明或教師審核。"
   },
   "lastBatchClassificationReconciliation": {
     "date": "2026-11-15",
