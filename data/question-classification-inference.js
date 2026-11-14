@@ -5,7 +5,7 @@ const ELECTIVE_COURSE_TYPES={"hanlin-h2-physics-ii":"選修物理(II)","hanlin-h
 const UN="unassigned";
 const core=q=>q&&(q.frameworkId==="curriculum-108"||q.sourceType==="original-curriculum-aligned");
 const label=q=>String(q.unit||q.learningContent||q.t||q.topic||"");
-const UNIT_ALIASES={"hanlin-h2-math-3a-u1":["三角函數","三角比","特殊角","三角測量","弧度","正弦","餘弦","正切","週期","象限","三角方程式"],"hanlin-h2-math-3a-u2":["指數","對數","log","成長模型","衰變","半衰期"],"hanlin-h2-math-3a-u3":["平面向量","向量","內積","投影","行列式","單位向量"],"knsh-g6-social-6a-u2-1":["個人發展如何受到社會變遷的影響","社會變遷與性別角色","社會變遷與家庭分工","個人發展與社會變遷"],"hanlin-h2-chemistry-iii-u1":["化學平衡","平衡常數","勒沙特列","反應商","平衡移動"],"hanlin-h2-chemistry-iii-u2":["沉澱","溶解平衡","溶度積","共同離子","Ksp"],"hanlin-h2-chemistry-iii-u3":["酸鹼","pH","滴定","緩衝","鹽類水解"],"nani-g6-math-6b-base-comparison":["基準量和比較量","基準量與比較量"],"nani-g6-math-6b-four-operations":["四則混合運算"],"nani-g6-math-6b-chicken-rabbit":["雞兔問題","雞兔同籠"],"nani-g6-social-6b-u2-technology-life":["科技與生活息息相關","石化科技與生活","資訊科技與生活"],"knsh-g6-social-6b-u2-1-sdgs-community":["公共參與","民主參與","防災與公共資訊","公共聽證與政策參與","地震防災","地方參與","地方預算與公共決策","地方自治","地方預算與公共利益","災害風險圖判讀","公共運輸與可近性","防災避難規劃","公共參與與審議","永續交通選擇","地方自治與公共參與","資源分配與公共利益"],"knsh-g6-social-6a-u4-3-sustainable-cities":["人口遷移的推力與拉力","人口遷移推力與拉力","人口遷移因素","人口移動推力因素","人口移動與公共服務","地方公共服務與公平性","都市規劃與交通選擇","公共運輸可及性","文化資產與觀光承載","文化資產保存","文化保存與多元尊重"]};
+const UNIT_ALIASES={"hanlin-h2-math-3a-u1":["三角函數","三角比","特殊角","三角測量","弧度","正弦","餘弦","正切","週期","象限","三角方程式"],"hanlin-h2-math-3a-u2":["指數","對數","log","成長模型","衰變","半衰期"],"hanlin-h2-math-3a-u3":["平面向量","向量","內積","投影","行列式","單位向量"],"knsh-g6-social-6a-u2-1":["個人發展如何受到社會變遷的影響","社會變遷與性別角色","社會變遷與家庭分工","個人發展與社會變遷"],"hanlin-h2-chemistry-iii-u1":["化學平衡","平衡常數","勒沙特列","反應商","平衡移動"],"hanlin-h2-chemistry-iii-u2":["沉澱","溶解平衡","溶度積","共同離子","Ksp"],"hanlin-h2-chemistry-iii-u3":["酸鹼","pH","滴定","緩衝","鹽類水解"],"nani-g6-math-6b-base-comparison":["基準量和比較量","基準量與比較量"],"nani-g6-math-6b-four-operations":["四則混合運算"],"nani-g6-math-6b-chicken-rabbit":["雞兔問題","雞兔同籠"],"nani-g6-social-6b-u2-technology-life":["科技與生活息息相關","石化科技與生活","資訊科技與生活"],"knsh-g6-social-6b-u2-1-sdgs-community":["公共參與","民主參與","防災與公共資訊","公共聽證與政策參與","地震防災","地方參與","地方預算與公共決策","地方預算與公共利益","災害風險圖判讀","公共運輸與可近性","防災避難規劃","公共參與與審議","永續交通選擇","地方自治與公共參與","資源分配與公共利益","公共預算與公民參與","地方公共預算參與"],"knsh-g6-social-6a-u4-3-sustainable-cities":["人口遷移的推力與拉力","人口遷移推力與拉力","人口遷移因素","人口移動推力因素","人口移動與公共服務","地方公共服務與公平性","都市規劃與交通選擇","公共運輸可及性","文化資產與觀光承載","文化資產保存","文化保存與多元尊重"]};
 const VOLUME_SCOPES={
  "hanlin-h2-physics-ii":["動量","衝量","碰撞","作功","做功","做的功","機械功","位能","動能","力矩","角動量","熱","比熱","熱膨脹","熱傳導","熱力學","熱機","氣體","彈簧","圓周","向心","波以耳","線膨脹","機械能"],
  "hanlin-h2-chemistry-ii-structure-rate":["反應速率","催化劑","活化能","反應級數","物質構造","電子組態","價電子"],
@@ -98,6 +98,9 @@ function inferred(q){
   return {mappingId:"knsh-g6-social-6a-u2-1",semester:"上學期",basis:"publisher-source-verified",confidence:"high",notes:"康軒官方六上2-1教學資源明示個人發展與社會變遷單元；不代表學校採用版本。"};
  if(grade==="六年級"&&subject==="社會"&&mappingScopeMatches(q,MAPS["knsh-g6-social-6a-u4-3-sustainable-cities"],"knsh-g6-social-6a-u4-3-sustainable-cities"))
   return {mappingId:"knsh-g6-social-6a-u4-3-sustainable-cities",semester:"上學期",basis:"publisher-source-verified",confidence:"medium",notes:"康軒官方社會6上4-3教學資源明示都市與鄉村永續發展、人口移動、公共服務與交通網絡、社區參與及文化資產保存；不代表學校採用版本或正式段考範圍。"};
+
+ if(grade==="六年級"&&subject==="社會"&&mappingScopeMatches(q,MAPS["knsh-g6-social-6b-u2-1-sdgs-community"],"knsh-g6-social-6b-u2-1-sdgs-community"))
+  return {mappingId:"knsh-g6-social-6b-u2-1-sdgs-community",semester:"下學期",basis:"publisher-source-verified",confidence:"medium",notes:"康軒官方社會6下2-1教學資源明示學生與學校／政府協作參與社區事務，並以公共建設、交通安全為例；只作官方教學資源標題層級對照，不宣稱完整課本目次、學校採用版本或正式段考範圍。"};
  return null;
 }
 function domainFor(q){
@@ -189,5 +192,5 @@ function classify(q){
  return {semester,examPeriod,classificationBasis:basis,confidence,publisherStatus,publisherMappings:mappings,classificationNotes:notes,reason:notes,sourceRef,learningDomain:(source.learningDomain&&source.learningDomain!=="綜合／待細分")?source.learningDomain:domainFor(source),questionType:source.questionType||typeFor(source),learningUnit:source.learningUnit||label(source)||"未標示",difficultyLevel:difficultyFor(source)};
 }
 window.questionClassificationFor=classify;
-window.QUESTION_CLASSIFICATION_RULES_VERSION="2026-11-14.44";
+window.QUESTION_CLASSIFICATION_RULES_VERSION="2026-11-14.45";
 })();
