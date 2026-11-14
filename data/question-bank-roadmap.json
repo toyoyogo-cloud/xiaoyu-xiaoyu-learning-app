@@ -1346,7 +1346,14 @@
       "combinations": 48600,
       "combinationViolations": 0,
       "browserTested": false
-    }
+    },
+    "duplicateCandidateAudit": {
+      "exactStemGroups": 1,
+      "nearDuplicateGroups": 1,
+      "questionsFlagged": 8,
+      "reviewRequired": true
+    },
+    "sourceHead": "85694b7f0de42b1f018517c963d1f2f1caade8e3"
   },
   "latestClassificationBackfill": {
     "auditedAt": "2026-11-14",
@@ -2072,6 +2079,54 @@
     "filterCombinationsSimulated": 18900,
     "filterCombinationErrors": 0,
     "unitFilterGroupsTested": 960,
-    "browserTested": false
+    "browserTested": false,
+    "sourceHead": "85694b7f0de42b1f018517c963d1f2f1caade8e3",
+    "duplicateCandidateGroups": {
+      "exactStem": 1,
+      "nearDuplicate": 1,
+      "questionsFlagged": 8
+    },
+    "duplicateAuditScope": "分批題幹檢查；非全庫語意去重完成"
+  },
+  "duplicateCandidateAudit": {
+    "auditedAt": "2026-11-14",
+    "sourceHead": "85694b7f0de42b1f018517c963d1f2f1caade8e3",
+    "scope": "第8至41批題幹分批正規化檢查；此輪只記錄已識別候選，不宣稱跨所有批次的全域近似重複偵測已完成。",
+    "exactDuplicateStemGroups": [
+      {
+        "ids": [
+          "b9-006",
+          "b13-013"
+        ],
+        "stage": "高中",
+        "grade": "高一",
+        "subject": "數學",
+        "reason": "正規化後題幹完全相同；尚未自動刪除，需確認選項、答案與解析後再決定是否保留一題或改寫。"
+      }
+    ],
+    "nearDuplicateGroups": [
+      {
+        "ids": [
+          "b9-016",
+          "b11-021",
+          "b12-025",
+          "b16-059",
+          "b23-074",
+          "b37-069"
+        ],
+        "stage": "高中",
+        "grade": "高二",
+        "subject": "物理",
+        "unit": "電功率",
+        "reason": "六題均以P＝VI計算電功率，題幹結構、電壓／電流參數與選項設計高度相近；五題使用12V、2A，另有一題使用110V、2A。",
+        "currentClassification": "publisherStatus=pending；semester/examPeriod=unassigned",
+        "action": "已在六筆持久分類備註標示近重複候選；保留全部原題，不自動刪除或合併。"
+      }
+    ],
+    "limitations": [
+      "這是分批正規化題幹掃描與人工可見候選整理，不代表已完成全庫語意相似度檢索。",
+      "尚未由教師審核重複題是否應刪除、改寫或保留。"
+    ],
+    "newQuestionsAdded": 0
   }
 }
