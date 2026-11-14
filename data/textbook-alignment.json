@@ -1356,6 +1356,26 @@
       "verifiedAt": "2026-11-15",
       "verificationStatus": "source-checked",
       "notes": "資源列國小5–6年級自然科INe-Ⅲ-2，涵蓋生鏽與防鏽條件。本輪掃描第8至41批六年級自然題目，未找到直接以生鏽／食物腐敗為核心的題目，故不建立題目分類或出版社映射。"
+    },
+    {
+      "id": "ntue-g6-natural-6b-u3-cherish-home",
+      "publisher": "curriculum-core",
+      "sourceType": "curriculum-reference",
+      "sourceUrl": "https://bilingual.ntue.edu.tw/p/404-1054-31326.php?Lang=zh-tw",
+      "sourceTitle": "國立臺北教育大學雙語教學研究中心－國小自然科學筆記本、雙語教學資源手冊",
+      "verifiedAt": "2026-11-15",
+      "verificationStatus": "source-checked",
+      "notes": "官方單元目錄列六年級自然下學期單元三「珍愛家園」；僅支持課程主題／學期推定，不是出版社版本、完整課本細目或學校採用證明。"
+    },
+    {
+      "id": "moe-cloud-g6-cherish-home",
+      "publisher": "curriculum-core",
+      "sourceType": "government-hosted-teaching-resource",
+      "sourceUrl": "https://market.cloud.edu.tw/resources/web/1808685",
+      "sourceTitle": "教育部教育雲－愛護環境之VR互動學習系統（國立臺中科技大學提供）",
+      "verifiedAt": "2026-11-15",
+      "verificationStatus": "source-checked",
+      "notes": "教育部教育雲平台資源由國立臺中科技大學提供，明示六年級自然課程「珍愛家園：愛護環境」，包含生物多樣性、棲地、人類活動與環境影響等主題；僅作知識點佐證，不是出版社出版頁或學校採用證明。"
     }
   ],
   "classificationAudit": {
@@ -3272,6 +3292,82 @@
       "newQuestionsAdded": 0,
       "classificationRuleVersion": "2026-11-15.50",
       "verifiedAt": "2026-11-15"
+    },
+    {
+      "runId": "2026-11-15-ntue-g6-natural-cherish-home-semester-backfill-01",
+      "date": "2026-11-15",
+      "type": "g6-natural-cherish-home-ecology-semester-backfill",
+      "sourceHeadBeforeRun": "78d34c7c90f0d018beb2a2c13aec817dab1d2ae3",
+      "batches": "08-41",
+      "batchFileCount": 34,
+      "fullCorpusQuestionCount": 2900,
+      "activeScopeQuestionCount": 1864,
+      "questionRecordsUpdated": 2,
+      "updatedQuestionIds": [
+        "b39-038",
+        "b41-040"
+      ],
+      "curriculumReferenceIds": [
+        "ntue-g6-natural-6b-u3-cherish-home",
+        "moe-cloud-g6-cherish-home"
+      ],
+      "semesterAssignments": {
+        "下學期": 2
+      },
+      "examPeriodAssignments": 0,
+      "publisherMappingsAdded": 0,
+      "newQuestionsAdded": 0,
+      "fullCorpusSemesterDistribution": {
+        "unassigned": 2342,
+        "上學期": 353,
+        "下學期": 131,
+        "全學年": 74
+      },
+      "fullCorpusExamPeriodDistribution": {
+        "unassigned": 2669,
+        "第一次段考": 66,
+        "第二次段考": 71,
+        "第三次段考": 94
+      },
+      "fullCorpusClassificationBasisDistribution": {
+        "curriculum-core": 2357,
+        "question-bank-inference": 451,
+        "publisher-source-verified": 92
+      },
+      "fullCorpusPublisherStatusDistribution": {
+        "curriculum-core": 2723,
+        "pending": 6,
+        "publisher-mapped": 171
+      },
+      "fullCorpusConfidenceDistribution": {
+        "low": 2387,
+        "medium": 485,
+        "high": 28
+      },
+      "sourceBatchShasMatched": "34/34",
+      "validation": {
+        "jsonParse": true,
+        "classificationRecords": 2900,
+        "uniqueIds": 2900,
+        "missingRequiredFields": 0,
+        "illegalClassificationValues": 0,
+        "publisherMappingReferenceErrors": 0,
+        "sourceFieldErrors": 0,
+        "sourceBatchShasMatched": "34/34",
+        "appReadsPersistedClassificationIndex": true,
+        "staticFilterCombinations": 1433700,
+        "nonEmptyResultCombinations": 24006,
+        "zeroResultCombinations": 1409694,
+        "unitFilterGroupsTested": 1180,
+        "unitFilterErrors": 0,
+        "publisherMappingLeaks": 0,
+        "allActiveQuestionsReachable": true,
+        "inferenceSyntaxValid": true,
+        "newRuleTest": true,
+        "persistedClassificationAuthoritative": true,
+        "browserOrMobileRuntimeTested": false
+      },
+      "notes": "依官方課程目錄與教育部教育雲課程資源作課程主題／學期推定；未標出版社、未填段考。"
     }
   ],
   "batch30ExtendedMetadataAudit": {
@@ -4414,6 +4510,32 @@
       "questionRecordsUpdated": 0,
       "publisherMappingReferencesAdded": 0,
       "notes": "僅同步中央教材對照與推定器MAPS的verifiedAt；未新增題目級出版社映射、未變更題庫分類。"
+    },
+    {
+      "runId": "2026-11-15-ntue-g6-natural-cherish-home-semester-backfill-01",
+      "verifiedAt": "2026-11-15",
+      "sourceChecks": [
+        {
+          "publisher": "curriculum-core",
+          "mappingIds": [],
+          "sourceUrl": "https://bilingual.ntue.edu.tw/p/404-1054-31326.php?Lang=zh-tw",
+          "sourceTitle": "國立臺北教育大學雙語教學研究中心－國小自然科學筆記本、雙語教學資源手冊",
+          "verifiedScope": "官方單元目錄列六年級自然下學期單元三「珍愛家園」；只支持課程主題／學期推定，不是出版社版本或學校採用證明。"
+        },
+        {
+          "publisher": "curriculum-core",
+          "mappingIds": [],
+          "sourceUrl": "https://market.cloud.edu.tw/resources/web/1808685",
+          "sourceTitle": "教育部教育雲－愛護環境之VR互動學習系統（國立臺中科技大學提供）",
+          "verifiedScope": "教育部教育雲平台資源由國立臺中科技大學提供，明示六年級自然「珍愛家園：愛護環境」主題，含生物多樣性、棲地及人類活動對環境的影響；僅作知識點佐證。"
+        }
+      ],
+      "questionRecordsUpdated": 2,
+      "updatedQuestionIds": [
+        "b39-038",
+        "b41-040"
+      ],
+      "notes": "本次只作課程主題／學期推定，不建立出版社映射或段考範圍。"
     }
   ],
   "high2MathCourseTrackAudit": {
@@ -4637,42 +4759,37 @@
   },
   "lastRunAudit": {
     "date": "2026-11-15",
-    "type": "g6-natural-simple-machines-geological-change-semester-backfill",
-    "sourceHeadBeforeRun": "6ad7a646076d6d0f4590e2b8c85a6465a8c7e6c2",
+    "type": "g6-natural-cherish-home-ecology-semester-backfill",
+    "sourceHeadBeforeRun": "78d34c7c90f0d018beb2a2c13aec817dab1d2ae3",
     "batches": "08-41",
     "batchFileCount": 34,
     "fullCorpusQuestionCount": 2900,
     "activeScopeQuestionCount": 1864,
-    "questionRecordsUpdated": 7,
+    "questionRecordsUpdated": 2,
     "updatedQuestionIds": [
-      "b21-030",
-      "b27-039",
-      "b30-030",
-      "b32-028",
-      "b33-038",
-      "b32-021",
-      "b35-038"
+      "b39-038",
+      "b41-040"
     ],
-    "semesterAssigned": 7,
+    "semesterAssigned": 2,
     "examPeriodAssigned": 0,
     "publisherMappingsAdded": 0,
     "newQuestionsAdded": 0,
     "centralMappingCount": 27,
     "fullCorpusSemesterDistribution": {
-      "unassigned": 2351,
-      "上學期": 351,
-      "全學年": 74,
-      "下學期": 124
+      "unassigned": 2342,
+      "上學期": 353,
+      "下學期": 131,
+      "全學年": 74
     },
     "fullCorpusExamPeriodDistribution": {
       "unassigned": 2669,
-      "第三次段考": 94,
       "第一次段考": 66,
-      "第二次段考": 71
+      "第二次段考": 71,
+      "第三次段考": 94
     },
     "fullCorpusClassificationBasisDistribution": {
-      "curriculum-core": 2366,
-      "question-bank-inference": 442,
+      "curriculum-core": 2357,
+      "question-bank-inference": 451,
       "publisher-source-verified": 92
     },
     "fullCorpusPublisherStatusDistribution": {
@@ -4681,8 +4798,8 @@
       "publisher-mapped": 171
     },
     "fullCorpusConfidenceDistribution": {
-      "low": 2395,
-      "medium": 477,
+      "low": 2387,
+      "medium": 485,
       "high": 28
     },
     "publisherReferenceCounts": {
@@ -4699,25 +4816,22 @@
       "illegalClassificationValues": 0,
       "publisherMappingReferenceErrors": 0,
       "sourceFieldErrors": 0,
-      "appReadsPersistedClassificationIndex": true,
-      "staticFilterCombinations": 15750,
-      "nonEmptyResultCombinations": 1120,
-      "zeroResultCombinations": 14630,
-      "publisherMappingLeaks": 0,
-      "unitFilterGroupsTested": 1184,
-      "unitFilterErrors": 0,
       "sourceBatchShasMatched": "34/34",
+      "appReadsPersistedClassificationIndex": true,
+      "staticFilterCombinations": 1433700,
+      "nonEmptyResultCombinations": 24006,
+      "zeroResultCombinations": 1409694,
+      "unitFilterGroupsTested": 1180,
+      "unitFilterErrors": 0,
+      "publisherMappingLeaks": 0,
+      "allActiveQuestionsReachable": true,
+      "inferenceSyntaxValid": true,
+      "newRuleTest": true,
+      "persistedClassificationAuthoritative": true,
       "browserOrMobileRuntimeTested": false
     },
-    "notes": "新增六年級自然水循環、熱傳導／保溫與天氣資料判讀的持久單元映射；段考一律維持unassigned。教育雲來源明列教材對照，但不是出版社商品頁或學校採用證明。",
-    "classificationRuleVersion": "2026-11-15.51",
-    "inferenceSyntaxValid": true,
-    "persistedClassificationAuthoritative": true,
-    "runtimeClassificationRecordsTested": 2900,
-    "runtimeMappingReferencesAccepted": 187,
-    "runtimeMappingReferencesRejected": 0,
-    "runtimeSemesterDifferences": 0,
-    "runtimeExamPeriodDifferences": 0
+    "classificationRuleVersion": "2026-11-15.52",
+    "notes": "本次只更新兩題既有分類，無新增題目。"
   },
   "latestMappingScopeCorrection": {
     "date": "2026-11-14",
@@ -4786,7 +4900,7 @@
     ],
     "combinationsTested": 18900,
     "nonEmptyResultCombinations": 1140,
-    "zeroResultCombinations": 17760,
+    "zeroResultCombinations": 1409694,
     "publisherMappingLeaks": 0,
     "zeroResultHintPresent": true,
     "browserOrMobileRuntimeTested": false,
@@ -4842,24 +4956,41 @@
     "runtimeExtraMappings": 0,
     "runtimeSemesterDifferences": 0,
     "runtimeExamPeriodDifferences": 0,
-    "runtimeInferenceOverridesPersistedRecords": 0
+    "runtimeInferenceOverridesPersistedRecords": 0,
+    "perQuestionIndexReachability": {
+      "reachable": 2900,
+      "unreachable": 0
+    },
+    "classificationValueAndMetadataErrors": 0,
+    "publisherStatusMappingConsistencyErrors": 0,
+    "publisherCategoryReachability": {
+      "curriculumCore": 2723,
+      "pending": 6,
+      "nani": 44,
+      "hanlin": 83,
+      "knsh": 60
+    },
+    "courseTrackAnomalies": 0,
+    "filterCodePath": "index.html getPool -> window.questionClassificationFor -> QUESTION_CLASSIFICATION_INDEX loaded from data/question-classification.json and six shards",
+    "staticPerQuestionCheck": true,
+    "exhaustiveCartesianCombinationTest": true,
+    "cartesianCombinationsTested": 1433700,
+    "nonzeroResultCombinations": 24006,
+    "subjectUnitGroupsTested": 1180,
+    "filterErrors": 0,
+    "browserTested": false,
+    "note": "靜態資料層全組合測試；未執行瀏覽器或手機實機操作。"
   },
   "notes": " 2026-11-14：新增國立臺北教育大學六年級自然上學期單元四「電磁作用」課程參考，12題串聯／並聯電路僅回填上學期，不掛出版社、不填段考。 2026-11-15：依國立臺北教育大學雙語教學研究中心官方單元目錄，新增3題六年級自然電磁鐵／線圈題目的上學期課程核心分類；段考維持unassigned，不掛出版社。 2026-11-15：新增六年級自然「簡單機械」及「地質的變化」課程參考；7題依題庫知識點推定學期，沒有出版社官方單元來源，故不新增出版社映射。 分類器載入修復：補齊5筆既有MAPS物件鍵並移除重複CURRICULUM_REFERENCES宣告；JavaScript語法編譯通過，publisher filter仍僅依持久映射資料判斷。 推定器持久化保護：有分類索引紀錄的題目不再被執行時推定覆蓋；未分類值必須先寫回分類分片才會反映在篩選器。 最終逐題執行分類器驗證：第8至41批2,900題均讀取持久分類索引，187筆出版社映射參照全部通過，學期／段考與持久資料差異0。",
   "latestCurriculumUnitClassificationAudit": {
     "date": "2026-11-15",
-    "type": "g6-natural-simple-machines-geological-change-semester-backfill",
+    "type": "g6-natural-cherish-home-ecology-semester-backfill",
     "updatedQuestionIds": [
-      "b21-030",
-      "b27-039",
-      "b30-030",
-      "b32-028",
-      "b33-038",
-      "b32-021",
-      "b35-038"
+      "b39-038",
+      "b41-040"
     ],
     "semesterAssignments": {
-      "下學期": 5,
-      "上學期": 2
+      "下學期": 2
     },
     "examPeriod": "unassigned",
     "classificationBasis": "question-bank-inference",
@@ -4867,14 +4998,9 @@
     "publisherMappingsAdded": 0,
     "newQuestionsAdded": 0,
     "sourceRegistryIds": [
-      "ntue-g6-natural-6a-u3-geology",
-      "moe-cloud-ind-iii-9-land-change",
-      "tainan-city-g6-weathering-soil",
-      "ntue-g6-natural-6b-u1-simple-machines",
-      "moe-cloud-ep58-lever",
-      "moe-cloud-g6-simple-machines-lesson",
-      "moe-cloud-rust-antirust"
+      "ntue-g6-natural-6b-u3-cherish-home",
+      "moe-cloud-g6-cherish-home"
     ],
-    "notes": "單元目錄與教育部教育雲／地方教育局資源用於知識點及學期推定；非出版社官方教材目次或學校採用資料。未找到直接生鏽／食物腐敗題目；跨版本「珍愛家園」相關題目未因概念相似而強制歸期。"
+    "notes": "兩題直接涉及棲地破碎化／濕地填平與生物多樣性；依六年級自然下學期單元三「珍愛家園」課程主題推定，非出版社或學校採用版本核對。"
   }
 }
