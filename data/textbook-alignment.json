@@ -617,9 +617,9 @@
       "courseType": "國小",
       "sourceUrl": "https://tpack.nani.com.tw/nani_list?b=1&page=6&t=",
       "sourceTitle": "南一資源_國小資源索引－數學6下：四則混合運算",
-      "verifiedAt": "2026-11-13",
+      "verifiedAt": "2026-11-14",
       "verificationStatus": "official-index-link-only",
-      "notes": "南一官方資源列表頁明示「數學6下｜四則混合運算」、數學及六年級；詳情頁未能由本次查詢直接讀取，故只標官方索引標題層級，不宣稱完整教科書目次或學校採用版本。",
+      "notes": "2026-11-14重新開啟南一官方資源索引：列表明示「數學6下｜四則混合運算」，並列科目數學、年級6年級及差異化互動式教學LUMIO。僅能支持官方資源標題層級對照，不等同完整課本目次，不代表學校採用版本或正式段考範圍。",
       "unitAliases": [
         "四則混合運算"
       ]
@@ -1845,7 +1845,8 @@
   "latestMainClassificationAudit": {
     "auditedAt": "2026-11-14",
     "branch": "main",
-    "sourceHeadBeforeRun": "7cc979331423d38f5fb744c8674a97c3921e0021",
+    "sourceHeadBeforeRun": "8a3d6112edcd63b7565b44a39e1a540fee8d8db9",
+    "sourceHeadBeforeAuditCommit": "d44bd9256239298232e37f36a1c53da60a313712",
     "batchRange": "08-41",
     "batchFileCount": 34,
     "batchQuestionCounts": {
@@ -1858,16 +1859,27 @@
     "questionCount": 2900,
     "uniqueQuestionIds": 2900,
     "duplicateQuestionIds": 0,
+    "missingClassificationIds": 0,
+    "extraClassificationIds": 0,
     "gradeDistribution": {
-      "五年級": 290,
-      "六年級": 890,
-      "高一": 373,
-      "高二": 974,
-      "高三": 373
+      "國小五年級": 290,
+      "國小六年級": 890,
+      "高中高一": 373,
+      "高中高二": 974,
+      "高中高三": 373
     },
     "unitLabelCoverage": {
       "questionsWithUnitOrTopic": 2900,
-      "missingUnitOrTopic": 0
+      "classificationUnitMatchesSourceLabel": 2900,
+      "missingUnitOrTopic": 0,
+      "mismatches": 0
+    },
+    "questionShapeValidation": {
+      "fourOptions": 2900,
+      "validAnswerIndex": 2900,
+      "questionTextPresent": 2900,
+      "explanationPresent": 2900,
+      "invalid": 0
     },
     "storedClassificationFields": {
       "complete": 2900,
@@ -1888,10 +1900,10 @@
       ]
     },
     "classificationBasisDistribution": {
-      "publisher-source-verified": 123,
-      "question-bank-inference": 152,
-      "curriculum-core": 2621,
-      "unassigned": 4
+      "publisher-source-verified": 44,
+      "question-bank-inference": 231,
+      "curriculum-core": 2625,
+      "unassigned": 0
     },
     "semesterDistribution": {
       "上學期": 168,
@@ -1907,12 +1919,12 @@
     },
     "publisherStatusDistribution": {
       "publisher-mapped": 123,
-      "curriculum-core": 2660,
-      "pending": 117
+      "curriculum-core": 2771,
+      "pending": 6
     },
     "publisherMappedQuestionCount": 123,
     "publisherMappingReferenceCount": 123,
-    "centralMappingRegistryCount": 16,
+    "centralMappingRegistryCount": 18,
     "publisherReferenceCounts": {
       "hanlin": 79,
       "knsh": 9,
@@ -1927,77 +1939,26 @@
       "official-resource-title": 16
     },
     "confidenceDistribution": {
-      "low": 2446,
-      "medium": 426,
+      "low": 2445,
+      "medium": 427,
       "high": 28
     },
-    "pendingQuestionCount": 117,
-    "mappingValidationThisRun": {
-      "mappingReferences": 123,
-      "registryReferencesFound": 123,
-      "sourceFieldErrors": 0,
-      "gradeSubjectSemesterTrackErrors": 0,
-      "courseTypeErrors": 0,
-      "unitOrVolumeScopeErrors": 0,
-      "sourceFieldCompleteness": "123/123",
-      "corrections": {
-        "unsupportedElectiveMappingsRemoved": 211,
-        "byBatch": {
-          "08-15": 7,
-          "16-23": 18,
-          "24-31": 46,
-          "32-36": 49,
-          "37-41": 91
-        }
-      },
-      "officialSourcePagesReopened": 0,
-      "limitation": "本次未重新開啟出版社官方頁；115筆 source-checked 與8筆 official-index-link-only 狀態沿用既有中央來源登錄。本次完成題目年級、科目、課程軌別／選修 courseType、單元範圍及來源欄位內部一致性驗證。"
-    },
-    "extendedMetadata": {
-      "complete": 2900,
-      "remaining": 0,
-      "separateClassificationIndex": 2900,
-      "learningDomain": 2900,
-      "questionType": 2900,
-      "learningUnit": 2900,
-      "difficultyLevel": 2900
-    },
-    "classificationIndex": {
-      "file": "data/question-classification.json",
-      "fileSha": "5f75dd86939f526ad2ffbc218b7ce7facd764261",
-      "fileBytes": 1569903,
-      "entries": 2900,
-      "missingRequiredFields": 0
-    },
-    "serviceWorkerCache": "xy-learning-v91",
+    "pendingQuestionCount": 6,
+    "pendingQuestionIds": [
+      "b9-016",
+      "b11-021",
+      "b12-025",
+      "b16-059",
+      "b23-074",
+      "b37-069"
+    ],
+    "mappingSourceFieldsComplete": "123/123",
+    "sourceFieldErrors": 0,
+    "officialSourcePagesReopened": 2,
+    "refreshedQuestionMappingRecords": 8,
     "newQuestionsAdded": 0,
     "browserTested": false,
-    "notes": "本次重新讀取main第8至41批34個題庫檔，逐批比對分類索引：2,900題均有且僅有一筆索引，無缺漏、額外ID或批內重複。發現211筆高二物理／化學／生物選修教材映射未有題目明示相同courseType；依版本隔離規則撤除映射，並撤回僅由該映射帶入的上學期／全學年分類，改回108課綱共同核心及未分類。剩餘123筆出版社映射全部通過年級、科目、courseTrack／courseType、單元範圍與來源欄位內部檢查。沒有新增題目；瀏覽器與手機Safari實機互動仍未測。",
-    "staticFilterReachability": {
-      "auditedAt": "2026-11-14",
-      "batches": "08-41",
-      "questionsChecked": 2900,
-      "perQuestionIndexReachability": {
-        "reachable": 2900,
-        "unreachable": 0
-      },
-      "classificationValueAndMetadataErrors": 0,
-      "publisherStatusMappingConsistencyErrors": 0,
-      "publisherMappingScopeErrors": 0,
-      "publisherCategoryReachability": {
-        "curriculumCore": 2660,
-        "pending": 117,
-        "hanlin": 79,
-        "knsh": 9,
-        "nani": 35
-      },
-      "courseTrackAnomalies": 0,
-      "filterCodePath": "index.html getPool -> window.questionClassificationFor -> QUESTION_CLASSIFICATION_INDEX loaded from data/question-classification.json",
-      "staticPerQuestionCheck": true,
-      "exhaustiveCartesianCombinationTest": false,
-      "browserTested": false,
-      "note": "逐題檢查每題均可由持久索引取回，分類值與單元欄位完整，publisher-mapped狀態與映射存在性一致；不是所有篩選值笛卡兒組合或瀏覽器實測。"
-    }
+    "notes": "本輪重新讀取main第8至41批34個題庫檔及六個分類分片，逐批核對2,900個穩定ID：無重複、缺漏或多餘分類ID；每題年級、科目與分類索引一致，learningUnit均可對應題庫既有unit/topic/t/learningContent標籤，四選項、答案索引、題幹及解析欄位完整。分類欄位完整不等於教師逐題審核。重新開啟翰林數學3A及南一數學6下資源索引；只刷新8筆南一官方資源標題層級映射，未升格為完整課本目次。其餘出版社來源日期沿用中央登錄，學校採用版本未知。沒有新增題目；瀏覽器及手機實機互動未測。"
   },
   "classificationPersistenceRuns": [
     {
@@ -2724,21 +2685,24 @@
   },
   "classificationIndexReconciliation": {
     "verifiedAt": "2026-11-14",
-    "sourceHeadBeforeRun": "5b1a798a5dd2afe93e566496d55eca11d0387681",
+    "sourceHeadBeforeRun": "8a3d6112edcd63b7565b44a39e1a540fee8d8db9",
+    "sourceHeadBeforeAuditCommit": "d44bd9256239298232e37f36a1c53da60a313712",
     "file": "data/question-classification.json",
     "fileSha": "35b3c6e896e792cfd2718ac7d3667ecb257e528b",
-    "manifestBytes": 1497,
-    "shardBytesTotal": 1892242,
     "entriesBeforeCorrection": 2900,
     "entriesAfterCorrection": 2900,
-    "correctedEntries": 5,
-    "sourceMetadataRefreshedEntries": 106,
+    "correctedEntries": 0,
+    "sourceMetadataRefreshedEntries": 8,
+    "sourceBatchFilesVerified": 34,
+    "sourceBatchQuestionsVerified": 2900,
     "missingQuestionIds": 0,
     "extraQuestionIds": 0,
     "duplicateQuestionIds": 0,
+    "identityMismatches": 0,
+    "unitLabelMismatches": 0,
     "requiredFieldsComplete": 2900,
     "extendedMetadataComplete": 2900,
-    "notes": "所有34批題目ID均有持久分類資料；本次正規化5筆國小六年級科目標籤並同步來源SHA，另更新106筆既有出版社映射的來源複核資訊。"
+    "notes": "本輪重新核對第8至41批全部34個題庫檔與六個持久分類分片；2,900題全部一對一對應，無缺漏、額外ID、重複ID、年級／科目錯配或單元標籤錯配。只更新8筆南一官方索引來源驗證日期及說明，不改動題目ID與分類數量。"
   },
   "fullCorpusMappingValidation": {
     "auditedAt": "2026-11-14",
@@ -2750,9 +2714,11 @@
     "sourceFieldErrors": 0,
     "courseTypeErrors": 0,
     "unitOrVolumeScopeErrors": 0,
-    "result": "123/123 mapping references resolve to the 18-entry central registry; required source fields and explicit scope checks pass.",
-    "sourceVerificationRunId": "2026-11-14-official-source-recheck-01",
-    "limitation": "Only three official source pages were reopened in this run; remaining registered source verification dates are retained from earlier checks. School adoption is unknown unless separately documented."
+    "sourceFieldCompleteness": "123/123",
+    "sourceVerificationRunId": "2026-11-14-official-source-recheck-02",
+    "refreshedQuestionMappings": 8,
+    "result": "123/123題目映射可追溯至中央登錄表；本輪重新開啟2個官方頁面，刷新8筆南一官方資源標題層級映射日期。",
+    "limitation": "僅本輪重新開啟翰林數學3A及南一數學6下資源索引兩個官方頁面；其他來源沿用既有登錄驗證日期。8筆南一四則混合運算映射維持official-index-link-only／official-resource-title層級，不視為完整課本目次。學校實際採用版本未確認。"
   },
   "batch08UsageAudit": {
     "auditedAt": "2026-11-13",
@@ -3348,6 +3314,34 @@
       ],
       "questionRecordsUpdated": 106,
       "notes": "重新開啟並核對三個官方頁面；僅刷新已有映射的來源驗證日期與說明，不擴大出版社標記範圍、不宣稱學校採用版本。"
+    },
+    {
+      "runId": "2026-11-14-official-source-recheck-02",
+      "verifiedAt": "2026-11-14",
+      "sourceChecks": [
+        {
+          "publisher": "hanlin",
+          "mappingIds": [
+            "hanlin-h2-math-3a-u1",
+            "hanlin-h2-math-3a-u2",
+            "hanlin-h2-math-3a-u3"
+          ],
+          "sourceUrl": "https://books.hanlin.com.tw/product/433021",
+          "sourceTitle": "翰林書城－高中互動式教學講義－數學(3A)",
+          "verifiedScope": "官方頁明示高中二年級、上學期、108課綱數學A及目次三單元：三角函數、指數與對數函數、平面向量；不代表學校採用版本。"
+        },
+        {
+          "publisher": "nani",
+          "mappingIds": [
+            "nani-g6-math-6b-four-operations"
+          ],
+          "sourceUrl": "https://tpack.nani.com.tw/nani_list?b=1&page=6&t=",
+          "sourceTitle": "南一資源_國小資源索引－數學6下：四則混合運算",
+          "verifiedScope": "官方索引明示數學6下、數學、6年級及四則混合運算資源標題；僅官方資源標題層級，不宣稱完整課本目次或學校採用版本。"
+        }
+      ],
+      "questionRecordsUpdated": 8,
+      "notes": "重新開啟兩個官方來源頁。南一索引支持8筆既有題目的官方資源標題層級對照，將8筆題目映射、中央映射及推定器的verifiedAt更新至2026-11-14；保留official-index-link-only狀態，不升格為完整教材目次或unit層級。未新增題目。"
     }
   ]
 }
