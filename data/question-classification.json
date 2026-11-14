@@ -269,7 +269,13 @@
     "validation": {
       "missingRequiredFields": 0,
       "illegalValues": 0,
-      "mappingErrors": 0
+      "mappingErrors": 0,
+      "sourceBatchShasMatched": "34/34",
+      "rawQuestionCount": 2900,
+      "rawUniqueIds": 2900,
+      "duplicateRawIds": 0,
+      "missingClassificationIds": 0,
+      "extraClassificationIds": 0
     },
     "filter": {
       "contexts": 17,
@@ -294,7 +300,7 @@
     "notes": "只依官方課程主題目錄回填學期；不宣稱出版社版本、學校採用版本或正式段考範圍。"
   },
   "lastBatchClassificationReconciliation": {
-    "date": "2026-11-14",
+    "date": "2026-11-15",
     "batchRange": "08-41",
     "batchFileCount": 34,
     "rawQuestionCount": 2900,
@@ -348,7 +354,6 @@
         "extra": 0
       }
     ],
-    "notes": "逐組重新讀取第8至41批原始題庫並與六個持久分類分片逐題比對ID；34個批次共2,900題，原始ID唯一2,900，分類分片2,900，缺漏0、額外0、重複0。",
-    "verifiedAt": "2026-11-14"
+    "notes": "重新讀取第8至41批全部34個原始題庫檔，逐一比對六個持久分類分片的sourceBatchShas；34/34一致。原始題目2,900筆、ID唯一2,900、分類紀錄2,900，缺漏0、額外0、重複0。"
   }
 }
