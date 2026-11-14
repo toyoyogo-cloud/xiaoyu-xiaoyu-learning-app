@@ -2042,6 +2042,36 @@
     "sourceMappingRecordsRefreshed": 106,
     "officialPagesReopened": 3,
     "newQuestionsAdded": 0,
-    "nextPriority": "優先檢視國小六年級及高中高二尚未分類的題目，逐科比對官方教材目次與課程軌別；無可靠學期／段考依據者維持unassigned，不新增題目以追求數量。"
+    "nextPriority": "完成既有2,900題的語意品質複核，優先國小六年級與高中高二；對沒有官方學期／冊別／單元依據的題目維持unassigned。每次先檢查既有ID、來源SHA與分類分片，再逐批更新。",
+    "activeQuestionCount": 1864,
+    "activeGradeSubjectCounts": {
+      "國小/六年級": {
+        "國語": 165,
+        "數學": 225,
+        "自然": 178,
+        "社會": 174,
+        "英語": 148
+      },
+      "高中/高二": {
+        "數學": 212,
+        "英文": 58,
+        "物理": 140,
+        "化學": 136,
+        "生物": 110,
+        "地理": 84,
+        "歷史": 72,
+        "公民": 85,
+        "地球科學": 24,
+        "國文": 50,
+        "社會": 1,
+        "經濟": 2
+      }
+    },
+    "subjectLabelCorrections": 5,
+    "subjectOptionCoverageErrors": 0,
+    "filterCombinationsSimulated": 18900,
+    "filterCombinationErrors": 0,
+    "unitFilterGroupsTested": 960,
+    "browserTested": false
   }
 }
