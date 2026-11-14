@@ -2,7 +2,7 @@
   "title": "題目分類持久索引",
   "schemaVersion": "1.1.0",
   "updatedAt": "2026-11-14",
-  "classificationRuleVersion": "2026-11-14.44",
+  "classificationRuleVersion": "2026-11-14.45",
   "sourceBranch": "main",
   "batchRange": "08-41",
   "batchFileCount": 34,
@@ -55,7 +55,7 @@
     "learningUnit",
     "difficultyLevel"
   ],
-  "notes": "以穩定題目ID為鍵。第8至41批共2,900題均已持久分類；六個分片保留原始批次檔 SHA。冊別層級來源僅作參考，未核對單元目次者不自動掛到單題。學期與段考未能可靠判定者保留 unassigned。 2026-11-14軌別回查：90筆高二數學單元標籤與翰林數學(3A)目次相近，但原題未標數學A/B軌別；不新增出版社映射，semester與examPeriod維持unassigned，並在分類備註留存理由。 2026-11-14品質盤點：六題高中高二物理電功率題（b9-016、b11-021、b12-025、b16-059、b23-074、b37-069）列為疑似近重複候選，維持待核對與unassigned，不自動刪除；另在第9與13批發現一組高一數學正規化題幹完全相同（b9-006、b13-013），列入品質複核。 2026-11-14.36學期欄位回填：逐筆比對原始第08-41批題庫欄位，將211筆既有semester值同步到分類索引（高二物理上學期82、高二化學上學期26／全學年74、高二生物上學期29）；分類依據為question-bank-inference、confidence=low，段考與出版社映射不變。 2026-11-14.37原始欄位交叉核對：第8至41批2,900題逐批比對原始semester與examPeriod；12筆為國小六年級數學依單元群推定的學期／段考值（原始批次仍為unassigned），原始已填值漏存0。六個分類分片2,900筆、必要欄位完整；官方來源未支持的題目不新增出版社映射。 2026-11-14.38南一數學6下「四則混合運算」詳情頁覆核：更新8筆既有題目（b36-020、b37-021、b37-022、b38-024至b38-028）的來源URL、標題與驗證狀態；維持官方資源標題層級，semester=下學期、examPeriod=unassigned，不宣稱完整課本目次或學校採用版本。 2026-11-14.39分類與映射索引稽核：確認六分片共2,900筆、必要欄位缺漏0、出版社映射123筆全部可解析至19筆中央映射與19筆推定器MAPS，來源欄位不一致0；修正原始欄位交叉核對清單，13筆題庫推定覆寫（新增補列b19-019），原始已填值漏存0。 2026-11-14.40篩選資料層靜態驗收：年級、科目、學期、段考、出版社共16,200組條件；804組有題、15,396組為合理零題組合，出版社映射洩漏0，全部預設條件可讀取2,900題。已確認index.html含指定出版社無題與一般零題提示；未執行瀏覽器實機測試。因manifest與教材對照資料更新，Service Worker快取版升至xy-learning-v108。 2026-11-14.41原始d欄位語義稽核：2,900題中2,736筆d與difficultyLevel相符、7筆d與questionType相符、157筆d為其他題材／情境描述；不將異質d值強制轉成難度，未標示難度維持原值。 2026-11-14.42啟用題庫範圍回算：以34個原始批次按年級重新計數，六年級890題、高二974題，合計1,864題；各批區間08-17為194、18-27為390、28-37為880、38-41為400。全庫分類索引2,900題不等同APP當前啟用題池。 2026-11-14.43康軒社會6下2-1官方教學資源核對：將18筆直接對應公共建設、交通安全、社區參與與災害風險管理的六年級社會題目保存為下學期、康軒官方教學資源標題層級映射；段考維持unassigned，不宣稱學校採用版本。 2026-11-14.44康軒社會六上4-3官方教學資源核對：新增10筆六年級社會題目級映射（b34-050、b35-043、b35-049、b36-044、b36-046、b37-047、b38-046、b38-049、b41-043、b41-049），學期標記上學期、段考保留unassigned；層級為official-resource-title，不宣稱學校採用版本或完整課本目次。 本輪再逐組交叉比對原始第8至41批與六個分類分片：2,900題ID全數一對一對應，缺漏／額外／重複均為0。",
+  "notes": "以穩定題目ID為鍵。第8至41批共2,900題均已持久分類；六個分片保留原始批次檔 SHA。冊別層級來源僅作參考，未核對單元目次者不自動掛到單題。學期與段考未能可靠判定者保留 unassigned。 2026-11-14軌別回查：90筆高二數學單元標籤與翰林數學(3A)目次相近，但原題未標數學A/B軌別；不新增出版社映射，semester與examPeriod維持unassigned，並在分類備註留存理由。 2026-11-14品質盤點：六題高中高二物理電功率題（b9-016、b11-021、b12-025、b16-059、b23-074、b37-069）列為疑似近重複候選，維持待核對與unassigned，不自動刪除；另在第9與13批發現一組高一數學正規化題幹完全相同（b9-006、b13-013），列入品質複核。 2026-11-14.36學期欄位回填：逐筆比對原始第08-41批題庫欄位，將211筆既有semester值同步到分類索引（高二物理上學期82、高二化學上學期26／全學年74、高二生物上學期29）；分類依據為question-bank-inference、confidence=low，段考與出版社映射不變。 2026-11-14.37原始欄位交叉核對：第8至41批2,900題逐批比對原始semester與examPeriod；12筆為國小六年級數學依單元群推定的學期／段考值（原始批次仍為unassigned），原始已填值漏存0。六個分類分片2,900筆、必要欄位完整；官方來源未支持的題目不新增出版社映射。 2026-11-14.38南一數學6下「四則混合運算」詳情頁覆核：更新8筆既有題目（b36-020、b37-021、b37-022、b38-024至b38-028）的來源URL、標題與驗證狀態；維持官方資源標題層級，semester=下學期、examPeriod=unassigned，不宣稱完整課本目次或學校採用版本。 2026-11-14.39分類與映射索引稽核：確認六分片共2,900筆、必要欄位缺漏0、出版社映射123筆全部可解析至19筆中央映射與19筆推定器MAPS，來源欄位不一致0；修正原始欄位交叉核對清單，13筆題庫推定覆寫（新增補列b19-019），原始已填值漏存0。 2026-11-14.40篩選資料層靜態驗收：年級、科目、學期、段考、出版社共16,200組條件；804組有題、15,396組為合理零題組合，出版社映射洩漏0，全部預設條件可讀取2,900題。已確認index.html含指定出版社無題與一般零題提示；未執行瀏覽器實機測試。因manifest與教材對照資料更新，Service Worker快取版升至xy-learning-v108。 2026-11-14.41原始d欄位語義稽核：2,900題中2,736筆d與difficultyLevel相符、7筆d與questionType相符、157筆d為其他題材／情境描述；不將異質d值強制轉成難度，未標示難度維持原值。 2026-11-14.42啟用題庫範圍回算：以34個原始批次按年級重新計數，六年級890題、高二974題，合計1,864題；各批區間08-17為194、18-27為390、28-37為880、38-41為400。全庫分類索引2,900題不等同APP當前啟用題池。 2026-11-14.43康軒社會6下2-1官方教學資源核對：將18筆直接對應公共建設、交通安全、社區參與與災害風險管理的六年級社會題目保存為下學期、康軒官方教學資源標題層級映射；段考維持unassigned，不宣稱學校採用版本。 2026-11-14.44康軒社會六上4-3官方教學資源核對：新增10筆六年級社會題目級映射（b34-050、b35-043、b35-049、b36-044、b36-046、b37-047、b38-046、b38-049、b41-043、b41-049），學期標記上學期、段考保留unassigned；層級為official-resource-title，不宣稱學校採用版本或完整課本目次。 本輪再逐組交叉比對原始第8至41批與六個分類分片：2,900題ID全數一對一對應，缺漏／額外／重複均為0。 2026-11-14.45康軒官方資源持久分類：新增5筆題目級映射（六上4-3文化資產保存3筆；六下2-1公共建設／居民參與2筆），學期依官方資源標示，段考維持unassigned。推定器移除過寬的「地方自治」單獨別名，避免把中央／地方政府職權題誤掛到六下2-1；新增精確公共預算與公民參與別名。無新增題目，未宣稱學校採用版本或教師審核。",
   "lastReconciliation": {
     "date": "2026-11-14",
     "type": "original-question-bank-semester-sync",
@@ -103,7 +103,7 @@
     "notes": "逐批比較第8至41批原始semester／examPeriod與持久分類索引。13筆國小六年級數學題目在原始批次仍為unassigned，但分類索引依題庫單元群推定出學期／段考；均屬question-bank-inference，非原始欄位遺失、官方或教師確認。原始題庫已有非unassigned semester／examPeriod而分類索引未保存的題數為0。此次補正先前稽核清單漏列的b19-019；其單元為「比的應用」，分類索引上學期／第一次段考，信心medium。",
     "verifiedAt": "2026-11-14",
     "sourceBranch": "main",
-    "sourceHead": "aa3a0f975f1f4e9edcf2a338edc4772ba0df0f85",
+    "sourceHead": "5ee59db1011ee944d788e0bc546dbf1d19642661",
     "batchRange": "08-41",
     "batchCount": 34,
     "questionCount": 2900,
@@ -114,7 +114,7 @@
     "extraIds": 0,
     "sourceBatchShasMatch": "34/34",
     "centralMappingRegistryCount": 21,
-    "questionMappingReferences": 151,
+    "questionMappingReferences": 156,
     "newQuestionsAdded": 0
   },
   "lastMappingReferenceAudit": {
@@ -122,14 +122,14 @@
     "type": "persisted-publisher-mapping-reference-audit",
     "classificationRecordCount": 2900,
     "activeScopeQuestionCount": 1864,
-    "publisherMappedQuestionCount": 151,
-    "questionMappingReferenceCount": 151,
+    "publisherMappedQuestionCount": 156,
+    "questionMappingReferenceCount": 156,
     "centralMappingCount": 21,
     "inferenceMapCount": 21,
     "unresolvedCentralMappingReferences": 0,
     "sourceFieldMismatches": 0,
     "missingRequiredClassificationFields": 0,
-    "notes": "六個分類分片重新解析；題目級映射與textbook-alignment.json／question-classification-inference.js的mappingId、publisher、sourceUrl、sourceTitle、verifiedAt、verificationStatus、年級、科目與學期一致。"
+    "notes": "六個持久分類分片逐筆檢查；題目級映射均可解析至textbook-alignment.json與question-classification-inference.js，publisher、sourceUrl、sourceTitle、verifiedAt、verificationStatus、mappingLevel、年級、科目與學期一致。"
   },
   "lastFilterDataAudit": {
     "auditedAt": "2026-11-14",
@@ -140,11 +140,12 @@
       "subject",
       "semester",
       "examPeriod",
-      "publisher"
+      "publisher",
+      "courseTrack（僅高二數學）"
     ],
-    "combinationsTested": 16200,
-    "nonEmptyCombinations": 816,
-    "zeroResultCombinations": 15384,
+    "combinationsTested": 3150,
+    "nonEmptyCombinations": 232,
+    "zeroResultCombinations": 2918,
     "publisherMappingLeaks": 0,
     "zeroResultHintPresent": true,
     "browserOrMobileRuntimeTested": false,
@@ -155,10 +156,10 @@
       "高二": 974
     },
     "activeScopeSemesterDistribution": {
-      "unassigned": 1350,
-      "上學期": 315,
+      "unassigned": 1345,
+      "上學期": 318,
       "全學年": 74,
-      "下學期": 125
+      "下學期": 127
     },
     "activeScopeExamPeriodDistribution": {
       "unassigned": 1633,
@@ -167,11 +168,11 @@
       "第二次段考": 71
     },
     "activeScopePublisherStatus": {
-      "curriculum-core": 1707,
+      "curriculum-core": 1702,
       "pending": 6,
-      "publisher-mapped": 151
+      "publisher-mapped": 156
     },
-    "notes": "以六個持久分類分片按APP篩選維度做資料層笛卡兒積模擬；全部版本／共同核心／待核對與指定出版社篩選均可得到一致結果。這是靜態資料驗收，未進行瀏覽器或手機實機操作。"
+    "notes": "依目前index.html實際提供的六年級／高二、科目、學期、段考、出版社選項逐組進行靜態資料篩選模擬；高二數學另測數學A/B、未標示與全部軌別。全部版本預設題池可讀取1,864題；出版社映射與題目年級／科目／學期一致。未執行瀏覽器或手機實機操作。"
   },
   "lastRawTagAudit": {
     "date": "2026-11-14",
@@ -184,21 +185,29 @@
   },
   "lastRunAudit": {
     "date": "2026-11-14",
-    "type": "knsh-g6-social-6a-4-3-sustainable-cities",
+    "type": "knsh-g6-social-6a-4-3-and-6b-2-1-persisted-classification",
+    "sourceHead": "5ee59db1011ee944d788e0bc546dbf1d19642661",
     "fullCorpusQuestionCount": 2900,
     "activeScopeQuestionCount": 1864,
-    "questionRecordsUpdated": 10,
-    "officialResourceMappingId": "knsh-g6-social-6a-u4-3-sustainable-cities",
+    "questionRecordsUpdated": 5,
+    "officialResourceMappingIds": [
+      "knsh-g6-social-6a-u4-3-sustainable-cities",
+      "knsh-g6-social-6b-u2-1-sdgs-community"
+    ],
+    "recordsByMapping": {
+      "knsh-g6-social-6a-u4-3-sustainable-cities": 3,
+      "knsh-g6-social-6b-u2-1-sdgs-community": 2
+    },
     "publisher": "knsh",
     "publisherMappingLevel": "official-resource-title",
-    "semesterAssigned": 10,
+    "semesterAssigned": 5,
     "examPeriodAssigned": 0,
     "newQuestionsAdded": 0,
     "fullCorpusSemesterDistribution": {
-      "unassigned": 2386,
-      "上學期": 315,
+      "unassigned": 2381,
+      "上學期": 318,
       "全學年": 74,
-      "下學期": 125
+      "下學期": 127
     },
     "fullCorpusExamPeriodDistribution": {
       "unassigned": 2669,
@@ -207,20 +216,20 @@
       "第二次段考": 71
     },
     "fullCorpusClassificationBasisDistribution": {
-      "curriculum-core": 2386,
+      "curriculum-core": 2381,
       "question-bank-inference": 442,
-      "publisher-source-verified": 72
+      "publisher-source-verified": 77
     },
     "fullCorpusPublisherStatusDistribution": {
-      "curriculum-core": 2743,
+      "curriculum-core": 2738,
       "pending": 6,
-      "publisher-mapped": 151
+      "publisher-mapped": 156
     },
     "activeScopeSemesterDistribution": {
-      "unassigned": 1350,
-      "上學期": 315,
+      "unassigned": 1345,
+      "上學期": 318,
       "全學年": 74,
-      "下學期": 125
+      "下學期": 127
     },
     "activeScopeExamPeriodDistribution": {
       "unassigned": 1633,
@@ -229,11 +238,11 @@
       "第二次段考": 71
     },
     "activeScopePublisherStatus": {
-      "curriculum-core": 1707,
+      "curriculum-core": 1702,
       "pending": 6,
-      "publisher-mapped": 151
+      "publisher-mapped": 156
     },
-    "notes": "官方來源核對康軒社會6上4-3；只將直接對應人口移動、公共服務／交通網絡、文化資產保存的10題標記。段考不推定，未新增題目。"
+    "notes": "官方來源核對康軒社會6上4-3及6下2-1：三題文化資產保存／地方參與對應6上4-3；兩題居民參與地方公共建設決策對應6下2-1。6下2-1只支持公共參與與公共建設情境，不宣稱完整參與式預算程序。段考均保留unassigned；未確認學校採用版本；未作教師審核；無新增題目。另移除「地方自治」過寬別名，避免b39-042中央與地方政府職權題被錯誤映射。"
   },
   "lastBatchClassificationReconciliation": {
     "date": "2026-11-14",
