@@ -642,8 +642,8 @@
       "sourceTitle": "南一資源_內文－數學6下｜怎樣解題：雞兔問題",
       "verifiedAt": "2026-11-14",
       "verificationStatus": "source-checked",
-      "notes": "2026-11-14重新開啟南一資源官方頁，標題明示「數學6下｜怎樣解題：雞兔問題」，內容標示雞兔同籠。保留為官方資源標題層級，不宣稱完整課本目次或學校採用版本，也不代表正式段考範圍。",
-      "learningContent": "南一官方詳情頁明示數學6下、國小數學6年級及雞兔問題教學資源；僅作官方資源標題層級對照，不代表完整教科書目次或學校採用版本。",
+      "notes": "2026-11-14重新開啟南一官方詳情頁：https://tpack.nani.com.tw/nani_content?a=394&b=1。頁面標題明示「數學6下｜怎樣解題：雞兔問題」，內容介紹為「雞兔同籠」，並標示國小、數學、6年級。僅限直接雞兔題的官方資源標題層級對照；不等同完整課本目次、不代表學校採用版本或正式段考範圍。",
+      "learningContent": "南一官方詳情頁明示數學6下、國小數學6年級及雞兔同籠教學資源；僅作官方資源標題層級對照，不代表完整教科書目次或學校採用版本。",
       "targetUrl": "https://tpack.nani.com.tw/nani_content?a=394&b=1",
       "unitAliases": [
         "雞兔問題",
@@ -1935,7 +1935,7 @@
   },
   "latestMainClassificationAudit": {
     "auditedAt": "2026-11-14",
-    "sourceHeadBeforeRun": "82b97e6a9180f858a20f97a3456eb9f194fb3e24",
+    "sourceHeadBeforeRun": "ac27ec28598499a02691f62ff3fff4b5fd817512",
     "batchRange": "08-41",
     "batchFileCount": 34,
     "questionCount": 2900,
@@ -1969,15 +1969,15 @@
       ]
     },
     "classificationBasisDistribution": {
-      "publisher-source-verified": 44,
+      "publisher-source-verified": 74,
       "question-bank-inference": 442,
-      "curriculum-core": 2414
+      "curriculum-core": 2384
     },
     "semesterDistribution": {
-      "上學期": 305,
-      "下學期": 107,
+      "上學期": 318,
+      "下學期": 124,
       "全學年": 74,
-      "unassigned": 2414
+      "unassigned": 2384
     },
     "examPeriodDistribution": {
       "第一次段考": 66,
@@ -1986,29 +1986,28 @@
       "unassigned": 2669
     },
     "publisherStatusDistribution": {
-      "publisher-mapped": 123,
-      "curriculum-core": 2771,
+      "publisher-mapped": 153,
+      "curriculum-core": 2741,
       "pending": 6
     },
-    "publisherMappedQuestionCount": 123,
-    "publisherMappingReferenceCount": 123,
-    "centralMappingRegistryCount": 19,
+    "publisherMappedQuestionCount": 153,
+    "publisherMappingReferenceCount": 153,
+    "centralMappingRegistryCount": 21,
     "publisherReferenceCounts": {
       "hanlin": 79,
-      "knsh": 9,
-      "nani": 35
+      "knsh": 42,
+      "nani": 32
     },
     "mappingVerificationStatusCounts": {
-      "source-checked": 115,
-      "official-index-link-only": 8
+      "source-checked": 153
     },
     "mappingLevelCounts": {
       "unit": 107,
-      "official-resource-title": 16
+      "official-resource-title": 46
     },
     "confidenceDistribution": {
-      "low": 2445,
-      "medium": 427,
+      "low": 2422,
+      "medium": 450,
       "high": 28
     },
     "pendingQuestionCount": 6,
@@ -2020,32 +2019,17 @@
       "b23-074",
       "b37-069"
     ],
-    "mappingSourceFieldsComplete": "123/123",
+    "mappingSourceFieldsComplete": "153/153",
     "sourceFieldErrors": 0,
     "sourceBatchShasMatch": "34/34",
     "rawStoredFieldComparison": {
       "questionsCompared": 2900,
-      "expectedInferenceOverrides": 12,
-      "expectedInferenceOverrideIds": [
-        "b15-019",
-        "b18-019",
-        "b26-028",
-        "b28-028",
-        "b30-020",
-        "b34-022",
-        "b34-027",
-        "b34-030",
-        "b35-029",
-        "b37-027",
-        "b38-030",
-        "b39-030"
-      ],
       "rawAssignedSemesterOrExamValuesMissingFromClassification": 0,
-      "notes": "12筆皆為國小六年級數學：原始批次semester與examPeriod為unassigned，但持久分類索引依單元群推定已填學期／段考；屬question-bank-inference，不是原始欄位遺失或官方／教師確認。所有原始題庫已有的非unassigned semester與examPeriod均已在分類索引保留。"
+      "notes": "本輪只修正分類索引中的3筆過寬出版社映射，未修改原始題庫；來源批次SHA與分類分片仍須在本輪驗收重核。"
     },
     "newQuestionsAdded": 0,
     "browserTested": false,
-    "notes": "本輪重讀main第8至41批34個原始題庫及六個分類分片。原始批次SHA與分片sourceBatchShas相符34/34；原始題庫與分類索引逐批比對學期／段考欄位，沒有原始已填值被分類索引漏掉。另有12筆是分類索引依題庫單元推定、原始題庫仍為unassigned的合法推定。重新核對南一社會6下單元2兩個官方教學資源頁，新增1筆中央教材參考，但目前沒有題目級映射。沒有新增題目；本輪未重新執行完整篩選笛卡兒積或手機瀏覽器測試。"
+    "notes": "全庫2,900題持久分類欄位完整；本輪依南一官方雞兔同籠詳情頁，保留5筆直接題、撤回3筆類比情境映射。"
   },
   "classificationPersistenceRuns": [
     {
@@ -3885,14 +3869,127 @@
   },
   "lastRunAudit": {
     "date": "2026-11-14",
-    "type": "knsh-g6-social-6a-4-3-sustainable-cities",
-    "mappingId": "knsh-g6-social-6a-u4-3-sustainable-cities",
-    "questionRecordsUpdated": 10,
-    "semester": "上學期",
-    "examPeriod": "unassigned",
-    "publisher": "knsh",
+    "type": "nani-g6-math-6b-chicken-rabbit-scope-correction",
+    "sourceHead": "ac27ec28598499a02691f62ff3fff4b5fd817512",
+    "fullCorpusQuestionCount": 2900,
+    "activeScopeQuestionCount": 1864,
+    "questionRecordsUpdated": 8,
+    "retainedPublisherMappedQuestionIds": [
+      "b36-021",
+      "b37-023",
+      "b40-023",
+      "b40-024",
+      "b41-020"
+    ],
+    "removedPublisherMappingQuestionIds": [
+      "b37-024",
+      "b41-021",
+      "b41-022"
+    ],
+    "publisher": "nani",
+    "mappingId": "nani-g6-math-6b-chicken-rabbit",
+    "publisherMappingLevel": "official-resource-title",
+    "sourceUrl": "https://tpack.nani.com.tw/nani_content?a=394&b=1",
+    "verificationStatus": "source-checked",
+    "semesterAssigned": 0,
+    "semesterRevertedToUnassigned": 3,
+    "examPeriodAssigned": 0,
+    "newQuestionsAdded": 0,
+    "fullCorpusSemesterDistribution": {
+      "unassigned": 2384,
+      "上學期": 318,
+      "下學期": 124,
+      "全學年": 74
+    },
+    "fullCorpusExamPeriodDistribution": {
+      "unassigned": 2669,
+      "第三次段考": 94,
+      "第一次段考": 66,
+      "第二次段考": 71
+    },
+    "fullCorpusClassificationBasisDistribution": {
+      "curriculum-core": 2384,
+      "question-bank-inference": 442,
+      "publisher-source-verified": 74
+    },
+    "fullCorpusPublisherStatusDistribution": {
+      "curriculum-core": 2741,
+      "pending": 6,
+      "publisher-mapped": 153
+    },
+    "activeScopeSemesterDistribution": {
+      "unassigned": 1348,
+      "上學期": 318,
+      "下學期": 124,
+      "全學年": 74
+    },
+    "activeScopeExamPeriodDistribution": {
+      "unassigned": 1633,
+      "第三次段考": 94,
+      "第一次段考": 66,
+      "第二次段考": 71
+    },
+    "activeScopePublisherStatus": {
+      "curriculum-core": 1705,
+      "pending": 6,
+      "publisher-mapped": 153
+    },
+    "notes": "南一官方詳情頁明示雞兔同籠；5筆直接雞兔題保留官方資源標題層級映射。3筆汽車／機車與三腳椅／四腳桌類比題撤回出版社標籤，分類改為共同核心、單元正規化為頭數與腳數問題（假設法），semester/examPeriod unassigned。未修改原始題庫，不新增題目，不宣稱教師審核或學校採用版本。"
+  },
+  "latestMappingScopeCorrection": {
+    "date": "2026-11-14",
+    "type": "nani-g6-math-6b-chicken-rabbit-scope-correction",
+    "mappingId": "nani-g6-math-6b-chicken-rabbit",
+    "sourceUrl": "https://tpack.nani.com.tw/nani_content?a=394&b=1",
+    "sourceTitle": "南一資源_內文－數學6下｜怎樣解題：雞兔問題",
+    "verifiedAt": "2026-11-14",
+    "verificationStatus": "source-checked",
     "mappingLevel": "official-resource-title",
-    "sourceUrl": "https://sdgs.knsh.com.tw/campus/SDGS_FILE_E/%E7%A4%BE%E6%9C%83%E5%85%AD%E4%B8%8ACH4L3%E9%83%BD%E5%B8%82%E8%88%87%E9%84%89%E6%9D%91%E7%82%BA%E4%BB%80%E9%BA%BC%E9%9C%80%E8%A6%81%E9%82%81%E5%90%91%E6%B0%B8%E7%BA%8C%E7%99%BC%E5%B1%95_%E6%95%99%E5%AD%B8%E8%B3%87%E6%BA%90.pdf",
-    "notes": "新增10筆六年級社會題目之康軒官方6上4-3教學資源對照；不宣稱完整課本目次、學校採用版本或正式段考範圍。"
+    "retainedQuestionIds": [
+      "b36-021",
+      "b37-023",
+      "b40-023",
+      "b40-024",
+      "b41-020"
+    ],
+    "removedQuestionIds": [
+      "b37-024",
+      "b41-021",
+      "b41-022"
+    ],
+    "questionRecordsUpdated": 8,
+    "publisherMappedQuestionCount": 153,
+    "publisherMappingReferenceCount": 153,
+    "notes": "詳情頁明示雞兔同籠，僅保留題幹直接涉及雞／兔的5題；3題汽車／機車與三腳椅／四腳桌雖沿用原始unit/t標籤「雞兔問題」，但官方資源沒有支持這些情境，撤回出版社映射、學期改回unassigned並正規化分類單元。段考仍全部unassigned。"
+  },
+  "lastMappingReferenceAudit": {
+    "date": "2026-11-14",
+    "type": "persisted-publisher-mapping-reference-audit-after-scope-correction",
+    "classificationRecordCount": 2900,
+    "activeScopeQuestionCount": 1864,
+    "publisherMappedQuestionCount": 153,
+    "questionMappingReferenceCount": 153,
+    "centralMappingCount": 21,
+    "inferenceMapCount": 21,
+    "unresolvedCentralMappingReferences": 0,
+    "sourceFieldMismatches": 0,
+    "missingRequiredClassificationFields": 0,
+    "publisherReferenceCounts": {
+      "hanlin": 79,
+      "knsh": 42,
+      "nani": 32
+    },
+    "mappingLevelCounts": {
+      "unit": 107,
+      "official-resource-title": 46
+    },
+    "verificationStatusCounts": {
+      "source-checked": 153
+    },
+    "notes": "保留5筆直接雞兔同籠題；移除3筆只在原始標籤相同、但題幹為車輛或桌椅情境的類比題。"
+  },
+  "lastFilterDataAudit": {
+    "mappingScopeCorrectionRecheck": "pending",
+    "notes": " 本輪移除3筆Nani出版社映射；需重新執行篩選資料層組合驗收。"
   }
 }
