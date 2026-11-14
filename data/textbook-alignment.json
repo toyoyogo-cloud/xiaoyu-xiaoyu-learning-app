@@ -4682,7 +4682,12 @@
     "notes": "新增六年級自然水循環、熱傳導／保溫與天氣資料判讀的持久單元映射；段考一律維持unassigned。教育雲來源明列教材對照，但不是出版社商品頁或學校採用證明。",
     "classificationRuleVersion": "2026-11-15.51",
     "inferenceSyntaxValid": true,
-    "persistedClassificationAuthoritative": true
+    "persistedClassificationAuthoritative": true,
+    "runtimeClassificationRecordsTested": 2900,
+    "runtimeMappingReferencesAccepted": 187,
+    "runtimeMappingReferencesRejected": 0,
+    "runtimeSemesterDifferences": 0,
+    "runtimeExamPeriodDifferences": 0
   },
   "latestMappingScopeCorrection": {
     "date": "2026-11-14",
@@ -4798,9 +4803,18 @@
     "inferenceSyntaxValid": true,
     "filterUsesPersistedClassificationIndex": true,
     "persistedClassificationAuthoritative": true,
-    "runtimeInferenceOnlyForUnpersistedQuestions": true
+    "runtimeInferenceOnlyForUnpersistedQuestions": true,
+    "runtimeClassificationRecordsTested": 2900,
+    "runtimeMissingClassificationRecords": 0,
+    "runtimeMappingReferencesExpected": 187,
+    "runtimeMappingReferencesAccepted": 187,
+    "runtimeMappingReferencesRejected": 0,
+    "runtimeExtraMappings": 0,
+    "runtimeSemesterDifferences": 0,
+    "runtimeExamPeriodDifferences": 0,
+    "runtimeInferenceOverridesPersistedRecords": 0
   },
-  "notes": " 2026-11-14：新增國立臺北教育大學六年級自然上學期單元四「電磁作用」課程參考，12題串聯／並聯電路僅回填上學期，不掛出版社、不填段考。 2026-11-15：依國立臺北教育大學雙語教學研究中心官方單元目錄，新增3題六年級自然電磁鐵／線圈題目的上學期課程核心分類；段考維持unassigned，不掛出版社。 2026-11-15：新增六年級自然「簡單機械」及「地質的變化」課程參考；7題依題庫知識點推定學期，沒有出版社官方單元來源，故不新增出版社映射。 分類器載入修復：補齊5筆既有MAPS物件鍵並移除重複CURRICULUM_REFERENCES宣告；JavaScript語法編譯通過，publisher filter仍僅依持久映射資料判斷。 推定器持久化保護：有分類索引紀錄的題目不再被執行時推定覆蓋；未分類值必須先寫回分類分片才會反映在篩選器。",
+  "notes": " 2026-11-14：新增國立臺北教育大學六年級自然上學期單元四「電磁作用」課程參考，12題串聯／並聯電路僅回填上學期，不掛出版社、不填段考。 2026-11-15：依國立臺北教育大學雙語教學研究中心官方單元目錄，新增3題六年級自然電磁鐵／線圈題目的上學期課程核心分類；段考維持unassigned，不掛出版社。 2026-11-15：新增六年級自然「簡單機械」及「地質的變化」課程參考；7題依題庫知識點推定學期，沒有出版社官方單元來源，故不新增出版社映射。 分類器載入修復：補齊5筆既有MAPS物件鍵並移除重複CURRICULUM_REFERENCES宣告；JavaScript語法編譯通過，publisher filter仍僅依持久映射資料判斷。 推定器持久化保護：有分類索引紀錄的題目不再被執行時推定覆蓋；未分類值必須先寫回分類分片才會反映在篩選器。 最終逐題執行分類器驗證：第8至41批2,900題均讀取持久分類索引，187筆出版社映射參照全部通過，學期／段考與持久資料差異0。",
   "latestCurriculumUnitClassificationAudit": {
     "date": "2026-11-15",
     "type": "g6-natural-simple-machines-geological-change-semester-backfill",

@@ -941,3 +941,10 @@ Repository → Settings → Pages → Build and deployment → Deploy from a bra
 - 修正 `questionClassificationFor`：若題目已有 `QUESTION_CLASSIFICATION_INDEX` 持久紀錄，即使 `semester` 或 `examPeriod` 為 `unassigned`，也不再由執行時推定器覆寫；只有尚無持久分類紀錄的舊題才允許暫時推定。
 - 後續分類必須先寫回分類分片，篩選器才會顯示更新結果；這避免畫面與持久資料統計不一致。
 - 分類器語法編譯通過，Service Worker 快取版更新為 `xy-learning-v125`。未執行瀏覽器／手機實機測試。
+
+
+## 2026-11-15｜全批次分類器逐題驗證
+
+- 修正持久分類優先後，逐題執行 `questionClassificationFor` 驗證第8至41批共 2,900 題：缺少分類紀錄 0；已保存的 187 筆出版社映射參照全部通過（拒絕 0、額外推定映射 0）；執行時學期與段考輸出相對持久索引差異均為 0。
+- 分類推定器 JavaScript 語法編譯通過；篩選器使用持久分類索引。資料層組合測試仍為 18,900 組，1,140 組有題、17,760 組合理零題，出版社映射洩漏 0，單元群測試 1,180 組錯誤 0。
+- 更新 Service Worker 快取版為 `xy-learning-v126`。仍未執行瀏覽器／手機實機測試。
