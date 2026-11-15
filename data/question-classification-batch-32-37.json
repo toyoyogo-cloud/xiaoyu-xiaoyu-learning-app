@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.1.0",
   "updatedAt": "2026-11-16",
-  "classificationRuleVersion": "2026-11-16.67",
+  "classificationRuleVersion": "2026-11-16.68",
   "batchRange": "32-37",
   "sourceBatchShas": {
     "32": "eb7423c09ecde4964d46c1ae588bd5e75e5ac239",
@@ -9747,10 +9747,35 @@
           "courseTrack": null,
           "schoolYear": "未標示",
           "courseType": "國小"
+        },
+        {
+          "publisher": "knsh",
+          "mappingId": "knsh-g6-math-6b-u4-base-comparison",
+          "sourceUrl": "https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
+          "sourceTitle": "翰林國小輔教行銷處－數學能力加強系列[6年級]抽印本，第50頁（三版本對照表）",
+          "verifiedAt": "2026-11-16",
+          "verificationStatus": "source-checked",
+          "notes": "第50頁「6年級版本對照表」列出單元6「兩量關係與比」：翰林版6上第6單元、康軒版6下第4單元、南一版6下第3單元。此映射以翰林官方部門發布的跨版本對照表為來源；不是康軒出版社自身課本詳情頁或學校採用證明。僅用於題幹直接涉及基準量／比較量的單元對照，不推定正式段考範圍。",
+          "mappingLevel": "unit",
+          "volume": "數學(6下)",
+          "unitCode": "4",
+          "unitName": "兩量關係與比（含基準量與比較量）",
+          "unitAliases": [
+            "基準量和比較量",
+            "基準量與比較量",
+            "兩量關係與比"
+          ],
+          "scopeKeywords": [],
+          "semester": "下學期",
+          "grade": "六年級",
+          "subject": "數學",
+          "courseTrack": null,
+          "schoolYear": "未標示",
+          "courseType": "國小"
         }
       ],
-      "classificationNotes": "南一官方6下資源明示「基準量和比較量」；另翰林國小輔教行銷處官方教材補充資料將此主題列於翰林6上第6單元。不同出版社學期安排不同；指定出版社時依該映射學期篩選，全部版本模式任一已核對版本符合即可。段考維持未分類。",
-      "sourceRef": "https://tpack.nani.com.tw/nani_content?a=341&b=1 | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/21/ | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/34/",
+      "classificationNotes": "南一官方6下資源明示「基準量和比較量」；另翰林國小輔教行銷處官方教材補充資料將此主題列於翰林6上第6單元。不同出版社學期安排不同；指定出版社時依該映射學期篩選，全部版本模式任一已核對版本符合即可。段考維持未分類。 另依翰林國小輔教行銷處第50頁三版本對照表，康軒版對應6下第4單元；此為翰林官方部門發布的跨版本對照，不是康軒出版社自身課本詳情頁或學校採用證明。不同出版社學期分開保存；段考仍未分類。",
+      "sourceRef": "https://tpack.nani.com.tw/nani_content?a=341&b=1 | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/21/ | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/34/ | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
       "learningDomain": "數與運算",
       "questionType": "計算應用",
       "learningUnit": "基準量和比較量",
@@ -12385,10 +12410,35 @@
           "courseTrack": null,
           "schoolYear": "未標示",
           "courseType": "國小"
+        },
+        {
+          "publisher": "knsh",
+          "mappingId": "knsh-g6-math-6b-u4-base-comparison",
+          "sourceUrl": "https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
+          "sourceTitle": "翰林國小輔教行銷處－數學能力加強系列[6年級]抽印本，第50頁（三版本對照表）",
+          "verifiedAt": "2026-11-16",
+          "verificationStatus": "source-checked",
+          "notes": "第50頁「6年級版本對照表」列出單元6「兩量關係與比」：翰林版6上第6單元、康軒版6下第4單元、南一版6下第3單元。此映射以翰林官方部門發布的跨版本對照表為來源；不是康軒出版社自身課本詳情頁或學校採用證明。僅用於題幹直接涉及基準量／比較量的單元對照，不推定正式段考範圍。",
+          "mappingLevel": "unit",
+          "volume": "數學(6下)",
+          "unitCode": "4",
+          "unitName": "兩量關係與比（含基準量與比較量）",
+          "unitAliases": [
+            "基準量和比較量",
+            "基準量與比較量",
+            "兩量關係與比"
+          ],
+          "scopeKeywords": [],
+          "semester": "下學期",
+          "grade": "六年級",
+          "subject": "數學",
+          "courseTrack": null,
+          "schoolYear": "未標示",
+          "courseType": "國小"
         }
       ],
-      "classificationNotes": "南一官方6下資源明示「基準量和比較量」；另翰林國小輔教行銷處官方教材補充資料將此主題列於翰林6上第6單元。不同出版社學期安排不同；指定出版社時依該映射學期篩選，全部版本模式任一已核對版本符合即可。段考維持未分類。",
-      "sourceRef": "https://tpack.nani.com.tw/nani_content?a=341&b=1 | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/21/ | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/34/",
+      "classificationNotes": "南一官方6下資源明示「基準量和比較量」；另翰林國小輔教行銷處官方教材補充資料將此主題列於翰林6上第6單元。不同出版社學期安排不同；指定出版社時依該映射學期篩選，全部版本模式任一已核對版本符合即可。段考維持未分類。 另依翰林國小輔教行銷處第50頁三版本對照表，康軒版對應6下第4單元；此為翰林官方部門發布的跨版本對照，不是康軒出版社自身課本詳情頁或學校採用證明。不同出版社學期分開保存；段考仍未分類。",
+      "sourceRef": "https://tpack.nani.com.tw/nani_content?a=341&b=1 | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/21/ | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/34/ | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
       "learningDomain": "數與運算",
       "questionType": "計算應用",
       "learningUnit": "基準量和比較量",
@@ -12458,10 +12508,35 @@
           "courseTrack": null,
           "schoolYear": "未標示",
           "courseType": "國小"
+        },
+        {
+          "publisher": "knsh",
+          "mappingId": "knsh-g6-math-6b-u4-base-comparison",
+          "sourceUrl": "https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
+          "sourceTitle": "翰林國小輔教行銷處－數學能力加強系列[6年級]抽印本，第50頁（三版本對照表）",
+          "verifiedAt": "2026-11-16",
+          "verificationStatus": "source-checked",
+          "notes": "第50頁「6年級版本對照表」列出單元6「兩量關係與比」：翰林版6上第6單元、康軒版6下第4單元、南一版6下第3單元。此映射以翰林官方部門發布的跨版本對照表為來源；不是康軒出版社自身課本詳情頁或學校採用證明。僅用於題幹直接涉及基準量／比較量的單元對照，不推定正式段考範圍。",
+          "mappingLevel": "unit",
+          "volume": "數學(6下)",
+          "unitCode": "4",
+          "unitName": "兩量關係與比（含基準量與比較量）",
+          "unitAliases": [
+            "基準量和比較量",
+            "基準量與比較量",
+            "兩量關係與比"
+          ],
+          "scopeKeywords": [],
+          "semester": "下學期",
+          "grade": "六年級",
+          "subject": "數學",
+          "courseTrack": null,
+          "schoolYear": "未標示",
+          "courseType": "國小"
         }
       ],
-      "classificationNotes": "南一官方6下資源明示「基準量和比較量」；另翰林國小輔教行銷處官方教材補充資料將此主題列於翰林6上第6單元。不同出版社學期安排不同；指定出版社時依該映射學期篩選，全部版本模式任一已核對版本符合即可。段考維持未分類。",
-      "sourceRef": "https://tpack.nani.com.tw/nani_content?a=341&b=1 | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/21/ | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/34/",
+      "classificationNotes": "南一官方6下資源明示「基準量和比較量」；另翰林國小輔教行銷處官方教材補充資料將此主題列於翰林6上第6單元。不同出版社學期安排不同；指定出版社時依該映射學期篩選，全部版本模式任一已核對版本符合即可。段考維持未分類。 另依翰林國小輔教行銷處第50頁三版本對照表，康軒版對應6下第4單元；此為翰林官方部門發布的跨版本對照，不是康軒出版社自身課本詳情頁或學校採用證明。不同出版社學期分開保存；段考仍未分類。",
+      "sourceRef": "https://tpack.nani.com.tw/nani_content?a=341&b=1 | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/21/ | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/34/ | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
       "learningDomain": "數與運算",
       "questionType": "計算應用",
       "learningUnit": "基準量和比較量",
