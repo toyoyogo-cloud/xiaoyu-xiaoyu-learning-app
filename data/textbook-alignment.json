@@ -1157,9 +1157,42 @@
         "機械化生產",
         "工業化與都市化"
       ]
+    },
+    {
+      "id": "hanlin-h2-history-3-u5-western-world1-imperialism",
+      "mappingId": "hanlin-h2-history-3-u5-western-world1-imperialism",
+      "schoolYear": "未標示",
+      "stage": "高中",
+      "grade": "高二",
+      "subject": "歷史",
+      "semester": "上學期",
+      "publisher": "hanlin",
+      "volume": "高中歷史(3)",
+      "unitCode": "5",
+      "unitName": "西方與世界1－19世紀西方霸權與世界互動",
+      "learningContent": "19世紀西方霸權、海外殖民擴張、原料與商品市場、戰略據點及全球互動",
+      "sourceType": "publisher-authored-companion-assessment-toc",
+      "sourceUrl": "https://fliphtml5.com/cojaq/nrjy/%E9%AB%98%E4%B8%AD%E8%A9%A6%E9%A1%8C%E6%8C%96%E6%8C%96%E5%93%87-%E6%AD%B7%E5%8F%B2%283%29/3/",
+      "sourceTitle": "翰林高中參考書－《試題挖挖哇：歷史(3)》第3頁目次",
+      "verifiedAt": "2026-11-15",
+      "verificationStatus": "source-checked",
+      "notes": "依翰林高中參考書官方帳號刊載《試題挖挖哇－歷史(3)》第3頁目次，第5單元「西方與世界1」明列「19世紀西方霸權與世界的互動」；翰林書城官方課本頁另明示高中二年級、歷史(3)、上學期。題目直接涉及十九世紀列強海外擴張、殖民地、原料、商品市場或戰略據點，故僅建立翰林歷史(3)單元層級映射並標記上學期，confidence=medium。目次來自翰林出版社參考書配套評量本，並非主課本完整目次；不代表學校實際採用版本。沒有正式段考範圍證據，examPeriod維持unassigned；未將此映射擴張至南一或康軒。",
+      "courseType": "未確認",
+      "courseTrack": null,
+      "mappingLevel": "unit",
+      "unitAliases": [
+        "帝國主義與資源控制",
+        "帝國主義與全球經濟",
+        "19世紀列強海外擴張",
+        "十九世紀列強海外擴張",
+        "殖民地、原料與市場",
+        "海外殖民擴張",
+        "西方霸權與世界互動",
+        "西方與世界1"
+      ]
     }
   ],
-  "mappingStatus": "partial-source-verified-34-mappings",
+  "mappingStatus": "partial-source-verified-35-mappings",
   "nextSteps": [
     "高二歷史「工業革命與社會變遷」3題已依翰林歷史(3)單元3目次與官方課本頁建立單元層級映射及上學期分類；段考仍未分類，其他出版社版本與學校採用版本不推定。",
     "小六與高二既有題目由分類推定器依題幹、單元及知識點分類；低信心或無法核對者維持未分類。",
@@ -1646,6 +1679,26 @@
       "verifiedAt": "2026-11-15",
       "verificationStatus": "source-checked",
       "notes": "官方課本頁明示科目歷史、年級高中二年級、學期上學期及課本習作類別；頁面未列主課本細分目次，僅作年級／科目／學期冊別佐證。"
+    },
+    {
+      "id": "hanlin-h2-history-3-u5-western-world1-toc",
+      "publisher": "hanlin",
+      "sourceType": "publisher-authored-companion-assessment-toc",
+      "sourceUrl": "https://fliphtml5.com/cojaq/nrjy/%E9%AB%98%E4%B8%AD%E8%A9%A6%E9%A1%8C%E6%8C%96%E6%8C%96%E5%93%87-%E6%AD%B7%E5%8F%B2%283%29/3/",
+      "sourceTitle": "翰林高中參考書－《試題挖挖哇：歷史(3)》第3頁目次",
+      "verifiedAt": "2026-11-15",
+      "verificationStatus": "source-checked",
+      "notes": "翰林高中參考書官方帳號刊載之歷史(3)第3頁目次；第5單元「西方與世界1」明列19世紀西方霸權與世界互動。"
+    },
+    {
+      "id": "hanlin-h2-history-3-course-page",
+      "publisher": "hanlin",
+      "sourceType": "official-publisher",
+      "sourceUrl": "https://books.hanlin.com.tw/product/008021",
+      "sourceTitle": "翰林書城－高中課本－歷史(3)",
+      "verifiedAt": "2026-11-15",
+      "verificationStatus": "source-checked",
+      "notes": "官方商品頁明示科目歷史、高中二年級、上學期及歷史(3)課本；未列完整細分目次，僅作年級／冊別／學期交叉核對。"
     }
   ],
   "classificationAudit": {
@@ -1772,7 +1825,7 @@
       "note": "段考未指定；出版社映射僅含1題翰林數學3A單元對照與2題翰林化學(I)冊別層級對照。"
     }
   },
-  "mappingCount": 34,
+  "mappingCount": 35,
   "auditNotes": "每筆映射均保留 publisher、mappingId、sourceUrl、sourceTitle、verifiedAt、verificationStatus、notes。,mappingLevel 區分 unit、title-topic、volume；冊別／冊名層級不代表細分單元已核對。,數學3A映射限定 courseTrack=數學A；未確認數學A/B者不得套用。,出版社來源只證明教材冊別／單元對照，不代表學校採用該版本。,翰林選修化學(II)官方課本頁明示高二上學期，已由下學期更正為上學期。,2026-11-13 main 全庫盤點：第8至36批共2,400題、2,400個唯一ID；第8至29批1,700題沒有內嵌出版社／學期分類欄位，改由 question-classification-inference.js 依可辨識知識點動態推定，無證據者保留unassigned/pending；第30至36批700題有分類欄位，出版社映射引用119筆，對照16筆中央映射後未發現年級、科目、學期或課程軌別不符。第30批有91題未儲存classificationNotes，執行時由分類器以sourceRef／預設理由補出說明。此為結構與來源欄位稽核，不表示每題都已取得出版社對照。,化學(II)冊別層級校正：以翰林課本商品頁005022為準，確認高二上學期；不同商品編號的習作或實驗手冊學期不可混用。,第37批新增30題來源映射均以中央mappingId連結；執行時分類器回歸測試確認100題的semester、examPeriod、classificationBasis、publisherStatus及publisherMappings均與批次檔儲存欄位一致。,第37批已透過PR #1合併至main，merge commit 0b76d6e99d66502f39f6e9c32ad8032bbcc47494；main已包含第37批及本次全庫來源稽核。,2026-11-13來源狀態細化：南一平台「數學6下｜怎樣解題：雞兔問題」詳情頁請求逾時，僅能由南一官方資源頁的熱門文章連結標題確認主題與年級／科目／學期；映射降為official-resource-title與official-index-link-only，不宣稱南一課本單元或原題。,雞兔問題mapping的sourceUrl改指向可讀取的南一官方索引頁a=341，另保留targetUrl=a=394作為連結目標；verificationStatus仍為official-index-link-only。,第37批30筆題目映射中，28筆為可直接讀取來源核對，2筆雞兔問題映射僅由南一官方索引頁標題確認（official-index-link-only）；中央16筆映射中15筆source-checked、1筆official-index-link-only。,第41批新增100題（小六50、高二50）；35筆來源映射引用全部指向中央16筆已核對mappingId，逐筆核對publisher、sourceUrl、sourceTitle、verifiedAt、verificationStatus、notes、年級、科目、學期、軌別及單元／冊別範圍，35/35通過。未新增中央映射紀錄。,第41批映射層級：單元23、冊別9、官方資源標題3；出版社引用翰林27、南一6、康軒2。冊別與官方資源標題層級不冒稱完整課本目次。 2026-11-13 main全庫盤點：第8至41批2,900題；338筆出版社映射引用與16筆中央映射一致，錯誤0。原始分類欄位2,900/2,900完整；擴充分類欄位已持久保存399題，尚待補齊2,501題。\n2026-11-14康軒社會六上4-3來源核對：官方教學資源明示都市與鄉村永續發展、人口移動、公共服務／交通網絡、災害風險管理、社區參與及文化資產保存；新增10筆直接對應題目級映射，層級為official-resource-title，段考保留unassigned。",
   "lastAudit": {
     "verifiedAt": "2026-11-14",
@@ -2451,27 +2504,27 @@
     "pullRequestUrl": "https://github.com/toyoyogo-cloud/xiaoyu-xiaoyu-learning-app/pull/6"
   },
   "mappingVerificationStatusCountsBatches08to41": {
-    "source-checked": 212
+    "source-checked": 214
   },
   "mappingLevelCountsBatches08to41": {
-    "unit": 166,
+    "unit": 168,
     "official-resource-title": 46
   },
   "publisherReferenceCountsBatches08to41": {
     "nani": 51,
-    "hanlin": 93,
+    "hanlin": 95,
     "knsh": 68
   },
   "mappingVerificationStatusCountsBatches30to41": {
-    "source-checked": 198
+    "source-checked": 200
   },
   "mappingLevelCountsBatches30to41": {
-    "unit": 155,
+    "unit": 157,
     "official-resource-title": 43
   },
   "publisherReferenceCountsBatches30to41": {
     "nani": 48,
-    "hanlin": 90,
+    "hanlin": 92,
     "knsh": 60
   },
   "postBatch41Audit": {
@@ -2520,7 +2573,7 @@
   },
   "latestMainClassificationAudit": {
     "auditedAt": "2026-11-15",
-    "sourceHeadBeforeRun": "9ff128291e47afe8fe6625fb92cf296cf03cc3ad",
+    "sourceHeadBeforeRun": "add61024c0ea4299ba1ab37ed5ee530ecfc38b0e",
     "batchRange": "08-41",
     "batchFileCount": 34,
     "questionCount": 2900,
@@ -2528,13 +2581,6 @@
     "duplicateQuestionIds": 0,
     "missingClassificationIds": 0,
     "extraClassificationIds": 0,
-    "gradeDistribution": {
-      "國小|五年級": 290,
-      "國小|六年級": 890,
-      "高中|高一": 373,
-      "高中|高二": 974,
-      "高中|高三": 373
-    },
     "storedClassificationFields": {
       "complete": 2900,
       "missing": 0,
@@ -2554,49 +2600,50 @@
       ]
     },
     "classificationBasisDistribution": {
-      "curriculum-core": 2327,
+      "curriculum-core": 2325,
       "question-bank-inference": 470,
-      "publisher-source-verified": 103
+      "publisher-source-verified": 105,
+      "unassigned": 0
     },
     "semesterDistribution": {
-      "unassigned": 2312,
-      "上學期": 379,
-      "全學年": 74,
-      "下學期": 135
+      "unassigned": 2310,
+      "上學期": 381,
+      "下學期": 135,
+      "全學年": 74
     },
     "examPeriodDistribution": {
       "unassigned": 2669,
-      "第三次段考": 94,
       "第一次段考": 66,
-      "第二次段考": 71
+      "第二次段考": 71,
+      "第三次段考": 94
     },
     "publisherStatusDistribution": {
-      "curriculum-core": 2712,
+      "curriculum-core": 2710,
       "pending": 6,
-      "publisher-mapped": 182
+      "publisher-mapped": 184
     },
-    "publisherMappedQuestionCount": 182,
-    "publisherMappingReferenceCount": 212,
-    "centralMappingRegistryCount": 34,
+    "publisherMappedQuestionCount": 184,
+    "publisherMappingReferenceCount": 214,
+    "centralMappingRegistryCount": 35,
     "publisherReferenceCounts": {
       "nani": 51,
-      "hanlin": 93,
+      "hanlin": 95,
       "knsh": 68
     },
     "mappingVerificationStatusCounts": {
-      "source-checked": 212
+      "source-checked": 214
     },
     "mappingLevelCounts": {
-      "unit": 166,
+      "unit": 168,
       "official-resource-title": 46
     },
     "confidenceDistribution": {
-      "low": 2363,
-      "medium": 509,
+      "low": 2361,
+      "medium": 511,
       "high": 28
     },
     "pendingQuestionCount": 6,
-    "mappingSourceFieldsComplete": "212/212",
+    "mappingSourceFieldsComplete": "214/214",
     "sourceFieldErrors": 0,
     "sourceBatchShasMatch": "34/34",
     "newQuestionsAdded": 0,
@@ -2609,29 +2656,27 @@
     "filterSimulationPassed": true,
     "filterSimulation": {
       "activeQuestions": 1864,
-      "incrementalCombinationsTested": 194400,
-      "incrementalNonzeroCombinations": 1792,
-      "incrementalZeroResultCombinations": 192608,
+      "incrementalCombinationsTested": 768,
+      "nonzeroResultCombinations": 64,
+      "zeroResultCombinations": 704,
       "allUpdatedQuestionsReachable": true,
       "publisherFilterLeaks": 0,
       "browserTested": false
     },
     "mappingConsistencyErrors": 0,
-    "filterCombinationsTested": 194400,
+    "filterCombinationsTested": 768,
     "incrementalMappingCheck": {
       "questionIds": [
-        "b38-090",
-        "b40-088",
-        "b41-090"
+        "b39-091",
+        "b41-092"
       ],
-      "matched": 3,
+      "matched": 2,
       "expectedPublisher": "hanlin",
       "expectedSemester": "上學期",
       "examPeriod": "unassigned",
       "mappingLevel": "unit",
       "mappingLeaks": 0,
-      "sourceFieldsComplete": "3/3",
-      "browserTested": false
+      "sourceFieldsComplete": "2/2"
     }
   },
   "classificationPersistenceRuns": [
@@ -3771,6 +3816,82 @@
         "browserTested": false
       },
       "notes": "依翰林高中參考書官方帳號刊載《試題挖挖哇－歷史(3)》第3頁目次，單元3「個人、自由、理性2」明列「工業革命與社會思潮」；翰林書城官方課本頁另明示高中二年級、歷史(3)、上學期。題目單元與題幹直接涉及工業革命、工廠制度、機械化生產及都市化，故標記翰林歷史(3)單元層級、上學期、confidence=medium。目次來自翰林出版社參考書配套評量本，並非主課本完整目次；不代表學校實際採用版本，也不推定段考範圍。"
+    },
+    {
+      "runId": "2026-11-15-hanlin-h2-history-western-imperialism-unit-backfill-01",
+      "date": "2026-11-15",
+      "sourceHeadBeforeRun": "add61024c0ea4299ba1ab37ed5ee530ecfc38b0e",
+      "batches": "08-41",
+      "batchFileCount": 34,
+      "fullCorpusQuestionCount": 2900,
+      "activeScopeQuestionCount": 1864,
+      "questionRecordsUpdated": 2,
+      "updatedQuestionIds": [
+        "b39-091",
+        "b41-092"
+      ],
+      "semesterAssignments": {
+        "上學期": 2
+      },
+      "examPeriodAssignments": 0,
+      "publisherMappingsAdded": 2,
+      "centralMappingCount": 35,
+      "publisherMappingReferencesAdded": 2,
+      "publisherReferenceCounts": {
+        "nani": 51,
+        "hanlin": 95,
+        "knsh": 68
+      },
+      "newQuestionsAdded": 0,
+      "fullCorpusSemesterDistribution": {
+        "unassigned": 2310,
+        "上學期": 381,
+        "下學期": 135,
+        "全學年": 74
+      },
+      "fullCorpusExamPeriodDistribution": {
+        "unassigned": 2669,
+        "第一次段考": 66,
+        "第二次段考": 71,
+        "第三次段考": 94
+      },
+      "fullCorpusClassificationBasisDistribution": {
+        "curriculum-core": 2325,
+        "question-bank-inference": 470,
+        "publisher-source-verified": 105,
+        "unassigned": 0
+      },
+      "fullCorpusPublisherStatusDistribution": {
+        "curriculum-core": 2710,
+        "pending": 6,
+        "publisher-mapped": 184
+      },
+      "fullCorpusConfidenceDistribution": {
+        "low": 2361,
+        "medium": 511,
+        "high": 28
+      },
+      "sourceBatchShasMatched": "34/34",
+      "classificationRuleVersion": "2026-11-15.58",
+      "validation": {
+        "jsonParse": true,
+        "classificationRecords": 2900,
+        "uniqueIds": 2900,
+        "missingRequiredFields": 0,
+        "invalidClassificationValues": 0,
+        "mappingReferenceErrors": 0,
+        "sourceFieldErrors": 0,
+        "sourceBatchShasMatch": "34/34",
+        "appReadsPersistedClassificationIndex": true,
+        "incrementalQuestionsChecked": 2,
+        "incrementalMappingReferencesChecked": 2,
+        "publisherMappingLeaks": 0,
+        "filterErrors": 0,
+        "filterCombinationsTested": 768,
+        "allUpdatedQuestionsReachable": true,
+        "browserOrMobileRuntimeTested": false
+      },
+      "notes": "依翰林出版社配套評量本目次及官方課本頁，將兩題高二歷史帝國主義／十九世紀西方霸權題映射至歷史(3)上學期第5單元；不推定段考，不宣稱學校採用版本或教師審核。"
     }
   ],
   "batch30ExtendedMetadataAudit": {
@@ -5267,74 +5388,80 @@
     "notes": "重新開啟國北教大六年級自然單元目錄與兩筆教育部教育雲資源；只支持課程主題／學期推定，未新增出版社映射。"
   },
   "lastRunAudit": {
+    "runId": "2026-11-15-hanlin-h2-history-western-imperialism-unit-backfill-01",
     "date": "2026-11-15",
-    "runId": "2026-11-15-hanlin-h2-history-industrial-revolution-unit-backfill-01",
-    "sourceHeadBeforeRun": "9ff128291e47afe8fe6625fb92cf296cf03cc3ad",
+    "sourceHeadBeforeRun": "add61024c0ea4299ba1ab37ed5ee530ecfc38b0e",
     "batches": "08-41",
     "batchFileCount": 34,
     "fullCorpusQuestionCount": 2900,
     "activeScopeQuestionCount": 1864,
-    "questionRecordsUpdated": 3,
+    "questionRecordsUpdated": 2,
     "updatedQuestionIds": [
-      "b38-090",
-      "b40-088",
-      "b41-090"
+      "b39-091",
+      "b41-092"
     ],
-    "semesterAssigned": 3,
-    "examPeriodAssigned": 0,
-    "publisherMappingsAdded": 3,
-    "centralMappingCount": 34,
+    "semesterAssignments": {
+      "上學期": 2
+    },
+    "examPeriodAssignments": 0,
+    "publisherMappingsAdded": 2,
+    "centralMappingCount": 35,
+    "publisherMappingReferencesAdded": 2,
+    "publisherReferenceCounts": {
+      "nani": 51,
+      "hanlin": 95,
+      "knsh": 68
+    },
     "newQuestionsAdded": 0,
     "fullCorpusSemesterDistribution": {
-      "unassigned": 2312,
-      "上學期": 379,
-      "全學年": 74,
-      "下學期": 135
+      "unassigned": 2310,
+      "上學期": 381,
+      "下學期": 135,
+      "全學年": 74
     },
     "fullCorpusExamPeriodDistribution": {
       "unassigned": 2669,
-      "第三次段考": 94,
       "第一次段考": 66,
-      "第二次段考": 71
+      "第二次段考": 71,
+      "第三次段考": 94
     },
     "fullCorpusClassificationBasisDistribution": {
-      "curriculum-core": 2327,
+      "curriculum-core": 2325,
       "question-bank-inference": 470,
-      "publisher-source-verified": 103
+      "publisher-source-verified": 105,
+      "unassigned": 0
     },
     "fullCorpusPublisherStatusDistribution": {
-      "curriculum-core": 2712,
+      "curriculum-core": 2710,
       "pending": 6,
-      "publisher-mapped": 182
+      "publisher-mapped": 184
     },
     "fullCorpusConfidenceDistribution": {
-      "low": 2363,
-      "medium": 509,
+      "low": 2361,
+      "medium": 511,
       "high": 28
     },
-    "publisherReferenceCounts": {
-      "nani": 51,
-      "hanlin": 93,
-      "knsh": 68
-    },
     "sourceBatchShasMatched": "34/34",
-    "classificationRuleVersion": "2026-11-15.57",
+    "classificationRuleVersion": "2026-11-15.58",
     "validation": {
       "jsonParse": true,
       "classificationRecords": 2900,
       "uniqueIds": 2900,
       "missingRequiredFields": 0,
-      "publisherMappingReferenceErrors": 0,
+      "invalidClassificationValues": 0,
+      "mappingReferenceErrors": 0,
       "sourceFieldErrors": 0,
-      "persistedClassificationAuthoritative": true,
-      "incrementalQuestionsChecked": 3,
-      "incrementalMappingReferencesChecked": 3,
+      "sourceBatchShasMatch": "34/34",
+      "appReadsPersistedClassificationIndex": true,
+      "incrementalQuestionsChecked": 2,
+      "incrementalMappingReferencesChecked": 2,
       "publisherMappingLeaks": 0,
       "filterErrors": 0,
-      "browserOrMobileRuntimeTested": false,
-      "fullCartesianFilterRerun": false
+      "filterCombinationsTested": 768,
+      "allUpdatedQuestionsReachable": true,
+      "browserOrMobileRuntimeTested": false
     },
-    "notes": "本輪持久分類3題高二歷史工業革命與社會變遷；翰林歷史(3)單元3目次與官方課本頁支持上學期及單元層級映射。段考未指定，未宣稱學校採用版本或教師審核。"
+    "notes": "依翰林出版社配套評量本目次及官方課本頁，將兩題高二歷史帝國主義／十九世紀西方霸權題映射至歷史(3)上學期第5單元；不推定段考，不宣稱學校採用版本或教師審核。"
   },
   "latestMappingScopeCorrection": {
     "date": "2026-11-14",
@@ -5364,31 +5491,32 @@
   },
   "lastMappingReferenceAudit": {
     "date": "2026-11-15",
-    "type": "g6-natural-water-weather-source-mapping-audit",
+    "type": "main-sharded-classification-cross-reference-audit",
     "classificationRecordCount": 2900,
-    "publisherMappedQuestionCount": 179,
-    "questionMappingReferenceCount": 209,
-    "centralMappingCount": 33,
+    "activeScopeQuestionCount": 1864,
+    "publisherMappedQuestionCount": 184,
+    "questionMappingReferenceCount": 214,
+    "centralMappingCount": 35,
     "unresolvedCentralMappingReferences": 0,
     "sourceFieldMismatches": 0,
     "missingRequiredClassificationFields": 0,
     "publisherReferenceCounts": {
       "nani": 51,
-      "hanlin": 90,
+      "hanlin": 95,
       "knsh": 68
     },
     "mappingLevelCounts": {
-      "unit": 163,
+      "unit": 168,
       "official-resource-title": 46
     },
     "verificationCounts": {
-      "source-checked": 209
+      "source-checked": 214
     },
-    "notes": "本輪新增4題10筆題目級映射；全部可解析至中央教材對照及推定器MAPS，年級／科目／學期／單元一致。"
+    "notes": "在既有212筆映射參照上新增2筆翰林歷史(3)第5單元映射；214筆來源參照均有完整來源欄位，中央教材映射35筆。"
   },
   "lastFilterDataAudit": {
     "auditedAt": "2026-11-15",
-    "type": "incremental-four-question-water-weather-mapping",
+    "type": "incremental-h2-history-imperialism-unit-mapping",
     "previousExhaustiveTest": {
       "auditedAt": "2026-11-15",
       "cartesianCombinationsTested": 1433700,
@@ -5399,27 +5527,21 @@
       "unitFilterErrors": 0,
       "browserTested": false
     },
-    "questionsChecked": 4,
+    "questionsChecked": 2,
     "questionIds": [
-      "b18-024",
-      "b24-029",
-      "b30-022",
-      "b30-028"
+      "b39-091",
+      "b41-092"
     ],
-    "mappingReferencesChecked": 10,
+    "mappingReferencesChecked": 2,
     "publisherMappingLeaks": 0,
     "filterErrors": 0,
     "allUpdatedQuestionsReachable": true,
     "appReadsPersistedClassificationIndex": true,
     "browserTested": false,
-    "filterCombinationsTested": 194400,
-    "nonzeroResults": 1792,
-    "zeroResults": 192608,
-    "unitFilterGroupsTested": 4,
-    "note": "以實際questionClassificationFor及index.html getPool篩選條件，對四題逐一執行stage／grade／subject／semester／exam／publisher／unit／difficulty組合；更新題目全部可達，出版社映射無洩漏。此為程式資料層模擬，非瀏覽器／手機實機測試。",
-    "difficultyFilterTested": true
+    "filterCombinationsTested": 768,
+    "note": "以持久分類紀錄及推定器MAPS／UNIT_ALIASES進行資料層篩選驗收；兩題在全部版本、翰林、上學期、段考未分類、單元及難度條件可達，其他出版社及不符條件不會洩漏。未執行瀏覽器／手機實機測試。"
   },
-  "notes": " 2026-11-14：新增國立臺北教育大學六年級自然上學期單元四「電磁作用」課程參考，12題串聯／並聯電路僅回填上學期，不掛出版社、不填段考。 2026-11-15：依國立臺北教育大學雙語教學研究中心官方單元目錄，新增3題六年級自然電磁鐵／線圈題目的上學期課程核心分類；段考維持unassigned，不掛出版社。 2026-11-15：新增六年級自然「簡單機械」及「地質的變化」課程參考；7題依題庫知識點推定學期，沒有出版社官方單元來源，故不新增出版社映射。 分類器載入修復：補齊5筆既有MAPS物件鍵並移除重複CURRICULUM_REFERENCES宣告；JavaScript語法編譯通過，publisher filter仍僅依持久映射資料判斷。 推定器持久化保護：有分類索引紀錄的題目不再被執行時推定覆蓋；未分類值必須先寫回分類分片才會反映在篩選器。 最終逐題執行分類器驗證：第8至41批2,900題均讀取持久分類索引，187筆出版社映射參照全部通過，學期／段考與持久資料差異0。\n\n2026-11-15.55：重新核對國北教大六年級自然單元目錄與教育部教育雲「珍愛家園」「野生動物生態系」資源，持久更新7題（上學期3、下學期4）。均為題庫推定、中等信心、段考未分類、共同核心狀態；沒有出版社映射或新增題目。 2026-11-15.56：新增4題六年級自然來源核對分類，新增10筆題目級出版社映射；段考未指定，無新增題目。 2026-11-15.57：高二歷史工業革命單元3題已持久化為翰林歷史(3)單元層級、上學期；段考維持unassigned。",
+  "notes": " 2026-11-14：新增國立臺北教育大學六年級自然上學期單元四「電磁作用」課程參考，12題串聯／並聯電路僅回填上學期，不掛出版社、不填段考。 2026-11-15：依國立臺北教育大學雙語教學研究中心官方單元目錄，新增3題六年級自然電磁鐵／線圈題目的上學期課程核心分類；段考維持unassigned，不掛出版社。 2026-11-15：新增六年級自然「簡單機械」及「地質的變化」課程參考；7題依題庫知識點推定學期，沒有出版社官方單元來源，故不新增出版社映射。 分類器載入修復：補齊5筆既有MAPS物件鍵並移除重複CURRICULUM_REFERENCES宣告；JavaScript語法編譯通過，publisher filter仍僅依持久映射資料判斷。 推定器持久化保護：有分類索引紀錄的題目不再被執行時推定覆蓋；未分類值必須先寫回分類分片才會反映在篩選器。 最終逐題執行分類器驗證：第8至41批2,900題均讀取持久分類索引，187筆出版社映射參照全部通過，學期／段考與持久資料差異0。\n\n2026-11-15.55：重新核對國北教大六年級自然單元目錄與教育部教育雲「珍愛家園」「野生動物生態系」資源，持久更新7題（上學期3、下學期4）。均為題庫推定、中等信心、段考未分類、共同核心狀態；沒有出版社映射或新增題目。 2026-11-15.56：新增4題六年級自然來源核對分類，新增10筆題目級出版社映射；段考未指定，無新增題目。 2026-11-15.57：高二歷史工業革命單元3題已持久化為翰林歷史(3)單元層級、上學期；段考維持unassigned。 2026-11-15.58：持久分類b39-091、b41-092兩題高二歷史帝國主義／十九世紀西方霸權題，依翰林歷史(3)第5單元「西方與世界1」官方目次與課本頁標記上學期、翰林單元層級映射；段考unassigned。",
   "latestCurriculumUnitClassificationAudit": {
     "date": "2026-11-15",
     "runId": "2026-11-15-g6-natural-water-weather-source-backfill-02",
@@ -5616,5 +5738,113 @@
       ],
       "notes": "本輪將4題國小六年級自然題目持久回填至上學期：水循環凝結、水循環蒸發、水蒸氣在冷鏡面凝結、低氣壓上升冷卻形成雲雨。前三題依教育部教育雲EP51／EP52明列的六上第一單元跨版本教材配合資訊建立南一／翰林／康軒單元層級映射；低氣壓題僅依明示康軒六上第一單元資源建立康軒映射。來源均非學校採用證明；段考維持unassigned。"
     }
-  ]
+  ],
+  "latestMainAudit": {
+    "auditedAt": "2026-11-15",
+    "sourceHeadBeforeRun": "add61024c0ea4299ba1ab37ed5ee530ecfc38b0e",
+    "batchRange": "08-41",
+    "batchFileCount": 34,
+    "questionCount": 2900,
+    "uniqueQuestionIds": 2900,
+    "duplicateQuestionIds": 0,
+    "missingClassificationIds": 0,
+    "extraClassificationIds": 0,
+    "storedClassificationFields": {
+      "complete": 2900,
+      "missing": 0,
+      "fields": [
+        "semester",
+        "examPeriod",
+        "classificationBasis",
+        "confidence",
+        "publisherStatus",
+        "publisherMappings",
+        "classificationNotes",
+        "sourceRef",
+        "learningDomain",
+        "questionType",
+        "learningUnit",
+        "difficultyLevel"
+      ]
+    },
+    "classificationBasisDistribution": {
+      "curriculum-core": 2325,
+      "question-bank-inference": 470,
+      "publisher-source-verified": 105,
+      "unassigned": 0
+    },
+    "semesterDistribution": {
+      "unassigned": 2310,
+      "上學期": 381,
+      "下學期": 135,
+      "全學年": 74
+    },
+    "examPeriodDistribution": {
+      "unassigned": 2669,
+      "第一次段考": 66,
+      "第二次段考": 71,
+      "第三次段考": 94
+    },
+    "publisherStatusDistribution": {
+      "curriculum-core": 2710,
+      "pending": 6,
+      "publisher-mapped": 184
+    },
+    "publisherMappedQuestionCount": 184,
+    "publisherMappingReferenceCount": 214,
+    "centralMappingRegistryCount": 35,
+    "publisherReferenceCounts": {
+      "nani": 51,
+      "hanlin": 95,
+      "knsh": 68
+    },
+    "mappingVerificationStatusCounts": {
+      "source-checked": 214
+    },
+    "mappingLevelCounts": {
+      "unit": 168,
+      "official-resource-title": 46
+    },
+    "confidenceDistribution": {
+      "low": 2361,
+      "medium": 511,
+      "high": 28
+    },
+    "pendingQuestionCount": 6,
+    "mappingSourceFieldsComplete": "214/214",
+    "sourceFieldErrors": 0,
+    "sourceBatchShasMatch": "34/34",
+    "newQuestionsAdded": 0,
+    "browserTested": false,
+    "activeScopeQuestionCount": 1864,
+    "activeScopeByGrade": {
+      "六年級": 890,
+      "高二": 974
+    },
+    "filterSimulationPassed": true,
+    "filterSimulation": {
+      "activeQuestions": 1864,
+      "incrementalCombinationsTested": 768,
+      "nonzeroResultCombinations": 64,
+      "zeroResultCombinations": 704,
+      "allUpdatedQuestionsReachable": true,
+      "publisherFilterLeaks": 0,
+      "browserTested": false
+    },
+    "mappingConsistencyErrors": 0,
+    "filterCombinationsTested": 768,
+    "incrementalMappingCheck": {
+      "questionIds": [
+        "b39-091",
+        "b41-092"
+      ],
+      "matched": 2,
+      "expectedPublisher": "hanlin",
+      "expectedSemester": "上學期",
+      "examPeriod": "unassigned",
+      "mappingLevel": "unit",
+      "mappingLeaks": 0,
+      "sourceFieldsComplete": "2/2"
+    }
+  }
 }
