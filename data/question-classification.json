@@ -1,8 +1,8 @@
 {
   "title": "題目分類持久索引",
   "schemaVersion": "1.1.0",
-  "updatedAt": "2026-11-15",
-  "classificationRuleVersion": "2026-11-15.66",
+  "updatedAt": "2026-11-16",
+  "classificationRuleVersion": "2026-11-16.67",
   "sourceBranch": "main",
   "batchRange": "08-41",
   "batchFileCount": 34,
@@ -55,7 +55,7 @@
     "learningUnit",
     "difficultyLevel"
   ],
-  "notes": "以穩定題目ID為鍵。第8至41批共2,900題均已持久分類；六個分片保留原始批次檔 SHA。冊別層級來源僅作參考，未核對單元目次者不自動掛到單題。學期與段考未能可靠判定者保留 unassigned。 2026-11-14軌別回查：90筆高二數學單元標籤與翰林數學(3A)目次相近，但原題未標數學A/B軌別；不新增出版社映射，semester與examPeriod維持unassigned，並在分類備註留存理由。 2026-11-14品質盤點：六題高中高二物理電功率題（b9-016、b11-021、b12-025、b16-059、b23-074、b37-069）列為疑似近重複候選，維持待核對與unassigned，不自動刪除；另在第9與13批發現一組高一數學正規化題幹完全相同（b9-006、b13-013），列入品質複核。 2026-11-14.36學期欄位回填：逐筆比對原始第08-41批題庫欄位，將211筆既有semester值同步到分類索引（高二物理上學期82、高二化學上學期26／全學年74、高二生物上學期29）；分類依據為question-bank-inference、confidence=low，段考與出版社映射不變。 2026-11-14.37原始欄位交叉核對：第8至41批2,900題逐批比對原始semester與examPeriod；12筆為國小六年級數學依單元群推定的學期／段考值（原始批次仍為unassigned），原始已填值漏存0。六個分類分片2,900筆、必要欄位完整；官方來源未支持的題目不新增出版社映射。 2026-11-14.38南一數學6下「四則混合運算」詳情頁覆核：更新8筆既有題目（b36-020、b37-021、b37-022、b38-024至b38-028）的來源URL、標題與驗證狀態；維持官方資源標題層級，semester=下學期、examPeriod=unassigned，不宣稱完整課本目次或學校採用版本。 2026-11-14.39分類與映射索引稽核：確認六分片共2,900筆、必要欄位缺漏0、出版社映射123筆全部可解析至19筆中央映射與19筆推定器MAPS，來源欄位不一致0；修正原始欄位交叉核對清單，13筆題庫推定覆寫（新增補列b19-019），原始已填值漏存0。 2026-11-14.40篩選資料層靜態驗收：年級、科目、學期、段考、出版社共16,200組條件；804組有題、15,396組為合理零題組合，出版社映射洩漏0，全部預設條件可讀取2,900題。已確認index.html含指定出版社無題與一般零題提示；未執行瀏覽器實機測試。因manifest與教材對照資料更新，Service Worker快取版升至xy-learning-v108。 2026-11-14.41原始d欄位語義稽核：2,900題中2,736筆d與difficultyLevel相符、7筆d與questionType相符、157筆d為其他題材／情境描述；不將異質d值強制轉成難度，未標示難度維持原值。 2026-11-14.42啟用題庫範圍回算：以34個原始批次按年級重新計數，六年級890題、高二974題，合計1,864題；各批區間08-17為194、18-27為390、28-37為880、38-41為400。全庫分類索引2,900題不等同APP當前啟用題池。 2026-11-14.43康軒社會6下2-1官方教學資源核對：將18筆直接對應公共建設、交通安全、社區參與與災害風險管理的六年級社會題目保存為下學期、康軒官方教學資源標題層級映射；段考維持unassigned，不宣稱學校採用版本。 2026-11-14.44康軒社會六上4-3官方教學資源核對：新增10筆六年級社會題目級映射（b34-050、b35-043、b35-049、b36-044、b36-046、b37-047、b38-046、b38-049、b41-043、b41-049），學期標記上學期、段考保留unassigned；層級為official-resource-title，不宣稱學校採用版本或完整課本目次。 本輪再逐組交叉比對原始第8至41批與六個分類分片：2,900題ID全數一對一對應，缺漏／額外／重複均為0。 2026-11-14.45康軒官方資源持久分類：新增5筆題目級映射（六上4-3文化資產保存3筆；六下2-1公共建設／居民參與2筆），學期依官方資源標示，段考維持unassigned。推定器移除過寬的「地方自治」單獨別名，避免把中央／地方政府職權題誤掛到六下2-1；新增精確公共預算與公民參與別名。無新增題目，未宣稱學校採用版本或教師審核。 2026-11-14.46南一雞兔問題官方詳情頁覆核：保留5筆直接雞兔同籠題；撤回3筆車輛／桌椅類比題的出版社映射與下學期標籤，改列108課綱共同核心，學期／段考unassigned。全庫總題數與分類紀錄數不變（2,900）；映射題數降為153。 靜態篩選驗收（2026-11-14.46）：依index.html現行選項模擬3,150組年級／科目／學期／段考／出版社及高二數學軌別條件，232組有題、2,918組合理零題，全部版本預設題池1,864題，出版社映射洩漏0；未做瀏覽器實機測試。 本輪已重新讀取第8至41批34個原始題庫檔，與六個分類分片 sourceBatchShas 逐筆核對，34/34一致；原始題庫沒有被本輪修改。 2026-11-14.47：依國立臺北教育大學雙語教學研究中心官方單元目錄，將12題六年級自然串聯／並聯電路題目回填至上學期；只作「電磁作用」課程主題層級對照，未掛出版社，段考維持unassigned。全庫學期分布：上學期330、下學期124、全學年74、未分類2372；出版社映射153題。 2026-11-15：依國立臺北教育大學雙語教學研究中心六年級自然上學期單元四「電磁作用」官方目錄，新增3題直接涉及電磁鐵／線圈的學期分類（b39-035、b40-034、b41-033）；維持108課綱共同核心、confidence=medium、段考unassigned、不掛出版社。 2026-11-15課程主題學期分類：依國立臺北教育大學雙語教學研究中心六年級自然官方單元目錄，新增4筆上學期分類（b39-037天氣變化、b38-037/b40-039/b41-037熱對物質影響）；全部維持共同核心、段考未分類、無出版社映射。 2026-11-15.51：新增7筆六年級自然學期推定分類（簡單機械5題下學期、地質的變化2題上學期），classificationBasis=question-bank-inference、confidence=medium；段考維持unassigned，出版社映射不變。 2026-11-15.51驗收修復：分類推定器MAPS中5筆六年級自然映射原先缺少物件鍵，且CURRICULUM_REFERENCES宣告重複；已修復並通過JavaScript語法編譯。 2026-11-15.51持久化保護：推定器現在只對沒有持久分類紀錄的舊題執行暫時推定；已有紀錄（包括unassigned）完全以分類索引為準，避免篩選結果只在執行時變動。 2026-11-15.51最終執行驗證：以第8至41批原始題目逐題呼叫分類器，共2,900題；缺少分類紀錄0、187筆出版社映射參照全部通過、映射拒絕0、額外執行時映射0、學期／段考輸出與持久索引差異0。 2026-11-15 main一致性覆核：第8至41批34個原始檔SHA與六個分類分片來源SHA 34/34一致；持久分類2,900筆，必填欄位缺漏0、分類非法值0、出版社映射欄位與範圍錯誤0。全庫學期上353／下129／全學年74／未分類2344；段考第一次66／第二次71／第三次94／未分類2669；出版社映射題171、映射參照187。 2026-11-15.52：依國北教大六年級自然下學期單元三「珍愛家園」目錄及教育部教育雲六年級環境課程資源，將b39-038、b41-040兩題直接涉及棲地破碎化／濕地填平與生物多樣性的題目推定為下學期；段考維持unassigned，不掛出版社。全庫2,900筆分類紀錄與34個原始批次不變，無新增題目。靜態篩選資料層測試1,433,700組，24,006組有題、1,409,694組合理零題；出版社映射洩漏0，全部啟用題可達。未執行瀏覽器或手機實機測試。 2026-11-15.53：六年級數學「分數除法」4題（b32-012、b33-019、b37-028、b39-025）依翰林國小輔教行銷處第50頁三版本對照表回填上學期，建立南一／翰林／康軒三筆單元層級映射；段考維持unassigned，未新增題目。 本輪2026-11-15.54：12筆六年級自然食物鏈／食物網／生態系能量流與濕地生物多樣性題目，依教育部教育雲上學期延伸教材作題庫推定；段考未指定，無出版社映射。 2026-11-15.55：新增7筆六年級自然課程主題學期推定（上學期3：電磁作用、熱對物質影響、天氣變化；下學期4：珍愛家園之水污染、風力發電、環境監測與生物多樣性）。均為question-bank-inference、confidence=medium、examPeriod=unassigned、publisherStatus=curriculum-core、無出版社映射；未新增題目。全庫學期上372／下135／全學年74／未分類2319；段考維持66／71／94／未分類2669。 2026-11-15.56：持久分類b18-024、b24-029、b30-022、b30-028四題；水循環／水的三態依教育部教育雲EP51／EP52明列的六上第一單元跨版本教材配合資訊建立映射，低氣壓題僅對應康軒六上第一單元；段考維持unassigned，未新增題目。 2026-11-15主分支統計同步：重新讀取六個分類分片後，修正索引statistics與最新main統計一致；2,900筆分類、學期／段考分布、179筆出版社映射題與209筆映射參照已同步。未更動原始題庫與分類紀錄，未新增題目。 2026-11-15.57：持久分類高二歷史工業革命與社會變遷3題（b38-090、b40-088、b41-090），依翰林歷史(3)單元3目次與官方課本頁的年級／學期資訊建立單元層級映射；段考維持unassigned，未新增題目。 2026-11-15.58：新增持久分類b39-091、b41-092兩題，翰林歷史(3)第5單元「西方與世界1」；上學期、段考unassigned、confidence=medium，未新增題目。 2026-11-15.59：第38至41批新增75筆高二選修物理(II)、化學(II)/(III)、生物(II)出版社映射；分類索引保存courseType以通過選修課程隔離，冊別與單元層級依官方來源分開標示，段考不作推定。 2026-11-15.60：新增3筆高二歷史持久分類（b38-091、b39-089、b40-089），分別對應翰林歷史(3)第3、2、7單元；均為上學期、段考unassigned、confidence=medium。原始題庫未修改，總題數仍為2,900。\n 2026-11-15.62：六年級數學「基準量和比較量」19題新增翰林6上第6單元映射；原南一6下第3單元映射保留。不同版本學期分別儲存於publisherMappings，index.html指定出版社依該映射學期篩選，全部版本可依任一已核對版本顯示；段考維持unassigned。 2026-11-15.63：依翰林高中歷史(3)官方課本頁及出版社官方參考書目次，將11題高二歷史工業革命／工業化社會變遷題目持久分類為上學期，出版社映射限翰林歷史(3)單元3；段考保留unassigned，不宣稱學校採用版本或教師審核。 2026-11-15：高二選修物理(II)冊別來源回填41題，課程類型已持久保存，段考未推定。 2026-11-15.64：高二公民與社會(3)第4單元「外部成本與聯合行為」新增9題持久出版社映射；學期上學期、段考unassigned、confidence=medium；未新增題目。\n2026-11-15.66：b35-034、b39-035、b40-034、b41-033改為教育部教育雲EP49支持的南一／翰林／康軒六上第4單元映射；原始題庫不變，段考仍unassigned。",
+  "notes": "以穩定題目ID為鍵。第8至41批共2,900題均已持久分類；六個分片保留原始批次檔 SHA。冊別層級來源僅作參考，未核對單元目次者不自動掛到單題。學期與段考未能可靠判定者保留 unassigned。 2026-11-14軌別回查：90筆高二數學單元標籤與翰林數學(3A)目次相近，但原題未標數學A/B軌別；不新增出版社映射，semester與examPeriod維持unassigned，並在分類備註留存理由。 2026-11-14品質盤點：六題高中高二物理電功率題（b9-016、b11-021、b12-025、b16-059、b23-074、b37-069）列為疑似近重複候選，維持待核對與unassigned，不自動刪除；另在第9與13批發現一組高一數學正規化題幹完全相同（b9-006、b13-013），列入品質複核。 2026-11-14.36學期欄位回填：逐筆比對原始第08-41批題庫欄位，將211筆既有semester值同步到分類索引（高二物理上學期82、高二化學上學期26／全學年74、高二生物上學期29）；分類依據為question-bank-inference、confidence=low，段考與出版社映射不變。 2026-11-14.37原始欄位交叉核對：第8至41批2,900題逐批比對原始semester與examPeriod；12筆為國小六年級數學依單元群推定的學期／段考值（原始批次仍為unassigned），原始已填值漏存0。六個分類分片2,900筆、必要欄位完整；官方來源未支持的題目不新增出版社映射。 2026-11-14.38南一數學6下「四則混合運算」詳情頁覆核：更新8筆既有題目（b36-020、b37-021、b37-022、b38-024至b38-028）的來源URL、標題與驗證狀態；維持官方資源標題層級，semester=下學期、examPeriod=unassigned，不宣稱完整課本目次或學校採用版本。 2026-11-14.39分類與映射索引稽核：確認六分片共2,900筆、必要欄位缺漏0、出版社映射123筆全部可解析至19筆中央映射與19筆推定器MAPS，來源欄位不一致0；修正原始欄位交叉核對清單，13筆題庫推定覆寫（新增補列b19-019），原始已填值漏存0。 2026-11-14.40篩選資料層靜態驗收：年級、科目、學期、段考、出版社共16,200組條件；804組有題、15,396組為合理零題組合，出版社映射洩漏0，全部預設條件可讀取2,900題。已確認index.html含指定出版社無題與一般零題提示；未執行瀏覽器實機測試。因manifest與教材對照資料更新，Service Worker快取版升至xy-learning-v108。 2026-11-14.41原始d欄位語義稽核：2,900題中2,736筆d與difficultyLevel相符、7筆d與questionType相符、157筆d為其他題材／情境描述；不將異質d值強制轉成難度，未標示難度維持原值。 2026-11-14.42啟用題庫範圍回算：以34個原始批次按年級重新計數，六年級890題、高二974題，合計1,864題；各批區間08-17為194、18-27為390、28-37為880、38-41為400。全庫分類索引2,900題不等同APP當前啟用題池。 2026-11-14.43康軒社會6下2-1官方教學資源核對：將18筆直接對應公共建設、交通安全、社區參與與災害風險管理的六年級社會題目保存為下學期、康軒官方教學資源標題層級映射；段考維持unassigned，不宣稱學校採用版本。 2026-11-14.44康軒社會六上4-3官方教學資源核對：新增10筆六年級社會題目級映射（b34-050、b35-043、b35-049、b36-044、b36-046、b37-047、b38-046、b38-049、b41-043、b41-049），學期標記上學期、段考保留unassigned；層級為official-resource-title，不宣稱學校採用版本或完整課本目次。 本輪再逐組交叉比對原始第8至41批與六個分類分片：2,900題ID全數一對一對應，缺漏／額外／重複均為0。 2026-11-14.45康軒官方資源持久分類：新增5筆題目級映射（六上4-3文化資產保存3筆；六下2-1公共建設／居民參與2筆），學期依官方資源標示，段考維持unassigned。推定器移除過寬的「地方自治」單獨別名，避免把中央／地方政府職權題誤掛到六下2-1；新增精確公共預算與公民參與別名。無新增題目，未宣稱學校採用版本或教師審核。 2026-11-14.46南一雞兔問題官方詳情頁覆核：保留5筆直接雞兔同籠題；撤回3筆車輛／桌椅類比題的出版社映射與下學期標籤，改列108課綱共同核心，學期／段考unassigned。全庫總題數與分類紀錄數不變（2,900）；映射題數降為153。 靜態篩選驗收（2026-11-14.46）：依index.html現行選項模擬3,150組年級／科目／學期／段考／出版社及高二數學軌別條件，232組有題、2,918組合理零題，全部版本預設題池1,864題，出版社映射洩漏0；未做瀏覽器實機測試。 本輪已重新讀取第8至41批34個原始題庫檔，與六個分類分片 sourceBatchShas 逐筆核對，34/34一致；原始題庫沒有被本輪修改。 2026-11-14.47：依國立臺北教育大學雙語教學研究中心官方單元目錄，將12題六年級自然串聯／並聯電路題目回填至上學期；只作「電磁作用」課程主題層級對照，未掛出版社，段考維持unassigned。全庫學期分布：上學期330、下學期124、全學年74、未分類2372；出版社映射153題。 2026-11-15：依國立臺北教育大學雙語教學研究中心六年級自然上學期單元四「電磁作用」官方目錄，新增3題直接涉及電磁鐵／線圈的學期分類（b39-035、b40-034、b41-033）；維持108課綱共同核心、confidence=medium、段考unassigned、不掛出版社。 2026-11-15課程主題學期分類：依國立臺北教育大學雙語教學研究中心六年級自然官方單元目錄，新增4筆上學期分類（b39-037天氣變化、b38-037/b40-039/b41-037熱對物質影響）；全部維持共同核心、段考未分類、無出版社映射。 2026-11-15.51：新增7筆六年級自然學期推定分類（簡單機械5題下學期、地質的變化2題上學期），classificationBasis=question-bank-inference、confidence=medium；段考維持unassigned，出版社映射不變。 2026-11-15.51驗收修復：分類推定器MAPS中5筆六年級自然映射原先缺少物件鍵，且CURRICULUM_REFERENCES宣告重複；已修復並通過JavaScript語法編譯。 2026-11-15.51持久化保護：推定器現在只對沒有持久分類紀錄的舊題執行暫時推定；已有紀錄（包括unassigned）完全以分類索引為準，避免篩選結果只在執行時變動。 2026-11-15.51最終執行驗證：以第8至41批原始題目逐題呼叫分類器，共2,900題；缺少分類紀錄0、187筆出版社映射參照全部通過、映射拒絕0、額外執行時映射0、學期／段考輸出與持久索引差異0。 2026-11-15 main一致性覆核：第8至41批34個原始檔SHA與六個分類分片來源SHA 34/34一致；持久分類2,900筆，必填欄位缺漏0、分類非法值0、出版社映射欄位與範圍錯誤0。全庫學期上353／下129／全學年74／未分類2344；段考第一次66／第二次71／第三次94／未分類2669；出版社映射題171、映射參照187。 2026-11-15.52：依國北教大六年級自然下學期單元三「珍愛家園」目錄及教育部教育雲六年級環境課程資源，將b39-038、b41-040兩題直接涉及棲地破碎化／濕地填平與生物多樣性的題目推定為下學期；段考維持unassigned，不掛出版社。全庫2,900筆分類紀錄與34個原始批次不變，無新增題目。靜態篩選資料層測試1,433,700組，24,006組有題、1,409,694組合理零題；出版社映射洩漏0，全部啟用題可達。未執行瀏覽器或手機實機測試。 2026-11-15.53：六年級數學「分數除法」4題（b32-012、b33-019、b37-028、b39-025）依翰林國小輔教行銷處第50頁三版本對照表回填上學期，建立南一／翰林／康軒三筆單元層級映射；段考維持unassigned，未新增題目。 本輪2026-11-15.54：12筆六年級自然食物鏈／食物網／生態系能量流與濕地生物多樣性題目，依教育部教育雲上學期延伸教材作題庫推定；段考未指定，無出版社映射。 2026-11-15.55：新增7筆六年級自然課程主題學期推定（上學期3：電磁作用、熱對物質影響、天氣變化；下學期4：珍愛家園之水污染、風力發電、環境監測與生物多樣性）。均為question-bank-inference、confidence=medium、examPeriod=unassigned、publisherStatus=curriculum-core、無出版社映射；未新增題目。全庫學期上372／下135／全學年74／未分類2319；段考維持66／71／94／未分類2669。 2026-11-15.56：持久分類b18-024、b24-029、b30-022、b30-028四題；水循環／水的三態依教育部教育雲EP51／EP52明列的六上第一單元跨版本教材配合資訊建立映射，低氣壓題僅對應康軒六上第一單元；段考維持unassigned，未新增題目。 2026-11-15主分支統計同步：重新讀取六個分類分片後，修正索引statistics與最新main統計一致；2,900筆分類、學期／段考分布、179筆出版社映射題與209筆映射參照已同步。未更動原始題庫與分類紀錄，未新增題目。 2026-11-15.57：持久分類高二歷史工業革命與社會變遷3題（b38-090、b40-088、b41-090），依翰林歷史(3)單元3目次與官方課本頁的年級／學期資訊建立單元層級映射；段考維持unassigned，未新增題目。 2026-11-15.58：新增持久分類b39-091、b41-092兩題，翰林歷史(3)第5單元「西方與世界1」；上學期、段考unassigned、confidence=medium，未新增題目。 2026-11-15.59：第38至41批新增75筆高二選修物理(II)、化學(II)/(III)、生物(II)出版社映射；分類索引保存courseType以通過選修課程隔離，冊別與單元層級依官方來源分開標示，段考不作推定。 2026-11-15.60：新增3筆高二歷史持久分類（b38-091、b39-089、b40-089），分別對應翰林歷史(3)第3、2、7單元；均為上學期、段考unassigned、confidence=medium。原始題庫未修改，總題數仍為2,900。\n 2026-11-15.62：六年級數學「基準量和比較量」19題新增翰林6上第6單元映射；原南一6下第3單元映射保留。不同版本學期分別儲存於publisherMappings，index.html指定出版社依該映射學期篩選，全部版本可依任一已核對版本顯示；段考維持unassigned。 2026-11-15.63：依翰林高中歷史(3)官方課本頁及出版社官方參考書目次，將11題高二歷史工業革命／工業化社會變遷題目持久分類為上學期，出版社映射限翰林歷史(3)單元3；段考保留unassigned，不宣稱學校採用版本或教師審核。 2026-11-15：高二選修物理(II)冊別來源回填41題，課程類型已持久保存，段考未推定。 2026-11-15.64：高二公民與社會(3)第4單元「外部成本與聯合行為」新增9題持久出版社映射；學期上學期、段考unassigned、confidence=medium；未新增題目。\n2026-11-15.66：b35-034、b39-035、b40-034、b41-033改為教育部教育雲EP49支持的南一／翰林／康軒六上第4單元映射；原始題庫不變，段考仍unassigned。 2026-11-16.67：國小六年級數學「比與比值」9題新增翰林6上第4、康軒6上第5、南一6上第5單元映射；依翰林國小輔教行銷處第50頁版本對照表，semester維持上學期，examPeriod保留題庫第一次段考複習建議，非正式範圍；未新增題目。",
   "lastReconciliation": {
     "date": "2026-11-14",
     "type": "original-question-bank-semester-sync",
@@ -82,44 +82,45 @@
     "notes": "僅將原始批次已明確填入、而分類索引仍為unassigned的semester值同步至持久分類紀錄；classificationBasis設為question-bank-inference、confidence維持low。未改動examPeriod、publisherMappings或publisherStatus；未把題庫推定宣稱為官方或教師確認。"
   },
   "lastAudit": {
-    "runId": "2026-11-15-hanlin-h2-civic-3-u4-external-costs-backfill-04",
-    "date": "2026-11-15",
-    "sourceHeadBeforeRun": "0648e395e2a0c1aa80739be9aeb874b3bd671688",
+    "runId": "2026-11-16-hanlin-g6-math-ratio-cross-version-01",
+    "date": "2026-11-16",
+    "sourceHeadBeforeRun": "0735a47e1043eddbc4149de98c9ce02ae24c636d",
     "batches": "08-41",
     "batchFileCount": 34,
     "fullCorpusQuestionCount": 2900,
     "activeScopeQuestionCount": 1864,
     "questionRecordsUpdated": 9,
     "updatedQuestionIds": [
-      "b16-071",
-      "b19-071",
-      "b28-071",
-      "b31-095",
-      "b33-094",
-      "b37-093",
-      "b38-094",
-      "b39-096",
-      "b40-094"
+      "b12-008",
+      "b20-028",
+      "b23-025",
+      "b30-012",
+      "b31-017",
+      "b33-020",
+      "b36-032",
+      "b40-025",
+      "b41-023"
     ],
-    "semesterAssignments": {
-      "上學期": 9
-    },
+    "semesterAssignments": 0,
     "examPeriodAssignments": 0,
-    "publisherMappingsAdded": 9,
-    "centralMappingCount": 39,
-    "publisherMappingReferencesAdded": 9,
+    "publisherMappingsAdded": 27,
+    "publisherMappingReferencesAdded": 27,
+    "centralMappingCount": 45,
     "publisherReferenceCounts": {
-      "hanlin": 288,
-      "nani": 51,
-      "knsh": 68
+      "hanlin": 297,
+      "knsh": 81,
+      "nani": 64,
+      "_total": 442
     },
     "mappingLevelCounts": {
-      "unit": 237,
-      "volume": 124,
-      "official-resource-title": 46
+      "unit": 276,
+      "volume": 120,
+      "official-resource-title": 46,
+      "_total": 442
     },
     "mappingVerificationStatusCounts": {
-      "source-checked": 407
+      "source-checked": 442,
+      "_total": 442
     },
     "newQuestionsAdded": 0,
     "fullCorpusSemesterDistribution": {
@@ -137,25 +138,25 @@
       "_total": 2900
     },
     "fullCorpusClassificationBasisDistribution": {
-      "curriculum-core": 2299,
-      "question-bank-inference": 354,
-      "publisher-source-verified": 247,
+      "curriculum-core": 2296,
+      "question-bank-inference": 344,
+      "publisher-source-verified": 260,
       "_total": 2900
     },
     "fullCorpusPublisherStatusDistribution": {
-      "curriculum-core": 2536,
-      "publisher-mapped": 358,
+      "curriculum-core": 2527,
+      "publisher-mapped": 367,
       "pending": 6,
       "_total": 2900
     },
     "fullCorpusConfidenceDistribution": {
       "low": 2223,
-      "medium": 649,
-      "high": 28,
+      "medium": 645,
+      "high": 32,
       "_total": 2900
     },
     "sourceBatchShasMatch": "34/34",
-    "classificationRuleVersion": "2026-11-15.64",
+    "classificationRuleVersion": "2026-11-16.67",
     "validation": {
       "jsonParse": true,
       "classificationRecords": 2900,
@@ -164,115 +165,70 @@
       "invalidClassificationValues": 0,
       "mappingReferenceErrors": 0,
       "sourceFieldErrors": 0,
-      "verifiedAtSnapshotDifferences": 59,
       "mappingScopeErrors": 0,
       "sourceBatchShasMatch": "34/34",
       "appReadsPersistedClassificationIndex": true,
       "incrementalQuestionsChecked": 9,
-      "incrementalMappingReferencesChecked": 9,
+      "incrementalMappingReferencesChecked": 27,
+      "incrementalFilterCombinationsTested": 1350,
       "publisherMappingLeaks": 0,
       "filterErrors": 0,
-      "filterCombinationsTested": 3150,
-      "questionFilterCasesTested": 406800,
-      "zeroResultConditionsTested": 2863,
       "allUpdatedQuestionsReachable": true,
-      "browserOrMobileRuntimeTested": false,
-      "filterMethod": "index.html getPool predicate data-layer simulation",
-      "classifierResolverScopeMatches": 9,
-      "classifierResolverScopeFailures": 0,
-      "unitFilterGroupsTested": 1180,
-      "unitFilterCountErrors": 0,
-      "allPoolErrors": 0,
-      "subjectOptionCoverageErrors": 0,
-      "publisherCategoryCoverageErrors": 0,
-      "courseTrackPlaceholderErrors": 0
+      "browserOrMobileRuntimeTested": false
     },
-    "notes": "翰林高中課本公民與社會(3)乙版官方商品頁確認高二、公民、上學期；出版社配套評量本第3頁目次第4單元列外部成本與聯合行為、外部效果與政府對策。僅將直接涉及負外部性、污染費及外部成本內部化的9題映射至翰林單元4；配套評量本目次不是主課本完整目次，不代表學校採用版本或正式段考範圍。",
-    "sourceHead": "0648e395e2a0c1aa80739be9aeb874b3bd671688",
-    "questionMappingReferences": 407,
-    "verifiedAt": "2026-11-15",
-    "sourceBranch": "main",
-    "batchRange": "08-41",
-    "batchCount": 34,
-    "questionCount": 2900,
-    "uniqueIds": 2900,
-    "classificationIndexEntries": 2900,
-    "duplicateIds": 0,
-    "missingIds": 0,
-    "extraIds": 0,
-    "centralMappingRegistryCount": 39,
-    "browserTested": false
+    "notes": "翰林國小輔教行銷處官方帳號發布的六年級數學版本對照表第50頁明列「單元3 比與比值」；該表對應翰林版6上第4單元、康軒版6上第5單元、南一版6上第5單元。此為翰林部門發布的跨版本教材對照，學年度未標示；僅支持本單元的版本、單元及上學期對照，不代表三家各自課本詳情頁、任何學校採用版本或正式段考範圍。題目examPeriod仍沿用題庫既有「第一次段考」複習建議，並非官方或教師確認。"
   },
   "lastMappingReferenceAudit": {
-    "date": "2026-11-15",
-    "type": "hanlin-h2-civic-3-u4-external-costs-backfill",
+    "date": "2026-11-16",
     "classificationRecordCount": 2900,
-    "publisherMappedQuestionCount": 358,
-    "questionMappingReferenceCount": 407,
-    "centralMappingCount": 39,
+    "publisherMappedQuestionCount": 367,
+    "questionMappingReferenceCount": 442,
+    "centralMappingCount": 45,
     "unresolvedCentralMappingReferences": 0,
     "sourceFieldMismatches": 0,
-    "verifiedAtSnapshotDifferences": 59,
     "mappingScopeErrors": 0,
     "missingRequiredClassificationFields": 0,
-    "updatedQuestionIds": [
-      "b16-071",
-      "b19-071",
-      "b28-071",
-      "b31-095",
-      "b33-094",
-      "b37-093",
-      "b38-094",
-      "b39-096",
-      "b40-094"
-    ],
-    "verificationCounts": {
-      "source-checked": 407
-    },
     "publisherReferenceCounts": {
-      "hanlin": 288,
-      "nani": 51,
-      "knsh": 68
+      "hanlin": 297,
+      "knsh": 81,
+      "nani": 64
     },
     "mappingLevelCounts": {
-      "unit": 237,
-      "volume": 124,
+      "unit": 276,
+      "volume": 120,
       "official-resource-title": 46
-    }
+    },
+    "verificationCounts": {
+      "source-checked": 442
+    },
+    "updatedQuestionIds": [
+      "b12-008",
+      "b20-028",
+      "b23-025",
+      "b30-012",
+      "b31-017",
+      "b33-020",
+      "b36-032",
+      "b40-025",
+      "b41-023"
+    ],
+    "sourceBatchShasMatch": "34/34"
   },
   "lastFilterDataAudit": {
-    "auditedAt": "2026-11-15",
-    "type": "full-active-scope-filter-regression",
-    "sourceHead": "752b8130cb9671f1b588ee4188d40d24e968ae89",
+    "auditedAt": "2026-11-16",
+    "type": "incremental-cross-version-filter-regression",
     "fullCorpusQuestionCount": 2900,
     "activeScopeQuestionCount": 1864,
-    "questionsChecked": 1864,
-    "updatedQuestionIds": [
-      "b16-071",
-      "b19-071",
-      "b28-071",
-      "b31-095",
-      "b33-094",
-      "b37-093",
-      "b38-094",
-      "b39-096",
-      "b40-094"
-    ],
-    "mappingReferencesChecked": 407,
-    "filterCombinationsTested": 3150,
-    "questionFilterCasesTested": 406800,
-    "zeroResultConditionsTested": 2863,
-    "unitFilterGroupsTested": 1180,
-    "unitFilterCountErrors": 0,
-    "allPoolErrors": 0,
-    "subjectOptionCoverageErrors": 0,
-    "publisherCategoryCoverageErrors": 0,
+    "questionsChecked": 9,
+    "mappingReferencesChecked": 27,
+    "filterCombinationsTested": 1350,
+    "unitFilterGroupsTested": 2,
     "publisherMappingLeaks": 0,
-    "courseTrackPlaceholderErrors": 0,
+    "filterErrors": 0,
     "allUpdatedQuestionsReachable": true,
     "appReadsPersistedClassificationIndex": true,
     "browserTested": false,
-    "note": "依index.html getPool條件順序，對17個啟用年級／科目群組測試全部／翰林／南一／康軒／共同核心／待核對、四種學期與四種段考狀態；高二數學另測數學A、數學B、未標示軌別及未選擇軌別。另逐組驗證1,180個單元篩選值。零題組合均正常回傳空集合；此為全庫資料層邏輯模擬，非瀏覽器／手機實機測試。"
+    "note": "依 index.html getPool 資料層條件，對9題測試全部版本／南一／翰林／康軒／共同核心／待核對、全部／上學期／下學期／全學年／未分類，以及全部／第一次／第二次／第三次段考；三個出版社映射均只在各自已核對版本中可達。未進行瀏覽器或手機實機測試。"
   },
   "lastRawTagAudit": {
     "date": "2026-11-14",
@@ -284,44 +240,45 @@
     "notes": "原始批次欄位d並非全庫一致的difficulty欄位。08-19與38-41批次多為難度標籤；20-25有2題d=閱讀理解對應questionType；26-31與32-37另有157筆d為生活情境、生活計算、單位換算等主題／題材描述，未與difficultyLevel、questionType、learningDomain或learningUnit直接相等。保留原始d不覆蓋；這157筆的difficultyLevel維持未標示，避免把題材標籤誤當難度。"
   },
   "lastRunAudit": {
-    "runId": "2026-11-15-hanlin-h2-civic-3-u4-external-costs-backfill-04",
-    "date": "2026-11-15",
-    "sourceHeadBeforeRun": "0648e395e2a0c1aa80739be9aeb874b3bd671688",
+    "runId": "2026-11-16-hanlin-g6-math-ratio-cross-version-01",
+    "date": "2026-11-16",
+    "sourceHeadBeforeRun": "0735a47e1043eddbc4149de98c9ce02ae24c636d",
     "batches": "08-41",
     "batchFileCount": 34,
     "fullCorpusQuestionCount": 2900,
     "activeScopeQuestionCount": 1864,
     "questionRecordsUpdated": 9,
     "updatedQuestionIds": [
-      "b16-071",
-      "b19-071",
-      "b28-071",
-      "b31-095",
-      "b33-094",
-      "b37-093",
-      "b38-094",
-      "b39-096",
-      "b40-094"
+      "b12-008",
+      "b20-028",
+      "b23-025",
+      "b30-012",
+      "b31-017",
+      "b33-020",
+      "b36-032",
+      "b40-025",
+      "b41-023"
     ],
-    "semesterAssignments": {
-      "上學期": 9
-    },
+    "semesterAssignments": 0,
     "examPeriodAssignments": 0,
-    "publisherMappingsAdded": 9,
-    "centralMappingCount": 39,
-    "publisherMappingReferencesAdded": 9,
+    "publisherMappingsAdded": 27,
+    "publisherMappingReferencesAdded": 27,
+    "centralMappingCount": 45,
     "publisherReferenceCounts": {
-      "hanlin": 288,
-      "nani": 51,
-      "knsh": 68
+      "hanlin": 297,
+      "knsh": 81,
+      "nani": 64,
+      "_total": 442
     },
     "mappingLevelCounts": {
-      "unit": 237,
-      "volume": 124,
-      "official-resource-title": 46
+      "unit": 276,
+      "volume": 120,
+      "official-resource-title": 46,
+      "_total": 442
     },
     "mappingVerificationStatusCounts": {
-      "source-checked": 407
+      "source-checked": 442,
+      "_total": 442
     },
     "newQuestionsAdded": 0,
     "fullCorpusSemesterDistribution": {
@@ -339,25 +296,25 @@
       "_total": 2900
     },
     "fullCorpusClassificationBasisDistribution": {
-      "curriculum-core": 2299,
-      "question-bank-inference": 354,
-      "publisher-source-verified": 247,
+      "curriculum-core": 2296,
+      "question-bank-inference": 344,
+      "publisher-source-verified": 260,
       "_total": 2900
     },
     "fullCorpusPublisherStatusDistribution": {
-      "curriculum-core": 2536,
-      "publisher-mapped": 358,
+      "curriculum-core": 2527,
+      "publisher-mapped": 367,
       "pending": 6,
       "_total": 2900
     },
     "fullCorpusConfidenceDistribution": {
       "low": 2223,
-      "medium": 649,
-      "high": 28,
+      "medium": 645,
+      "high": 32,
       "_total": 2900
     },
     "sourceBatchShasMatch": "34/34",
-    "classificationRuleVersion": "2026-11-15.64",
+    "classificationRuleVersion": "2026-11-16.67",
     "validation": {
       "jsonParse": true,
       "classificationRecords": 2900,
@@ -366,30 +323,18 @@
       "invalidClassificationValues": 0,
       "mappingReferenceErrors": 0,
       "sourceFieldErrors": 0,
-      "verifiedAtSnapshotDifferences": 59,
       "mappingScopeErrors": 0,
       "sourceBatchShasMatch": "34/34",
       "appReadsPersistedClassificationIndex": true,
       "incrementalQuestionsChecked": 9,
-      "incrementalMappingReferencesChecked": 9,
+      "incrementalMappingReferencesChecked": 27,
+      "incrementalFilterCombinationsTested": 1350,
       "publisherMappingLeaks": 0,
       "filterErrors": 0,
-      "filterCombinationsTested": 3150,
-      "questionFilterCasesTested": 406800,
-      "zeroResultConditionsTested": 2863,
       "allUpdatedQuestionsReachable": true,
-      "browserOrMobileRuntimeTested": false,
-      "filterMethod": "index.html getPool predicate data-layer simulation",
-      "classifierResolverScopeMatches": 9,
-      "classifierResolverScopeFailures": 0,
-      "unitFilterGroupsTested": 1180,
-      "unitFilterCountErrors": 0,
-      "allPoolErrors": 0,
-      "subjectOptionCoverageErrors": 0,
-      "publisherCategoryCoverageErrors": 0,
-      "courseTrackPlaceholderErrors": 0
+      "browserOrMobileRuntimeTested": false
     },
-    "notes": "翰林高中課本公民與社會(3)乙版官方商品頁確認高二、公民、上學期；出版社配套評量本第3頁目次第4單元列外部成本與聯合行為、外部效果與政府對策。僅將直接涉及負外部性、污染費及外部成本內部化的9題映射至翰林單元4；配套評量本目次不是主課本完整目次，不代表學校採用版本或正式段考範圍。"
+    "notes": "翰林國小輔教行銷處官方帳號發布的六年級數學版本對照表第50頁明列「單元3 比與比值」；該表對應翰林版6上第4單元、康軒版6上第5單元、南一版6上第5單元。此為翰林部門發布的跨版本教材對照，學年度未標示；僅支持本單元的版本、單元及上學期對照，不代表三家各自課本詳情頁、任何學校採用版本或正式段考範圍。題目examPeriod仍沿用題庫既有「第一次段考」複習建議，並非官方或教師確認。"
   },
   "lastBatchClassificationReconciliation": {
     "date": "2026-11-15",
@@ -452,8 +397,8 @@
     "sourceBatchShasMatch": "34/34"
   },
   "statistics": {
-    "auditedAt": "2026-11-15",
-    "sourceHeadBeforeRun": "0648e395e2a0c1aa80739be9aeb874b3bd671688",
+    "auditedAt": "2026-11-16",
+    "sourceHeadBeforeRun": "0735a47e1043eddbc4149de98c9ce02ae24c636d",
     "questionCount": 2900,
     "uniqueQuestionIds": 2900,
     "batchFileCount": 34,
@@ -475,38 +420,38 @@
       "_total": 2900
     },
     "classificationBasis": {
-      "curriculum-core": 2299,
-      "question-bank-inference": 354,
-      "publisher-source-verified": 247,
+      "curriculum-core": 2296,
+      "question-bank-inference": 344,
+      "publisher-source-verified": 260,
       "_total": 2900
     },
     "publisherStatus": {
-      "curriculum-core": 2536,
-      "publisher-mapped": 358,
+      "curriculum-core": 2527,
+      "publisher-mapped": 367,
       "pending": 6,
       "_total": 2900
     },
     "confidence": {
       "low": 2223,
-      "medium": 649,
-      "high": 28,
+      "medium": 645,
+      "high": 32,
       "_total": 2900
     },
-    "publisherMappedQuestionCount": 358,
-    "publisherMappingReferenceCount": 407,
-    "centralMappingRegistryCount": 39,
+    "publisherMappedQuestionCount": 367,
+    "publisherMappingReferenceCount": 442,
+    "centralMappingRegistryCount": 45,
     "publisherReferenceCounts": {
-      "hanlin": 288,
-      "nani": 51,
-      "knsh": 68
+      "hanlin": 297,
+      "knsh": 81,
+      "nani": 64
     },
     "mappingLevelCounts": {
-      "unit": 237,
-      "volume": 124,
+      "unit": 276,
+      "volume": 120,
       "official-resource-title": 46
     },
     "mappingVerificationStatus": {
-      "source-checked": 407
+      "source-checked": 442
     },
     "activeScope": {
       "questionCount": 1864,
@@ -525,13 +470,13 @@
         "_total": 1864
       },
       "publisherStatus": {
-        "curriculum-core": 1500,
-        "publisher-mapped": 358,
+        "curriculum-core": 1491,
+        "publisher-mapped": 367,
         "pending": 6,
         "_total": 1864
       }
     }
   },
-  "sourceHeadVerified": "752b8130cb9671f1b588ee4188d40d24e968ae89",
-  "mainHeadVerifiedAt": "2026-11-15T21:40:42+08:00"
+  "sourceHeadVerified": "0735a47e1043eddbc4149de98c9ce02ae24c636d",
+  "mainHeadVerifiedAt": "2026-11-16T00:45:57+08:00"
 }
