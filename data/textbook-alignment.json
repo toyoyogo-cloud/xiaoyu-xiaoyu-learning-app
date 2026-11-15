@@ -2557,14 +2557,15 @@
     "filterSimulationPassed": true,
     "filterSimulation": {
       "activeQuestions": 1864,
-      "incrementalCombinationsTested": 16200,
-      "incrementalNonzeroCombinations": 448,
-      "incrementalZeroResultCombinations": 15752,
+      "incrementalCombinationsTested": 194400,
+      "incrementalNonzeroCombinations": 1792,
+      "incrementalZeroResultCombinations": 192608,
       "allUpdatedQuestionsReachable": true,
       "publisherFilterLeaks": 0,
       "browserTested": false
     },
-    "mappingConsistencyErrors": 0
+    "mappingConsistencyErrors": 0,
+    "filterCombinationsTested": 194400
   },
   "classificationPersistenceRuns": [
     {
