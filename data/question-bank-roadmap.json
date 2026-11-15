@@ -2088,10 +2088,10 @@
     "uniqueQuestionIds": 2900,
     "persistentClassificationCount": 2900,
     "semester": {
-      "上學期": 369,
-      "下學期": 131,
+      "上學期": 372,
+      "下學期": 135,
       "全學年": 74,
-      "unassigned": 2326
+      "unassigned": 2319
     },
     "examPeriod": {
       "第一次段考": 66,
@@ -2100,21 +2100,21 @@
       "unassigned": 2669
     },
     "classificationBasis": {
-      "curriculum-core": 2341,
-      "question-bank-inference": 463,
+      "curriculum-core": 2334,
+      "question-bank-inference": 470,
       "publisher-source-verified": 96
     },
     "publisherStatus": {
-      "publisher-mapped": 175,
       "curriculum-core": 2719,
-      "pending": 6
+      "pending": 6,
+      "publisher-mapped": 175
     },
     "publisherMappingReferences": 199,
     "centralCurriculumReferences": 30,
     "sourceRegistryEntries": 37,
     "confidence": {
-      "low": 2374,
-      "medium": 498,
+      "low": 2367,
+      "medium": 505,
       "high": 28
     },
     "activeScope": {
@@ -2124,10 +2124,10 @@
         "高二": 974
       },
       "semester": {
-        "上學期": 369,
-        "下學期": 131,
+        "上學期": 372,
+        "下學期": 135,
         "全學年": 74,
-        "unassigned": 1290
+        "unassigned": 1283
       },
       "examPeriod": {
         "第一次段考": 66,
@@ -2137,13 +2137,13 @@
       }
     },
     "lastRun": {
-      "runId": "2026-11-15-g6-natural-food-web-upper-semester-backfill",
-      "questionRecordsUpdated": 12,
-      "semesterAssigned": 12,
+      "runId": "2026-11-15-g6-natural-multi-unit-semester-backfill",
+      "questionRecordsUpdated": 7,
+      "semesterAssigned": 7,
       "examPeriodAssigned": 0,
       "publisherMappingsAdded": 0,
       "newQuestionsAdded": 0,
-      "classificationRuleVersion": "2026-11-15.54"
+      "classificationRuleVersion": "2026-11-15.55"
     },
     "validation": {
       "duplicateIds": 0,
@@ -2151,11 +2151,11 @@
       "invalidClassificationValues": 0,
       "mappingConsistencyErrors": 0,
       "rawBatchShaMatches": "34/34",
-      "incrementalFilterCombinations": 9000,
+      "incrementalFilterCombinations": 18900,
       "filterErrors": 0,
       "publisherFilterLeaks": 0,
       "browserOrMobileRuntimeTested": false
     },
-    "notes": "已完成第一輪ID／分類索引覆蓋盤點，但大量題目學期與段考仍未取得足夠依據；不得將欄位完整率視為學期／段考已全部判定。"
+    "notes": "第8至41批2,900題均有持久分類索引紀錄；學期與段考仍保留證據不足的unassigned，不將欄位完整率視為已判定。"
   }
 }
