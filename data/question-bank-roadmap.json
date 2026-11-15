@@ -2071,7 +2071,10 @@
       "pending": 6,
       "publisher-mapped": 179
     },
-    "nextPriority": "繼續分組處理國小六年級與高中高二尚未分類的既有題目；優先核對官方教材目次／教學資源，不足證據不掛出版社、不推段考。"
+    "nextPriority": "繼續分組處理國小六年級與高中高二尚未分類的既有題目；優先核對官方教材目次／教學資源，不足證據不掛出版社、不推段考。",
+    "incrementalFilterCombinations": 194400,
+    "filterErrors": 0,
+    "publisherFilterLeaks": 0
   },
   "duplicateCandidateAudit": {
     "auditedAt": "2026-11-14",
@@ -2191,7 +2194,7 @@
       "invalidClassificationValues": 0,
       "mappingConsistencyErrors": 0,
       "rawBatchShaMatches": "34/34",
-      "incrementalFilterCombinations": 16200,
+      "incrementalFilterCombinations": 194400,
       "filterErrors": 0,
       "publisherFilterLeaks": 0,
       "browserOrMobileRuntimeTested": false
