@@ -2503,30 +2503,30 @@
     "notes": "逐題依分類器v13實際輸出回寫；來源映射只使用中央16筆已核對資料。分類為題庫複習建議，非教師逐題審核或學校正式段考範圍。"
   },
   "mappingVerificationStatusCountsBatches08to40": {
-    "source-checked": 295,
+    "source-checked": 336,
     "official-index-link-only": 8
   },
   "mappingLevelCountsBatches08to40": {
     "unit": 158,
-    "volume": 132,
+    "volume": 173,
     "official-resource-title": 13
   },
   "publisherReferenceCountsBatches08to40": {
-    "hanlin": 267,
+    "hanlin": 308,
     "knsh": 7,
     "nani": 29
   },
   "mappingVerificationStatusCountsBatches30to40": {
-    "source-checked": 254,
+    "source-checked": 291,
     "official-index-link-only": 8
   },
   "mappingLevelCountsBatches30to40": {
     "unit": 141,
-    "volume": 108,
+    "volume": 145,
     "official-resource-title": 13
   },
   "publisherReferenceCountsBatches30to40": {
-    "hanlin": 226,
+    "hanlin": 263,
     "knsh": 7,
     "nani": 29
   },
@@ -2625,24 +2625,24 @@
     "pullRequestUrl": "https://github.com/toyoyogo-cloud/xiaoyu-xiaoyu-learning-app/pull/6"
   },
   "mappingVerificationStatusCountsBatches08to41": {
-    "source-checked": 354
+    "source-checked": 395
   },
   "publisherReferenceCountsBatches08to41": {
-    "hanlin": 235,
+    "hanlin": 276,
     "nani": 51,
     "knsh": 68
   },
   "mappingVerificationStatusCountsBatches30to41": {
-    "source-checked": 330
+    "source-checked": 367
   },
   "mappingLevelCountsBatches30to41": {
     "unit": 212,
-    "volume": 75,
+    "volume": 112,
     "official-resource-title": 43
   },
   "publisherReferenceCountsBatches30to41": {
     "nani": 49,
-    "hanlin": 219,
+    "hanlin": 256,
     "knsh": 62
   },
   "postBatch41Audit": {
@@ -2690,46 +2690,74 @@
     ]
   },
   "latestMainClassificationAudit": {
-    "runId": "2026-11-15-hanlin-h2-history-industrial-revolution-unit3-backfill-02",
+    "runId": "2026-11-15-hanlin-h2-physics-ii-volume-backfill-01",
     "date": "2026-11-15",
-    "sourceHeadBeforeRun": "5c7715887f752ce695ef9ad5181a396d2e5447c8",
+    "sourceHeadBeforeRun": "114125984efd19e6325a580ed3892c75314f6560",
     "batches": "08-41",
     "batchFileCount": 34,
     "fullCorpusQuestionCount": 2900,
     "activeScopeQuestionCount": 1864,
-    "questionRecordsUpdated": 11,
+    "questionRecordsUpdated": 41,
     "updatedQuestionIds": [
-      "b9-014",
-      "b11-018",
-      "b21-067",
-      "b25-078",
-      "b28-068",
-      "b29-073",
-      "b31-092",
-      "b33-090",
-      "b35-090",
-      "b36-090",
-      "b37-089"
+      "b26-069",
+      "b27-066",
+      "b28-073",
+      "b29-066",
+      "b30-069",
+      "b30-070",
+      "b30-071",
+      "b30-072",
+      "b30-073",
+      "b30-074",
+      "b30-075",
+      "b31-065",
+      "b31-066",
+      "b31-067",
+      "b31-068",
+      "b31-069",
+      "b31-070",
+      "b31-071",
+      "b31-072",
+      "b33-063",
+      "b33-064",
+      "b33-068",
+      "b33-069",
+      "b34-063",
+      "b34-065",
+      "b34-066",
+      "b35-063",
+      "b35-065",
+      "b35-066",
+      "b35-068",
+      "b35-069",
+      "b35-070",
+      "b36-063",
+      "b36-064",
+      "b36-065",
+      "b36-070",
+      "b37-063",
+      "b37-064",
+      "b37-065",
+      "b37-066",
+      "b37-070"
     ],
-    "semesterAssignments": {
-      "上學期": 11
-    },
+    "semesterAssignments": {},
     "examPeriodAssignments": 0,
-    "publisherMappingsAdded": 11,
+    "publisherMappingsAdded": 41,
     "centralMappingCount": 38,
-    "publisherMappingReferencesAdded": 11,
+    "publisherMappingReferencesAdded": 41,
     "publisherReferenceCounts": {
-      "hanlin": 235,
+      "hanlin": 276,
       "nani": 51,
       "knsh": 68
     },
     "mappingLevelCounts": {
       "unit": 225,
-      "volume": 83,
+      "volume": 124,
       "official-resource-title": 46
     },
     "mappingVerificationStatusCounts": {
-      "source-checked": 354
+      "source-checked": 395
     },
     "newQuestionsAdded": 0,
     "fullCorpusSemesterDistribution": {
@@ -2746,17 +2774,17 @@
     },
     "fullCorpusClassificationBasisDistribution": {
       "curriculum-core": 2311,
-      "question-bank-inference": 395,
-      "publisher-source-verified": 194
+      "question-bank-inference": 354,
+      "publisher-source-verified": 235
     },
     "fullCorpusPublisherStatusDistribution": {
-      "curriculum-core": 2589,
-      "publisher-mapped": 305,
+      "curriculum-core": 2548,
+      "publisher-mapped": 346,
       "pending": 6
     },
     "fullCorpusConfidenceDistribution": {
-      "low": 2274,
-      "medium": 598,
+      "low": 2233,
+      "medium": 639,
       "high": 28
     },
     "sourceBatchShasMatch": "34/34",
@@ -2769,22 +2797,22 @@
       "invalidClassificationValues": 0,
       "mappingReferenceErrors": 0,
       "sourceFieldErrors": 0,
-      "verifiedAtSnapshotDifferences": 59,
       "sourceBatchShasMatch": "34/34",
       "appReadsPersistedClassificationIndex": true,
-      "incrementalQuestionsChecked": 11,
-      "incrementalMappingReferencesChecked": 11,
+      "incrementalQuestionsChecked": 41,
+      "incrementalMappingReferencesChecked": 41,
       "publisherMappingLeaks": 0,
       "filterErrors": 0,
-      "filterCombinationsTested": 143,
-      "zeroResultConditionsTested": 99,
+      "filterCombinationsTested": 12,
+      "questionFilterCasesTested": 492,
+      "zeroResultConditionsTested": 8,
       "allUpdatedQuestionsReachable": true,
       "browserOrMobileRuntimeTested": false,
       "filterMethod": "index.html getPool predicate data-layer simulation",
-      "classifierResolverScopeMatches": 11,
+      "classifierResolverScopeMatches": 41,
       "classifierResolverScopeFailures": 0
     },
-    "notes": "依翰林高中歷史(3)官方課本頁與出版社官方參考書目次，將11題直接對應單元3工業革命與社會思潮；上學期、段考維持unassigned；學校採用版本與學年度未確認。"
+    "notes": "41題原始 sourceRef 直接指向翰林官方課本「選修物理(II)力學二與熱學」頁；官方頁明示高二、物理、上學期。題目均通過現有VOLUME_SCOPES與排除主題檢查，僅作冊別層級映射。先前因持久分類紀錄缺少courseType而被拒絕的來源，現已明確保存courseType=選修物理(II)後通過隔離檢查；段考維持unassigned。"
   },
   "classificationPersistenceRuns": "[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]1",
   "batch30ExtendedMetadataAudit": {
@@ -3477,60 +3505,70 @@
   },
   "latestFilterValidation": {
     "auditedAt": "2026-11-15",
-    "type": "hanlin-g6-natural-6a-volume-level-resolver-and-filter-validation",
-    "questionsChecked": 32,
+    "type": "hanlin-h2-physics-ii-volume-backfill-filter-validation",
+    "questionsChecked": 41,
     "questionIds": [
-      "b15-021",
-      "b15-022",
-      "b17-024",
-      "b18-023",
-      "b19-023",
-      "b24-032",
-      "b25-029",
-      "b25-030",
-      "b30-023",
-      "b30-025",
-      "b31-032",
-      "b31-036",
-      "b32-021",
-      "b32-027",
-      "b33-032",
-      "b33-033",
-      "b34-039",
-      "b35-033",
-      "b35-034",
-      "b35-038",
-      "b36-040",
-      "b37-034",
-      "b38-036",
-      "b38-039",
-      "b39-035",
-      "b40-033",
-      "b40-034",
-      "b40-037",
-      "b41-032",
-      "b41-033",
-      "b41-035",
-      "b41-039"
+      "b26-069",
+      "b27-066",
+      "b28-073",
+      "b29-066",
+      "b30-069",
+      "b30-070",
+      "b30-071",
+      "b30-072",
+      "b30-073",
+      "b30-074",
+      "b30-075",
+      "b31-065",
+      "b31-066",
+      "b31-067",
+      "b31-068",
+      "b31-069",
+      "b31-070",
+      "b31-071",
+      "b31-072",
+      "b33-063",
+      "b33-064",
+      "b33-068",
+      "b33-069",
+      "b34-063",
+      "b34-065",
+      "b34-066",
+      "b35-063",
+      "b35-065",
+      "b35-066",
+      "b35-068",
+      "b35-069",
+      "b35-070",
+      "b36-063",
+      "b36-064",
+      "b36-065",
+      "b36-070",
+      "b37-063",
+      "b37-064",
+      "b37-065",
+      "b37-066",
+      "b37-070"
     ],
-    "classifierResolverScopeMatches": 32,
-    "classifierResolverScopeFailures": 0,
-    "mappingReferencesChecked": 32,
+    "mappingReferencesChecked": 41,
     "allMappingReferencesResolve": true,
-    "gradeSubjectSemesterConsistent": true,
-    "unitClaimLevel": "volume-only; no unit claim",
+    "gradeSubjectSemesterCourseTypeConsistent": true,
+    "mappingLevel": "volume",
+    "courseType": "選修物理(II)",
     "examPeriodRemainsUnassigned": true,
     "publisherMappingReferenceCounts": {
-      "hanlin": 205,
+      "hanlin": 276,
       "nani": 51,
       "knsh": 68
     },
     "publisherMappingLeaks": 0,
     "filterErrors": 0,
-    "browserTested": false,
-    "filterCombinationsTested": 288,
+    "filterCombinationsTested": 12,
+    "questionFilterCasesTested": 492,
+    "zeroResultConditionsTested": 8,
     "allUpdatedQuestionsReachable": true,
-    "note": "依推定器範圍檢查與index.html getPool篩選條件執行資料層驗收；未執行瀏覽器／手機實機測試。"
+    "browserTested": false,
+    "note": "依現有VOLUME_SCOPES、ELECTIVE_COURSE_TYPES、validMappingForQuestion／mappingScopeMatches及index.html getPool條件完成資料層驗收；未執行瀏覽器／手機實機測試。"
   },
   "sourceVerificationLog": [
     {
@@ -4429,46 +4467,74 @@
     "notes": "重新開啟國北教大六年級自然單元目錄與兩筆教育部教育雲資源；只支持課程主題／學期推定，未新增出版社映射。"
   },
   "lastRunAudit": {
-    "runId": "2026-11-15-hanlin-h2-history-industrial-revolution-unit3-backfill-02",
+    "runId": "2026-11-15-hanlin-h2-physics-ii-volume-backfill-01",
     "date": "2026-11-15",
-    "sourceHeadBeforeRun": "5c7715887f752ce695ef9ad5181a396d2e5447c8",
+    "sourceHeadBeforeRun": "114125984efd19e6325a580ed3892c75314f6560",
     "batches": "08-41",
     "batchFileCount": 34,
     "fullCorpusQuestionCount": 2900,
     "activeScopeQuestionCount": 1864,
-    "questionRecordsUpdated": 11,
+    "questionRecordsUpdated": 41,
     "updatedQuestionIds": [
-      "b9-014",
-      "b11-018",
-      "b21-067",
-      "b25-078",
-      "b28-068",
-      "b29-073",
-      "b31-092",
-      "b33-090",
-      "b35-090",
-      "b36-090",
-      "b37-089"
+      "b26-069",
+      "b27-066",
+      "b28-073",
+      "b29-066",
+      "b30-069",
+      "b30-070",
+      "b30-071",
+      "b30-072",
+      "b30-073",
+      "b30-074",
+      "b30-075",
+      "b31-065",
+      "b31-066",
+      "b31-067",
+      "b31-068",
+      "b31-069",
+      "b31-070",
+      "b31-071",
+      "b31-072",
+      "b33-063",
+      "b33-064",
+      "b33-068",
+      "b33-069",
+      "b34-063",
+      "b34-065",
+      "b34-066",
+      "b35-063",
+      "b35-065",
+      "b35-066",
+      "b35-068",
+      "b35-069",
+      "b35-070",
+      "b36-063",
+      "b36-064",
+      "b36-065",
+      "b36-070",
+      "b37-063",
+      "b37-064",
+      "b37-065",
+      "b37-066",
+      "b37-070"
     ],
-    "semesterAssignments": {
-      "上學期": 11
-    },
+    "semesterAssignments": {},
     "examPeriodAssignments": 0,
-    "publisherMappingsAdded": 11,
+    "publisherMappingsAdded": 41,
     "centralMappingCount": 38,
-    "publisherMappingReferencesAdded": 11,
+    "publisherMappingReferencesAdded": 41,
     "publisherReferenceCounts": {
-      "hanlin": 235,
+      "hanlin": 276,
       "nani": 51,
       "knsh": 68
     },
     "mappingLevelCounts": {
       "unit": 225,
-      "volume": 83,
+      "volume": 124,
       "official-resource-title": 46
     },
     "mappingVerificationStatusCounts": {
-      "source-checked": 354
+      "source-checked": 395
     },
     "newQuestionsAdded": 0,
     "fullCorpusSemesterDistribution": {
@@ -4485,17 +4551,17 @@
     },
     "fullCorpusClassificationBasisDistribution": {
       "curriculum-core": 2311,
-      "question-bank-inference": 395,
-      "publisher-source-verified": 194
+      "question-bank-inference": 354,
+      "publisher-source-verified": 235
     },
     "fullCorpusPublisherStatusDistribution": {
-      "curriculum-core": 2589,
-      "publisher-mapped": 305,
+      "curriculum-core": 2548,
+      "publisher-mapped": 346,
       "pending": 6
     },
     "fullCorpusConfidenceDistribution": {
-      "low": 2274,
-      "medium": 598,
+      "low": 2233,
+      "medium": 639,
       "high": 28
     },
     "sourceBatchShasMatch": "34/34",
@@ -4508,22 +4574,22 @@
       "invalidClassificationValues": 0,
       "mappingReferenceErrors": 0,
       "sourceFieldErrors": 0,
-      "verifiedAtSnapshotDifferences": 59,
       "sourceBatchShasMatch": "34/34",
       "appReadsPersistedClassificationIndex": true,
-      "incrementalQuestionsChecked": 11,
-      "incrementalMappingReferencesChecked": 11,
+      "incrementalQuestionsChecked": 41,
+      "incrementalMappingReferencesChecked": 41,
       "publisherMappingLeaks": 0,
       "filterErrors": 0,
-      "filterCombinationsTested": 143,
-      "zeroResultConditionsTested": 99,
+      "filterCombinationsTested": 12,
+      "questionFilterCasesTested": 492,
+      "zeroResultConditionsTested": 8,
       "allUpdatedQuestionsReachable": true,
       "browserOrMobileRuntimeTested": false,
       "filterMethod": "index.html getPool predicate data-layer simulation",
-      "classifierResolverScopeMatches": 11,
+      "classifierResolverScopeMatches": 41,
       "classifierResolverScopeFailures": 0
     },
-    "notes": "依翰林高中歷史(3)官方課本頁與出版社官方參考書目次，將11題直接對應單元3工業革命與社會思潮；上學期、段考維持unassigned；學校採用版本與學年度未確認。"
+    "notes": "41題原始 sourceRef 直接指向翰林官方課本「選修物理(II)力學二與熱學」頁；官方頁明示高二、物理、上學期。題目均通過現有VOLUME_SCOPES與排除主題檢查，僅作冊別層級映射。先前因持久分類紀錄缺少courseType而被拒絕的來源，現已明確保存courseType=選修物理(II)後通過隔離檢查；段考維持unassigned。"
   },
   "latestMappingScopeCorrection": {
     "date": "2026-11-14",
@@ -4859,46 +4925,74 @@
     }
   ],
   "latestMainAudit": {
-    "runId": "2026-11-15-hanlin-h2-history-industrial-revolution-unit3-backfill-02",
+    "runId": "2026-11-15-hanlin-h2-physics-ii-volume-backfill-01",
     "date": "2026-11-15",
-    "sourceHeadBeforeRun": "5c7715887f752ce695ef9ad5181a396d2e5447c8",
+    "sourceHeadBeforeRun": "114125984efd19e6325a580ed3892c75314f6560",
     "batches": "08-41",
     "batchFileCount": 34,
     "fullCorpusQuestionCount": 2900,
     "activeScopeQuestionCount": 1864,
-    "questionRecordsUpdated": 11,
+    "questionRecordsUpdated": 41,
     "updatedQuestionIds": [
-      "b9-014",
-      "b11-018",
-      "b21-067",
-      "b25-078",
-      "b28-068",
-      "b29-073",
-      "b31-092",
-      "b33-090",
-      "b35-090",
-      "b36-090",
-      "b37-089"
+      "b26-069",
+      "b27-066",
+      "b28-073",
+      "b29-066",
+      "b30-069",
+      "b30-070",
+      "b30-071",
+      "b30-072",
+      "b30-073",
+      "b30-074",
+      "b30-075",
+      "b31-065",
+      "b31-066",
+      "b31-067",
+      "b31-068",
+      "b31-069",
+      "b31-070",
+      "b31-071",
+      "b31-072",
+      "b33-063",
+      "b33-064",
+      "b33-068",
+      "b33-069",
+      "b34-063",
+      "b34-065",
+      "b34-066",
+      "b35-063",
+      "b35-065",
+      "b35-066",
+      "b35-068",
+      "b35-069",
+      "b35-070",
+      "b36-063",
+      "b36-064",
+      "b36-065",
+      "b36-070",
+      "b37-063",
+      "b37-064",
+      "b37-065",
+      "b37-066",
+      "b37-070"
     ],
-    "semesterAssignments": {
-      "上學期": 11
-    },
+    "semesterAssignments": {},
     "examPeriodAssignments": 0,
-    "publisherMappingsAdded": 11,
+    "publisherMappingsAdded": 41,
     "centralMappingCount": 38,
-    "publisherMappingReferencesAdded": 11,
+    "publisherMappingReferencesAdded": 41,
     "publisherReferenceCounts": {
-      "hanlin": 235,
+      "hanlin": 276,
       "nani": 51,
       "knsh": 68
     },
     "mappingLevelCounts": {
       "unit": 225,
-      "volume": 83,
+      "volume": 124,
       "official-resource-title": 46
     },
     "mappingVerificationStatusCounts": {
-      "source-checked": 354
+      "source-checked": 395
     },
     "newQuestionsAdded": 0,
     "fullCorpusSemesterDistribution": {
@@ -4915,17 +5009,17 @@
     },
     "fullCorpusClassificationBasisDistribution": {
       "curriculum-core": 2311,
-      "question-bank-inference": 395,
-      "publisher-source-verified": 194
+      "question-bank-inference": 354,
+      "publisher-source-verified": 235
     },
     "fullCorpusPublisherStatusDistribution": {
-      "curriculum-core": 2589,
-      "publisher-mapped": 305,
+      "curriculum-core": 2548,
+      "publisher-mapped": 346,
       "pending": 6
     },
     "fullCorpusConfidenceDistribution": {
-      "low": 2274,
-      "medium": 598,
+      "low": 2233,
+      "medium": 639,
       "high": 28
     },
     "sourceBatchShasMatch": "34/34",
@@ -4938,22 +5032,22 @@
       "invalidClassificationValues": 0,
       "mappingReferenceErrors": 0,
       "sourceFieldErrors": 0,
-      "verifiedAtSnapshotDifferences": 59,
       "sourceBatchShasMatch": "34/34",
       "appReadsPersistedClassificationIndex": true,
-      "incrementalQuestionsChecked": 11,
-      "incrementalMappingReferencesChecked": 11,
+      "incrementalQuestionsChecked": 41,
+      "incrementalMappingReferencesChecked": 41,
       "publisherMappingLeaks": 0,
       "filterErrors": 0,
-      "filterCombinationsTested": 143,
-      "zeroResultConditionsTested": 99,
+      "filterCombinationsTested": 12,
+      "questionFilterCasesTested": 492,
+      "zeroResultConditionsTested": 8,
       "allUpdatedQuestionsReachable": true,
       "browserOrMobileRuntimeTested": false,
       "filterMethod": "index.html getPool predicate data-layer simulation",
-      "classifierResolverScopeMatches": 11,
+      "classifierResolverScopeMatches": 41,
       "classifierResolverScopeFailures": 0
     },
-    "notes": "依翰林高中歷史(3)官方課本頁與出版社官方參考書目次，將11題直接對應單元3工業革命與社會思潮；上學期、段考維持unassigned；學校採用版本與學年度未確認。"
+    "notes": "41題原始 sourceRef 直接指向翰林官方課本「選修物理(II)力學二與熱學」頁；官方頁明示高二、物理、上學期。題目均通過現有VOLUME_SCOPES與排除主題檢查，僅作冊別層級映射。先前因持久分類紀錄缺少courseType而被拒絕的來源，現已明確保存courseType=選修物理(II)後通過隔離檢查；段考維持unassigned。"
   },
   "statistics": {
     "auditedAt": "2026-11-15",
@@ -4980,37 +5074,37 @@
     },
     "classificationBasis": {
       "curriculum-core": 2311,
-      "question-bank-inference": 395,
-      "publisher-source-verified": 194,
+      "question-bank-inference": 354,
+      "publisher-source-verified": 235,
       "_total": 2900
     },
     "publisherStatus": {
-      "curriculum-core": 2589,
-      "publisher-mapped": 305,
+      "curriculum-core": 2548,
+      "publisher-mapped": 346,
       "pending": 6,
       "_total": 2900
     },
     "confidence": {
-      "low": 2274,
-      "medium": 598,
+      "low": 2233,
+      "medium": 639,
       "high": 28,
       "_total": 2900
     },
-    "publisherMappedQuestionCount": 305,
-    "publisherMappingReferenceCount": 354,
+    "publisherMappedQuestionCount": 346,
+    "publisherMappingReferenceCount": 395,
     "centralMappingRegistryCount": 38,
     "publisherReferenceCounts": {
-      "hanlin": 235,
+      "hanlin": 276,
       "nani": 51,
       "knsh": 68
     },
     "mappingLevelCounts": {
       "unit": 225,
-      "volume": 83,
+      "volume": 124,
       "official-resource-title": 46
     },
     "mappingVerificationStatus": {
-      "source-checked": 354
+      "source-checked": 395
     },
     "activeScope": {
       "questionCount": 1864,
@@ -5029,8 +5123,8 @@
         "_total": 1864
       },
       "publisherStatus": {
-        "curriculum-core": 1553,
-        "publisher-mapped": 305,
+        "curriculum-core": 1512,
+        "publisher-mapped": 346,
         "pending": 6,
         "_total": 1864
       }
@@ -5038,7 +5132,7 @@
   },
   "mappingLevelCountsBatches08to41": {
     "unit": 225,
-    "volume": 83,
+    "volume": 124,
     "official-resource-title": 46
   }
 }
