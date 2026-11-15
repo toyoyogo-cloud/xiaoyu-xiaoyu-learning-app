@@ -84,7 +84,7 @@
   "lastAudit": {
     "runId": "2026-11-15-hanlin-g6-natural-6a-volume-backfill-01",
     "date": "2026-11-15",
-    "sourceHeadBeforeRun": "bb7a2ee1d82ea24c4d4b91b0b8f4890ac788265c",
+    "sourceHeadBeforeRun": "9c333a39ecf962c40b8f6b760ee40afd86073bd3",
     "batches": "08-41",
     "batchFileCount": 34,
     "fullCorpusQuestionCount": 2900,
@@ -189,7 +189,9 @@
       "filterCombinationsTested": 288,
       "allUpdatedQuestionsReachable": true,
       "browserOrMobileRuntimeTested": false,
-      "filterMethod": "index.html getPool filter predicate data-layer simulation"
+      "filterMethod": "validMappingForQuestion + mappingScopeMatches + index.html getPool predicate data-layer simulation",
+      "classifierResolverScopeMatches": 32,
+      "classifierResolverScopeFailures": 0
     },
     "notes": "翰林官方課本頁只確認國小六年級自然上學期與冊別；32題只建立冊別層級映射，原有分類依據保留，段考unassigned。"
   },
@@ -243,14 +245,16 @@
   },
   "lastFilterDataAudit": {
     "date": "2026-11-15",
-    "type": "hanlin-g6-natural-6a-volume-level-filter-validation",
+    "type": "hanlin-g6-natural-6a-volume-level-resolver-and-filter-validation",
     "questionsChecked": 32,
+    "classifierResolverScopeMatches": 32,
+    "classifierResolverScopeFailures": 0,
     "filterCombinationsTested": 288,
     "allUpdatedQuestionsReachable": true,
     "publisherMappingLeaks": 0,
     "filterErrors": 0,
     "zeroResultConditionsTested": 224,
-    "notes": "依index.html getPool篩選條件執行資料層模擬；非瀏覽器實機測試。"
+    "notes": "依推定器validMappingForQuestion/mappingScopeMatches的實際規則核對32題冊別範圍，再依index.html getPool出版社、學期、段考、單元篩選條件進行資料層模擬；未執行瀏覽器實機測試。"
   },
   "lastRawTagAudit": {
     "date": "2026-11-14",
@@ -264,7 +268,7 @@
   "lastRunAudit": {
     "runId": "2026-11-15-hanlin-g6-natural-6a-volume-backfill-01",
     "date": "2026-11-15",
-    "sourceHeadBeforeRun": "bb7a2ee1d82ea24c4d4b91b0b8f4890ac788265c",
+    "sourceHeadBeforeRun": "9c333a39ecf962c40b8f6b760ee40afd86073bd3",
     "batches": "08-41",
     "batchFileCount": 34,
     "fullCorpusQuestionCount": 2900,
@@ -369,7 +373,9 @@
       "filterCombinationsTested": 288,
       "allUpdatedQuestionsReachable": true,
       "browserOrMobileRuntimeTested": false,
-      "filterMethod": "index.html getPool filter predicate data-layer simulation"
+      "filterMethod": "validMappingForQuestion + mappingScopeMatches + index.html getPool predicate data-layer simulation",
+      "classifierResolverScopeMatches": 32,
+      "classifierResolverScopeFailures": 0
     },
     "notes": "翰林官方課本頁只確認國小六年級自然上學期與冊別；32題只建立冊別層級映射，原有分類依據保留，段考unassigned。"
   },
