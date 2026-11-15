@@ -2,7 +2,7 @@
   "title": "題目分類持久索引",
   "schemaVersion": "1.1.0",
   "updatedAt": "2026-11-15",
-  "classificationRuleVersion": "2026-11-15.60",
+  "classificationRuleVersion": "2026-11-15.61",
   "sourceBranch": "main",
   "batchRange": "08-41",
   "batchFileCount": 34,
@@ -82,46 +82,169 @@
     "notes": "僅將原始批次已明確填入、而分類索引仍為unassigned的semester值同步至持久分類紀錄；classificationBasis設為question-bank-inference、confidence維持low。未改動examPeriod、publisherMappings或publisherStatus；未把題庫推定宣稱為官方或教師確認。"
   },
   "lastAudit": {
-    "auditedAt": "2026-11-15",
-    "sourceHeadBeforeRun": "add61024c0ea4299ba1ab37ed5ee530ecfc38b0e",
-    "batchRange": "08-41",
-    "batchFileCount": 34,
-    "questionCount": 2900,
-    "uniqueQuestionIds": 2900,
-    "duplicateIds": 0,
-    "missingIds": 0,
-    "extraIds": 0,
-    "requiredFieldComplete": 2900,
-    "missingRequiredFields": 0,
-    "invalidClassificationValues": 0,
-    "sourceBatchShasMatched": "34/34",
-    "publisherMappingSourceFieldErrors": 0,
-    "unresolvedCentralMappingReferences": 0
-  },
-  "lastMappingReferenceAudit": {
+    "runId": "2026-11-15-hanlin-g6-natural-6a-volume-backfill-01",
     "date": "2026-11-15",
-    "type": "main-sharded-classification-cross-reference-audit",
-    "classificationRecordCount": 2900,
+    "sourceHeadBeforeRun": "06be771f127187c77b1ab29372b6e919aff907f7",
+    "batches": "08-41",
+    "batchFileCount": 34,
+    "fullCorpusQuestionCount": 2900,
     "activeScopeQuestionCount": 1864,
-    "publisherMappedQuestionCount": 184,
-    "questionMappingReferenceCount": 214,
-    "centralMappingCount": 35,
-    "unresolvedCentralMappingReferences": 0,
-    "sourceFieldMismatches": 0,
-    "missingRequiredClassificationFields": 0,
+    "questionRecordsUpdated": 32,
+    "updatedQuestionIds": [
+      "b15-021",
+      "b15-022",
+      "b17-024",
+      "b18-023",
+      "b19-023",
+      "b24-032",
+      "b25-029",
+      "b25-030",
+      "b30-023",
+      "b30-025",
+      "b31-032",
+      "b31-036",
+      "b32-021",
+      "b32-027",
+      "b33-032",
+      "b33-033",
+      "b34-039",
+      "b35-033",
+      "b35-034",
+      "b35-038",
+      "b36-040",
+      "b37-034",
+      "b38-036",
+      "b38-039",
+      "b39-035",
+      "b40-033",
+      "b40-034",
+      "b40-037",
+      "b41-032",
+      "b41-033",
+      "b41-035",
+      "b41-039"
+    ],
+    "semesterAssignments": {},
+    "examPeriodAssignments": 0,
+    "publisherMappingsAdded": 32,
+    "centralMappingCount": 37,
+    "publisherMappingReferencesAdded": 32,
     "publisherReferenceCounts": {
       "nani": 51,
-      "hanlin": 95,
+      "hanlin": 205,
       "knsh": 68
     },
     "mappingLevelCounts": {
-      "unit": 168,
-      "official-resource-title": 46
+      "unit": 195,
+      "official-resource-title": 46,
+      "volume": 83
     },
+    "mappingVerificationStatusCounts": {
+      "source-checked": 324
+    },
+    "newQuestionsAdded": 0,
+    "fullCorpusSemesterDistribution": {
+      "unassigned": 2307,
+      "_total": 2900,
+      "上學期": 384,
+      "下學期": 135,
+      "全學年": 74
+    },
+    "fullCorpusExamPeriodDistribution": {
+      "unassigned": 2669,
+      "_total": 2900,
+      "第一次段考": 66,
+      "第二次段考": 71,
+      "第三次段考": 94
+    },
+    "fullCorpusClassificationBasisDistribution": {
+      "curriculum-core": 2322,
+      "_total": 2900,
+      "question-bank-inference": 395,
+      "publisher-source-verified": 183
+    },
+    "fullCorpusPublisherStatusDistribution": {
+      "curriculum-core": 2600,
+      "_total": 2900,
+      "pending": 6,
+      "publisher-mapped": 294
+    },
+    "fullCorpusConfidenceDistribution": {
+      "low": 2284,
+      "_total": 2900,
+      "medium": 588,
+      "high": 28
+    },
+    "sourceBatchShasMatch": "34/34",
+    "classificationRuleVersion": "2026-11-15.61",
+    "validation": {
+      "jsonParse": true,
+      "classificationRecords": 2900,
+      "uniqueIds": 2900,
+      "missingRequiredFields": 0,
+      "invalidClassificationValues": 0,
+      "mappingReferenceErrors": 0,
+      "sourceFieldErrors": 0,
+      "sourceBatchShasMatch": "34/34",
+      "appReadsPersistedClassificationIndex": true,
+      "incrementalQuestionsChecked": 32,
+      "incrementalMappingReferencesChecked": 32,
+      "publisherMappingLeaks": 0,
+      "filterErrors": 0,
+      "filterCombinationsTested": 0,
+      "allUpdatedQuestionsReachable": false,
+      "browserOrMobileRuntimeTested": false
+    },
+    "notes": "翰林官方課本頁明示國小六年級自然上學期，未列細分目次；32題只建立冊別層級映射。學期與單元仍保留原有課程／題庫依據，段考unassigned；未宣稱學校採用版本或教師審核。"
+  },
+  "lastMappingReferenceAudit": {
+    "date": "2026-11-15",
+    "type": "g6-natural-6a-volume-level-backfill",
+    "classificationRecordCount": 2900,
+    "publisherMappedQuestionCount": 294,
+    "questionMappingReferenceCount": 324,
+    "centralMappingCount": 37,
+    "unresolvedCentralMappingReferences": 0,
+    "sourceFieldMismatches": 0,
+    "missingRequiredClassificationFields": 0,
+    "updatedQuestionIds": [
+      "b15-021",
+      "b15-022",
+      "b17-024",
+      "b18-023",
+      "b19-023",
+      "b24-032",
+      "b25-029",
+      "b25-030",
+      "b30-023",
+      "b30-025",
+      "b31-032",
+      "b31-036",
+      "b32-021",
+      "b32-027",
+      "b33-032",
+      "b33-033",
+      "b34-039",
+      "b35-033",
+      "b35-034",
+      "b35-038",
+      "b36-040",
+      "b37-034",
+      "b38-036",
+      "b38-039",
+      "b39-035",
+      "b40-033",
+      "b40-034",
+      "b40-037",
+      "b41-032",
+      "b41-033",
+      "b41-035",
+      "b41-039"
+    ],
     "verificationCounts": {
-      "source-checked": 214
+      "source-checked": 324
     },
-    "notes": "在既有212筆映射參照上新增2筆翰林歷史(3)第5單元映射；214筆來源參照均有完整來源欄位，中央教材映射35筆。"
+    "notes": "新增32題國小六年級自然上學期翰林自然科學(6上)冊別層級映射；官方頁只確認年級、科目、學期與冊別，不宣稱細分單元、學校採用或段考範圍。"
   },
   "lastFilterDataAudit": {
     "auditedAt": "2026-11-15",
@@ -160,61 +283,101 @@
     "notes": "原始批次欄位d並非全庫一致的difficulty欄位。08-19與38-41批次多為難度標籤；20-25有2題d=閱讀理解對應questionType；26-31與32-37另有157筆d為生活情境、生活計算、單位換算等主題／題材描述，未與difficultyLevel、questionType、learningDomain或learningUnit直接相等。保留原始d不覆蓋；這157筆的difficultyLevel維持未標示，避免把題材標籤誤當難度。"
   },
   "lastRunAudit": {
-    "runId": "2026-11-15-hanlin-h2-history-western-imperialism-unit-backfill-01",
+    "runId": "2026-11-15-hanlin-g6-natural-6a-volume-backfill-01",
     "date": "2026-11-15",
-    "sourceHeadBeforeRun": "add61024c0ea4299ba1ab37ed5ee530ecfc38b0e",
+    "sourceHeadBeforeRun": "06be771f127187c77b1ab29372b6e919aff907f7",
     "batches": "08-41",
     "batchFileCount": 34,
     "fullCorpusQuestionCount": 2900,
     "activeScopeQuestionCount": 1864,
-    "questionRecordsUpdated": 2,
+    "questionRecordsUpdated": 32,
     "updatedQuestionIds": [
-      "b39-091",
-      "b41-092"
+      "b15-021",
+      "b15-022",
+      "b17-024",
+      "b18-023",
+      "b19-023",
+      "b24-032",
+      "b25-029",
+      "b25-030",
+      "b30-023",
+      "b30-025",
+      "b31-032",
+      "b31-036",
+      "b32-021",
+      "b32-027",
+      "b33-032",
+      "b33-033",
+      "b34-039",
+      "b35-033",
+      "b35-034",
+      "b35-038",
+      "b36-040",
+      "b37-034",
+      "b38-036",
+      "b38-039",
+      "b39-035",
+      "b40-033",
+      "b40-034",
+      "b40-037",
+      "b41-032",
+      "b41-033",
+      "b41-035",
+      "b41-039"
     ],
-    "semesterAssignments": {
-      "上學期": 2
-    },
+    "semesterAssignments": {},
     "examPeriodAssignments": 0,
-    "publisherMappingsAdded": 2,
-    "centralMappingCount": 35,
-    "publisherMappingReferencesAdded": 2,
+    "publisherMappingsAdded": 32,
+    "centralMappingCount": 37,
+    "publisherMappingReferencesAdded": 32,
     "publisherReferenceCounts": {
       "nani": 51,
-      "hanlin": 95,
+      "hanlin": 205,
       "knsh": 68
+    },
+    "mappingLevelCounts": {
+      "unit": 195,
+      "official-resource-title": 46,
+      "volume": 83
+    },
+    "mappingVerificationStatusCounts": {
+      "source-checked": 324
     },
     "newQuestionsAdded": 0,
     "fullCorpusSemesterDistribution": {
-      "unassigned": 2310,
-      "上學期": 381,
+      "unassigned": 2307,
+      "_total": 2900,
+      "上學期": 384,
       "下學期": 135,
       "全學年": 74
     },
     "fullCorpusExamPeriodDistribution": {
       "unassigned": 2669,
+      "_total": 2900,
       "第一次段考": 66,
       "第二次段考": 71,
       "第三次段考": 94
     },
     "fullCorpusClassificationBasisDistribution": {
-      "curriculum-core": 2325,
-      "question-bank-inference": 470,
-      "publisher-source-verified": 105,
-      "unassigned": 0
+      "curriculum-core": 2322,
+      "_total": 2900,
+      "question-bank-inference": 395,
+      "publisher-source-verified": 183
     },
     "fullCorpusPublisherStatusDistribution": {
-      "curriculum-core": 2710,
+      "curriculum-core": 2600,
+      "_total": 2900,
       "pending": 6,
-      "publisher-mapped": 184
+      "publisher-mapped": 294
     },
     "fullCorpusConfidenceDistribution": {
-      "low": 2361,
-      "medium": 511,
+      "low": 2284,
+      "_total": 2900,
+      "medium": 588,
       "high": 28
     },
-    "sourceBatchShasMatched": "34/34",
-    "classificationRuleVersion": "2026-11-15.58",
+    "sourceBatchShasMatch": "34/34",
+    "classificationRuleVersion": "2026-11-15.61",
     "validation": {
       "jsonParse": true,
       "classificationRecords": 2900,
@@ -225,15 +388,15 @@
       "sourceFieldErrors": 0,
       "sourceBatchShasMatch": "34/34",
       "appReadsPersistedClassificationIndex": true,
-      "incrementalQuestionsChecked": 2,
-      "incrementalMappingReferencesChecked": 2,
+      "incrementalQuestionsChecked": 32,
+      "incrementalMappingReferencesChecked": 32,
       "publisherMappingLeaks": 0,
       "filterErrors": 0,
-      "filterCombinationsTested": 768,
-      "allUpdatedQuestionsReachable": true,
+      "filterCombinationsTested": 0,
+      "allUpdatedQuestionsReachable": false,
       "browserOrMobileRuntimeTested": false
     },
-    "notes": "依翰林出版社配套評量本目次及官方課本頁，將兩題高二歷史帝國主義／十九世紀西方霸權題映射至歷史(3)上學期第5單元；不推定段考，不宣稱學校採用版本或教師審核。"
+    "notes": "翰林官方課本頁明示國小六年級自然上學期，未列細分目次；32題只建立冊別層級映射。學期與單元仍保留原有課程／題庫依據，段考unassigned；未宣稱學校採用版本或教師審核。"
   },
   "lastBatchClassificationReconciliation": {
     "date": "2026-11-15",
@@ -303,77 +466,77 @@
     "missingRequiredFields": 0,
     "invalidClassificationValues": 0,
     "semester": {
-      "unassigned": 2310,
+      "unassigned": 2307,
       "_total": 2900,
-      "上學期": 381,
-      "全學年": 74,
-      "下學期": 135
+      "上學期": 384,
+      "下學期": 135,
+      "全學年": 74
     },
     "examPeriod": {
       "unassigned": 2669,
       "_total": 2900,
-      "第三次段考": 94,
       "第一次段考": 66,
-      "第二次段考": 71
+      "第二次段考": 71,
+      "第三次段考": 94
     },
     "classificationBasis": {
-      "curriculum-core": 2325,
+      "curriculum-core": 2322,
       "_total": 2900,
       "question-bank-inference": 395,
-      "publisher-source-verified": 180
+      "publisher-source-verified": 183
     },
     "publisherStatus": {
-      "curriculum-core": 2635,
+      "curriculum-core": 2600,
       "_total": 2900,
       "pending": 6,
-      "publisher-mapped": 259
+      "publisher-mapped": 294
     },
     "confidence": {
-      "low": 2286,
+      "low": 2284,
       "_total": 2900,
-      "medium": 586,
+      "medium": 588,
       "high": 28
     },
-    "publisherMappedQuestionCount": 259,
-    "publisherMappingReferenceCount": 289,
-    "centralMappingRegistryCount": 35,
+    "publisherMappedQuestionCount": 294,
+    "publisherMappingReferenceCount": 324,
+    "centralMappingRegistryCount": 37,
     "publisherReferenceCounts": {
       "nani": 51,
-      "hanlin": 170,
+      "hanlin": 205,
       "knsh": 68
     },
     "mappingLevelCounts": {
-      "unit": 192,
+      "unit": 195,
       "official-resource-title": 46,
-      "volume": 51
+      "volume": 83
     },
     "mappingVerificationStatus": {
-      "source-checked": 289
+      "source-checked": 324
     },
     "activeScope": {
       "questionCount": 1864,
       "semester": {
-        "unassigned": 1274,
+        "unassigned": 1271,
         "_total": 1864,
-        "上學期": 381,
-        "全學年": 74,
-        "下學期": 135
+        "上學期": 384,
+        "下學期": 135,
+        "全學年": 74
       },
       "examPeriod": {
         "unassigned": 1633,
         "_total": 1864,
-        "第三次段考": 94,
         "第一次段考": 66,
-        "第二次段考": 71
+        "第二次段考": 71,
+        "第三次段考": 94
       },
       "publisherStatus": {
-        "curriculum-core": 1599,
+        "curriculum-core": 1564,
         "_total": 1864,
         "pending": 6,
-        "publisher-mapped": 259
+        "publisher-mapped": 294
       }
     }
   },
-  "sourceHeadVerified": "add61024c0ea4299ba1ab37ed5ee530ecfc38b0e",
-  "mainHeadVerifiedAt": "2026-11-15T05:40:57Z"
+  "sourceHeadVerified": "06be771f127187c77b1ab29372b6e919aff907f7",
+  "mainHeadVerifiedAt": "2026-11-15T16:44:00+08:00"
 }
