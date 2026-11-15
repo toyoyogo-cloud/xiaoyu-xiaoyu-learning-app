@@ -665,12 +665,13 @@
       "sourceType": "official-publisher",
       "sourceUrl": "https://books.hanlin.com.tw/product/1040111",
       "sourceTitle": "翰林書城－國小課本－自然科學(6上)",
-      "verifiedAt": "2026-11-15",
+      "verifiedAt": "2026-11-16",
       "verificationStatus": "source-checked",
-      "notes": "2026-11-15重新開啟翰林官方課本頁，明示科目自然、年級國小6年級、學期上學期及課本習作類別；未列具體單元目次。僅作冊別層級參考，不代表學校採用版本，也不表示已核對任何個別題目的單元或段考。",
+      "notes": "2026-11-16重新開啟翰林官方課本頁，明示科目自然、年級國小6年級、學期上學期及自然科學(6上)課本；頁面未提供細分目次。僅作冊別層級參考，不代表學校採用版本，也不表示已核對個別題目的單元或段考。",
       "courseType": "國小",
       "mappingLevel": "volume",
-      "schoolYear": "未標示"
+      "schoolYear": "未標示",
+      "scopeLimitNote": "此映射僅支持國小六年級、自然、上學期及自然科學(6上)冊別；未提供細分目次，不得推定任何特定題目單元。"
     },
     {
       "id": "hanlin-g6-natural-6b-volume",
@@ -2118,6 +2119,26 @@
       "verifiedAt": "2026-11-16",
       "verificationStatus": "source-checked",
       "notes": "翰林國小輔教行銷處發布的第50頁六年級版本對照表，明列單元3比與比值，並列翰林6上4、康軒6上5、南一6上5；學年度未標示。僅支持版本／單元／學期對照，不代表學校採用版本或正式段考範圍。"
+    },
+    {
+      "id": "hanlin-g6-natural-6a-textbook",
+      "publisher": "hanlin",
+      "sourceType": "official-publisher",
+      "sourceUrl": "https://books.hanlin.com.tw/product/1040111",
+      "sourceTitle": "翰林書城－國小課本－自然科學(6上)",
+      "verifiedAt": "2026-11-16",
+      "verificationStatus": "source-checked",
+      "notes": "官方商品頁明示科目自然、年級國小6年級、學期上學期及課本習作類別；未列具體單元目次，只能作冊別層級核對。"
+    },
+    {
+      "id": "knsh-g6-natural-114-curriculum-structure",
+      "publisher": "knsh",
+      "sourceType": "official-publisher-curriculum-brochure",
+      "sourceUrl": "https://945cloud.knsh.com.tw/E/promo/show/upload/material/4/114%281%29%E8%87%AA%E7%84%B6%E9%A0%98%E5%9F%9F%E6%96%87%E5%AE%A3.pdf",
+      "sourceTitle": "114康軒國小教材特色－自然領域文宣",
+      "verifiedAt": "2026-11-16",
+      "verificationStatus": "source-checked",
+      "notes": "官方文宣列出四上「好玩的電路」包含串聯、並聯；六上主題為「電磁作用」。此資料用於排除把四上電路單元誤掛為六年級康軒單元，不作六年級串聯／並聯題目的出版社映射，也不代表學校採用版本或段考範圍。"
     }
   ],
   "classificationAudit": {
@@ -2990,25 +3011,30 @@
     "pullRequestUrl": "https://github.com/toyoyogo-cloud/xiaoyu-xiaoyu-learning-app/pull/6"
   },
   "mappingVerificationStatusCountsBatches08to41": {
-    "source-checked": 461
+    "source-checked": 523,
+    "_total": 523
   },
   "publisherReferenceCountsBatches08to41": {
-    "hanlin": 297,
+    "hanlin": 359,
     "knsh": 100,
-    "nani": 64
+    "nani": 64,
+    "_total": 523
   },
   "mappingVerificationStatusCountsBatches30to41": {
-    "source-checked": 400
+    "source-checked": 452,
+    "_total": 452
   },
   "mappingLevelCountsBatches30to41": {
-    "unit": 249,
+    "unit": 301,
     "volume": 108,
-    "official-resource-title": 43
+    "official-resource-title": 43,
+    "_total": 452
   },
   "publisherReferenceCountsBatches30to41": {
-    "hanlin": 269,
-    "knsh": 72,
-    "nani": 59
+    "hanlin": 302,
+    "knsh": 91,
+    "nani": 59,
+    "_total": 452
   },
   "postBatch41Audit": {
     "auditedAt": "2026-11-13",
@@ -4698,6 +4724,46 @@
       ],
       "questionRecordsUpdated": 9,
       "notes": "翰林國小輔教行銷處官方帳號發布的六年級數學版本對照表第50頁明列「單元3 比與比值」；該表對應翰林版6上第4單元、康軒版6上第5單元、南一版6上第5單元。此為翰林部門發布的跨版本教材對照，學年度未標示；僅支持本單元的版本、單元及上學期對照，不代表三家各自課本詳情頁、任何學校採用版本或正式段考範圍。題目examPeriod仍沿用題庫既有「第一次段考」複習建議，並非官方或教師確認。"
+    },
+    {
+      "runId": "2026-11-16-g6-circuit-volume-scope-correction-01",
+      "verifiedAt": "2026-11-16",
+      "sourceChecks": [
+        {
+          "publisher": "hanlin",
+          "mappingIds": [
+            "hanlin-g6-natural-6a-volume"
+          ],
+          "sourceUrl": "https://books.hanlin.com.tw/product/1040111",
+          "sourceTitle": "翰林書城－國小課本－自然科學(6上)",
+          "verifiedScope": "官方頁確認自然、國小六年級、上學期及6上冊別；沒有細分目次，僅保留volume層級。"
+        },
+        {
+          "publisher": "knsh",
+          "mappingIds": [],
+          "sourceUrl": "https://945cloud.knsh.com.tw/E/promo/show/upload/material/4/114%281%29%E8%87%AA%E7%84%B6%E9%A0%98%E5%9F%9F%E6%96%87%E5%AE%A3.pdf",
+          "sourceTitle": "114康軒國小教材特色－自然領域文宣",
+          "verifiedScope": "官方文宣列四上「好玩的電路」包含串聯、並聯；六上主題列為「電磁作用」。不將此電路主題映射為康軒六年級單元。"
+        }
+      ],
+      "questionRecordsUpdated": 12,
+      "updatedQuestionIds": [
+        "b15-021",
+        "b17-024",
+        "b18-023",
+        "b19-023",
+        "b25-029",
+        "b30-023",
+        "b31-032",
+        "b33-032",
+        "b37-034",
+        "b38-036",
+        "b40-033",
+        "b41-032"
+      ],
+      "publisherMappingReferencesAdded": 0,
+      "publisherMappingReferencesRemoved": 0,
+      "notes": "修正12題六年級串聯／並聯電路題的分類說明，保留翰林6上冊別層級映射，但移除任何六上單元已核對的暗示；不新增康軒映射。semester依翰林6上冊別維持上學期，examPeriod維持unassigned。"
     }
   ],
   "high2MathCourseTrackAudit": {
@@ -4924,101 +4990,106 @@
     "notes": "核對翰林公民與社會(3)乙版課本商品頁、配套評量商品頁及出版社參考書目次第3頁；支持高二上學期及第4單元外部成本／外部效果政策對照。"
   },
   "lastRunAudit": {
-    "runId": "2026-11-16-hanlin-g6-math-ratio-cross-version-01",
+    "runId": "2026-11-16-g6-circuit-volume-scope-correction-01",
     "date": "2026-11-16",
-    "sourceHeadBeforeRun": "0735a47e1043eddbc4149de98c9ce02ae24c636d",
+    "sourceHeadBeforeRun": "ae56e7669dc6aba15150aa5eb4b5f23ce459789c",
     "batches": "08-41",
     "batchFileCount": 34,
     "fullCorpusQuestionCount": 2900,
     "activeScopeQuestionCount": 1864,
-    "questionRecordsUpdated": 9,
+    "questionRecordsUpdated": 12,
     "updatedQuestionIds": [
-      "b12-008",
-      "b20-028",
-      "b23-025",
-      "b30-012",
-      "b31-017",
-      "b33-020",
-      "b36-032",
-      "b40-025",
-      "b41-023"
+      "b15-021",
+      "b17-024",
+      "b18-023",
+      "b19-023",
+      "b25-029",
+      "b30-023",
+      "b31-032",
+      "b33-032",
+      "b37-034",
+      "b38-036",
+      "b40-033",
+      "b41-032"
     ],
     "semesterAssignments": 0,
     "examPeriodAssignments": 0,
-    "publisherMappingsAdded": 27,
-    "publisherMappingReferencesAdded": 27,
-    "centralMappingCount": 45,
+    "publisherMappingsAdded": 0,
+    "publisherMappingReferencesAdded": 0,
+    "publisherMappingReferencesRemoved": 0,
+    "centralMappingCount": 46,
     "publisherReferenceCounts": {
-      "hanlin": 297,
-      "knsh": 81,
+      "hanlin": 359,
+      "knsh": 100,
       "nani": 64,
-      "_total": 442
+      "_total": 523
     },
     "mappingLevelCounts": {
-      "unit": 276,
-      "volume": 120,
+      "volume": 132,
+      "unit": 345,
       "official-resource-title": 46,
-      "_total": 442
+      "_total": 523
     },
     "mappingVerificationStatusCounts": {
-      "source-checked": 442,
-      "_total": 442
+      "source-checked": 523,
+      "_total": 523
     },
     "newQuestionsAdded": 0,
     "fullCorpusSemesterDistribution": {
-      "unassigned": 2284,
       "上學期": 407,
-      "全學年": 74,
       "下學期": 135,
+      "全學年": 74,
+      "unassigned": 2284,
       "_total": 2900
     },
     "fullCorpusExamPeriodDistribution": {
-      "unassigned": 2669,
-      "第三次段考": 94,
       "第一次段考": 66,
       "第二次段考": 71,
+      "第三次段考": 94,
+      "unassigned": 2669,
       "_total": 2900
     },
     "fullCorpusClassificationBasisDistribution": {
+      "publisher-source-verified": 322,
+      "question-bank-inference": 282,
       "curriculum-core": 2296,
-      "question-bank-inference": 344,
-      "publisher-source-verified": 260,
+      "unassigned": 0,
       "_total": 2900
     },
     "fullCorpusPublisherStatusDistribution": {
-      "curriculum-core": 2527,
-      "publisher-mapped": 367,
+      "curriculum-core": 2465,
+      "publisher-mapped": 429,
       "pending": 6,
       "_total": 2900
     },
     "fullCorpusConfidenceDistribution": {
-      "low": 2223,
-      "medium": 645,
       "high": 32,
+      "medium": 707,
+      "low": 2161,
       "_total": 2900
     },
     "sourceBatchShasMatch": "34/34",
-    "classificationRuleVersion": "2026-11-16.67",
+    "classificationRuleVersion": "2026-11-16.71",
     "validation": {
       "jsonParse": true,
       "classificationRecords": 2900,
       "uniqueIds": 2900,
+      "duplicateIds": 0,
       "missingRequiredFields": 0,
       "invalidClassificationValues": 0,
       "mappingReferenceErrors": 0,
       "sourceFieldErrors": 0,
       "mappingScopeErrors": 0,
       "sourceBatchShasMatch": "34/34",
+      "updatedQuestionsChecked": 12,
+      "updatedQuestionIdsReachable": true,
+      "volumeLevelScopeChecks": 12,
+      "publisherLeakCheck": "data-level only: Hanlin volume reference retained; no Nani/康軒 mapping on the 12 target records",
       "appReadsPersistedClassificationIndex": true,
-      "incrementalQuestionsChecked": 9,
-      "incrementalMappingReferencesChecked": 27,
-      "incrementalFilterCombinationsTested": 1350,
-      "publisherMappingLeaks": 0,
-      "filterErrors": 0,
-      "allUpdatedQuestionsReachable": true,
+      "filterUiRuntimeTested": false,
       "browserOrMobileRuntimeTested": false
     },
-    "notes": "翰林國小輔教行銷處官方帳號發布的六年級數學版本對照表第50頁明列「單元3 比與比值」；該表對應翰林版6上第4單元、康軒版6上第5單元、南一版6上第5單元。此為翰林部門發布的跨版本教材對照，學年度未標示；僅支持本單元的版本、單元及上學期對照，不代表三家各自課本詳情頁、任何學校採用版本或正式段考範圍。題目examPeriod仍沿用題庫既有「第一次段考」複習建議，並非官方或教師確認。"
+    "notes": "重新核對翰林官方6上自然課本頁及康軒114自然領域教材特色PDF。12題保留翰林冊別層級映射，不宣稱串聯／並聯已對應六上特定單元；康軒PDF將串聯／並聯列在四上「好玩的電路」，不新增康軒六年級映射。段考全部維持unassigned；未新增題目。同步修正教材對照統計，避免沿用62題補映射前的舊數字。"
   },
   "latestMappingScopeCorrection": {
     "date": "2026-11-14",
@@ -5351,115 +5422,110 @@
     }
   ],
   "latestMainAudit": {
-    "runId": "2026-11-16-knsh-g6-math-base-comparison-cross-version-01",
+    "runId": "2026-11-16-g6-circuit-volume-scope-correction-01",
     "date": "2026-11-16",
-    "sourceHeadBeforeRun": "2ed5937db5fd948a0ef361a379c4219b989c0735",
+    "sourceHeadBeforeRun": "ae56e7669dc6aba15150aa5eb4b5f23ce459789c",
     "batches": "08-41",
     "batchFileCount": 34,
     "fullCorpusQuestionCount": 2900,
     "activeScopeQuestionCount": 1864,
-    "questionRecordsUpdated": 19,
+    "questionRecordsUpdated": 12,
     "updatedQuestionIds": [
-      "b36-019",
-      "b37-019",
-      "b37-020",
-      "b38-019",
-      "b38-020",
-      "b38-021",
-      "b38-022",
-      "b38-023",
-      "b39-019",
-      "b39-020",
-      "b39-021",
-      "b39-022",
-      "b40-019",
-      "b40-020",
-      "b40-021",
-      "b40-022",
-      "b41-017",
-      "b41-018",
-      "b41-019"
+      "b15-021",
+      "b17-024",
+      "b18-023",
+      "b19-023",
+      "b25-029",
+      "b30-023",
+      "b31-032",
+      "b33-032",
+      "b37-034",
+      "b38-036",
+      "b40-033",
+      "b41-032"
     ],
     "semesterAssignments": 0,
     "examPeriodAssignments": 0,
-    "publisherMappingsAdded": 19,
-    "publisherMappingReferencesAdded": 19,
+    "publisherMappingsAdded": 0,
+    "publisherMappingReferencesAdded": 0,
+    "publisherMappingReferencesRemoved": 0,
     "centralMappingCount": 46,
     "publisherReferenceCounts": {
-      "hanlin": 297,
+      "hanlin": 359,
       "knsh": 100,
       "nani": 64,
-      "_total": 461
+      "_total": 523
     },
     "mappingLevelCounts": {
-      "unit": 295,
-      "volume": 120,
+      "volume": 132,
+      "unit": 345,
       "official-resource-title": 46,
-      "_total": 461
+      "_total": 523
     },
     "mappingVerificationStatusCounts": {
-      "source-checked": 461,
-      "_total": 461
+      "source-checked": 523,
+      "_total": 523
     },
     "newQuestionsAdded": 0,
     "fullCorpusSemesterDistribution": {
-      "unassigned": 2284,
       "上學期": 407,
-      "全學年": 74,
       "下學期": 135,
+      "全學年": 74,
+      "unassigned": 2284,
       "_total": 2900
     },
     "fullCorpusExamPeriodDistribution": {
-      "unassigned": 2669,
-      "第三次段考": 94,
       "第一次段考": 66,
       "第二次段考": 71,
+      "第三次段考": 94,
+      "unassigned": 2669,
       "_total": 2900
     },
     "fullCorpusClassificationBasisDistribution": {
+      "publisher-source-verified": 322,
+      "question-bank-inference": 282,
       "curriculum-core": 2296,
-      "question-bank-inference": 344,
-      "publisher-source-verified": 260,
+      "unassigned": 0,
       "_total": 2900
     },
     "fullCorpusPublisherStatusDistribution": {
-      "curriculum-core": 2527,
-      "publisher-mapped": 367,
+      "curriculum-core": 2465,
+      "publisher-mapped": 429,
       "pending": 6,
       "_total": 2900
     },
     "fullCorpusConfidenceDistribution": {
-      "low": 2223,
-      "medium": 645,
       "high": 32,
+      "medium": 707,
+      "low": 2161,
       "_total": 2900
     },
     "sourceBatchShasMatch": "34/34",
-    "classificationRuleVersion": "2026-11-16.68",
+    "classificationRuleVersion": "2026-11-16.71",
     "validation": {
       "jsonParse": true,
       "classificationRecords": 2900,
       "uniqueIds": 2900,
+      "duplicateIds": 0,
       "missingRequiredFields": 0,
       "invalidClassificationValues": 0,
       "mappingReferenceErrors": 0,
       "sourceFieldErrors": 0,
       "mappingScopeErrors": 0,
       "sourceBatchShasMatch": "34/34",
+      "updatedQuestionsChecked": 12,
+      "updatedQuestionIdsReachable": true,
+      "volumeLevelScopeChecks": 12,
+      "publisherLeakCheck": "data-level only: Hanlin volume reference retained; no Nani/康軒 mapping on the 12 target records",
       "appReadsPersistedClassificationIndex": true,
-      "incrementalQuestionsChecked": 19,
-      "incrementalMappingReferencesChecked": 19,
-      "incrementalFilterCombinationsTested": 2850,
-      "publisherMappingLeaks": 0,
-      "filterErrors": 0,
-      "allUpdatedQuestionsReachable": true,
+      "filterUiRuntimeTested": false,
       "browserOrMobileRuntimeTested": false
     },
-    "notes": "依翰林國小輔教行銷處第50頁六年級版本對照表，單元6「兩量關係與比」對應康軒版6下第4單元；為19題直接涉及基準量／比較量的既有題目新增康軒映射。來源為翰林官方部門發布的跨版本對照表，並非康軒出版社自身課本詳情頁或學校採用證明。題目原有南一6下與翰林6上映射保留；康軒6下新增映射。學期依各出版社映射分開保存，段考維持unassigned；未新增題目。"
+    "notes": "重新核對翰林官方6上自然課本頁及康軒114自然領域教材特色PDF。12題保留翰林冊別層級映射，不宣稱串聯／並聯已對應六上特定單元；康軒PDF將串聯／並聯列在四上「好玩的電路」，不新增康軒六年級映射。段考全部維持unassigned；未新增題目。同步修正教材對照統計，避免沿用62題補映射前的舊數字。"
   },
   "statistics": {
     "auditedAt": "2026-11-16",
-    "sourceHeadBeforeRun": "2ed5937db5fd948a0ef361a379c4219b989c0735",
+    "sourceHeadBeforeRun": "ae56e7669dc6aba15150aa5eb4b5f23ce459789c",
     "questionCount": 2900,
     "uniqueQuestionIds": 2900,
     "batchFileCount": 34,
@@ -5467,81 +5533,86 @@
     "missingRequiredFields": 0,
     "invalidClassificationValues": 0,
     "semester": {
-      "unassigned": 2284,
       "上學期": 407,
-      "全學年": 74,
       "下學期": 135,
+      "全學年": 74,
+      "unassigned": 2284,
       "_total": 2900
     },
     "examPeriod": {
-      "unassigned": 2669,
-      "第三次段考": 94,
       "第一次段考": 66,
       "第二次段考": 71,
+      "第三次段考": 94,
+      "unassigned": 2669,
       "_total": 2900
     },
     "classificationBasis": {
+      "publisher-source-verified": 322,
+      "question-bank-inference": 282,
       "curriculum-core": 2296,
-      "question-bank-inference": 344,
-      "publisher-source-verified": 260,
+      "unassigned": 0,
       "_total": 2900
     },
     "publisherStatus": {
-      "curriculum-core": 2527,
-      "publisher-mapped": 367,
+      "curriculum-core": 2465,
+      "publisher-mapped": 429,
       "pending": 6,
       "_total": 2900
     },
     "confidence": {
-      "low": 2223,
-      "medium": 645,
       "high": 32,
+      "medium": 707,
+      "low": 2161,
       "_total": 2900
     },
-    "publisherMappedQuestionCount": 367,
-    "publisherMappingReferenceCount": 461,
+    "publisherMappedQuestionCount": 429,
+    "publisherMappingReferenceCount": 523,
     "centralMappingRegistryCount": 46,
     "publisherReferenceCounts": {
-      "hanlin": 297,
+      "hanlin": 359,
       "knsh": 100,
-      "nani": 64
+      "nani": 64,
+      "_total": 523
     },
     "mappingLevelCounts": {
-      "unit": 295,
-      "volume": 120,
-      "official-resource-title": 46
+      "volume": 132,
+      "unit": 345,
+      "official-resource-title": 46,
+      "_total": 523
     },
     "mappingVerificationStatus": {
-      "source-checked": 461
+      "source-checked": 523,
+      "_total": 523
     },
     "activeScope": {
       "questionCount": 1864,
       "semester": {
-        "unassigned": 1248,
         "上學期": 407,
-        "全學年": 74,
         "下學期": 135,
+        "全學年": 74,
+        "unassigned": 1248,
         "_total": 1864
       },
       "examPeriod": {
-        "unassigned": 1633,
-        "第三次段考": 94,
         "第一次段考": 66,
         "第二次段考": 71,
+        "第三次段考": 94,
+        "unassigned": 1633,
         "_total": 1864
       },
       "publisherStatus": {
-        "curriculum-core": 1491,
-        "publisher-mapped": 367,
+        "curriculum-core": 1429,
+        "publisher-mapped": 429,
         "pending": 6,
         "_total": 1864
       }
     }
   },
   "mappingLevelCountsBatches08to41": {
-    "unit": 295,
-    "volume": 120,
-    "official-resource-title": 46
+    "volume": 132,
+    "unit": 345,
+    "official-resource-title": 46,
+    "_total": 523
   },
   "mainClassificationAuditHistory": [
     {
@@ -6089,5 +6160,6 @@
       "sourceFieldsPreserved": true,
       "centralMappingCount": 39
     }
-  }
+  },
+  "classificationRuleVersion": "2026-11-16.71"
 }
