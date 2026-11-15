@@ -2625,24 +2625,24 @@
     "pullRequestUrl": "https://github.com/toyoyogo-cloud/xiaoyu-xiaoyu-learning-app/pull/6"
   },
   "mappingVerificationStatusCountsBatches08to41": {
-    "source-checked": 395
+    "source-checked": 398
   },
   "publisherReferenceCountsBatches08to41": {
-    "hanlin": 276,
+    "hanlin": 279,
     "nani": 51,
     "knsh": 68
   },
   "mappingVerificationStatusCountsBatches30to41": {
-    "source-checked": 367
+    "source-checked": 368
   },
   "mappingLevelCountsBatches30to41": {
-    "unit": 212,
+    "unit": 213,
     "volume": 112,
     "official-resource-title": 43
   },
   "publisherReferenceCountsBatches30to41": {
+    "hanlin": 257,
     "nani": 49,
-    "hanlin": 256,
     "knsh": 62
   },
   "postBatch41Audit": {
@@ -2690,74 +2690,71 @@
     ]
   },
   "latestMainClassificationAudit": {
-    "runId": "2026-11-15-hanlin-h2-history-industrial-revolution-unit3-backfill-02",
+    "runId": "2026-11-15-hanlin-h2-history-cold-war-unit7-backfill-03",
     "date": "2026-11-15",
-    "sourceHeadBeforeRun": "5c7715887f752ce695ef9ad5181a396d2e5447c8",
+    "sourceHeadBeforeRun": "ef174bc8d24d8b91650bc63b12822d26eecf1502",
     "batches": "08-41",
     "batchFileCount": 34,
     "fullCorpusQuestionCount": 2900,
     "activeScopeQuestionCount": 1864,
-    "questionRecordsUpdated": 11,
+    "questionRecordsUpdated": 3,
     "updatedQuestionIds": [
-      "b9-014",
-      "b11-018",
-      "b21-067",
-      "b25-078",
-      "b28-068",
-      "b29-073",
-      "b31-092",
-      "b33-090",
-      "b35-090",
-      "b36-090",
-      "b37-089"
+      "b16-069",
+      "b20-067",
+      "b32-091"
     ],
     "semesterAssignments": {
-      "上學期": 11
+      "上學期": 3
     },
     "examPeriodAssignments": 0,
-    "publisherMappingsAdded": 11,
+    "publisherMappingsAdded": 3,
     "centralMappingCount": 38,
-    "publisherMappingReferencesAdded": 11,
+    "publisherMappingReferencesAdded": 3,
     "publisherReferenceCounts": {
-      "hanlin": 235,
+      "hanlin": 279,
       "nani": 51,
       "knsh": 68
     },
     "mappingLevelCounts": {
-      "unit": 225,
-      "volume": 83,
+      "unit": 228,
+      "volume": 124,
       "official-resource-title": 46
     },
     "mappingVerificationStatusCounts": {
-      "source-checked": 354
+      "source-checked": 398
     },
     "newQuestionsAdded": 0,
     "fullCorpusSemesterDistribution": {
-      "unassigned": 2296,
-      "上學期": 395,
+      "unassigned": 2293,
+      "上學期": 398,
       "全學年": 74,
-      "下學期": 135
+      "下學期": 135,
+      "_total": 2900
     },
     "fullCorpusExamPeriodDistribution": {
       "unassigned": 2669,
       "第三次段考": 94,
       "第一次段考": 66,
-      "第二次段考": 71
+      "第二次段考": 71,
+      "_total": 2900
     },
     "fullCorpusClassificationBasisDistribution": {
-      "curriculum-core": 2311,
-      "question-bank-inference": 395,
-      "publisher-source-verified": 194
+      "curriculum-core": 2308,
+      "question-bank-inference": 354,
+      "publisher-source-verified": 238,
+      "_total": 2900
     },
     "fullCorpusPublisherStatusDistribution": {
-      "curriculum-core": 2589,
-      "publisher-mapped": 305,
-      "pending": 6
+      "curriculum-core": 2545,
+      "publisher-mapped": 349,
+      "pending": 6,
+      "_total": 2900
     },
     "fullCorpusConfidenceDistribution": {
-      "low": 2274,
-      "medium": 598,
-      "high": 28
+      "low": 2230,
+      "medium": 642,
+      "high": 28,
+      "_total": 2900
     },
     "sourceBatchShasMatch": "34/34",
     "classificationRuleVersion": "2026-11-15.63",
@@ -2769,22 +2766,22 @@
       "invalidClassificationValues": 0,
       "mappingReferenceErrors": 0,
       "sourceFieldErrors": 0,
-      "verifiedAtSnapshotDifferences": 59,
       "sourceBatchShasMatch": "34/34",
       "appReadsPersistedClassificationIndex": true,
-      "incrementalQuestionsChecked": 11,
-      "incrementalMappingReferencesChecked": 11,
+      "incrementalQuestionsChecked": 3,
+      "incrementalMappingReferencesChecked": 3,
       "publisherMappingLeaks": 0,
       "filterErrors": 0,
-      "filterCombinationsTested": 143,
-      "zeroResultConditionsTested": 99,
+      "filterCombinationsTested": 24,
+      "questionFilterCasesTested": 24,
+      "zeroResultConditionsTested": 18,
       "allUpdatedQuestionsReachable": true,
       "browserOrMobileRuntimeTested": false,
       "filterMethod": "index.html getPool predicate data-layer simulation",
-      "classifierResolverScopeMatches": 11,
+      "classifierResolverScopeMatches": 3,
       "classifierResolverScopeFailures": 0
     },
-    "notes": "依翰林高中歷史(3)官方課本頁與出版社官方參考書目次，將11題直接對應單元3工業革命與社會思潮；上學期、段考維持unassigned；學校採用版本與學年度未確認。"
+    "notes": "重新開啟翰林高中課本歷史(3)官方商品頁與翰林高中參考書第3頁目次；將3題直接詢問冷戰初期美國圍堵政策的高二歷史題映射至單元7「冷戰期間的世界局勢」。官方課本頁確認高二歷史上學期，目次來源為出版社配套參考書，非主課本完整目次；信心medium，段考unassigned，學校採用版本及學年度未確認。"
   },
   "classificationPersistenceRuns": "[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]1",
   "batch30ExtendedMetadataAudit": {
@@ -2934,15 +2931,15 @@
   },
   "fullCorpusMappingValidation": {
     "auditedAt": "2026-11-15",
-    "mappingReferences": 158,
-    "centralRegistryCount": 22,
-    "registryReferencesFound": 158,
+    "mappingReferences": 398,
+    "centralRegistryCount": 38,
+    "registryReferencesFound": 398,
     "missingRegistryReferences": 0,
     "sourceFieldErrors": 0,
     "courseTypeErrors": 0,
     "unitOrVolumeScopeErrors": 0,
-    "result": "158/158題目映射可追溯至中央登錄表；新增5筆康軒六上自然天氣單元映射，均限精確單元標籤。",
-    "limitation": "新映射來源為教育部教育雲平台上的教師編製教學設計，明示康軒版六上自然第一單元；不等同出版社完整課本目次或學校採用證明。"
+    "result": "398/398題目映射參照可追溯至38筆中央登錄表；來源欄位、課程類型及冊別／單元範圍錯誤0。",
+    "limitation": "出版社來源只支持已明列的年級、科目、學期及單元／冊別層級；不代表學校採用版本或正式段考範圍。"
   },
   "batch08UsageAudit": {
     "auditedAt": "2026-11-13",
@@ -3477,70 +3474,22 @@
   },
   "latestFilterValidation": {
     "auditedAt": "2026-11-15",
-    "type": "hanlin-h2-physics-ii-volume-backfill-filter-validation",
-    "questionsChecked": 41,
+    "type": "hanlin-h2-history-3-unit7-cold-war-filter-validation",
+    "questionsChecked": 3,
     "questionIds": [
-      "b26-069",
-      "b27-066",
-      "b28-073",
-      "b29-066",
-      "b30-069",
-      "b30-070",
-      "b30-071",
-      "b30-072",
-      "b30-073",
-      "b30-074",
-      "b30-075",
-      "b31-065",
-      "b31-066",
-      "b31-067",
-      "b31-068",
-      "b31-069",
-      "b31-070",
-      "b31-071",
-      "b31-072",
-      "b33-063",
-      "b33-064",
-      "b33-068",
-      "b33-069",
-      "b34-063",
-      "b34-065",
-      "b34-066",
-      "b35-063",
-      "b35-065",
-      "b35-066",
-      "b35-068",
-      "b35-069",
-      "b35-070",
-      "b36-063",
-      "b36-064",
-      "b36-065",
-      "b36-070",
-      "b37-063",
-      "b37-064",
-      "b37-065",
-      "b37-066",
-      "b37-070"
+      "b16-069",
+      "b20-067",
+      "b32-091"
     ],
-    "mappingReferencesChecked": 41,
-    "allMappingReferencesResolve": true,
-    "gradeSubjectSemesterCourseTypeConsistent": true,
-    "mappingLevel": "volume",
-    "courseType": "選修物理(II)",
-    "examPeriodRemainsUnassigned": true,
-    "publisherMappingReferenceCounts": {
-      "hanlin": 276,
-      "nani": 51,
-      "knsh": 68
-    },
+    "mappingReferencesChecked": 3,
     "publisherMappingLeaks": 0,
     "filterErrors": 0,
-    "filterCombinationsTested": 12,
-    "questionFilterCasesTested": 492,
-    "zeroResultConditionsTested": 8,
+    "filterCombinationsTested": 24,
+    "zeroResultConditionsTested": 18,
     "allUpdatedQuestionsReachable": true,
+    "appReadsPersistedClassificationIndex": true,
     "browserTested": false,
-    "note": "依現有VOLUME_SCOPES、ELECTIVE_COURSE_TYPES、validMappingForQuestion／mappingScopeMatches及index.html getPool條件完成資料層驗收；未執行瀏覽器／手機實機測試。"
+    "note": "依index.html getPool現行條件順序完成24組資料層測試；含翰林／南一／康軒、共同核心、待核對、學期及段考條件。非瀏覽器／手機實機測試。"
   },
   "sourceVerificationLog": [
     {
@@ -4404,52 +4353,33 @@
   },
   "latestMappingReferenceAudit": {
     "date": "2026-11-15",
-    "type": "g6-natural-6a-volume-level-backfill",
+    "type": "hanlin-h2-history-3-unit7-cold-war-backfill",
     "classificationRecordCount": 2900,
-    "publisherMappedQuestionCount": 294,
-    "questionMappingReferenceCount": 324,
-    "centralMappingCount": 37,
+    "publisherMappedQuestionCount": 349,
+    "questionMappingReferenceCount": 398,
+    "centralMappingCount": 38,
     "unresolvedCentralMappingReferences": 0,
     "sourceFieldMismatches": 0,
+    "verifiedAtSnapshotDifferences": 59,
     "missingRequiredClassificationFields": 0,
     "updatedQuestionIds": [
-      "b15-021",
-      "b15-022",
-      "b17-024",
-      "b18-023",
-      "b19-023",
-      "b24-032",
-      "b25-029",
-      "b25-030",
-      "b30-023",
-      "b30-025",
-      "b31-032",
-      "b31-036",
-      "b32-021",
-      "b32-027",
-      "b33-032",
-      "b33-033",
-      "b34-039",
-      "b35-033",
-      "b35-034",
-      "b35-038",
-      "b36-040",
-      "b37-034",
-      "b38-036",
-      "b38-039",
-      "b39-035",
-      "b40-033",
-      "b40-034",
-      "b40-037",
-      "b41-032",
-      "b41-033",
-      "b41-035",
-      "b41-039"
+      "b16-069",
+      "b20-067",
+      "b32-091"
     ],
     "verificationCounts": {
-      "source-checked": 324
+      "source-checked": 398
     },
-    "notes": "32題新增翰林自然科學(6上)冊別層級映射；只確認年級、科目、學期與冊別，不冒稱單元已核對。"
+    "publisherReferenceCounts": {
+      "hanlin": 279,
+      "nani": 51,
+      "knsh": 68
+    },
+    "mappingLevelCounts": {
+      "unit": 228,
+      "volume": 124,
+      "official-resource-title": 46
+    }
   },
   "lastSourceVerificationAudit": {
     "date": "2026-11-15",
@@ -4708,7 +4638,7 @@
     "sourceRegistryIds": [
       "hanlin-h2-history-3-u7-cold-war"
     ],
-    "notes": "依翰林高中歷史(3)官方課本頁與出版社官方參考書目次，將11題直接對應單元3工業革命與社會思潮；上學期、段考維持unassigned；學校採用版本與學年度未確認。"
+    "notes": "重新開啟翰林高中課本歷史(3)官方商品頁與翰林高中參考書第3頁目次；將3題直接詢問冷戰初期美國圍堵政策的高二歷史題映射至單元7「冷戰期間的世界局勢」。官方課本頁確認高二歷史上學期，目次來源為出版社配套參考書，非主課本完整目次；信心medium，段考unassigned，學校採用版本及學年度未確認。"
   },
   "latestCurriculumUnitClassification": {
     "runId": "2026-11-15-hanlin-h2-history-industrial-revolution-unit3-backfill-02",
@@ -4940,78 +4870,75 @@
       "sourceRegistryIds": [
         "hanlin-h2-history-3-u7-cold-war"
       ],
-      "notes": "依翰林高中歷史(3)官方課本頁與出版社官方參考書目次，將11題直接對應單元3工業革命與社會思潮；上學期、段考維持unassigned；學校採用版本與學年度未確認。"
+      "notes": "重新開啟翰林高中課本歷史(3)官方商品頁與翰林高中參考書第3頁目次；將3題直接詢問冷戰初期美國圍堵政策的高二歷史題映射至單元7「冷戰期間的世界局勢」。官方課本頁確認高二歷史上學期，目次來源為出版社配套參考書，非主課本完整目次；信心medium，段考unassigned，學校採用版本及學年度未確認。"
     }
   ],
   "latestMainAudit": {
-    "runId": "2026-11-15-hanlin-h2-history-industrial-revolution-unit3-backfill-02",
+    "runId": "2026-11-15-hanlin-h2-history-cold-war-unit7-backfill-03",
     "date": "2026-11-15",
-    "sourceHeadBeforeRun": "5c7715887f752ce695ef9ad5181a396d2e5447c8",
+    "sourceHeadBeforeRun": "ef174bc8d24d8b91650bc63b12822d26eecf1502",
     "batches": "08-41",
     "batchFileCount": 34,
     "fullCorpusQuestionCount": 2900,
     "activeScopeQuestionCount": 1864,
-    "questionRecordsUpdated": 11,
+    "questionRecordsUpdated": 3,
     "updatedQuestionIds": [
-      "b9-014",
-      "b11-018",
-      "b21-067",
-      "b25-078",
-      "b28-068",
-      "b29-073",
-      "b31-092",
-      "b33-090",
-      "b35-090",
-      "b36-090",
-      "b37-089"
+      "b16-069",
+      "b20-067",
+      "b32-091"
     ],
     "semesterAssignments": {
-      "上學期": 11
+      "上學期": 3
     },
     "examPeriodAssignments": 0,
-    "publisherMappingsAdded": 11,
+    "publisherMappingsAdded": 3,
     "centralMappingCount": 38,
-    "publisherMappingReferencesAdded": 11,
+    "publisherMappingReferencesAdded": 3,
     "publisherReferenceCounts": {
-      "hanlin": 235,
+      "hanlin": 279,
       "nani": 51,
       "knsh": 68
     },
     "mappingLevelCounts": {
-      "unit": 225,
-      "volume": 83,
+      "unit": 228,
+      "volume": 124,
       "official-resource-title": 46
     },
     "mappingVerificationStatusCounts": {
-      "source-checked": 354
+      "source-checked": 398
     },
     "newQuestionsAdded": 0,
     "fullCorpusSemesterDistribution": {
-      "unassigned": 2296,
-      "上學期": 395,
+      "unassigned": 2293,
+      "上學期": 398,
       "全學年": 74,
-      "下學期": 135
+      "下學期": 135,
+      "_total": 2900
     },
     "fullCorpusExamPeriodDistribution": {
       "unassigned": 2669,
       "第三次段考": 94,
       "第一次段考": 66,
-      "第二次段考": 71
+      "第二次段考": 71,
+      "_total": 2900
     },
     "fullCorpusClassificationBasisDistribution": {
-      "curriculum-core": 2311,
-      "question-bank-inference": 395,
-      "publisher-source-verified": 194
+      "curriculum-core": 2308,
+      "question-bank-inference": 354,
+      "publisher-source-verified": 238,
+      "_total": 2900
     },
     "fullCorpusPublisherStatusDistribution": {
-      "curriculum-core": 2589,
-      "publisher-mapped": 305,
-      "pending": 6
+      "curriculum-core": 2545,
+      "publisher-mapped": 349,
+      "pending": 6,
+      "_total": 2900
     },
     "fullCorpusConfidenceDistribution": {
-      "low": 2274,
-      "medium": 598,
-      "high": 28
+      "low": 2230,
+      "medium": 642,
+      "high": 28,
+      "_total": 2900
     },
     "sourceBatchShasMatch": "34/34",
     "classificationRuleVersion": "2026-11-15.63",
@@ -5023,26 +4950,26 @@
       "invalidClassificationValues": 0,
       "mappingReferenceErrors": 0,
       "sourceFieldErrors": 0,
-      "verifiedAtSnapshotDifferences": 59,
       "sourceBatchShasMatch": "34/34",
       "appReadsPersistedClassificationIndex": true,
-      "incrementalQuestionsChecked": 11,
-      "incrementalMappingReferencesChecked": 11,
+      "incrementalQuestionsChecked": 3,
+      "incrementalMappingReferencesChecked": 3,
       "publisherMappingLeaks": 0,
       "filterErrors": 0,
-      "filterCombinationsTested": 143,
-      "zeroResultConditionsTested": 99,
+      "filterCombinationsTested": 24,
+      "questionFilterCasesTested": 24,
+      "zeroResultConditionsTested": 18,
       "allUpdatedQuestionsReachable": true,
       "browserOrMobileRuntimeTested": false,
       "filterMethod": "index.html getPool predicate data-layer simulation",
-      "classifierResolverScopeMatches": 11,
+      "classifierResolverScopeMatches": 3,
       "classifierResolverScopeFailures": 0
     },
-    "notes": "依翰林高中歷史(3)官方課本頁與出版社官方參考書目次，將11題直接對應單元3工業革命與社會思潮；上學期、段考維持unassigned；學校採用版本與學年度未確認。"
+    "notes": "重新開啟翰林高中課本歷史(3)官方商品頁與翰林高中參考書第3頁目次；將3題直接詢問冷戰初期美國圍堵政策的高二歷史題映射至單元7「冷戰期間的世界局勢」。官方課本頁確認高二歷史上學期，目次來源為出版社配套參考書，非主課本完整目次；信心medium，段考unassigned，學校採用版本及學年度未確認。"
   },
   "statistics": {
     "auditedAt": "2026-11-15",
-    "sourceHeadBeforeRun": "5c7715887f752ce695ef9ad5181a396d2e5447c8",
+    "sourceHeadBeforeRun": "44116942994c22e9f3847c4391c01d1b93729fea",
     "questionCount": 2900,
     "uniqueQuestionIds": 2900,
     "batchFileCount": 34,
@@ -5050,8 +4977,8 @@
     "missingRequiredFields": 0,
     "invalidClassificationValues": 0,
     "semester": {
-      "unassigned": 2296,
-      "上學期": 395,
+      "unassigned": 2293,
+      "上學期": 398,
       "全學年": 74,
       "下學期": 135,
       "_total": 2900
@@ -5064,44 +4991,44 @@
       "_total": 2900
     },
     "classificationBasis": {
-      "curriculum-core": 2311,
+      "curriculum-core": 2308,
       "question-bank-inference": 354,
-      "publisher-source-verified": 235,
+      "publisher-source-verified": 238,
       "_total": 2900
     },
     "publisherStatus": {
-      "curriculum-core": 2548,
-      "publisher-mapped": 346,
+      "curriculum-core": 2545,
+      "publisher-mapped": 349,
       "pending": 6,
       "_total": 2900
     },
     "confidence": {
-      "low": 2233,
-      "medium": 639,
+      "low": 2230,
+      "medium": 642,
       "high": 28,
       "_total": 2900
     },
-    "publisherMappedQuestionCount": 346,
-    "publisherMappingReferenceCount": 395,
+    "publisherMappedQuestionCount": 349,
+    "publisherMappingReferenceCount": 398,
     "centralMappingRegistryCount": 38,
     "publisherReferenceCounts": {
-      "hanlin": 276,
+      "hanlin": 279,
       "nani": 51,
       "knsh": 68
     },
     "mappingLevelCounts": {
-      "unit": 225,
+      "unit": 228,
       "volume": 124,
       "official-resource-title": 46
     },
     "mappingVerificationStatus": {
-      "source-checked": 395
+      "source-checked": 398
     },
     "activeScope": {
       "questionCount": 1864,
       "semester": {
-        "unassigned": 1260,
-        "上學期": 395,
+        "unassigned": 1257,
+        "上學期": 398,
         "全學年": 74,
         "下學期": 135,
         "_total": 1864
@@ -5114,15 +5041,15 @@
         "_total": 1864
       },
       "publisherStatus": {
-        "curriculum-core": 1512,
-        "publisher-mapped": 346,
+        "curriculum-core": 1509,
+        "publisher-mapped": 349,
         "pending": 6,
         "_total": 1864
       }
     }
   },
   "mappingLevelCountsBatches08to41": {
-    "unit": 225,
+    "unit": 228,
     "volume": 124,
     "official-resource-title": 46
   },
@@ -5348,6 +5275,100 @@
         "classifierResolverScopeFailures": 0
       },
       "notes": "依翰林高中歷史(3)官方課本頁與出版社官方參考書目次，將11題直接對應單元3工業革命與社會思潮；上學期、段考維持unassigned；學校採用版本與學年度未確認。"
+    },
+    {
+      "runId": "2026-11-15-hanlin-h2-history-cold-war-unit7-backfill-03",
+      "date": "2026-11-15",
+      "sourceHeadBeforeRun": "ef174bc8d24d8b91650bc63b12822d26eecf1502",
+      "batches": "08-41",
+      "batchFileCount": 34,
+      "fullCorpusQuestionCount": 2900,
+      "activeScopeQuestionCount": 1864,
+      "questionRecordsUpdated": 3,
+      "updatedQuestionIds": [
+        "b16-069",
+        "b20-067",
+        "b32-091"
+      ],
+      "semesterAssignments": {
+        "上學期": 3
+      },
+      "examPeriodAssignments": 0,
+      "publisherMappingsAdded": 3,
+      "centralMappingCount": 38,
+      "publisherMappingReferencesAdded": 3,
+      "publisherReferenceCounts": {
+        "hanlin": 279,
+        "nani": 51,
+        "knsh": 68
+      },
+      "mappingLevelCounts": {
+        "unit": 228,
+        "volume": 124,
+        "official-resource-title": 46
+      },
+      "mappingVerificationStatusCounts": {
+        "source-checked": 398
+      },
+      "newQuestionsAdded": 0,
+      "fullCorpusSemesterDistribution": {
+        "unassigned": 2293,
+        "上學期": 398,
+        "全學年": 74,
+        "下學期": 135,
+        "_total": 2900
+      },
+      "fullCorpusExamPeriodDistribution": {
+        "unassigned": 2669,
+        "第三次段考": 94,
+        "第一次段考": 66,
+        "第二次段考": 71,
+        "_total": 2900
+      },
+      "fullCorpusClassificationBasisDistribution": {
+        "curriculum-core": 2308,
+        "question-bank-inference": 354,
+        "publisher-source-verified": 238,
+        "_total": 2900
+      },
+      "fullCorpusPublisherStatusDistribution": {
+        "curriculum-core": 2545,
+        "publisher-mapped": 349,
+        "pending": 6,
+        "_total": 2900
+      },
+      "fullCorpusConfidenceDistribution": {
+        "low": 2230,
+        "medium": 642,
+        "high": 28,
+        "_total": 2900
+      },
+      "sourceBatchShasMatch": "34/34",
+      "classificationRuleVersion": "2026-11-15.63",
+      "validation": {
+        "jsonParse": true,
+        "classificationRecords": 2900,
+        "uniqueIds": 2900,
+        "missingRequiredFields": 0,
+        "invalidClassificationValues": 0,
+        "mappingReferenceErrors": 0,
+        "sourceFieldErrors": 0,
+        "sourceBatchShasMatch": "34/34",
+        "appReadsPersistedClassificationIndex": true,
+        "incrementalQuestionsChecked": 3,
+        "incrementalMappingReferencesChecked": 3,
+        "publisherMappingLeaks": 0,
+        "filterErrors": 0,
+        "filterCombinationsTested": 24,
+        "questionFilterCasesTested": 24,
+        "zeroResultConditionsTested": 18,
+        "allUpdatedQuestionsReachable": true,
+        "browserOrMobileRuntimeTested": false,
+        "filterMethod": "index.html getPool predicate data-layer simulation",
+        "classifierResolverScopeMatches": 3,
+        "classifierResolverScopeFailures": 0
+      },
+      "notes": "重新開啟翰林高中課本歷史(3)官方商品頁與翰林高中參考書第3頁目次；將3題直接詢問冷戰初期美國圍堵政策的高二歷史題映射至單元7「冷戰期間的世界局勢」。官方課本頁確認高二歷史上學期，目次來源為出版社配套參考書，非主課本完整目次；信心medium，段考unassigned，學校採用版本及學年度未確認。"
     }
   ]
 }
