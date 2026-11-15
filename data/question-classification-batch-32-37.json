@@ -4,7 +4,7 @@
   "classificationRuleVersion": "2026-11-15.63",
   "batchRange": "32-37",
   "sourceBatchShas": {
-    "32": "7635d93cf435082eaabdad9fd0c9b746846a13c9",
+    "32": "eb7423c09ecde4964d46c1ae588bd5e75e5ac239",
     "33": "aa62d614f5dc83f8535e6273a5c8828d172808f5",
     "34": "b5268953f0ab96cc0f3f9889a300916d0f4e222f",
     "35": "499a1f996018a7d4949c111c92c1c334c7d25e8c",
@@ -1929,13 +1929,41 @@
       "subject": "歷史",
       "courseTrack": null,
       "courseType": null,
-      "semester": "unassigned",
+      "semester": "上學期",
       "examPeriod": "unassigned",
-      "classificationBasis": "curriculum-core",
-      "confidence": "low",
-      "publisherStatus": "curriculum-core",
-      "publisherMappings": [],
-      "classificationNotes": "依108課綱共同核心概念原創編寫；缺乏可核對的出版社細分單元或學校段考依據，故學期與段考維持未分類。",
+      "classificationBasis": "publisher-source-verified",
+      "confidence": "medium",
+      "publisherStatus": "publisher-mapped",
+      "publisherMappings": [
+        {
+          "publisher": "hanlin",
+          "mappingId": "hanlin-h2-history-3-u7-cold-war",
+          "sourceUrl": "https://fliphtml5.com/cojaq/nrjy/%E9%AB%98%E4%B8%AD%E8%A9%A6%E9%A1%8C%E6%8C%96%E6%8C%96%E5%93%87-%E6%AD%B7%E5%8F%B2(3)/3",
+          "sourceTitle": "翰林高中參考書－《試題挖挖哇：歷史(3)》第3頁目次",
+          "verifiedAt": "2026-11-15",
+          "verificationStatus": "source-checked",
+          "notes": "翰林高中參考書官方帳號刊載《試題挖挖哇－歷史(3)》第3頁目次，單元7列「冷戰期間的世界局勢」及「冷戰期間的政治局勢」；翰林書城官方課本頁明示高中二年級、歷史(3)、上學期。題目直接涉及冷戰時期美國圍堵政策，故建立翰林歷史(3)單元層級對照並標記上學期。目次來自翰林出版社高中參考書配套評量本，並非主課本完整目次；不代表學校實際採用版本，也不推定正式段考範圍。",
+          "mappingLevel": "unit",
+          "volume": "高中歷史(3)",
+          "unitCode": "7",
+          "unitName": "冷戰期間的世界局勢－冷戰期間的政治局勢",
+          "unitAliases": [
+            "冷戰圍堵政策",
+            "冷戰",
+            "圍堵政策",
+            "美國圍堵政策",
+            "冷戰期間的政治局勢",
+            "冷戰時期國際局勢"
+          ],
+          "semester": "上學期",
+          "grade": "高二",
+          "subject": "歷史",
+          "courseTrack": null,
+          "schoolYear": "未標示",
+          "courseType": "未確認"
+        }
+      ],
+      "classificationNotes": "依翰林高中課本《歷史(3)》官方商品頁確認高中二年級、歷史、上學期；翰林高中參考書官方目次第3頁明列單元7「冷戰期間的世界局勢」及「冷戰期間的政治局勢」。本題直接詢問冷戰初期美國圍堵政策，與該單元主題直接一致，故建立翰林歷史(3)單元層級映射。目次來源為翰林出版社配套參考書，並非主課本完整目次；學年度與學校採用版本未確認。段考無可靠依據，維持unassigned。",
       "sourceRef": "依108課綱共同核心概念原創編寫；非出版社或歷屆試題原文。",
       "learningDomain": "世界史",
       "questionType": "概念辨識",
@@ -14548,7 +14576,7 @@
       "difficultyLevel": "進階"
     }
   },
-  "notes": " 2026-11-14.36：逐筆比對第32-37批原始題庫 semester 欄位，將原題庫已填且分類索引仍為 unassigned 的學期值同步為 question-bank-inference；不改動 publisher-source-verified、不推定段考、不新增出版社映射。 2026-11-14.46：南一官方「數學6下｜怎樣解題：雞兔問題」詳情頁已開啟核對；保留5題直接雞兔同籠映射，將3題汽車／機車及三腳椅／四腳桌類比題撤回出版社映射並改列共同核心。 2026-11-14.47：依國立臺北教育大學雙語教學研究中心官方目錄，將六年級自然串聯／並聯電路題目對應至上學期單元四「電磁作用」之課程主題層級；共2題，僅更新semester，examPeriod與出版社映射不變。 2026-11-15.51：回填5題六下簡單機械、2題六上地質的變化；依課程主題推定，出版社映射0、段考維持unassigned。",
+  "notes": " 2026-11-14.36：逐筆比對第32-37批原始題庫 semester 欄位，將原題庫已填且分類索引仍為 unassigned 的學期值同步為 question-bank-inference；不改動 publisher-source-verified、不推定段考、不新增出版社映射。 2026-11-14.46：南一官方「數學6下｜怎樣解題：雞兔問題」詳情頁已開啟核對；保留5題直接雞兔同籠映射，將3題汽車／機車及三腳椅／四腳桌類比題撤回出版社映射並改列共同核心。 2026-11-14.47：依國立臺北教育大學雙語教學研究中心官方目錄，將六年級自然串聯／並聯電路題目對應至上學期單元四「電磁作用」之課程主題層級；共2題，僅更新semester，examPeriod與出版社映射不變。 2026-11-15.51：回填5題六下簡單機械、2題六上地質的變化；依課程主題推定，出版社映射0、段考維持unassigned。 2026-11-15：新增3題高二歷史冷戰圍堵政策，對應翰林歷史(3)上學期單元7；段考維持unassigned。",
   "lastUpdate": {
     "runId": "2026-11-15-g6-math-fraction-division-cross-version-01",
     "updatedQuestionIds": [

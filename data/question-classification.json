@@ -204,7 +204,9 @@
       "classifierResolverScopeMatches": 41,
       "classifierResolverScopeFailures": 0
     },
-    "notes": "41題原始 sourceRef 直接指向翰林官方課本「選修物理(II)力學二與熱學」頁；官方頁明示高二、物理、上學期。題目均通過現有VOLUME_SCOPES與排除主題檢查，僅作冊別層級映射。先前因持久分類紀錄缺少courseType而被拒絕的來源，現已明確保存courseType=選修物理(II)後通過隔離檢查；段考維持unassigned。"
+    "notes": "41題原始 sourceRef 直接指向翰林官方課本「選修物理(II)力學二與熱學」頁；官方頁明示高二、物理、上學期。題目均通過現有VOLUME_SCOPES與排除主題檢查，僅作冊別層級映射。先前因持久分類紀錄缺少courseType而被拒絕的來源，現已明確保存courseType=選修物理(II)後通過隔離檢查；段考維持unassigned。",
+    "sourceHead": "ef174bc8d24d8b91650bc63b12822d26eecf1502",
+    "questionMappingReferences": 398
   },
   "lastMappingReferenceAudit": {
     "date": "2026-11-15",
@@ -439,7 +441,7 @@
   },
   "statistics": {
     "auditedAt": "2026-11-15",
-    "sourceHeadBeforeRun": "5c7715887f752ce695ef9ad5181a396d2e5447c8",
+    "sourceHeadBeforeRun": "ef174bc8d24d8b91650bc63b12822d26eecf1502",
     "questionCount": 2900,
     "uniqueQuestionIds": 2900,
     "batchFileCount": 34,
@@ -518,6 +520,6 @@
       }
     }
   },
-  "sourceHeadVerified": "5c7715887f752ce695ef9ad5181a396d2e5447c8",
-  "mainHeadVerifiedAt": "2026-11-15T18:43:35+08:00"
+  "sourceHeadVerified": "ef174bc8d24d8b91650bc63b12822d26eecf1502",
+  "mainHeadVerifiedAt": "2026-11-15T20:38:04+08:00"
 }

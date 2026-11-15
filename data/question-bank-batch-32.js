@@ -1,4 +1,5 @@
-window.EXTRA32_GRADE_BANK = [
+window.EXTRA32_GRADE_BANK =
+[
   {
     "id": "b32-001",
     "stage": "國小",
@@ -2957,13 +2958,44 @@ window.EXTRA32_GRADE_BANK = [
     "sourceRef": "依108課綱共同核心概念原創編寫；非出版社或歷屆試題原文。",
     "reviewStatus": "rule-checked",
     "learningContent": "冷戰圍堵政策",
-    "semester": "unassigned",
+    "semester": "上學期",
     "examPeriod": "unassigned",
-    "classificationBasis": "curriculum-core",
-    "confidence": "low",
-    "publisherStatus": "curriculum-core",
-    "publisherMappings": [],
-    "classificationNotes": "依108課綱共同核心概念原創編寫；缺乏可核對的出版社細分單元或學校段考依據，故學期與段考維持未分類。"
+    "classificationBasis": "publisher-source-verified",
+    "confidence": "medium",
+    "publisherStatus": "publisher-mapped",
+    "publisherMappings": [
+      {
+        "publisher": "hanlin",
+        "mappingId": "hanlin-h2-history-3-u7-cold-war",
+        "sourceUrl": "https://fliphtml5.com/cojaq/nrjy/%E9%AB%98%E4%B8%AD%E8%A9%A6%E9%A1%8C%E6%8C%96%E6%8C%96%E5%93%87-%E6%AD%B7%E5%8F%B2(3)/3",
+        "sourceTitle": "翰林高中參考書－《試題挖挖哇：歷史(3)》第3頁目次",
+        "verifiedAt": "2026-11-15",
+        "verificationStatus": "source-checked",
+        "notes": "翰林高中參考書官方帳號刊載《試題挖挖哇－歷史(3)》第3頁目次，單元7列「冷戰期間的世界局勢」及「冷戰期間的政治局勢」；翰林書城官方課本頁明示高中二年級、歷史(3)、上學期。題目直接涉及冷戰時期美國圍堵政策，故建立翰林歷史(3)單元層級對照並標記上學期。目次來自翰林出版社高中參考書配套評量本，並非主課本完整目次；不代表學校實際採用版本，也不推定正式段考範圍。",
+        "mappingLevel": "unit",
+        "volume": "高中歷史(3)",
+        "unitCode": "7",
+        "unitName": "冷戰期間的世界局勢－冷戰期間的政治局勢",
+        "unitAliases": [
+          "冷戰圍堵政策",
+          "冷戰",
+          "圍堵政策",
+          "美國圍堵政策",
+          "冷戰期間的政治局勢",
+          "冷戰時期國際局勢"
+        ],
+        "scopeKeywords": [],
+        "semester": "上學期",
+        "grade": "高二",
+        "subject": "歷史",
+        "courseTrack": null,
+        "schoolYear": "未標示",
+        "courseType": "未確認"
+      }
+    ],
+    "classificationNotes": "依翰林高中課本《歷史(3)》官方商品頁確認高中二年級、歷史、上學期；翰林高中參考書官方目次第3頁明列單元7「冷戰期間的世界局勢」及「冷戰期間的政治局勢」。本題直接詢問冷戰初期美國圍堵政策，與該單元主題直接一致，故建立翰林歷史(3)單元層級映射。目次來源為翰林出版社配套參考書，並非主課本完整目次；學年度與學校採用版本未確認。段考無可靠依據，維持unassigned。",
+    "courseTrack": null,
+    "courseType": null
   },
   {
     "id": "b32-092",
