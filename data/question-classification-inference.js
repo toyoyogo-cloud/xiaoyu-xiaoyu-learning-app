@@ -13,7 +13,8 @@ const VOLUME_SCOPES={
  "hanlin-h2-biology-ii-plant":["植物細胞","光合作用","蒸散","氣孔","維管束","木質部","韌皮部","向光性","花粉管","雙重受精","植物激素","乙烯","果實成熟"],
  "hanlin-h2-chemistry-i-matter-energy":["焓","反應熱","能量","赫斯定律"],
  "hanlin-g6-math-6a-volume":[],
- "hanlin-g6-math-6b-volume":[]
+ "hanlin-g6-math-6b-volume":[],
+ "hanlin-g6-natural-6a-volume":["並聯電路","串聯電路","生物多樣性","食物鏈能量","食物網與生態","食物鏈與生態平衡","食物鏈能量流動","食物網與族群變化","水土保持","熱脹冷縮與工程設計","電磁鐵線圈匝數與磁力","植被與土壤侵蝕","電磁鐵變因","電磁鐵強度因素","生態系能量流","電磁鐵與線圈","生態系能量流動","氣候資料判讀","食物網與生態平衡"]
 };
 function questionText(q){
  return [q.unit,q.t,q.topic,q.learningContent,q.q,q.e].filter(Boolean).join(" ");
