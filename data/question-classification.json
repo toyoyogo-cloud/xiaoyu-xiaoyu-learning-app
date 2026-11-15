@@ -536,6 +536,122 @@
       }
     }
   },
-  "sourceHeadVerified": "3511269b834c55ace1ff7a6ccf9893f38e9c092a",
-  "mainHeadVerifiedAt": "2026-11-16T04:45:07+08:00"
+  "sourceHeadVerified": "dcb0d370eae9443db87feae528f9cd2385fd2f44",
+  "mainHeadVerifiedAt": "2026-11-16T05:39:34+08:00",
+  "latestVerificationAudit": {
+    "runId": "2026-11-16-full-main-reconciliation-filter-regression-11",
+    "verifiedAt": "2026-11-16T05:39:34+08:00",
+    "sourceHeadBeforeRun": "dcb0d370eae9443db87feae528f9cd2385fd2f44",
+    "branch": "main",
+    "batchRange": "08-41",
+    "batchFileCount": 34,
+    "shardCount": 6,
+    "rawQuestionCount": 2900,
+    "rawUniqueQuestionIds": 2900,
+    "classificationRecordCount": 2900,
+    "duplicateRawIds": 0,
+    "missingClassificationRecords": 0,
+    "extraClassificationRecords": 0,
+    "sourceBatchShasMatch": "34/34",
+    "requiredClassificationFields": 12,
+    "missingRequiredFields": 0,
+    "invalidClassificationValues": 0,
+    "publisherMappingReferences": 523,
+    "publisherMappedQuestions": 429,
+    "publisherReferenceCounts": {
+      "hanlin": 359,
+      "knsh": 100,
+      "nani": 64
+    },
+    "semesterDistribution": {
+      "上學期": 407,
+      "下學期": 135,
+      "全學年": 74,
+      "unassigned": 2284
+    },
+    "examPeriodDistribution": {
+      "第一次段考": 66,
+      "第二次段考": 71,
+      "第三次段考": 94,
+      "unassigned": 2669
+    },
+    "classificationBasisDistribution": {
+      "publisher-source-verified": 322,
+      "question-bank-inference": 282,
+      "curriculum-core": 2296,
+      "unassigned": 0
+    },
+    "publisherStatusDistribution": {
+      "publisher-mapped": 429,
+      "curriculum-core": 2465,
+      "pending": 6
+    },
+    "confidenceDistribution": {
+      "high": 32,
+      "medium": 707,
+      "low": 2161
+    },
+    "rawLegacyMetadataSuperseded": [
+      {
+        "id": "b37-024",
+        "field": "semester",
+        "rawValue": "下學期",
+        "persistedValue": "unassigned",
+        "reason": "原始出版社映射已因題幹為汽車／機車情境而撤回；不以雞兔問題概念相似性保留南一單元標籤。"
+      },
+      {
+        "id": "b41-021",
+        "field": "semester",
+        "rawValue": "下學期",
+        "persistedValue": "unassigned",
+        "reason": "題幹為汽車／機車情境，非官方資源明示的雞兔同籠題；保留108課綱共同核心，不掛出版社。"
+      },
+      {
+        "id": "b41-022",
+        "field": "semester",
+        "rawValue": "下學期",
+        "persistedValue": "unassigned",
+        "reason": "題幹為三腳椅／四腳桌情境，非官方資源明示的雞兔同籠題；保留108課綱共同核心，不掛出版社。"
+      }
+    ],
+    "filterRegression": {
+      "dimensions": [
+        "stage",
+        "grade",
+        "subject",
+        "publisher",
+        "semester",
+        "examPeriod",
+        "courseTrack"
+      ],
+      "distinctStageGradeSubjectCombinations": 48,
+      "combinationsTested": 7650,
+      "nonZeroCombinations": 541,
+      "expectedZeroCombinations": 7109,
+      "publisherMappingLeaks": 0,
+      "allModeQuestionCount": 2900,
+      "allModeReachable": true,
+      "high2MathTrackCounts": {
+        "數學A": 79,
+        "數學B": 0,
+        "未標示軌別": 133
+      },
+      "note": "零題組合是條件交集無符合題目的預期結果；高二數學B目前沒有明確標記軌別的題目，不以數學A題目代填。資料層靜態測試，非瀏覽器或手機實機測試。"
+    },
+    "newOfficialSourceVerifications": 0,
+    "classificationRecordsChanged": 0,
+    "newQuestionsAdded": 0,
+    "validation": {
+      "jsonParse": true,
+      "uniqueIds": 2900,
+      "sourceBatchHashes": "34/34",
+      "requiredFieldsMissing": 0,
+      "invalidClassificationValues": 0,
+      "publisherMappingLeaks": 0,
+      "filterErrors": 0,
+      "browserRuntimeTested": false,
+      "mobileRuntimeTested": false
+    },
+    "notes": "本輪重新讀取main最新34個原始批次及六個分類分片。分類資料維持權威索引；三筆原始批次仍殘留舊的下學期欄位，但其出版社映射已因題幹與官方雞兔同籠資源不一致而撤回，因此持久分類正確保留unassigned。其餘raw unassigned與持久分類的差異為已持久化的題庫推定／官方對照，不直接覆蓋原始題目批次。未取得新官方教材證據，故本輪不新增出版社映射、不改學期或段考、不新增題目。"
+  }
 }
