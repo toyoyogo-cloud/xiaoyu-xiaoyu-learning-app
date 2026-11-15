@@ -439,9 +439,9 @@
       "sourceType": "official-publisher",
       "sourceUrl": "https://books.hanlin.com.tw/product/1030111",
       "sourceTitle": "翰林書城－國小課本數學(6上)",
-      "verifiedAt": "2026-11-13",
+      "verifiedAt": "2026-11-16",
       "verificationStatus": "source-checked",
-      "notes": "僅作冊別／學期層級資料核對；不代表本批題目取自教材，也不將一般知識點冒稱翰林專屬單元。",
+      "notes": "2026-11-16重新開啟翰林書城官方商品頁，明示國小六年級、數學、上學期及數學(6上)冊別；頁面未提供細分目次，因此僅作冊別層級映射，不代表題目單元已核對、題目取自教材或學校採用版本。",
       "mappingId": "hanlin-g6-math-6a-volume",
       "courseType": "國小",
       "mappingLevel": "volume",
@@ -462,9 +462,9 @@
       "sourceType": "official-publisher",
       "sourceUrl": "https://books.hanlin.com.tw/product/1030121",
       "sourceTitle": "翰林書城－國小課本數學(6下)",
-      "verifiedAt": "2026-11-13",
+      "verifiedAt": "2026-11-16",
       "verificationStatus": "source-checked",
-      "notes": "僅作冊別／學期層級資料核對；不代表本批題目取自教材，也不將一般知識點冒稱翰林專屬單元。",
+      "notes": "2026-11-16重新開啟翰林書城官方商品頁，明示國小六年級、數學、下學期及數學(6下)冊別；頁面未提供細分目次，因此僅作冊別層級映射，不代表題目單元已核對、題目取自教材或學校採用版本。",
       "mappingId": "hanlin-g6-math-6b-volume",
       "courseType": "國小",
       "mappingLevel": "volume",
@@ -3107,49 +3107,44 @@
     ]
   },
   "latestMainClassificationAudit": {
-    "runId": "2026-11-16-classification-backfill-ratio-water-heat-civic-history-01",
+    "runId": "2026-11-16-hanlin-g6-math-volume-level-backfill-01",
     "date": "2026-11-16",
-    "sourceHeadBeforeRun": "3511269b834c55ace1ff7a6ccf9893f38e9c092a",
-    "classificationDataHeadAfterUpdates": "a1e89c9dbe8da5a99bc348493b8946a7ece36dc8",
+    "sourceHeadBeforeRun": "095391ebbbe320f420967f2c2fe47e0bfd22248a",
+    "classificationDataHeadAfterUpdates": "095391ebbbe320f420967f2c2fe47e0bfd22248a",
     "batches": "08-41",
     "batchFileCount": 34,
     "fullCorpusQuestionCount": 2900,
     "activeScopeQuestionCount": 1864,
-    "questionRecordsUpdated": 12,
+    "questionRecordsUpdated": 7,
     "updatedQuestionIds": [
-      "b11-006",
-      "b14-005",
-      "b14-012",
-      "b16-021",
-      "b20-071",
-      "b21-032",
-      "b23-029",
-      "b24-025",
-      "b28-030",
-      "b28-040",
-      "b30-024",
-      "b34-089"
+      "b41-024",
+      "b41-025",
+      "b41-026",
+      "b41-027",
+      "b41-028",
+      "b41-029",
+      "b41-030"
     ],
-    "semesterAssignments": 10,
+    "semesterAssignments": 0,
     "examPeriodAssignments": 0,
-    "publisherMappingsAdded": 9,
-    "publisherMappingReferencesAdded": 19,
+    "publisherMappingsAdded": 0,
+    "publisherMappingReferencesAdded": 7,
     "publisherMappingReferencesCorrected": 0,
-    "learningDomainCorrections": 3,
-    "questionTypeCorrections": 1,
+    "learningDomainCorrections": 0,
+    "questionTypeCorrections": 0,
     "centralMappingCount": 46,
     "publisherReferenceCounts": {
-      "hanlin": 366,
+      "hanlin": 373,
       "knsh": 106,
       "nani": 70
     },
     "mappingLevelCounts": {
-      "volume": 132,
+      "volume": 139,
       "unit": 364,
       "official-resource-title": 46
     },
     "mappingVerificationStatusCounts": {
-      "source-checked": 542
+      "source-checked": 549
     },
     "newQuestionsAdded": 0,
     "fullCorpusSemesterDistribution": {
@@ -3170,8 +3165,8 @@
       "publisher-source-verified": 331
     },
     "fullCorpusPublisherStatusDistribution": {
-      "curriculum-core": 2456,
-      "publisher-mapped": 438,
+      "curriculum-core": 2449,
+      "publisher-mapped": 445,
       "pending": 6
     },
     "fullCorpusConfidenceDistribution": {
@@ -3180,7 +3175,7 @@
       "high": 32
     },
     "sourceBatchShasMatch": "34/34",
-    "classificationRuleVersion": "2026-11-16.72",
+    "classificationRuleVersion": "2026-11-16.73",
     "validation": {
       "jsonParse": true,
       "classificationRecords": 2900,
@@ -3194,11 +3189,11 @@
       "sourceFieldErrors": 0,
       "mappingScopeErrors": 0,
       "sourceBatchShasMatch": "34/34",
-      "updatedQuestionsChecked": 12,
+      "updatedQuestionsChecked": 7,
       "updatedQuestionIdsReachable": true,
       "filterCombinationsTested": 7650,
-      "nonZeroFilterCombinations": 543,
-      "zeroResultConditionsTested": 7107,
+      "nonZeroFilterCombinations": 550,
+      "zeroResultConditionsTested": 7100,
       "publisherMappingLeaks": 0,
       "filterErrors": 0,
       "allModeReachable": true,
@@ -3208,7 +3203,7 @@
       "filterUiRuntimeTested": false,
       "browserOrMobileRuntimeTested": false
     },
-    "notes": "逐題回查第8至41批原始題幹並使用已存在的官方／跨版本教材對照：六年級比與比值2題新增南一、翰林、康軒三版本單元映射；水蒸氣凝結2題新增三版本六上第一單元映射；熱傳導／保溫2題僅新增南一與康軒六上第二單元映射，明確排除來源所列的翰林五上單元；高二公民外部性2題新增翰林公民與社會(3)乙版單元4映射；高二歷史啟蒙思想1題新增翰林歷史(3)單元2映射。另將六年級電磁鐵3題依國立臺北教育大學官方單元目錄回填上學期，但不掛出版社。修正2題公民與1題歷史的learningDomain，並修正1題questionType。所有段考欄位保留原值或unassigned，沒有正式段考範圍或教師審核；沒有宣稱學校採用版本。未新增題目、未修改34個原始題庫批次的題幹、選項、答案與解析。"
+    "notes": "官方來源核對：翰林書城6上與6下商品頁只確認六年級、數學、學期與冊別；不含細分目次。七筆只作volume層級映射，題目semester/examPeriod仍為既有題庫推定，沒有新增題目或宣稱教師／學校確認。"
   },
   "classificationPersistenceRuns": [
     "[",
@@ -5327,6 +5322,42 @@
       ],
       "publisherMappingReferencesAdded": 19,
       "notes": "僅將題幹直接符合來源所列單元的題目映射；出版社配套評量本目次不冒稱主課本完整目次；教育雲跨版本教學資源不等於學校採用版本；沒有教師審核或正式段考範圍。"
+    },
+    {
+      "runId": "2026-11-16-hanlin-g6-math-volume-level-backfill-01",
+      "verifiedAt": "2026-11-16",
+      "sourceChecks": [
+        {
+          "publisher": "hanlin",
+          "mappingIds": [
+            "hanlin-g6-math-6a-volume"
+          ],
+          "sourceUrl": "https://books.hanlin.com.tw/product/1030111",
+          "sourceTitle": "翰林書城－國小課本數學(6上)",
+          "verifiedScope": "官方商品頁明示科目數學、國小六年級、上學期與6上冊別；頁面未列細分目次，只支持冊別層級。"
+        },
+        {
+          "publisher": "hanlin",
+          "mappingIds": [
+            "hanlin-g6-math-6b-volume"
+          ],
+          "sourceUrl": "https://books.hanlin.com.tw/product/1030121",
+          "sourceTitle": "翰林書城－國小課本數學(6下)",
+          "verifiedScope": "官方商品頁明示科目數學、國小六年級、下學期與6下冊別；頁面未列細分目次，只支持冊別層級。"
+        }
+      ],
+      "questionRecordsUpdated": 7,
+      "updatedQuestionIds": [
+        "b41-024",
+        "b41-025",
+        "b41-026",
+        "b41-027",
+        "b41-028",
+        "b41-029",
+        "b41-030"
+      ],
+      "publisherMappingReferencesAdded": 7,
+      "notes": "僅將七題既有六年級數學題依題庫原有學期分類連結到翰林6上／6下冊別層級；沒有出版社細分目次，故不宣稱百分率、圓、體積、統計與機率單元已核對，也不代表學校採用版本。段考與題庫推定維持原值。"
     }
   ],
   "high2MathCourseTrackAudit": {
@@ -5528,147 +5559,80 @@
     "sourceBatchShasMatch": "34/34"
   },
   "lastSourceVerificationAudit": {
-    "runId": "2026-11-16-classification-backfill-ratio-water-heat-civic-history-01",
+    "runId": "2026-11-16-hanlin-g6-math-volume-level-backfill-01",
     "verifiedAt": "2026-11-16",
     "sourceChecks": [
       {
         "publisher": "hanlin",
         "mappingIds": [
-          "hanlin-g6-math-6a-u3-ratio",
-          "knsh-g6-math-6a-u5-ratio",
-          "nani-g6-math-6a-u5-ratio"
+          "hanlin-g6-math-6a-volume"
         ],
-        "sourceUrl": "https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
-        "sourceTitle": "翰林國小輔教行銷處－數學能力加強系列[6年級]抽印本，第50頁「六年級版本對照表」",
-        "verifiedScope": "明列比與比值；對應翰林6上第4單元、康軒6上第5單元、南一6上第5單元。學年度未標示，不代表學校採用版本。"
-      },
-      {
-        "publisher": "curriculum-reference",
-        "mappingIds": [
-          "nani-g6-natural-6a-u1-water-cycle",
-          "hanlin-g6-natural-6a-u1-water-cycle",
-          "knsh-g6-natural-6a-u1-water-cycle"
-        ],
-        "sourceUrl": "https://market.cloud.edu.tw/resources/video/1830739",
-        "sourceTitle": "教育部教育雲－看見自然EP51：水循環",
-        "verifiedScope": "明列國小5–6年級自然科INd-Ⅲ-12及康軒、南一、翰林六上第一單元；內容包含蒸發、凝結與降水。非學校採用證明。"
-      },
-      {
-        "publisher": "curriculum-reference",
-        "mappingIds": [
-          "nani-g6-natural-6a-u2-heat",
-          "knsh-g6-natural-6a-u2-heat"
-        ],
-        "sourceUrl": "https://market.cloud.edu.tw/resources/video/1830745",
-        "sourceTitle": "教育部教育雲－看見自然EP57：保溫材料大解密",
-        "verifiedScope": "明列INa-Ⅲ-8、康軒六上2與南一六上2；同頁列翰林五上3，因此不將翰林五年級內容映射至六年級。"
+        "sourceUrl": "https://books.hanlin.com.tw/product/1030111",
+        "sourceTitle": "翰林書城－國小課本數學(6上)",
+        "verifiedScope": "官方商品頁明示科目數學、國小六年級、上學期與6上冊別；頁面未列細分目次，只支持冊別層級。"
       },
       {
         "publisher": "hanlin",
         "mappingIds": [
-          "hanlin-h2-civic-3-u4-external-costs"
+          "hanlin-g6-math-6b-volume"
         ],
-        "sourceUrl": "https://books.hanlin.com.tw/product/009121",
-        "sourceTitle": "翰林書城－高中課本－公民與社會(3)乙版",
-        "verifiedScope": "官方商品頁明示高中二年級、公民、上學期；另以出版社參考書目次核對單元4外部成本與聯合行為。"
-      },
-      {
-        "publisher": "hanlin",
-        "mappingIds": [
-          "hanlin-h2-civic-3-u4-external-costs"
-        ],
-        "sourceUrl": "https://fliphtml5.com/cojaq/otfl/%E8%A9%A6%E9%A1%8C%E6%8C%96%E6%8C%96%E5%93%87-%E5%85%AC%E6%B0%91%E8%88%87%E7%A4%BE%E6%9C%83%283%29/3/",
-        "sourceTitle": "翰林高中參考書－《試題挖挖哇：公民與社會(3)》第3頁目次",
-        "verifiedScope": "第4單元外部成本與聯合行為，子題明列外部效果與政府對策；非主課本完整目次。"
-      },
-      {
-        "publisher": "hanlin",
-        "mappingIds": [
-          "hanlin-h2-history-3-u2-enlightenment"
-        ],
-        "sourceUrl": "https://books.hanlin.com.tw/product/008021",
-        "sourceTitle": "翰林書城－高中課本－歷史(3)",
-        "verifiedScope": "官方商品頁明示高中二年級、歷史(3)、上學期；另以出版社參考書目次核對啟蒙運動單元。"
-      },
-      {
-        "publisher": "hanlin",
-        "mappingIds": [
-          "hanlin-h2-history-3-u2-enlightenment"
-        ],
-        "sourceUrl": "https://fliphtml5.com/cojaq/nrjy/%E9%AB%98%E4%B8%AD%E8%A9%A6%E9%A1%8C%E6%8C%96%E6%8C%96%E5%93%87-%E6%AD%B7%E5%8F%B2(3)/3",
-        "sourceTitle": "翰林高中參考書－《試題挖挖哇：歷史(3)》第3頁目次",
-        "verifiedScope": "第2單元明列從宗教改革、科學革命到啟蒙運動；非主課本完整目次。"
-      },
-      {
-        "publisher": "curriculum-core",
-        "mappingIds": [],
-        "sourceUrl": "https://bilingual.ntue.edu.tw/p/404-1054-31326.php?Lang=zh-tw",
-        "sourceTitle": "國立臺北教育大學雙語教學研究中心－國小自然科學筆記本、雙語教學資源手冊",
-        "verifiedScope": "六年級自然上學期單元四「電磁作用」；僅作課程主題層級學期分類，不提供出版社版本或學校採用證明。"
+        "sourceUrl": "https://books.hanlin.com.tw/product/1030121",
+        "sourceTitle": "翰林書城－國小課本數學(6下)",
+        "verifiedScope": "官方商品頁明示科目數學、國小六年級、下學期與6下冊別；頁面未列細分目次，只支持冊別層級。"
       }
     ],
-    "questionRecordsUpdated": 12,
+    "questionRecordsUpdated": 7,
     "updatedQuestionIds": [
-      "b11-006",
-      "b14-005",
-      "b14-012",
-      "b16-021",
-      "b20-071",
-      "b21-032",
-      "b23-029",
-      "b24-025",
-      "b28-030",
-      "b28-040",
-      "b30-024",
-      "b34-089"
+      "b41-024",
+      "b41-025",
+      "b41-026",
+      "b41-027",
+      "b41-028",
+      "b41-029",
+      "b41-030"
     ],
-    "publisherMappingReferencesAdded": 19,
-    "notes": "僅將題幹直接符合來源所列單元的題目映射；出版社配套評量本目次不冒稱主課本完整目次；教育雲跨版本教學資源不等於學校採用版本；沒有教師審核或正式段考範圍。"
+    "publisherMappingReferencesAdded": 7,
+    "notes": "僅將七題既有六年級數學題依題庫原有學期分類連結到翰林6上／6下冊別層級；沒有出版社細分目次，故不宣稱百分率、圓、體積、統計與機率單元已核對，也不代表學校採用版本。段考與題庫推定維持原值。"
   },
   "lastRunAudit": {
-    "runId": "2026-11-16-classification-backfill-ratio-water-heat-civic-history-01",
+    "runId": "2026-11-16-hanlin-g6-math-volume-level-backfill-01",
     "date": "2026-11-16",
-    "sourceHeadBeforeRun": "3511269b834c55ace1ff7a6ccf9893f38e9c092a",
-    "classificationDataHeadAfterUpdates": "a1e89c9dbe8da5a99bc348493b8946a7ece36dc8",
+    "sourceHeadBeforeRun": "095391ebbbe320f420967f2c2fe47e0bfd22248a",
+    "classificationDataHeadAfterUpdates": "095391ebbbe320f420967f2c2fe47e0bfd22248a",
     "batches": "08-41",
     "batchFileCount": 34,
     "fullCorpusQuestionCount": 2900,
     "activeScopeQuestionCount": 1864,
-    "questionRecordsUpdated": 12,
+    "questionRecordsUpdated": 7,
     "updatedQuestionIds": [
-      "b11-006",
-      "b14-005",
-      "b14-012",
-      "b16-021",
-      "b20-071",
-      "b21-032",
-      "b23-029",
-      "b24-025",
-      "b28-030",
-      "b28-040",
-      "b30-024",
-      "b34-089"
+      "b41-024",
+      "b41-025",
+      "b41-026",
+      "b41-027",
+      "b41-028",
+      "b41-029",
+      "b41-030"
     ],
-    "semesterAssignments": 10,
+    "semesterAssignments": 0,
     "examPeriodAssignments": 0,
-    "publisherMappingsAdded": 9,
-    "publisherMappingReferencesAdded": 19,
+    "publisherMappingsAdded": 0,
+    "publisherMappingReferencesAdded": 7,
     "publisherMappingReferencesCorrected": 0,
-    "learningDomainCorrections": 3,
-    "questionTypeCorrections": 1,
+    "learningDomainCorrections": 0,
+    "questionTypeCorrections": 0,
     "centralMappingCount": 46,
     "publisherReferenceCounts": {
-      "hanlin": 366,
+      "hanlin": 373,
       "knsh": 106,
       "nani": 70
     },
     "mappingLevelCounts": {
-      "volume": 132,
+      "volume": 139,
       "unit": 364,
       "official-resource-title": 46
     },
     "mappingVerificationStatusCounts": {
-      "source-checked": 542
+      "source-checked": 549
     },
     "newQuestionsAdded": 0,
     "fullCorpusSemesterDistribution": {
@@ -5689,8 +5653,8 @@
       "publisher-source-verified": 331
     },
     "fullCorpusPublisherStatusDistribution": {
-      "curriculum-core": 2456,
-      "publisher-mapped": 438,
+      "curriculum-core": 2449,
+      "publisher-mapped": 445,
       "pending": 6
     },
     "fullCorpusConfidenceDistribution": {
@@ -5699,7 +5663,7 @@
       "high": 32
     },
     "sourceBatchShasMatch": "34/34",
-    "classificationRuleVersion": "2026-11-16.72",
+    "classificationRuleVersion": "2026-11-16.73",
     "validation": {
       "jsonParse": true,
       "classificationRecords": 2900,
@@ -5713,11 +5677,11 @@
       "sourceFieldErrors": 0,
       "mappingScopeErrors": 0,
       "sourceBatchShasMatch": "34/34",
-      "updatedQuestionsChecked": 12,
+      "updatedQuestionsChecked": 7,
       "updatedQuestionIdsReachable": true,
       "filterCombinationsTested": 7650,
-      "nonZeroFilterCombinations": 543,
-      "zeroResultConditionsTested": 7107,
+      "nonZeroFilterCombinations": 550,
+      "zeroResultConditionsTested": 7100,
       "publisherMappingLeaks": 0,
       "filterErrors": 0,
       "allModeReachable": true,
@@ -5727,7 +5691,7 @@
       "filterUiRuntimeTested": false,
       "browserOrMobileRuntimeTested": false
     },
-    "notes": "逐題回查第8至41批原始題幹並使用已存在的官方／跨版本教材對照：六年級比與比值2題新增南一、翰林、康軒三版本單元映射；水蒸氣凝結2題新增三版本六上第一單元映射；熱傳導／保溫2題僅新增南一與康軒六上第二單元映射，明確排除來源所列的翰林五上單元；高二公民外部性2題新增翰林公民與社會(3)乙版單元4映射；高二歷史啟蒙思想1題新增翰林歷史(3)單元2映射。另將六年級電磁鐵3題依國立臺北教育大學官方單元目錄回填上學期，但不掛出版社。修正2題公民與1題歷史的learningDomain，並修正1題questionType。所有段考欄位保留原值或unassigned，沒有正式段考範圍或教師審核；沒有宣稱學校採用版本。未新增題目、未修改34個原始題庫批次的題幹、選項、答案與解析。"
+    "notes": "官方來源核對：翰林書城6上與6下商品頁只確認六年級、數學、學期與冊別；不含細分目次。七筆只作volume層級映射，題目semester/examPeriod仍為既有題庫推定，沒有新增題目或宣稱教師／學校確認。"
   },
   "latestMappingScopeCorrection": {
     "date": "2026-11-14",
@@ -5758,65 +5722,52 @@
   "lastMappingReferenceAudit": {
     "date": "2026-11-16",
     "classificationRecordCount": 2900,
-    "publisherMappedQuestionCount": 438,
-    "questionMappingReferenceCount": 542,
+    "publisherMappedQuestionCount": 445,
+    "questionMappingReferenceCount": 549,
     "centralMappingCount": 46,
     "unresolvedCentralMappingReferences": 0,
-    "sourceFieldMismatches": 0,
-    "mappingScopeErrors": 0,
     "missingRequiredClassificationFields": 0,
     "publisherReferenceCounts": {
-      "hanlin": 366,
+      "hanlin": 373,
       "knsh": 106,
       "nani": 70
     },
     "mappingLevelCounts": {
+      "volume": 139,
       "unit": 364,
-      "volume": 132,
       "official-resource-title": 46
     },
     "verificationCounts": {
-      "source-checked": 542
+      "source-checked": 549
     },
     "updatedQuestionIds": [
-      "b11-006",
-      "b14-005",
-      "b14-012",
-      "b16-021",
-      "b20-071",
-      "b21-032",
-      "b23-029",
-      "b24-025",
-      "b28-030",
-      "b28-040",
-      "b30-024",
-      "b34-089"
+      "b41-024",
+      "b41-025",
+      "b41-026",
+      "b41-027",
+      "b41-028",
+      "b41-029",
+      "b41-030"
     ],
-    "publisherMappingReferencesAdded": 19,
+    "publisherMappingReferencesAdded": 7,
     "sourceBatchShasMatch": "34/34"
   },
   "lastFilterDataAudit": {
     "auditedAt": "2026-11-16",
     "type": "full-corpus-persisted-classification-filter-regression",
-    "sourceHead": "a1e89c9dbe8da5a99bc348493b8946a7ece36dc8",
     "fullCorpusQuestionCount": 2900,
     "questionsChecked": 2900,
     "filterCombinationsTested": 7650,
-    "nonZeroCombinations": 543,
-    "zeroResultConditionsTested": 7107,
+    "nonZeroCombinations": 550,
+    "zeroResultConditionsTested": 7100,
     "publisherMappingLeaks": 0,
     "filterErrors": 0,
     "allModeReachable": true,
     "allModeQuestionCount": 2900,
     "appReadsPersistedClassificationIndex": true,
     "zeroResultHintPresent": true,
-    "high2MathTrackCounts": {
-      "數學A": 79,
-      "數學B": 0,
-      "未標示軌別": 133
-    },
     "browserOrMobileRuntimeTested": false,
-    "note": "依index.html getPool的出版社、學期、段考及高二數學軌別條件順序，以48組實際存在的年級／科目組合、6種版本狀態、5種學期狀態、5種段考狀態及高二數學4種軌別條件測試7,650組。543組有題、7,107組為預期零題；出版社映射洩漏0、篩選錯誤0；全部版本模式可取得2,900題。高二數學B仍為0題，不以數學A代填。此為資料層模擬，非瀏覽器或手機實機測試。"
+    "note": "資料層模擬年級／科目、出版社、學期、段考與高二數學軌別組合；非瀏覽器或手機實機測試。"
   },
   "notes": " 2026-11-14：新增國立臺北教育大學六年級自然上學期單元四「電磁作用」課程參考，12題串聯／並聯電路僅回填上學期，不掛出版社、不填段考。 2026-11-15：依國立臺北教育大學雙語教學研究中心官方單元目錄，新增3題六年級自然電磁鐵／線圈題目的上學期課程核心分類；段考維持unassigned，不掛出版社。 2026-11-15：新增六年級自然「簡單機械」及「地質的變化」課程參考；7題依題庫知識點推定學期，沒有出版社官方單元來源，故不新增出版社映射。 分類器載入修復：補齊5筆既有MAPS物件鍵並移除重複CURRICULUM_REFERENCES宣告；JavaScript語法編譯通過，publisher filter仍僅依持久映射資料判斷。 推定器持久化保護：有分類索引紀錄的題目不再被執行時推定覆蓋；未分類值必須先寫回分類分片才會反映在篩選器。 最終逐題執行分類器驗證：第8至41批2,900題均讀取持久分類索引，187筆出版社映射參照全部通過，學期／段考與持久資料差異0。\n\n2026-11-15.55：重新核對國北教大六年級自然單元目錄與教育部教育雲「珍愛家園」「野生動物生態系」資源，持久更新7題（上學期3、下學期4）。均為題庫推定、中等信心、段考未分類、共同核心狀態；沒有出版社映射或新增題目。 2026-11-15.56：新增4題六年級自然來源核對分類，新增10筆題目級出版社映射；段考未指定，無新增題目。 2026-11-15.57：高二歷史工業革命單元3題已持久化為翰林歷史(3)單元層級、上學期；段考維持unassigned。 2026-11-15.58：持久分類b39-091、b41-092兩題高二歷史帝國主義／十九世紀西方霸權題，依翰林歷史(3)第5單元「西方與世界1」官方目次與課本頁標記上學期、翰林單元層級映射；段考unassigned。 2026-11-15.60：新增翰林歷史(3)第2單元啟蒙運動與第7單元冷戰期間政治局勢映射，並擴充既有第3單元工業革命別名；只回填題幹與單元直接相符的3題。 2026-11-15.64：高二公民與社會(3)第4單元「外部成本與聯合行為」新增9題持久出版社映射；學期上學期、段考unassigned、confidence=medium；未新增題目。\n本次2026-11-15.66新增六年級自然電磁作用三版本單元映射；詳細來源與題目ID見sourceVerificationLog及latestMainClassificationAudit。 2026-11-16.68：為19題六年級數學「基準量和比較量」補上康軒6下第4單元映射；依翰林國小輔教行銷處第50頁三版本對照表，保留既有南一6下與翰林6上映射。段考維持unassigned，未新增題目；來源不是康軒出版社自身課本詳情頁或學校採用證明。\n2026-11-16分類補強：12題持久更新（9題出版社映射、3題共同核心學期回填）；映射參照新增19筆，未新增題目。來源核對涵蓋六年級比與比值、水循環凝結、熱傳導／保溫，以及高二公民外部性、高二歷史啟蒙思想；另依國北教大官方目錄回填六年級電磁作用上學期。全庫出版社映射438題／542筆參照，中央映射46筆；學期上417／下135／全學年74／未分類2,274，段考未分類2,669。7,650組篩選資料層測試543組有題、7,107組合理零題、映射洩漏0。未宣稱學校採用版本或教師審核，未新增題目。",
   "latestCurriculumUnitClassificationAudit": {
@@ -6071,49 +6022,44 @@
     }
   ],
   "latestMainAudit": {
-    "runId": "2026-11-16-classification-backfill-ratio-water-heat-civic-history-01",
+    "runId": "2026-11-16-hanlin-g6-math-volume-level-backfill-01",
     "date": "2026-11-16",
-    "sourceHeadBeforeRun": "3511269b834c55ace1ff7a6ccf9893f38e9c092a",
-    "classificationDataHeadAfterUpdates": "a1e89c9dbe8da5a99bc348493b8946a7ece36dc8",
+    "sourceHeadBeforeRun": "095391ebbbe320f420967f2c2fe47e0bfd22248a",
+    "classificationDataHeadAfterUpdates": "095391ebbbe320f420967f2c2fe47e0bfd22248a",
     "batches": "08-41",
     "batchFileCount": 34,
     "fullCorpusQuestionCount": 2900,
     "activeScopeQuestionCount": 1864,
-    "questionRecordsUpdated": 12,
+    "questionRecordsUpdated": 7,
     "updatedQuestionIds": [
-      "b11-006",
-      "b14-005",
-      "b14-012",
-      "b16-021",
-      "b20-071",
-      "b21-032",
-      "b23-029",
-      "b24-025",
-      "b28-030",
-      "b28-040",
-      "b30-024",
-      "b34-089"
+      "b41-024",
+      "b41-025",
+      "b41-026",
+      "b41-027",
+      "b41-028",
+      "b41-029",
+      "b41-030"
     ],
-    "semesterAssignments": 10,
+    "semesterAssignments": 0,
     "examPeriodAssignments": 0,
-    "publisherMappingsAdded": 9,
-    "publisherMappingReferencesAdded": 19,
+    "publisherMappingsAdded": 0,
+    "publisherMappingReferencesAdded": 7,
     "publisherMappingReferencesCorrected": 0,
-    "learningDomainCorrections": 3,
-    "questionTypeCorrections": 1,
+    "learningDomainCorrections": 0,
+    "questionTypeCorrections": 0,
     "centralMappingCount": 46,
     "publisherReferenceCounts": {
-      "hanlin": 366,
+      "hanlin": 373,
       "knsh": 106,
       "nani": 70
     },
     "mappingLevelCounts": {
-      "volume": 132,
+      "volume": 139,
       "unit": 364,
       "official-resource-title": 46
     },
     "mappingVerificationStatusCounts": {
-      "source-checked": 542
+      "source-checked": 549
     },
     "newQuestionsAdded": 0,
     "fullCorpusSemesterDistribution": {
@@ -6134,8 +6080,8 @@
       "publisher-source-verified": 331
     },
     "fullCorpusPublisherStatusDistribution": {
-      "curriculum-core": 2456,
-      "publisher-mapped": 438,
+      "curriculum-core": 2449,
+      "publisher-mapped": 445,
       "pending": 6
     },
     "fullCorpusConfidenceDistribution": {
@@ -6144,7 +6090,7 @@
       "high": 32
     },
     "sourceBatchShasMatch": "34/34",
-    "classificationRuleVersion": "2026-11-16.72",
+    "classificationRuleVersion": "2026-11-16.73",
     "validation": {
       "jsonParse": true,
       "classificationRecords": 2900,
@@ -6158,11 +6104,11 @@
       "sourceFieldErrors": 0,
       "mappingScopeErrors": 0,
       "sourceBatchShasMatch": "34/34",
-      "updatedQuestionsChecked": 12,
+      "updatedQuestionsChecked": 7,
       "updatedQuestionIdsReachable": true,
       "filterCombinationsTested": 7650,
-      "nonZeroFilterCombinations": 543,
-      "zeroResultConditionsTested": 7107,
+      "nonZeroFilterCombinations": 550,
+      "zeroResultConditionsTested": 7100,
       "publisherMappingLeaks": 0,
       "filterErrors": 0,
       "allModeReachable": true,
@@ -6172,11 +6118,11 @@
       "filterUiRuntimeTested": false,
       "browserOrMobileRuntimeTested": false
     },
-    "notes": "逐題回查第8至41批原始題幹並使用已存在的官方／跨版本教材對照：六年級比與比值2題新增南一、翰林、康軒三版本單元映射；水蒸氣凝結2題新增三版本六上第一單元映射；熱傳導／保溫2題僅新增南一與康軒六上第二單元映射，明確排除來源所列的翰林五上單元；高二公民外部性2題新增翰林公民與社會(3)乙版單元4映射；高二歷史啟蒙思想1題新增翰林歷史(3)單元2映射。另將六年級電磁鐵3題依國立臺北教育大學官方單元目錄回填上學期，但不掛出版社。修正2題公民與1題歷史的learningDomain，並修正1題questionType。所有段考欄位保留原值或unassigned，沒有正式段考範圍或教師審核；沒有宣稱學校採用版本。未新增題目、未修改34個原始題庫批次的題幹、選項、答案與解析。"
+    "notes": "官方來源核對：翰林書城6上與6下商品頁只確認六年級、數學、學期與冊別；不含細分目次。七筆只作volume層級映射，題目semester/examPeriod仍為既有題庫推定，沒有新增題目或宣稱教師／學校確認。"
   },
   "statistics": {
     "auditedAt": "2026-11-16",
-    "sourceHeadBeforeRun": "3511269b834c55ace1ff7a6ccf9893f38e9c092a",
+    "sourceHeadBeforeRun": "095391ebbbe320f420967f2c2fe47e0bfd22248a",
     "questionCount": 2900,
     "uniqueQuestionIds": 2900,
     "batchFileCount": 34,
@@ -6204,8 +6150,8 @@
       "_total": 2900
     },
     "publisherStatus": {
-      "curriculum-core": 2456,
-      "publisher-mapped": 438,
+      "curriculum-core": 2449,
+      "publisher-mapped": 445,
       "pending": 6,
       "_total": 2900
     },
@@ -6215,44 +6161,30 @@
       "high": 32,
       "_total": 2900
     },
-    "publisherMappedQuestionCount": 438,
-    "publisherMappingReferenceCount": 542,
+    "publisherMappedQuestionCount": 445,
+    "publisherMappingReferenceCount": 549,
     "centralMappingRegistryCount": 46,
     "publisherReferenceCounts": {
-      "hanlin": 366,
+      "hanlin": 373,
       "knsh": 106,
       "nani": 70,
-      "_total": 542
+      "_total": 549
     },
     "mappingLevelCounts": {
-      "volume": 132,
+      "volume": 139,
       "unit": 364,
       "official-resource-title": 46,
-      "_total": 542
+      "_total": 549
     },
     "mappingVerificationStatus": {
-      "source-checked": 542,
-      "_total": 542
+      "source-checked": 549,
+      "_total": 549
     },
     "activeScope": {
       "questionCount": 1864,
-      "semester": {
-        "unassigned": 1238,
-        "上學期": 417,
-        "全學年": 74,
-        "下學期": 135,
-        "_total": 1864
-      },
-      "examPeriod": {
-        "unassigned": 1633,
-        "第三次段考": 94,
-        "第一次段考": 66,
-        "第二次段考": 71,
-        "_total": 1864
-      },
       "publisherStatus": {
-        "curriculum-core": 1420,
-        "publisher-mapped": 438,
+        "curriculum-core": 1413,
+        "publisher-mapped": 445,
         "pending": 6,
         "_total": 1864
       }
@@ -6915,5 +6847,5 @@
       "centralMappingCount": 39
     }
   },
-  "classificationRuleVersion": "2026-11-16.72"
+  "classificationRuleVersion": "2026-11-16.73"
 }
