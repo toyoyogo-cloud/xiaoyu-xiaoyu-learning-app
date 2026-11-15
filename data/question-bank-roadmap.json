@@ -649,10 +649,10 @@
     "officialResourceTitle": 11
   },
   "sourceBranch": "main",
-  "sourceHead": "f6d5c10fb3701bf842111297cd9f7dba85622e1c",
+  "sourceHead": "0b832a879b4923971c88e89542d2b573d8efb02a",
   "mergeCommit": "4c2f57a8972b8f6910b443f97881839d934052f7",
   "pullRequest": 6,
-  "mainVerifiedAt": "2026-11-14",
+  "mainVerifiedAt": "2026-11-15T03:47:47Z",
   "pagesDeployment": "workflow-run-success:43467223025",
   "runtimeClassificationAuditStatus": "v23-static-classification-index-batches08-15-and28-41; browser-runtime-pending",
   "mappingVerificationStatusCountsBatches30to40": {
@@ -2075,7 +2075,10 @@
     "nextPriority": "繼續分組處理國小六年級與高中高二尚未分類的既有題目；優先核對官方教材目次／教學資源，不足證據不掛出版社、不推段考。",
     "incrementalFilterCombinations": 194400,
     "filterErrors": 0,
-    "publisherFilterLeaks": 0
+    "publisherFilterLeaks": 0,
+    "sourceHead": "0b832a879b4923971c88e89542d2b573d8efb02a",
+    "indexStatisticsSynced": true,
+    "serviceWorkerCache": "xy-learning-v134"
   },
   "duplicateCandidateAudit": {
     "auditedAt": "2026-11-14",
@@ -2198,8 +2201,60 @@
       "incrementalFilterCombinations": 194400,
       "filterErrors": 0,
       "publisherFilterLeaks": 0,
-      "browserOrMobileRuntimeTested": false
+      "browserOrMobileRuntimeTested": false,
+      "classificationIndexStatisticsSynced": true,
+      "classificationIndexEntries": 2900,
+      "indexStatsMatchCurrentShards": true,
+      "serviceWorkerCache": "xy-learning-v134"
     },
-    "notes": "本輪完成4題國小六年級自然既有題目之官方教育資源核對與持久分類；原始34批題庫未修改。學期／段考不足證據者仍保留unassigned。"
+    "notes": "本輪完成4題國小六年級自然既有題目之官方教育資源核對與持久分類；原始34批題庫未修改。學期／段考不足證據者仍保留unassigned。",
+    "lastIndexSyncAudit": {
+      "auditedAt": "2026-11-15",
+      "sourceHead": "0b832a879b4923971c88e89542d2b573d8efb02a",
+      "classificationIndexPath": "data/question-classification.json",
+      "classificationIndexBlobSha": "18416b9e9ed63f5380d52da6aa0c6f30fbfb43f4",
+      "serviceWorkerCache": "xy-learning-v134",
+      "batchRange": "08-41",
+      "batchFileCount": 34,
+      "rawQuestionCount": 2900,
+      "uniqueQuestionIds": 2900,
+      "persistentClassificationCount": 2900,
+      "semester": {
+        "unassigned": 2315,
+        "上學期": 376,
+        "下學期": 135,
+        "全學年": 74
+      },
+      "examPeriod": {
+        "unassigned": 2669,
+        "第一次段考": 66,
+        "第二次段考": 71,
+        "第三次段考": 94
+      },
+      "classificationBasis": {
+        "curriculum-core": 2330,
+        "question-bank-inference": 470,
+        "publisher-source-verified": 100
+      },
+      "publisherStatus": {
+        "curriculum-core": 2715,
+        "pending": 6,
+        "publisher-mapped": 179
+      },
+      "publisherMappedQuestionCount": 179,
+      "publisherMappingReferenceCount": 209,
+      "centralMappingRegistryCount": 33,
+      "sourceBatchShasMatched": "34/34",
+      "requiredFieldErrors": 0,
+      "invalidClassificationValues": 0,
+      "mappingConsistencyErrors": 0,
+      "filterCombinationsTested": 194400,
+      "filterErrors": 0,
+      "publisherFilterLeaks": 0,
+      "browserOrMobileRuntimeTested": false,
+      "questionRecordsUpdated": 0,
+      "newQuestionsAdded": 0,
+      "notes": "同步分類索引statistics至最新六分片實際統計，並將Service Worker快取由v133升至v134。未修改原始題庫、題幹、答案或既有分類紀錄。"
+    }
   }
 }
