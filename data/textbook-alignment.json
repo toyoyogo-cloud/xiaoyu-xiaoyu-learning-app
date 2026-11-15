@@ -1515,9 +1515,31 @@
         "比與比值",
         "比與比例"
       ]
+    },
+    {
+      "id": "knsh-g6-math-6b-u4-base-comparison",
+      "mappingId": "knsh-g6-math-6b-u4-base-comparison",
+      "schoolYear": "未標示",
+      "stage": "國小",
+      "grade": "六年級",
+      "subject": "數學",
+      "semester": "下學期",
+      "publisher": "knsh",
+      "volume": "數學(6下)",
+      "unitCode": "4",
+      "unitName": "兩量關係與比（含基準量與比較量）",
+      "learningContent": "翰林國小輔教行銷處官方跨版本對照表第50頁明列單元6兩量關係與比：康軒版為六下第4單元；來源為跨版本對照資料，非康軒出版社自身課本詳情頁。",
+      "sourceType": "official-cross-publisher-reference",
+      "sourceUrl": "https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
+      "sourceTitle": "翰林國小輔教行銷處－數學能力加強系列[6年級]抽印本，第50頁（三版本對照表）",
+      "verifiedAt": "2026-11-16",
+      "verificationStatus": "source-checked",
+      "notes": "第50頁「6年級版本對照表」列出單元6「兩量關係與比」：翰林版6上第6單元、康軒版6下第4單元、南一版6下第3單元。此映射以翰林官方部門發布的跨版本對照表為來源；不是康軒出版社自身課本詳情頁或學校採用證明。僅用於題幹直接涉及基準量／比較量的單元對照，不推定正式段考範圍。",
+      "courseType": "國小",
+      "mappingLevel": "unit"
     }
   ],
-  "mappingStatus": "source-checked-39-mappings",
+  "mappingStatus": "source-checked-46-mappings",
   "nextSteps": [
     "高二公民「負外部性／外部成本與政策」9題已依翰林公民與社會(3)乙版高二上學期商品頁及配套評量本第4單元目次建立單元層級映射；段考維持unassigned，其他出版社及學校採用版本不推定。",
     "高二歷史「工業革命與社會變遷」3題已依翰林歷史(3)單元3目次與官方課本頁建立單元層級映射及上學期分類；段考仍未分類，其他出版社版本與學校採用版本不推定。",
@@ -2222,48 +2244,58 @@
       "note": "段考未指定；出版社映射僅含1題翰林數學3A單元對照與2題翰林化學(I)冊別層級對照。"
     }
   },
-  "mappingCount": 45,
+  "mappingCount": 46,
   "auditNotes": "每筆映射均保留 publisher、mappingId、sourceUrl、sourceTitle、verifiedAt、verificationStatus、notes。,mappingLevel 區分 unit、title-topic、volume；冊別／冊名層級不代表細分單元已核對。,數學3A映射限定 courseTrack=數學A；未確認數學A/B者不得套用。,出版社來源只證明教材冊別／單元對照，不代表學校採用該版本。,翰林選修化學(II)官方課本頁明示高二上學期，已由下學期更正為上學期。,2026-11-13 main 全庫盤點：第8至36批共2,400題、2,400個唯一ID；第8至29批1,700題沒有內嵌出版社／學期分類欄位，改由 question-classification-inference.js 依可辨識知識點動態推定，無證據者保留unassigned/pending；第30至36批700題有分類欄位，出版社映射引用119筆，對照16筆中央映射後未發現年級、科目、學期或課程軌別不符。第30批有91題未儲存classificationNotes，執行時由分類器以sourceRef／預設理由補出說明。此為結構與來源欄位稽核，不表示每題都已取得出版社對照。,化學(II)冊別層級校正：以翰林課本商品頁005022為準，確認高二上學期；不同商品編號的習作或實驗手冊學期不可混用。,第37批新增30題來源映射均以中央mappingId連結；執行時分類器回歸測試確認100題的semester、examPeriod、classificationBasis、publisherStatus及publisherMappings均與批次檔儲存欄位一致。,第37批已透過PR #1合併至main，merge commit 0b76d6e99d66502f39f6e9c32ad8032bbcc47494；main已包含第37批及本次全庫來源稽核。,2026-11-13來源狀態細化：南一平台「數學6下｜怎樣解題：雞兔問題」詳情頁請求逾時，僅能由南一官方資源頁的熱門文章連結標題確認主題與年級／科目／學期；映射降為official-resource-title與official-index-link-only，不宣稱南一課本單元或原題。,雞兔問題mapping的sourceUrl改指向可讀取的南一官方索引頁a=341，另保留targetUrl=a=394作為連結目標；verificationStatus仍為official-index-link-only。,第37批30筆題目映射中，28筆為可直接讀取來源核對，2筆雞兔問題映射僅由南一官方索引頁標題確認（official-index-link-only）；中央16筆映射中15筆source-checked、1筆official-index-link-only。,第41批新增100題（小六50、高二50）；35筆來源映射引用全部指向中央16筆已核對mappingId，逐筆核對publisher、sourceUrl、sourceTitle、verifiedAt、verificationStatus、notes、年級、科目、學期、軌別及單元／冊別範圍，35/35通過。未新增中央映射紀錄。,第41批映射層級：單元23、冊別9、官方資源標題3；出版社引用翰林27、南一6、康軒2。冊別與官方資源標題層級不冒稱完整課本目次。 2026-11-13 main全庫盤點：第8至41批2,900題；338筆出版社映射引用與16筆中央映射一致，錯誤0。原始分類欄位2,900/2,900完整；擴充分類欄位已持久保存399題，尚待補齊2,501題。\n2026-11-14康軒社會六上4-3來源核對：官方教學資源明示都市與鄉村永續發展、人口移動、公共服務／交通網絡、災害風險管理、社區參與及文化資產保存；新增10筆直接對應題目級映射，層級為official-resource-title，段考保留unassigned。\n2026-11-15.62：19筆六年級數學基準量／比較量題目新增翰林6上第6單元映射；保留南一6下映射，修正出版社學期篩選為版本別學期。\n2026-11-15.62全庫分片重算：六個分類分片2,900題共343筆出版社映射引用（翰林224、南一51、康軒68；冊別83、單元214、官方資源標題46），第30至41批1,200題含325筆映射引用。同步修正Batches08to41與Batches30to41彙總欄位，避免沿用舊統計。\n2026-11-15.63：11題高二歷史工業革命／工業化社會變遷題目新增翰林歷史(3)單元3映射；上學期，段考unassigned。\n2026-11-15：新增3題高二歷史冷戰圍堵政策單元7映射；翰林課本頁確認高二歷史上學期，出版社配套參考書目次確認單元7；信心medium、段考unassigned、學校採用版本未確認。 2026-11-15.64：高二公民與社會(3)第4單元「外部成本與聯合行為」新增9題持久出版社映射；學期上學期、段考unassigned、confidence=medium；未新增題目。\n2026-11-15.65：教材對照欄位語義正規化：將3筆翰林高二數學(3A)映射及1筆翰林選修化學(I)映射的 courseType 統一為「未確認」；數學A資訊保留於獨立 courseTrack=數學A，學校採用版本仍未確認。原有 notes、來源、mappingId、semester、mappingLevel 與39筆中央映射數量不變；不新增出版社映射、不改題目分類或原始題庫。\n2026-11-15.66：四題六年級自然電磁鐵／線圈題（b35-034、b39-035、b40-034、b41-033）依教育部教育雲EP49資源頁的三版本明確對照，將原翰林冊別層級參照替換為南一、翰林、康軒六上第4單元層級映射；學期上學期、段考unassigned。來源列INe-Ⅲ-10及三版本單元名稱；不代表學校採用版本或教師審核。",
   "lastAudit": {
-    "runId": "2026-11-16-hanlin-g6-math-ratio-cross-version-01",
+    "runId": "2026-11-16-knsh-g6-math-base-comparison-cross-version-01",
     "date": "2026-11-16",
-    "sourceHeadBeforeRun": "0735a47e1043eddbc4149de98c9ce02ae24c636d",
+    "sourceHeadBeforeRun": "2ed5937db5fd948a0ef361a379c4219b989c0735",
     "batches": "08-41",
     "batchFileCount": 34,
     "fullCorpusQuestionCount": 2900,
     "activeScopeQuestionCount": 1864,
-    "questionRecordsUpdated": 9,
+    "questionRecordsUpdated": 19,
     "updatedQuestionIds": [
-      "b12-008",
-      "b20-028",
-      "b23-025",
-      "b30-012",
-      "b31-017",
-      "b33-020",
-      "b36-032",
-      "b40-025",
-      "b41-023"
+      "b36-019",
+      "b37-019",
+      "b37-020",
+      "b38-019",
+      "b38-020",
+      "b38-021",
+      "b38-022",
+      "b38-023",
+      "b39-019",
+      "b39-020",
+      "b39-021",
+      "b39-022",
+      "b40-019",
+      "b40-020",
+      "b40-021",
+      "b40-022",
+      "b41-017",
+      "b41-018",
+      "b41-019"
     ],
     "semesterAssignments": 0,
     "examPeriodAssignments": 0,
-    "publisherMappingsAdded": 27,
-    "publisherMappingReferencesAdded": 27,
-    "centralMappingCount": 45,
+    "publisherMappingsAdded": 19,
+    "publisherMappingReferencesAdded": 19,
+    "centralMappingCount": 46,
     "publisherReferenceCounts": {
       "hanlin": 297,
-      "knsh": 81,
+      "knsh": 100,
       "nani": 64,
-      "_total": 442
+      "_total": 461
     },
     "mappingLevelCounts": {
-      "unit": 276,
+      "unit": 295,
       "volume": 120,
       "official-resource-title": 46,
-      "_total": 442
+      "_total": 461
     },
     "mappingVerificationStatusCounts": {
-      "source-checked": 442,
-      "_total": 442
+      "source-checked": 461,
+      "_total": 461
     },
     "newQuestionsAdded": 0,
     "fullCorpusSemesterDistribution": {
@@ -2299,7 +2331,7 @@
       "_total": 2900
     },
     "sourceBatchShasMatch": "34/34",
-    "classificationRuleVersion": "2026-11-16.67",
+    "classificationRuleVersion": "2026-11-16.68",
     "validation": {
       "jsonParse": true,
       "classificationRecords": 2900,
@@ -2311,15 +2343,15 @@
       "mappingScopeErrors": 0,
       "sourceBatchShasMatch": "34/34",
       "appReadsPersistedClassificationIndex": true,
-      "incrementalQuestionsChecked": 9,
-      "incrementalMappingReferencesChecked": 27,
-      "incrementalFilterCombinationsTested": 1350,
+      "incrementalQuestionsChecked": 19,
+      "incrementalMappingReferencesChecked": 19,
+      "incrementalFilterCombinationsTested": 2850,
       "publisherMappingLeaks": 0,
       "filterErrors": 0,
       "allUpdatedQuestionsReachable": true,
       "browserOrMobileRuntimeTested": false
     },
-    "notes": "翰林國小輔教行銷處官方帳號發布的六年級數學版本對照表第50頁明列「單元3 比與比值」；該表對應翰林版6上第4單元、康軒版6上第5單元、南一版6上第5單元。此為翰林部門發布的跨版本教材對照，學年度未標示；僅支持本單元的版本、單元及上學期對照，不代表三家各自課本詳情頁、任何學校採用版本或正式段考範圍。題目examPeriod仍沿用題庫既有「第一次段考」複習建議，並非官方或教師確認。"
+    "notes": "依翰林國小輔教行銷處第50頁六年級版本對照表，單元6「兩量關係與比」對應康軒版6下第4單元；為19題直接涉及基準量／比較量的既有題目新增康軒映射。來源為翰林官方部門發布的跨版本對照表，並非康軒出版社自身課本詳情頁或學校採用證明。題目原有南一6下與翰林6上映射保留；康軒6下新增映射。學期依各出版社映射分開保存，段考維持unassigned；未新增題目。"
   },
   "auditSummary": {
     "auditedAt": "2026-11-14",
@@ -2958,11 +2990,11 @@
     "pullRequestUrl": "https://github.com/toyoyogo-cloud/xiaoyu-xiaoyu-learning-app/pull/6"
   },
   "mappingVerificationStatusCountsBatches08to41": {
-    "source-checked": 442
+    "source-checked": 461
   },
   "publisherReferenceCountsBatches08to41": {
     "hanlin": 297,
-    "knsh": 81,
+    "knsh": 100,
     "nani": 64
   },
   "mappingVerificationStatusCountsBatches30to41": {
@@ -4830,35 +4862,45 @@
     "date": "2026-11-16",
     "classificationRecordCount": 2900,
     "publisherMappedQuestionCount": 367,
-    "questionMappingReferenceCount": 442,
-    "centralMappingCount": 45,
+    "questionMappingReferenceCount": 461,
+    "centralMappingCount": 46,
     "unresolvedCentralMappingReferences": 0,
     "sourceFieldMismatches": 0,
     "mappingScopeErrors": 0,
     "missingRequiredClassificationFields": 0,
     "publisherReferenceCounts": {
       "hanlin": 297,
-      "knsh": 81,
+      "knsh": 100,
       "nani": 64
     },
     "mappingLevelCounts": {
-      "unit": 276,
+      "unit": 295,
       "volume": 120,
       "official-resource-title": 46
     },
     "verificationCounts": {
-      "source-checked": 442
+      "source-checked": 461
     },
     "updatedQuestionIds": [
-      "b12-008",
-      "b20-028",
-      "b23-025",
-      "b30-012",
-      "b31-017",
-      "b33-020",
-      "b36-032",
-      "b40-025",
-      "b41-023"
+      "b36-019",
+      "b37-019",
+      "b37-020",
+      "b38-019",
+      "b38-020",
+      "b38-021",
+      "b38-022",
+      "b38-023",
+      "b39-019",
+      "b39-020",
+      "b39-021",
+      "b39-022",
+      "b40-019",
+      "b40-020",
+      "b40-021",
+      "b40-022",
+      "b41-017",
+      "b41-018",
+      "b41-019"
     ],
     "sourceBatchShasMatch": "34/34"
   },
@@ -5056,7 +5098,7 @@
     "browserTested": false,
     "note": "依 index.html getPool 資料層條件，對9題測試全部版本／南一／翰林／康軒／共同核心／待核對、全部／上學期／下學期／全學年／未分類，以及全部／第一次／第二次／第三次段考；三個出版社映射均只在各自已核對版本中可達。未進行瀏覽器或手機實機測試。"
   },
-  "notes": " 2026-11-14：新增國立臺北教育大學六年級自然上學期單元四「電磁作用」課程參考，12題串聯／並聯電路僅回填上學期，不掛出版社、不填段考。 2026-11-15：依國立臺北教育大學雙語教學研究中心官方單元目錄，新增3題六年級自然電磁鐵／線圈題目的上學期課程核心分類；段考維持unassigned，不掛出版社。 2026-11-15：新增六年級自然「簡單機械」及「地質的變化」課程參考；7題依題庫知識點推定學期，沒有出版社官方單元來源，故不新增出版社映射。 分類器載入修復：補齊5筆既有MAPS物件鍵並移除重複CURRICULUM_REFERENCES宣告；JavaScript語法編譯通過，publisher filter仍僅依持久映射資料判斷。 推定器持久化保護：有分類索引紀錄的題目不再被執行時推定覆蓋；未分類值必須先寫回分類分片才會反映在篩選器。 最終逐題執行分類器驗證：第8至41批2,900題均讀取持久分類索引，187筆出版社映射參照全部通過，學期／段考與持久資料差異0。\n\n2026-11-15.55：重新核對國北教大六年級自然單元目錄與教育部教育雲「珍愛家園」「野生動物生態系」資源，持久更新7題（上學期3、下學期4）。均為題庫推定、中等信心、段考未分類、共同核心狀態；沒有出版社映射或新增題目。 2026-11-15.56：新增4題六年級自然來源核對分類，新增10筆題目級出版社映射；段考未指定，無新增題目。 2026-11-15.57：高二歷史工業革命單元3題已持久化為翰林歷史(3)單元層級、上學期；段考維持unassigned。 2026-11-15.58：持久分類b39-091、b41-092兩題高二歷史帝國主義／十九世紀西方霸權題，依翰林歷史(3)第5單元「西方與世界1」官方目次與課本頁標記上學期、翰林單元層級映射；段考unassigned。 2026-11-15.60：新增翰林歷史(3)第2單元啟蒙運動與第7單元冷戰期間政治局勢映射，並擴充既有第3單元工業革命別名；只回填題幹與單元直接相符的3題。 2026-11-15.64：高二公民與社會(3)第4單元「外部成本與聯合行為」新增9題持久出版社映射；學期上學期、段考unassigned、confidence=medium；未新增題目。\n本次2026-11-15.66新增六年級自然電磁作用三版本單元映射；詳細來源與題目ID見sourceVerificationLog及latestMainClassificationAudit。",
+  "notes": " 2026-11-14：新增國立臺北教育大學六年級自然上學期單元四「電磁作用」課程參考，12題串聯／並聯電路僅回填上學期，不掛出版社、不填段考。 2026-11-15：依國立臺北教育大學雙語教學研究中心官方單元目錄，新增3題六年級自然電磁鐵／線圈題目的上學期課程核心分類；段考維持unassigned，不掛出版社。 2026-11-15：新增六年級自然「簡單機械」及「地質的變化」課程參考；7題依題庫知識點推定學期，沒有出版社官方單元來源，故不新增出版社映射。 分類器載入修復：補齊5筆既有MAPS物件鍵並移除重複CURRICULUM_REFERENCES宣告；JavaScript語法編譯通過，publisher filter仍僅依持久映射資料判斷。 推定器持久化保護：有分類索引紀錄的題目不再被執行時推定覆蓋；未分類值必須先寫回分類分片才會反映在篩選器。 最終逐題執行分類器驗證：第8至41批2,900題均讀取持久分類索引，187筆出版社映射參照全部通過，學期／段考與持久資料差異0。\n\n2026-11-15.55：重新核對國北教大六年級自然單元目錄與教育部教育雲「珍愛家園」「野生動物生態系」資源，持久更新7題（上學期3、下學期4）。均為題庫推定、中等信心、段考未分類、共同核心狀態；沒有出版社映射或新增題目。 2026-11-15.56：新增4題六年級自然來源核對分類，新增10筆題目級出版社映射；段考未指定，無新增題目。 2026-11-15.57：高二歷史工業革命單元3題已持久化為翰林歷史(3)單元層級、上學期；段考維持unassigned。 2026-11-15.58：持久分類b39-091、b41-092兩題高二歷史帝國主義／十九世紀西方霸權題，依翰林歷史(3)第5單元「西方與世界1」官方目次與課本頁標記上學期、翰林單元層級映射；段考unassigned。 2026-11-15.60：新增翰林歷史(3)第2單元啟蒙運動與第7單元冷戰期間政治局勢映射，並擴充既有第3單元工業革命別名；只回填題幹與單元直接相符的3題。 2026-11-15.64：高二公民與社會(3)第4單元「外部成本與聯合行為」新增9題持久出版社映射；學期上學期、段考unassigned、confidence=medium；未新增題目。\n本次2026-11-15.66新增六年級自然電磁作用三版本單元映射；詳細來源與題目ID見sourceVerificationLog及latestMainClassificationAudit。 2026-11-16.68：為19題六年級數學「基準量和比較量」補上康軒6下第4單元映射；依翰林國小輔教行銷處第50頁三版本對照表，保留既有南一6下與翰林6上映射。段考維持unassigned，未新增題目；來源不是康軒出版社自身課本詳情頁或學校採用證明。",
   "latestCurriculumUnitClassificationAudit": {
     "runId": "2026-11-15-moe-g6-electromagnetism-unit4-backfill-01",
     "verifiedAt": "2026-11-15",
@@ -5309,45 +5351,55 @@
     }
   ],
   "latestMainAudit": {
-    "runId": "2026-11-16-hanlin-g6-math-ratio-cross-version-01",
+    "runId": "2026-11-16-knsh-g6-math-base-comparison-cross-version-01",
     "date": "2026-11-16",
-    "sourceHeadBeforeRun": "0735a47e1043eddbc4149de98c9ce02ae24c636d",
+    "sourceHeadBeforeRun": "2ed5937db5fd948a0ef361a379c4219b989c0735",
     "batches": "08-41",
     "batchFileCount": 34,
     "fullCorpusQuestionCount": 2900,
     "activeScopeQuestionCount": 1864,
-    "questionRecordsUpdated": 9,
+    "questionRecordsUpdated": 19,
     "updatedQuestionIds": [
-      "b12-008",
-      "b20-028",
-      "b23-025",
-      "b30-012",
-      "b31-017",
-      "b33-020",
-      "b36-032",
-      "b40-025",
-      "b41-023"
+      "b36-019",
+      "b37-019",
+      "b37-020",
+      "b38-019",
+      "b38-020",
+      "b38-021",
+      "b38-022",
+      "b38-023",
+      "b39-019",
+      "b39-020",
+      "b39-021",
+      "b39-022",
+      "b40-019",
+      "b40-020",
+      "b40-021",
+      "b40-022",
+      "b41-017",
+      "b41-018",
+      "b41-019"
     ],
     "semesterAssignments": 0,
     "examPeriodAssignments": 0,
-    "publisherMappingsAdded": 27,
-    "publisherMappingReferencesAdded": 27,
-    "centralMappingCount": 45,
+    "publisherMappingsAdded": 19,
+    "publisherMappingReferencesAdded": 19,
+    "centralMappingCount": 46,
     "publisherReferenceCounts": {
       "hanlin": 297,
-      "knsh": 81,
+      "knsh": 100,
       "nani": 64,
-      "_total": 442
+      "_total": 461
     },
     "mappingLevelCounts": {
-      "unit": 276,
+      "unit": 295,
       "volume": 120,
       "official-resource-title": 46,
-      "_total": 442
+      "_total": 461
     },
     "mappingVerificationStatusCounts": {
-      "source-checked": 442,
-      "_total": 442
+      "source-checked": 461,
+      "_total": 461
     },
     "newQuestionsAdded": 0,
     "fullCorpusSemesterDistribution": {
@@ -5383,7 +5435,7 @@
       "_total": 2900
     },
     "sourceBatchShasMatch": "34/34",
-    "classificationRuleVersion": "2026-11-16.67",
+    "classificationRuleVersion": "2026-11-16.68",
     "validation": {
       "jsonParse": true,
       "classificationRecords": 2900,
@@ -5395,19 +5447,19 @@
       "mappingScopeErrors": 0,
       "sourceBatchShasMatch": "34/34",
       "appReadsPersistedClassificationIndex": true,
-      "incrementalQuestionsChecked": 9,
-      "incrementalMappingReferencesChecked": 27,
-      "incrementalFilterCombinationsTested": 1350,
+      "incrementalQuestionsChecked": 19,
+      "incrementalMappingReferencesChecked": 19,
+      "incrementalFilterCombinationsTested": 2850,
       "publisherMappingLeaks": 0,
       "filterErrors": 0,
       "allUpdatedQuestionsReachable": true,
       "browserOrMobileRuntimeTested": false
     },
-    "notes": "翰林國小輔教行銷處官方帳號發布的六年級數學版本對照表第50頁明列「單元3 比與比值」；該表對應翰林版6上第4單元、康軒版6上第5單元、南一版6上第5單元。此為翰林部門發布的跨版本教材對照，學年度未標示；僅支持本單元的版本、單元及上學期對照，不代表三家各自課本詳情頁、任何學校採用版本或正式段考範圍。題目examPeriod仍沿用題庫既有「第一次段考」複習建議，並非官方或教師確認。"
+    "notes": "依翰林國小輔教行銷處第50頁六年級版本對照表，單元6「兩量關係與比」對應康軒版6下第4單元；為19題直接涉及基準量／比較量的既有題目新增康軒映射。來源為翰林官方部門發布的跨版本對照表，並非康軒出版社自身課本詳情頁或學校採用證明。題目原有南一6下與翰林6上映射保留；康軒6下新增映射。學期依各出版社映射分開保存，段考維持unassigned；未新增題目。"
   },
   "statistics": {
     "auditedAt": "2026-11-16",
-    "sourceHeadBeforeRun": "0735a47e1043eddbc4149de98c9ce02ae24c636d",
+    "sourceHeadBeforeRun": "2ed5937db5fd948a0ef361a379c4219b989c0735",
     "questionCount": 2900,
     "uniqueQuestionIds": 2900,
     "batchFileCount": 34,
@@ -5447,20 +5499,20 @@
       "_total": 2900
     },
     "publisherMappedQuestionCount": 367,
-    "publisherMappingReferenceCount": 442,
-    "centralMappingRegistryCount": 45,
+    "publisherMappingReferenceCount": 461,
+    "centralMappingRegistryCount": 46,
     "publisherReferenceCounts": {
       "hanlin": 297,
-      "knsh": 81,
+      "knsh": 100,
       "nani": 64
     },
     "mappingLevelCounts": {
-      "unit": 276,
+      "unit": 295,
       "volume": 120,
       "official-resource-title": 46
     },
     "mappingVerificationStatus": {
-      "source-checked": 442
+      "source-checked": 461
     },
     "activeScope": {
       "questionCount": 1864,
@@ -5487,7 +5539,7 @@
     }
   },
   "mappingLevelCountsBatches08to41": {
-    "unit": 276,
+    "unit": 295,
     "volume": 120,
     "official-resource-title": 46
   },
