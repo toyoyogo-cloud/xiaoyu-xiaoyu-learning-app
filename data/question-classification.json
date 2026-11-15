@@ -172,14 +172,20 @@
       "incrementalMappingReferencesChecked": 9,
       "publisherMappingLeaks": 0,
       "filterErrors": 0,
-      "filterCombinationsTested": 150,
-      "questionFilterCasesTested": 1350,
-      "zeroResultConditionsTested": 142,
+      "filterCombinationsTested": 3150,
+      "questionFilterCasesTested": 406800,
+      "zeroResultConditionsTested": 2863,
       "allUpdatedQuestionsReachable": true,
       "browserOrMobileRuntimeTested": false,
       "filterMethod": "index.html getPool predicate data-layer simulation",
       "classifierResolverScopeMatches": 9,
-      "classifierResolverScopeFailures": 0
+      "classifierResolverScopeFailures": 0,
+      "unitFilterGroupsTested": 1180,
+      "unitFilterCountErrors": 0,
+      "allPoolErrors": 0,
+      "subjectOptionCoverageErrors": 0,
+      "publisherCategoryCoverageErrors": 0,
+      "courseTrackPlaceholderErrors": 0
     },
     "notes": "翰林高中課本公民與社會(3)乙版官方商品頁確認高二、公民、上學期；出版社配套評量本第3頁目次第4單元列外部成本與聯合行為、外部效果與政府對策。僅將直接涉及負外部性、污染費及外部成本內部化的9題映射至翰林單元4；配套評量本目次不是主課本完整目次，不代表學校採用版本或正式段考範圍。",
     "sourceHead": "0648e395e2a0c1aa80739be9aeb874b3bd671688",
@@ -236,9 +242,12 @@
   },
   "lastFilterDataAudit": {
     "auditedAt": "2026-11-15",
-    "type": "hanlin-h2-civic-3-u4-external-costs-filter-validation",
-    "questionsChecked": 9,
-    "questionIds": [
+    "type": "full-active-scope-filter-regression",
+    "sourceHead": "752b8130cb9671f1b588ee4188d40d24e968ae89",
+    "fullCorpusQuestionCount": 2900,
+    "activeScopeQuestionCount": 1864,
+    "questionsChecked": 1864,
+    "updatedQuestionIds": [
       "b16-071",
       "b19-071",
       "b28-071",
@@ -249,16 +258,21 @@
       "b39-096",
       "b40-094"
     ],
-    "mappingReferencesChecked": 9,
+    "mappingReferencesChecked": 407,
+    "filterCombinationsTested": 3150,
+    "questionFilterCasesTested": 406800,
+    "zeroResultConditionsTested": 2863,
+    "unitFilterGroupsTested": 1180,
+    "unitFilterCountErrors": 0,
+    "allPoolErrors": 0,
+    "subjectOptionCoverageErrors": 0,
+    "publisherCategoryCoverageErrors": 0,
     "publisherMappingLeaks": 0,
-    "filterErrors": 0,
-    "filterCombinationsTested": 150,
-    "questionFilterCasesTested": 1350,
-    "zeroResultConditionsTested": 142,
+    "courseTrackPlaceholderErrors": 0,
     "allUpdatedQuestionsReachable": true,
     "appReadsPersistedClassificationIndex": true,
     "browserTested": false,
-    "note": "依index.html getPool現行條件順序完成全部版本／共同核心／待核對、出版社、學期、段考交互條件資料層模擬；翰林＋上學期＋未分類段考可取得9題，出版社映射洩漏0。非瀏覽器／手機實機測試。"
+    "note": "依index.html getPool條件順序，對17個啟用年級／科目群組測試全部／翰林／南一／康軒／共同核心／待核對、四種學期與四種段考狀態；高二數學另測數學A、數學B、未標示軌別及未選擇軌別。另逐組驗證1,180個單元篩選值。零題組合均正常回傳空集合；此為全庫資料層邏輯模擬，非瀏覽器／手機實機測試。"
   },
   "lastRawTagAudit": {
     "date": "2026-11-14",
@@ -360,14 +374,20 @@
       "incrementalMappingReferencesChecked": 9,
       "publisherMappingLeaks": 0,
       "filterErrors": 0,
-      "filterCombinationsTested": 150,
-      "questionFilterCasesTested": 1350,
-      "zeroResultConditionsTested": 142,
+      "filterCombinationsTested": 3150,
+      "questionFilterCasesTested": 406800,
+      "zeroResultConditionsTested": 2863,
       "allUpdatedQuestionsReachable": true,
       "browserOrMobileRuntimeTested": false,
       "filterMethod": "index.html getPool predicate data-layer simulation",
       "classifierResolverScopeMatches": 9,
-      "classifierResolverScopeFailures": 0
+      "classifierResolverScopeFailures": 0,
+      "unitFilterGroupsTested": 1180,
+      "unitFilterCountErrors": 0,
+      "allPoolErrors": 0,
+      "subjectOptionCoverageErrors": 0,
+      "publisherCategoryCoverageErrors": 0,
+      "courseTrackPlaceholderErrors": 0
     },
     "notes": "翰林高中課本公民與社會(3)乙版官方商品頁確認高二、公民、上學期；出版社配套評量本第3頁目次第4單元列外部成本與聯合行為、外部效果與政府對策。僅將直接涉及負外部性、污染費及外部成本內部化的9題映射至翰林單元4；配套評量本目次不是主課本完整目次，不代表學校採用版本或正式段考範圍。"
   },
@@ -512,6 +532,6 @@
       }
     }
   },
-  "sourceHeadVerified": "0648e395e2a0c1aa80739be9aeb874b3bd671688",
+  "sourceHeadVerified": "752b8130cb9671f1b588ee4188d40d24e968ae89",
   "mainHeadVerifiedAt": "2026-11-15T21:40:42+08:00"
 }
