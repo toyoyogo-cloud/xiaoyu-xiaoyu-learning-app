@@ -1473,6 +1473,26 @@
       "verifiedAt": "2026-11-15",
       "verificationStatus": "source-checked",
       "notes": "翰林國小輔教行銷處發布的六年級數學版本對照表第50頁，明列「單元2 分數除法」：翰林版、康軒版、南一版均對應六上第2單元。此為翰林部門發布的跨版本對照資源，非三家各自課本詳情頁，且未標示學年度；僅支持此單元的版本／學期對照，不代表任何學校採用版本或正式段考範圍。"
+    },
+    {
+      "id": "moe-cloud-g56-ocean-ecosystem",
+      "publisher": "curriculum-core",
+      "sourceType": "curriculum-reference",
+      "sourceUrl": "https://market.cloud.edu.tw/resources/web/1811000",
+      "sourceTitle": "教育部教育雲－海洋奇緣：永續生態的奇幻探險",
+      "verifiedAt": "2026-11-15",
+      "verificationStatus": "source-checked",
+      "notes": "教育部教育雲資源說明為國小4至6年級上學期自然科水域環境延伸教材；知識架構列國小5至6年級及INc-Ⅲ-9（生物間食物關係形成生態系）、INd-Ⅲ-6（生物多樣性）。僅作課程主題／學期推定，不是出版社版本或學校採用證明。"
+    },
+    {
+      "id": "moe-cloud-g56-wildlife-ecosystem",
+      "publisher": "curriculum-core",
+      "sourceType": "curriculum-reference",
+      "sourceUrl": "https://market.cloud.edu.tw/resources/web/1808682",
+      "sourceTitle": "教育部教育雲－野生動物生態系",
+      "verifiedAt": "2026-11-15",
+      "verificationStatus": "source-checked",
+      "notes": "教育部教育雲資源列國小5至6年級自然科，內容涵蓋草原、極地、高山溪流、淺山、濕地、珊瑚礁等生態系及生物多樣性；頁面未指定學期，僅作知識點佐證，不單獨用來推定學期或出版社。"
     }
   ],
   "classificationAudit": {
@@ -4885,38 +4905,52 @@
   },
   "lastSourceVerificationAudit": {
     "date": "2026-11-15",
-    "sourceCount": 35,
+    "sourceCount": 37,
     "mappingCount": 30,
-    "runId": "2026-11-15-g6-math-fraction-division-cross-version-01",
-    "sourceUrl": "https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
-    "sourceTitle": "翰林國小輔教行銷處－數學能力加強系列[6年級]抽印本，第50頁「六年級版本對照表」",
+    "runId": "2026-11-15-g6-natural-food-web-upper-semester-backfill",
+    "sourceUrls": [
+      "https://market.cloud.edu.tw/resources/web/1811000",
+      "https://market.cloud.edu.tw/resources/web/1808682"
+    ],
+    "sourceTitles": [
+      "教育部教育雲－海洋奇緣：永續生態的奇幻探險",
+      "教育部教育雲－野生動物生態系"
+    ],
     "verifiedAt": "2026-11-15",
     "verificationStatus": "source-checked",
-    "notes": "翰林國小輔教行銷處發布的六年級數學版本對照表第50頁，明列「單元2 分數除法」：翰林版、康軒版、南一版均對應六上第2單元。此為翰林部門發布的跨版本對照資源，非三家各自課本詳情頁，且未標示學年度；僅支持此單元的版本／學期對照，不代表任何學校採用版本或正式段考範圍。"
+    "notes": "本輪新增兩筆教育部教育雲課程參考來源；只作108課綱共同核心／學期推定，不增加南一、翰林或康軒出版社映射。"
   },
   "lastRunAudit": {
     "date": "2026-11-15",
-    "type": "2026-11-15-g6-math-fraction-division-cross-version-01",
-    "sourceHeadBeforeRun": "954bf60b498c549af3fb7a6df33bf15b30c3ba6d",
+    "type": "2026-11-15-g6-natural-food-web-upper-semester-backfill",
+    "sourceHeadBeforeRun": "7282055574600189b70b622b8f3a3bbe23aa6ec1",
     "batches": "08-41",
     "batchFileCount": 34,
     "fullCorpusQuestionCount": 2900,
     "activeScopeQuestionCount": 1864,
-    "questionRecordsUpdated": 4,
+    "questionRecordsUpdated": 12,
     "updatedQuestionIds": [
-      "b32-012",
-      "b33-019",
-      "b37-028",
-      "b39-025"
+      "b15-022",
+      "b24-032",
+      "b25-030",
+      "b30-025",
+      "b31-036",
+      "b32-027",
+      "b33-033",
+      "b35-033",
+      "b36-040",
+      "b38-039",
+      "b40-037",
+      "b41-035"
     ],
-    "semesterAssigned": 4,
+    "semesterAssigned": 12,
     "examPeriodAssigned": 0,
-    "publisherMappingsAdded": 12,
+    "publisherMappingsAdded": 0,
     "newQuestionsAdded": 0,
     "centralMappingCount": 30,
     "fullCorpusSemesterDistribution": {
-      "unassigned": 2338,
-      "上學期": 357,
+      "unassigned": 2326,
+      "上學期": 369,
       "下學期": 131,
       "全學年": 74
     },
@@ -4927,8 +4961,8 @@
       "第三次段考": 94
     },
     "fullCorpusClassificationBasisDistribution": {
-      "curriculum-core": 2353,
-      "question-bank-inference": 451,
+      "curriculum-core": 2341,
+      "question-bank-inference": 463,
       "publisher-source-verified": 96
     },
     "fullCorpusPublisherStatusDistribution": {
@@ -4937,8 +4971,8 @@
       "publisher-mapped": 175
     },
     "fullCorpusConfidenceDistribution": {
-      "low": 2384,
-      "medium": 488,
+      "low": 2374,
+      "medium": 498,
       "high": 28
     },
     "publisherReferenceCounts": {
@@ -4957,15 +4991,15 @@
       "sourceFieldErrors": 0,
       "sourceBatchShasMatched": "34/34",
       "persistedClassificationAuthoritative": true,
-      "incrementalMappingReferencesChecked": 12,
-      "incrementalQuestionsChecked": 4,
+      "incrementalQuestionsChecked": 12,
+      "incrementalMappingReferencesChecked": 0,
       "publisherMappingLeaks": 0,
       "filterErrors": 0,
       "browserOrMobileRuntimeTested": false,
-      "filterCombinationsTested": 256
+      "filterCombinationsTested": 9000
     },
-    "classificationRuleVersion": "2026-11-15.53",
-    "notes": "本輪未新增題目；只更新4筆六年級數學分數除法既有分類。"
+    "classificationRuleVersion": "2026-11-15.54",
+    "notes": "本輪未新增題目；持久分類12筆六年級自然食物鏈／食物網／生態系能量流與濕地生物多樣性題目。段考維持unassigned，未新增出版社映射。"
   },
   "latestMappingScopeCorrection": {
     "date": "2026-11-14",
@@ -5118,50 +5152,73 @@
   "notes": " 2026-11-14：新增國立臺北教育大學六年級自然上學期單元四「電磁作用」課程參考，12題串聯／並聯電路僅回填上學期，不掛出版社、不填段考。 2026-11-15：依國立臺北教育大學雙語教學研究中心官方單元目錄，新增3題六年級自然電磁鐵／線圈題目的上學期課程核心分類；段考維持unassigned，不掛出版社。 2026-11-15：新增六年級自然「簡單機械」及「地質的變化」課程參考；7題依題庫知識點推定學期，沒有出版社官方單元來源，故不新增出版社映射。 分類器載入修復：補齊5筆既有MAPS物件鍵並移除重複CURRICULUM_REFERENCES宣告；JavaScript語法編譯通過，publisher filter仍僅依持久映射資料判斷。 推定器持久化保護：有分類索引紀錄的題目不再被執行時推定覆蓋；未分類值必須先寫回分類分片才會反映在篩選器。 最終逐題執行分類器驗證：第8至41批2,900題均讀取持久分類索引，187筆出版社映射參照全部通過，學期／段考與持久資料差異0。",
   "latestCurriculumUnitClassificationAudit": {
     "date": "2026-11-15",
-    "type": "g6-natural-cherish-home-ecology-semester-backfill",
+    "runId": "2026-11-15-g6-natural-food-web-upper-semester-backfill",
+    "type": "g6-natural-food-web-upper-semester-backfill",
     "updatedQuestionIds": [
-      "b39-038",
-      "b41-040"
+      "b15-022",
+      "b24-032",
+      "b25-030",
+      "b30-025",
+      "b31-036",
+      "b32-027",
+      "b33-033",
+      "b35-033",
+      "b36-040",
+      "b38-039",
+      "b40-037",
+      "b41-035"
     ],
     "semesterAssignments": {
-      "下學期": 2
+      "上學期": 12
     },
     "examPeriod": "unassigned",
     "classificationBasis": "question-bank-inference",
     "confidence": "medium",
+    "publisherStatus": "curriculum-core",
     "publisherMappingsAdded": 0,
     "newQuestionsAdded": 0,
     "sourceRegistryIds": [
-      "ntue-g6-natural-6b-u3-cherish-home",
-      "moe-cloud-g6-cherish-home"
+      "moe-cloud-g56-ocean-ecosystem",
+      "moe-cloud-g56-wildlife-ecosystem"
     ],
-    "notes": "兩題直接涉及棲地破碎化／濕地填平與生物多樣性；依六年級自然下學期單元三「珍愛家園」課程主題推定，非出版社或學校採用版本核對。"
+    "notes": "逐批盤點第8至41批六年級自然食物鏈、食物網、能量流動與濕地生物多樣性題目；12題依教育部教育雲上學期延伸教材與國小5至6年級生態系資源推定上學期。非出版社版本或學校正式進度核對；段考維持unassigned。"
   },
   "latestCurriculumUnitClassification": {
-    "runId": "2026-11-15-g6-math-fraction-division-cross-version-01",
+    "runId": "2026-11-15-g6-natural-food-web-upper-semester-backfill",
     "verifiedAt": "2026-11-15",
     "grade": "六年級",
-    "subject": "數學",
-    "learningUnit": "分數除法",
+    "subject": "自然",
+    "learningUnit": "食物網／食物鏈／生態系能量流與濕地生物多樣性",
     "updatedQuestionIds": [
-      "b32-012",
-      "b33-019",
-      "b37-028",
-      "b39-025"
+      "b15-022",
+      "b24-032",
+      "b25-030",
+      "b30-025",
+      "b31-036",
+      "b32-027",
+      "b33-033",
+      "b35-033",
+      "b36-040",
+      "b38-039",
+      "b40-037",
+      "b41-035"
     ],
     "semester": "上學期",
     "examPeriod": "unassigned",
-    "publishers": [
-      "hanlin",
-      "knsh",
-      "nani"
-    ],
-    "mappingLevel": "unit",
-    "publisherMappingReferencesAdded": 12,
+    "classificationBasis": "question-bank-inference",
+    "confidence": "medium",
+    "publisherStatus": "curriculum-core",
+    "publisherMappingReferencesAdded": 0,
     "newQuestionsAdded": 0,
-    "sourceUrl": "https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
-    "sourceTitle": "翰林國小輔教行銷處－數學能力加強系列[6年級]抽印本，第50頁「六年級版本對照表」",
-    "notes": "翰林國小輔教行銷處發布的六年級數學版本對照表第50頁，明列「單元2 分數除法」：翰林版、康軒版、南一版均對應六上第2單元。此為翰林部門發布的跨版本對照資源，非三家各自課本詳情頁，且未標示學年度；僅支持此單元的版本／學期對照，不代表任何學校採用版本或正式段考範圍。"
+    "sourceUrls": [
+      "https://market.cloud.edu.tw/resources/web/1811000",
+      "https://market.cloud.edu.tw/resources/web/1808682"
+    ],
+    "sourceTitles": [
+      "教育部教育雲－海洋奇緣：永續生態的奇幻探險",
+      "教育部教育雲－野生動物生態系"
+    ],
+    "notes": "逐批盤點第8至41批六年級自然食物鏈、食物網、能量流動與濕地生物多樣性題目；12題依教育部教育雲上學期延伸教材與國小5至6年級生態系資源推定上學期。非出版社版本或學校正式進度核對；段考維持unassigned。"
   },
   "previousExhaustiveFilterValidation": {
     "auditedAt": "2026-11-15",
@@ -5192,5 +5249,61 @@
     "publisherMappingLeaks": 0,
     "browserTested": false,
     "note": "靜態資料層全組合測試；未執行瀏覽器或手機實機操作。"
-  }
+  },
+  "curriculumUnitClassificationAuditHistory": [
+    {
+      "date": "2026-11-15",
+      "type": "g6-natural-cherish-home-ecology-semester-backfill",
+      "updatedQuestionIds": [
+        "b39-038",
+        "b41-040"
+      ],
+      "semesterAssignments": {
+        "下學期": 2
+      },
+      "examPeriod": "unassigned",
+      "classificationBasis": "question-bank-inference",
+      "confidence": "medium",
+      "publisherMappingsAdded": 0,
+      "newQuestionsAdded": 0,
+      "sourceRegistryIds": [
+        "ntue-g6-natural-6b-u3-cherish-home",
+        "moe-cloud-g6-cherish-home"
+      ],
+      "notes": "兩題直接涉及棲地破碎化／濕地填平與生物多樣性；依六年級自然下學期單元三「珍愛家園」課程主題推定，非出版社或學校採用版本核對。"
+    },
+    {
+      "date": "2026-11-15",
+      "runId": "2026-11-15-g6-natural-food-web-upper-semester-backfill",
+      "type": "g6-natural-food-web-upper-semester-backfill",
+      "updatedQuestionIds": [
+        "b15-022",
+        "b24-032",
+        "b25-030",
+        "b30-025",
+        "b31-036",
+        "b32-027",
+        "b33-033",
+        "b35-033",
+        "b36-040",
+        "b38-039",
+        "b40-037",
+        "b41-035"
+      ],
+      "semesterAssignments": {
+        "上學期": 12
+      },
+      "examPeriod": "unassigned",
+      "classificationBasis": "question-bank-inference",
+      "confidence": "medium",
+      "publisherStatus": "curriculum-core",
+      "publisherMappingsAdded": 0,
+      "newQuestionsAdded": 0,
+      "sourceRegistryIds": [
+        "moe-cloud-g56-ocean-ecosystem",
+        "moe-cloud-g56-wildlife-ecosystem"
+      ],
+      "notes": "逐批盤點第8至41批六年級自然食物鏈、食物網、能量流動與濕地生物多樣性題目；12題依教育部教育雲上學期延伸教材與國小5至6年級生態系資源推定上學期。非出版社版本或學校正式進度核對；段考維持unassigned。"
+    }
+  ]
 }
