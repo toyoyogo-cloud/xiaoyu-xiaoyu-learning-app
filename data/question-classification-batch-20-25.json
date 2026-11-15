@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.1.0",
   "updatedAt": "2026-11-16",
-  "classificationRuleVersion": "2026-11-16.71",
+  "classificationRuleVersion": "2026-11-16.72",
   "batchRange": "20-25",
   "sourceBatchShas": {
     "20": "7b1e8f16ef058579ba1b3838ccaa9a62cadd775b",
@@ -12181,5 +12181,11 @@
       "difficultyLevel": "挑戰"
     }
   },
-  "notes": " 2026-11-14.36：逐筆比對第20-25批原始題庫 semester 欄位，將原題庫已填且分類索引仍為 unassigned 的學期值同步為 question-bank-inference；不改動 publisher-source-verified、不推定段考、不新增出版社映射。 2026-11-14.47：依國立臺北教育大學雙語教學研究中心官方目錄，將六年級自然串聯／並聯電路題目對應至上學期單元四「電磁作用」之課程主題層級；共1題，僅更新semester，examPeriod與出版社映射不變。 2026-11-15.51：回填5題六下簡單機械、2題六上地質的變化；依課程主題推定，出版社映射0、段考維持unassigned。 2026-11-15：新增3題高二歷史冷戰圍堵政策，對應翰林歷史(3)上學期單元7；段考維持unassigned。 2026-11-16.69：恢復10題高二選修課程出版社映射，原始 sourceRef 均直接指向翰林官方課本／教學講義頁；持久保存 courseType，物理(II)僅冊別層級、化學(III)依官方目次章節建立單元層級；examPeriod 保留 unassigned，不代表學校採用版本或正式段考範圍。 2026-11-16.70：同步分類解析器輸出 courseType/courseTrack 的版本標記；本分片題目資料未變更。"
+  "notes": " 2026-11-14.36：逐筆比對第20-25批原始題庫 semester 欄位，將原題庫已填且分類索引仍為 unassigned 的學期值同步為 question-bank-inference；不改動 publisher-source-verified、不推定段考、不新增出版社映射。 2026-11-14.47：依國立臺北教育大學雙語教學研究中心官方目錄，將六年級自然串聯／並聯電路題目對應至上學期單元四「電磁作用」之課程主題層級；共1題，僅更新semester，examPeriod與出版社映射不變。 2026-11-15.51：回填5題六下簡單機械、2題六上地質的變化；依課程主題推定，出版社映射0、段考維持unassigned。 2026-11-15：新增3題高二歷史冷戰圍堵政策，對應翰林歷史(3)上學期單元7；段考維持unassigned。 2026-11-16.69：恢復10題高二選修課程出版社映射，原始 sourceRef 均直接指向翰林官方課本／教學講義頁；持久保存 courseType，物理(II)僅冊別層級、化學(III)依官方目次章節建立單元層級；examPeriod 保留 unassigned，不代表學校採用版本或正式段考範圍。 2026-11-16.70：同步分類解析器輸出 courseType/courseTrack 的版本標記；本分片題目資料未變更。",
+  "versionSync": {
+    "date": "2026-11-16",
+    "ruleVersion": "2026-11-16.72",
+    "metadataOnly": true,
+    "notes": "同步全庫分類規則版本標記；本分片題目分類紀錄與出版社映射未變更。"
+  }
 }
