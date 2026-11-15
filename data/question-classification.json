@@ -84,7 +84,7 @@
   "lastAudit": {
     "runId": "2026-11-15-hanlin-g6-natural-6a-volume-backfill-01",
     "date": "2026-11-15",
-    "sourceHeadBeforeRun": "06be771f127187c77b1ab29372b6e919aff907f7",
+    "sourceHeadBeforeRun": "bb7a2ee1d82ea24c4d4b91b0b8f4890ac788265c",
     "batches": "08-41",
     "batchFileCount": 34,
     "fullCorpusQuestionCount": 2900,
@@ -130,14 +130,14 @@
     "centralMappingCount": 37,
     "publisherMappingReferencesAdded": 32,
     "publisherReferenceCounts": {
-      "nani": 51,
       "hanlin": 205,
+      "nani": 51,
       "knsh": 68
     },
     "mappingLevelCounts": {
+      "volume": 83,
       "unit": 195,
-      "official-resource-title": 46,
-      "volume": 83
+      "official-resource-title": 46
     },
     "mappingVerificationStatusCounts": {
       "source-checked": 324
@@ -145,33 +145,28 @@
     "newQuestionsAdded": 0,
     "fullCorpusSemesterDistribution": {
       "unassigned": 2307,
-      "_total": 2900,
       "上學期": 384,
-      "下學期": 135,
-      "全學年": 74
+      "全學年": 74,
+      "下學期": 135
     },
     "fullCorpusExamPeriodDistribution": {
       "unassigned": 2669,
-      "_total": 2900,
+      "第三次段考": 94,
       "第一次段考": 66,
-      "第二次段考": 71,
-      "第三次段考": 94
+      "第二次段考": 71
     },
     "fullCorpusClassificationBasisDistribution": {
       "curriculum-core": 2322,
-      "_total": 2900,
       "question-bank-inference": 395,
       "publisher-source-verified": 183
     },
     "fullCorpusPublisherStatusDistribution": {
       "curriculum-core": 2600,
-      "_total": 2900,
       "pending": 6,
       "publisher-mapped": 294
     },
     "fullCorpusConfidenceDistribution": {
       "low": 2284,
-      "_total": 2900,
       "medium": 588,
       "high": 28
     },
@@ -191,11 +186,12 @@
       "incrementalMappingReferencesChecked": 32,
       "publisherMappingLeaks": 0,
       "filterErrors": 0,
-      "filterCombinationsTested": 0,
-      "allUpdatedQuestionsReachable": false,
-      "browserOrMobileRuntimeTested": false
+      "filterCombinationsTested": 288,
+      "allUpdatedQuestionsReachable": true,
+      "browserOrMobileRuntimeTested": false,
+      "filterMethod": "index.html getPool filter predicate data-layer simulation"
     },
-    "notes": "翰林官方課本頁明示國小六年級自然上學期，未列細分目次；32題只建立冊別層級映射。學期與單元仍保留原有課程／題庫依據，段考unassigned；未宣稱學校採用版本或教師審核。"
+    "notes": "翰林官方課本頁只確認國小六年級自然上學期與冊別；32題只建立冊別層級映射，原有分類依據保留，段考unassigned。"
   },
   "lastMappingReferenceAudit": {
     "date": "2026-11-15",
@@ -243,35 +239,18 @@
     ],
     "verificationCounts": {
       "source-checked": 324
-    },
-    "notes": "新增32題國小六年級自然上學期翰林自然科學(6上)冊別層級映射；官方頁只確認年級、科目、學期與冊別，不宣稱細分單元、學校採用或段考範圍。"
+    }
   },
   "lastFilterDataAudit": {
-    "auditedAt": "2026-11-15",
-    "type": "incremental-h2-history-imperialism-unit-mapping",
-    "previousExhaustiveTest": {
-      "auditedAt": "2026-11-15",
-      "cartesianCombinationsTested": 1433700,
-      "nonzeroResultCombinations": 24006,
-      "zeroResultCombinations": 1409694,
-      "publisherMappingLeaks": 0,
-      "unitFilterGroupsTested": 1180,
-      "unitFilterErrors": 0,
-      "browserTested": false
-    },
-    "questionsChecked": 2,
-    "questionIds": [
-      "b39-091",
-      "b41-092"
-    ],
-    "mappingReferencesChecked": 2,
+    "date": "2026-11-15",
+    "type": "hanlin-g6-natural-6a-volume-level-filter-validation",
+    "questionsChecked": 32,
+    "filterCombinationsTested": 288,
+    "allUpdatedQuestionsReachable": true,
     "publisherMappingLeaks": 0,
     "filterErrors": 0,
-    "allUpdatedQuestionsReachable": true,
-    "appReadsPersistedClassificationIndex": true,
-    "browserTested": false,
-    "filterCombinationsTested": 768,
-    "note": "以持久分類紀錄及推定器MAPS／UNIT_ALIASES進行資料層篩選驗收；兩題在全部版本、翰林、上學期、段考未分類、單元及難度條件可達，其他出版社及不符條件不會洩漏。未執行瀏覽器／手機實機測試。"
+    "zeroResultConditionsTested": 224,
+    "notes": "依index.html getPool篩選條件執行資料層模擬；非瀏覽器實機測試。"
   },
   "lastRawTagAudit": {
     "date": "2026-11-14",
@@ -285,7 +264,7 @@
   "lastRunAudit": {
     "runId": "2026-11-15-hanlin-g6-natural-6a-volume-backfill-01",
     "date": "2026-11-15",
-    "sourceHeadBeforeRun": "06be771f127187c77b1ab29372b6e919aff907f7",
+    "sourceHeadBeforeRun": "bb7a2ee1d82ea24c4d4b91b0b8f4890ac788265c",
     "batches": "08-41",
     "batchFileCount": 34,
     "fullCorpusQuestionCount": 2900,
@@ -331,14 +310,14 @@
     "centralMappingCount": 37,
     "publisherMappingReferencesAdded": 32,
     "publisherReferenceCounts": {
-      "nani": 51,
       "hanlin": 205,
+      "nani": 51,
       "knsh": 68
     },
     "mappingLevelCounts": {
+      "volume": 83,
       "unit": 195,
-      "official-resource-title": 46,
-      "volume": 83
+      "official-resource-title": 46
     },
     "mappingVerificationStatusCounts": {
       "source-checked": 324
@@ -346,33 +325,28 @@
     "newQuestionsAdded": 0,
     "fullCorpusSemesterDistribution": {
       "unassigned": 2307,
-      "_total": 2900,
       "上學期": 384,
-      "下學期": 135,
-      "全學年": 74
+      "全學年": 74,
+      "下學期": 135
     },
     "fullCorpusExamPeriodDistribution": {
       "unassigned": 2669,
-      "_total": 2900,
+      "第三次段考": 94,
       "第一次段考": 66,
-      "第二次段考": 71,
-      "第三次段考": 94
+      "第二次段考": 71
     },
     "fullCorpusClassificationBasisDistribution": {
       "curriculum-core": 2322,
-      "_total": 2900,
       "question-bank-inference": 395,
       "publisher-source-verified": 183
     },
     "fullCorpusPublisherStatusDistribution": {
       "curriculum-core": 2600,
-      "_total": 2900,
       "pending": 6,
       "publisher-mapped": 294
     },
     "fullCorpusConfidenceDistribution": {
       "low": 2284,
-      "_total": 2900,
       "medium": 588,
       "high": 28
     },
@@ -392,11 +366,12 @@
       "incrementalMappingReferencesChecked": 32,
       "publisherMappingLeaks": 0,
       "filterErrors": 0,
-      "filterCombinationsTested": 0,
-      "allUpdatedQuestionsReachable": false,
-      "browserOrMobileRuntimeTested": false
+      "filterCombinationsTested": 288,
+      "allUpdatedQuestionsReachable": true,
+      "browserOrMobileRuntimeTested": false,
+      "filterMethod": "index.html getPool filter predicate data-layer simulation"
     },
-    "notes": "翰林官方課本頁明示國小六年級自然上學期，未列細分目次；32題只建立冊別層級映射。學期與單元仍保留原有課程／題庫依據，段考unassigned；未宣稱學校採用版本或教師審核。"
+    "notes": "翰林官方課本頁只確認國小六年級自然上學期與冊別；32題只建立冊別層級映射，原有分類依據保留，段考unassigned。"
   },
   "lastBatchClassificationReconciliation": {
     "date": "2026-11-15",
@@ -537,6 +512,6 @@
       }
     }
   },
-  "sourceHeadVerified": "06be771f127187c77b1ab29372b6e919aff907f7",
+  "sourceHeadVerified": "bb7a2ee1d82ea24c4d4b91b0b8f4890ac788265c",
   "mainHeadVerifiedAt": "2026-11-15T16:44:00+08:00"
 }
