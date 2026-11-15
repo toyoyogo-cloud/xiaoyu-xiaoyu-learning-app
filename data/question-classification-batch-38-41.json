@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.1.0",
   "updatedAt": "2026-11-16",
-  "classificationRuleVersion": "2026-11-16.71",
+  "classificationRuleVersion": "2026-11-16.72",
   "batchRange": "38-41",
   "sourceBatchShas": {
     "38": "d5f0aed52035624b1aa72f3052577b8e13f11c91",
@@ -421,7 +421,7 @@
         {
           "publisher": "knsh",
           "mappingId": "knsh-g6-math-6b-u4-base-comparison",
-          "sourceUrl": "https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
+          "sourceUrl": "https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
           "sourceTitle": "翰林國小輔教行銷處－數學能力加強系列[6年級]抽印本，第50頁（三版本對照表）",
           "verifiedAt": "2026-11-16",
           "verificationStatus": "source-checked",
@@ -445,7 +445,7 @@
         }
       ],
       "classificationNotes": "南一官方6下資源明示「基準量和比較量」；另翰林國小輔教行銷處官方教材補充資料將此主題列於翰林6上第6單元。不同出版社學期安排不同；指定出版社時依該映射學期篩選，全部版本模式任一已核對版本符合即可。段考維持未分類。 另依翰林國小輔教行銷處第50頁三版本對照表，康軒版對應6下第4單元；此為翰林官方部門發布的跨版本對照，不是康軒出版社自身課本詳情頁或學校採用證明。不同出版社學期分開保存；段考仍未分類。",
-      "sourceRef": "https://tpack.nani.com.tw/nani_content?a=341&b=1 | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/21/ | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/34/ | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
+      "sourceRef": "https://tpack.nani.com.tw/nani_content?a=341&b=1 | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/21/ | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/34/ | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
       "learningDomain": "數與運算",
       "questionType": "推理判斷",
       "learningUnit": "基準量和比較量",
@@ -519,7 +519,7 @@
         {
           "publisher": "knsh",
           "mappingId": "knsh-g6-math-6b-u4-base-comparison",
-          "sourceUrl": "https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
+          "sourceUrl": "https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
           "sourceTitle": "翰林國小輔教行銷處－數學能力加強系列[6年級]抽印本，第50頁（三版本對照表）",
           "verifiedAt": "2026-11-16",
           "verificationStatus": "source-checked",
@@ -543,7 +543,7 @@
         }
       ],
       "classificationNotes": "南一官方6下資源明示「基準量和比較量」；另翰林國小輔教行銷處官方教材補充資料將此主題列於翰林6上第6單元。不同出版社學期安排不同；指定出版社時依該映射學期篩選，全部版本模式任一已核對版本符合即可。段考維持未分類。 另依翰林國小輔教行銷處第50頁三版本對照表，康軒版對應6下第4單元；此為翰林官方部門發布的跨版本對照，不是康軒出版社自身課本詳情頁或學校採用證明。不同出版社學期分開保存；段考仍未分類。",
-      "sourceRef": "https://tpack.nani.com.tw/nani_content?a=341&b=1 | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/21/ | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/34/ | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
+      "sourceRef": "https://tpack.nani.com.tw/nani_content?a=341&b=1 | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/21/ | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/34/ | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
       "learningDomain": "數與運算",
       "questionType": "推理判斷",
       "learningUnit": "基準量和比較量",
@@ -617,7 +617,7 @@
         {
           "publisher": "knsh",
           "mappingId": "knsh-g6-math-6b-u4-base-comparison",
-          "sourceUrl": "https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
+          "sourceUrl": "https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
           "sourceTitle": "翰林國小輔教行銷處－數學能力加強系列[6年級]抽印本，第50頁（三版本對照表）",
           "verifiedAt": "2026-11-16",
           "verificationStatus": "source-checked",
@@ -641,7 +641,7 @@
         }
       ],
       "classificationNotes": "南一官方6下資源明示「基準量和比較量」；另翰林國小輔教行銷處官方教材補充資料將此主題列於翰林6上第6單元。不同出版社學期安排不同；指定出版社時依該映射學期篩選，全部版本模式任一已核對版本符合即可。段考維持未分類。 另依翰林國小輔教行銷處第50頁三版本對照表，康軒版對應6下第4單元；此為翰林官方部門發布的跨版本對照，不是康軒出版社自身課本詳情頁或學校採用證明。不同出版社學期分開保存；段考仍未分類。",
-      "sourceRef": "https://tpack.nani.com.tw/nani_content?a=341&b=1 | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/21/ | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/34/ | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
+      "sourceRef": "https://tpack.nani.com.tw/nani_content?a=341&b=1 | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/21/ | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/34/ | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
       "learningDomain": "數與運算",
       "questionType": "推理判斷",
       "learningUnit": "基準量和比較量",
@@ -715,7 +715,7 @@
         {
           "publisher": "knsh",
           "mappingId": "knsh-g6-math-6b-u4-base-comparison",
-          "sourceUrl": "https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
+          "sourceUrl": "https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
           "sourceTitle": "翰林國小輔教行銷處－數學能力加強系列[6年級]抽印本，第50頁（三版本對照表）",
           "verifiedAt": "2026-11-16",
           "verificationStatus": "source-checked",
@@ -739,7 +739,7 @@
         }
       ],
       "classificationNotes": "南一官方6下資源明示「基準量和比較量」；另翰林國小輔教行銷處官方教材補充資料將此主題列於翰林6上第6單元。不同出版社學期安排不同；指定出版社時依該映射學期篩選，全部版本模式任一已核對版本符合即可。段考維持未分類。 另依翰林國小輔教行銷處第50頁三版本對照表，康軒版對應6下第4單元；此為翰林官方部門發布的跨版本對照，不是康軒出版社自身課本詳情頁或學校採用證明。不同出版社學期分開保存；段考仍未分類。",
-      "sourceRef": "https://tpack.nani.com.tw/nani_content?a=341&b=1 | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/21/ | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/34/ | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
+      "sourceRef": "https://tpack.nani.com.tw/nani_content?a=341&b=1 | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/21/ | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/34/ | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
       "learningDomain": "數與運算",
       "questionType": "推理判斷",
       "learningUnit": "基準量和比較量",
@@ -813,7 +813,7 @@
         {
           "publisher": "knsh",
           "mappingId": "knsh-g6-math-6b-u4-base-comparison",
-          "sourceUrl": "https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
+          "sourceUrl": "https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
           "sourceTitle": "翰林國小輔教行銷處－數學能力加強系列[6年級]抽印本，第50頁（三版本對照表）",
           "verifiedAt": "2026-11-16",
           "verificationStatus": "source-checked",
@@ -837,7 +837,7 @@
         }
       ],
       "classificationNotes": "南一官方6下資源明示「基準量和比較量」；另翰林國小輔教行銷處官方教材補充資料將此主題列於翰林6上第6單元。不同出版社學期安排不同；指定出版社時依該映射學期篩選，全部版本模式任一已核對版本符合即可。段考維持未分類。 另依翰林國小輔教行銷處第50頁三版本對照表，康軒版對應6下第4單元；此為翰林官方部門發布的跨版本對照，不是康軒出版社自身課本詳情頁或學校採用證明。不同出版社學期分開保存；段考仍未分類。",
-      "sourceRef": "https://tpack.nani.com.tw/nani_content?a=341&b=1 | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/21/ | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/34/ | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
+      "sourceRef": "https://tpack.nani.com.tw/nani_content?a=341&b=1 | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/21/ | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/34/ | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
       "learningDomain": "數與運算",
       "questionType": "推理判斷",
       "learningUnit": "基準量和比較量",
@@ -4246,7 +4246,7 @@
         {
           "publisher": "knsh",
           "mappingId": "knsh-g6-math-6b-u4-base-comparison",
-          "sourceUrl": "https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
+          "sourceUrl": "https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
           "sourceTitle": "翰林國小輔教行銷處－數學能力加強系列[6年級]抽印本，第50頁（三版本對照表）",
           "verifiedAt": "2026-11-16",
           "verificationStatus": "source-checked",
@@ -4270,7 +4270,7 @@
         }
       ],
       "classificationNotes": "南一官方6下資源明示「基準量和比較量」；另翰林國小輔教行銷處官方教材補充資料將此主題列於翰林6上第6單元。不同出版社學期安排不同；指定出版社時依該映射學期篩選，全部版本模式任一已核對版本符合即可。段考維持未分類。 另依翰林國小輔教行銷處第50頁三版本對照表，康軒版對應6下第4單元；此為翰林官方部門發布的跨版本對照，不是康軒出版社自身課本詳情頁或學校採用證明。不同出版社學期分開保存；段考仍未分類。",
-      "sourceRef": "https://tpack.nani.com.tw/nani_content?a=341&b=1 | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/21/ | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/34/ | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
+      "sourceRef": "https://tpack.nani.com.tw/nani_content?a=341&b=1 | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/21/ | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/34/ | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
       "learningDomain": "數與運算",
       "questionType": "情境應用",
       "learningUnit": "基準量和比較量",
@@ -4344,7 +4344,7 @@
         {
           "publisher": "knsh",
           "mappingId": "knsh-g6-math-6b-u4-base-comparison",
-          "sourceUrl": "https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
+          "sourceUrl": "https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
           "sourceTitle": "翰林國小輔教行銷處－數學能力加強系列[6年級]抽印本，第50頁（三版本對照表）",
           "verifiedAt": "2026-11-16",
           "verificationStatus": "source-checked",
@@ -4368,7 +4368,7 @@
         }
       ],
       "classificationNotes": "南一官方6下資源明示「基準量和比較量」；另翰林國小輔教行銷處官方教材補充資料將此主題列於翰林6上第6單元。不同出版社學期安排不同；指定出版社時依該映射學期篩選，全部版本模式任一已核對版本符合即可。段考維持未分類。 另依翰林國小輔教行銷處第50頁三版本對照表，康軒版對應6下第4單元；此為翰林官方部門發布的跨版本對照，不是康軒出版社自身課本詳情頁或學校採用證明。不同出版社學期分開保存；段考仍未分類。",
-      "sourceRef": "https://tpack.nani.com.tw/nani_content?a=341&b=1 | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/21/ | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/34/ | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
+      "sourceRef": "https://tpack.nani.com.tw/nani_content?a=341&b=1 | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/21/ | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/34/ | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
       "learningDomain": "數與運算",
       "questionType": "情境應用",
       "learningUnit": "基準量和比較量",
@@ -4442,7 +4442,7 @@
         {
           "publisher": "knsh",
           "mappingId": "knsh-g6-math-6b-u4-base-comparison",
-          "sourceUrl": "https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
+          "sourceUrl": "https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
           "sourceTitle": "翰林國小輔教行銷處－數學能力加強系列[6年級]抽印本，第50頁（三版本對照表）",
           "verifiedAt": "2026-11-16",
           "verificationStatus": "source-checked",
@@ -4466,7 +4466,7 @@
         }
       ],
       "classificationNotes": "南一官方6下資源明示「基準量和比較量」；另翰林國小輔教行銷處官方教材補充資料將此主題列於翰林6上第6單元。不同出版社學期安排不同；指定出版社時依該映射學期篩選，全部版本模式任一已核對版本符合即可。段考維持未分類。 另依翰林國小輔教行銷處第50頁三版本對照表，康軒版對應6下第4單元；此為翰林官方部門發布的跨版本對照，不是康軒出版社自身課本詳情頁或學校採用證明。不同出版社學期分開保存；段考仍未分類。",
-      "sourceRef": "https://tpack.nani.com.tw/nani_content?a=341&b=1 | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/21/ | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/34/ | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
+      "sourceRef": "https://tpack.nani.com.tw/nani_content?a=341&b=1 | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/21/ | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/34/ | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
       "learningDomain": "數與運算",
       "questionType": "情境應用",
       "learningUnit": "基準量和比較量",
@@ -4540,7 +4540,7 @@
         {
           "publisher": "knsh",
           "mappingId": "knsh-g6-math-6b-u4-base-comparison",
-          "sourceUrl": "https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
+          "sourceUrl": "https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
           "sourceTitle": "翰林國小輔教行銷處－數學能力加強系列[6年級]抽印本，第50頁（三版本對照表）",
           "verifiedAt": "2026-11-16",
           "verificationStatus": "source-checked",
@@ -4564,7 +4564,7 @@
         }
       ],
       "classificationNotes": "南一官方6下資源明示「基準量和比較量」；另翰林國小輔教行銷處官方教材補充資料將此主題列於翰林6上第6單元。不同出版社學期安排不同；指定出版社時依該映射學期篩選，全部版本模式任一已核對版本符合即可。段考維持未分類。 另依翰林國小輔教行銷處第50頁三版本對照表，康軒版對應6下第4單元；此為翰林官方部門發布的跨版本對照，不是康軒出版社自身課本詳情頁或學校採用證明。不同出版社學期分開保存；段考仍未分類。",
-      "sourceRef": "https://tpack.nani.com.tw/nani_content?a=341&b=1 | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/21/ | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/34/ | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
+      "sourceRef": "https://tpack.nani.com.tw/nani_content?a=341&b=1 | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/21/ | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/34/ | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
       "learningDomain": "數與運算",
       "questionType": "閱讀推理",
       "learningUnit": "基準量和比較量",
@@ -8030,7 +8030,7 @@
         {
           "publisher": "knsh",
           "mappingId": "knsh-g6-math-6b-u4-base-comparison",
-          "sourceUrl": "https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
+          "sourceUrl": "https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
           "sourceTitle": "翰林國小輔教行銷處－數學能力加強系列[6年級]抽印本，第50頁（三版本對照表）",
           "verifiedAt": "2026-11-16",
           "verificationStatus": "source-checked",
@@ -8054,7 +8054,7 @@
         }
       ],
       "classificationNotes": "南一官方6下資源明示「基準量和比較量」；另翰林國小輔教行銷處官方教材補充資料將此主題列於翰林6上第6單元。不同出版社學期安排不同；指定出版社時依該映射學期篩選，全部版本模式任一已核對版本符合即可。段考維持未分類。 另依翰林國小輔教行銷處第50頁三版本對照表，康軒版對應6下第4單元；此為翰林官方部門發布的跨版本對照，不是康軒出版社自身課本詳情頁或學校採用證明。不同出版社學期分開保存；段考仍未分類。",
-      "sourceRef": "https://tpack.nani.com.tw/nani_content?a=341&b=1 | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/21/ | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/34/ | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
+      "sourceRef": "https://tpack.nani.com.tw/nani_content?a=341&b=1 | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/21/ | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/34/ | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
       "learningDomain": "數與運算",
       "questionType": "計算應用",
       "learningUnit": "基準量和比較量",
@@ -8128,7 +8128,7 @@
         {
           "publisher": "knsh",
           "mappingId": "knsh-g6-math-6b-u4-base-comparison",
-          "sourceUrl": "https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
+          "sourceUrl": "https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
           "sourceTitle": "翰林國小輔教行銷處－數學能力加強系列[6年級]抽印本，第50頁（三版本對照表）",
           "verifiedAt": "2026-11-16",
           "verificationStatus": "source-checked",
@@ -8152,7 +8152,7 @@
         }
       ],
       "classificationNotes": "南一官方6下資源明示「基準量和比較量」；另翰林國小輔教行銷處官方教材補充資料將此主題列於翰林6上第6單元。不同出版社學期安排不同；指定出版社時依該映射學期篩選，全部版本模式任一已核對版本符合即可。段考維持未分類。 另依翰林國小輔教行銷處第50頁三版本對照表，康軒版對應6下第4單元；此為翰林官方部門發布的跨版本對照，不是康軒出版社自身課本詳情頁或學校採用證明。不同出版社學期分開保存；段考仍未分類。",
-      "sourceRef": "https://tpack.nani.com.tw/nani_content?a=341&b=1 | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/21/ | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/34/ | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
+      "sourceRef": "https://tpack.nani.com.tw/nani_content?a=341&b=1 | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/21/ | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/34/ | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
       "learningDomain": "數與運算",
       "questionType": "計算應用",
       "learningUnit": "基準量和比較量",
@@ -8226,7 +8226,7 @@
         {
           "publisher": "knsh",
           "mappingId": "knsh-g6-math-6b-u4-base-comparison",
-          "sourceUrl": "https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
+          "sourceUrl": "https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
           "sourceTitle": "翰林國小輔教行銷處－數學能力加強系列[6年級]抽印本，第50頁（三版本對照表）",
           "verifiedAt": "2026-11-16",
           "verificationStatus": "source-checked",
@@ -8250,7 +8250,7 @@
         }
       ],
       "classificationNotes": "南一官方6下資源明示「基準量和比較量」；另翰林國小輔教行銷處官方教材補充資料將此主題列於翰林6上第6單元。不同出版社學期安排不同；指定出版社時依該映射學期篩選，全部版本模式任一已核對版本符合即可。段考維持未分類。 另依翰林國小輔教行銷處第50頁三版本對照表，康軒版對應6下第4單元；此為翰林官方部門發布的跨版本對照，不是康軒出版社自身課本詳情頁或學校採用證明。不同出版社學期分開保存；段考仍未分類。",
-      "sourceRef": "https://tpack.nani.com.tw/nani_content?a=341&b=1 | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/21/ | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/34/ | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
+      "sourceRef": "https://tpack.nani.com.tw/nani_content?a=341&b=1 | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/21/ | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/34/ | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
       "learningDomain": "數與運算",
       "questionType": "計算應用",
       "learningUnit": "基準量和比較量",
@@ -8324,7 +8324,7 @@
         {
           "publisher": "knsh",
           "mappingId": "knsh-g6-math-6b-u4-base-comparison",
-          "sourceUrl": "https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
+          "sourceUrl": "https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
           "sourceTitle": "翰林國小輔教行銷處－數學能力加強系列[6年級]抽印本，第50頁（三版本對照表）",
           "verifiedAt": "2026-11-16",
           "verificationStatus": "source-checked",
@@ -8348,7 +8348,7 @@
         }
       ],
       "classificationNotes": "南一官方6下資源明示「基準量和比較量」；另翰林國小輔教行銷處官方教材補充資料將此主題列於翰林6上第6單元。不同出版社學期安排不同；指定出版社時依該映射學期篩選，全部版本模式任一已核對版本符合即可。段考維持未分類。 另依翰林國小輔教行銷處第50頁三版本對照表，康軒版對應6下第4單元；此為翰林官方部門發布的跨版本對照，不是康軒出版社自身課本詳情頁或學校採用證明。不同出版社學期分開保存；段考仍未分類。",
-      "sourceRef": "https://tpack.nani.com.tw/nani_content?a=341&b=1 | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/21/ | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/34/ | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
+      "sourceRef": "https://tpack.nani.com.tw/nani_content?a=341&b=1 | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/21/ | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/34/ | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
       "learningDomain": "數與運算",
       "questionType": "計算應用",
       "learningUnit": "基準量和比較量",
@@ -11635,7 +11635,7 @@
         {
           "publisher": "knsh",
           "mappingId": "knsh-g6-math-6b-u4-base-comparison",
-          "sourceUrl": "https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
+          "sourceUrl": "https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
           "sourceTitle": "翰林國小輔教行銷處－數學能力加強系列[6年級]抽印本，第50頁（三版本對照表）",
           "verifiedAt": "2026-11-16",
           "verificationStatus": "source-checked",
@@ -11659,7 +11659,7 @@
         }
       ],
       "classificationNotes": "南一官方6下資源明示「基準量和比較量」；另翰林國小輔教行銷處官方教材補充資料將此主題列於翰林6上第6單元。不同出版社學期安排不同；指定出版社時依該映射學期篩選，全部版本模式任一已核對版本符合即可。段考維持未分類。 另依翰林國小輔教行銷處第50頁三版本對照表，康軒版對應6下第4單元；此為翰林官方部門發布的跨版本對照，不是康軒出版社自身課本詳情頁或學校採用證明。不同出版社學期分開保存；段考仍未分類。",
-      "sourceRef": "https://tpack.nani.com.tw/nani_content?a=341&b=1 | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/21/ | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/34/ | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
+      "sourceRef": "https://tpack.nani.com.tw/nani_content?a=341&b=1 | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/21/ | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/34/ | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
       "learningDomain": "數與運算",
       "questionType": "情境推理",
       "learningUnit": "基準量和比較量",
@@ -11733,7 +11733,7 @@
         {
           "publisher": "knsh",
           "mappingId": "knsh-g6-math-6b-u4-base-comparison",
-          "sourceUrl": "https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
+          "sourceUrl": "https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
           "sourceTitle": "翰林國小輔教行銷處－數學能力加強系列[6年級]抽印本，第50頁（三版本對照表）",
           "verifiedAt": "2026-11-16",
           "verificationStatus": "source-checked",
@@ -11757,7 +11757,7 @@
         }
       ],
       "classificationNotes": "南一官方6下資源明示「基準量和比較量」；另翰林國小輔教行銷處官方教材補充資料將此主題列於翰林6上第6單元。不同出版社學期安排不同；指定出版社時依該映射學期篩選，全部版本模式任一已核對版本符合即可。段考維持未分類。 另依翰林國小輔教行銷處第50頁三版本對照表，康軒版對應6下第4單元；此為翰林官方部門發布的跨版本對照，不是康軒出版社自身課本詳情頁或學校採用證明。不同出版社學期分開保存；段考仍未分類。",
-      "sourceRef": "https://tpack.nani.com.tw/nani_content?a=341&b=1 | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/21/ | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/34/ | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
+      "sourceRef": "https://tpack.nani.com.tw/nani_content?a=341&b=1 | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/21/ | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/34/ | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
       "learningDomain": "數與運算",
       "questionType": "情境推理",
       "learningUnit": "基準量和比較量",
@@ -11831,7 +11831,7 @@
         {
           "publisher": "knsh",
           "mappingId": "knsh-g6-math-6b-u4-base-comparison",
-          "sourceUrl": "https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
+          "sourceUrl": "https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
           "sourceTitle": "翰林國小輔教行銷處－數學能力加強系列[6年級]抽印本，第50頁（三版本對照表）",
           "verifiedAt": "2026-11-16",
           "verificationStatus": "source-checked",
@@ -11855,7 +11855,7 @@
         }
       ],
       "classificationNotes": "南一官方6下資源明示「基準量和比較量」；另翰林國小輔教行銷處官方教材補充資料將此主題列於翰林6上第6單元。不同出版社學期安排不同；指定出版社時依該映射學期篩選，全部版本模式任一已核對版本符合即可。段考維持未分類。 另依翰林國小輔教行銷處第50頁三版本對照表，康軒版對應6下第4單元；此為翰林官方部門發布的跨版本對照，不是康軒出版社自身課本詳情頁或學校採用證明。不同出版社學期分開保存；段考仍未分類。",
-      "sourceRef": "https://tpack.nani.com.tw/nani_content?a=341&b=1 | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/21/ | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/34/ | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
+      "sourceRef": "https://tpack.nani.com.tw/nani_content?a=341&b=1 | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/21/ | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/34/ | https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
       "learningDomain": "數與運算",
       "questionType": "情境推理",
       "learningUnit": "基準量和比較量",
@@ -12658,7 +12658,7 @@
       ],
       "classificationNotes": "康軒官方六上2-1教學資源明示個人發展與社會變遷單元；不代表學校採用版本。",
       "sourceRef": "https://sdgs.knsh.com.tw/campus/SDGS_FILE_E/%E7%A4%BE%E6%9C%83%E5%85%AD%E4%B8%8ACH2L1%E5%80%8B%E4%BA%BA%E7%99%BC%E5%B1%95%E5%A6%82%E4%BD%95%E5%8F%97%E5%88%B0%E7%A4%BE%E6%9C%83%E8%AE%8A%E9%81%B7%E7%9A%84%E5%BD%B1%E9%9F%BF_%E6%95%99%E5%AD%B8%E8%B3%87%E6%BA%90.pdf",
-      "learningDomain": "地理空間與環境",
+      "learningDomain": "社會變遷與文化",
       "questionType": "情境推理",
       "learningUnit": "個人發展與社會變遷",
       "difficultyLevel": "進階"
@@ -14824,18 +14824,34 @@
       "difficultyLevel": "進階"
     }
   },
-  "notes": " 2026-11-14.36：逐筆比對第38-41批原始題庫 semester 欄位，將原題庫已填且分類索引仍為 unassigned 的學期值同步為 question-bank-inference；不改動 publisher-source-verified、不推定段考、不新增出版社映射。 2026-11-14.46：南一官方「數學6下｜怎樣解題：雞兔問題」詳情頁已開啟核對；保留5題直接雞兔同籠映射，將3題汽車／機車及三腳椅／四腳桌類比題撤回出版社映射並改列共同核心。 2026-11-14.47：依國立臺北教育大學雙語教學研究中心官方目錄，將六年級自然串聯／並聯電路題目對應至上學期單元四「電磁作用」之課程主題層級；共3題，僅更新semester，examPeriod與出版社映射不變。 2026-11-15：依國立臺北教育大學雙語教學研究中心官方六年級自然單元目錄，將b39-037（冷鋒與天氣變化）、b38-037（熱傳導實驗）、b40-039（熱傳遞與保溫）、b41-037（熱傳導與材料）回填為上學期；分別對應「天氣的變化」及「熱對物質的影響」。只作課程主題層級分類，publisherMappings維持空陣列，examPeriod維持unassigned。 2026-11-15.58：持久分類b39-091、b41-092兩題高二歷史帝國主義／十九世紀西方霸權題；依翰林《試題挖挖哇－歷史(3)》第3頁目次第5單元「西方與世界1」及翰林歷史(3)官方課本頁核對上學期，僅建立翰林單元層級映射，段考維持unassigned；未新增題目。 2026-11-15.59：第38至41批新增75筆高二選修物理(II)、選修化學(II)/(III)、選修生物(II)官方來源對照；將課程類型持久保存於分類索引以防跨選修課程混用。物理、化學(II)、生物(II)只作冊別層級，化學(III)依官方目次作單元層級；段考維持原值。 2026-11-15.60：持久分類 b38-091（工業革命與都市化多重因果）、b39-089（啟蒙思想與政治正當性）、b40-089（冷戰圍堵政策）共3題。依翰林高中參考書《試題挖挖哇－歷史(3)》第3頁目次第2、3、7單元及翰林歷史(3)官方課本頁核對年級／科目／上學期，均建立翰林單元層級映射；段考維持unassigned。法國大革命、明治維新等相鄰題目未取得足夠直接目次證據，維持共同核心，不擴張映射。 2026-11-15.64：持久分類9題高二公民負外部性／外部成本題（b16-071、b19-071、b28-071、b31-095、b33-094、b37-093、b38-094、b39-096、b40-094）；依翰林高中課本公民與社會(3)乙版官方商品頁核對高二上學期，並以出版社配套評量本第3頁目次第4單元「外部成本與聯合行為」核對外部效果與政府對策。只建立翰林單元層級映射；confidence=medium，段考維持unassigned，不宣稱學校採用版本或教師審核；原始題庫未改、未新增題目。 2026-11-16.70：同步分類解析器輸出 courseType/courseTrack 的版本標記；本分片題目資料未變更。",
+  "notes": " 2026-11-14.36：逐筆比對第38-41批原始題庫 semester 欄位，將原題庫已填且分類索引仍為 unassigned 的學期值同步為 question-bank-inference；不改動 publisher-source-verified、不推定段考、不新增出版社映射。 2026-11-14.46：南一官方「數學6下｜怎樣解題：雞兔問題」詳情頁已開啟核對；保留5題直接雞兔同籠映射，將3題汽車／機車及三腳椅／四腳桌類比題撤回出版社映射並改列共同核心。 2026-11-14.47：依國立臺北教育大學雙語教學研究中心官方目錄，將六年級自然串聯／並聯電路題目對應至上學期單元四「電磁作用」之課程主題層級；共3題，僅更新semester，examPeriod與出版社映射不變。 2026-11-15：依國立臺北教育大學雙語教學研究中心官方六年級自然單元目錄，將b39-037（冷鋒與天氣變化）、b38-037（熱傳導實驗）、b40-039（熱傳遞與保溫）、b41-037（熱傳導與材料）回填為上學期；分別對應「天氣的變化」及「熱對物質的影響」。只作課程主題層級分類，publisherMappings維持空陣列，examPeriod維持unassigned。 2026-11-15.58：持久分類b39-091、b41-092兩題高二歷史帝國主義／十九世紀西方霸權題；依翰林《試題挖挖哇－歷史(3)》第3頁目次第5單元「西方與世界1」及翰林歷史(3)官方課本頁核對上學期，僅建立翰林單元層級映射，段考維持unassigned；未新增題目。 2026-11-15.59：第38至41批新增75筆高二選修物理(II)、選修化學(II)/(III)、選修生物(II)官方來源對照；將課程類型持久保存於分類索引以防跨選修課程混用。物理、化學(II)、生物(II)只作冊別層級，化學(III)依官方目次作單元層級；段考維持原值。 2026-11-15.60：持久分類 b38-091（工業革命與都市化多重因果）、b39-089（啟蒙思想與政治正當性）、b40-089（冷戰圍堵政策）共3題。依翰林高中參考書《試題挖挖哇－歷史(3)》第3頁目次第2、3、7單元及翰林歷史(3)官方課本頁核對年級／科目／上學期，均建立翰林單元層級映射；段考維持unassigned。法國大革命、明治維新等相鄰題目未取得足夠直接目次證據，維持共同核心，不擴張映射。 2026-11-15.64：持久分類9題高二公民負外部性／外部成本題（b16-071、b19-071、b28-071、b31-095、b33-094、b37-093、b38-094、b39-096、b40-094）；依翰林高中課本公民與社會(3)乙版官方商品頁核對高二上學期，並以出版社配套評量本第3頁目次第4單元「外部成本與聯合行為」核對外部效果與政府對策。只建立翰林單元層級映射；confidence=medium，段考維持unassigned，不宣稱學校採用版本或教師審核；原始題庫未改、未新增題目。 2026-11-16.70：同步分類解析器輸出 courseType/courseTrack 的版本標記；本分片題目資料未變更。 2026-11-16.72：修正16題共32處康軒六下數學兩量關係與比sourceUrl/sourceRef字串，並校正b41-042學習領域為社會變遷與文化；未新增題目。",
   "lastUpdate": {
-    "date": "2026-11-15",
-    "ruleVersion": "2026-11-15.60",
+    "date": "2026-11-16",
+    "ruleVersion": "2026-11-16.72",
     "updatedQuestionIds": [
-      "b38-091",
-      "b39-089",
-      "b40-089"
+      "b38-019",
+      "b38-020",
+      "b38-021",
+      "b38-022",
+      "b38-023",
+      "b39-019",
+      "b39-020",
+      "b39-021",
+      "b39-022",
+      "b40-019",
+      "b40-020",
+      "b40-021",
+      "b40-022",
+      "b41-017",
+      "b41-018",
+      "b41-019",
+      "b41-042"
     ],
-    "semesterAssignments": 3,
+    "publisherMappingReferencesCorrected": 16,
+    "classificationFieldCorrections": 1,
+    "semesterAssignments": 0,
     "examPeriodAssignments": 0,
-    "publisherMappingsAdded": 3,
-    "notes": "翰林歷史(3)第2、3、7單元層級對照；未宣稱學校採用或正式段考範圍。"
+    "newQuestionsAdded": 0,
+    "notes": "修正康軒六下數學「兩量關係與比」其餘16筆出版社映射 sourceUrl 及 sourceRef，統一為中央教材對照資料的官方來源正確網址；另將b41-042學習領域由誤植的地理空間與環境改為社會變遷與文化。未改題幹、答案、解析、學期、段考或出版社映射。"
   }
 }
