@@ -3477,7 +3477,7 @@
   },
   "latestFilterValidation": {
     "auditedAt": "2026-11-15",
-    "type": "hanlin-g6-natural-6a-volume-level-filter-validation",
+    "type": "hanlin-g6-natural-6a-volume-level-resolver-and-filter-validation",
     "questionsChecked": 32,
     "questionIds": [
       "b15-021",
@@ -3513,26 +3513,24 @@
       "b41-035",
       "b41-039"
     ],
+    "classifierResolverScopeMatches": 32,
+    "classifierResolverScopeFailures": 0,
     "mappingReferencesChecked": 32,
     "allMappingReferencesResolve": true,
-    "gradeSubjectSemesterUnitConsistent": true,
+    "gradeSubjectSemesterConsistent": true,
+    "unitClaimLevel": "volume-only; no unit claim",
     "examPeriodRemainsUnassigned": true,
     "publisherMappingReferenceCounts": {
       "hanlin": 205,
       "nani": 51,
       "knsh": 68
     },
-    "publisherStatusDistribution": {
-      "curriculum-core": 2600,
-      "pending": 6,
-      "publisher-mapped": 294
-    },
     "publisherMappingLeaks": 0,
     "filterErrors": 0,
     "browserTested": false,
     "filterCombinationsTested": 288,
     "allUpdatedQuestionsReachable": true,
-    "note": "依index.html getPool篩選條件執行資料層模擬；未執行瀏覽器／手機實機測試。"
+    "note": "依推定器範圍檢查與index.html getPool篩選條件執行資料層驗收；未執行瀏覽器／手機實機測試。"
   },
   "sourceVerificationLog": [
     {
@@ -4382,7 +4380,7 @@
   "lastRunAudit": {
     "runId": "2026-11-15-hanlin-g6-natural-6a-volume-backfill-01",
     "date": "2026-11-15",
-    "sourceHeadBeforeRun": "bb7a2ee1d82ea24c4d4b91b0b8f4890ac788265c",
+    "sourceHeadBeforeRun": "9c333a39ecf962c40b8f6b760ee40afd86073bd3",
     "batches": "08-41",
     "batchFileCount": 34,
     "fullCorpusQuestionCount": 2900,
@@ -4487,7 +4485,9 @@
       "filterCombinationsTested": 288,
       "allUpdatedQuestionsReachable": true,
       "browserOrMobileRuntimeTested": false,
-      "filterMethod": "index.html getPool filter predicate data-layer simulation"
+      "filterMethod": "validMappingForQuestion + mappingScopeMatches + index.html getPool predicate data-layer simulation",
+      "classifierResolverScopeMatches": 32,
+      "classifierResolverScopeFailures": 0
     },
     "notes": "翰林官方課本頁只確認國小六年級自然上學期與冊別；32題只建立冊別層級映射，原有分類依據保留，段考unassigned。"
   },
