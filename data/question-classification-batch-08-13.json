@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.1.0",
   "updatedAt": "2026-11-16",
-  "classificationRuleVersion": "2026-11-16.69",
+  "classificationRuleVersion": "2026-11-16.70",
   "batchRange": "08-13",
   "sourceBatchShas": {
     "10": "37481b26e30f6fc7e2fd6b93accd5996931b8e0a",
@@ -3862,5 +3862,5 @@
       "difficultyLevel": "挑戰"
     }
   },
-  "notes": " 2026-11-14.36：逐筆比對第08-13批原始題庫 semester 欄位，將原題庫已填且分類索引仍為 unassigned 的學期值同步為 question-bank-inference；不改動 publisher-source-verified、不推定段考、不新增出版社映射。 2026-11-16.69：恢復6題高二選修課程出版社映射，原始 sourceRef 均直接指向翰林官方課本／教學講義頁；持久保存 courseType，物理(II)僅冊別層級、化學(III)依官方目次章節建立單元層級；examPeriod 保留 unassigned，不代表學校採用版本或正式段考範圍。"
+  "notes": " 2026-11-14.36：逐筆比對第08-13批原始題庫 semester 欄位，將原題庫已填且分類索引仍為 unassigned 的學期值同步為 question-bank-inference；不改動 publisher-source-verified、不推定段考、不新增出版社映射。 2026-11-16.69：恢復6題高二選修課程出版社映射，原始 sourceRef 均直接指向翰林官方課本／教學講義頁；持久保存 courseType，物理(II)僅冊別層級、化學(III)依官方目次章節建立單元層級；examPeriod 保留 unassigned，不代表學校採用版本或正式段考範圍。 2026-11-16.70：同步分類解析器輸出 courseType/courseTrack 的版本標記；本分片題目資料未變更。"
 }
