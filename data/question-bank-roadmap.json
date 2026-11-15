@@ -80,7 +80,7 @@
     "避免跨年級重複題與只改數字的低品質重複題",
     "每批執行重複題、答案索引、欄位完整性及語法檢查"
   ],
-  "releasePolicy": "目前新增題目集中於國小六年級與高中高二；其他年級既有題目與測驗紀錄保留，不新增、不刪除。學期／段考分類是題庫推定複習建議，不代表學校正式段考範圍；出版社對照僅在官方來源可核對時建立。",
+  "releasePolicy": "本階段先完成既有題庫分類，再少量新增題目。第一輪全庫分類盤點完成前，每次新增最多10題；至少90%工作量用於既有題庫分類、教材版本核對、分類資料持久化及篩選驗收。學期／段考分類為題庫複習建議，不代表學校正式範圍；出版社對照只在來源明確支持年級、科目、冊別／單元時建立。",
   "currentVerifiedQuestions": 485,
   "batchLog": [
     {
@@ -2078,5 +2078,84 @@
       "尚未由教師審核重複題是否應刪除、改寫或保留。"
     ],
     "newQuestionsAdded": 0
+  },
+  "classificationProgress": {
+    "phase": "既有題庫分類優先",
+    "auditedAt": "2026-11-15",
+    "batchRange": "08-41",
+    "batchFileCount": 34,
+    "rawQuestionCount": 2900,
+    "uniqueQuestionIds": 2900,
+    "persistentClassificationCount": 2900,
+    "semester": {
+      "上學期": 369,
+      "下學期": 131,
+      "全學年": 74,
+      "unassigned": 2326
+    },
+    "examPeriod": {
+      "第一次段考": 66,
+      "第二次段考": 71,
+      "第三次段考": 94,
+      "unassigned": 2669
+    },
+    "classificationBasis": {
+      "curriculum-core": 2341,
+      "question-bank-inference": 463,
+      "publisher-source-verified": 96
+    },
+    "publisherStatus": {
+      "publisher-mapped": 175,
+      "curriculum-core": 2719,
+      "pending": 6
+    },
+    "publisherMappingReferences": 199,
+    "centralCurriculumReferences": 30,
+    "sourceRegistryEntries": 37,
+    "confidence": {
+      "low": 2374,
+      "medium": 498,
+      "high": 28
+    },
+    "activeScope": {
+      "questionCount": 1864,
+      "gradeCounts": {
+        "六年級": 890,
+        "高二": 974
+      },
+      "semester": {
+        "上學期": 369,
+        "下學期": 131,
+        "全學年": 74,
+        "unassigned": 1290
+      },
+      "examPeriod": {
+        "第一次段考": 66,
+        "第二次段考": 71,
+        "第三次段考": 94,
+        "unassigned": 1633
+      }
+    },
+    "lastRun": {
+      "runId": "2026-11-15-g6-natural-food-web-upper-semester-backfill",
+      "questionRecordsUpdated": 12,
+      "semesterAssigned": 12,
+      "examPeriodAssigned": 0,
+      "publisherMappingsAdded": 0,
+      "newQuestionsAdded": 0,
+      "classificationRuleVersion": "2026-11-15.54"
+    },
+    "validation": {
+      "duplicateIds": 0,
+      "missingRequiredFields": 0,
+      "invalidClassificationValues": 0,
+      "mappingConsistencyErrors": 0,
+      "rawBatchShaMatches": "34/34",
+      "incrementalFilterCombinations": 9000,
+      "filterErrors": 0,
+      "publisherFilterLeaks": 0,
+      "browserOrMobileRuntimeTested": false
+    },
+    "notes": "已完成第一輪ID／分類索引覆蓋盤點，但大量題目學期與段考仍未取得足夠依據；不得將欄位完整率視為學期／段考已全部判定。"
   }
 }
