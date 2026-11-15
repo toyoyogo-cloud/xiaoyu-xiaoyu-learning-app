@@ -4377,12 +4377,13 @@
     "publisherMappingLeaks": 0,
     "filterErrors": 0,
     "browserTested": false,
-    "filterCombinationsTested": 16200,
-    "nonzeroResultCombinations": 448,
-    "zeroResultCombinations": 15752,
+    "filterCombinationsTested": 194400,
+    "nonzeroResultCombinations": 1792,
+    "zeroResultCombinations": 192608,
     "unitFilterGroupsTested": 4,
     "allUpdatedQuestionsReachable": true,
-    "note": "以持久分類索引、中央映射與更新後questionClassificationFor執行四題的年級／科目／學期／段考／出版社／單元條件組合測試；靜態資料層測試通過，未執行瀏覽器或手機實機操作。"
+    "note": "以實際questionClassificationFor及index.html getPool篩選條件，對四題逐一執行stage／grade／subject／semester／exam／publisher／unit／difficulty組合；更新題目全部可達，出版社映射無洩漏。此為程式資料層模擬，非瀏覽器／手機實機測試。",
+    "difficultyFilterTested": true
   },
   "sourceVerificationLog": [
     {
@@ -5218,7 +5219,7 @@
       "publisherMappingLeaks": 0,
       "filterErrors": 0,
       "browserOrMobileRuntimeTested": false,
-      "filterCombinationsTested": 16200
+      "filterCombinationsTested": 194400
     },
     "classificationRuleVersion": "2026-11-15.56",
     "notes": "本輪將4題國小六年級自然題目持久回填至上學期：水循環凝結、水循環蒸發、水蒸氣在冷鏡面凝結、低氣壓上升冷卻形成雲雨。前三題依教育部教育雲EP51／EP52明列的六上第一單元跨版本教材配合資訊建立南一／翰林／康軒單元層級映射；低氣壓題僅依明示康軒六上第一單元資源建立康軒映射。來源均非學校採用證明；段考維持unassigned。"
@@ -5299,11 +5300,12 @@
     "allUpdatedQuestionsReachable": true,
     "appReadsPersistedClassificationIndex": true,
     "browserTested": false,
-    "filterCombinationsTested": 16200,
-    "nonzeroResults": 448,
-    "zeroResults": 15752,
+    "filterCombinationsTested": 194400,
+    "nonzeroResults": 1792,
+    "zeroResults": 192608,
     "unitFilterGroupsTested": 4,
-    "note": "以持久分類索引、中央映射與更新後questionClassificationFor執行四題的年級／科目／學期／段考／出版社／單元條件組合測試；靜態資料層測試通過，未執行瀏覽器或手機實機操作。"
+    "note": "以實際questionClassificationFor及index.html getPool篩選條件，對四題逐一執行stage／grade／subject／semester／exam／publisher／unit／difficulty組合；更新題目全部可達，出版社映射無洩漏。此為程式資料層模擬，非瀏覽器／手機實機測試。",
+    "difficultyFilterTested": true
   },
   "notes": " 2026-11-14：新增國立臺北教育大學六年級自然上學期單元四「電磁作用」課程參考，12題串聯／並聯電路僅回填上學期，不掛出版社、不填段考。 2026-11-15：依國立臺北教育大學雙語教學研究中心官方單元目錄，新增3題六年級自然電磁鐵／線圈題目的上學期課程核心分類；段考維持unassigned，不掛出版社。 2026-11-15：新增六年級自然「簡單機械」及「地質的變化」課程參考；7題依題庫知識點推定學期，沒有出版社官方單元來源，故不新增出版社映射。 分類器載入修復：補齊5筆既有MAPS物件鍵並移除重複CURRICULUM_REFERENCES宣告；JavaScript語法編譯通過，publisher filter仍僅依持久映射資料判斷。 推定器持久化保護：有分類索引紀錄的題目不再被執行時推定覆蓋；未分類值必須先寫回分類分片才會反映在篩選器。 最終逐題執行分類器驗證：第8至41批2,900題均讀取持久分類索引，187筆出版社映射參照全部通過，學期／段考與持久資料差異0。\n\n2026-11-15.55：重新核對國北教大六年級自然單元目錄與教育部教育雲「珍愛家園」「野生動物生態系」資源，持久更新7題（上學期3、下學期4）。均為題庫推定、中等信心、段考未分類、共同核心狀態；沒有出版社映射或新增題目。 2026-11-15.56：新增4題六年級自然來源核對分類，新增10筆題目級出版社映射；段考未指定，無新增題目。",
   "latestCurriculumUnitClassificationAudit": {
