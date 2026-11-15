@@ -2659,7 +2659,7 @@
   },
   "latestMainClassificationAudit": {
     "auditedAt": "2026-11-15",
-    "sourceHeadBeforeRun": "add61024c0ea4299ba1ab37ed5ee530ecfc38b0e",
+    "sourceHeadBeforeRun": "bb7a2ee1d82ea24c4d4b91b0b8f4890ac788265c",
     "batchRange": "08-41",
     "batchFileCount": 34,
     "questionCount": 2900,
@@ -2686,50 +2686,50 @@
       ]
     },
     "classificationBasisDistribution": {
-      "curriculum-core": 2325,
-      "question-bank-inference": 470,
-      "publisher-source-verified": 105,
-      "unassigned": 0
+      "curriculum-core": 2322,
+      "question-bank-inference": 395,
+      "publisher-source-verified": 183
     },
     "semesterDistribution": {
-      "unassigned": 2310,
-      "上學期": 381,
-      "下學期": 135,
-      "全學年": 74
+      "unassigned": 2307,
+      "上學期": 384,
+      "全學年": 74,
+      "下學期": 135
     },
     "examPeriodDistribution": {
       "unassigned": 2669,
+      "第三次段考": 94,
       "第一次段考": 66,
-      "第二次段考": 71,
-      "第三次段考": 94
+      "第二次段考": 71
     },
     "publisherStatusDistribution": {
-      "curriculum-core": 2710,
+      "curriculum-core": 2600,
       "pending": 6,
-      "publisher-mapped": 184
+      "publisher-mapped": 294
     },
-    "publisherMappedQuestionCount": 184,
-    "publisherMappingReferenceCount": 214,
-    "centralMappingRegistryCount": 35,
+    "publisherMappedQuestionCount": 294,
+    "publisherMappingReferenceCount": 324,
+    "centralMappingRegistryCount": 37,
     "publisherReferenceCounts": {
+      "hanlin": 205,
       "nani": 51,
-      "hanlin": 95,
       "knsh": 68
     },
     "mappingVerificationStatusCounts": {
-      "source-checked": 214
+      "source-checked": 324
     },
     "mappingLevelCounts": {
-      "unit": 168,
+      "volume": 83,
+      "unit": 195,
       "official-resource-title": 46
     },
     "confidenceDistribution": {
-      "low": 2361,
-      "medium": 511,
+      "low": 2284,
+      "medium": 588,
       "high": 28
     },
     "pendingQuestionCount": 6,
-    "mappingSourceFieldsComplete": "214/214",
+    "mappingSourceFieldsComplete": "324/324",
     "sourceFieldErrors": 0,
     "sourceBatchShasMatch": "34/34",
     "newQuestionsAdded": 0,
@@ -2742,28 +2742,49 @@
     "filterSimulationPassed": true,
     "filterSimulation": {
       "activeQuestions": 1864,
-      "incrementalCombinationsTested": 768,
-      "nonzeroResultCombinations": 64,
-      "zeroResultCombinations": 704,
+      "incrementalCombinationsTested": 288,
       "allUpdatedQuestionsReachable": true,
       "publisherFilterLeaks": 0,
+      "filterErrors": 0,
       "browserTested": false
     },
     "mappingConsistencyErrors": 0,
-    "filterCombinationsTested": 768,
-    "incrementalMappingCheck": {
-      "questionIds": [
-        "b39-091",
-        "b41-092"
-      ],
-      "matched": 2,
-      "expectedPublisher": "hanlin",
-      "expectedSemester": "上學期",
-      "examPeriod": "unassigned",
-      "mappingLevel": "unit",
-      "mappingLeaks": 0,
-      "sourceFieldsComplete": "2/2"
-    }
+    "filterCombinationsTested": 288,
+    "updatedQuestionIds": [
+      "b15-021",
+      "b15-022",
+      "b17-024",
+      "b18-023",
+      "b19-023",
+      "b24-032",
+      "b25-029",
+      "b25-030",
+      "b30-023",
+      "b30-025",
+      "b31-032",
+      "b31-036",
+      "b32-021",
+      "b32-027",
+      "b33-032",
+      "b33-033",
+      "b34-039",
+      "b35-033",
+      "b35-034",
+      "b35-038",
+      "b36-040",
+      "b37-034",
+      "b38-036",
+      "b38-039",
+      "b39-035",
+      "b40-033",
+      "b40-034",
+      "b40-037",
+      "b41-032",
+      "b41-033",
+      "b41-035",
+      "b41-039"
+    ],
+    "runId": "2026-11-15-hanlin-g6-natural-6a-volume-backfill-01"
   },
   "classificationPersistenceRuns": "[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]1",
   "batch30ExtendedMetadataAudit": {
@@ -3456,35 +3477,62 @@
   },
   "latestFilterValidation": {
     "auditedAt": "2026-11-15",
-    "type": "incremental-four-question-water-weather-mapping",
-    "questionsChecked": 4,
+    "type": "hanlin-g6-natural-6a-volume-level-filter-validation",
+    "questionsChecked": 32,
     "questionIds": [
-      "b18-024",
-      "b24-029",
-      "b30-022",
-      "b30-028"
+      "b15-021",
+      "b15-022",
+      "b17-024",
+      "b18-023",
+      "b19-023",
+      "b24-032",
+      "b25-029",
+      "b25-030",
+      "b30-023",
+      "b30-025",
+      "b31-032",
+      "b31-036",
+      "b32-021",
+      "b32-027",
+      "b33-032",
+      "b33-033",
+      "b34-039",
+      "b35-033",
+      "b35-034",
+      "b35-038",
+      "b36-040",
+      "b37-034",
+      "b38-036",
+      "b38-039",
+      "b39-035",
+      "b40-033",
+      "b40-034",
+      "b40-037",
+      "b41-032",
+      "b41-033",
+      "b41-035",
+      "b41-039"
     ],
-    "mappingReferencesChecked": 10,
+    "mappingReferencesChecked": 32,
     "allMappingReferencesResolve": true,
     "gradeSubjectSemesterUnitConsistent": true,
     "examPeriodRemainsUnassigned": true,
-    "publisherCategoryReachability": {
-      "curriculumCore": 2715,
-      "pending": 6,
+    "publisherMappingReferenceCounts": {
+      "hanlin": 205,
       "nani": 51,
-      "hanlin": 90,
       "knsh": 68
+    },
+    "publisherStatusDistribution": {
+      "curriculum-core": 2600,
+      "pending": 6,
+      "publisher-mapped": 294
     },
     "publisherMappingLeaks": 0,
     "filterErrors": 0,
     "browserTested": false,
-    "filterCombinationsTested": 194400,
-    "nonzeroResultCombinations": 1792,
-    "zeroResultCombinations": 192608,
-    "unitFilterGroupsTested": 4,
+    "filterCombinationsTested": 288,
     "allUpdatedQuestionsReachable": true,
-    "note": "以實際questionClassificationFor及index.html getPool篩選條件，對四題逐一執行stage／grade／subject／semester／exam／publisher／unit／difficulty組合；更新題目全部可達，出版社映射無洩漏。此為程式資料層模擬，非瀏覽器／手機實機測試。",
-    "difficultyFilterTested": true
+    "note": "依index.html getPool篩選條件執行資料層模擬；未執行瀏覽器／手機實機測試。"
   },
   "sourceVerificationLog": [
     {
@@ -4265,23 +4313,52 @@
   },
   "latestMappingReferenceAudit": {
     "date": "2026-11-15",
-    "type": "h2-history-units-2-3-7-source-mapping-audit",
+    "type": "g6-natural-6a-volume-level-backfill",
     "classificationRecordCount": 2900,
-    "publisherMappedQuestionCount": 262,
-    "questionMappingReferenceCount": 292,
+    "publisherMappedQuestionCount": 294,
+    "questionMappingReferenceCount": 324,
     "centralMappingCount": 37,
     "unresolvedCentralMappingReferences": 0,
     "sourceFieldMismatches": 0,
     "missingRequiredClassificationFields": 0,
     "updatedQuestionIds": [
-      "b38-091",
-      "b39-089",
-      "b40-089"
+      "b15-021",
+      "b15-022",
+      "b17-024",
+      "b18-023",
+      "b19-023",
+      "b24-032",
+      "b25-029",
+      "b25-030",
+      "b30-023",
+      "b30-025",
+      "b31-032",
+      "b31-036",
+      "b32-021",
+      "b32-027",
+      "b33-032",
+      "b33-033",
+      "b34-039",
+      "b35-033",
+      "b35-034",
+      "b35-038",
+      "b36-040",
+      "b37-034",
+      "b38-036",
+      "b38-039",
+      "b39-035",
+      "b40-033",
+      "b40-034",
+      "b40-037",
+      "b41-032",
+      "b41-033",
+      "b41-035",
+      "b41-039"
     ],
     "verificationCounts": {
-      "source-checked": 292
+      "source-checked": 324
     },
-    "notes": "新增3題高二歷史，分別對應翰林歷史(3)第3、2、7單元；全部映射均通過年級／科目／學期／單元範圍驗證。"
+    "notes": "32題新增翰林自然科學(6上)冊別層級映射；只確認年級、科目、學期與冊別，不冒稱單元已核對。"
   },
   "lastSourceVerificationAudit": {
     "date": "2026-11-15",
@@ -4303,38 +4380,65 @@
     "notes": "重新開啟國北教大六年級自然單元目錄與兩筆教育部教育雲資源；只支持課程主題／學期推定，未新增出版社映射。"
   },
   "lastRunAudit": {
-    "runId": "2026-11-15-hanlin-h2-history-units-2-3-7-backfill-01",
+    "runId": "2026-11-15-hanlin-g6-natural-6a-volume-backfill-01",
     "date": "2026-11-15",
-    "sourceHeadBeforeRun": "beeb8f9283a551f7b7df4277835df18836d1043b",
+    "sourceHeadBeforeRun": "bb7a2ee1d82ea24c4d4b91b0b8f4890ac788265c",
     "batches": "08-41",
     "batchFileCount": 34,
     "fullCorpusQuestionCount": 2900,
     "activeScopeQuestionCount": 1864,
-    "questionRecordsUpdated": 3,
+    "questionRecordsUpdated": 32,
     "updatedQuestionIds": [
-      "b38-091",
-      "b39-089",
-      "b40-089"
+      "b15-021",
+      "b15-022",
+      "b17-024",
+      "b18-023",
+      "b19-023",
+      "b24-032",
+      "b25-029",
+      "b25-030",
+      "b30-023",
+      "b30-025",
+      "b31-032",
+      "b31-036",
+      "b32-021",
+      "b32-027",
+      "b33-032",
+      "b33-033",
+      "b34-039",
+      "b35-033",
+      "b35-034",
+      "b35-038",
+      "b36-040",
+      "b37-034",
+      "b38-036",
+      "b38-039",
+      "b39-035",
+      "b40-033",
+      "b40-034",
+      "b40-037",
+      "b41-032",
+      "b41-033",
+      "b41-035",
+      "b41-039"
     ],
-    "semesterAssignments": {
-      "上學期": 3
-    },
+    "semesterAssignments": {},
     "examPeriodAssignments": 0,
-    "publisherMappingsAdded": 3,
+    "publisherMappingsAdded": 32,
     "centralMappingCount": 37,
-    "publisherMappingReferencesAdded": 3,
+    "publisherMappingReferencesAdded": 32,
     "publisherReferenceCounts": {
+      "hanlin": 205,
       "nani": 51,
-      "hanlin": 173,
       "knsh": 68
     },
     "mappingLevelCounts": {
+      "volume": 83,
       "unit": 195,
-      "official-resource-title": 46,
-      "volume": 51
+      "official-resource-title": 46
     },
     "mappingVerificationStatusCounts": {
-      "source-checked": 292
+      "source-checked": 324
     },
     "newQuestionsAdded": 0,
     "fullCorpusSemesterDistribution": {
@@ -4355,17 +4459,17 @@
       "publisher-source-verified": 183
     },
     "fullCorpusPublisherStatusDistribution": {
-      "curriculum-core": 2632,
+      "curriculum-core": 2600,
       "pending": 6,
-      "publisher-mapped": 262
+      "publisher-mapped": 294
     },
     "fullCorpusConfidenceDistribution": {
-      "low": 2283,
-      "medium": 589,
+      "low": 2284,
+      "medium": 588,
       "high": 28
     },
-    "sourceBatchShasMatched": "34/34",
-    "classificationRuleVersion": "2026-11-15.60",
+    "sourceBatchShasMatch": "34/34",
+    "classificationRuleVersion": "2026-11-15.61",
     "validation": {
       "jsonParse": true,
       "classificationRecords": 2900,
@@ -4376,17 +4480,16 @@
       "sourceFieldErrors": 0,
       "sourceBatchShasMatch": "34/34",
       "appReadsPersistedClassificationIndex": true,
-      "incrementalQuestionsChecked": 3,
-      "incrementalMappingReferencesChecked": 3,
+      "incrementalQuestionsChecked": 32,
+      "incrementalMappingReferencesChecked": 32,
       "publisherMappingLeaks": 0,
       "filterErrors": 0,
-      "filterCombinationsTested": 900,
+      "filterCombinationsTested": 288,
       "allUpdatedQuestionsReachable": true,
       "browserOrMobileRuntimeTested": false,
-      "actualGetPoolFunctionTests": 900,
-      "actualClassifierTests": 5
+      "filterMethod": "index.html getPool filter predicate data-layer simulation"
     },
-    "notes": "翰林高中參考書《試題挖挖哇－歷史(3)》第3頁目次明列第2單元啟蒙運動、第3單元工業革命與社會思潮、第7單元冷戰期間政治局勢；翰林官方課本頁明示高二歷史(3)上學期。僅標翰林單元層級；段考unassigned，不宣稱學校採用或教師審核。法國大革命、明治維新未因主題相近而擴張映射。"
+    "notes": "翰林官方課本頁只確認國小六年級自然上學期與冊別；32題只建立冊別層級映射，原有分類依據保留，段考unassigned。"
   },
   "latestMappingScopeCorrection": {
     "date": "2026-11-14",
@@ -4735,7 +4838,7 @@
   ],
   "latestMainAudit": {
     "auditedAt": "2026-11-15",
-    "sourceHeadBeforeRun": "beeb8f9283a551f7b7df4277835df18836d1043b",
+    "sourceHeadBeforeRun": "bb7a2ee1d82ea24c4d4b91b0b8f4890ac788265c",
     "batchRange": "08-41",
     "batchFileCount": 34,
     "questionCount": 2900,
@@ -4779,33 +4882,33 @@
       "第二次段考": 71
     },
     "publisherStatusDistribution": {
-      "curriculum-core": 2632,
+      "curriculum-core": 2600,
       "pending": 6,
-      "publisher-mapped": 262
+      "publisher-mapped": 294
     },
-    "publisherMappedQuestionCount": 262,
-    "publisherMappingReferenceCount": 292,
+    "publisherMappedQuestionCount": 294,
+    "publisherMappingReferenceCount": 324,
     "centralMappingRegistryCount": 37,
     "publisherReferenceCounts": {
+      "hanlin": 205,
       "nani": 51,
-      "hanlin": 173,
       "knsh": 68
     },
     "mappingVerificationStatusCounts": {
-      "source-checked": 292
+      "source-checked": 324
     },
     "mappingLevelCounts": {
+      "volume": 83,
       "unit": 195,
-      "official-resource-title": 46,
-      "volume": 51
+      "official-resource-title": 46
     },
     "confidenceDistribution": {
-      "low": 2283,
-      "medium": 589,
+      "low": 2284,
+      "medium": 588,
       "high": 28
     },
     "pendingQuestionCount": 6,
-    "mappingSourceFieldsComplete": "292/292",
+    "mappingSourceFieldsComplete": "324/324",
     "sourceFieldErrors": 0,
     "sourceBatchShasMatch": "34/34",
     "newQuestionsAdded": 0,
@@ -4818,33 +4921,53 @@
     "filterSimulationPassed": true,
     "filterSimulation": {
       "activeQuestions": 1864,
-      "incrementalCombinationsTested": 900,
-      "nonzeroResultCombinations": 54,
-      "zeroResultCombinations": 846,
+      "incrementalCombinationsTested": 288,
       "allUpdatedQuestionsReachable": true,
       "publisherFilterLeaks": 0,
+      "filterErrors": 0,
       "browserTested": false
     },
     "mappingConsistencyErrors": 0,
-    "filterCombinationsTested": 900,
-    "incrementalMappingCheck": {
-      "questionIds": [
-        "b38-091",
-        "b39-089",
-        "b40-089"
-      ],
-      "matched": 3,
-      "expectedPublisher": "hanlin",
-      "expectedSemester": "上學期",
-      "examPeriod": "unassigned",
-      "mappingLevel": "unit",
-      "mappingLeaks": 0,
-      "sourceFieldsComplete": "3/3"
-    }
+    "filterCombinationsTested": 288,
+    "updatedQuestionIds": [
+      "b15-021",
+      "b15-022",
+      "b17-024",
+      "b18-023",
+      "b19-023",
+      "b24-032",
+      "b25-029",
+      "b25-030",
+      "b30-023",
+      "b30-025",
+      "b31-032",
+      "b31-036",
+      "b32-021",
+      "b32-027",
+      "b33-032",
+      "b33-033",
+      "b34-039",
+      "b35-033",
+      "b35-034",
+      "b35-038",
+      "b36-040",
+      "b37-034",
+      "b38-036",
+      "b38-039",
+      "b39-035",
+      "b40-033",
+      "b40-034",
+      "b40-037",
+      "b41-032",
+      "b41-033",
+      "b41-035",
+      "b41-039"
+    ],
+    "runId": "2026-11-15-hanlin-g6-natural-6a-volume-backfill-01"
   },
   "statistics": {
     "auditedAt": "2026-11-15",
-    "sourceHeadBeforeRun": "beeb8f9283a551f7b7df4277835df18836d1043b",
+    "sourceHeadBeforeRun": "bb7a2ee1d82ea24c4d4b91b0b8f4890ac788265c",
     "questionCount": 2900,
     "uniqueQuestionIds": 2900,
     "batchFileCount": 34,
@@ -4853,70 +4976,75 @@
     "invalidClassificationValues": 0,
     "semester": {
       "unassigned": 2307,
+      "_total": 2900,
       "上學期": 384,
-      "全學年": 74,
-      "下學期": 135
+      "下學期": 135,
+      "全學年": 74
     },
     "examPeriod": {
       "unassigned": 2669,
-      "第三次段考": 94,
+      "_total": 2900,
       "第一次段考": 66,
-      "第二次段考": 71
+      "第二次段考": 71,
+      "第三次段考": 94
     },
     "classificationBasis": {
       "curriculum-core": 2322,
+      "_total": 2900,
       "question-bank-inference": 395,
       "publisher-source-verified": 183
     },
     "publisherStatus": {
-      "curriculum-core": 2632,
+      "curriculum-core": 2600,
+      "_total": 2900,
       "pending": 6,
-      "publisher-mapped": 262
+      "publisher-mapped": 294
     },
     "confidence": {
-      "low": 2283,
-      "medium": 589,
+      "low": 2284,
+      "_total": 2900,
+      "medium": 588,
       "high": 28
     },
-    "publisherMappedQuestionCount": 262,
-    "publisherMappingReferenceCount": 292,
+    "publisherMappedQuestionCount": 294,
+    "publisherMappingReferenceCount": 324,
     "centralMappingRegistryCount": 37,
     "publisherReferenceCounts": {
       "nani": 51,
-      "hanlin": 173,
+      "hanlin": 205,
       "knsh": 68
     },
     "mappingLevelCounts": {
       "unit": 195,
       "official-resource-title": 46,
-      "volume": 51
+      "volume": 83
     },
     "mappingVerificationStatus": {
-      "source-checked": 292
+      "source-checked": 324
     },
     "activeScope": {
       "questionCount": 1864,
       "semester": {
         "unassigned": 1271,
+        "_total": 1864,
         "上學期": 384,
-        "全學年": 74,
-        "下學期": 135
+        "下學期": 135,
+        "全學年": 74
       },
       "examPeriod": {
         "unassigned": 1633,
-        "第三次段考": 94,
+        "_total": 1864,
         "第一次段考": 66,
-        "第二次段考": 71
+        "第二次段考": 71,
+        "第三次段考": 94
       },
       "publisherStatus": {
-        "curriculum-core": 1596,
+        "curriculum-core": 1564,
+        "_total": 1864,
         "pending": 6,
-        "publisher-mapped": 262
+        "publisher-mapped": 294
       }
-    },
-    "sourceBatchShasMatched": 34,
-    "publisherMappingSourceFieldErrors": 0,
-    "unresolvedCentralMappingReferences": 0
+    }
   },
   "mappingLevelCountsBatches08to41": {
     "unit": 195,
