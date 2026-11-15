@@ -218,7 +218,7 @@
   "lastFilterDataAudit": {
     "auditedAt": "2026-11-16",
     "type": "full-corpus-persisted-classification-filter-regression",
-    "sourceHead": "395718ca83c004f9a4ce743c7e7cd08e95a83634",
+    "sourceHead": "1c9f636c01431d5962cd031d6aac2d1272c14c3e",
     "fullCorpusQuestionCount": 2900,
     "questionsChecked": 2900,
     "filterCombinationsTested": 7650,
@@ -408,7 +408,7 @@
   },
   "statistics": {
     "auditedAt": "2026-11-16",
-    "sourceHeadBeforeRun": "395718ca83c004f9a4ce743c7e7cd08e95a83634",
+    "sourceHeadBeforeRun": "1c9f636c01431d5962cd031d6aac2d1272c14c3e",
     "questionCount": 2900,
     "uniqueQuestionIds": 2900,
     "batchFileCount": 34,
@@ -490,7 +490,7 @@
       }
     }
   },
-  "sourceHeadVerified": "395718ca83c004f9a4ce743c7e7cd08e95a83634",
+  "sourceHeadVerified": "1c9f636c01431d5962cd031d6aac2d1272c14c3e",
   "mainHeadVerifiedAt": "2026-11-16T07:42:38+08:00",
   "latestVerificationAudit": {
     "runId": "2026-11-16-hanlin-g6-math-volume-level-backfill-01",
@@ -587,6 +587,8 @@
       "filterErrors": 0,
       "browserRuntimeTested": false,
       "mobileRuntimeTested": false
-    }
+    },
+    "mainHeadVerified": "1c9f636c01431d5962cd031d6aac2d1272c14c3e",
+    "mainHeadVerifiedAt": "2026-11-16T07:42:38+08:00"
   }
 }
