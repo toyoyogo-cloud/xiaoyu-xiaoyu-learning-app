@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.1.0",
   "updatedAt": "2026-11-15",
-  "classificationRuleVersion": "2026-11-15.54",
+  "classificationRuleVersion": "2026-11-15.56",
   "batchRange": "14-19",
   "sourceBatchShas": {
     "14": "938f1b45a5dd17867e7f566566f9ee495469434f",
@@ -6479,15 +6479,46 @@
       "subject": "自然",
       "courseTrack": null,
       "courseType": null,
-      "semester": "unassigned",
+      "semester": "上學期",
       "examPeriod": "unassigned",
-      "classificationBasis": "curriculum-core",
-      "confidence": "low",
-      "publisherStatus": "curriculum-core",
-      "publisherMappings": [],
-      "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。",
-      "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
-      "learningDomain": "物理能量",
+      "classificationBasis": "publisher-source-verified",
+      "confidence": "medium",
+      "publisherStatus": "publisher-mapped",
+      "publisherMappings": [
+        {
+          "publisher": "nani",
+          "mappingId": "nani-g6-natural-6a-u1-water-cycle",
+          "sourceUrl": "https://market.cloud.edu.tw/resources/video/1830739",
+          "sourceTitle": "看見自然EP51：水循環",
+          "verifiedAt": "2026-11-15",
+          "verificationStatus": "source-checked",
+          "notes": "教育部教育雲平台資源由明志科技大學提供；頁面明列國小5–6年級自然科、INd-Ⅲ-12，並列教材：康軒六上1「天氣的變化」、南一六上1「天氣的變化」、翰林六上1「多變的天氣」。此為教育雲教學資源對照，非出版社出版頁、完整課本目次或學校採用證明；僅支持六年級自然六上單元層級映射。",
+          "mappingLevel": "unit"
+        },
+        {
+          "publisher": "hanlin",
+          "mappingId": "hanlin-g6-natural-6a-u1-water-cycle",
+          "sourceUrl": "https://market.cloud.edu.tw/resources/video/1830739",
+          "sourceTitle": "看見自然EP51：水循環",
+          "verifiedAt": "2026-11-15",
+          "verificationStatus": "source-checked",
+          "notes": "教育部教育雲平台資源由明志科技大學提供；頁面明列國小5–6年級自然科、INd-Ⅲ-12，並列教材：康軒六上1「天氣的變化」、南一六上1「天氣的變化」、翰林六上1「多變的天氣」。此為教育雲教學資源對照，非出版社出版頁、完整課本目次或學校採用證明；僅支持六年級自然六上單元層級映射。",
+          "mappingLevel": "unit"
+        },
+        {
+          "publisher": "knsh",
+          "mappingId": "knsh-g6-natural-6a-u1-water-cycle",
+          "sourceUrl": "https://market.cloud.edu.tw/resources/video/1830739",
+          "sourceTitle": "看見自然EP51：水循環",
+          "verifiedAt": "2026-11-15",
+          "verificationStatus": "source-checked",
+          "notes": "教育部教育雲平台資源由明志科技大學提供；頁面明列國小5–6年級自然科、INd-Ⅲ-12，並列教材：康軒六上1「天氣的變化」、南一六上1「天氣的變化」、翰林六上1「多變的天氣」。此為教育雲教學資源對照，非出版社出版頁、完整課本目次或學校採用證明；僅支持六年級自然六上單元層級映射。",
+          "mappingLevel": "unit"
+        }
+      ],
+      "classificationNotes": "教育部教育雲「看見自然EP51：水循環」列國小5–6年級自然科INd-Ⅲ-12，明列康軒、南一、翰林六上第一單元。本題直接詢問潮濕空氣上升冷卻後水蒸氣凝結成小水滴，對應水循環的凝結環節；只作六上第一單元層級對照，不代表出版社出版頁、學校採用版本或正式段考範圍。",
+      "sourceRef": "nani-g6-natural-6a-u1-water-cycle | 看見自然EP51：水循環 | https://market.cloud.edu.tw/resources/video/1830739；hanlin-g6-natural-6a-u1-water-cycle | 看見自然EP51：水循環 | https://market.cloud.edu.tw/resources/video/1830739；knsh-g6-natural-6a-u1-water-cycle | 看見自然EP51：水循環 | https://market.cloud.edu.tw/resources/video/1830739",
+      "learningDomain": "地球環境",
       "questionType": "概念辨識",
       "learningUnit": "水循環與凝結",
       "difficultyLevel": "進階"
