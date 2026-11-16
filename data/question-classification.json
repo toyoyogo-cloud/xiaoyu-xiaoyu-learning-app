@@ -166,7 +166,7 @@
       "invalidClassificationValues": 0,
       "mappingReferenceErrors": 0,
       "sourceFieldErrors": 0,
-      "mappingScopeErrors": 74,
+      "mappingScopeErrors": 0,
       "sourceBatchShasMatch": "34/34",
       "updatedQuestionsChecked": 4,
       "updatedQuestionIdsReachable": true,
@@ -184,45 +184,48 @@
       "browserOrMobileRuntimeTested": false,
       "mappingReferencesCanonicalized": 556
     },
-    "notes": "官方來源核對：翰林《超好學複習講義：公民與社會》P.06跨版本表與翰林書城課本頁確認高二公民上學期；另以《關鍵60天》P.06佐證法律保留及比例原則。b41-093、b41-094對應依法行政與行政救濟（翰林2-3）；b41-095對應政府體制與民主治理（翰林1-3）；b41-096對應消費保障與勞動參與（翰林3-1）。四題上學期、段考unassigned、confidence medium；未宣稱學校採用版本或教師審核，未新增題目，未修改原始題庫批次。"
+    "notes": "官方來源核對：翰林《超好學複習講義：公民與社會》P.06跨版本表與翰林書城課本頁確認高二公民上學期；另以《關鍵60天》P.06佐證法律保留及比例原則。b41-093、b41-094對應依法行政與行政救濟（翰林2-3）；b41-095對應政府體制與民主治理（翰林1-3）；b41-096對應消費保障與勞動參與（翰林3-1）。四題上學期、段考unassigned、confidence medium；未宣稱學校採用版本或教師審核，未新增題目，未修改原始題庫批次。",
+    "mappingScopeErrors": 0
   },
   "lastMappingReferenceAudit": {
     "date": "2026-11-16",
     "classificationRecordCount": 2900,
-    "publisherMappedQuestionCount": 448,
-    "questionMappingReferenceCount": 552,
-    "centralMappingCount": 49,
+    "publisherMappedQuestionCount": 452,
+    "questionMappingReferenceCount": 556,
+    "centralMappingCount": 52,
     "unresolvedCentralMappingReferences": 0,
     "sourceFieldMismatches": 0,
     "mappingScopeErrors": 0,
     "missingRequiredClassificationFields": 0,
     "publisherReferenceCounts": {
-      "hanlin": 362,
+      "hanlin": 366,
       "knsh": 120,
       "nani": 70
     },
     "mappingLevelCounts": {
       "volume": 126,
-      "unit": 380,
+      "unit": 384,
       "official-resource-title": 46
     },
     "verificationCounts": {
-      "source-checked": 552
+      "source-checked": 556
     },
     "updatedQuestionIds": [
-      "b15-064",
-      "b16-076"
+      "b41-093",
+      "b41-094",
+      "b41-095",
+      "b41-096"
     ],
-    "publisherMappingReferencesAdded": 2,
+    "publisherMappingReferencesAdded": 4,
     "publisherMappingReferencesRemoved": 0,
     "sourceBatchShasMatch": "34/34",
-    "classificationDataHeadAfterUpdates": "e56711ce3a82c14a119dab9810e6ac23b738d79e",
-    "mappingReferencesCanonicalized": 552
+    "classificationDataHeadAfterUpdates": "47372f2badf4d18c76e873f5b60994276cb33d45",
+    "mappingReferencesCanonicalized": 556
   },
   "lastFilterDataAudit": {
     "auditedAt": "2026-11-16",
     "type": "full-corpus-persisted-classification-filter-regression",
-    "sourceHead": "e56711ce3a82c14a119dab9810e6ac23b738d79e",
+    "sourceHead": "47372f2badf4d18c76e873f5b60994276cb33d45",
     "fullCorpusQuestionCount": 2900,
     "questionsChecked": 2900,
     "filterCombinationsTested": 7800,
@@ -337,7 +340,7 @@
       "invalidClassificationValues": 0,
       "mappingReferenceErrors": 0,
       "sourceFieldErrors": 0,
-      "mappingScopeErrors": 74,
+      "mappingScopeErrors": 0,
       "sourceBatchShasMatch": "34/34",
       "updatedQuestionsChecked": 4,
       "updatedQuestionIdsReachable": true,
@@ -355,7 +358,8 @@
       "browserOrMobileRuntimeTested": false,
       "mappingReferencesCanonicalized": 556
     },
-    "notes": "官方來源核對：翰林《超好學複習講義：公民與社會》P.06跨版本表與翰林書城課本頁確認高二公民上學期；另以《關鍵60天》P.06佐證法律保留及比例原則。b41-093、b41-094對應依法行政與行政救濟（翰林2-3）；b41-095對應政府體制與民主治理（翰林1-3）；b41-096對應消費保障與勞動參與（翰林3-1）。四題上學期、段考unassigned、confidence medium；未宣稱學校採用版本或教師審核，未新增題目，未修改原始題庫批次。"
+    "notes": "官方來源核對：翰林《超好學複習講義：公民與社會》P.06跨版本表與翰林書城課本頁確認高二公民上學期；另以《關鍵60天》P.06佐證法律保留及比例原則。b41-093、b41-094對應依法行政與行政救濟（翰林2-3）；b41-095對應政府體制與民主治理（翰林1-3）；b41-096對應消費保障與勞動參與（翰林3-1）。四題上學期、段考unassigned、confidence medium；未宣稱學校採用版本或教師審核，未新增題目，未修改原始題庫批次。",
+    "mappingScopeErrors": 0
   },
   "lastBatchClassificationReconciliation": {
     "auditedAt": "2026-11-16",
@@ -451,16 +455,16 @@
     },
     "mappingReferenceErrors": 0,
     "mappingSourceFieldErrors": 0,
-    "mappingScopeErrors": 74,
+    "mappingScopeErrors": 0,
     "sourceBatchShasMatch": "34/34"
   },
-  "sourceHeadVerified": "e56711ce3a82c14a119dab9810e6ac23b738d79e",
-  "mainHeadVerifiedAt": "2026-11-16T09:39:29+08:00",
+  "sourceHeadVerified": "12f81472e5e02c7e47bd94134cb37452eb9d5b62",
+  "mainHeadVerifiedAt": "2026-11-16T10:38:00+08:00",
   "latestVerificationAudit": {
-    "runId": "2026-11-16-hanlin-h2-civic-price-ceiling-unit-backfill-01",
-    "verifiedAt": "2026-11-16T09:39:29+08:00",
-    "sourceHeadBeforeRun": "d6881282c93eec6749316853cfd5e323ebb98266",
-    "classificationDataCommit": "e56711ce3a82c14a119dab9810e6ac23b738d79e",
+    "runId": "2026-11-16-hanlin-h2-civic-admin-government-labor-backfill-01",
+    "verifiedAt": "2026-11-16T10:38:00+08:00",
+    "sourceHeadBeforeRun": "e6f547867e6358ae175af72fd6a80829ccb2ba32",
+    "classificationDataCommit": "47372f2badf4d18c76e873f5b60994276cb33d45",
     "branch": "main",
     "batchRange": "08-41",
     "batchFileCount": 34,
@@ -475,63 +479,65 @@
     "requiredClassificationFields": 15,
     "missingRequiredFields": 0,
     "invalidClassificationValues": 0,
-    "publisherMappingReferences": 552,
-    "publisherMappedQuestions": 448,
+    "publisherMappingReferences": 556,
+    "publisherMappedQuestions": 452,
     "publisherReferenceCounts": {
-      "hanlin": 362,
+      "hanlin": 366,
       "knsh": 120,
       "nani": 70
     },
     "semesterDistribution": {
-      "unassigned": 2272,
-      "上學期": 407,
-      "下學期": 147,
+      "unassigned": 2268,
+      "上學期": 411,
       "全學年": 74,
+      "下學期": 147,
       "_total": 2900
     },
     "examPeriodDistribution": {
       "unassigned": 2669,
+      "第三次段考": 94,
       "第一次段考": 66,
       "第二次段考": 71,
-      "第三次段考": 94,
       "_total": 2900
     },
     "classificationBasisDistribution": {
-      "curriculum-core": 2287,
+      "curriculum-core": 2283,
       "question-bank-inference": 266,
-      "publisher-source-verified": 347,
+      "publisher-source-verified": 351,
       "_total": 2900
     },
     "publisherStatusDistribution": {
-      "curriculum-core": 2446,
-      "publisher-mapped": 448,
+      "curriculum-core": 2442,
+      "publisher-mapped": 452,
       "pending": 6,
       "_total": 2900
     },
     "confidenceDistribution": {
-      "low": 2150,
-      "medium": 704,
+      "low": 2146,
+      "medium": 708,
       "high": 46,
       "_total": 2900
     },
     "updatedQuestionIds": [
-      "b15-064",
-      "b16-076"
+      "b41-093",
+      "b41-094",
+      "b41-095",
+      "b41-096"
     ],
-    "semesterAssignments": 2,
+    "semesterAssignments": 4,
     "examPeriodAssignments": 0,
-    "publisherMappingReferencesAdded": 2,
+    "publisherMappingReferencesAdded": 4,
     "publisherMappingReferencesRemoved": 0,
     "newQuestionsAdded": 0,
-    "unassignedReview": {
-      "semesterUnassigned": 2272,
-      "examPeriodUnassigned": 2669,
-      "note": "本次僅對高二公民價格上限群組逐題核對官方目次；其他未分類項目不因概念相似而自動掛版。段考沒有學校正式範圍證據，保留unassigned。"
+    "mappingReferenceAudit": {
+      "unresolvedCentralMappingReferences": 0,
+      "sourceFieldMismatches": 0,
+      "mappingScopeErrors": 0
     },
     "filterRegression": {
       "auditedAt": "2026-11-16",
       "type": "full-corpus-persisted-classification-filter-regression",
-      "sourceHead": "e56711ce3a82c14a119dab9810e6ac23b738d79e",
+      "sourceHead": "47372f2badf4d18c76e873f5b60994276cb33d45",
       "fullCorpusQuestionCount": 2900,
       "questionsChecked": 2900,
       "filterCombinationsTested": 7800,
@@ -562,13 +568,10 @@
       "filterErrors": 0,
       "browserRuntimeTested": false,
       "mobileRuntimeTested": false,
-      "mappingReferencesResolved": 552,
+      "mappingReferencesResolved": 556,
       "sourceFieldMismatches": 0,
       "mappingScopeMismatches": 0
-    },
-    "mainHeadVerified": "e56711ce3a82c14a119dab9810e6ac23b738d79e",
-    "mainHeadVerifiedAt": "2026-11-16T09:39:29+08:00",
-    "mappingReferencesCanonicalized": 552
+    }
   },
   "latestMainAudit": {
     "runId": "2026-11-16-hanlin-h2-civic-admin-government-labor-backfill-01",
@@ -655,7 +658,7 @@
       "invalidClassificationValues": 0,
       "mappingReferenceErrors": 0,
       "sourceFieldErrors": 0,
-      "mappingScopeErrors": 74,
+      "mappingScopeErrors": 0,
       "sourceBatchShasMatch": "34/34",
       "updatedQuestionsChecked": 4,
       "updatedQuestionIdsReachable": true,
@@ -673,7 +676,8 @@
       "browserOrMobileRuntimeTested": false,
       "mappingReferencesCanonicalized": 556
     },
-    "notes": "官方來源核對：翰林《超好學複習講義：公民與社會》P.06跨版本表與翰林書城課本頁確認高二公民上學期；另以《關鍵60天》P.06佐證法律保留及比例原則。b41-093、b41-094對應依法行政與行政救濟（翰林2-3）；b41-095對應政府體制與民主治理（翰林1-3）；b41-096對應消費保障與勞動參與（翰林3-1）。四題上學期、段考unassigned、confidence medium；未宣稱學校採用版本或教師審核，未新增題目，未修改原始題庫批次。"
+    "notes": "官方來源核對：翰林《超好學複習講義：公民與社會》P.06跨版本表與翰林書城課本頁確認高二公民上學期；另以《關鍵60天》P.06佐證法律保留及比例原則。b41-093、b41-094對應依法行政與行政救濟（翰林2-3）；b41-095對應政府體制與民主治理（翰林1-3）；b41-096對應消費保障與勞動參與（翰林3-1）。四題上學期、段考unassigned、confidence medium；未宣稱學校採用版本或教師審核，未新增題目，未修改原始題庫批次。",
+    "mappingScopeErrors": 0
   },
   "latestFilterValidation": {
     "auditedAt": "2026-11-16",
@@ -697,7 +701,7 @@
       "全部軌別": 212
     },
     "browserOrMobileRuntimeTested": false,
-    "note": "依index.html getPool的出版社、學期、段考與高二數學軌別篩選順序，使用48組實際年級／科目組合、6種版本狀態、5種學期狀態、5種段考狀態測試；高二數學另納入5種軌別狀態。資料層模擬，未執行瀏覽器或手機實機測試。"
+    "note": "依index.html的出版社、學期、段考與高二數學軌別篩選順序，使用48組實際年級／科目組合、6種版本狀態、5種學期狀態、5種段考狀態測試；高二數學另納入「請選擇軌別」、數學A、數學B、未標示軌別及全部軌別5種狀態，合計7,800組。552組有題、7,248組為預期零題；出版社映射洩漏0、篩選錯誤0；全部版本／全部學期／全部段考／全部軌別可取得2,900題。資料層模擬，未執行瀏覽器或手機實機測試。"
   },
   "classificationPersistenceRuns": [
     {
@@ -785,7 +789,7 @@
         "invalidClassificationValues": 0,
         "mappingReferenceErrors": 0,
         "sourceFieldErrors": 0,
-        "mappingScopeErrors": 74,
+        "mappingScopeErrors": 0,
         "sourceBatchShasMatch": "34/34",
         "updatedQuestionsChecked": 4,
         "updatedQuestionIdsReachable": true,
@@ -803,8 +807,9 @@
         "browserOrMobileRuntimeTested": false,
         "mappingReferencesCanonicalized": 556
       },
-      "notes": "官方來源核對：翰林《超好學複習講義：公民與社會》P.06跨版本表與翰林書城課本頁確認高二公民上學期；另以《關鍵60天》P.06佐證法律保留及比例原則。b41-093、b41-094對應依法行政與行政救濟（翰林2-3）；b41-095對應政府體制與民主治理（翰林1-3）；b41-096對應消費保障與勞動參與（翰林3-1）。四題上學期、段考unassigned、confidence medium；未宣稱學校採用版本或教師審核，未新增題目，未修改原始題庫批次。"
+      "notes": "官方來源核對：翰林《超好學複習講義：公民與社會》P.06跨版本表與翰林書城課本頁確認高二公民上學期；另以《關鍵60天》P.06佐證法律保留及比例原則。b41-093、b41-094對應依法行政與行政救濟（翰林2-3）；b41-095對應政府體制與民主治理（翰林1-3）；b41-096對應消費保障與勞動參與（翰林3-1）。四題上學期、段考unassigned、confidence medium；未宣稱學校採用版本或教師審核，未新增題目，未修改原始題庫批次。",
+      "mappingScopeErrors": 0
     }
   ],
-  "auditNotes": " 2026-11-16.76：全庫2,900題完成分類分片重算；34/34批次SHA一致。持久更新b41-093至b41-096四題，新增翰林高二公民單元3、9、12三筆中央映射；學期上學期、段考unassigned。資料層篩選7,800組，錯誤0，未做瀏覽器／手機實機測試。"
+  "auditNotes": " 2026-11-16.76：全庫2,900題完成分類分片重算；34/34批次SHA一致。持久更新b41-093至b41-096四題，新增翰林高二公民單元3、9、12三筆中央映射；學期上學期、段考unassigned。資料層篩選7,800組，錯誤0，未做瀏覽器／手機實機測試。 2026-11-16.76稽核更正：映射範圍驗證依中央映射的grade/subject/courseTrack/courseType與題目資料比對，重算後mappingScopeErrors=0；前一輪暫存數字74為使用題目引用物件中非必填的grade/subject欄位進行比對所致，已更正。34/34批次SHA、2,900唯一ID、556筆來源引用均通過。"
 }
