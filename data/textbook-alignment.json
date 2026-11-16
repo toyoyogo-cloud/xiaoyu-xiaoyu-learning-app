@@ -744,9 +744,9 @@
       "sourceType": "official-publisher",
       "sourceUrl": "https://sdgs.knsh.com.tw/api/uploads/curriculumMap/E_school/%E7%A4%BE%E6%9C%83%E5%85%AD%E4%B8%8BCH2L1%E7%A4%BE%E6%9C%83%E5%85%85%E9%9B%BB%E7%AB%99SDGs%E5%B0%B1%E5%9C%A8%E6%88%91%E5%80%91%E8%BA%AB%E9%82%8A_%E6%95%99%E5%AD%B8%E8%B3%87%E6%BA%90.pdf",
       "sourceTitle": "康軒社會六下2-1「社會充電站：SDGs就在我們身邊」教學資源PDF",
-      "verifiedAt": "2026-11-14",
+      "verifiedAt": "2026-11-16",
       "verificationStatus": "source-checked",
-      "notes": "康軒官方教學資源明示「社會6下2-1」；內容涵蓋SDG11永續城市、公共建設與交通安全、居民參與公共事務，以及天然災害風險管理。此映射僅代表題目與官方教學資源標題／學習情境的對照（official-resource-title），不等同完整課本目次、不代表學校採用版本，也不代表正式段考範圍。",
+      "notes": "康軒官方社會6下2-1教學資源明示學生與學校／政府機關協作參與社區事務，並以公共建設、交通安全為例。題目僅作官方教學資源標題／學習情境層級對照，不等同完整課本目次、不代表學校採用版本或正式段考範圍。",
       "courseType": "國小",
       "mappingLevel": "official-resource-title"
     },
@@ -1259,9 +1259,9 @@
       "sourceType": "publisher-authored-companion-assessment-toc",
       "sourceUrl": "https://fliphtml5.com/cojaq/nrjy/%E9%AB%98%E4%B8%AD%E8%A9%A6%E9%A1%8C%E6%8C%96%E6%8C%96%E5%93%87-%E6%AD%B7%E5%8F%B2(3)/3",
       "sourceTitle": "翰林高中參考書－《試題挖挖哇：歷史(3)》第3頁目次",
-      "verifiedAt": "2026-11-15",
+      "verifiedAt": "2026-11-16",
       "verificationStatus": "source-checked",
-      "notes": "翰林高中參考書官方帳號刊載《試題挖挖哇－歷史(3)》第3頁目次，單元7列「冷戰期間的世界局勢」及「冷戰期間的政治局勢」；翰林書城官方課本頁明示高中二年級、歷史(3)、上學期。題目直接涉及冷戰時期美國圍堵政策，故建立翰林歷史(3)單元層級對照並標記上學期。目次來自翰林出版社高中參考書配套評量本，並非主課本完整目次；不代表學校實際採用版本，也不推定正式段考範圍。",
+      "notes": "翰林高中參考書帳號公開的《試題挖挖哇－歷史(3)》第3頁目次，單元7列冷戰期間的世界局勢、政治局勢及社會運動與反戰思潮；翰林書城官方課本頁另確認高中二年級、歷史(3)、上學期。題目僅作配套評量目次單元層級對照，不代表學校採用版本或正式段考範圍。",
       "courseType": "未確認",
       "courseTrack": null,
       "mappingLevel": "unit",
@@ -1560,8 +1560,8 @@
       "sourceUrl": "https://945cloud.knsh.com.tw/e/promo/show/upload/material/4/113%281%29%E8%87%AA%E7%84%B6%E9%A0%98%E5%9F%9F%E6%96%87%E5%AE%A3-%E8%B7%A8%E9%A0%81.pdf",
       "sourceTitle": "113康軒國小教材簡介－自然領域文宣",
       "verifiedAt": "2026-11-16",
-      "verificationStatus": "source-checked",
-      "notes": "113康軒官方教材簡介目次明列六下單元二「生物與環境」；主題脈絡直接列出食物鏈、族群與群集、生物之間的關係及生態系。只支持113版康軒六下單元層級，不代表學校採用版本或正式段考範圍。",
+      "verificationStatus": "source-unavailable",
+      "notes": "113康軒官方教材簡介目次明列六下單元二「生物與環境」；主題脈絡直接列出食物鏈、族群與群集、生物之間的關係及生態系。只支持113版康軒六下單元層級，不代表學校採用版本或正式段考範圍。 原康軒113版自然教材簡介PDF連結於2026-11-16重查回應HTTP 404，暫停出版社映射；保留原mappingId、來源網址及sourceTitle供追溯，但verificationStatus改為source-unavailable，不納入出版社版本篩選。題目暫列108課綱共同核心，學期與段考改為unassigned，待官方來源恢復或取得可核對的官方目次。",
       "courseType": "國小",
       "mappingLevel": "unit",
       "unitAliases": [
@@ -1600,8 +1600,8 @@
       "sourceUrl": "https://945cloud.knsh.com.tw/e/promo/show/upload/material/4/113%281%29%E8%87%AA%E7%84%B6%E9%A0%98%E5%9F%9F%E6%96%87%E5%AE%A3-%E8%B7%A8%E9%A0%81.pdf",
       "sourceTitle": "113康軒國小教材簡介－自然領域文宣",
       "verifiedAt": "2026-11-16",
-      "verificationStatus": "source-checked",
-      "notes": "113康軒官方教材簡介目次明列六下單元三「地球與永續」，活動1為「人類活動對環境有什麼影響」、活動2為「如何愛護地球生態」。只支持113版康軒六下單元層級，不代表學校採用版本或正式段考範圍。",
+      "verificationStatus": "source-unavailable",
+      "notes": "113康軒官方教材簡介目次明列六下單元三「地球與永續」，活動1為「人類活動對環境有什麼影響」、活動2為「如何愛護地球生態」。只支持113版康軒六下單元層級，不代表學校採用版本或正式段考範圍。 原康軒113版自然教材簡介PDF連結於2026-11-16重查回應HTTP 404，暫停出版社映射；保留原mappingId、來源網址及sourceTitle供追溯，但verificationStatus改為source-unavailable，不納入出版社版本篩選。題目暫列108課綱共同核心，學期與段考改為unassigned，待官方來源恢復或取得可核對的官方目次。",
       "courseType": "國小",
       "mappingLevel": "unit",
       "unitAliases": [
@@ -2077,14 +2077,14 @@
       "notes": "官方商品頁明示科目社會、國小6年級、下學期及課本商品；頁面未提供細分單元目次。僅作冊別層級來源參考，不建立題目級映射，不代表學校採用版本。"
     },
     {
-      "id": "knsh-g6-social-6b-2-1-sdgs-community",
+      "id": "knsh-g6-social-6b-u2-1-sdgs-community",
       "publisher": "knsh",
       "sourceType": "official-publisher",
       "sourceUrl": "https://sdgs.knsh.com.tw/api/uploads/curriculumMap/E_school/%E7%A4%BE%E6%9C%83%E5%85%AD%E4%B8%8BCH2L1%E7%A4%BE%E6%9C%83%E5%85%85%E9%9B%BB%E7%AB%99SDGs%E5%B0%B1%E5%9C%A8%E6%88%91%E5%80%91%E8%BA%AB%E9%82%8A_%E6%95%99%E5%AD%B8%E8%B3%87%E6%BA%90.pdf",
-      "sourceTitle": "康軒社會六下2-1「社會充電站：SDGs就在我們身邊」教學資源PDF",
-      "verifiedAt": "2026-11-14",
+      "sourceTitle": "康軒社會六下2-1「社會充電站：SDGs就在我們身邊」官方教學資源PDF",
+      "verifiedAt": "2026-11-16",
       "verificationStatus": "source-checked",
-      "notes": "官方PDF明示社會6下2-1，內容涵蓋SDG11永續城市、公共建設與交通安全、社區參與及天然災害風險管理。只作官方教學資源標題／學習情境層級參考，不等同完整課本目次或學校採用版本。"
+      "notes": "康軒官方社會6下2-1教學資源明示學生與學校／政府機關協作參與社區事務，並以公共建設、交通安全為例。題目僅作官方教學資源標題／學習情境層級對照，不等同完整課本目次、不代表學校採用版本或正式段考範圍。"
     },
     {
       "id": "ntue-g6-natural-6a-u4-electricity-magnetism",
@@ -2307,14 +2307,14 @@
       "notes": "官方商品頁明示科目歷史、高中二年級、上學期及歷史(3)課本；未列完整細分目次，僅作年級／冊別／學期交叉核對。"
     },
     {
-      "id": "hanlin-h2-history-3-companion-assessment-toc",
+      "id": "hanlin-h2-history-3-u7-cold-war",
       "publisher": "hanlin",
       "sourceType": "publisher-authored-companion-assessment-toc",
       "sourceUrl": "https://fliphtml5.com/cojaq/nrjy/%E9%AB%98%E4%B8%AD%E8%A9%A6%E9%A1%8C%E6%8C%96%E6%8C%96%E5%93%87-%E6%AD%B7%E5%8F%B2(3)/3",
       "sourceTitle": "翰林高中參考書－《試題挖挖哇：歷史(3)》第3頁目次",
-      "verifiedAt": "2026-11-15",
+      "verifiedAt": "2026-11-16",
       "verificationStatus": "source-checked",
-      "notes": "翰林高中參考書官方帳號刊載之歷史(3)第3頁目次；列第2單元啟蒙運動、第3單元工業革命與社會思潮、第7單元冷戰期間的政治局勢。屬出版社配套評量本目次，不是主課本完整目次。"
+      "notes": "翰林高中參考書帳號公開的《試題挖挖哇－歷史(3)》第3頁目次，單元7列冷戰期間的世界局勢、政治局勢及社會運動與反戰思潮；翰林書城官方課本頁另確認高中二年級、歷史(3)、上學期。題目僅作配套評量目次單元層級對照，不代表學校採用版本或正式段考範圍。"
     },
     {
       "id": "hanlin-g6-natural-6a-textbook-volume",
@@ -2403,9 +2403,9 @@
       "sourceUrl": "https://945cloud.knsh.com.tw/e/promo/show/upload/material/4/113%281%29%E8%87%AA%E7%84%B6%E9%A0%98%E5%9F%9F%E6%96%87%E5%AE%A3-%E8%B7%A8%E9%A0%81.pdf",
       "sourceTitle": "113康軒國小教材簡介－自然領域文宣",
       "verifiedAt": "2026-11-16",
-      "verificationStatus": "source-checked",
+      "verificationStatus": "source-unavailable",
       "verifiedScope": "113版國小自然：六上單元一探索天氣的變化；六下單元二生物與環境；六下單元三地球與永續。",
-      "notes": "康軒官方113國小教材簡介PDF，含六年級自然課程架構與單元／活動目次。僅支持113版康軒教材對照，不代表學校採用版本。"
+      "notes": "康軒官方113國小教材簡介PDF，含六年級自然課程架構與單元／活動目次。僅支持113版康軒教材對照，不代表學校採用版本。 原康軒113版自然教材簡介PDF連結於2026-11-16重查回應HTTP 404，暫停出版社映射；保留原mappingId、來源網址及sourceTitle供追溯，但verificationStatus改為source-unavailable，不納入出版社版本篩選。題目暫列108課綱共同核心，學期與段考改為unassigned，待官方來源恢復或取得可核對的官方目次。"
     },
     {
       "id": "hanlin-h2-civic-3-u3-market-regulation-toc",
@@ -3169,6 +3169,30 @@
       "correctedReferences": 19,
       "sourceUrl": "https://fliphtml5.com/errll/szwy/%E6%95%B8%E5%AD%B8%E8%83%BD%E5%8A%9B%E5%8A%A0%E5%BC%B7%E7%B3%BB%E5%88%97%5B6%E5%B9%B4%E7%B4%9A%5D%E6%8A%BD%E5%8D%B0%E6%9C%AC/50/",
       "notes": "修正題目層級publisherMappings及sourceRef中少字的URL，與中央映射相同；未新增映射或改變教材範圍。"
+    },
+    {
+      "date": "2026-11-16",
+      "type": "official-source-availability-correction",
+      "mappingIds": [
+        "knsh-g6-natural-6b-u2-ecosystems",
+        "knsh-g6-natural-6b-u3-earth-sustainability"
+      ],
+      "affectedQuestionIds": [
+        "b15-022",
+        "b24-032",
+        "b25-030",
+        "b30-025",
+        "b31-036",
+        "b32-027",
+        "b33-033",
+        "b35-033",
+        "b36-040",
+        "b38-039",
+        "b40-037",
+        "b41-035",
+        "b41-040"
+      ],
+      "result": "13題保留mappingId及來源資料供追溯，但驗證狀態改為source-unavailable、出版社狀態待核對，並撤回僅依該失效來源推定的學期。"
     }
   ],
   "batch40UsageAudit": {
@@ -5831,6 +5855,75 @@
       "publisherMappingReferencesRemoved": 0,
       "newQuestionsAdded": 0,
       "notes": "重新開啟翰林六上／六下自然課本與高二上選修物理(II)官方商品頁。六上、六下頁面只確認年級、科目、學期及冊別，未列細分目次；本輪不新增題目級出版社映射，也不把b41-036光合作用、b41-038月相等未分類題目推掛至特定學期／出版社。選修物理(II)仍只作冊別層級對照，缺少題目courseType時不擴張出版社映射。"
+    },
+    {
+      "runId": "2026-11-16-coldwar-social-source-recheck-and-natural-404-01",
+      "verifiedAt": "2026-11-16",
+      "sourceChecks": [
+        {
+          "publisher": "knsh",
+          "mappingIds": [
+            "knsh-g6-natural-6b-u2-ecosystems",
+            "knsh-g6-natural-6b-u3-earth-sustainability"
+          ],
+          "sourceUrl": "https://945cloud.knsh.com.tw/e/promo/show/upload/material/4/113%281%29%E8%87%AA%E7%84%B6%E9%A0%98%E5%9F%9F%E6%96%87%E5%AE%A3-%E8%B7%A8%E9%A0%81.pdf",
+          "sourceTitle": "113康軒國小教材簡介－自然領域文宣",
+          "httpStatus": 404,
+          "verificationStatus": "source-unavailable",
+          "verifiedScope": "兩次直接重查均回應404；保留歷史來源紀錄，不再用於出版社篩選。"
+        },
+        {
+          "publisher": "knsh",
+          "mappingIds": [
+            "knsh-g6-social-6b-u2-1-sdgs-community"
+          ],
+          "sourceUrl": "https://sdgs.knsh.com.tw/api/uploads/curriculumMap/E_school/%E7%A4%BE%E6%9C%83%E5%85%AD%E4%B8%8BCH2L1%E7%A4%BE%E6%9C%83%E5%85%85%E9%9B%BB%E7%AB%99SDGs%E5%B0%B1%E5%9C%A8%E6%88%91%E5%80%91%E8%BA%AB%E9%82%8A_%E6%95%99%E5%AD%B8%E8%B3%87%E6%BA%90.pdf",
+          "sourceTitle": "康軒社會六下2-1官方教學資源PDF",
+          "verificationStatus": "source-checked",
+          "verifiedScope": "PDF明示配合社會6下2-1，並記載學生與學校／政府協作、公共建設及交通安全；只作官方資源標題／學習情境層級對照。"
+        },
+        {
+          "publisher": "hanlin",
+          "mappingIds": [
+            "hanlin-h2-history-3-u7-cold-war"
+          ],
+          "sourceUrl": "https://fliphtml5.com/cojaq/nrjy/%E9%AB%98%E4%B8%AD%E8%A9%A6%E9%A1%8C%E6%8C%96%E6%8C%96%E5%93%87-%E6%AD%B7%E5%8F%B2(3)/3",
+          "sourceTitle": "翰林高中參考書《試題挖挖哇－歷史(3)》第3頁目次",
+          "verificationStatus": "source-checked",
+          "verifiedScope": "出版社帳號頁面目次列單元7冷戰期間的世界局勢／政治局勢；翰林官方商品頁確認高中二年級歷史(3)上學期。"
+        }
+      ],
+      "questionRecordsUpdated": 24,
+      "updatedQuestionIds": [
+        "b8-010",
+        "b10-019",
+        "b12-010",
+        "b15-022",
+        "b17-069",
+        "b19-068",
+        "b22-051",
+        "b23-067",
+        "b24-032",
+        "b24-068",
+        "b25-030",
+        "b29-036",
+        "b30-025",
+        "b31-036",
+        "b32-027",
+        "b33-033",
+        "b35-033",
+        "b35-092",
+        "b36-040",
+        "b37-090",
+        "b38-039",
+        "b40-037",
+        "b41-035",
+        "b41-040"
+      ],
+      "publisherMappingReferencesAdded": 11,
+      "publisherMappingReferencesDowngraded": 13,
+      "newQuestionsAdded": 0,
+      "notes": "11題新增有證據的康軒六下社會與翰林高二歷史單元映射；13題原康軒自然映射因官方PDF兩次回應404改為source-unavailable並列待核對。段考均維持unassigned。"
     }
   ],
   "high2MathCourseTrackAudit": {
@@ -7450,7 +7543,7 @@
       "centralMappingCount": 39
     }
   },
-  "classificationRuleVersion": "2026-11-16.80",
+  "classificationRuleVersion": "2026-11-16.81",
   "classificationPersistenceRunsRecovery": {
     "repairedAt": "2026-11-16",
     "previousLength": 337,
@@ -7511,5 +7604,74 @@
     "newMappingReferences": 29,
     "teacherConfirmed": false,
     "notes": "29題皆直接考查法律保留、比例原則或行政救濟；出版社跨版本對照表將第9單元對應翰林公民與社會(3)乙版第2-3章，官方商品頁確認高二公民上學期。段考維持未分類。"
+  },
+  "latestSourceAvailabilityAudit": {
+    "runId": "2026-11-16-coldwar-social-source-recheck-and-natural-404-01",
+    "verifiedAt": "2026-11-16",
+    "sourceChecks": [
+      {
+        "publisher": "knsh",
+        "mappingIds": [
+          "knsh-g6-natural-6b-u2-ecosystems",
+          "knsh-g6-natural-6b-u3-earth-sustainability"
+        ],
+        "sourceUrl": "https://945cloud.knsh.com.tw/e/promo/show/upload/material/4/113%281%29%E8%87%AA%E7%84%B6%E9%A0%98%E5%9F%9F%E6%96%87%E5%AE%A3-%E8%B7%A8%E9%A0%81.pdf",
+        "sourceTitle": "113康軒國小教材簡介－自然領域文宣",
+        "httpStatus": 404,
+        "verificationStatus": "source-unavailable",
+        "verifiedScope": "兩次直接重查均回應404；保留歷史來源紀錄，不再用於出版社篩選。"
+      },
+      {
+        "publisher": "knsh",
+        "mappingIds": [
+          "knsh-g6-social-6b-u2-1-sdgs-community"
+        ],
+        "sourceUrl": "https://sdgs.knsh.com.tw/api/uploads/curriculumMap/E_school/%E7%A4%BE%E6%9C%83%E5%85%AD%E4%B8%8BCH2L1%E7%A4%BE%E6%9C%83%E5%85%85%E9%9B%BB%E7%AB%99SDGs%E5%B0%B1%E5%9C%A8%E6%88%91%E5%80%91%E8%BA%AB%E9%82%8A_%E6%95%99%E5%AD%B8%E8%B3%87%E6%BA%90.pdf",
+        "sourceTitle": "康軒社會六下2-1官方教學資源PDF",
+        "verificationStatus": "source-checked",
+        "verifiedScope": "PDF明示配合社會6下2-1，並記載學生與學校／政府協作、公共建設及交通安全；只作官方資源標題／學習情境層級對照。"
+      },
+      {
+        "publisher": "hanlin",
+        "mappingIds": [
+          "hanlin-h2-history-3-u7-cold-war"
+        ],
+        "sourceUrl": "https://fliphtml5.com/cojaq/nrjy/%E9%AB%98%E4%B8%AD%E8%A9%A6%E9%A1%8C%E6%8C%96%E6%8C%96%E5%93%87-%E6%AD%B7%E5%8F%B2(3)/3",
+        "sourceTitle": "翰林高中參考書《試題挖挖哇－歷史(3)》第3頁目次",
+        "verificationStatus": "source-checked",
+        "verifiedScope": "出版社帳號頁面目次列單元7冷戰期間的世界局勢／政治局勢；翰林官方商品頁確認高中二年級歷史(3)上學期。"
+      }
+    ],
+    "questionRecordsUpdated": 24,
+    "updatedQuestionIds": [
+      "b8-010",
+      "b10-019",
+      "b12-010",
+      "b15-022",
+      "b17-069",
+      "b19-068",
+      "b22-051",
+      "b23-067",
+      "b24-032",
+      "b24-068",
+      "b25-030",
+      "b29-036",
+      "b30-025",
+      "b31-036",
+      "b32-027",
+      "b33-033",
+      "b35-033",
+      "b35-092",
+      "b36-040",
+      "b37-090",
+      "b38-039",
+      "b40-037",
+      "b41-035",
+      "b41-040"
+    ],
+    "publisherMappingReferencesAdded": 11,
+    "publisherMappingReferencesDowngraded": 13,
+    "newQuestionsAdded": 0,
+    "notes": "11題新增有證據的康軒六下社會與翰林高二歷史單元映射；13題原康軒自然映射因官方PDF兩次回應404改為source-unavailable並列待核對。段考均維持unassigned。"
   }
 }
