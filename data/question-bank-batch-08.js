@@ -214,15 +214,43 @@ window.EXTRA8_GRADE_BANK = [
     "e": "實際距離＝4×50,000＝200,000 公分＝2 公里。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
-    "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
+    "sourceRef": "https://945cloud.knsh.com.tw/E/promo/show/upload/material/3/114%281%29%E9%AB%98%E5%B9%B4%E7%B4%9A%E7%B6%9C%E5%90%88%E6%96%87%E5%AE%A3.pdf",
     "reviewStatus": "rule-checked",
     "semester": "上學期",
-    "examPeriod": "第三次段考",
-    "classificationBasis": "question-bank-inference",
-    "confidence": "medium",
-    "publisherStatus": "curriculum-core",
-    "publisherMappings": [],
-    "classificationNotes": "依六年級題庫常見比例尺與速率單元群推定；非學校正式段考範圍。"
+    "examPeriod": "unassigned",
+    "classificationBasis": "publisher-source-verified",
+    "confidence": "high",
+    "publisherStatus": "publisher-mapped",
+    "publisherMappings": [
+      {
+        "publisher": "knsh",
+        "mappingId": "knsh-g6-math-6a-u9-scale",
+        "sourceUrl": "https://945cloud.knsh.com.tw/E/promo/show/upload/material/3/114%281%29%E9%AB%98%E5%B9%B4%E7%B4%9A%E7%B6%9C%E5%90%88%E6%96%87%E5%AE%A3.pdf",
+        "sourceTitle": "康軒114國小高年級數學教材簡介－六上第9單元「放大圖、縮圖與比例尺」",
+        "verifiedAt": "2026-11-16",
+        "verificationStatus": "source-checked",
+        "notes": "康軒114國小教材簡介明列六上第9單元「放大圖、縮圖與比例尺」，並列比例尺學習內容（PDF第17–18頁文字擷取）。本題直接以地圖比例尺換算實際距離，與該單元名稱及內容相符；僅作114學年度康軒版本單元層級對照。題庫題目本身未標學年度，不能據此宣稱學校採用康軒或指定114學年度；不代表正式段考範圍，也不表示題目取自教材。",
+        "mappingLevel": "unit",
+        "volume": "數學6上",
+        "unitCode": "9",
+        "unitName": "放大圖、縮圖與比例尺",
+        "unitAliases": [
+          "比例尺",
+          "地圖比例尺",
+          "放大圖、縮圖與比例尺"
+        ],
+        "semester": "上學期",
+        "grade": "六年級",
+        "subject": "數學",
+        "courseTrack": null,
+        "schoolYear": "114學年度",
+        "courseType": "國小"
+      }
+    ],
+    "classificationNotes": "康軒114官方教材簡介明列六上第9單元「放大圖、縮圖與比例尺」，題幹知識點與該單元相符；此為114學年度版本單元對照，題庫未標學年度，非學校採用證明。官方資料未提供校內段考範圍，examPeriod 保留 unassigned。",
+    "courseType": "國小",
+    "courseTrack": null,
+    "schoolYear": "未標示"
   },
   {
     "id": "b8-009",
@@ -326,15 +354,44 @@ window.EXTRA8_GRADE_BANK = [
     "e": "45 分鐘＝3/4 小時，距離＝12×3/4＝9 公里。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
-    "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
+    "sourceRef": "https://945cloud.knsh.com.tw/E/promo/show/upload/material/3/114%281%29%E9%AB%98%E5%B9%B4%E7%B4%9A%E7%B6%9C%E5%90%88%E6%96%87%E5%AE%A3.pdf",
     "reviewStatus": "rule-checked",
     "semester": "上學期",
-    "examPeriod": "第三次段考",
-    "classificationBasis": "question-bank-inference",
-    "confidence": "medium",
-    "publisherStatus": "curriculum-core",
-    "publisherMappings": [],
-    "classificationNotes": "依六年級題庫常見比例尺與速率單元群推定；非學校正式段考範圍。"
+    "examPeriod": "unassigned",
+    "classificationBasis": "publisher-source-verified",
+    "confidence": "high",
+    "publisherStatus": "publisher-mapped",
+    "publisherMappings": [
+      {
+        "publisher": "knsh",
+        "mappingId": "knsh-g6-math-6a-u8-speed",
+        "sourceUrl": "https://945cloud.knsh.com.tw/E/promo/show/upload/material/3/114%281%29%E9%AB%98%E5%B9%B4%E7%B4%9A%E7%B6%9C%E5%90%88%E6%96%87%E5%AE%A3.pdf",
+        "sourceTitle": "康軒114國小高年級數學教材簡介－六上第8單元「認識速率」",
+        "verifiedAt": "2026-11-16",
+        "verificationStatus": "source-checked",
+        "notes": "康軒114國小教材簡介明列六上第8單元「認識速率」，內容含速率、距離／時間／速率關係及單位換算（PDF第17–18頁文字擷取）。本題以每小時速率乘行駛時間求距離，符合該單元核心內容；僅作114學年度康軒版本單元層級對照。題庫題目本身未標學年度，不能據此宣稱學校採用康軒或指定114學年度；不代表正式段考範圍，也不表示題目取自教材。",
+        "mappingLevel": "unit",
+        "volume": "數學6上",
+        "unitCode": "8",
+        "unitName": "認識速率",
+        "unitAliases": [
+          "速率與時間",
+          "速率",
+          "距離、時間和速率的關係",
+          "速率單位換算"
+        ],
+        "semester": "上學期",
+        "grade": "六年級",
+        "subject": "數學",
+        "courseTrack": null,
+        "schoolYear": "114學年度",
+        "courseType": "國小"
+      }
+    ],
+    "classificationNotes": "康軒114官方教材簡介明列六上第8單元「認識速率」，題幹知識點與該單元相符；此為114學年度版本單元對照，題庫未標學年度，非學校採用證明。官方資料未提供校內段考範圍，examPeriod 保留 unassigned。",
+    "courseType": "國小",
+    "courseTrack": null,
+    "schoolYear": "未標示"
   },
   {
     "id": "b8-013",

@@ -1,14 +1,14 @@
 {
   "schemaVersion": "1.1.0",
   "updatedAt": "2026-11-16",
-  "classificationRuleVersion": "2026-11-16.74",
+  "classificationRuleVersion": "2026-11-16.78",
   "batchRange": "08-13",
   "sourceBatchShas": {
     "10": "37481b26e30f6fc7e2fd6b93accd5996931b8e0a",
     "11": "13b5abf1e84844f149a18296e0b233c4d15236a9",
     "12": "c3489eb16027d20526f886cdcd3714d276b42b23",
     "13": "2f1e6b0ccc915738fd4eafa50f882002bfbbb2c7",
-    "08": "a9d1d9c6581b6d5b10cbe68f0cbb3c0e1178c404",
+    "08": "c6e68eb96a817f35a98962dfafc90f9009bca2a4",
     "09": "040192e3788b96f3861234b0b3e54012a41110f9"
   },
   "questionCount": 182,
@@ -151,19 +151,45 @@
       "grade": "六年級",
       "subject": "數學",
       "courseTrack": null,
-      "courseType": null,
+      "courseType": "國小",
       "semester": "上學期",
-      "examPeriod": "第三次段考",
-      "classificationBasis": "question-bank-inference",
-      "confidence": "medium",
-      "publisherStatus": "curriculum-core",
-      "publisherMappings": [],
-      "classificationNotes": "依六年級題庫常見比例尺與速率單元群推定；非學校正式段考範圍。",
-      "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
+      "examPeriod": "unassigned",
+      "classificationBasis": "publisher-source-verified",
+      "confidence": "high",
+      "publisherStatus": "publisher-mapped",
+      "publisherMappings": [
+        {
+          "publisher": "knsh",
+          "mappingId": "knsh-g6-math-6a-u9-scale",
+          "sourceUrl": "https://945cloud.knsh.com.tw/E/promo/show/upload/material/3/114%281%29%E9%AB%98%E5%B9%B4%E7%B4%9A%E7%B6%9C%E5%90%88%E6%96%87%E5%AE%A3.pdf",
+          "sourceTitle": "康軒114國小高年級數學教材簡介－六上第9單元「放大圖、縮圖與比例尺」",
+          "verifiedAt": "2026-11-16",
+          "verificationStatus": "source-checked",
+          "notes": "康軒114國小教材簡介明列六上第9單元「放大圖、縮圖與比例尺」，並列比例尺學習內容（PDF第17–18頁文字擷取）。本題直接以地圖比例尺換算實際距離，與該單元名稱及內容相符；僅作114學年度康軒版本單元層級對照。題庫題目本身未標學年度，不能據此宣稱學校採用康軒或指定114學年度；不代表正式段考範圍，也不表示題目取自教材。",
+          "mappingLevel": "unit",
+          "volume": "數學6上",
+          "unitCode": "9",
+          "unitName": "放大圖、縮圖與比例尺",
+          "unitAliases": [
+            "比例尺",
+            "地圖比例尺",
+            "放大圖、縮圖與比例尺"
+          ],
+          "semester": "上學期",
+          "grade": "六年級",
+          "subject": "數學",
+          "courseTrack": null,
+          "schoolYear": "114學年度",
+          "courseType": "國小"
+        }
+      ],
+      "classificationNotes": "康軒114官方教材簡介明列六上第9單元「放大圖、縮圖與比例尺」，題幹知識點與該單元相符；此為114學年度版本單元對照，題庫未標學年度，非學校採用證明。官方資料未提供校內段考範圍，examPeriod 保留 unassigned。",
+      "sourceRef": "https://945cloud.knsh.com.tw/E/promo/show/upload/material/3/114%281%29%E9%AB%98%E5%B9%B4%E7%B4%9A%E7%B6%9C%E5%90%88%E6%96%87%E5%AE%A3.pdf",
       "learningDomain": "數與運算",
       "questionType": "圖表資料判讀",
       "learningUnit": "比例尺",
-      "difficultyLevel": "進階"
+      "difficultyLevel": "進階",
+      "schoolYear": "未標示"
     },
     "b8-009": {
       "stage": "國小",
@@ -227,19 +253,46 @@
       "grade": "六年級",
       "subject": "數學",
       "courseTrack": null,
-      "courseType": null,
+      "courseType": "國小",
       "semester": "上學期",
-      "examPeriod": "第三次段考",
-      "classificationBasis": "question-bank-inference",
-      "confidence": "medium",
-      "publisherStatus": "curriculum-core",
-      "publisherMappings": [],
-      "classificationNotes": "依六年級題庫常見比例尺與速率單元群推定；非學校正式段考範圍。",
-      "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
+      "examPeriod": "unassigned",
+      "classificationBasis": "publisher-source-verified",
+      "confidence": "high",
+      "publisherStatus": "publisher-mapped",
+      "publisherMappings": [
+        {
+          "publisher": "knsh",
+          "mappingId": "knsh-g6-math-6a-u8-speed",
+          "sourceUrl": "https://945cloud.knsh.com.tw/E/promo/show/upload/material/3/114%281%29%E9%AB%98%E5%B9%B4%E7%B4%9A%E7%B6%9C%E5%90%88%E6%96%87%E5%AE%A3.pdf",
+          "sourceTitle": "康軒114國小高年級數學教材簡介－六上第8單元「認識速率」",
+          "verifiedAt": "2026-11-16",
+          "verificationStatus": "source-checked",
+          "notes": "康軒114國小教材簡介明列六上第8單元「認識速率」，內容含速率、距離／時間／速率關係及單位換算（PDF第17–18頁文字擷取）。本題以每小時速率乘行駛時間求距離，符合該單元核心內容；僅作114學年度康軒版本單元層級對照。題庫題目本身未標學年度，不能據此宣稱學校採用康軒或指定114學年度；不代表正式段考範圍，也不表示題目取自教材。",
+          "mappingLevel": "unit",
+          "volume": "數學6上",
+          "unitCode": "8",
+          "unitName": "認識速率",
+          "unitAliases": [
+            "速率與時間",
+            "速率",
+            "距離、時間和速率的關係",
+            "速率單位換算"
+          ],
+          "semester": "上學期",
+          "grade": "六年級",
+          "subject": "數學",
+          "courseTrack": null,
+          "schoolYear": "114學年度",
+          "courseType": "國小"
+        }
+      ],
+      "classificationNotes": "康軒114官方教材簡介明列六上第8單元「認識速率」，題幹知識點與該單元相符；此為114學年度版本單元對照，題庫未標學年度，非學校採用證明。官方資料未提供校內段考範圍，examPeriod 保留 unassigned。",
+      "sourceRef": "https://945cloud.knsh.com.tw/E/promo/show/upload/material/3/114%281%29%E9%AB%98%E5%B9%B4%E7%B4%9A%E7%B6%9C%E5%90%88%E6%96%87%E5%AE%A3.pdf",
       "learningDomain": "數與運算",
       "questionType": "計算應用",
       "learningUnit": "速率與時間",
-      "difficultyLevel": "挑戰"
+      "difficultyLevel": "挑戰",
+      "schoolYear": "未標示"
     },
     "b8-013": {
       "stage": "高中",
@@ -3776,7 +3829,7 @@
       "difficultyLevel": "挑戰"
     }
   },
-  "notes": " 2026-11-14.36：逐筆比對第08-13批原始題庫 semester 欄位，將原題庫已填且分類索引仍為 unassigned 的學期值同步為 question-bank-inference；不改動 publisher-source-verified、不推定段考、不新增出版社映射。 2026-11-16.69：恢復6題高二選修課程出版社映射，原始 sourceRef 均直接指向翰林官方課本／教學講義頁；持久保存 courseType，物理(II)僅冊別層級、化學(III)依官方目次章節建立單元層級；examPeriod 保留 unassigned，不代表學校採用版本或正式段考範圍。 2026-11-16.70：同步分類解析器輸出 courseType/courseTrack 的版本標記；本分片題目資料未變更。",
+  "notes": " 2026-11-14.36：逐筆比對第08-13批原始題庫 semester 欄位，將原題庫已填且分類索引仍為 unassigned 的學期值同步為 question-bank-inference；不改動 publisher-source-verified、不推定段考、不新增出版社映射。 2026-11-16.69：恢復6題高二選修課程出版社映射，原始 sourceRef 均直接指向翰林官方課本／教學講義頁；持久保存 courseType，物理(II)僅冊別層級、化學(III)依官方目次章節建立單元層級；examPeriod 保留 unassigned，不代表學校採用版本或正式段考範圍。 2026-11-16.70：同步分類解析器輸出 courseType/courseTrack 的版本標記；本分片題目資料未變更。 2026-11-16：依康軒114國小高年級數學官方教材簡介，持久更新b8-008（六上第9單元比例尺）與b8-012（六上第8單元認識速率）；兩題學期上學期，段考改回unassigned，新增康軒單元映射；題庫學年度未標示，不代表學校採用版本。",
   "versionSync": {
     "date": "2026-11-16",
     "ruleVersion": "2026-11-16.72",

@@ -2,7 +2,7 @@
   "title": "題目分類持久索引",
   "schemaVersion": "1.1.0",
   "updatedAt": "2026-11-16",
-  "classificationRuleVersion": "2026-11-16.77",
+  "classificationRuleVersion": "2026-11-16.78",
   "sourceBranch": "main",
   "batchRange": "08-41",
   "batchFileCount": 34,
@@ -269,49 +269,43 @@
     "notes": "原始批次欄位d並非全庫一致的difficulty欄位。08-19與38-41批次多為難度標籤；20-25有2題d=閱讀理解對應questionType；26-31與32-37另有157筆d為生活情境、生活計算、單位換算等主題／題材描述，未與difficultyLevel、questionType、learningDomain或learningUnit直接相等。保留原始d不覆蓋；這157筆的difficultyLevel維持未標示，避免把題材標籤誤當難度。"
   },
   "lastRunAudit": {
-    "runId": "2026-11-16-hanlin-h2-civic-labor-participation-backfill-02",
+    "runId": "2026-11-16-knsh-g6-math-speed-scale-backfill-01",
     "date": "2026-11-16",
-    "sourceHeadBeforeRun": "8e03e186e604faf0ba758bcae43bf403e6709a18",
-    "classificationDataHeadAfterUpdates": "72762e206a1e6f557348d3844cc71898a00f1742",
-    "mainHeadVerifiedBeforeManifestUpdate": "e7bf3ce1950f453a2505bd600dd4f0e620cb7548",
+    "sourceHeadBeforeRun": "a66f49ba5e9decaf45686196847853a534ec7e39",
     "batches": "08-41",
     "batchFileCount": 34,
     "fullCorpusQuestionCount": 2900,
     "activeScopeQuestionCount": 1864,
-    "questionRecordsUpdated": 7,
+    "questionRecordsUpdated": 2,
     "updatedQuestionIds": [
-      "b15-075",
-      "b35-095",
-      "b38-095",
-      "b41-093",
-      "b41-094",
-      "b41-095",
-      "b41-096"
+      "b8-008",
+      "b8-012"
     ],
-    "semesterAssignments": 3,
+    "semesterAssignments": 0,
     "examPeriodAssignments": 0,
-    "publisherMappingsAdded": 3,
-    "publisherMappingReferencesAdded": 3,
+    "examPeriodCorrections": 2,
+    "publisherMappingsAdded": 2,
+    "publisherMappingReferencesAdded": 2,
     "publisherMappingReferencesRemoved": 0,
-    "publisherMappingReferencesCorrected": 4,
-    "learningDomainCorrections": 1,
+    "publisherMappingReferencesCorrected": 0,
+    "learningDomainCorrections": 0,
     "questionTypeCorrections": 0,
-    "centralMappingCount": 52,
+    "centralMappingCount": 54,
     "publisherReferenceCounts": {
       "hanlin": 369,
-      "knsh": 120,
+      "knsh": 122,
       "nani": 70,
-      "_total": 559
+      "_total": 561
     },
     "mappingLevelCounts": {
       "volume": 126,
-      "unit": 387,
+      "unit": 389,
       "official-resource-title": 46,
-      "_total": 559
+      "_total": 561
     },
     "mappingVerificationStatusCounts": {
-      "source-checked": 559,
-      "_total": 559
+      "source-checked": 561,
+      "_total": 561
     },
     "newQuestionsAdded": 0,
     "fullCorpusSemesterDistribution": {
@@ -322,63 +316,31 @@
       "_total": 2900
     },
     "fullCorpusExamPeriodDistribution": {
-      "unassigned": 2669,
-      "第三次段考": 94,
+      "unassigned": 2671,
+      "第三次段考": 92,
       "第一次段考": 66,
       "第二次段考": 71,
       "_total": 2900
     },
     "fullCorpusClassificationBasisDistribution": {
       "curriculum-core": 2280,
-      "question-bank-inference": 266,
-      "publisher-source-verified": 354,
+      "question-bank-inference": 264,
+      "publisher-source-verified": 356,
       "_total": 2900
     },
     "fullCorpusPublisherStatusDistribution": {
-      "curriculum-core": 2439,
-      "publisher-mapped": 455,
+      "curriculum-core": 2437,
+      "publisher-mapped": 457,
       "pending": 6,
       "_total": 2900
     },
     "fullCorpusConfidenceDistribution": {
       "low": 2144,
-      "medium": 710,
-      "high": 46,
+      "medium": 708,
+      "high": 48,
       "_total": 2900
     },
-    "sourceBatchShasMatch": "34/34",
-    "classificationRuleVersion": "2026-11-16.77",
-    "validation": {
-      "jsonParse": true,
-      "classificationRecords": 2900,
-      "uniqueIds": 2900,
-      "duplicateIds": 0,
-      "missingFromClassification": 0,
-      "extraClassificationIds": 0,
-      "missingRequiredFields": 0,
-      "invalidClassificationValues": 0,
-      "mappingReferenceErrors": 0,
-      "sourceFieldErrors": 0,
-      "mappingScopeErrors": 0,
-      "sourceBatchShasMatch": "34/34",
-      "updatedQuestionsChecked": 7,
-      "updatedQuestionIdsReachable": true,
-      "targetedPublisherSemesterFilterCasesTested": 7,
-      "filterCombinationsTested": 7800,
-      "nonZeroFilterCombinations": 552,
-      "zeroResultConditionsTested": 7248,
-      "publisherMappingLeaks": 0,
-      "filterErrors": 0,
-      "allModeReachable": true,
-      "allModeQuestionCount": 2900,
-      "appReadsPersistedClassificationIndex": true,
-      "zeroResultHintPresent": true,
-      "filterUiRuntimeTested": false,
-      "browserOrMobileRuntimeTested": false,
-      "mappingReferencesCanonicalized": 559
-    },
-    "notes": "官方來源核對：翰林高中參考書官方帳號《超好學複習講義：公民與社會》P.08跨版本表第12單元「消費保障與勞動參與」對應翰林課本3-1；翰林書城官方課本頁009121確認高二、公民、上學期。新增b15-075（工會與集體協商）、b35-095（最低工資）、b38-095（加班費與勞動權益）三題的翰林單元層級映射；b41-096保留既有映射並修正來源頁碼。另將b41-093至b41-095的跨版本表來源由P.06校正為P.08。四題勞動參與題學期上學期、段考unassigned、confidence medium；未宣稱學校採用版本或教師審核。原始題庫批次未修改，新增題目0題。",
-    "mappingScopeErrors": 0
+    "sourceBatchShasMatch": "34/34"
   },
   "lastBatchClassificationReconciliation": {
     "auditedAt": "2026-11-16",
@@ -394,7 +356,7 @@
   },
   "statistics": {
     "auditedAt": "2026-11-16",
-    "sourceHeadBeforeRun": "8e03e186e604faf0ba758bcae43bf403e6709a18",
+    "sourceHeadBeforeRun": "a66f49ba5e9decaf45686196847853a534ec7e39",
     "questionCount": 2900,
     "uniqueQuestionIds": 2900,
     "batchFileCount": 34,
@@ -409,48 +371,48 @@
       "_total": 2900
     },
     "examPeriod": {
-      "unassigned": 2669,
-      "第三次段考": 94,
+      "unassigned": 2671,
+      "第三次段考": 92,
       "第一次段考": 66,
       "第二次段考": 71,
       "_total": 2900
     },
     "classificationBasis": {
       "curriculum-core": 2280,
-      "question-bank-inference": 266,
-      "publisher-source-verified": 354,
+      "question-bank-inference": 264,
+      "publisher-source-verified": 356,
       "_total": 2900
     },
     "publisherStatus": {
-      "curriculum-core": 2439,
-      "publisher-mapped": 455,
+      "curriculum-core": 2437,
+      "publisher-mapped": 457,
       "pending": 6,
       "_total": 2900
     },
     "confidence": {
       "low": 2144,
-      "medium": 710,
-      "high": 46,
+      "medium": 708,
+      "high": 48,
       "_total": 2900
     },
-    "publisherMappedQuestionCount": 455,
-    "publisherMappingReferenceCount": 559,
-    "centralMappingRegistryCount": 52,
+    "publisherMappedQuestionCount": 457,
+    "publisherMappingReferenceCount": 561,
+    "centralMappingRegistryCount": 54,
     "publisherReferenceCounts": {
       "hanlin": 369,
-      "knsh": 120,
+      "knsh": 122,
       "nani": 70,
-      "_total": 559
+      "_total": 561
     },
     "mappingLevelCounts": {
       "volume": 126,
-      "unit": 387,
+      "unit": 389,
       "official-resource-title": 46,
-      "_total": 559
+      "_total": 561
     },
     "mappingVerificationStatus": {
-      "source-checked": 559,
-      "_total": 559
+      "source-checked": 561,
+      "_total": 561
     },
     "activeScope": {
       "questionCount": 1864,
@@ -461,14 +423,14 @@
         "下學期": 147
       },
       "examPeriod": {
-        "unassigned": 1633,
-        "第三次段考": 94,
+        "unassigned": 1635,
+        "第三次段考": 92,
         "第一次段考": 66,
         "第二次段考": 71
       },
       "publisherStatus": {
-        "curriculum-core": 1403,
-        "publisher-mapped": 455,
+        "curriculum-core": 1401,
+        "publisher-mapped": 457,
         "pending": 6
       }
     },
@@ -477,8 +439,8 @@
     "mappingScopeErrors": 0,
     "sourceBatchShasMatch": "34/34"
   },
-  "sourceHeadVerified": "8e03e186e604faf0ba758bcae43bf403e6709a18",
-  "mainHeadVerifiedAt": "2026-11-16T11:45:26+08:00",
+  "sourceHeadVerified": "a66f49ba5e9decaf45686196847853a534ec7e39",
+  "mainHeadVerifiedAt": "2026-11-16T12:46:26+08:00",
   "latestVerificationAudit": {
     "runId": "2026-11-16-hanlin-h2-civic-labor-participation-backfill-02",
     "verifiedAt": "2026-11-16T11:45:26+08:00",
@@ -597,49 +559,43 @@
     }
   },
   "latestMainAudit": {
-    "runId": "2026-11-16-hanlin-h2-civic-labor-participation-backfill-02",
+    "runId": "2026-11-16-knsh-g6-math-speed-scale-backfill-01",
     "date": "2026-11-16",
-    "sourceHeadBeforeRun": "8e03e186e604faf0ba758bcae43bf403e6709a18",
-    "classificationDataHeadAfterUpdates": "72762e206a1e6f557348d3844cc71898a00f1742",
-    "mainHeadVerifiedBeforeManifestUpdate": "e7bf3ce1950f453a2505bd600dd4f0e620cb7548",
+    "sourceHeadBeforeRun": "a66f49ba5e9decaf45686196847853a534ec7e39",
     "batches": "08-41",
     "batchFileCount": 34,
     "fullCorpusQuestionCount": 2900,
     "activeScopeQuestionCount": 1864,
-    "questionRecordsUpdated": 7,
+    "questionRecordsUpdated": 2,
     "updatedQuestionIds": [
-      "b15-075",
-      "b35-095",
-      "b38-095",
-      "b41-093",
-      "b41-094",
-      "b41-095",
-      "b41-096"
+      "b8-008",
+      "b8-012"
     ],
-    "semesterAssignments": 3,
+    "semesterAssignments": 0,
     "examPeriodAssignments": 0,
-    "publisherMappingsAdded": 3,
-    "publisherMappingReferencesAdded": 3,
+    "examPeriodCorrections": 2,
+    "publisherMappingsAdded": 2,
+    "publisherMappingReferencesAdded": 2,
     "publisherMappingReferencesRemoved": 0,
-    "publisherMappingReferencesCorrected": 4,
-    "learningDomainCorrections": 1,
+    "publisherMappingReferencesCorrected": 0,
+    "learningDomainCorrections": 0,
     "questionTypeCorrections": 0,
-    "centralMappingCount": 52,
+    "centralMappingCount": 54,
     "publisherReferenceCounts": {
       "hanlin": 369,
-      "knsh": 120,
+      "knsh": 122,
       "nani": 70,
-      "_total": 559
+      "_total": 561
     },
     "mappingLevelCounts": {
       "volume": 126,
-      "unit": 387,
+      "unit": 389,
       "official-resource-title": 46,
-      "_total": 559
+      "_total": 561
     },
     "mappingVerificationStatusCounts": {
-      "source-checked": 559,
-      "_total": 559
+      "source-checked": 561,
+      "_total": 561
     },
     "newQuestionsAdded": 0,
     "fullCorpusSemesterDistribution": {
@@ -650,63 +606,31 @@
       "_total": 2900
     },
     "fullCorpusExamPeriodDistribution": {
-      "unassigned": 2669,
-      "第三次段考": 94,
+      "unassigned": 2671,
+      "第三次段考": 92,
       "第一次段考": 66,
       "第二次段考": 71,
       "_total": 2900
     },
     "fullCorpusClassificationBasisDistribution": {
       "curriculum-core": 2280,
-      "question-bank-inference": 266,
-      "publisher-source-verified": 354,
+      "question-bank-inference": 264,
+      "publisher-source-verified": 356,
       "_total": 2900
     },
     "fullCorpusPublisherStatusDistribution": {
-      "curriculum-core": 2439,
-      "publisher-mapped": 455,
+      "curriculum-core": 2437,
+      "publisher-mapped": 457,
       "pending": 6,
       "_total": 2900
     },
     "fullCorpusConfidenceDistribution": {
       "low": 2144,
-      "medium": 710,
-      "high": 46,
+      "medium": 708,
+      "high": 48,
       "_total": 2900
     },
-    "sourceBatchShasMatch": "34/34",
-    "classificationRuleVersion": "2026-11-16.77",
-    "validation": {
-      "jsonParse": true,
-      "classificationRecords": 2900,
-      "uniqueIds": 2900,
-      "duplicateIds": 0,
-      "missingFromClassification": 0,
-      "extraClassificationIds": 0,
-      "missingRequiredFields": 0,
-      "invalidClassificationValues": 0,
-      "mappingReferenceErrors": 0,
-      "sourceFieldErrors": 0,
-      "mappingScopeErrors": 0,
-      "sourceBatchShasMatch": "34/34",
-      "updatedQuestionsChecked": 7,
-      "updatedQuestionIdsReachable": true,
-      "targetedPublisherSemesterFilterCasesTested": 7,
-      "filterCombinationsTested": 7800,
-      "nonZeroFilterCombinations": 552,
-      "zeroResultConditionsTested": 7248,
-      "publisherMappingLeaks": 0,
-      "filterErrors": 0,
-      "allModeReachable": true,
-      "allModeQuestionCount": 2900,
-      "appReadsPersistedClassificationIndex": true,
-      "zeroResultHintPresent": true,
-      "filterUiRuntimeTested": false,
-      "browserOrMobileRuntimeTested": false,
-      "mappingReferencesCanonicalized": 559
-    },
-    "notes": "官方來源核對：翰林高中參考書官方帳號《超好學複習講義：公民與社會》P.08跨版本表第12單元「消費保障與勞動參與」對應翰林課本3-1；翰林書城官方課本頁009121確認高二、公民、上學期。新增b15-075（工會與集體協商）、b35-095（最低工資）、b38-095（加班費與勞動權益）三題的翰林單元層級映射；b41-096保留既有映射並修正來源頁碼。另將b41-093至b41-095的跨版本表來源由P.06校正為P.08。四題勞動參與題學期上學期、段考unassigned、confidence medium；未宣稱學校採用版本或教師審核。原始題庫批次未修改，新增題目0題。",
-    "mappingScopeErrors": 0
+    "sourceBatchShasMatch": "34/34"
   },
   "latestFilterValidation": {
     "auditedAt": "2026-11-16",
@@ -950,7 +874,81 @@
       },
       "notes": "官方來源核對：翰林高中參考書官方帳號《超好學複習講義：公民與社會》P.08跨版本表第12單元「消費保障與勞動參與」對應翰林課本3-1；翰林書城官方課本頁009121確認高二、公民、上學期。新增b15-075（工會與集體協商）、b35-095（最低工資）、b38-095（加班費與勞動權益）三題的翰林單元層級映射；b41-096保留既有映射並修正來源頁碼。另將b41-093至b41-095的跨版本表來源由P.06校正為P.08。四題勞動參與題學期上學期、段考unassigned、confidence medium；未宣稱學校採用版本或教師審核。原始題庫批次未修改，新增題目0題。",
       "mappingScopeErrors": 0
+    },
+    {
+      "runId": "2026-11-16-knsh-g6-math-speed-scale-backfill-01",
+      "date": "2026-11-16",
+      "sourceHeadBeforeRun": "a66f49ba5e9decaf45686196847853a534ec7e39",
+      "batches": "08-41",
+      "batchFileCount": 34,
+      "fullCorpusQuestionCount": 2900,
+      "activeScopeQuestionCount": 1864,
+      "questionRecordsUpdated": 2,
+      "updatedQuestionIds": [
+        "b8-008",
+        "b8-012"
+      ],
+      "semesterAssignments": 0,
+      "examPeriodAssignments": 0,
+      "examPeriodCorrections": 2,
+      "publisherMappingsAdded": 2,
+      "publisherMappingReferencesAdded": 2,
+      "publisherMappingReferencesRemoved": 0,
+      "publisherMappingReferencesCorrected": 0,
+      "learningDomainCorrections": 0,
+      "questionTypeCorrections": 0,
+      "centralMappingCount": 54,
+      "publisherReferenceCounts": {
+        "hanlin": 369,
+        "knsh": 122,
+        "nani": 70,
+        "_total": 561
+      },
+      "mappingLevelCounts": {
+        "volume": 126,
+        "unit": 389,
+        "official-resource-title": 46,
+        "_total": 561
+      },
+      "mappingVerificationStatusCounts": {
+        "source-checked": 561,
+        "_total": 561
+      },
+      "newQuestionsAdded": 0,
+      "fullCorpusSemesterDistribution": {
+        "unassigned": 2265,
+        "上學期": 414,
+        "全學年": 74,
+        "下學期": 147,
+        "_total": 2900
+      },
+      "fullCorpusExamPeriodDistribution": {
+        "unassigned": 2671,
+        "第三次段考": 92,
+        "第一次段考": 66,
+        "第二次段考": 71,
+        "_total": 2900
+      },
+      "fullCorpusClassificationBasisDistribution": {
+        "curriculum-core": 2280,
+        "question-bank-inference": 264,
+        "publisher-source-verified": 356,
+        "_total": 2900
+      },
+      "fullCorpusPublisherStatusDistribution": {
+        "curriculum-core": 2437,
+        "publisher-mapped": 457,
+        "pending": 6,
+        "_total": 2900
+      },
+      "fullCorpusConfidenceDistribution": {
+        "low": 2144,
+        "medium": 708,
+        "high": 48,
+        "_total": 2900
+      },
+      "sourceBatchShasMatch": "34/34"
     }
   ],
-  "auditNotes": " 2026-11-16.76：全庫2,900題完成分類分片重算；34/34批次SHA一致。持久更新b41-093至b41-096四題，新增翰林高二公民單元3、9、12三筆中央映射；學期上學期、段考unassigned。資料層篩選7,800組，錯誤0，未做瀏覽器／手機實機測試。 2026-11-16.76稽核更正：映射範圍驗證依中央映射的grade/subject/courseTrack/courseType與題目資料比對，重算後mappingScopeErrors=0；前一輪暫存數字74為使用題目引用物件中非必填的grade/subject欄位進行比對所致，已更正。34/34批次SHA、2,900唯一ID、556筆來源引用均通過。"
+  "auditNotes": " 2026-11-16.76：全庫2,900題完成分類分片重算；34/34批次SHA一致。持久更新b41-093至b41-096四題，新增翰林高二公民單元3、9、12三筆中央映射；學期上學期、段考unassigned。資料層篩選7,800組，錯誤0，未做瀏覽器／手機實機測試。 2026-11-16.76稽核更正：映射範圍驗證依中央映射的grade/subject/courseTrack/courseType與題目資料比對，重算後mappingScopeErrors=0；前一輪暫存數字74為使用題目引用物件中非必填的grade/subject欄位進行比對所致，已更正。34/34批次SHA、2,900唯一ID、556筆來源引用均通過。 2026-11-16-knsh-g6-math-speed-scale-backfill-01：新增b8-008、b8-012兩筆康軒114六上單元映射；移除無來源支持的第三次段考標籤，改為unassigned。題庫學年度未標示，不宣稱學校採用版本；未新增題目。"
 }
