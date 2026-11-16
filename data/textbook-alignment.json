@@ -5684,7 +5684,8 @@
     ],
     "publisherMappingReferencesAdded": 14,
     "publisherMappingReferencesRemoved": 13,
-    "sourceBatchShasMatch": "34/34"
+    "sourceBatchShasMatch": "34/34",
+    "mappingReferencesCanonicalized": 550
   },
   "lastSourceVerificationAudit": {
     "runId": "2026-11-16-hanlin-g6-math-volume-level-backfill-01",
@@ -5726,7 +5727,7 @@
     "runId": "2026-11-16-knsh-g6-natural-official-unit-backfill-01",
     "date": "2026-11-16",
     "sourceHeadBeforeRun": "fe7b522ab4f6ed6a8117aaf49e2ff17689d2d325",
-    "classificationDataHeadAfterUpdates": "78168e5885ecd0dc1bdae786fe5e7761ca882ead",
+    "classificationDataHeadAfterUpdates": "0a4a7174c05b4766ea9287e33ecd5bfd20d1c937",
     "batches": "08-41",
     "batchFileCount": 34,
     "fullCorpusQuestionCount": 2900,
@@ -5828,9 +5829,11 @@
       "appReadsPersistedClassificationIndex": true,
       "zeroResultHintPresent": true,
       "filterUiRuntimeTested": false,
-      "browserOrMobileRuntimeTested": false
+      "browserOrMobileRuntimeTested": false,
+      "mappingReferencesCanonicalized": 550
     },
-    "notes": "以113康軒官方教材簡介逐項核對六年級自然：六上單元一「探索天氣的變化」1題；六下單元二「生物與環境」12題；六下單元三「地球與永續」1題。段考維持unassigned。此為出版社教材對照，不代表學校採用版本或教師審核。"
+    "notes": "以113康軒官方教材簡介逐項核對六年級自然：六上單元一「探索天氣的變化」1題；六下單元二「生物與環境」12題；六下單元三「地球與永續」1題。段考維持unassigned。此為出版社教材對照，不代表學校採用版本或教師審核。",
+    "mappingReferencesCanonicalized": 550
   },
   "latestMappingScopeCorrection": {
     "date": "2026-11-14",
@@ -5889,7 +5892,11 @@
       "b41-030"
     ],
     "publisherMappingReferencesAdded": 7,
-    "sourceBatchShasMatch": "34/34"
+    "sourceBatchShasMatch": "34/34",
+    "classificationDataHeadAfterUpdates": "0a4a7174c05b4766ea9287e33ecd5bfd20d1c937",
+    "mappingReferencesCanonicalized": 550,
+    "sourceFieldMismatches": 0,
+    "mappingScopeErrors": 0
   },
   "lastFilterDataAudit": {
     "auditedAt": "2026-11-16",
@@ -6199,7 +6206,7 @@
     "runId": "2026-11-16-knsh-g6-natural-official-unit-backfill-01",
     "date": "2026-11-16",
     "sourceHeadBeforeRun": "fe7b522ab4f6ed6a8117aaf49e2ff17689d2d325",
-    "classificationDataHeadAfterUpdates": "78168e5885ecd0dc1bdae786fe5e7761ca882ead",
+    "classificationDataHeadAfterUpdates": "0a4a7174c05b4766ea9287e33ecd5bfd20d1c937",
     "batches": "08-41",
     "batchFileCount": 34,
     "fullCorpusQuestionCount": 2900,
@@ -6301,9 +6308,11 @@
       "appReadsPersistedClassificationIndex": true,
       "zeroResultHintPresent": true,
       "filterUiRuntimeTested": false,
-      "browserOrMobileRuntimeTested": false
+      "browserOrMobileRuntimeTested": false,
+      "mappingReferencesCanonicalized": 550
     },
-    "notes": "以113康軒官方教材簡介逐項核對六年級自然：六上單元一「探索天氣的變化」1題；六下單元二「生物與環境」12題；六下單元三「地球與永續」1題。段考維持unassigned。此為出版社教材對照，不代表學校採用版本或教師審核。"
+    "notes": "以113康軒官方教材簡介逐項核對六年級自然：六上單元一「探索天氣的變化」1題；六下單元二「生物與環境」12題；六下單元三「地球與永續」1題。段考維持unassigned。此為出版社教材對照，不代表學校採用版本或教師審核。",
+    "mappingReferencesCanonicalized": 550
   },
   "statistics": {
     "auditedAt": "2026-11-16",
