@@ -1,6 +1,6 @@
 {
   "title": "南一／翰林／康軒教材版本對照資料庫",
-  "schemaVersion": "1.0.9",
+  "schemaVersion": "1.0.10",
   "updatedAt": "2026-11-17",
   "purpose": "同時支援跨版本共同核心整合與指定出版社版本練習。此檔先建立資料規格；未經官方或學校教材核對的單元不得標示為已對應。",
   "modes": [
@@ -1644,7 +1644,7 @@
       "unitCode": "2-3",
       "unitName": "依法行政與行政救濟",
       "learningContent": "依法行政、法律保留、比例原則、行政程序正當性、告知與陳述意見及行政救濟",
-      "notes": "翰林高中參考書官方帳號《超好學複習講義：公民與社會》P.08跨版本對照表列第9單元「依法行政與行政救濟」，對應翰林課本第2-3章；P.65目次亦列第9單元；P.66在第9單元中直接說明政府應提供人民陳述與辯解機會，以保障程序正義。翰林書城官方商品頁009121明示高中二年級、公民、上學期及「公民與社會(3)乙版」。此映射僅支持行政程序、告知與陳述意見相關題目的單元層級對照，不代表學校採用版本、學年度、教師審核或正式段考範圍，也不表示題目取自教材原文。",
+      "notes": "翰林高中參考書官方帳號《超好學複習講義：公民與社會》P.08跨版本對照表列第9單元「依法行政與行政救濟」，對應翰林課本第2-3章；P.65目次亦列第9單元；P.66在第9單元中直接說明政府應提供人民陳述與辯解機會，以保障程序正義。翰林書城官方商品頁009121明示高中二年級、公民、上學期及「公民與社會(3)乙版」。此映射僅支持行政程序、告知與陳述意見相關題目的單元層級對照，不代表學校採用版本、學年度、教師審核或正式段考範圍，也不表示題目取自教材原文。 2026-11-17.91補充核對：同一翰林高中參考書官方帳號《超好學複習講義：公民與社會》P.06–07版本對照表亦列第9單元；《關鍵60天：公民與社會》「正當行政程序」內容直接列出陳述意見與聽證權。此補充資料支持行政聽證題的單元層級比對，不擴張到其他經濟或法律主題。",
       "mappingId": "hanlin-h2-civic-3-u9-administrative-law",
       "schoolYear": "未標示",
       "stage": "高中",
@@ -1676,7 +1676,10 @@
         "正當法律程序",
         "正當行政程序",
         "陳述意見",
-        "程序保障"
+        "程序保障",
+        "行政聽證程序",
+        "行政聽證",
+        "聽證權"
       ]
     },
     {
@@ -2638,6 +2641,32 @@
       "verifiedAt": "2026-11-16",
       "verificationStatus": "source-checked",
       "notes": "2026-11-16重新開啟翰林官方課本頁，明示科目自然、年級國小6年級、學期下學期及自然科學(6下)課本；頁面未提供細分目次。僅作冊別層級參考，不代表學校採用版本，也不表示已核對任何個別題目的單元或段考。"
+    },
+    {
+      "id": "hanlin-h2-civic-108-cross-version-guide-2026",
+      "publisher": "hanlin",
+      "sourceType": "official-publisher-cross-version-map",
+      "sourceUrl": "https://fliphtml5.com/cojaq/wwbe/%E8%B6%85%E5%A5%BD%E5%AD%B8%E8%A4%87%E7%BF%92%E8%AC%9B%E7%BE%A9-%E5%85%AC%E6%B0%91%E8%88%87%E7%A4%BE%E6%9C%83/",
+      "sourceTitle": "翰林高中參考書－《超好學複習講義：公民與社會》P.06–07「108課綱各版本對照表」",
+      "verifiedAt": "2026-11-17",
+      "verificationStatus": "source-checked",
+      "mappingIds": [
+        "hanlin-h2-civic-3-u9-administrative-law"
+      ],
+      "notes": "翰林高中參考書官方帳號公開版本對照表，列第9單元「依法行政與行政救濟」及翰林課本第2-3章；年級／學期由翰林書城課本頁009121另行確認。僅作單元對照，不代表學校採用版本或段考範圍。"
+    },
+    {
+      "id": "hanlin-h2-civic-administrative-hearing-reference",
+      "publisher": "hanlin",
+      "sourceType": "official-publisher-reference-guide",
+      "sourceUrl": "https://fliphtml5.com/cojaq/tpvy/%E9%97%9C%E9%8D%B560%E5%A4%A9-%E5%85%AC%E6%B0%91%E8%88%87%E7%A4%BE%E6%9C%83/",
+      "sourceTitle": "翰林高中參考書－《關鍵60天：公民與社會》「正當行政程序」",
+      "verifiedAt": "2026-11-17",
+      "verificationStatus": "source-checked",
+      "mappingIds": [
+        "hanlin-h2-civic-3-u9-administrative-law"
+      ],
+      "notes": "翰林高中參考書官方帳號公開內容明列陳述意見與聽證權，並說明聽證提供相關當事人表達意見、提出資料及與行政機關辯論的程序機會；僅佐證單元內容，不單獨用於年級、學期或學校採用版本判定。"
     }
   ],
   "classificationAudit": {
@@ -2767,38 +2796,29 @@
   "mappingCount": 59,
   "auditNotes": "每筆映射均保留 publisher、mappingId、sourceUrl、sourceTitle、verifiedAt、verificationStatus、notes。,mappingLevel 區分 unit、title-topic、volume；冊別／冊名層級不代表細分單元已核對。,數學3A映射限定 courseTrack=數學A；未確認數學A/B者不得套用。,出版社來源只證明教材冊別／單元對照，不代表學校採用該版本。,翰林選修化學(II)官方課本頁明示高二上學期，已由下學期更正為上學期。,2026-11-13 main 全庫盤點：第8至36批共2,400題、2,400個唯一ID；第8至29批1,700題沒有內嵌出版社／學期分類欄位，改由 question-classification-inference.js 依可辨識知識點動態推定，無證據者保留unassigned/pending；第30至36批700題有分類欄位，出版社映射引用119筆，對照16筆中央映射後未發現年級、科目、學期或課程軌別不符。第30批有91題未儲存classificationNotes，執行時由分類器以sourceRef／預設理由補出說明。此為結構與來源欄位稽核，不表示每題都已取得出版社對照。,化學(II)冊別層級校正：以翰林課本商品頁005022為準，確認高二上學期；不同商品編號的習作或實驗手冊學期不可混用。,第37批新增30題來源映射均以中央mappingId連結；執行時分類器回歸測試確認100題的semester、examPeriod、classificationBasis、publisherStatus及publisherMappings均與批次檔儲存欄位一致。,第37批已透過PR #1合併至main，merge commit 0b76d6e99d66502f39f6e9c32ad8032bbcc47494；main已包含第37批及本次全庫來源稽核。,2026-11-13來源狀態細化：南一平台「數學6下｜怎樣解題：雞兔問題」詳情頁請求逾時，僅能由南一官方資源頁的熱門文章連結標題確認主題與年級／科目／學期；映射降為official-resource-title與official-index-link-only，不宣稱南一課本單元或原題。,雞兔問題mapping的sourceUrl改指向可讀取的南一官方索引頁a=341，另保留targetUrl=a=394作為連結目標；verificationStatus仍為official-index-link-only。,第37批30筆題目映射中，28筆為可直接讀取來源核對，2筆雞兔問題映射僅由南一官方索引頁標題確認（official-index-link-only）；中央16筆映射中15筆source-checked、1筆official-index-link-only。,第41批新增100題（小六50、高二50）；35筆來源映射引用全部指向中央16筆已核對mappingId，逐筆核對publisher、sourceUrl、sourceTitle、verifiedAt、verificationStatus、notes、年級、科目、學期、軌別及單元／冊別範圍，35/35通過。未新增中央映射紀錄。,第41批映射層級：單元23、冊別9、官方資源標題3；出版社引用翰林27、南一6、康軒2。冊別與官方資源標題層級不冒稱完整課本目次。 2026-11-13 main全庫盤點：第8至41批2,900題；338筆出版社映射引用與16筆中央映射一致，錯誤0。原始分類欄位2,900/2,900完整；擴充分類欄位已持久保存399題，尚待補齊2,501題。\n2026-11-14康軒社會六上4-3來源核對：官方教學資源明示都市與鄉村永續發展、人口移動、公共服務／交通網絡、災害風險管理、社區參與及文化資產保存；新增10筆直接對應題目級映射，層級為official-resource-title，段考保留unassigned。\n2026-11-15.62：19筆六年級數學基準量／比較量題目新增翰林6上第6單元映射；保留南一6下映射，修正出版社學期篩選為版本別學期。\n2026-11-15.62全庫分片重算：六個分類分片2,900題共343筆出版社映射引用（翰林224、南一51、康軒68；冊別83、單元214、官方資源標題46），第30至41批1,200題含325筆映射引用。同步修正Batches08to41與Batches30to41彙總欄位，避免沿用舊統計。\n2026-11-15.63：11題高二歷史工業革命／工業化社會變遷題目新增翰林歷史(3)單元3映射；上學期，段考unassigned。\n2026-11-15：新增3題高二歷史冷戰圍堵政策單元7映射；翰林課本頁確認高二歷史上學期，出版社配套參考書目次確認單元7；信心medium、段考unassigned、學校採用版本未確認。 2026-11-15.64：高二公民與社會(3)第4單元「外部成本與聯合行為」新增9題持久出版社映射；學期上學期、段考unassigned、confidence=medium；未新增題目。\n2026-11-15.65：教材對照欄位語義正規化：將3筆翰林高二數學(3A)映射及1筆翰林選修化學(I)映射的 courseType 統一為「未確認」；數學A資訊保留於獨立 courseTrack=數學A，學校採用版本仍未確認。原有 notes、來源、mappingId、semester、mappingLevel 與39筆中央映射數量不變；不新增出版社映射、不改題目分類或原始題庫。\n2026-11-15.66：四題六年級自然電磁鐵／線圈題（b35-034、b39-035、b40-034、b41-033）依教育部教育雲EP49資源頁的三版本明確對照，將原翰林冊別層級參照替換為南一、翰林、康軒六上第4單元層級映射；學期上學期、段考unassigned。來源列INe-Ⅲ-10及三版本單元名稱；不代表學校採用版本或教師審核。 2026-11-16.72：修正19筆出版社映射引用URL一致性，並修正1筆國小社會題的learningDomain；全庫題數及映射總量不變。 2026-11-16.76：依翰林官方《超好學複習講義：公民與社會》P.06之108課綱跨版本表，新增高二公民單元3（翰林1-3）、單元9（翰林2-3）、單元12（翰林3-1）三筆單元層級映射；翰林書城009121確認高二、公民、上學期，另以《關鍵60天》P.06佐證法律保留／比例原則。回填b41-093至b41-096四題；段考全部維持unassigned，不宣稱學校採用版本或教師審核。 2026-11-16-knsh-g6-math-speed-scale-backfill-01：依康軒114官方高年級數學教材簡介新增兩筆六上單元映射，更新b8-008與b8-012；兩題段考由第三次段考校正為unassigned。題庫學年度未標示，未宣稱學校採用版本；未新增題目。 2026-11-16全庫篩選回歸：7,800組資料層條件測試通過，2,900題全部可由全部版本模式取得，出版社映射洩漏0、篩選錯誤0；未做瀏覽器／手機實機測試。\n2026-11-16-knsh-g6-math-supplement-source-correction-01：原康軒PDF來源網址回傳404，改用康軒署名帳號於FlipHTML5公開的114(1)數學計算高手6年級補充教材頁；建立補充教材資源標題層級映射（速率、比例尺、圓面積），回填b8-008、b8-012、b12-012、b13-008。來源非康軒官方網站教科書商品頁，故明確標示補充教材資源層級，不冒稱教科書單元或學校採用版本；b12-012學期校正為上學期，b12-012及b13-008段考改unassigned。\n2026-11-16.79：原康軒114高年級綜合文宣PDF連結回傳404，改以康軒署名帳號於FlipHTML5公開的114(1)六年級數學補充教材頁，新增速率、比例尺、圓面積三筆official-resource-title中央映射；更新b8-008、b8-012、b12-012、b13-008。學期分類上學期415、下學期146、全學年74、未分類2265；段考未分類2673、第一次65、第二次71、第三次91。出版社映射459題／563筆引用；7,800組資料層篩選非零575、零題7225、映射洩漏0、篩選錯誤0。未新增題目，未做瀏覽器／手機實機測試。 2026-11-16-volume-source-recheck-and-filter-regression-01：重新核對翰林國小自然6上／6下及高二上選修物理(II)官方商品頁；只確認冊別層級，未新增題目映射。全庫2,900筆分類、34/34來源SHA、563筆出版社引用、55組中央映射及7800組資料層篩選回歸；出版社映射洩漏0、篩選錯誤0。未新增題目，未做瀏覽器／手機實機測試。 2026-11-17.87：康軒114官方自然領域文宣PDF重新核對成功（HTTP 200／PDF可讀），明列六下單元三「地球的生態」。將五題（b38-039、b39-038、b40-037、b41-035、b41-040）持久映射至114版康軒六下單元3；四題學期由unassigned回填下學期，一題保留既有下學期；段考全數unassigned。113版已失效來源保留歷史追溯但不作有效篩選。 2026-11-17.89：翰林官方數學(6下)課本頁重新核對；九題中位數只掛冊別層級映射，學期／段考維持既有題庫推定。資料層篩選7,800組，非零552、合理零題7,248，映射洩漏0、錯誤0；未做瀏覽器／手機實機測試。",
   "lastAudit": {
-    "runId": "2026-11-17-hanlin-g6-math-6b-volume-median-backfill-01",
+    "runId": "2026-11-17-hanlin-h2-civic-administrative-hearing-backfill-01",
     "date": "2026-11-17",
-    "sourceHeadBeforeRun": "c4c4f64208a8e83ce9c4da9069c234612bd5b62045",
-    "classificationDataHeadAfterUpdates": "30837c48ab8b1c245567aaf529ce60c4f4f9a2e7",
-    "mainHeadVerifiedBeforeManifestUpdate": "30837c48ab8b1c245567aaf529ce60c4f4f9a2e7",
     "batches": "08-41",
     "batchFileCount": 34,
     "fullCorpusQuestionCount": 2900,
     "activeScopeQuestionCount": 1864,
-    "questionRecordsUpdated": 9,
+    "questionRecordsUpdated": 1,
     "updatedQuestionIds": [
-      "b15-028",
-      "b17-030",
-      "b27-034",
-      "b28-039",
-      "b29-028",
-      "b30-016",
-      "b31-025",
-      "b39-027",
-      "b40-031"
+      "b21-072"
     ],
-    "semesterAssignments": 0,
+    "semesterAssignments": 1,
+    "semesterCorrections": 0,
     "examPeriodAssignments": 0,
+    "examPeriodCorrections": 0,
     "publisherMappingsAdded": 0,
-    "publisherMappingReferencesAdded": 9,
+    "publisherMappingReferencesAdded": 1,
     "publisherMappingReferencesRemoved": 0,
     "publisherMappingReferencesCorrected": 0,
     "newQuestionsAdded": 0,
     "fullCorpusSemesterDistribution": {
-      "unassigned": 2214,
-      "上學期": 463,
-      "下學期": 149,
+      "unassigned": 2210,
+      "上學期": 464,
+      "下學期": 152,
       "全學年": 74,
       "_total": 2900
     },
@@ -2810,49 +2830,55 @@
       "_total": 2900
     },
     "fullCorpusClassificationBasisDistribution": {
-      "curriculum-core": 2229,
-      "publisher-source-verified": 410,
-      "question-bank-inference": 261,
+      "curriculum-core": 2225,
+      "publisher-source-verified": 419,
+      "question-bank-inference": 256,
       "_total": 2900
     },
     "fullCorpusPublisherStatusDistribution": {
-      "curriculum-core": 2374,
-      "publisher-mapped": 520,
+      "curriculum-core": 2365,
+      "publisher-mapped": 529,
       "pending": 6,
       "_total": 2900
     },
     "fullCorpusConfidenceDistribution": {
-      "low": 2099,
-      "medium": 765,
+      "low": 2095,
+      "medium": 769,
       "high": 36,
       "_total": 2900
     },
     "sourceBatchShasMatch": "34/34",
-    "classificationRuleVersion": "2026-11-17.89",
+    "classificationRuleVersion": "2026-11-17.91",
     "publisherReferenceCounts": {
-      "knsh": 132,
-      "hanlin": 426,
+      "knsh": 140,
+      "hanlin": 427,
       "nani": 70,
-      "_total": 628
+      "_total": 637
     },
     "validPublisherReferenceCounts": {
-      "knsh": 128,
-      "hanlin": 426,
+      "knsh": 136,
+      "hanlin": 427,
       "nani": 70,
-      "_total": 624
+      "_total": 633
     },
     "mappingLevelCounts": {
       "official-resource-title": 53,
+      "unit": 449,
       "volume": 135,
-      "unit": 440,
-      "_total": 628
+      "_total": 637
+    },
+    "validMappingLevelCounts": {
+      "official-resource-title": 53,
+      "unit": 445,
+      "volume": 135,
+      "_total": 633
     },
     "mappingVerificationStatusCounts": {
-      "source-checked": 624,
+      "source-checked": 633,
       "source-unavailable": 4,
-      "_total": 628
+      "_total": 637
     },
-    "centralMappingCount": 57,
+    "centralMappingCount": 59,
     "validation": {
       "jsonParse": true,
       "classificationRecords": 2900,
@@ -2866,12 +2892,13 @@
       "sourceFieldErrors": 0,
       "mappingScopeErrors": 0,
       "sourceBatchShasMatch": "34/34",
-      "updatedQuestionsChecked": 9,
+      "updatedQuestionsChecked": 1,
       "updatedQuestionIdsReachable": true,
-      "targetedPublisherSemesterFilterCasesTested": 9,
+      "targetedPublisherSemesterFilterCasesTested": 5,
+      "targetedCasesPassed": true,
       "filterCombinationsTested": 7800,
-      "nonZeroFilterCombinations": 552,
-      "zeroResultConditionsTested": 7248,
+      "nonZeroFilterCombinations": 575,
+      "zeroResultConditionsTested": 7225,
       "publisherMappingLeaks": 0,
       "filterErrors": 0,
       "allModeReachable": true,
@@ -2881,200 +2908,16 @@
       "serviceWorkerAssetManifestComplete": true,
       "filterUiRuntimeTested": false,
       "browserOrMobileRuntimeTested": false,
-      "mappingReferenceCount": 628,
-      "validMappingReferenceCount": 624
+      "mappingReferenceCount": 637,
+      "validMappingReferenceCount": 633,
+      "inferenceSyntaxValid": true,
+      "inferenceRuntimeTested": true,
+      "inferenceRuntimeCasesTested": 2,
+      "inferenceRuntimeFailures": 0
     },
-    "notes": "重新開啟翰林書城官方課本數學(6下)頁面，確認國小六年級、數學、下學期及冊別。頁面沒有細分目次，故僅做冊別層級對照；九題的中位數單元並未被宣稱為翰林版單元。原有學期與第三次段考複習建議維持題庫推定，非正式學校範圍。沒有新增題目、未修改原始題庫或答案解析。"
+    "notes": "b21-072行政聽證程序新增翰林公民與社會(3)乙版第9單元單元層級映射；題目學期由unassigned改為上學期，段考仍unassigned。原始題目、選項、答案與解析未修改；不宣稱學校採用版本或教師審核。"
   },
-  "auditSummary": {
-    "auditedAt": "2026-11-14",
-    "auditedRef": "main",
-    "batchRange": "08-41",
-    "batchFileCount": 34,
-    "questionCount": 2900,
-    "uniqueQuestionIdCount": 2900,
-    "gradeCounts": {
-      "五年級": 290,
-      "六年級": 890,
-      "高一": 373,
-      "高二": 974,
-      "高三": 373
-    },
-    "subjectCounts": {
-      "國語": 218,
-      "數學": 634,
-      "自然": 243,
-      "社會": 230,
-      "英語": 194,
-      "國文": 104,
-      "英文": 127,
-      "歷史": 135,
-      "地理": 153,
-      "公民": 163,
-      "物理": 218,
-      "化學": 212,
-      "生物": 180,
-      "地球科學": 80,
-      "資訊": 1,
-      "經濟": 6,
-      "資訊素養": 2
-    },
-    "activeQuestionCount": 1864,
-    "activeGradeSubjectCounts": {
-      "國小/六年級": {
-        "國語": 165,
-        "數學": 225,
-        "自然": 178,
-        "社會": 174,
-        "英語": 148
-      },
-      "高中/高二": {
-        "數學": 212,
-        "英文": 58,
-        "物理": 140,
-        "化學": 136,
-        "生物": 110,
-        "地理": 84,
-        "歷史": 72,
-        "公民": 85,
-        "地球科學": 24,
-        "國文": 50,
-        "社會": 1,
-        "經濟": 2
-      }
-    },
-    "classificationIndexEntries": 2900,
-    "classificationIndexMissingIds": 0,
-    "classificationIndexExtraIds": 0,
-    "embeddedAndPersistedClassification": {
-      "requiredFieldsComplete": 2900,
-      "extendedMetadataComplete": 2900
-    },
-    "classificationBasis": {
-      "curriculumCore": 2414,
-      "questionBankInference": 442,
-      "publisherSourceVerified": 44,
-      "unassigned": 0
-    },
-    "semester": {
-      "unassigned": 2414,
-      "firstSemester": 305,
-      "secondSemester": 107,
-      "fullYear": 74
-    },
-    "examPeriod": {
-      "unassigned": 2669,
-      "firstExam": 66,
-      "secondExam": 71,
-      "thirdExam": 94
-    },
-    "confidence": {
-      "low": 2445,
-      "medium": 427,
-      "high": 28
-    },
-    "publisherStatus": {
-      "curriculumCore": 2771,
-      "publisherMapped": 123,
-      "pending": 6
-    },
-    "publisherReferenceCounts": {
-      "hanlin": 79,
-      "knsh": 9,
-      "nani": 35
-    },
-    "publisherMappedQuestionCount": 123,
-    "mappingReferenceCount": 123,
-    "centralMappingRegistryCount": 19,
-    "uniqueUsedMappingIds": 7,
-    "mappingVerificationStatusCounts": {
-      "sourceChecked": 115,
-      "officialIndexLinkOnly": 8
-    },
-    "mappingLevelCounts": {
-      "unit": 107,
-      "officialResourceTitle": 16
-    },
-    "pendingQuestionCount": 6,
-    "newQuestionsAdded": 0,
-    "officialPagesReopened": 3,
-    "sourceMappingRecordsRefreshed": 106,
-    "sourceSubjectLabelCorrections": 5,
-    "filterSimulation": {
-      "auditedAt": "2026-11-14",
-      "activeQuestions": 1864,
-      "activeGrades": [
-        "國小六年級",
-        "高中高二"
-      ],
-      "cartesianCombinationsTested": 18900,
-      "unitFilterGroupsTested": 1183,
-      "zeroResultCombinations": 17940,
-      "nonzeroCombinations": 960,
-      "allPoolErrors": 0,
-      "unitFilterCountErrors": 0,
-      "subjectOptionCoverageErrors": 0,
-      "publisherCategoryCoverageErrors": 0,
-      "courseTrackPlaceholderChecks": 900,
-      "courseTrackPlaceholderErrors": 0,
-      "browserTested": false,
-      "note": "以持久分類索引模擬目前啟用年級的全部科目、難度、學期、段考、出版社與數學軌別組合；零題組合正常回傳0並由APP零題提示處理。這是資料層／篩選邏輯模擬，不是瀏覽器或手機實機測試。"
-    },
-    "validation": {
-      "duplicateQuestionIds": 0,
-      "missingRequiredFields": 0,
-      "invalidClassificationValues": 0,
-      "missingMappingRegistry": 0,
-      "mappingSourceFieldErrors": 0
-    },
-    "notes": [
-      "第8至41批34個原始題庫檔共2,900題、唯一ID 2,900；六個分類分片共2,900筆，題目ID與年級／科目對照完整。",
-      "學習領域、題型、單元、難度及分類欄位完整2,900/2,900；欄位完整不等於教師逐題審核。",
-      "本次將5筆國小六年級科目標籤正規化：公民／地理／歷史併入社會、英文併入英語；四個來源批次SHA同步更新。",
-      "目前啟用年級共1,864題，科目選項與實際分類一致；高二另保留社會與經濟科目。",
-      "學期與段考無足夠證據者維持unassigned；段考僅供題庫複習，不代表學校正式考試範圍。",
-      "重新開啟翰林數學3A及南一數學6下三個官方頁，刷新106筆既有映射來源資訊；未新增題目或擴大出版社標記。",
-      "學校實際採用版本未確認；未進行瀏覽器／手機實機測試。",
-      "本輪最新原始欄位交叉檢查：34批／2,900題逐批比較原始semester與examPeriod；12筆為國小六年級數學的題庫推定值（原始仍unassigned），原始已填值漏存0。新增南一社會6下單元2中央參考，未新增題目級映射。"
-    ],
-    "staticFilterReachability": {
-      "auditedAt": "2026-11-14",
-      "batches": "08-41",
-      "questionsChecked": 2900,
-      "perQuestionIndexReachability": {
-        "reachable": 2900,
-        "unreachable": 0
-      },
-      "classificationValueAndMetadataErrors": 0,
-      "publisherStatusMappingConsistencyErrors": 0,
-      "publisherCategoryReachability": {
-        "curriculumCore": 2771,
-        "pending": 6,
-        "hanlin": 79,
-        "knsh": 9,
-        "nani": 35
-      },
-      "courseTrackAnomalies": 0,
-      "filterCodePath": "index.html getPool -> window.questionClassificationFor -> QUESTION_CLASSIFICATION_INDEX loaded from data/question-classification.json",
-      "staticPerQuestionCheck": true,
-      "exhaustiveCartesianCombinationTest": true,
-      "cartesianCombinationsTested": 18900,
-      "unitFilterGroupsTested": 960,
-      "browserTested": false,
-      "note": "以持久分類索引模擬目前啟用年級的全部科目、難度、學期、段考、出版社與數學軌別組合；零題組合正常回傳0並由APP零題提示處理。這是資料層／篩選邏輯模擬，不是瀏覽器或手機實機測試。"
-    },
-    "latestRun": {
-      "sourceHeadBeforeRun": "82b97e6a9180f858a20f97a3456eb9f194fb3e24",
-      "officialPagesReopened": 2,
-      "newCentralMappings": 1,
-      "questionRecordsUpdated": 0,
-      "rawStoredInferenceOverrides": 12,
-      "rawAssignedValuesMissingFromClassification": 0,
-      "newQuestionsAdded": 0,
-      "filterCartesianTestRunThisTurn": false,
-      "browserTested": false
-    }
-  },
+  "auditSummary": "b21-072行政聽證程序新增翰林公民與社會(3)乙版第9單元單元層級映射；題目學期由unassigned改為上學期，段考仍unassigned。原始題目、選項、答案與解析未修改；不宣稱學校採用版本或教師審核。",
   "batch39UsageAudit": {
     "batch": 39,
     "total": 100,
@@ -3576,15 +3419,15 @@
     "pullRequestUrl": "https://github.com/toyoyogo-cloud/xiaoyu-xiaoyu-learning-app/pull/6"
   },
   "mappingVerificationStatusCountsBatches08to41": {
-    "source-checked": 632,
+    "source-checked": 633,
     "source-unavailable": 4,
-    "_total": 636
+    "_total": 637
   },
   "publisherReferenceCountsBatches08to41": {
     "knsh": 140,
-    "hanlin": 426,
+    "hanlin": 427,
     "nani": 70,
-    "_total": 636
+    "_total": 637
   },
   "mappingVerificationStatusCountsBatches30to41": {
     "source-checked": 497,
@@ -3648,37 +3491,28 @@
     ]
   },
   "latestMainClassificationAudit": {
-    "runId": "2026-11-17-knsh-g6-natural-simple-machines-energy-life-backfill-01",
+    "runId": "2026-11-17-hanlin-h2-civic-administrative-hearing-backfill-01",
     "date": "2026-11-17",
-    "sourceHeadBeforeRun": "59a8757103dfbcb2cb7e48e8dcca545d8aa87162",
-    "classificationDataHeadAfterUpdates": "dca4dd1a806a22b0c1f9688fef96f7836479812b",
-    "mainHeadVerifiedBeforeManifestUpdate": "dca4dd1a806a22b0c1f9688fef96f7836479812b",
     "batches": "08-41",
     "batchFileCount": 34,
     "fullCorpusQuestionCount": 2900,
     "activeScopeQuestionCount": 1864,
-    "questionRecordsUpdated": 8,
+    "questionRecordsUpdated": 1,
     "updatedQuestionIds": [
-      "b8-009",
-      "b16-023",
-      "b21-030",
-      "b27-039",
-      "b30-030",
-      "b32-028",
-      "b33-038",
-      "b34-035"
+      "b21-072"
     ],
-    "semesterAssignments": 3,
+    "semesterAssignments": 1,
     "semesterCorrections": 0,
     "examPeriodAssignments": 0,
-    "publisherMappingsAdded": 2,
-    "publisherMappingReferencesAdded": 8,
+    "examPeriodCorrections": 0,
+    "publisherMappingsAdded": 0,
+    "publisherMappingReferencesAdded": 1,
     "publisherMappingReferencesRemoved": 0,
     "publisherMappingReferencesCorrected": 0,
     "newQuestionsAdded": 0,
     "fullCorpusSemesterDistribution": {
-      "unassigned": 2211,
-      "上學期": 463,
+      "unassigned": 2210,
+      "上學期": 464,
       "下學期": 152,
       "全學年": 74,
       "_total": 2900
@@ -3691,53 +3525,53 @@
       "_total": 2900
     },
     "fullCorpusClassificationBasisDistribution": {
-      "curriculum-core": 2226,
-      "publisher-source-verified": 418,
+      "curriculum-core": 2225,
+      "publisher-source-verified": 419,
       "question-bank-inference": 256,
       "_total": 2900
     },
     "fullCorpusPublisherStatusDistribution": {
-      "curriculum-core": 2366,
-      "publisher-mapped": 528,
+      "curriculum-core": 2365,
+      "publisher-mapped": 529,
       "pending": 6,
       "_total": 2900
     },
     "fullCorpusConfidenceDistribution": {
-      "low": 2096,
-      "medium": 768,
+      "low": 2095,
+      "medium": 769,
       "high": 36,
       "_total": 2900
     },
     "sourceBatchShasMatch": "34/34",
-    "classificationRuleVersion": "2026-11-17.90",
+    "classificationRuleVersion": "2026-11-17.91",
     "publisherReferenceCounts": {
       "knsh": 140,
-      "hanlin": 426,
+      "hanlin": 427,
       "nani": 70,
-      "_total": 636
+      "_total": 637
     },
     "validPublisherReferenceCounts": {
       "knsh": 136,
-      "hanlin": 426,
+      "hanlin": 427,
       "nani": 70,
-      "_total": 632
+      "_total": 633
     },
     "mappingLevelCounts": {
       "official-resource-title": 53,
-      "unit": 448,
+      "unit": 449,
       "volume": 135,
-      "_total": 636
+      "_total": 637
     },
     "validMappingLevelCounts": {
       "official-resource-title": 53,
-      "unit": 444,
+      "unit": 445,
       "volume": 135,
-      "_total": 632
+      "_total": 633
     },
     "mappingVerificationStatusCounts": {
-      "source-checked": 632,
+      "source-checked": 633,
       "source-unavailable": 4,
-      "_total": 636
+      "_total": 637
     },
     "centralMappingCount": 59,
     "validation": {
@@ -3753,9 +3587,9 @@
       "sourceFieldErrors": 0,
       "mappingScopeErrors": 0,
       "sourceBatchShasMatch": "34/34",
-      "updatedQuestionsChecked": 8,
+      "updatedQuestionsChecked": 1,
       "updatedQuestionIdsReachable": true,
-      "targetedPublisherSemesterFilterCasesTested": 8,
+      "targetedPublisherSemesterFilterCasesTested": 5,
       "targetedCasesPassed": true,
       "filterCombinationsTested": 7800,
       "nonZeroFilterCombinations": 575,
@@ -3769,14 +3603,14 @@
       "serviceWorkerAssetManifestComplete": true,
       "filterUiRuntimeTested": false,
       "browserOrMobileRuntimeTested": false,
-      "mappingReferenceCount": 636,
-      "validMappingReferenceCount": 632,
+      "mappingReferenceCount": 637,
+      "validMappingReferenceCount": 633,
       "inferenceSyntaxValid": true,
       "inferenceRuntimeTested": true,
-      "inferenceRuntimeCasesTested": 8,
+      "inferenceRuntimeCasesTested": 2,
       "inferenceRuntimeFailures": 0
     },
-    "notes": "依康軒官方114學年度自然領域文宣，將六年級自然「簡單機械」5題對照六下單元一，及「能量轉換」3題對照六下單元二。簡單機械原有學期下學期推定保留但分類依據升級為出版社來源核對；3題能量轉換由unassigned推定為下學期。8題均只標康軒114版單元層級；學校採用版本未確認，段考維持unassigned。沒有新增題目或修改原始題幹、選項、答案、解析。 分類推定器語法檢查通過，8/8筆目標題目實際呼叫 questionClassificationFor 均回傳康軒source-checked單元映射。"
+    "notes": "b21-072行政聽證程序新增翰林公民與社會(3)乙版第9單元單元層級映射；題目學期由unassigned改為上學期，段考仍unassigned。原始題目、選項、答案與解析未修改；不宣稱學校採用版本或教師審核。"
   },
   "classificationPersistenceRuns": [
     {
@@ -4615,6 +4449,128 @@
         "inferenceRuntimeFailures": 0
       },
       "notes": "依康軒官方114學年度自然領域文宣，將六年級自然「簡單機械」5題對照六下單元一，及「能量轉換」3題對照六下單元二。簡單機械原有學期下學期推定保留但分類依據升級為出版社來源核對；3題能量轉換由unassigned推定為下學期。8題均只標康軒114版單元層級；學校採用版本未確認，段考維持unassigned。沒有新增題目或修改原始題幹、選項、答案、解析。 分類推定器語法檢查通過，8/8筆目標題目實際呼叫 questionClassificationFor 均回傳康軒source-checked單元映射。"
+    },
+    {
+      "runId": "2026-11-17-hanlin-h2-civic-administrative-hearing-backfill-01",
+      "date": "2026-11-17",
+      "batches": "08-41",
+      "batchFileCount": 34,
+      "fullCorpusQuestionCount": 2900,
+      "activeScopeQuestionCount": 1864,
+      "questionRecordsUpdated": 1,
+      "updatedQuestionIds": [
+        "b21-072"
+      ],
+      "semesterAssignments": 1,
+      "semesterCorrections": 0,
+      "examPeriodAssignments": 0,
+      "examPeriodCorrections": 0,
+      "publisherMappingsAdded": 0,
+      "publisherMappingReferencesAdded": 1,
+      "publisherMappingReferencesRemoved": 0,
+      "publisherMappingReferencesCorrected": 0,
+      "newQuestionsAdded": 0,
+      "fullCorpusSemesterDistribution": {
+        "unassigned": 2210,
+        "上學期": 464,
+        "下學期": 152,
+        "全學年": 74,
+        "_total": 2900
+      },
+      "fullCorpusExamPeriodDistribution": {
+        "unassigned": 2673,
+        "第一次段考": 65,
+        "第二次段考": 71,
+        "第三次段考": 91,
+        "_total": 2900
+      },
+      "fullCorpusClassificationBasisDistribution": {
+        "curriculum-core": 2225,
+        "publisher-source-verified": 419,
+        "question-bank-inference": 256,
+        "_total": 2900
+      },
+      "fullCorpusPublisherStatusDistribution": {
+        "curriculum-core": 2365,
+        "publisher-mapped": 529,
+        "pending": 6,
+        "_total": 2900
+      },
+      "fullCorpusConfidenceDistribution": {
+        "low": 2095,
+        "medium": 769,
+        "high": 36,
+        "_total": 2900
+      },
+      "sourceBatchShasMatch": "34/34",
+      "classificationRuleVersion": "2026-11-17.91",
+      "publisherReferenceCounts": {
+        "knsh": 140,
+        "hanlin": 427,
+        "nani": 70,
+        "_total": 637
+      },
+      "validPublisherReferenceCounts": {
+        "knsh": 136,
+        "hanlin": 427,
+        "nani": 70,
+        "_total": 633
+      },
+      "mappingLevelCounts": {
+        "official-resource-title": 53,
+        "unit": 449,
+        "volume": 135,
+        "_total": 637
+      },
+      "validMappingLevelCounts": {
+        "official-resource-title": 53,
+        "unit": 445,
+        "volume": 135,
+        "_total": 633
+      },
+      "mappingVerificationStatusCounts": {
+        "source-checked": 633,
+        "source-unavailable": 4,
+        "_total": 637
+      },
+      "centralMappingCount": 59,
+      "validation": {
+        "jsonParse": true,
+        "classificationRecords": 2900,
+        "uniqueIds": 2900,
+        "duplicateIds": 0,
+        "missingFromClassification": 0,
+        "extraClassificationIds": 0,
+        "missingRequiredFields": 0,
+        "invalidClassificationValues": 0,
+        "mappingReferenceErrors": 0,
+        "sourceFieldErrors": 0,
+        "mappingScopeErrors": 0,
+        "sourceBatchShasMatch": "34/34",
+        "updatedQuestionsChecked": 1,
+        "updatedQuestionIdsReachable": true,
+        "targetedPublisherSemesterFilterCasesTested": 5,
+        "targetedCasesPassed": true,
+        "filterCombinationsTested": 7800,
+        "nonZeroFilterCombinations": 575,
+        "zeroResultConditionsTested": 7225,
+        "publisherMappingLeaks": 0,
+        "filterErrors": 0,
+        "allModeReachable": true,
+        "allModeQuestionCount": 2900,
+        "appReadsPersistedClassificationIndex": true,
+        "zeroResultHintPresent": true,
+        "serviceWorkerAssetManifestComplete": true,
+        "filterUiRuntimeTested": false,
+        "browserOrMobileRuntimeTested": false,
+        "mappingReferenceCount": 637,
+        "validMappingReferenceCount": 633,
+        "inferenceSyntaxValid": true,
+        "inferenceRuntimeTested": true,
+        "inferenceRuntimeCasesTested": 2,
+        "inferenceRuntimeFailures": 0
+      },
+      "notes": "b21-072行政聽證程序新增翰林公民與社會(3)乙版第9單元單元層級映射；題目學期由unassigned改為上學期，段考仍unassigned。原始題目、選項、答案與解析未修改；不宣稱學校採用版本或教師審核。"
     }
   ],
   "batch30ExtendedMetadataAudit": {
@@ -5319,17 +5275,12 @@
     "filterErrors": 0,
     "allModeReachable": true,
     "allModeQuestionCount": 2900,
-    "targetKnsh114SimpleMachineCases": 5,
-    "targetKnsh114EnergyLifeCases": 3,
-    "targetedCasesPassed": true,
     "appReadsPersistedClassificationIndex": true,
     "zeroResultHintPresent": true,
     "serviceWorkerAssetManifestComplete": true,
+    "b21_072HanlinUpperSemesterExamUnassigned": true,
     "browserOrMobileRuntimeTested": false,
-    "note": "依index.html getPool的出版社、學期、段考及高二數學軌別篩選順序，對48組年級／科目組合及高二數學軌別共執行7,800組資料層條件；非零575、合理零題7,225、出版社映射洩漏0、篩選錯誤0。全部版本可達2,900題。未執行瀏覽器／手機實機測試。",
-    "inferenceRuntimeTested": true,
-    "inferenceRuntimeCasesTested": 8,
-    "inferenceRuntimeFailures": 0
+    "note": "依index.html getPool之持久分類欄位、出版社／學期／段考條件及高二數學軌別條件進行資料層回歸；未執行瀏覽器或手機實機測試。"
   },
   "sourceVerificationLog": [
     {
@@ -6609,6 +6560,48 @@
       ],
       "publisherMappingReferencesAdded": 8,
       "notes": "依康軒官方114學年度自然領域文宣，將六年級自然「簡單機械」5題對照六下單元一，及「能量轉換」3題對照六下單元二。簡單機械原有學期下學期推定保留但分類依據升級為出版社來源核對；3題能量轉換由unassigned推定為下學期。8題均只標康軒114版單元層級；學校採用版本未確認，段考維持unassigned。沒有新增題目或修改原始題幹、選項、答案、解析。"
+    },
+    {
+      "runId": "2026-11-17-hanlin-h2-civic-administrative-hearing-backfill-01",
+      "verifiedAt": "2026-11-17",
+      "sourceChecks": [
+        {
+          "publisher": "hanlin",
+          "mappingIds": [
+            "hanlin-h2-civic-3-u9-administrative-law"
+          ],
+          "sourceUrl": "https://fliphtml5.com/cojaq/wwbe/%E8%B6%85%E5%A5%BD%E5%AD%B8%E8%A4%87%E7%BF%92%E8%AC%9B%E7%BE%A9-%E5%85%AC%E6%B0%91%E8%88%87%E7%A4%BE%E6%9C%83/",
+          "sourceTitle": "翰林高中參考書－《超好學複習講義：公民與社會》P.06–07「108課綱各版本對照表」",
+          "verificationStatus": "source-checked",
+          "verifiedScope": "官方帳號目次與跨版本表列第9單元「依法行政與行政救濟」，對應翰林公民與社會(3)乙版第2-3章；只作單元層級對照。"
+        },
+        {
+          "publisher": "hanlin",
+          "mappingIds": [
+            "hanlin-h2-civic-3-u9-administrative-law"
+          ],
+          "sourceUrl": "https://fliphtml5.com/cojaq/tpvy/%E9%97%9C%E9%8D%B560%E5%A4%A9-%E5%85%AC%E6%B0%91%E8%88%87%E7%A4%BE%E6%9C%83/",
+          "sourceTitle": "翰林高中參考書－《關鍵60天：公民與社會》「正當行政程序」",
+          "verificationStatus": "source-checked",
+          "verifiedScope": "官方內容明列陳述意見與聽證權，直接支持行政聽證程序的單元內容；不單獨判定年級或學期。"
+        },
+        {
+          "publisher": "hanlin",
+          "mappingIds": [
+            "hanlin-h2-civic-3-u9-administrative-law"
+          ],
+          "sourceUrl": "https://books.hanlin.com.tw/product/009121",
+          "sourceTitle": "翰林書城－高中課本－公民與社會(3)乙版",
+          "verificationStatus": "source-checked",
+          "verifiedScope": "官方商品頁明示高中二年級、公民、上學期及公民與社會(3)乙版；未單獨提供細分目次。"
+        }
+      ],
+      "questionRecordsUpdated": 1,
+      "updatedQuestionIds": [
+        "b21-072"
+      ],
+      "publisherMappingReferencesAdded": 1,
+      "notes": "b21-072題幹直接詢問行政聽證目的，選項及答案未修改；以官方跨版本表、聽證內容及課本商品頁交叉核對。段考維持unassigned，不宣稱學校採用版本或教師審核。"
     }
   ],
   "high2MathCourseTrackAudit": {
@@ -6771,76 +6764,80 @@
   },
   "latestMappingReferenceAudit": {
     "auditedAt": "2026-11-17",
-    "mappingReferences": 636,
-    "validMappingReferences": 632,
+    "mappingReferences": 637,
+    "validMappingReferences": 633,
     "centralRegistryCount": 59,
-    "registryReferencesFound": 632,
+    "registryReferencesFound": 633,
     "missingRegistryReferences": 0,
     "sourceFieldErrors": 0,
     "mappingScopeErrors": 0,
-    "result": "632 source-checked mapping references validated; 4 historical source-unavailable references remain excluded from publisher filters."
+    "result": "633 source-checked mapping references validated; 4 historical source-unavailable references remain excluded from publisher filters."
   },
   "lastSourceVerificationAudit": {
-    "runId": "2026-11-17-knsh-g6-natural-simple-machines-energy-life-backfill-01",
+    "runId": "2026-11-17-hanlin-h2-civic-administrative-hearing-backfill-01",
     "verifiedAt": "2026-11-17",
     "sourceChecks": [
       {
-        "publisher": "knsh",
+        "publisher": "hanlin",
         "mappingIds": [
-          "knsh-g6-natural-114-6b-u1-simple-machines",
-          "knsh-g6-natural-114-6b-u2-energy-life"
+          "hanlin-h2-civic-3-u9-administrative-law"
         ],
-        "sourceUrl": "https://945cloud.knsh.com.tw/E/promo/Show/upload/material/4/114%281%29%E8%87%AA%E7%84%B6%E9%A0%98%E5%9F%9F%E6%96%87%E5%AE%A3.pdf",
-        "sourceTitle": "114康軒國小教材特色－自然領域文宣",
-        "verifiedScope": "114學年度康軒國小自然教材：六下單元一「簡單機械」（槓桿、輪軸、滑輪、齒輪）及單元二「能量與生活」（能量轉換、生活能源利用）。"
+        "sourceUrl": "https://fliphtml5.com/cojaq/wwbe/%E8%B6%85%E5%A5%BD%E5%AD%B8%E8%A4%87%E7%BF%92%E8%AC%9B%E7%BE%A9-%E5%85%AC%E6%B0%91%E8%88%87%E7%A4%BE%E6%9C%83/",
+        "sourceTitle": "翰林高中參考書－《超好學複習講義：公民與社會》P.06–07「108課綱各版本對照表」",
+        "verificationStatus": "source-checked",
+        "verifiedScope": "官方帳號目次與跨版本表列第9單元「依法行政與行政救濟」，對應翰林公民與社會(3)乙版第2-3章；只作單元層級對照。"
+      },
+      {
+        "publisher": "hanlin",
+        "mappingIds": [
+          "hanlin-h2-civic-3-u9-administrative-law"
+        ],
+        "sourceUrl": "https://fliphtml5.com/cojaq/tpvy/%E9%97%9C%E9%8D%B560%E5%A4%A9-%E5%85%AC%E6%B0%91%E8%88%87%E7%A4%BE%E6%9C%83/",
+        "sourceTitle": "翰林高中參考書－《關鍵60天：公民與社會》「正當行政程序」",
+        "verificationStatus": "source-checked",
+        "verifiedScope": "官方內容明列陳述意見與聽證權，直接支持行政聽證程序的單元內容；不單獨判定年級或學期。"
+      },
+      {
+        "publisher": "hanlin",
+        "mappingIds": [
+          "hanlin-h2-civic-3-u9-administrative-law"
+        ],
+        "sourceUrl": "https://books.hanlin.com.tw/product/009121",
+        "sourceTitle": "翰林書城－高中課本－公民與社會(3)乙版",
+        "verificationStatus": "source-checked",
+        "verifiedScope": "官方商品頁明示高中二年級、公民、上學期及公民與社會(3)乙版；未單獨提供細分目次。"
       }
     ],
-    "questionRecordsUpdated": 8,
+    "questionRecordsUpdated": 1,
     "updatedQuestionIds": [
-      "b8-009",
-      "b16-023",
-      "b21-030",
-      "b27-039",
-      "b30-030",
-      "b32-028",
-      "b33-038",
-      "b34-035"
+      "b21-072"
     ],
-    "publisherMappingReferencesAdded": 8,
-    "notes": "依康軒官方114學年度自然領域文宣，將六年級自然「簡單機械」5題對照六下單元一，及「能量轉換」3題對照六下單元二。簡單機械原有學期下學期推定保留但分類依據升級為出版社來源核對；3題能量轉換由unassigned推定為下學期。8題均只標康軒114版單元層級；學校採用版本未確認，段考維持unassigned。沒有新增題目或修改原始題幹、選項、答案、解析。"
+    "publisherMappingReferencesAdded": 1,
+    "notes": "b21-072題幹直接詢問行政聽證目的，選項及答案未修改；以官方跨版本表、聽證內容及課本商品頁交叉核對。段考維持unassigned，不宣稱學校採用版本或教師審核。"
   },
   "lastRunAudit": {
-    "runId": "2026-11-17-knsh-g6-natural-simple-machines-energy-life-backfill-01",
+    "runId": "2026-11-17-hanlin-h2-civic-administrative-hearing-backfill-01",
     "date": "2026-11-17",
-    "sourceHeadBeforeRun": "59a8757103dfbcb2cb7e48e8dcca545d8aa87162",
-    "classificationDataHeadAfterUpdates": "dca4dd1a806a22b0c1f9688fef96f7836479812b",
-    "mainHeadVerifiedBeforeManifestUpdate": "dca4dd1a806a22b0c1f9688fef96f7836479812b",
     "batches": "08-41",
     "batchFileCount": 34,
     "fullCorpusQuestionCount": 2900,
     "activeScopeQuestionCount": 1864,
-    "questionRecordsUpdated": 8,
+    "questionRecordsUpdated": 1,
     "updatedQuestionIds": [
-      "b8-009",
-      "b16-023",
-      "b21-030",
-      "b27-039",
-      "b30-030",
-      "b32-028",
-      "b33-038",
-      "b34-035"
+      "b21-072"
     ],
-    "semesterAssignments": 3,
+    "semesterAssignments": 1,
     "semesterCorrections": 0,
     "examPeriodAssignments": 0,
-    "publisherMappingsAdded": 2,
-    "publisherMappingReferencesAdded": 8,
+    "examPeriodCorrections": 0,
+    "publisherMappingsAdded": 0,
+    "publisherMappingReferencesAdded": 1,
     "publisherMappingReferencesRemoved": 0,
     "publisherMappingReferencesCorrected": 0,
     "newQuestionsAdded": 0,
     "fullCorpusSemesterDistribution": {
-      "unassigned": 2211,
-      "上學期": 463,
+      "unassigned": 2210,
+      "上學期": 464,
       "下學期": 152,
       "全學年": 74,
       "_total": 2900
@@ -6853,53 +6850,53 @@
       "_total": 2900
     },
     "fullCorpusClassificationBasisDistribution": {
-      "curriculum-core": 2226,
-      "publisher-source-verified": 418,
+      "curriculum-core": 2225,
+      "publisher-source-verified": 419,
       "question-bank-inference": 256,
       "_total": 2900
     },
     "fullCorpusPublisherStatusDistribution": {
-      "curriculum-core": 2366,
-      "publisher-mapped": 528,
+      "curriculum-core": 2365,
+      "publisher-mapped": 529,
       "pending": 6,
       "_total": 2900
     },
     "fullCorpusConfidenceDistribution": {
-      "low": 2096,
-      "medium": 768,
+      "low": 2095,
+      "medium": 769,
       "high": 36,
       "_total": 2900
     },
     "sourceBatchShasMatch": "34/34",
-    "classificationRuleVersion": "2026-11-17.90",
+    "classificationRuleVersion": "2026-11-17.91",
     "publisherReferenceCounts": {
       "knsh": 140,
-      "hanlin": 426,
+      "hanlin": 427,
       "nani": 70,
-      "_total": 636
+      "_total": 637
     },
     "validPublisherReferenceCounts": {
       "knsh": 136,
-      "hanlin": 426,
+      "hanlin": 427,
       "nani": 70,
-      "_total": 632
+      "_total": 633
     },
     "mappingLevelCounts": {
       "official-resource-title": 53,
-      "unit": 448,
+      "unit": 449,
       "volume": 135,
-      "_total": 636
+      "_total": 637
     },
     "validMappingLevelCounts": {
       "official-resource-title": 53,
-      "unit": 444,
+      "unit": 445,
       "volume": 135,
-      "_total": 632
+      "_total": 633
     },
     "mappingVerificationStatusCounts": {
-      "source-checked": 632,
+      "source-checked": 633,
       "source-unavailable": 4,
-      "_total": 636
+      "_total": 637
     },
     "centralMappingCount": 59,
     "validation": {
@@ -6915,9 +6912,9 @@
       "sourceFieldErrors": 0,
       "mappingScopeErrors": 0,
       "sourceBatchShasMatch": "34/34",
-      "updatedQuestionsChecked": 8,
+      "updatedQuestionsChecked": 1,
       "updatedQuestionIdsReachable": true,
-      "targetedPublisherSemesterFilterCasesTested": 8,
+      "targetedPublisherSemesterFilterCasesTested": 5,
       "targetedCasesPassed": true,
       "filterCombinationsTested": 7800,
       "nonZeroFilterCombinations": 575,
@@ -6931,14 +6928,14 @@
       "serviceWorkerAssetManifestComplete": true,
       "filterUiRuntimeTested": false,
       "browserOrMobileRuntimeTested": false,
-      "mappingReferenceCount": 636,
-      "validMappingReferenceCount": 632,
+      "mappingReferenceCount": 637,
+      "validMappingReferenceCount": 633,
       "inferenceSyntaxValid": true,
       "inferenceRuntimeTested": true,
-      "inferenceRuntimeCasesTested": 8,
+      "inferenceRuntimeCasesTested": 2,
       "inferenceRuntimeFailures": 0
     },
-    "notes": "依康軒官方114學年度自然領域文宣，將六年級自然「簡單機械」5題對照六下單元一，及「能量轉換」3題對照六下單元二。簡單機械原有學期下學期推定保留但分類依據升級為出版社來源核對；3題能量轉換由unassigned推定為下學期。8題均只標康軒114版單元層級；學校採用版本未確認，段考維持unassigned。沒有新增題目或修改原始題幹、選項、答案、解析。 分類推定器語法檢查通過，8/8筆目標題目實際呼叫 questionClassificationFor 均回傳康軒source-checked單元映射。"
+    "notes": "b21-072行政聽證程序新增翰林公民與社會(3)乙版第9單元單元層級映射；題目學期由unassigned改為上學期，段考仍unassigned。原始題目、選項、答案與解析未修改；不宣稱學校採用版本或教師審核。"
   },
   "latestMappingScopeCorrection": {
     "date": "2026-11-14",
@@ -6968,24 +6965,24 @@
   },
   "lastMappingReferenceAudit": {
     "auditedAt": "2026-11-17",
-    "mappingReferences": 636,
-    "validMappingReferences": 632,
+    "mappingReferences": 637,
+    "validMappingReferences": 633,
     "centralRegistryCount": 59,
-    "registryReferencesFound": 632,
+    "registryReferencesFound": 633,
     "missingRegistryReferences": 0,
     "sourceFieldErrors": 0,
     "mappingScopeErrors": 0,
-    "result": "632 source-checked mapping references validated; 4 historical source-unavailable references remain excluded from publisher filters."
+    "result": "633 source-checked mapping references validated; 4 historical source-unavailable references remain excluded from publisher filters."
   },
   "lastFilterDataAudit": {
-    "auditedAt": "2026-11-16",
-    "type": "full-corpus-persisted-classification-filter-regression",
+    "auditedAt": "2026-11-17",
+    "type": "persisted-classification-filter-regression",
     "fullCorpusQuestionCount": 2900,
     "questionsChecked": 2900,
     "gradeSubjectCombinations": 48,
     "filterCombinationsTested": 7800,
-    "nonZeroCombinations": 554,
-    "zeroResultConditionsTested": 7246,
+    "nonZeroCombinations": 575,
+    "zeroResultConditionsTested": 7225,
     "publisherMappingLeaks": 0,
     "filterErrors": 0,
     "allModeReachable": true,
@@ -6993,14 +6990,9 @@
     "appReadsPersistedClassificationIndex": true,
     "zeroResultHintPresent": true,
     "serviceWorkerAssetManifestComplete": true,
-    "high2MathTrackCounts": {
-      "數學A": 79,
-      "數學B": 0,
-      "未標示軌別": 133,
-      "全部軌別": 212
-    },
+    "b21_072HanlinUpperSemesterExamUnassigned": true,
     "browserOrMobileRuntimeTested": false,
-    "note": "依index.html getPool的持久分類欄位與篩選順序，對48組年級／科目、6種出版社／狀態、5種學期及5種段考執行7,200組；另對高二數學4種軌別執行600組。資料層測試不取代瀏覽器／手機實機測試。"
+    "note": "依index.html getPool之持久分類欄位、出版社／學期／段考條件及高二數學軌別條件進行資料層回歸；未執行瀏覽器或手機實機測試。"
   },
   "notes": " 2026-11-14：新增國立臺北教育大學六年級自然上學期單元四「電磁作用」課程參考，12題串聯／並聯電路僅回填上學期，不掛出版社、不填段考。 2026-11-15：依國立臺北教育大學雙語教學研究中心官方單元目錄，新增3題六年級自然電磁鐵／線圈題目的上學期課程核心分類；段考維持unassigned，不掛出版社。 2026-11-15：新增六年級自然「簡單機械」及「地質的變化」課程參考；7題依題庫知識點推定學期，沒有出版社官方單元來源，故不新增出版社映射。 分類器載入修復：補齊5筆既有MAPS物件鍵並移除重複CURRICULUM_REFERENCES宣告；JavaScript語法編譯通過，publisher filter仍僅依持久映射資料判斷。 推定器持久化保護：有分類索引紀錄的題目不再被執行時推定覆蓋；未分類值必須先寫回分類分片才會反映在篩選器。 最終逐題執行分類器驗證：第8至41批2,900題均讀取持久分類索引，187筆出版社映射參照全部通過，學期／段考與持久資料差異0。\n\n2026-11-15.55：重新核對國北教大六年級自然單元目錄與教育部教育雲「珍愛家園」「野生動物生態系」資源，持久更新7題（上學期3、下學期4）。均為題庫推定、中等信心、段考未分類、共同核心狀態；沒有出版社映射或新增題目。 2026-11-15.56：新增4題六年級自然來源核對分類，新增10筆題目級出版社映射；段考未指定，無新增題目。 2026-11-15.57：高二歷史工業革命單元3題已持久化為翰林歷史(3)單元層級、上學期；段考維持unassigned。 2026-11-15.58：持久分類b39-091、b41-092兩題高二歷史帝國主義／十九世紀西方霸權題，依翰林歷史(3)第5單元「西方與世界1」官方目次與課本頁標記上學期、翰林單元層級映射；段考unassigned。 2026-11-15.60：新增翰林歷史(3)第2單元啟蒙運動與第7單元冷戰期間政治局勢映射，並擴充既有第3單元工業革命別名；只回填題幹與單元直接相符的3題。 2026-11-15.64：高二公民與社會(3)第4單元「外部成本與聯合行為」新增9題持久出版社映射；學期上學期、段考unassigned、confidence=medium；未新增題目。\n本次2026-11-15.66新增六年級自然電磁作用三版本單元映射；詳細來源與題目ID見sourceVerificationLog及latestMainClassificationAudit。 2026-11-16.68：為19題六年級數學「基準量和比較量」補上康軒6下第4單元映射；依翰林國小輔教行銷處第50頁三版本對照表，保留既有南一6下與翰林6上映射。段考維持unassigned，未新增題目；來源不是康軒出版社自身課本詳情頁或學校採用證明。\n2026-11-16分類補強：12題持久更新（9題出版社映射、3題共同核心學期回填）；映射參照新增19筆，未新增題目。來源核對涵蓋六年級比與比值、水循環凝結、熱傳導／保溫，以及高二公民外部性、高二歷史啟蒙思想；另依國北教大官方目錄回填六年級電磁作用上學期。全庫出版社映射438題／542筆參照，中央映射46筆；學期上417／下135／全學年74／未分類2,274，段考未分類2,669。7,650組篩選資料層測試543組有題、7,107組合理零題、映射洩漏0。未宣稱學校採用版本或教師審核，未新增題目。 2026-11-16.75：高二公民價格上限兩題依翰林官方配套評量目次第3單元持久映射；學期上學期、段考維持unassigned。全庫2,900題，出版社映射448題／552筆參照，中央映射49筆。 2026-11-16.80：高二公民「依法行政與行政救濟」單元逐題回填29題；依翰林官方跨版本對照表第9單元對應翰林公民與社會(3)乙版第2-3章，官方商品頁009121確認高二上學期。29題持久分類為上學期、publisher-source-verified、medium，新增29筆翰林單元映射；段考全數unassigned。全庫2,900題／唯一ID不變，分類紀錄2,900筆，出版社映射488題／592筆引用；學期上444／下146／全學年74／未分類2,236，段考未分類2,673。7,800組資料層篩選非零575、合理零題7,225、映射洩漏0、篩選錯誤0。原始題庫未改寫，新增題目0；未執行瀏覽器／手機實機測試。\n2026-11-16：依六個持久分類分片同步全庫統計；出版社篩選只採用source-checked映射，13筆失效來源保留追溯但排除。 2026-11-17.88：依康軒官方114學年度自然領域文宣，持久更新9題六年級自然食物鏈／食物網／生物多樣性題目（b15-022、b24-032、b25-030、b30-025、b31-036、b32-027、b33-033、b35-033、b36-040），改接康軒114版六下單元三「地球的生態」；semester=下學期、examPeriod=unassigned、confidence=medium。推定器新增該映射至MAPS並更新規則；原113版來源失效不再用於篩選。 依康軒官方114學年度自然領域文宣，將六年級自然「簡單機械」5題對照六下單元一，及「能量轉換」3題對照六下單元二。簡單機械原有學期下學期推定保留但分類依據升級為出版社來源核對；3題能量轉換由unassigned推定為下學期。8題均只標康軒114版單元層級；學校採用版本未確認，段考維持unassigned。沒有新增題目或修改原始題幹、選項、答案、解析。 2026-11-17.90：依康軒114自然官方文宣，六年級自然8題分別映射六下單元一簡單機械5題、單元二能量與生活3題；段考未指定，新增題目0。",
   "latestCurriculumUnitClassificationAudit": {
@@ -7267,37 +7259,28 @@
     }
   ],
   "latestMainAudit": {
-    "runId": "2026-11-17-knsh-g6-natural-simple-machines-energy-life-backfill-01",
+    "runId": "2026-11-17-hanlin-h2-civic-administrative-hearing-backfill-01",
     "date": "2026-11-17",
-    "sourceHeadBeforeRun": "59a8757103dfbcb2cb7e48e8dcca545d8aa87162",
-    "classificationDataHeadAfterUpdates": "dca4dd1a806a22b0c1f9688fef96f7836479812b",
-    "mainHeadVerifiedBeforeManifestUpdate": "dca4dd1a806a22b0c1f9688fef96f7836479812b",
     "batches": "08-41",
     "batchFileCount": 34,
     "fullCorpusQuestionCount": 2900,
     "activeScopeQuestionCount": 1864,
-    "questionRecordsUpdated": 8,
+    "questionRecordsUpdated": 1,
     "updatedQuestionIds": [
-      "b8-009",
-      "b16-023",
-      "b21-030",
-      "b27-039",
-      "b30-030",
-      "b32-028",
-      "b33-038",
-      "b34-035"
+      "b21-072"
     ],
-    "semesterAssignments": 3,
+    "semesterAssignments": 1,
     "semesterCorrections": 0,
     "examPeriodAssignments": 0,
-    "publisherMappingsAdded": 2,
-    "publisherMappingReferencesAdded": 8,
+    "examPeriodCorrections": 0,
+    "publisherMappingsAdded": 0,
+    "publisherMappingReferencesAdded": 1,
     "publisherMappingReferencesRemoved": 0,
     "publisherMappingReferencesCorrected": 0,
     "newQuestionsAdded": 0,
     "fullCorpusSemesterDistribution": {
-      "unassigned": 2211,
-      "上學期": 463,
+      "unassigned": 2210,
+      "上學期": 464,
       "下學期": 152,
       "全學年": 74,
       "_total": 2900
@@ -7310,53 +7293,53 @@
       "_total": 2900
     },
     "fullCorpusClassificationBasisDistribution": {
-      "curriculum-core": 2226,
-      "publisher-source-verified": 418,
+      "curriculum-core": 2225,
+      "publisher-source-verified": 419,
       "question-bank-inference": 256,
       "_total": 2900
     },
     "fullCorpusPublisherStatusDistribution": {
-      "curriculum-core": 2366,
-      "publisher-mapped": 528,
+      "curriculum-core": 2365,
+      "publisher-mapped": 529,
       "pending": 6,
       "_total": 2900
     },
     "fullCorpusConfidenceDistribution": {
-      "low": 2096,
-      "medium": 768,
+      "low": 2095,
+      "medium": 769,
       "high": 36,
       "_total": 2900
     },
     "sourceBatchShasMatch": "34/34",
-    "classificationRuleVersion": "2026-11-17.90",
+    "classificationRuleVersion": "2026-11-17.91",
     "publisherReferenceCounts": {
       "knsh": 140,
-      "hanlin": 426,
+      "hanlin": 427,
       "nani": 70,
-      "_total": 636
+      "_total": 637
     },
     "validPublisherReferenceCounts": {
       "knsh": 136,
-      "hanlin": 426,
+      "hanlin": 427,
       "nani": 70,
-      "_total": 632
+      "_total": 633
     },
     "mappingLevelCounts": {
       "official-resource-title": 53,
-      "unit": 448,
+      "unit": 449,
       "volume": 135,
-      "_total": 636
+      "_total": 637
     },
     "validMappingLevelCounts": {
       "official-resource-title": 53,
-      "unit": 444,
+      "unit": 445,
       "volume": 135,
-      "_total": 632
+      "_total": 633
     },
     "mappingVerificationStatusCounts": {
-      "source-checked": 632,
+      "source-checked": 633,
       "source-unavailable": 4,
-      "_total": 636
+      "_total": 637
     },
     "centralMappingCount": 59,
     "validation": {
@@ -7372,9 +7355,9 @@
       "sourceFieldErrors": 0,
       "mappingScopeErrors": 0,
       "sourceBatchShasMatch": "34/34",
-      "updatedQuestionsChecked": 8,
+      "updatedQuestionsChecked": 1,
       "updatedQuestionIdsReachable": true,
-      "targetedPublisherSemesterFilterCasesTested": 8,
+      "targetedPublisherSemesterFilterCasesTested": 5,
       "targetedCasesPassed": true,
       "filterCombinationsTested": 7800,
       "nonZeroFilterCombinations": 575,
@@ -7388,14 +7371,14 @@
       "serviceWorkerAssetManifestComplete": true,
       "filterUiRuntimeTested": false,
       "browserOrMobileRuntimeTested": false,
-      "mappingReferenceCount": 636,
-      "validMappingReferenceCount": 632,
+      "mappingReferenceCount": 637,
+      "validMappingReferenceCount": 633,
       "inferenceSyntaxValid": true,
       "inferenceRuntimeTested": true,
-      "inferenceRuntimeCasesTested": 8,
+      "inferenceRuntimeCasesTested": 2,
       "inferenceRuntimeFailures": 0
     },
-    "notes": "依康軒官方114學年度自然領域文宣，將六年級自然「簡單機械」5題對照六下單元一，及「能量轉換」3題對照六下單元二。簡單機械原有學期下學期推定保留但分類依據升級為出版社來源核對；3題能量轉換由unassigned推定為下學期。8題均只標康軒114版單元層級；學校採用版本未確認，段考維持unassigned。沒有新增題目或修改原始題幹、選項、答案、解析。 分類推定器語法檢查通過，8/8筆目標題目實際呼叫 questionClassificationFor 均回傳康軒source-checked單元映射。"
+    "notes": "b21-072行政聽證程序新增翰林公民與社會(3)乙版第9單元單元層級映射；題目學期由unassigned改為上學期，段考仍unassigned。原始題目、選項、答案與解析未修改；不宣稱學校採用版本或教師審核。"
   },
   "statistics": {
     "questionCount": 2900,
@@ -7405,8 +7388,8 @@
     "missingRequiredFields": 0,
     "invalidClassificationValues": 0,
     "semester": {
-      "unassigned": 2211,
-      "上學期": 463,
+      "unassigned": 2210,
+      "上學期": 464,
       "下學期": 152,
       "全學年": 74,
       "_total": 2900
@@ -7419,51 +7402,51 @@
       "_total": 2900
     },
     "classificationBasis": {
-      "curriculum-core": 2226,
-      "publisher-source-verified": 418,
+      "curriculum-core": 2225,
+      "publisher-source-verified": 419,
       "question-bank-inference": 256,
       "_total": 2900
     },
     "publisherStatus": {
-      "curriculum-core": 2366,
-      "publisher-mapped": 528,
+      "curriculum-core": 2365,
+      "publisher-mapped": 529,
       "pending": 6,
       "_total": 2900
     },
     "confidence": {
-      "low": 2096,
-      "medium": 768,
+      "low": 2095,
+      "medium": 769,
       "high": 36,
       "_total": 2900
     },
-    "publisherMappedQuestionCount": 528,
-    "publisherMappingReferenceCount": 636,
-    "validPublisherMappingReferenceCount": 632,
+    "publisherMappedQuestionCount": 529,
+    "publisherMappingReferenceCount": 637,
+    "validPublisherMappingReferenceCount": 633,
     "centralMappingRegistryCount": 59,
     "pendingQuestionCount": 6,
-    "curriculumCoreStatusCount": 2366,
+    "curriculumCoreStatusCount": 2365,
     "publisherReferenceCounts": {
       "knsh": 140,
-      "hanlin": 426,
+      "hanlin": 427,
       "nani": 70
     },
     "validPublisherReferenceCounts": {
       "knsh": 136,
-      "hanlin": 426,
+      "hanlin": 427,
       "nani": 70
     },
     "mappingLevelCounts": {
       "official-resource-title": 53,
-      "unit": 448,
+      "unit": 449,
       "volume": 135
     },
     "validMappingLevelCounts": {
       "official-resource-title": 53,
-      "unit": 444,
+      "unit": 445,
       "volume": 135
     },
     "mappingVerificationStatus": {
-      "source-checked": 632,
+      "source-checked": 633,
       "source-unavailable": 4
     },
     "mappingReferenceErrors": 0,
@@ -7473,8 +7456,8 @@
     "activeScope": {
       "questionCount": 1864,
       "semester": {
-        "unassigned": 1175,
-        "上學期": 463,
+        "unassigned": 1174,
+        "上學期": 464,
         "下學期": 152,
         "全學年": 74,
         "_total": 1864
@@ -7490,9 +7473,9 @@
   },
   "mappingLevelCountsBatches08to41": {
     "official-resource-title": 53,
-    "unit": 448,
+    "unit": 449,
     "volume": 135,
-    "_total": 636
+    "_total": 637
   },
   "mainClassificationAuditHistory": [
     {
@@ -8418,6 +8401,128 @@
         "inferenceRuntimeFailures": 0
       },
       "notes": "依康軒官方114學年度自然領域文宣，將六年級自然「簡單機械」5題對照六下單元一，及「能量轉換」3題對照六下單元二。簡單機械原有學期下學期推定保留但分類依據升級為出版社來源核對；3題能量轉換由unassigned推定為下學期。8題均只標康軒114版單元層級；學校採用版本未確認，段考維持unassigned。沒有新增題目或修改原始題幹、選項、答案、解析。 分類推定器語法檢查通過，8/8筆目標題目實際呼叫 questionClassificationFor 均回傳康軒source-checked單元映射。"
+    },
+    {
+      "runId": "2026-11-17-hanlin-h2-civic-administrative-hearing-backfill-01",
+      "date": "2026-11-17",
+      "batches": "08-41",
+      "batchFileCount": 34,
+      "fullCorpusQuestionCount": 2900,
+      "activeScopeQuestionCount": 1864,
+      "questionRecordsUpdated": 1,
+      "updatedQuestionIds": [
+        "b21-072"
+      ],
+      "semesterAssignments": 1,
+      "semesterCorrections": 0,
+      "examPeriodAssignments": 0,
+      "examPeriodCorrections": 0,
+      "publisherMappingsAdded": 0,
+      "publisherMappingReferencesAdded": 1,
+      "publisherMappingReferencesRemoved": 0,
+      "publisherMappingReferencesCorrected": 0,
+      "newQuestionsAdded": 0,
+      "fullCorpusSemesterDistribution": {
+        "unassigned": 2210,
+        "上學期": 464,
+        "下學期": 152,
+        "全學年": 74,
+        "_total": 2900
+      },
+      "fullCorpusExamPeriodDistribution": {
+        "unassigned": 2673,
+        "第一次段考": 65,
+        "第二次段考": 71,
+        "第三次段考": 91,
+        "_total": 2900
+      },
+      "fullCorpusClassificationBasisDistribution": {
+        "curriculum-core": 2225,
+        "publisher-source-verified": 419,
+        "question-bank-inference": 256,
+        "_total": 2900
+      },
+      "fullCorpusPublisherStatusDistribution": {
+        "curriculum-core": 2365,
+        "publisher-mapped": 529,
+        "pending": 6,
+        "_total": 2900
+      },
+      "fullCorpusConfidenceDistribution": {
+        "low": 2095,
+        "medium": 769,
+        "high": 36,
+        "_total": 2900
+      },
+      "sourceBatchShasMatch": "34/34",
+      "classificationRuleVersion": "2026-11-17.91",
+      "publisherReferenceCounts": {
+        "knsh": 140,
+        "hanlin": 427,
+        "nani": 70,
+        "_total": 637
+      },
+      "validPublisherReferenceCounts": {
+        "knsh": 136,
+        "hanlin": 427,
+        "nani": 70,
+        "_total": 633
+      },
+      "mappingLevelCounts": {
+        "official-resource-title": 53,
+        "unit": 449,
+        "volume": 135,
+        "_total": 637
+      },
+      "validMappingLevelCounts": {
+        "official-resource-title": 53,
+        "unit": 445,
+        "volume": 135,
+        "_total": 633
+      },
+      "mappingVerificationStatusCounts": {
+        "source-checked": 633,
+        "source-unavailable": 4,
+        "_total": 637
+      },
+      "centralMappingCount": 59,
+      "validation": {
+        "jsonParse": true,
+        "classificationRecords": 2900,
+        "uniqueIds": 2900,
+        "duplicateIds": 0,
+        "missingFromClassification": 0,
+        "extraClassificationIds": 0,
+        "missingRequiredFields": 0,
+        "invalidClassificationValues": 0,
+        "mappingReferenceErrors": 0,
+        "sourceFieldErrors": 0,
+        "mappingScopeErrors": 0,
+        "sourceBatchShasMatch": "34/34",
+        "updatedQuestionsChecked": 1,
+        "updatedQuestionIdsReachable": true,
+        "targetedPublisherSemesterFilterCasesTested": 5,
+        "targetedCasesPassed": true,
+        "filterCombinationsTested": 7800,
+        "nonZeroFilterCombinations": 575,
+        "zeroResultConditionsTested": 7225,
+        "publisherMappingLeaks": 0,
+        "filterErrors": 0,
+        "allModeReachable": true,
+        "allModeQuestionCount": 2900,
+        "appReadsPersistedClassificationIndex": true,
+        "zeroResultHintPresent": true,
+        "serviceWorkerAssetManifestComplete": true,
+        "filterUiRuntimeTested": false,
+        "browserOrMobileRuntimeTested": false,
+        "mappingReferenceCount": 637,
+        "validMappingReferenceCount": 633,
+        "inferenceSyntaxValid": true,
+        "inferenceRuntimeTested": true,
+        "inferenceRuntimeCasesTested": 2,
+        "inferenceRuntimeFailures": 0
+      },
+      "notes": "b21-072行政聽證程序新增翰林公民與社會(3)乙版第9單元單元層級映射；題目學期由unassigned改為上學期，段考仍unassigned。原始題目、選項、答案與解析未修改；不宣稱學校採用版本或教師審核。"
     }
   ],
   "latestMetadataAudit": {
@@ -8450,7 +8555,7 @@
       "centralMappingCount": 39
     }
   },
-  "classificationRuleVersion": "2026-11-17.90",
+  "classificationRuleVersion": "2026-11-17.91",
   "classificationPersistenceRunsRecovery": {
     "repairedAt": "2026-11-16",
     "previousLength": 337,
@@ -8459,8 +8564,8 @@
     "note": "原欄位含336個字串字元（由錯誤字串展開產生）及1筆完整物件；保留完整物件與本次稽核，移除無法作為稽核紀錄的字元片段。"
   },
   "latestCivicUnitClassificationAudit": {
-    "runId": "2026-11-16-hanlin-h2-civic-admin-law-backfill-01",
-    "verifiedAt": "2026-11-16",
+    "runId": "2026-11-17-hanlin-h2-civic-administrative-hearing-backfill-01",
+    "verifiedAt": "2026-11-17",
     "grade": "高二",
     "subject": "公民",
     "unit": "依法行政與行政救濟",
@@ -8493,9 +8598,10 @@
       "b39-094",
       "b39-095",
       "b40-091",
-      "b40-092"
+      "b40-092",
+      "b21-072"
     ],
-    "questionCount": 29,
+    "questionCount": 30,
     "semester": "上學期",
     "examPeriod": "unassigned",
     "classificationBasis": "publisher-source-verified",
@@ -8506,11 +8612,14 @@
     "sourceUrls": [
       "https://fliphtml5.com/cojaq/hgym/%E8%B6%85%E5%A5%BD%E5%AD%B8%E8%A4%87%E7%BF%92%E8%AC%9B%E7%BE%A9-%E5%85%AC%E6%B0%91%E8%88%87%E7%A4%BE%E6%9C%83/8/",
       "https://books.hanlin.com.tw/product/009121",
-      "https://fliphtml5.com/cojaq/tpvy/%E9%97%9C%E9%8D%B560%E5%A4%A9-%E5%85%AC%E6%B0%91%E8%88%87%E7%A4%BE%E6%9C%83/6/"
+      "https://fliphtml5.com/cojaq/tpvy/%E9%97%9C%E9%8D%B560%E5%A4%A9-%E5%85%AC%E6%B0%91%E8%88%87%E7%A4%BE%E6%9C%83/6/",
+      "https://fliphtml5.com/cojaq/hygm/%E8%B6%85%E5%A5%BD%E5%AD%B8%E8%A4%87%E7%BF%92%E8%AC%9B%E7%BE%A9-%E5%85%AC%E6%B0%91%E8%88%87%E7%A4%BE%E6%9C%83/8/",
+      "https://fliphtml5.com/cojaq/wwbe/%E8%B6%85%E5%A5%BD%E5%AD%B8%E8%A4%87%E7%BF%92%E8%AC%9B%E7%BE%A9-%E5%85%AC%E6%B0%91%E8%88%87%E7%A4%BE%E6%9C%83/",
+      "https://fliphtml5.com/cojaq/tpvy/%E9%97%9C%E9%8D%B560%E5%A4%A9-%E5%85%AC%E6%B0%91%E8%88%87%E7%A4%BE%E6%9C%83/"
     ],
-    "newMappingReferences": 29,
+    "newMappingReferences": 1,
     "teacherConfirmed": false,
-    "notes": "29題皆直接考查法律保留、比例原則或行政救濟；出版社跨版本對照表將第9單元對應翰林公民與社會(3)乙版第2-3章，官方商品頁確認高二公民上學期。段考維持未分類。"
+    "notes": "本輪新增b21-072行政聽證程序1題；翰林官方跨版本表對應第9單元及2-3章，官方參考內容明列聽證權，課本商品頁確認高二公民上學期。段考維持unassigned；不代表學校採用版本或教師審核。"
   },
   "latestSourceAvailabilityAudit": {
     "runId": "2026-11-16-coldwar-social-source-recheck-and-natural-404-01",
