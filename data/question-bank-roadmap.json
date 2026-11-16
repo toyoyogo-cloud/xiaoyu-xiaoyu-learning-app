@@ -3,7 +3,7 @@
   "target": 1000,
   "currentVerifiedNewGradeSpecificQuestions": 2900,
   "targetRemainder": 0,
-  "updatedAt": "2026-11-15",
+  "updatedAt": "2026-11-16",
   "distributionTarget": [
     {
       "stage": "國小",
@@ -1367,22 +1367,62 @@
     "filterCombinationsTested": 194400
   },
   "latestClassificationBackfill": {
-    "auditedAt": "2026-11-14",
-    "branch": "main",
-    "sourceHeadBeforeRun": "7cc979331423d38f5fb744c8674a97c3921e0021",
-    "sourceHeadAfterRun": "9172d46f253a86ea864772008c5b1eaf2f231deb",
-    "batchRange": "08-41",
+    "runId": "2026-11-16-hanlin-h2-civic-admin-law-backfill-01",
+    "date": "2026-11-16",
+    "sourceHeadBeforeRun": "fa9c83011b495a530a6c86f022793777d32f0659",
+    "batches": "08-41",
     "batchFileCount": 34,
-    "batchQuestionCounts": {
-      "22": 101,
-      "08-14": 199,
-      "15-21": 700,
-      "23-29": 700,
-      "30-41": 1200
+    "totalQuestions": 2900,
+    "uniqueIds": 2900,
+    "duplicateIds": 0,
+    "basicClassificationFieldsComplete": 2900,
+    "extendedMetadataComplete": 2900,
+    "extendedMetadataRemaining": 0,
+    "classificationIndexEntries": 2900,
+    "missingIndexIds": 0,
+    "extraIndexIds": 0,
+    "semesterDistribution": {
+      "unassigned": 2236,
+      "上學期": 444,
+      "下學期": 146,
+      "全學年": 74
     },
-    "questionCount": 2900,
-    "uniqueQuestionIds": 2900,
-    "duplicateQuestionIds": 0,
+    "examPeriodDistribution": {
+      "unassigned": 2673,
+      "第一次段考": 65,
+      "第二次段考": 71,
+      "第三次段考": 91
+    },
+    "classificationBasisDistribution": {
+      "curriculum-core": 2251,
+      "question-bank-inference": 262,
+      "publisher-source-verified": 387
+    },
+    "publisherStatusDistribution": {
+      "curriculum-core": 2406,
+      "publisher-mapped": 488,
+      "pending": 6
+    },
+    "confidenceDistribution": {
+      "low": 2119,
+      "medium": 735,
+      "high": 46
+    },
+    "publisherMappedQuestions": 488,
+    "publisherMappingReferences": 592,
+    "publisherReferenceCounts": {
+      "hanlin": 398,
+      "knsh": 124,
+      "nani": 70
+    },
+    "mappingVerificationStatusCounts": {
+      "source-checked": 592
+    },
+    "mappingLevelCounts": {
+      "volume": 126,
+      "unit": 416,
+      "official-resource-title": 50
+    },
     "gradeDistribution": {
       "五年級": 290,
       "六年級": 890,
@@ -1390,98 +1430,101 @@
       "高二": 974,
       "高三": 373
     },
-    "unitLabelCoverage": {
-      "questionsWithUnitOrTopic": 2900,
-      "missingUnitOrTopic": 0
+    "activeScope": {
+      "questionCount": 1864,
+      "gradeCounts": {
+        "六年級": 890,
+        "高二": 974
+      },
+      "semester": {
+        "unassigned": 1200,
+        "上學期": 444,
+        "下學期": 146,
+        "全學年": 74
+      },
+      "examPeriod": {
+        "unassigned": 1637,
+        "第一次段考": 65,
+        "第二次段考": 71,
+        "第三次段考": 91
+      },
+      "publisherStatus": {
+        "curriculum-core": 1370,
+        "publisher-mapped": 488,
+        "pending": 6
+      }
     },
-    "storedClassificationFields": {
-      "complete": 2900,
-      "missing": 0,
-      "fields": [
-        "semester",
-        "examPeriod",
-        "classificationBasis",
-        "confidence",
-        "publisherStatus",
-        "publisherMappings",
-        "classificationNotes",
-        "sourceRef",
-        "learningDomain",
-        "questionType",
-        "learningUnit",
-        "difficultyLevel"
-      ]
-    },
-    "extendedMetadata": {
-      "complete": 2900,
-      "remaining": 0,
-      "classificationIndexEntries": 2900,
-      "learningDomain": 2900,
-      "questionType": 2900,
-      "learningUnit": 2900,
-      "difficultyLevel": 2900
-    },
-    "classificationBasisDistribution": {
-      "publisher-source-verified": 123,
-      "question-bank-inference": 152,
-      "curriculum-core": 2621,
-      "unassigned": 4
-    },
-    "semesterDistribution": {
-      "上學期": 168,
-      "下學期": 107,
-      "全學年": 0,
-      "unassigned": 2625
-    },
-    "examPeriodDistribution": {
-      "第一次段考": 66,
-      "第二次段考": 71,
-      "第三次段考": 94,
-      "unassigned": 2669
-    },
-    "publisherStatusDistribution": {
-      "publisher-mapped": 123,
-      "curriculum-core": 2660,
-      "pending": 117
-    },
-    "publisherMappedQuestionCount": 123,
-    "publisherMappingReferenceCount": 123,
-    "centralMappingRegistryCount": 16,
-    "publisherReferenceCounts": {
-      "hanlin": 79,
-      "knsh": 9,
-      "nani": 35
-    },
-    "mappingVerificationStatusCounts": {
-      "source-checked": 115,
-      "official-index-link-only": 8
-    },
-    "mappingLevelCounts": {
-      "unit": 107,
-      "official-resource-title": 16
-    },
-    "confidenceDistribution": {
-      "low": 2446,
-      "medium": 426,
-      "high": 28
-    },
-    "pendingQuestionCount": 117,
-    "mappingValidationThisRun": {
-      "mappingReferences": 123,
-      "registryReferencesFound": 123,
-      "sourceFieldErrors": 0,
-      "gradeSubjectSemesterTrackErrors": 0,
-      "courseTypeErrors": 0,
-      "unitOrVolumeScopeErrors": 0,
-      "unsupportedElectiveMappingsRemoved": 211,
-      "officialSourcePagesReopened": 0,
-      "limitation": "本次未重新開啟出版社官方頁；剩餘映射沿用既有中央來源登錄並完成內部一致性檢查。"
-    },
+    "updatedQuestionIds": [
+      "b8-028",
+      "b9-013",
+      "b10-021",
+      "b11-020",
+      "b12-023",
+      "b16-070",
+      "b17-070",
+      "b19-072",
+      "b22-055",
+      "b23-071",
+      "b23-072",
+      "b25-079",
+      "b25-080",
+      "b26-079",
+      "b26-080",
+      "b29-074",
+      "b30-096",
+      "b30-097",
+      "b30-098",
+      "b31-094",
+      "b33-093",
+      "b34-093",
+      "b36-092",
+      "b38-093",
+      "b39-093",
+      "b39-094",
+      "b39-095",
+      "b40-091",
+      "b40-092"
+    ],
+    "questionRecordsUpdated": 29,
+    "semesterAssignments": 29,
+    "examPeriodAssignments": 0,
+    "publisherMappingsAdded": 29,
     "newQuestionsAdded": 0,
-    "serviceWorkerCache": "xy-learning-v92",
-    "browserTested": false,
-    "notes": "2,900題均有持久分類索引；211筆未明示相同選修courseType的高二物理／化學／生物映射已撤除，並清除僅由該映射帶入的學期分類。剩餘123筆出版社映射通過內部範圍驗證。",
-    "batches": "08-41"
+    "sourceBatchShasMatch": "34/34",
+    "validation": {
+      "duplicateIds": 0,
+      "missingRequiredFields": 0,
+      "invalidClassificationValues": 0,
+      "mappingConsistencyErrors": 0,
+      "rawBatchShaMatches": "34/34",
+      "filterCombinationsTested": 7800,
+      "filterErrors": 0,
+      "publisherFilterLeaks": 0,
+      "allModeQuestionCount": 2900,
+      "allUpdatedQuestionsReachable": true,
+      "classificationIndexStatisticsSynced": true,
+      "classificationIndexEntries": 2900,
+      "indexStatsMatchCurrentShards": true,
+      "browserOrMobileRuntimeTested": false,
+      "serviceWorkerCache": "xy-learning-v166"
+    },
+    "filterValidation": {
+      "auditedAt": "2026-11-16",
+      "questionsChecked": 2900,
+      "gradeSubjectCombinations": 48,
+      "filterCombinationsTested": 7800,
+      "nonZeroCombinations": 575,
+      "zeroResultCombinations": 7225,
+      "publisherMappingLeaks": 0,
+      "filterErrors": 0,
+      "allModeReachable": true,
+      "allModeQuestionCount": 2900,
+      "appReadsPersistedClassificationIndex": true,
+      "zeroResultHintPresent": true,
+      "browserOrMobileRuntimeTested": false
+    },
+    "nextClassificationWork": "繼續處理國小六年級自然／社會與高中二年級地理、英文、地球科學、國文尚未分類題目；逐題核對官方教材目次與教學資源，來源不足就保留共同核心或待核對，段考無正式範圍不推定。",
+    "notes": "本輪未新增題目。29題高二公民法律保留、比例原則與行政救濟題依翰林官方跨版本對照表及書城商品頁持久回填上學期與翰林單元映射；段考維持unassigned。原始34批題庫未改寫。"
   },
   "batch09UnassignedReview": {
     "date": "2026-11-13",
@@ -1754,8 +1797,8 @@
     "notes": "第11批30題已補齊learningDomain、questionType、learningUnit、difficultyLevel並寫入獨立分類索引。b11-005依六年級圓周單元群保留下學期／第一次段考複習建議，不代表學校正式範圍。b11-021及跨批次b12-025、b16-059、b23-074、b37-069原翰林選修物理(II)映射均因電路／電功率超出冊別對照範圍而撤除，改列待核對。其餘無足夠出版社來源者不掛出版社；本次新增題目0題。"
   },
   "latestClassificationProgress": {
-    "auditedAt": "2026-11-15",
-    "sourceHeadBeforeRun": "954bf60b498c549af3fb7a6df33bf15b30c3ba6d",
+    "auditedAt": "2026-11-16",
+    "sourceHeadBeforeRun": "fa9c83011b495a530a6c86f022793777d32f0659",
     "batchRange": "08-41",
     "batchFileCount": 34,
     "totalQuestions": 2900,
@@ -1768,47 +1811,47 @@
     "missingIndexIds": 0,
     "extraIndexIds": 0,
     "semesterDistribution": {
-      "上學期": 357,
-      "下學期": 131,
-      "全學年": 74,
-      "unassigned": 2338
+      "unassigned": 2236,
+      "上學期": 444,
+      "下學期": 146,
+      "全學年": 74
     },
     "examPeriodDistribution": {
-      "第一次段考": 66,
+      "unassigned": 2673,
+      "第一次段考": 65,
       "第二次段考": 71,
-      "第三次段考": 94,
-      "unassigned": 2669
+      "第三次段考": 91
     },
     "classificationBasisDistribution": {
-      "publisher-source-verified": 96,
-      "question-bank-inference": 451,
-      "curriculum-core": 2353
+      "curriculum-core": 2251,
+      "question-bank-inference": 262,
+      "publisher-source-verified": 387
     },
     "publisherStatusDistribution": {
-      "publisher-mapped": 175,
-      "curriculum-core": 2719,
+      "curriculum-core": 2406,
+      "publisher-mapped": 488,
       "pending": 6
     },
     "confidenceDistribution": {
-      "low": 2384,
-      "medium": 488,
-      "high": 28
+      "low": 2119,
+      "medium": 735,
+      "high": 46
     },
-    "publisherMappedQuestions": 175,
+    "publisherMappedQuestions": 488,
     "pendingQuestions": 6,
     "publisherReferenceCounts": {
-      "hanlin": 87,
-      "knsh": 64,
-      "nani": 48
+      "hanlin": 398,
+      "knsh": 124,
+      "nani": 70
     },
     "mappingVerificationStatusCounts": {
-      "source-checked": 199
+      "source-checked": 592
     },
     "mappingLevelCounts": {
-      "unit": 153,
-      "official-resource-title": 46
+      "unit": 416,
+      "volume": 126,
+      "official-resource-title": 50
     },
-    "browserTested": false,
     "gradeDistribution": {
       "五年級": 290,
       "六年級": 890,
@@ -1816,24 +1859,56 @@
       "高二": 974,
       "高三": 373
     },
+    "browserTested": false,
     "nextBatchForClassification": null,
-    "nextClassificationWork": "持續以六年級與高二尚未分類題目為主，逐科逐單元核對官方目次與課綱資料；只有來源同時支持年級、科目、學期／冊別及單元才建立出版社映射。段考缺乏學校正式範圍時維持unassigned；不為增加題數而新增題目。",
+    "nextClassificationWork": "繼續處理國小六年級自然／社會與高中二年級地理、英文、地球科學、國文尚未分類題目；逐題核對官方教材目次與教學資源，來源不足就保留共同核心或待核對，段考無正式範圍不推定。",
+    "questionRecordsUpdated": 29,
+    "updatedQuestionIds": [
+      "b8-028",
+      "b9-013",
+      "b10-021",
+      "b11-020",
+      "b12-023",
+      "b16-070",
+      "b17-070",
+      "b19-072",
+      "b22-055",
+      "b23-071",
+      "b23-072",
+      "b25-079",
+      "b25-080",
+      "b26-079",
+      "b26-080",
+      "b29-074",
+      "b30-096",
+      "b30-097",
+      "b30-098",
+      "b31-094",
+      "b33-093",
+      "b34-093",
+      "b36-092",
+      "b38-093",
+      "b39-093",
+      "b39-094",
+      "b39-095",
+      "b40-091",
+      "b40-092"
+    ],
+    "newQuestionsAdded": 0,
     "filterValidation": {
-      "auditedAt": "2026-11-15",
-      "questionsChecked": 4,
-      "questionIds": [
-        "b32-012",
-        "b33-019",
-        "b37-028",
-        "b39-025"
-      ],
-      "mappingReferencesChecked": 12,
-      "allMappingReferencesResolve": true,
+      "auditedAt": "2026-11-16",
+      "questionsChecked": 2900,
+      "gradeSubjectCombinations": 48,
+      "filterCombinationsTested": 7800,
+      "nonZeroCombinations": 575,
+      "zeroResultCombinations": 7225,
       "publisherMappingLeaks": 0,
       "filterErrors": 0,
-      "browserTested": false,
-      "previousFullCorpusExhaustiveTestPreserved": true,
-      "filterCombinationsTested": 256
+      "allModeReachable": true,
+      "allModeQuestionCount": 2900,
+      "appReadsPersistedClassificationIndex": true,
+      "zeroResultHintPresent": true,
+      "browserOrMobileRuntimeTested": false
     }
   },
   "currentIndexReconciliation": {
@@ -1995,7 +2070,7 @@
     "notes": "本批不新增題目。b15-066與b15-067均採翰林選修物理(II)冊別層級映射；b15-092電功率不掛入該物理II映射，避免超出官方冊別範圍。"
   },
   "nextBatchForClassification": null,
-  "nextClassificationWork": "繼續以至少90%工作量整理既有題庫；優先處理國小六年級與高中高二仍為unassigned的年級／科目／單元群，逐題核對官方教材資源，不足證據不掛出版社、不推段考。",
+  "nextClassificationWork": "繼續處理國小六年級自然／社會與高中二年級地理、英文、地球科學、國文尚未分類題目；逐題核對官方教材目次與教學資源，來源不足就保留共同核心或待核對，段考無正式範圍不推定。",
   "classificationIndexStorage": {
     "manifest": "data/question-classification.json",
     "storageMode": "sharded",
@@ -2013,7 +2088,7 @@
     ]
   },
   "classificationPriorityStatus": {
-    "auditedAt": "2026-11-15",
+    "auditedAt": "2026-11-16",
     "batches": "08-41",
     "batchFileCount": 34,
     "totalQuestions": 2900,
@@ -2024,61 +2099,60 @@
     "requiredFieldsComplete": 2900,
     "extendedMetadataComplete": 2900,
     "classificationBasis": {
-      "curriculumCore": 2330,
-      "questionBankInference": 470,
-      "publisherSourceVerified": 100,
-      "unassigned": 0
+      "curriculum-core": 2251,
+      "question-bank-inference": 262,
+      "publisher-source-verified": 387
     },
     "semester": {
-      "unassigned": 2315,
-      "上學期": 376,
-      "全學年": 74,
-      "下學期": 135
+      "unassigned": 2236,
+      "上學期": 444,
+      "下學期": 146,
+      "全學年": 74
     },
     "examPeriod": {
-      "unassigned": 2669,
-      "第三次段考": 94,
-      "第一次段考": 66,
-      "第二次段考": 71
+      "unassigned": 2673,
+      "第一次段考": 65,
+      "第二次段考": 71,
+      "第三次段考": 91
     },
     "confidence": {
-      "low": 2365,
-      "medium": 507,
-      "high": 28
+      "low": 2119,
+      "medium": 735,
+      "high": 46
     },
     "publisherStatus": {
-      "curriculumCore": 2715,
-      "publisherMapped": 179,
+      "curriculum-core": 2406,
+      "publisher-mapped": 488,
       "pending": 6
     },
     "publisherReferences": {
-      "nani": 51,
-      "hanlin": 90,
-      "knsh": 68
+      "hanlin": 398,
+      "knsh": 124,
+      "nani": 70
     },
-    "centralMappingRegistryCount": 33,
-    "sourceMappingRecordsRefreshed": 209,
+    "centralMappingRegistryCount": 55,
+    "sourceMappingRecordsRefreshed": 592,
     "officialPagesReopened": 3,
     "newQuestionsAdded": 0,
     "activeQuestionCount": 1864,
     "activeScopeSemester": {
-      "unassigned": 1279,
-      "上學期": 376,
-      "全學年": 74,
-      "下學期": 135
+      "unassigned": 1200,
+      "上學期": 444,
+      "下學期": 146,
+      "全學年": 74
     },
     "activeScopePublisherStatus": {
-      "curriculum-core": 1679,
-      "pending": 6,
-      "publisher-mapped": 179
+      "curriculum-core": 1370,
+      "publisher-mapped": 488,
+      "pending": 6
     },
-    "nextPriority": "繼續分組處理國小六年級與高中高二尚未分類的既有題目；優先核對官方教材目次／教學資源，不足證據不掛出版社、不推段考。",
-    "incrementalFilterCombinations": 194400,
+    "nextPriority": "繼續處理國小六年級自然／社會與高中二年級地理、英文、地球科學、國文尚未分類題目；逐題核對官方教材目次與教學資源，來源不足就保留共同核心或待核對，段考無正式範圍不推定。",
+    "filterCombinationsTested": 7800,
     "filterErrors": 0,
     "publisherFilterLeaks": 0,
-    "sourceHead": "0b832a879b4923971c88e89542d2b573d8efb02a",
+    "sourceBatchShasMatch": "34/34",
     "indexStatisticsSynced": true,
-    "serviceWorkerCache": "xy-learning-v134"
+    "serviceWorkerCache": "xy-learning-v166"
   },
   "duplicateCandidateAudit": {
     "auditedAt": "2026-11-14",
@@ -2123,41 +2197,41 @@
   },
   "classificationProgress": {
     "phase": "既有題庫分類優先",
-    "auditedAt": "2026-11-15",
+    "auditedAt": "2026-11-16",
     "batchRange": "08-41",
     "batchFileCount": 34,
     "rawQuestionCount": 2900,
     "uniqueQuestionIds": 2900,
     "persistentClassificationCount": 2900,
     "semester": {
-      "unassigned": 2315,
-      "上學期": 376,
-      "全學年": 74,
-      "下學期": 135
+      "unassigned": 2236,
+      "上學期": 444,
+      "下學期": 146,
+      "全學年": 74
     },
     "examPeriod": {
-      "unassigned": 2669,
-      "第三次段考": 94,
-      "第一次段考": 66,
-      "第二次段考": 71
+      "unassigned": 2673,
+      "第一次段考": 65,
+      "第二次段考": 71,
+      "第三次段考": 91
     },
     "classificationBasis": {
-      "curriculum-core": 2330,
-      "question-bank-inference": 470,
-      "publisher-source-verified": 100
+      "curriculum-core": 2251,
+      "question-bank-inference": 262,
+      "publisher-source-verified": 387
     },
     "publisherStatus": {
-      "curriculum-core": 2715,
-      "pending": 6,
-      "publisher-mapped": 179
+      "curriculum-core": 2406,
+      "publisher-mapped": 488,
+      "pending": 6
     },
-    "publisherMappingReferences": 209,
-    "centralCurriculumReferences": 33,
+    "publisherMappingReferences": 592,
+    "centralCurriculumReferences": 55,
     "sourceRegistryEntries": 38,
     "confidence": {
-      "low": 2365,
-      "medium": 507,
-      "high": 28
+      "low": 2119,
+      "medium": 735,
+      "high": 46
     },
     "activeScope": {
       "questionCount": 1864,
@@ -2166,31 +2240,31 @@
         "高二": 974
       },
       "semester": {
-        "unassigned": 1279,
-        "上學期": 376,
-        "全學年": 74,
-        "下學期": 135
+        "unassigned": 1200,
+        "上學期": 444,
+        "下學期": 146,
+        "全學年": 74
       },
       "examPeriod": {
-        "unassigned": 1633,
-        "第三次段考": 94,
-        "第一次段考": 66,
-        "第二次段考": 71
+        "unassigned": 1637,
+        "第一次段考": 65,
+        "第二次段考": 71,
+        "第三次段考": 91
       },
       "publisherStatus": {
-        "curriculum-core": 1679,
-        "pending": 6,
-        "publisher-mapped": 179
+        "curriculum-core": 1370,
+        "publisher-mapped": 488,
+        "pending": 6
       }
     },
     "lastRun": {
-      "runId": "2026-11-15-g6-natural-water-weather-source-backfill-02",
-      "questionRecordsUpdated": 4,
-      "semesterAssigned": 4,
+      "runId": "2026-11-16-hanlin-h2-civic-admin-law-backfill-01",
+      "questionRecordsUpdated": 29,
+      "semesterAssigned": 29,
       "examPeriodAssigned": 0,
-      "publisherMappingsAdded": 10,
+      "publisherMappingsAdded": 29,
       "newQuestionsAdded": 0,
-      "classificationRuleVersion": "2026-11-15.56"
+      "classificationRuleVersion": "2026-11-16.80"
     },
     "validation": {
       "duplicateIds": 0,
@@ -2198,63 +2272,15 @@
       "invalidClassificationValues": 0,
       "mappingConsistencyErrors": 0,
       "rawBatchShaMatches": "34/34",
-      "incrementalFilterCombinations": 194400,
+      "incrementalFilterCombinations": 7800,
       "filterErrors": 0,
       "publisherFilterLeaks": 0,
       "browserOrMobileRuntimeTested": false,
       "classificationIndexStatisticsSynced": true,
       "classificationIndexEntries": 2900,
       "indexStatsMatchCurrentShards": true,
-      "serviceWorkerCache": "xy-learning-v134"
+      "serviceWorkerCache": "xy-learning-v166"
     },
-    "notes": "本輪完成4題國小六年級自然既有題目之官方教育資源核對與持久分類；原始34批題庫未修改。學期／段考不足證據者仍保留unassigned。",
-    "lastIndexSyncAudit": {
-      "auditedAt": "2026-11-15",
-      "sourceHead": "0b832a879b4923971c88e89542d2b573d8efb02a",
-      "classificationIndexPath": "data/question-classification.json",
-      "classificationIndexBlobSha": "18416b9e9ed63f5380d52da6aa0c6f30fbfb43f4",
-      "serviceWorkerCache": "xy-learning-v134",
-      "batchRange": "08-41",
-      "batchFileCount": 34,
-      "rawQuestionCount": 2900,
-      "uniqueQuestionIds": 2900,
-      "persistentClassificationCount": 2900,
-      "semester": {
-        "unassigned": 2315,
-        "上學期": 376,
-        "下學期": 135,
-        "全學年": 74
-      },
-      "examPeriod": {
-        "unassigned": 2669,
-        "第一次段考": 66,
-        "第二次段考": 71,
-        "第三次段考": 94
-      },
-      "classificationBasis": {
-        "curriculum-core": 2330,
-        "question-bank-inference": 470,
-        "publisher-source-verified": 100
-      },
-      "publisherStatus": {
-        "curriculum-core": 2715,
-        "pending": 6,
-        "publisher-mapped": 179
-      },
-      "publisherMappedQuestionCount": 179,
-      "publisherMappingReferenceCount": 209,
-      "centralMappingRegistryCount": 33,
-      "sourceBatchShasMatched": "34/34",
-      "requiredFieldErrors": 0,
-      "invalidClassificationValues": 0,
-      "mappingConsistencyErrors": 0,
-      "filterCombinationsTested": 194400,
-      "filterErrors": 0,
-      "publisherFilterLeaks": 0,
-      "browserOrMobileRuntimeTested": false,
-      "questionRecordsUpdated": 0,
-      "newQuestionsAdded": 0,
-      "notes": "同步分類索引statistics至最新六分片實際統計，並將Service Worker快取由v133升至v134。未修改原始題庫、題幹、答案或既有分類紀錄。"
-    }
+    "notes": "本輪完成29題高二公民依法行政與行政救濟單元的官方來源核對及持久分類；原始34批題庫未修改，未新增題目。"
   }
 }
