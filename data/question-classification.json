@@ -333,9 +333,9 @@
     "missingRequiredFields": 0,
     "invalidClassificationValues": 0,
     "semester": {
-      "unassigned": 2206,
-      "上學期": 464,
-      "下學期": 156,
+      "unassigned": 2198,
+      "上學期": 468,
+      "下學期": 160,
       "全學年": 74,
       "_total": 2900
     },
@@ -347,21 +347,21 @@
       "_total": 2900
     },
     "classificationBasis": {
-      "curriculum-core": 2221,
-      "publisher-source-verified": 423,
+      "curriculum-core": 2201,
+      "publisher-source-verified": 443,
       "question-bank-inference": 256,
       "_total": 2900
     },
     "publisherStatus": {
-      "curriculum-core": 2361,
-      "publisher-mapped": 533,
+      "curriculum-core": 2353,
+      "publisher-mapped": 541,
       "pending": 6,
       "_total": 2900
     },
     "confidence": {
-      "low": 2092,
-      "medium": 772,
-      "high": 36,
+      "low": 2085,
+      "medium": 777,
+      "high": 38,
       "_total": 2900
     },
     "publisherMappedQuestionCount": 541,
@@ -369,17 +369,17 @@
     "validPublisherMappingReferenceCount": 645,
     "centralMappingRegistryCount": 60,
     "pendingQuestionCount": 6,
-    "curriculumCoreStatusCount": 2361,
+    "curriculumCoreStatusCount": 2353,
     "publisherReferenceCounts": {
       "knsh": 148,
       "hanlin": 427,
       "nani": 70
     },
     "validPublisherReferenceCounts": {
-      "knsh": 140,
+      "knsh": 148,
       "hanlin": 427,
       "nani": 70,
-      "_total": 637
+      "_total": 645
     },
     "mappingLevelCounts": {
       "official-resource-title": 61,
@@ -387,10 +387,10 @@
       "volume": 135
     },
     "validMappingLevelCounts": {
-      "official-resource-title": 57,
-      "unit": 445,
+      "official-resource-title": 61,
+      "unit": 449,
       "volume": 135,
-      "_total": 637
+      "_total": 645
     },
     "mappingVerificationStatus": {
       "source-checked": 645
@@ -402,9 +402,9 @@
     "activeScope": {
       "questionCount": 1864,
       "semester": {
-        "unassigned": 1170,
-        "上學期": 464,
-        "下學期": 156,
+        "unassigned": 1162,
+        "上學期": 468,
+        "下學期": 160,
         "全學年": 74,
         "_total": 1864
       },
