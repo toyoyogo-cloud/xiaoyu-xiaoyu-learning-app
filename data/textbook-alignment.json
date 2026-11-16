@@ -775,23 +775,23 @@
     {
       "id": "knsh-g6-natural-6a-u1-weather",
       "mappingId": "knsh-g6-natural-6a-u1-weather",
-      "publisher": "knsh",
+      "schoolYear": "113",
       "stage": "國小",
       "grade": "六年級",
       "subject": "自然",
       "semester": "上學期",
-      "schoolYear": "未標示",
-      "courseType": "國小",
-      "volume": "自然六上（康軒版）",
+      "publisher": "knsh",
+      "volume": "自然科學(6上)",
       "unitCode": "1",
-      "unitName": "天氣的變化",
-      "learningContent": "INd-Ⅲ-7：天氣圖上的高、低氣壓、鋒面、颱風符號與天氣變化。",
-      "sourceType": "official-government-hosted-teaching-resource",
-      "sourceUrl": "https://market.cloud.edu.tw/resources/web/1809340",
-      "sourceTitle": "六上康軒版自然第一單元-天氣的變化",
-      "verifiedAt": "2026-11-15",
+      "unitName": "探索天氣的變化",
+      "learningContent": "天氣變化、天氣預測及氣候變遷；活動3「氣候正在改變嗎」。",
+      "sourceType": "official-publisher-curriculum-brochure",
+      "sourceUrl": "https://945cloud.knsh.com.tw/e/promo/show/upload/material/4/113%281%29%E8%87%AA%E7%84%B6%E9%A0%98%E5%9F%9F%E6%96%87%E5%AE%A3-%E8%B7%A8%E9%A0%81.pdf",
+      "sourceTitle": "113康軒國小教材簡介－自然領域文宣",
+      "verifiedAt": "2026-11-16",
       "verificationStatus": "source-checked",
-      "notes": "教育部教育雲資源頁標題明示「康軒版六上自然第一單元－天氣的變化」；頁面知識內容列出國小5–6年級自然科 INd-Ⅲ-7，涵蓋高、低氣壓、鋒面、颱風及天氣變化。此為教育部平台上的教師編製教學設計，僅支持康軒版六上單元層級對照；不是康軒出版社商品頁或完整課本目次，不代表任何學校採用版本或正式段考範圍。",
+      "notes": "113康軒官方教材簡介目次明列六上單元一「探索天氣的變化」，包含天氣變化、預測天氣及活動3「氣候正在改變嗎」。本題以四季氣溫與降雨資料判讀氣候特徵，對應此單元；只支持113版康軒六上單元層級，不代表學校採用版本或正式段考範圍。",
+      "courseType": "國小",
       "mappingLevel": "unit",
       "unitAliases": [
         "天氣與氣壓",
@@ -800,7 +800,11 @@
         "冷鋒與天氣",
         "冷鋒與天氣變化",
         "天氣資料判讀",
-        "低氣壓與降雨"
+        "低氣壓與降雨",
+        "氣候資料判讀",
+        "氣候資料",
+        "四季氣候判讀",
+        "氣候變遷"
       ]
     },
     {
@@ -1538,9 +1542,82 @@
       "notes": "第50頁「6年級版本對照表」列出單元6「兩量關係與比」：翰林版6上第6單元、康軒版6下第4單元、南一版6下第3單元。此映射以翰林官方部門發布的跨版本對照表為來源；不是康軒出版社自身課本詳情頁或學校採用證明。僅用於題幹直接涉及基準量／比較量的單元對照，不推定正式段考範圍。",
       "courseType": "國小",
       "mappingLevel": "unit"
+    },
+    {
+      "id": "knsh-g6-natural-6b-u2-ecosystems",
+      "mappingId": "knsh-g6-natural-6b-u2-ecosystems",
+      "schoolYear": "113",
+      "stage": "國小",
+      "grade": "六年級",
+      "subject": "自然",
+      "semester": "下學期",
+      "publisher": "knsh",
+      "volume": "自然科學(6下)",
+      "unitCode": "2",
+      "unitName": "生物與環境",
+      "learningContent": "食物鏈、族群與群集、生物之間的關係及生態系。",
+      "sourceType": "official-publisher-curriculum-brochure",
+      "sourceUrl": "https://945cloud.knsh.com.tw/e/promo/show/upload/material/4/113%281%29%E8%87%AA%E7%84%B6%E9%A0%98%E5%9F%9F%E6%96%87%E5%AE%A3-%E8%B7%A8%E9%A0%81.pdf",
+      "sourceTitle": "113康軒國小教材簡介－自然領域文宣",
+      "verifiedAt": "2026-11-16",
+      "verificationStatus": "source-checked",
+      "notes": "113康軒官方教材簡介目次明列六下單元二「生物與環境」；主題脈絡直接列出食物鏈、族群與群集、生物之間的關係及生態系。只支持113版康軒六下單元層級，不代表學校採用版本或正式段考範圍。",
+      "courseType": "國小",
+      "mappingLevel": "unit",
+      "unitAliases": [
+        "生物與環境",
+        "食物鏈",
+        "食物網",
+        "生態系",
+        "生態系能量流",
+        "生態系能量流動",
+        "食物鏈能量",
+        "食物鏈能量流動",
+        "食物網與生態",
+        "食物網與生態平衡",
+        "食物鏈與生態平衡",
+        "食物網與族群變化",
+        "生物多樣性",
+        "族群與群集",
+        "生物之間的關係",
+        "濕地生態"
+      ]
+    },
+    {
+      "id": "knsh-g6-natural-6b-u3-earth-sustainability",
+      "mappingId": "knsh-g6-natural-6b-u3-earth-sustainability",
+      "schoolYear": "113",
+      "stage": "國小",
+      "grade": "六年級",
+      "subject": "自然",
+      "semester": "下學期",
+      "publisher": "knsh",
+      "volume": "自然科學(6下)",
+      "unitCode": "3",
+      "unitName": "地球與永續",
+      "learningContent": "人類活動對環境的影響；如何愛護地球生態；臺灣生態與外來入侵種。",
+      "sourceType": "official-publisher-curriculum-brochure",
+      "sourceUrl": "https://945cloud.knsh.com.tw/e/promo/show/upload/material/4/113%281%29%E8%87%AA%E7%84%B6%E9%A0%98%E5%9F%9F%E6%96%87%E5%AE%A3-%E8%B7%A8%E9%A0%81.pdf",
+      "sourceTitle": "113康軒國小教材簡介－自然領域文宣",
+      "verifiedAt": "2026-11-16",
+      "verificationStatus": "source-checked",
+      "notes": "113康軒官方教材簡介目次明列六下單元三「地球與永續」，活動1為「人類活動對環境有什麼影響」、活動2為「如何愛護地球生態」。只支持113版康軒六下單元層級，不代表學校採用版本或正式段考範圍。",
+      "courseType": "國小",
+      "mappingLevel": "unit",
+      "unitAliases": [
+        "地球與永續",
+        "人類活動對環境的影響",
+        "生物多樣性與環境",
+        "棲地破壞",
+        "棲地流失",
+        "棲地破碎化",
+        "濕地填平",
+        "生態環境破壞",
+        "愛護地球生態"
+      ]
     }
   ],
-  "mappingStatus": "source-checked-46-mappings",
+  "mappingStatus": "source-checked-48-mappings",
   "nextSteps": [
     "高二公民「負外部性／外部成本與政策」9題已依翰林公民與社會(3)乙版高二上學期商品頁及配套評量本第4單元目次建立單元層級映射；段考維持unassigned，其他出版社及學校採用版本不推定。",
     "高二歷史「工業革命與社會變遷」3題已依翰林歷史(3)單元3目次與官方課本頁建立單元層級映射及上學期分類；段考仍未分類，其他出版社版本與學校採用版本不推定。",
@@ -2139,6 +2216,17 @@
       "verifiedAt": "2026-11-16",
       "verificationStatus": "source-checked",
       "notes": "官方文宣列出四上「好玩的電路」包含串聯、並聯；六上主題為「電磁作用」。此資料用於排除把四上電路單元誤掛為六年級康軒單元，不作六年級串聯／並聯題目的出版社映射，也不代表學校採用版本或段考範圍。"
+    },
+    {
+      "id": "knsh-g6-natural-113-curriculum-brochure",
+      "publisher": "knsh",
+      "sourceType": "official-publisher-curriculum-brochure",
+      "sourceUrl": "https://945cloud.knsh.com.tw/e/promo/show/upload/material/4/113%281%29%E8%87%AA%E7%84%B6%E9%A0%98%E5%9F%9F%E6%96%87%E5%AE%A3-%E8%B7%A8%E9%A0%81.pdf",
+      "sourceTitle": "113康軒國小教材簡介－自然領域文宣",
+      "verifiedAt": "2026-11-16",
+      "verificationStatus": "source-checked",
+      "verifiedScope": "113版國小自然：六上單元一探索天氣的變化；六下單元二生物與環境；六下單元三地球與永續。",
+      "notes": "康軒官方113國小教材簡介PDF，含六年級自然課程架構與單元／活動目次。僅支持113版康軒教材對照，不代表學校採用版本。"
     }
   ],
   "classificationAudit": {
@@ -2265,7 +2353,7 @@
       "note": "段考未指定；出版社映射僅含1題翰林數學3A單元對照與2題翰林化學(I)冊別層級對照。"
     }
   },
-  "mappingCount": 46,
+  "mappingCount": 48,
   "auditNotes": "每筆映射均保留 publisher、mappingId、sourceUrl、sourceTitle、verifiedAt、verificationStatus、notes。,mappingLevel 區分 unit、title-topic、volume；冊別／冊名層級不代表細分單元已核對。,數學3A映射限定 courseTrack=數學A；未確認數學A/B者不得套用。,出版社來源只證明教材冊別／單元對照，不代表學校採用該版本。,翰林選修化學(II)官方課本頁明示高二上學期，已由下學期更正為上學期。,2026-11-13 main 全庫盤點：第8至36批共2,400題、2,400個唯一ID；第8至29批1,700題沒有內嵌出版社／學期分類欄位，改由 question-classification-inference.js 依可辨識知識點動態推定，無證據者保留unassigned/pending；第30至36批700題有分類欄位，出版社映射引用119筆，對照16筆中央映射後未發現年級、科目、學期或課程軌別不符。第30批有91題未儲存classificationNotes，執行時由分類器以sourceRef／預設理由補出說明。此為結構與來源欄位稽核，不表示每題都已取得出版社對照。,化學(II)冊別層級校正：以翰林課本商品頁005022為準，確認高二上學期；不同商品編號的習作或實驗手冊學期不可混用。,第37批新增30題來源映射均以中央mappingId連結；執行時分類器回歸測試確認100題的semester、examPeriod、classificationBasis、publisherStatus及publisherMappings均與批次檔儲存欄位一致。,第37批已透過PR #1合併至main，merge commit 0b76d6e99d66502f39f6e9c32ad8032bbcc47494；main已包含第37批及本次全庫來源稽核。,2026-11-13來源狀態細化：南一平台「數學6下｜怎樣解題：雞兔問題」詳情頁請求逾時，僅能由南一官方資源頁的熱門文章連結標題確認主題與年級／科目／學期；映射降為official-resource-title與official-index-link-only，不宣稱南一課本單元或原題。,雞兔問題mapping的sourceUrl改指向可讀取的南一官方索引頁a=341，另保留targetUrl=a=394作為連結目標；verificationStatus仍為official-index-link-only。,第37批30筆題目映射中，28筆為可直接讀取來源核對，2筆雞兔問題映射僅由南一官方索引頁標題確認（official-index-link-only）；中央16筆映射中15筆source-checked、1筆official-index-link-only。,第41批新增100題（小六50、高二50）；35筆來源映射引用全部指向中央16筆已核對mappingId，逐筆核對publisher、sourceUrl、sourceTitle、verifiedAt、verificationStatus、notes、年級、科目、學期、軌別及單元／冊別範圍，35/35通過。未新增中央映射紀錄。,第41批映射層級：單元23、冊別9、官方資源標題3；出版社引用翰林27、南一6、康軒2。冊別與官方資源標題層級不冒稱完整課本目次。 2026-11-13 main全庫盤點：第8至41批2,900題；338筆出版社映射引用與16筆中央映射一致，錯誤0。原始分類欄位2,900/2,900完整；擴充分類欄位已持久保存399題，尚待補齊2,501題。\n2026-11-14康軒社會六上4-3來源核對：官方教學資源明示都市與鄉村永續發展、人口移動、公共服務／交通網絡、災害風險管理、社區參與及文化資產保存；新增10筆直接對應題目級映射，層級為official-resource-title，段考保留unassigned。\n2026-11-15.62：19筆六年級數學基準量／比較量題目新增翰林6上第6單元映射；保留南一6下映射，修正出版社學期篩選為版本別學期。\n2026-11-15.62全庫分片重算：六個分類分片2,900題共343筆出版社映射引用（翰林224、南一51、康軒68；冊別83、單元214、官方資源標題46），第30至41批1,200題含325筆映射引用。同步修正Batches08to41與Batches30to41彙總欄位，避免沿用舊統計。\n2026-11-15.63：11題高二歷史工業革命／工業化社會變遷題目新增翰林歷史(3)單元3映射；上學期，段考unassigned。\n2026-11-15：新增3題高二歷史冷戰圍堵政策單元7映射；翰林課本頁確認高二歷史上學期，出版社配套參考書目次確認單元7；信心medium、段考unassigned、學校採用版本未確認。 2026-11-15.64：高二公民與社會(3)第4單元「外部成本與聯合行為」新增9題持久出版社映射；學期上學期、段考unassigned、confidence=medium；未新增題目。\n2026-11-15.65：教材對照欄位語義正規化：將3筆翰林高二數學(3A)映射及1筆翰林選修化學(I)映射的 courseType 統一為「未確認」；數學A資訊保留於獨立 courseTrack=數學A，學校採用版本仍未確認。原有 notes、來源、mappingId、semester、mappingLevel 與39筆中央映射數量不變；不新增出版社映射、不改題目分類或原始題庫。\n2026-11-15.66：四題六年級自然電磁鐵／線圈題（b35-034、b39-035、b40-034、b41-033）依教育部教育雲EP49資源頁的三版本明確對照，將原翰林冊別層級參照替換為南一、翰林、康軒六上第4單元層級映射；學期上學期、段考unassigned。來源列INe-Ⅲ-10及三版本單元名稱；不代表學校採用版本或教師審核。 2026-11-16.72：修正19筆出版社映射引用URL一致性，並修正1筆國小社會題的learningDomain；全庫題數及映射總量不變。",
   "lastAudit": {
     "runId": "2026-11-16-classification-backfill-ratio-water-heat-civic-history-01",
@@ -3037,30 +3125,30 @@
     "pullRequestUrl": "https://github.com/toyoyogo-cloud/xiaoyu-xiaoyu-learning-app/pull/6"
   },
   "mappingVerificationStatusCountsBatches08to41": {
-    "source-checked": 542,
-    "_total": 542
+    "source-checked": 550,
+    "_total": 550
   },
   "publisherReferenceCountsBatches08to41": {
-    "hanlin": 366,
-    "knsh": 106,
+    "hanlin": 360,
+    "knsh": 120,
     "nani": 70,
-    "_total": 542
+    "_total": 550
   },
   "mappingVerificationStatusCountsBatches30to41": {
-    "source-checked": 453,
-    "_total": 453
+    "source-checked": 461,
+    "_total": 461
   },
   "mappingLevelCountsBatches30to41": {
-    "unit": 302,
-    "volume": 108,
+    "unit": 313,
+    "volume": 105,
     "official-resource-title": 43,
-    "_total": 453
+    "_total": 461
   },
   "publisherReferenceCountsBatches30to41": {
-    "hanlin": 303,
-    "knsh": 91,
+    "hanlin": 300,
+    "knsh": 102,
     "nani": 59,
-    "_total": 453
+    "_total": 461
   },
   "postBatch41Audit": {
     "auditedAt": "2026-11-13",
@@ -5358,6 +5446,43 @@
       ],
       "publisherMappingReferencesAdded": 7,
       "notes": "僅將七題既有六年級數學題依題庫原有學期分類連結到翰林6上／6下冊別層級；沒有出版社細分目次，故不宣稱百分率、圓、體積、統計與機率單元已核對，也不代表學校採用版本。段考與題庫推定維持原值。"
+    },
+    {
+      "runId": "2026-11-16-knsh-g6-natural-official-unit-backfill-01",
+      "verifiedAt": "2026-11-16",
+      "sourceChecks": [
+        {
+          "publisher": "knsh",
+          "mappingIds": [
+            "knsh-g6-natural-6a-u1-weather",
+            "knsh-g6-natural-6b-u2-ecosystems",
+            "knsh-g6-natural-6b-u3-earth-sustainability"
+          ],
+          "sourceUrl": "https://945cloud.knsh.com.tw/e/promo/show/upload/material/4/113%281%29%E8%87%AA%E7%84%B6%E9%A0%98%E5%9F%9F%E6%96%87%E5%AE%A3-%E8%B7%A8%E9%A0%81.pdf",
+          "sourceTitle": "113康軒國小教材簡介－自然領域文宣",
+          "verifiedScope": "113康軒國小自然：六上單元一探索天氣的變化；六下單元二生物與環境（食物鏈、族群與群集、生態系）；六下單元三地球與永續（人類活動對環境的影響）。"
+        }
+      ],
+      "questionRecordsUpdated": 14,
+      "updatedQuestionIds": [
+        "b15-022",
+        "b24-032",
+        "b25-030",
+        "b30-025",
+        "b31-036",
+        "b32-027",
+        "b33-033",
+        "b35-033",
+        "b36-040",
+        "b38-039",
+        "b40-037",
+        "b41-035",
+        "b41-039",
+        "b41-040"
+      ],
+      "publisherMappingReferencesAdded": 14,
+      "publisherMappingReferencesRemoved": 13,
+      "notes": "以官方113康軒教材簡介取代未能支持題目單元的泛用翰林6上自然冊別映射；保留未確認學校採用版本及未分類段考。"
     }
   ],
   "high2MathCourseTrackAudit": {
@@ -5521,41 +5646,44 @@
   "latestMappingReferenceAudit": {
     "date": "2026-11-16",
     "classificationRecordCount": 2900,
-    "publisherMappedQuestionCount": 438,
-    "questionMappingReferenceCount": 542,
-    "centralMappingCount": 46,
+    "publisherMappedQuestionCount": 446,
+    "questionMappingReferenceCount": 550,
+    "centralMappingCount": 48,
     "unresolvedCentralMappingReferences": 0,
     "sourceFieldMismatches": 0,
     "mappingScopeErrors": 0,
     "missingRequiredClassificationFields": 0,
     "publisherReferenceCounts": {
-      "hanlin": 366,
-      "knsh": 106,
+      "hanlin": 360,
+      "knsh": 120,
       "nani": 70
     },
     "mappingLevelCounts": {
-      "unit": 364,
-      "volume": 132,
+      "volume": 126,
+      "unit": 378,
       "official-resource-title": 46
     },
     "verificationCounts": {
-      "source-checked": 542
+      "source-checked": 550
     },
     "updatedQuestionIds": [
-      "b11-006",
-      "b14-005",
-      "b14-012",
-      "b16-021",
-      "b20-071",
-      "b21-032",
-      "b23-029",
-      "b24-025",
-      "b28-030",
-      "b28-040",
-      "b30-024",
-      "b34-089"
+      "b15-022",
+      "b24-032",
+      "b25-030",
+      "b30-025",
+      "b31-036",
+      "b32-027",
+      "b33-033",
+      "b35-033",
+      "b36-040",
+      "b38-039",
+      "b40-037",
+      "b41-035",
+      "b41-039",
+      "b41-040"
     ],
-    "publisherMappingReferencesAdded": 19,
+    "publisherMappingReferencesAdded": 14,
+    "publisherMappingReferencesRemoved": 13,
     "sourceBatchShasMatch": "34/34"
   },
   "lastSourceVerificationAudit": {
@@ -5595,75 +5723,88 @@
     "notes": "僅將七題既有六年級數學題依題庫原有學期分類連結到翰林6上／6下冊別層級；沒有出版社細分目次，故不宣稱百分率、圓、體積、統計與機率單元已核對，也不代表學校採用版本。段考與題庫推定維持原值。"
   },
   "lastRunAudit": {
-    "runId": "2026-11-16-hanlin-g6-math-volume-level-backfill-01",
+    "runId": "2026-11-16-knsh-g6-natural-official-unit-backfill-01",
     "date": "2026-11-16",
-    "sourceHeadBeforeRun": "095391ebbbe320f420967f2c2fe47e0bfd22248a",
-    "classificationDataHeadAfterUpdates": "095391ebbbe320f420967f2c2fe47e0bfd22248a",
+    "sourceHeadBeforeRun": "fe7b522ab4f6ed6a8117aaf49e2ff17689d2d325",
+    "classificationDataHeadAfterUpdates": "78168e5885ecd0dc1bdae786fe5e7761ca882ead",
     "batches": "08-41",
     "batchFileCount": 34,
     "fullCorpusQuestionCount": 2900,
     "activeScopeQuestionCount": 1864,
-    "questionRecordsUpdated": 7,
+    "questionRecordsUpdated": 14,
     "updatedQuestionIds": [
-      "b41-024",
-      "b41-025",
-      "b41-026",
-      "b41-027",
-      "b41-028",
-      "b41-029",
-      "b41-030"
+      "b15-022",
+      "b24-032",
+      "b25-030",
+      "b30-025",
+      "b31-036",
+      "b32-027",
+      "b33-033",
+      "b35-033",
+      "b36-040",
+      "b38-039",
+      "b40-037",
+      "b41-035",
+      "b41-039",
+      "b41-040"
     ],
-    "semesterAssignments": 0,
+    "semesterAssignments": 12,
     "examPeriodAssignments": 0,
-    "publisherMappingsAdded": 0,
-    "publisherMappingReferencesAdded": 7,
-    "publisherMappingReferencesCorrected": 0,
+    "publisherMappingsAdded": 2,
+    "publisherMappingReferencesAdded": 14,
+    "publisherMappingReferencesRemoved": 13,
+    "publisherMappingReferencesCorrected": 13,
     "learningDomainCorrections": 0,
     "questionTypeCorrections": 0,
-    "centralMappingCount": 46,
+    "centralMappingCount": 48,
     "publisherReferenceCounts": {
-      "hanlin": 373,
-      "knsh": 106,
+      "hanlin": 360,
+      "knsh": 120,
       "nani": 70
     },
     "mappingLevelCounts": {
-      "volume": 139,
-      "unit": 364,
+      "volume": 126,
+      "unit": 378,
       "official-resource-title": 46
     },
     "mappingVerificationStatusCounts": {
-      "source-checked": 549
+      "source-checked": 550
     },
     "newQuestionsAdded": 0,
     "fullCorpusSemesterDistribution": {
       "unassigned": 2274,
-      "上學期": 417,
+      "上學期": 405,
       "全學年": 74,
-      "下學期": 135
+      "下學期": 147,
+      "_total": 2900
     },
     "fullCorpusExamPeriodDistribution": {
       "unassigned": 2669,
       "第三次段考": 94,
       "第一次段考": 66,
-      "第二次段考": 71
+      "第二次段考": 71,
+      "_total": 2900
     },
     "fullCorpusClassificationBasisDistribution": {
       "curriculum-core": 2289,
-      "question-bank-inference": 280,
-      "publisher-source-verified": 331
+      "question-bank-inference": 266,
+      "publisher-source-verified": 345,
+      "_total": 2900
     },
     "fullCorpusPublisherStatusDistribution": {
-      "curriculum-core": 2449,
-      "publisher-mapped": 445,
-      "pending": 6
+      "curriculum-core": 2448,
+      "publisher-mapped": 446,
+      "pending": 6,
+      "_total": 2900
     },
     "fullCorpusConfidenceDistribution": {
       "low": 2152,
-      "medium": 716,
-      "high": 32
+      "medium": 702,
+      "high": 46,
+      "_total": 2900
     },
     "sourceBatchShasMatch": "34/34",
-    "classificationRuleVersion": "2026-11-16.73",
+    "classificationRuleVersion": "2026-11-16.74",
     "validation": {
       "jsonParse": true,
       "classificationRecords": 2900,
@@ -5677,11 +5818,9 @@
       "sourceFieldErrors": 0,
       "mappingScopeErrors": 0,
       "sourceBatchShasMatch": "34/34",
-      "updatedQuestionsChecked": 7,
+      "updatedQuestionsChecked": 14,
       "updatedQuestionIdsReachable": true,
-      "filterCombinationsTested": 7650,
-      "nonZeroFilterCombinations": 550,
-      "zeroResultConditionsTested": 7100,
+      "targetedPublisherSemesterFilterCasesTested": 14,
       "publisherMappingLeaks": 0,
       "filterErrors": 0,
       "allModeReachable": true,
@@ -5691,7 +5830,7 @@
       "filterUiRuntimeTested": false,
       "browserOrMobileRuntimeTested": false
     },
-    "notes": "官方來源核對：翰林書城6上與6下商品頁只確認六年級、數學、學期與冊別；不含細分目次。七筆只作volume層級映射，題目semester/examPeriod仍為既有題庫推定，沒有新增題目或宣稱教師／學校確認。"
+    "notes": "以113康軒官方教材簡介逐項核對六年級自然：六上單元一「探索天氣的變化」1題；六下單元二「生物與環境」12題；六下單元三「地球與永續」1題。段考維持unassigned。此為出版社教材對照，不代表學校採用版本或教師審核。"
   },
   "latestMappingScopeCorrection": {
     "date": "2026-11-14",
@@ -5754,12 +5893,13 @@
   },
   "lastFilterDataAudit": {
     "auditedAt": "2026-11-16",
-    "type": "full-corpus-persisted-classification-filter-regression",
+    "type": "targeted-publisher-semester-filter-regression",
+    "sourceHead": "fe7b522ab4f6ed6a8117aaf49e2ff17689d2d325",
     "fullCorpusQuestionCount": 2900,
-    "questionsChecked": 2900,
-    "filterCombinationsTested": 7650,
-    "nonZeroCombinations": 550,
-    "zeroResultConditionsTested": 7100,
+    "questionsChecked": 14,
+    "filterCombinationsTested": 14,
+    "nonZeroCombinations": 14,
+    "zeroResultConditionsTested": 0,
     "publisherMappingLeaks": 0,
     "filterErrors": 0,
     "allModeReachable": true,
@@ -5767,62 +5907,96 @@
     "appReadsPersistedClassificationIndex": true,
     "zeroResultHintPresent": true,
     "browserOrMobileRuntimeTested": false,
-    "note": "資料層模擬年級／科目、出版社、學期、段考與高二數學軌別組合；非瀏覽器或手機實機測試。"
+    "note": "資料層定向測試：14題逐筆以康軒及各自對應學期核對，並確認段考unassigned不會使題目消失；未執行全組合或瀏覽器／手機實機測試。"
   },
   "notes": " 2026-11-14：新增國立臺北教育大學六年級自然上學期單元四「電磁作用」課程參考，12題串聯／並聯電路僅回填上學期，不掛出版社、不填段考。 2026-11-15：依國立臺北教育大學雙語教學研究中心官方單元目錄，新增3題六年級自然電磁鐵／線圈題目的上學期課程核心分類；段考維持unassigned，不掛出版社。 2026-11-15：新增六年級自然「簡單機械」及「地質的變化」課程參考；7題依題庫知識點推定學期，沒有出版社官方單元來源，故不新增出版社映射。 分類器載入修復：補齊5筆既有MAPS物件鍵並移除重複CURRICULUM_REFERENCES宣告；JavaScript語法編譯通過，publisher filter仍僅依持久映射資料判斷。 推定器持久化保護：有分類索引紀錄的題目不再被執行時推定覆蓋；未分類值必須先寫回分類分片才會反映在篩選器。 最終逐題執行分類器驗證：第8至41批2,900題均讀取持久分類索引，187筆出版社映射參照全部通過，學期／段考與持久資料差異0。\n\n2026-11-15.55：重新核對國北教大六年級自然單元目錄與教育部教育雲「珍愛家園」「野生動物生態系」資源，持久更新7題（上學期3、下學期4）。均為題庫推定、中等信心、段考未分類、共同核心狀態；沒有出版社映射或新增題目。 2026-11-15.56：新增4題六年級自然來源核對分類，新增10筆題目級出版社映射；段考未指定，無新增題目。 2026-11-15.57：高二歷史工業革命單元3題已持久化為翰林歷史(3)單元層級、上學期；段考維持unassigned。 2026-11-15.58：持久分類b39-091、b41-092兩題高二歷史帝國主義／十九世紀西方霸權題，依翰林歷史(3)第5單元「西方與世界1」官方目次與課本頁標記上學期、翰林單元層級映射；段考unassigned。 2026-11-15.60：新增翰林歷史(3)第2單元啟蒙運動與第7單元冷戰期間政治局勢映射，並擴充既有第3單元工業革命別名；只回填題幹與單元直接相符的3題。 2026-11-15.64：高二公民與社會(3)第4單元「外部成本與聯合行為」新增9題持久出版社映射；學期上學期、段考unassigned、confidence=medium；未新增題目。\n本次2026-11-15.66新增六年級自然電磁作用三版本單元映射；詳細來源與題目ID見sourceVerificationLog及latestMainClassificationAudit。 2026-11-16.68：為19題六年級數學「基準量和比較量」補上康軒6下第4單元映射；依翰林國小輔教行銷處第50頁三版本對照表，保留既有南一6下與翰林6上映射。段考維持unassigned，未新增題目；來源不是康軒出版社自身課本詳情頁或學校採用證明。\n2026-11-16分類補強：12題持久更新（9題出版社映射、3題共同核心學期回填）；映射參照新增19筆，未新增題目。來源核對涵蓋六年級比與比值、水循環凝結、熱傳導／保溫，以及高二公民外部性、高二歷史啟蒙思想；另依國北教大官方目錄回填六年級電磁作用上學期。全庫出版社映射438題／542筆參照，中央映射46筆；學期上417／下135／全學年74／未分類2,274，段考未分類2,669。7,650組篩選資料層測試543組有題、7,107組合理零題、映射洩漏0。未宣稱學校採用版本或教師審核，未新增題目。",
   "latestCurriculumUnitClassificationAudit": {
-    "runId": "2026-11-15-moe-g6-electromagnetism-unit4-backfill-01",
-    "verifiedAt": "2026-11-15",
+    "runId": "2026-11-16-knsh-g6-natural-official-unit-backfill-01",
+    "verifiedAt": "2026-11-16",
     "grade": "六年級",
     "subject": "自然",
-    "learningUnit": "電磁作用（六上第4單元）",
-    "updatedQuestionIds": [
-      "b35-034",
-      "b39-035",
-      "b40-034",
-      "b41-033"
+    "learningUnits": [
+      "探索天氣的變化",
+      "生物與環境",
+      "地球與永續"
     ],
-    "semester": "上學期",
+    "updatedQuestionIds": [
+      "b15-022",
+      "b24-032",
+      "b25-030",
+      "b30-025",
+      "b31-036",
+      "b32-027",
+      "b33-033",
+      "b35-033",
+      "b36-040",
+      "b38-039",
+      "b40-037",
+      "b41-035",
+      "b41-039",
+      "b41-040"
+    ],
+    "semesterAssignments": {
+      "上學期": 1,
+      "下學期": 13
+    },
     "examPeriod": "unassigned",
     "classificationBasis": "publisher-source-verified",
     "confidence": "high",
     "publisherStatus": "publisher-mapped",
-    "publisherMappingReferencesAdded": 12,
-    "newQuestionsAdded": 0,
+    "publisherMappingReferencesAdded": 14,
     "sourceUrls": [
-      "https://market.cloud.edu.tw/resources/video/1830750"
+      "https://945cloud.knsh.com.tw/e/promo/show/upload/material/4/113%281%29%E8%87%AA%E7%84%B6%E9%A0%98%E5%9F%9F%E6%96%87%E5%AE%A3-%E8%B7%A8%E9%A0%81.pdf"
     ],
     "sourceTitles": [
-      "教育部教育雲－看見自然EP49：電磁鐵的磁極特性"
+      "113康軒國小教材簡介－自然領域文宣"
     ],
-    "notes": "教育部教育雲資源頁「看見自然EP49：電磁鐵的磁極特性」由明志科技大學提供，明列康軒六上第4單元「電磁作用」、南一六上第4單元「電與磁的奇妙世界」、翰林六上第4單元「電磁作用」，並列國小5–6年級自然科學習內容INe-Ⅲ-10（通電導線產生磁力，改變電流方向或大小可調控電磁鐵磁極方向或磁力大小）。本題直接涉及電磁鐵、線圈匝數或磁力，故建立三版本單元層級對照。來源為教育部平台教學資源，不是三家出版社商品頁或學校採用證明，也不表示題目取自教材；段考範圍未確認，examPeriod維持unassigned。"
+    "schoolYear": "113",
+    "notes": "113康軒官方教材簡介目次支持六上單元一1題、六下單元二12題、六下單元三1題；不代表學校採用版本或教師審核。"
   },
   "latestCurriculumUnitClassification": {
-    "runId": "2026-11-15-moe-g6-electromagnetism-unit4-backfill-01",
-    "verifiedAt": "2026-11-15",
+    "runId": "2026-11-16-knsh-g6-natural-official-unit-backfill-01",
+    "verifiedAt": "2026-11-16",
     "grade": "六年級",
     "subject": "自然",
-    "learningUnit": "電磁作用（六上第4單元）",
-    "updatedQuestionIds": [
-      "b35-034",
-      "b39-035",
-      "b40-034",
-      "b41-033"
+    "learningUnits": [
+      "探索天氣的變化",
+      "生物與環境",
+      "地球與永續"
     ],
-    "semester": "上學期",
+    "updatedQuestionIds": [
+      "b15-022",
+      "b24-032",
+      "b25-030",
+      "b30-025",
+      "b31-036",
+      "b32-027",
+      "b33-033",
+      "b35-033",
+      "b36-040",
+      "b38-039",
+      "b40-037",
+      "b41-035",
+      "b41-039",
+      "b41-040"
+    ],
+    "semesterAssignments": {
+      "上學期": 1,
+      "下學期": 13
+    },
     "examPeriod": "unassigned",
     "classificationBasis": "publisher-source-verified",
     "confidence": "high",
     "publisherStatus": "publisher-mapped",
-    "publisherMappingReferencesAdded": 12,
-    "newQuestionsAdded": 0,
+    "publisherMappingReferencesAdded": 14,
     "sourceUrls": [
-      "https://market.cloud.edu.tw/resources/video/1830750"
+      "https://945cloud.knsh.com.tw/e/promo/show/upload/material/4/113%281%29%E8%87%AA%E7%84%B6%E9%A0%98%E5%9F%9F%E6%96%87%E5%AE%A3-%E8%B7%A8%E9%A0%81.pdf"
     ],
     "sourceTitles": [
-      "教育部教育雲－看見自然EP49：電磁鐵的磁極特性"
+      "113康軒國小教材簡介－自然領域文宣"
     ],
-    "notes": "教育部教育雲資源頁「看見自然EP49：電磁鐵的磁極特性」由明志科技大學提供，明列康軒六上第4單元「電磁作用」、南一六上第4單元「電與磁的奇妙世界」、翰林六上第4單元「電磁作用」，並列國小5–6年級自然科學習內容INe-Ⅲ-10（通電導線產生磁力，改變電流方向或大小可調控電磁鐵磁極方向或磁力大小）。本題直接涉及電磁鐵、線圈匝數或磁力，故建立三版本單元層級對照。來源為教育部平台教學資源，不是三家出版社商品頁或學校採用證明，也不表示題目取自教材；段考範圍未確認，examPeriod維持unassigned。"
+    "schoolYear": "113",
+    "notes": "113康軒官方教材簡介目次支持六上單元一1題、六下單元二12題、六下單元三1題；不代表學校採用版本或教師審核。"
   },
   "previousExhaustiveFilterValidation": {
     "auditedAt": "2026-11-15",
@@ -6022,75 +6196,88 @@
     }
   ],
   "latestMainAudit": {
-    "runId": "2026-11-16-hanlin-g6-math-volume-level-backfill-01",
+    "runId": "2026-11-16-knsh-g6-natural-official-unit-backfill-01",
     "date": "2026-11-16",
-    "sourceHeadBeforeRun": "095391ebbbe320f420967f2c2fe47e0bfd22248a",
-    "classificationDataHeadAfterUpdates": "095391ebbbe320f420967f2c2fe47e0bfd22248a",
+    "sourceHeadBeforeRun": "fe7b522ab4f6ed6a8117aaf49e2ff17689d2d325",
+    "classificationDataHeadAfterUpdates": "78168e5885ecd0dc1bdae786fe5e7761ca882ead",
     "batches": "08-41",
     "batchFileCount": 34,
     "fullCorpusQuestionCount": 2900,
     "activeScopeQuestionCount": 1864,
-    "questionRecordsUpdated": 7,
+    "questionRecordsUpdated": 14,
     "updatedQuestionIds": [
-      "b41-024",
-      "b41-025",
-      "b41-026",
-      "b41-027",
-      "b41-028",
-      "b41-029",
-      "b41-030"
+      "b15-022",
+      "b24-032",
+      "b25-030",
+      "b30-025",
+      "b31-036",
+      "b32-027",
+      "b33-033",
+      "b35-033",
+      "b36-040",
+      "b38-039",
+      "b40-037",
+      "b41-035",
+      "b41-039",
+      "b41-040"
     ],
-    "semesterAssignments": 0,
+    "semesterAssignments": 12,
     "examPeriodAssignments": 0,
-    "publisherMappingsAdded": 0,
-    "publisherMappingReferencesAdded": 7,
-    "publisherMappingReferencesCorrected": 0,
+    "publisherMappingsAdded": 2,
+    "publisherMappingReferencesAdded": 14,
+    "publisherMappingReferencesRemoved": 13,
+    "publisherMappingReferencesCorrected": 13,
     "learningDomainCorrections": 0,
     "questionTypeCorrections": 0,
-    "centralMappingCount": 46,
+    "centralMappingCount": 48,
     "publisherReferenceCounts": {
-      "hanlin": 373,
-      "knsh": 106,
+      "hanlin": 360,
+      "knsh": 120,
       "nani": 70
     },
     "mappingLevelCounts": {
-      "volume": 139,
-      "unit": 364,
+      "volume": 126,
+      "unit": 378,
       "official-resource-title": 46
     },
     "mappingVerificationStatusCounts": {
-      "source-checked": 549
+      "source-checked": 550
     },
     "newQuestionsAdded": 0,
     "fullCorpusSemesterDistribution": {
       "unassigned": 2274,
-      "上學期": 417,
+      "上學期": 405,
       "全學年": 74,
-      "下學期": 135
+      "下學期": 147,
+      "_total": 2900
     },
     "fullCorpusExamPeriodDistribution": {
       "unassigned": 2669,
       "第三次段考": 94,
       "第一次段考": 66,
-      "第二次段考": 71
+      "第二次段考": 71,
+      "_total": 2900
     },
     "fullCorpusClassificationBasisDistribution": {
       "curriculum-core": 2289,
-      "question-bank-inference": 280,
-      "publisher-source-verified": 331
+      "question-bank-inference": 266,
+      "publisher-source-verified": 345,
+      "_total": 2900
     },
     "fullCorpusPublisherStatusDistribution": {
-      "curriculum-core": 2449,
-      "publisher-mapped": 445,
-      "pending": 6
+      "curriculum-core": 2448,
+      "publisher-mapped": 446,
+      "pending": 6,
+      "_total": 2900
     },
     "fullCorpusConfidenceDistribution": {
       "low": 2152,
-      "medium": 716,
-      "high": 32
+      "medium": 702,
+      "high": 46,
+      "_total": 2900
     },
     "sourceBatchShasMatch": "34/34",
-    "classificationRuleVersion": "2026-11-16.73",
+    "classificationRuleVersion": "2026-11-16.74",
     "validation": {
       "jsonParse": true,
       "classificationRecords": 2900,
@@ -6104,11 +6291,9 @@
       "sourceFieldErrors": 0,
       "mappingScopeErrors": 0,
       "sourceBatchShasMatch": "34/34",
-      "updatedQuestionsChecked": 7,
+      "updatedQuestionsChecked": 14,
       "updatedQuestionIdsReachable": true,
-      "filterCombinationsTested": 7650,
-      "nonZeroFilterCombinations": 550,
-      "zeroResultConditionsTested": 7100,
+      "targetedPublisherSemesterFilterCasesTested": 14,
       "publisherMappingLeaks": 0,
       "filterErrors": 0,
       "allModeReachable": true,
@@ -6118,11 +6303,11 @@
       "filterUiRuntimeTested": false,
       "browserOrMobileRuntimeTested": false
     },
-    "notes": "官方來源核對：翰林書城6上與6下商品頁只確認六年級、數學、學期與冊別；不含細分目次。七筆只作volume層級映射，題目semester/examPeriod仍為既有題庫推定，沒有新增題目或宣稱教師／學校確認。"
+    "notes": "以113康軒官方教材簡介逐項核對六年級自然：六上單元一「探索天氣的變化」1題；六下單元二「生物與環境」12題；六下單元三「地球與永續」1題。段考維持unassigned。此為出版社教材對照，不代表學校採用版本或教師審核。"
   },
   "statistics": {
     "auditedAt": "2026-11-16",
-    "sourceHeadBeforeRun": "095391ebbbe320f420967f2c2fe47e0bfd22248a",
+    "sourceHeadBeforeRun": "fe7b522ab4f6ed6a8117aaf49e2ff17689d2d325",
     "questionCount": 2900,
     "uniqueQuestionIds": 2900,
     "batchFileCount": 34,
@@ -6131,9 +6316,9 @@
     "invalidClassificationValues": 0,
     "semester": {
       "unassigned": 2274,
-      "上學期": 417,
+      "上學期": 405,
       "全學年": 74,
-      "下學期": 135,
+      "下學期": 147,
       "_total": 2900
     },
     "examPeriod": {
@@ -6145,56 +6330,70 @@
     },
     "classificationBasis": {
       "curriculum-core": 2289,
-      "question-bank-inference": 280,
-      "publisher-source-verified": 331,
+      "question-bank-inference": 266,
+      "publisher-source-verified": 345,
       "_total": 2900
     },
     "publisherStatus": {
-      "curriculum-core": 2449,
-      "publisher-mapped": 445,
+      "curriculum-core": 2448,
+      "publisher-mapped": 446,
       "pending": 6,
       "_total": 2900
     },
     "confidence": {
       "low": 2152,
-      "medium": 716,
-      "high": 32,
+      "medium": 702,
+      "high": 46,
       "_total": 2900
     },
-    "publisherMappedQuestionCount": 445,
-    "publisherMappingReferenceCount": 549,
-    "centralMappingRegistryCount": 46,
+    "publisherMappedQuestionCount": 446,
+    "publisherMappingReferenceCount": 550,
+    "centralMappingRegistryCount": 48,
     "publisherReferenceCounts": {
-      "hanlin": 373,
-      "knsh": 106,
+      "hanlin": 360,
+      "knsh": 120,
       "nani": 70,
-      "_total": 549
+      "_total": 550
     },
     "mappingLevelCounts": {
-      "volume": 139,
-      "unit": 364,
+      "volume": 126,
+      "unit": 378,
       "official-resource-title": 46,
-      "_total": 549
+      "_total": 550
     },
     "mappingVerificationStatus": {
-      "source-checked": 549,
-      "_total": 549
+      "source-checked": 550,
+      "_total": 550
     },
     "activeScope": {
       "questionCount": 1864,
+      "semester": {
+        "unassigned": 1238,
+        "上學期": 405,
+        "全學年": 74,
+        "下學期": 147,
+        "_total": 1864
+      },
+      "examPeriod": {
+        "unassigned": 1633,
+        "第三次段考": 94,
+        "第一次段考": 66,
+        "第二次段考": 71,
+        "_total": 1864
+      },
       "publisherStatus": {
-        "curriculum-core": 1413,
-        "publisher-mapped": 445,
+        "curriculum-core": 1412,
+        "publisher-mapped": 446,
         "pending": 6,
         "_total": 1864
       }
     }
   },
   "mappingLevelCountsBatches08to41": {
-    "unit": 364,
-    "volume": 132,
+    "volume": 126,
+    "unit": 378,
     "official-resource-title": 46,
-    "_total": 542
+    "_total": 550
   },
   "mainClassificationAuditHistory": [
     {
@@ -6847,5 +7046,5 @@
       "centralMappingCount": 39
     }
   },
-  "classificationRuleVersion": "2026-11-16.73"
+  "classificationRuleVersion": "2026-11-16.74"
 }
