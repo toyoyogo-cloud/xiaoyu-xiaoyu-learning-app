@@ -2,7 +2,7 @@
   "title": "題目分類持久索引",
   "schemaVersion": "1.0.10",
   "updatedAt": "2026-11-17",
-  "classificationRuleVersion": "2026-11-17.92",
+  "classificationRuleVersion": "2026-11-17.93",
   "sourceBranch": "main",
   "batchRange": "08-41",
   "batchFileCount": 34,
@@ -82,9 +82,9 @@
     "notes": "僅將原始批次已明確填入、而分類索引仍為unassigned的semester值同步至持久分類紀錄；classificationBasis設為question-bank-inference、confidence維持low。未改動examPeriod、publisherMappings或publisherStatus；未把題庫推定宣稱為官方或教師確認。"
   },
   "lastAudit": {
-    "runId": "2026-11-17-knsh-g6-math-trapezoid-resource-backfill-01",
+    "runId": "2026-11-17-knsh-g6-math-trapezoid-source-title-correction-01",
     "date": "2026-11-17",
-    "sourceHeadBeforeRun": "37afd5493fac1d8137a41f6b69a272107cf7d352",
+    "sourceHeadBeforeRun": "77f02eca869d8c42e1bdd298ba144399e72aa166",
     "batches": "08-41",
     "batchFileCount": 34,
     "fullCorpusQuestionCount": 2900,
@@ -96,17 +96,18 @@
       "b36-027",
       "b37-025"
     ],
-    "semesterAssignments": 4,
+    "semesterAssignments": 0,
     "semesterCorrections": 0,
     "examPeriodAssignments": 0,
     "examPeriodCorrections": 0,
-    "publisherMappingsAdded": 1,
-    "publisherMappingReferencesAdded": 4,
+    "publisherMappingsAdded": 0,
+    "publisherMappingReferencesAdded": 0,
+    "publisherMappingReferencesCorrected": 4,
     "publisherMappingReferencesRemoved": 0,
-    "publisherMappingReferencesCorrected": 0,
-    "learningDomainCorrections": 0,
-    "questionTypeCorrections": 0,
+    "sourceTitleCorrections": 4,
     "newQuestionsAdded": 0,
+    "sourceBatchShasMatch": "34/34",
+    "classificationRuleVersion": "2026-11-17.93",
     "fullCorpusSemesterDistribution": {
       "unassigned": 2206,
       "上學期": 464,
@@ -139,22 +140,6 @@
       "high": 36,
       "_total": 2900
     },
-    "activeScopeSemesterDistribution": {
-      "unassigned": 1170,
-      "上學期": 464,
-      "下學期": 156,
-      "全學年": 74,
-      "_total": 1864
-    },
-    "activeScopeExamPeriodDistribution": {
-      "unassigned": 1637,
-      "第一次段考": 65,
-      "第二次段考": 71,
-      "第三次段考": 91,
-      "_total": 1864
-    },
-    "sourceBatchShasMatch": "34/34",
-    "classificationRuleVersion": "2026-11-17.92",
     "publisherReferenceCounts": {
       "knsh": 144,
       "hanlin": 427,
@@ -190,8 +175,6 @@
       "classificationRecords": 2900,
       "uniqueIds": 2900,
       "duplicateIds": 0,
-      "missingFromClassification": 0,
-      "extraClassificationIds": 0,
       "missingRequiredFields": 0,
       "invalidClassificationValues": 0,
       "mappingReferenceErrors": 0,
@@ -212,17 +195,14 @@
       "appReadsPersistedClassificationIndex": true,
       "zeroResultHintPresent": true,
       "serviceWorkerAssetManifestComplete": true,
-      "filterUiRuntimeTested": false,
-      "browserOrMobileRuntimeTested": false,
-      "mappingReferenceCount": 641,
-      "validMappingReferenceCount": 637,
       "inferenceSyntaxValid": true,
       "inferenceRuntimeTested": true,
       "inferenceRuntimeCasesTested": 4,
-      "inferenceRuntimeFailures": 0
+      "inferenceRuntimeFailures": 0,
+      "browserOrMobileRuntimeTested": false
     },
-    "notes": "依康軒官方113(1)高年級高效特刊中6下單元3學前檢測卷直接出現的梯形面積題型，將四筆六年級數學題由共同核心未分類改為康軒官方補充資源標題層級對照，學期下學期、段考仍unassigned。未宣稱課本獨立細分單元或學校採用康軒版本；原始題幹、選項、答案、解析均未修改，未新增題目。",
-    "classificationDataHeadAfterUpdates": "3140913062b956bff636e98a0b5e0d6d68e24e1a"
+    "notes": "來源標題更正：梯形面積題實際位於官方PDF的「6下單元學後檢測卷A2MA11012003」第7題，不是學前檢測卷；分類仍維持康軒官方補充資源標題層級、下學期、段考unassigned。只修正來源標題／單元描述與備註，題目內容及分類數值不變。",
+    "classificationDataHeadAfterUpdates": "ff617c578e09f47aa5b4bc422128375c9ce62212"
   },
   "lastMappingReferenceAudit": {
     "auditedAt": "2026-11-17",
@@ -273,9 +253,9 @@
     "notes": "原始批次欄位d並非全庫一致的difficulty欄位。08-19與38-41批次多為難度標籤；20-25有2題d=閱讀理解對應questionType；26-31與32-37另有157筆d為生活情境、生活計算、單位換算等主題／題材描述，未與difficultyLevel、questionType、learningDomain或learningUnit直接相等。保留原始d不覆蓋；這157筆的difficultyLevel維持未標示，避免把題材標籤誤當難度。"
   },
   "lastRunAudit": {
-    "runId": "2026-11-17-knsh-g6-math-trapezoid-resource-backfill-01",
+    "runId": "2026-11-17-knsh-g6-math-trapezoid-source-title-correction-01",
     "date": "2026-11-17",
-    "sourceHeadBeforeRun": "37afd5493fac1d8137a41f6b69a272107cf7d352",
+    "sourceHeadBeforeRun": "77f02eca869d8c42e1bdd298ba144399e72aa166",
     "batches": "08-41",
     "batchFileCount": 34,
     "fullCorpusQuestionCount": 2900,
@@ -287,17 +267,18 @@
       "b36-027",
       "b37-025"
     ],
-    "semesterAssignments": 4,
+    "semesterAssignments": 0,
     "semesterCorrections": 0,
     "examPeriodAssignments": 0,
     "examPeriodCorrections": 0,
-    "publisherMappingsAdded": 1,
-    "publisherMappingReferencesAdded": 4,
+    "publisherMappingsAdded": 0,
+    "publisherMappingReferencesAdded": 0,
+    "publisherMappingReferencesCorrected": 4,
     "publisherMappingReferencesRemoved": 0,
-    "publisherMappingReferencesCorrected": 0,
-    "learningDomainCorrections": 0,
-    "questionTypeCorrections": 0,
+    "sourceTitleCorrections": 4,
     "newQuestionsAdded": 0,
+    "sourceBatchShasMatch": "34/34",
+    "classificationRuleVersion": "2026-11-17.93",
     "fullCorpusSemesterDistribution": {
       "unassigned": 2206,
       "上學期": 464,
@@ -330,22 +311,6 @@
       "high": 36,
       "_total": 2900
     },
-    "activeScopeSemesterDistribution": {
-      "unassigned": 1170,
-      "上學期": 464,
-      "下學期": 156,
-      "全學年": 74,
-      "_total": 1864
-    },
-    "activeScopeExamPeriodDistribution": {
-      "unassigned": 1637,
-      "第一次段考": 65,
-      "第二次段考": 71,
-      "第三次段考": 91,
-      "_total": 1864
-    },
-    "sourceBatchShasMatch": "34/34",
-    "classificationRuleVersion": "2026-11-17.92",
     "publisherReferenceCounts": {
       "knsh": 144,
       "hanlin": 427,
@@ -381,8 +346,6 @@
       "classificationRecords": 2900,
       "uniqueIds": 2900,
       "duplicateIds": 0,
-      "missingFromClassification": 0,
-      "extraClassificationIds": 0,
       "missingRequiredFields": 0,
       "invalidClassificationValues": 0,
       "mappingReferenceErrors": 0,
@@ -403,17 +366,14 @@
       "appReadsPersistedClassificationIndex": true,
       "zeroResultHintPresent": true,
       "serviceWorkerAssetManifestComplete": true,
-      "filterUiRuntimeTested": false,
-      "browserOrMobileRuntimeTested": false,
-      "mappingReferenceCount": 641,
-      "validMappingReferenceCount": 637,
       "inferenceSyntaxValid": true,
       "inferenceRuntimeTested": true,
       "inferenceRuntimeCasesTested": 4,
-      "inferenceRuntimeFailures": 0
+      "inferenceRuntimeFailures": 0,
+      "browserOrMobileRuntimeTested": false
     },
-    "notes": "依康軒官方113(1)高年級高效特刊中6下單元3學前檢測卷直接出現的梯形面積題型，將四筆六年級數學題由共同核心未分類改為康軒官方補充資源標題層級對照，學期下學期、段考仍unassigned。未宣稱課本獨立細分單元或學校採用康軒版本；原始題幹、選項、答案、解析均未修改，未新增題目。",
-    "classificationDataHeadAfterUpdates": "3140913062b956bff636e98a0b5e0d6d68e24e1a"
+    "notes": "來源標題更正：梯形面積題實際位於官方PDF的「6下單元學後檢測卷A2MA11012003」第7題，不是學前檢測卷；分類仍維持康軒官方補充資源標題層級、下學期、段考unassigned。只修正來源標題／單元描述與備註，題目內容及分類數值不變。",
+    "classificationDataHeadAfterUpdates": "ff617c578e09f47aa5b4bc422128375c9ce62212"
   },
   "lastBatchClassificationReconciliation": {
     "auditedAt": "2026-11-16",
@@ -523,7 +483,7 @@
       }
     }
   },
-  "sourceHeadVerified": "3a00b23578f8861cc2d81430eb4a3e2f9f969629",
+  "sourceHeadVerified": "7f5c421b83e444cb8a5a7635ab8ed0d11ba7f1ac",
   "mainHeadVerifiedAt": "2026-11-17T06:39:58+08:00",
   "latestVerificationAudit": {
     "auditedAt": "2026-11-17",
@@ -535,7 +495,7 @@
     "sourceFieldErrors": 0,
     "mappingScopeErrors": 0,
     "result": "637筆source-checked出版社映射引用通過欄位與範圍核對；4筆歷史source-unavailable引用仍排除於出版社篩選。",
-    "runId": "2026-11-17-knsh-g6-math-trapezoid-resource-backfill-01",
+    "runId": "2026-11-17-knsh-g6-math-trapezoid-source-title-correction-01",
     "updatedQuestionIds": [
       "b32-014",
       "b33-023",
@@ -543,12 +503,15 @@
       "b37-025"
     ],
     "sourceUrl": "https://945cloud.knsh.com.tw/E/promo/show/upload/material/22/113%281%29%E9%AB%98%E5%B9%B4%E7%B4%9A%E9%AB%98%E6%95%88%E7%89%B9%E5%88%8A.pdf",
-    "sourceTitle": "康軒113(1)高年級高效特刊－數學6下學前檢測卷（單元3含梯形面積題）"
+    "sourceTitle": "康軒113(1)高年級高效特刊－數學6下單元3學後檢測卷（含梯形面積題）",
+    "verificationStatus": "source-checked",
+    "mappingLevel": "official-resource-title",
+    "notes": "康軒官方113(1)高年級高效特刊的數學資源明示「學後檢測卷，以6下為例」，搭配冊次為康軒版數學1至6年級；6下單元學後檢測卷A2MA11012003第7題直接呈現梯形面積求高題。此映射僅為官方補充資源標題／題型層級，不宣稱梯形面積是課本獨立細分單元，也不代表學校採用版本；段考無足夠證據，維持未分類。"
   },
   "latestMainAudit": {
-    "runId": "2026-11-17-knsh-g6-math-trapezoid-resource-backfill-01",
+    "runId": "2026-11-17-knsh-g6-math-trapezoid-source-title-correction-01",
     "date": "2026-11-17",
-    "sourceHeadBeforeRun": "37afd5493fac1d8137a41f6b69a272107cf7d352",
+    "sourceHeadBeforeRun": "77f02eca869d8c42e1bdd298ba144399e72aa166",
     "batches": "08-41",
     "batchFileCount": 34,
     "fullCorpusQuestionCount": 2900,
@@ -560,17 +523,18 @@
       "b36-027",
       "b37-025"
     ],
-    "semesterAssignments": 4,
+    "semesterAssignments": 0,
     "semesterCorrections": 0,
     "examPeriodAssignments": 0,
     "examPeriodCorrections": 0,
-    "publisherMappingsAdded": 1,
-    "publisherMappingReferencesAdded": 4,
+    "publisherMappingsAdded": 0,
+    "publisherMappingReferencesAdded": 0,
+    "publisherMappingReferencesCorrected": 4,
     "publisherMappingReferencesRemoved": 0,
-    "publisherMappingReferencesCorrected": 0,
-    "learningDomainCorrections": 0,
-    "questionTypeCorrections": 0,
+    "sourceTitleCorrections": 4,
     "newQuestionsAdded": 0,
+    "sourceBatchShasMatch": "34/34",
+    "classificationRuleVersion": "2026-11-17.93",
     "fullCorpusSemesterDistribution": {
       "unassigned": 2206,
       "上學期": 464,
@@ -603,22 +567,6 @@
       "high": 36,
       "_total": 2900
     },
-    "activeScopeSemesterDistribution": {
-      "unassigned": 1170,
-      "上學期": 464,
-      "下學期": 156,
-      "全學年": 74,
-      "_total": 1864
-    },
-    "activeScopeExamPeriodDistribution": {
-      "unassigned": 1637,
-      "第一次段考": 65,
-      "第二次段考": 71,
-      "第三次段考": 91,
-      "_total": 1864
-    },
-    "sourceBatchShasMatch": "34/34",
-    "classificationRuleVersion": "2026-11-17.92",
     "publisherReferenceCounts": {
       "knsh": 144,
       "hanlin": 427,
@@ -654,8 +602,6 @@
       "classificationRecords": 2900,
       "uniqueIds": 2900,
       "duplicateIds": 0,
-      "missingFromClassification": 0,
-      "extraClassificationIds": 0,
       "missingRequiredFields": 0,
       "invalidClassificationValues": 0,
       "mappingReferenceErrors": 0,
@@ -676,17 +622,14 @@
       "appReadsPersistedClassificationIndex": true,
       "zeroResultHintPresent": true,
       "serviceWorkerAssetManifestComplete": true,
-      "filterUiRuntimeTested": false,
-      "browserOrMobileRuntimeTested": false,
-      "mappingReferenceCount": 641,
-      "validMappingReferenceCount": 637,
       "inferenceSyntaxValid": true,
       "inferenceRuntimeTested": true,
       "inferenceRuntimeCasesTested": 4,
-      "inferenceRuntimeFailures": 0
+      "inferenceRuntimeFailures": 0,
+      "browserOrMobileRuntimeTested": false
     },
-    "notes": "依康軒官方113(1)高年級高效特刊中6下單元3學前檢測卷直接出現的梯形面積題型，將四筆六年級數學題由共同核心未分類改為康軒官方補充資源標題層級對照，學期下學期、段考仍unassigned。未宣稱課本獨立細分單元或學校採用康軒版本；原始題幹、選項、答案、解析均未修改，未新增題目。",
-    "classificationDataHeadAfterUpdates": "3140913062b956bff636e98a0b5e0d6d68e24e1a"
+    "notes": "來源標題更正：梯形面積題實際位於官方PDF的「6下單元學後檢測卷A2MA11012003」第7題，不是學前檢測卷；分類仍維持康軒官方補充資源標題層級、下學期、段考unassigned。只修正來源標題／單元描述與備註，題目內容及分類數值不變。",
+    "classificationDataHeadAfterUpdates": "ff617c578e09f47aa5b4bc422128375c9ce62212"
   },
   "latestFilterValidation": {
     "auditedAt": "2026-11-17",
@@ -1387,14 +1330,137 @@
       },
       "notes": "依康軒官方113(1)高年級高效特刊中6下單元3學前檢測卷直接出現的梯形面積題型，將四筆六年級數學題由共同核心未分類改為康軒官方補充資源標題層級對照，學期下學期、段考仍unassigned。未宣稱課本獨立細分單元或學校採用康軒版本；原始題幹、選項、答案、解析均未修改，未新增題目。",
       "classificationDataHeadAfterUpdates": "3140913062b956bff636e98a0b5e0d6d68e24e1a"
+    },
+    {
+      "runId": "2026-11-17-knsh-g6-math-trapezoid-source-title-correction-01",
+      "date": "2026-11-17",
+      "sourceHeadBeforeRun": "77f02eca869d8c42e1bdd298ba144399e72aa166",
+      "batches": "08-41",
+      "batchFileCount": 34,
+      "fullCorpusQuestionCount": 2900,
+      "activeScopeQuestionCount": 1864,
+      "questionRecordsUpdated": 4,
+      "updatedQuestionIds": [
+        "b32-014",
+        "b33-023",
+        "b36-027",
+        "b37-025"
+      ],
+      "semesterAssignments": 0,
+      "semesterCorrections": 0,
+      "examPeriodAssignments": 0,
+      "examPeriodCorrections": 0,
+      "publisherMappingsAdded": 0,
+      "publisherMappingReferencesAdded": 0,
+      "publisherMappingReferencesCorrected": 4,
+      "publisherMappingReferencesRemoved": 0,
+      "sourceTitleCorrections": 4,
+      "newQuestionsAdded": 0,
+      "sourceBatchShasMatch": "34/34",
+      "classificationRuleVersion": "2026-11-17.93",
+      "fullCorpusSemesterDistribution": {
+        "unassigned": 2206,
+        "上學期": 464,
+        "下學期": 156,
+        "全學年": 74,
+        "_total": 2900
+      },
+      "fullCorpusExamPeriodDistribution": {
+        "unassigned": 2673,
+        "第一次段考": 65,
+        "第二次段考": 71,
+        "第三次段考": 91,
+        "_total": 2900
+      },
+      "fullCorpusClassificationBasisDistribution": {
+        "curriculum-core": 2221,
+        "publisher-source-verified": 423,
+        "question-bank-inference": 256,
+        "_total": 2900
+      },
+      "fullCorpusPublisherStatusDistribution": {
+        "curriculum-core": 2361,
+        "publisher-mapped": 533,
+        "pending": 6,
+        "_total": 2900
+      },
+      "fullCorpusConfidenceDistribution": {
+        "low": 2092,
+        "medium": 772,
+        "high": 36,
+        "_total": 2900
+      },
+      "publisherReferenceCounts": {
+        "knsh": 144,
+        "hanlin": 427,
+        "nani": 70,
+        "_total": 641
+      },
+      "validPublisherReferenceCounts": {
+        "knsh": 140,
+        "hanlin": 427,
+        "nani": 70,
+        "_total": 637
+      },
+      "mappingLevelCounts": {
+        "official-resource-title": 57,
+        "unit": 449,
+        "volume": 135,
+        "_total": 641
+      },
+      "validMappingLevelCounts": {
+        "official-resource-title": 57,
+        "unit": 445,
+        "volume": 135,
+        "_total": 637
+      },
+      "mappingVerificationStatusCounts": {
+        "source-checked": 637,
+        "source-unavailable": 4,
+        "_total": 641
+      },
+      "centralMappingCount": 60,
+      "validation": {
+        "jsonParse": true,
+        "classificationRecords": 2900,
+        "uniqueIds": 2900,
+        "duplicateIds": 0,
+        "missingRequiredFields": 0,
+        "invalidClassificationValues": 0,
+        "mappingReferenceErrors": 0,
+        "sourceFieldErrors": 0,
+        "mappingScopeErrors": 0,
+        "sourceBatchShasMatch": "34/34",
+        "updatedQuestionsChecked": 4,
+        "updatedQuestionIdsReachable": true,
+        "targetedPublisherSemesterFilterCasesTested": 4,
+        "targetedCasesPassed": true,
+        "filterCombinationsTested": 7800,
+        "nonZeroFilterCombinations": 575,
+        "zeroResultConditionsTested": 7225,
+        "publisherMappingLeaks": 0,
+        "filterErrors": 0,
+        "allModeReachable": true,
+        "allModeQuestionCount": 2900,
+        "appReadsPersistedClassificationIndex": true,
+        "zeroResultHintPresent": true,
+        "serviceWorkerAssetManifestComplete": true,
+        "inferenceSyntaxValid": true,
+        "inferenceRuntimeTested": true,
+        "inferenceRuntimeCasesTested": 4,
+        "inferenceRuntimeFailures": 0,
+        "browserOrMobileRuntimeTested": false
+      },
+      "notes": "來源標題更正：梯形面積題實際位於官方PDF的「6下單元學後檢測卷A2MA11012003」第7題，不是學前檢測卷；分類仍維持康軒官方補充資源標題層級、下學期、段考unassigned。只修正來源標題／單元描述與備註，題目內容及分類數值不變。",
+      "classificationDataHeadAfterUpdates": "ff617c578e09f47aa5b4bc422128375c9ce62212"
     }
   ],
-  "auditNotes": " 2026-11-16.76：全庫2,900題完成分類分片重算；34/34批次SHA一致。持久更新b41-093至b41-096四題，新增翰林高二公民單元3、9、12三筆中央映射；學期上學期、段考unassigned。資料層篩選7,800組，錯誤0，未做瀏覽器／手機實機測試。 2026-11-16.76稽核更正：映射範圍驗證依中央映射的grade/subject/courseTrack/courseType與題目資料比對，重算後mappingScopeErrors=0；前一輪暫存數字74為使用題目引用物件中非必填的grade/subject欄位進行比對所致，已更正。34/34批次SHA、2,900唯一ID、556筆來源引用均通過。 2026-11-16-knsh-g6-math-speed-scale-backfill-01：新增b8-008、b8-012兩筆康軒114六上單元映射；移除無來源支持的第三次段考標籤，改為unassigned。題庫學年度未標示，不宣稱學校採用版本；未新增題目。 2026-11-16全庫篩選回歸：7,800組資料層條件測試通過，2,900題全部可由全部版本模式取得，出版社映射洩漏0、篩選錯誤0；未做瀏覽器／手機實機測試。\n2026-11-16.79：修正六年級數學康軒來源連結，原114高年級綜合文宣PDF回傳404，改用康軒署名帳號於FlipHTML5公開的114(1)補充教材頁；建立速率、比例尺、圓面積三筆official-resource-title中央映射，更新b8-008、b8-012、b12-012、b13-008。b12-012學期校正為上學期；b12-012及b13-008段考改unassigned。全庫2,900題／唯一ID不變，分類紀錄2,900筆，出版社映射459題／563筆引用；7,800組資料層篩選測試非零575、零題7,225、映射洩漏0、篩選錯誤0。未新增題目；未執行瀏覽器／手機實機測試。 2026-11-16-classification-index-sync-after-source-audit-01：同步main最新來源頭 214a9223898a7f7efaeb1927c10c085941beb1f5 與完整分類稽核。2,900題／2,900唯一ID、34批SHA 34/34、分類欄位缺漏0、非法值0、出版社映射參照563筆／中央映射55組、未解析引用0；7,800組篩選回歸非零575、合理零題7,225、映射洩漏0、篩選錯誤0。未新增題目，未改寫既有題目分類。 2026-11-17.87：依康軒官方114學年度自然教材PDF，持久回填b38-039、b39-038、b40-037、b41-035、b41-040五題至六下單元三「地球的生態」；四題補回下學期，一題維持既有下學期；段考均unassigned。全庫2,900筆、唯一ID 2,900、必要欄位缺漏0、來源映射錯誤0；資料層篩選7200組，出版社映射洩漏0，全部版本可達2,900題。未新增題目，未做瀏覽器／手機實機測試。 2026-11-17：新增康軒六下梯形面積官方補充資源標題層級對照，持久分類4題；不新增題目，段考維持unassigned。",
+  "auditNotes": " 2026-11-16.76：全庫2,900題完成分類分片重算；34/34批次SHA一致。持久更新b41-093至b41-096四題，新增翰林高二公民單元3、9、12三筆中央映射；學期上學期、段考unassigned。資料層篩選7,800組，錯誤0，未做瀏覽器／手機實機測試。 2026-11-16.76稽核更正：映射範圍驗證依中央映射的grade/subject/courseTrack/courseType與題目資料比對，重算後mappingScopeErrors=0；前一輪暫存數字74為使用題目引用物件中非必填的grade/subject欄位進行比對所致，已更正。34/34批次SHA、2,900唯一ID、556筆來源引用均通過。 2026-11-16-knsh-g6-math-speed-scale-backfill-01：新增b8-008、b8-012兩筆康軒114六上單元映射；移除無來源支持的第三次段考標籤，改為unassigned。題庫學年度未標示，不宣稱學校採用版本；未新增題目。 2026-11-16全庫篩選回歸：7,800組資料層條件測試通過，2,900題全部可由全部版本模式取得，出版社映射洩漏0、篩選錯誤0；未做瀏覽器／手機實機測試。\n2026-11-16.79：修正六年級數學康軒來源連結，原114高年級綜合文宣PDF回傳404，改用康軒署名帳號於FlipHTML5公開的114(1)補充教材頁；建立速率、比例尺、圓面積三筆official-resource-title中央映射，更新b8-008、b8-012、b12-012、b13-008。b12-012學期校正為上學期；b12-012及b13-008段考改unassigned。全庫2,900題／唯一ID不變，分類紀錄2,900筆，出版社映射459題／563筆引用；7,800組資料層篩選測試非零575、零題7,225、映射洩漏0、篩選錯誤0。未新增題目；未執行瀏覽器／手機實機測試。 2026-11-16-classification-index-sync-after-source-audit-01：同步main最新來源頭 214a9223898a7f7efaeb1927c10c085941beb1f5 與完整分類稽核。2,900題／2,900唯一ID、34批SHA 34/34、分類欄位缺漏0、非法值0、出版社映射參照563筆／中央映射55組、未解析引用0；7,800組篩選回歸非零575、合理零題7,225、映射洩漏0、篩選錯誤0。未新增題目，未改寫既有題目分類。 2026-11-17.87：依康軒官方114學年度自然教材PDF，持久回填b38-039、b39-038、b40-037、b41-035、b41-040五題至六下單元三「地球的生態」；四題補回下學期，一題維持既有下學期；段考均unassigned。全庫2,900筆、唯一ID 2,900、必要欄位缺漏0、來源映射錯誤0；資料層篩選7200組，出版社映射洩漏0，全部版本可達2,900題。未新增題目，未做瀏覽器／手機實機測試。 2026-11-17：新增康軒六下梯形面積官方補充資源標題層級對照，持久分類4題；不新增題目，段考維持unassigned。 2026-11-17來源標題更正：康軒官方PDF的梯形題位於6下單元學後檢測卷第7題，已修正sourceTitle與單元描述，分類數值不變。",
   "shardCount": 6,
   "latestAudit": {
-    "runId": "2026-11-17-knsh-g6-math-trapezoid-resource-backfill-01",
+    "runId": "2026-11-17-knsh-g6-math-trapezoid-source-title-correction-01",
     "date": "2026-11-17",
-    "sourceHeadBeforeRun": "37afd5493fac1d8137a41f6b69a272107cf7d352",
+    "sourceHeadBeforeRun": "77f02eca869d8c42e1bdd298ba144399e72aa166",
     "batches": "08-41",
     "batchFileCount": 34,
     "fullCorpusQuestionCount": 2900,
@@ -1406,17 +1472,18 @@
       "b36-027",
       "b37-025"
     ],
-    "semesterAssignments": 4,
+    "semesterAssignments": 0,
     "semesterCorrections": 0,
     "examPeriodAssignments": 0,
     "examPeriodCorrections": 0,
-    "publisherMappingsAdded": 1,
-    "publisherMappingReferencesAdded": 4,
+    "publisherMappingsAdded": 0,
+    "publisherMappingReferencesAdded": 0,
+    "publisherMappingReferencesCorrected": 4,
     "publisherMappingReferencesRemoved": 0,
-    "publisherMappingReferencesCorrected": 0,
-    "learningDomainCorrections": 0,
-    "questionTypeCorrections": 0,
+    "sourceTitleCorrections": 4,
     "newQuestionsAdded": 0,
+    "sourceBatchShasMatch": "34/34",
+    "classificationRuleVersion": "2026-11-17.93",
     "fullCorpusSemesterDistribution": {
       "unassigned": 2206,
       "上學期": 464,
@@ -1449,22 +1516,6 @@
       "high": 36,
       "_total": 2900
     },
-    "activeScopeSemesterDistribution": {
-      "unassigned": 1170,
-      "上學期": 464,
-      "下學期": 156,
-      "全學年": 74,
-      "_total": 1864
-    },
-    "activeScopeExamPeriodDistribution": {
-      "unassigned": 1637,
-      "第一次段考": 65,
-      "第二次段考": 71,
-      "第三次段考": 91,
-      "_total": 1864
-    },
-    "sourceBatchShasMatch": "34/34",
-    "classificationRuleVersion": "2026-11-17.92",
     "publisherReferenceCounts": {
       "knsh": 144,
       "hanlin": 427,
@@ -1500,8 +1551,6 @@
       "classificationRecords": 2900,
       "uniqueIds": 2900,
       "duplicateIds": 0,
-      "missingFromClassification": 0,
-      "extraClassificationIds": 0,
       "missingRequiredFields": 0,
       "invalidClassificationValues": 0,
       "mappingReferenceErrors": 0,
@@ -1522,17 +1571,14 @@
       "appReadsPersistedClassificationIndex": true,
       "zeroResultHintPresent": true,
       "serviceWorkerAssetManifestComplete": true,
-      "filterUiRuntimeTested": false,
-      "browserOrMobileRuntimeTested": false,
-      "mappingReferenceCount": 641,
-      "validMappingReferenceCount": 637,
       "inferenceSyntaxValid": true,
       "inferenceRuntimeTested": true,
       "inferenceRuntimeCasesTested": 4,
-      "inferenceRuntimeFailures": 0
+      "inferenceRuntimeFailures": 0,
+      "browserOrMobileRuntimeTested": false
     },
-    "notes": "依康軒官方113(1)高年級高效特刊中6下單元3學前檢測卷直接出現的梯形面積題型，將四筆六年級數學題由共同核心未分類改為康軒官方補充資源標題層級對照，學期下學期、段考仍unassigned。未宣稱課本獨立細分單元或學校採用康軒版本；原始題幹、選項、答案、解析均未修改，未新增題目。",
-    "classificationDataHeadAfterUpdates": "3140913062b956bff636e98a0b5e0d6d68e24e1a"
+    "notes": "來源標題更正：梯形面積題實際位於官方PDF的「6下單元學後檢測卷A2MA11012003」第7題，不是學前檢測卷；分類仍維持康軒官方補充資源標題層級、下學期、段考unassigned。只修正來源標題／單元描述與備註，題目內容及分類數值不變。",
+    "classificationDataHeadAfterUpdates": "ff617c578e09f47aa5b4bc422128375c9ce62212"
   },
   "coverageNote": "coverageStatus=complete 表示第08–41批全部題目均有持久分類紀錄；學期／段考欄位仍依證據保留 unassigned，不代表每題均已確定考期。",
   "latestMainClassificationAudit": {
