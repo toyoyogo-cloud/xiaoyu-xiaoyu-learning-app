@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.1.0",
   "updatedAt": "2026-11-16",
-  "classificationRuleVersion": "2026-11-16.81",
+  "classificationRuleVersion": "2026-11-16.82",
   "batchRange": "14-19",
   "sourceBatchShas": {
     "14": "938f1b45a5dd17867e7f566566f9ee495469434f",
