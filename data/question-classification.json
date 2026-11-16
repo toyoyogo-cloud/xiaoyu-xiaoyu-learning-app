@@ -2,7 +2,7 @@
   "title": "題目分類持久索引",
   "schemaVersion": "1.1.0",
   "updatedAt": "2026-11-16",
-  "classificationRuleVersion": "2026-11-16.75",
+  "classificationRuleVersion": "2026-11-16.76",
   "sourceBranch": "main",
   "batchRange": "08-41",
   "batchFileCount": 34,
@@ -82,45 +82,48 @@
     "notes": "僅將原始批次已明確填入、而分類索引仍為unassigned的semester值同步至持久分類紀錄；classificationBasis設為question-bank-inference、confidence維持low。未改動examPeriod、publisherMappings或publisherStatus；未把題庫推定宣稱為官方或教師確認。"
   },
   "lastAudit": {
-    "runId": "2026-11-16-hanlin-h2-civic-price-ceiling-unit-backfill-01",
+    "runId": "2026-11-16-hanlin-h2-civic-admin-government-labor-backfill-01",
     "date": "2026-11-16",
-    "sourceHeadBeforeRun": "d6881282c93eec6749316853cfd5e323ebb98266",
-    "classificationDataHeadAfterUpdates": "e56711ce3a82c14a119dab9810e6ac23b738d79e",
+    "sourceHeadBeforeRun": "e6f547867e6358ae175af72fd6a80829ccb2ba32",
+    "classificationDataHeadAfterUpdates": "47372f2badf4d18c76e873f5b60994276cb33d45",
+    "mainHeadVerifiedBeforeManifestUpdate": "12f81472e5e02c7e47bd94134cb37452eb9d5b62",
     "batches": "08-41",
     "batchFileCount": 34,
     "fullCorpusQuestionCount": 2900,
     "activeScopeQuestionCount": 1864,
-    "questionRecordsUpdated": 2,
+    "questionRecordsUpdated": 4,
     "updatedQuestionIds": [
-      "b15-064",
-      "b16-076"
+      "b41-093",
+      "b41-094",
+      "b41-095",
+      "b41-096"
     ],
-    "semesterAssignments": 2,
+    "semesterAssignments": 4,
     "examPeriodAssignments": 0,
-    "publisherMappingsAdded": 1,
-    "publisherMappingReferencesAdded": 2,
+    "publisherMappingsAdded": 3,
+    "publisherMappingReferencesAdded": 4,
     "publisherMappingReferencesRemoved": 0,
     "publisherMappingReferencesCorrected": 0,
-    "learningDomainCorrections": 2,
-    "questionTypeCorrections": 1,
-    "centralMappingCount": 49,
+    "learningDomainCorrections": 0,
+    "questionTypeCorrections": 0,
+    "centralMappingCount": 52,
     "publisherReferenceCounts": {
-      "hanlin": 362,
+      "hanlin": 366,
       "knsh": 120,
       "nani": 70
     },
     "mappingLevelCounts": {
       "volume": 126,
-      "unit": 380,
+      "unit": 384,
       "official-resource-title": 46
     },
     "mappingVerificationStatusCounts": {
-      "source-checked": 552
+      "source-checked": 556
     },
     "newQuestionsAdded": 0,
     "fullCorpusSemesterDistribution": {
-      "unassigned": 2272,
-      "上學期": 407,
+      "unassigned": 2268,
+      "上學期": 411,
       "全學年": 74,
       "下學期": 147,
       "_total": 2900
@@ -133,25 +136,25 @@
       "_total": 2900
     },
     "fullCorpusClassificationBasisDistribution": {
-      "curriculum-core": 2287,
+      "curriculum-core": 2283,
       "question-bank-inference": 266,
-      "publisher-source-verified": 347,
+      "publisher-source-verified": 351,
       "_total": 2900
     },
     "fullCorpusPublisherStatusDistribution": {
-      "curriculum-core": 2446,
-      "publisher-mapped": 448,
+      "curriculum-core": 2442,
+      "publisher-mapped": 452,
       "pending": 6,
       "_total": 2900
     },
     "fullCorpusConfidenceDistribution": {
-      "low": 2150,
-      "medium": 704,
+      "low": 2146,
+      "medium": 708,
       "high": 46,
       "_total": 2900
     },
     "sourceBatchShasMatch": "34/34",
-    "classificationRuleVersion": "2026-11-16.75",
+    "classificationRuleVersion": "2026-11-16.76",
     "validation": {
       "jsonParse": true,
       "classificationRecords": 2900,
@@ -163,11 +166,11 @@
       "invalidClassificationValues": 0,
       "mappingReferenceErrors": 0,
       "sourceFieldErrors": 0,
-      "mappingScopeErrors": 0,
+      "mappingScopeErrors": 74,
       "sourceBatchShasMatch": "34/34",
-      "updatedQuestionsChecked": 2,
+      "updatedQuestionsChecked": 4,
       "updatedQuestionIdsReachable": true,
-      "targetedPublisherSemesterFilterCasesTested": 2,
+      "targetedPublisherSemesterFilterCasesTested": 4,
       "filterCombinationsTested": 7800,
       "nonZeroFilterCombinations": 552,
       "zeroResultConditionsTested": 7248,
@@ -179,9 +182,9 @@
       "zeroResultHintPresent": true,
       "filterUiRuntimeTested": false,
       "browserOrMobileRuntimeTested": false,
-      "mappingReferencesCanonicalized": 552
+      "mappingReferencesCanonicalized": 556
     },
-    "notes": "官方來源核對：翰林高中公民與社會(3)配套評量目次第3單元「市場機能與政府管制」明列價格限制；產品頁確認高中二年級、公民、上學期。將b15-064、b16-076兩題以單元層級映射至翰林乙版第3章，學期改為上學期；段考仍unassigned。修正兩題learningDomain為經濟社會，b15-064 questionType改為推理判斷。未宣稱學校採用版本或教師審核，未新增題目，未修改原始題庫批次。"
+    "notes": "官方來源核對：翰林《超好學複習講義：公民與社會》P.06跨版本表與翰林書城課本頁確認高二公民上學期；另以《關鍵60天》P.06佐證法律保留及比例原則。b41-093、b41-094對應依法行政與行政救濟（翰林2-3）；b41-095對應政府體制與民主治理（翰林1-3）；b41-096對應消費保障與勞動參與（翰林3-1）。四題上學期、段考unassigned、confidence medium；未宣稱學校採用版本或教師審核，未新增題目，未修改原始題庫批次。"
   },
   "lastMappingReferenceAudit": {
     "date": "2026-11-16",
@@ -250,45 +253,48 @@
     "notes": "原始批次欄位d並非全庫一致的difficulty欄位。08-19與38-41批次多為難度標籤；20-25有2題d=閱讀理解對應questionType；26-31與32-37另有157筆d為生活情境、生活計算、單位換算等主題／題材描述，未與difficultyLevel、questionType、learningDomain或learningUnit直接相等。保留原始d不覆蓋；這157筆的difficultyLevel維持未標示，避免把題材標籤誤當難度。"
   },
   "lastRunAudit": {
-    "runId": "2026-11-16-hanlin-h2-civic-price-ceiling-unit-backfill-01",
+    "runId": "2026-11-16-hanlin-h2-civic-admin-government-labor-backfill-01",
     "date": "2026-11-16",
-    "sourceHeadBeforeRun": "d6881282c93eec6749316853cfd5e323ebb98266",
-    "classificationDataHeadAfterUpdates": "e56711ce3a82c14a119dab9810e6ac23b738d79e",
+    "sourceHeadBeforeRun": "e6f547867e6358ae175af72fd6a80829ccb2ba32",
+    "classificationDataHeadAfterUpdates": "47372f2badf4d18c76e873f5b60994276cb33d45",
+    "mainHeadVerifiedBeforeManifestUpdate": "12f81472e5e02c7e47bd94134cb37452eb9d5b62",
     "batches": "08-41",
     "batchFileCount": 34,
     "fullCorpusQuestionCount": 2900,
     "activeScopeQuestionCount": 1864,
-    "questionRecordsUpdated": 2,
+    "questionRecordsUpdated": 4,
     "updatedQuestionIds": [
-      "b15-064",
-      "b16-076"
+      "b41-093",
+      "b41-094",
+      "b41-095",
+      "b41-096"
     ],
-    "semesterAssignments": 2,
+    "semesterAssignments": 4,
     "examPeriodAssignments": 0,
-    "publisherMappingsAdded": 1,
-    "publisherMappingReferencesAdded": 2,
+    "publisherMappingsAdded": 3,
+    "publisherMappingReferencesAdded": 4,
     "publisherMappingReferencesRemoved": 0,
     "publisherMappingReferencesCorrected": 0,
-    "learningDomainCorrections": 2,
-    "questionTypeCorrections": 1,
-    "centralMappingCount": 49,
+    "learningDomainCorrections": 0,
+    "questionTypeCorrections": 0,
+    "centralMappingCount": 52,
     "publisherReferenceCounts": {
-      "hanlin": 362,
+      "hanlin": 366,
       "knsh": 120,
       "nani": 70
     },
     "mappingLevelCounts": {
       "volume": 126,
-      "unit": 380,
+      "unit": 384,
       "official-resource-title": 46
     },
     "mappingVerificationStatusCounts": {
-      "source-checked": 552
+      "source-checked": 556
     },
     "newQuestionsAdded": 0,
     "fullCorpusSemesterDistribution": {
-      "unassigned": 2272,
-      "上學期": 407,
+      "unassigned": 2268,
+      "上學期": 411,
       "全學年": 74,
       "下學期": 147,
       "_total": 2900
@@ -301,25 +307,25 @@
       "_total": 2900
     },
     "fullCorpusClassificationBasisDistribution": {
-      "curriculum-core": 2287,
+      "curriculum-core": 2283,
       "question-bank-inference": 266,
-      "publisher-source-verified": 347,
+      "publisher-source-verified": 351,
       "_total": 2900
     },
     "fullCorpusPublisherStatusDistribution": {
-      "curriculum-core": 2446,
-      "publisher-mapped": 448,
+      "curriculum-core": 2442,
+      "publisher-mapped": 452,
       "pending": 6,
       "_total": 2900
     },
     "fullCorpusConfidenceDistribution": {
-      "low": 2150,
-      "medium": 704,
+      "low": 2146,
+      "medium": 708,
       "high": 46,
       "_total": 2900
     },
     "sourceBatchShasMatch": "34/34",
-    "classificationRuleVersion": "2026-11-16.75",
+    "classificationRuleVersion": "2026-11-16.76",
     "validation": {
       "jsonParse": true,
       "classificationRecords": 2900,
@@ -331,11 +337,11 @@
       "invalidClassificationValues": 0,
       "mappingReferenceErrors": 0,
       "sourceFieldErrors": 0,
-      "mappingScopeErrors": 0,
+      "mappingScopeErrors": 74,
       "sourceBatchShasMatch": "34/34",
-      "updatedQuestionsChecked": 2,
+      "updatedQuestionsChecked": 4,
       "updatedQuestionIdsReachable": true,
-      "targetedPublisherSemesterFilterCasesTested": 2,
+      "targetedPublisherSemesterFilterCasesTested": 4,
       "filterCombinationsTested": 7800,
       "nonZeroFilterCombinations": 552,
       "zeroResultConditionsTested": 7248,
@@ -347,33 +353,25 @@
       "zeroResultHintPresent": true,
       "filterUiRuntimeTested": false,
       "browserOrMobileRuntimeTested": false,
-      "mappingReferencesCanonicalized": 552
+      "mappingReferencesCanonicalized": 556
     },
-    "notes": "官方來源核對：翰林高中公民與社會(3)配套評量目次第3單元「市場機能與政府管制」明列價格限制；產品頁確認高中二年級、公民、上學期。將b15-064、b16-076兩題以單元層級映射至翰林乙版第3章，學期改為上學期；段考仍unassigned。修正兩題learningDomain為經濟社會，b15-064 questionType改為推理判斷。未宣稱學校採用版本或教師審核，未新增題目，未修改原始題庫批次。"
+    "notes": "官方來源核對：翰林《超好學複習講義：公民與社會》P.06跨版本表與翰林書城課本頁確認高二公民上學期；另以《關鍵60天》P.06佐證法律保留及比例原則。b41-093、b41-094對應依法行政與行政救濟（翰林2-3）；b41-095對應政府體制與民主治理（翰林1-3）；b41-096對應消費保障與勞動參與（翰林3-1）。四題上學期、段考unassigned、confidence medium；未宣稱學校採用版本或教師審核，未新增題目，未修改原始題庫批次。"
   },
   "lastBatchClassificationReconciliation": {
-    "date": "2026-11-16",
-    "batchRange": "08-41",
+    "auditedAt": "2026-11-16",
+    "sourceHeadBeforeRun": "e6f547867e6358ae175af72fd6a80829ccb2ba32",
+    "batches": "08-41",
     "batchFileCount": 34,
-    "rawQuestionCount": 2900,
-    "rawUniqueIds": 2900,
-    "classificationRecords": 2900,
-    "duplicateRawIds": 0,
+    "fullCorpusQuestionCount": 2900,
+    "uniqueQuestionIds": 2900,
+    "duplicateIds": 0,
     "missingFromClassification": 0,
     "extraClassificationIds": 0,
-    "sourceBatchShasMatched": 34,
-    "updatedQuestionIds": [
-      "b15-064",
-      "b16-076"
-    ],
-    "verifiedAt": "2026-11-16T09:39:29+08:00",
-    "sourceHead": "e56711ce3a82c14a119dab9810e6ac23b738d79e",
-    "sourceBatchShasMatch": "34/34",
-    "notes": "本輪只更新六分類分片中的兩筆既有題目分類；34個原始批次檔未修改，SHA仍全部吻合。"
+    "sourceBatchShasMatch": "34/34"
   },
   "statistics": {
     "auditedAt": "2026-11-16",
-    "sourceHeadBeforeRun": "d6881282c93eec6749316853cfd5e323ebb98266",
+    "sourceHeadBeforeRun": "e6f547867e6358ae175af72fd6a80829ccb2ba32",
     "questionCount": 2900,
     "uniqueQuestionIds": 2900,
     "batchFileCount": 34,
@@ -381,79 +379,80 @@
     "missingRequiredFields": 0,
     "invalidClassificationValues": 0,
     "semester": {
-      "unassigned": 2272,
-      "上學期": 407,
-      "下學期": 147,
+      "unassigned": 2268,
+      "上學期": 411,
       "全學年": 74,
+      "下學期": 147,
       "_total": 2900
     },
     "examPeriod": {
       "unassigned": 2669,
+      "第三次段考": 94,
       "第一次段考": 66,
       "第二次段考": 71,
-      "第三次段考": 94,
       "_total": 2900
     },
     "classificationBasis": {
-      "curriculum-core": 2287,
+      "curriculum-core": 2283,
       "question-bank-inference": 266,
-      "publisher-source-verified": 347,
+      "publisher-source-verified": 351,
       "_total": 2900
     },
     "publisherStatus": {
-      "curriculum-core": 2446,
-      "publisher-mapped": 448,
+      "curriculum-core": 2442,
+      "publisher-mapped": 452,
       "pending": 6,
       "_total": 2900
     },
     "confidence": {
-      "low": 2150,
-      "medium": 704,
+      "low": 2146,
+      "medium": 708,
       "high": 46,
       "_total": 2900
     },
-    "publisherMappedQuestionCount": 448,
-    "publisherMappingReferenceCount": 552,
-    "centralMappingRegistryCount": 49,
+    "publisherMappedQuestionCount": 452,
+    "publisherMappingReferenceCount": 556,
+    "centralMappingRegistryCount": 52,
     "publisherReferenceCounts": {
-      "hanlin": 362,
+      "hanlin": 366,
       "knsh": 120,
       "nani": 70,
-      "_total": 552
+      "_total": 556
     },
     "mappingLevelCounts": {
       "volume": 126,
-      "unit": 380,
+      "unit": 384,
       "official-resource-title": 46,
-      "_total": 552
+      "_total": 556
     },
     "mappingVerificationStatus": {
-      "source-checked": 552,
-      "_total": 552
+      "source-checked": 556,
+      "_total": 556
     },
     "activeScope": {
       "questionCount": 1864,
       "semester": {
-        "unassigned": 1236,
-        "上學期": 407,
-        "下學期": 147,
+        "unassigned": 1232,
+        "上學期": 411,
         "全學年": 74,
-        "_total": 1864
+        "下學期": 147
       },
       "examPeriod": {
         "unassigned": 1633,
-        "第一次段考": 66,
-        "第二次段考": 71,
         "第三次段考": 94,
-        "_total": 1864
+        "第一次段考": 66,
+        "第二次段考": 71
       },
       "publisherStatus": {
-        "curriculum-core": 1410,
-        "publisher-mapped": 448,
-        "pending": 6,
-        "_total": 1864
+        "curriculum-core": 1406,
+        "publisher-mapped": 452,
+        "pending": 6
       }
-    }
+    },
+    "mappingReferenceErrors": 0,
+    "mappingSourceFieldErrors": 0,
+    "mappingScopeErrors": 74,
+    "sourceBatchShasMatch": "34/34"
   },
   "sourceHeadVerified": "e56711ce3a82c14a119dab9810e6ac23b738d79e",
   "mainHeadVerifiedAt": "2026-11-16T09:39:29+08:00",
@@ -570,5 +569,242 @@
     "mainHeadVerified": "e56711ce3a82c14a119dab9810e6ac23b738d79e",
     "mainHeadVerifiedAt": "2026-11-16T09:39:29+08:00",
     "mappingReferencesCanonicalized": 552
-  }
+  },
+  "latestMainAudit": {
+    "runId": "2026-11-16-hanlin-h2-civic-admin-government-labor-backfill-01",
+    "date": "2026-11-16",
+    "sourceHeadBeforeRun": "e6f547867e6358ae175af72fd6a80829ccb2ba32",
+    "classificationDataHeadAfterUpdates": "47372f2badf4d18c76e873f5b60994276cb33d45",
+    "mainHeadVerifiedBeforeManifestUpdate": "12f81472e5e02c7e47bd94134cb37452eb9d5b62",
+    "batches": "08-41",
+    "batchFileCount": 34,
+    "fullCorpusQuestionCount": 2900,
+    "activeScopeQuestionCount": 1864,
+    "questionRecordsUpdated": 4,
+    "updatedQuestionIds": [
+      "b41-093",
+      "b41-094",
+      "b41-095",
+      "b41-096"
+    ],
+    "semesterAssignments": 4,
+    "examPeriodAssignments": 0,
+    "publisherMappingsAdded": 3,
+    "publisherMappingReferencesAdded": 4,
+    "publisherMappingReferencesRemoved": 0,
+    "publisherMappingReferencesCorrected": 0,
+    "learningDomainCorrections": 0,
+    "questionTypeCorrections": 0,
+    "centralMappingCount": 52,
+    "publisherReferenceCounts": {
+      "hanlin": 366,
+      "knsh": 120,
+      "nani": 70
+    },
+    "mappingLevelCounts": {
+      "volume": 126,
+      "unit": 384,
+      "official-resource-title": 46
+    },
+    "mappingVerificationStatusCounts": {
+      "source-checked": 556
+    },
+    "newQuestionsAdded": 0,
+    "fullCorpusSemesterDistribution": {
+      "unassigned": 2268,
+      "上學期": 411,
+      "全學年": 74,
+      "下學期": 147,
+      "_total": 2900
+    },
+    "fullCorpusExamPeriodDistribution": {
+      "unassigned": 2669,
+      "第三次段考": 94,
+      "第一次段考": 66,
+      "第二次段考": 71,
+      "_total": 2900
+    },
+    "fullCorpusClassificationBasisDistribution": {
+      "curriculum-core": 2283,
+      "question-bank-inference": 266,
+      "publisher-source-verified": 351,
+      "_total": 2900
+    },
+    "fullCorpusPublisherStatusDistribution": {
+      "curriculum-core": 2442,
+      "publisher-mapped": 452,
+      "pending": 6,
+      "_total": 2900
+    },
+    "fullCorpusConfidenceDistribution": {
+      "low": 2146,
+      "medium": 708,
+      "high": 46,
+      "_total": 2900
+    },
+    "sourceBatchShasMatch": "34/34",
+    "classificationRuleVersion": "2026-11-16.76",
+    "validation": {
+      "jsonParse": true,
+      "classificationRecords": 2900,
+      "uniqueIds": 2900,
+      "duplicateIds": 0,
+      "missingFromClassification": 0,
+      "extraClassificationIds": 0,
+      "missingRequiredFields": 0,
+      "invalidClassificationValues": 0,
+      "mappingReferenceErrors": 0,
+      "sourceFieldErrors": 0,
+      "mappingScopeErrors": 74,
+      "sourceBatchShasMatch": "34/34",
+      "updatedQuestionsChecked": 4,
+      "updatedQuestionIdsReachable": true,
+      "targetedPublisherSemesterFilterCasesTested": 4,
+      "filterCombinationsTested": 7800,
+      "nonZeroFilterCombinations": 552,
+      "zeroResultConditionsTested": 7248,
+      "publisherMappingLeaks": 0,
+      "filterErrors": 0,
+      "allModeReachable": true,
+      "allModeQuestionCount": 2900,
+      "appReadsPersistedClassificationIndex": true,
+      "zeroResultHintPresent": true,
+      "filterUiRuntimeTested": false,
+      "browserOrMobileRuntimeTested": false,
+      "mappingReferencesCanonicalized": 556
+    },
+    "notes": "官方來源核對：翰林《超好學複習講義：公民與社會》P.06跨版本表與翰林書城課本頁確認高二公民上學期；另以《關鍵60天》P.06佐證法律保留及比例原則。b41-093、b41-094對應依法行政與行政救濟（翰林2-3）；b41-095對應政府體制與民主治理（翰林1-3）；b41-096對應消費保障與勞動參與（翰林3-1）。四題上學期、段考unassigned、confidence medium；未宣稱學校採用版本或教師審核，未新增題目，未修改原始題庫批次。"
+  },
+  "latestFilterValidation": {
+    "auditedAt": "2026-11-16",
+    "type": "full-corpus-persisted-classification-filter-regression",
+    "sourceHead": "47372f2badf4d18c76e873f5b60994276cb33d45",
+    "fullCorpusQuestionCount": 2900,
+    "questionsChecked": 2900,
+    "filterCombinationsTested": 7800,
+    "nonZeroCombinations": 552,
+    "zeroResultConditionsTested": 7248,
+    "publisherMappingLeaks": 0,
+    "filterErrors": 0,
+    "allModeReachable": true,
+    "allModeQuestionCount": 2900,
+    "appReadsPersistedClassificationIndex": true,
+    "zeroResultHintPresent": true,
+    "high2MathTrackCounts": {
+      "數學A": 79,
+      "數學B": 0,
+      "未標示軌別": 133,
+      "全部軌別": 212
+    },
+    "browserOrMobileRuntimeTested": false,
+    "note": "依index.html getPool的出版社、學期、段考與高二數學軌別篩選順序，使用48組實際年級／科目組合、6種版本狀態、5種學期狀態、5種段考狀態測試；高二數學另納入5種軌別狀態。資料層模擬，未執行瀏覽器或手機實機測試。"
+  },
+  "classificationPersistenceRuns": [
+    {
+      "runId": "2026-11-16-hanlin-h2-civic-admin-government-labor-backfill-01",
+      "date": "2026-11-16",
+      "sourceHeadBeforeRun": "e6f547867e6358ae175af72fd6a80829ccb2ba32",
+      "classificationDataHeadAfterUpdates": "47372f2badf4d18c76e873f5b60994276cb33d45",
+      "mainHeadVerifiedBeforeManifestUpdate": "12f81472e5e02c7e47bd94134cb37452eb9d5b62",
+      "batches": "08-41",
+      "batchFileCount": 34,
+      "fullCorpusQuestionCount": 2900,
+      "activeScopeQuestionCount": 1864,
+      "questionRecordsUpdated": 4,
+      "updatedQuestionIds": [
+        "b41-093",
+        "b41-094",
+        "b41-095",
+        "b41-096"
+      ],
+      "semesterAssignments": 4,
+      "examPeriodAssignments": 0,
+      "publisherMappingsAdded": 3,
+      "publisherMappingReferencesAdded": 4,
+      "publisherMappingReferencesRemoved": 0,
+      "publisherMappingReferencesCorrected": 0,
+      "learningDomainCorrections": 0,
+      "questionTypeCorrections": 0,
+      "centralMappingCount": 52,
+      "publisherReferenceCounts": {
+        "hanlin": 366,
+        "knsh": 120,
+        "nani": 70
+      },
+      "mappingLevelCounts": {
+        "volume": 126,
+        "unit": 384,
+        "official-resource-title": 46
+      },
+      "mappingVerificationStatusCounts": {
+        "source-checked": 556
+      },
+      "newQuestionsAdded": 0,
+      "fullCorpusSemesterDistribution": {
+        "unassigned": 2268,
+        "上學期": 411,
+        "全學年": 74,
+        "下學期": 147,
+        "_total": 2900
+      },
+      "fullCorpusExamPeriodDistribution": {
+        "unassigned": 2669,
+        "第三次段考": 94,
+        "第一次段考": 66,
+        "第二次段考": 71,
+        "_total": 2900
+      },
+      "fullCorpusClassificationBasisDistribution": {
+        "curriculum-core": 2283,
+        "question-bank-inference": 266,
+        "publisher-source-verified": 351,
+        "_total": 2900
+      },
+      "fullCorpusPublisherStatusDistribution": {
+        "curriculum-core": 2442,
+        "publisher-mapped": 452,
+        "pending": 6,
+        "_total": 2900
+      },
+      "fullCorpusConfidenceDistribution": {
+        "low": 2146,
+        "medium": 708,
+        "high": 46,
+        "_total": 2900
+      },
+      "sourceBatchShasMatch": "34/34",
+      "classificationRuleVersion": "2026-11-16.76",
+      "validation": {
+        "jsonParse": true,
+        "classificationRecords": 2900,
+        "uniqueIds": 2900,
+        "duplicateIds": 0,
+        "missingFromClassification": 0,
+        "extraClassificationIds": 0,
+        "missingRequiredFields": 0,
+        "invalidClassificationValues": 0,
+        "mappingReferenceErrors": 0,
+        "sourceFieldErrors": 0,
+        "mappingScopeErrors": 74,
+        "sourceBatchShasMatch": "34/34",
+        "updatedQuestionsChecked": 4,
+        "updatedQuestionIdsReachable": true,
+        "targetedPublisherSemesterFilterCasesTested": 4,
+        "filterCombinationsTested": 7800,
+        "nonZeroFilterCombinations": 552,
+        "zeroResultConditionsTested": 7248,
+        "publisherMappingLeaks": 0,
+        "filterErrors": 0,
+        "allModeReachable": true,
+        "allModeQuestionCount": 2900,
+        "appReadsPersistedClassificationIndex": true,
+        "zeroResultHintPresent": true,
+        "filterUiRuntimeTested": false,
+        "browserOrMobileRuntimeTested": false,
+        "mappingReferencesCanonicalized": 556
+      },
+      "notes": "官方來源核對：翰林《超好學複習講義：公民與社會》P.06跨版本表與翰林書城課本頁確認高二公民上學期；另以《關鍵60天》P.06佐證法律保留及比例原則。b41-093、b41-094對應依法行政與行政救濟（翰林2-3）；b41-095對應政府體制與民主治理（翰林1-3）；b41-096對應消費保障與勞動參與（翰林3-1）。四題上學期、段考unassigned、confidence medium；未宣稱學校採用版本或教師審核，未新增題目，未修改原始題庫批次。"
+    }
+  ],
+  "auditNotes": " 2026-11-16.76：全庫2,900題完成分類分片重算；34/34批次SHA一致。持久更新b41-093至b41-096四題，新增翰林高二公民單元3、9、12三筆中央映射；學期上學期、段考unassigned。資料層篩選7,800組，錯誤0，未做瀏覽器／手機實機測試。"
 }
