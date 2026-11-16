@@ -10,6 +10,7 @@
 
 來源：
 - [翰林書城－高中課本《公民與社會(3)乙版》](https://books.hanlin.com.tw/product/009121)
+- [翰林高中參考書《超好學複習講義：公民與社會》P.08跨版本對照表](https://fliphtml5.com/cojaq/hgym/%E8%B6%85%E5%A5%BD%E5%AD%B8%E8%A4%87%E7%BF%92%E8%AC%9B%E7%BE%A9-%E5%85%AC%E6%B0%91%E8%88%87%E7%A4%BE%E6%9C%83/8/)
 - [翰林高中參考書《超好學複習講義：公民與社會》P.65目次](https://fliphtml5.com/cojaq/hgym/%E8%B6%85%E5%A5%BD%E5%AD%B8%E8%A4%87%E7%BF%92%E8%AC%9B%E7%BE%A9-%E5%85%AC%E6%B0%91%E8%88%87%E7%A4%BE%E6%9C%83/65/)
 - [同書P.66第9單元程序正義與陳述機會](https://fliphtml5.com/cojaq/hgym/%E8%B6%85%E5%A5%BD%E5%AD%B8%E8%A4%87%E7%BF%92%E8%AC%9B%E7%BE%A9-%E5%85%AC%E6%B0%91%E8%88%87%E7%A4%BE%E6%9C%83/66/)
 
