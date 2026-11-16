@@ -748,7 +748,26 @@
       "verificationStatus": "source-checked",
       "notes": "康軒官方社會6下2-1教學資源明示學生與學校／政府機關協作參與社區事務，並以公共建設、交通安全為例。題目僅作官方教學資源標題／學習情境層級對照，不等同完整課本目次、不代表學校採用版本或正式段考範圍。",
       "courseType": "國小",
-      "mappingLevel": "official-resource-title"
+      "mappingLevel": "official-resource-title",
+      "unitAliases": [
+        "公共參與",
+        "民主參與",
+        "防災與公共資訊",
+        "公共聽證與政策參與",
+        "地震防災",
+        "地方參與",
+        "地方預算與公共決策",
+        "地方預算與公共利益",
+        "災害風險圖判讀",
+        "公共運輸與可近性",
+        "防災避難規劃",
+        "公共參與與審議",
+        "永續交通選擇",
+        "地方自治與公共參與",
+        "資源分配與公共利益",
+        "公共預算與公民參與",
+        "地方公共預算參與"
+      ]
     },
     {
       "id": "knsh-g6-social-6a-u4-3-sustainable-cities",
@@ -770,7 +789,20 @@
       "verificationStatus": "source-checked",
       "notes": "康軒官方教學資源明示配合社會6上4-3；內容涵蓋都市化與鄉村人口移動、醫療／教育設施及交通網絡、天然災害風險管理、社區參與與文化資產保存。此為官方教學資源標題／單元層級對照，不等同完整課本目次，不代表學校採用版本或正式段考範圍。",
       "courseType": "國小",
-      "mappingLevel": "official-resource-title"
+      "mappingLevel": "official-resource-title",
+      "unitAliases": [
+        "人口遷移的推力與拉力",
+        "人口遷移推力與拉力",
+        "人口遷移因素",
+        "人口移動推力因素",
+        "人口移動與公共服務",
+        "地方公共服務與公平性",
+        "都市規劃與交通選擇",
+        "公共運輸可及性",
+        "文化資產與觀光承載",
+        "文化資產保存",
+        "文化保存與多元尊重"
+      ]
     },
     {
       "id": "knsh-g6-natural-6a-u1-weather",
@@ -832,7 +864,10 @@
         "水循環",
         "水循環與凝結",
         "凝結現象",
-        "水循環與蒸發"
+        "水循環與蒸發",
+        "蒸發與凝結",
+        "水蒸氣",
+        "水蒸氣凝結"
       ]
     },
     {
@@ -860,7 +895,10 @@
         "水循環",
         "水循環與凝結",
         "凝結現象",
-        "水循環與蒸發"
+        "水循環與蒸發",
+        "蒸發與凝結",
+        "水蒸氣",
+        "水蒸氣凝結"
       ]
     },
     {
@@ -888,7 +926,10 @@
         "水循環",
         "水循環與凝結",
         "凝結現象",
-        "水循環與蒸發"
+        "水循環與蒸發",
+        "蒸發與凝結",
+        "水蒸氣",
+        "水蒸氣凝結"
       ]
     },
     {
@@ -920,7 +961,11 @@
         "熱傳導",
         "熱傳導實驗",
         "熱傳遞與保溫",
-        "熱傳導與材料"
+        "熱傳導與材料",
+        "隔熱材料",
+        "保溫杯",
+        "熱傳遞",
+        "熱傳導與保溫"
       ]
     },
     {
@@ -952,7 +997,11 @@
         "熱傳導",
         "熱傳導實驗",
         "熱傳遞與保溫",
-        "熱傳導與材料"
+        "熱傳導與材料",
+        "隔熱材料",
+        "保溫杯",
+        "熱傳遞",
+        "熱傳導與保溫"
       ]
     },
     {
@@ -1294,7 +1343,16 @@
       "verificationStatus": "source-checked",
       "notes": "翰林國小輔教行銷處官方帳號發布的教材補充資料第21頁明列單元6「兩量關係與比」及基準量／比較量子主題；第34頁跨版本對照表列翰林版6上第6單元，南一版6下第3單元、康軒版6下第4單元。只對應題幹與知識點確實屬於基準量／比較量的題目；不代表學校採用版本或正式段考範圍。",
       "courseType": "國小",
-      "mappingLevel": "unit"
+      "mappingLevel": "unit",
+      "unitAliases": [
+        "基準量和比較量",
+        "基準量與比較量",
+        "兩量關係與比",
+        "認識基準量與比較量",
+        "比較量未知問題",
+        "基準量未知問題",
+        "倍的關係與比"
+      ]
     },
     {
       "id": "hanlin-h2-civic-3-u4-external-costs",
@@ -1464,7 +1522,10 @@
       "courseTrack": null,
       "unitAliases": [
         "比與比值",
-        "比與比例"
+        "比與比例",
+        "比例",
+        "重量比",
+        "體積比"
       ]
     },
     {
@@ -1491,7 +1552,10 @@
       "courseTrack": null,
       "unitAliases": [
         "比與比值",
-        "比與比例"
+        "比與比例",
+        "比例",
+        "重量比",
+        "體積比"
       ]
     },
     {
@@ -1518,7 +1582,10 @@
       "courseTrack": null,
       "unitAliases": [
         "比與比值",
-        "比與比例"
+        "比與比例",
+        "比例",
+        "重量比",
+        "體積比"
       ]
     },
     {
@@ -1541,7 +1608,12 @@
       "verificationStatus": "source-checked",
       "notes": "第50頁「6年級版本對照表」列出單元6「兩量關係與比」：翰林版6上第6單元、康軒版6下第4單元、南一版6下第3單元。此映射以翰林官方部門發布的跨版本對照表為來源；不是康軒出版社自身課本詳情頁或學校採用證明。僅用於題幹直接涉及基準量／比較量的單元對照，不推定正式段考範圍。",
       "courseType": "國小",
-      "mappingLevel": "unit"
+      "mappingLevel": "unit",
+      "unitAliases": [
+        "基準量和比較量",
+        "基準量與比較量",
+        "兩量關係與比"
+      ]
     },
     {
       "id": "knsh-g6-natural-6b-u2-ecosystems",
@@ -1637,7 +1709,13 @@
       "notes": "翰林官方配套評量本目次第2頁列第3單元「市場機能與政府管制」，子題明列「政府管制（價格限制與考量）」；第3頁版本對照表將本書第3回對應翰林乙版第3章。翰林書城官方課本頁009121明示高中二年級、公民、上學期及「公民與社會(3)乙版」；配套評量頁469021亦明示高中二年級、公民、上學期且標示各版本適用。兩題題幹分別直接詢問低於均衡價格之法定價格上限與短缺，與官方目次子題精確相符。僅作單元層級教材對照，不代表學校採用版本或教師審核；段考範圍維持未分類。",
       "courseType": "未確認",
       "mappingLevel": "unit",
-      "courseTrack": null
+      "courseTrack": null,
+      "unitAliases": [
+        "價格上限",
+        "價格上限效果",
+        "價格限制與考量",
+        "市場機能與政府管制"
+      ]
     },
     {
       "id": "hanlin-h2-civic-3-u9-administrative-law",
@@ -1703,7 +1781,18 @@
       "verificationStatus": "source-checked",
       "courseType": "未確認",
       "mappingLevel": "unit",
-      "courseTrack": null
+      "courseTrack": null,
+      "unitAliases": [
+        "政府體制與民主治理",
+        "權力分立與制衡",
+        "權力分立",
+        "權力制衡",
+        "立法機關",
+        "行政機關",
+        "司法機關",
+        "政府體制",
+        "民主治理"
+      ]
     },
     {
       "id": "hanlin-h2-civic-3-u12-labor-participation",
@@ -1726,7 +1815,23 @@
       "verificationStatus": "source-checked",
       "courseType": "未確認",
       "mappingLevel": "unit",
-      "courseTrack": null
+      "courseTrack": null,
+      "unitAliases": [
+        "消費保障與勞動參與",
+        "勞動權益與契約",
+        "勞動權益",
+        "法定休假",
+        "勞動契約",
+        "勞動基準法",
+        "勞工權益",
+        "休假",
+        "勞動團結權",
+        "集體協商權",
+        "集體協商",
+        "工會",
+        "最低工資",
+        "最低工資與制度目的"
+      ]
     },
     {
       "id": "knsh-g6-math-114-calc-u8-scale",
@@ -1836,7 +1941,15 @@
       "unitCode": "2-2",
       "unitName": "憲法與人權保障",
       "learningContent": "憲法基本權利保障、平等權、社會權",
-      "notes": "翰林高中參考書官方帳號刊載的《超好學複習講義：公民與社會》P.08「108課綱各版本對照表」列出高中公民第8單元「憲法與人權保障」，對應翰林課本第2-2章；翰林書城官方課本頁009121明示高中二年級、公民、上學期與「公民與社會(3)乙版」。此為單元層級教材對照，不代表學校實際採用版本、學年度、教師審核或正式段考範圍，也不表示題目取自教材原文。"
+      "notes": "翰林高中參考書官方帳號刊載的《超好學複習講義：公民與社會》P.08「108課綱各版本對照表」列出高中公民第8單元「憲法與人權保障」，對應翰林課本第2-2章；翰林書城官方課本頁009121明示高中二年級、公民、上學期與「公民與社會(3)乙版」。此為單元層級教材對照，不代表學校實際採用版本、學年度、教師審核或正式段考範圍，也不表示題目取自教材原文。",
+      "unitAliases": [
+        "平等權",
+        "身心障礙者",
+        "無障礙通道",
+        "社會權",
+        "基本教育",
+        "社會安全"
+      ]
     },
     {
       "id": "knsh-g6-natural-114-6b-u3-ecology",
@@ -1856,7 +1969,7 @@
       "sourceTitle": "114康軒國小教材特色－自然領域文宣（六下單元三「地球的生態」）",
       "verifiedAt": "2026-11-17",
       "verificationStatus": "source-checked",
-      "notes": "康軒官方114學年度國小教材特色PDF列六下自然主題「地球的生態」，主題脈絡明列食物鏈、族群與群集、生物間關係、生態系、特有種、保育類、外來入侵種及生物多樣性；課程架構另列單元三，活動包含生物彼此間的關係、不同生態系及維護生物多樣性。此映射只支持114版康軒國小六年級自然下學期單元三，不代表題庫或任何學校實際採用114版本，也不提供正式段考範圍。",
+      "notes": "康軒官方114學年度國小教材特色PDF列六下自然主題「地球的生態」，主題脈絡明列食物鏈、族群與群集、生物間關係、生態系、特有種、保育類、外來入侵種及生物多樣性；課程架構另列單元三，活動包含生物彼此間的關係、不同生態系及維護生物多樣性。此映射只支持114版康軒國小六年級自然下學期單元三，不代表題庫或任何學校實際採用114版本，也不提供正式段考範圍。 題庫中的「棲地破碎化」僅作為本單元生物多樣性保育的情境應用，不宣稱官方目次另列該子單元。",
       "courseType": "國小",
       "mappingLevel": "unit",
       "courseTrack": null,
@@ -1873,7 +1986,8 @@
         "食物網與族群變化",
         "生物多樣性",
         "族群與群集",
-        "生物之間的關係"
+        "生物之間的關係",
+        "棲地破碎化"
       ]
     },
     {
@@ -1965,7 +2079,11 @@
       "verifiedAt": "2026-11-17",
       "verificationStatus": "source-checked",
       "mappingLevel": "official-resource-title",
-      "notes": "康軒官方113(1)高年級高效特刊的數學資源明示「學後檢測卷，以6下為例」，搭配冊次為康軒版數學1至6年級；6下單元學後檢測卷A2MA11012003第7題直接呈現梯形面積求高題。此映射僅為官方補充資源標題／題型層級，不宣稱梯形面積是課本獨立細分單元，也不代表學校採用版本；段考無足夠證據，維持未分類。"
+      "notes": "康軒官方113(1)高年級高效特刊的數學資源明示「學後檢測卷，以6下為例」，搭配冊次為康軒版數學1至6年級；6下單元學後檢測卷A2MA11012003第7題直接呈現梯形面積求高題。此映射僅為官方補充資源標題／題型層級，不宣稱梯形面積是課本獨立細分單元，也不代表學校採用版本；段考無足夠證據，維持未分類。",
+      "unitAliases": [
+        "梯形面積",
+        "梯形面積公式"
+      ]
     }
   ],
   "mappingStatus": "source-checked-60-mappings",
@@ -9348,5 +9466,97 @@
       "b37-025"
     ],
     "notes": "僅統計國小六年級與高中二年級；段考仍是複習建議，不代表學校正式範圍。"
+  },
+  "latestClassificationPersistenceAudit": {
+    "runId": "2026-11-17-classification-persistence-reconciliation-11",
+    "sourceHeadBeforeRun": "71e8cb672b3f04bf9447ec8cfd3573a5e0a42d07",
+    "batchRange": "08-41",
+    "batchFileCount": 34,
+    "questionCount": 2900,
+    "uniqueQuestionIds": 2900,
+    "classificationRecordCount": 2900,
+    "missingClassificationCount": 0,
+    "duplicateQuestionIds": 0,
+    "requiredFieldComplete": 2900,
+    "invalidClassificationValues": 0,
+    "sourceBatchShaMatches": 34,
+    "sourceBatchShaTotal": 34,
+    "sourceBatchShaMismatches": 0,
+    "updatedQuestionRecords": 25,
+    "updatedQuestionIds": [
+      "b15-021",
+      "b15-024",
+      "b17-024",
+      "b18-023",
+      "b18-025",
+      "b19-023",
+      "b19-025",
+      "b24-035",
+      "b25-029",
+      "b27-035",
+      "b30-023",
+      "b30-032",
+      "b31-032",
+      "b31-045",
+      "b33-032",
+      "b37-034",
+      "b38-036",
+      "b38-039",
+      "b39-036",
+      "b39-038",
+      "b40-033",
+      "b40-037",
+      "b41-032",
+      "b41-035",
+      "b41-040"
+    ],
+    "newPublisherMappingsPersisted": 8,
+    "stalePublisherMappingReferencesRemoved": 4,
+    "classificationBasisCorrections": 12,
+    "runtimePersistenceDifferencesReconciled": 36,
+    "runtimePersistenceDifferencesRemaining": 0,
+    "inferenceRuleVersion": "2026-11-17.95",
+    "serviceWorkerCache": "xy-learning-v182",
+    "noNewQuestionsAdded": true,
+    "note": "官方來源只支持對應年級、科目、學期與教材單元層級；未宣稱學校採用版本或正式段考範圍。",
+    "scopeReconciledQuestionIds": [
+      "b13-023",
+      "b14-005",
+      "b15-075",
+      "b23-029",
+      "b24-025",
+      "b24-072",
+      "b28-030",
+      "b28-040",
+      "b35-095",
+      "b39-038"
+    ],
+    "officialSourceChecks": [
+      {
+        "publisher": "knsh",
+        "mappingIds": [
+          "knsh-g6-social-6a-u4-3-sustainable-cities"
+        ],
+        "sourceUrl": "https://sdgs.knsh.com.tw/campus/SDGS_FILE_E/%E7%A4%BE%E6%9C%83%E5%85%AD%E4%B8%8ACH4L3%E9%83%BD%E5%B8%82%E8%88%87%E9%84%89%E6%9D%91%E7%82%BA%E4%BB%80%E9%BA%BC%E9%9C%80%E8%A6%81%E9%82%81%E5%90%91%E6%B0%B8%E7%BA%8C%E7%99%BC%E5%B1%95_%E6%95%99%E5%AD%B8%E8%B3%87%E6%BA%90.pdf",
+        "sourceTitle": "康軒社會6上4-3官方教學資源",
+        "verifiedAt": "2026-11-14",
+        "verificationStatus": "source-checked"
+      },
+      {
+        "publisher": "knsh",
+        "mappingIds": [
+          "knsh-g6-natural-114-6b-u2-energy-life",
+          "knsh-g6-natural-114-6b-u3-ecology"
+        ],
+        "sourceUrl": "https://945cloud.knsh.com.tw/E/promo/Show/upload/material/4/114%281%29%E8%87%AA%E7%84%B6%E9%A0%98%E5%9F%9F%E6%96%87%E5%AE%A3.pdf",
+        "sourceTitle": "114康軒國小教材特色－自然領域文宣",
+        "verifiedAt": "2026-11-17",
+        "verificationStatus": "source-checked"
+      }
+    ],
+    "excludedInferenceCases": [
+      "b18-027",
+      "b36-035"
+    ]
   }
 }
