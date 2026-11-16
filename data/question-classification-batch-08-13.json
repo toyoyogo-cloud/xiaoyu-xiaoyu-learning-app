@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.1.0",
-  "updatedAt": "2026-11-16",
-  "classificationRuleVersion": "2026-11-16.78",
+  "updatedAt": "2026-11-16T13:46:33+08:00",
+  "classificationRuleVersion": "2026-11-16.79",
   "batchRange": "08-13",
   "sourceBatchShas": {
     "10": "37481b26e30f6fc7e2fd6b93accd5996931b8e0a",
@@ -155,21 +155,21 @@
       "semester": "上學期",
       "examPeriod": "unassigned",
       "classificationBasis": "publisher-source-verified",
-      "confidence": "high",
+      "confidence": "medium",
       "publisherStatus": "publisher-mapped",
       "publisherMappings": [
         {
           "publisher": "knsh",
-          "mappingId": "knsh-g6-math-6a-u9-scale",
-          "sourceUrl": "https://945cloud.knsh.com.tw/E/promo/show/upload/material/3/114%281%29%E9%AB%98%E5%B9%B4%E7%B4%9A%E7%B6%9C%E5%90%88%E6%96%87%E5%AE%A3.pdf",
-          "sourceTitle": "康軒114國小高年級數學教材簡介－六上第9單元「放大圖、縮圖與比例尺」",
+          "mappingId": "knsh-g6-math-114-calc-u8-scale",
+          "sourceUrl": "https://fliphtml5.com/gygix/niar/114%281%29%E6%95%B8%E5%AD%B8%E8%A8%88%E7%AE%97%E9%AB%98%E6%89%8B6%E5%B9%B4%E7%B4%9A/5/",
+          "sourceTitle": "康軒帳號於FlipHTML5發布－114(1)數學計算高手6年級，第5頁目次「單元8 放大圖、縮圖與比例尺」",
           "verifiedAt": "2026-11-16",
           "verificationStatus": "source-checked",
-          "notes": "康軒114國小教材簡介明列六上第9單元「放大圖、縮圖與比例尺」，並列比例尺學習內容（PDF第17–18頁文字擷取）。本題直接以地圖比例尺換算實際距離，與該單元名稱及內容相符；僅作114學年度康軒版本單元層級對照。題庫題目本身未標學年度，不能據此宣稱學校採用康軒或指定114學年度；不代表正式段考範圍，也不表示題目取自教材。",
-          "mappingLevel": "unit",
-          "volume": "數學6上",
-          "unitCode": "9",
-          "unitName": "放大圖、縮圖與比例尺",
+          "notes": "頁面顯示發布帳號為「康軒」，教材標題為114(1)數學計算高手6年級；來源託管於FlipHTML5，屬出版社帳號公開的補充教材，不是康軒官方網站的教科書商品頁。僅作該補充教材的官方資源標題／單元主題對照；不證明學校採用康軒版本、不代表課本單元編號完全相同，也不提供正式段考範圍。第5頁目次列8-1至8-4，含比例尺；僅支持比例尺主題，不冒稱康軒教科書第9單元。",
+          "mappingLevel": "official-resource-title",
+          "volume": "114(1)數學計算高手6年級（補充教材）",
+          "unitCode": "8",
+          "unitName": "補充教材單元8：放大圖、縮圖與比例尺",
           "unitAliases": [
             "比例尺",
             "地圖比例尺",
@@ -183,8 +183,8 @@
           "courseType": "國小"
         }
       ],
-      "classificationNotes": "康軒114官方教材簡介明列六上第9單元「放大圖、縮圖與比例尺」，題幹知識點與該單元相符；此為114學年度版本單元對照，題庫未標學年度，非學校採用證明。官方資料未提供校內段考範圍，examPeriod 保留 unassigned。",
-      "sourceRef": "https://945cloud.knsh.com.tw/E/promo/show/upload/material/3/114%281%29%E9%AB%98%E5%B9%B4%E7%B4%9A%E7%B6%9C%E5%90%88%E6%96%87%E5%AE%A3.pdf",
+      "classificationNotes": "康軒帳號於FlipHTML5公開的114(1)六年級數學補充教材第5頁目次列「單元8 放大圖、縮圖與比例尺」；題目直接以比例尺換算實際距離。僅作出版社補充教材資源標題層級對照，非課本採用證明；學校與題庫學年度未確認，段考維持unassigned。",
+      "sourceRef": "https://fliphtml5.com/gygix/niar/114%281%29%E6%95%B8%E5%AD%B8%E8%A8%88%E7%AE%97%E9%AB%98%E6%89%8B6%E5%B9%B4%E7%B4%9A/5/",
       "learningDomain": "數與運算",
       "questionType": "圖表資料判讀",
       "learningUnit": "比例尺",
@@ -257,26 +257,27 @@
       "semester": "上學期",
       "examPeriod": "unassigned",
       "classificationBasis": "publisher-source-verified",
-      "confidence": "high",
+      "confidence": "medium",
       "publisherStatus": "publisher-mapped",
       "publisherMappings": [
         {
           "publisher": "knsh",
-          "mappingId": "knsh-g6-math-6a-u8-speed",
-          "sourceUrl": "https://945cloud.knsh.com.tw/E/promo/show/upload/material/3/114%281%29%E9%AB%98%E5%B9%B4%E7%B4%9A%E7%B6%9C%E5%90%88%E6%96%87%E5%AE%A3.pdf",
-          "sourceTitle": "康軒114國小高年級數學教材簡介－六上第8單元「認識速率」",
+          "mappingId": "knsh-g6-math-114-calc-u5-speed",
+          "sourceUrl": "https://fliphtml5.com/gygix/niar/114%281%29%E6%95%B8%E5%AD%B8%E8%A8%88%E7%AE%97%E9%AB%98%E6%89%8B6%E5%B9%B4%E7%B4%9A/8/",
+          "sourceTitle": "康軒帳號於FlipHTML5發布－114(1)數學計算高手6年級，第8頁「單元5 速率」",
           "verifiedAt": "2026-11-16",
           "verificationStatus": "source-checked",
-          "notes": "康軒114國小教材簡介明列六上第8單元「認識速率」，內容含速率、距離／時間／速率關係及單位換算（PDF第17–18頁文字擷取）。本題以每小時速率乘行駛時間求距離，符合該單元核心內容；僅作114學年度康軒版本單元層級對照。題庫題目本身未標學年度，不能據此宣稱學校採用康軒或指定114學年度；不代表正式段考範圍，也不表示題目取自教材。",
-          "mappingLevel": "unit",
-          "volume": "數學6上",
-          "unitCode": "8",
-          "unitName": "認識速率",
+          "notes": "頁面顯示發布帳號為「康軒」，教材標題為114(1)數學計算高手6年級；來源託管於FlipHTML5，屬出版社帳號公開的補充教材，不是康軒官方網站的教科書商品頁。僅作該補充教材的官方資源標題／單元主題對照；不證明學校採用康軒版本、不代表課本單元編號完全相同，也不提供正式段考範圍。第8頁列5-3「距離＝速率×時間」及同單元練習，與題目知識點直接相符；不冒稱康軒教科書第8單元。",
+          "mappingLevel": "official-resource-title",
+          "volume": "114(1)數學計算高手6年級（補充教材）",
+          "unitCode": "5",
+          "unitName": "補充教材單元5：速率",
           "unitAliases": [
-            "速率與時間",
             "速率",
-            "距離、時間和速率的關係",
-            "速率單位換算"
+            "速率與時間",
+            "距離＝速率×時間",
+            "速率×時間",
+            "距離、時間和速率的關係"
           ],
           "semester": "上學期",
           "grade": "六年級",
@@ -286,8 +287,8 @@
           "courseType": "國小"
         }
       ],
-      "classificationNotes": "康軒114官方教材簡介明列六上第8單元「認識速率」，題幹知識點與該單元相符；此為114學年度版本單元對照，題庫未標學年度，非學校採用證明。官方資料未提供校內段考範圍，examPeriod 保留 unassigned。",
-      "sourceRef": "https://945cloud.knsh.com.tw/E/promo/show/upload/material/3/114%281%29%E9%AB%98%E5%B9%B4%E7%B4%9A%E7%B6%9C%E5%90%88%E6%96%87%E5%AE%A3.pdf",
+      "classificationNotes": "康軒帳號於FlipHTML5公開的114(1)六年級數學補充教材第8頁列「單元5 速率」及距離＝速率×時間；題目直接使用該關係。僅作出版社補充教材資源標題層級對照，非課本採用證明；學校與題庫學年度未確認，段考維持unassigned。",
+      "sourceRef": "https://fliphtml5.com/gygix/niar/114%281%29%E6%95%B8%E5%AD%B8%E8%A8%88%E7%AE%97%E9%AB%98%E6%89%8B6%E5%B9%B4%E7%B4%9A/8/",
       "learningDomain": "數與運算",
       "questionType": "計算應用",
       "learningUnit": "速率與時間",
@@ -2853,13 +2854,39 @@
       "subject": "數學",
       "courseTrack": null,
       "courseType": null,
-      "semester": "下學期",
-      "examPeriod": "第一次段考",
-      "classificationBasis": "question-bank-inference",
+      "semester": "上學期",
+      "examPeriod": "unassigned",
+      "classificationBasis": "publisher-source-verified",
       "confidence": "medium",
-      "publisherStatus": "curriculum-core",
-      "publisherMappings": [],
-      "classificationNotes": "依六年級題庫常見圓形單元群推定；非學校正式段考範圍。",
+      "publisherStatus": "publisher-mapped",
+      "publisherMappings": [
+        {
+          "publisher": "knsh",
+          "mappingId": "knsh-g6-math-114-calc-u7-circle-area",
+          "sourceUrl": "https://fliphtml5.com/gygix/niar/114%281%29%E6%95%B8%E5%AD%B8%E8%A8%88%E7%AE%97%E9%AB%98%E6%89%8B6%E5%B9%B4%E7%B4%9A/10/",
+          "sourceTitle": "康軒帳號於FlipHTML5發布－114(1)數學計算高手6年級，第10頁「單元7 圓面積」",
+          "verifiedAt": "2026-11-16",
+          "verificationStatus": "source-checked",
+          "notes": "頁面顯示發布帳號為「康軒」，教材標題為114(1)數學計算高手6年級；來源託管於FlipHTML5，屬出版社帳號公開的補充教材，不是康軒官方網站的教科書商品頁。僅作該補充教材的官方資源標題／單元主題對照；不證明學校採用康軒版本、不代表課本單元編號完全相同，也不提供正式段考範圍。第10頁直接列「圓面積」練習及半徑平方乘圓周率的計算例題，與題目知識點直接相符。",
+          "mappingLevel": "official-resource-title",
+          "volume": "114(1)數學計算高手6年級（補充教材）",
+          "unitCode": "7",
+          "unitName": "補充教材單元7：圓面積",
+          "unitAliases": [
+            "圓面積",
+            "圓形花圃",
+            "圓面積公式",
+            "半徑×半徑×圓周率"
+          ],
+          "semester": "上學期",
+          "grade": "六年級",
+          "subject": "數學",
+          "courseTrack": null,
+          "schoolYear": "114學年度",
+          "courseType": "國小"
+        }
+      ],
+      "classificationNotes": "康軒帳號於FlipHTML5公開的114(1)六年級數學補充教材第10頁列「單元7 圓面積」及半徑平方乘圓周率例題，與題目知識點直接相符。僅作出版社補充教材資源標題層級對照；不代表學校採用版本。此來源支持114(1)補充教材的上學期脈絡，原題庫下學期推定因此校正為上學期；無正式段考範圍，examPeriod改為unassigned。",
       "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
       "learningDomain": "幾何與測量",
       "questionType": "計算應用",
@@ -3376,12 +3403,39 @@
       "courseTrack": null,
       "courseType": null,
       "semester": "上學期",
-      "examPeriod": "第三次段考",
-      "classificationBasis": "question-bank-inference",
+      "examPeriod": "unassigned",
+      "classificationBasis": "publisher-source-verified",
       "confidence": "medium",
-      "publisherStatus": "curriculum-core",
-      "publisherMappings": [],
-      "classificationNotes": "依六年級題庫常見比例尺與速率單元群推定；非學校正式段考範圍。",
+      "publisherStatus": "publisher-mapped",
+      "publisherMappings": [
+        {
+          "publisher": "knsh",
+          "mappingId": "knsh-g6-math-114-calc-u5-speed",
+          "sourceUrl": "https://fliphtml5.com/gygix/niar/114%281%29%E6%95%B8%E5%AD%B8%E8%A8%88%E7%AE%97%E9%AB%98%E6%89%8B6%E5%B9%B4%E7%B4%9A/8/",
+          "sourceTitle": "康軒帳號於FlipHTML5發布－114(1)數學計算高手6年級，第8頁「單元5 速率」",
+          "verifiedAt": "2026-11-16",
+          "verificationStatus": "source-checked",
+          "notes": "頁面顯示發布帳號為「康軒」，教材標題為114(1)數學計算高手6年級；來源託管於FlipHTML5，屬出版社帳號公開的補充教材，不是康軒官方網站的教科書商品頁。僅作該補充教材的官方資源標題／單元主題對照；不證明學校採用康軒版本、不代表課本單元編號完全相同，也不提供正式段考範圍。第8頁列5-3「距離＝速率×時間」及同單元練習，與題目知識點直接相符；不冒稱康軒教科書第8單元。",
+          "mappingLevel": "official-resource-title",
+          "volume": "114(1)數學計算高手6年級（補充教材）",
+          "unitCode": "5",
+          "unitName": "補充教材單元5：速率",
+          "unitAliases": [
+            "速率",
+            "速率與時間",
+            "距離＝速率×時間",
+            "速率×時間",
+            "距離、時間和速率的關係"
+          ],
+          "semester": "上學期",
+          "grade": "六年級",
+          "subject": "數學",
+          "courseTrack": null,
+          "schoolYear": "114學年度",
+          "courseType": "國小"
+        }
+      ],
+      "classificationNotes": "康軒帳號於FlipHTML5公開的114(1)六年級數學補充教材第8頁列「單元5 速率」及距離＝速率×時間，與題目知識點直接相符。僅作出版社補充教材資源標題層級對照；不代表學校採用版本。段考未有官方或教師範圍，原第三次段考推定改為unassigned。",
       "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
       "learningDomain": "數與運算",
       "questionType": "計算應用",
@@ -3835,5 +3889,45 @@
     "ruleVersion": "2026-11-16.72",
     "metadataOnly": true,
     "notes": "同步全庫分類規則版本標記；本分片題目分類紀錄與出版社映射未變更。"
-  }
+  },
+  "lastUpdate": {
+    "runId": "2026-11-16-knsh-g6-math-supplement-source-correction-01",
+    "updatedAt": "2026-11-16T13:46:33+08:00",
+    "updatedQuestionIds": [
+      "b8-008",
+      "b8-012",
+      "b12-012",
+      "b13-008"
+    ],
+    "questionRecordsUpdated": 4,
+    "publisherMappingsAdded": 3,
+    "publisherMappingReferencesAdded": 4,
+    "publisherMappingReferencesRemoved": 2,
+    "semesterCorrections": 1,
+    "examPeriodCorrections": 2,
+    "newQuestionsAdded": 0,
+    "sourceBatchShasUnchanged": true,
+    "notes": "以可讀取的康軒署名帳號補充教材頁替代已回傳404的康軒PDF網址；映射層級明確標示official-resource-title，不冒稱教科書單元或學校採用版本。"
+  },
+  "history": [
+    {
+      "runId": "2026-11-16-knsh-g6-math-supplement-source-correction-01",
+      "updatedAt": "2026-11-16T13:46:33+08:00",
+      "updatedQuestionIds": [
+        "b8-008",
+        "b8-012",
+        "b12-012",
+        "b13-008"
+      ],
+      "questionRecordsUpdated": 4,
+      "publisherMappingsAdded": 3,
+      "publisherMappingReferencesAdded": 4,
+      "publisherMappingReferencesRemoved": 2,
+      "semesterCorrections": 1,
+      "examPeriodCorrections": 2,
+      "newQuestionsAdded": 0,
+      "sourceBatchShasUnchanged": true,
+      "notes": "以可讀取的康軒署名帳號補充教材頁替代已回傳404的康軒PDF網址；映射層級明確標示official-resource-title，不冒稱教科書單元或學校採用版本。"
+    }
+  ]
 }
