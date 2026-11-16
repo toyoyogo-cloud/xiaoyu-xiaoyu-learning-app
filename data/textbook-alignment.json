@@ -462,9 +462,9 @@
       "sourceType": "official-publisher",
       "sourceUrl": "https://books.hanlin.com.tw/product/1030121",
       "sourceTitle": "翰林書城－國小課本數學(6下)",
-      "verifiedAt": "2026-11-16",
+      "verifiedAt": "2026-11-17",
       "verificationStatus": "source-checked",
-      "notes": "2026-11-16重新開啟翰林書城官方商品頁，明示國小六年級、數學、下學期及數學(6下)冊別；頁面未提供細分目次，因此僅作冊別層級映射，不代表題目單元已核對、題目取自教材或學校採用版本。",
+      "notes": "2026-11-17重新開啟翰林書城官方課本商品頁，明示國小六年級、數學、下學期及數學(6下)冊別；頁面未公開細分目次，因此僅作冊別層級映射，不表示「中位數」已核對為翰林版具體單元、題目取自教材或學校採用版本。",
       "mappingId": "hanlin-g6-math-6b-volume",
       "courseType": "國小",
       "mappingLevel": "volume",
@@ -2039,10 +2039,10 @@
       "publisher": "hanlin",
       "sourceType": "official-publisher",
       "sourceUrl": "https://books.hanlin.com.tw/product/1030121",
-      "sourceTitle": "翰林書城－國小課本數學6下",
-      "verifiedAt": "2026-11-13",
+      "sourceTitle": "翰林書城－國小課本數學(6下)",
+      "verifiedAt": "2026-11-17",
       "verificationStatus": "source-checked",
-      "notes": "確認國小六年級下學期數學課本；頁面未公開具體單元目次，因此不據此標記出版社單元。"
+      "notes": "2026-11-17重新開啟翰林書城官方課本商品頁，確認國小六年級、數學、下學期及數學(6下)冊別；頁面未公開細分目次，僅供冊別層級對照，不據此標記具體單元或段考。"
     },
     {
       "id": "hanlin-g6-science-6a",
