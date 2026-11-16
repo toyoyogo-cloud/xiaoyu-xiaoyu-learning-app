@@ -1264,3 +1264,5 @@ Repository → Settings → Pages → Build and deployment → Deploy from a bra
 - 啟用範圍（六年級＋高二）1,864題。對本輪14題執行康軒／學期／段考定向篩選資料層測試，14/14可取得，出版社映射洩漏0。APP讀取持久分類索引；未執行全組合回歸或瀏覽器／手機實機測試。錯題本、收藏、測驗紀錄及學藝活動題庫未修改。
 
 來源：[康軒113國小教材簡介－自然領域文宣（官方PDF）](https://945cloud.knsh.com.tw/e/promo/show/upload/material/4/113%281%29%E8%87%AA%E7%84%B6%E9%A0%98%E5%9F%9F%E6%96%87%E5%AE%A3-%E8%B7%A8%E9%A0%81.pdf)。
+
+- 後續將全庫550筆出版社映射參照同步至教材中央登錄：sourceUrl、sourceTitle、verifiedAt、verificationStatus、notes等欄位一致；未解析mappingId 0、來源欄位差異0、年級／科目／軌別範圍不一致0。分類推定器JavaScript語法編譯檢查通過。
