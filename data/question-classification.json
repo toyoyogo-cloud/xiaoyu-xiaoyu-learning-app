@@ -2,7 +2,7 @@
   "title": "題目分類持久索引",
   "schemaVersion": "1.1.0",
   "updatedAt": "2026-11-16",
-  "classificationRuleVersion": "2026-11-16.80",
+  "classificationRuleVersion": "2026-11-16.81",
   "sourceBranch": "main",
   "batchRange": "08-41",
   "batchFileCount": 34,
@@ -1104,5 +1104,197 @@
       "notes": "來源修正：原康軒114高年級綜合文宣PDF網址回傳404，改以康軒署名帳號於FlipHTML5公開的114(1)數學計算高手6年級補充教材頁；三筆中央映射層級為official-resource-title，不冒稱課本單元或學校採用。更新b8-008、b8-012、b12-012、b13-008；b12-012學期由下學期校正為上學期，b12-012與b13-008段考改unassigned；b8-008與b8-012信心由high降為medium。未新增題目、未修改原始批次。"
     }
   ],
-  "auditNotes": " 2026-11-16.76：全庫2,900題完成分類分片重算；34/34批次SHA一致。持久更新b41-093至b41-096四題，新增翰林高二公民單元3、9、12三筆中央映射；學期上學期、段考unassigned。資料層篩選7,800組，錯誤0，未做瀏覽器／手機實機測試。 2026-11-16.76稽核更正：映射範圍驗證依中央映射的grade/subject/courseTrack/courseType與題目資料比對，重算後mappingScopeErrors=0；前一輪暫存數字74為使用題目引用物件中非必填的grade/subject欄位進行比對所致，已更正。34/34批次SHA、2,900唯一ID、556筆來源引用均通過。 2026-11-16-knsh-g6-math-speed-scale-backfill-01：新增b8-008、b8-012兩筆康軒114六上單元映射；移除無來源支持的第三次段考標籤，改為unassigned。題庫學年度未標示，不宣稱學校採用版本；未新增題目。 2026-11-16全庫篩選回歸：7,800組資料層條件測試通過，2,900題全部可由全部版本模式取得，出版社映射洩漏0、篩選錯誤0；未做瀏覽器／手機實機測試。\n2026-11-16.79：修正六年級數學康軒來源連結，原114高年級綜合文宣PDF回傳404，改用康軒署名帳號於FlipHTML5公開的114(1)補充教材頁；建立速率、比例尺、圓面積三筆official-resource-title中央映射，更新b8-008、b8-012、b12-012、b13-008。b12-012學期校正為上學期；b12-012及b13-008段考改unassigned。全庫2,900題／唯一ID不變，分類紀錄2,900筆，出版社映射459題／563筆引用；7,800組資料層篩選測試非零575、零題7,225、映射洩漏0、篩選錯誤0。未新增題目；未執行瀏覽器／手機實機測試。 2026-11-16-classification-index-sync-after-source-audit-01：同步main最新來源頭 214a9223898a7f7efaeb1927c10c085941beb1f5 與完整分類稽核。2,900題／2,900唯一ID、34批SHA 34/34、分類欄位缺漏0、非法值0、出版社映射參照563筆／中央映射55組、未解析引用0；7,800組篩選回歸非零575、合理零題7,225、映射洩漏0、篩選錯誤0。未新增題目，未改寫既有題目分類。"
+  "auditNotes": " 2026-11-16.76：全庫2,900題完成分類分片重算；34/34批次SHA一致。持久更新b41-093至b41-096四題，新增翰林高二公民單元3、9、12三筆中央映射；學期上學期、段考unassigned。資料層篩選7,800組，錯誤0，未做瀏覽器／手機實機測試。 2026-11-16.76稽核更正：映射範圍驗證依中央映射的grade/subject/courseTrack/courseType與題目資料比對，重算後mappingScopeErrors=0；前一輪暫存數字74為使用題目引用物件中非必填的grade/subject欄位進行比對所致，已更正。34/34批次SHA、2,900唯一ID、556筆來源引用均通過。 2026-11-16-knsh-g6-math-speed-scale-backfill-01：新增b8-008、b8-012兩筆康軒114六上單元映射；移除無來源支持的第三次段考標籤，改為unassigned。題庫學年度未標示，不宣稱學校採用版本；未新增題目。 2026-11-16全庫篩選回歸：7,800組資料層條件測試通過，2,900題全部可由全部版本模式取得，出版社映射洩漏0、篩選錯誤0；未做瀏覽器／手機實機測試。\n2026-11-16.79：修正六年級數學康軒來源連結，原114高年級綜合文宣PDF回傳404，改用康軒署名帳號於FlipHTML5公開的114(1)補充教材頁；建立速率、比例尺、圓面積三筆official-resource-title中央映射，更新b8-008、b8-012、b12-012、b13-008。b12-012學期校正為上學期；b12-012及b13-008段考改unassigned。全庫2,900題／唯一ID不變，分類紀錄2,900筆，出版社映射459題／563筆引用；7,800組資料層篩選測試非零575、零題7,225、映射洩漏0、篩選錯誤0。未新增題目；未執行瀏覽器／手機實機測試。 2026-11-16-classification-index-sync-after-source-audit-01：同步main最新來源頭 214a9223898a7f7efaeb1927c10c085941beb1f5 與完整分類稽核。2,900題／2,900唯一ID、34批SHA 34/34、分類欄位缺漏0、非法值0、出版社映射參照563筆／中央映射55組、未解析引用0；7,800組篩選回歸非零575、合理零題7,225、映射洩漏0、篩選錯誤0。未新增題目，未改寫既有題目分類。",
+  "shardCount": 6,
+  "latestAudit": {
+    "runId": "2026-11-16-classification-source-recheck-01",
+    "auditedAt": "2026-11-16",
+    "questionCount": 2900,
+    "duplicateIds": 0,
+    "missingFields": 0,
+    "invalidValues": 0,
+    "semesterAssigned": 662,
+    "semesterUnassigned": 2238,
+    "examAssigned": 227,
+    "examUnassigned": 2673,
+    "publisherMappedQuestions": 486,
+    "curriculumCoreStatus": 2395,
+    "pendingQuestions": 19,
+    "classificationBasis": {
+      "publisher-source-verified": 385,
+      "question-bank-inference": 262,
+      "curriculum-core": 2253,
+      "unassigned": 0
+    },
+    "publisherStatus": {
+      "publisher-mapped": 486,
+      "curriculum-core": 2395,
+      "pending": 19
+    },
+    "mappingRows": 603,
+    "validMappingRows": 590,
+    "unavailableMappingRows": 13,
+    "rawPublisherReferences": {
+      "knsh": 127,
+      "hanlin": 406,
+      "nani": 70
+    },
+    "validPublisherReferences": {
+      "knsh": 114,
+      "hanlin": 406,
+      "nani": 70
+    },
+    "rawMappingLevels": {
+      "official-resource-title": 53,
+      "volume": 126,
+      "unit": 424
+    },
+    "validMappingLevels": {
+      "official-resource-title": 53,
+      "volume": 126,
+      "unit": 411
+    },
+    "verification": {
+      "source-checked": 590,
+      "source-unavailable": 13
+    },
+    "mappingScopeErrors": 0,
+    "semesterConflicts": 19,
+    "semesterConflictSamples": [
+      [
+        "b36-019",
+        "hanlin-g6-math-6a-u6-base-comparison",
+        "上學期",
+        "下學期"
+      ],
+      [
+        "b37-019",
+        "hanlin-g6-math-6a-u6-base-comparison",
+        "上學期",
+        "下學期"
+      ],
+      [
+        "b37-020",
+        "hanlin-g6-math-6a-u6-base-comparison",
+        "上學期",
+        "下學期"
+      ],
+      [
+        "b38-019",
+        "hanlin-g6-math-6a-u6-base-comparison",
+        "上學期",
+        "下學期"
+      ],
+      [
+        "b38-020",
+        "hanlin-g6-math-6a-u6-base-comparison",
+        "上學期",
+        "下學期"
+      ],
+      [
+        "b38-021",
+        "hanlin-g6-math-6a-u6-base-comparison",
+        "上學期",
+        "下學期"
+      ],
+      [
+        "b38-022",
+        "hanlin-g6-math-6a-u6-base-comparison",
+        "上學期",
+        "下學期"
+      ],
+      [
+        "b38-023",
+        "hanlin-g6-math-6a-u6-base-comparison",
+        "上學期",
+        "下學期"
+      ],
+      [
+        "b39-019",
+        "hanlin-g6-math-6a-u6-base-comparison",
+        "上學期",
+        "下學期"
+      ],
+      [
+        "b39-020",
+        "hanlin-g6-math-6a-u6-base-comparison",
+        "上學期",
+        "下學期"
+      ]
+    ],
+    "scopeErrorSamples": [],
+    "batchPrefixCounts": {
+      "8": 37,
+      "9": 25,
+      "10": 30,
+      "11": 30,
+      "12": 30,
+      "13": 30,
+      "14": 17,
+      "15": 100,
+      "16": 100,
+      "17": 100,
+      "18": 100,
+      "19": 100,
+      "20": 100,
+      "21": 100,
+      "22": 101,
+      "23": 100,
+      "24": 100,
+      "25": 100,
+      "26": 100,
+      "27": 100,
+      "28": 100,
+      "29": 100,
+      "30": 100,
+      "31": 100,
+      "32": 100,
+      "33": 100,
+      "34": 100,
+      "35": 100,
+      "36": 100,
+      "37": 100,
+      "38": 100,
+      "39": 100,
+      "40": 100,
+      "41": 100
+    },
+    "shardRecordCounts": [
+      {
+        "file": "data/question-classification-batch-08-13.json",
+        "count": 182,
+        "sha": "bc9d38962c9a8de1a6d6882f2ce1ded941c2eacc"
+      },
+      {
+        "file": "data/question-classification-batch-14-19.json",
+        "count": 517,
+        "sha": "80681b689e7ca6468603d6737bf85ca7a82ac826"
+      },
+      {
+        "file": "data/question-classification-batch-20-25.json",
+        "count": 601,
+        "sha": "65ab4ab1472a6cff33e7648d27fb091301580e4e"
+      },
+      {
+        "file": "data/question-classification-batch-26-31.json",
+        "count": 600,
+        "sha": "00ab8d2565a1261a7ffadcc923720ef0e8829e15"
+      },
+      {
+        "file": "data/question-classification-batch-32-37.json",
+        "count": 600,
+        "sha": "63926913e0aa8aab868e59301b7d020ed7c91945"
+      },
+      {
+        "file": "data/question-classification-batch-38-41.json",
+        "count": 400,
+        "sha": "f9af4fdc28f3200ee2bdc6ce739ce70b7e8e3934"
+      }
+    ],
+    "newQuestionsAdded": 0,
+    "updatedQuestionRecords": 24,
+    "sourceBatchFiles": 34,
+    "sourceBatchShasRecorded": 34,
+    "notes": "依main最新六個分類分片計算；所有題目ID均有持久分類紀錄。13筆康軒自然來源失效映射保留追溯資料但不計入有效出版社映射。"
+  }
 }
