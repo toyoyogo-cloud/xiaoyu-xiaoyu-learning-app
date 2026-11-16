@@ -3602,7 +3602,7 @@
       "invalidClassificationValues": 0,
       "mappingReferenceErrors": 35,
       "sourceFieldErrors": 0,
-      "mappingScopeErrors": 74,
+      "mappingScopeErrors": 0,
       "sourceBatchShasMatch": "34/34",
       "updatedQuestionsChecked": 7,
       "updatedQuestionIdsReachable": true,
@@ -3625,7 +3625,8 @@
         "數學B": 0,
         "未標示軌別": 133,
         "全部軌別": 212
-      }
+      },
+      "inferenceDelimiterBalance": false
     },
     "filterRegression": {
       "auditedAt": "2026-11-16",
@@ -4094,7 +4095,7 @@
         "invalidClassificationValues": 0,
         "mappingReferenceErrors": 35,
         "sourceFieldErrors": 0,
-        "mappingScopeErrors": 74,
+        "mappingScopeErrors": 0,
         "sourceBatchShasMatch": "34/34",
         "updatedQuestionsChecked": 7,
         "updatedQuestionIdsReachable": true,
@@ -4117,7 +4118,8 @@
           "數學B": 0,
           "未標示軌別": 133,
           "全部軌別": 212
-        }
+        },
+        "inferenceDelimiterBalance": false
       },
       "filterRegression": {
         "auditedAt": "2026-11-16",
@@ -6523,7 +6525,7 @@
       "invalidClassificationValues": 0,
       "mappingReferenceErrors": 35,
       "sourceFieldErrors": 0,
-      "mappingScopeErrors": 74,
+      "mappingScopeErrors": 0,
       "sourceBatchShasMatch": "34/34",
       "updatedQuestionsChecked": 7,
       "updatedQuestionIdsReachable": true,
@@ -6546,7 +6548,8 @@
         "數學B": 0,
         "未標示軌別": 133,
         "全部軌別": 212
-      }
+      },
+      "inferenceDelimiterBalance": false
     },
     "filterRegression": {
       "auditedAt": "2026-11-16",
@@ -7074,7 +7077,7 @@
       "invalidClassificationValues": 0,
       "mappingReferenceErrors": 35,
       "sourceFieldErrors": 0,
-      "mappingScopeErrors": 74,
+      "mappingScopeErrors": 0,
       "sourceBatchShasMatch": "34/34",
       "updatedQuestionsChecked": 7,
       "updatedQuestionIdsReachable": true,
@@ -7097,7 +7100,8 @@
         "數學B": 0,
         "未標示軌別": 133,
         "全部軌別": 212
-      }
+      },
+      "inferenceDelimiterBalance": false
     },
     "filterRegression": {
       "auditedAt": "2026-11-16",
@@ -7194,7 +7198,7 @@
     },
     "mappingReferenceErrors": 35,
     "mappingSourceFieldErrors": 0,
-    "mappingScopeErrors": 74,
+    "mappingScopeErrors": 0,
     "sourceBatchShasMatch": "34/34",
     "activeScope": {
       "questionCount": 1864,
