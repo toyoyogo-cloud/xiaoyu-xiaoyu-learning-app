@@ -3770,9 +3770,13 @@
       "filterUiRuntimeTested": false,
       "browserOrMobileRuntimeTested": false,
       "mappingReferenceCount": 636,
-      "validMappingReferenceCount": 632
+      "validMappingReferenceCount": 632,
+      "inferenceSyntaxValid": true,
+      "inferenceRuntimeTested": true,
+      "inferenceRuntimeCasesTested": 8,
+      "inferenceRuntimeFailures": 0
     },
-    "notes": "依康軒官方114學年度自然領域文宣，將六年級自然「簡單機械」5題對照六下單元一，及「能量轉換」3題對照六下單元二。簡單機械原有學期下學期推定保留但分類依據升級為出版社來源核對；3題能量轉換由unassigned推定為下學期。8題均只標康軒114版單元層級；學校採用版本未確認，段考維持unassigned。沒有新增題目或修改原始題幹、選項、答案、解析。"
+    "notes": "依康軒官方114學年度自然領域文宣，將六年級自然「簡單機械」5題對照六下單元一，及「能量轉換」3題對照六下單元二。簡單機械原有學期下學期推定保留但分類依據升級為出版社來源核對；3題能量轉換由unassigned推定為下學期。8題均只標康軒114版單元層級；學校採用版本未確認，段考維持unassigned。沒有新增題目或修改原始題幹、選項、答案、解析。 分類推定器語法檢查通過，8/8筆目標題目實際呼叫 questionClassificationFor 均回傳康軒source-checked單元映射。"
   },
   "classificationPersistenceRuns": [
     {
@@ -4604,9 +4608,13 @@
         "filterUiRuntimeTested": false,
         "browserOrMobileRuntimeTested": false,
         "mappingReferenceCount": 636,
-        "validMappingReferenceCount": 632
+        "validMappingReferenceCount": 632,
+        "inferenceSyntaxValid": true,
+        "inferenceRuntimeTested": true,
+        "inferenceRuntimeCasesTested": 8,
+        "inferenceRuntimeFailures": 0
       },
-      "notes": "依康軒官方114學年度自然領域文宣，將六年級自然「簡單機械」5題對照六下單元一，及「能量轉換」3題對照六下單元二。簡單機械原有學期下學期推定保留但分類依據升級為出版社來源核對；3題能量轉換由unassigned推定為下學期。8題均只標康軒114版單元層級；學校採用版本未確認，段考維持unassigned。沒有新增題目或修改原始題幹、選項、答案、解析。"
+      "notes": "依康軒官方114學年度自然領域文宣，將六年級自然「簡單機械」5題對照六下單元一，及「能量轉換」3題對照六下單元二。簡單機械原有學期下學期推定保留但分類依據升級為出版社來源核對；3題能量轉換由unassigned推定為下學期。8題均只標康軒114版單元層級；學校採用版本未確認，段考維持unassigned。沒有新增題目或修改原始題幹、選項、答案、解析。 分類推定器語法檢查通過，8/8筆目標題目實際呼叫 questionClassificationFor 均回傳康軒source-checked單元映射。"
     }
   ],
   "batch30ExtendedMetadataAudit": {
@@ -5318,7 +5326,10 @@
     "zeroResultHintPresent": true,
     "serviceWorkerAssetManifestComplete": true,
     "browserOrMobileRuntimeTested": false,
-    "note": "依index.html getPool的出版社、學期、段考及高二數學軌別篩選順序，對48組年級／科目組合及高二數學軌別共執行7,800組資料層條件；非零575、合理零題7,225、出版社映射洩漏0、篩選錯誤0。全部版本可達2,900題。未執行瀏覽器／手機實機測試。"
+    "note": "依index.html getPool的出版社、學期、段考及高二數學軌別篩選順序，對48組年級／科目組合及高二數學軌別共執行7,800組資料層條件；非零575、合理零題7,225、出版社映射洩漏0、篩選錯誤0。全部版本可達2,900題。未執行瀏覽器／手機實機測試。",
+    "inferenceRuntimeTested": true,
+    "inferenceRuntimeCasesTested": 8,
+    "inferenceRuntimeFailures": 0
   },
   "sourceVerificationLog": [
     {
@@ -6921,9 +6932,13 @@
       "filterUiRuntimeTested": false,
       "browserOrMobileRuntimeTested": false,
       "mappingReferenceCount": 636,
-      "validMappingReferenceCount": 632
+      "validMappingReferenceCount": 632,
+      "inferenceSyntaxValid": true,
+      "inferenceRuntimeTested": true,
+      "inferenceRuntimeCasesTested": 8,
+      "inferenceRuntimeFailures": 0
     },
-    "notes": "依康軒官方114學年度自然領域文宣，將六年級自然「簡單機械」5題對照六下單元一，及「能量轉換」3題對照六下單元二。簡單機械原有學期下學期推定保留但分類依據升級為出版社來源核對；3題能量轉換由unassigned推定為下學期。8題均只標康軒114版單元層級；學校採用版本未確認，段考維持unassigned。沒有新增題目或修改原始題幹、選項、答案、解析。"
+    "notes": "依康軒官方114學年度自然領域文宣，將六年級自然「簡單機械」5題對照六下單元一，及「能量轉換」3題對照六下單元二。簡單機械原有學期下學期推定保留但分類依據升級為出版社來源核對；3題能量轉換由unassigned推定為下學期。8題均只標康軒114版單元層級；學校採用版本未確認，段考維持unassigned。沒有新增題目或修改原始題幹、選項、答案、解析。 分類推定器語法檢查通過，8/8筆目標題目實際呼叫 questionClassificationFor 均回傳康軒source-checked單元映射。"
   },
   "latestMappingScopeCorrection": {
     "date": "2026-11-14",
@@ -7374,9 +7389,13 @@
       "filterUiRuntimeTested": false,
       "browserOrMobileRuntimeTested": false,
       "mappingReferenceCount": 636,
-      "validMappingReferenceCount": 632
+      "validMappingReferenceCount": 632,
+      "inferenceSyntaxValid": true,
+      "inferenceRuntimeTested": true,
+      "inferenceRuntimeCasesTested": 8,
+      "inferenceRuntimeFailures": 0
     },
-    "notes": "依康軒官方114學年度自然領域文宣，將六年級自然「簡單機械」5題對照六下單元一，及「能量轉換」3題對照六下單元二。簡單機械原有學期下學期推定保留但分類依據升級為出版社來源核對；3題能量轉換由unassigned推定為下學期。8題均只標康軒114版單元層級；學校採用版本未確認，段考維持unassigned。沒有新增題目或修改原始題幹、選項、答案、解析。"
+    "notes": "依康軒官方114學年度自然領域文宣，將六年級自然「簡單機械」5題對照六下單元一，及「能量轉換」3題對照六下單元二。簡單機械原有學期下學期推定保留但分類依據升級為出版社來源核對；3題能量轉換由unassigned推定為下學期。8題均只標康軒114版單元層級；學校採用版本未確認，段考維持unassigned。沒有新增題目或修改原始題幹、選項、答案、解析。 分類推定器語法檢查通過，8/8筆目標題目實際呼叫 questionClassificationFor 均回傳康軒source-checked單元映射。"
   },
   "statistics": {
     "questionCount": 2900,
@@ -8392,9 +8411,13 @@
         "filterUiRuntimeTested": false,
         "browserOrMobileRuntimeTested": false,
         "mappingReferenceCount": 636,
-        "validMappingReferenceCount": 632
+        "validMappingReferenceCount": 632,
+        "inferenceSyntaxValid": true,
+        "inferenceRuntimeTested": true,
+        "inferenceRuntimeCasesTested": 8,
+        "inferenceRuntimeFailures": 0
       },
-      "notes": "依康軒官方114學年度自然領域文宣，將六年級自然「簡單機械」5題對照六下單元一，及「能量轉換」3題對照六下單元二。簡單機械原有學期下學期推定保留但分類依據升級為出版社來源核對；3題能量轉換由unassigned推定為下學期。8題均只標康軒114版單元層級；學校採用版本未確認，段考維持unassigned。沒有新增題目或修改原始題幹、選項、答案、解析。"
+      "notes": "依康軒官方114學年度自然領域文宣，將六年級自然「簡單機械」5題對照六下單元一，及「能量轉換」3題對照六下單元二。簡單機械原有學期下學期推定保留但分類依據升級為出版社來源核對；3題能量轉換由unassigned推定為下學期。8題均只標康軒114版單元層級；學校採用版本未確認，段考維持unassigned。沒有新增題目或修改原始題幹、選項、答案、解析。 分類推定器語法檢查通過，8/8筆目標題目實際呼叫 questionClassificationFor 均回傳康軒source-checked單元映射。"
     }
   ],
   "latestMetadataAudit": {
@@ -8589,6 +8612,9 @@
     "zeroResultHintPresent": true,
     "serviceWorkerAssetManifestComplete": true,
     "browserOrMobileRuntimeTested": false,
-    "note": "依index.html getPool的出版社、學期、段考及高二數學軌別篩選順序，對48組年級／科目組合及高二數學軌別共執行7,800組資料層條件；非零575、合理零題7,225、出版社映射洩漏0、篩選錯誤0。全部版本可達2,900題。未執行瀏覽器／手機實機測試。"
+    "note": "依index.html getPool的出版社、學期、段考及高二數學軌別篩選順序，對48組年級／科目組合及高二數學軌別共執行7,800組資料層條件；非零575、合理零題7,225、出版社映射洩漏0、篩選錯誤0。全部版本可達2,900題。未執行瀏覽器／手機實機測試。",
+    "inferenceRuntimeTested": true,
+    "inferenceRuntimeCasesTested": 8,
+    "inferenceRuntimeFailures": 0
   }
 }
