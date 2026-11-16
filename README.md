@@ -5,6 +5,7 @@
 - 持久分類更新 **4 題**：b32-096、b33-096、b34-094、b37-096。四題均直接涉及行政機關作成重大不利處分前的通知、陳述意見、程序正義或依法救濟；新增翰林第9單元映射，semester=上學期、classificationBasis=publisher-source-verified、confidence=medium、publisherStatus=publisher-mapped；examPeriod 全數保留 unassigned。
 - 全庫統計（六個持久分類分片實算）：學期上學期 **463**、下學期 **136**、全學年 **74**、未分類 **2,227**；段考第一次／第二次／第三次 **65／71／91**、未分類 **2,673**。分類依據 publisher-source-verified **396**、question-bank-inference **262**、curriculum-core **2,242**；出版社映射題 **497**，共同核心狀態 **2,384**，待核對 **19**。映射參照 **614 筆**，其中 **601 筆 source-checked**、**13 筆 source-unavailable**。
 - `data/textbook-alignment.json`、`data/question-classification-inference.js`、分類分片及 manifest 已同步；規則版本更新至 2026-11-17.84，Service Worker 快取升至 `xy-learning-v170`。`index.html` 原本已讀取持久分類索引，且出版社篩選只接受 `source-checked` 映射，因此本輪不需改動篩選程式。
+- 同步修正兩筆中央教材映射／推定器 `sourceTitle`，消除11筆既有題目映射參照的標題差異；不改變原題或映射範圍。分類規則版本升至 `2026-11-17.85`，Service Worker 快取升至 `xy-learning-v171`。
 - 本輪新增題目 **0**；未修改第 08–41 批原始題幹、選項、答案與解析；錯題本、收藏、測驗紀錄及學藝活動題庫未修改。沒有教師審核或學校指定版本宣稱。
 
 來源：
