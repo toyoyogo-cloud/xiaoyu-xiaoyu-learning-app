@@ -6085,66 +6085,86 @@
     }
   },
   "latestMappingReferenceAudit": {
-    "date": "2026-11-16",
+    "auditedAt": "2026-11-16",
     "classificationRecordCount": 2900,
-    "publisherMappedQuestionCount": 488,
-    "questionMappingReferenceCount": 592,
+    "publisherMappedQuestionCount": 486,
+    "questionMappingReferenceCount": 603,
+    "validPublisherMappingReferences": 590,
+    "sourceUnavailableMappingReferences": 13,
     "centralMappingCount": 55,
     "unresolvedCentralMappingReferences": 0,
     "sourceFieldMismatches": 0,
     "mappingScopeErrors": 0,
+    "semesterConflicts": 19,
     "missingRequiredClassificationFields": 0,
     "publisherReferenceCounts": {
-      "knsh": 124,
-      "hanlin": 398,
-      "nani": 70,
-      "_total": 592
+      "knsh": 127,
+      "hanlin": 406,
+      "nani": 70
+    },
+    "validPublisherReferenceCounts": {
+      "knsh": 114,
+      "hanlin": 406,
+      "nani": 70
     },
     "mappingLevelCounts": {
-      "official-resource-title": 50,
+      "official-resource-title": 53,
       "volume": 126,
-      "unit": 416,
-      "_total": 592
+      "unit": 424
+    },
+    "validMappingLevelCounts": {
+      "official-resource-title": 53,
+      "volume": 126,
+      "unit": 411
     },
     "verificationCounts": {
-      "source-checked": 592,
-      "_total": 592
+      "source-checked": 590,
+      "source-unavailable": 13
     },
+    "publisherStatusCounts": {
+      "publisher-mapped": 486,
+      "curriculum-core": 2395,
+      "pending": 19
+    },
+    "classificationBasisCounts": {
+      "publisher-source-verified": 385,
+      "question-bank-inference": 262,
+      "curriculum-core": 2253,
+      "unassigned": 0
+    },
+    "semesterAssigned": 662,
+    "examAssigned": 227,
+    "pendingQuestionCount": 19,
     "updatedQuestionIds": [
-      "b8-028",
-      "b9-013",
-      "b10-021",
-      "b11-020",
-      "b12-023",
-      "b16-070",
-      "b17-070",
-      "b19-072",
-      "b22-055",
-      "b23-071",
-      "b23-072",
-      "b25-079",
-      "b25-080",
-      "b26-079",
-      "b26-080",
-      "b29-074",
-      "b30-096",
-      "b30-097",
-      "b30-098",
-      "b31-094",
-      "b33-093",
-      "b34-093",
-      "b36-092",
-      "b38-093",
-      "b39-093",
-      "b39-094",
-      "b39-095",
-      "b40-091",
-      "b40-092"
+      "b8-010",
+      "b10-019",
+      "b12-010",
+      "b15-022",
+      "b17-069",
+      "b19-068",
+      "b22-051",
+      "b23-067",
+      "b24-032",
+      "b24-068",
+      "b25-030",
+      "b29-036",
+      "b30-025",
+      "b31-036",
+      "b32-027",
+      "b33-033",
+      "b35-033",
+      "b35-092",
+      "b36-040",
+      "b37-090",
+      "b38-039",
+      "b40-037",
+      "b41-035",
+      "b41-040"
     ],
-    "publisherMappingReferencesAdded": 29,
-    "publisherMappingReferencesRemoved": 0,
-    "sourceBatchShasMatch": "34/34",
-    "mappingReferencesCanonicalized": 592
+    "publisherMappingReferencesAdded": 11,
+    "publisherMappingReferencesDowngraded": 13,
+    "newQuestionsAdded": 0,
+    "note": "來源回查後的目前持久化分類統計；13筆source-unavailable仍保留於原始映射欄位以供追溯，不納入有效出版社篩選。"
   },
   "lastSourceVerificationAudit": {
     "runId": "2026-11-16-volume-source-recheck-and-filter-regression-01",
