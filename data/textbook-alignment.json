@@ -1,6 +1,6 @@
 {
   "title": "南一／翰林／康軒教材版本對照資料庫",
-  "schemaVersion": "1.0.7",
+  "schemaVersion": "1.0.8",
   "updatedAt": "2026-11-17",
   "purpose": "同時支援跨版本共同核心整合與指定出版社版本練習。此檔先建立資料規格；未經官方或學校教材核對的單元不得標示為已對應。",
   "modes": [
@@ -743,7 +743,7 @@
       "learningContent": "SDG1／SDG11；學生與學校、政府機關協作，參與社區事務；公共建設與交通安全、天然災害風險管理及社區永續發展。",
       "sourceType": "official-publisher",
       "sourceUrl": "https://sdgs.knsh.com.tw/api/uploads/curriculumMap/E_school/%E7%A4%BE%E6%9C%83%E5%85%AD%E4%B8%8BCH2L1%E7%A4%BE%E6%9C%83%E5%85%85%E9%9B%BB%E7%AB%99SDGs%E5%B0%B1%E5%9C%A8%E6%88%91%E5%80%91%E8%BA%AB%E9%82%8A_%E6%95%99%E5%AD%B8%E8%B3%87%E6%BA%90.pdf",
-      "sourceTitle": "康軒社會六下2-1「社會充電站：SDGs就在我們身邊」官方教學資源PDF",
+      "sourceTitle": "康軒社會六下2-1「社會充電站：SDGs就在我們身邊」教學資源PDF",
       "verifiedAt": "2026-11-16",
       "verificationStatus": "source-checked",
       "notes": "康軒官方社會6下2-1教學資源明示學生與學校／政府機關協作參與社區事務，並以公共建設、交通安全為例。題目僅作官方教學資源標題／學習情境層級對照，不等同完整課本目次、不代表學校採用版本或正式段考範圍。",
@@ -1258,7 +1258,7 @@
       "learningContent": "冷戰期間的政治局勢、圍堵政策與國際對峙",
       "sourceType": "publisher-authored-companion-assessment-toc",
       "sourceUrl": "https://fliphtml5.com/cojaq/nrjy/%E9%AB%98%E4%B8%AD%E8%A9%A6%E9%A1%8C%E6%8C%96%E6%8C%96%E5%93%87-%E6%AD%B7%E5%8F%B2(3)/3",
-      "sourceTitle": "翰林高中參考書－《試題挖挖哇：歷史(3)》第3頁官方目次；搭配翰林書城高中課本歷史(3)商品頁",
+      "sourceTitle": "翰林高中參考書－《試題挖挖哇：歷史(3)》第3頁目次",
       "verifiedAt": "2026-11-16",
       "verificationStatus": "source-checked",
       "notes": "翰林高中參考書帳號公開的《試題挖挖哇－歷史(3)》第3頁目次，單元7列冷戰期間的世界局勢、政治局勢及社會運動與反戰思潮；翰林書城官方課本頁另確認高中二年級、歷史(3)、上學期。題目僅作配套評量目次單元層級對照，不代表學校採用版本或正式段考範圍。",
