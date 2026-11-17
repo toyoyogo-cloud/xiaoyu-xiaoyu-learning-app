@@ -6679,26 +6679,22 @@
     "newQuestionsAdded": 0
   },
   "latestFilterValidation": {
-    "runId": "2026-11-18-hanlin-h2-chemistry-i-volume-backfill-01",
+    "runId": "2026-11-18-main-classification-statistics-and-registry-reconciliation-01",
     "verifiedAt": "2026-11-18",
     "questionIds": [
-      "b32-077",
-      "b32-078",
-      "b33-078",
-      "b34-076",
-      "b36-078"
+      "b41-091"
     ],
-    "filterCasesTested": 40,
-    "passed": 40,
+    "filterCasesTested": 10,
+    "passed": 10,
     "filterErrors": 0,
     "publisherMappingLeaks": 0,
     "allModeReachable": true,
     "allModeQuestionCount": 2900,
     "appReadsPersistedClassificationIndex": true,
-    "zeroResultHintPresent": true,
-    "validationMethod": "以翰林官方商品頁核對高二、化學、上學期及選修化學(I)課程類型；逐題確認五題原始sourceRef、知識點範圍及冊別層級。依index.html getPool()語義執行五題×八組出版社／學期／段考條件；不等同瀏覽器或手機實機測試。",
+    "inferenceMappingDefinitionPresent": true,
+    "validationMethod": "重新解析推定器 MAPS 初始物件及後續 MAPS[id] 指派，逐一與中央教材映射ID比對；對 b41-091 按 index.html getPool() 同等出版社／學期／段考／單元條件模擬10組篩選。這是資料層／結構測試，不等同瀏覽器或手機實機測試。",
     "browserOrMobileRuntimeTested": false,
-    "inferenceRuntimeTested": true
+    "inferenceRuntimeTested": false
   },
   "sourceVerificationLog": [
     {
@@ -8628,89 +8624,92 @@
     "notes": "同一康軒官方113教材簡介PDF重新可讀。六上單元二「水溶液」及主題脈絡「混合物／物質分離」直接支持b15-030、b40-041；恢復六下單元二、三既有來源映射的source-checked狀態。原先13題已改用114版來源者維持原映射，不回退到113版；未推定段考或學校採用版本。"
   },
   "lastRunAudit": {
-    "runId": "2026-11-18-hanlin-h2-history-french-revolution-volume-backfill-01",
+    "runId": "2026-11-18-main-classification-statistics-and-registry-reconciliation-01",
     "date": "2026-11-18",
-    "sourceHeadBeforeRun": "73f056d5e8340eac9dbe84f9fcbd626a92023fde",
+    "sourceHeadBeforeRun": "f4e1a3e8e92971d4ed1135bb4ac1b7e5ffce146c",
     "batches": "08-41",
     "batchFileCount": 34,
     "fullCorpusQuestionCount": 2900,
-    "activeScopeQuestionCount": 1864,
-    "questionRecordsUpdated": 1,
-    "updatedQuestionIds": [
-      "b41-091"
-    ],
-    "semesterAssignments": 1,
-    "semesterCorrections": 0,
-    "examPeriodAssignments": 0,
-    "publisherMappingsAdded": 1,
-    "publisherMappingReferencesAdded": 1,
+    "uniqueQuestionIds": 2900,
+    "questionRecordsUpdated": 0,
+    "updatedQuestionIds": [],
+    "publisherMappingsAdded": 0,
+    "inferenceMappingsAdded": 0,
     "newQuestionsAdded": 0,
     "sourceBatchShasMatch": "34/34",
-    "classificationRuleVersion": "2026-11-18.105",
+    "classificationRuleVersion": "2026-11-18.108",
+    "centralMappingRegistryCount": 66,
+    "inferenceMappingRegistryCount": 66,
+    "missingInferenceMappingIds": [],
+    "sourceRegistryCount": 71,
+    "sourceRegistryVerificationStatusCounts": {
+      "source-checked": 69,
+      "pending": 1,
+      "source-unavailable": 1
+    },
     "fullCorpusSemesterDistribution": {
-      "unassigned": 2171,
-      "上學期": 491,
+      "unassigned": 2169,
+      "上學期": 493,
       "下學期": 164,
-      "全學年": 74,
-      "_total": 2900
+      "全學年": 74
     },
     "fullCorpusExamPeriodDistribution": {
       "unassigned": 2673,
       "第一次段考": 65,
       "第二次段考": 71,
-      "第三次段考": 91,
-      "_total": 2900
+      "第三次段考": 91
     },
     "fullCorpusClassificationBasisDistribution": {
-      "curriculum-core": 2161,
-      "publisher-source-verified": 471,
-      "question-bank-inference": 255,
-      "unassigned": 13,
-      "_total": 2900
+      "curriculum-core": 2159,
+      "publisher-source-verified": 478,
+      "question-bank-inference": 250,
+      "unassigned": 13
     },
     "fullCorpusPublisherStatusDistribution": {
-      "curriculum-core": 2296,
-      "publisher-mapped": 585,
-      "pending": 19,
-      "_total": 2900
+      "curriculum-core": 2289,
+      "publisher-mapped": 592,
+      "pending": 19
     },
     "fullCorpusConfidenceDistribution": {
-      "low": 2066,
-      "medium": 796,
-      "high": 38,
-      "_total": 2900
+      "low": 2059,
+      "medium": 803,
+      "high": 38
     },
     "publisherReferenceCounts": {
-      "knsh": 169,
-      "hanlin": 450,
+      "knsh": 171,
+      "hanlin": 455,
       "nani": 70,
-      "_total": 689
+      "_total": 696
     },
     "mappingLevelCounts": {
       "official-resource-title": 77,
-      "unit": 472,
-      "volume": 140,
-      "_total": 689
+      "unit": 474,
+      "volume": 145,
+      "_total": 696
     },
     "mappingVerificationStatusCounts": {
-      "source-checked": 689,
-      "_total": 689
+      "source-checked": 696,
+      "_total": 696
     },
     "validation": {
       "jsonParse": true,
       "classificationRecords": 2900,
       "uniqueIds": 2900,
       "duplicateIds": 0,
-      "missingFromClassification": 0,
+      "missingClassification": 0,
       "extraClassificationIds": 0,
       "missingRequiredFields": 0,
       "invalidClassificationValues": 0,
-      "mappingReferenceErrors": 0,
-      "sourceFieldErrors": 0,
-      "mappingScopeErrors": 0,
       "sourceBatchShasMatch": "34/34",
-      "updatedQuestionsChecked": 1,
-      "updatedQuestionIdsReachable": true,
+      "shardCount": 6,
+      "shardShaMismatches": 0,
+      "centralMappingRequiredFieldErrors": 0,
+      "centralMappingRegistryCount": 66,
+      "inferenceMappingRegistryCount": 66,
+      "missingInferenceMappingIds": [],
+      "extraInferenceMappingIds": [],
+      "b41_091MappingPresent": true,
+      "b41_091MappingScopeValid": true,
       "targetedFilterCombinationsTested": 10,
       "targetedFilterErrors": 0,
       "publisherMappingLeaks": 0,
@@ -8719,12 +8718,12 @@
       "appReadsPersistedClassificationIndex": true,
       "zeroResultHintPresent": true,
       "inferenceSyntaxStructureChecked": true,
-      "inferenceSyntaxRuntimeTested": true,
+      "inferenceRuntimeTested": false,
       "browserOrMobileRuntimeTested": false,
       "fullFilterMatrixTested": false
     },
-    "validationMethod": "依 index.html getPool() 的持久分類與篩選邏輯，測試全部版本、翰林、共同核心、待核對、上學期、未分類段考及單元條件的10組定向資料層組合；不等同瀏覽器實機測試。",
-    "notes": "b41-091「革命的多重原因」新增翰林高中歷史(3)冊別層級映射。翰林113上官方教材簡介列歷史3課本P.60–61法國大革命至拿破崙時代大事紀要；翰林書城商品頁008021確認高二歷史上學期。未核對具體單元，故mappingLevel=volume；examPeriod保留unassigned。未宣稱學校採用版本或教師審核；未新增題目。"
+    "validationMethod": "重新解析推定器 MAPS 初始物件及後續 MAPS[id] 指派，逐一與中央教材映射ID比對；對 b41-091 按 index.html getPool() 同等出版社／學期／段考／單元條件模擬10組篩選。這是資料層／結構測試，不等同瀏覽器或手機實機測試。",
+    "notes": "本輪未修改原始題庫、題目分類紀錄或推定器程式；確認 b41-091 的翰林歷史(3)冊別映射已存在於推定器。主要工作是將分類索引與教材中央登錄的過期統計校正為最新 main 實際資料。"
   },
   "latestMappingScopeCorrection": {
     "date": "2026-11-14",
@@ -9040,33 +9039,32 @@
     }
   ],
   "latestMainAudit": {
-    "runId": "2026-11-18-hanlin-h2-chemistry-i-volume-backfill-01",
+    "runId": "2026-11-18-main-classification-statistics-and-registry-reconciliation-01",
     "date": "2026-11-18",
-    "sourceHeadBeforeRun": "bfcc41489ec03fa03450dab28c09e2e091523a7b",
+    "sourceHeadBeforeRun": "f4e1a3e8e92971d4ed1135bb4ac1b7e5ffce146c",
     "batches": "08-41",
     "batchFileCount": 34,
     "fullCorpusQuestionCount": 2900,
-    "activeScopeQuestionCount": 1864,
-    "questionRecordsUpdated": 5,
-    "updatedQuestionIds": [
-      "b32-077",
-      "b32-078",
-      "b33-078",
-      "b34-076",
-      "b36-078"
-    ],
-    "semesterAssignments": 0,
-    "semesterCorrections": 0,
-    "examPeriodAssignments": 0,
-    "examPeriodCorrections": 0,
-    "publisherMappingsAdded": 5,
-    "publisherMappingReferencesAdded": 5,
+    "uniqueQuestionIds": 2900,
+    "questionRecordsUpdated": 0,
+    "updatedQuestionIds": [],
+    "publisherMappingsAdded": 0,
+    "inferenceMappingsAdded": 0,
     "newQuestionsAdded": 0,
     "sourceBatchShasMatch": "34/34",
-    "classificationRuleVersion": "2026-11-18.106",
+    "classificationRuleVersion": "2026-11-18.108",
+    "centralMappingRegistryCount": 66,
+    "inferenceMappingRegistryCount": 66,
+    "missingInferenceMappingIds": [],
+    "sourceRegistryCount": 71,
+    "sourceRegistryVerificationStatusCounts": {
+      "source-checked": 69,
+      "pending": 1,
+      "source-unavailable": 1
+    },
     "fullCorpusSemesterDistribution": {
-      "unassigned": 2171,
-      "上學期": 491,
+      "unassigned": 2169,
+      "上學期": 493,
       "下學期": 164,
       "全學年": 74
     },
@@ -9077,36 +9075,36 @@
       "第三次段考": 91
     },
     "fullCorpusClassificationBasisDistribution": {
-      "curriculum-core": 2161,
-      "publisher-source-verified": 476,
+      "curriculum-core": 2159,
+      "publisher-source-verified": 478,
       "question-bank-inference": 250,
       "unassigned": 13
     },
     "fullCorpusPublisherStatusDistribution": {
-      "curriculum-core": 2291,
-      "publisher-mapped": 590,
+      "curriculum-core": 2289,
+      "publisher-mapped": 592,
       "pending": 19
     },
     "fullCorpusConfidenceDistribution": {
-      "low": 2061,
-      "medium": 801,
+      "low": 2059,
+      "medium": 803,
       "high": 38
     },
     "publisherReferenceCounts": {
-      "knsh": 169,
+      "knsh": 171,
       "hanlin": 455,
       "nani": 70,
-      "_total": 694
+      "_total": 696
     },
     "mappingLevelCounts": {
       "official-resource-title": 77,
-      "unit": 472,
+      "unit": 474,
       "volume": 145,
-      "_total": 694
+      "_total": 696
     },
     "mappingVerificationStatusCounts": {
-      "source-checked": 694,
-      "_total": 694
+      "source-checked": 696,
+      "_total": 696
     },
     "validation": {
       "jsonParse": true,
@@ -9117,13 +9115,17 @@
       "extraClassificationIds": 0,
       "missingRequiredFields": 0,
       "invalidClassificationValues": 0,
-      "mappingReferenceErrors": 0,
-      "sourceFieldErrors": 0,
-      "mappingScopeErrors": 0,
       "sourceBatchShasMatch": "34/34",
-      "updatedQuestionsChecked": 5,
-      "updatedQuestionIdsReachable": true,
-      "targetedFilterCombinationsTested": 40,
+      "shardCount": 6,
+      "shardShaMismatches": 0,
+      "centralMappingRequiredFieldErrors": 0,
+      "centralMappingRegistryCount": 66,
+      "inferenceMappingRegistryCount": 66,
+      "missingInferenceMappingIds": [],
+      "extraInferenceMappingIds": [],
+      "b41_091MappingPresent": true,
+      "b41_091MappingScopeValid": true,
+      "targetedFilterCombinationsTested": 10,
       "targetedFilterErrors": 0,
       "publisherMappingLeaks": 0,
       "allModeReachable": true,
@@ -9131,12 +9133,12 @@
       "appReadsPersistedClassificationIndex": true,
       "zeroResultHintPresent": true,
       "inferenceSyntaxStructureChecked": true,
-      "inferenceSyntaxRuntimeTested": true,
+      "inferenceRuntimeTested": false,
       "browserOrMobileRuntimeTested": false,
       "fullFilterMatrixTested": false
     },
-    "validationMethod": "以翰林官方商品頁核對高二、化學、上學期及選修化學(I)課程類型；逐題確認五題原始sourceRef、知識點範圍及冊別層級。依index.html getPool()語義執行五題×八組出版社／學期／段考條件；不等同瀏覽器或手機實機測試。",
-    "notes": "五題均為原創高二化學題，官方頁只支持選修化學(I)冊別層級，未核對細分單元；段考全部unassigned。未宣稱學校採用版本或教師審核。"
+    "validationMethod": "重新解析推定器 MAPS 初始物件及後續 MAPS[id] 指派，逐一與中央教材映射ID比對；對 b41-091 按 index.html getPool() 同等出版社／學期／段考／單元條件模擬10組篩選。這是資料層／結構測試，不等同瀏覽器或手機實機測試。",
+    "notes": "本輪未修改原始題庫、題目分類紀錄或推定器程式；確認 b41-091 的翰林歷史(3)冊別映射已存在於推定器。主要工作是將分類索引與教材中央登錄的過期統計校正為最新 main 實際資料。"
   },
   "statistics": {
     "questionCount": 2900,
@@ -9146,8 +9148,8 @@
     "missingRequiredFields": 0,
     "invalidClassificationValues": 0,
     "semester": {
-      "unassigned": 2171,
-      "上學期": 491,
+      "unassigned": 2169,
+      "上學期": 493,
       "下學期": 164,
       "全學年": 74
     },
@@ -9158,59 +9160,57 @@
       "第三次段考": 91
     },
     "classificationBasis": {
-      "curriculum-core": 2161,
-      "publisher-source-verified": 476,
+      "curriculum-core": 2159,
+      "publisher-source-verified": 478,
       "question-bank-inference": 250,
       "unassigned": 13
     },
     "publisherStatus": {
-      "curriculum-core": 2291,
-      "publisher-mapped": 590,
+      "curriculum-core": 2289,
+      "publisher-mapped": 592,
       "pending": 19
     },
     "confidence": {
-      "low": 2061,
-      "medium": 801,
+      "low": 2059,
+      "medium": 803,
       "high": 38
     },
-    "publisherMappedQuestionCount": 590,
-    "publisherMappingReferenceCount": 694,
-    "validPublisherMappingReferenceCount": 694,
-    "centralMappingRegistryCount": 65,
+    "publisherMappedQuestionCount": 592,
+    "publisherMappingReferenceCount": 696,
+    "validPublisherMappingReferenceCount": 696,
+    "centralMappingRegistryCount": 66,
     "pendingQuestionCount": 19,
-    "curriculumCoreStatusCount": 2296,
+    "curriculumCoreStatusCount": 2289,
     "publisherReferenceCounts": {
-      "knsh": 169,
+      "knsh": 171,
       "hanlin": 455,
       "nani": 70,
-      "_total": 694
+      "_total": 696
     },
     "validPublisherReferenceCounts": {
-      "knsh": 169,
+      "knsh": 171,
       "hanlin": 455,
       "nani": 70,
-      "_total": 694
+      "_total": 696
     },
     "mappingLevelCounts": {
       "official-resource-title": 77,
-      "unit": 472,
+      "unit": 474,
       "volume": 145,
-      "_total": 694
+      "_total": 696
     },
     "validMappingLevelCounts": {
       "official-resource-title": 77,
-      "unit": 472,
+      "unit": 474,
       "volume": 145,
-      "_total": 694
+      "_total": 696
     },
     "mappingVerificationStatus": {
-      "source-checked": 694,
-      "_total": 694
+      "source-checked": 696,
+      "_total": 696
     },
     "centralMappingRegistryVerificationStatusCounts": {
-      "source-checked": 63,
-      "source-unavailable": 2,
-      "_total": 65
+      "source-checked": 66
     },
     "mappingReferenceErrors": 0,
     "mappingSourceFieldErrors": 0,
@@ -9221,45 +9221,40 @@
     "duplicateQuestionIds": 0,
     "missingClassificationCount": 0,
     "semesterCounts": {
-      "unassigned": 2171,
-      "上學期": 491,
+      "unassigned": 2169,
+      "上學期": 493,
       "下學期": 164,
-      "全學年": 74,
-      "_total": 2900
+      "全學年": 74
     },
-    "semesterAssignedQuestionCount": 729,
-    "semesterUnassignedQuestionCount": 2171,
+    "semesterAssignedQuestionCount": 731,
+    "semesterUnassignedQuestionCount": 2169,
     "examPeriodCounts": {
       "unassigned": 2673,
       "第一次段考": 65,
       "第二次段考": 71,
-      "第三次段考": 91,
-      "_total": 2900
+      "第三次段考": 91
     },
     "examAssignedQuestionCount": 227,
     "examUnassignedQuestionCount": 2673,
     "classificationBasisCounts": {
-      "curriculum-core": 2161,
-      "publisher-source-verified": 471,
-      "question-bank-inference": 255,
-      "unassigned": 13,
-      "_total": 2900
+      "curriculum-core": 2159,
+      "publisher-source-verified": 478,
+      "question-bank-inference": 250,
+      "unassigned": 13
     },
     "confidenceCounts": {
-      "low": 2066,
-      "medium": 796,
-      "high": 38,
-      "_total": 2900
+      "low": 2059,
+      "medium": 803,
+      "high": 38
     },
     "publisherStatusCounts": {
-      "curriculum-core": 2296,
-      "publisher-mapped": 585,
-      "pending": 19,
-      "_total": 2900
+      "curriculum-core": 2289,
+      "publisher-mapped": 592,
+      "pending": 19
     },
-    "curriculumCoreQuestionCount": 2291,
+    "curriculumCoreQuestionCount": 2289,
     "sourceUnavailableMappingReferenceCount": 0,
-    "inferenceMappingRegistryCount": 65,
+    "inferenceMappingRegistryCount": 66,
     "activeScopeQuestionCount": 1864,
     "activeScope": {
       "questionCount": 1864,
@@ -9302,24 +9297,24 @@
     "zeroResultCombinations": 2081804,
     "allModeReachable": true,
     "allModeQuestionCount": 2900,
-    "updatedQuestionRecords": 5,
-    "newPublisherMappingsPersisted": 5,
+    "updatedQuestionRecords": 0,
+    "newPublisherMappingsPersisted": 0,
     "stalePublisherMappingReferencesRemoved": 0,
     "classificationBasisCorrections": 0,
     "runtimePersistenceDifferencesReconciled": 0,
     "runtimePersistenceDifferencesRemaining": 0,
     "mappingReferenceMetadataCorrections": 0,
-    "indexShardShaCorrections": 1,
+    "indexShardShaCorrections": 0,
     "fullFilterMatrixTested": false,
     "targetedFilterMatrixTested": true,
-    "targetedFilterCasesTested": 40,
+    "targetedFilterCasesTested": 10,
     "activeScopeAllModeQuestionCount": 1864,
     "classificationRecords": 2900,
     "sourceRegistryCount": 71,
     "sourceRegistryVerificationStatusCounts": {
-      "source-checked": 68,
+      "source-checked": 69,
       "pending": 1,
-      "source-unavailable": 2
+      "source-unavailable": 1
     }
   },
   "mappingLevelCountsBatches08to41": {
@@ -11158,33 +11153,32 @@
     "notes": "僅統計國小六年級與高中二年級；段考仍是複習建議，不代表學校正式範圍。"
   },
   "latestClassificationPersistenceAudit": {
-    "runId": "2026-11-18-hanlin-h2-chemistry-i-volume-backfill-01",
+    "runId": "2026-11-18-main-classification-statistics-and-registry-reconciliation-01",
     "date": "2026-11-18",
-    "sourceHeadBeforeRun": "bfcc41489ec03fa03450dab28c09e2e091523a7b",
+    "sourceHeadBeforeRun": "f4e1a3e8e92971d4ed1135bb4ac1b7e5ffce146c",
     "batches": "08-41",
     "batchFileCount": 34,
     "fullCorpusQuestionCount": 2900,
-    "activeScopeQuestionCount": 1864,
-    "questionRecordsUpdated": 5,
-    "updatedQuestionIds": [
-      "b32-077",
-      "b32-078",
-      "b33-078",
-      "b34-076",
-      "b36-078"
-    ],
-    "semesterAssignments": 0,
-    "semesterCorrections": 0,
-    "examPeriodAssignments": 0,
-    "examPeriodCorrections": 0,
-    "publisherMappingsAdded": 5,
-    "publisherMappingReferencesAdded": 5,
+    "uniqueQuestionIds": 2900,
+    "questionRecordsUpdated": 0,
+    "updatedQuestionIds": [],
+    "publisherMappingsAdded": 0,
+    "inferenceMappingsAdded": 0,
     "newQuestionsAdded": 0,
     "sourceBatchShasMatch": "34/34",
-    "classificationRuleVersion": "2026-11-18.106",
+    "classificationRuleVersion": "2026-11-18.108",
+    "centralMappingRegistryCount": 66,
+    "inferenceMappingRegistryCount": 66,
+    "missingInferenceMappingIds": [],
+    "sourceRegistryCount": 71,
+    "sourceRegistryVerificationStatusCounts": {
+      "source-checked": 69,
+      "pending": 1,
+      "source-unavailable": 1
+    },
     "fullCorpusSemesterDistribution": {
-      "unassigned": 2171,
-      "上學期": 491,
+      "unassigned": 2169,
+      "上學期": 493,
       "下學期": 164,
       "全學年": 74
     },
@@ -11195,36 +11189,36 @@
       "第三次段考": 91
     },
     "fullCorpusClassificationBasisDistribution": {
-      "curriculum-core": 2161,
-      "publisher-source-verified": 476,
+      "curriculum-core": 2159,
+      "publisher-source-verified": 478,
       "question-bank-inference": 250,
       "unassigned": 13
     },
     "fullCorpusPublisherStatusDistribution": {
-      "curriculum-core": 2291,
-      "publisher-mapped": 590,
+      "curriculum-core": 2289,
+      "publisher-mapped": 592,
       "pending": 19
     },
     "fullCorpusConfidenceDistribution": {
-      "low": 2061,
-      "medium": 801,
+      "low": 2059,
+      "medium": 803,
       "high": 38
     },
     "publisherReferenceCounts": {
-      "knsh": 169,
+      "knsh": 171,
       "hanlin": 455,
       "nani": 70,
-      "_total": 694
+      "_total": 696
     },
     "mappingLevelCounts": {
       "official-resource-title": 77,
-      "unit": 472,
+      "unit": 474,
       "volume": 145,
-      "_total": 694
+      "_total": 696
     },
     "mappingVerificationStatusCounts": {
-      "source-checked": 694,
-      "_total": 694
+      "source-checked": 696,
+      "_total": 696
     },
     "validation": {
       "jsonParse": true,
@@ -11235,13 +11229,17 @@
       "extraClassificationIds": 0,
       "missingRequiredFields": 0,
       "invalidClassificationValues": 0,
-      "mappingReferenceErrors": 0,
-      "sourceFieldErrors": 0,
-      "mappingScopeErrors": 0,
       "sourceBatchShasMatch": "34/34",
-      "updatedQuestionsChecked": 5,
-      "updatedQuestionIdsReachable": true,
-      "targetedFilterCombinationsTested": 40,
+      "shardCount": 6,
+      "shardShaMismatches": 0,
+      "centralMappingRequiredFieldErrors": 0,
+      "centralMappingRegistryCount": 66,
+      "inferenceMappingRegistryCount": 66,
+      "missingInferenceMappingIds": [],
+      "extraInferenceMappingIds": [],
+      "b41_091MappingPresent": true,
+      "b41_091MappingScopeValid": true,
+      "targetedFilterCombinationsTested": 10,
       "targetedFilterErrors": 0,
       "publisherMappingLeaks": 0,
       "allModeReachable": true,
@@ -11249,12 +11247,12 @@
       "appReadsPersistedClassificationIndex": true,
       "zeroResultHintPresent": true,
       "inferenceSyntaxStructureChecked": true,
-      "inferenceSyntaxRuntimeTested": true,
+      "inferenceRuntimeTested": false,
       "browserOrMobileRuntimeTested": false,
       "fullFilterMatrixTested": false
     },
-    "validationMethod": "以翰林官方商品頁核對高二、化學、上學期及選修化學(I)課程類型；逐題確認五題原始sourceRef、知識點範圍及冊別層級。依index.html getPool()語義執行五題×八組出版社／學期／段考條件；不等同瀏覽器或手機實機測試。",
-    "notes": "五題均為原創高二化學題，官方頁只支持選修化學(I)冊別層級，未核對細分單元；段考全部unassigned。未宣稱學校採用版本或教師審核。"
+    "validationMethod": "重新解析推定器 MAPS 初始物件及後續 MAPS[id] 指派，逐一與中央教材映射ID比對；對 b41-091 按 index.html getPool() 同等出版社／學期／段考／單元條件模擬10組篩選。這是資料層／結構測試，不等同瀏覽器或手機實機測試。",
+    "notes": "本輪未修改原始題庫、題目分類紀錄或推定器程式；確認 b41-091 的翰林歷史(3)冊別映射已存在於推定器。主要工作是將分類索引與教材中央登錄的過期統計校正為最新 main 實際資料。"
   },
   "latestPublisherMappingBackfill": {
     "runId": "2026-11-18-hanlin-h2-chemistry-i-volume-backfill-01",
@@ -11356,33 +11354,32 @@
     "notes": "五題均為原創高二化學題，官方頁只支持選修化學(I)冊別層級，未核對細分單元；段考全部unassigned。未宣稱學校採用版本或教師審核。"
   },
   "latestAudit": {
-    "runId": "2026-11-18-hanlin-h2-chemistry-i-volume-backfill-01",
+    "runId": "2026-11-18-main-classification-statistics-and-registry-reconciliation-01",
     "date": "2026-11-18",
-    "sourceHeadBeforeRun": "bfcc41489ec03fa03450dab28c09e2e091523a7b",
+    "sourceHeadBeforeRun": "f4e1a3e8e92971d4ed1135bb4ac1b7e5ffce146c",
     "batches": "08-41",
     "batchFileCount": 34,
     "fullCorpusQuestionCount": 2900,
-    "activeScopeQuestionCount": 1864,
-    "questionRecordsUpdated": 5,
-    "updatedQuestionIds": [
-      "b32-077",
-      "b32-078",
-      "b33-078",
-      "b34-076",
-      "b36-078"
-    ],
-    "semesterAssignments": 0,
-    "semesterCorrections": 0,
-    "examPeriodAssignments": 0,
-    "examPeriodCorrections": 0,
-    "publisherMappingsAdded": 5,
-    "publisherMappingReferencesAdded": 5,
+    "uniqueQuestionIds": 2900,
+    "questionRecordsUpdated": 0,
+    "updatedQuestionIds": [],
+    "publisherMappingsAdded": 0,
+    "inferenceMappingsAdded": 0,
     "newQuestionsAdded": 0,
     "sourceBatchShasMatch": "34/34",
-    "classificationRuleVersion": "2026-11-18.106",
+    "classificationRuleVersion": "2026-11-18.108",
+    "centralMappingRegistryCount": 66,
+    "inferenceMappingRegistryCount": 66,
+    "missingInferenceMappingIds": [],
+    "sourceRegistryCount": 71,
+    "sourceRegistryVerificationStatusCounts": {
+      "source-checked": 69,
+      "pending": 1,
+      "source-unavailable": 1
+    },
     "fullCorpusSemesterDistribution": {
-      "unassigned": 2171,
-      "上學期": 491,
+      "unassigned": 2169,
+      "上學期": 493,
       "下學期": 164,
       "全學年": 74
     },
@@ -11393,36 +11390,36 @@
       "第三次段考": 91
     },
     "fullCorpusClassificationBasisDistribution": {
-      "curriculum-core": 2161,
-      "publisher-source-verified": 476,
+      "curriculum-core": 2159,
+      "publisher-source-verified": 478,
       "question-bank-inference": 250,
       "unassigned": 13
     },
     "fullCorpusPublisherStatusDistribution": {
-      "curriculum-core": 2291,
-      "publisher-mapped": 590,
+      "curriculum-core": 2289,
+      "publisher-mapped": 592,
       "pending": 19
     },
     "fullCorpusConfidenceDistribution": {
-      "low": 2061,
-      "medium": 801,
+      "low": 2059,
+      "medium": 803,
       "high": 38
     },
     "publisherReferenceCounts": {
-      "knsh": 169,
+      "knsh": 171,
       "hanlin": 455,
       "nani": 70,
-      "_total": 694
+      "_total": 696
     },
     "mappingLevelCounts": {
       "official-resource-title": 77,
-      "unit": 472,
+      "unit": 474,
       "volume": 145,
-      "_total": 694
+      "_total": 696
     },
     "mappingVerificationStatusCounts": {
-      "source-checked": 694,
-      "_total": 694
+      "source-checked": 696,
+      "_total": 696
     },
     "validation": {
       "jsonParse": true,
@@ -11433,13 +11430,17 @@
       "extraClassificationIds": 0,
       "missingRequiredFields": 0,
       "invalidClassificationValues": 0,
-      "mappingReferenceErrors": 0,
-      "sourceFieldErrors": 0,
-      "mappingScopeErrors": 0,
       "sourceBatchShasMatch": "34/34",
-      "updatedQuestionsChecked": 5,
-      "updatedQuestionIdsReachable": true,
-      "targetedFilterCombinationsTested": 40,
+      "shardCount": 6,
+      "shardShaMismatches": 0,
+      "centralMappingRequiredFieldErrors": 0,
+      "centralMappingRegistryCount": 66,
+      "inferenceMappingRegistryCount": 66,
+      "missingInferenceMappingIds": [],
+      "extraInferenceMappingIds": [],
+      "b41_091MappingPresent": true,
+      "b41_091MappingScopeValid": true,
+      "targetedFilterCombinationsTested": 10,
       "targetedFilterErrors": 0,
       "publisherMappingLeaks": 0,
       "allModeReachable": true,
@@ -11447,16 +11448,16 @@
       "appReadsPersistedClassificationIndex": true,
       "zeroResultHintPresent": true,
       "inferenceSyntaxStructureChecked": true,
-      "inferenceSyntaxRuntimeTested": true,
+      "inferenceRuntimeTested": false,
       "browserOrMobileRuntimeTested": false,
       "fullFilterMatrixTested": false
     },
-    "validationMethod": "以翰林官方商品頁核對高二、化學、上學期及選修化學(I)課程類型；逐題確認五題原始sourceRef、知識點範圍及冊別層級。依index.html getPool()語義執行五題×八組出版社／學期／段考條件；不等同瀏覽器或手機實機測試。",
-    "notes": "五題均為原創高二化學題，官方頁只支持選修化學(I)冊別層級，未核對細分單元；段考全部unassigned。未宣稱學校採用版本或教師審核。"
+    "validationMethod": "重新解析推定器 MAPS 初始物件及後續 MAPS[id] 指派，逐一與中央教材映射ID比對；對 b41-091 按 index.html getPool() 同等出版社／學期／段考／單元條件模擬10組篩選。這是資料層／結構測試，不等同瀏覽器或手機實機測試。",
+    "notes": "本輪未修改原始題庫、題目分類紀錄或推定器程式；確認 b41-091 的翰林歷史(3)冊別映射已存在於推定器。主要工作是將分類索引與教材中央登錄的過期統計校正為最新 main 實際資料。"
   },
   "latestIndexReconciliationAudit": {
     "date": "2026-11-18",
-    "runId": "2026-11-18-hanlin-h2-chemistry-i-volume-backfill-01",
+    "runId": "2026-11-18-main-classification-statistics-and-registry-reconciliation-01",
     "indexFile": "data/question-classification.json",
     "manifestQuestionCount": 2900,
     "classificationEntries": 2900,
@@ -11468,9 +11469,9 @@
     "sourceBatchFilesMatch": 34,
     "shardsVerified": 6,
     "shardShaMismatches": 0,
-    "centralMappingRegistryCount": 65,
-    "inferenceMappingRegistryCount": 65,
-    "notes": "第8至41批原始題庫SHA與六個分類分片sourceBatchShas逐批核對34/34；本輪只更新五筆既有分類紀錄，原始題庫未修改。"
+    "centralMappingRegistryCount": 66,
+    "inferenceMappingRegistryCount": 66,
+    "missingInferenceMappingIds": []
   },
   "fullCorpusFilterMatrixAudit": {
     "date": "2026-11-17",
@@ -11489,67 +11490,21 @@
     "validationMethod": "依 index.html getPool() 條件語義進行全庫資料層組合模擬，涵蓋48組年級／科目、難度、學期、段考、出版社、單元與高二數學軌別；非瀏覽器／手機實機測試。"
   },
   "latestRegistryIntegrityAudit": {
-    "runId": "2026-11-17-textbook-registry-null-entry-cleanup-01",
-    "date": "2026-11-17",
-    "sourceHeadBeforeRun": "8a5f3b2cdb90bc756d8d85c36a297d2680d2ba32",
-    "batchRange": "08-41",
-    "batchFileCount": 34,
-    "rawQuestionCount": 2900,
-    "rawQuestionRequiredFieldErrors": 0,
-    "classificationRecordCount": 2900,
-    "uniqueClassificationIds": 2900,
-    "duplicateQuestionIds": 0,
-    "missingClassificationCount": 0,
-    "sourceBatchShaMatches": "34/34",
-    "classificationShardShaMatches": "6/6",
-    "semesterDistribution": {
-      "unassigned": 2175,
-      "上學期": 487,
-      "下學期": 164,
-      "全學年": 74
+    "date": "2026-11-18",
+    "runId": "2026-11-18-main-classification-statistics-and-registry-reconciliation-01",
+    "centralMappingRegistryCount": 66,
+    "inferenceMappingRegistryCount": 66,
+    "missingInferenceMappingIds": [],
+    "centralMappingRequiredFieldErrors": 0,
+    "sourceRegistryCount": 71,
+    "sourceRegistryVerificationStatusCounts": {
+      "source-checked": 69,
+      "pending": 1,
+      "source-unavailable": 1
     },
-    "examPeriodDistribution": {
-      "unassigned": 2673,
-      "第一次段考": 65,
-      "第二次段考": 71,
-      "第三次段考": 91
-    },
-    "classificationBasisDistribution": {
-      "curriculum-core": 2178,
-      "publisher-source-verified": 466,
-      "question-bank-inference": 256
-    },
-    "publisherStatusDistribution": {
-      "curriculum-core": 2314,
-      "publisher-mapped": 580,
-      "pending": 6
-    },
-    "confidenceDistribution": {
-      "low": 2064,
-      "medium": 798,
-      "high": 38
-    },
-    "publisherMappedQuestionCount": 580,
-    "publisherMappingReferenceCount": 684,
-    "publisherReferenceCounts": {
-      "knsh": 168,
-      "hanlin": 446,
-      "nani": 70
-    },
-    "centralMappingRegistryCount": 64,
-    "inferenceMappingRegistryCount": 64,
-    "distinctReferencedMappingIds": 59,
-    "missingCentralMappingReferences": 0,
-    "centralMappingSourceFieldErrors": 0,
-    "nullRegistryEntriesFound": 1,
-    "nullRegistryEntryIndexes": [
-      62
-    ],
-    "nullRegistryEntriesRemoved": 1,
-    "newQuestionsAdded": 0,
-    "browserOrMobileRuntimeTested": false,
-    "filterMatrixTestedThisRun": false,
-    "notes": "Fresh main reconciliation: all 34 batch blob SHAs match the six classification shard sourceBatchShas maps; all six shard blob SHAs match the classification index. Removed a null placeholder from textbook-alignment.mappings; no question record or publisher mapping was changed. The existing 2,119,500-case data-layer filter audit remains the latest filter-matrix evidence; this registry cleanup did not rerun it."
+    "centralMappingVerificationStatusCounts": {
+      "source-checked": 66
+    }
   },
   "sourceRegistryCount": 71,
   "sourceRegistryVerificationStatusCounts": {
@@ -11628,5 +11583,7 @@
       "sourceRegistryStatusUpdated": true
     },
     "notes": "同一康軒官方113教材簡介PDF重新可讀。六上單元二「水溶液」及主題脈絡「混合物／物質分離」直接支持b15-030、b40-041；恢復六下單元二、三既有來源映射的source-checked狀態。原先13題已改用114版來源者維持原映射，不回退到113版；未推定段考或學校採用版本。"
-  }
+  },
+  "centralMappingRegistryCount": 66,
+  "inferenceMappingRegistryCount": 66
 }
