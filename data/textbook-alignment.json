@@ -2106,13 +2106,19 @@
       "sourceTitle": "翰林高中參考書《試題挖挖哇：地理(3)》第3頁目次「第7回 全球化」；翰林書城商品頁確認高二地理上學期",
       "verifiedAt": "2026-11-17",
       "verificationStatus": "source-checked",
-      "notes": "依翰林書城官方商品頁確認《高中試題挖挖哇－地理(3)》科目為地理、適用高中二年級、上學期，且為搭配翰林教材課次／單元的評量試題本；翰林高中參考書官方帳號刊載之第3頁目次列第7回「全球化」。題目直接描述港口停擺造成海外工廠延後生產的跨國供應鏈連鎖影響，與「全球化」主題直接相符，故建立翰林配套評量本第7回單元層級映射。商品頁同時標示各版本適用；此映射僅表示題目可對應翰林配套評量本主題，不代表學校採用翰林主課本版本、主課本完整目次或任何學校指定範圍。學年度未標示；段考無可靠依據，維持unassigned。",
+      "notes": "翰林書城官方商品頁確認《高中試題挖挖哇－地理(3)》科目為地理、適用高中二年級、上學期，且為搭配翰林教材課次／單元的評量試題本；翰林高中參考書官方帳號刊載之第3頁目次列第7回「全球化」。本映射只表示題目可對應該配套評量本第7回主題，不代表學校採用翰林主課本版本、主課本完整目次或正式段考範圍；學年度未標示。",
       "courseType": "未確認",
       "courseTrack": null,
       "mappingLevel": "unit",
       "unitAliases": [
         "全球供應鏈",
-        "跨國供應鏈連鎖影響"
+        "跨國供應鏈連鎖影響",
+        "全球化與產業分工",
+        "全球化與供應鏈",
+        "全球生產網絡",
+        "供應鏈區位",
+        "國際分工",
+        "全球供應鏈風險"
       ]
     }
   ],
@@ -2984,36 +2990,38 @@
     "2026-11-17.98：新增b39-088高二地理「全球供應鏈」對應翰林配套評量本《試題挖挖哇：地理(3)》第7回「全球化」；僅表示配套評量本主題對應，不宣稱學校採用翰林主課本或正式段考範圍。"
   ],
   "lastAudit": {
-    "runId": "2026-11-17-knsh-g6-math-trapezoid-source-title-correction-01",
+    "runId": "2026-11-17-hanlin-h2-geography-globalization-backfill-02",
     "date": "2026-11-17",
-    "sourceHeadBeforeRun": "77f02eca869d8c42e1bdd298ba144399e72aa166",
+    "sourceHeadBeforeRun": "37141274cd8f635c87054afd761fa09d655903f2",
     "batches": "08-41",
     "batchFileCount": 34,
     "fullCorpusQuestionCount": 2900,
     "activeScopeQuestionCount": 1864,
-    "questionRecordsUpdated": 4,
+    "questionRecordsUpdated": 7,
     "updatedQuestionIds": [
-      "b32-014",
-      "b33-023",
-      "b36-027",
-      "b37-025"
+      "b8-026",
+      "b11-019",
+      "b13-022",
+      "b17-075",
+      "b23-069",
+      "b26-076",
+      "b30-093"
     ],
-    "semesterAssignments": 0,
+    "semesterAssignments": 7,
     "semesterCorrections": 0,
     "examPeriodAssignments": 0,
     "examPeriodCorrections": 0,
-    "publisherMappingsAdded": 0,
-    "publisherMappingReferencesAdded": 0,
-    "publisherMappingReferencesCorrected": 4,
+    "publisherMappingsAdded": 7,
+    "publisherMappingReferencesAdded": 7,
+    "publisherMappingReferencesCorrected": 0,
     "publisherMappingReferencesRemoved": 0,
-    "sourceTitleCorrections": 4,
     "newQuestionsAdded": 0,
     "sourceBatchShasMatch": "34/34",
-    "classificationRuleVersion": "2026-11-17.93",
+    "classificationRuleVersion": "2026-11-17.99",
     "fullCorpusSemesterDistribution": {
-      "unassigned": 2206,
-      "上學期": 464,
-      "下學期": 156,
+      "unassigned": 2186,
+      "上學期": 476,
+      "下學期": 164,
       "全學年": 74,
       "_total": 2900
     },
@@ -3025,53 +3033,39 @@
       "_total": 2900
     },
     "fullCorpusClassificationBasisDistribution": {
-      "curriculum-core": 2221,
-      "publisher-source-verified": 423,
+      "curriculum-core": 2189,
+      "publisher-source-verified": 455,
       "question-bank-inference": 256,
       "_total": 2900
     },
     "fullCorpusPublisherStatusDistribution": {
-      "curriculum-core": 2361,
-      "publisher-mapped": 533,
+      "curriculum-core": 2325,
+      "publisher-mapped": 569,
       "pending": 6,
       "_total": 2900
     },
     "fullCorpusConfidenceDistribution": {
-      "low": 2092,
-      "medium": 772,
-      "high": 36,
+      "low": 2074,
+      "medium": 788,
+      "high": 38,
       "_total": 2900
     },
     "publisherReferenceCounts": {
-      "knsh": 144,
-      "hanlin": 427,
+      "knsh": 168,
+      "hanlin": 435,
       "nani": 70,
-      "_total": 641
-    },
-    "validPublisherReferenceCounts": {
-      "knsh": 140,
-      "hanlin": 427,
-      "nani": 70,
-      "_total": 637
+      "_total": 673
     },
     "mappingLevelCounts": {
-      "official-resource-title": 57,
-      "unit": 449,
+      "official-resource-title": 77,
+      "unit": 461,
       "volume": 135,
-      "_total": 641
-    },
-    "validMappingLevelCounts": {
-      "official-resource-title": 57,
-      "unit": 445,
-      "volume": 135,
-      "_total": 637
+      "_total": 673
     },
     "mappingVerificationStatusCounts": {
-      "source-checked": 637,
-      "source-unavailable": 4,
-      "_total": 641
+      "source-checked": 673,
+      "_total": 673
     },
-    "centralMappingCount": 60,
     "validation": {
       "jsonParse": true,
       "classificationRecords": 2900,
@@ -3079,32 +3073,25 @@
       "duplicateIds": 0,
       "missingRequiredFields": 0,
       "invalidClassificationValues": 0,
-      "mappingReferenceErrors": 0,
-      "sourceFieldErrors": 0,
-      "mappingScopeErrors": 0,
+      "newMappingSourceFieldErrors": 0,
+      "newMappingScopeErrors": 0,
       "sourceBatchShasMatch": "34/34",
-      "updatedQuestionsChecked": 4,
+      "updatedQuestionsChecked": 7,
       "updatedQuestionIdsReachable": true,
-      "targetedPublisherSemesterFilterCasesTested": 4,
+      "targetedPublisherSemesterFilterCasesTested": 7,
       "targetedCasesPassed": true,
-      "filterCombinationsTested": 7800,
-      "nonZeroFilterCombinations": 575,
-      "zeroResultConditionsTested": 7225,
-      "publisherMappingLeaks": 0,
+      "targetedExamFilterCasePassed": true,
+      "fullFilterMatrixTested": false,
       "filterErrors": 0,
+      "publisherMappingLeaks": 0,
       "allModeReachable": true,
       "allModeQuestionCount": 2900,
       "appReadsPersistedClassificationIndex": true,
       "zeroResultHintPresent": true,
-      "serviceWorkerAssetManifestComplete": true,
-      "inferenceSyntaxValid": true,
-      "inferenceRuntimeTested": true,
-      "inferenceRuntimeCasesTested": 4,
-      "inferenceRuntimeFailures": 0,
+      "inferenceAliasRuleUpdated": true,
       "browserOrMobileRuntimeTested": false
     },
-    "notes": "來源標題更正：梯形面積題實際位於官方PDF的「6下單元學後檢測卷A2MA11012003」第7題，不是學前檢測卷；分類仍維持康軒官方補充資源標題層級、下學期、段考unassigned。只修正來源標題／單元描述與備註，題目內容及分類數值不變。",
-    "classificationDataHeadAfterUpdates": "ff617c578e09f47aa5b4bc422128375c9ce62212"
+    "notes": "依翰林《試題挖挖哇－地理(3)》官方商品頁及第3頁目次第7回「全球化」，為7道高二地理既有題目新增配套評量本單元層級映射；全數學期上學期、段考維持unassigned。未宣稱學校採用翰林主課本或正式段考範圍，未新增題目。"
   },
   "auditSummary": "b21-072行政聽證程序新增翰林公民與社會(3)乙版第9單元單元層級映射；題目學期由unassigned改為上學期，段考仍unassigned。原始題目、選項、答案與解析未修改；不宣稱學校採用版本或教師審核。",
   "batch39UsageAudit": {
@@ -3679,31 +3666,37 @@
     ]
   },
   "latestMainClassificationAudit": {
-    "runId": "2026-11-17-hanlin-h2-geography-global-supply-chain-backfill-01",
+    "runId": "2026-11-17-hanlin-h2-geography-globalization-backfill-02",
     "date": "2026-11-17",
-    "sourceHeadBeforeRun": "aed91e36cf6f6c21d6461e1068284c4b5e8163b6",
+    "sourceHeadBeforeRun": "37141274cd8f635c87054afd761fa09d655903f2",
     "batches": "08-41",
     "batchFileCount": 34,
     "fullCorpusQuestionCount": 2900,
     "activeScopeQuestionCount": 1864,
-    "questionRecordsUpdated": 1,
+    "questionRecordsUpdated": 7,
     "updatedQuestionIds": [
-      "b39-088"
+      "b8-026",
+      "b11-019",
+      "b13-022",
+      "b17-075",
+      "b23-069",
+      "b26-076",
+      "b30-093"
     ],
-    "semesterAssignments": 1,
+    "semesterAssignments": 7,
     "semesterCorrections": 0,
     "examPeriodAssignments": 0,
     "examPeriodCorrections": 0,
-    "publisherMappingsAdded": 1,
-    "publisherMappingReferencesAdded": 1,
+    "publisherMappingsAdded": 7,
+    "publisherMappingReferencesAdded": 7,
     "publisherMappingReferencesCorrected": 0,
     "publisherMappingReferencesRemoved": 0,
     "newQuestionsAdded": 0,
     "sourceBatchShasMatch": "34/34",
-    "classificationRuleVersion": "2026-11-17.98",
+    "classificationRuleVersion": "2026-11-17.99",
     "fullCorpusSemesterDistribution": {
-      "unassigned": 2193,
-      "上學期": 469,
+      "unassigned": 2186,
+      "上學期": 476,
       "下學期": 164,
       "全學年": 74,
       "_total": 2900
@@ -3716,38 +3709,38 @@
       "_total": 2900
     },
     "fullCorpusClassificationBasisDistribution": {
-      "curriculum-core": 2196,
-      "publisher-source-verified": 448,
+      "curriculum-core": 2189,
+      "publisher-source-verified": 455,
       "question-bank-inference": 256,
       "_total": 2900
     },
     "fullCorpusPublisherStatusDistribution": {
-      "curriculum-core": 2332,
-      "publisher-mapped": 562,
+      "curriculum-core": 2325,
+      "publisher-mapped": 569,
       "pending": 6,
       "_total": 2900
     },
     "fullCorpusConfidenceDistribution": {
-      "low": 2080,
-      "medium": 782,
+      "low": 2074,
+      "medium": 788,
       "high": 38,
       "_total": 2900
     },
     "publisherReferenceCounts": {
       "knsh": 168,
-      "hanlin": 428,
+      "hanlin": 435,
       "nani": 70,
-      "_total": 666
+      "_total": 673
     },
     "mappingLevelCounts": {
       "official-resource-title": 77,
-      "unit": 454,
+      "unit": 461,
       "volume": 135,
-      "_total": 666
+      "_total": 673
     },
     "mappingVerificationStatusCounts": {
-      "source-checked": 666,
-      "_total": 666
+      "source-checked": 673,
+      "_total": 673
     },
     "validation": {
       "jsonParse": true,
@@ -3756,13 +3749,12 @@
       "duplicateIds": 0,
       "missingRequiredFields": 0,
       "invalidClassificationValues": 0,
-      "mappingReferenceErrors": 0,
-      "sourceFieldErrors": 0,
-      "mappingScopeErrors": 0,
+      "newMappingSourceFieldErrors": 0,
+      "newMappingScopeErrors": 0,
       "sourceBatchShasMatch": "34/34",
-      "updatedQuestionsChecked": 1,
+      "updatedQuestionsChecked": 7,
       "updatedQuestionIdsReachable": true,
-      "targetedPublisherSemesterFilterCasesTested": 1,
+      "targetedPublisherSemesterFilterCasesTested": 7,
       "targetedCasesPassed": true,
       "targetedExamFilterCasePassed": true,
       "fullFilterMatrixTested": false,
@@ -3772,10 +3764,10 @@
       "allModeQuestionCount": 2900,
       "appReadsPersistedClassificationIndex": true,
       "zeroResultHintPresent": true,
-      "inferenceSyntaxStructureChecked": true,
+      "inferenceAliasRuleUpdated": true,
       "browserOrMobileRuntimeTested": false
     },
-    "notes": "b39-088高二地理「全球供應鏈」依翰林書城官方商品頁與翰林高中參考書《試題挖挖哇－地理(3)》第3頁目次第7回「全球化」建立配套評量本單元層級映射。全域學期上學期；段考仍unassigned。商品頁標示各版本適用，不代表學校採用翰林主課本版本或正式段考範圍。未新增題目。"
+    "notes": "依翰林《試題挖挖哇－地理(3)》官方商品頁及第3頁目次第7回「全球化」，為7道高二地理既有題目新增配套評量本單元層級映射；全數學期上學期、段考維持unassigned。未宣稱學校採用翰林主課本或正式段考範圍，未新增題目。"
   },
   "classificationPersistenceRuns": [
     {
@@ -7243,36 +7235,37 @@
     "runId": "2026-11-17-knsh-g6-math-trapezoid-source-title-correction-01"
   },
   "lastRunAudit": {
-    "runId": "2026-11-17-knsh-g6-natural-ecology-backfill-01",
+    "runId": "2026-11-17-hanlin-h2-geography-globalization-backfill-02",
     "date": "2026-11-17",
-    "sourceHeadBeforeRun": "56c1e66c4413204dfc3b4cbf71bb3050dedd0358",
+    "sourceHeadBeforeRun": "37141274cd8f635c87054afd761fa09d655903f2",
     "batches": "08-41",
     "batchFileCount": 34,
     "fullCorpusQuestionCount": 2900,
     "activeScopeQuestionCount": 1864,
-    "questionRecordsUpdated": 4,
+    "questionRecordsUpdated": 7,
     "updatedQuestionIds": [
-      "b10-006",
-      "b23-030",
-      "b27-027",
-      "b29-032"
+      "b8-026",
+      "b11-019",
+      "b13-022",
+      "b17-075",
+      "b23-069",
+      "b26-076",
+      "b30-093"
     ],
-    "semesterAssignments": 4,
+    "semesterAssignments": 7,
     "semesterCorrections": 0,
     "examPeriodAssignments": 0,
     "examPeriodCorrections": 0,
-    "publisherMappingsAdded": 4,
-    "publisherMappingReferencesAdded": 4,
-    "publisherMappingReferencesCorrected": 260,
-    "publisherMappingMetadataCorrections": 260,
+    "publisherMappingsAdded": 7,
+    "publisherMappingReferencesAdded": 7,
+    "publisherMappingReferencesCorrected": 0,
     "publisherMappingReferencesRemoved": 0,
-    "sourceTitleCorrections": 0,
     "newQuestionsAdded": 0,
     "sourceBatchShasMatch": "34/34",
-    "classificationRuleVersion": "2026-11-17.96",
+    "classificationRuleVersion": "2026-11-17.99",
     "fullCorpusSemesterDistribution": {
-      "unassigned": 2194,
-      "上學期": 468,
+      "unassigned": 2186,
+      "上學期": 476,
       "下學期": 164,
       "全學年": 74,
       "_total": 2900
@@ -7285,52 +7278,39 @@
       "_total": 2900
     },
     "fullCorpusClassificationBasisDistribution": {
-      "curriculum-core": 2197,
-      "publisher-source-verified": 447,
+      "curriculum-core": 2189,
+      "publisher-source-verified": 455,
       "question-bank-inference": 256,
       "_total": 2900
     },
     "fullCorpusPublisherStatusDistribution": {
-      "curriculum-core": 2349,
-      "publisher-mapped": 545,
+      "curriculum-core": 2325,
+      "publisher-mapped": 569,
       "pending": 6,
       "_total": 2900
     },
     "fullCorpusConfidenceDistribution": {
-      "low": 2081,
-      "medium": 781,
+      "low": 2074,
+      "medium": 788,
       "high": 38,
       "_total": 2900
     },
     "publisherReferenceCounts": {
-      "knsh": 152,
-      "hanlin": 427,
+      "knsh": 168,
+      "hanlin": 435,
       "nani": 70,
-      "_total": 649
-    },
-    "validPublisherReferenceCounts": {
-      "knsh": 152,
-      "hanlin": 427,
-      "nani": 70,
-      "_total": 649
+      "_total": 673
     },
     "mappingLevelCounts": {
-      "official-resource-title": 61,
-      "unit": 453,
+      "official-resource-title": 77,
+      "unit": 461,
       "volume": 135,
-      "_total": 649
-    },
-    "validMappingLevelCounts": {
-      "official-resource-title": 61,
-      "unit": 453,
-      "volume": 135,
-      "_total": 649
+      "_total": 673
     },
     "mappingVerificationStatusCounts": {
-      "source-checked": 649,
-      "_total": 649
+      "source-checked": 673,
+      "_total": 673
     },
-    "centralMappingCount": 60,
     "validation": {
       "jsonParse": true,
       "classificationRecords": 2900,
@@ -7338,32 +7318,25 @@
       "duplicateIds": 0,
       "missingRequiredFields": 0,
       "invalidClassificationValues": 0,
-      "mappingReferenceErrors": 0,
-      "sourceFieldErrors": 0,
-      "mappingScopeErrors": 0,
+      "newMappingSourceFieldErrors": 0,
+      "newMappingScopeErrors": 0,
       "sourceBatchShasMatch": "34/34",
-      "updatedQuestionsChecked": 4,
+      "updatedQuestionsChecked": 7,
       "updatedQuestionIdsReachable": true,
-      "targetedPublisherSemesterFilterCasesTested": 4,
+      "targetedPublisherSemesterFilterCasesTested": 7,
       "targetedCasesPassed": true,
-      "filterCombinationsTested": 7800,
-      "nonZeroFilterCombinations": 552,
-      "zeroResultConditionsTested": 7248,
-      "publisherMappingLeaks": 0,
+      "targetedExamFilterCasePassed": true,
+      "fullFilterMatrixTested": false,
       "filterErrors": 0,
+      "publisherMappingLeaks": 0,
       "allModeReachable": true,
       "allModeQuestionCount": 2900,
       "appReadsPersistedClassificationIndex": true,
       "zeroResultHintPresent": true,
-      "serviceWorkerAssetManifestComplete": true,
-      "inferenceSyntaxValid": true,
-      "inferenceRuntimeTested": true,
-      "inferenceRuntimeCasesTested": 4,
-      "inferenceRuntimeFailures": 0,
-      "mappingReferenceMetadataCorrections": 260,
+      "inferenceAliasRuleUpdated": true,
       "browserOrMobileRuntimeTested": false
     },
-    "notes": "康軒114官方自然領域文宣明列六下單元三「地球的生態」及食物鏈、族群與群集、生物間關係、生態系、外來入侵種、生物多樣性；四題持久分類為下學期單元層級映射，段考維持unassigned。另將全庫出版社映射參照同步至中央來源資料，修正260筆參照中繼資料差異。"
+    "notes": "依翰林《試題挖挖哇－地理(3)》官方商品頁及第3頁目次第7回「全球化」，為7道高二地理既有題目新增配套評量本單元層級映射；全數學期上學期、段考維持unassigned。未宣稱學校採用翰林主課本或正式段考範圍，未新增題目。"
   },
   "latestMappingScopeCorrection": {
     "date": "2026-11-14",
@@ -7687,36 +7660,37 @@
     }
   ],
   "latestMainAudit": {
-    "runId": "2026-11-17-knsh-g6-natural-ecology-backfill-01",
+    "runId": "2026-11-17-hanlin-h2-geography-globalization-backfill-02",
     "date": "2026-11-17",
-    "sourceHeadBeforeRun": "56c1e66c4413204dfc3b4cbf71bb3050dedd0358",
+    "sourceHeadBeforeRun": "37141274cd8f635c87054afd761fa09d655903f2",
     "batches": "08-41",
     "batchFileCount": 34,
     "fullCorpusQuestionCount": 2900,
     "activeScopeQuestionCount": 1864,
-    "questionRecordsUpdated": 4,
+    "questionRecordsUpdated": 7,
     "updatedQuestionIds": [
-      "b10-006",
-      "b23-030",
-      "b27-027",
-      "b29-032"
+      "b8-026",
+      "b11-019",
+      "b13-022",
+      "b17-075",
+      "b23-069",
+      "b26-076",
+      "b30-093"
     ],
-    "semesterAssignments": 4,
+    "semesterAssignments": 7,
     "semesterCorrections": 0,
     "examPeriodAssignments": 0,
     "examPeriodCorrections": 0,
-    "publisherMappingsAdded": 4,
-    "publisherMappingReferencesAdded": 4,
-    "publisherMappingReferencesCorrected": 260,
-    "publisherMappingMetadataCorrections": 260,
+    "publisherMappingsAdded": 7,
+    "publisherMappingReferencesAdded": 7,
+    "publisherMappingReferencesCorrected": 0,
     "publisherMappingReferencesRemoved": 0,
-    "sourceTitleCorrections": 0,
     "newQuestionsAdded": 0,
     "sourceBatchShasMatch": "34/34",
-    "classificationRuleVersion": "2026-11-17.96",
+    "classificationRuleVersion": "2026-11-17.99",
     "fullCorpusSemesterDistribution": {
-      "unassigned": 2194,
-      "上學期": 468,
+      "unassigned": 2186,
+      "上學期": 476,
       "下學期": 164,
       "全學年": 74,
       "_total": 2900
@@ -7729,52 +7703,39 @@
       "_total": 2900
     },
     "fullCorpusClassificationBasisDistribution": {
-      "curriculum-core": 2197,
-      "publisher-source-verified": 447,
+      "curriculum-core": 2189,
+      "publisher-source-verified": 455,
       "question-bank-inference": 256,
       "_total": 2900
     },
     "fullCorpusPublisherStatusDistribution": {
-      "curriculum-core": 2349,
-      "publisher-mapped": 545,
+      "curriculum-core": 2325,
+      "publisher-mapped": 569,
       "pending": 6,
       "_total": 2900
     },
     "fullCorpusConfidenceDistribution": {
-      "low": 2081,
-      "medium": 781,
+      "low": 2074,
+      "medium": 788,
       "high": 38,
       "_total": 2900
     },
     "publisherReferenceCounts": {
-      "knsh": 152,
-      "hanlin": 427,
+      "knsh": 168,
+      "hanlin": 435,
       "nani": 70,
-      "_total": 649
-    },
-    "validPublisherReferenceCounts": {
-      "knsh": 152,
-      "hanlin": 427,
-      "nani": 70,
-      "_total": 649
+      "_total": 673
     },
     "mappingLevelCounts": {
-      "official-resource-title": 61,
-      "unit": 453,
+      "official-resource-title": 77,
+      "unit": 461,
       "volume": 135,
-      "_total": 649
-    },
-    "validMappingLevelCounts": {
-      "official-resource-title": 61,
-      "unit": 453,
-      "volume": 135,
-      "_total": 649
+      "_total": 673
     },
     "mappingVerificationStatusCounts": {
-      "source-checked": 649,
-      "_total": 649
+      "source-checked": 673,
+      "_total": 673
     },
-    "centralMappingCount": 60,
     "validation": {
       "jsonParse": true,
       "classificationRecords": 2900,
@@ -7782,32 +7743,25 @@
       "duplicateIds": 0,
       "missingRequiredFields": 0,
       "invalidClassificationValues": 0,
-      "mappingReferenceErrors": 0,
-      "sourceFieldErrors": 0,
-      "mappingScopeErrors": 0,
+      "newMappingSourceFieldErrors": 0,
+      "newMappingScopeErrors": 0,
       "sourceBatchShasMatch": "34/34",
-      "updatedQuestionsChecked": 4,
+      "updatedQuestionsChecked": 7,
       "updatedQuestionIdsReachable": true,
-      "targetedPublisherSemesterFilterCasesTested": 4,
+      "targetedPublisherSemesterFilterCasesTested": 7,
       "targetedCasesPassed": true,
-      "filterCombinationsTested": 7800,
-      "nonZeroFilterCombinations": 552,
-      "zeroResultConditionsTested": 7248,
-      "publisherMappingLeaks": 0,
+      "targetedExamFilterCasePassed": true,
+      "fullFilterMatrixTested": false,
       "filterErrors": 0,
+      "publisherMappingLeaks": 0,
       "allModeReachable": true,
       "allModeQuestionCount": 2900,
       "appReadsPersistedClassificationIndex": true,
       "zeroResultHintPresent": true,
-      "serviceWorkerAssetManifestComplete": true,
-      "inferenceSyntaxValid": true,
-      "inferenceRuntimeTested": true,
-      "inferenceRuntimeCasesTested": 4,
-      "inferenceRuntimeFailures": 0,
-      "mappingReferenceMetadataCorrections": 260,
+      "inferenceAliasRuleUpdated": true,
       "browserOrMobileRuntimeTested": false
     },
-    "notes": "康軒114官方自然領域文宣明列六下單元三「地球的生態」及食物鏈、族群與群集、生物間關係、生態系、外來入侵種、生物多樣性；四題持久分類為下學期單元層級映射，段考維持unassigned。另將全庫出版社映射參照同步至中央來源資料，修正260筆參照中繼資料差異。"
+    "notes": "依翰林《試題挖挖哇－地理(3)》官方商品頁及第3頁目次第7回「全球化」，為7道高二地理既有題目新增配套評量本單元層級映射；全數學期上學期、段考維持unassigned。未宣稱學校採用翰林主課本或正式段考範圍，未新增題目。"
   },
   "statistics": {
     "questionCount": 2900,
@@ -7817,8 +7771,8 @@
     "missingRequiredFields": 0,
     "invalidClassificationValues": 0,
     "semester": {
-      "unassigned": 2193,
-      "上學期": 469,
+      "unassigned": 2186,
+      "上學期": 476,
       "下學期": 164,
       "全學年": 74,
       "_total": 2900
@@ -7831,56 +7785,56 @@
       "_total": 2900
     },
     "classificationBasis": {
-      "curriculum-core": 2196,
-      "publisher-source-verified": 448,
+      "curriculum-core": 2189,
+      "publisher-source-verified": 455,
       "question-bank-inference": 256,
       "_total": 2900
     },
     "publisherStatus": {
-      "curriculum-core": 2332,
-      "publisher-mapped": 562,
+      "curriculum-core": 2325,
+      "publisher-mapped": 569,
       "pending": 6,
       "_total": 2900
     },
     "confidence": {
-      "low": 2080,
-      "medium": 782,
+      "low": 2074,
+      "medium": 788,
       "high": 38,
       "_total": 2900
     },
-    "publisherMappedQuestionCount": 562,
-    "publisherMappingReferenceCount": 666,
-    "validPublisherMappingReferenceCount": 666,
+    "publisherMappedQuestionCount": 569,
+    "publisherMappingReferenceCount": 673,
+    "validPublisherMappingReferenceCount": 673,
     "centralMappingRegistryCount": 61,
     "pendingQuestionCount": 6,
-    "curriculumCoreStatusCount": 2332,
+    "curriculumCoreStatusCount": 2325,
     "publisherReferenceCounts": {
       "knsh": 168,
-      "hanlin": 428,
+      "hanlin": 435,
       "nani": 70,
-      "_total": 666
+      "_total": 673
     },
     "validPublisherReferenceCounts": {
       "knsh": 168,
-      "hanlin": 428,
+      "hanlin": 435,
       "nani": 70,
-      "_total": 666
+      "_total": 673
     },
     "mappingLevelCounts": {
       "official-resource-title": 77,
-      "unit": 454,
+      "unit": 461,
       "volume": 135,
-      "_total": 666
+      "_total": 673
     },
     "validMappingLevelCounts": {
       "official-resource-title": 77,
-      "unit": 454,
+      "unit": 461,
       "volume": 135,
-      "_total": 666
+      "_total": 673
     },
     "mappingVerificationStatus": {
-      "source-checked": 666,
-      "_total": 666
+      "source-checked": 673,
+      "_total": 673
     },
     "mappingReferenceErrors": 0,
     "mappingSourceFieldErrors": 0,
@@ -7889,8 +7843,8 @@
     "activeScope": {
       "questionCount": 1864,
       "semester": {
-        "unassigned": 1157,
-        "上學期": 469,
+        "unassigned": 1150,
+        "上學期": 476,
         "下學期": 164,
         "全學年": 74,
         "_total": 1864
@@ -7903,8 +7857,8 @@
         "_total": 1864
       },
       "publisherStatus": {
-        "curriculum-core": 1296,
-        "publisher-mapped": 562,
+        "curriculum-core": 1289,
+        "publisher-mapped": 569,
         "pending": 6,
         "_total": 1864
       }
@@ -7912,13 +7866,13 @@
     "duplicateQuestionIds": 0,
     "missingClassificationCount": 0,
     "semesterCounts": {
-      "unassigned": 2193,
-      "上學期": 469,
+      "unassigned": 2186,
+      "上學期": 476,
       "下學期": 164,
       "全學年": 74
     },
-    "semesterAssignedQuestionCount": 707,
-    "semesterUnassignedQuestionCount": 2193,
+    "semesterAssignedQuestionCount": 714,
+    "semesterUnassignedQuestionCount": 2186,
     "examPeriodCounts": {
       "unassigned": 2673,
       "第一次段考": 65,
@@ -7928,27 +7882,27 @@
     "examAssignedQuestionCount": 227,
     "examUnassignedQuestionCount": 2673,
     "classificationBasisCounts": {
-      "curriculum-core": 2196,
-      "publisher-source-verified": 448,
+      "curriculum-core": 2189,
+      "publisher-source-verified": 455,
       "question-bank-inference": 256
     },
     "confidenceCounts": {
-      "low": 2080,
-      "medium": 782,
+      "low": 2074,
+      "medium": 788,
       "high": 38
     },
     "publisherStatusCounts": {
-      "curriculum-core": 2332,
-      "publisher-mapped": 562,
+      "curriculum-core": 2325,
+      "publisher-mapped": 569,
       "pending": 6
     },
-    "curriculumCoreQuestionCount": 2332,
+    "curriculumCoreQuestionCount": 2325,
     "sourceUnavailableMappingReferenceCount": 0,
     "inferenceMappingRegistryCount": 61,
     "activeScopeQuestionCount": 1864,
     "activeScopeSemesterCounts": {
-      "unassigned": 1157,
-      "上學期": 469,
+      "unassigned": 1150,
+      "上學期": 476,
       "下學期": 164,
       "全學年": 74
     },
@@ -7962,15 +7916,15 @@
     "sourceBatchShaMatches": 34,
     "sourceBatchShaTotal": 34,
     "sourceBatchShaMismatches": 0,
-    "filterCombinationsTested": 1,
+    "filterCombinationsTested": 7,
     "filterErrors": 0,
     "publisherMappingLeaks": 0,
-    "nonZeroFilterCombinations": 1,
+    "nonZeroFilterCombinations": 7,
     "zeroResultCombinations": 0,
     "allModeReachable": true,
     "allModeQuestionCount": 2900,
-    "updatedQuestionRecords": 1,
-    "newPublisherMappingsPersisted": 1,
+    "updatedQuestionRecords": 7,
+    "newPublisherMappingsPersisted": 7,
     "stalePublisherMappingReferencesRemoved": 0,
     "classificationBasisCorrections": 0,
     "runtimePersistenceDifferencesReconciled": 0,
@@ -9328,7 +9282,7 @@
       "centralMappingCount": 39
     }
   },
-  "classificationRuleVersion": "2026-11-17.98",
+  "classificationRuleVersion": "2026-11-17.99",
   "classificationPersistenceRunsRecovery": {
     "repairedAt": "2026-11-16",
     "previousLength": 337,
@@ -9685,31 +9639,37 @@
     "mappingReferenceMetadataCorrections": 260
   },
   "latestPublisherMappingBackfill": {
-    "runId": "2026-11-17-hanlin-h2-geography-global-supply-chain-backfill-01",
+    "runId": "2026-11-17-hanlin-h2-geography-globalization-backfill-02",
     "date": "2026-11-17",
-    "sourceHeadBeforeRun": "aed91e36cf6f6c21d6461e1068284c4b5e8163b6",
+    "sourceHeadBeforeRun": "37141274cd8f635c87054afd761fa09d655903f2",
     "batches": "08-41",
     "batchFileCount": 34,
     "fullCorpusQuestionCount": 2900,
     "activeScopeQuestionCount": 1864,
-    "questionRecordsUpdated": 1,
+    "questionRecordsUpdated": 7,
     "updatedQuestionIds": [
-      "b39-088"
+      "b8-026",
+      "b11-019",
+      "b13-022",
+      "b17-075",
+      "b23-069",
+      "b26-076",
+      "b30-093"
     ],
-    "semesterAssignments": 1,
+    "semesterAssignments": 7,
     "semesterCorrections": 0,
     "examPeriodAssignments": 0,
     "examPeriodCorrections": 0,
-    "publisherMappingsAdded": 1,
-    "publisherMappingReferencesAdded": 1,
+    "publisherMappingsAdded": 7,
+    "publisherMappingReferencesAdded": 7,
     "publisherMappingReferencesCorrected": 0,
     "publisherMappingReferencesRemoved": 0,
     "newQuestionsAdded": 0,
     "sourceBatchShasMatch": "34/34",
-    "classificationRuleVersion": "2026-11-17.98",
+    "classificationRuleVersion": "2026-11-17.99",
     "fullCorpusSemesterDistribution": {
-      "unassigned": 2193,
-      "上學期": 469,
+      "unassigned": 2186,
+      "上學期": 476,
       "下學期": 164,
       "全學年": 74,
       "_total": 2900
@@ -9722,38 +9682,38 @@
       "_total": 2900
     },
     "fullCorpusClassificationBasisDistribution": {
-      "curriculum-core": 2196,
-      "publisher-source-verified": 448,
+      "curriculum-core": 2189,
+      "publisher-source-verified": 455,
       "question-bank-inference": 256,
       "_total": 2900
     },
     "fullCorpusPublisherStatusDistribution": {
-      "curriculum-core": 2332,
-      "publisher-mapped": 562,
+      "curriculum-core": 2325,
+      "publisher-mapped": 569,
       "pending": 6,
       "_total": 2900
     },
     "fullCorpusConfidenceDistribution": {
-      "low": 2080,
-      "medium": 782,
+      "low": 2074,
+      "medium": 788,
       "high": 38,
       "_total": 2900
     },
     "publisherReferenceCounts": {
       "knsh": 168,
-      "hanlin": 428,
+      "hanlin": 435,
       "nani": 70,
-      "_total": 666
+      "_total": 673
     },
     "mappingLevelCounts": {
       "official-resource-title": 77,
-      "unit": 454,
+      "unit": 461,
       "volume": 135,
-      "_total": 666
+      "_total": 673
     },
     "mappingVerificationStatusCounts": {
-      "source-checked": 666,
-      "_total": 666
+      "source-checked": 673,
+      "_total": 673
     },
     "validation": {
       "jsonParse": true,
@@ -9762,13 +9722,12 @@
       "duplicateIds": 0,
       "missingRequiredFields": 0,
       "invalidClassificationValues": 0,
-      "mappingReferenceErrors": 0,
-      "sourceFieldErrors": 0,
-      "mappingScopeErrors": 0,
+      "newMappingSourceFieldErrors": 0,
+      "newMappingScopeErrors": 0,
       "sourceBatchShasMatch": "34/34",
-      "updatedQuestionsChecked": 1,
+      "updatedQuestionsChecked": 7,
       "updatedQuestionIdsReachable": true,
-      "targetedPublisherSemesterFilterCasesTested": 1,
+      "targetedPublisherSemesterFilterCasesTested": 7,
       "targetedCasesPassed": true,
       "targetedExamFilterCasePassed": true,
       "fullFilterMatrixTested": false,
@@ -9778,9 +9737,9 @@
       "allModeQuestionCount": 2900,
       "appReadsPersistedClassificationIndex": true,
       "zeroResultHintPresent": true,
-      "inferenceSyntaxStructureChecked": true,
+      "inferenceAliasRuleUpdated": true,
       "browserOrMobileRuntimeTested": false
     },
-    "notes": "b39-088高二地理「全球供應鏈」依翰林書城官方商品頁與翰林高中參考書《試題挖挖哇－地理(3)》第3頁目次第7回「全球化」建立配套評量本單元層級映射。全域學期上學期；段考仍unassigned。商品頁標示各版本適用，不代表學校採用翰林主課本版本或正式段考範圍。未新增題目。"
+    "notes": "依翰林《試題挖挖哇－地理(3)》官方商品頁及第3頁目次第7回「全球化」，為7道高二地理既有題目新增配套評量本單元層級映射；全數學期上學期、段考維持unassigned。未宣稱學校採用翰林主課本或正式段考範圍，未新增題目。"
   }
 }
