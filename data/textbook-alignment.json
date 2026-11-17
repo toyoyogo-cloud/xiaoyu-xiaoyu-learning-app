@@ -3118,7 +3118,7 @@
       "appReadsPersistedClassificationIndex": true,
       "zeroResultHintPresent": true,
       "serviceWorkerAssetManifestComplete": true,
-      "inferenceSyntaxStructureChecked": true,
+      "inferenceSyntaxStructureChecked": false,
       "browserOrMobileRuntimeTested": false,
       "fullFilterMatrixTested": false,
       "filterCombinationsTested": 1200,
@@ -3128,7 +3128,8 @@
       "targetedFilterMatrixTested": true,
       "targetedFilterCasesTested": 1200,
       "inferenceMappingDefinitionPresent": true,
-      "inferenceSyntaxRuntimeTested": false
+      "inferenceSyntaxRuntimeTested": false,
+      "inferenceSyntaxCheckNote": "Only checked that the new mapping identifier and definition are present; no JavaScript parser, browser runtime, or CI syntax test was run."
     },
     "notes": "依翰林書城官方高中學習寶典－地理(3)商品頁確認高二、地理、上學期；未公開細分目次，故僅建立冊別層級映射。四題單元不冒稱已核對，段考維持unassigned。只更新既有分類，原始題庫與題目內容未修改，未新增題目。"
   },
@@ -3801,7 +3802,7 @@
       "appReadsPersistedClassificationIndex": true,
       "zeroResultHintPresent": true,
       "serviceWorkerAssetManifestComplete": true,
-      "inferenceSyntaxStructureChecked": true,
+      "inferenceSyntaxStructureChecked": false,
       "browserOrMobileRuntimeTested": false,
       "fullFilterMatrixTested": false,
       "filterCombinationsTested": 1200,
@@ -3811,7 +3812,8 @@
       "targetedFilterMatrixTested": true,
       "targetedFilterCasesTested": 1200,
       "inferenceMappingDefinitionPresent": true,
-      "inferenceSyntaxRuntimeTested": false
+      "inferenceSyntaxRuntimeTested": false,
+      "inferenceSyntaxCheckNote": "Only checked that the new mapping identifier and definition are present; no JavaScript parser, browser runtime, or CI syntax test was run."
     },
     "notes": "依翰林書城官方高中學習寶典－地理(3)商品頁確認高二、地理、上學期；未公開細分目次，故僅建立冊別層級映射。四題單元不冒稱已核對，段考維持unassigned。只更新既有分類，原始題庫與題目內容未修改，未新增題目。"
   },
@@ -7388,7 +7390,7 @@
       "appReadsPersistedClassificationIndex": true,
       "zeroResultHintPresent": true,
       "serviceWorkerAssetManifestComplete": true,
-      "inferenceSyntaxStructureChecked": true,
+      "inferenceSyntaxStructureChecked": false,
       "browserOrMobileRuntimeTested": false,
       "fullFilterMatrixTested": false,
       "filterCombinationsTested": 1200,
@@ -7398,7 +7400,8 @@
       "targetedFilterMatrixTested": true,
       "targetedFilterCasesTested": 1200,
       "inferenceMappingDefinitionPresent": true,
-      "inferenceSyntaxRuntimeTested": false
+      "inferenceSyntaxRuntimeTested": false,
+      "inferenceSyntaxCheckNote": "Only checked that the new mapping identifier and definition are present; no JavaScript parser, browser runtime, or CI syntax test was run."
     },
     "notes": "依翰林書城官方高中學習寶典－地理(3)商品頁確認高二、地理、上學期；未公開細分目次，故僅建立冊別層級映射。四題單元不冒稱已核對，段考維持unassigned。只更新既有分類，原始題庫與題目內容未修改，未新增題目。"
   },
@@ -7822,7 +7825,7 @@
       "appReadsPersistedClassificationIndex": true,
       "zeroResultHintPresent": true,
       "serviceWorkerAssetManifestComplete": true,
-      "inferenceSyntaxStructureChecked": true,
+      "inferenceSyntaxStructureChecked": false,
       "browserOrMobileRuntimeTested": false,
       "fullFilterMatrixTested": false,
       "filterCombinationsTested": 1200,
@@ -7832,7 +7835,8 @@
       "targetedFilterMatrixTested": true,
       "targetedFilterCasesTested": 1200,
       "inferenceMappingDefinitionPresent": true,
-      "inferenceSyntaxRuntimeTested": false
+      "inferenceSyntaxRuntimeTested": false,
+      "inferenceSyntaxCheckNote": "Only checked that the new mapping identifier and definition are present; no JavaScript parser, browser runtime, or CI syntax test was run."
     },
     "notes": "依翰林書城官方高中學習寶典－地理(3)商品頁確認高二、地理、上學期；未公開細分目次，故僅建立冊別層級映射。四題單元不冒稱已核對，段考維持unassigned。只更新既有分類，原始題庫與題目內容未修改，未新增題目。"
   },
@@ -9671,7 +9675,7 @@
       "appReadsPersistedClassificationIndex": true,
       "zeroResultHintPresent": true,
       "serviceWorkerAssetManifestComplete": true,
-      "inferenceSyntaxStructureChecked": true,
+      "inferenceSyntaxStructureChecked": false,
       "browserOrMobileRuntimeTested": false,
       "fullFilterMatrixTested": false,
       "filterCombinationsTested": 1200,
@@ -9681,7 +9685,8 @@
       "targetedFilterMatrixTested": true,
       "targetedFilterCasesTested": 1200,
       "inferenceMappingDefinitionPresent": true,
-      "inferenceSyntaxRuntimeTested": false
+      "inferenceSyntaxRuntimeTested": false,
+      "inferenceSyntaxCheckNote": "Only checked that the new mapping identifier and definition are present; no JavaScript parser, browser runtime, or CI syntax test was run."
     },
     "notes": "依翰林書城官方高中學習寶典－地理(3)商品頁確認高二、地理、上學期；未公開細分目次，故僅建立冊別層級映射。四題單元不冒稱已核對，段考維持unassigned。只更新既有分類，原始題庫與題目內容未修改，未新增題目。"
   },
@@ -9782,7 +9787,7 @@
       "appReadsPersistedClassificationIndex": true,
       "zeroResultHintPresent": true,
       "serviceWorkerAssetManifestComplete": true,
-      "inferenceSyntaxStructureChecked": true,
+      "inferenceSyntaxStructureChecked": false,
       "browserOrMobileRuntimeTested": false,
       "fullFilterMatrixTested": false,
       "filterCombinationsTested": 1200,
@@ -9792,7 +9797,8 @@
       "targetedFilterMatrixTested": true,
       "targetedFilterCasesTested": 1200,
       "inferenceMappingDefinitionPresent": true,
-      "inferenceSyntaxRuntimeTested": false
+      "inferenceSyntaxRuntimeTested": false,
+      "inferenceSyntaxCheckNote": "Only checked that the new mapping identifier and definition are present; no JavaScript parser, browser runtime, or CI syntax test was run."
     },
     "notes": "依翰林書城官方高中學習寶典－地理(3)商品頁確認高二、地理、上學期；未公開細分目次，故僅建立冊別層級映射。四題單元不冒稱已核對，段考維持unassigned。只更新既有分類，原始題庫與題目內容未修改，未新增題目。"
   },
@@ -9893,7 +9899,7 @@
       "appReadsPersistedClassificationIndex": true,
       "zeroResultHintPresent": true,
       "serviceWorkerAssetManifestComplete": true,
-      "inferenceSyntaxStructureChecked": true,
+      "inferenceSyntaxStructureChecked": false,
       "browserOrMobileRuntimeTested": false,
       "fullFilterMatrixTested": false,
       "filterCombinationsTested": 1200,
@@ -9903,7 +9909,8 @@
       "targetedFilterMatrixTested": true,
       "targetedFilterCasesTested": 1200,
       "inferenceMappingDefinitionPresent": true,
-      "inferenceSyntaxRuntimeTested": false
+      "inferenceSyntaxRuntimeTested": false,
+      "inferenceSyntaxCheckNote": "Only checked that the new mapping identifier and definition are present; no JavaScript parser, browser runtime, or CI syntax test was run."
     },
     "notes": "依翰林書城官方高中學習寶典－地理(3)商品頁確認高二、地理、上學期；未公開細分目次，故僅建立冊別層級映射。四題單元不冒稱已核對，段考維持unassigned。只更新既有分類，原始題庫與題目內容未修改，未新增題目。"
   }
