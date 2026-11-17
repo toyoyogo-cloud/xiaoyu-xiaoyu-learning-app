@@ -1486,7 +1486,11 @@
       "targetedFilterMatrixTested": true,
       "fullFilterMatrixTested": false,
       "serviceWorkerCache": "xy-learning-v187",
-      "browserOrMobileRuntimeTested": false
+      "browserOrMobileRuntimeTested": false,
+      "publisherMappingLeaks": 0,
+      "targetedFilterCasesTested": 1200,
+      "inferenceMappingDefinitionPresent": true,
+      "inferenceSyntaxRuntimeTested": false
     },
     "notes": "翰林書城官方商品頁明示科目為地理、適用高中二年級、上學期，商品類別為課本習作；目前商品頁未公開細分目次，因此本映射僅限高中二年級地理(3)上學期冊別層級，不宣稱人口結構、氣候資料、GIS或都市熱島已核對到主課本單元，也不代表學校採用版本或正式段考範圍。 四題段考均維持unassigned；只更新舊題分類，沒有新增題目。"
   },
@@ -2214,7 +2218,9 @@
     "sourceBatchShasMatch": "34/34",
     "indexStatisticsSynced": true,
     "serviceWorkerCache": "xy-learning-v187",
-    "publisherMappingReferences": 677
+    "publisherMappingReferences": 677,
+    "nonZeroFilterCombinations": 64,
+    "zeroResultCombinations": 1136
   },
   "duplicateCandidateAudit": {
     "auditedAt": "2026-11-14",
@@ -2355,7 +2361,11 @@
       "allModeQuestionCount": 2900,
       "classificationIndexEntries": 2900,
       "serviceWorkerCache": "xy-learning-v187",
-      "browserOrMobileRuntimeTested": false
+      "browserOrMobileRuntimeTested": false,
+      "targetedFilterMatrixTested": true,
+      "fullFilterMatrixTested": false,
+      "inferenceMappingDefinitionPresent": true,
+      "inferenceSyntaxRuntimeTested": false
     }
   },
   "latestPublisherMappingBackfill": {
@@ -2450,7 +2460,11 @@
       "targetedFilterMatrixTested": true,
       "fullFilterMatrixTested": false,
       "serviceWorkerCache": "xy-learning-v187",
-      "browserOrMobileRuntimeTested": false
+      "browserOrMobileRuntimeTested": false,
+      "publisherMappingLeaks": 0,
+      "targetedFilterCasesTested": 1200,
+      "inferenceMappingDefinitionPresent": true,
+      "inferenceSyntaxRuntimeTested": false
     },
     "notes": "翰林書城官方商品頁明示科目為地理、適用高中二年級、上學期，商品類別為課本習作；目前商品頁未公開細分目次，因此本映射僅限高中二年級地理(3)上學期冊別層級，不宣稱人口結構、氣候資料、GIS或都市熱島已核對到主課本單元，也不代表學校採用版本或正式段考範圍。 四題段考均維持unassigned；只更新舊題分類，沒有新增題目。"
   },
