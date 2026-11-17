@@ -2358,14 +2358,14 @@
   },
   "latestRegistryIntegrityAudit": {
     "date": "2026-11-18",
-    "runId": "2026-11-18-main-classification-statistics-and-registry-reconciliation-01",
+    "runId": "2026-11-18-naer-g6-science-inquiry-core-review-01",
     "centralMappingRegistryCount": 66,
     "inferenceMappingRegistryCount": 66,
     "missingInferenceMappingIds": [],
     "centralMappingRequiredFieldErrors": 0,
-    "sourceRegistryCount": 71,
+    "sourceRegistryCount": 72,
     "sourceRegistryVerificationStatusCounts": {
-      "source-checked": 69,
+      "source-checked": 70,
       "pending": 1,
       "source-unavailable": 1
     },
@@ -2569,5 +2569,20 @@
     "source-checked": 70,
     "pending": 1,
     "source-unavailable": 1
+  },
+  "latestCurriculumCoreSourceAudit": {
+    "runId": "2026-11-18-naer-g6-science-inquiry-core-review-01",
+    "verifiedAt": "2026-11-18",
+    "sourceId": "naer-natural-science-course-handbook-108",
+    "questionIds": [
+      "b41-031",
+      "b41-036"
+    ],
+    "sourceUrl": "https://www.naer.edu.tw/upload/1/16/doc/2064/%E8%87%AA%E7%84%B6%E7%A7%91%E5%AD%B8%E9%A0%98%E5%9F%9F%E8%AA%B2%E7%A8%8B%E6%89%8B%E5%86%8A%28%E5%AE%9A%E7%A8%BF%E7%89%88%29.pdf",
+    "verificationStatus": "source-checked",
+    "publisherMappingsAdded": 0,
+    "semesterAssignments": 0,
+    "examPeriodAssignments": 0,
+    "notes": "國教院課程手冊頁337–338支持5–6年級光合作用基本概念，頁358支持5–6年級控制變因探究；不作出版社、學期或段考映射。"
   }
 }
