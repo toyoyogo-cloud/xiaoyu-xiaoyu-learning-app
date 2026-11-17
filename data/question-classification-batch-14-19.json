@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.1.0",
-  "updatedAt": "2026-11-17",
-  "classificationRuleVersion": "2026-11-17.99",
+  "updatedAt": "2026-11-18",
+  "classificationRuleVersion": "2026-11-18.108",
   "batchRange": "14-19",
   "sourceBatchShas": {
     "14": "938f1b45a5dd17867e7f566566f9ee495469434f",
@@ -1134,14 +1134,40 @@
       "subject": "自然",
       "courseTrack": null,
       "courseType": null,
-      "semester": "unassigned",
+      "semester": "上學期",
       "examPeriod": "unassigned",
-      "classificationBasis": "curriculum-core",
-      "confidence": "low",
-      "publisherStatus": "curriculum-core",
-      "publisherMappings": [],
-      "classificationNotes": "依108課綱共同核心原創；未取得足以指定出版社或段考範圍的證據。",
-      "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文",
+      "classificationBasis": "publisher-source-verified",
+      "confidence": "medium",
+      "publisherStatus": "publisher-mapped",
+      "publisherMappings": [
+        {
+          "publisher": "knsh",
+          "mappingId": "knsh-g6-natural-113-6a-u2-solution-separation",
+          "sourceUrl": "https://945cloud.knsh.com.tw/e/promo/show/upload/material/4/113%281%29%E8%87%AA%E7%84%B6%E9%A0%98%E5%9F%9F%E6%96%87%E5%AE%A3-%E8%B7%A8%E9%A0%81.pdf",
+          "sourceTitle": "113康軒國小教材簡介－自然領域文宣",
+          "verifiedAt": "2026-11-18",
+          "verificationStatus": "source-checked",
+          "notes": "113康軒官方教材簡介目次明列六上單元二「水溶液」；主題脈絡列出混合物、物質分離、導電性與酸鹼性。本題直接要求分離沙與食鹽的水混合物，對應「物質分離」主題。僅支持113版康軒六上單元層級，不代表學校採用版本或正式段考範圍，也不表示題目取自教材原文。",
+          "mappingLevel": "unit",
+          "volume": "自然科學(6上)",
+          "unitCode": "2",
+          "unitName": "水溶液",
+          "unitAliases": [
+            "混合物分離",
+            "物質分離",
+            "沙子與食鹽分離"
+          ],
+          "scopeKeywords": [],
+          "semester": "上學期",
+          "grade": "六年級",
+          "subject": "自然",
+          "courseTrack": null,
+          "schoolYear": "113",
+          "courseType": "國小"
+        }
+      ],
+      "classificationNotes": "113康軒官方教材簡介目次明列六上單元二「水溶液」；主題脈絡列出混合物、物質分離、導電性與酸鹼性。本題直接要求分離沙與食鹽的水混合物，對應「物質分離」主題。僅支持113版康軒六上單元層級，不代表學校採用版本或正式段考範圍，也不表示題目取自教材原文。 學期依113版康軒六上官方目次標記上學期；段考範圍未確認，維持unassigned。",
+      "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文 | https://945cloud.knsh.com.tw/e/promo/show/upload/material/4/113%281%29%E8%87%AA%E7%84%B6%E9%A0%98%E5%9F%9F%E6%96%87%E5%AE%A3-%E8%B7%A8%E9%A0%81.pdf",
       "learningDomain": "化學物質",
       "questionType": "概念辨識",
       "learningUnit": "混合物分離",
@@ -11185,18 +11211,19 @@
     "notes": "同步全庫分類規則版本標記；本分片題目分類紀錄與出版社映射未變更。"
   },
   "lastUpdate": {
-    "runId": "2026-11-17-hanlin-h2-geography-globalization-backfill-02",
-    "updatedAt": "2026-11-17T11:40:19+08:00",
+    "runId": "2026-11-18-knsh-g6-natural-water-solution-separation-backfill-01",
+    "updatedAt": "2026-11-18T02:38:36+08:00",
     "updatedQuestionIds": [
-      "b17-075"
+      "b15-030"
     ],
     "questionRecordsUpdated": 1,
     "publisherMappingsAdded": 1,
+    "publisherMappingReferencesAdded": 1,
     "semesterAssignments": 1,
     "examPeriodAssignments": 0,
     "newQuestionsAdded": 0,
     "sourceBatchShasUnchanged": true,
-    "notes": "新增翰林高中試題挖挖哇地理(3)第7回全球化單元層級映射；原始題目內容不變。"
+    "notes": "依113康軒官方教材簡介：六上單元二「水溶液」主題脈絡含混合物與物質分離；僅作單元層級對照，段考未分類。"
   },
   "latestSourceVerificationAudit": {
     "runId": "2026-11-17-knsh-g6-natural-114-source-replacement-01",

@@ -1,8 +1,8 @@
 {
   "title": "題目分類持久索引",
-  "schemaVersion": "1.0.22",
+  "schemaVersion": "1.0.23",
   "updatedAt": "2026-11-18",
-  "classificationRuleVersion": "2026-11-18.106",
+  "classificationRuleVersion": "2026-11-18.108",
   "sourceBranch": "main",
   "batchRange": "08-41",
   "batchFileCount": 34,
@@ -21,8 +21,8 @@
       "path": "data/question-classification-batch-14-19.json",
       "batchRange": "14-19",
       "questionCount": 517,
-      "sha": "1156f2c5d327524c5890846e6291caff9ff2c908",
-      "updatedAt": "2026-11-17"
+      "sha": "6c6a1b3afa0788cad3eb90775ca02a6d460c4c75",
+      "updatedAt": "2026-11-18"
     },
     {
       "path": "data/question-classification-batch-20-25.json",
@@ -49,7 +49,7 @@
       "path": "data/question-classification-batch-38-41.json",
       "batchRange": "38-41",
       "questionCount": 400,
-      "sha": "c601fcaff532392f2e3b97521f8b20a51be140f4",
+      "sha": "57a540b698d04ea324c756aad3c80b3d8c2e1fb9",
       "updatedAt": "2026-11-18"
     }
   ],
@@ -184,19 +184,14 @@
     "notes": "只更新三筆既有高二歷史分類；兩題直接對應第6單元反殖民運動，一題對應第7單元冷戰政治局勢／不結盟運動。學期依官方商品頁與配套目次標為上學期；段考維持unassigned。目次層級不代表學校採用版本或教師審核。"
   },
   "lastMappingReferenceAudit": {
-    "runId": "2026-11-17-knsh-g6-natural-ecology-backfill-01",
-    "date": "2026-11-17",
-    "referencesScanned": 649,
-    "metadataReferencesCorrected": 260,
+    "runId": "2026-11-18-knsh-g6-natural-water-solution-separation-backfill-01",
+    "date": "2026-11-18",
+    "referencesScanned": 696,
+    "metadataReferencesCorrected": 0,
     "mismatchesAfter": 0,
     "missingSourceFields": 0,
     "missingRegistryReferences": 0,
-    "sourceFieldMismatchFields": [
-      "notes",
-      "verifiedAt",
-      "sourceUrl"
-    ],
-    "notes": "全庫映射參照與中央教材對照同步；來源URL、標題、驗證日期及備註一致。"
+    "notes": "更新後全庫696筆出版社映射參照；新映射的來源URL、標題、日期、驗證狀態及單元範圍完整。"
   },
   "lastFilterDataAudit": {
     "date": "2026-11-17",
@@ -234,75 +229,72 @@
     "notes": "原始批次欄位d並非全庫一致的difficulty欄位。08-19與38-41批次多為難度標籤；20-25有2題d=閱讀理解對應questionType；26-31與32-37另有157筆d為生活情境、生活計算、單位換算等主題／題材描述，未與difficultyLevel、questionType、learningDomain或learningUnit直接相等。保留原始d不覆蓋；這157筆的difficultyLevel維持未標示，避免把題材標籤誤當難度。"
   },
   "lastRunAudit": {
-    "runId": "2026-11-17-knsh-g6-natural-biodiversity-b34-040-backfill-01",
-    "date": "2026-11-17",
-    "sourceHeadBeforeRun": "a7e1462fd8a8bd759c33b3540964b538cfbb9551",
+    "runId": "2026-11-18-knsh-g6-natural-water-solution-separation-backfill-01",
+    "date": "2026-11-18",
+    "sourceHeadBeforeRun": "b37ca9060bbfaf81629d0b709619c7cac26ea303",
     "batches": "08-41",
     "batchFileCount": 34,
     "fullCorpusQuestionCount": 2900,
     "activeScopeQuestionCount": 1864,
+    "questionRecordsUpdated": 2,
+    "updatedQuestionIds": [
+      "b15-030",
+      "b40-041"
+    ],
+    "semesterAssignments": 2,
+    "semesterCorrections": 0,
+    "examPeriodAssignments": 0,
+    "publisherMappingsAdded": 1,
+    "publisherMappingReferencesAdded": 2,
+    "sourceRegistryRecovered": 1,
+    "restoredSourceMappings": 2,
+    "newQuestionsAdded": 0,
+    "sourceBatchShasMatch": "34/34",
+    "classificationRuleVersion": "2026-11-18.108",
     "fullCorpusSemesterDistribution": {
-      "unassigned": 2172,
-      "上學期": 490,
+      "unassigned": 2169,
+      "上學期": 493,
       "下學期": 164,
-      "全學年": 74,
-      "_total": 2900
+      "全學年": 74
     },
     "fullCorpusExamPeriodDistribution": {
       "unassigned": 2673,
       "第一次段考": 65,
       "第二次段考": 71,
-      "第三次段考": 91,
-      "_total": 2900
+      "第三次段考": 91
     },
     "fullCorpusClassificationBasisDistribution": {
-      "curriculum-core": 2162,
-      "publisher-source-verified": 470,
-      "question-bank-inference": 255,
-      "unassigned": 13,
-      "_total": 2900
+      "curriculum-core": 2159,
+      "publisher-source-verified": 478,
+      "question-bank-inference": 250,
+      "unassigned": 13
     },
     "fullCorpusPublisherStatusDistribution": {
-      "curriculum-core": 2297,
-      "publisher-mapped": 584,
-      "pending": 19,
-      "_total": 2900
+      "curriculum-core": 2289,
+      "publisher-mapped": 592,
+      "pending": 19
     },
     "fullCorpusConfidenceDistribution": {
-      "low": 2067,
-      "medium": 795,
-      "high": 38,
-      "_total": 2900
+      "low": 2059,
+      "medium": 803,
+      "high": 38
     },
     "publisherReferenceCounts": {
-      "knsh": 169,
-      "hanlin": 449,
+      "knsh": 171,
+      "hanlin": 455,
       "nani": 70,
-      "_total": 688
+      "_total": 696
     },
     "mappingLevelCounts": {
       "official-resource-title": 77,
-      "unit": 472,
-      "volume": 139,
-      "_total": 688
+      "unit": 474,
+      "volume": 145,
+      "_total": 696
     },
     "mappingVerificationStatusCounts": {
-      "source-checked": 688,
-      "_total": 688
+      "source-checked": 696,
+      "_total": 696
     },
-    "questionRecordsUpdated": 1,
-    "updatedQuestionIds": [
-      "b34-040"
-    ],
-    "semesterAssignments": 0,
-    "semesterCorrections": 0,
-    "examPeriodAssignments": 0,
-    "examPeriodCorrections": 0,
-    "publisherMappingsAdded": 1,
-    "publisherMappingReferencesAdded": 1,
-    "newQuestionsAdded": 0,
-    "sourceBatchShasMatch": "34/34",
-    "classificationRuleVersion": "2026-11-17.103",
     "validation": {
       "jsonParse": true,
       "classificationRecords": 2900,
@@ -316,22 +308,23 @@
       "sourceFieldErrors": 0,
       "mappingScopeErrors": 0,
       "sourceBatchShasMatch": "34/34",
-      "updatedQuestionsChecked": 1,
+      "updatedQuestionsChecked": 2,
       "updatedQuestionIdsReachable": true,
-      "targetedFilterCombinationsTested": 8,
+      "targetedFilterCombinationsTested": 12,
       "targetedFilterErrors": 0,
       "publisherMappingLeaks": 0,
       "allModeReachable": true,
       "allModeQuestionCount": 2900,
+      "activeScopeQuestionCount": 1864,
       "appReadsPersistedClassificationIndex": true,
       "zeroResultHintPresent": true,
       "inferenceSyntaxStructureChecked": true,
-      "inferenceSyntaxRuntimeTested": false,
+      "inferenceSyntaxRuntimeTested": true,
       "browserOrMobileRuntimeTested": false,
       "fullFilterMatrixTested": false
     },
-    "validationMethod": "依 index.html getPool() 的持久分類、publisher=knsh、semester=下學期、examPeriod=unassigned、單元 learningUnit 條件執行資料層定向驗證；不等同瀏覽器實機測試。",
-    "notes": "b34-040「生物多樣性與農業」新增康軒114六下單元三出版社映射。b34-036與b37-040分解者題、b36-035太陽能板傾角題缺少足以確認該出版社具體單元的直接來源，維持原分類、不掛出版社。未新增題目，原題幹、選項、答案與解析未修改。"
+    "validationMethod": "以目前main的questionClassificationFor()實際執行兩題持久分類，再依index.html getPool()學期、段考、出版社與單元條件語義執行12組定向資料層測試；不等同瀏覽器實機測試。",
+    "notes": "依113康軒官方國小教材簡介，六上單元二「水溶液」及主題脈絡「混合物／物質分離」直接支持b15-030、b40-041；學期標上學期、段考維持unassigned。恢復113版六下單元二、三既有映射來源狀態；原先已改用114版來源的13題維持原映射，不回退。未宣稱學校採用版本或教師審核。"
   },
   "lastBatchClassificationReconciliation": {
     "auditedAt": "2026-11-16",
@@ -350,8 +343,8 @@
     "uniqueQuestionIds": 2900,
     "classificationRecords": 2900,
     "semester": {
-      "unassigned": 2171,
-      "上學期": 491,
+      "unassigned": 2169,
+      "上學期": 493,
       "下學期": 164,
       "全學年": 74
     },
@@ -362,42 +355,42 @@
       "第三次段考": 91
     },
     "classificationBasis": {
-      "curriculum-core": 2161,
-      "publisher-source-verified": 476,
+      "curriculum-core": 2159,
+      "publisher-source-verified": 478,
       "question-bank-inference": 250,
       "unassigned": 13
     },
     "publisherStatus": {
-      "curriculum-core": 2291,
-      "publisher-mapped": 590,
+      "curriculum-core": 2289,
+      "publisher-mapped": 592,
       "pending": 19
     },
     "confidence": {
-      "low": 2061,
-      "medium": 801,
+      "low": 2059,
+      "medium": 803,
       "high": 38
     },
-    "publisherMappedQuestionCount": 590,
-    "publisherMappingReferenceCount": 694,
+    "publisherMappedQuestionCount": 592,
+    "publisherMappingReferenceCount": 696,
     "publisherReferenceCounts": {
-      "knsh": 169,
+      "knsh": 171,
       "hanlin": 455,
       "nani": 70,
-      "_total": 694
+      "_total": 696
     },
     "mappingLevelCounts": {
       "official-resource-title": 77,
-      "unit": 472,
+      "unit": 474,
       "volume": 145,
-      "_total": 694
+      "_total": 696
     },
     "mappingVerificationStatusCounts": {
-      "source-checked": 694,
-      "_total": 694
+      "source-checked": 696,
+      "_total": 696
     }
   },
-  "sourceHeadVerified": true,
-  "mainHeadVerifiedAt": "2026-11-17T19:39:47+08:00",
+  "sourceHeadVerified": "b37ca9060bbfaf81629d0b709619c7cac26ea303",
+  "mainHeadVerifiedAt": "2026-11-18T02:38:36+08:00",
   "latestVerificationAudit": {
     "runId": "2026-11-17-hanlin-h2-geography-volume-backfill-01",
     "date": "2026-11-17",
@@ -417,73 +410,71 @@
     "notes": "翰林書城官方商品頁明示科目為地理、適用高中二年級、上學期，商品類別為課本習作；目前商品頁未公開細分目次，因此本映射僅限高中二年級地理(3)上學期冊別層級，不宣稱人口結構、氣候資料、GIS或都市熱島已核對到主課本單元，也不代表學校採用版本或正式段考範圍。"
   },
   "latestMainAudit": {
-    "runId": "2026-11-18-hanlin-h2-history-french-revolution-volume-backfill-01",
+    "runId": "2026-11-18-knsh-g6-natural-water-solution-separation-backfill-01",
     "date": "2026-11-18",
-    "sourceHeadBeforeRun": "73f056d5e8340eac9dbe84f9fcbd626a92023fde",
+    "sourceHeadBeforeRun": "b37ca9060bbfaf81629d0b709619c7cac26ea303",
     "batches": "08-41",
     "batchFileCount": 34,
     "fullCorpusQuestionCount": 2900,
     "activeScopeQuestionCount": 1864,
-    "questionRecordsUpdated": 1,
+    "questionRecordsUpdated": 2,
     "updatedQuestionIds": [
-      "b41-091"
+      "b15-030",
+      "b40-041"
     ],
-    "semesterAssignments": 1,
+    "semesterAssignments": 2,
     "semesterCorrections": 0,
     "examPeriodAssignments": 0,
     "publisherMappingsAdded": 1,
-    "publisherMappingReferencesAdded": 1,
+    "publisherMappingReferencesAdded": 2,
+    "sourceRegistryRecovered": 1,
+    "restoredSourceMappings": 2,
     "newQuestionsAdded": 0,
     "sourceBatchShasMatch": "34/34",
-    "classificationRuleVersion": "2026-11-18.105",
+    "classificationRuleVersion": "2026-11-18.108",
     "fullCorpusSemesterDistribution": {
-      "unassigned": 2171,
-      "上學期": 491,
+      "unassigned": 2169,
+      "上學期": 493,
       "下學期": 164,
-      "全學年": 74,
-      "_total": 2900
+      "全學年": 74
     },
     "fullCorpusExamPeriodDistribution": {
       "unassigned": 2673,
       "第一次段考": 65,
       "第二次段考": 71,
-      "第三次段考": 91,
-      "_total": 2900
+      "第三次段考": 91
     },
     "fullCorpusClassificationBasisDistribution": {
-      "curriculum-core": 2161,
-      "publisher-source-verified": 471,
-      "question-bank-inference": 255,
-      "unassigned": 13,
-      "_total": 2900
+      "curriculum-core": 2159,
+      "publisher-source-verified": 478,
+      "question-bank-inference": 250,
+      "unassigned": 13
     },
     "fullCorpusPublisherStatusDistribution": {
-      "curriculum-core": 2296,
-      "publisher-mapped": 585,
-      "pending": 19,
-      "_total": 2900
+      "curriculum-core": 2289,
+      "publisher-mapped": 592,
+      "pending": 19
     },
     "fullCorpusConfidenceDistribution": {
-      "low": 2066,
-      "medium": 796,
-      "high": 38,
-      "_total": 2900
+      "low": 2059,
+      "medium": 803,
+      "high": 38
     },
     "publisherReferenceCounts": {
-      "knsh": 169,
-      "hanlin": 450,
+      "knsh": 171,
+      "hanlin": 455,
       "nani": 70,
-      "_total": 689
+      "_total": 696
     },
     "mappingLevelCounts": {
       "official-resource-title": 77,
-      "unit": 472,
-      "volume": 140,
-      "_total": 689
+      "unit": 474,
+      "volume": 145,
+      "_total": 696
     },
     "mappingVerificationStatusCounts": {
-      "source-checked": 689,
-      "_total": 689
+      "source-checked": 696,
+      "_total": 696
     },
     "validation": {
       "jsonParse": true,
@@ -498,13 +489,14 @@
       "sourceFieldErrors": 0,
       "mappingScopeErrors": 0,
       "sourceBatchShasMatch": "34/34",
-      "updatedQuestionsChecked": 1,
+      "updatedQuestionsChecked": 2,
       "updatedQuestionIdsReachable": true,
-      "targetedFilterCombinationsTested": 10,
+      "targetedFilterCombinationsTested": 12,
       "targetedFilterErrors": 0,
       "publisherMappingLeaks": 0,
       "allModeReachable": true,
       "allModeQuestionCount": 2900,
+      "activeScopeQuestionCount": 1864,
       "appReadsPersistedClassificationIndex": true,
       "zeroResultHintPresent": true,
       "inferenceSyntaxStructureChecked": true,
@@ -512,24 +504,26 @@
       "browserOrMobileRuntimeTested": false,
       "fullFilterMatrixTested": false
     },
-    "validationMethod": "依 index.html getPool() 的持久分類與篩選邏輯，測試全部版本、翰林、共同核心、待核對、上學期、未分類段考及單元條件的10組定向資料層組合；不等同瀏覽器實機測試。",
-    "notes": "b41-091「革命的多重原因」新增翰林高中歷史(3)冊別層級映射。翰林113上官方教材簡介列歷史3課本P.60–61法國大革命至拿破崙時代大事紀要；翰林書城商品頁008021確認高二歷史上學期。未核對具體單元，故mappingLevel=volume；examPeriod保留unassigned。未宣稱學校採用版本或教師審核；未新增題目。"
+    "validationMethod": "以目前main的questionClassificationFor()實際執行兩題持久分類，再依index.html getPool()學期、段考、出版社與單元條件語義執行12組定向資料層測試；不等同瀏覽器實機測試。",
+    "notes": "依113康軒官方國小教材簡介，六上單元二「水溶液」及主題脈絡「混合物／物質分離」直接支持b15-030、b40-041；學期標上學期、段考維持unassigned。恢復113版六下單元二、三既有映射來源狀態；原先已改用114版來源的13題維持原映射，不回退。未宣稱學校採用版本或教師審核。"
   },
   "latestFilterValidation": {
-    "runId": "2026-11-17-knsh-g6-natural-biodiversity-b34-040-backfill-01",
-    "verifiedAt": "2026-11-17",
+    "runId": "2026-11-18-knsh-g6-natural-water-solution-separation-backfill-01",
+    "verifiedAt": "2026-11-18",
     "questionIds": [
-      "b34-040"
+      "b15-030",
+      "b40-041"
     ],
-    "filterCasesTested": 8,
-    "passed": 8,
+    "filterCasesTested": 12,
+    "passed": 12,
     "filterErrors": 0,
     "publisherMappingLeaks": 0,
     "allModeReachable": true,
     "allModeQuestionCount": 2900,
     "appReadsPersistedClassificationIndex": true,
     "zeroResultHintPresent": true,
-    "validationMethod": "依 index.html getPool() 的持久分類、publisher=knsh、semester=下學期、examPeriod=unassigned、單元 learningUnit 條件執行資料層定向驗證；不等同瀏覽器實機測試。",
+    "inferenceRuntimeTested": true,
+    "validationMethod": "以目前main的questionClassificationFor()實際執行兩題持久分類，再依index.html getPool()學期、段考、出版社與單元條件語義執行12組定向資料層測試；不等同瀏覽器實機測試。",
     "browserOrMobileRuntimeTested": false
   },
   "classificationPersistenceRuns": [
@@ -1436,594 +1430,547 @@
       },
       "validationMethod": "依 index.html getPool() 的持久分類與篩選邏輯，測試全部版本、翰林、共同核心、待核對、上學期、未分類段考及單元條件的10組定向資料層組合；不等同瀏覽器實機測試。",
       "notes": "b41-091「革命的多重原因」新增翰林高中歷史(3)冊別層級映射。翰林113上官方教材簡介列歷史3課本P.60–61法國大革命至拿破崙時代大事紀要；翰林書城商品頁008021確認高二歷史上學期。未核對具體單元，故mappingLevel=volume；examPeriod保留unassigned。未宣稱學校採用版本或教師審核；未新增題目。"
+    },
+    {
+      "runId": "2026-11-18-knsh-g6-natural-water-solution-separation-backfill-01",
+      "date": "2026-11-18",
+      "updatedQuestionIds": [
+        "b15-030",
+        "b40-041"
+      ],
+      "questionRecordsUpdated": 2,
+      "publisherMappingsAdded": 1,
+      "publisherMappingReferencesAdded": 2,
+      "semesterAssignments": 2,
+      "examPeriodAssignments": 0,
+      "newQuestionsAdded": 0,
+      "classificationRuleVersion": "2026-11-18.108"
     }
   ],
-  "auditNotes": " 2026-11-16.76：全庫2,900題完成分類分片重算；34/34批次SHA一致。持久更新b41-093至b41-096四題，新增翰林高二公民單元3、9、12三筆中央映射；學期上學期、段考unassigned。資料層篩選7,800組，錯誤0，未做瀏覽器／手機實機測試。 2026-11-16.76稽核更正：映射範圍驗證依中央映射的grade/subject/courseTrack/courseType與題目資料比對，重算後mappingScopeErrors=0；前一輪暫存數字74為使用題目引用物件中非必填的grade/subject欄位進行比對所致，已更正。34/34批次SHA、2,900唯一ID、556筆來源引用均通過。 2026-11-16-knsh-g6-math-speed-scale-backfill-01：新增b8-008、b8-012兩筆康軒114六上單元映射；移除無來源支持的第三次段考標籤，改為unassigned。題庫學年度未標示，不宣稱學校採用版本；未新增題目。 2026-11-16全庫篩選回歸：7,800組資料層條件測試通過，2,900題全部可由全部版本模式取得，出版社映射洩漏0、篩選錯誤0；未做瀏覽器／手機實機測試。\n2026-11-16.79：修正六年級數學康軒來源連結，原114高年級綜合文宣PDF回傳404，改用康軒署名帳號於FlipHTML5公開的114(1)補充教材頁；建立速率、比例尺、圓面積三筆official-resource-title中央映射，更新b8-008、b8-012、b12-012、b13-008。b12-012學期校正為上學期；b12-012及b13-008段考改unassigned。全庫2,900題／唯一ID不變，分類紀錄2,900筆，出版社映射459題／563筆引用；7,800組資料層篩選測試非零575、零題7,225、映射洩漏0、篩選錯誤0。未新增題目；未執行瀏覽器／手機實機測試。 2026-11-16-classification-index-sync-after-source-audit-01：同步main最新來源頭 214a9223898a7f7efaeb1927c10c085941beb1f5 與完整分類稽核。2,900題／2,900唯一ID、34批SHA 34/34、分類欄位缺漏0、非法值0、出版社映射參照563筆／中央映射55組、未解析引用0；7,800組篩選回歸非零575、合理零題7,225、映射洩漏0、篩選錯誤0。未新增題目，未改寫既有題目分類。 2026-11-17.87：依康軒官方114學年度自然教材PDF，持久回填b38-039、b39-038、b40-037、b41-035、b41-040五題至六下單元三「地球的生態」；四題補回下學期，一題維持既有下學期；段考均unassigned。全庫2,900筆、唯一ID 2,900、必要欄位缺漏0、來源映射錯誤0；資料層篩選7200組，出版社映射洩漏0，全部版本可達2,900題。未新增題目，未做瀏覽器／手機實機測試。 2026-11-17：新增康軒六下梯形面積官方補充資源標題層級對照，持久分類4題；不新增題目，段考維持unassigned。 2026-11-17來源標題更正：康軒官方PDF的梯形題位於6下單元學後檢測卷第7題，已修正sourceTitle與單元描述，分類數值不變。\n2026-11-17: persisted 25 classification record updates; 8 verified mappings added; 4 stale 113-version mapping refs removed; 36 runtime/persistence diffs reconciled; 7,800 filter combinations passed. 2026-11-17.97：六年級數學速率／平均速率5題、比例尺9題、圓面積2題，依康軒114(1)《數學計算高手6年級》出版社帳號公開補充教材頁，新增16筆official-resource-title映射；補充教材不冒稱完整教科書目次或學校採用版本。兩題圓面積保留題庫推定全域下學期，康軒補充教材映射為上學期；指定出版社依映射學期篩選。段考欄位不變，仍僅作複習建議。新增平均速率別名；未新增題目。 2026-11-17.99：7題高二地理全球化／跨國分工題目新增翰林地理(3)第7回單元映射；分類分片已同步，原始34批題庫未改，無新增題目。 2026-11-17.99：依index.html getPool()條件語義執行48組年級／科目、6種出版社、5種學期、5種段考及高二數學軌別，共7,800組資料層篩選；錯誤0、出版社映射外洩0、全部版本可達2,900題。此為資料層模擬，非瀏覽器／手機實機測試。 2026-11-17.100: four existing H2 Geography questions mapped only to Hanlin Geography(3) volume level; unit unverified, exam unassigned. 2026-11-17.100驗收註記：本輪完成1,200組定向篩選資料層測試；未重跑全庫7,800組矩陣。推定器新映射已登錄，但未執行JavaScript runtime／瀏覽器實機語法測試。\n2026-11-17.104：三題高二歷史既有分類持久回填；18組定向篩選資料層驗收，映射洩漏0、錯誤0；完整2,119,500組矩陣為前次歷史測試，本輪未重跑。 2026-11-17：b34-040依康軒114六下單元三來源新增1筆出版社映射；2,900筆分類紀錄與原始題庫數量不變。",
+  "auditNotes": " 2026-11-16.76：全庫2,900題完成分類分片重算；34/34批次SHA一致。持久更新b41-093至b41-096四題，新增翰林高二公民單元3、9、12三筆中央映射；學期上學期、段考unassigned。資料層篩選7,800組，錯誤0，未做瀏覽器／手機實機測試。 2026-11-16.76稽核更正：映射範圍驗證依中央映射的grade/subject/courseTrack/courseType與題目資料比對，重算後mappingScopeErrors=0；前一輪暫存數字74為使用題目引用物件中非必填的grade/subject欄位進行比對所致，已更正。34/34批次SHA、2,900唯一ID、556筆來源引用均通過。 2026-11-16-knsh-g6-math-speed-scale-backfill-01：新增b8-008、b8-012兩筆康軒114六上單元映射；移除無來源支持的第三次段考標籤，改為unassigned。題庫學年度未標示，不宣稱學校採用版本；未新增題目。 2026-11-16全庫篩選回歸：7,800組資料層條件測試通過，2,900題全部可由全部版本模式取得，出版社映射洩漏0、篩選錯誤0；未做瀏覽器／手機實機測試。\n2026-11-16.79：修正六年級數學康軒來源連結，原114高年級綜合文宣PDF回傳404，改用康軒署名帳號於FlipHTML5公開的114(1)補充教材頁；建立速率、比例尺、圓面積三筆official-resource-title中央映射，更新b8-008、b8-012、b12-012、b13-008。b12-012學期校正為上學期；b12-012及b13-008段考改unassigned。全庫2,900題／唯一ID不變，分類紀錄2,900筆，出版社映射459題／563筆引用；7,800組資料層篩選測試非零575、零題7,225、映射洩漏0、篩選錯誤0。未新增題目；未執行瀏覽器／手機實機測試。 2026-11-16-classification-index-sync-after-source-audit-01：同步main最新來源頭 214a9223898a7f7efaeb1927c10c085941beb1f5 與完整分類稽核。2,900題／2,900唯一ID、34批SHA 34/34、分類欄位缺漏0、非法值0、出版社映射參照563筆／中央映射55組、未解析引用0；7,800組篩選回歸非零575、合理零題7,225、映射洩漏0、篩選錯誤0。未新增題目，未改寫既有題目分類。 2026-11-17.87：依康軒官方114學年度自然教材PDF，持久回填b38-039、b39-038、b40-037、b41-035、b41-040五題至六下單元三「地球的生態」；四題補回下學期，一題維持既有下學期；段考均unassigned。全庫2,900筆、唯一ID 2,900、必要欄位缺漏0、來源映射錯誤0；資料層篩選7200組，出版社映射洩漏0，全部版本可達2,900題。未新增題目，未做瀏覽器／手機實機測試。 2026-11-17：新增康軒六下梯形面積官方補充資源標題層級對照，持久分類4題；不新增題目，段考維持unassigned。 2026-11-17來源標題更正：康軒官方PDF的梯形題位於6下單元學後檢測卷第7題，已修正sourceTitle與單元描述，分類數值不變。\n2026-11-17: persisted 25 classification record updates; 8 verified mappings added; 4 stale 113-version mapping refs removed; 36 runtime/persistence diffs reconciled; 7,800 filter combinations passed. 2026-11-17.97：六年級數學速率／平均速率5題、比例尺9題、圓面積2題，依康軒114(1)《數學計算高手6年級》出版社帳號公開補充教材頁，新增16筆official-resource-title映射；補充教材不冒稱完整教科書目次或學校採用版本。兩題圓面積保留題庫推定全域下學期，康軒補充教材映射為上學期；指定出版社依映射學期篩選。段考欄位不變，仍僅作複習建議。新增平均速率別名；未新增題目。 2026-11-17.99：7題高二地理全球化／跨國分工題目新增翰林地理(3)第7回單元映射；分類分片已同步，原始34批題庫未改，無新增題目。 2026-11-17.99：依index.html getPool()條件語義執行48組年級／科目、6種出版社、5種學期、5種段考及高二數學軌別，共7,800組資料層篩選；錯誤0、出版社映射外洩0、全部版本可達2,900題。此為資料層模擬，非瀏覽器／手機實機測試。 2026-11-17.100: four existing H2 Geography questions mapped only to Hanlin Geography(3) volume level; unit unverified, exam unassigned. 2026-11-17.100驗收註記：本輪完成1,200組定向篩選資料層測試；未重跑全庫7,800組矩陣。推定器新映射已登錄，但未執行JavaScript runtime／瀏覽器實機語法測試。\n2026-11-17.104：三題高二歷史既有分類持久回填；18組定向篩選資料層驗收，映射洩漏0、錯誤0；完整2,119,500組矩陣為前次歷史測試，本輪未重跑。 2026-11-17：b34-040依康軒114六下單元三來源新增1筆出版社映射；2,900筆分類紀錄與原始題庫數量不變。 2026-11-18：康軒113六上自然單元二「水溶液／混合物分離」持久分類b15-030、b40-041；來源恢復與12組定向篩選驗收通過。",
   "shardCount": 6,
   "latestAudit": {
-    "runId": "2026-11-17-knsh-g6-natural-biodiversity-b34-040-backfill-01",
-    "date": "2026-11-17",
-    "sourceHeadBeforeRun": "a7e1462fd8a8bd759c33b3540964b538cfbb9551",
-    "batches": "08-41",
-    "batchFileCount": 34,
-    "fullCorpusQuestionCount": 2900,
-    "activeScopeQuestionCount": 1864,
-    "fullCorpusSemesterDistribution": {
-      "unassigned": 2172,
-      "上學期": 490,
-      "下學期": 164,
-      "全學年": 74,
-      "_total": 2900
-    },
-    "fullCorpusExamPeriodDistribution": {
-      "unassigned": 2673,
-      "第一次段考": 65,
-      "第二次段考": 71,
-      "第三次段考": 91,
-      "_total": 2900
-    },
-    "fullCorpusClassificationBasisDistribution": {
-      "curriculum-core": 2162,
-      "publisher-source-verified": 470,
-      "question-bank-inference": 255,
-      "unassigned": 13,
-      "_total": 2900
-    },
-    "fullCorpusPublisherStatusDistribution": {
-      "curriculum-core": 2297,
-      "publisher-mapped": 584,
-      "pending": 19,
-      "_total": 2900
-    },
-    "fullCorpusConfidenceDistribution": {
-      "low": 2067,
-      "medium": 795,
-      "high": 38,
-      "_total": 2900
-    },
-    "publisherReferenceCounts": {
-      "knsh": 169,
-      "hanlin": 449,
-      "nani": 70,
-      "_total": 688
-    },
-    "mappingLevelCounts": {
-      "official-resource-title": 77,
-      "unit": 472,
-      "volume": 139,
-      "_total": 688
-    },
-    "mappingVerificationStatusCounts": {
-      "source-checked": 688,
-      "_total": 688
-    },
-    "questionRecordsUpdated": 1,
-    "updatedQuestionIds": [
-      "b34-040"
-    ],
-    "semesterAssignments": 0,
-    "semesterCorrections": 0,
-    "examPeriodAssignments": 0,
-    "examPeriodCorrections": 0,
-    "publisherMappingsAdded": 1,
-    "publisherMappingReferencesAdded": 1,
-    "newQuestionsAdded": 0,
-    "sourceBatchShasMatch": "34/34",
-    "classificationRuleVersion": "2026-11-17.103",
-    "validation": {
-      "jsonParse": true,
-      "classificationRecords": 2900,
-      "uniqueIds": 2900,
-      "duplicateIds": 0,
-      "missingFromClassification": 0,
-      "extraClassificationIds": 0,
-      "missingRequiredFields": 0,
-      "invalidClassificationValues": 0,
-      "mappingReferenceErrors": 0,
-      "sourceFieldErrors": 0,
-      "mappingScopeErrors": 0,
-      "sourceBatchShasMatch": "34/34",
-      "updatedQuestionsChecked": 1,
-      "updatedQuestionIdsReachable": true,
-      "targetedFilterCombinationsTested": 8,
-      "targetedFilterErrors": 0,
-      "publisherMappingLeaks": 0,
-      "allModeReachable": true,
-      "allModeQuestionCount": 2900,
-      "appReadsPersistedClassificationIndex": true,
-      "zeroResultHintPresent": true,
-      "inferenceSyntaxStructureChecked": true,
-      "inferenceSyntaxRuntimeTested": false,
-      "browserOrMobileRuntimeTested": false,
-      "fullFilterMatrixTested": false
-    },
-    "validationMethod": "依 index.html getPool() 的持久分類、publisher=knsh、semester=下學期、examPeriod=unassigned、單元 learningUnit 條件執行資料層定向驗證；不等同瀏覽器實機測試。",
-    "notes": "b34-040「生物多樣性與農業」新增康軒114六下單元三出版社映射。b34-036與b37-040分解者題、b36-035太陽能板傾角題缺少足以確認該出版社具體單元的直接來源，維持原分類、不掛出版社。未新增題目，原題幹、選項、答案與解析未修改。"
-  },
-  "coverageNote": "coverageStatus=complete 表示第08–41批全部題目均有持久分類紀錄；學期／段考欄位仍依證據保留 unassigned，不代表每題均已確定考期。",
-  "latestMainClassificationAudit": {
-    "runId": "2026-11-18-hanlin-h2-history-french-revolution-volume-backfill-01",
+    "runId": "2026-11-18-knsh-g6-natural-water-solution-separation-backfill-01",
     "date": "2026-11-18",
-    "sourceHeadBeforeRun": "73f056d5e8340eac9dbe84f9fcbd626a92023fde",
+    "sourceHeadBeforeRun": "b37ca9060bbfaf81629d0b709619c7cac26ea303",
     "batches": "08-41",
     "batchFileCount": 34,
     "fullCorpusQuestionCount": 2900,
     "activeScopeQuestionCount": 1864,
-    "questionRecordsUpdated": 1,
+    "questionRecordsUpdated": 2,
     "updatedQuestionIds": [
-      "b41-091"
+      "b15-030",
+      "b40-041"
     ],
-    "semesterAssignments": 1,
+    "semesterAssignments": 2,
     "semesterCorrections": 0,
     "examPeriodAssignments": 0,
     "publisherMappingsAdded": 1,
-    "publisherMappingReferencesAdded": 1,
+    "publisherMappingReferencesAdded": 2,
+    "sourceRegistryRecovered": 1,
+    "restoredSourceMappings": 2,
     "newQuestionsAdded": 0,
     "sourceBatchShasMatch": "34/34",
-    "classificationRuleVersion": "2026-11-18.105",
+    "classificationRuleVersion": "2026-11-18.108",
     "fullCorpusSemesterDistribution": {
-      "unassigned": 2171,
-      "上學期": 491,
-      "下學期": 164,
-      "全學年": 74,
-      "_total": 2900
-    },
-    "fullCorpusExamPeriodDistribution": {
-      "unassigned": 2673,
-      "第一次段考": 65,
-      "第二次段考": 71,
-      "第三次段考": 91,
-      "_total": 2900
-    },
-    "fullCorpusClassificationBasisDistribution": {
-      "curriculum-core": 2161,
-      "publisher-source-verified": 471,
-      "question-bank-inference": 255,
-      "unassigned": 13,
-      "_total": 2900
-    },
-    "fullCorpusPublisherStatusDistribution": {
-      "curriculum-core": 2296,
-      "publisher-mapped": 585,
-      "pending": 19,
-      "_total": 2900
-    },
-    "fullCorpusConfidenceDistribution": {
-      "low": 2066,
-      "medium": 796,
-      "high": 38,
-      "_total": 2900
-    },
-    "publisherReferenceCounts": {
-      "knsh": 169,
-      "hanlin": 450,
-      "nani": 70,
-      "_total": 689
-    },
-    "mappingLevelCounts": {
-      "official-resource-title": 77,
-      "unit": 472,
-      "volume": 140,
-      "_total": 689
-    },
-    "mappingVerificationStatusCounts": {
-      "source-checked": 689,
-      "_total": 689
-    },
-    "validation": {
-      "jsonParse": true,
-      "classificationRecords": 2900,
-      "uniqueIds": 2900,
-      "duplicateIds": 0,
-      "missingFromClassification": 0,
-      "extraClassificationIds": 0,
-      "missingRequiredFields": 0,
-      "invalidClassificationValues": 0,
-      "mappingReferenceErrors": 0,
-      "sourceFieldErrors": 0,
-      "mappingScopeErrors": 0,
-      "sourceBatchShasMatch": "34/34",
-      "updatedQuestionsChecked": 1,
-      "updatedQuestionIdsReachable": true,
-      "targetedFilterCombinationsTested": 10,
-      "targetedFilterErrors": 0,
-      "publisherMappingLeaks": 0,
-      "allModeReachable": true,
-      "allModeQuestionCount": 2900,
-      "appReadsPersistedClassificationIndex": true,
-      "zeroResultHintPresent": true,
-      "inferenceSyntaxStructureChecked": true,
-      "inferenceSyntaxRuntimeTested": true,
-      "browserOrMobileRuntimeTested": false,
-      "fullFilterMatrixTested": false
-    },
-    "validationMethod": "依 index.html getPool() 的持久分類與篩選邏輯，測試全部版本、翰林、共同核心、待核對、上學期、未分類段考及單元條件的10組定向資料層組合；不等同瀏覽器實機測試。",
-    "notes": "b41-091「革命的多重原因」新增翰林高中歷史(3)冊別層級映射。翰林113上官方教材簡介列歷史3課本P.60–61法國大革命至拿破崙時代大事紀要；翰林書城商品頁008021確認高二歷史上學期。未核對具體單元，故mappingLevel=volume；examPeriod保留unassigned。未宣稱學校採用版本或教師審核；未新增題目。"
-  },
-  "filterValidation": {
-    "date": "2026-11-17",
-    "runId": "2026-11-17-hanlin-h2-geography-volume-backfill-01",
-    "gradeSubjectCombinations": 1,
-    "filterCombinationsTested": 1200,
-    "nonZeroCombinations": 64,
-    "zeroResultCombinations": 1136,
-    "filterErrors": 0,
-    "publisherMappingLeaks": 0,
-    "allModeReachable": true,
-    "allModeQuestionCount": 2900,
-    "updatedQuestionIds": [
-      "b41-085",
-      "b41-086",
-      "b41-087",
-      "b41-088"
-    ],
-    "updatedQuestionsReachable": true,
-    "hanlinUpperSemesterExamUnassignedPass": true,
-    "volumeLevelOnly": true,
-    "validationMethod": "index.html getPool() semantics; targeted data-layer simulation, not browser runtime"
-  },
-  "sourceHeadBeforeRun": "73f056d5e8340eac9dbe84f9fcbd626a92023fde",
-  "lastPersistenceRunId": "2026-11-18-hanlin-h2-history-french-revolution-volume-backfill-01",
-  "latestRunAudit": {
-    "runId": "2026-11-18-hanlin-h2-history-french-revolution-volume-backfill-01",
-    "date": "2026-11-18",
-    "sourceHeadBeforeRun": "73f056d5e8340eac9dbe84f9fcbd626a92023fde",
-    "batches": "08-41",
-    "batchFileCount": 34,
-    "fullCorpusQuestionCount": 2900,
-    "activeScopeQuestionCount": 1864,
-    "questionRecordsUpdated": 1,
-    "updatedQuestionIds": [
-      "b41-091"
-    ],
-    "semesterAssignments": 1,
-    "semesterCorrections": 0,
-    "examPeriodAssignments": 0,
-    "publisherMappingsAdded": 1,
-    "publisherMappingReferencesAdded": 1,
-    "newQuestionsAdded": 0,
-    "sourceBatchShasMatch": "34/34",
-    "classificationRuleVersion": "2026-11-18.105",
-    "fullCorpusSemesterDistribution": {
-      "unassigned": 2171,
-      "上學期": 491,
-      "下學期": 164,
-      "全學年": 74,
-      "_total": 2900
-    },
-    "fullCorpusExamPeriodDistribution": {
-      "unassigned": 2673,
-      "第一次段考": 65,
-      "第二次段考": 71,
-      "第三次段考": 91,
-      "_total": 2900
-    },
-    "fullCorpusClassificationBasisDistribution": {
-      "curriculum-core": 2161,
-      "publisher-source-verified": 471,
-      "question-bank-inference": 255,
-      "unassigned": 13,
-      "_total": 2900
-    },
-    "fullCorpusPublisherStatusDistribution": {
-      "curriculum-core": 2296,
-      "publisher-mapped": 585,
-      "pending": 19,
-      "_total": 2900
-    },
-    "fullCorpusConfidenceDistribution": {
-      "low": 2066,
-      "medium": 796,
-      "high": 38,
-      "_total": 2900
-    },
-    "publisherReferenceCounts": {
-      "knsh": 169,
-      "hanlin": 450,
-      "nani": 70,
-      "_total": 689
-    },
-    "mappingLevelCounts": {
-      "official-resource-title": 77,
-      "unit": 472,
-      "volume": 140,
-      "_total": 689
-    },
-    "mappingVerificationStatusCounts": {
-      "source-checked": 689,
-      "_total": 689
-    },
-    "validation": {
-      "jsonParse": true,
-      "classificationRecords": 2900,
-      "uniqueIds": 2900,
-      "duplicateIds": 0,
-      "missingFromClassification": 0,
-      "extraClassificationIds": 0,
-      "missingRequiredFields": 0,
-      "invalidClassificationValues": 0,
-      "mappingReferenceErrors": 0,
-      "sourceFieldErrors": 0,
-      "mappingScopeErrors": 0,
-      "sourceBatchShasMatch": "34/34",
-      "updatedQuestionsChecked": 1,
-      "updatedQuestionIdsReachable": true,
-      "targetedFilterCombinationsTested": 10,
-      "targetedFilterErrors": 0,
-      "publisherMappingLeaks": 0,
-      "allModeReachable": true,
-      "allModeQuestionCount": 2900,
-      "appReadsPersistedClassificationIndex": true,
-      "zeroResultHintPresent": true,
-      "inferenceSyntaxStructureChecked": true,
-      "inferenceSyntaxRuntimeTested": true,
-      "browserOrMobileRuntimeTested": false,
-      "fullFilterMatrixTested": false
-    },
-    "validationMethod": "依 index.html getPool() 的持久分類與篩選邏輯，測試全部版本、翰林、共同核心、待核對、上學期、未分類段考及單元條件的10組定向資料層組合；不等同瀏覽器實機測試。",
-    "notes": "b41-091「革命的多重原因」新增翰林高中歷史(3)冊別層級映射。翰林113上官方教材簡介列歷史3課本P.60–61法國大革命至拿破崙時代大事紀要；翰林書城商品頁008021確認高二歷史上學期。未核對具體單元，故mappingLevel=volume；examPeriod保留unassigned。未宣稱學校採用版本或教師審核；未新增題目。"
-  },
-  "latestClassificationPersistenceAudit": {
-    "runId": "2026-11-18-hanlin-h2-history-french-revolution-volume-backfill-01",
-    "date": "2026-11-18",
-    "sourceHeadBeforeRun": "73f056d5e8340eac9dbe84f9fcbd626a92023fde",
-    "batches": "08-41",
-    "batchFileCount": 34,
-    "fullCorpusQuestionCount": 2900,
-    "activeScopeQuestionCount": 1864,
-    "questionRecordsUpdated": 1,
-    "updatedQuestionIds": [
-      "b41-091"
-    ],
-    "semesterAssignments": 1,
-    "semesterCorrections": 0,
-    "examPeriodAssignments": 0,
-    "publisherMappingsAdded": 1,
-    "publisherMappingReferencesAdded": 1,
-    "newQuestionsAdded": 0,
-    "sourceBatchShasMatch": "34/34",
-    "classificationRuleVersion": "2026-11-18.105",
-    "fullCorpusSemesterDistribution": {
-      "unassigned": 2171,
-      "上學期": 491,
-      "下學期": 164,
-      "全學年": 74,
-      "_total": 2900
-    },
-    "fullCorpusExamPeriodDistribution": {
-      "unassigned": 2673,
-      "第一次段考": 65,
-      "第二次段考": 71,
-      "第三次段考": 91,
-      "_total": 2900
-    },
-    "fullCorpusClassificationBasisDistribution": {
-      "curriculum-core": 2161,
-      "publisher-source-verified": 471,
-      "question-bank-inference": 255,
-      "unassigned": 13,
-      "_total": 2900
-    },
-    "fullCorpusPublisherStatusDistribution": {
-      "curriculum-core": 2296,
-      "publisher-mapped": 585,
-      "pending": 19,
-      "_total": 2900
-    },
-    "fullCorpusConfidenceDistribution": {
-      "low": 2066,
-      "medium": 796,
-      "high": 38,
-      "_total": 2900
-    },
-    "publisherReferenceCounts": {
-      "knsh": 169,
-      "hanlin": 450,
-      "nani": 70,
-      "_total": 689
-    },
-    "mappingLevelCounts": {
-      "official-resource-title": 77,
-      "unit": 472,
-      "volume": 140,
-      "_total": 689
-    },
-    "mappingVerificationStatusCounts": {
-      "source-checked": 689,
-      "_total": 689
-    },
-    "validation": {
-      "jsonParse": true,
-      "classificationRecords": 2900,
-      "uniqueIds": 2900,
-      "duplicateIds": 0,
-      "missingFromClassification": 0,
-      "extraClassificationIds": 0,
-      "missingRequiredFields": 0,
-      "invalidClassificationValues": 0,
-      "mappingReferenceErrors": 0,
-      "sourceFieldErrors": 0,
-      "mappingScopeErrors": 0,
-      "sourceBatchShasMatch": "34/34",
-      "updatedQuestionsChecked": 1,
-      "updatedQuestionIdsReachable": true,
-      "targetedFilterCombinationsTested": 10,
-      "targetedFilterErrors": 0,
-      "publisherMappingLeaks": 0,
-      "allModeReachable": true,
-      "allModeQuestionCount": 2900,
-      "appReadsPersistedClassificationIndex": true,
-      "zeroResultHintPresent": true,
-      "inferenceSyntaxStructureChecked": true,
-      "inferenceSyntaxRuntimeTested": true,
-      "browserOrMobileRuntimeTested": false,
-      "fullFilterMatrixTested": false
-    },
-    "validationMethod": "依 index.html getPool() 的持久分類與篩選邏輯，測試全部版本、翰林、共同核心、待核對、上學期、未分類段考及單元條件的10組定向資料層組合；不等同瀏覽器實機測試。",
-    "notes": "b41-091「革命的多重原因」新增翰林高中歷史(3)冊別層級映射。翰林113上官方教材簡介列歷史3課本P.60–61法國大革命至拿破崙時代大事紀要；翰林書城商品頁008021確認高二歷史上學期。未核對具體單元，故mappingLevel=volume；examPeriod保留unassigned。未宣稱學校採用版本或教師審核；未新增題目。"
-  },
-  "latestPublisherMappingBackfill": {
-    "runId": "2026-11-18-hanlin-h2-history-french-revolution-volume-backfill-01",
-    "date": "2026-11-18",
-    "sourceHeadBeforeRun": "73f056d5e8340eac9dbe84f9fcbd626a92023fde",
-    "batches": "08-41",
-    "batchFileCount": 34,
-    "fullCorpusQuestionCount": 2900,
-    "activeScopeQuestionCount": 1864,
-    "questionRecordsUpdated": 1,
-    "updatedQuestionIds": [
-      "b41-091"
-    ],
-    "semesterAssignments": 1,
-    "semesterCorrections": 0,
-    "examPeriodAssignments": 0,
-    "publisherMappingsAdded": 1,
-    "publisherMappingReferencesAdded": 1,
-    "newQuestionsAdded": 0,
-    "sourceBatchShasMatch": "34/34",
-    "classificationRuleVersion": "2026-11-18.105",
-    "fullCorpusSemesterDistribution": {
-      "unassigned": 2171,
-      "上學期": 491,
-      "下學期": 164,
-      "全學年": 74,
-      "_total": 2900
-    },
-    "fullCorpusExamPeriodDistribution": {
-      "unassigned": 2673,
-      "第一次段考": 65,
-      "第二次段考": 71,
-      "第三次段考": 91,
-      "_total": 2900
-    },
-    "fullCorpusClassificationBasisDistribution": {
-      "curriculum-core": 2161,
-      "publisher-source-verified": 471,
-      "question-bank-inference": 255,
-      "unassigned": 13,
-      "_total": 2900
-    },
-    "fullCorpusPublisherStatusDistribution": {
-      "curriculum-core": 2296,
-      "publisher-mapped": 585,
-      "pending": 19,
-      "_total": 2900
-    },
-    "fullCorpusConfidenceDistribution": {
-      "low": 2066,
-      "medium": 796,
-      "high": 38,
-      "_total": 2900
-    },
-    "publisherReferenceCounts": {
-      "knsh": 169,
-      "hanlin": 450,
-      "nani": 70,
-      "_total": 689
-    },
-    "mappingLevelCounts": {
-      "official-resource-title": 77,
-      "unit": 472,
-      "volume": 140,
-      "_total": 689
-    },
-    "mappingVerificationStatusCounts": {
-      "source-checked": 689,
-      "_total": 689
-    },
-    "validation": {
-      "jsonParse": true,
-      "classificationRecords": 2900,
-      "uniqueIds": 2900,
-      "duplicateIds": 0,
-      "missingFromClassification": 0,
-      "extraClassificationIds": 0,
-      "missingRequiredFields": 0,
-      "invalidClassificationValues": 0,
-      "mappingReferenceErrors": 0,
-      "sourceFieldErrors": 0,
-      "mappingScopeErrors": 0,
-      "sourceBatchShasMatch": "34/34",
-      "updatedQuestionsChecked": 1,
-      "updatedQuestionIdsReachable": true,
-      "targetedFilterCombinationsTested": 10,
-      "targetedFilterErrors": 0,
-      "publisherMappingLeaks": 0,
-      "allModeReachable": true,
-      "allModeQuestionCount": 2900,
-      "appReadsPersistedClassificationIndex": true,
-      "zeroResultHintPresent": true,
-      "inferenceSyntaxStructureChecked": true,
-      "inferenceSyntaxRuntimeTested": true,
-      "browserOrMobileRuntimeTested": false,
-      "fullFilterMatrixTested": false
-    },
-    "validationMethod": "依 index.html getPool() 的持久分類與篩選邏輯，測試全部版本、翰林、共同核心、待核對、上學期、未分類段考及單元條件的10組定向資料層組合；不等同瀏覽器實機測試。",
-    "notes": "b41-091「革命的多重原因」新增翰林高中歷史(3)冊別層級映射。翰林113上官方教材簡介列歷史3課本P.60–61法國大革命至拿破崙時代大事紀要；翰林書城商品頁008021確認高二歷史上學期。未核對具體單元，故mappingLevel=volume；examPeriod保留unassigned。未宣稱學校採用版本或教師審核；未新增題目。"
-  },
-  "latestRegistryIntegrityAudit": {
-    "runId": "2026-11-17-textbook-registry-null-entry-cleanup-01",
-    "date": "2026-11-17",
-    "sourceHeadBeforeRun": "8a5f3b2cdb90bc756d8d85c36a297d2680d2ba32",
-    "batchRange": "08-41",
-    "batchFileCount": 34,
-    "rawQuestionCount": 2900,
-    "rawQuestionRequiredFieldErrors": 0,
-    "classificationRecordCount": 2900,
-    "uniqueClassificationIds": 2900,
-    "duplicateQuestionIds": 0,
-    "missingClassificationCount": 0,
-    "sourceBatchShaMatches": "34/34",
-    "classificationShardShaMatches": "6/6",
-    "semesterDistribution": {
-      "unassigned": 2175,
-      "上學期": 487,
+      "unassigned": 2169,
+      "上學期": 493,
       "下學期": 164,
       "全學年": 74
     },
-    "examPeriodDistribution": {
+    "fullCorpusExamPeriodDistribution": {
       "unassigned": 2673,
       "第一次段考": 65,
       "第二次段考": 71,
       "第三次段考": 91
     },
-    "classificationBasisDistribution": {
-      "curriculum-core": 2178,
-      "publisher-source-verified": 466,
-      "question-bank-inference": 256
+    "fullCorpusClassificationBasisDistribution": {
+      "curriculum-core": 2159,
+      "publisher-source-verified": 478,
+      "question-bank-inference": 250,
+      "unassigned": 13
     },
-    "publisherStatusDistribution": {
-      "curriculum-core": 2314,
-      "publisher-mapped": 580,
-      "pending": 6
+    "fullCorpusPublisherStatusDistribution": {
+      "curriculum-core": 2289,
+      "publisher-mapped": 592,
+      "pending": 19
     },
-    "confidenceDistribution": {
-      "low": 2064,
-      "medium": 798,
+    "fullCorpusConfidenceDistribution": {
+      "low": 2059,
+      "medium": 803,
       "high": 38
     },
-    "publisherMappedQuestionCount": 580,
-    "publisherMappingReferenceCount": 684,
     "publisherReferenceCounts": {
-      "knsh": 168,
-      "hanlin": 446,
-      "nani": 70
+      "knsh": 171,
+      "hanlin": 455,
+      "nani": 70,
+      "_total": 696
     },
-    "centralMappingRegistryCount": 64,
-    "inferenceMappingRegistryCount": 64,
-    "distinctReferencedMappingIds": 59,
-    "missingCentralMappingReferences": 0,
-    "centralMappingSourceFieldErrors": 0,
-    "nullRegistryEntriesFound": 1,
-    "nullRegistryEntryIndexes": [
-      62
+    "mappingLevelCounts": {
+      "official-resource-title": 77,
+      "unit": 474,
+      "volume": 145,
+      "_total": 696
+    },
+    "mappingVerificationStatusCounts": {
+      "source-checked": 696,
+      "_total": 696
+    },
+    "validation": {
+      "jsonParse": true,
+      "classificationRecords": 2900,
+      "uniqueIds": 2900,
+      "duplicateIds": 0,
+      "missingFromClassification": 0,
+      "extraClassificationIds": 0,
+      "missingRequiredFields": 0,
+      "invalidClassificationValues": 0,
+      "mappingReferenceErrors": 0,
+      "sourceFieldErrors": 0,
+      "mappingScopeErrors": 0,
+      "sourceBatchShasMatch": "34/34",
+      "updatedQuestionsChecked": 2,
+      "updatedQuestionIdsReachable": true,
+      "targetedFilterCombinationsTested": 12,
+      "targetedFilterErrors": 0,
+      "publisherMappingLeaks": 0,
+      "allModeReachable": true,
+      "allModeQuestionCount": 2900,
+      "activeScopeQuestionCount": 1864,
+      "appReadsPersistedClassificationIndex": true,
+      "zeroResultHintPresent": true,
+      "inferenceSyntaxStructureChecked": true,
+      "inferenceSyntaxRuntimeTested": true,
+      "browserOrMobileRuntimeTested": false,
+      "fullFilterMatrixTested": false
+    },
+    "validationMethod": "以目前main的questionClassificationFor()實際執行兩題持久分類，再依index.html getPool()學期、段考、出版社與單元條件語義執行12組定向資料層測試；不等同瀏覽器實機測試。",
+    "notes": "依113康軒官方國小教材簡介，六上單元二「水溶液」及主題脈絡「混合物／物質分離」直接支持b15-030、b40-041；學期標上學期、段考維持unassigned。恢復113版六下單元二、三既有映射來源狀態；原先已改用114版來源的13題維持原映射，不回退。未宣稱學校採用版本或教師審核。"
+  },
+  "coverageNote": "coverageStatus=complete 表示第08–41批全部題目均有持久分類紀錄；學期／段考欄位仍依證據保留 unassigned，不代表每題均已確定考期。",
+  "latestMainClassificationAudit": {
+    "runId": "2026-11-18-knsh-g6-natural-water-solution-separation-backfill-01",
+    "date": "2026-11-18",
+    "sourceHeadBeforeRun": "b37ca9060bbfaf81629d0b709619c7cac26ea303",
+    "batches": "08-41",
+    "batchFileCount": 34,
+    "fullCorpusQuestionCount": 2900,
+    "activeScopeQuestionCount": 1864,
+    "questionRecordsUpdated": 2,
+    "updatedQuestionIds": [
+      "b15-030",
+      "b40-041"
     ],
-    "nullRegistryEntriesRemoved": 1,
+    "semesterAssignments": 2,
+    "semesterCorrections": 0,
+    "examPeriodAssignments": 0,
+    "publisherMappingsAdded": 1,
+    "publisherMappingReferencesAdded": 2,
+    "sourceRegistryRecovered": 1,
+    "restoredSourceMappings": 2,
     "newQuestionsAdded": 0,
-    "browserOrMobileRuntimeTested": false,
-    "filterMatrixTestedThisRun": false,
-    "notes": "Fresh main reconciliation: all 34 batch blob SHAs match the six classification shard sourceBatchShas maps; all six shard blob SHAs match the classification index. Removed a null placeholder from textbook-alignment.mappings; no question record or publisher mapping was changed. The existing 2,119,500-case data-layer filter audit remains the latest filter-matrix evidence; this registry cleanup did not rerun it. Classification index summary statistics were also reconciled to the same persisted shard totals.",
-    "indexStatisticsReconciled": true
+    "sourceBatchShasMatch": "34/34",
+    "classificationRuleVersion": "2026-11-18.108",
+    "fullCorpusSemesterDistribution": {
+      "unassigned": 2169,
+      "上學期": 493,
+      "下學期": 164,
+      "全學年": 74
+    },
+    "fullCorpusExamPeriodDistribution": {
+      "unassigned": 2673,
+      "第一次段考": 65,
+      "第二次段考": 71,
+      "第三次段考": 91
+    },
+    "fullCorpusClassificationBasisDistribution": {
+      "curriculum-core": 2159,
+      "publisher-source-verified": 478,
+      "question-bank-inference": 250,
+      "unassigned": 13
+    },
+    "fullCorpusPublisherStatusDistribution": {
+      "curriculum-core": 2289,
+      "publisher-mapped": 592,
+      "pending": 19
+    },
+    "fullCorpusConfidenceDistribution": {
+      "low": 2059,
+      "medium": 803,
+      "high": 38
+    },
+    "publisherReferenceCounts": {
+      "knsh": 171,
+      "hanlin": 455,
+      "nani": 70,
+      "_total": 696
+    },
+    "mappingLevelCounts": {
+      "official-resource-title": 77,
+      "unit": 474,
+      "volume": 145,
+      "_total": 696
+    },
+    "mappingVerificationStatusCounts": {
+      "source-checked": 696,
+      "_total": 696
+    },
+    "validation": {
+      "jsonParse": true,
+      "classificationRecords": 2900,
+      "uniqueIds": 2900,
+      "duplicateIds": 0,
+      "missingFromClassification": 0,
+      "extraClassificationIds": 0,
+      "missingRequiredFields": 0,
+      "invalidClassificationValues": 0,
+      "mappingReferenceErrors": 0,
+      "sourceFieldErrors": 0,
+      "mappingScopeErrors": 0,
+      "sourceBatchShasMatch": "34/34",
+      "updatedQuestionsChecked": 2,
+      "updatedQuestionIdsReachable": true,
+      "targetedFilterCombinationsTested": 12,
+      "targetedFilterErrors": 0,
+      "publisherMappingLeaks": 0,
+      "allModeReachable": true,
+      "allModeQuestionCount": 2900,
+      "activeScopeQuestionCount": 1864,
+      "appReadsPersistedClassificationIndex": true,
+      "zeroResultHintPresent": true,
+      "inferenceSyntaxStructureChecked": true,
+      "inferenceSyntaxRuntimeTested": true,
+      "browserOrMobileRuntimeTested": false,
+      "fullFilterMatrixTested": false
+    },
+    "validationMethod": "以目前main的questionClassificationFor()實際執行兩題持久分類，再依index.html getPool()學期、段考、出版社與單元條件語義執行12組定向資料層測試；不等同瀏覽器實機測試。",
+    "notes": "依113康軒官方國小教材簡介，六上單元二「水溶液」及主題脈絡「混合物／物質分離」直接支持b15-030、b40-041；學期標上學期、段考維持unassigned。恢復113版六下單元二、三既有映射來源狀態；原先已改用114版來源的13題維持原映射，不回退。未宣稱學校採用版本或教師審核。"
+  },
+  "filterValidation": {
+    "runId": "2026-11-18-knsh-g6-natural-water-solution-separation-backfill-01",
+    "verifiedAt": "2026-11-18",
+    "questionIds": [
+      "b15-030",
+      "b40-041"
+    ],
+    "filterCasesTested": 12,
+    "passed": 12,
+    "filterErrors": 0,
+    "publisherMappingLeaks": 0,
+    "allModeReachable": true,
+    "allModeQuestionCount": 2900,
+    "appReadsPersistedClassificationIndex": true,
+    "zeroResultHintPresent": true,
+    "inferenceRuntimeTested": true,
+    "validationMethod": "以目前main的questionClassificationFor()實際執行兩題持久分類，再依index.html getPool()學期、段考、出版社與單元條件語義執行12組定向資料層測試；不等同瀏覽器實機測試。",
+    "browserOrMobileRuntimeTested": false
+  },
+  "sourceHeadBeforeRun": "b37ca9060bbfaf81629d0b709619c7cac26ea303",
+  "lastPersistenceRunId": "2026-11-18-knsh-g6-natural-water-solution-separation-backfill-01",
+  "latestRunAudit": {
+    "runId": "2026-11-18-knsh-g6-natural-water-solution-separation-backfill-01",
+    "date": "2026-11-18",
+    "sourceHeadBeforeRun": "b37ca9060bbfaf81629d0b709619c7cac26ea303",
+    "batches": "08-41",
+    "batchFileCount": 34,
+    "fullCorpusQuestionCount": 2900,
+    "activeScopeQuestionCount": 1864,
+    "questionRecordsUpdated": 2,
+    "updatedQuestionIds": [
+      "b15-030",
+      "b40-041"
+    ],
+    "semesterAssignments": 2,
+    "semesterCorrections": 0,
+    "examPeriodAssignments": 0,
+    "publisherMappingsAdded": 1,
+    "publisherMappingReferencesAdded": 2,
+    "sourceRegistryRecovered": 1,
+    "restoredSourceMappings": 2,
+    "newQuestionsAdded": 0,
+    "sourceBatchShasMatch": "34/34",
+    "classificationRuleVersion": "2026-11-18.108",
+    "fullCorpusSemesterDistribution": {
+      "unassigned": 2169,
+      "上學期": 493,
+      "下學期": 164,
+      "全學年": 74
+    },
+    "fullCorpusExamPeriodDistribution": {
+      "unassigned": 2673,
+      "第一次段考": 65,
+      "第二次段考": 71,
+      "第三次段考": 91
+    },
+    "fullCorpusClassificationBasisDistribution": {
+      "curriculum-core": 2159,
+      "publisher-source-verified": 478,
+      "question-bank-inference": 250,
+      "unassigned": 13
+    },
+    "fullCorpusPublisherStatusDistribution": {
+      "curriculum-core": 2289,
+      "publisher-mapped": 592,
+      "pending": 19
+    },
+    "fullCorpusConfidenceDistribution": {
+      "low": 2059,
+      "medium": 803,
+      "high": 38
+    },
+    "publisherReferenceCounts": {
+      "knsh": 171,
+      "hanlin": 455,
+      "nani": 70,
+      "_total": 696
+    },
+    "mappingLevelCounts": {
+      "official-resource-title": 77,
+      "unit": 474,
+      "volume": 145,
+      "_total": 696
+    },
+    "mappingVerificationStatusCounts": {
+      "source-checked": 696,
+      "_total": 696
+    },
+    "validation": {
+      "jsonParse": true,
+      "classificationRecords": 2900,
+      "uniqueIds": 2900,
+      "duplicateIds": 0,
+      "missingFromClassification": 0,
+      "extraClassificationIds": 0,
+      "missingRequiredFields": 0,
+      "invalidClassificationValues": 0,
+      "mappingReferenceErrors": 0,
+      "sourceFieldErrors": 0,
+      "mappingScopeErrors": 0,
+      "sourceBatchShasMatch": "34/34",
+      "updatedQuestionsChecked": 2,
+      "updatedQuestionIdsReachable": true,
+      "targetedFilterCombinationsTested": 12,
+      "targetedFilterErrors": 0,
+      "publisherMappingLeaks": 0,
+      "allModeReachable": true,
+      "allModeQuestionCount": 2900,
+      "activeScopeQuestionCount": 1864,
+      "appReadsPersistedClassificationIndex": true,
+      "zeroResultHintPresent": true,
+      "inferenceSyntaxStructureChecked": true,
+      "inferenceSyntaxRuntimeTested": true,
+      "browserOrMobileRuntimeTested": false,
+      "fullFilterMatrixTested": false
+    },
+    "validationMethod": "以目前main的questionClassificationFor()實際執行兩題持久分類，再依index.html getPool()學期、段考、出版社與單元條件語義執行12組定向資料層測試；不等同瀏覽器實機測試。",
+    "notes": "依113康軒官方國小教材簡介，六上單元二「水溶液」及主題脈絡「混合物／物質分離」直接支持b15-030、b40-041；學期標上學期、段考維持unassigned。恢復113版六下單元二、三既有映射來源狀態；原先已改用114版來源的13題維持原映射，不回退。未宣稱學校採用版本或教師審核。"
+  },
+  "latestClassificationPersistenceAudit": {
+    "runId": "2026-11-18-knsh-g6-natural-water-solution-separation-backfill-01",
+    "date": "2026-11-18",
+    "sourceHeadBeforeRun": "b37ca9060bbfaf81629d0b709619c7cac26ea303",
+    "batches": "08-41",
+    "batchFileCount": 34,
+    "fullCorpusQuestionCount": 2900,
+    "activeScopeQuestionCount": 1864,
+    "questionRecordsUpdated": 2,
+    "updatedQuestionIds": [
+      "b15-030",
+      "b40-041"
+    ],
+    "semesterAssignments": 2,
+    "semesterCorrections": 0,
+    "examPeriodAssignments": 0,
+    "publisherMappingsAdded": 1,
+    "publisherMappingReferencesAdded": 2,
+    "sourceRegistryRecovered": 1,
+    "restoredSourceMappings": 2,
+    "newQuestionsAdded": 0,
+    "sourceBatchShasMatch": "34/34",
+    "classificationRuleVersion": "2026-11-18.108",
+    "fullCorpusSemesterDistribution": {
+      "unassigned": 2169,
+      "上學期": 493,
+      "下學期": 164,
+      "全學年": 74
+    },
+    "fullCorpusExamPeriodDistribution": {
+      "unassigned": 2673,
+      "第一次段考": 65,
+      "第二次段考": 71,
+      "第三次段考": 91
+    },
+    "fullCorpusClassificationBasisDistribution": {
+      "curriculum-core": 2159,
+      "publisher-source-verified": 478,
+      "question-bank-inference": 250,
+      "unassigned": 13
+    },
+    "fullCorpusPublisherStatusDistribution": {
+      "curriculum-core": 2289,
+      "publisher-mapped": 592,
+      "pending": 19
+    },
+    "fullCorpusConfidenceDistribution": {
+      "low": 2059,
+      "medium": 803,
+      "high": 38
+    },
+    "publisherReferenceCounts": {
+      "knsh": 171,
+      "hanlin": 455,
+      "nani": 70,
+      "_total": 696
+    },
+    "mappingLevelCounts": {
+      "official-resource-title": 77,
+      "unit": 474,
+      "volume": 145,
+      "_total": 696
+    },
+    "mappingVerificationStatusCounts": {
+      "source-checked": 696,
+      "_total": 696
+    },
+    "validation": {
+      "jsonParse": true,
+      "classificationRecords": 2900,
+      "uniqueIds": 2900,
+      "duplicateIds": 0,
+      "missingFromClassification": 0,
+      "extraClassificationIds": 0,
+      "missingRequiredFields": 0,
+      "invalidClassificationValues": 0,
+      "mappingReferenceErrors": 0,
+      "sourceFieldErrors": 0,
+      "mappingScopeErrors": 0,
+      "sourceBatchShasMatch": "34/34",
+      "updatedQuestionsChecked": 2,
+      "updatedQuestionIdsReachable": true,
+      "targetedFilterCombinationsTested": 12,
+      "targetedFilterErrors": 0,
+      "publisherMappingLeaks": 0,
+      "allModeReachable": true,
+      "allModeQuestionCount": 2900,
+      "activeScopeQuestionCount": 1864,
+      "appReadsPersistedClassificationIndex": true,
+      "zeroResultHintPresent": true,
+      "inferenceSyntaxStructureChecked": true,
+      "inferenceSyntaxRuntimeTested": true,
+      "browserOrMobileRuntimeTested": false,
+      "fullFilterMatrixTested": false
+    },
+    "validationMethod": "以目前main的questionClassificationFor()實際執行兩題持久分類，再依index.html getPool()學期、段考、出版社與單元條件語義執行12組定向資料層測試；不等同瀏覽器實機測試。",
+    "notes": "依113康軒官方國小教材簡介，六上單元二「水溶液」及主題脈絡「混合物／物質分離」直接支持b15-030、b40-041；學期標上學期、段考維持unassigned。恢復113版六下單元二、三既有映射來源狀態；原先已改用114版來源的13題維持原映射，不回退。未宣稱學校採用版本或教師審核。"
+  },
+  "latestPublisherMappingBackfill": {
+    "runId": "2026-11-18-knsh-g6-natural-water-solution-separation-backfill-01",
+    "date": "2026-11-18",
+    "sourceHeadBeforeRun": "b37ca9060bbfaf81629d0b709619c7cac26ea303",
+    "batches": "08-41",
+    "batchFileCount": 34,
+    "fullCorpusQuestionCount": 2900,
+    "activeScopeQuestionCount": 1864,
+    "questionRecordsUpdated": 2,
+    "updatedQuestionIds": [
+      "b15-030",
+      "b40-041"
+    ],
+    "semesterAssignments": 2,
+    "semesterCorrections": 0,
+    "examPeriodAssignments": 0,
+    "publisherMappingsAdded": 1,
+    "publisherMappingReferencesAdded": 2,
+    "sourceRegistryRecovered": 1,
+    "restoredSourceMappings": 2,
+    "newQuestionsAdded": 0,
+    "sourceBatchShasMatch": "34/34",
+    "classificationRuleVersion": "2026-11-18.108",
+    "fullCorpusSemesterDistribution": {
+      "unassigned": 2169,
+      "上學期": 493,
+      "下學期": 164,
+      "全學年": 74
+    },
+    "fullCorpusExamPeriodDistribution": {
+      "unassigned": 2673,
+      "第一次段考": 65,
+      "第二次段考": 71,
+      "第三次段考": 91
+    },
+    "fullCorpusClassificationBasisDistribution": {
+      "curriculum-core": 2159,
+      "publisher-source-verified": 478,
+      "question-bank-inference": 250,
+      "unassigned": 13
+    },
+    "fullCorpusPublisherStatusDistribution": {
+      "curriculum-core": 2289,
+      "publisher-mapped": 592,
+      "pending": 19
+    },
+    "fullCorpusConfidenceDistribution": {
+      "low": 2059,
+      "medium": 803,
+      "high": 38
+    },
+    "publisherReferenceCounts": {
+      "knsh": 171,
+      "hanlin": 455,
+      "nani": 70,
+      "_total": 696
+    },
+    "mappingLevelCounts": {
+      "official-resource-title": 77,
+      "unit": 474,
+      "volume": 145,
+      "_total": 696
+    },
+    "mappingVerificationStatusCounts": {
+      "source-checked": 696,
+      "_total": 696
+    },
+    "validation": {
+      "jsonParse": true,
+      "classificationRecords": 2900,
+      "uniqueIds": 2900,
+      "duplicateIds": 0,
+      "missingFromClassification": 0,
+      "extraClassificationIds": 0,
+      "missingRequiredFields": 0,
+      "invalidClassificationValues": 0,
+      "mappingReferenceErrors": 0,
+      "sourceFieldErrors": 0,
+      "mappingScopeErrors": 0,
+      "sourceBatchShasMatch": "34/34",
+      "updatedQuestionsChecked": 2,
+      "updatedQuestionIdsReachable": true,
+      "targetedFilterCombinationsTested": 12,
+      "targetedFilterErrors": 0,
+      "publisherMappingLeaks": 0,
+      "allModeReachable": true,
+      "allModeQuestionCount": 2900,
+      "activeScopeQuestionCount": 1864,
+      "appReadsPersistedClassificationIndex": true,
+      "zeroResultHintPresent": true,
+      "inferenceSyntaxStructureChecked": true,
+      "inferenceSyntaxRuntimeTested": true,
+      "browserOrMobileRuntimeTested": false,
+      "fullFilterMatrixTested": false
+    },
+    "validationMethod": "以目前main的questionClassificationFor()實際執行兩題持久分類，再依index.html getPool()學期、段考、出版社與單元條件語義執行12組定向資料層測試；不等同瀏覽器實機測試。",
+    "notes": "依113康軒官方國小教材簡介，六上單元二「水溶液」及主題脈絡「混合物／物質分離」直接支持b15-030、b40-041；學期標上學期、段考維持unassigned。恢復113版六下單元二、三既有映射來源狀態；原先已改用114版來源的13題維持原映射，不回退。未宣稱學校採用版本或教師審核。"
+  },
+  "latestRegistryIntegrityAudit": {
+    "runId": "2026-11-18-knsh-g6-natural-water-solution-separation-backfill-01",
+    "verifiedAt": "2026-11-18",
+    "sourceRegistryCount": 71,
+    "centralMappingRegistryCount": 66,
+    "inferenceMappingRegistryCount": 66,
+    "publisherMappingReferences": 696,
+    "unresolvedMappingReferences": 0,
+    "missingSourceFields": 0,
+    "notes": "新增1筆康軒113六上水溶液單元映射；兩筆題目參照均可解析至中央教材登錄與推定器MAPS。"
   },
   "previousFullFilterMatrixAudit": {
     "runId": "2026-11-17-full-corpus-filter-matrix-01",
@@ -2124,65 +2071,59 @@
     "notes": "本輪在前一輪 active scope 1,430,100 組資料層測試之外，擴大到第08–41批全庫48組年級／科目條件，完成2,119,500組完整資料層篩選模擬；全部版本可達2,900題，零錯誤與零出版社映射洩漏。沒有修改題目分類或新增題目。"
   },
   "latestTargetedFilterValidation": {
-    "runId": "2026-11-18-hanlin-h2-history-french-revolution-volume-backfill-01",
+    "runId": "2026-11-18-knsh-g6-natural-water-solution-separation-backfill-01",
     "verifiedAt": "2026-11-18",
     "questionIds": [
-      "b41-091"
+      "b15-030",
+      "b40-041"
     ],
-    "filterCasesTested": 10,
-    "passed": 10,
+    "filterCasesTested": 12,
+    "passed": 12,
     "filterErrors": 0,
     "publisherMappingLeaks": 0,
     "allModeReachable": true,
     "allModeQuestionCount": 2900,
     "appReadsPersistedClassificationIndex": true,
     "zeroResultHintPresent": true,
-    "validationMethod": "依 index.html getPool() 的持久分類與篩選邏輯，測試全部版本、翰林、共同核心、待核對、上學期、未分類段考及單元條件的10組定向資料層組合；不等同瀏覽器實機測試。",
-    "browserOrMobileRuntimeTested": false,
-    "inferenceRuntimeTested": true
+    "inferenceRuntimeTested": true,
+    "validationMethod": "以目前main的questionClassificationFor()實際執行兩題持久分類，再依index.html getPool()學期、段考、出版社與單元條件語義執行12組定向資料層測試；不等同瀏覽器實機測試。",
+    "browserOrMobileRuntimeTested": false
   },
   "sourceRegistryCount": 71,
   "latestPublisherSourceVerificationAudit": {
-    "runId": "2026-11-18-hanlin-h2-history-french-revolution-volume-backfill-01",
+    "runId": "2026-11-18-knsh-g6-natural-water-solution-separation-backfill-01",
     "verifiedAt": "2026-11-18",
-    "sourceHeadBeforeRun": "73f056d5e8340eac9dbe84f9fcbd626a92023fde",
+    "sourceHeadBeforeRun": "b37ca9060bbfaf81629d0b709619c7cac26ea303",
     "mappingIds": [
-      "hanlin-h2-history-3-volume-french-revolution"
+      "knsh-g6-natural-113-6a-u2-solution-separation",
+      "knsh-g6-natural-6b-u2-ecosystems",
+      "knsh-g6-natural-6b-u3-earth-sustainability"
     ],
     "questionIds": [
-      "b41-091"
+      "b15-030",
+      "b40-041"
     ],
     "affectedShards": [
+      "data/question-classification-batch-14-19.json",
       "data/question-classification-batch-38-41.json"
     ],
-    "questionRecordsUpdated": 1,
-    "publisherMappingReferencesUpdated": 1,
+    "questionRecordsUpdated": 2,
+    "publisherMappingReferencesUpdated": 2,
+    "newMappingDefinitions": 1,
+    "restoredSourceMappings": 2,
+    "sourceRegistryRecovered": 1,
     "newQuestionsAdded": 0,
-    "semesterAssignments": 1,
-    "examPeriodAssignments": 0,
-    "replacementSources": [
-      {
-        "sourceUrl": "https://website.hle.com.tw/market/sh/%E8%A1%8C%E9%8A%B7%E7%AB%99/113/%E6%AD%B7%E5%8F%B2/%E6%95%99%E6%9D%90%E7%B0%A1%E4%BB%8B/113%E7%BF%B0%E6%9E%97%E6%99%AE%E9%AB%98%E6%95%99%E6%9D%90%E7%B0%A1%E4%BB%8B%E6%9C%AC_%E6%AD%B7%E5%8F%B2.pdf",
-        "sourceTitle": "翰林113上高中歷史教材簡介－歷史3課本P.60–61「法國大革命至拿破崙時代大事紀要」",
-        "verificationStatus": "source-checked"
-      },
-      {
-        "sourceUrl": "https://books.hanlin.com.tw/product/008021",
-        "sourceTitle": "翰林書城－高中課本－歷史(3)（高中二年級／上學期）",
-        "verificationStatus": "source-checked"
-      }
-    ],
     "validation": {
       "allShardJsonParse": true,
-      "updatedQuestionIdsFound": 1,
+      "updatedQuestionIdsFound": 2,
       "scopeErrors": 0,
       "missingSourceFields": 0,
       "mappingRegistryReferencesResolved": 1,
       "filterMappingIdPreserved": true,
-      "browserOrMobileTest": false,
-      "inferenceSyntaxRuntimeTested": true
+      "inferenceSyntaxRuntimeTested": true,
+      "browserOrMobileTest": false
     }
   },
-  "centralMappingRegistryCount": 65,
-  "inferenceMappingRegistryCount": 65
+  "centralMappingRegistryCount": 66,
+  "inferenceMappingRegistryCount": 66
 }
