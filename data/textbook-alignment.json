@@ -3062,6 +3062,36 @@
       "mappingIds": [
         "knsh-g6-natural-114-6b-u3-ecology"
       ]
+    },
+    {
+      "id": "naer-natural-108-curriculum-pdf",
+      "publisher": "curriculum-core",
+      "sourceType": "curriculum-reference",
+      "sourceUrl": "https://stv.naer.edu.tw/data/course_outline/pta_18538_240851_60502.pdf",
+      "sourceTitle": "國家教育研究院－十二年國民基本教育自然科學領域課程綱要（第四學習階段）",
+      "verifiedAt": "2026-11-17",
+      "verificationStatus": "source-checked",
+      "notes": "課綱PDF分列國小、國中與高中學習階段；第四學習階段列Ea-IV-1密度與Eb-IV-6浮力。作年級範圍核對，不作出版社或學校段考映射。"
+    },
+    {
+      "id": "educloud-density-grade78",
+      "publisher": "curriculum-core",
+      "sourceType": "curriculum-reference",
+      "sourceUrl": "https://market.cloud.edu.tw/resources/video/1838972",
+      "sourceTitle": "教育部委辦數位內容資源－看見自然EP207：八上密度",
+      "verifiedAt": "2026-11-17",
+      "verificationStatus": "source-checked",
+      "notes": "資源明示國中7–9年級、學習內容Ea-IV-1；僅作密度概念的學習階段核對，不作出版社映射。"
+    },
+    {
+      "id": "educloud-buoyancy-grade78",
+      "publisher": "curriculum-core",
+      "sourceType": "curriculum-reference",
+      "sourceUrl": "https://market.cloud.edu.tw/resources/video/1838832",
+      "sourceTitle": "教育部委辦數位內容資源－看見自然EP151：八下密度與浮力的關係",
+      "verifiedAt": "2026-11-17",
+      "verificationStatus": "source-checked",
+      "notes": "資源明示國中7–9年級、學習內容Eb-IV-6；僅作密度／浮力概念的學習階段核對，不作出版社映射。"
     }
   ],
   "classificationAudit": {
@@ -7736,6 +7766,43 @@
       ],
       "questionRecordsUpdated": 30,
       "publisherMappingReferencesUpdated": 30
+    },
+    {
+      "runId": "2026-11-17-grade-scope-density-review-01",
+      "verifiedAt": "2026-11-17",
+      "sourceChecks": [
+        {
+          "sourceId": "naer-natural-108-curriculum-pdf",
+          "sourceUrl": "https://stv.naer.edu.tw/data/course_outline/pta_18538_240851_60502.pdf",
+          "sourceTitle": "國家教育研究院－十二年國民基本教育自然科學領域課程綱要（第四學習階段）",
+          "verificationStatus": "source-checked",
+          "notes": "課綱PDF分列國小、國中與高中學習階段；第四學習階段列Ea-IV-1密度與Eb-IV-6浮力。作年級範圍核對，不作出版社或學校段考映射。"
+        },
+        {
+          "sourceId": "educloud-density-grade78",
+          "sourceUrl": "https://market.cloud.edu.tw/resources/video/1838972",
+          "sourceTitle": "教育部委辦數位內容資源－看見自然EP207：八上密度",
+          "verificationStatus": "source-checked",
+          "notes": "資源明示國中7–9年級、學習內容Ea-IV-1；僅作密度概念的學習階段核對，不作出版社映射。"
+        },
+        {
+          "sourceId": "educloud-buoyancy-grade78",
+          "sourceUrl": "https://market.cloud.edu.tw/resources/video/1838832",
+          "sourceTitle": "教育部委辦數位內容資源－看見自然EP151：八下密度與浮力的關係",
+          "verificationStatus": "source-checked",
+          "notes": "資源明示國中7–9年級、學習內容Eb-IV-6；僅作密度／浮力概念的學習階段核對，不作出版社映射。"
+        }
+      ],
+      "questionIds": [
+        "b25-032",
+        "b26-032",
+        "b30-029",
+        "b38-034",
+        "b31-039",
+        "b33-036",
+        "b34-037"
+      ],
+      "notes": "7題原始年級欄位與課綱概念學習階段不一致，保留原題與原年級，暫改為unassigned/pending；待教師或題目來源確認，不宣稱教師審核。未重跑全庫篩選矩陣或瀏覽器實機測試。"
     }
   ],
   "high2MathCourseTrackAudit": {
@@ -8003,27 +8070,33 @@
     "newQuestionsAdded": 0
   },
   "lastRunAudit": {
-    "runId": "2026-11-17-full-corpus-filter-matrix-01",
+    "runId": "2026-11-17-grade-scope-density-review-01",
     "date": "2026-11-17",
-    "sourceHeadBeforeRun": "12a9522dc0c5cbd93adcac21e550ff46dd820dd7",
+    "sourceHeadBeforeRun": "bf13a85d3c2064f18fa86bf8d7c7c372fe91216e",
     "batches": "08-41",
     "batchFileCount": 34,
     "fullCorpusQuestionCount": 2900,
     "activeScopeQuestionCount": 1864,
-    "questionRecordsUpdated": 0,
-    "updatedQuestionIds": [],
+    "questionRecordsUpdated": 7,
+    "updatedQuestionIds": [
+      "b25-032",
+      "b26-032",
+      "b30-029",
+      "b38-034",
+      "b31-039",
+      "b33-036",
+      "b34-037"
+    ],
     "semesterAssignments": 0,
     "examPeriodAssignments": 0,
     "publisherMappingsAdded": 0,
     "publisherMappingReferencesAdded": 0,
-    "inferenceMappingsAdded": 0,
-    "indexShardShaCorrections": 0,
+    "classificationBasisCorrections": 7,
+    "publisherStatusCorrections": 7,
     "newQuestionsAdded": 0,
-    "sourceBatchShasMatch": "34/34",
-    "classificationRuleVersion": "2026-11-17.103",
     "fullCorpusSemesterDistribution": {
-      "unassigned": 2175,
-      "上學期": 487,
+      "unassigned": 2172,
+      "上學期": 490,
       "下學期": 164,
       "全學年": 74,
       "_total": 2900
@@ -8036,38 +8109,23 @@
       "_total": 2900
     },
     "fullCorpusClassificationBasisDistribution": {
-      "curriculum-core": 2178,
-      "publisher-source-verified": 466,
+      "unassigned": 7,
+      "curriculum-core": 2168,
+      "publisher-source-verified": 469,
       "question-bank-inference": 256,
       "_total": 2900
     },
     "fullCorpusPublisherStatusDistribution": {
-      "curriculum-core": 2314,
-      "publisher-mapped": 580,
-      "pending": 6,
-      "_total": 2900
-    },
-    "fullCorpusConfidenceDistribution": {
-      "low": 2064,
-      "medium": 798,
-      "high": 38,
+      "pending": 13,
+      "publisher-mapped": 583,
+      "curriculum-core": 2304,
       "_total": 2900
     },
     "publisherReferenceCounts": {
       "knsh": 168,
-      "hanlin": 446,
+      "hanlin": 449,
       "nani": 70,
-      "_total": 684
-    },
-    "mappingLevelCounts": {
-      "official-resource-title": 77,
-      "unit": 468,
-      "volume": 139,
-      "_total": 684
-    },
-    "mappingVerificationStatusCounts": {
-      "source-checked": 684,
-      "_total": 684
+      "_total": 687
     },
     "validation": {
       "classificationRecords": 2900,
@@ -8075,30 +8133,18 @@
       "duplicateIds": 0,
       "missingFromClassification": 0,
       "missingRequiredFields": 0,
+      "invalidClassificationValues": 0,
       "mappingReferenceErrors": 0,
-      "sourceFieldErrors": 0,
+      "mappingSourceFieldErrors": 0,
       "mappingScopeErrors": 0,
-      "sourceBatchShasMatch": "34/34",
-      "indexShardShaMismatchesAfter": 0,
-      "centralMappingRegistryCount": 64,
-      "inferenceMappingRegistryCount": 64,
-      "filterCombinationsTested": 2119500,
-      "nonZeroFilterCombinations": 37696,
-      "zeroResultCombinations": 2081804,
-      "filterErrors": 0,
-      "publisherMappingLeaks": 0,
-      "allModeReachable": true,
-      "allModeQuestionCount": 2900,
-      "activeScopeQuestionCount": 1864,
-      "activeScopeAllModeQuestionCount": 1864,
-      "appReadsPersistedClassificationIndex": true,
-      "zeroResultHintPresent": true,
-      "serviceWorkerAssetManifestComplete": true,
-      "inferenceSyntaxValid": true,
-      "fullFilterMatrixTested": true,
+      "sourceRegistryCount": 69,
+      "sourceRegistrySourceChecked": 66,
+      "sourceRegistryPending": 1,
+      "sourceRegistryUnavailable": 2,
+      "filterMatrixTestedThisRun": false,
       "browserOrMobileRuntimeTested": false
     },
-    "notes": "本輪在前一輪 active scope 1,430,100 組資料層測試之外，擴大到第08–41批全庫48組年級／科目條件，完成2,119,500組完整資料層篩選模擬；全部版本可達2,900題，零錯誤與零出版社映射洩漏。沒有修改題目分類或新增題目。"
+    "notes": "7題原始年級欄位與課綱概念學習階段不一致，保留原題與原年級，暫改為unassigned/pending；待教師或題目來源確認，不宣稱教師審核。未重跑全庫篩選矩陣或瀏覽器實機測試。"
   },
   "latestMappingScopeCorrection": {
     "date": "2026-11-14",
@@ -8419,27 +8465,33 @@
     }
   ],
   "latestMainAudit": {
-    "runId": "2026-11-17-full-corpus-filter-matrix-01",
+    "runId": "2026-11-17-grade-scope-density-review-01",
     "date": "2026-11-17",
-    "sourceHeadBeforeRun": "12a9522dc0c5cbd93adcac21e550ff46dd820dd7",
+    "sourceHeadBeforeRun": "bf13a85d3c2064f18fa86bf8d7c7c372fe91216e",
     "batches": "08-41",
     "batchFileCount": 34,
     "fullCorpusQuestionCount": 2900,
     "activeScopeQuestionCount": 1864,
-    "questionRecordsUpdated": 0,
-    "updatedQuestionIds": [],
+    "questionRecordsUpdated": 7,
+    "updatedQuestionIds": [
+      "b25-032",
+      "b26-032",
+      "b30-029",
+      "b38-034",
+      "b31-039",
+      "b33-036",
+      "b34-037"
+    ],
     "semesterAssignments": 0,
     "examPeriodAssignments": 0,
     "publisherMappingsAdded": 0,
     "publisherMappingReferencesAdded": 0,
-    "inferenceMappingsAdded": 0,
-    "indexShardShaCorrections": 0,
+    "classificationBasisCorrections": 7,
+    "publisherStatusCorrections": 7,
     "newQuestionsAdded": 0,
-    "sourceBatchShasMatch": "34/34",
-    "classificationRuleVersion": "2026-11-17.103",
     "fullCorpusSemesterDistribution": {
-      "unassigned": 2175,
-      "上學期": 487,
+      "unassigned": 2172,
+      "上學期": 490,
       "下學期": 164,
       "全學年": 74,
       "_total": 2900
@@ -8452,38 +8504,23 @@
       "_total": 2900
     },
     "fullCorpusClassificationBasisDistribution": {
-      "curriculum-core": 2178,
-      "publisher-source-verified": 466,
+      "unassigned": 7,
+      "curriculum-core": 2168,
+      "publisher-source-verified": 469,
       "question-bank-inference": 256,
       "_total": 2900
     },
     "fullCorpusPublisherStatusDistribution": {
-      "curriculum-core": 2314,
-      "publisher-mapped": 580,
-      "pending": 6,
-      "_total": 2900
-    },
-    "fullCorpusConfidenceDistribution": {
-      "low": 2064,
-      "medium": 798,
-      "high": 38,
+      "pending": 13,
+      "publisher-mapped": 583,
+      "curriculum-core": 2304,
       "_total": 2900
     },
     "publisherReferenceCounts": {
       "knsh": 168,
-      "hanlin": 446,
+      "hanlin": 449,
       "nani": 70,
-      "_total": 684
-    },
-    "mappingLevelCounts": {
-      "official-resource-title": 77,
-      "unit": 468,
-      "volume": 139,
-      "_total": 684
-    },
-    "mappingVerificationStatusCounts": {
-      "source-checked": 684,
-      "_total": 684
+      "_total": 687
     },
     "validation": {
       "classificationRecords": 2900,
@@ -8491,30 +8528,18 @@
       "duplicateIds": 0,
       "missingFromClassification": 0,
       "missingRequiredFields": 0,
+      "invalidClassificationValues": 0,
       "mappingReferenceErrors": 0,
-      "sourceFieldErrors": 0,
+      "mappingSourceFieldErrors": 0,
       "mappingScopeErrors": 0,
-      "sourceBatchShasMatch": "34/34",
-      "indexShardShaMismatchesAfter": 0,
-      "centralMappingRegistryCount": 64,
-      "inferenceMappingRegistryCount": 64,
-      "filterCombinationsTested": 2119500,
-      "nonZeroFilterCombinations": 37696,
-      "zeroResultCombinations": 2081804,
-      "filterErrors": 0,
-      "publisherMappingLeaks": 0,
-      "allModeReachable": true,
-      "allModeQuestionCount": 2900,
-      "activeScopeQuestionCount": 1864,
-      "activeScopeAllModeQuestionCount": 1864,
-      "appReadsPersistedClassificationIndex": true,
-      "zeroResultHintPresent": true,
-      "serviceWorkerAssetManifestComplete": true,
-      "inferenceSyntaxValid": true,
-      "fullFilterMatrixTested": true,
+      "sourceRegistryCount": 69,
+      "sourceRegistrySourceChecked": 66,
+      "sourceRegistryPending": 1,
+      "sourceRegistryUnavailable": 2,
+      "filterMatrixTestedThisRun": false,
       "browserOrMobileRuntimeTested": false
     },
-    "notes": "本輪在前一輪 active scope 1,430,100 組資料層測試之外，擴大到第08–41批全庫48組年級／科目條件，完成2,119,500組完整資料層篩選模擬；全部版本可達2,900題，零錯誤與零出版社映射洩漏。沒有修改題目分類或新增題目。"
+    "notes": "7題原始年級欄位與課綱概念學習階段不一致，保留原題與原年級，暫改為unassigned/pending；待教師或題目來源確認，不宣稱教師審核。未重跑全庫篩選矩陣或瀏覽器實機測試。"
   },
   "statistics": {
     "questionCount": 2900,
@@ -8524,8 +8549,8 @@
     "missingRequiredFields": 0,
     "invalidClassificationValues": 0,
     "semester": {
-      "unassigned": 2175,
-      "上學期": 487,
+      "unassigned": 2172,
+      "上學期": 490,
       "下學期": 164,
       "全學年": 74,
       "_total": 2900
@@ -8538,56 +8563,57 @@
       "_total": 2900
     },
     "classificationBasis": {
-      "curriculum-core": 2178,
-      "publisher-source-verified": 466,
+      "unassigned": 7,
+      "curriculum-core": 2168,
+      "publisher-source-verified": 469,
       "question-bank-inference": 256,
       "_total": 2900
     },
     "publisherStatus": {
-      "curriculum-core": 2314,
-      "publisher-mapped": 580,
-      "pending": 6,
+      "pending": 13,
+      "publisher-mapped": 583,
+      "curriculum-core": 2304,
       "_total": 2900
     },
     "confidence": {
-      "low": 2064,
+      "low": 2067,
       "medium": 798,
       "high": 38,
       "_total": 2900
     },
-    "publisherMappedQuestionCount": 580,
-    "publisherMappingReferenceCount": 684,
-    "validPublisherMappingReferenceCount": 684,
+    "publisherMappedQuestionCount": 583,
+    "publisherMappingReferenceCount": 687,
+    "validPublisherMappingReferenceCount": 687,
     "centralMappingRegistryCount": 64,
-    "pendingQuestionCount": 6,
+    "pendingQuestionCount": 13,
     "curriculumCoreStatusCount": 2314,
     "publisherReferenceCounts": {
       "knsh": 168,
-      "hanlin": 446,
+      "hanlin": 449,
       "nani": 70,
-      "_total": 684
+      "_total": 687
     },
     "validPublisherReferenceCounts": {
       "knsh": 168,
-      "hanlin": 446,
+      "hanlin": 449,
       "nani": 70,
-      "_total": 684
+      "_total": 687
     },
     "mappingLevelCounts": {
       "official-resource-title": 77,
-      "unit": 468,
+      "unit": 471,
       "volume": 139,
-      "_total": 684
+      "_total": 687
     },
     "validMappingLevelCounts": {
       "official-resource-title": 77,
-      "unit": 468,
+      "unit": 471,
       "volume": 139,
-      "_total": 684
+      "_total": 687
     },
     "mappingVerificationStatus": {
-      "source-checked": 684,
-      "_total": 684
+      "source-checked": 687,
+      "_total": 687
     },
     "centralMappingRegistryVerificationStatusCounts": {
       "source-checked": 62,
@@ -8609,8 +8635,8 @@
       "全學年": 74,
       "_total": 2900
     },
-    "semesterAssignedQuestionCount": 725,
-    "semesterUnassignedQuestionCount": 2175,
+    "semesterAssignedQuestionCount": 728,
+    "semesterUnassignedQuestionCount": 2172,
     "examPeriodCounts": {
       "unassigned": 2673,
       "第一次段考": 65,
@@ -8638,7 +8664,7 @@
       "pending": 6,
       "_total": 2900
     },
-    "curriculumCoreQuestionCount": 2314,
+    "curriculumCoreQuestionCount": 2304,
     "sourceUnavailableMappingReferenceCount": 0,
     "inferenceMappingRegistryCount": 64,
     "activeScopeQuestionCount": 1864,
@@ -8659,9 +8685,9 @@
         "_total": 1864
       },
       "publisherStatus": {
-        "curriculum-core": 1278,
+        "curriculum-core": 1271,
         "publisher-mapped": 580,
-        "pending": 6,
+        "pending": 13,
         "_total": 1864
       }
     },
@@ -10844,11 +10870,64 @@
     "filterMatrixTestedThisRun": false,
     "notes": "Fresh main reconciliation: all 34 batch blob SHAs match the six classification shard sourceBatchShas maps; all six shard blob SHAs match the classification index. Removed a null placeholder from textbook-alignment.mappings; no question record or publisher mapping was changed. The existing 2,119,500-case data-layer filter audit remains the latest filter-matrix evidence; this registry cleanup did not rerun it."
   },
-  "sourceRegistryCount": 66,
+  "sourceRegistryCount": 69,
   "sourceRegistryVerificationStatusCounts": {
-    "source-checked": 63,
+    "source-checked": 66,
     "pending": 1,
     "source-unavailable": 2,
-    "_total": 66
+    "_total": 69
+  },
+  "latestGradeScopeAudit": {
+    "runId": "2026-11-17-grade-scope-density-review-01",
+    "verifiedAt": "2026-11-17",
+    "sourceHeadBeforeRun": "bf13a85d3c2064f18fa86bf8d7c7c372fe91216e",
+    "batches": "08-41",
+    "batchFileCount": 34,
+    "fullCorpusQuestionCount": 2900,
+    "uniqueClassificationIds": 2900,
+    "duplicateClassificationIds": 0,
+    "missingClassificationIds": 0,
+    "questionRecordsUpdated": 7,
+    "updatedQuestionIds": [
+      "b25-032",
+      "b26-032",
+      "b30-029",
+      "b38-034",
+      "b31-039",
+      "b33-036",
+      "b34-037"
+    ],
+    "classificationBasisCorrections": 7,
+    "publisherStatusCorrections": 7,
+    "semesterAssignments": 0,
+    "examPeriodAssignments": 0,
+    "publisherMappingsAdded": 0,
+    "publisherMappingReferencesAdded": 0,
+    "newQuestionsAdded": 0,
+    "sourceBatchShasReverifiedThisRun": false,
+    "sources": [
+      {
+        "sourceId": "naer-natural-108-curriculum-pdf",
+        "sourceUrl": "https://stv.naer.edu.tw/data/course_outline/pta_18538_240851_60502.pdf",
+        "learningStage": "第四學習階段（國中7–9年級）",
+        "learningCodes": [
+          "Ea-IV-1",
+          "Eb-IV-6"
+        ]
+      },
+      {
+        "sourceId": "educloud-density-grade78",
+        "sourceUrl": "https://market.cloud.edu.tw/resources/video/1838972",
+        "learningStage": "國中7–9年級",
+        "learningCode": "Ea-IV-1"
+      },
+      {
+        "sourceId": "educloud-buoyancy-grade78",
+        "sourceUrl": "https://market.cloud.edu.tw/resources/video/1838832",
+        "learningStage": "國中7–9年級",
+        "learningCode": "Eb-IV-6"
+      }
+    ],
+    "notes": "7題原始年級欄位與課綱概念學習階段不一致，保留原題與原年級，暫改為unassigned/pending；待教師或題目來源確認，不宣稱教師審核。未重跑全庫篩選矩陣或瀏覽器實機測試。"
   }
 }
