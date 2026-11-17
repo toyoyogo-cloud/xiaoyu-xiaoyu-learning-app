@@ -3,7 +3,7 @@
   "target": 1000,
   "currentVerifiedNewGradeSpecificQuestions": 2900,
   "targetRemainder": 0,
-  "updatedAt": "2026-11-16",
+  "updatedAt": "2026-11-17",
   "distributionTarget": [
     {
       "stage": "國小",
@@ -2197,41 +2197,45 @@
   },
   "classificationProgress": {
     "phase": "既有題庫分類優先",
-    "auditedAt": "2026-11-16",
+    "auditedAt": "2026-11-17",
     "batchRange": "08-41",
     "batchFileCount": 34,
     "rawQuestionCount": 2900,
     "uniqueQuestionIds": 2900,
     "persistentClassificationCount": 2900,
     "semester": {
-      "unassigned": 2236,
-      "上學期": 444,
-      "下學期": 146,
-      "全學年": 74
+      "unassigned": 2194,
+      "上學期": 468,
+      "下學期": 164,
+      "全學年": 74,
+      "_total": 2900
     },
     "examPeriod": {
       "unassigned": 2673,
       "第一次段考": 65,
       "第二次段考": 71,
-      "第三次段考": 91
+      "第三次段考": 91,
+      "_total": 2900
     },
     "classificationBasis": {
-      "curriculum-core": 2251,
-      "question-bank-inference": 262,
-      "publisher-source-verified": 387
+      "curriculum-core": 2197,
+      "publisher-source-verified": 447,
+      "question-bank-inference": 256,
+      "_total": 2900
     },
     "publisherStatus": {
-      "curriculum-core": 2406,
-      "publisher-mapped": 488,
-      "pending": 6
+      "curriculum-core": 2349,
+      "publisher-mapped": 545,
+      "pending": 6,
+      "_total": 2900
     },
-    "publisherMappingReferences": 592,
-    "centralCurriculumReferences": 55,
-    "sourceRegistryEntries": 38,
+    "publisherMappingReferences": 649,
+    "centralCurriculumReferences": 60,
     "confidence": {
-      "low": 2119,
-      "medium": 735,
-      "high": 46
+      "low": 2081,
+      "medium": 781,
+      "high": 38,
+      "_total": 2900
     },
     "activeScope": {
       "questionCount": 1864,
@@ -2240,16 +2244,18 @@
         "高二": 974
       },
       "semester": {
-        "unassigned": 1200,
-        "上學期": 444,
-        "下學期": 146,
-        "全學年": 74
+        "unassigned": 1158,
+        "上學期": 468,
+        "下學期": 164,
+        "全學年": 74,
+        "_total": 1864
       },
       "examPeriod": {
         "unassigned": 1637,
         "第一次段考": 65,
         "第二次段考": 71,
-        "第三次段考": 91
+        "第三次段考": 91,
+        "_total": 1864
       },
       "publisherStatus": {
         "curriculum-core": 1370,
@@ -2258,13 +2264,20 @@
       }
     },
     "lastRun": {
-      "runId": "2026-11-16-hanlin-h2-civic-admin-law-backfill-01",
-      "questionRecordsUpdated": 29,
-      "semesterAssigned": 29,
+      "runId": "2026-11-17-knsh-g6-natural-ecology-backfill-01",
+      "questionRecordsUpdated": 4,
+      "updatedQuestionIds": [
+        "b10-006",
+        "b23-030",
+        "b27-027",
+        "b29-032"
+      ],
+      "semesterAssigned": 4,
       "examPeriodAssigned": 0,
-      "publisherMappingsAdded": 29,
+      "publisherMappingsAdded": 4,
+      "publisherMappingReferencesCorrected": 260,
       "newQuestionsAdded": 0,
-      "classificationRuleVersion": "2026-11-16.80"
+      "classificationRuleVersion": "2026-11-17.96"
     },
     "validation": {
       "duplicateIds": 0,
@@ -2272,15 +2285,14 @@
       "invalidClassificationValues": 0,
       "mappingConsistencyErrors": 0,
       "rawBatchShaMatches": "34/34",
-      "incrementalFilterCombinations": 7800,
+      "filterCombinationsTested": 7800,
       "filterErrors": 0,
       "publisherFilterLeaks": 0,
-      "browserOrMobileRuntimeTested": false,
-      "classificationIndexStatisticsSynced": true,
+      "allModeReachable": true,
+      "allModeQuestionCount": 2900,
       "classificationIndexEntries": 2900,
-      "indexStatsMatchCurrentShards": true,
-      "serviceWorkerCache": "xy-learning-v166"
-    },
-    "notes": "本輪完成29題高二公民依法行政與行政救濟單元的官方來源核對及持久分類；原始34批題庫未修改，未新增題目。"
+      "serviceWorkerCache": "xy-learning-v183",
+      "browserOrMobileRuntimeTested": false
+    }
   }
 }
