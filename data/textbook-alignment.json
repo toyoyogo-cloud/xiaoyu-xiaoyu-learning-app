@@ -2839,7 +2839,8 @@
       "verifiedAt": "2026-11-15",
       "verificationStatus": "source-checked",
       "sourceType": "official-publisher",
-      "verifiedScope": "官方頁明示自然、國小6年級、上學期及課本習作類別；未提供細分目次，僅冊別層級。"
+      "verifiedScope": "官方頁明示自然、國小6年級、上學期及課本習作類別；未提供細分目次，僅冊別層級。",
+      "notes": "翰林官方商品頁明示國小六年級自然、上學期及課本類別；頁面未提供細分目次，因此只作6上冊別層級證據，不將題目自動標為特定單元，也不代表學校採用版本。"
     },
     {
       "id": "hanlin-h2-civic-3-textbook-product",
