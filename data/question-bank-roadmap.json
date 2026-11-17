@@ -1371,8 +1371,13 @@
       "updatedQuestionsReachable": true,
       "targetedFilterCasesTested": 7,
       "targetedFilterErrors": 0,
-      "fullFilterMatrixTested": false,
-      "browserOrMobileRuntimeTested": false
+      "fullFilterMatrixTested": true,
+      "browserOrMobileRuntimeTested": false,
+      "filterCombinationsTested": 7800,
+      "nonZeroFilterCombinations": 560,
+      "zeroResultCombinations": 7240,
+      "filterErrors": 0,
+      "publisherMappingLeaks": 0
     }
   },
   "latestClassificationBackfill": {
@@ -1449,8 +1454,13 @@
       "updatedQuestionsReachable": true,
       "targetedFilterCasesTested": 7,
       "targetedFilterErrors": 0,
-      "fullFilterMatrixTested": false,
-      "browserOrMobileRuntimeTested": false
+      "fullFilterMatrixTested": true,
+      "browserOrMobileRuntimeTested": false,
+      "filterCombinationsTested": 7800,
+      "nonZeroFilterCombinations": 560,
+      "zeroResultCombinations": 7240,
+      "filterErrors": 0,
+      "publisherMappingLeaks": 0
     }
   },
   "batch09UnassignedReview": {
@@ -2218,6 +2228,47 @@
       "publisherMappingsAdded": 7,
       "newQuestionsAdded": 0,
       "classificationRuleVersion": "2026-11-17.99"
+    },
+    "validation": {
+      "duplicateIds": 0,
+      "missingRequiredFields": 0,
+      "invalidClassificationValues": 0,
+      "mappingConsistencyErrors": 0,
+      "rawBatchShaMatches": "34/34",
+      "filterCombinationsTested": 7800,
+      "filterErrors": 0,
+      "publisherFilterLeaks": 0,
+      "allModeReachable": true,
+      "allModeQuestionCount": 2900,
+      "classificationIndexEntries": 2900,
+      "serviceWorkerCache": "xy-learning-v186",
+      "browserOrMobileRuntimeTested": false
+    },
+    "filterValidation": {
+      "date": "2026-11-17",
+      "runId": "2026-11-17-hanlin-h2-geography-globalization-backfill-02",
+      "gradeSubjectCombinations": 48,
+      "filterCombinationsTested": 7800,
+      "nonZeroCombinations": 560,
+      "zeroResultCombinations": 7240,
+      "filterErrors": 0,
+      "publisherMappingLeaks": 0,
+      "allModeReachable": true,
+      "allModeQuestionCount": 2900,
+      "updatedQuestionIds": [
+        "b8-026",
+        "b11-019",
+        "b13-022",
+        "b17-075",
+        "b23-069",
+        "b26-076",
+        "b30-093"
+      ],
+      "updatedQuestionsReachable": true,
+      "hanlinUpperSemesterExamUnassignedPass": true,
+      "unitFilterGlobalizationPass": true,
+      "validationMethod": "data-layer simulation of index.html getPool() filter semantics",
+      "browserOrMobileRuntimeTested": false
     }
   },
   "latestPublisherMappingBackfill": {
