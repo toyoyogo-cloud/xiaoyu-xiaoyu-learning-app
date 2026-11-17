@@ -1550,3 +1550,21 @@ Repository → Settings → Pages → Build and deployment → Deploy from a bra
 - 三組題目均保留原有「下學期」分類、examPeriod=unassigned、classificationBasis=publisher-source-verified及原confidence、publisherStatus與mappingId；僅更新publisherMappings、sourceRef、來源標題與驗證狀態。未宣稱使用者學校採用版本，也未推定正式段考範圍。
 - 中央mapping registry仍64筆；sourceRegistry更新為66筆（source-checked 63、source-unavailable 2、pending 1）。本輪新增題目0、題目總數不變；六個分類分片SHA將同步更新至分類索引。
 - 待完成提交後驗收：JSON解析、30題ID及映射參照、出版社／年級／科目／學期一致性、索引SHA及Service Worker資產快取。未執行瀏覽器／手機實機測試。
+
+
+
+## 2026-11-17｜康軒114六下自然30題來源交叉複核
+
+- 重新讀取 main 第08–41批34個原始題庫檔、六個分類分片及中央教材映射。題庫共2,900題；六個分類分片共2,900筆，唯一ID完整，34個原始批次 SHA 與分類索引來源 SHA 逐一相符（34/34）。
+- 重新逐題檢視30道既有題目原始題幹，並核對其持久映射：
+  - 單元一「簡單機械」5題：b21-030、b27-039、b30-030、b32-028、b33-038。
+  - 單元二「能量與生活」5題：b8-009、b16-023、b27-035、b34-035、b39-036。
+  - 單元三「地球的生態」20題：b10-006、b15-022、b18-025、b19-025、b23-030、b24-032、b25-030、b27-027、b29-032、b30-025、b31-036、b32-027、b33-033、b35-033、b36-040、b38-039、b39-038、b40-037、b41-035、b41-040。
+- 官方來源交叉核對：
+  - [後塘國小114學年度第二學期六年級自然課程計畫（康軒版第十二冊）](https://course.cyc.edu.tw/upfile/course114/sub1/15937166927547299.pdf)：明列六年級、自然、第二學期、康軒版第十二冊及單元一至三；這是單一學校採用案例，不代表使用者學校採用康軒。
+  - [康軒114學年度下學期自然期中資源](https://digitalmaster.knsh.com.tw/el/nature/digital2-midterm/)：高年級資源列單元一簡單機械及單元二能量與生活。
+  - [康軒114學年度下學期自然期末資源](https://digitalmaster.knsh.com.tw/el/nature/digital2-final/)：高年級資源列單元三生態、食物鏈、能量傳遞、生物多樣性及外來種。
+- 30題均確認為國小六年級自然，現有康軒114六下單元映射與題意相符；既有 semester=下學期、examPeriod=unassigned、classificationBasis=publisher-source-verified 均維持不變。期中／期末資源頁不是使用者學校正式考試範圍，因此不推定第一次、第二次或第三次段考。
+- 原先失效的康軒114自然文宣PDF仍保留在 sourceRegistry 作歷史追溯，狀態為 source-unavailable；不再作為現行映射證據。三筆現行單元映射使用學校課程計畫與康軒官方數位服務頁交叉支持。
+- 資料層定向篩選檢查30/30通過：年級、科目、下學期、段考未分類、康軒已核對映射及單元欄位均一致；index.html 讀取持久分類索引並以 source-checked 映射執行出版社篩選，零題提示存在。未執行瀏覽器／手機實機測試。
+- 全庫統計未變：2,900題、持久分類2,900筆；學期上學期490／下學期164／全學年74／未分類2,172；段考第一次65／第二次71／第三次91／未分類2,673；出版社映射題583、映射參照687；108課綱共同核心2,298、待核對19。新增題目0；未修改題幹、選項、答案、解析、錯題本、收藏、測驗紀錄或學藝活動題庫。
