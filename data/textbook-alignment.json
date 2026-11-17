@@ -1,7 +1,7 @@
 {
   "title": "南一／翰林／康軒教材版本對照資料庫",
   "schemaVersion": "1.0.13",
-  "updatedAt": "2026-11-17",
+  "updatedAt": "2026-11-18",
   "purpose": "同時支援跨版本共同核心整合與指定出版社版本練習。此檔先建立資料規格；未經官方或學校教材核對的單元不得標示為已對應。",
   "modes": [
     {
@@ -2254,9 +2254,32 @@
         "民族自決",
         "戰後民族獨立"
       ]
+    },
+    {
+      "id": "hanlin-h2-history-3-volume-french-revolution",
+      "mappingId": "hanlin-h2-history-3-volume-french-revolution",
+      "schoolYear": "113學年度",
+      "stage": "高中",
+      "grade": "高二",
+      "subject": "歷史",
+      "semester": "上學期",
+      "publisher": "hanlin",
+      "volume": "高中歷史(3)",
+      "unitCode": "冊別層級",
+      "unitName": "高中歷史(3)冊別層級對照（未核對具體單元）",
+      "learningContent": "法國大革命背景與發展；翰林113上高中歷史教材簡介標示歷史3課本P.60–61「法國大革命至拿破崙時代大事紀要」。",
+      "sourceType": "publisher-official-textbook-introduction",
+      "sourceUrl": "https://website.hle.com.tw/market/sh/%E8%A1%8C%E9%8A%B7%E7%AB%99/113/%E6%AD%B7%E5%8F%B2/%E6%95%99%E6%9D%90%E7%B0%A1%E4%BB%8B/113%E7%BF%B0%E6%9E%97%E6%99%AE%E9%AB%98%E6%95%99%E6%9D%90%E7%B0%A1%E4%BB%8B%E6%9C%AC_%E6%AD%B7%E5%8F%B2.pdf",
+      "sourceTitle": "翰林113上高中歷史教材簡介－歷史3課本P.60–61「法國大革命至拿破崙時代大事紀要」",
+      "verifiedAt": "2026-11-18",
+      "verificationStatus": "source-checked",
+      "notes": "翰林官方113上高中歷史教材簡介直接標示歷史3課本P.60–61，並呈現法國大革命至拿破崙時代大事紀要；翰林書城官方商品頁008021確認高中二年級、歷史(3)、上學期。題目以政府財政危機、階層特權不平等與糧價上漲概括革命背景，與冊內法國大革命主題直接相關。來源只支持冊別層級，未核對具體單元，故不填單元代碼或單元名稱。此為113學年度教材資料對照，題庫題目未標學年度；不代表題目取自教材、不代表使用者學校採用翰林，也不代表正式段考範圍。",
+      "courseType": "未確認",
+      "courseTrack": null,
+      "mappingLevel": "volume"
     }
   ],
-  "mappingStatus": "source-checked-62-mappings",
+  "mappingStatus": "source-checked-63-mappings",
   "nextSteps": [
     "下一輪先檢查國小六年級自然／社會及高中高二歷史中，是否有已核對官方單元映射但尚未持久引用的題目；數學A/B軌別不明者維持待核對。",
     "高二公民「負外部性／外部成本與政策」9題已依翰林公民與社會(3)乙版高二上學期商品頁及配套評量本第4單元目次建立單元層級映射；段考維持unassigned，其他出版社及學校採用版本不推定。",
@@ -3092,6 +3115,32 @@
       "verifiedAt": "2026-11-17",
       "verificationStatus": "source-checked",
       "notes": "資源明示國中7–9年級、學習內容Eb-IV-6；僅作密度／浮力概念的學習階段核對，不作出版社映射。"
+    },
+    {
+      "id": "hanlin-h2-history-3-french-revolution-introduction",
+      "publisher": "hanlin",
+      "sourceType": "publisher-official-textbook-introduction",
+      "sourceUrl": "https://website.hle.com.tw/market/sh/%E8%A1%8C%E9%8A%B7%E7%AB%99/113/%E6%AD%B7%E5%8F%B2/%E6%95%99%E6%9D%90%E7%B0%A1%E4%BB%8B/113%E7%BF%B0%E6%9E%97%E6%99%AE%E9%AB%98%E6%95%99%E6%9D%90%E7%B0%A1%E4%BB%8B%E6%9C%AC_%E6%AD%B7%E5%8F%B2.pdf",
+      "sourceTitle": "翰林113上高中歷史教材簡介－歷史3課本P.60–61「法國大革命至拿破崙時代大事紀要」",
+      "verifiedAt": "2026-11-18",
+      "verificationStatus": "source-checked",
+      "notes": "翰林官方113上高中歷史教材簡介；歷史3課本P.60–61呈現法國大革命至拿破崙時代大事紀要。僅支持冊別主題對照，不提供本題的具體單元或段考範圍。",
+      "mappingIds": [
+        "hanlin-h2-history-3-volume-french-revolution"
+      ]
+    },
+    {
+      "id": "hanlin-h2-history-3-product-008021",
+      "publisher": "hanlin",
+      "sourceType": "official-publisher-product-page",
+      "sourceUrl": "https://books.hanlin.com.tw/product/008021",
+      "sourceTitle": "翰林書城－高中課本－歷史(3)（高中二年級／上學期）",
+      "verifiedAt": "2026-11-18",
+      "verificationStatus": "source-checked",
+      "notes": "翰林官方商品頁明示科目歷史、年級高中2年級、學期上學期；與113上官方教材簡介共同支持冊別層級映射。",
+      "mappingIds": [
+        "hanlin-h2-history-3-volume-french-revolution"
+      ]
     }
   ],
   "classificationAudit": {
@@ -3218,19 +3267,31 @@
       "note": "段考未指定；出版社映射僅含1題翰林數學3A單元對照與2題翰林化學(I)冊別層級對照。"
     }
   },
-  "mappingCount": 64,
+  "mappingCount": 65,
   "auditNotes": "每筆映射均保留 publisher、mappingId、sourceUrl、sourceTitle、verifiedAt、verificationStatus、notes。,mappingLevel 區分 unit、title-topic、volume；冊別／冊名層級不代表細分單元已核對。,數學3A映射限定 courseTrack=數學A；未確認數學A/B者不得套用。,出版社來源只證明教材冊別／單元對照，不代表學校採用該版本。,翰林選修化學(II)官方課本頁明示高二上學期，已由下學期更正為上學期。,2026-11-13 main 全庫盤點：第8至36批共2,400題、2,400個唯一ID；第8至29批1,700題沒有內嵌出版社／學期分類欄位，改由 question-classification-inference.js 依可辨識知識點動態推定，無證據者保留unassigned/pending；第30至36批700題有分類欄位，出版社映射引用119筆，對照16筆中央映射後未發現年級、科目、學期或課程軌別不符。第30批有91題未儲存classificationNotes，執行時由分類器以sourceRef／預設理由補出說明。此為結構與來源欄位稽核，不表示每題都已取得出版社對照。,化學(II)冊別層級校正：以翰林課本商品頁005022為準，確認高二上學期；不同商品編號的習作或實驗手冊學期不可混用。,第37批新增30題來源映射均以中央mappingId連結；執行時分類器回歸測試確認100題的semester、examPeriod、classificationBasis、publisherStatus及publisherMappings均與批次檔儲存欄位一致。,第37批已透過PR #1合併至main，merge commit 0b76d6e99d66502f39f6e9c32ad8032bbcc47494；main已包含第37批及本次全庫來源稽核。,2026-11-13來源狀態細化：南一平台「數學6下｜怎樣解題：雞兔問題」詳情頁請求逾時，僅能由南一官方資源頁的熱門文章連結標題確認主題與年級／科目／學期；映射降為official-resource-title與official-index-link-only，不宣稱南一課本單元或原題。,雞兔問題mapping的sourceUrl改指向可讀取的南一官方索引頁a=341，另保留targetUrl=a=394作為連結目標；verificationStatus仍為official-index-link-only。,第37批30筆題目映射中，28筆為可直接讀取來源核對，2筆雞兔問題映射僅由南一官方索引頁標題確認（official-index-link-only）；中央16筆映射中15筆source-checked、1筆official-index-link-only。,第41批新增100題（小六50、高二50）；35筆來源映射引用全部指向中央16筆已核對mappingId，逐筆核對publisher、sourceUrl、sourceTitle、verifiedAt、verificationStatus、notes、年級、科目、學期、軌別及單元／冊別範圍，35/35通過。未新增中央映射紀錄。,第41批映射層級：單元23、冊別9、官方資源標題3；出版社引用翰林27、南一6、康軒2。冊別與官方資源標題層級不冒稱完整課本目次。 2026-11-13 main全庫盤點：第8至41批2,900題；338筆出版社映射引用與16筆中央映射一致，錯誤0。原始分類欄位2,900/2,900完整；擴充分類欄位已持久保存399題，尚待補齊2,501題。\n2026-11-14康軒社會六上4-3來源核對：官方教學資源明示都市與鄉村永續發展、人口移動、公共服務／交通網絡、災害風險管理、社區參與及文化資產保存；新增10筆直接對應題目級映射，層級為official-resource-title，段考保留unassigned。\n2026-11-15.62：19筆六年級數學基準量／比較量題目新增翰林6上第6單元映射；保留南一6下映射，修正出版社學期篩選為版本別學期。\n2026-11-15.62全庫分片重算：六個分類分片2,900題共343筆出版社映射引用（翰林224、南一51、康軒68；冊別83、單元214、官方資源標題46），第30至41批1,200題含325筆映射引用。同步修正Batches08to41與Batches30to41彙總欄位，避免沿用舊統計。\n2026-11-15.63：11題高二歷史工業革命／工業化社會變遷題目新增翰林歷史(3)單元3映射；上學期，段考unassigned。\n2026-11-15：新增3題高二歷史冷戰圍堵政策單元7映射；翰林課本頁確認高二歷史上學期，出版社配套參考書目次確認單元7；信心medium、段考unassigned、學校採用版本未確認。 2026-11-15.64：高二公民與社會(3)第4單元「外部成本與聯合行為」新增9題持久出版社映射；學期上學期、段考unassigned、confidence=medium；未新增題目。\n2026-11-15.65：教材對照欄位語義正規化：將3筆翰林高二數學(3A)映射及1筆翰林選修化學(I)映射的 courseType 統一為「未確認」；數學A資訊保留於獨立 courseTrack=數學A，學校採用版本仍未確認。原有 notes、來源、mappingId、semester、mappingLevel 與39筆中央映射數量不變；不新增出版社映射、不改題目分類或原始題庫。\n2026-11-15.66：四題六年級自然電磁鐵／線圈題（b35-034、b39-035、b40-034、b41-033）依教育部教育雲EP49資源頁的三版本明確對照，將原翰林冊別層級參照替換為南一、翰林、康軒六上第4單元層級映射；學期上學期、段考unassigned。來源列INe-Ⅲ-10及三版本單元名稱；不代表學校採用版本或教師審核。 2026-11-16.72：修正19筆出版社映射引用URL一致性，並修正1筆國小社會題的learningDomain；全庫題數及映射總量不變。 2026-11-16.76：依翰林官方《超好學複習講義：公民與社會》P.06之108課綱跨版本表，新增高二公民單元3（翰林1-3）、單元9（翰林2-3）、單元12（翰林3-1）三筆單元層級映射；翰林書城009121確認高二、公民、上學期，另以《關鍵60天》P.06佐證法律保留／比例原則。回填b41-093至b41-096四題；段考全部維持unassigned，不宣稱學校採用版本或教師審核。 2026-11-16-knsh-g6-math-speed-scale-backfill-01：依康軒114官方高年級數學教材簡介新增兩筆六上單元映射，更新b8-008與b8-012；兩題段考由第三次段考校正為unassigned。題庫學年度未標示，未宣稱學校採用版本；未新增題目。 2026-11-16全庫篩選回歸：7,800組資料層條件測試通過，2,900題全部可由全部版本模式取得，出版社映射洩漏0、篩選錯誤0；未做瀏覽器／手機實機測試。\n2026-11-16-knsh-g6-math-supplement-source-correction-01：原康軒PDF來源網址回傳404，改用康軒署名帳號於FlipHTML5公開的114(1)數學計算高手6年級補充教材頁；建立補充教材資源標題層級映射（速率、比例尺、圓面積），回填b8-008、b8-012、b12-012、b13-008。來源非康軒官方網站教科書商品頁，故明確標示補充教材資源層級，不冒稱教科書單元或學校採用版本；b12-012學期校正為上學期，b12-012及b13-008段考改unassigned。\n2026-11-16.79：原康軒114高年級綜合文宣PDF連結回傳404，改以康軒署名帳號於FlipHTML5公開的114(1)六年級數學補充教材頁，新增速率、比例尺、圓面積三筆official-resource-title中央映射；更新b8-008、b8-012、b12-012、b13-008。學期分類上學期415、下學期146、全學年74、未分類2265；段考未分類2673、第一次65、第二次71、第三次91。出版社映射459題／563筆引用；7,800組資料層篩選非零575、零題7225、映射洩漏0、篩選錯誤0。未新增題目，未做瀏覽器／手機實機測試。 2026-11-16-volume-source-recheck-and-filter-regression-01：重新核對翰林國小自然6上／6下及高二上選修物理(II)官方商品頁；只確認冊別層級，未新增題目映射。全庫2,900筆分類、34/34來源SHA、563筆出版社引用、55組中央映射及7800組資料層篩選回歸；出版社映射洩漏0、篩選錯誤0。未新增題目，未做瀏覽器／手機實機測試。 2026-11-17.87：康軒114官方自然領域文宣PDF重新核對成功（HTTP 200／PDF可讀），明列六下單元三「地球的生態」。將五題（b38-039、b39-038、b40-037、b41-035、b41-040）持久映射至114版康軒六下單元3；四題學期由unassigned回填下學期，一題保留既有下學期；段考全數unassigned。113版已失效來源保留歷史追溯但不作有效篩選。 2026-11-17.89：翰林官方數學(6下)課本頁重新核對；九題中位數只掛冊別層級映射，學期／段考維持既有題庫推定。資料層篩選7,800組，非零552、合理零題7,248，映射洩漏0、錯誤0；未做瀏覽器／手機實機測試。,2026-11-17.98：新增b39-088高二地理「全球供應鏈」對應翰林配套評量本《試題挖挖哇：地理(3)》第7回「全球化」；僅表示配套評量本主題對應，不宣稱學校採用翰林主課本或正式段考範圍。 2026-11-17.99：全庫資料層篩選矩陣7,800組通過；錯誤0、出版社映射洩漏0；未做瀏覽器／手機實機測試。 2026-11-17.100：高二地理4題新增翰林地理(3)上學期冊別層級映射；未核對單元，段考未分類。 本輪推定器映射已靜態登錄；未執行JavaScript runtime或瀏覽器實機測試。 2026-11-17：b34-040「生物多樣性與農業」新增康軒114六下單元三映射；分解者與太陽能板傾角候選題未取得足夠單元證據，維持不掛出版社。",
   "lastAudit": {
-    "runId": "2026-11-17-knsh-g6-natural-biodiversity-b34-040-backfill-01",
-    "date": "2026-11-17",
-    "sourceHeadBeforeRun": "a7e1462fd8a8bd759c33b3540964b538cfbb9551",
+    "runId": "2026-11-18-hanlin-h2-history-french-revolution-volume-backfill-01",
+    "date": "2026-11-18",
+    "sourceHeadBeforeRun": "73f056d5e8340eac9dbe84f9fcbd626a92023fde",
     "batches": "08-41",
     "batchFileCount": 34,
     "fullCorpusQuestionCount": 2900,
     "activeScopeQuestionCount": 1864,
+    "questionRecordsUpdated": 1,
+    "updatedQuestionIds": [
+      "b41-091"
+    ],
+    "semesterAssignments": 1,
+    "semesterCorrections": 0,
+    "examPeriodAssignments": 0,
+    "publisherMappingsAdded": 1,
+    "publisherMappingReferencesAdded": 1,
+    "newQuestionsAdded": 0,
+    "sourceBatchShasMatch": "34/34",
+    "classificationRuleVersion": "2026-11-18.105",
     "fullCorpusSemesterDistribution": {
-      "unassigned": 2172,
-      "上學期": 490,
+      "unassigned": 2171,
+      "上學期": 491,
       "下學期": 164,
       "全學年": 74,
       "_total": 2900
@@ -3243,53 +3304,40 @@
       "_total": 2900
     },
     "fullCorpusClassificationBasisDistribution": {
-      "curriculum-core": 2162,
-      "publisher-source-verified": 470,
+      "curriculum-core": 2161,
+      "publisher-source-verified": 471,
       "question-bank-inference": 255,
       "unassigned": 13,
       "_total": 2900
     },
     "fullCorpusPublisherStatusDistribution": {
-      "curriculum-core": 2297,
-      "publisher-mapped": 584,
+      "curriculum-core": 2296,
+      "publisher-mapped": 585,
       "pending": 19,
       "_total": 2900
     },
     "fullCorpusConfidenceDistribution": {
-      "low": 2067,
-      "medium": 795,
+      "low": 2066,
+      "medium": 796,
       "high": 38,
       "_total": 2900
     },
     "publisherReferenceCounts": {
       "knsh": 169,
-      "hanlin": 449,
+      "hanlin": 450,
       "nani": 70,
-      "_total": 688
+      "_total": 689
     },
     "mappingLevelCounts": {
       "official-resource-title": 77,
       "unit": 472,
-      "volume": 139,
-      "_total": 688
+      "volume": 140,
+      "_total": 689
     },
     "mappingVerificationStatusCounts": {
-      "source-checked": 688,
-      "_total": 688
+      "source-checked": 689,
+      "_total": 689
     },
-    "questionRecordsUpdated": 1,
-    "updatedQuestionIds": [
-      "b34-040"
-    ],
-    "semesterAssignments": 0,
-    "semesterCorrections": 0,
-    "examPeriodAssignments": 0,
-    "examPeriodCorrections": 0,
-    "publisherMappingsAdded": 1,
-    "publisherMappingReferencesAdded": 1,
-    "newQuestionsAdded": 0,
-    "sourceBatchShasMatch": "34/34",
-    "classificationRuleVersion": "2026-11-17.103",
     "validation": {
       "jsonParse": true,
       "classificationRecords": 2900,
@@ -3305,7 +3353,7 @@
       "sourceBatchShasMatch": "34/34",
       "updatedQuestionsChecked": 1,
       "updatedQuestionIdsReachable": true,
-      "targetedFilterCombinationsTested": 8,
+      "targetedFilterCombinationsTested": 10,
       "targetedFilterErrors": 0,
       "publisherMappingLeaks": 0,
       "allModeReachable": true,
@@ -3317,8 +3365,8 @@
       "browserOrMobileRuntimeTested": false,
       "fullFilterMatrixTested": false
     },
-    "validationMethod": "依 index.html getPool() 的持久分類、publisher=knsh、semester=下學期、examPeriod=unassigned、單元 learningUnit 條件執行資料層定向驗證；不等同瀏覽器實機測試。",
-    "notes": "b34-040「生物多樣性與農業」新增康軒114六下單元三出版社映射。b34-036與b37-040分解者題、b36-035太陽能板傾角題缺少足以確認該出版社具體單元的直接來源，維持原分類、不掛出版社。未新增題目，原題幹、選項、答案與解析未修改。"
+    "validationMethod": "依 index.html getPool() 的持久分類與篩選邏輯，測試全部版本、翰林、共同核心、待核對、上學期、未分類段考及單元條件的10組定向資料層組合；不等同瀏覽器實機測試。",
+    "notes": "b41-091「革命的多重原因」新增翰林高中歷史(3)冊別層級映射。翰林113上官方教材簡介列歷史3課本P.60–61法國大革命至拿破崙時代大事紀要；翰林書城商品頁008021確認高二歷史上學期。未核對具體單元，故mappingLevel=volume；examPeriod保留unassigned。未宣稱學校採用版本或教師審核；未新增題目。"
   },
   "auditSummary": "2026-11-17：完成第08–41批2,900題與六個分類分片的main資料重整；學期已分類728題、段考已分類227題、出版社映射583題。19題保留待核對；本輪未新增題目。",
   "batch39UsageAudit": {
@@ -3883,14 +3931,14 @@
     "pullRequestUrl": "https://github.com/toyoyogo-cloud/xiaoyu-xiaoyu-learning-app/pull/6"
   },
   "mappingVerificationStatusCountsBatches08to41": {
-    "source-checked": 688,
-    "_total": 688
+    "source-checked": 689,
+    "_total": 689
   },
   "publisherReferenceCountsBatches08to41": {
     "knsh": 169,
-    "hanlin": 449,
+    "hanlin": 450,
     "nani": 70,
-    "_total": 688
+    "_total": 689
   },
   "mappingVerificationStatusCountsBatches30to41": {
     "source-checked": 531,
@@ -3953,16 +4001,28 @@
     ]
   },
   "latestMainClassificationAudit": {
-    "runId": "2026-11-17-knsh-g6-natural-biodiversity-b34-040-backfill-01",
-    "date": "2026-11-17",
-    "sourceHeadBeforeRun": "a7e1462fd8a8bd759c33b3540964b538cfbb9551",
+    "runId": "2026-11-18-hanlin-h2-history-french-revolution-volume-backfill-01",
+    "date": "2026-11-18",
+    "sourceHeadBeforeRun": "73f056d5e8340eac9dbe84f9fcbd626a92023fde",
     "batches": "08-41",
     "batchFileCount": 34,
     "fullCorpusQuestionCount": 2900,
     "activeScopeQuestionCount": 1864,
+    "questionRecordsUpdated": 1,
+    "updatedQuestionIds": [
+      "b41-091"
+    ],
+    "semesterAssignments": 1,
+    "semesterCorrections": 0,
+    "examPeriodAssignments": 0,
+    "publisherMappingsAdded": 1,
+    "publisherMappingReferencesAdded": 1,
+    "newQuestionsAdded": 0,
+    "sourceBatchShasMatch": "34/34",
+    "classificationRuleVersion": "2026-11-18.105",
     "fullCorpusSemesterDistribution": {
-      "unassigned": 2172,
-      "上學期": 490,
+      "unassigned": 2171,
+      "上學期": 491,
       "下學期": 164,
       "全學年": 74,
       "_total": 2900
@@ -3975,53 +4035,40 @@
       "_total": 2900
     },
     "fullCorpusClassificationBasisDistribution": {
-      "curriculum-core": 2162,
-      "publisher-source-verified": 470,
+      "curriculum-core": 2161,
+      "publisher-source-verified": 471,
       "question-bank-inference": 255,
       "unassigned": 13,
       "_total": 2900
     },
     "fullCorpusPublisherStatusDistribution": {
-      "curriculum-core": 2297,
-      "publisher-mapped": 584,
+      "curriculum-core": 2296,
+      "publisher-mapped": 585,
       "pending": 19,
       "_total": 2900
     },
     "fullCorpusConfidenceDistribution": {
-      "low": 2067,
-      "medium": 795,
+      "low": 2066,
+      "medium": 796,
       "high": 38,
       "_total": 2900
     },
     "publisherReferenceCounts": {
       "knsh": 169,
-      "hanlin": 449,
+      "hanlin": 450,
       "nani": 70,
-      "_total": 688
+      "_total": 689
     },
     "mappingLevelCounts": {
       "official-resource-title": 77,
       "unit": 472,
-      "volume": 139,
-      "_total": 688
+      "volume": 140,
+      "_total": 689
     },
     "mappingVerificationStatusCounts": {
-      "source-checked": 688,
-      "_total": 688
+      "source-checked": 689,
+      "_total": 689
     },
-    "questionRecordsUpdated": 1,
-    "updatedQuestionIds": [
-      "b34-040"
-    ],
-    "semesterAssignments": 0,
-    "semesterCorrections": 0,
-    "examPeriodAssignments": 0,
-    "examPeriodCorrections": 0,
-    "publisherMappingsAdded": 1,
-    "publisherMappingReferencesAdded": 1,
-    "newQuestionsAdded": 0,
-    "sourceBatchShasMatch": "34/34",
-    "classificationRuleVersion": "2026-11-17.103",
     "validation": {
       "jsonParse": true,
       "classificationRecords": 2900,
@@ -4037,7 +4084,7 @@
       "sourceBatchShasMatch": "34/34",
       "updatedQuestionsChecked": 1,
       "updatedQuestionIdsReachable": true,
-      "targetedFilterCombinationsTested": 8,
+      "targetedFilterCombinationsTested": 10,
       "targetedFilterErrors": 0,
       "publisherMappingLeaks": 0,
       "allModeReachable": true,
@@ -4049,8 +4096,8 @@
       "browserOrMobileRuntimeTested": false,
       "fullFilterMatrixTested": false
     },
-    "validationMethod": "依 index.html getPool() 的持久分類、publisher=knsh、semester=下學期、examPeriod=unassigned、單元 learningUnit 條件執行資料層定向驗證；不等同瀏覽器實機測試。",
-    "notes": "b34-040「生物多樣性與農業」新增康軒114六下單元三出版社映射。b34-036與b37-040分解者題、b36-035太陽能板傾角題缺少足以確認該出版社具體單元的直接來源，維持原分類、不掛出版社。未新增題目，原題幹、選項、答案與解析未修改。"
+    "validationMethod": "依 index.html getPool() 的持久分類與篩選邏輯，測試全部版本、翰林、共同核心、待核對、上學期、未分類段考及單元條件的10組定向資料層組合；不等同瀏覽器實機測試。",
+    "notes": "b41-091「革命的多重原因」新增翰林高中歷史(3)冊別層級映射。翰林113上官方教材簡介列歷史3課本P.60–61法國大革命至拿破崙時代大事紀要；翰林書城商品頁008021確認高二歷史上學期。未核對具體單元，故mappingLevel=volume；examPeriod保留unassigned。未宣稱學校採用版本或教師審核；未新增題目。"
   },
   "classificationPersistenceRuns": [
     {
@@ -5795,6 +5842,105 @@
       },
       "validationMethod": "依 index.html getPool() 的持久分類、publisher=knsh、semester=下學期、examPeriod=unassigned、單元 learningUnit 條件執行資料層定向驗證；不等同瀏覽器實機測試。",
       "notes": "b34-040「生物多樣性與農業」新增康軒114六下單元三出版社映射。b34-036與b37-040分解者題、b36-035太陽能板傾角題缺少足以確認該出版社具體單元的直接來源，維持原分類、不掛出版社。未新增題目，原題幹、選項、答案與解析未修改。"
+    },
+    {
+      "runId": "2026-11-18-hanlin-h2-history-french-revolution-volume-backfill-01",
+      "date": "2026-11-18",
+      "sourceHeadBeforeRun": "73f056d5e8340eac9dbe84f9fcbd626a92023fde",
+      "batches": "08-41",
+      "batchFileCount": 34,
+      "fullCorpusQuestionCount": 2900,
+      "activeScopeQuestionCount": 1864,
+      "questionRecordsUpdated": 1,
+      "updatedQuestionIds": [
+        "b41-091"
+      ],
+      "semesterAssignments": 1,
+      "semesterCorrections": 0,
+      "examPeriodAssignments": 0,
+      "publisherMappingsAdded": 1,
+      "publisherMappingReferencesAdded": 1,
+      "newQuestionsAdded": 0,
+      "sourceBatchShasMatch": "34/34",
+      "classificationRuleVersion": "2026-11-18.105",
+      "fullCorpusSemesterDistribution": {
+        "unassigned": 2171,
+        "上學期": 491,
+        "下學期": 164,
+        "全學年": 74,
+        "_total": 2900
+      },
+      "fullCorpusExamPeriodDistribution": {
+        "unassigned": 2673,
+        "第一次段考": 65,
+        "第二次段考": 71,
+        "第三次段考": 91,
+        "_total": 2900
+      },
+      "fullCorpusClassificationBasisDistribution": {
+        "curriculum-core": 2161,
+        "publisher-source-verified": 471,
+        "question-bank-inference": 255,
+        "unassigned": 13,
+        "_total": 2900
+      },
+      "fullCorpusPublisherStatusDistribution": {
+        "curriculum-core": 2296,
+        "publisher-mapped": 585,
+        "pending": 19,
+        "_total": 2900
+      },
+      "fullCorpusConfidenceDistribution": {
+        "low": 2066,
+        "medium": 796,
+        "high": 38,
+        "_total": 2900
+      },
+      "publisherReferenceCounts": {
+        "knsh": 169,
+        "hanlin": 450,
+        "nani": 70,
+        "_total": 689
+      },
+      "mappingLevelCounts": {
+        "official-resource-title": 77,
+        "unit": 472,
+        "volume": 140,
+        "_total": 689
+      },
+      "mappingVerificationStatusCounts": {
+        "source-checked": 689,
+        "_total": 689
+      },
+      "validation": {
+        "jsonParse": true,
+        "classificationRecords": 2900,
+        "uniqueIds": 2900,
+        "duplicateIds": 0,
+        "missingFromClassification": 0,
+        "extraClassificationIds": 0,
+        "missingRequiredFields": 0,
+        "invalidClassificationValues": 0,
+        "mappingReferenceErrors": 0,
+        "sourceFieldErrors": 0,
+        "mappingScopeErrors": 0,
+        "sourceBatchShasMatch": "34/34",
+        "updatedQuestionsChecked": 1,
+        "updatedQuestionIdsReachable": true,
+        "targetedFilterCombinationsTested": 10,
+        "targetedFilterErrors": 0,
+        "publisherMappingLeaks": 0,
+        "allModeReachable": true,
+        "allModeQuestionCount": 2900,
+        "appReadsPersistedClassificationIndex": true,
+        "zeroResultHintPresent": true,
+        "inferenceSyntaxStructureChecked": true,
+        "inferenceSyntaxRuntimeTested": false,
+        "browserOrMobileRuntimeTested": false,
+        "fullFilterMatrixTested": false
+      },
+      "validationMethod": "依 index.html getPool() 的持久分類與篩選邏輯，測試全部版本、翰林、共同核心、待核對、上學期、未分類段考及單元條件的10組定向資料層組合；不等同瀏覽器實機測試。",
+      "notes": "b41-091「革命的多重原因」新增翰林高中歷史(3)冊別層級映射。翰林113上官方教材簡介列歷史3課本P.60–61法國大革命至拿破崙時代大事紀要；翰林書城商品頁008021確認高二歷史上學期。未核對具體單元，故mappingLevel=volume；examPeriod保留unassigned。未宣稱學校採用版本或教師審核；未新增題目。"
     }
   ],
   "batch30ExtendedMetadataAudit": {
@@ -6487,20 +6633,20 @@
     "newQuestionsAdded": 0
   },
   "latestFilterValidation": {
-    "runId": "2026-11-17-knsh-g6-natural-biodiversity-b34-040-backfill-01",
-    "verifiedAt": "2026-11-17",
+    "runId": "2026-11-18-hanlin-h2-history-french-revolution-volume-backfill-01",
+    "verifiedAt": "2026-11-18",
     "questionIds": [
-      "b34-040"
+      "b41-091"
     ],
-    "filterCasesTested": 8,
-    "passed": 8,
+    "filterCasesTested": 10,
+    "passed": 10,
     "filterErrors": 0,
     "publisherMappingLeaks": 0,
     "allModeReachable": true,
     "allModeQuestionCount": 2900,
     "appReadsPersistedClassificationIndex": true,
     "zeroResultHintPresent": true,
-    "validationMethod": "依 index.html getPool() 的持久分類、publisher=knsh、semester=下學期、examPeriod=unassigned、單元 learningUnit 條件執行資料層定向驗證；不等同瀏覽器實機測試。",
+    "validationMethod": "依 index.html getPool() 的持久分類與篩選邏輯，測試全部版本、翰林、共同核心、待核對、上學期、未分類段考及單元條件的10組定向資料層組合；不等同瀏覽器實機測試。",
     "browserOrMobileRuntimeTested": false
   },
   "sourceVerificationLog": [
@@ -8353,14 +8499,19 @@
     }
   },
   "latestMappingReferenceAudit": {
-    "runId": "2026-11-17-main-classification-reconciliation-02",
-    "date": "2026-11-17",
-    "referencesScanned": 687,
-    "validReferences": 687,
-    "centralRegistryCount": 64,
-    "missingRegistryReferences": 0,
-    "missingSourceFields": 0,
-    "mappingScopeErrors": 0
+    "runId": "2026-11-18-hanlin-h2-history-french-revolution-volume-backfill-01",
+    "date": "2026-11-18",
+    "mappingIds": [
+      "hanlin-h2-history-3-volume-french-revolution"
+    ],
+    "questionIds": [
+      "b41-091"
+    ],
+    "mappingReferencesAdded": 1,
+    "unresolvedReferences": 0,
+    "sourceFieldErrors": 0,
+    "scopeErrors": 0,
+    "notes": "新映射已在中央教材登錄、題目分類分片與推定器同步。"
   },
   "lastSourceVerificationAudit": {
     "runId": "2026-11-17-knsh-g6-natural-biodiversity-b34-040-backfill-01",
@@ -8392,16 +8543,28 @@
     "notes": "b34-040原始題幹直接涉及生物多樣性與農業病蟲害風險；與康軒114六下單元三「地球的生態」官方課程計畫及數位資源相符。"
   },
   "lastRunAudit": {
-    "runId": "2026-11-17-knsh-g6-natural-biodiversity-b34-040-backfill-01",
-    "date": "2026-11-17",
-    "sourceHeadBeforeRun": "a7e1462fd8a8bd759c33b3540964b538cfbb9551",
+    "runId": "2026-11-18-hanlin-h2-history-french-revolution-volume-backfill-01",
+    "date": "2026-11-18",
+    "sourceHeadBeforeRun": "73f056d5e8340eac9dbe84f9fcbd626a92023fde",
     "batches": "08-41",
     "batchFileCount": 34,
     "fullCorpusQuestionCount": 2900,
     "activeScopeQuestionCount": 1864,
+    "questionRecordsUpdated": 1,
+    "updatedQuestionIds": [
+      "b41-091"
+    ],
+    "semesterAssignments": 1,
+    "semesterCorrections": 0,
+    "examPeriodAssignments": 0,
+    "publisherMappingsAdded": 1,
+    "publisherMappingReferencesAdded": 1,
+    "newQuestionsAdded": 0,
+    "sourceBatchShasMatch": "34/34",
+    "classificationRuleVersion": "2026-11-18.105",
     "fullCorpusSemesterDistribution": {
-      "unassigned": 2172,
-      "上學期": 490,
+      "unassigned": 2171,
+      "上學期": 491,
       "下學期": 164,
       "全學年": 74,
       "_total": 2900
@@ -8414,53 +8577,40 @@
       "_total": 2900
     },
     "fullCorpusClassificationBasisDistribution": {
-      "curriculum-core": 2162,
-      "publisher-source-verified": 470,
+      "curriculum-core": 2161,
+      "publisher-source-verified": 471,
       "question-bank-inference": 255,
       "unassigned": 13,
       "_total": 2900
     },
     "fullCorpusPublisherStatusDistribution": {
-      "curriculum-core": 2297,
-      "publisher-mapped": 584,
+      "curriculum-core": 2296,
+      "publisher-mapped": 585,
       "pending": 19,
       "_total": 2900
     },
     "fullCorpusConfidenceDistribution": {
-      "low": 2067,
-      "medium": 795,
+      "low": 2066,
+      "medium": 796,
       "high": 38,
       "_total": 2900
     },
     "publisherReferenceCounts": {
       "knsh": 169,
-      "hanlin": 449,
+      "hanlin": 450,
       "nani": 70,
-      "_total": 688
+      "_total": 689
     },
     "mappingLevelCounts": {
       "official-resource-title": 77,
       "unit": 472,
-      "volume": 139,
-      "_total": 688
+      "volume": 140,
+      "_total": 689
     },
     "mappingVerificationStatusCounts": {
-      "source-checked": 688,
-      "_total": 688
+      "source-checked": 689,
+      "_total": 689
     },
-    "questionRecordsUpdated": 1,
-    "updatedQuestionIds": [
-      "b34-040"
-    ],
-    "semesterAssignments": 0,
-    "semesterCorrections": 0,
-    "examPeriodAssignments": 0,
-    "examPeriodCorrections": 0,
-    "publisherMappingsAdded": 1,
-    "publisherMappingReferencesAdded": 1,
-    "newQuestionsAdded": 0,
-    "sourceBatchShasMatch": "34/34",
-    "classificationRuleVersion": "2026-11-17.103",
     "validation": {
       "jsonParse": true,
       "classificationRecords": 2900,
@@ -8476,7 +8626,7 @@
       "sourceBatchShasMatch": "34/34",
       "updatedQuestionsChecked": 1,
       "updatedQuestionIdsReachable": true,
-      "targetedFilterCombinationsTested": 8,
+      "targetedFilterCombinationsTested": 10,
       "targetedFilterErrors": 0,
       "publisherMappingLeaks": 0,
       "allModeReachable": true,
@@ -8488,8 +8638,8 @@
       "browserOrMobileRuntimeTested": false,
       "fullFilterMatrixTested": false
     },
-    "validationMethod": "依 index.html getPool() 的持久分類、publisher=knsh、semester=下學期、examPeriod=unassigned、單元 learningUnit 條件執行資料層定向驗證；不等同瀏覽器實機測試。",
-    "notes": "b34-040「生物多樣性與農業」新增康軒114六下單元三出版社映射。b34-036與b37-040分解者題、b36-035太陽能板傾角題缺少足以確認該出版社具體單元的直接來源，維持原分類、不掛出版社。未新增題目，原題幹、選項、答案與解析未修改。"
+    "validationMethod": "依 index.html getPool() 的持久分類與篩選邏輯，測試全部版本、翰林、共同核心、待核對、上學期、未分類段考及單元條件的10組定向資料層組合；不等同瀏覽器實機測試。",
+    "notes": "b41-091「革命的多重原因」新增翰林高中歷史(3)冊別層級映射。翰林113上官方教材簡介列歷史3課本P.60–61法國大革命至拿破崙時代大事紀要；翰林書城商品頁008021確認高二歷史上學期。未核對具體單元，故mappingLevel=volume；examPeriod保留unassigned。未宣稱學校採用版本或教師審核；未新增題目。"
   },
   "latestMappingScopeCorrection": {
     "date": "2026-11-14",
@@ -8540,7 +8690,7 @@
     "updatedQuestionIds": [],
     "validationMethod": "依 index.html getPool() 現行條件語義，以 main 六個持久分類分片逐組模擬48組年級／科目之學期、段考、出版社及高二數學軌別組合，共7,800組；另逐一驗證1,910個單元篩選與138個難度篩選。這是資料層測試，不是瀏覽器或手機實機測試。"
   },
-  "notes": " 2026-11-14：新增國立臺北教育大學六年級自然上學期單元四「電磁作用」課程參考，12題串聯／並聯電路僅回填上學期，不掛出版社、不填段考。 2026-11-15：依國立臺北教育大學雙語教學研究中心官方單元目錄，新增3題六年級自然電磁鐵／線圈題目的上學期課程核心分類；段考維持unassigned，不掛出版社。 2026-11-15：新增六年級自然「簡單機械」及「地質的變化」課程參考；7題依題庫知識點推定學期，沒有出版社官方單元來源，故不新增出版社映射。 分類器載入修復：補齊5筆既有MAPS物件鍵並移除重複CURRICULUM_REFERENCES宣告；JavaScript語法編譯通過，publisher filter仍僅依持久映射資料判斷。 推定器持久化保護：有分類索引紀錄的題目不再被執行時推定覆蓋；未分類值必須先寫回分類分片才會反映在篩選器。 最終逐題執行分類器驗證：第8至41批2,900題均讀取持久分類索引，187筆出版社映射參照全部通過，學期／段考與持久資料差異0。\n\n2026-11-15.55：重新核對國北教大六年級自然單元目錄與教育部教育雲「珍愛家園」「野生動物生態系」資源，持久更新7題（上學期3、下學期4）。均為題庫推定、中等信心、段考未分類、共同核心狀態；沒有出版社映射或新增題目。 2026-11-15.56：新增4題六年級自然來源核對分類，新增10筆題目級出版社映射；段考未指定，無新增題目。 2026-11-15.57：高二歷史工業革命單元3題已持久化為翰林歷史(3)單元層級、上學期；段考維持unassigned。 2026-11-15.58：持久分類b39-091、b41-092兩題高二歷史帝國主義／十九世紀西方霸權題，依翰林歷史(3)第5單元「西方與世界1」官方目次與課本頁標記上學期、翰林單元層級映射；段考unassigned。 2026-11-15.60：新增翰林歷史(3)第2單元啟蒙運動與第7單元冷戰期間政治局勢映射，並擴充既有第3單元工業革命別名；只回填題幹與單元直接相符的3題。 2026-11-15.64：高二公民與社會(3)第4單元「外部成本與聯合行為」新增9題持久出版社映射；學期上學期、段考unassigned、confidence=medium；未新增題目。\n本次2026-11-15.66新增六年級自然電磁作用三版本單元映射；詳細來源與題目ID見sourceVerificationLog及latestMainClassificationAudit。 2026-11-16.68：為19題六年級數學「基準量和比較量」補上康軒6下第4單元映射；依翰林國小輔教行銷處第50頁三版本對照表，保留既有南一6下與翰林6上映射。段考維持unassigned，未新增題目；來源不是康軒出版社自身課本詳情頁或學校採用證明。\n2026-11-16分類補強：12題持久更新（9題出版社映射、3題共同核心學期回填）；映射參照新增19筆，未新增題目。來源核對涵蓋六年級比與比值、水循環凝結、熱傳導／保溫，以及高二公民外部性、高二歷史啟蒙思想；另依國北教大官方目錄回填六年級電磁作用上學期。全庫出版社映射438題／542筆參照，中央映射46筆；學期上417／下135／全學年74／未分類2,274，段考未分類2,669。7,650組篩選資料層測試543組有題、7,107組合理零題、映射洩漏0。未宣稱學校採用版本或教師審核，未新增題目。 2026-11-16.75：高二公民價格上限兩題依翰林官方配套評量目次第3單元持久映射；學期上學期、段考維持unassigned。全庫2,900題，出版社映射448題／552筆參照，中央映射49筆。 2026-11-16.80：高二公民「依法行政與行政救濟」單元逐題回填29題；依翰林官方跨版本對照表第9單元對應翰林公民與社會(3)乙版第2-3章，官方商品頁009121確認高二上學期。29題持久分類為上學期、publisher-source-verified、medium，新增29筆翰林單元映射；段考全數unassigned。全庫2,900題／唯一ID不變，分類紀錄2,900筆，出版社映射488題／592筆引用；學期上444／下146／全學年74／未分類2,236，段考未分類2,673。7,800組資料層篩選非零575、合理零題7,225、映射洩漏0、篩選錯誤0。原始題庫未改寫，新增題目0；未執行瀏覽器／手機實機測試。\n2026-11-16：依六個持久分類分片同步全庫統計；出版社篩選只採用source-checked映射，13筆失效來源保留追溯但排除。 2026-11-17.88：依康軒官方114學年度自然領域文宣，持久更新9題六年級自然食物鏈／食物網／生物多樣性題目（b15-022、b24-032、b25-030、b30-025、b31-036、b32-027、b33-033、b35-033、b36-040），改接康軒114版六下單元三「地球的生態」；semester=下學期、examPeriod=unassigned、confidence=medium。推定器新增該映射至MAPS並更新規則；原113版來源失效不再用於篩選。 依康軒官方114學年度自然領域文宣，將六年級自然「簡單機械」5題對照六下單元一，及「能量轉換」3題對照六下單元二。簡單機械原有學期下學期推定保留但分類依據升級為出版社來源核對；3題能量轉換由unassigned推定為下學期。8題均只標康軒114版單元層級；學校採用版本未確認，段考維持unassigned。沒有新增題目或修改原始題幹、選項、答案、解析。 2026-11-17.90：依康軒114自然官方文宣，六年級自然8題分別映射六下單元一簡單機械5題、單元二能量與生活3題；段考未指定，新增題目0。",
+  "notes": " 2026-11-14：新增國立臺北教育大學六年級自然上學期單元四「電磁作用」課程參考，12題串聯／並聯電路僅回填上學期，不掛出版社、不填段考。 2026-11-15：依國立臺北教育大學雙語教學研究中心官方單元目錄，新增3題六年級自然電磁鐵／線圈題目的上學期課程核心分類；段考維持unassigned，不掛出版社。 2026-11-15：新增六年級自然「簡單機械」及「地質的變化」課程參考；7題依題庫知識點推定學期，沒有出版社官方單元來源，故不新增出版社映射。 分類器載入修復：補齊5筆既有MAPS物件鍵並移除重複CURRICULUM_REFERENCES宣告；JavaScript語法編譯通過，publisher filter仍僅依持久映射資料判斷。 推定器持久化保護：有分類索引紀錄的題目不再被執行時推定覆蓋；未分類值必須先寫回分類分片才會反映在篩選器。 最終逐題執行分類器驗證：第8至41批2,900題均讀取持久分類索引，187筆出版社映射參照全部通過，學期／段考與持久資料差異0。\n\n2026-11-15.55：重新核對國北教大六年級自然單元目錄與教育部教育雲「珍愛家園」「野生動物生態系」資源，持久更新7題（上學期3、下學期4）。均為題庫推定、中等信心、段考未分類、共同核心狀態；沒有出版社映射或新增題目。 2026-11-15.56：新增4題六年級自然來源核對分類，新增10筆題目級出版社映射；段考未指定，無新增題目。 2026-11-15.57：高二歷史工業革命單元3題已持久化為翰林歷史(3)單元層級、上學期；段考維持unassigned。 2026-11-15.58：持久分類b39-091、b41-092兩題高二歷史帝國主義／十九世紀西方霸權題，依翰林歷史(3)第5單元「西方與世界1」官方目次與課本頁標記上學期、翰林單元層級映射；段考unassigned。 2026-11-15.60：新增翰林歷史(3)第2單元啟蒙運動與第7單元冷戰期間政治局勢映射，並擴充既有第3單元工業革命別名；只回填題幹與單元直接相符的3題。 2026-11-15.64：高二公民與社會(3)第4單元「外部成本與聯合行為」新增9題持久出版社映射；學期上學期、段考unassigned、confidence=medium；未新增題目。\n本次2026-11-15.66新增六年級自然電磁作用三版本單元映射；詳細來源與題目ID見sourceVerificationLog及latestMainClassificationAudit。 2026-11-16.68：為19題六年級數學「基準量和比較量」補上康軒6下第4單元映射；依翰林國小輔教行銷處第50頁三版本對照表，保留既有南一6下與翰林6上映射。段考維持unassigned，未新增題目；來源不是康軒出版社自身課本詳情頁或學校採用證明。\n2026-11-16分類補強：12題持久更新（9題出版社映射、3題共同核心學期回填）；映射參照新增19筆，未新增題目。來源核對涵蓋六年級比與比值、水循環凝結、熱傳導／保溫，以及高二公民外部性、高二歷史啟蒙思想；另依國北教大官方目錄回填六年級電磁作用上學期。全庫出版社映射438題／542筆參照，中央映射46筆；學期上417／下135／全學年74／未分類2,274，段考未分類2,669。7,650組篩選資料層測試543組有題、7,107組合理零題、映射洩漏0。未宣稱學校採用版本或教師審核，未新增題目。 2026-11-16.75：高二公民價格上限兩題依翰林官方配套評量目次第3單元持久映射；學期上學期、段考維持unassigned。全庫2,900題，出版社映射448題／552筆參照，中央映射49筆。 2026-11-16.80：高二公民「依法行政與行政救濟」單元逐題回填29題；依翰林官方跨版本對照表第9單元對應翰林公民與社會(3)乙版第2-3章，官方商品頁009121確認高二上學期。29題持久分類為上學期、publisher-source-verified、medium，新增29筆翰林單元映射；段考全數unassigned。全庫2,900題／唯一ID不變，分類紀錄2,900筆，出版社映射488題／592筆引用；學期上444／下146／全學年74／未分類2,236，段考未分類2,673。7,800組資料層篩選非零575、合理零題7,225、映射洩漏0、篩選錯誤0。原始題庫未改寫，新增題目0；未執行瀏覽器／手機實機測試。\n2026-11-16：依六個持久分類分片同步全庫統計；出版社篩選只採用source-checked映射，13筆失效來源保留追溯但排除。 2026-11-17.88：依康軒官方114學年度自然領域文宣，持久更新9題六年級自然食物鏈／食物網／生物多樣性題目（b15-022、b24-032、b25-030、b30-025、b31-036、b32-027、b33-033、b35-033、b36-040），改接康軒114版六下單元三「地球的生態」；semester=下學期、examPeriod=unassigned、confidence=medium。推定器新增該映射至MAPS並更新規則；原113版來源失效不再用於篩選。 依康軒官方114學年度自然領域文宣，將六年級自然「簡單機械」5題對照六下單元一，及「能量轉換」3題對照六下單元二。簡單機械原有學期下學期推定保留但分類依據升級為出版社來源核對；3題能量轉換由unassigned推定為下學期。8題均只標康軒114版單元層級；學校採用版本未確認，段考維持unassigned。沒有新增題目或修改原始題幹、選項、答案、解析。 2026-11-17.90：依康軒114自然官方文宣，六年級自然8題分別映射六下單元一簡單機械5題、單元二能量與生活3題；段考未指定，新增題目0。\n2026-11-18分類補強：b41-091高二歷史「革命的多重原因」新增翰林高中歷史(3)冊別層級映射。官方113教材簡介列歷史3課本P.60–61法國大革命至拿破崙時代大事紀要，書城商品頁確認高二上學期；未核對具體單元，段考未分類。全庫2,900筆分類、出版社映射585題／689筆參照；未新增題目。",
   "latestCurriculumUnitClassificationAudit": {
     "runId": "2026-11-17-knsh-g6-natural-ecology-backfill-01",
     "verifiedAt": "2026-11-17",
@@ -8912,8 +9062,8 @@
     "missingRequiredFields": 0,
     "invalidClassificationValues": 0,
     "semester": {
-      "unassigned": 2172,
-      "上學期": 490,
+      "unassigned": 2171,
+      "上學期": 491,
       "下學期": 164,
       "全學年": 74
     },
@@ -8924,59 +9074,59 @@
       "第三次段考": 91
     },
     "classificationBasis": {
-      "curriculum-core": 2162,
-      "publisher-source-verified": 470,
+      "curriculum-core": 2161,
+      "publisher-source-verified": 471,
       "question-bank-inference": 255,
       "unassigned": 13
     },
     "publisherStatus": {
-      "curriculum-core": 2297,
-      "publisher-mapped": 584,
+      "curriculum-core": 2296,
+      "publisher-mapped": 585,
       "pending": 19
     },
     "confidence": {
-      "low": 2067,
-      "medium": 795,
+      "low": 2066,
+      "medium": 796,
       "high": 38
     },
-    "publisherMappedQuestionCount": 584,
-    "publisherMappingReferenceCount": 688,
-    "validPublisherMappingReferenceCount": 688,
-    "centralMappingRegistryCount": 64,
+    "publisherMappedQuestionCount": 585,
+    "publisherMappingReferenceCount": 689,
+    "validPublisherMappingReferenceCount": 689,
+    "centralMappingRegistryCount": 65,
     "pendingQuestionCount": 19,
-    "curriculumCoreStatusCount": 2297,
+    "curriculumCoreStatusCount": 2296,
     "publisherReferenceCounts": {
       "knsh": 169,
-      "hanlin": 449,
+      "hanlin": 450,
       "nani": 70,
-      "_total": 688
+      "_total": 689
     },
     "validPublisherReferenceCounts": {
       "knsh": 169,
-      "hanlin": 449,
+      "hanlin": 450,
       "nani": 70,
-      "_total": 688
+      "_total": 689
     },
     "mappingLevelCounts": {
       "official-resource-title": 77,
       "unit": 472,
-      "volume": 139,
-      "_total": 688
+      "volume": 140,
+      "_total": 689
     },
     "validMappingLevelCounts": {
       "official-resource-title": 77,
       "unit": 472,
-      "volume": 139,
-      "_total": 688
+      "volume": 140,
+      "_total": 689
     },
     "mappingVerificationStatus": {
-      "source-checked": 688,
-      "_total": 688
+      "source-checked": 689,
+      "_total": 689
     },
     "centralMappingRegistryVerificationStatusCounts": {
-      "source-checked": 62,
+      "source-checked": 63,
       "source-unavailable": 2,
-      "_total": 64
+      "_total": 65
     },
     "mappingReferenceErrors": 0,
     "mappingSourceFieldErrors": 0,
@@ -8987,14 +9137,14 @@
     "duplicateQuestionIds": 0,
     "missingClassificationCount": 0,
     "semesterCounts": {
-      "unassigned": 2172,
-      "上學期": 490,
+      "unassigned": 2171,
+      "上學期": 491,
       "下學期": 164,
       "全學年": 74,
       "_total": 2900
     },
-    "semesterAssignedQuestionCount": 728,
-    "semesterUnassignedQuestionCount": 2172,
+    "semesterAssignedQuestionCount": 729,
+    "semesterUnassignedQuestionCount": 2171,
     "examPeriodCounts": {
       "unassigned": 2673,
       "第一次段考": 65,
@@ -9005,33 +9155,33 @@
     "examAssignedQuestionCount": 227,
     "examUnassignedQuestionCount": 2673,
     "classificationBasisCounts": {
-      "curriculum-core": 2162,
-      "publisher-source-verified": 470,
+      "curriculum-core": 2161,
+      "publisher-source-verified": 471,
       "question-bank-inference": 255,
       "unassigned": 13,
       "_total": 2900
     },
     "confidenceCounts": {
-      "low": 2067,
-      "medium": 795,
+      "low": 2066,
+      "medium": 796,
       "high": 38,
       "_total": 2900
     },
     "publisherStatusCounts": {
-      "curriculum-core": 2297,
-      "publisher-mapped": 584,
+      "curriculum-core": 2296,
+      "publisher-mapped": 585,
       "pending": 19,
       "_total": 2900
     },
-    "curriculumCoreQuestionCount": 2297,
+    "curriculumCoreQuestionCount": 2296,
     "sourceUnavailableMappingReferenceCount": 0,
-    "inferenceMappingRegistryCount": 64,
+    "inferenceMappingRegistryCount": 65,
     "activeScopeQuestionCount": 1864,
     "activeScope": {
       "questionCount": 1864,
       "semester": {
-        "unassigned": 1136,
-        "上學期": 490,
+        "unassigned": 1135,
+        "上學期": 491,
         "下學期": 164,
         "全學年": 74
       },
@@ -9042,14 +9192,14 @@
         "第三次段考": 91
       },
       "publisherStatus": {
-        "curriculum-core": 1261,
-        "publisher-mapped": 584,
+        "curriculum-core": 1260,
+        "publisher-mapped": 585,
         "pending": 19
       }
     },
     "activeScopeSemesterCounts": {
-      "unassigned": 1139,
-      "上學期": 487,
+      "unassigned": 1135,
+      "上學期": 491,
       "下學期": 164,
       "全學年": 74,
       "_total": 1864
@@ -9071,22 +9221,28 @@
     "updatedQuestionRecords": 1,
     "newPublisherMappingsPersisted": 1,
     "stalePublisherMappingReferencesRemoved": 0,
-    "classificationBasisCorrections": 1,
+    "classificationBasisCorrections": 0,
     "runtimePersistenceDifferencesReconciled": 0,
     "runtimePersistenceDifferencesRemaining": 0,
     "mappingReferenceMetadataCorrections": 0,
     "indexShardShaCorrections": 1,
-    "fullFilterMatrixTested": true,
+    "fullFilterMatrixTested": false,
     "targetedFilterMatrixTested": true,
-    "targetedFilterCasesTested": 2119500,
+    "targetedFilterCasesTested": 10,
     "activeScopeAllModeQuestionCount": 1864,
-    "classificationRecords": 2900
+    "classificationRecords": 2900,
+    "sourceRegistryCount": 71,
+    "sourceRegistryVerificationStatusCounts": {
+      "source-checked": 68,
+      "pending": 1,
+      "source-unavailable": 2
+    }
   },
   "mappingLevelCountsBatches08to41": {
     "official-resource-title": 77,
     "unit": 472,
-    "volume": 139,
-    "_total": 688
+    "volume": 140,
+    "_total": 689
   },
   "mainClassificationAuditHistory": [
     {
@@ -10742,7 +10898,7 @@
       "centralMappingCount": 39
     }
   },
-  "classificationRuleVersion": "2026-11-17.103",
+  "classificationRuleVersion": "2026-11-18.105",
   "classificationPersistenceRunsRecovery": {
     "repairedAt": "2026-11-16",
     "previousLength": 337,
@@ -11131,16 +11287,28 @@
     "notes": "b34-040「生物多樣性與農業」新增康軒114六下單元三出版社映射。b34-036與b37-040分解者題、b36-035太陽能板傾角題缺少足以確認該出版社具體單元的直接來源，維持原分類、不掛出版社。未新增題目，原題幹、選項、答案與解析未修改。"
   },
   "latestAudit": {
-    "runId": "2026-11-17-knsh-g6-natural-biodiversity-b34-040-backfill-01",
-    "date": "2026-11-17",
-    "sourceHeadBeforeRun": "a7e1462fd8a8bd759c33b3540964b538cfbb9551",
+    "runId": "2026-11-18-hanlin-h2-history-french-revolution-volume-backfill-01",
+    "date": "2026-11-18",
+    "sourceHeadBeforeRun": "73f056d5e8340eac9dbe84f9fcbd626a92023fde",
     "batches": "08-41",
     "batchFileCount": 34,
     "fullCorpusQuestionCount": 2900,
     "activeScopeQuestionCount": 1864,
+    "questionRecordsUpdated": 1,
+    "updatedQuestionIds": [
+      "b41-091"
+    ],
+    "semesterAssignments": 1,
+    "semesterCorrections": 0,
+    "examPeriodAssignments": 0,
+    "publisherMappingsAdded": 1,
+    "publisherMappingReferencesAdded": 1,
+    "newQuestionsAdded": 0,
+    "sourceBatchShasMatch": "34/34",
+    "classificationRuleVersion": "2026-11-18.105",
     "fullCorpusSemesterDistribution": {
-      "unassigned": 2172,
-      "上學期": 490,
+      "unassigned": 2171,
+      "上學期": 491,
       "下學期": 164,
       "全學年": 74,
       "_total": 2900
@@ -11153,53 +11321,40 @@
       "_total": 2900
     },
     "fullCorpusClassificationBasisDistribution": {
-      "curriculum-core": 2162,
-      "publisher-source-verified": 470,
+      "curriculum-core": 2161,
+      "publisher-source-verified": 471,
       "question-bank-inference": 255,
       "unassigned": 13,
       "_total": 2900
     },
     "fullCorpusPublisherStatusDistribution": {
-      "curriculum-core": 2297,
-      "publisher-mapped": 584,
+      "curriculum-core": 2296,
+      "publisher-mapped": 585,
       "pending": 19,
       "_total": 2900
     },
     "fullCorpusConfidenceDistribution": {
-      "low": 2067,
-      "medium": 795,
+      "low": 2066,
+      "medium": 796,
       "high": 38,
       "_total": 2900
     },
     "publisherReferenceCounts": {
       "knsh": 169,
-      "hanlin": 449,
+      "hanlin": 450,
       "nani": 70,
-      "_total": 688
+      "_total": 689
     },
     "mappingLevelCounts": {
       "official-resource-title": 77,
       "unit": 472,
-      "volume": 139,
-      "_total": 688
+      "volume": 140,
+      "_total": 689
     },
     "mappingVerificationStatusCounts": {
-      "source-checked": 688,
-      "_total": 688
+      "source-checked": 689,
+      "_total": 689
     },
-    "questionRecordsUpdated": 1,
-    "updatedQuestionIds": [
-      "b34-040"
-    ],
-    "semesterAssignments": 0,
-    "semesterCorrections": 0,
-    "examPeriodAssignments": 0,
-    "examPeriodCorrections": 0,
-    "publisherMappingsAdded": 1,
-    "publisherMappingReferencesAdded": 1,
-    "newQuestionsAdded": 0,
-    "sourceBatchShasMatch": "34/34",
-    "classificationRuleVersion": "2026-11-17.103",
     "validation": {
       "jsonParse": true,
       "classificationRecords": 2900,
@@ -11215,7 +11370,7 @@
       "sourceBatchShasMatch": "34/34",
       "updatedQuestionsChecked": 1,
       "updatedQuestionIdsReachable": true,
-      "targetedFilterCombinationsTested": 8,
+      "targetedFilterCombinationsTested": 10,
       "targetedFilterErrors": 0,
       "publisherMappingLeaks": 0,
       "allModeReachable": true,
@@ -11227,8 +11382,8 @@
       "browserOrMobileRuntimeTested": false,
       "fullFilterMatrixTested": false
     },
-    "validationMethod": "依 index.html getPool() 的持久分類、publisher=knsh、semester=下學期、examPeriod=unassigned、單元 learningUnit 條件執行資料層定向驗證；不等同瀏覽器實機測試。",
-    "notes": "b34-040「生物多樣性與農業」新增康軒114六下單元三出版社映射。b34-036與b37-040分解者題、b36-035太陽能板傾角題缺少足以確認該出版社具體單元的直接來源，維持原分類、不掛出版社。未新增題目，原題幹、選項、答案與解析未修改。"
+    "validationMethod": "依 index.html getPool() 的持久分類與篩選邏輯，測試全部版本、翰林、共同核心、待核對、上學期、未分類段考及單元條件的10組定向資料層組合；不等同瀏覽器實機測試。",
+    "notes": "b41-091「革命的多重原因」新增翰林高中歷史(3)冊別層級映射。翰林113上官方教材簡介列歷史3課本P.60–61法國大革命至拿破崙時代大事紀要；翰林書城商品頁008021確認高二歷史上學期。未核對具體單元，故mappingLevel=volume；examPeriod保留unassigned。未宣稱學校採用版本或教師審核；未新增題目。"
   },
   "latestIndexReconciliationAudit": {
     "date": "2026-11-17",
@@ -11327,12 +11482,11 @@
     "filterMatrixTestedThisRun": false,
     "notes": "Fresh main reconciliation: all 34 batch blob SHAs match the six classification shard sourceBatchShas maps; all six shard blob SHAs match the classification index. Removed a null placeholder from textbook-alignment.mappings; no question record or publisher mapping was changed. The existing 2,119,500-case data-layer filter audit remains the latest filter-matrix evidence; this registry cleanup did not rerun it."
   },
-  "sourceRegistryCount": 69,
+  "sourceRegistryCount": 71,
   "sourceRegistryVerificationStatusCounts": {
-    "source-checked": 66,
+    "source-checked": 68,
     "pending": 1,
-    "source-unavailable": 2,
-    "_total": 69
+    "source-unavailable": 2
   },
   "latestGradeScopeAudit": {
     "runId": "2026-11-17-grade-scope-moon-phase-review-01",
