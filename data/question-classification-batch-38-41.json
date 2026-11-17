@@ -15412,11 +15412,12 @@
       "educloud-sun-heat-grade56"
     ],
     "questionRecordsReviewed": 5,
-    "pendingCountAfterUpdate": 5,
     "publisherMappingsAdded": 0,
     "semesterAssignments": 0,
     "examPeriodAssignments": 0,
     "newQuestionsAdded": 0,
-    "notes": "月相課程手冊跨階段教學案例與正式Fb-IV-4編碼出現年級訊號差異，保留待核對；日照角度資源僅能分別支持5–6年級高度角觀測與受熱活動，未能直接支持題目所述入射角—單位面積能量關係，故列待核對。"
+    "notes": "月相課程手冊跨階段教學案例與正式Fb-IV-4編碼出現年級訊號差異，保留待核對；日照角度資源僅能分別支持5–6年級高度角觀測與受熱活動，未能直接支持題目所述入射角—單位面積能量關係，故列待核對。",
+    "reviewedPendingCount": 5,
+    "fullCorpusPendingCount": 21
   }
 }
