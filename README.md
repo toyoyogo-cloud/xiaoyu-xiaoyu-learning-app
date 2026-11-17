@@ -1589,3 +1589,5 @@ Repository → Settings → Pages → Build and deployment → Deploy from a bra
 - 官方資料未提供可確認本題具體單元的目次，故mappingLevel=volume，不填unitCode／unitName；semester=上學期、examPeriod=unassigned、classificationBasis=publisher-source-verified、confidence=medium。未宣稱學校採用版本或正式段考範圍。
 - 本輪定向資料層篩選10/10通過：全部版本、翰林、共同核心、待核對、上學期、未分類段考及單元條件；出版社映射洩漏0。完整全庫篩選矩陣未重跑，瀏覽器／手機實機測試未執行。
 - 更新後全庫：學期上學期491／下學期164／全學年74／未分類2,171；段考第一次65／第二次71／第三次91／未分類2,673；出版社映射585題、689筆參照（南一70、翰林450、康軒169）；108課綱共同核心狀態2,296、待核對19。原始題庫、題幹、選項、答案、解析及既有學習紀錄均未修改；新增題目0。
+
+- 後置推定器 runtime smoke test：以 mock window 載入已提交的 `question-classification-inference.js`，搭配第38–41批持久分類索引實際執行 b41-091，回傳「上學期／段考未分類／publisher-source-verified／medium／翰林歷史(3)冊別映射」，與持久紀錄一致。這是函式執行測試，不等同瀏覽器／手機實機測試。
