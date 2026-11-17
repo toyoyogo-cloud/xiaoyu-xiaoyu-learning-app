@@ -612,7 +612,9 @@
       "appReadsPersistedClassificationIndex": true,
       "zeroResultHintPresent": true,
       "browserOrMobileRuntimeTested": false,
-      "fullFilterMatrixTested": false
+      "fullFilterMatrixTested": false,
+      "mappingSourceFieldErrors": 0,
+      "mappingScopeErrors": 0
     },
     "validationMethod": "重新解析六個持久分類分片，核對34批原始題庫SHA及題目ID；依index.html getPool()之學期、段考、出版社、年級、科目與單元條件語義執行12組定向資料層篩選。未執行瀏覽器／手機實機或完整全篩選矩陣。",
     "notes": "b41-031依國教院課程手冊頁358之5–6年級實驗設計控制變因案例，信心由low調為medium；b41-036依頁337–338之5–6年級光合作用基本概念補充課綱來源，但氣體交換細節仍未被該手冊直接核對，維持low。兩題均維持108課綱共同核心、學期與段考unassigned，不標出版社。"
@@ -1889,7 +1891,9 @@
       "appReadsPersistedClassificationIndex": true,
       "zeroResultHintPresent": true,
       "browserOrMobileRuntimeTested": false,
-      "fullFilterMatrixTested": false
+      "fullFilterMatrixTested": false,
+      "mappingSourceFieldErrors": 0,
+      "mappingScopeErrors": 0
     },
     "validationMethod": "重新解析六個持久分類分片，核對34批原始題庫SHA及題目ID；依index.html getPool()之學期、段考、出版社、年級、科目與單元條件語義執行12組定向資料層篩選。未執行瀏覽器／手機實機或完整全篩選矩陣。",
     "notes": "b41-031依國教院課程手冊頁358之5–6年級實驗設計控制變因案例，信心由low調為medium；b41-036依頁337–338之5–6年級光合作用基本概念補充課綱來源，但氣體交換細節仍未被該手冊直接核對，維持low。兩題均維持108課綱共同核心、學期與段考unassigned，不標出版社。"
@@ -2004,10 +2008,14 @@
       "zeroResultHintPresent": true,
       "browserOrMobileRuntimeTested": false,
       "fullFilterMatrixTested": false,
-      "curriculumCoreQuestionCount": 2288
+      "curriculumCoreQuestionCount": 2288,
+      "mappingSourceFieldErrors": 0,
+      "mappingScopeErrors": 0
     },
     "validationMethod": "重新解析六個持久分類分片，核對34批原始題庫SHA及題目ID；依index.html getPool()之學期、段考、出版社、年級、科目與單元條件語義執行12組定向資料層篩選。未執行瀏覽器／手機實機或完整全篩選矩陣。",
-    "notes": "b41-031依國教院課程手冊頁358之5–6年級實驗設計控制變因案例，信心由low調為medium；b41-036依頁337–338之5–6年級光合作用基本概念補充課綱來源，但氣體交換細節仍未被該手冊直接核對，維持low。兩題均維持108課綱共同核心、學期與段考unassigned，不標出版社。"
+    "notes": "b41-031依國教院課程手冊頁358之5–6年級實驗設計控制變因案例，信心由low調為medium；b41-036依頁337–338之5–6年級光合作用基本概念補充課綱來源，但氣體交換細節仍未被該手冊直接核對，維持low。兩題均維持108課綱共同核心、學期與段考unassigned，不標出版社。",
+    "mappingScopeErrors": 0,
+    "mappingSourceFieldErrors": 0
   },
   "filterValidation": {
     "runId": "2026-11-18-naer-g6-science-inquiry-core-review-01",
