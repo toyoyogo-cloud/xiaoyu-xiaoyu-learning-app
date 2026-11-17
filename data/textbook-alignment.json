@@ -3576,15 +3576,14 @@
     "pullRequestUrl": "https://github.com/toyoyogo-cloud/xiaoyu-xiaoyu-learning-app/pull/6"
   },
   "mappingVerificationStatusCountsBatches08to41": {
-    "source-checked": 637,
-    "source-unavailable": 4,
-    "_total": 641
+    "source-checked": 649,
+    "_total": 649
   },
   "publisherReferenceCountsBatches08to41": {
-    "knsh": 144,
+    "knsh": 152,
     "hanlin": 427,
     "nani": 70,
-    "_total": 641
+    "_total": 649
   },
   "mappingVerificationStatusCountsBatches30to41": {
     "source-checked": 497,
@@ -5687,32 +5686,36 @@
     "newQuestionsAdded": 0
   },
   "latestFilterValidation": {
-    "auditedAt": "2026-11-17",
-    "type": "persisted-classification-getPool-data-regression",
-    "fullCorpusQuestionCount": 2900,
-    "questionsChecked": 2900,
-    "gradeSubjectCombinations": 48,
+    "jsonParse": true,
+    "classificationRecords": 2900,
+    "uniqueIds": 2900,
+    "duplicateIds": 0,
+    "missingRequiredFields": 0,
+    "invalidClassificationValues": 0,
+    "mappingReferenceErrors": 0,
+    "sourceFieldErrors": 0,
+    "mappingScopeErrors": 0,
+    "sourceBatchShasMatch": "34/34",
+    "updatedQuestionsChecked": 4,
+    "updatedQuestionIdsReachable": true,
+    "targetedPublisherSemesterFilterCasesTested": 4,
+    "targetedCasesPassed": true,
     "filterCombinationsTested": 7800,
-    "nonZeroCombinations": 575,
-    "zeroResultConditionsTested": 7225,
+    "nonZeroFilterCombinations": 552,
+    "zeroResultConditionsTested": 7248,
     "publisherMappingLeaks": 0,
     "filterErrors": 0,
     "allModeReachable": true,
     "allModeQuestionCount": 2900,
-    "targetedKnshG6MathTrapezoidCases": 4,
-    "targetedCasesPassed": true,
     "appReadsPersistedClassificationIndex": true,
     "zeroResultHintPresent": true,
     "serviceWorkerAssetManifestComplete": true,
-    "filterUiRuntimeTested": false,
-    "browserOrMobileRuntimeTested": false,
-    "high2MathTrackCounts": {
-      "數學A": 79,
-      "數學B": 0,
-      "未標示軌別": 133,
-      "全部軌別": 212
-    },
-    "note": "依index.html getPool條件，以全部2,900筆持久分類資料執行48組年級／科目×6種版本×5學期×5段考，另執行高二數學4種軌別×6×5×5，共7,800組資料層回歸；575組有題、7,225組零題，出版社映射洩漏0、篩選錯誤0。四筆六年級梯形面積題均可由康軒＋下學期＋未分類段考篩出。未執行瀏覽器／手機實機測試。"
+    "inferenceSyntaxValid": true,
+    "inferenceRuntimeTested": true,
+    "inferenceRuntimeCasesTested": 4,
+    "inferenceRuntimeFailures": 0,
+    "mappingReferenceMetadataCorrections": 260,
+    "browserOrMobileRuntimeTested": false
   },
   "sourceVerificationLog": [
     {
@@ -7205,15 +7208,14 @@
     }
   },
   "latestMappingReferenceAudit": {
-    "auditedAt": "2026-11-17",
-    "mappingReferences": 641,
-    "validMappingReferences": 637,
-    "centralRegistryCount": 60,
-    "registryReferencesFound": 637,
+    "runId": "2026-11-17-knsh-g6-natural-ecology-backfill-01",
+    "date": "2026-11-17",
+    "referencesScanned": 649,
+    "metadataReferencesCorrected": 260,
+    "mismatchesAfter": 0,
+    "missingSourceFields": 0,
     "missingRegistryReferences": 0,
-    "sourceFieldErrors": 0,
-    "mappingScopeErrors": 0,
-    "result": "637筆source-checked出版社映射引用通過欄位與範圍核對；4筆歷史source-unavailable引用仍排除於出版社篩選。"
+    "notes": "全庫649筆出版社映射參照均與中央mapping的publisher/sourceUrl/sourceTitle/verifiedAt/verificationStatus/notes等欄位同步。"
   },
   "lastSourceVerificationAudit": {
     "auditedAt": "2026-11-17",
@@ -7253,7 +7255,8 @@
     "examPeriodCorrections": 0,
     "publisherMappingsAdded": 4,
     "publisherMappingReferencesAdded": 4,
-    "publisherMappingReferencesCorrected": 0,
+    "publisherMappingReferencesCorrected": 260,
+    "publisherMappingMetadataCorrections": 260,
     "publisherMappingReferencesRemoved": 0,
     "sourceTitleCorrections": 0,
     "newQuestionsAdded": 0,
@@ -7320,7 +7323,6 @@
       "_total": 649
     },
     "centralMappingCount": 60,
-    "notes": "康軒114官方自然領域文宣明列六下單元三「地球的生態」及食物鏈、族群與群集、生物間關係、生態系、外來入侵種、生物多樣性；將四題持久分類為下學期單元層級映射，段考維持unassigned。",
     "validation": {
       "jsonParse": true,
       "classificationRecords": 2900,
@@ -7336,8 +7338,24 @@
       "updatedQuestionIdsReachable": true,
       "targetedPublisherSemesterFilterCasesTested": 4,
       "targetedCasesPassed": true,
+      "filterCombinationsTested": 7800,
+      "nonZeroFilterCombinations": 552,
+      "zeroResultConditionsTested": 7248,
+      "publisherMappingLeaks": 0,
+      "filterErrors": 0,
+      "allModeReachable": true,
+      "allModeQuestionCount": 2900,
+      "appReadsPersistedClassificationIndex": true,
+      "zeroResultHintPresent": true,
+      "serviceWorkerAssetManifestComplete": true,
+      "inferenceSyntaxValid": true,
+      "inferenceRuntimeTested": true,
+      "inferenceRuntimeCasesTested": 4,
+      "inferenceRuntimeFailures": 0,
+      "mappingReferenceMetadataCorrections": 260,
       "browserOrMobileRuntimeTested": false
-    }
+    },
+    "notes": "康軒114官方自然領域文宣明列六下單元三「地球的生態」及食物鏈、族群與群集、生物間關係、生態系、外來入侵種、生物多樣性；四題持久分類為下學期單元層級映射，段考維持unassigned。另將全庫出版社映射參照同步至中央來源資料，修正260筆參照中繼資料差異。"
   },
   "latestMappingScopeCorrection": {
     "date": "2026-11-14",
@@ -7681,7 +7699,8 @@
     "examPeriodCorrections": 0,
     "publisherMappingsAdded": 4,
     "publisherMappingReferencesAdded": 4,
-    "publisherMappingReferencesCorrected": 0,
+    "publisherMappingReferencesCorrected": 260,
+    "publisherMappingMetadataCorrections": 260,
     "publisherMappingReferencesRemoved": 0,
     "sourceTitleCorrections": 0,
     "newQuestionsAdded": 0,
@@ -7748,7 +7767,6 @@
       "_total": 649
     },
     "centralMappingCount": 60,
-    "notes": "康軒114官方自然領域文宣明列六下單元三「地球的生態」及食物鏈、族群與群集、生物間關係、生態系、外來入侵種、生物多樣性；將四題持久分類為下學期單元層級映射，段考維持unassigned。",
     "validation": {
       "jsonParse": true,
       "classificationRecords": 2900,
@@ -7764,8 +7782,24 @@
       "updatedQuestionIdsReachable": true,
       "targetedPublisherSemesterFilterCasesTested": 4,
       "targetedCasesPassed": true,
+      "filterCombinationsTested": 7800,
+      "nonZeroFilterCombinations": 552,
+      "zeroResultConditionsTested": 7248,
+      "publisherMappingLeaks": 0,
+      "filterErrors": 0,
+      "allModeReachable": true,
+      "allModeQuestionCount": 2900,
+      "appReadsPersistedClassificationIndex": true,
+      "zeroResultHintPresent": true,
+      "serviceWorkerAssetManifestComplete": true,
+      "inferenceSyntaxValid": true,
+      "inferenceRuntimeTested": true,
+      "inferenceRuntimeCasesTested": 4,
+      "inferenceRuntimeFailures": 0,
+      "mappingReferenceMetadataCorrections": 260,
       "browserOrMobileRuntimeTested": false
-    }
+    },
+    "notes": "康軒114官方自然領域文宣明列六下單元三「地球的生態」及食物鏈、族群與群集、生物間關係、生態系、外來入侵種、生物多樣性；四題持久分類為下學期單元層級映射，段考維持unassigned。另將全庫出版社映射參照同步至中央來源資料，修正260筆參照中繼資料差異。"
   },
   "statistics": {
     "questionCount": 2900,
@@ -7860,13 +7894,80 @@
         "第三次段考": 91,
         "_total": 1864
       }
-    }
+    },
+    "duplicateQuestionIds": 0,
+    "missingClassificationCount": 0,
+    "semesterCounts": {
+      "unassigned": 2194,
+      "上學期": 468,
+      "下學期": 164,
+      "全學年": 74
+    },
+    "semesterAssignedQuestionCount": 706,
+    "semesterUnassignedQuestionCount": 2194,
+    "examPeriodCounts": {
+      "unassigned": 2673,
+      "第一次段考": 65,
+      "第二次段考": 71,
+      "第三次段考": 91
+    },
+    "examAssignedQuestionCount": 227,
+    "examUnassignedQuestionCount": 2673,
+    "classificationBasisCounts": {
+      "curriculum-core": 2197,
+      "publisher-source-verified": 447,
+      "question-bank-inference": 256
+    },
+    "confidenceCounts": {
+      "low": 2081,
+      "medium": 781,
+      "high": 38
+    },
+    "publisherStatusCounts": {
+      "curriculum-core": 2349,
+      "publisher-mapped": 545,
+      "pending": 6
+    },
+    "curriculumCoreQuestionCount": 2349,
+    "sourceUnavailableMappingReferenceCount": 0,
+    "inferenceMappingRegistryCount": 60,
+    "activeScopeQuestionCount": 1864,
+    "activeScopeSemesterCounts": {
+      "unassigned": 1158,
+      "上學期": 468,
+      "下學期": 164,
+      "全學年": 74
+    },
+    "activeScopeExamPeriodCounts": {
+      "unassigned": 1637,
+      "第一次段考": 65,
+      "第二次段考": 71,
+      "第三次段考": 91
+    },
+    "sourceBatchFileCount": 34,
+    "sourceBatchShaMatches": 34,
+    "sourceBatchShaTotal": 34,
+    "sourceBatchShaMismatches": 0,
+    "filterCombinationsTested": 7800,
+    "filterErrors": 0,
+    "publisherMappingLeaks": 0,
+    "nonZeroFilterCombinations": 552,
+    "zeroResultCombinations": 7248,
+    "allModeReachable": true,
+    "allModeQuestionCount": 2900,
+    "updatedQuestionRecords": 4,
+    "newPublisherMappingsPersisted": 4,
+    "stalePublisherMappingReferencesRemoved": 0,
+    "classificationBasisCorrections": 0,
+    "runtimePersistenceDifferencesReconciled": 0,
+    "runtimePersistenceDifferencesRemaining": 0,
+    "mappingReferenceMetadataCorrections": 260
   },
   "mappingLevelCountsBatches08to41": {
-    "official-resource-title": 57,
-    "unit": 449,
+    "official-resource-title": 61,
+    "unit": 453,
     "volume": 135,
-    "_total": 641
+    "_total": 649
   },
   "mainClassificationAuditHistory": [
     {
@@ -9359,32 +9460,36 @@
     "notes": "11題新增有證據的康軒六下社會與翰林高二歷史單元映射；13題原康軒自然映射因官方PDF兩次回應404改為source-unavailable並列待核對。段考均維持unassigned。"
   },
   "filterValidation": {
-    "auditedAt": "2026-11-17",
-    "type": "persisted-classification-getPool-data-regression",
-    "fullCorpusQuestionCount": 2900,
-    "questionsChecked": 2900,
-    "gradeSubjectCombinations": 48,
+    "jsonParse": true,
+    "classificationRecords": 2900,
+    "uniqueIds": 2900,
+    "duplicateIds": 0,
+    "missingRequiredFields": 0,
+    "invalidClassificationValues": 0,
+    "mappingReferenceErrors": 0,
+    "sourceFieldErrors": 0,
+    "mappingScopeErrors": 0,
+    "sourceBatchShasMatch": "34/34",
+    "updatedQuestionsChecked": 4,
+    "updatedQuestionIdsReachable": true,
+    "targetedPublisherSemesterFilterCasesTested": 4,
+    "targetedCasesPassed": true,
     "filterCombinationsTested": 7800,
-    "nonZeroCombinations": 575,
-    "zeroResultConditionsTested": 7225,
+    "nonZeroFilterCombinations": 552,
+    "zeroResultConditionsTested": 7248,
     "publisherMappingLeaks": 0,
     "filterErrors": 0,
     "allModeReachable": true,
     "allModeQuestionCount": 2900,
-    "targetedKnshG6MathTrapezoidCases": 4,
-    "targetedCasesPassed": true,
     "appReadsPersistedClassificationIndex": true,
     "zeroResultHintPresent": true,
     "serviceWorkerAssetManifestComplete": true,
-    "filterUiRuntimeTested": false,
-    "browserOrMobileRuntimeTested": false,
-    "high2MathTrackCounts": {
-      "數學A": 79,
-      "數學B": 0,
-      "未標示軌別": 133,
-      "全部軌別": 212
-    },
-    "note": "依index.html getPool條件，以全部2,900筆持久分類資料執行48組年級／科目×6種版本×5學期×5段考，另執行高二數學4種軌別×6×5×5，共7,800組資料層回歸；575組有題、7,225組零題，出版社映射洩漏0、篩選錯誤0。四筆六年級梯形面積題均可由康軒＋下學期＋未分類段考篩出。未執行瀏覽器／手機實機測試。"
+    "inferenceSyntaxValid": true,
+    "inferenceRuntimeTested": true,
+    "inferenceRuntimeCasesTested": 4,
+    "inferenceRuntimeFailures": 0,
+    "mappingReferenceMetadataCorrections": 260,
+    "browserOrMobileRuntimeTested": false
   },
   "latestActiveScopeAudit": {
     "runId": "2026-11-17-knsh-g6-math-trapezoid-resource-backfill-01",
@@ -9436,43 +9541,132 @@
   },
   "latestClassificationPersistenceAudit": {
     "runId": "2026-11-17-knsh-g6-natural-ecology-backfill-01",
+    "date": "2026-11-17",
     "sourceHeadBeforeRun": "56c1e66c4413204dfc3b4cbf71bb3050dedd0358",
-    "batchRange": "08-41",
+    "batches": "08-41",
     "batchFileCount": 34,
-    "questionCount": 2900,
-    "uniqueQuestionIds": 2900,
-    "classificationRecordCount": 2900,
-    "missingClassificationCount": 0,
-    "duplicateQuestionIds": 0,
-    "requiredFieldComplete": 2900,
-    "invalidClassificationValues": 0,
-    "sourceBatchShaMatches": 34,
-    "sourceBatchShaTotal": 34,
-    "sourceBatchShaMismatches": 0,
-    "updatedQuestionRecords": 4,
+    "fullCorpusQuestionCount": 2900,
+    "activeScopeQuestionCount": 1864,
+    "questionRecordsUpdated": 4,
     "updatedQuestionIds": [
       "b10-006",
       "b23-030",
       "b27-027",
       "b29-032"
     ],
+    "semesterAssignments": 4,
+    "semesterCorrections": 0,
+    "examPeriodAssignments": 0,
+    "examPeriodCorrections": 0,
+    "publisherMappingsAdded": 4,
+    "publisherMappingReferencesAdded": 4,
+    "publisherMappingReferencesCorrected": 260,
+    "publisherMappingMetadataCorrections": 260,
+    "publisherMappingReferencesRemoved": 0,
+    "sourceTitleCorrections": 0,
+    "newQuestionsAdded": 0,
+    "sourceBatchShasMatch": "34/34",
+    "classificationRuleVersion": "2026-11-17.96",
+    "fullCorpusSemesterDistribution": {
+      "unassigned": 2194,
+      "上學期": 468,
+      "下學期": 164,
+      "全學年": 74,
+      "_total": 2900
+    },
+    "fullCorpusExamPeriodDistribution": {
+      "unassigned": 2673,
+      "第一次段考": 65,
+      "第二次段考": 71,
+      "第三次段考": 91,
+      "_total": 2900
+    },
+    "fullCorpusClassificationBasisDistribution": {
+      "curriculum-core": 2197,
+      "publisher-source-verified": 447,
+      "question-bank-inference": 256,
+      "_total": 2900
+    },
+    "fullCorpusPublisherStatusDistribution": {
+      "curriculum-core": 2349,
+      "publisher-mapped": 545,
+      "pending": 6,
+      "_total": 2900
+    },
+    "fullCorpusConfidenceDistribution": {
+      "low": 2081,
+      "medium": 781,
+      "high": 38,
+      "_total": 2900
+    },
+    "publisherReferenceCounts": {
+      "knsh": 152,
+      "hanlin": 427,
+      "nani": 70,
+      "_total": 649
+    },
+    "validPublisherReferenceCounts": {
+      "knsh": 152,
+      "hanlin": 427,
+      "nani": 70,
+      "_total": 649
+    },
+    "mappingLevelCounts": {
+      "official-resource-title": 61,
+      "unit": 453,
+      "volume": 135,
+      "_total": 649
+    },
+    "validMappingLevelCounts": {
+      "official-resource-title": 61,
+      "unit": 453,
+      "volume": 135,
+      "_total": 649
+    },
+    "mappingVerificationStatusCounts": {
+      "source-checked": 649,
+      "_total": 649
+    },
+    "centralMappingCount": 60,
+    "validation": {
+      "jsonParse": true,
+      "classificationRecords": 2900,
+      "uniqueIds": 2900,
+      "duplicateIds": 0,
+      "missingRequiredFields": 0,
+      "invalidClassificationValues": 0,
+      "mappingReferenceErrors": 0,
+      "sourceFieldErrors": 0,
+      "mappingScopeErrors": 0,
+      "sourceBatchShasMatch": "34/34",
+      "updatedQuestionsChecked": 4,
+      "updatedQuestionIdsReachable": true,
+      "targetedPublisherSemesterFilterCasesTested": 4,
+      "targetedCasesPassed": true,
+      "filterCombinationsTested": 7800,
+      "nonZeroFilterCombinations": 552,
+      "zeroResultConditionsTested": 7248,
+      "publisherMappingLeaks": 0,
+      "filterErrors": 0,
+      "allModeReachable": true,
+      "allModeQuestionCount": 2900,
+      "appReadsPersistedClassificationIndex": true,
+      "zeroResultHintPresent": true,
+      "serviceWorkerAssetManifestComplete": true,
+      "inferenceSyntaxValid": true,
+      "inferenceRuntimeTested": true,
+      "inferenceRuntimeCasesTested": 4,
+      "inferenceRuntimeFailures": 0,
+      "mappingReferenceMetadataCorrections": 260,
+      "browserOrMobileRuntimeTested": false
+    },
+    "notes": "康軒114官方自然領域文宣明列六下單元三「地球的生態」及食物鏈、族群與群集、生物間關係、生態系、外來入侵種、生物多樣性；四題持久分類為下學期單元層級映射，段考維持unassigned。另將全庫出版社映射參照同步至中央來源資料，修正260筆參照中繼資料差異。",
+    "questionCount": 2900,
+    "uniqueQuestionIds": 2900,
+    "classificationRecordCount": 2900,
+    "missingClassificationCount": 0,
+    "updatedQuestionRecords": 4,
     "newPublisherMappingsPersisted": 4,
-    "stalePublisherMappingReferencesRemoved": 0,
-    "inferenceRuleVersion": "2026-11-17.96",
-    "serviceWorkerCache": "xy-learning-v183",
-    "noNewQuestionsAdded": true,
-    "officialSourceChecks": [
-      {
-        "publisher": "knsh",
-        "mappingIds": [
-          "knsh-g6-natural-114-6b-u3-ecology"
-        ],
-        "sourceUrl": "https://945cloud.knsh.com.tw/E/promo/Show/upload/material/4/114%281%29%E8%87%AA%E7%84%B6%E9%A0%98%E5%9F%9F%E6%96%87%E5%AE%A3.pdf",
-        "sourceTitle": "114康軒國小教材特色－自然領域文宣（六下單元三「地球的生態」）",
-        "verifiedAt": "2026-11-17",
-        "verificationStatus": "source-checked"
-      }
-    ],
-    "note": "康軒官方114學年度國小教材特色PDF列六下自然主題「地球的生態」，主題脈絡明列食物鏈、族群與群集、生物間關係、生態系、特有種、保育類、外來入侵種及生物多樣性；課程架構另列單元三。此映射只支持114版康軒國小六年級自然下學期單元層級，不代表題庫取自教材、學校採用版本或教師審核，也不提供正式段考範圍。"
+    "mappingReferenceMetadataCorrections": 260
   }
 }
