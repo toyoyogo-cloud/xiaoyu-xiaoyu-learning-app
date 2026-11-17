@@ -4,8 +4,8 @@
   "classificationRuleVersion": "2026-11-17.102",
   "batchRange": "32-37",
   "sourceBatchShas": {
-    "32": "333029de98493d964b73c4d674353dea62c98461",
-    "33": "6039b6a12aed6199266c8daacd978037a1b542e4",
+    "32": "39bf8d31ef7a019d3fca6e78669afdcfb68a7aa4",
+    "33": "a11682fac16900861c609ea87882f807f2aa3967",
     "34": "22e408cee8a758c1ef2c4a3947b467dc74472949",
     "35": "499a1f996018a7d4949c111c92c1c334c7d25e8c",
     "36": "46aa1f9ccf210875155ba5572d8285715af0546a",
@@ -16383,6 +16383,10 @@
     "publisherMappingsAdded": 2,
     "publisherMappingReferencesAdded": 6,
     "newQuestionsAdded": 0,
-    "notes": "依翰林書城官方商品頁確認高中二年級歷史(3)上學期，並逐筆核對《試題挖挖哇－歷史(3)》第3頁目次：文藝復興對應第1單元、宗教改革與印刷術對應第2單元、戰後去殖民化對應第6單元。只建立翰林配套評量本單元層級映射；不代表學校採用版本或正式段考範圍。同步原始題庫批次欄位，段考維持unassigned。"
+    "notes": "修正兩筆沿用既有翰林歷史(3)第2單元映射的sourceUrl及verifiedAt，與中央教材對照資料完全一致；不變更分類、學期、段考或題目內容。",
+    "metadataCorrections": [
+      "b32-090",
+      "b33-092"
+    ]
   }
 }
