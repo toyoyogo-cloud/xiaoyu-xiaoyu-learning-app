@@ -410,9 +410,9 @@
     },
     "centralMappingRegistryCount": 66,
     "inferenceMappingRegistryCount": 66,
-    "sourceRegistryCount": 72,
+    "sourceRegistryCount": 76,
     "sourceRegistryVerificationStatusCounts": {
-      "source-checked": 70,
+      "source-checked": 74,
       "pending": 1,
       "source-unavailable": 1
     },
@@ -466,15 +466,15 @@
       "第三次段考": 91
     },
     "activeScopePublisherStatusCounts": {
-      "curriculum-core": 1252,
+      "curriculum-core": 1251,
       "publisher-mapped": 592,
-      "pending": 20
+      "pending": 21
     },
     "activeScopeClassificationBasisCounts": {
-      "curriculum-core": 1122,
+      "curriculum-core": 1121,
       "publisher-source-verified": 478,
       "question-bank-inference": 250,
-      "unassigned": 14
+      "unassigned": 15
     },
     "activeScopeConfidenceCounts": {
       "low": 1022,
@@ -493,7 +493,7 @@
     "invalidClassificationValues": 0,
     "validPublisherMappingReferenceCount": 696,
     "pendingQuestionCount": 21,
-    "curriculumCoreStatusCount": 2288,
+    "curriculumCoreStatusCount": 2287,
     "validPublisherReferenceCounts": {
       "knsh": 171,
       "hanlin": 455,
@@ -556,7 +556,8 @@
     "fullFilterMatrixTested": false,
     "targetedFilterMatrixTested": true,
     "targetedFilterCasesTested": 16,
-    "activeScopeAllModeQuestionCount": 1864
+    "activeScopeAllModeQuestionCount": 1864,
+    "sourceFieldErrors": 0
   },
   "sourceHeadVerified": "8541a4230d54998e949b8c36662b9176fb408855",
   "mainHeadVerifiedAt": "2026-11-18T06:46:36+08:00",
