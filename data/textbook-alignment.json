@@ -9138,7 +9138,55 @@
       "fullFilterMatrixTested": false
     },
     "validationMethod": "重新解析推定器 MAPS 初始物件及後續 MAPS[id] 指派，逐一與中央教材映射ID比對；對 b41-091 按 index.html getPool() 同等出版社／學期／段考／單元條件模擬10組篩選。這是資料層／結構測試，不等同瀏覽器或手機實機測試。",
-    "notes": "本輪未修改原始題庫、題目分類紀錄或推定器程式；確認 b41-091 的翰林歷史(3)冊別映射已存在於推定器。主要工作是將分類索引與教材中央登錄的過期統計校正為最新 main 實際資料。"
+    "notes": "本輪未修改原始題庫、題目分類紀錄或推定器程式；確認 b41-091 的翰林歷史(3)冊別映射已存在於推定器。主要工作是將分類索引與教材中央登錄的過期統計校正為最新 main 實際資料。",
+    "activeScope": {
+      "runId": "2026-11-18-active-scope-statistics-reconciliation-01",
+      "date": "2026-11-18",
+      "sourceHeadBeforeRun": "31a4402d0b8fef6c09675ce415d9d0d7aadda247",
+      "activeScopeDefinition": "國小六年級＋高中高二",
+      "questionCount": 1864,
+      "semester": {
+        "unassigned": 1133,
+        "上學期": 493,
+        "下學期": 164,
+        "全學年": 74
+      },
+      "examPeriod": {
+        "unassigned": 1637,
+        "第一次段考": 65,
+        "第二次段考": 71,
+        "第三次段考": 91
+      },
+      "publisherStatus": {
+        "curriculum-core": 1253,
+        "publisher-mapped": 592,
+        "pending": 19
+      },
+      "classificationBasis": {
+        "curriculum-core": 1123,
+        "publisher-source-verified": 478,
+        "question-bank-inference": 250,
+        "unassigned": 13
+      },
+      "confidence": {
+        "low": 1023,
+        "medium": 803,
+        "high": 38
+      },
+      "publisherMappedQuestionCount": 592,
+      "publisherMappingReferenceCount": 696,
+      "validation": {
+        "sixShardsParsed": true,
+        "shardQuestionCount": 2900,
+        "activeScopeQuestionCount": 1864,
+        "activeScopeUniqueRecords": 1864,
+        "allActiveScopeDistributionsSumTo1864": true,
+        "questionRecordsUpdated": 0,
+        "newQuestionsAdded": 0,
+        "browserOrMobileRuntimeTested": false
+      },
+      "notes": "依 main 六個持久分類分片逐筆篩選國小六年級與高中高二後重新計算；修正教材對照檔沿用舊值的 activeScope 統計。"
+    }
   },
   "statistics": {
     "questionCount": 2900,
@@ -9259,8 +9307,8 @@
     "activeScope": {
       "questionCount": 1864,
       "semester": {
-        "unassigned": 1135,
-        "上學期": 491,
+        "unassigned": 1133,
+        "上學期": 493,
         "下學期": 164,
         "全學年": 74
       },
@@ -9271,24 +9319,35 @@
         "第三次段考": 91
       },
       "publisherStatus": {
-        "curriculum-core": 1255,
-        "publisher-mapped": 590,
+        "curriculum-core": 1253,
+        "publisher-mapped": 592,
         "pending": 19
-      }
+      },
+      "classificationBasis": {
+        "curriculum-core": 1123,
+        "publisher-source-verified": 478,
+        "question-bank-inference": 250,
+        "unassigned": 13
+      },
+      "confidence": {
+        "low": 1023,
+        "medium": 803,
+        "high": 38
+      },
+      "publisherMappedQuestionCount": 592,
+      "publisherMappingReferenceCount": 696
     },
     "activeScopeSemesterCounts": {
-      "unassigned": 1135,
-      "上學期": 491,
+      "unassigned": 1133,
+      "上學期": 493,
       "下學期": 164,
-      "全學年": 74,
-      "_total": 1864
+      "全學年": 74
     },
     "activeScopeExamPeriodCounts": {
       "unassigned": 1637,
       "第一次段考": 65,
       "第二次段考": 71,
-      "第三次段考": 91,
-      "_total": 1864
+      "第三次段考": 91
     },
     "filterCombinationsTested": 2119500,
     "filterErrors": 0,
@@ -9315,7 +9374,25 @@
       "source-checked": 69,
       "pending": 1,
       "source-unavailable": 1
-    }
+    },
+    "activeScopePublisherStatusCounts": {
+      "curriculum-core": 1253,
+      "publisher-mapped": 592,
+      "pending": 19
+    },
+    "activeScopeClassificationBasisCounts": {
+      "curriculum-core": 1123,
+      "publisher-source-verified": 478,
+      "question-bank-inference": 250,
+      "unassigned": 13
+    },
+    "activeScopeConfidenceCounts": {
+      "low": 1023,
+      "medium": 803,
+      "high": 38
+    },
+    "activeScopePublisherMappedQuestionCount": 592,
+    "activeScopePublisherMappingReferenceCount": 696
   },
   "mappingLevelCountsBatches08to41": {
     "official-resource-title": 77,
@@ -11105,52 +11182,52 @@
     "browserOrMobileRuntimeTested": false
   },
   "latestActiveScopeAudit": {
-    "runId": "2026-11-17-knsh-g6-math-trapezoid-resource-backfill-01",
-    "auditedAt": "2026-11-17",
-    "scopeGrades": [
-      "六年級",
-      "高二"
-    ],
+    "runId": "2026-11-18-active-scope-statistics-reconciliation-01",
+    "date": "2026-11-18",
+    "sourceHeadBeforeRun": "31a4402d0b8fef6c09675ce415d9d0d7aadda247",
+    "activeScopeDefinition": "國小六年級＋高中高二",
     "questionCount": 1864,
-    "semesterDistribution": {
-      "unassigned": 1170,
-      "上學期": 464,
-      "下學期": 156,
-      "全學年": 74,
-      "_total": 1864
+    "semester": {
+      "unassigned": 1133,
+      "上學期": 493,
+      "下學期": 164,
+      "全學年": 74
     },
-    "examPeriodDistribution": {
+    "examPeriod": {
       "unassigned": 1637,
       "第一次段考": 65,
       "第二次段考": 71,
-      "第三次段考": 91,
-      "_total": 1864
+      "第三次段考": 91
     },
-    "classificationBasisDistribution": {
-      "curriculum-core": 1185,
-      "publisher-source-verified": 423,
-      "question-bank-inference": 256,
-      "_total": 1864
+    "publisherStatus": {
+      "curriculum-core": 1253,
+      "publisher-mapped": 592,
+      "pending": 19
     },
-    "publisherStatusDistribution": {
-      "curriculum-core": 1325,
-      "publisher-mapped": 533,
-      "pending": 6,
-      "_total": 1864
+    "classificationBasis": {
+      "curriculum-core": 1123,
+      "publisher-source-verified": 478,
+      "question-bank-inference": 250,
+      "unassigned": 13
     },
-    "confidenceDistribution": {
-      "low": 1056,
-      "medium": 772,
-      "high": 36,
-      "_total": 1864
+    "confidence": {
+      "low": 1023,
+      "medium": 803,
+      "high": 38
     },
-    "updatedQuestionIds": [
-      "b32-014",
-      "b33-023",
-      "b36-027",
-      "b37-025"
-    ],
-    "notes": "僅統計國小六年級與高中二年級；段考仍是複習建議，不代表學校正式範圍。"
+    "publisherMappedQuestionCount": 592,
+    "publisherMappingReferenceCount": 696,
+    "validation": {
+      "sixShardsParsed": true,
+      "shardQuestionCount": 2900,
+      "activeScopeQuestionCount": 1864,
+      "activeScopeUniqueRecords": 1864,
+      "allActiveScopeDistributionsSumTo1864": true,
+      "questionRecordsUpdated": 0,
+      "newQuestionsAdded": 0,
+      "browserOrMobileRuntimeTested": false
+    },
+    "notes": "依 main 六個持久分類分片逐筆篩選國小六年級與高中高二後重新計算；修正教材對照檔沿用舊值的 activeScope 統計。"
   },
   "latestClassificationPersistenceAudit": {
     "runId": "2026-11-18-main-classification-statistics-and-registry-reconciliation-01",
@@ -11453,7 +11530,55 @@
       "fullFilterMatrixTested": false
     },
     "validationMethod": "重新解析推定器 MAPS 初始物件及後續 MAPS[id] 指派，逐一與中央教材映射ID比對；對 b41-091 按 index.html getPool() 同等出版社／學期／段考／單元條件模擬10組篩選。這是資料層／結構測試，不等同瀏覽器或手機實機測試。",
-    "notes": "本輪未修改原始題庫、題目分類紀錄或推定器程式；確認 b41-091 的翰林歷史(3)冊別映射已存在於推定器。主要工作是將分類索引與教材中央登錄的過期統計校正為最新 main 實際資料。"
+    "notes": "本輪未修改原始題庫、題目分類紀錄或推定器程式；確認 b41-091 的翰林歷史(3)冊別映射已存在於推定器。主要工作是將分類索引與教材中央登錄的過期統計校正為最新 main 實際資料。",
+    "activeScope": {
+      "runId": "2026-11-18-active-scope-statistics-reconciliation-01",
+      "date": "2026-11-18",
+      "sourceHeadBeforeRun": "31a4402d0b8fef6c09675ce415d9d0d7aadda247",
+      "activeScopeDefinition": "國小六年級＋高中高二",
+      "questionCount": 1864,
+      "semester": {
+        "unassigned": 1133,
+        "上學期": 493,
+        "下學期": 164,
+        "全學年": 74
+      },
+      "examPeriod": {
+        "unassigned": 1637,
+        "第一次段考": 65,
+        "第二次段考": 71,
+        "第三次段考": 91
+      },
+      "publisherStatus": {
+        "curriculum-core": 1253,
+        "publisher-mapped": 592,
+        "pending": 19
+      },
+      "classificationBasis": {
+        "curriculum-core": 1123,
+        "publisher-source-verified": 478,
+        "question-bank-inference": 250,
+        "unassigned": 13
+      },
+      "confidence": {
+        "low": 1023,
+        "medium": 803,
+        "high": 38
+      },
+      "publisherMappedQuestionCount": 592,
+      "publisherMappingReferenceCount": 696,
+      "validation": {
+        "sixShardsParsed": true,
+        "shardQuestionCount": 2900,
+        "activeScopeQuestionCount": 1864,
+        "activeScopeUniqueRecords": 1864,
+        "allActiveScopeDistributionsSumTo1864": true,
+        "questionRecordsUpdated": 0,
+        "newQuestionsAdded": 0,
+        "browserOrMobileRuntimeTested": false
+      },
+      "notes": "依 main 六個持久分類分片逐筆篩選國小六年級與高中高二後重新計算；修正教材對照檔沿用舊值的 activeScope 統計。"
+    }
   },
   "latestIndexReconciliationAudit": {
     "date": "2026-11-18",
@@ -11513,48 +11638,52 @@
     "source-unavailable": 1
   },
   "latestGradeScopeAudit": {
-    "runId": "2026-11-17-grade-scope-moon-phase-review-01",
-    "verifiedAt": "2026-11-17",
-    "sourceHeadBeforeRun": "f03b96cae1728bf61955e3a6081e70475247b4d2",
-    "batches": "08-41",
-    "batchFileCount": 34,
-    "fullCorpusQuestionCount": 2900,
-    "questionRecordsUpdated": 6,
-    "updatedQuestionIds": [
-      "b23-031",
-      "b37-039",
-      "b38-038",
-      "b26-030",
-      "b30-027",
-      "b41-038"
-    ],
-    "affectedGradeScopePendingIds": [
-      "b25-032",
-      "b26-032",
-      "b30-029",
-      "b38-034",
-      "b31-039",
-      "b33-036",
-      "b34-037",
-      "b23-031",
-      "b37-039",
-      "b38-038",
-      "b26-030",
-      "b30-027",
-      "b41-038"
-    ],
-    "classificationBasisCorrections": 6,
-    "publisherStatusCorrections": 6,
-    "semesterAssignments": 0,
-    "examPeriodAssignments": 0,
-    "publisherMappingsAdded": 0,
-    "publisherMappingReferencesAdded": 0,
-    "newQuestionsAdded": 0,
-    "sourceId": "naer-natural-108-curriculum-pdf",
-    "sourceUrl": "https://stv.naer.edu.tw/data/course_outline/pta_18538_240851_60502.pdf",
-    "learningStage": "第四學習階段（國中7–9年級）",
-    "learningCode": "Fb-IV-4",
-    "notes": "六題月相題目前標示國小六年級，但108自然科學領域課綱將Fb-IV-4月相變化列於第四學習階段。保留原始年級與題目內容，暫列unassigned/pending，不推定學期、段考或出版社；待教師／題目來源確認。未重跑全庫篩選矩陣，未做瀏覽器或手機實機測試。"
+    "runId": "2026-11-18-active-scope-statistics-reconciliation-01",
+    "date": "2026-11-18",
+    "sourceHeadBeforeRun": "31a4402d0b8fef6c09675ce415d9d0d7aadda247",
+    "activeScopeDefinition": "國小六年級＋高中高二",
+    "questionCount": 1864,
+    "semester": {
+      "unassigned": 1133,
+      "上學期": 493,
+      "下學期": 164,
+      "全學年": 74
+    },
+    "examPeriod": {
+      "unassigned": 1637,
+      "第一次段考": 65,
+      "第二次段考": 71,
+      "第三次段考": 91
+    },
+    "publisherStatus": {
+      "curriculum-core": 1253,
+      "publisher-mapped": 592,
+      "pending": 19
+    },
+    "classificationBasis": {
+      "curriculum-core": 1123,
+      "publisher-source-verified": 478,
+      "question-bank-inference": 250,
+      "unassigned": 13
+    },
+    "confidence": {
+      "low": 1023,
+      "medium": 803,
+      "high": 38
+    },
+    "publisherMappedQuestionCount": 592,
+    "publisherMappingReferenceCount": 696,
+    "validation": {
+      "sixShardsParsed": true,
+      "shardQuestionCount": 2900,
+      "activeScopeQuestionCount": 1864,
+      "activeScopeUniqueRecords": 1864,
+      "allActiveScopeDistributionsSumTo1864": true,
+      "questionRecordsUpdated": 0,
+      "newQuestionsAdded": 0,
+      "browserOrMobileRuntimeTested": false
+    },
+    "notes": "依 main 六個持久分類分片逐筆篩選國小六年級與高中高二後重新計算；修正教材對照檔沿用舊值的 activeScope 統計。"
   },
   "latestSourceVerificationAudit": {
     "runId": "2026-11-18-knsh-g6-natural-water-solution-separation-backfill-01",
