@@ -1,6 +1,6 @@
 {
   "title": "南一／翰林／康軒教材版本對照資料庫",
-  "schemaVersion": "1.0.16",
+  "schemaVersion": "1.0.17",
   "updatedAt": "2026-11-18",
   "purpose": "同時支援跨版本共同核心整合與指定出版社版本練習。此檔先建立資料規格；未經官方或學校教材核對的單元不得標示為已對應。",
   "modes": [
@@ -3181,6 +3181,46 @@
       "verifiedAt": "2026-11-18",
       "verificationStatus": "source-checked",
       "notes": "國家教育研究院108自然科學領域課程手冊：頁337–338列5–6年級光合作用基本概念及INa-Ⅲ-9；頁358的5–6年級教學案例明列測量變因與控制變因示例。只作課綱共同核心與學習階段佐證，不是出版社教材目次、學校採用資料或正式段考範圍。"
+    },
+    {
+      "id": "educloud-sound-reflection-grade79",
+      "publisher": "curriculum-core",
+      "sourceType": "curriculum-reference",
+      "sourceUrl": "https://market.cloud.edu.tw/resources/video/1838878",
+      "sourceTitle": "教育部委辦數位內容資源－看見自然EP169：八上聲波的反射與超聲波",
+      "verifiedAt": "2026-11-18",
+      "verificationStatus": "source-checked",
+      "notes": "資源明示國中7–9年級、學習內容Ka-IV-4/Ka-IV-5；只作聲波反射題目的年級範圍核對，不作出版社映射、學校採用或段考證明。"
+    },
+    {
+      "id": "educloud-moon-phase-grade79",
+      "publisher": "curriculum-core",
+      "sourceType": "curriculum-reference",
+      "sourceUrl": "https://market.cloud.edu.tw/resources/video/1843377",
+      "sourceTitle": "教育部因材網地球科學教材團隊－Fb-IV-4-S02日地月相對運動與月相盈虧",
+      "verifiedAt": "2026-11-18",
+      "verificationStatus": "source-checked",
+      "notes": "資源明示國中7–9年級、學習內容Fb-IV-4；國教院課程手冊另有5–6年級月相教學案例註記，故僅作年級範圍證據之一，不單獨決定題目年級、冊別或學期。"
+    },
+    {
+      "id": "educloud-solar-altitude-grade56",
+      "publisher": "curriculum-core",
+      "sourceType": "curriculum-reference",
+      "sourceUrl": "https://market.cloud.edu.tw/resources/video/1855852",
+      "sourceTitle": "教育部教育大市集－太陽（新版）系列EP2：太陽高度角的觀測（上）",
+      "verifiedAt": "2026-11-18",
+      "verificationStatus": "source-checked",
+      "notes": "資源明示國小5–6年級及INc-III-13；支持太陽高度角觀測活動，但未直接支持入射角與單位面積受熱關係，不作出版社或學期映射。"
+    },
+    {
+      "id": "educloud-sun-heat-grade56",
+      "publisher": "curriculum-core",
+      "sourceType": "curriculum-reference",
+      "sourceUrl": "https://market.cloud.edu.tw/resources/video/1818582",
+      "sourceTitle": "教育部教育大市集－26-2-5-1 陽光下物質的受熱情形",
+      "verifiedAt": "2026-11-18",
+      "verificationStatus": "source-checked",
+      "notes": "資源標示國小5–6年級並涉及陽光下物質受熱；未直接說明入射角與受熱面積關係，只作年級範圍輔助證據，不作出版社或學期映射。"
     }
   ],
   "classificationAudit": {
@@ -8912,6 +8952,18 @@
       "publisherMappingsAdded": 0,
       "newQuestionsAdded": 0,
       "notes": "b40-035 confidence由low調為medium；semester／examPeriod維持unassigned。"
+    },
+    {
+      "runId": "2026-11-18-g6-natural-grade-scope-audit-01",
+      "verifiedAt": "2026-11-18",
+      "sourceIds": [
+        "educloud-sound-reflection-grade79",
+        "educloud-moon-phase-grade79",
+        "educloud-solar-altitude-grade56",
+        "educloud-sun-heat-grade56"
+      ],
+      "status": "source-checked",
+      "notes": "新增四筆教育部教育雲課程階段來源；不新增出版社映射。"
     }
   ],
   "high2MathCourseTrackAudit": {
@@ -12314,5 +12366,29 @@
     "semesterAssignments": 0,
     "examPeriodAssignments": 0,
     "notes": "國教院課程手冊PDF第358頁／印刷頁419之5–6年級教學示例，明示比較實驗一次只更改一項變因；僅支持共同核心學習階段，不作出版社、學期或段考映射。"
+  },
+  "latestCurriculumScopeAudit": {
+    "runId": "2026-11-18-g6-natural-grade-scope-audit-01",
+    "verifiedAt": "2026-11-18",
+    "questionIds": [
+      "b38-034",
+      "b38-035",
+      "b38-038",
+      "b40-038",
+      "b41-038"
+    ],
+    "sourceIds": [
+      "naer-natural-108-curriculum-pdf",
+      "naer-natural-science-course-handbook-108",
+      "educloud-density-grade78",
+      "educloud-sound-reflection-grade79",
+      "educloud-moon-phase-grade79",
+      "educloud-solar-altitude-grade56",
+      "educloud-sun-heat-grade56"
+    ],
+    "sourcesAdded": 4,
+    "questionRecordsReviewed": 5,
+    "publisherMappingsAdded": 0,
+    "notes": "新增四筆教育部教育雲課程階段來源。僅作年級／課綱範圍核對，不轉成出版社教材映射；密度、聲波反射及月相的正式學習內容編碼指向第四學習階段，月相另有課程手冊5–6年級教學案例，故保留待核對。"
   }
 }
