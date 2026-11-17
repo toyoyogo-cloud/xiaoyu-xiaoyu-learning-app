@@ -1,8 +1,8 @@
 {
   "title": "題目分類持久索引",
-  "schemaVersion": "1.0.24",
+  "schemaVersion": "1.0.25",
   "updatedAt": "2026-11-18",
-  "classificationRuleVersion": "2026-11-18.109",
+  "classificationRuleVersion": "2026-11-18.110",
   "sourceBranch": "main",
   "batchRange": "08-41",
   "batchFileCount": 34,
@@ -49,7 +49,7 @@
       "path": "data/question-classification-batch-38-41.json",
       "batchRange": "38-41",
       "questionCount": 400,
-      "sha": "a1fc450ad204868b0f5673bceeabdefcd3cf9ec3",
+      "sha": "8a21d12e9cf6c63a5543a37e71f95c153e6fed2b",
       "updatedAt": "2026-11-18"
     }
   ],
@@ -382,8 +382,8 @@
       "pending": 20
     },
     "confidence": {
-      "low": 2060,
-      "medium": 802,
+      "low": 2059,
+      "medium": 803,
       "high": 38
     },
     "publisherMappedQuestionCount": 592,
@@ -406,9 +406,9 @@
     },
     "centralMappingRegistryCount": 66,
     "inferenceMappingRegistryCount": 66,
-    "sourceRegistryCount": 71,
+    "sourceRegistryCount": 72,
     "sourceRegistryVerificationStatusCounts": {
-      "source-checked": 69,
+      "source-checked": 70,
       "pending": 1,
       "source-unavailable": 1
     },
@@ -441,8 +441,8 @@
         "unassigned": 14
       },
       "confidence": {
-        "low": 1024,
-        "medium": 802,
+        "low": 1023,
+        "medium": 803,
         "high": 38
       },
       "publisherMappedQuestionCount": 592,
@@ -473,8 +473,8 @@
       "unassigned": 14
     },
     "activeScopeConfidenceCounts": {
-      "low": 1024,
-      "medium": 802,
+      "low": 1023,
+      "medium": 803,
       "high": 38
     },
     "activeScopePublisherMappedQuestionCount": 592,
@@ -505,26 +505,36 @@
     "notes": "翰林書城官方商品頁明示科目為地理、適用高中二年級、上學期，商品類別為課本習作；目前商品頁未公開細分目次，因此本映射僅限高中二年級地理(3)上學期冊別層級，不宣稱人口結構、氣候資料、GIS或都市熱島已核對到主課本單元，也不代表學校採用版本或正式段考範圍。"
   },
   "latestMainAudit": {
-    "runId": "2026-11-18-main-classification-statistics-and-registry-reconciliation-01",
+    "runId": "2026-11-18-naer-g6-science-inquiry-core-review-01",
     "date": "2026-11-18",
-    "sourceHeadBeforeRun": "f4e1a3e8e92971d4ed1135bb4ac1b7e5ffce146c",
+    "sourceHeadBeforeRun": "9f1e9ed126e0bb638ff1031806b57e2ea6e92b09",
     "batches": "08-41",
     "batchFileCount": 34,
     "fullCorpusQuestionCount": 2900,
     "uniqueQuestionIds": 2900,
-    "questionRecordsUpdated": 0,
-    "updatedQuestionIds": [],
+    "activeScopeQuestionCount": 1864,
+    "questionRecordsUpdated": 2,
+    "updatedQuestionIds": [
+      "b41-031",
+      "b41-036"
+    ],
+    "confidenceCorrections": 1,
+    "semesterAssignments": 0,
+    "semesterCorrections": 0,
+    "examPeriodAssignments": 0,
+    "examPeriodCorrections": 0,
     "publisherMappingsAdded": 0,
+    "publisherMappingReferencesAdded": 0,
     "inferenceMappingsAdded": 0,
     "newQuestionsAdded": 0,
     "sourceBatchShasMatch": "34/34",
-    "classificationRuleVersion": "2026-11-18.108",
+    "classificationRuleVersion": "2026-11-18.110",
     "centralMappingRegistryCount": 66,
     "inferenceMappingRegistryCount": 66,
     "missingInferenceMappingIds": [],
-    "sourceRegistryCount": 71,
+    "sourceRegistryCount": 72,
     "sourceRegistryVerificationStatusCounts": {
-      "source-checked": 69,
+      "source-checked": 70,
       "pending": 1,
       "source-unavailable": 1
     },
@@ -541,15 +551,15 @@
       "第三次段考": 91
     },
     "fullCorpusClassificationBasisDistribution": {
-      "curriculum-core": 2159,
+      "curriculum-core": 2158,
       "publisher-source-verified": 478,
       "question-bank-inference": 250,
-      "unassigned": 13
+      "unassigned": 14
     },
     "fullCorpusPublisherStatusDistribution": {
-      "curriculum-core": 2289,
+      "curriculum-core": 2288,
       "publisher-mapped": 592,
-      "pending": 19
+      "pending": 20
     },
     "fullCorpusConfidenceDistribution": {
       "low": 2059,
@@ -581,78 +591,31 @@
       "extraClassificationIds": 0,
       "missingRequiredFields": 0,
       "invalidClassificationValues": 0,
+      "mappingReferenceErrors": 0,
       "sourceBatchShasMatch": "34/34",
       "shardCount": 6,
       "shardShaMismatches": 0,
-      "centralMappingRequiredFieldErrors": 0,
       "centralMappingRegistryCount": 66,
       "inferenceMappingRegistryCount": 66,
       "missingInferenceMappingIds": [],
-      "extraInferenceMappingIds": [],
-      "b41_091MappingPresent": true,
-      "b41_091MappingScopeValid": true,
-      "targetedFilterCombinationsTested": 10,
+      "updatedQuestionsChecked": 2,
+      "updatedQuestionIdsReachable": true,
+      "curriculumSourceRegistryEntryPresent": true,
+      "targetedFilterCombinationsTested": 12,
       "targetedFilterErrors": 0,
       "publisherMappingLeaks": 0,
       "allModeReachable": true,
       "allModeQuestionCount": 2900,
+      "curriculumCoreModeReachable": true,
+      "pendingModeReachable": true,
+      "pendingModeQuestionCount": 20,
       "appReadsPersistedClassificationIndex": true,
       "zeroResultHintPresent": true,
-      "inferenceSyntaxStructureChecked": true,
-      "inferenceRuntimeTested": false,
       "browserOrMobileRuntimeTested": false,
       "fullFilterMatrixTested": false
     },
-    "validationMethod": "重新解析推定器 MAPS 初始物件及後續 MAPS[id] 指派，逐一與中央教材映射ID比對；對 b41-091 按 index.html getPool() 同等出版社／學期／段考／單元條件模擬10組篩選。這是資料層／結構測試，不等同瀏覽器或手機實機測試。",
-    "notes": "本輪未修改原始題庫、題目分類紀錄或推定器程式；確認 b41-091 的翰林歷史(3)冊別映射已存在於推定器。主要工作是將分類索引與教材中央登錄的過期統計校正為最新 main 實際資料。",
-    "activeScope": {
-      "runId": "2026-11-18-active-scope-statistics-reconciliation-01",
-      "date": "2026-11-18",
-      "sourceHeadBeforeRun": "31a4402d0b8fef6c09675ce415d9d0d7aadda247",
-      "activeScopeDefinition": "國小六年級＋高中高二",
-      "questionCount": 1864,
-      "semester": {
-        "unassigned": 1133,
-        "上學期": 493,
-        "下學期": 164,
-        "全學年": 74
-      },
-      "examPeriod": {
-        "unassigned": 1637,
-        "第一次段考": 65,
-        "第二次段考": 71,
-        "第三次段考": 91
-      },
-      "publisherStatus": {
-        "curriculum-core": 1253,
-        "publisher-mapped": 592,
-        "pending": 19
-      },
-      "classificationBasis": {
-        "curriculum-core": 1123,
-        "publisher-source-verified": 478,
-        "question-bank-inference": 250,
-        "unassigned": 13
-      },
-      "confidence": {
-        "low": 1023,
-        "medium": 803,
-        "high": 38
-      },
-      "publisherMappedQuestionCount": 592,
-      "publisherMappingReferenceCount": 696,
-      "validation": {
-        "sixShardsParsed": true,
-        "shardQuestionCount": 2900,
-        "activeScopeQuestionCount": 1864,
-        "activeScopeUniqueRecords": 1864,
-        "allActiveScopeDistributionsSumTo1864": true,
-        "questionRecordsUpdated": 0,
-        "newQuestionsAdded": 0,
-        "browserOrMobileRuntimeTested": false
-      },
-      "notes": "依 main 六個持久分類分片逐筆篩選國小六年級與高中高二後重新計算；修正教材對照檔沿用舊值的 activeScope 統計。"
-    }
+    "validationMethod": "重新解析六個持久分類分片，核對34批原始題庫SHA及題目ID；依index.html getPool()之學期、段考、出版社、年級、科目與單元條件語義執行12組定向資料層篩選。未執行瀏覽器／手機實機或完整全篩選矩陣。",
+    "notes": "b41-031依國教院課程手冊頁358之5–6年級實驗設計控制變因案例，信心由low調為medium；b41-036依頁337–338之5–6年級光合作用基本概念補充課綱來源，但氣體交換細節仍未被該手冊直接核對，維持low。兩題均維持108課綱共同核心、學期與段考unassigned，不標出版社。"
   },
   "latestFilterValidation": {
     "runId": "2026-11-18-naer-g6-echo-distance-grade-scope-review-01",
@@ -1703,23 +1666,136 @@
       },
       "validationMethod": "重新解析六個持久分類分片並依index.html getPool()的出版社／學期／段考／單元篩選語義執行12組定向資料層測試；未執行瀏覽器或手機實機測試。",
       "notes": "b38-035「聲音反射與距離」直接對應國家教育研究院108自然科學領域課綱第四學習階段Ka-IV-4（聲波反射可用於測量；學習內容說明舉回聲測距），但原始題庫標示國小六年級。改列年級待核對：classificationBasis=unassigned、confidence=low、publisherStatus=pending；保留原始年級，學期與段考維持unassigned，不新增出版社映射。"
+    },
+    {
+      "runId": "2026-11-18-naer-g6-science-inquiry-core-review-01",
+      "date": "2026-11-18",
+      "sourceHeadBeforeRun": "9f1e9ed126e0bb638ff1031806b57e2ea6e92b09",
+      "batches": "08-41",
+      "batchFileCount": 34,
+      "fullCorpusQuestionCount": 2900,
+      "uniqueQuestionIds": 2900,
+      "activeScopeQuestionCount": 1864,
+      "questionRecordsUpdated": 2,
+      "updatedQuestionIds": [
+        "b41-031",
+        "b41-036"
+      ],
+      "confidenceCorrections": 1,
+      "semesterAssignments": 0,
+      "semesterCorrections": 0,
+      "examPeriodAssignments": 0,
+      "examPeriodCorrections": 0,
+      "publisherMappingsAdded": 0,
+      "publisherMappingReferencesAdded": 0,
+      "inferenceMappingsAdded": 0,
+      "newQuestionsAdded": 0,
+      "sourceBatchShasMatch": "34/34",
+      "classificationRuleVersion": "2026-11-18.110",
+      "centralMappingRegistryCount": 66,
+      "inferenceMappingRegistryCount": 66,
+      "missingInferenceMappingIds": [],
+      "sourceRegistryCount": 72,
+      "sourceRegistryVerificationStatusCounts": {
+        "source-checked": 70,
+        "pending": 1,
+        "source-unavailable": 1
+      },
+      "fullCorpusSemesterDistribution": {
+        "unassigned": 2169,
+        "上學期": 493,
+        "下學期": 164,
+        "全學年": 74
+      },
+      "fullCorpusExamPeriodDistribution": {
+        "unassigned": 2673,
+        "第一次段考": 65,
+        "第二次段考": 71,
+        "第三次段考": 91
+      },
+      "fullCorpusClassificationBasisDistribution": {
+        "curriculum-core": 2158,
+        "publisher-source-verified": 478,
+        "question-bank-inference": 250,
+        "unassigned": 14
+      },
+      "fullCorpusPublisherStatusDistribution": {
+        "curriculum-core": 2288,
+        "publisher-mapped": 592,
+        "pending": 20
+      },
+      "fullCorpusConfidenceDistribution": {
+        "low": 2059,
+        "medium": 803,
+        "high": 38
+      },
+      "publisherReferenceCounts": {
+        "knsh": 171,
+        "hanlin": 455,
+        "nani": 70,
+        "_total": 696
+      },
+      "mappingLevelCounts": {
+        "official-resource-title": 77,
+        "unit": 474,
+        "volume": 145,
+        "_total": 696
+      },
+      "mappingVerificationStatusCounts": {
+        "source-checked": 696,
+        "_total": 696
+      },
+      "validation": {
+        "jsonParse": true,
+        "classificationRecords": 2900,
+        "uniqueIds": 2900,
+        "duplicateIds": 0,
+        "missingClassification": 0,
+        "extraClassificationIds": 0,
+        "missingRequiredFields": 0,
+        "invalidClassificationValues": 0,
+        "mappingReferenceErrors": 0,
+        "sourceBatchShasMatch": "34/34",
+        "shardCount": 6,
+        "shardShaMismatches": 0,
+        "centralMappingRegistryCount": 66,
+        "inferenceMappingRegistryCount": 66,
+        "missingInferenceMappingIds": [],
+        "updatedQuestionsChecked": 2,
+        "updatedQuestionIdsReachable": true,
+        "curriculumSourceRegistryEntryPresent": true,
+        "targetedFilterCombinationsTested": 12,
+        "targetedFilterErrors": 0,
+        "publisherMappingLeaks": 0,
+        "allModeReachable": true,
+        "allModeQuestionCount": 2900,
+        "curriculumCoreModeReachable": true,
+        "pendingModeReachable": true,
+        "pendingModeQuestionCount": 20,
+        "appReadsPersistedClassificationIndex": true,
+        "zeroResultHintPresent": true,
+        "browserOrMobileRuntimeTested": false,
+        "fullFilterMatrixTested": false
+      }
     }
   ],
-  "auditNotes": " 2026-11-16.76：全庫2,900題完成分類分片重算；34/34批次SHA一致。持久更新b41-093至b41-096四題，新增翰林高二公民單元3、9、12三筆中央映射；學期上學期、段考unassigned。資料層篩選7,800組，錯誤0，未做瀏覽器／手機實機測試。 2026-11-16.76稽核更正：映射範圍驗證依中央映射的grade/subject/courseTrack/courseType與題目資料比對，重算後mappingScopeErrors=0；前一輪暫存數字74為使用題目引用物件中非必填的grade/subject欄位進行比對所致，已更正。34/34批次SHA、2,900唯一ID、556筆來源引用均通過。 2026-11-16-knsh-g6-math-speed-scale-backfill-01：新增b8-008、b8-012兩筆康軒114六上單元映射；移除無來源支持的第三次段考標籤，改為unassigned。題庫學年度未標示，不宣稱學校採用版本；未新增題目。 2026-11-16全庫篩選回歸：7,800組資料層條件測試通過，2,900題全部可由全部版本模式取得，出版社映射洩漏0、篩選錯誤0；未做瀏覽器／手機實機測試。\n2026-11-16.79：修正六年級數學康軒來源連結，原114高年級綜合文宣PDF回傳404，改用康軒署名帳號於FlipHTML5公開的114(1)補充教材頁；建立速率、比例尺、圓面積三筆official-resource-title中央映射，更新b8-008、b8-012、b12-012、b13-008。b12-012學期校正為上學期；b12-012及b13-008段考改unassigned。全庫2,900題／唯一ID不變，分類紀錄2,900筆，出版社映射459題／563筆引用；7,800組資料層篩選測試非零575、零題7,225、映射洩漏0、篩選錯誤0。未新增題目；未執行瀏覽器／手機實機測試。 2026-11-16-classification-index-sync-after-source-audit-01：同步main最新來源頭 214a9223898a7f7efaeb1927c10c085941beb1f5 與完整分類稽核。2,900題／2,900唯一ID、34批SHA 34/34、分類欄位缺漏0、非法值0、出版社映射參照563筆／中央映射55組、未解析引用0；7,800組篩選回歸非零575、合理零題7,225、映射洩漏0、篩選錯誤0。未新增題目，未改寫既有題目分類。 2026-11-17.87：依康軒官方114學年度自然教材PDF，持久回填b38-039、b39-038、b40-037、b41-035、b41-040五題至六下單元三「地球的生態」；四題補回下學期，一題維持既有下學期；段考均unassigned。全庫2,900筆、唯一ID 2,900、必要欄位缺漏0、來源映射錯誤0；資料層篩選7200組，出版社映射洩漏0，全部版本可達2,900題。未新增題目，未做瀏覽器／手機實機測試。 2026-11-17：新增康軒六下梯形面積官方補充資源標題層級對照，持久分類4題；不新增題目，段考維持unassigned。 2026-11-17來源標題更正：康軒官方PDF的梯形題位於6下單元學後檢測卷第7題，已修正sourceTitle與單元描述，分類數值不變。\n2026-11-17: persisted 25 classification record updates; 8 verified mappings added; 4 stale 113-version mapping refs removed; 36 runtime/persistence diffs reconciled; 7,800 filter combinations passed. 2026-11-17.97：六年級數學速率／平均速率5題、比例尺9題、圓面積2題，依康軒114(1)《數學計算高手6年級》出版社帳號公開補充教材頁，新增16筆official-resource-title映射；補充教材不冒稱完整教科書目次或學校採用版本。兩題圓面積保留題庫推定全域下學期，康軒補充教材映射為上學期；指定出版社依映射學期篩選。段考欄位不變，仍僅作複習建議。新增平均速率別名；未新增題目。 2026-11-17.99：7題高二地理全球化／跨國分工題目新增翰林地理(3)第7回單元映射；分類分片已同步，原始34批題庫未改，無新增題目。 2026-11-17.99：依index.html getPool()條件語義執行48組年級／科目、6種出版社、5種學期、5種段考及高二數學軌別，共7,800組資料層篩選；錯誤0、出版社映射外洩0、全部版本可達2,900題。此為資料層模擬，非瀏覽器／手機實機測試。 2026-11-17.100: four existing H2 Geography questions mapped only to Hanlin Geography(3) volume level; unit unverified, exam unassigned. 2026-11-17.100驗收註記：本輪完成1,200組定向篩選資料層測試；未重跑全庫7,800組矩陣。推定器新映射已登錄，但未執行JavaScript runtime／瀏覽器實機語法測試。\n2026-11-17.104：三題高二歷史既有分類持久回填；18組定向篩選資料層驗收，映射洩漏0、錯誤0；完整2,119,500組矩陣為前次歷史測試，本輪未重跑。 2026-11-17：b34-040依康軒114六下單元三來源新增1筆出版社映射；2,900筆分類紀錄與原始題庫數量不變。 2026-11-18：康軒113六上自然單元二「水溶液／混合物分離」持久分類b15-030、b40-041；來源恢復與12組定向篩選驗收通過。\n2026-11-18：重新解析推定器 MAPS，確認66筆中央映射皆有定義；同步校正教材對照統計與來源登錄狀態。\n2026-11-18：依六個分類分片重算國小六年級＋高中高二 activeScope，修正子集統計。",
+  "auditNotes": " 2026-11-16.76：全庫2,900題完成分類分片重算；34/34批次SHA一致。持久更新b41-093至b41-096四題，新增翰林高二公民單元3、9、12三筆中央映射；學期上學期、段考unassigned。資料層篩選7,800組，錯誤0，未做瀏覽器／手機實機測試。 2026-11-16.76稽核更正：映射範圍驗證依中央映射的grade/subject/courseTrack/courseType與題目資料比對，重算後mappingScopeErrors=0；前一輪暫存數字74為使用題目引用物件中非必填的grade/subject欄位進行比對所致，已更正。34/34批次SHA、2,900唯一ID、556筆來源引用均通過。 2026-11-16-knsh-g6-math-speed-scale-backfill-01：新增b8-008、b8-012兩筆康軒114六上單元映射；移除無來源支持的第三次段考標籤，改為unassigned。題庫學年度未標示，不宣稱學校採用版本；未新增題目。 2026-11-16全庫篩選回歸：7,800組資料層條件測試通過，2,900題全部可由全部版本模式取得，出版社映射洩漏0、篩選錯誤0；未做瀏覽器／手機實機測試。\n2026-11-16.79：修正六年級數學康軒來源連結，原114高年級綜合文宣PDF回傳404，改用康軒署名帳號於FlipHTML5公開的114(1)補充教材頁；建立速率、比例尺、圓面積三筆official-resource-title中央映射，更新b8-008、b8-012、b12-012、b13-008。b12-012學期校正為上學期；b12-012及b13-008段考改unassigned。全庫2,900題／唯一ID不變，分類紀錄2,900筆，出版社映射459題／563筆引用；7,800組資料層篩選測試非零575、零題7,225、映射洩漏0、篩選錯誤0。未新增題目；未執行瀏覽器／手機實機測試。 2026-11-16-classification-index-sync-after-source-audit-01：同步main最新來源頭 214a9223898a7f7efaeb1927c10c085941beb1f5 與完整分類稽核。2,900題／2,900唯一ID、34批SHA 34/34、分類欄位缺漏0、非法值0、出版社映射參照563筆／中央映射55組、未解析引用0；7,800組篩選回歸非零575、合理零題7,225、映射洩漏0、篩選錯誤0。未新增題目，未改寫既有題目分類。 2026-11-17.87：依康軒官方114學年度自然教材PDF，持久回填b38-039、b39-038、b40-037、b41-035、b41-040五題至六下單元三「地球的生態」；四題補回下學期，一題維持既有下學期；段考均unassigned。全庫2,900筆、唯一ID 2,900、必要欄位缺漏0、來源映射錯誤0；資料層篩選7200組，出版社映射洩漏0，全部版本可達2,900題。未新增題目，未做瀏覽器／手機實機測試。 2026-11-17：新增康軒六下梯形面積官方補充資源標題層級對照，持久分類4題；不新增題目，段考維持unassigned。 2026-11-17來源標題更正：康軒官方PDF的梯形題位於6下單元學後檢測卷第7題，已修正sourceTitle與單元描述，分類數值不變。\n2026-11-17: persisted 25 classification record updates; 8 verified mappings added; 4 stale 113-version mapping refs removed; 36 runtime/persistence diffs reconciled; 7,800 filter combinations passed. 2026-11-17.97：六年級數學速率／平均速率5題、比例尺9題、圓面積2題，依康軒114(1)《數學計算高手6年級》出版社帳號公開補充教材頁，新增16筆official-resource-title映射；補充教材不冒稱完整教科書目次或學校採用版本。兩題圓面積保留題庫推定全域下學期，康軒補充教材映射為上學期；指定出版社依映射學期篩選。段考欄位不變，仍僅作複習建議。新增平均速率別名；未新增題目。 2026-11-17.99：7題高二地理全球化／跨國分工題目新增翰林地理(3)第7回單元映射；分類分片已同步，原始34批題庫未改，無新增題目。 2026-11-17.99：依index.html getPool()條件語義執行48組年級／科目、6種出版社、5種學期、5種段考及高二數學軌別，共7,800組資料層篩選；錯誤0、出版社映射外洩0、全部版本可達2,900題。此為資料層模擬，非瀏覽器／手機實機測試。 2026-11-17.100: four existing H2 Geography questions mapped only to Hanlin Geography(3) volume level; unit unverified, exam unassigned. 2026-11-17.100驗收註記：本輪完成1,200組定向篩選資料層測試；未重跑全庫7,800組矩陣。推定器新映射已登錄，但未執行JavaScript runtime／瀏覽器實機語法測試。\n2026-11-17.104：三題高二歷史既有分類持久回填；18組定向篩選資料層驗收，映射洩漏0、錯誤0；完整2,119,500組矩陣為前次歷史測試，本輪未重跑。 2026-11-17：b34-040依康軒114六下單元三來源新增1筆出版社映射；2,900筆分類紀錄與原始題庫數量不變。 2026-11-18：康軒113六上自然單元二「水溶液／混合物分離」持久分類b15-030、b40-041；來源恢復與12組定向篩選驗收通過。\n2026-11-18：重新解析推定器 MAPS，確認66筆中央映射皆有定義；同步校正教材對照統計與來源登錄狀態。\n2026-11-18：依六個分類分片重算國小六年級＋高中高二 activeScope，修正子集統計。\n2026-11-18：2026-11-18-naer-g6-science-inquiry-core-review-01；依國教院自然科學領域課程手冊頁337–338、358，更新b41-031、b41-036兩筆共同核心分類證據；信心low 2,059、medium 803、high 38。全庫題數、學期、段考、出版社映射統計不變；無新增題目。",
   "shardCount": 6,
   "latestAudit": {
-    "runId": "2026-11-18-naer-g6-echo-distance-grade-scope-review-01",
+    "runId": "2026-11-18-naer-g6-science-inquiry-core-review-01",
     "date": "2026-11-18",
-    "sourceHeadBeforeRun": "27a82797fb8aea6298ef35f1fdca9d16b87944e2",
+    "sourceHeadBeforeRun": "9f1e9ed126e0bb638ff1031806b57e2ea6e92b09",
     "batches": "08-41",
     "batchFileCount": 34,
     "fullCorpusQuestionCount": 2900,
     "uniqueQuestionIds": 2900,
     "activeScopeQuestionCount": 1864,
-    "questionRecordsUpdated": 1,
+    "questionRecordsUpdated": 2,
     "updatedQuestionIds": [
-      "b38-035"
+      "b41-031",
+      "b41-036"
     ],
+    "confidenceCorrections": 1,
     "semesterAssignments": 0,
     "semesterCorrections": 0,
     "examPeriodAssignments": 0,
@@ -1729,13 +1805,13 @@
     "inferenceMappingsAdded": 0,
     "newQuestionsAdded": 0,
     "sourceBatchShasMatch": "34/34",
-    "classificationRuleVersion": "2026-11-18.109",
+    "classificationRuleVersion": "2026-11-18.110",
     "centralMappingRegistryCount": 66,
     "inferenceMappingRegistryCount": 66,
     "missingInferenceMappingIds": [],
-    "sourceRegistryCount": 71,
+    "sourceRegistryCount": 72,
     "sourceRegistryVerificationStatusCounts": {
-      "source-checked": 69,
+      "source-checked": 70,
       "pending": 1,
       "source-unavailable": 1
     },
@@ -1763,8 +1839,8 @@
       "pending": 20
     },
     "fullCorpusConfidenceDistribution": {
-      "low": 2060,
-      "medium": 802,
+      "low": 2059,
+      "medium": 803,
       "high": 38
     },
     "publisherReferenceCounts": {
@@ -1799,39 +1875,41 @@
       "centralMappingRegistryCount": 66,
       "inferenceMappingRegistryCount": 66,
       "missingInferenceMappingIds": [],
-      "updatedQuestionsChecked": 1,
+      "updatedQuestionsChecked": 2,
       "updatedQuestionIdsReachable": true,
-      "testedQuestionPending": true,
+      "curriculumSourceRegistryEntryPresent": true,
       "targetedFilterCombinationsTested": 12,
       "targetedFilterErrors": 0,
       "publisherMappingLeaks": 0,
       "allModeReachable": true,
       "allModeQuestionCount": 2900,
+      "curriculumCoreModeReachable": true,
       "pendingModeReachable": true,
       "pendingModeQuestionCount": 20,
-      "pendingModeIncludesUpdatedQuestion": true,
       "appReadsPersistedClassificationIndex": true,
       "zeroResultHintPresent": true,
       "browserOrMobileRuntimeTested": false,
       "fullFilterMatrixTested": false
     },
-    "validationMethod": "重新解析六個持久分類分片並依index.html getPool()的出版社／學期／段考／單元篩選語義執行12組定向資料層測試；未執行瀏覽器或手機實機測試。",
-    "notes": "b38-035「聲音反射與距離」直接對應國家教育研究院108自然科學領域課綱第四學習階段Ka-IV-4（聲波反射可用於測量；學習內容說明舉回聲測距），但原始題庫標示國小六年級。改列年級待核對：classificationBasis=unassigned、confidence=low、publisherStatus=pending；保留原始年級，學期與段考維持unassigned，不新增出版社映射。"
+    "validationMethod": "重新解析六個持久分類分片，核對34批原始題庫SHA及題目ID；依index.html getPool()之學期、段考、出版社、年級、科目與單元條件語義執行12組定向資料層篩選。未執行瀏覽器／手機實機或完整全篩選矩陣。",
+    "notes": "b41-031依國教院課程手冊頁358之5–6年級實驗設計控制變因案例，信心由low調為medium；b41-036依頁337–338之5–6年級光合作用基本概念補充課綱來源，但氣體交換細節仍未被該手冊直接核對，維持low。兩題均維持108課綱共同核心、學期與段考unassigned，不標出版社。"
   },
   "coverageNote": "coverageStatus=complete 表示第08–41批全部題目均有持久分類紀錄；學期／段考欄位仍依證據保留 unassigned，不代表每題均已確定考期。",
   "latestMainClassificationAudit": {
-    "runId": "2026-11-18-naer-g6-echo-distance-grade-scope-review-01",
+    "runId": "2026-11-18-naer-g6-science-inquiry-core-review-01",
     "date": "2026-11-18",
-    "sourceHeadBeforeRun": "27a82797fb8aea6298ef35f1fdca9d16b87944e2",
+    "sourceHeadBeforeRun": "9f1e9ed126e0bb638ff1031806b57e2ea6e92b09",
     "batches": "08-41",
     "batchFileCount": 34,
     "fullCorpusQuestionCount": 2900,
     "uniqueQuestionIds": 2900,
     "activeScopeQuestionCount": 1864,
-    "questionRecordsUpdated": 1,
+    "questionRecordsUpdated": 2,
     "updatedQuestionIds": [
-      "b38-035"
+      "b41-031",
+      "b41-036"
     ],
+    "confidenceCorrections": 1,
     "semesterAssignments": 0,
     "semesterCorrections": 0,
     "examPeriodAssignments": 0,
@@ -1841,13 +1919,13 @@
     "inferenceMappingsAdded": 0,
     "newQuestionsAdded": 0,
     "sourceBatchShasMatch": "34/34",
-    "classificationRuleVersion": "2026-11-18.109",
+    "classificationRuleVersion": "2026-11-18.110",
     "centralMappingRegistryCount": 66,
     "inferenceMappingRegistryCount": 66,
     "missingInferenceMappingIds": [],
-    "sourceRegistryCount": 71,
+    "sourceRegistryCount": 72,
     "sourceRegistryVerificationStatusCounts": {
-      "source-checked": 69,
+      "source-checked": 70,
       "pending": 1,
       "source-unavailable": 1
     },
@@ -1875,8 +1953,8 @@
       "pending": 20
     },
     "fullCorpusConfidenceDistribution": {
-      "low": 2060,
-      "medium": 802,
+      "low": 2059,
+      "medium": 803,
       "high": 38
     },
     "publisherReferenceCounts": {
@@ -1911,31 +1989,32 @@
       "centralMappingRegistryCount": 66,
       "inferenceMappingRegistryCount": 66,
       "missingInferenceMappingIds": [],
-      "updatedQuestionsChecked": 1,
+      "updatedQuestionsChecked": 2,
       "updatedQuestionIdsReachable": true,
-      "testedQuestionPending": true,
+      "curriculumSourceRegistryEntryPresent": true,
       "targetedFilterCombinationsTested": 12,
       "targetedFilterErrors": 0,
       "publisherMappingLeaks": 0,
       "allModeReachable": true,
       "allModeQuestionCount": 2900,
+      "curriculumCoreModeReachable": true,
       "pendingModeReachable": true,
       "pendingModeQuestionCount": 20,
-      "pendingModeIncludesUpdatedQuestion": true,
       "appReadsPersistedClassificationIndex": true,
       "zeroResultHintPresent": true,
       "browserOrMobileRuntimeTested": false,
       "fullFilterMatrixTested": false
     },
-    "validationMethod": "重新解析六個持久分類分片並依index.html getPool()的出版社／學期／段考／單元篩選語義執行12組定向資料層測試；未執行瀏覽器或手機實機測試。",
-    "notes": "b38-035「聲音反射與距離」直接對應國家教育研究院108自然科學領域課綱第四學習階段Ka-IV-4（聲波反射可用於測量；學習內容說明舉回聲測距），但原始題庫標示國小六年級。改列年級待核對：classificationBasis=unassigned、confidence=low、publisherStatus=pending；保留原始年級，學期與段考維持unassigned，不新增出版社映射。"
+    "validationMethod": "重新解析六個持久分類分片，核對34批原始題庫SHA及題目ID；依index.html getPool()之學期、段考、出版社、年級、科目與單元條件語義執行12組定向資料層篩選。未執行瀏覽器／手機實機或完整全篩選矩陣。",
+    "notes": "b41-031依國教院課程手冊頁358之5–6年級實驗設計控制變因案例，信心由low調為medium；b41-036依頁337–338之5–6年級光合作用基本概念補充課綱來源，但氣體交換細節仍未被該手冊直接核對，維持low。兩題均維持108課綱共同核心、學期與段考unassigned，不標出版社。"
   },
   "filterValidation": {
-    "runId": "2026-11-18-knsh-g6-natural-water-solution-separation-backfill-01",
+    "runId": "2026-11-18-naer-g6-science-inquiry-core-review-01",
     "verifiedAt": "2026-11-18",
     "questionIds": [
-      "b15-030",
-      "b40-041"
+      "b41-031",
+      "b41-036",
+      "b38-035"
     ],
     "filterCasesTested": 12,
     "passed": 12,
@@ -1943,27 +2022,31 @@
     "publisherMappingLeaks": 0,
     "allModeReachable": true,
     "allModeQuestionCount": 2900,
+    "curriculumCoreModeReachable": true,
+    "pendingModeReachable": true,
+    "pendingModeQuestionCount": 20,
     "appReadsPersistedClassificationIndex": true,
     "zeroResultHintPresent": true,
-    "inferenceRuntimeTested": true,
-    "validationMethod": "以目前main的questionClassificationFor()實際執行兩題持久分類，再依index.html getPool()學期、段考、出版社與單元條件語義執行12組定向資料層測試；不等同瀏覽器實機測試。",
-    "browserOrMobileRuntimeTested": false
+    "browserOrMobileRuntimeTested": false,
+    "validationMethod": "依main index.html getPool()條件語義執行12組定向資料層篩選；非瀏覽器實機測試。"
   },
   "sourceHeadBeforeRun": "b37ca9060bbfaf81629d0b709619c7cac26ea303",
-  "lastPersistenceRunId": "2026-11-18-naer-g6-echo-distance-grade-scope-review-01",
+  "lastPersistenceRunId": "2026-11-18-naer-g6-science-inquiry-core-review-01",
   "latestRunAudit": {
-    "runId": "2026-11-18-naer-g6-echo-distance-grade-scope-review-01",
+    "runId": "2026-11-18-naer-g6-science-inquiry-core-review-01",
     "date": "2026-11-18",
-    "sourceHeadBeforeRun": "27a82797fb8aea6298ef35f1fdca9d16b87944e2",
+    "sourceHeadBeforeRun": "9f1e9ed126e0bb638ff1031806b57e2ea6e92b09",
     "batches": "08-41",
     "batchFileCount": 34,
     "fullCorpusQuestionCount": 2900,
     "uniqueQuestionIds": 2900,
     "activeScopeQuestionCount": 1864,
-    "questionRecordsUpdated": 1,
+    "questionRecordsUpdated": 2,
     "updatedQuestionIds": [
-      "b38-035"
+      "b41-031",
+      "b41-036"
     ],
+    "confidenceCorrections": 1,
     "semesterAssignments": 0,
     "semesterCorrections": 0,
     "examPeriodAssignments": 0,
@@ -1973,13 +2056,13 @@
     "inferenceMappingsAdded": 0,
     "newQuestionsAdded": 0,
     "sourceBatchShasMatch": "34/34",
-    "classificationRuleVersion": "2026-11-18.109",
+    "classificationRuleVersion": "2026-11-18.110",
     "centralMappingRegistryCount": 66,
     "inferenceMappingRegistryCount": 66,
     "missingInferenceMappingIds": [],
-    "sourceRegistryCount": 71,
+    "sourceRegistryCount": 72,
     "sourceRegistryVerificationStatusCounts": {
-      "source-checked": 69,
+      "source-checked": 70,
       "pending": 1,
       "source-unavailable": 1
     },
@@ -2007,8 +2090,8 @@
       "pending": 20
     },
     "fullCorpusConfidenceDistribution": {
-      "low": 2060,
-      "medium": 802,
+      "low": 2059,
+      "medium": 803,
       "high": 38
     },
     "publisherReferenceCounts": {
@@ -2043,38 +2126,40 @@
       "centralMappingRegistryCount": 66,
       "inferenceMappingRegistryCount": 66,
       "missingInferenceMappingIds": [],
-      "updatedQuestionsChecked": 1,
+      "updatedQuestionsChecked": 2,
       "updatedQuestionIdsReachable": true,
-      "testedQuestionPending": true,
+      "curriculumSourceRegistryEntryPresent": true,
       "targetedFilterCombinationsTested": 12,
       "targetedFilterErrors": 0,
       "publisherMappingLeaks": 0,
       "allModeReachable": true,
       "allModeQuestionCount": 2900,
+      "curriculumCoreModeReachable": true,
       "pendingModeReachable": true,
       "pendingModeQuestionCount": 20,
-      "pendingModeIncludesUpdatedQuestion": true,
       "appReadsPersistedClassificationIndex": true,
       "zeroResultHintPresent": true,
       "browserOrMobileRuntimeTested": false,
       "fullFilterMatrixTested": false
     },
-    "validationMethod": "重新解析六個持久分類分片並依index.html getPool()的出版社／學期／段考／單元篩選語義執行12組定向資料層測試；未執行瀏覽器或手機實機測試。",
-    "notes": "b38-035「聲音反射與距離」直接對應國家教育研究院108自然科學領域課綱第四學習階段Ka-IV-4（聲波反射可用於測量；學習內容說明舉回聲測距），但原始題庫標示國小六年級。改列年級待核對：classificationBasis=unassigned、confidence=low、publisherStatus=pending；保留原始年級，學期與段考維持unassigned，不新增出版社映射。"
+    "validationMethod": "重新解析六個持久分類分片，核對34批原始題庫SHA及題目ID；依index.html getPool()之學期、段考、出版社、年級、科目與單元條件語義執行12組定向資料層篩選。未執行瀏覽器／手機實機或完整全篩選矩陣。",
+    "notes": "b41-031依國教院課程手冊頁358之5–6年級實驗設計控制變因案例，信心由low調為medium；b41-036依頁337–338之5–6年級光合作用基本概念補充課綱來源，但氣體交換細節仍未被該手冊直接核對，維持low。兩題均維持108課綱共同核心、學期與段考unassigned，不標出版社。"
   },
   "latestClassificationPersistenceAudit": {
-    "runId": "2026-11-18-naer-g6-echo-distance-grade-scope-review-01",
+    "runId": "2026-11-18-naer-g6-science-inquiry-core-review-01",
     "date": "2026-11-18",
-    "sourceHeadBeforeRun": "27a82797fb8aea6298ef35f1fdca9d16b87944e2",
+    "sourceHeadBeforeRun": "9f1e9ed126e0bb638ff1031806b57e2ea6e92b09",
     "batches": "08-41",
     "batchFileCount": 34,
     "fullCorpusQuestionCount": 2900,
     "uniqueQuestionIds": 2900,
     "activeScopeQuestionCount": 1864,
-    "questionRecordsUpdated": 1,
+    "questionRecordsUpdated": 2,
     "updatedQuestionIds": [
-      "b38-035"
+      "b41-031",
+      "b41-036"
     ],
+    "confidenceCorrections": 1,
     "semesterAssignments": 0,
     "semesterCorrections": 0,
     "examPeriodAssignments": 0,
@@ -2084,13 +2169,13 @@
     "inferenceMappingsAdded": 0,
     "newQuestionsAdded": 0,
     "sourceBatchShasMatch": "34/34",
-    "classificationRuleVersion": "2026-11-18.109",
+    "classificationRuleVersion": "2026-11-18.110",
     "centralMappingRegistryCount": 66,
     "inferenceMappingRegistryCount": 66,
     "missingInferenceMappingIds": [],
-    "sourceRegistryCount": 71,
+    "sourceRegistryCount": 72,
     "sourceRegistryVerificationStatusCounts": {
-      "source-checked": 69,
+      "source-checked": 70,
       "pending": 1,
       "source-unavailable": 1
     },
@@ -2118,8 +2203,8 @@
       "pending": 20
     },
     "fullCorpusConfidenceDistribution": {
-      "low": 2060,
-      "medium": 802,
+      "low": 2059,
+      "medium": 803,
       "high": 38
     },
     "publisherReferenceCounts": {
@@ -2154,24 +2239,24 @@
       "centralMappingRegistryCount": 66,
       "inferenceMappingRegistryCount": 66,
       "missingInferenceMappingIds": [],
-      "updatedQuestionsChecked": 1,
+      "updatedQuestionsChecked": 2,
       "updatedQuestionIdsReachable": true,
-      "testedQuestionPending": true,
+      "curriculumSourceRegistryEntryPresent": true,
       "targetedFilterCombinationsTested": 12,
       "targetedFilterErrors": 0,
       "publisherMappingLeaks": 0,
       "allModeReachable": true,
       "allModeQuestionCount": 2900,
+      "curriculumCoreModeReachable": true,
       "pendingModeReachable": true,
       "pendingModeQuestionCount": 20,
-      "pendingModeIncludesUpdatedQuestion": true,
       "appReadsPersistedClassificationIndex": true,
       "zeroResultHintPresent": true,
       "browserOrMobileRuntimeTested": false,
       "fullFilterMatrixTested": false
     },
-    "validationMethod": "重新解析六個持久分類分片並依index.html getPool()的出版社／學期／段考／單元篩選語義執行12組定向資料層測試；未執行瀏覽器或手機實機測試。",
-    "notes": "b38-035「聲音反射與距離」直接對應國家教育研究院108自然科學領域課綱第四學習階段Ka-IV-4（聲波反射可用於測量；學習內容說明舉回聲測距），但原始題庫標示國小六年級。改列年級待核對：classificationBasis=unassigned、confidence=low、publisherStatus=pending；保留原始年級，學期與段考維持unassigned，不新增出版社映射。"
+    "validationMethod": "重新解析六個持久分類分片，核對34批原始題庫SHA及題目ID；依index.html getPool()之學期、段考、出版社、年級、科目與單元條件語義執行12組定向資料層篩選。未執行瀏覽器／手機實機或完整全篩選矩陣。",
+    "notes": "b41-031依國教院課程手冊頁358之5–6年級實驗設計控制變因案例，信心由low調為medium；b41-036依頁337–338之5–6年級光合作用基本概念補充課綱來源，但氣體交換細節仍未被該手冊直接核對，維持low。兩題均維持108課綱共同核心、學期與段考unassigned，不標出版社。"
   },
   "latestPublisherMappingBackfill": {
     "runId": "2026-11-18-knsh-g6-natural-water-solution-separation-backfill-01",
@@ -2387,9 +2472,11 @@
     "notes": "本輪在前一輪 active scope 1,430,100 組資料層測試之外，擴大到第08–41批全庫48組年級／科目條件，完成2,119,500組完整資料層篩選模擬；全部版本可達2,900題，零錯誤與零出版社映射洩漏。沒有修改題目分類或新增題目。"
   },
   "latestTargetedFilterValidation": {
-    "runId": "2026-11-18-naer-g6-echo-distance-grade-scope-review-01",
+    "runId": "2026-11-18-naer-g6-science-inquiry-core-review-01",
     "verifiedAt": "2026-11-18",
     "questionIds": [
+      "b41-031",
+      "b41-036",
       "b38-035"
     ],
     "filterCasesTested": 12,
@@ -2398,14 +2485,15 @@
     "publisherMappingLeaks": 0,
     "allModeReachable": true,
     "allModeQuestionCount": 2900,
+    "curriculumCoreModeReachable": true,
     "pendingModeReachable": true,
     "pendingModeQuestionCount": 20,
     "appReadsPersistedClassificationIndex": true,
     "zeroResultHintPresent": true,
     "browserOrMobileRuntimeTested": false,
-    "validationMethod": "重新解析六個持久分類分片並依index.html getPool()的出版社／學期／段考／單元篩選語義執行12組定向資料層測試；未執行瀏覽器或手機實機測試。"
+    "validationMethod": "依main index.html getPool()條件語義執行12組定向資料層篩選；非瀏覽器實機測試。"
   },
-  "sourceRegistryCount": 71,
+  "sourceRegistryCount": 72,
   "latestPublisherSourceVerificationAudit": {
     "runId": "2026-11-18-knsh-g6-natural-water-solution-separation-backfill-01",
     "verifiedAt": "2026-11-18",
@@ -2444,7 +2532,7 @@
   "inferenceMappingRegistryCount": 66,
   "latestIndexReconciliationAudit": {
     "date": "2026-11-18",
-    "runId": "2026-11-18-naer-g6-echo-distance-grade-scope-review-01",
+    "runId": "2026-11-18-naer-g6-science-inquiry-core-review-01",
     "indexFile": "data/question-classification.json",
     "manifestQuestionCount": 2900,
     "classificationEntries": 2900,
@@ -2457,55 +2545,29 @@
     "shardsVerified": 6,
     "shardShaMismatches": 0,
     "updatedShardPath": "data/question-classification-batch-38-41.json",
-    "updatedShardSha": "a1fc450ad204868b0f5673bceeabdefcd3cf9ec3"
+    "updatedShardSha": "8a21d12e9cf6c63a5543a37e71f95c153e6fed2b"
   },
   "activeScopeQuestionCount": 1864,
   "latestActiveScopeAudit": {
-    "runId": "2026-11-18-naer-g6-echo-distance-grade-scope-review-01",
+    "runId": "2026-11-18-naer-g6-science-inquiry-core-review-01",
     "date": "2026-11-18",
-    "sourceHeadBeforeRun": "27a82797fb8aea6298ef35f1fdca9d16b87944e2",
     "activeScopeDefinition": "國小六年級＋高中高二",
     "questionCount": 1864,
-    "semester": {
-      "unassigned": 1133,
-      "上學期": 493,
-      "下學期": 164,
-      "全學年": 74
-    },
-    "examPeriod": {
-      "unassigned": 1637,
-      "第一次段考": 65,
-      "第二次段考": 71,
-      "第三次段考": 91
-    },
-    "publisherStatus": {
-      "curriculum-core": 1252,
-      "publisher-mapped": 592,
-      "pending": 20
-    },
-    "classificationBasis": {
-      "curriculum-core": 1122,
-      "publisher-source-verified": 478,
-      "question-bank-inference": 250,
-      "unassigned": 14
-    },
     "confidence": {
-      "low": 1024,
-      "medium": 802,
+      "low": 1023,
+      "medium": 803,
       "high": 38
     },
-    "publisherMappedQuestionCount": 592,
-    "publisherMappingReferenceCount": 696,
-    "validation": {
-      "sixShardsParsed": true,
-      "shardQuestionCount": 2900,
-      "activeScopeQuestionCount": 1864,
-      "activeScopeUniqueRecords": 1864,
-      "allActiveScopeDistributionsSumToQuestionCount": true,
-      "questionRecordsUpdated": 1,
-      "newQuestionsAdded": 0,
-      "browserOrMobileRuntimeTested": false
-    },
-    "notes": "依main六個持久分類分片逐筆計算；b38-035改列待核對，不改原始年級或段考。"
+    "questionRecordsUpdated": 2,
+    "updatedQuestionIds": [
+      "b41-031",
+      "b41-036"
+    ],
+    "notes": "依六個持久分類分片重算；本輪只調整b41-031信心，b41-036補來源與限制說明，學期／段考及出版社映射均未變。"
+  },
+  "sourceRegistryVerificationStatusCounts": {
+    "source-checked": 70,
+    "pending": 1,
+    "source-unavailable": 1
   }
 }
