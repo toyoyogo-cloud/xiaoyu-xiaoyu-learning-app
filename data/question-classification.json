@@ -478,7 +478,11 @@
       "high": 38
     },
     "activeScopePublisherMappedQuestionCount": 592,
-    "activeScopePublisherMappingReferenceCount": 696
+    "activeScopePublisherMappingReferenceCount": 696,
+    "mappingVerificationStatus": {
+      "source-checked": 696,
+      "_total": 696
+    }
   },
   "sourceHeadVerified": "b37ca9060bbfaf81629d0b709619c7cac26ea303",
   "mainHeadVerifiedAt": "2026-11-18T02:38:36+08:00",
