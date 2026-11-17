@@ -1501,28 +1501,139 @@
         "inferenceSyntaxCheckNote": "Static source review only; no JavaScript parser, browser or mobile runtime was executed."
       },
       "notes": "官方來源核對：翰林書城商品頁確認高二地理上學期；翰林高中參考書官方帳號《試題挖挖哇－地理(3)》第3頁目次列第7回「全球化」。b40-086「供應鏈區位」僅映射至翰林配套評量本第7回單元層級；不代表學校採用版本或主課本完整目次。semester回填上學期，examPeriod維持unassigned。修正推定器未讀取MAPS.unitAliases的漏接，沒有新增題目。"
+    },
+    {
+      "runId": "2026-11-17-g6-math-head-feet-source-correction-01",
+      "date": "2026-11-17",
+      "sourceHeadBeforeRun": "b9c004b544af5be30189a9407e04c853e2d52642",
+      "batches": "08-41",
+      "batchFileCount": 34,
+      "fullCorpusQuestionCount": 2900,
+      "activeScopeQuestionCount": 1864,
+      "questionRecordsUpdated": 2,
+      "updatedQuestionIds": [
+        "b41-021",
+        "b41-022"
+      ],
+      "semesterAssignments": 0,
+      "semesterCorrections": 2,
+      "examPeriodAssignments": 0,
+      "examPeriodCorrections": 0,
+      "publisherMappingsAdded": 0,
+      "publisherMappingReferencesAdded": 0,
+      "publisherMappingReferencesCorrected": 0,
+      "publisherMappingReferencesRemoved": 2,
+      "newQuestionsAdded": 0,
+      "sourceBatchShasMatch": "34/34",
+      "classificationRuleVersion": "2026-11-17.101",
+      "fullCorpusSemesterDistribution": {
+        "unassigned": 2181,
+        "上學期": 481,
+        "下學期": 164,
+        "全學年": 74,
+        "_total": 2900
+      },
+      "fullCorpusExamPeriodDistribution": {
+        "unassigned": 2673,
+        "第一次段考": 65,
+        "第二次段考": 71,
+        "第三次段考": 91,
+        "_total": 2900
+      },
+      "fullCorpusClassificationBasisDistribution": {
+        "curriculum-core": 2184,
+        "publisher-source-verified": 460,
+        "question-bank-inference": 256,
+        "_total": 2900
+      },
+      "fullCorpusPublisherStatusDistribution": {
+        "curriculum-core": 2320,
+        "publisher-mapped": 574,
+        "pending": 6,
+        "_total": 2900
+      },
+      "fullCorpusConfidenceDistribution": {
+        "low": 2069,
+        "medium": 793,
+        "high": 38,
+        "_total": 2900
+      },
+      "publisherReferenceCounts": {
+        "knsh": 168,
+        "hanlin": 440,
+        "nani": 70,
+        "_total": 678
+      },
+      "mappingLevelCounts": {
+        "official-resource-title": 77,
+        "unit": 462,
+        "volume": 139,
+        "_total": 678
+      },
+      "mappingVerificationStatusCounts": {
+        "source-checked": 678,
+        "_total": 678
+      },
+      "validation": {
+        "jsonParse": true,
+        "classificationRecords": 2900,
+        "uniqueIds": 2900,
+        "duplicateIds": 0,
+        "missingFromClassification": 0,
+        "extraClassificationIds": 0,
+        "missingRequiredFields": 0,
+        "invalidClassificationValues": 0,
+        "mappingReferenceErrors": 0,
+        "sourceFieldErrors": 0,
+        "mappingScopeErrors": 0,
+        "sourceBatchShasMatch": "34/34",
+        "updatedQuestionsChecked": 2,
+        "updatedQuestionIdsReachable": true,
+        "targetedFilterCombinationsTested": 18,
+        "targetedFilterErrors": 0,
+        "publisherMappingLeaks": 0,
+        "allModeReachable": true,
+        "allModeQuestionCount": 2900,
+        "appReadsPersistedClassificationIndex": true,
+        "zeroResultHintPresent": true,
+        "serviceWorkerAssetManifestComplete": true,
+        "inferenceSyntaxStructureChecked": true,
+        "browserOrMobileRuntimeTested": false,
+        "fullFilterMatrixTested": false,
+        "filterCombinationsTested": 18,
+        "nonZeroFilterCombinations": 6,
+        "zeroResultCombinations": 12,
+        "filterErrors": 0,
+        "targetedFilterMatrixTested": true,
+        "targetedFilterCasesTested": 18,
+        "inferenceMappingDefinitionPresent": true,
+        "inferenceSyntaxRuntimeTested": false,
+        "inferenceSyntaxCheckNote": "Inference source parsed with Function constructor; browser/mobile runtime was not executed."
+      },
+      "notes": "官方來源核對：2026-11-17重新開啟南一官方詳情頁，標題為「數學6下｜怎樣解題：雞兔問題」，內容介紹明示「雞兔同籠」。b41-021題幹為汽車／機車、b41-022為三腳椅／四腳桌；不屬於該官方資源直接標示的雞兔情境，因此移除兩筆南一映射，並同步修正原始題庫與分類索引單元名稱。兩題題目、選項、答案與解析未變；學期及段考保留unassigned。沒有新增題目。"
     }
   ],
   "latestMainClassificationAudit": {
-    "runId": "2026-11-17-hanlin-h2-geography-supply-chain-backfill-01",
+    "runId": "2026-11-17-g6-math-head-feet-source-correction-01",
     "date": "2026-11-17",
-    "sourceHeadBeforeRun": "83ec577f43a91cc5b32cec849bd005306cb48758",
+    "sourceHeadBeforeRun": "b9c004b544af5be30189a9407e04c853e2d52642",
     "batches": "08-41",
     "batchFileCount": 34,
     "fullCorpusQuestionCount": 2900,
     "activeScopeQuestionCount": 1864,
-    "questionRecordsUpdated": 1,
+    "questionRecordsUpdated": 2,
     "updatedQuestionIds": [
-      "b40-086"
+      "b41-021",
+      "b41-022"
     ],
-    "semesterAssignments": 1,
-    "semesterCorrections": 0,
+    "semesterAssignments": 0,
+    "semesterCorrections": 2,
     "examPeriodAssignments": 0,
     "examPeriodCorrections": 0,
     "publisherMappingsAdded": 0,
-    "publisherMappingReferencesAdded": 1,
+    "publisherMappingReferencesAdded": 0,
     "publisherMappingReferencesCorrected": 0,
-    "publisherMappingReferencesRemoved": 0,
+    "publisherMappingReferencesRemoved": 2,
     "newQuestionsAdded": 0,
     "sourceBatchShasMatch": "34/34",
     "classificationRuleVersion": "2026-11-17.101",
@@ -1587,7 +1698,7 @@
       "sourceFieldErrors": 0,
       "mappingScopeErrors": 0,
       "sourceBatchShasMatch": "34/34",
-      "updatedQuestionsChecked": 1,
+      "updatedQuestionsChecked": 2,
       "updatedQuestionIdsReachable": true,
       "targetedFilterCombinationsTested": 18,
       "targetedFilterErrors": 0,
@@ -1597,7 +1708,7 @@
       "appReadsPersistedClassificationIndex": true,
       "zeroResultHintPresent": true,
       "serviceWorkerAssetManifestComplete": true,
-      "inferenceSyntaxStructureChecked": false,
+      "inferenceSyntaxStructureChecked": true,
       "browserOrMobileRuntimeTested": false,
       "fullFilterMatrixTested": false,
       "filterCombinationsTested": 18,
@@ -1608,9 +1719,9 @@
       "targetedFilterCasesTested": 18,
       "inferenceMappingDefinitionPresent": true,
       "inferenceSyntaxRuntimeTested": false,
-      "inferenceSyntaxCheckNote": "Static source review only; no JavaScript parser, browser or mobile runtime was executed."
+      "inferenceSyntaxCheckNote": "Inference source parsed with Function constructor; browser/mobile runtime was not executed."
     },
-    "notes": "官方來源核對：翰林書城商品頁確認高二地理上學期；翰林高中參考書官方帳號《試題挖挖哇－地理(3)》第3頁目次列第7回「全球化」。b40-086「供應鏈區位」僅映射至翰林配套評量本第7回單元層級；不代表學校採用版本或主課本完整目次。semester回填上學期，examPeriod維持unassigned。修正推定器未讀取MAPS.unitAliases的漏接，沒有新增題目。"
+    "notes": "官方來源核對：2026-11-17重新開啟南一官方詳情頁，標題為「數學6下｜怎樣解題：雞兔問題」，內容介紹明示「雞兔同籠」。b41-021題幹為汽車／機車、b41-022為三腳椅／四腳桌；不屬於該官方資源直接標示的雞兔情境，因此移除兩筆南一映射，並同步修正原始題庫與分類索引單元名稱。兩題題目、選項、答案與解析未變；學期及段考保留unassigned。沒有新增題目。"
   },
   "latestClassificationBackfill": {
     "runId": "2026-11-17-hanlin-h2-geography-supply-chain-backfill-01",
