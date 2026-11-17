@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.1.5",
   "updatedAt": "2026-11-18",
-  "classificationRuleVersion": "2026-11-18.109",
+  "classificationRuleVersion": "2026-11-18.110",
   "batchRange": "38-41",
   "sourceBatchShas": {
     "38": "d5f0aed52035624b1aa72f3052577b8e13f11c91",
@@ -12370,11 +12370,11 @@
       "semester": "unassigned",
       "examPeriod": "unassigned",
       "classificationBasis": "curriculum-core",
-      "confidence": "low",
+      "confidence": "medium",
       "publisherStatus": "curriculum-core",
       "publisherMappings": [],
-      "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，因此不標出版社；學期與段考保留未分類。",
-      "sourceRef": "108課綱共同核心原創編寫；非出版社教材原文或歷屆試題原文。",
+      "classificationNotes": "國家教育研究院108自然科學領域課程手冊教學案例的5–6年級欄，明列實驗設計需考慮測量變因與控制變因，例示控制開始高度及使用同一輛小汽車；與本題改變光照時間、其餘條件保持相同的探究方法相符。此證據支持國小5–6年級共同核心的科學探究能力，不支持特定出版社、學期或段考；故維持curriculum-core，semester與examPeriod仍為unassigned，publisherMappings維持空陣列。",
+      "sourceRef": "108課綱共同核心原創編寫；國家教育研究院《自然科學領域課程手冊》頁358（5–6年級實驗設計與控制變因示例）：https://www.naer.edu.tw/upload/1/16/doc/2064/%E8%87%AA%E7%84%B6%E7%A7%91%E5%AD%B8%E9%A0%98%E5%9F%9F%E8%AA%B2%E7%A8%8B%E6%89%8B%E5%86%8A%28%E5%AE%9A%E7%A8%BF%E7%89%88%29.pdf",
       "learningDomain": "科學探究",
       "questionType": "情境推理",
       "learningUnit": "實驗變因控制",
@@ -12731,8 +12731,8 @@
       "confidence": "low",
       "publisherStatus": "curriculum-core",
       "publisherMappings": [],
-      "classificationNotes": "依108課綱共同核心原創編寫；未取得足以同時核對出版社年級、科目、學期／冊別與單元的官方來源，因此不標出版社；學期與段考保留未分類。",
-      "sourceRef": "108課綱共同核心原創編寫；非出版社教材原文或歷屆試題原文。",
+      "classificationNotes": "國家教育研究院108自然科學領域課程手冊頁337–338將「植物的葉子是光合作用主要場所，需要陽光」列於5–6年級，並以INa-Ⅲ-9說明植物生長養分經光合作用取得；這支持本題的光合作用基本概念屬國小共同核心。但該手冊未直接核對本題二氧化碳吸收／氧氣釋出的具體敘述，也沒有出版社單元、學期或段考證據，因此維持低信心curriculum-core，不掛出版社，semester與examPeriod仍為unassigned。",
+      "sourceRef": "108課綱共同核心原創編寫；國家教育研究院《自然科學領域課程手冊》頁337–338（5–6年級光合作用基本概念與INa-Ⅲ-9）：https://www.naer.edu.tw/upload/1/16/doc/2064/%E8%87%AA%E7%84%B6%E7%A7%91%E5%AD%B8%E9%A0%98%E5%9F%9F%E8%AA%B2%E7%A8%8B%E6%89%8B%E5%86%8A%28%E5%AE%9A%E7%A8%BF%E7%89%88%29.pdf",
       "learningDomain": "生物生命",
       "questionType": "情境推理",
       "learningUnit": "光合作用與氣體交換",
@@ -15372,18 +15372,20 @@
     "note": "康軒114六下自然映射改以學校課程計畫及出版社官方數位資源交叉核對；學期及段考值不變。"
   },
   "latestClassificationUpdate": {
-    "runId": "2026-11-18-knsh-g6-natural-water-solution-separation-backfill-01",
-    "updatedAt": "2026-11-18T02:38:36+08:00",
+    "runId": "2026-11-18-naer-g6-science-inquiry-core-review-01",
+    "updatedAt": "2026-11-18T05:47:27+08:00",
     "updatedQuestionIds": [
-      "b40-041"
+      "b41-031",
+      "b41-036"
     ],
-    "questionRecordsUpdated": 1,
-    "publisherMappingsAdded": 1,
-    "publisherMappingReferencesAdded": 1,
-    "semesterAssignments": 1,
+    "questionRecordsUpdated": 2,
+    "confidenceCorrections": 1,
+    "semesterAssignments": 0,
     "examPeriodAssignments": 0,
+    "publisherMappingsAdded": 0,
+    "publisherMappingReferencesAdded": 0,
     "newQuestionsAdded": 0,
     "sourceBatchShasUnchanged": true,
-    "notes": "依113康軒官方教材簡介：六上單元二「水溶液」主題脈絡含混合物與物質分離；僅作單元層級對照，段考未分類。"
+    "notes": "以國教院108自然科學領域課程手冊核對兩題國小5–6年級共同核心範圍；b41-031信心由low調為medium，b41-036僅補充範圍限制與來源、維持low。未推定學期／段考，未增加出版社映射。"
   }
 }
