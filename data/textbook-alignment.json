@@ -7803,6 +7803,28 @@
         "b34-037"
       ],
       "notes": "7題原始年級欄位與課綱概念學習階段不一致，保留原題與原年級，暫改為unassigned/pending；待教師或題目來源確認，不宣稱教師審核。未重跑全庫篩選矩陣或瀏覽器實機測試。"
+    },
+    {
+      "runId": "2026-11-17-grade-scope-moon-phase-review-01",
+      "verifiedAt": "2026-11-17",
+      "sourceChecks": [
+        {
+          "sourceId": "naer-natural-108-curriculum-pdf",
+          "sourceUrl": "https://stv.naer.edu.tw/data/course_outline/pta_18538_240851_60502.pdf",
+          "sourceTitle": "國家教育研究院－十二年國民基本教育自然科學領域課程綱要（第四學習階段）",
+          "verificationStatus": "source-checked",
+          "notes": "108課綱自然科學領域第四學習階段（國中7–9年級）學習內容Fb-IV-4明列「月相變化具有規律性」；目前題庫原始stage/grade仍標示國小六年級，僅憑此課綱條目不足以證明該題應屬六年級教材或學期。"
+        }
+      ],
+      "questionIds": [
+        "b23-031",
+        "b37-039",
+        "b38-038",
+        "b26-030",
+        "b30-027",
+        "b41-038"
+      ],
+      "notes": "六題月相題目前標示國小六年級，但108自然科學領域課綱將Fb-IV-4月相變化列於第四學習階段。保留原始年級與題目內容，暫列unassigned/pending，不推定學期、段考或出版社；待教師／題目來源確認。未重跑全庫篩選矩陣，未做瀏覽器或手機實機測試。"
     }
   ],
   "high2MathCourseTrackAudit": {
@@ -8070,29 +8092,28 @@
     "newQuestionsAdded": 0
   },
   "lastRunAudit": {
-    "runId": "2026-11-17-grade-scope-density-review-01",
+    "runId": "2026-11-17-grade-scope-moon-phase-review-01",
     "date": "2026-11-17",
-    "sourceHeadBeforeRun": "bf13a85d3c2064f18fa86bf8d7c7c372fe91216e",
+    "sourceHeadBeforeRun": "f03b96cae1728bf61955e3a6081e70475247b4d2",
     "batches": "08-41",
     "batchFileCount": 34,
     "fullCorpusQuestionCount": 2900,
     "activeScopeQuestionCount": 1864,
-    "questionRecordsUpdated": 7,
+    "questionRecordsUpdated": 6,
     "updatedQuestionIds": [
-      "b25-032",
-      "b26-032",
-      "b30-029",
-      "b38-034",
-      "b31-039",
-      "b33-036",
-      "b34-037"
+      "b23-031",
+      "b37-039",
+      "b38-038",
+      "b26-030",
+      "b30-027",
+      "b41-038"
     ],
     "semesterAssignments": 0,
     "examPeriodAssignments": 0,
     "publisherMappingsAdded": 0,
     "publisherMappingReferencesAdded": 0,
-    "classificationBasisCorrections": 7,
-    "publisherStatusCorrections": 7,
+    "classificationBasisCorrections": 6,
+    "publisherStatusCorrections": 6,
     "newQuestionsAdded": 0,
     "fullCorpusSemesterDistribution": {
       "unassigned": 2172,
@@ -8109,16 +8130,22 @@
       "_total": 2900
     },
     "fullCorpusClassificationBasisDistribution": {
-      "unassigned": 7,
-      "curriculum-core": 2168,
+      "unassigned": 13,
+      "curriculum-core": 2162,
       "publisher-source-verified": 469,
       "question-bank-inference": 256,
       "_total": 2900
     },
     "fullCorpusPublisherStatusDistribution": {
-      "pending": 13,
+      "pending": 19,
       "publisher-mapped": 583,
-      "curriculum-core": 2304,
+      "curriculum-core": 2298,
+      "_total": 2900
+    },
+    "fullCorpusConfidenceDistribution": {
+      "low": 2067,
+      "medium": 795,
+      "high": 38,
       "_total": 2900
     },
     "publisherReferenceCounts": {
@@ -8138,19 +8165,10 @@
       "mappingSourceFieldErrors": 0,
       "mappingScopeErrors": 0,
       "sourceRegistryCount": 69,
-      "sourceRegistrySourceChecked": 66,
-      "sourceRegistryPending": 1,
-      "sourceRegistryUnavailable": 2,
       "filterMatrixTestedThisRun": false,
       "browserOrMobileRuntimeTested": false
     },
-    "notes": "7題原始年級欄位與課綱概念學習階段不一致，保留原題與原年級，暫改為unassigned/pending；待教師或題目來源確認，不宣稱教師審核。未重跑全庫篩選矩陣或瀏覽器實機測試。",
-    "fullCorpusConfidenceDistribution": {
-      "low": 2064,
-      "medium": 798,
-      "high": 38,
-      "_total": 2900
-    }
+    "notes": "六題月相題目前標示國小六年級，但108自然科學領域課綱將Fb-IV-4月相變化列於第四學習階段。保留原始年級與題目內容，暫列unassigned/pending，不推定學期、段考或出版社；待教師／題目來源確認。未重跑全庫篩選矩陣，未做瀏覽器或手機實機測試。"
   },
   "latestMappingScopeCorrection": {
     "date": "2026-11-14",
@@ -8471,29 +8489,28 @@
     }
   ],
   "latestMainAudit": {
-    "runId": "2026-11-17-grade-scope-density-review-01",
+    "runId": "2026-11-17-grade-scope-moon-phase-review-01",
     "date": "2026-11-17",
-    "sourceHeadBeforeRun": "bf13a85d3c2064f18fa86bf8d7c7c372fe91216e",
+    "sourceHeadBeforeRun": "f03b96cae1728bf61955e3a6081e70475247b4d2",
     "batches": "08-41",
     "batchFileCount": 34,
     "fullCorpusQuestionCount": 2900,
     "activeScopeQuestionCount": 1864,
-    "questionRecordsUpdated": 7,
+    "questionRecordsUpdated": 6,
     "updatedQuestionIds": [
-      "b25-032",
-      "b26-032",
-      "b30-029",
-      "b38-034",
-      "b31-039",
-      "b33-036",
-      "b34-037"
+      "b23-031",
+      "b37-039",
+      "b38-038",
+      "b26-030",
+      "b30-027",
+      "b41-038"
     ],
     "semesterAssignments": 0,
     "examPeriodAssignments": 0,
     "publisherMappingsAdded": 0,
     "publisherMappingReferencesAdded": 0,
-    "classificationBasisCorrections": 7,
-    "publisherStatusCorrections": 7,
+    "classificationBasisCorrections": 6,
+    "publisherStatusCorrections": 6,
     "newQuestionsAdded": 0,
     "fullCorpusSemesterDistribution": {
       "unassigned": 2172,
@@ -8510,16 +8527,22 @@
       "_total": 2900
     },
     "fullCorpusClassificationBasisDistribution": {
-      "unassigned": 7,
-      "curriculum-core": 2168,
+      "unassigned": 13,
+      "curriculum-core": 2162,
       "publisher-source-verified": 469,
       "question-bank-inference": 256,
       "_total": 2900
     },
     "fullCorpusPublisherStatusDistribution": {
-      "pending": 13,
+      "pending": 19,
       "publisher-mapped": 583,
-      "curriculum-core": 2304,
+      "curriculum-core": 2298,
+      "_total": 2900
+    },
+    "fullCorpusConfidenceDistribution": {
+      "low": 2067,
+      "medium": 795,
+      "high": 38,
       "_total": 2900
     },
     "publisherReferenceCounts": {
@@ -8539,19 +8562,10 @@
       "mappingSourceFieldErrors": 0,
       "mappingScopeErrors": 0,
       "sourceRegistryCount": 69,
-      "sourceRegistrySourceChecked": 66,
-      "sourceRegistryPending": 1,
-      "sourceRegistryUnavailable": 2,
       "filterMatrixTestedThisRun": false,
       "browserOrMobileRuntimeTested": false
     },
-    "notes": "7題原始年級欄位與課綱概念學習階段不一致，保留原題與原年級，暫改為unassigned/pending；待教師或題目來源確認，不宣稱教師審核。未重跑全庫篩選矩陣或瀏覽器實機測試。",
-    "fullCorpusConfidenceDistribution": {
-      "low": 2064,
-      "medium": 798,
-      "high": 38,
-      "_total": 2900
-    }
+    "notes": "六題月相題目前標示國小六年級，但108自然科學領域課綱將Fb-IV-4月相變化列於第四學習階段。保留原始年級與題目內容，暫列unassigned/pending，不推定學期、段考或出版社；待教師／題目來源確認。未重跑全庫篩選矩陣，未做瀏覽器或手機實機測試。"
   },
   "statistics": {
     "questionCount": 2900,
@@ -8575,21 +8589,21 @@
       "_total": 2900
     },
     "classificationBasis": {
-      "unassigned": 7,
-      "curriculum-core": 2168,
+      "unassigned": 13,
+      "curriculum-core": 2162,
       "publisher-source-verified": 469,
       "question-bank-inference": 256,
       "_total": 2900
     },
     "publisherStatus": {
-      "pending": 13,
+      "pending": 19,
       "publisher-mapped": 583,
-      "curriculum-core": 2304,
+      "curriculum-core": 2298,
       "_total": 2900
     },
     "confidence": {
-      "low": 2064,
-      "medium": 798,
+      "low": 2067,
+      "medium": 795,
       "high": 38,
       "_total": 2900
     },
@@ -8597,8 +8611,8 @@
     "publisherMappingReferenceCount": 687,
     "validPublisherMappingReferenceCount": 687,
     "centralMappingRegistryCount": 64,
-    "pendingQuestionCount": 13,
-    "curriculumCoreStatusCount": 2304,
+    "pendingQuestionCount": 19,
+    "curriculumCoreStatusCount": 2298,
     "publisherReferenceCounts": {
       "knsh": 168,
       "hanlin": 449,
@@ -8659,25 +8673,25 @@
     "examAssignedQuestionCount": 227,
     "examUnassignedQuestionCount": 2673,
     "classificationBasisCounts": {
-      "unassigned": 7,
-      "curriculum-core": 2168,
+      "unassigned": 13,
+      "curriculum-core": 2162,
       "publisher-source-verified": 469,
       "question-bank-inference": 256,
       "_total": 2900
     },
     "confidenceCounts": {
-      "low": 2064,
-      "medium": 798,
+      "low": 2067,
+      "medium": 795,
       "high": 38,
       "_total": 2900
     },
     "publisherStatusCounts": {
-      "pending": 13,
+      "pending": 19,
       "publisher-mapped": 583,
-      "curriculum-core": 2304,
+      "curriculum-core": 2298,
       "_total": 2900
     },
-    "curriculumCoreQuestionCount": 2304,
+    "curriculumCoreQuestionCount": 2298,
     "sourceUnavailableMappingReferenceCount": 0,
     "inferenceMappingRegistryCount": 64,
     "activeScopeQuestionCount": 1864,
@@ -8698,9 +8712,9 @@
         "_total": 1864
       },
       "publisherStatus": {
-        "curriculum-core": 1271,
+        "curriculum-core": 1265,
         "publisher-mapped": 580,
-        "pending": 13,
+        "pending": 19,
         "_total": 1864
       }
     },
@@ -8725,7 +8739,7 @@
     "zeroResultCombinations": 2081804,
     "allModeReachable": true,
     "allModeQuestionCount": 2900,
-    "updatedQuestionRecords": 7,
+    "updatedQuestionRecords": 13,
     "newPublisherMappingsPersisted": 0,
     "stalePublisherMappingReferencesRemoved": 0,
     "classificationBasisCorrections": 0,
@@ -10891,56 +10905,47 @@
     "_total": 69
   },
   "latestGradeScopeAudit": {
-    "runId": "2026-11-17-grade-scope-density-review-01",
+    "runId": "2026-11-17-grade-scope-moon-phase-review-01",
     "verifiedAt": "2026-11-17",
-    "sourceHeadBeforeRun": "bf13a85d3c2064f18fa86bf8d7c7c372fe91216e",
+    "sourceHeadBeforeRun": "f03b96cae1728bf61955e3a6081e70475247b4d2",
     "batches": "08-41",
     "batchFileCount": 34,
     "fullCorpusQuestionCount": 2900,
-    "uniqueClassificationIds": 2900,
-    "duplicateClassificationIds": 0,
-    "missingClassificationIds": 0,
-    "questionRecordsUpdated": 7,
+    "questionRecordsUpdated": 6,
     "updatedQuestionIds": [
+      "b23-031",
+      "b37-039",
+      "b38-038",
+      "b26-030",
+      "b30-027",
+      "b41-038"
+    ],
+    "affectedGradeScopePendingIds": [
       "b25-032",
       "b26-032",
       "b30-029",
       "b38-034",
       "b31-039",
       "b33-036",
-      "b34-037"
+      "b34-037",
+      "b23-031",
+      "b37-039",
+      "b38-038",
+      "b26-030",
+      "b30-027",
+      "b41-038"
     ],
-    "classificationBasisCorrections": 7,
-    "publisherStatusCorrections": 7,
+    "classificationBasisCorrections": 6,
+    "publisherStatusCorrections": 6,
     "semesterAssignments": 0,
     "examPeriodAssignments": 0,
     "publisherMappingsAdded": 0,
     "publisherMappingReferencesAdded": 0,
     "newQuestionsAdded": 0,
-    "sourceBatchShasReverifiedThisRun": false,
-    "sources": [
-      {
-        "sourceId": "naer-natural-108-curriculum-pdf",
-        "sourceUrl": "https://stv.naer.edu.tw/data/course_outline/pta_18538_240851_60502.pdf",
-        "learningStage": "第四學習階段（國中7–9年級）",
-        "learningCodes": [
-          "Ea-IV-1",
-          "Eb-IV-6"
-        ]
-      },
-      {
-        "sourceId": "educloud-density-grade78",
-        "sourceUrl": "https://market.cloud.edu.tw/resources/video/1838972",
-        "learningStage": "國中7–9年級",
-        "learningCode": "Ea-IV-1"
-      },
-      {
-        "sourceId": "educloud-buoyancy-grade78",
-        "sourceUrl": "https://market.cloud.edu.tw/resources/video/1838832",
-        "learningStage": "國中7–9年級",
-        "learningCode": "Eb-IV-6"
-      }
-    ],
-    "notes": "7題原始年級欄位與課綱概念學習階段不一致，保留原題與原年級，暫改為unassigned/pending；待教師或題目來源確認，不宣稱教師審核。未重跑全庫篩選矩陣或瀏覽器實機測試。"
+    "sourceId": "naer-natural-108-curriculum-pdf",
+    "sourceUrl": "https://stv.naer.edu.tw/data/course_outline/pta_18538_240851_60502.pdf",
+    "learningStage": "第四學習階段（國中7–9年級）",
+    "learningCode": "Fb-IV-4",
+    "notes": "六題月相題目前標示國小六年級，但108自然科學領域課綱將Fb-IV-4月相變化列於第四學習階段。保留原始年級與題目內容，暫列unassigned/pending，不推定學期、段考或出版社；待教師／題目來源確認。未重跑全庫篩選矩陣，未做瀏覽器或手機實機測試。"
   }
 }
