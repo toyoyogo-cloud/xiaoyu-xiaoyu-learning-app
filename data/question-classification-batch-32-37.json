@@ -1,7 +1,7 @@
 {
-  "schemaVersion": "1.1.4",
-  "updatedAt": "2026-11-17",
-  "classificationRuleVersion": "2026-11-17.104",
+  "schemaVersion": "1.1.5",
+  "updatedAt": "2026-11-18",
+  "classificationRuleVersion": "2026-11-18.106",
   "batchRange": "32-37",
   "sourceBatchShas": {
     "32": "39bf8d31ef7a019d3fca6e78669afdcfb68a7aa4",
@@ -1827,38 +1827,92 @@
       "grade": "高二",
       "subject": "化學",
       "courseTrack": null,
-      "courseType": null,
+      "courseType": "選修化學(I)",
       "semester": "上學期",
       "examPeriod": "unassigned",
-      "classificationBasis": "question-bank-inference",
-      "confidence": "low",
-      "publisherStatus": "curriculum-core",
-      "publisherMappings": [],
-      "classificationNotes": "題目為原創；翰林官方課本頁僅核對高二上選修化學(I)冊名「物質與能量」，未公開細分目次，僅作冊別層級對照。 原出版社映射因年級、科目、學期、課程軌別、選修課程類型或單元／冊別範圍未通過一致性檢查，故不納入出版社篩選；若原學期／段考僅依該映射而來，已一併撤回。 原始題庫批次欄位已記錄 semester=上學期；本輪由持久分類索引比對後同步原有欄位。此為題庫既有推定，非出版社或教師確認；examPeriod 維持 unassigned。",
-      "sourceRef": "108課綱共同核心；原出版社映射未通過範圍檢查",
+      "classificationBasis": "publisher-source-verified",
+      "confidence": "medium",
+      "publisherStatus": "publisher-mapped",
+      "publisherMappings": [
+        {
+          "publisher": "hanlin",
+          "mappingId": "hanlin-h2-chemistry-i-matter-energy",
+          "sourceUrl": "https://books.hanlin.com.tw/product/005021",
+          "sourceTitle": "翰林書城－高中課本選修化學(I)物質與能量",
+          "verifiedAt": "2026-11-18",
+          "verificationStatus": "source-checked",
+          "notes": "翰林書城官方商品頁明示高中二年級、化學、上學期，課本名稱為「選修化學(I)物質與能量」。原始題庫sourceRef直接指向此官方頁；本映射只確認該選修冊別及年級／科目／學期，mappingLevel=volume。官方頁未公開細分目次，故不宣稱量熱、反應焓或赫斯定律已核對到特定單元；不代表學校採用版本或正式段考範圍。只接受分類紀錄明確courseType=選修化學(I)且題目內容符合冊別範圍詞的題目。",
+          "mappingLevel": "volume",
+          "volume": "選修化學(I)物質與能量",
+          "unitCode": "冊別層級",
+          "unitName": "物質與能量（冊別層級）",
+          "semester": "上學期",
+          "grade": "高二",
+          "subject": "化學",
+          "courseType": "選修化學(I)",
+          "courseTrack": null,
+          "schoolYear": "未標示",
+          "scopeKeywords": [
+            "焓",
+            "反應熱",
+            "能量",
+            "赫斯定律"
+          ]
+        }
+      ],
+      "classificationNotes": "原創題目；原始題庫sourceRef直接指向翰林書城官方課本頁。官方商品頁明示高中二年級、化學、上學期，商品名為「選修化學(I)物質與能量」；因此courseType明確保存為選修化學(I)，只作冊別層級映射。官方頁未公開細分目次，不宣稱量熱、反應焓或赫斯定律對應特定單元。段考無來源，examPeriod維持unassigned；不代表學校採用版本或題目取自教材。",
+      "sourceRef": "https://books.hanlin.com.tw/product/005021",
       "learningDomain": "反應與計量",
       "questionType": "概念辨識",
       "learningUnit": "量熱與反應熱",
-      "difficultyLevel": "挑戰"
+      "difficultyLevel": "挑戰",
+      "reason": "原創題目；原始題庫sourceRef直接指向翰林書城官方課本頁。官方商品頁明示高中二年級、化學、上學期，商品名為「選修化學(I)物質與能量」；因此courseType明確保存為選修化學(I)，只作冊別層級映射。官方頁未公開細分目次，不宣稱量熱、反應焓或赫斯定律對應特定單元。段考無來源，examPeriod維持unassigned；不代表學校採用版本或題目取自教材。"
     },
     "b32-078": {
       "stage": "高中",
       "grade": "高二",
       "subject": "化學",
       "courseTrack": null,
-      "courseType": null,
+      "courseType": "選修化學(I)",
       "semester": "上學期",
       "examPeriod": "unassigned",
-      "classificationBasis": "question-bank-inference",
-      "confidence": "low",
-      "publisherStatus": "curriculum-core",
-      "publisherMappings": [],
-      "classificationNotes": "題目為原創；翰林官方課本頁僅核對高二上選修化學(I)冊名「物質與能量」，未公開細分目次，僅作冊別層級對照。 原出版社映射因年級、科目、學期、課程軌別、選修課程類型或單元／冊別範圍未通過一致性檢查，故不納入出版社篩選；若原學期／段考僅依該映射而來，已一併撤回。 原始題庫批次欄位已記錄 semester=上學期；本輪由持久分類索引比對後同步原有欄位。此為題庫既有推定，非出版社或教師確認；examPeriod 維持 unassigned。",
-      "sourceRef": "108課綱共同核心；原出版社映射未通過範圍檢查",
+      "classificationBasis": "publisher-source-verified",
+      "confidence": "medium",
+      "publisherStatus": "publisher-mapped",
+      "publisherMappings": [
+        {
+          "publisher": "hanlin",
+          "mappingId": "hanlin-h2-chemistry-i-matter-energy",
+          "sourceUrl": "https://books.hanlin.com.tw/product/005021",
+          "sourceTitle": "翰林書城－高中課本選修化學(I)物質與能量",
+          "verifiedAt": "2026-11-18",
+          "verificationStatus": "source-checked",
+          "notes": "翰林書城官方商品頁明示高中二年級、化學、上學期，課本名稱為「選修化學(I)物質與能量」。原始題庫sourceRef直接指向此官方頁；本映射只確認該選修冊別及年級／科目／學期，mappingLevel=volume。官方頁未公開細分目次，故不宣稱量熱、反應焓或赫斯定律已核對到特定單元；不代表學校採用版本或正式段考範圍。只接受分類紀錄明確courseType=選修化學(I)且題目內容符合冊別範圍詞的題目。",
+          "mappingLevel": "volume",
+          "volume": "選修化學(I)物質與能量",
+          "unitCode": "冊別層級",
+          "unitName": "物質與能量（冊別層級）",
+          "semester": "上學期",
+          "grade": "高二",
+          "subject": "化學",
+          "courseType": "選修化學(I)",
+          "courseTrack": null,
+          "schoolYear": "未標示",
+          "scopeKeywords": [
+            "焓",
+            "反應熱",
+            "能量",
+            "赫斯定律"
+          ]
+        }
+      ],
+      "classificationNotes": "原創題目；原始題庫sourceRef直接指向翰林書城官方課本頁。官方商品頁明示高中二年級、化學、上學期，商品名為「選修化學(I)物質與能量」；因此courseType明確保存為選修化學(I)，只作冊別層級映射。官方頁未公開細分目次，不宣稱量熱、反應焓或赫斯定律對應特定單元。段考無來源，examPeriod維持unassigned；不代表學校採用版本或題目取自教材。",
+      "sourceRef": "https://books.hanlin.com.tw/product/005021",
       "learningDomain": "反應與計量",
       "questionType": "概念辨識",
       "learningUnit": "焓變與能量圖",
-      "difficultyLevel": "進階"
+      "difficultyLevel": "進階",
+      "reason": "原創題目；原始題庫sourceRef直接指向翰林書城官方課本頁。官方商品頁明示高中二年級、化學、上學期，商品名為「選修化學(I)物質與能量」；因此courseType明確保存為選修化學(I)，只作冊別層級映射。官方頁未公開細分目次，不宣稱量熱、反應焓或赫斯定律對應特定單元。段考無來源，examPeriod維持unassigned；不代表學校採用版本或題目取自教材。"
     },
     "b32-079": {
       "stage": "高中",
@@ -4724,19 +4778,46 @@
       "grade": "高二",
       "subject": "化學",
       "courseTrack": null,
-      "courseType": null,
+      "courseType": "選修化學(I)",
       "semester": "上學期",
       "examPeriod": "unassigned",
-      "classificationBasis": "question-bank-inference",
-      "confidence": "low",
-      "publisherStatus": "curriculum-core",
-      "publisherMappings": [],
-      "classificationNotes": "翰林官方頁確認高二上選修化學(I)「物質與能量」冊別；本題只作冊別層級對照，不推定細分單元或段考。 原出版社映射因年級、科目、學期、課程軌別、選修課程類型或單元／冊別範圍未通過一致性檢查，故不納入出版社篩選；若原學期／段考僅依該映射而來，已一併撤回。 原始題庫批次欄位已記錄 semester=上學期；本輪由持久分類索引比對後同步原有欄位。此為題庫既有推定，非出版社或教師確認；examPeriod 維持 unassigned。",
-      "sourceRef": "108課綱共同核心；原出版社映射未通過範圍檢查",
+      "classificationBasis": "publisher-source-verified",
+      "confidence": "medium",
+      "publisherStatus": "publisher-mapped",
+      "publisherMappings": [
+        {
+          "publisher": "hanlin",
+          "mappingId": "hanlin-h2-chemistry-i-matter-energy",
+          "sourceUrl": "https://books.hanlin.com.tw/product/005021",
+          "sourceTitle": "翰林書城－高中課本選修化學(I)物質與能量",
+          "verifiedAt": "2026-11-18",
+          "verificationStatus": "source-checked",
+          "notes": "翰林書城官方商品頁明示高中二年級、化學、上學期，課本名稱為「選修化學(I)物質與能量」。原始題庫sourceRef直接指向此官方頁；本映射只確認該選修冊別及年級／科目／學期，mappingLevel=volume。官方頁未公開細分目次，故不宣稱量熱、反應焓或赫斯定律已核對到特定單元；不代表學校採用版本或正式段考範圍。只接受分類紀錄明確courseType=選修化學(I)且題目內容符合冊別範圍詞的題目。",
+          "mappingLevel": "volume",
+          "volume": "選修化學(I)物質與能量",
+          "unitCode": "冊別層級",
+          "unitName": "物質與能量（冊別層級）",
+          "semester": "上學期",
+          "grade": "高二",
+          "subject": "化學",
+          "courseType": "選修化學(I)",
+          "courseTrack": null,
+          "schoolYear": "未標示",
+          "scopeKeywords": [
+            "焓",
+            "反應熱",
+            "能量",
+            "赫斯定律"
+          ]
+        }
+      ],
+      "classificationNotes": "原創題目；原始題庫sourceRef直接指向翰林書城官方課本頁。官方商品頁明示高中二年級、化學、上學期，商品名為「選修化學(I)物質與能量」；因此courseType明確保存為選修化學(I)，只作冊別層級映射。官方頁未公開細分目次，不宣稱量熱、反應焓或赫斯定律對應特定單元。段考無來源，examPeriod維持unassigned；不代表學校採用版本或題目取自教材。",
+      "sourceRef": "https://books.hanlin.com.tw/product/005021",
       "learningDomain": "反應與計量",
       "questionType": "概念辨識",
       "learningUnit": "反應焓",
-      "difficultyLevel": "基礎"
+      "difficultyLevel": "基礎",
+      "reason": "原創題目；原始題庫sourceRef直接指向翰林書城官方課本頁。官方商品頁明示高中二年級、化學、上學期，商品名為「選修化學(I)物質與能量」；因此courseType明確保存為選修化學(I)，只作冊別層級映射。官方頁未公開細分目次，不宣稱量熱、反應焓或赫斯定律對應特定單元。段考無來源，examPeriod維持unassigned；不代表學校採用版本或題目取自教材。"
     },
     "b33-079": {
       "stage": "高中",
@@ -7199,19 +7280,46 @@
       "grade": "高二",
       "subject": "化學",
       "courseTrack": null,
-      "courseType": null,
+      "courseType": "選修化學(I)",
       "semester": "上學期",
       "examPeriod": "unassigned",
-      "classificationBasis": "question-bank-inference",
-      "confidence": "low",
-      "publisherStatus": "curriculum-core",
-      "publisherMappings": [],
-      "classificationNotes": "依既有已核對的出版社官方來源作冊別／單元層級對照；未推定學校段考，題目為原創而非教材原文。 原出版社映射因年級、科目、學期、課程軌別、選修課程類型或單元／冊別範圍未通過一致性檢查，故不納入出版社篩選；若原學期／段考僅依該映射而來，已一併撤回。 原始題庫批次欄位已記錄 semester=上學期；本輪由持久分類索引比對後同步原有欄位。此為題庫既有推定，非出版社或教師確認；examPeriod 維持 unassigned。",
-      "sourceRef": "108課綱共同核心；原出版社映射未通過範圍檢查",
+      "classificationBasis": "publisher-source-verified",
+      "confidence": "medium",
+      "publisherStatus": "publisher-mapped",
+      "publisherMappings": [
+        {
+          "publisher": "hanlin",
+          "mappingId": "hanlin-h2-chemistry-i-matter-energy",
+          "sourceUrl": "https://books.hanlin.com.tw/product/005021",
+          "sourceTitle": "翰林書城－高中課本選修化學(I)物質與能量",
+          "verifiedAt": "2026-11-18",
+          "verificationStatus": "source-checked",
+          "notes": "翰林書城官方商品頁明示高中二年級、化學、上學期，課本名稱為「選修化學(I)物質與能量」。原始題庫sourceRef直接指向此官方頁；本映射只確認該選修冊別及年級／科目／學期，mappingLevel=volume。官方頁未公開細分目次，故不宣稱量熱、反應焓或赫斯定律已核對到特定單元；不代表學校採用版本或正式段考範圍。只接受分類紀錄明確courseType=選修化學(I)且題目內容符合冊別範圍詞的題目。",
+          "mappingLevel": "volume",
+          "volume": "選修化學(I)物質與能量",
+          "unitCode": "冊別層級",
+          "unitName": "物質與能量（冊別層級）",
+          "semester": "上學期",
+          "grade": "高二",
+          "subject": "化學",
+          "courseType": "選修化學(I)",
+          "courseTrack": null,
+          "schoolYear": "未標示",
+          "scopeKeywords": [
+            "焓",
+            "反應熱",
+            "能量",
+            "赫斯定律"
+          ]
+        }
+      ],
+      "classificationNotes": "原創題目；原始題庫sourceRef直接指向翰林書城官方課本頁。官方商品頁明示高中二年級、化學、上學期，商品名為「選修化學(I)物質與能量」；因此courseType明確保存為選修化學(I)，只作冊別層級映射。官方頁未公開細分目次，不宣稱量熱、反應焓或赫斯定律對應特定單元。段考無來源，examPeriod維持unassigned；不代表學校採用版本或題目取自教材。",
+      "sourceRef": "https://books.hanlin.com.tw/product/005021",
       "learningDomain": "反應與計量",
       "questionType": "概念辨識",
       "learningUnit": "赫斯定律與反應焓",
-      "difficultyLevel": "進階"
+      "difficultyLevel": "進階",
+      "reason": "原創題目；原始題庫sourceRef直接指向翰林書城官方課本頁。官方商品頁明示高中二年級、化學、上學期，商品名為「選修化學(I)物質與能量」；因此courseType明確保存為選修化學(I)，只作冊別層級映射。官方頁未公開細分目次，不宣稱量熱、反應焓或赫斯定律對應特定單元。段考無來源，examPeriod維持unassigned；不代表學校採用版本或題目取自教材。"
     },
     "b34-077": {
       "stage": "高中",
@@ -12826,19 +12934,46 @@
       "grade": "高二",
       "subject": "化學",
       "courseTrack": null,
-      "courseType": null,
+      "courseType": "選修化學(I)",
       "semester": "上學期",
       "examPeriod": "unassigned",
-      "classificationBasis": "question-bank-inference",
-      "confidence": "low",
-      "publisherStatus": "curriculum-core",
-      "publisherMappings": [],
-      "classificationNotes": "翰林官方頁確認高二選修化學(I)冊名「物質與能量」；僅冊別層級，未宣稱細分單元。 原出版社映射因年級、科目、學期、課程軌別、選修課程類型或單元／冊別範圍未通過一致性檢查，故不納入出版社篩選；若原學期／段考僅依該映射而來，已一併撤回。 原始題庫批次欄位已記錄 semester=上學期；本輪由持久分類索引比對後同步原有欄位。此為題庫既有推定，非出版社或教師確認；examPeriod 維持 unassigned。",
-      "sourceRef": "108課綱共同核心；原出版社映射未通過範圍檢查",
+      "classificationBasis": "publisher-source-verified",
+      "confidence": "medium",
+      "publisherStatus": "publisher-mapped",
+      "publisherMappings": [
+        {
+          "publisher": "hanlin",
+          "mappingId": "hanlin-h2-chemistry-i-matter-energy",
+          "sourceUrl": "https://books.hanlin.com.tw/product/005021",
+          "sourceTitle": "翰林書城－高中課本選修化學(I)物質與能量",
+          "verifiedAt": "2026-11-18",
+          "verificationStatus": "source-checked",
+          "notes": "翰林書城官方商品頁明示高中二年級、化學、上學期，課本名稱為「選修化學(I)物質與能量」。原始題庫sourceRef直接指向此官方頁；本映射只確認該選修冊別及年級／科目／學期，mappingLevel=volume。官方頁未公開細分目次，故不宣稱量熱、反應焓或赫斯定律已核對到特定單元；不代表學校採用版本或正式段考範圍。只接受分類紀錄明確courseType=選修化學(I)且題目內容符合冊別範圍詞的題目。",
+          "mappingLevel": "volume",
+          "volume": "選修化學(I)物質與能量",
+          "unitCode": "冊別層級",
+          "unitName": "物質與能量（冊別層級）",
+          "semester": "上學期",
+          "grade": "高二",
+          "subject": "化學",
+          "courseType": "選修化學(I)",
+          "courseTrack": null,
+          "schoolYear": "未標示",
+          "scopeKeywords": [
+            "焓",
+            "反應熱",
+            "能量",
+            "赫斯定律"
+          ]
+        }
+      ],
+      "classificationNotes": "原創題目；原始題庫sourceRef直接指向翰林書城官方課本頁。官方商品頁明示高中二年級、化學、上學期，商品名為「選修化學(I)物質與能量」；因此courseType明確保存為選修化學(I)，只作冊別層級映射。官方頁未公開細分目次，不宣稱量熱、反應焓或赫斯定律對應特定單元。段考無來源，examPeriod維持unassigned；不代表學校採用版本或題目取自教材。",
+      "sourceRef": "https://books.hanlin.com.tw/product/005021",
       "learningDomain": "反應與計量",
       "questionType": "概念辨識",
       "learningUnit": "反應焓與放熱",
-      "difficultyLevel": "進階"
+      "difficultyLevel": "進階",
+      "reason": "原創題目；原始題庫sourceRef直接指向翰林書城官方課本頁。官方商品頁明示高中二年級、化學、上學期，商品名為「選修化學(I)物質與能量」；因此courseType明確保存為選修化學(I)，只作冊別層級映射。官方頁未公開細分目次，不宣稱量熱、反應焓或赫斯定律對應特定單元。段考無來源，examPeriod維持unassigned；不代表學校採用版本或題目取自教材。"
     },
     "b36-079": {
       "stage": "高中",
@@ -16527,7 +16662,7 @@
       "difficultyLevel": "進階"
     }
   },
-  "notes": " 2026-11-14.36：逐筆比對第32-37批原始題庫 semester 欄位，將原題庫已填且分類索引仍為 unassigned 的學期值同步為 question-bank-inference；不改動 publisher-source-verified、不推定段考、不新增出版社映射。 2026-11-14.46：南一官方「數學6下｜怎樣解題：雞兔問題」詳情頁已開啟核對；保留5題直接雞兔同籠映射，將3題汽車／機車及三腳椅／四腳桌類比題撤回出版社映射並改列共同核心。 2026-11-14.47：依國立臺北教育大學雙語教學研究中心官方目錄，將六年級自然串聯／並聯電路題目對應至上學期單元四「電磁作用」之課程主題層級；共2題，僅更新semester，examPeriod與出版社映射不變。 2026-11-15.51：回填5題六下簡單機械、2題六上地質的變化；依課程主題推定，出版社映射0、段考維持unassigned。 2026-11-15：新增3題高二歷史冷戰圍堵政策，對應翰林歷史(3)上學期單元7；段考維持unassigned。 2026-11-15.64：持久分類9題高二公民負外部性／外部成本題（b16-071、b19-071、b28-071、b31-095、b33-094、b37-093、b38-094、b39-096、b40-094）；依翰林高中課本公民與社會(3)乙版官方商品頁核對高二上學期，並以出版社配套評量本第3頁目次第4單元「外部成本與聯合行為」核對外部效果與政府對策。只建立翰林單元層級映射；confidence=medium，段考維持unassigned，不宣稱學校採用版本或教師審核；原始題庫未改、未新增題目。 2026-11-16.69：恢復20題高二選修課程出版社映射，原始 sourceRef 均直接指向翰林官方課本／教學講義頁；持久保存 courseType，物理(II)僅冊別層級、化學(III)依官方目次章節建立單元層級；examPeriod 保留 unassigned，不代表學校採用版本或正式段考範圍。 2026-11-16.70：同步分類解析器輸出 courseType/courseTrack 的版本標記；本分片題目資料未變更。 2026-11-16.72：修正3題共6處康軒六下數學兩量關係與比sourceUrl/sourceRef字串，與中央教材對照資料一致；未新增題目。 2026-11-17.96：將既有出版社映射參照同步至中央教材對照資料，修正來源日期、標題、URL與備註差異；保留題目分類與考期值。 2026-11-17.102：持久分類更新6題高二歷史（文藝復興1題、宗教改革與印刷術2題、戰後去殖民化3題）；新增2筆中央教材映射（第1、6單元），擴充第2單元印刷術別名。六題均標上學期、段考unassigned、publisher-source-verified、confidence=medium；原始題幹與答案不變。\n2026-11-17.104：持久分類b36-091；依翰林歷史(3)第6／7單元目次新增單元層級映射，學期上學期、段考unassigned。",
+  "notes": " 2026-11-14.36：逐筆比對第32-37批原始題庫 semester 欄位，將原題庫已填且分類索引仍為 unassigned 的學期值同步為 question-bank-inference；不改動 publisher-source-verified、不推定段考、不新增出版社映射。 2026-11-14.46：南一官方「數學6下｜怎樣解題：雞兔問題」詳情頁已開啟核對；保留5題直接雞兔同籠映射，將3題汽車／機車及三腳椅／四腳桌類比題撤回出版社映射並改列共同核心。 2026-11-14.47：依國立臺北教育大學雙語教學研究中心官方目錄，將六年級自然串聯／並聯電路題目對應至上學期單元四「電磁作用」之課程主題層級；共2題，僅更新semester，examPeriod與出版社映射不變。 2026-11-15.51：回填5題六下簡單機械、2題六上地質的變化；依課程主題推定，出版社映射0、段考維持unassigned。 2026-11-15：新增3題高二歷史冷戰圍堵政策，對應翰林歷史(3)上學期單元7；段考維持unassigned。 2026-11-15.64：持久分類9題高二公民負外部性／外部成本題（b16-071、b19-071、b28-071、b31-095、b33-094、b37-093、b38-094、b39-096、b40-094）；依翰林高中課本公民與社會(3)乙版官方商品頁核對高二上學期，並以出版社配套評量本第3頁目次第4單元「外部成本與聯合行為」核對外部效果與政府對策。只建立翰林單元層級映射；confidence=medium，段考維持unassigned，不宣稱學校採用版本或教師審核；原始題庫未改、未新增題目。 2026-11-16.69：恢復20題高二選修課程出版社映射，原始 sourceRef 均直接指向翰林官方課本／教學講義頁；持久保存 courseType，物理(II)僅冊別層級、化學(III)依官方目次章節建立單元層級；examPeriod 保留 unassigned，不代表學校採用版本或正式段考範圍。 2026-11-16.70：同步分類解析器輸出 courseType/courseTrack 的版本標記；本分片題目資料未變更。 2026-11-16.72：修正3題共6處康軒六下數學兩量關係與比sourceUrl/sourceRef字串，與中央教材對照資料一致；未新增題目。 2026-11-17.96：將既有出版社映射參照同步至中央教材對照資料，修正來源日期、標題、URL與備註差異；保留題目分類與考期值。 2026-11-17.102：持久分類更新6題高二歷史（文藝復興1題、宗教改革與印刷術2題、戰後去殖民化3題）；新增2筆中央教材映射（第1、6單元），擴充第2單元印刷術別名。六題均標上學期、段考unassigned、publisher-source-verified、confidence=medium；原始題幹與答案不變。\n2026-11-17.104：持久分類b36-091；依翰林歷史(3)第6／7單元目次新增單元層級映射，學期上學期、段考unassigned。\n2026-11-18：五題高二化學（b32-077、b32-078、b33-078、b34-076、b36-078）原始sourceRef均直接指向翰林官方選修化學(I)課本頁；官方頁確認高二、化學、上學期與選修化學(I)冊名。持久分類補上courseType=選修化學(I)，新增5筆翰林冊別層級映射；官方頁未公開細分目次，故不填單元，段考維持unassigned。原始題庫未修改，新增題目0。",
   "lastUpdate": {
     "runId": "2026-11-17-knsh-g6-natural-biodiversity-b34-040-backfill-01",
     "updatedAt": "2026-11-17T23:40:22+08:00",
@@ -16566,18 +16701,59 @@
       "examPeriodAssignments": 0,
       "newQuestionsAdded": 0,
       "notes": "b34-040六年級自然「生物多樣性與農業」依康軒114六下單元三官方來源補入出版社映射；semester維持下學期、examPeriod維持unassigned。"
+    },
+    {
+      "date": "2026-11-18",
+      "runId": "2026-11-18-hanlin-h2-chemistry-i-volume-backfill-01",
+      "questionIds": [
+        "b32-077",
+        "b32-078",
+        "b33-078",
+        "b34-076",
+        "b36-078"
+      ],
+      "changes": "補上明確選修化學(I)課程類型及翰林官方冊別層級映射；段考維持unassigned。"
     }
   ],
   "latestSourceVerificationAudit": {
-    "runId": "2026-11-17-knsh-g6-natural-biodiversity-b34-040-backfill-01",
-    "verifiedAt": "2026-11-17",
-    "mappingIds": [
-      "knsh-g6-natural-114-6b-u3-ecology"
+    "runId": "2026-11-18-hanlin-h2-chemistry-i-volume-backfill-01",
+    "verifiedAt": "2026-11-18",
+    "mappingIdsReviewed": [
+      "hanlin-h2-chemistry-i-matter-energy"
     ],
-    "questionIds": [
-      "b34-040"
+    "questionIdsReviewed": [
+      "b32-077",
+      "b32-078",
+      "b33-078",
+      "b34-076",
+      "b36-078"
     ],
-    "updatedQuestionRecords": 1,
-    "note": "康軒114六下自然單元三「地球的生態」：後塘國小114學年度第二學期六年級自然課程計畫明列康軒第十二冊及生物多樣性；康軒官方114下學期自然期末資源列單元三生態與生物多樣性。只對直接涉及生物多樣性的b34-040建立單元映射；不代表使用者學校採用版本或正式段考範圍。"
+    "updatedQuestionRecords": 5,
+    "publisherMappingsAdded": 5,
+    "mappingLevel": "volume",
+    "verificationStatus": "source-checked",
+    "sourceUrl": "https://books.hanlin.com.tw/product/005021",
+    "sourceTitle": "翰林書城－高中課本選修化學(I)物質與能量",
+    "notes": "翰林書城官方商品頁明示高中二年級、化學、上學期，課本名稱為「選修化學(I)物質與能量」。原始題庫sourceRef直接指向此官方頁；本映射只確認該選修冊別及年級／科目／學期，mappingLevel=volume。官方頁未公開細分目次，故不宣稱量熱、反應焓或赫斯定律已核對到特定單元；不代表學校採用版本或正式段考範圍。只接受分類紀錄明確courseType=選修化學(I)且題目內容符合冊別範圍詞的題目。"
+  },
+  "latestClassificationUpdate": {
+    "runId": "2026-11-18-hanlin-h2-chemistry-i-volume-backfill-01",
+    "date": "2026-11-18",
+    "updatedQuestionIds": [
+      "b32-077",
+      "b32-078",
+      "b33-078",
+      "b34-076",
+      "b36-078"
+    ],
+    "questionRecordsUpdated": 5,
+    "semesterAssignments": 0,
+    "examPeriodAssignments": 0,
+    "publisherMappingsAdded": 5,
+    "publisherMappingReferencesAdded": 5,
+    "newQuestionsAdded": 0,
+    "mappingLevel": "volume",
+    "publisher": "hanlin",
+    "notes": "五題高二化學原創題的原始sourceRef直接指向翰林官方選修化學(I)課本頁；官方頁確認高二、化學、上學期與選修課程類型，僅作冊別層級映射，不推定細分單元或段考。"
   }
 }
