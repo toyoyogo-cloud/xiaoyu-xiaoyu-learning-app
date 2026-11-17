@@ -1969,7 +1969,7 @@
       "sourceTitle": "114康軒國小教材特色－自然領域文宣（六下單元三「地球的生態」）",
       "verifiedAt": "2026-11-17",
       "verificationStatus": "source-checked",
-      "notes": "康軒官方114學年度國小教材特色PDF列六下自然主題「地球的生態」，主題脈絡明列食物鏈、族群與群集、生物間關係、生態系、特有種、保育類、外來入侵種及生物多樣性；課程架構另列單元三，活動包含生物彼此間的關係、不同生態系及維護生物多樣性。此映射只支持114版康軒國小六年級自然下學期單元三，不代表題庫或任何學校實際採用114版本，也不提供正式段考範圍。 題庫中的「棲地破碎化」僅作為本單元生物多樣性保育的情境應用，不宣稱官方目次另列該子單元。",
+      "notes": "康軒官方114學年度國小教材特色PDF列六下自然主題「地球的生態」，主題脈絡明列食物鏈、族群與群集、生物間關係、生態系、特有種、保育類、外來入侵種及生物多樣性；課程架構另列單元三，活動包含生物彼此間的關係、不同生態系及維護生物多樣性。此映射只支持114版康軒國小六年級自然下學期單元三，不代表題庫或任何學校實際採用114版本，也不提供正式段考範圍。 題庫中的「棲地破碎化」僅作為本單元生物多樣性保育的情境應用，不宣稱官方目次另列該子單元。 題庫別名「生態平衡」及「外來種與生態」只用來對應本單元已列的生物間關係、外來入侵種與生物多樣性，不代表官方另列同名課次。",
       "courseType": "國小",
       "mappingLevel": "unit",
       "courseTrack": null,
@@ -1987,7 +1987,9 @@
         "生物多樣性",
         "族群與群集",
         "生物之間的關係",
-        "棲地破碎化"
+        "棲地破碎化",
+        "生態平衡",
+        "外來種與生態"
       ]
     },
     {
@@ -7231,36 +7233,36 @@
     "runId": "2026-11-17-knsh-g6-math-trapezoid-source-title-correction-01"
   },
   "lastRunAudit": {
-    "runId": "2026-11-17-knsh-g6-math-trapezoid-source-title-correction-01",
+    "runId": "2026-11-17-knsh-g6-natural-ecology-backfill-01",
     "date": "2026-11-17",
-    "sourceHeadBeforeRun": "77f02eca869d8c42e1bdd298ba144399e72aa166",
+    "sourceHeadBeforeRun": "56c1e66c4413204dfc3b4cbf71bb3050dedd0358",
     "batches": "08-41",
     "batchFileCount": 34,
     "fullCorpusQuestionCount": 2900,
     "activeScopeQuestionCount": 1864,
     "questionRecordsUpdated": 4,
     "updatedQuestionIds": [
-      "b32-014",
-      "b33-023",
-      "b36-027",
-      "b37-025"
+      "b10-006",
+      "b23-030",
+      "b27-027",
+      "b29-032"
     ],
-    "semesterAssignments": 0,
+    "semesterAssignments": 4,
     "semesterCorrections": 0,
     "examPeriodAssignments": 0,
     "examPeriodCorrections": 0,
-    "publisherMappingsAdded": 0,
-    "publisherMappingReferencesAdded": 0,
-    "publisherMappingReferencesCorrected": 4,
+    "publisherMappingsAdded": 4,
+    "publisherMappingReferencesAdded": 4,
+    "publisherMappingReferencesCorrected": 0,
     "publisherMappingReferencesRemoved": 0,
-    "sourceTitleCorrections": 4,
+    "sourceTitleCorrections": 0,
     "newQuestionsAdded": 0,
     "sourceBatchShasMatch": "34/34",
-    "classificationRuleVersion": "2026-11-17.93",
+    "classificationRuleVersion": "2026-11-17.96",
     "fullCorpusSemesterDistribution": {
-      "unassigned": 2206,
-      "上學期": 464,
-      "下學期": 156,
+      "unassigned": 2194,
+      "上學期": 468,
+      "下學期": 164,
       "全學年": 74,
       "_total": 2900
     },
@@ -7272,53 +7274,53 @@
       "_total": 2900
     },
     "fullCorpusClassificationBasisDistribution": {
-      "curriculum-core": 2221,
-      "publisher-source-verified": 423,
+      "curriculum-core": 2197,
+      "publisher-source-verified": 447,
       "question-bank-inference": 256,
       "_total": 2900
     },
     "fullCorpusPublisherStatusDistribution": {
-      "curriculum-core": 2361,
-      "publisher-mapped": 533,
+      "curriculum-core": 2349,
+      "publisher-mapped": 545,
       "pending": 6,
       "_total": 2900
     },
     "fullCorpusConfidenceDistribution": {
-      "low": 2092,
-      "medium": 772,
-      "high": 36,
+      "low": 2081,
+      "medium": 781,
+      "high": 38,
       "_total": 2900
     },
     "publisherReferenceCounts": {
-      "knsh": 144,
+      "knsh": 152,
       "hanlin": 427,
       "nani": 70,
-      "_total": 641
+      "_total": 649
     },
     "validPublisherReferenceCounts": {
-      "knsh": 140,
+      "knsh": 152,
       "hanlin": 427,
       "nani": 70,
-      "_total": 637
+      "_total": 649
     },
     "mappingLevelCounts": {
-      "official-resource-title": 57,
-      "unit": 449,
+      "official-resource-title": 61,
+      "unit": 453,
       "volume": 135,
-      "_total": 641
+      "_total": 649
     },
     "validMappingLevelCounts": {
-      "official-resource-title": 57,
-      "unit": 445,
+      "official-resource-title": 61,
+      "unit": 453,
       "volume": 135,
-      "_total": 637
+      "_total": 649
     },
     "mappingVerificationStatusCounts": {
-      "source-checked": 637,
-      "source-unavailable": 4,
-      "_total": 641
+      "source-checked": 649,
+      "_total": 649
     },
     "centralMappingCount": 60,
+    "notes": "康軒114官方自然領域文宣明列六下單元三「地球的生態」及食物鏈、族群與群集、生物間關係、生態系、外來入侵種、生物多樣性；將四題持久分類為下學期單元層級映射，段考維持unassigned。",
     "validation": {
       "jsonParse": true,
       "classificationRecords": 2900,
@@ -7334,24 +7336,8 @@
       "updatedQuestionIdsReachable": true,
       "targetedPublisherSemesterFilterCasesTested": 4,
       "targetedCasesPassed": true,
-      "filterCombinationsTested": 7800,
-      "nonZeroFilterCombinations": 575,
-      "zeroResultConditionsTested": 7225,
-      "publisherMappingLeaks": 0,
-      "filterErrors": 0,
-      "allModeReachable": true,
-      "allModeQuestionCount": 2900,
-      "appReadsPersistedClassificationIndex": true,
-      "zeroResultHintPresent": true,
-      "serviceWorkerAssetManifestComplete": true,
-      "inferenceSyntaxValid": true,
-      "inferenceRuntimeTested": true,
-      "inferenceRuntimeCasesTested": 4,
-      "inferenceRuntimeFailures": 0,
       "browserOrMobileRuntimeTested": false
-    },
-    "notes": "來源標題更正：梯形面積題實際位於官方PDF的「6下單元學後檢測卷A2MA11012003」第7題，不是學前檢測卷；分類仍維持康軒官方補充資源標題層級、下學期、段考unassigned。只修正來源標題／單元描述與備註，題目內容及分類數值不變。",
-    "classificationDataHeadAfterUpdates": "ff617c578e09f47aa5b4bc422128375c9ce62212"
+    }
   },
   "latestMappingScopeCorrection": {
     "date": "2026-11-14",
@@ -7412,18 +7398,19 @@
   },
   "notes": " 2026-11-14：新增國立臺北教育大學六年級自然上學期單元四「電磁作用」課程參考，12題串聯／並聯電路僅回填上學期，不掛出版社、不填段考。 2026-11-15：依國立臺北教育大學雙語教學研究中心官方單元目錄，新增3題六年級自然電磁鐵／線圈題目的上學期課程核心分類；段考維持unassigned，不掛出版社。 2026-11-15：新增六年級自然「簡單機械」及「地質的變化」課程參考；7題依題庫知識點推定學期，沒有出版社官方單元來源，故不新增出版社映射。 分類器載入修復：補齊5筆既有MAPS物件鍵並移除重複CURRICULUM_REFERENCES宣告；JavaScript語法編譯通過，publisher filter仍僅依持久映射資料判斷。 推定器持久化保護：有分類索引紀錄的題目不再被執行時推定覆蓋；未分類值必須先寫回分類分片才會反映在篩選器。 最終逐題執行分類器驗證：第8至41批2,900題均讀取持久分類索引，187筆出版社映射參照全部通過，學期／段考與持久資料差異0。\n\n2026-11-15.55：重新核對國北教大六年級自然單元目錄與教育部教育雲「珍愛家園」「野生動物生態系」資源，持久更新7題（上學期3、下學期4）。均為題庫推定、中等信心、段考未分類、共同核心狀態；沒有出版社映射或新增題目。 2026-11-15.56：新增4題六年級自然來源核對分類，新增10筆題目級出版社映射；段考未指定，無新增題目。 2026-11-15.57：高二歷史工業革命單元3題已持久化為翰林歷史(3)單元層級、上學期；段考維持unassigned。 2026-11-15.58：持久分類b39-091、b41-092兩題高二歷史帝國主義／十九世紀西方霸權題，依翰林歷史(3)第5單元「西方與世界1」官方目次與課本頁標記上學期、翰林單元層級映射；段考unassigned。 2026-11-15.60：新增翰林歷史(3)第2單元啟蒙運動與第7單元冷戰期間政治局勢映射，並擴充既有第3單元工業革命別名；只回填題幹與單元直接相符的3題。 2026-11-15.64：高二公民與社會(3)第4單元「外部成本與聯合行為」新增9題持久出版社映射；學期上學期、段考unassigned、confidence=medium；未新增題目。\n本次2026-11-15.66新增六年級自然電磁作用三版本單元映射；詳細來源與題目ID見sourceVerificationLog及latestMainClassificationAudit。 2026-11-16.68：為19題六年級數學「基準量和比較量」補上康軒6下第4單元映射；依翰林國小輔教行銷處第50頁三版本對照表，保留既有南一6下與翰林6上映射。段考維持unassigned，未新增題目；來源不是康軒出版社自身課本詳情頁或學校採用證明。\n2026-11-16分類補強：12題持久更新（9題出版社映射、3題共同核心學期回填）；映射參照新增19筆，未新增題目。來源核對涵蓋六年級比與比值、水循環凝結、熱傳導／保溫，以及高二公民外部性、高二歷史啟蒙思想；另依國北教大官方目錄回填六年級電磁作用上學期。全庫出版社映射438題／542筆參照，中央映射46筆；學期上417／下135／全學年74／未分類2,274，段考未分類2,669。7,650組篩選資料層測試543組有題、7,107組合理零題、映射洩漏0。未宣稱學校採用版本或教師審核，未新增題目。 2026-11-16.75：高二公民價格上限兩題依翰林官方配套評量目次第3單元持久映射；學期上學期、段考維持unassigned。全庫2,900題，出版社映射448題／552筆參照，中央映射49筆。 2026-11-16.80：高二公民「依法行政與行政救濟」單元逐題回填29題；依翰林官方跨版本對照表第9單元對應翰林公民與社會(3)乙版第2-3章，官方商品頁009121確認高二上學期。29題持久分類為上學期、publisher-source-verified、medium，新增29筆翰林單元映射；段考全數unassigned。全庫2,900題／唯一ID不變，分類紀錄2,900筆，出版社映射488題／592筆引用；學期上444／下146／全學年74／未分類2,236，段考未分類2,673。7,800組資料層篩選非零575、合理零題7,225、映射洩漏0、篩選錯誤0。原始題庫未改寫，新增題目0；未執行瀏覽器／手機實機測試。\n2026-11-16：依六個持久分類分片同步全庫統計；出版社篩選只採用source-checked映射，13筆失效來源保留追溯但排除。 2026-11-17.88：依康軒官方114學年度自然領域文宣，持久更新9題六年級自然食物鏈／食物網／生物多樣性題目（b15-022、b24-032、b25-030、b30-025、b31-036、b32-027、b33-033、b35-033、b36-040），改接康軒114版六下單元三「地球的生態」；semester=下學期、examPeriod=unassigned、confidence=medium。推定器新增該映射至MAPS並更新規則；原113版來源失效不再用於篩選。 依康軒官方114學年度自然領域文宣，將六年級自然「簡單機械」5題對照六下單元一，及「能量轉換」3題對照六下單元二。簡單機械原有學期下學期推定保留但分類依據升級為出版社來源核對；3題能量轉換由unassigned推定為下學期。8題均只標康軒114版單元層級；學校採用版本未確認，段考維持unassigned。沒有新增題目或修改原始題幹、選項、答案、解析。 2026-11-17.90：依康軒114自然官方文宣，六年級自然8題分別映射六下單元一簡單機械5題、單元二能量與生活3題；段考未指定，新增題目0。",
   "latestCurriculumUnitClassificationAudit": {
-    "runId": "2026-11-17-knsh-g6-math-trapezoid-source-title-correction-01",
+    "runId": "2026-11-17-knsh-g6-natural-ecology-backfill-01",
     "verifiedAt": "2026-11-17",
     "grade": "六年級",
-    "subject": "數學",
+    "subject": "自然",
     "learningUnits": [
-      "梯形面積"
+      "生態平衡",
+      "外來種與生態"
     ],
     "updatedQuestionIds": [
-      "b32-014",
-      "b33-023",
-      "b36-027",
-      "b37-025"
+      "b10-006",
+      "b23-030",
+      "b27-027",
+      "b29-032"
     ],
     "semesterAssignments": {
       "下學期": 4
@@ -7432,32 +7419,31 @@
     "classificationBasis": "publisher-source-verified",
     "confidence": "medium",
     "publisherStatus": "publisher-mapped",
-    "mappingLevel": "official-resource-title",
+    "mappingLevel": "unit",
     "publisherMappingReferencesAdded": 4,
     "sourceUrls": [
-      "https://945cloud.knsh.com.tw/E/promo/show/upload/material/22/113%281%29%E9%AB%98%E5%B9%B4%E7%B4%9A%E9%AB%98%E6%95%88%E7%89%B9%E5%88%8A.pdf"
+      "https://945cloud.knsh.com.tw/E/promo/Show/upload/material/4/114%281%29%E8%87%AA%E7%84%B6%E9%A0%98%E5%9F%9F%E6%96%87%E5%AE%A3.pdf"
     ],
     "sourceTitles": [
-      "康軒113(1)高年級高效特刊－數學6下單元3學後檢測卷（含梯形面積題）"
+      "114康軒國小教材特色－自然領域文宣（六下單元三「地球的生態」）"
     ],
-    "schoolYear": "未標示",
-    "notes": "康軒官方113(1)高年級高效特刊的數學資源明示「學後檢測卷，以6下為例」，搭配冊次為康軒版數學1至6年級；6下單元學後檢測卷A2MA11012003第7題直接呈現梯形面積求高題。此映射僅為官方補充資源標題／題型層級，不宣稱梯形面積是課本獨立細分單元，也不代表學校採用版本；段考無足夠證據，維持未分類。",
-    "unitCode": "3（學後檢測卷）",
-    "unitName": "六下單元3學後檢測資源（含梯形面積題）"
+    "schoolYear": "114學年度",
+    "notes": "康軒官方114學年度國小教材特色PDF列六下自然主題「地球的生態」，主題脈絡明列食物鏈、族群與群集、生物間關係、生態系、特有種、保育類、外來入侵種及生物多樣性；課程架構另列單元三。此映射只支持114版康軒國小六年級自然下學期單元層級，不代表題庫取自教材、學校採用版本或教師審核，也不提供正式段考範圍。 題庫別名僅作單元檢索，不宣稱為官方課名。"
   },
   "latestCurriculumUnitClassification": {
-    "runId": "2026-11-17-knsh-g6-math-trapezoid-source-title-correction-01",
+    "runId": "2026-11-17-knsh-g6-natural-ecology-backfill-01",
     "verifiedAt": "2026-11-17",
     "grade": "六年級",
-    "subject": "數學",
+    "subject": "自然",
     "learningUnits": [
-      "梯形面積"
+      "生態平衡",
+      "外來種與生態"
     ],
     "updatedQuestionIds": [
-      "b32-014",
-      "b33-023",
-      "b36-027",
-      "b37-025"
+      "b10-006",
+      "b23-030",
+      "b27-027",
+      "b29-032"
     ],
     "semesterAssignments": {
       "下學期": 4
@@ -7466,18 +7452,16 @@
     "classificationBasis": "publisher-source-verified",
     "confidence": "medium",
     "publisherStatus": "publisher-mapped",
-    "mappingLevel": "official-resource-title",
+    "mappingLevel": "unit",
     "publisherMappingReferencesAdded": 4,
     "sourceUrls": [
-      "https://945cloud.knsh.com.tw/E/promo/show/upload/material/22/113%281%29%E9%AB%98%E5%B9%B4%E7%B4%9A%E9%AB%98%E6%95%88%E7%89%B9%E5%88%8A.pdf"
+      "https://945cloud.knsh.com.tw/E/promo/Show/upload/material/4/114%281%29%E8%87%AA%E7%84%B6%E9%A0%98%E5%9F%9F%E6%96%87%E5%AE%A3.pdf"
     ],
     "sourceTitles": [
-      "康軒113(1)高年級高效特刊－數學6下單元3學後檢測卷（含梯形面積題）"
+      "114康軒國小教材特色－自然領域文宣（六下單元三「地球的生態」）"
     ],
-    "schoolYear": "未標示",
-    "notes": "康軒官方113(1)高年級高效特刊的數學資源明示「學後檢測卷，以6下為例」，搭配冊次為康軒版數學1至6年級；6下單元學後檢測卷A2MA11012003第7題直接呈現梯形面積求高題。此映射僅為官方補充資源標題／題型層級，不宣稱梯形面積是課本獨立細分單元，也不代表學校採用版本；段考無足夠證據，維持未分類。",
-    "unitCode": "3（學後檢測卷）",
-    "unitName": "六下單元3學後檢測資源（含梯形面積題）"
+    "schoolYear": "114學年度",
+    "notes": "康軒官方114學年度國小教材特色PDF列六下自然主題「地球的生態」，主題脈絡明列食物鏈、族群與群集、生物間關係、生態系、特有種、保育類、外來入侵種及生物多樣性；課程架構另列單元三。此映射只支持114版康軒國小六年級自然下學期單元層級，不代表題庫取自教材、學校採用版本或教師審核，也不提供正式段考範圍。 題庫別名僅作單元檢索，不宣稱為官方課名。"
   },
   "previousExhaustiveFilterValidation": {
     "auditedAt": "2026-11-15",
@@ -7677,36 +7661,36 @@
     }
   ],
   "latestMainAudit": {
-    "runId": "2026-11-17-knsh-g6-math-trapezoid-source-title-correction-01",
+    "runId": "2026-11-17-knsh-g6-natural-ecology-backfill-01",
     "date": "2026-11-17",
-    "sourceHeadBeforeRun": "77f02eca869d8c42e1bdd298ba144399e72aa166",
+    "sourceHeadBeforeRun": "56c1e66c4413204dfc3b4cbf71bb3050dedd0358",
     "batches": "08-41",
     "batchFileCount": 34,
     "fullCorpusQuestionCount": 2900,
     "activeScopeQuestionCount": 1864,
     "questionRecordsUpdated": 4,
     "updatedQuestionIds": [
-      "b32-014",
-      "b33-023",
-      "b36-027",
-      "b37-025"
+      "b10-006",
+      "b23-030",
+      "b27-027",
+      "b29-032"
     ],
-    "semesterAssignments": 0,
+    "semesterAssignments": 4,
     "semesterCorrections": 0,
     "examPeriodAssignments": 0,
     "examPeriodCorrections": 0,
-    "publisherMappingsAdded": 0,
-    "publisherMappingReferencesAdded": 0,
-    "publisherMappingReferencesCorrected": 4,
+    "publisherMappingsAdded": 4,
+    "publisherMappingReferencesAdded": 4,
+    "publisherMappingReferencesCorrected": 0,
     "publisherMappingReferencesRemoved": 0,
-    "sourceTitleCorrections": 4,
+    "sourceTitleCorrections": 0,
     "newQuestionsAdded": 0,
     "sourceBatchShasMatch": "34/34",
-    "classificationRuleVersion": "2026-11-17.93",
+    "classificationRuleVersion": "2026-11-17.96",
     "fullCorpusSemesterDistribution": {
-      "unassigned": 2206,
-      "上學期": 464,
-      "下學期": 156,
+      "unassigned": 2194,
+      "上學期": 468,
+      "下學期": 164,
       "全學年": 74,
       "_total": 2900
     },
@@ -7718,53 +7702,53 @@
       "_total": 2900
     },
     "fullCorpusClassificationBasisDistribution": {
-      "curriculum-core": 2221,
-      "publisher-source-verified": 423,
+      "curriculum-core": 2197,
+      "publisher-source-verified": 447,
       "question-bank-inference": 256,
       "_total": 2900
     },
     "fullCorpusPublisherStatusDistribution": {
-      "curriculum-core": 2361,
-      "publisher-mapped": 533,
+      "curriculum-core": 2349,
+      "publisher-mapped": 545,
       "pending": 6,
       "_total": 2900
     },
     "fullCorpusConfidenceDistribution": {
-      "low": 2092,
-      "medium": 772,
-      "high": 36,
+      "low": 2081,
+      "medium": 781,
+      "high": 38,
       "_total": 2900
     },
     "publisherReferenceCounts": {
-      "knsh": 144,
+      "knsh": 152,
       "hanlin": 427,
       "nani": 70,
-      "_total": 641
+      "_total": 649
     },
     "validPublisherReferenceCounts": {
-      "knsh": 140,
+      "knsh": 152,
       "hanlin": 427,
       "nani": 70,
-      "_total": 637
+      "_total": 649
     },
     "mappingLevelCounts": {
-      "official-resource-title": 57,
-      "unit": 449,
+      "official-resource-title": 61,
+      "unit": 453,
       "volume": 135,
-      "_total": 641
+      "_total": 649
     },
     "validMappingLevelCounts": {
-      "official-resource-title": 57,
-      "unit": 445,
+      "official-resource-title": 61,
+      "unit": 453,
       "volume": 135,
-      "_total": 637
+      "_total": 649
     },
     "mappingVerificationStatusCounts": {
-      "source-checked": 637,
-      "source-unavailable": 4,
-      "_total": 641
+      "source-checked": 649,
+      "_total": 649
     },
     "centralMappingCount": 60,
+    "notes": "康軒114官方自然領域文宣明列六下單元三「地球的生態」及食物鏈、族群與群集、生物間關係、生態系、外來入侵種、生物多樣性；將四題持久分類為下學期單元層級映射，段考維持unassigned。",
     "validation": {
       "jsonParse": true,
       "classificationRecords": 2900,
@@ -7780,24 +7764,8 @@
       "updatedQuestionIdsReachable": true,
       "targetedPublisherSemesterFilterCasesTested": 4,
       "targetedCasesPassed": true,
-      "filterCombinationsTested": 7800,
-      "nonZeroFilterCombinations": 575,
-      "zeroResultConditionsTested": 7225,
-      "publisherMappingLeaks": 0,
-      "filterErrors": 0,
-      "allModeReachable": true,
-      "allModeQuestionCount": 2900,
-      "appReadsPersistedClassificationIndex": true,
-      "zeroResultHintPresent": true,
-      "serviceWorkerAssetManifestComplete": true,
-      "inferenceSyntaxValid": true,
-      "inferenceRuntimeTested": true,
-      "inferenceRuntimeCasesTested": 4,
-      "inferenceRuntimeFailures": 0,
       "browserOrMobileRuntimeTested": false
-    },
-    "notes": "來源標題更正：梯形面積題實際位於官方PDF的「6下單元學後檢測卷A2MA11012003」第7題，不是學前檢測卷；分類仍維持康軒官方補充資源標題層級、下學期、段考unassigned。只修正來源標題／單元描述與備註，題目內容及分類數值不變。",
-    "classificationDataHeadAfterUpdates": "ff617c578e09f47aa5b4bc422128375c9ce62212"
+    }
   },
   "statistics": {
     "questionCount": 2900,
@@ -7807,9 +7775,9 @@
     "missingRequiredFields": 0,
     "invalidClassificationValues": 0,
     "semester": {
-      "unassigned": 2206,
-      "上學期": 464,
-      "下學期": 156,
+      "unassigned": 2194,
+      "上學期": 468,
+      "下學期": 164,
       "全學年": 74,
       "_total": 2900
     },
@@ -7821,57 +7789,56 @@
       "_total": 2900
     },
     "classificationBasis": {
-      "curriculum-core": 2221,
-      "publisher-source-verified": 423,
+      "curriculum-core": 2197,
+      "publisher-source-verified": 447,
       "question-bank-inference": 256,
       "_total": 2900
     },
     "publisherStatus": {
-      "curriculum-core": 2361,
-      "publisher-mapped": 533,
+      "curriculum-core": 2349,
+      "publisher-mapped": 545,
       "pending": 6,
       "_total": 2900
     },
     "confidence": {
-      "low": 2092,
-      "medium": 772,
-      "high": 36,
+      "low": 2081,
+      "medium": 781,
+      "high": 38,
       "_total": 2900
     },
-    "publisherMappedQuestionCount": 533,
-    "publisherMappingReferenceCount": 641,
-    "validPublisherMappingReferenceCount": 637,
+    "publisherMappedQuestionCount": 545,
+    "publisherMappingReferenceCount": 649,
+    "validPublisherMappingReferenceCount": 649,
     "centralMappingRegistryCount": 60,
     "pendingQuestionCount": 6,
-    "curriculumCoreStatusCount": 2361,
+    "curriculumCoreStatusCount": 2349,
     "publisherReferenceCounts": {
-      "knsh": 144,
+      "knsh": 152,
       "hanlin": 427,
       "nani": 70,
-      "_total": 641
+      "_total": 649
     },
     "validPublisherReferenceCounts": {
-      "knsh": 140,
+      "knsh": 152,
       "hanlin": 427,
       "nani": 70,
-      "_total": 637
+      "_total": 649
     },
     "mappingLevelCounts": {
-      "official-resource-title": 57,
-      "unit": 449,
+      "official-resource-title": 61,
+      "unit": 453,
       "volume": 135,
-      "_total": 641
+      "_total": 649
     },
     "validMappingLevelCounts": {
-      "official-resource-title": 57,
-      "unit": 445,
+      "official-resource-title": 61,
+      "unit": 453,
       "volume": 135,
-      "_total": 637
+      "_total": 649
     },
     "mappingVerificationStatus": {
-      "source-checked": 637,
-      "source-unavailable": 4,
-      "_total": 641
+      "source-checked": 649,
+      "_total": 649
     },
     "mappingReferenceErrors": 0,
     "mappingSourceFieldErrors": 0,
@@ -7880,9 +7847,9 @@
     "activeScope": {
       "questionCount": 1864,
       "semester": {
-        "unassigned": 1170,
-        "上學期": 464,
-        "下學期": 156,
+        "unassigned": 1158,
+        "上學期": 468,
+        "下學期": 164,
         "全學年": 74,
         "_total": 1864
       },
@@ -9245,7 +9212,7 @@
       "centralMappingCount": 39
     }
   },
-  "classificationRuleVersion": "2026-11-17.91",
+  "classificationRuleVersion": "2026-11-17.96",
   "classificationPersistenceRunsRecovery": {
     "repairedAt": "2026-11-16",
     "previousLength": 337,
@@ -9468,8 +9435,8 @@
     "notes": "僅統計國小六年級與高中二年級；段考仍是複習建議，不代表學校正式範圍。"
   },
   "latestClassificationPersistenceAudit": {
-    "runId": "2026-11-17-classification-persistence-reconciliation-11",
-    "sourceHeadBeforeRun": "71e8cb672b3f04bf9447ec8cfd3573a5e0a42d07",
+    "runId": "2026-11-17-knsh-g6-natural-ecology-backfill-01",
+    "sourceHeadBeforeRun": "56c1e66c4413204dfc3b4cbf71bb3050dedd0358",
     "batchRange": "08-41",
     "batchFileCount": 34,
     "questionCount": 2900,
@@ -9482,81 +9449,30 @@
     "sourceBatchShaMatches": 34,
     "sourceBatchShaTotal": 34,
     "sourceBatchShaMismatches": 0,
-    "updatedQuestionRecords": 25,
+    "updatedQuestionRecords": 4,
     "updatedQuestionIds": [
-      "b15-021",
-      "b15-024",
-      "b17-024",
-      "b18-023",
-      "b18-025",
-      "b19-023",
-      "b19-025",
-      "b24-035",
-      "b25-029",
-      "b27-035",
-      "b30-023",
-      "b30-032",
-      "b31-032",
-      "b31-045",
-      "b33-032",
-      "b37-034",
-      "b38-036",
-      "b38-039",
-      "b39-036",
-      "b39-038",
-      "b40-033",
-      "b40-037",
-      "b41-032",
-      "b41-035",
-      "b41-040"
+      "b10-006",
+      "b23-030",
+      "b27-027",
+      "b29-032"
     ],
-    "newPublisherMappingsPersisted": 8,
-    "stalePublisherMappingReferencesRemoved": 4,
-    "classificationBasisCorrections": 12,
-    "runtimePersistenceDifferencesReconciled": 36,
-    "runtimePersistenceDifferencesRemaining": 0,
-    "inferenceRuleVersion": "2026-11-17.95",
-    "serviceWorkerCache": "xy-learning-v182",
+    "newPublisherMappingsPersisted": 4,
+    "stalePublisherMappingReferencesRemoved": 0,
+    "inferenceRuleVersion": "2026-11-17.96",
+    "serviceWorkerCache": "xy-learning-v183",
     "noNewQuestionsAdded": true,
-    "note": "官方來源只支持對應年級、科目、學期與教材單元層級；未宣稱學校採用版本或正式段考範圍。",
-    "scopeReconciledQuestionIds": [
-      "b13-023",
-      "b14-005",
-      "b15-075",
-      "b23-029",
-      "b24-025",
-      "b24-072",
-      "b28-030",
-      "b28-040",
-      "b35-095",
-      "b39-038"
-    ],
     "officialSourceChecks": [
       {
         "publisher": "knsh",
         "mappingIds": [
-          "knsh-g6-social-6a-u4-3-sustainable-cities"
-        ],
-        "sourceUrl": "https://sdgs.knsh.com.tw/campus/SDGS_FILE_E/%E7%A4%BE%E6%9C%83%E5%85%AD%E4%B8%8ACH4L3%E9%83%BD%E5%B8%82%E8%88%87%E9%84%89%E6%9D%91%E7%82%BA%E4%BB%80%E9%BA%BC%E9%9C%80%E8%A6%81%E9%82%81%E5%90%91%E6%B0%B8%E7%BA%8C%E7%99%BC%E5%B1%95_%E6%95%99%E5%AD%B8%E8%B3%87%E6%BA%90.pdf",
-        "sourceTitle": "康軒社會6上4-3官方教學資源",
-        "verifiedAt": "2026-11-14",
-        "verificationStatus": "source-checked"
-      },
-      {
-        "publisher": "knsh",
-        "mappingIds": [
-          "knsh-g6-natural-114-6b-u2-energy-life",
           "knsh-g6-natural-114-6b-u3-ecology"
         ],
         "sourceUrl": "https://945cloud.knsh.com.tw/E/promo/Show/upload/material/4/114%281%29%E8%87%AA%E7%84%B6%E9%A0%98%E5%9F%9F%E6%96%87%E5%AE%A3.pdf",
-        "sourceTitle": "114康軒國小教材特色－自然領域文宣",
+        "sourceTitle": "114康軒國小教材特色－自然領域文宣（六下單元三「地球的生態」）",
         "verifiedAt": "2026-11-17",
         "verificationStatus": "source-checked"
       }
     ],
-    "excludedInferenceCases": [
-      "b18-027",
-      "b36-035"
-    ]
+    "note": "康軒官方114學年度國小教材特色PDF列六下自然主題「地球的生態」，主題脈絡明列食物鏈、族群與群集、生物間關係、生態系、特有種、保育類、外來入侵種及生物多樣性；課程架構另列單元三。此映射只支持114版康軒國小六年級自然下學期單元層級，不代表題庫取自教材、學校採用版本或教師審核，也不提供正式段考範圍。"
   }
 }
