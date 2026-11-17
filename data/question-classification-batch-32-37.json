@@ -6224,12 +6224,26 @@
       "courseType": null,
       "semester": "下學期",
       "examPeriod": "unassigned",
-      "classificationBasis": "question-bank-inference",
+      "classificationBasis": "publisher-source-verified",
       "confidence": "medium",
-      "publisherStatus": "curriculum-core",
-      "publisherMappings": [],
-      "classificationNotes": "題目分析單一栽培造成作物遺傳差異降低與病蟲害風險，與國小5–6年級生態系／生物多樣性資源及六年級自然下學期單元三「珍愛家園」之環境保育主題相符。屬課程主題推定，不標出版社、不代表學校採用版本；段考維持unassigned。",
-      "sourceRef": "ntue-g6-natural-6b-u3-cherish-home;moe-cloud-g6-cherish-home;moe-cloud-g56-wildlife-ecosystem",
+      "publisherStatus": "publisher-mapped",
+      "publisherMappings": [
+        {
+          "publisher": "knsh",
+          "mappingId": "knsh-g6-natural-114-6b-u3-ecology",
+          "sourceUrl": "https://course.cyc.edu.tw/upfile/course114/sub1/15937166927547299.pdf",
+          "sourceTitle": "嘉義縣鹿草鄉後塘國民小學－114學年度第二學期六年級普通班自然科學領域課程計畫（康軒版第十二冊）",
+          "verifiedAt": "2026-11-17",
+          "verificationStatus": "source-checked",
+          "mappingLevel": "unit",
+          "semester": "下學期",
+          "grade": "六年級",
+          "subject": "自然",
+          "notes": "嘉義縣鹿草鄉後塘國小114學年度第二學期六年級普通班自然科學領域課程計畫明列教材版本「康軒版第十二冊」，第十二至第十八週列第三單元「地球的生態」，內容涵蓋食物鏈、族群與群集、生態系、生物多樣性及外來入侵種；康軒官方114學年度下學期高年級數位服務（期末）頁亦列單元三生態資源，包括食物鏈、能量傳遞、生物多樣性及外來種。課程計畫是該校採用案例，不代表使用者學校採用康軒；映射只支持114版康軒國小六年級自然下學期單元三，不代表正式段考範圍。"
+        }
+      ],
+      "classificationNotes": "依題幹「單一品種作物」及病蟲害風險，直接涉及生物多樣性與生態系穩定。後塘國小114學年度第二學期六年級自然課程計畫明列康軒版第十二冊第三單元「地球的生態」，內容含生物多樣性及人類活動對生態的影響；康軒官方114學年度下學期自然期末資源亦列單元三生態與生物多樣性。僅作114版康軒六下單元層級教材對照；後塘國小為單一採用案例，不代表使用者學校採用康軒。學期保留下學期，段考未取得正式範圍，維持unassigned。",
+      "sourceRef": "ntue-g6-natural-6b-u3-cherish-home;moe-cloud-g6-cherish-home;moe-cloud-g56-wildlife-ecosystem; knsh-g6-natural-114-6b-u3-ecology",
       "learningDomain": "生物生命",
       "questionType": "概念辨識",
       "learningUnit": "生物多樣性與農業",
@@ -16515,18 +16529,18 @@
   },
   "notes": " 2026-11-14.36：逐筆比對第32-37批原始題庫 semester 欄位，將原題庫已填且分類索引仍為 unassigned 的學期值同步為 question-bank-inference；不改動 publisher-source-verified、不推定段考、不新增出版社映射。 2026-11-14.46：南一官方「數學6下｜怎樣解題：雞兔問題」詳情頁已開啟核對；保留5題直接雞兔同籠映射，將3題汽車／機車及三腳椅／四腳桌類比題撤回出版社映射並改列共同核心。 2026-11-14.47：依國立臺北教育大學雙語教學研究中心官方目錄，將六年級自然串聯／並聯電路題目對應至上學期單元四「電磁作用」之課程主題層級；共2題，僅更新semester，examPeriod與出版社映射不變。 2026-11-15.51：回填5題六下簡單機械、2題六上地質的變化；依課程主題推定，出版社映射0、段考維持unassigned。 2026-11-15：新增3題高二歷史冷戰圍堵政策，對應翰林歷史(3)上學期單元7；段考維持unassigned。 2026-11-15.64：持久分類9題高二公民負外部性／外部成本題（b16-071、b19-071、b28-071、b31-095、b33-094、b37-093、b38-094、b39-096、b40-094）；依翰林高中課本公民與社會(3)乙版官方商品頁核對高二上學期，並以出版社配套評量本第3頁目次第4單元「外部成本與聯合行為」核對外部效果與政府對策。只建立翰林單元層級映射；confidence=medium，段考維持unassigned，不宣稱學校採用版本或教師審核；原始題庫未改、未新增題目。 2026-11-16.69：恢復20題高二選修課程出版社映射，原始 sourceRef 均直接指向翰林官方課本／教學講義頁；持久保存 courseType，物理(II)僅冊別層級、化學(III)依官方目次章節建立單元層級；examPeriod 保留 unassigned，不代表學校採用版本或正式段考範圍。 2026-11-16.70：同步分類解析器輸出 courseType/courseTrack 的版本標記；本分片題目資料未變更。 2026-11-16.72：修正3題共6處康軒六下數學兩量關係與比sourceUrl/sourceRef字串，與中央教材對照資料一致；未新增題目。 2026-11-17.96：將既有出版社映射參照同步至中央教材對照資料，修正來源日期、標題、URL與備註差異；保留題目分類與考期值。 2026-11-17.102：持久分類更新6題高二歷史（文藝復興1題、宗教改革與印刷術2題、戰後去殖民化3題）；新增2筆中央教材映射（第1、6單元），擴充第2單元印刷術別名。六題均標上學期、段考unassigned、publisher-source-verified、confidence=medium；原始題幹與答案不變。\n2026-11-17.104：持久分類b36-091；依翰林歷史(3)第6／7單元目次新增單元層級映射，學期上學期、段考unassigned。",
   "lastUpdate": {
-    "runId": "2026-11-17-hanlin-h2-history-decolonization-nonaligned-backfill-01",
-    "updatedAt": "2026-11-17T17:38:08+08:00",
+    "runId": "2026-11-17-knsh-g6-natural-biodiversity-b34-040-backfill-01",
+    "updatedAt": "2026-11-17T23:40:22+08:00",
     "updatedQuestionIds": [
-      "b36-091"
+      "b34-040"
     ],
     "questionRecordsUpdated": 1,
-    "semesterAssignments": 1,
-    "examPeriodAssignments": 0,
     "publisherMappingsAdded": 1,
     "publisherMappingReferencesAdded": 1,
+    "semesterAssignments": 0,
+    "examPeriodAssignments": 0,
     "newQuestionsAdded": 0,
-    "notes": "依翰林高中歷史(3)官方課本商品頁及出版社配套評量本第3頁目次，將戰後去殖民化／不結盟運動題目對應第6／7單元；段考維持unassigned，不代表學校採用版本。"
+    "notes": "b34-040六年級自然「生物多樣性與農業」依康軒114六下單元三官方來源補入出版社映射；semester維持下學期、examPeriod維持unassigned。"
   },
   "history": [
     {
@@ -16538,26 +16552,32 @@
       "questionRecordsUpdated": 1,
       "publisherMappingsAdded": 1,
       "newQuestionsAdded": 0
+    },
+    {
+      "runId": "2026-11-17-knsh-g6-natural-biodiversity-b34-040-backfill-01",
+      "updatedAt": "2026-11-17T23:40:22+08:00",
+      "updatedQuestionIds": [
+        "b34-040"
+      ],
+      "questionRecordsUpdated": 1,
+      "publisherMappingsAdded": 1,
+      "publisherMappingReferencesAdded": 1,
+      "semesterAssignments": 0,
+      "examPeriodAssignments": 0,
+      "newQuestionsAdded": 0,
+      "notes": "b34-040六年級自然「生物多樣性與農業」依康軒114六下單元三官方來源補入出版社映射；semester維持下學期、examPeriod維持unassigned。"
     }
   ],
   "latestSourceVerificationAudit": {
-    "runId": "2026-11-17-knsh-g6-natural-114-source-replacement-01",
+    "runId": "2026-11-17-knsh-g6-natural-biodiversity-b34-040-backfill-01",
     "verifiedAt": "2026-11-17",
     "mappingIds": [
-      "knsh-g6-natural-114-6b-u1-simple-machines",
-      "knsh-g6-natural-114-6b-u2-energy-life",
       "knsh-g6-natural-114-6b-u3-ecology"
     ],
     "questionIds": [
-      "b32-027",
-      "b32-028",
-      "b33-033",
-      "b33-038",
-      "b34-035",
-      "b35-033",
-      "b36-040"
+      "b34-040"
     ],
-    "updatedQuestionRecords": 7,
-    "note": "康軒114六下自然映射改以學校課程計畫及出版社官方數位資源交叉核對；學期及段考值不變。"
+    "updatedQuestionRecords": 1,
+    "note": "康軒114六下自然單元三「地球的生態」：後塘國小114學年度第二學期六年級自然課程計畫明列康軒第十二冊及生物多樣性；康軒官方114下學期自然期末資源列單元三生態與生物多樣性。只對直接涉及生物多樣性的b34-040建立單元映射；不代表使用者學校採用版本或正式段考範圍。"
   }
 }
