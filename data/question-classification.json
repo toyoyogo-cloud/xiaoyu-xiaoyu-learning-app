@@ -601,7 +601,7 @@
       "updatedQuestionsChecked": 2,
       "updatedQuestionIdsReachable": true,
       "curriculumSourceRegistryEntryPresent": true,
-      "targetedFilterCombinationsTested": 12,
+      "targetedFilterCombinationsTested": 14,
       "targetedFilterErrors": 0,
       "publisherMappingLeaks": 0,
       "allModeReachable": true,
@@ -1878,7 +1878,7 @@
       "updatedQuestionsChecked": 2,
       "updatedQuestionIdsReachable": true,
       "curriculumSourceRegistryEntryPresent": true,
-      "targetedFilterCombinationsTested": 12,
+      "targetedFilterCombinationsTested": 14,
       "targetedFilterErrors": 0,
       "publisherMappingLeaks": 0,
       "allModeReachable": true,
@@ -1992,7 +1992,7 @@
       "updatedQuestionsChecked": 2,
       "updatedQuestionIdsReachable": true,
       "curriculumSourceRegistryEntryPresent": true,
-      "targetedFilterCombinationsTested": 12,
+      "targetedFilterCombinationsTested": 14,
       "targetedFilterErrors": 0,
       "publisherMappingLeaks": 0,
       "allModeReachable": true,
@@ -2003,7 +2003,8 @@
       "appReadsPersistedClassificationIndex": true,
       "zeroResultHintPresent": true,
       "browserOrMobileRuntimeTested": false,
-      "fullFilterMatrixTested": false
+      "fullFilterMatrixTested": false,
+      "curriculumCoreQuestionCount": 2288
     },
     "validationMethod": "重新解析六個持久分類分片，核對34批原始題庫SHA及題目ID；依index.html getPool()之學期、段考、出版社、年級、科目與單元條件語義執行12組定向資料層篩選。未執行瀏覽器／手機實機或完整全篩選矩陣。",
     "notes": "b41-031依國教院課程手冊頁358之5–6年級實驗設計控制變因案例，信心由low調為medium；b41-036依頁337–338之5–6年級光合作用基本概念補充課綱來源，但氣體交換細節仍未被該手冊直接核對，維持low。兩題均維持108課綱共同核心、學期與段考unassigned，不標出版社。"
@@ -2011,24 +2012,84 @@
   "filterValidation": {
     "runId": "2026-11-18-naer-g6-science-inquiry-core-review-01",
     "verifiedAt": "2026-11-18",
-    "questionIds": [
-      "b41-031",
-      "b41-036",
-      "b38-035"
-    ],
-    "filterCasesTested": 12,
-    "passed": 12,
+    "filterCasesTested": 14,
+    "passed": 14,
     "filterErrors": 0,
     "publisherMappingLeaks": 0,
     "allModeReachable": true,
     "allModeQuestionCount": 2900,
     "curriculumCoreModeReachable": true,
+    "curriculumCoreQuestionCount": 2288,
     "pendingModeReachable": true,
     "pendingModeQuestionCount": 20,
-    "appReadsPersistedClassificationIndex": true,
+    "publisherOnlySourceChecked": true,
     "zeroResultHintPresent": true,
+    "appReadsPersistedClassificationIndex": true,
     "browserOrMobileRuntimeTested": false,
-    "validationMethod": "依main index.html getPool()條件語義執行12組定向資料層篩選；非瀏覽器實機測試。"
+    "fullFilterMatrixTested": false,
+    "cases": [
+      {
+        "name": "全部版本完整可達",
+        "count": 2900
+      },
+      {
+        "name": "108課綱共同核心",
+        "count": 2288
+      },
+      {
+        "name": "待核對",
+        "count": 20
+      },
+      {
+        "name": "南一source-checked",
+        "count": 70
+      },
+      {
+        "name": "翰林source-checked",
+        "count": 455
+      },
+      {
+        "name": "康軒source-checked",
+        "count": 171
+      },
+      {
+        "name": "上學期（含各出版社映射學期）",
+        "count": 514
+      },
+      {
+        "name": "下學期",
+        "count": 164
+      },
+      {
+        "name": "第一次段考",
+        "count": 65
+      },
+      {
+        "name": "未分類段考",
+        "count": 2673
+      },
+      {
+        "name": "國小六年級自然／共同核心／未分類學期與段考",
+        "count": 79,
+        "includes": [
+          "b41-031",
+          "b41-036"
+        ]
+      },
+      {
+        "name": "國小六年級自然／待核對／未分類學期與段考",
+        "count": 14
+      },
+      {
+        "name": "高中高二物理／翰林／上學期／未分類段考",
+        "count": 80
+      },
+      {
+        "name": "無對應單元條件（零題）",
+        "count": 0
+      }
+    ],
+    "validationMethod": "依目前main index.html getPool()的學期、段考、出版社、年級、科目、軌別與單元條件語義，對六個持久分類分片執行14組定向資料層篩選；非瀏覽器／手機實機測試。"
   },
   "sourceHeadBeforeRun": "b37ca9060bbfaf81629d0b709619c7cac26ea303",
   "lastPersistenceRunId": "2026-11-18-naer-g6-science-inquiry-core-review-01",
@@ -2474,24 +2535,84 @@
   "latestTargetedFilterValidation": {
     "runId": "2026-11-18-naer-g6-science-inquiry-core-review-01",
     "verifiedAt": "2026-11-18",
-    "questionIds": [
-      "b41-031",
-      "b41-036",
-      "b38-035"
-    ],
-    "filterCasesTested": 12,
-    "passed": 12,
+    "filterCasesTested": 14,
+    "passed": 14,
     "filterErrors": 0,
     "publisherMappingLeaks": 0,
     "allModeReachable": true,
     "allModeQuestionCount": 2900,
     "curriculumCoreModeReachable": true,
+    "curriculumCoreQuestionCount": 2288,
     "pendingModeReachable": true,
     "pendingModeQuestionCount": 20,
-    "appReadsPersistedClassificationIndex": true,
+    "publisherOnlySourceChecked": true,
     "zeroResultHintPresent": true,
+    "appReadsPersistedClassificationIndex": true,
     "browserOrMobileRuntimeTested": false,
-    "validationMethod": "依main index.html getPool()條件語義執行12組定向資料層篩選；非瀏覽器實機測試。"
+    "fullFilterMatrixTested": false,
+    "cases": [
+      {
+        "name": "全部版本完整可達",
+        "count": 2900
+      },
+      {
+        "name": "108課綱共同核心",
+        "count": 2288
+      },
+      {
+        "name": "待核對",
+        "count": 20
+      },
+      {
+        "name": "南一source-checked",
+        "count": 70
+      },
+      {
+        "name": "翰林source-checked",
+        "count": 455
+      },
+      {
+        "name": "康軒source-checked",
+        "count": 171
+      },
+      {
+        "name": "上學期（含各出版社映射學期）",
+        "count": 514
+      },
+      {
+        "name": "下學期",
+        "count": 164
+      },
+      {
+        "name": "第一次段考",
+        "count": 65
+      },
+      {
+        "name": "未分類段考",
+        "count": 2673
+      },
+      {
+        "name": "國小六年級自然／共同核心／未分類學期與段考",
+        "count": 79,
+        "includes": [
+          "b41-031",
+          "b41-036"
+        ]
+      },
+      {
+        "name": "國小六年級自然／待核對／未分類學期與段考",
+        "count": 14
+      },
+      {
+        "name": "高中高二物理／翰林／上學期／未分類段考",
+        "count": 80
+      },
+      {
+        "name": "無對應單元條件（零題）",
+        "count": 0
+      }
+    ],
+    "validationMethod": "依目前main index.html getPool()的學期、段考、出版社、年級、科目、軌別與單元條件語義，對六個持久分類分片執行14組定向資料層篩選；非瀏覽器／手機實機測試。"
   },
   "sourceRegistryCount": 72,
   "latestPublisherSourceVerificationAudit": {
