@@ -1263,6 +1263,38 @@
         "https://market.cloud.edu.tw/resources/web/1809340"
       ],
       "notes": "三題依教育部教育雲明列的跨版本六上第一單元教材配合資訊建立南一／翰林／康軒映射；低氣壓題僅建立康軒映射。段考維持unassigned。"
+    },
+    {
+      "date": "2026-11-17",
+      "runId": "2026-11-17-knsh-g6-math-rate-scale-circle-backfill-01",
+      "batches": "08-41",
+      "questionRecordsUpdated": 16,
+      "updatedQuestionIds": [
+        "b20-026",
+        "b26-027",
+        "b30-014",
+        "b31-020",
+        "b37-029",
+        "b25-025",
+        "b26-025",
+        "b29-038",
+        "b30-013",
+        "b31-019",
+        "b33-025",
+        "b36-025",
+        "b37-026",
+        "b40-026",
+        "b30-017",
+        "b31-022"
+      ],
+      "publisherMappingReferencesAdded": 16,
+      "semesterAssignments": 0,
+      "examPeriodAssignments": 0,
+      "newQuestionsAdded": 0,
+      "sourceBatchShasMatch": "34/34",
+      "filterCombinationsTested": 7800,
+      "publisherFilterLeaks": 0,
+      "notes": "逐題回查六年級數學速率、平均速率、比例尺及圓面積題目，使用康軒114(1)數學計算高手6年級出版社帳號公開補充教材之官方資源標題映射。只標記直接對應主題；未把補充教材冒稱完整課本目次或學校採用版本。兩題圓面積的題庫推定全域學期仍為下學期，康軒114(1)補充教材映射為上學期，依指定出版社分開篩選。段考欄位不變且仍為複習建議，不代表學校正式範圍。"
     }
   ],
   "latestMainClassificationAudit": {
@@ -2088,7 +2120,7 @@
     ]
   },
   "classificationPriorityStatus": {
-    "auditedAt": "2026-11-16",
+    "auditedAt": "2026-11-17",
     "batches": "08-41",
     "batchFileCount": 34,
     "totalQuestions": 2900,
@@ -2121,16 +2153,17 @@
       "high": 46
     },
     "publisherStatus": {
-      "curriculum-core": 2406,
-      "publisher-mapped": 488,
+      "curriculum-core": 2333,
+      "publisher-mapped": 561,
       "pending": 6
     },
     "publisherReferences": {
-      "hanlin": 398,
-      "knsh": 124,
-      "nani": 70
+      "knsh": 168,
+      "hanlin": 427,
+      "nani": 70,
+      "_total": 665
     },
-    "centralMappingRegistryCount": 55,
+    "centralMappingRegistryCount": 60,
     "sourceMappingRecordsRefreshed": 592,
     "officialPagesReopened": 3,
     "newQuestionsAdded": 0,
@@ -2142,8 +2175,8 @@
       "全學年": 74
     },
     "activeScopePublisherStatus": {
-      "curriculum-core": 1370,
-      "publisher-mapped": 488,
+      "curriculum-core": 1297,
+      "publisher-mapped": 561,
       "pending": 6
     },
     "nextPriority": "繼續處理國小六年級自然／社會與高中二年級地理、英文、地球科學、國文尚未分類題目；逐題核對官方教材目次與教學資源，來源不足就保留共同核心或待核對，段考無正式範圍不推定。",
@@ -2152,7 +2185,8 @@
     "publisherFilterLeaks": 0,
     "sourceBatchShasMatch": "34/34",
     "indexStatisticsSynced": true,
-    "serviceWorkerCache": "xy-learning-v166"
+    "serviceWorkerCache": "xy-learning-v166",
+    "publisherMappingReferences": 665
   },
   "duplicateCandidateAudit": {
     "auditedAt": "2026-11-14",
@@ -2224,12 +2258,11 @@
       "_total": 2900
     },
     "publisherStatus": {
-      "curriculum-core": 2349,
-      "publisher-mapped": 545,
-      "pending": 6,
-      "_total": 2900
+      "curriculum-core": 2333,
+      "publisher-mapped": 561,
+      "pending": 6
     },
-    "publisherMappingReferences": 649,
+    "publisherMappingReferences": 665,
     "centralCurriculumReferences": 60,
     "confidence": {
       "low": 2081,
@@ -2258,26 +2291,38 @@
         "_total": 1864
       },
       "publisherStatus": {
-        "curriculum-core": 1366,
-        "publisher-mapped": 492,
+        "curriculum-core": 1297,
+        "publisher-mapped": 561,
         "pending": 6
       }
     },
     "lastRun": {
-      "runId": "2026-11-17-knsh-g6-natural-ecology-backfill-01",
-      "questionRecordsUpdated": 4,
+      "runId": "2026-11-17-knsh-g6-math-rate-scale-circle-backfill-01",
+      "questionRecordsUpdated": 16,
       "updatedQuestionIds": [
-        "b10-006",
-        "b23-030",
-        "b27-027",
-        "b29-032"
+        "b20-026",
+        "b26-027",
+        "b30-014",
+        "b31-020",
+        "b37-029",
+        "b25-025",
+        "b26-025",
+        "b29-038",
+        "b30-013",
+        "b31-019",
+        "b33-025",
+        "b36-025",
+        "b37-026",
+        "b40-026",
+        "b30-017",
+        "b31-022"
       ],
-      "semesterAssigned": 4,
+      "semesterAssigned": 0,
       "examPeriodAssigned": 0,
-      "publisherMappingsAdded": 4,
-      "publisherMappingReferencesCorrected": 260,
+      "publisherMappingsAdded": 16,
+      "publisherMappingReferencesAdded": 16,
       "newQuestionsAdded": 0,
-      "classificationRuleVersion": "2026-11-17.96"
+      "classificationRuleVersion": "2026-11-17.97"
     },
     "validation": {
       "duplicateIds": 0,
@@ -2291,8 +2336,77 @@
       "allModeReachable": true,
       "allModeQuestionCount": 2900,
       "classificationIndexEntries": 2900,
-      "serviceWorkerCache": "xy-learning-v183",
+      "serviceWorkerCache": "xy-learning-v184",
       "browserOrMobileRuntimeTested": false
     }
+  },
+  "latestPublisherMappingBackfill": {
+    "runId": "2026-11-17-knsh-g6-math-rate-scale-circle-backfill-01",
+    "date": "2026-11-17",
+    "sourceHeadBeforeRun": "0749851b37306933769bde344f757a2d92ece3b1",
+    "batches": "08-41",
+    "batchFileCount": 34,
+    "fullCorpusQuestionCount": 2900,
+    "questionRecordsUpdated": 16,
+    "updatedQuestionIds": [
+      "b20-026",
+      "b26-027",
+      "b30-014",
+      "b31-020",
+      "b37-029",
+      "b25-025",
+      "b26-025",
+      "b29-038",
+      "b30-013",
+      "b31-019",
+      "b33-025",
+      "b36-025",
+      "b37-026",
+      "b40-026",
+      "b30-017",
+      "b31-022"
+    ],
+    "semesterAssignments": 0,
+    "examPeriodAssignments": 0,
+    "publisherMappingsAdded": 16,
+    "publisherMappingReferencesAdded": 16,
+    "newQuestionsAdded": 0,
+    "sourceBatchShasMatch": "34/34",
+    "classificationRuleVersion": "2026-11-17.97",
+    "publisherReferenceCounts": {
+      "knsh": 168,
+      "hanlin": 427,
+      "nani": 70,
+      "_total": 665
+    },
+    "publisherMappedQuestions": 561,
+    "publisherMappingReferences": 665,
+    "validation": {
+      "jsonParse": true,
+      "classificationRecords": 2900,
+      "uniqueIds": 2900,
+      "duplicateIds": 0,
+      "missingRequiredFields": 0,
+      "invalidClassificationValues": 0,
+      "mappingReferenceErrors": 0,
+      "sourceFieldErrors": 0,
+      "mappingScopeErrors": 0,
+      "sourceBatchShasMatch": "34/34",
+      "updatedQuestionsChecked": 16,
+      "updatedQuestionIdsReachable": true,
+      "filterCombinationsTested": 7800,
+      "nonZeroFilterCombinations": 554,
+      "zeroResultConditionsTested": 7246,
+      "publisherMappingLeaks": 0,
+      "filterErrors": 0,
+      "allModeReachable": true,
+      "allModeQuestionCount": 2900,
+      "appReadsPersistedClassificationIndex": true,
+      "zeroResultHintPresent": true,
+      "inferenceSyntaxValid": true,
+      "inferenceAliasUpdated": true,
+      "browserOrMobileRuntimeTested": false
+    },
+    "notes": "逐題回查六年級數學速率、平均速率、比例尺及圓面積題目，使用康軒114(1)數學計算高手6年級出版社帳號公開補充教材之官方資源標題映射。只標記直接對應主題；未把補充教材冒稱完整課本目次或學校採用版本。兩題圓面積的題庫推定全域學期仍為下學期，康軒114(1)補充教材映射為上學期，依指定出版社分開篩選。段考欄位不變且仍為複習建議，不代表學校正式範圍。"
   }
 }
