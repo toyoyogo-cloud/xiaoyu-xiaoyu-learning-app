@@ -1461,3 +1461,14 @@ Repository → Settings → Pages → Build and deployment → Deploy from a bra
 來源：[康軒113國小教材簡介－自然領域文宣（官方PDF）](https://945cloud.knsh.com.tw/e/promo/show/upload/material/4/113%281%29%E8%87%AA%E7%84%B6%E9%A0%98%E5%9F%9F%E6%96%87%E5%AE%A3-%E8%B7%A8%E9%A0%81.pdf)。
 
 - 後續將全庫550筆出版社映射參照同步至教材中央登錄：sourceUrl、sourceTitle、verifiedAt、verificationStatus、notes等欄位一致；未解析mappingId 0、來源欄位差異0、年級／科目／軌別範圍不一致0。分類推定器JavaScript語法編譯檢查通過。
+
+
+## 2026-11-17 分類回填：高中高二地理「供應鏈區位」
+
+- 讀取 main 第8至41批34個題庫批次與六個持久分類分片；全庫仍為 2,900 題、唯一ID 2,900，原始題庫批次未修改。
+- 將既有題目 `b40-086` 由共同核心未分類改為翰林配套評量本《地理(3)》第7回「全球化」單元層級映射；官方商品頁確認高中二年級、地理、上學期。學校採用版本未確認，段考維持 `unassigned`。
+- 修正分類推定器未讀取 MAPS 內 `unitAliases` 的漏接，避免已登錄映射無法通過單元範圍判斷。
+- 全庫統計：上學期 481、下學期 164、全學年 74、未分類 2,181；段考未分類 2,673。出版社映射題目 574、映射參照 678（翰林 440、康軒 168、南一 70）；待核對 6。
+- 18 組定向篩選資料層測試通過；未執行瀏覽器／手機實機、JavaScript runtime 或全庫完整篩選矩陣。未新增題目。
+
+來源：[翰林書城－高中試題挖挖哇地理(3)](https://books.hanlin.com.tw/product/467021)；[翰林高中參考書《試題挖挖哇：地理(3)》第3頁目次](https://fliphtml5.com/cojaq/fgkl/%E9%AB%98%E4%B8%AD%E8%A9%A6%E9%A1%8C%E6%8C%96%E6%8C%96%E5%93%87-%E5%9C%B0%E7%90%86%283%29/3/)。

@@ -1,8 +1,8 @@
 {
   "title": "題目分類持久索引",
-  "schemaVersion": "1.0.13",
+  "schemaVersion": "1.0.14",
   "updatedAt": "2026-11-17",
-  "classificationRuleVersion": "2026-11-17.100",
+  "classificationRuleVersion": "2026-11-17.101",
   "sourceBranch": "main",
   "batchRange": "08-41",
   "batchFileCount": 34,
@@ -44,7 +44,7 @@
       "path": "data/question-classification-batch-38-41.json",
       "batchRange": "38-41",
       "questionCount": 400,
-      "sha": "442be4f0cae21a00810d30aa73f14b0f56193771",
+      "sha": "6daf5d2d96083b16b6c6787eb4a7f97a5f322ef6",
       "updatedAt": "2026-11-17"
     }
   ],
