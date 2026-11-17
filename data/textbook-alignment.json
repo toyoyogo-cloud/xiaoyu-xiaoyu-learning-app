@@ -1969,12 +1969,12 @@
       "unitCode": "3",
       "unitName": "地球的生態",
       "learningContent": "食物鏈、族群與群集、生物間關係、生態系、特有種、保育類、外來入侵種及生物多樣性。",
-      "sourceType": "official-publisher-curriculum-brochure",
-      "sourceUrl": "https://945cloud.knsh.com.tw/E/promo/Show/upload/material/4/114%281%29%E8%87%AA%E7%84%B6%E9%A0%98%E5%9F%9F%E6%96%87%E5%AE%A3.pdf",
-      "sourceTitle": "114康軒國小教材特色－自然領域文宣（六下單元三「地球的生態」）",
+      "sourceType": "official-school-adoption-curriculum-plan",
+      "sourceUrl": "https://course.cyc.edu.tw/upfile/course114/sub1/15937166927547299.pdf",
+      "sourceTitle": "嘉義縣鹿草鄉後塘國民小學－114學年度第二學期六年級普通班自然科學領域課程計畫（康軒版第十二冊）",
       "verifiedAt": "2026-11-17",
       "verificationStatus": "source-checked",
-      "notes": "康軒官方114學年度國小教材特色PDF列六下自然主題「地球的生態」，主題脈絡明列食物鏈、族群與群集、生物間關係、生態系、特有種、保育類、外來入侵種及生物多樣性；課程架構另列單元三，活動包含生物彼此間的關係、不同生態系及維護生物多樣性。此映射只支持114版康軒國小六年級自然下學期單元三，不代表題庫或任何學校實際採用114版本，也不提供正式段考範圍。 題庫中的「棲地破碎化」僅作為本單元生物多樣性保育的情境應用，不宣稱官方目次另列該子單元。 題庫別名「生態平衡」及「外來種與生態」只用來對應本單元已列的生物間關係、外來入侵種與生物多樣性，不代表官方另列同名課次。",
+      "notes": "嘉義縣鹿草鄉後塘國小114學年度第二學期六年級普通班自然科學領域課程計畫明列教材版本「康軒版第十二冊」，第十二至第十八週列第三單元「地球的生態」，內容涵蓋食物鏈、族群與群集、生態系、生物多樣性及外來入侵種；康軒官方114學年度下學期高年級數位服務（期末）頁亦列單元三生態資源，包括食物鏈、能量傳遞、生物多樣性及外來種。課程計畫是該校採用案例，不代表使用者學校採用康軒；映射只支持114版康軒國小六年級自然下學期單元三，不代表正式段考範圍。",
       "courseType": "國小",
       "mappingLevel": "unit",
       "courseTrack": null,
@@ -1995,6 +1995,22 @@
         "棲地破碎化",
         "生態平衡",
         "外來種與生態"
+      ],
+      "supportingSources": [
+        {
+          "sourceUrl": "https://course.cyc.edu.tw/upfile/course114/sub1/15937166927547299.pdf",
+          "sourceTitle": "嘉義縣鹿草鄉後塘國民小學－114學年度第二學期六年級普通班自然科學領域課程計畫（康軒版第十二冊）",
+          "sourceType": "official-school-adoption-curriculum-plan"
+        },
+        {
+          "sourceUrl": "https://digitalmaster.knsh.com.tw/el/nature/digital2-final/",
+          "sourceTitle": "康軒文教事業－114學年度下學期國小自然數位服務（期末）",
+          "sourceType": "official-publisher-digital-resource"
+        }
+      ],
+      "sourceRegistryRefs": [
+        "knsh-g6-natural-114-school-plan-houtang-6b",
+        "knsh-g6-natural-114-digital2-final"
       ]
     },
     {
@@ -2010,12 +2026,12 @@
       "unitCode": "1",
       "unitName": "簡單機械",
       "learningContent": "槓桿原理、輪軸與滑輪、齒輪及傳送動力的機械。",
-      "sourceType": "official-publisher-curriculum-brochure",
-      "sourceUrl": "https://945cloud.knsh.com.tw/E/promo/Show/upload/material/4/114%281%29%E8%87%AA%E7%84%B6%E9%A0%98%E5%9F%9F%E6%96%87%E5%AE%A3.pdf",
-      "sourceTitle": "114康軒國小教材特色－自然領域文宣（六下單元一「簡單機械」）",
+      "sourceType": "official-school-adoption-curriculum-plan",
+      "sourceUrl": "https://course.cyc.edu.tw/upfile/course114/sub1/15937166927547299.pdf",
+      "sourceTitle": "嘉義縣鹿草鄉後塘國民小學－114學年度第二學期六年級普通班自然科學領域課程計畫（康軒版第十二冊）",
       "verifiedAt": "2026-11-17",
       "verificationStatus": "source-checked",
-      "notes": "康軒官方114學年度自然領域文宣明列國小六下單元一「簡單機械」，活動包含槓桿原理、輪軸與滑輪及傳送動力的機械。題目知識點直接對應；僅作114學年度康軒教材版本對照；不代表題庫或任何學校實際採用114版本，亦不代表正式段考範圍。",
+      "notes": "嘉義縣鹿草鄉後塘國小114學年度第二學期六年級普通班自然科學領域課程計畫明列教材版本「康軒版第十二冊」，並列第一單元「簡單機械」，內容涵蓋槓桿、輪軸、滑輪及齒輪；康軒官方114學年度下學期高年級數位服務（期中）頁亦列單元一「簡單機械」及相關槓桿、輪軸、滑輪資源。課程計畫是該校採用案例，不代表使用者學校採用康軒；映射只支持114版康軒國小六年級自然下學期單元一，不代表正式段考範圍。",
       "courseType": "國小",
       "mappingLevel": "unit",
       "courseTrack": null,
@@ -2030,6 +2046,22 @@
         "滑輪",
         "輪軸",
         "齒輪"
+      ],
+      "supportingSources": [
+        {
+          "sourceUrl": "https://course.cyc.edu.tw/upfile/course114/sub1/15937166927547299.pdf",
+          "sourceTitle": "嘉義縣鹿草鄉後塘國民小學－114學年度第二學期六年級普通班自然科學領域課程計畫（康軒版第十二冊）",
+          "sourceType": "official-school-adoption-curriculum-plan"
+        },
+        {
+          "sourceUrl": "https://digitalmaster.knsh.com.tw/el/nature/digital2-midterm/",
+          "sourceTitle": "康軒文教事業－114學年度下學期國小自然數位服務（期中）",
+          "sourceType": "official-publisher-digital-resource"
+        }
+      ],
+      "sourceRegistryRefs": [
+        "knsh-g6-natural-114-school-plan-houtang-6b",
+        "knsh-g6-natural-114-digital2-midterm"
       ]
     },
     {
@@ -2045,12 +2077,12 @@
       "unitCode": "2",
       "unitName": "能量與生活",
       "learningContent": "能量互相轉換及生活中的能源利用。",
-      "sourceType": "official-publisher-curriculum-brochure",
-      "sourceUrl": "https://945cloud.knsh.com.tw/E/promo/Show/upload/material/4/114%281%29%E8%87%AA%E7%84%B6%E9%A0%98%E5%9F%9F%E6%96%87%E5%AE%A3.pdf",
-      "sourceTitle": "114康軒國小教材特色－自然領域文宣（六下單元二「能量與生活」）",
+      "sourceType": "official-school-adoption-curriculum-plan",
+      "sourceUrl": "https://course.cyc.edu.tw/upfile/course114/sub1/15937166927547299.pdf",
+      "sourceTitle": "嘉義縣鹿草鄉後塘國民小學－114學年度第二學期六年級普通班自然科學領域課程計畫（康軒版第十二冊）",
       "verifiedAt": "2026-11-17",
       "verificationStatus": "source-checked",
-      "notes": "康軒官方114學年度自然領域文宣明列國小六下單元二「能量與生活」，活動直接涵蓋能量互相轉換及生活中的能源利用。水力發電、太陽能板及太陽能烤箱題目與單元內容直接相符；僅作114學年度康軒教材版本對照；不代表題庫或任何學校實際採用114版本，亦不代表正式段考範圍。",
+      "notes": "嘉義縣鹿草鄉後塘國小114學年度第二學期六年級普通班自然科學領域課程計畫明列教材版本「康軒版第十二冊」，第七至第十週列第二單元「能量與生活」，涵蓋動能、能量轉換及能源利用；康軒官方114學年度下學期高年級數位服務（期中）頁亦列「能量與生活」單元資源。課程計畫是該校採用案例，不代表使用者學校採用康軒；映射只支持114版康軒國小六年級自然下學期單元二，不代表正式段考範圍。",
       "courseType": "國小",
       "mappingLevel": "unit",
       "courseTrack": null,
@@ -2063,6 +2095,22 @@
         "水力發電",
         "光能轉電能",
         "能源利用"
+      ],
+      "supportingSources": [
+        {
+          "sourceUrl": "https://course.cyc.edu.tw/upfile/course114/sub1/15937166927547299.pdf",
+          "sourceTitle": "嘉義縣鹿草鄉後塘國民小學－114學年度第二學期六年級普通班自然科學領域課程計畫（康軒版第十二冊）",
+          "sourceType": "official-school-adoption-curriculum-plan"
+        },
+        {
+          "sourceUrl": "https://digitalmaster.knsh.com.tw/el/nature/digital2-midterm/",
+          "sourceTitle": "康軒文教事業－114學年度下學期國小自然數位服務（期中）",
+          "sourceType": "official-publisher-digital-resource"
+        }
+      ],
+      "sourceRegistryRefs": [
+        "knsh-g6-natural-114-school-plan-houtang-6b",
+        "knsh-g6-natural-114-digital2-midterm"
       ]
     },
     {
@@ -2807,13 +2855,14 @@
       "sourceUrl": "https://945cloud.knsh.com.tw/E/promo/Show/upload/material/4/114%281%29%E8%87%AA%E7%84%B6%E9%A0%98%E5%9F%9F%E6%96%87%E5%AE%A3.pdf",
       "sourceTitle": "114康軒國小教材特色－自然領域文宣",
       "verifiedAt": "2026-11-17",
-      "verificationStatus": "source-checked",
-      "notes": "康軒官方114學年度自然領域文宣：六下單元一「簡單機械」、單元二「能量與生活」、單元三「地球的生態」；並列六上單元四「電磁作用」作年級範圍辨別。各映射僅限來源明列之年級、科目、學期與單元，不代表學校採用版本或正式段考範圍。",
+      "verificationStatus": "source-unavailable",
+      "notes": "原康軒114自然領域文宣PDF連結於2026-11-17重新開啟回應404，已不再作為有效證據；原mappingIds保留作歷史追溯，現行映射改以後塘國小114學年度第二學期六年級課程計畫及康軒官方數位服務頁交叉核對。",
       "mappingIds": [
         "knsh-g6-natural-114-6b-u3-ecology",
         "knsh-g6-natural-114-6b-u1-simple-machines",
         "knsh-g6-natural-114-6b-u2-energy-life"
-      ]
+      ],
+      "httpStatus": 404
     },
     {
       "id": "knsh-g6-natural-113-curriculum-brochure",
@@ -2971,6 +3020,48 @@
         "hanlin-h2-geography-3-u7-globalization"
       ],
       "notes": "翰林高中參考書官方帳號刊載《試題挖挖哇－地理(3)》第3頁目次，第7回為「全球化」；翰林書城商品頁 https://books.hanlin.com.tw/product/467021 明示高中二年級、地理、上學期。此來源是出版社配套評量本目次，不是主課本完整目次，也不代表學校採用版本或正式段考範圍。"
+    },
+    {
+      "id": "knsh-g6-natural-114-school-plan-houtang-6b",
+      "publisher": "knsh",
+      "sourceType": "official-school-adoption-curriculum-plan",
+      "sourceUrl": "https://course.cyc.edu.tw/upfile/course114/sub1/15937166927547299.pdf",
+      "sourceTitle": "嘉義縣鹿草鄉後塘國民小學－114學年度第二學期六年級普通班自然科學領域課程計畫（康軒版第十二冊）",
+      "verifiedAt": "2026-11-17",
+      "verificationStatus": "source-checked",
+      "notes": "嘉義縣鹿草鄉後塘國小114學年度第二學期六年級普通班自然科學領域課程計畫明列康軒版第十二冊，並逐週列出第一單元簡單機械、第二單元能量與生活、第三單元地球的生態。這是該校的版本採用資料，不代表使用者學校採用，也不代表全台學校版本一致。",
+      "mappingIds": [
+        "knsh-g6-natural-114-6b-u1-simple-machines",
+        "knsh-g6-natural-114-6b-u2-energy-life",
+        "knsh-g6-natural-114-6b-u3-ecology"
+      ]
+    },
+    {
+      "id": "knsh-g6-natural-114-digital2-midterm",
+      "publisher": "knsh",
+      "sourceType": "official-publisher-digital-resource",
+      "sourceUrl": "https://digitalmaster.knsh.com.tw/el/nature/digital2-midterm/",
+      "sourceTitle": "康軒文教事業－114學年度下學期國小自然數位服務（期中）",
+      "verifiedAt": "2026-11-17",
+      "verificationStatus": "source-checked",
+      "notes": "康軒文教事業官方114學年度下學期國小自然數位服務（期中）頁，高年級區列單元一簡單機械與單元二能量與生活相關資源；頁面標示高年級，六年級與第十二冊範圍另由後塘國小課程計畫確認。",
+      "mappingIds": [
+        "knsh-g6-natural-114-6b-u1-simple-machines",
+        "knsh-g6-natural-114-6b-u2-energy-life"
+      ]
+    },
+    {
+      "id": "knsh-g6-natural-114-digital2-final",
+      "publisher": "knsh",
+      "sourceType": "official-publisher-digital-resource",
+      "sourceUrl": "https://digitalmaster.knsh.com.tw/el/nature/digital2-final/",
+      "sourceTitle": "康軒文教事業－114學年度下學期國小自然數位服務（期末）",
+      "verifiedAt": "2026-11-17",
+      "verificationStatus": "source-checked",
+      "notes": "康軒文教事業官方114學年度下學期國小自然數位服務（期末）頁，高年級區列單元三地球生態相關資源，含食物鏈、能量傳遞、生物多樣性及外來入侵種；頁面標示高年級，六年級與第十二冊範圍另由後塘國小課程計畫確認。",
+      "mappingIds": [
+        "knsh-g6-natural-114-6b-u3-ecology"
+      ]
     }
   ],
   "classificationAudit": {
@@ -3211,7 +3302,7 @@
     },
     "notes": "依翰林書城官方高中學習寶典－地理(3)商品頁確認高二、地理、上學期；未公開細分目次，故僅建立冊別層級映射。四題單元不冒稱已核對，段考維持unassigned。只更新既有分類，原始題庫與題目內容未修改，未新增題目。"
   },
-  "auditSummary": "2026-11-17：持久回填高二地理b40-086供應鏈區位1題；出版社映射參照+1，學期上學期+1，段考維持unassigned；全庫仍2,900題，新增0題。推定器修正MAPS.unitAliases漏接，18組定向篩選資料層測試通過；未執行瀏覽器／手機實機或全庫完整矩陣。",
+  "auditSummary": "2026-11-17：康軒114六下自然30題的來源由重新開啟回應404的宣傳PDF，改為後塘國小114學年度第二學期六年級康軒版第十二冊課程計畫及康軒官方下學期數位資源頁；題目分類與考期未變。",
   "batch39UsageAudit": {
     "batch": 39,
     "total": 100,
@@ -3497,6 +3588,67 @@
         "b41-040"
       ],
       "result": "13題保留mappingId及來源資料供追溯，但驗證狀態改為source-unavailable、出版社狀態待核對，並撤回僅依該失效來源推定的學期。"
+    },
+    {
+      "date": "2026-11-17",
+      "type": "official-source-replacement-after-404",
+      "mappingIds": [
+        "knsh-g6-natural-114-6b-u1-simple-machines",
+        "knsh-g6-natural-114-6b-u2-energy-life",
+        "knsh-g6-natural-114-6b-u3-ecology"
+      ],
+      "affectedQuestionIds": [
+        "b21-030",
+        "b27-039",
+        "b30-030",
+        "b32-028",
+        "b33-038",
+        "b8-009",
+        "b16-023",
+        "b27-035",
+        "b34-035",
+        "b39-036",
+        "b10-006",
+        "b15-022",
+        "b18-025",
+        "b19-025",
+        "b23-030",
+        "b24-032",
+        "b25-030",
+        "b27-027",
+        "b29-032",
+        "b30-025",
+        "b31-036",
+        "b32-027",
+        "b33-033",
+        "b35-033",
+        "b36-040",
+        "b38-039",
+        "b39-038",
+        "b40-037",
+        "b41-035",
+        "b41-040"
+      ],
+      "oldSourceUrl": "https://945cloud.knsh.com.tw/E/promo/Show/upload/material/4/114%281%29%E8%87%AA%E7%84%B6%E9%A0%98%E5%9F%9F%E6%96%87%E5%AE%A3.pdf",
+      "oldSourceStatus": "source-unavailable-404",
+      "replacementSources": [
+        {
+          "sourceUrl": "https://course.cyc.edu.tw/upfile/course114/sub1/15937166927547299.pdf",
+          "sourceTitle": "嘉義縣鹿草鄉後塘國民小學－114學年度第二學期六年級普通班自然科學領域課程計畫（康軒版第十二冊）",
+          "verificationStatus": "source-checked"
+        },
+        {
+          "sourceUrl": "https://digitalmaster.knsh.com.tw/el/nature/digital2-midterm/",
+          "sourceTitle": "康軒文教事業－114學年度下學期國小自然數位服務（期中）",
+          "verificationStatus": "source-checked"
+        },
+        {
+          "sourceUrl": "https://digitalmaster.knsh.com.tw/el/nature/digital2-final/",
+          "sourceTitle": "康軒文教事業－114學年度下學期國小自然數位服務（期末）",
+          "verificationStatus": "source-checked"
+        }
+      ],
+      "result": "30題（單元一5題、單元二5題、單元三20題）保留原有學期、段考與mappingId；更新publisherMappings及sourceRef來源欄位。學校採用資料僅為後塘國小案例，不代表使用者學校。"
     }
   ],
   "batch40UsageAudit": {
@@ -7489,6 +7641,101 @@
       ],
       "notes": "翰林書城官方商品頁明示科目為地理、適用高中二年級、上學期，商品類別為課本習作；目前商品頁未公開細分目次，因此本映射僅限高中二年級地理(3)上學期冊別層級，不宣稱人口結構、氣候資料、GIS或都市熱島已核對到主課本單元，也不代表學校採用版本或正式段考範圍。",
       "runId": "2026-11-17-hanlin-h2-geography-volume-backfill-01"
+    },
+    {
+      "runId": "2026-11-17-knsh-g6-natural-114-source-replacement-01",
+      "verifiedAt": "2026-11-17",
+      "sourceChecks": [
+        {
+          "mappingId": "knsh-g6-natural-114-6b-u1-simple-machines",
+          "publisher": "knsh",
+          "sourceUrl": "https://course.cyc.edu.tw/upfile/course114/sub1/15937166927547299.pdf",
+          "sourceTitle": "嘉義縣鹿草鄉後塘國民小學－114學年度第二學期六年級普通班自然科學領域課程計畫（康軒版第十二冊）",
+          "verifiedAt": "2026-11-17",
+          "verificationStatus": "source-checked",
+          "mappingLevel": "unit",
+          "questionIds": [
+            "b21-030",
+            "b27-039",
+            "b30-030",
+            "b32-028",
+            "b33-038"
+          ],
+          "supportingSources": [
+            {
+              "sourceUrl": "https://digitalmaster.knsh.com.tw/el/nature/digital2-midterm/",
+              "sourceTitle": "康軒文教事業－114學年度下學期國小自然數位服務（期中）",
+              "verificationStatus": "source-checked"
+            }
+          ],
+          "verifiedScope": "嘉義縣鹿草鄉後塘國小114學年度第二學期六年級普通班自然科學領域課程計畫明列教材版本「康軒版第十二冊」，並列第一單元「簡單機械」，內容涵蓋槓桿、輪軸、滑輪及齒輪；康軒官方114學年度下學期高年級數位服務（期中）頁亦列單元一「簡單機械」及相關槓桿、輪軸、滑輪資源。課程計畫是該校採用案例，不代表使用者學校採用康軒；映射只支持114版康軒國小六年級自然下學期單元一，不代表正式段考範圍。"
+        },
+        {
+          "mappingId": "knsh-g6-natural-114-6b-u2-energy-life",
+          "publisher": "knsh",
+          "sourceUrl": "https://course.cyc.edu.tw/upfile/course114/sub1/15937166927547299.pdf",
+          "sourceTitle": "嘉義縣鹿草鄉後塘國民小學－114學年度第二學期六年級普通班自然科學領域課程計畫（康軒版第十二冊）",
+          "verifiedAt": "2026-11-17",
+          "verificationStatus": "source-checked",
+          "mappingLevel": "unit",
+          "questionIds": [
+            "b8-009",
+            "b16-023",
+            "b27-035",
+            "b34-035",
+            "b39-036"
+          ],
+          "supportingSources": [
+            {
+              "sourceUrl": "https://digitalmaster.knsh.com.tw/el/nature/digital2-midterm/",
+              "sourceTitle": "康軒文教事業－114學年度下學期國小自然數位服務（期中）",
+              "verificationStatus": "source-checked"
+            }
+          ],
+          "verifiedScope": "嘉義縣鹿草鄉後塘國小114學年度第二學期六年級普通班自然科學領域課程計畫明列教材版本「康軒版第十二冊」，第七至第十週列第二單元「能量與生活」，涵蓋動能、能量轉換及能源利用；康軒官方114學年度下學期高年級數位服務（期中）頁亦列「能量與生活」單元資源。課程計畫是該校採用案例，不代表使用者學校採用康軒；映射只支持114版康軒國小六年級自然下學期單元二，不代表正式段考範圍。"
+        },
+        {
+          "mappingId": "knsh-g6-natural-114-6b-u3-ecology",
+          "publisher": "knsh",
+          "sourceUrl": "https://course.cyc.edu.tw/upfile/course114/sub1/15937166927547299.pdf",
+          "sourceTitle": "嘉義縣鹿草鄉後塘國民小學－114學年度第二學期六年級普通班自然科學領域課程計畫（康軒版第十二冊）",
+          "verifiedAt": "2026-11-17",
+          "verificationStatus": "source-checked",
+          "mappingLevel": "unit",
+          "questionIds": [
+            "b10-006",
+            "b15-022",
+            "b18-025",
+            "b19-025",
+            "b23-030",
+            "b24-032",
+            "b25-030",
+            "b27-027",
+            "b29-032",
+            "b30-025",
+            "b31-036",
+            "b32-027",
+            "b33-033",
+            "b35-033",
+            "b36-040",
+            "b38-039",
+            "b39-038",
+            "b40-037",
+            "b41-035",
+            "b41-040"
+          ],
+          "supportingSources": [
+            {
+              "sourceUrl": "https://digitalmaster.knsh.com.tw/el/nature/digital2-final/",
+              "sourceTitle": "康軒文教事業－114學年度下學期國小自然數位服務（期末）",
+              "verificationStatus": "source-checked"
+            }
+          ],
+          "verifiedScope": "嘉義縣鹿草鄉後塘國小114學年度第二學期六年級普通班自然科學領域課程計畫明列教材版本「康軒版第十二冊」，第十二至第十八週列第三單元「地球的生態」，內容涵蓋食物鏈、族群與群集、生態系、生物多樣性及外來入侵種；康軒官方114學年度下學期高年級數位服務（期末）頁亦列單元三生態資源，包括食物鏈、能量傳遞、生物多樣性及外來種。課程計畫是該校採用案例，不代表使用者學校採用康軒；映射只支持114版康軒國小六年級自然下學期單元三，不代表正式段考範圍。"
+        }
+      ],
+      "questionRecordsUpdated": 30,
+      "publisherMappingReferencesUpdated": 30
     }
   ],
   "high2MathCourseTrackAudit": {
@@ -7660,26 +7907,100 @@
     "notes": "全庫677筆映射參照均可在中央映射登錄找到；本輪新增4筆同一冊別映射參照，年級／科目／學期範圍一致。"
   },
   "lastSourceVerificationAudit": {
-    "runId": "2026-11-17-hanlin-h2-geography-volume-backfill-01",
+    "runId": "2026-11-17-knsh-g6-natural-114-source-replacement-01",
     "verifiedAt": "2026-11-17",
     "sourceChecks": [
       {
-        "mappingId": "hanlin-h2-geography-3-volume",
-        "publisher": "hanlin",
-        "sourceUrl": "https://books.hanlin.com.tw/product/337021",
-        "sourceTitle": "翰林書城－高中學習寶典：地理(3)",
+        "mappingId": "knsh-g6-natural-114-6b-u1-simple-machines",
+        "publisher": "knsh",
+        "sourceUrl": "https://course.cyc.edu.tw/upfile/course114/sub1/15937166927547299.pdf",
+        "sourceTitle": "嘉義縣鹿草鄉後塘國民小學－114學年度第二學期六年級普通班自然科學領域課程計畫（康軒版第十二冊）",
         "verifiedAt": "2026-11-17",
         "verificationStatus": "source-checked",
-        "mappingLevel": "volume",
+        "mappingLevel": "unit",
         "questionIds": [
-          "b41-085",
-          "b41-086",
-          "b41-087",
-          "b41-088"
+          "b21-030",
+          "b27-039",
+          "b30-030",
+          "b32-028",
+          "b33-038"
         ],
-        "notes": "翰林書城官方商品頁明示科目為地理、適用高中二年級、上學期，商品類別為課本習作；目前商品頁未公開細分目次，因此本映射僅限高中二年級地理(3)上學期冊別層級，不宣稱人口結構、氣候資料、GIS或都市熱島已核對到主課本單元，也不代表學校採用版本或正式段考範圍。"
+        "supportingSources": [
+          {
+            "sourceUrl": "https://digitalmaster.knsh.com.tw/el/nature/digital2-midterm/",
+            "sourceTitle": "康軒文教事業－114學年度下學期國小自然數位服務（期中）",
+            "verificationStatus": "source-checked"
+          }
+        ],
+        "verifiedScope": "嘉義縣鹿草鄉後塘國小114學年度第二學期六年級普通班自然科學領域課程計畫明列教材版本「康軒版第十二冊」，並列第一單元「簡單機械」，內容涵蓋槓桿、輪軸、滑輪及齒輪；康軒官方114學年度下學期高年級數位服務（期中）頁亦列單元一「簡單機械」及相關槓桿、輪軸、滑輪資源。課程計畫是該校採用案例，不代表使用者學校採用康軒；映射只支持114版康軒國小六年級自然下學期單元一，不代表正式段考範圍。"
+      },
+      {
+        "mappingId": "knsh-g6-natural-114-6b-u2-energy-life",
+        "publisher": "knsh",
+        "sourceUrl": "https://course.cyc.edu.tw/upfile/course114/sub1/15937166927547299.pdf",
+        "sourceTitle": "嘉義縣鹿草鄉後塘國民小學－114學年度第二學期六年級普通班自然科學領域課程計畫（康軒版第十二冊）",
+        "verifiedAt": "2026-11-17",
+        "verificationStatus": "source-checked",
+        "mappingLevel": "unit",
+        "questionIds": [
+          "b8-009",
+          "b16-023",
+          "b27-035",
+          "b34-035",
+          "b39-036"
+        ],
+        "supportingSources": [
+          {
+            "sourceUrl": "https://digitalmaster.knsh.com.tw/el/nature/digital2-midterm/",
+            "sourceTitle": "康軒文教事業－114學年度下學期國小自然數位服務（期中）",
+            "verificationStatus": "source-checked"
+          }
+        ],
+        "verifiedScope": "嘉義縣鹿草鄉後塘國小114學年度第二學期六年級普通班自然科學領域課程計畫明列教材版本「康軒版第十二冊」，第七至第十週列第二單元「能量與生活」，涵蓋動能、能量轉換及能源利用；康軒官方114學年度下學期高年級數位服務（期中）頁亦列「能量與生活」單元資源。課程計畫是該校採用案例，不代表使用者學校採用康軒；映射只支持114版康軒國小六年級自然下學期單元二，不代表正式段考範圍。"
+      },
+      {
+        "mappingId": "knsh-g6-natural-114-6b-u3-ecology",
+        "publisher": "knsh",
+        "sourceUrl": "https://course.cyc.edu.tw/upfile/course114/sub1/15937166927547299.pdf",
+        "sourceTitle": "嘉義縣鹿草鄉後塘國民小學－114學年度第二學期六年級普通班自然科學領域課程計畫（康軒版第十二冊）",
+        "verifiedAt": "2026-11-17",
+        "verificationStatus": "source-checked",
+        "mappingLevel": "unit",
+        "questionIds": [
+          "b10-006",
+          "b15-022",
+          "b18-025",
+          "b19-025",
+          "b23-030",
+          "b24-032",
+          "b25-030",
+          "b27-027",
+          "b29-032",
+          "b30-025",
+          "b31-036",
+          "b32-027",
+          "b33-033",
+          "b35-033",
+          "b36-040",
+          "b38-039",
+          "b39-038",
+          "b40-037",
+          "b41-035",
+          "b41-040"
+        ],
+        "supportingSources": [
+          {
+            "sourceUrl": "https://digitalmaster.knsh.com.tw/el/nature/digital2-final/",
+            "sourceTitle": "康軒文教事業－114學年度下學期國小自然數位服務（期末）",
+            "verificationStatus": "source-checked"
+          }
+        ],
+        "verifiedScope": "嘉義縣鹿草鄉後塘國小114學年度第二學期六年級普通班自然科學領域課程計畫明列教材版本「康軒版第十二冊」，第十二至第十八週列第三單元「地球的生態」，內容涵蓋食物鏈、族群與群集、生態系、生物多樣性及外來入侵種；康軒官方114學年度下學期高年級數位服務（期末）頁亦列單元三生態資源，包括食物鏈、能量傳遞、生物多樣性及外來種。課程計畫是該校採用案例，不代表使用者學校採用康軒；映射只支持114版康軒國小六年級自然下學期單元三，不代表正式段考範圍。"
       }
-    ]
+    ],
+    "questionRecordsUpdated": 30,
+    "publisherMappingReferencesUpdated": 30,
+    "newQuestionsAdded": 0
   },
   "lastRunAudit": {
     "runId": "2026-11-17-full-corpus-filter-matrix-01",
@@ -10005,84 +10326,62 @@
     "notes": "本輪新增b21-072行政聽證程序1題；翰林官方跨版本表對應第9單元及2-3章，官方參考內容明列聽證權，課本商品頁確認高二公民上學期。段考維持unassigned；不代表學校採用版本或教師審核。"
   },
   "latestSourceAvailabilityAudit": {
-    "runId": "2026-11-16-coldwar-social-source-recheck-and-natural-404-01",
+    "runId": "2026-11-17-knsh-g6-natural-114-source-replacement-01",
     "verifiedAt": "2026-11-17",
     "sourceChecks": [
       {
         "publisher": "knsh",
         "mappingIds": [
-          "knsh-g6-natural-6b-u2-ecosystems",
-          "knsh-g6-natural-6b-u3-earth-sustainability"
+          "knsh-g6-natural-114-6b-u1-simple-machines",
+          "knsh-g6-natural-114-6b-u2-energy-life",
+          "knsh-g6-natural-114-6b-u3-ecology"
         ],
-        "sourceUrl": "https://945cloud.knsh.com.tw/e/promo/show/upload/material/4/113%281%29%E8%87%AA%E7%84%B6%E9%A0%98%E5%9F%9F%E6%96%87%E5%AE%A3-%E8%B7%A8%E9%A0%81.pdf",
-        "sourceTitle": "113康軒國小教材簡介－自然領域文宣",
+        "sourceUrl": "https://945cloud.knsh.com.tw/E/promo/Show/upload/material/4/114%281%29%E8%87%AA%E7%84%B6%E9%A0%98%E5%9F%9F%E6%96%87%E5%AE%A3.pdf",
+        "sourceTitle": "114康軒國小教材特色－自然領域文宣",
         "httpStatus": 404,
         "verificationStatus": "source-unavailable",
-        "verifiedScope": "兩次直接重查均回應404；保留歷史來源紀錄，不再用於出版社篩選。"
+        "verifiedScope": "原PDF連結重新開啟回應404，不再用於現行出版社映射。"
       },
       {
         "publisher": "knsh",
         "mappingIds": [
-          "knsh-g6-social-6b-u2-1-sdgs-community"
+          "knsh-g6-natural-114-6b-u1-simple-machines",
+          "knsh-g6-natural-114-6b-u2-energy-life"
         ],
-        "sourceUrl": "https://sdgs.knsh.com.tw/api/uploads/curriculumMap/E_school/%E7%A4%BE%E6%9C%83%E5%85%AD%E4%B8%8BCH2L1%E7%A4%BE%E6%9C%83%E5%85%85%E9%9B%BB%E7%AB%99SDGs%E5%B0%B1%E5%9C%A8%E6%88%91%E5%80%91%E8%BA%AB%E9%82%8A_%E6%95%99%E5%AD%B8%E8%B3%87%E6%BA%90.pdf",
-        "sourceTitle": "康軒社會六下2-1官方教學資源PDF",
+        "sourceUrl": "https://digitalmaster.knsh.com.tw/el/nature/digital2-midterm/",
+        "sourceTitle": "康軒文教事業－114學年度下學期國小自然數位服務（期中）",
+        "httpStatus": 200,
         "verificationStatus": "source-checked",
-        "verifiedScope": "PDF明示配合社會6下2-1，並記載學生與學校／政府協作、公共建設及交通安全；只作官方資源標題／學習情境層級對照。"
-      },
-      {
-        "publisher": "hanlin",
-        "mappingIds": [
-          "hanlin-h2-history-3-u7-cold-war"
-        ],
-        "sourceUrl": "https://fliphtml5.com/cojaq/nrjy/%E9%AB%98%E4%B8%AD%E8%A9%A6%E9%A1%8C%E6%8C%96%E6%8C%96%E5%93%87-%E6%AD%B7%E5%8F%B2(3)/3",
-        "sourceTitle": "翰林高中參考書《試題挖挖哇－歷史(3)》第3頁目次",
-        "verificationStatus": "source-checked",
-        "verifiedScope": "出版社帳號頁面目次列單元7冷戰期間的世界局勢／政治局勢；翰林官方商品頁確認高中二年級歷史(3)上學期。"
+        "verifiedScope": "康軒官方114學年度下學期高年級數位服務列單元一簡單機械及單元二能量與生活資源。"
       },
       {
         "publisher": "knsh",
         "mappingIds": [
           "knsh-g6-natural-114-6b-u3-ecology"
         ],
-        "sourceUrl": "https://945cloud.knsh.com.tw/E/promo/Show/upload/material/4/114%281%29%E8%87%AA%E7%84%B6%E9%A0%98%E5%9F%9F%E6%96%87%E5%AE%A3.pdf",
-        "sourceTitle": "114康軒國小教材特色－自然領域文宣（六下單元三「地球的生態」）",
+        "sourceUrl": "https://digitalmaster.knsh.com.tw/el/nature/digital2-final/",
+        "sourceTitle": "康軒文教事業－114學年度下學期國小自然數位服務（期末）",
         "httpStatus": 200,
         "verificationStatus": "source-checked",
-        "verifiedScope": "康軒114學年度官方自然領域文宣明列國小六下單元三「地球的生態」，主題含食物鏈、生態系及生物多樣性；只支持114版單元級映射。"
+        "verifiedScope": "康軒官方114學年度下學期高年級數位服務列單元三生態、食物鏈、能量傳遞、生物多樣性及外來種資源。"
+      },
+      {
+        "publisher": "knsh",
+        "mappingIds": [
+          "knsh-g6-natural-114-6b-u1-simple-machines",
+          "knsh-g6-natural-114-6b-u2-energy-life",
+          "knsh-g6-natural-114-6b-u3-ecology"
+        ],
+        "sourceUrl": "https://course.cyc.edu.tw/upfile/course114/sub1/15937166927547299.pdf",
+        "sourceTitle": "嘉義縣鹿草鄉後塘國民小學－114學年度第二學期六年級普通班自然科學領域課程計畫（康軒版第十二冊）",
+        "httpStatus": 200,
+        "verificationStatus": "source-checked",
+        "verifiedScope": "該校114學年度第二學期六年級自然課程計畫明列康軒版第十二冊及單元一、二、三。"
       }
     ],
-    "questionRecordsUpdated": 24,
-    "updatedQuestionIds": [
-      "b8-010",
-      "b10-019",
-      "b12-010",
-      "b15-022",
-      "b17-069",
-      "b19-068",
-      "b22-051",
-      "b23-067",
-      "b24-032",
-      "b24-068",
-      "b25-030",
-      "b29-036",
-      "b30-025",
-      "b31-036",
-      "b32-027",
-      "b33-033",
-      "b35-033",
-      "b35-092",
-      "b36-040",
-      "b37-090",
-      "b38-039",
-      "b40-037",
-      "b41-035",
-      "b41-040"
-    ],
-    "publisherMappingReferencesAdded": 11,
-    "publisherMappingReferencesDowngraded": 13,
-    "newQuestionsAdded": 0,
-    "notes": "11題新增有證據的康軒六下社會與翰林高二歷史單元映射；13題原康軒自然映射因官方PDF兩次回應404改為source-unavailable並列待核對。段考均維持unassigned。"
+    "questionRecordsUpdated": 30,
+    "publisherMappingReferencesUpdated": 30,
+    "newQuestionsAdded": 0
   },
   "filterValidation": {
     "date": "2026-11-17",
@@ -10544,5 +10843,12 @@
     "browserOrMobileRuntimeTested": false,
     "filterMatrixTestedThisRun": false,
     "notes": "Fresh main reconciliation: all 34 batch blob SHAs match the six classification shard sourceBatchShas maps; all six shard blob SHAs match the classification index. Removed a null placeholder from textbook-alignment.mappings; no question record or publisher mapping was changed. The existing 2,119,500-case data-layer filter audit remains the latest filter-matrix evidence; this registry cleanup did not rerun it."
+  },
+  "sourceRegistryCount": 66,
+  "sourceRegistryVerificationStatusCounts": {
+    "source-checked": 63,
+    "pending": 1,
+    "source-unavailable": 2,
+    "_total": 66
   }
 }

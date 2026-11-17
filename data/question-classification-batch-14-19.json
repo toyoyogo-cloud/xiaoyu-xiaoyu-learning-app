@@ -881,11 +881,11 @@
         {
           "publisher": "knsh",
           "mappingId": "knsh-g6-natural-114-6b-u3-ecology",
-          "sourceUrl": "https://945cloud.knsh.com.tw/E/promo/Show/upload/material/4/114%281%29%E8%87%AA%E7%84%B6%E9%A0%98%E5%9F%9F%E6%96%87%E5%AE%A3.pdf",
-          "sourceTitle": "114康軒國小教材特色－自然領域文宣（六下單元三「地球的生態」）",
+          "sourceUrl": "https://course.cyc.edu.tw/upfile/course114/sub1/15937166927547299.pdf",
+          "sourceTitle": "嘉義縣鹿草鄉後塘國民小學－114學年度第二學期六年級普通班自然科學領域課程計畫（康軒版第十二冊）",
           "verifiedAt": "2026-11-17",
           "verificationStatus": "source-checked",
-          "notes": "康軒官方114學年度國小教材特色PDF列六下自然主題「地球的生態」，主題脈絡明列食物鏈、族群與群集、生物間關係、生態系、特有種、保育類、外來入侵種及生物多樣性；課程架構另列單元三，活動包含生物彼此間的關係、不同生態系及維護生物多樣性。此映射只支持114版康軒國小六年級自然下學期單元三，不代表題庫或任何學校實際採用114版本，也不提供正式段考範圍。 題庫中的「棲地破碎化」僅作為本單元生物多樣性保育的情境應用，不宣稱官方目次另列該子單元。 題庫別名「生態平衡」及「外來種與生態」只用來對應本單元已列的生物間關係、外來入侵種與生物多樣性，不代表官方另列同名課次。",
+          "notes": "嘉義縣鹿草鄉後塘國小114學年度第二學期六年級普通班自然科學領域課程計畫明列教材版本「康軒版第十二冊」，第十二至第十八週列第三單元「地球的生態」，內容涵蓋食物鏈、族群與群集、生態系、生物多樣性及外來入侵種；康軒官方114學年度下學期高年級數位服務（期末）頁亦列單元三生態資源，包括食物鏈、能量傳遞、生物多樣性及外來種。課程計畫是該校採用案例，不代表使用者學校採用康軒；映射只支持114版康軒國小六年級自然下學期單元三，不代表正式段考範圍。",
           "mappingLevel": "unit",
           "volume": "114學年度自然科學(6下)",
           "unitCode": "3",
@@ -913,11 +913,28 @@
           "subject": "自然",
           "courseTrack": null,
           "schoolYear": "114學年度",
-          "courseType": "國小"
+          "courseType": "國小",
+          "sourceType": "official-school-adoption-curriculum-plan",
+          "supportingSources": [
+            {
+              "sourceUrl": "https://course.cyc.edu.tw/upfile/course114/sub1/15937166927547299.pdf",
+              "sourceTitle": "嘉義縣鹿草鄉後塘國民小學－114學年度第二學期六年級普通班自然科學領域課程計畫（康軒版第十二冊）",
+              "sourceType": "official-school-adoption-curriculum-plan"
+            },
+            {
+              "sourceUrl": "https://digitalmaster.knsh.com.tw/el/nature/digital2-final/",
+              "sourceTitle": "康軒文教事業－114學年度下學期國小自然數位服務（期末）",
+              "sourceType": "official-publisher-digital-resource"
+            }
+          ],
+          "sourceRegistryRefs": [
+            "knsh-g6-natural-114-school-plan-houtang-6b",
+            "knsh-g6-natural-114-digital2-final"
+          ]
         }
       ],
-      "classificationNotes": "依康軒官方114學年度國小教材特色PDF：六下自然主題「地球的生態」，主題脈絡明列食物鏈、族群與群集、生物間關係、生態系及生物多樣性；課程架構列單元三，活動涵蓋生物關係、不同生態系與維護生物多樣性。題目知識點與該單元直接相符，故標記下學期及康軒114版單元層級映射。原113版來源已回應404，不再沿用；本映射不代表學校採用114版本，段考範圍仍待教師確認。",
-      "sourceRef": "113康軒國小教材簡介－自然領域文宣 | https://945cloud.knsh.com.tw/e/promo/show/upload/material/4/113%281%29%E8%87%AA%E7%84%B6%E9%A0%98%E5%9F%9F%E6%96%87%E5%AE%A3-%E8%B7%A8%E9%A0%81.pdf",
+      "classificationNotes": "依康軒官方114學年度國小教材特色PDF：六下自然主題「地球的生態」，主題脈絡明列食物鏈、族群與群集、生物間關係、生態系及生物多樣性；課程架構列單元三，活動涵蓋生物關係、不同生態系與維護生物多樣性。題目知識點與該單元直接相符，故標記下學期及康軒114版單元層級映射。原113版來源已回應404，不再沿用；本映射不代表學校採用114版本，段考範圍仍待教師確認。 來源重核（2026-11-17-knsh-g6-natural-114-source-replacement-01）：原康軒114自然領域文宣PDF連結重新開啟回應404，不再作為有效證據；現改以嘉義縣鹿草鄉後塘國民小學－114學年度第二學期六年級普通班自然科學領域課程計畫（康軒版第十二冊）核對年級、學期、冊別與第三單元「地球的生態」，並以康軒官方數位服務頁交叉核對單元內容。此課程計畫僅是該校採用案例，不代表使用者學校採用；examPeriod仍維持unassigned。",
+      "sourceRef": "https://course.cyc.edu.tw/upfile/course114/sub1/15937166927547299.pdf | https://digitalmaster.knsh.com.tw/el/nature/digital2-final/",
       "learningDomain": "生物生命",
       "questionType": "概念辨識",
       "learningUnit": "生物多樣性",
@@ -3068,11 +3085,11 @@
         {
           "publisher": "knsh",
           "mappingId": "knsh-g6-natural-114-6b-u2-energy-life",
-          "sourceUrl": "https://945cloud.knsh.com.tw/E/promo/Show/upload/material/4/114%281%29%E8%87%AA%E7%84%B6%E9%A0%98%E5%9F%9F%E6%96%87%E5%AE%A3.pdf",
-          "sourceTitle": "114康軒國小教材特色－自然領域文宣（六下單元二「能量與生活」）",
+          "sourceUrl": "https://course.cyc.edu.tw/upfile/course114/sub1/15937166927547299.pdf",
+          "sourceTitle": "嘉義縣鹿草鄉後塘國民小學－114學年度第二學期六年級普通班自然科學領域課程計畫（康軒版第十二冊）",
           "verifiedAt": "2026-11-17",
           "verificationStatus": "source-checked",
-          "notes": "康軒官方114學年度自然領域文宣明列國小六下單元二「能量與生活」，活動直接涵蓋能量互相轉換及生活中的能源利用。水力發電、太陽能板及太陽能烤箱題目與單元內容直接相符；僅作114學年度康軒教材版本對照；不代表題庫或任何學校實際採用114版本，亦不代表正式段考範圍。",
+          "notes": "嘉義縣鹿草鄉後塘國小114學年度第二學期六年級普通班自然科學領域課程計畫明列教材版本「康軒版第十二冊」，第七至第十週列第二單元「能量與生活」，涵蓋動能、能量轉換及能源利用；康軒官方114學年度下學期高年級數位服務（期中）頁亦列「能量與生活」單元資源。課程計畫是該校採用案例，不代表使用者學校採用康軒；映射只支持114版康軒國小六年級自然下學期單元二，不代表正式段考範圍。",
           "mappingLevel": "unit",
           "volume": "114學年度自然科學(6下)",
           "unitCode": "2",
@@ -3092,11 +3109,28 @@
           "subject": "自然",
           "courseTrack": null,
           "schoolYear": "114學年度",
-          "courseType": "國小"
+          "courseType": "國小",
+          "sourceType": "official-school-adoption-curriculum-plan",
+          "supportingSources": [
+            {
+              "sourceUrl": "https://course.cyc.edu.tw/upfile/course114/sub1/15937166927547299.pdf",
+              "sourceTitle": "嘉義縣鹿草鄉後塘國民小學－114學年度第二學期六年級普通班自然科學領域課程計畫（康軒版第十二冊）",
+              "sourceType": "official-school-adoption-curriculum-plan"
+            },
+            {
+              "sourceUrl": "https://digitalmaster.knsh.com.tw/el/nature/digital2-midterm/",
+              "sourceTitle": "康軒文教事業－114學年度下學期國小自然數位服務（期中）",
+              "sourceType": "official-publisher-digital-resource"
+            }
+          ],
+          "sourceRegistryRefs": [
+            "knsh-g6-natural-114-school-plan-houtang-6b",
+            "knsh-g6-natural-114-digital2-midterm"
+          ]
         }
       ],
-      "classificationNotes": "康軒官方114學年度自然領域文宣明列國小六下單元二「能量與生活」，活動直接涵蓋能量互相轉換及生活中的能源利用。題目分別涉及水力發電、太陽能板與太陽能烤箱的能量轉換，與單元內容直接相符；僅作114版教材單元對照，不代表學校採用版本或正式段考範圍。 學校實際採用版本未確認；段考僅作題庫複習建議，未取得正式範圍，故 examPeriod 維持 unassigned。",
-      "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文|https://945cloud.knsh.com.tw/E/promo/Show/upload/material/4/114%281%29%E8%87%AA%E7%84%B6%E9%A0%98%E5%9F%9F%E6%96%87%E5%AE%A3.pdf",
+      "classificationNotes": "康軒官方114學年度自然領域文宣明列國小六下單元二「能量與生活」，活動直接涵蓋能量互相轉換及生活中的能源利用。題目分別涉及水力發電、太陽能板與太陽能烤箱的能量轉換，與單元內容直接相符；僅作114版教材單元對照，不代表學校採用版本或正式段考範圍。 學校實際採用版本未確認；段考僅作題庫複習建議，未取得正式範圍，故 examPeriod 維持 unassigned。 來源重核（2026-11-17-knsh-g6-natural-114-source-replacement-01）：原康軒114自然領域文宣PDF連結重新開啟回應404，不再作為有效證據；現改以嘉義縣鹿草鄉後塘國民小學－114學年度第二學期六年級普通班自然科學領域課程計畫（康軒版第十二冊）核對年級、學期、冊別與第二單元「能量與生活」，並以康軒官方數位服務頁交叉核對單元內容。此課程計畫僅是該校採用案例，不代表使用者學校採用；examPeriod仍維持unassigned。",
+      "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文 | https://course.cyc.edu.tw/upfile/course114/sub1/15937166927547299.pdf | https://digitalmaster.knsh.com.tw/el/nature/digital2-midterm/",
       "learningDomain": "物理能量",
       "questionType": "概念辨識",
       "learningUnit": "能源轉換",
@@ -7452,11 +7486,11 @@
         {
           "publisher": "knsh",
           "mappingId": "knsh-g6-natural-114-6b-u3-ecology",
-          "sourceUrl": "https://945cloud.knsh.com.tw/E/promo/Show/upload/material/4/114%281%29%E8%87%AA%E7%84%B6%E9%A0%98%E5%9F%9F%E6%96%87%E5%AE%A3.pdf",
-          "sourceTitle": "114康軒國小教材特色－自然領域文宣（六下單元三「地球的生態」）",
+          "sourceUrl": "https://course.cyc.edu.tw/upfile/course114/sub1/15937166927547299.pdf",
+          "sourceTitle": "嘉義縣鹿草鄉後塘國民小學－114學年度第二學期六年級普通班自然科學領域課程計畫（康軒版第十二冊）",
           "verifiedAt": "2026-11-17",
           "verificationStatus": "source-checked",
-          "notes": "康軒官方114學年度國小教材特色PDF列六下自然主題「地球的生態」，主題脈絡明列食物鏈、族群與群集、生物間關係、生態系、特有種、保育類、外來入侵種及生物多樣性；課程架構另列單元三，活動包含生物彼此間的關係、不同生態系及維護生物多樣性。此映射只支持114版康軒國小六年級自然下學期單元三，不代表題庫或任何學校實際採用114版本，也不提供正式段考範圍。 題庫中的「棲地破碎化」僅作為本單元生物多樣性保育的情境應用，不宣稱官方目次另列該子單元。 題庫別名「生態平衡」及「外來種與生態」只用來對應本單元已列的生物間關係、外來入侵種與生物多樣性，不代表官方另列同名課次。",
+          "notes": "嘉義縣鹿草鄉後塘國小114學年度第二學期六年級普通班自然科學領域課程計畫明列教材版本「康軒版第十二冊」，第十二至第十八週列第三單元「地球的生態」，內容涵蓋食物鏈、族群與群集、生態系、生物多樣性及外來入侵種；康軒官方114學年度下學期高年級數位服務（期末）頁亦列單元三生態資源，包括食物鏈、能量傳遞、生物多樣性及外來種。課程計畫是該校採用案例，不代表使用者學校採用康軒；映射只支持114版康軒國小六年級自然下學期單元三，不代表正式段考範圍。",
           "mappingLevel": "unit",
           "volume": "114學年度自然科學(6下)",
           "unitCode": "3",
@@ -7485,11 +7519,28 @@
           "subject": "自然",
           "courseTrack": null,
           "schoolYear": "114學年度",
-          "courseType": "國小"
+          "courseType": "國小",
+          "sourceType": "official-school-adoption-curriculum-plan",
+          "supportingSources": [
+            {
+              "sourceUrl": "https://course.cyc.edu.tw/upfile/course114/sub1/15937166927547299.pdf",
+              "sourceTitle": "嘉義縣鹿草鄉後塘國民小學－114學年度第二學期六年級普通班自然科學領域課程計畫（康軒版第十二冊）",
+              "sourceType": "official-school-adoption-curriculum-plan"
+            },
+            {
+              "sourceUrl": "https://digitalmaster.knsh.com.tw/el/nature/digital2-final/",
+              "sourceTitle": "康軒文教事業－114學年度下學期國小自然數位服務（期末）",
+              "sourceType": "official-publisher-digital-resource"
+            }
+          ],
+          "sourceRegistryRefs": [
+            "knsh-g6-natural-114-school-plan-houtang-6b",
+            "knsh-g6-natural-114-digital2-final"
+          ]
         }
       ],
-      "classificationNotes": "康軒官方114學年度國小教材特色PDF列六下自然主題「地球的生態」，主題脈絡明列食物鏈、族群與群集、生物間關係、生態系、特有種、保育類、外來入侵種及生物多樣性；課程架構另列單元三，活動包含生物彼此間的關係、不同生態系及維護生物多樣性。此映射只支持114版康軒國小六年級自然下學期單元三，不代表題庫或任何學校實際採用114版本，也不提供正式段考範圍。",
-      "sourceRef": "https://945cloud.knsh.com.tw/E/promo/Show/upload/material/4/114%281%29%E8%87%AA%E7%84%B6%E9%A0%98%E5%9F%9F%E6%96%87%E5%AE%A3.pdf",
+      "classificationNotes": "康軒官方114學年度國小教材特色PDF列六下自然主題「地球的生態」，主題脈絡明列食物鏈、族群與群集、生物間關係、生態系、特有種、保育類、外來入侵種及生物多樣性；課程架構另列單元三，活動包含生物彼此間的關係、不同生態系及維護生物多樣性。此映射只支持114版康軒國小六年級自然下學期單元三，不代表題庫或任何學校實際採用114版本，也不提供正式段考範圍。 來源重核（2026-11-17-knsh-g6-natural-114-source-replacement-01）：原康軒114自然領域文宣PDF連結重新開啟回應404，不再作為有效證據；現改以嘉義縣鹿草鄉後塘國民小學－114學年度第二學期六年級普通班自然科學領域課程計畫（康軒版第十二冊）核對年級、學期、冊別與第三單元「地球的生態」，並以康軒官方數位服務頁交叉核對單元內容。此課程計畫僅是該校採用案例，不代表使用者學校採用；examPeriod仍維持unassigned。",
+      "sourceRef": "https://course.cyc.edu.tw/upfile/course114/sub1/15937166927547299.pdf | https://digitalmaster.knsh.com.tw/el/nature/digital2-final/",
       "learningDomain": "生物生命",
       "questionType": "概念辨識",
       "learningUnit": "生態系能量流",
@@ -9463,11 +9514,11 @@
         {
           "publisher": "knsh",
           "mappingId": "knsh-g6-natural-114-6b-u3-ecology",
-          "sourceUrl": "https://945cloud.knsh.com.tw/E/promo/Show/upload/material/4/114%281%29%E8%87%AA%E7%84%B6%E9%A0%98%E5%9F%9F%E6%96%87%E5%AE%A3.pdf",
-          "sourceTitle": "114康軒國小教材特色－自然領域文宣（六下單元三「地球的生態」）",
+          "sourceUrl": "https://course.cyc.edu.tw/upfile/course114/sub1/15937166927547299.pdf",
+          "sourceTitle": "嘉義縣鹿草鄉後塘國民小學－114學年度第二學期六年級普通班自然科學領域課程計畫（康軒版第十二冊）",
           "verifiedAt": "2026-11-17",
           "verificationStatus": "source-checked",
-          "notes": "康軒官方114學年度國小教材特色PDF列六下自然主題「地球的生態」，主題脈絡明列食物鏈、族群與群集、生物間關係、生態系、特有種、保育類、外來入侵種及生物多樣性；課程架構另列單元三，活動包含生物彼此間的關係、不同生態系及維護生物多樣性。此映射只支持114版康軒國小六年級自然下學期單元三，不代表題庫或任何學校實際採用114版本，也不提供正式段考範圍。 題庫中的「棲地破碎化」僅作為本單元生物多樣性保育的情境應用，不宣稱官方目次另列該子單元。 題庫別名「生態平衡」及「外來種與生態」只用來對應本單元已列的生物間關係、外來入侵種與生物多樣性，不代表官方另列同名課次。",
+          "notes": "嘉義縣鹿草鄉後塘國小114學年度第二學期六年級普通班自然科學領域課程計畫明列教材版本「康軒版第十二冊」，第十二至第十八週列第三單元「地球的生態」，內容涵蓋食物鏈、族群與群集、生態系、生物多樣性及外來入侵種；康軒官方114學年度下學期高年級數位服務（期末）頁亦列單元三生態資源，包括食物鏈、能量傳遞、生物多樣性及外來種。課程計畫是該校採用案例，不代表使用者學校採用康軒；映射只支持114版康軒國小六年級自然下學期單元三，不代表正式段考範圍。",
           "mappingLevel": "unit",
           "volume": "114學年度自然科學(6下)",
           "unitCode": "3",
@@ -9496,11 +9547,28 @@
           "subject": "自然",
           "courseTrack": null,
           "schoolYear": "114學年度",
-          "courseType": "國小"
+          "courseType": "國小",
+          "sourceType": "official-school-adoption-curriculum-plan",
+          "supportingSources": [
+            {
+              "sourceUrl": "https://course.cyc.edu.tw/upfile/course114/sub1/15937166927547299.pdf",
+              "sourceTitle": "嘉義縣鹿草鄉後塘國民小學－114學年度第二學期六年級普通班自然科學領域課程計畫（康軒版第十二冊）",
+              "sourceType": "official-school-adoption-curriculum-plan"
+            },
+            {
+              "sourceUrl": "https://digitalmaster.knsh.com.tw/el/nature/digital2-final/",
+              "sourceTitle": "康軒文教事業－114學年度下學期國小自然數位服務（期末）",
+              "sourceType": "official-publisher-digital-resource"
+            }
+          ],
+          "sourceRegistryRefs": [
+            "knsh-g6-natural-114-school-plan-houtang-6b",
+            "knsh-g6-natural-114-digital2-final"
+          ]
         }
       ],
-      "classificationNotes": "康軒官方114學年度國小教材特色PDF列六下自然主題「地球的生態」，主題脈絡明列食物鏈、族群與群集、生物間關係、生態系、特有種、保育類、外來入侵種及生物多樣性；課程架構另列單元三，活動包含生物彼此間的關係、不同生態系及維護生物多樣性。此映射只支持114版康軒國小六年級自然下學期單元三，不代表題庫或任何學校實際採用114版本，也不提供正式段考範圍。",
-      "sourceRef": "https://945cloud.knsh.com.tw/E/promo/Show/upload/material/4/114%281%29%E8%87%AA%E7%84%B6%E9%A0%98%E5%9F%9F%E6%96%87%E5%AE%A3.pdf",
+      "classificationNotes": "康軒官方114學年度國小教材特色PDF列六下自然主題「地球的生態」，主題脈絡明列食物鏈、族群與群集、生物間關係、生態系、特有種、保育類、外來入侵種及生物多樣性；課程架構另列單元三，活動包含生物彼此間的關係、不同生態系及維護生物多樣性。此映射只支持114版康軒國小六年級自然下學期單元三，不代表題庫或任何學校實際採用114版本，也不提供正式段考範圍。 來源重核（2026-11-17-knsh-g6-natural-114-source-replacement-01）：原康軒114自然領域文宣PDF連結重新開啟回應404，不再作為有效證據；現改以嘉義縣鹿草鄉後塘國民小學－114學年度第二學期六年級普通班自然科學領域課程計畫（康軒版第十二冊）核對年級、學期、冊別與第三單元「地球的生態」，並以康軒官方數位服務頁交叉核對單元內容。此課程計畫僅是該校採用案例，不代表使用者學校採用；examPeriod仍維持unassigned。",
+      "sourceRef": "https://course.cyc.edu.tw/upfile/course114/sub1/15937166927547299.pdf | https://digitalmaster.knsh.com.tw/el/nature/digital2-final/",
       "learningDomain": "生物生命",
       "questionType": "概念辨識",
       "learningUnit": "食物網與生態",
@@ -11129,5 +11197,21 @@
     "newQuestionsAdded": 0,
     "sourceBatchShasUnchanged": true,
     "notes": "新增翰林高中試題挖挖哇地理(3)第7回全球化單元層級映射；原始題目內容不變。"
+  },
+  "latestSourceVerificationAudit": {
+    "runId": "2026-11-17-knsh-g6-natural-114-source-replacement-01",
+    "verifiedAt": "2026-11-17",
+    "mappingIds": [
+      "knsh-g6-natural-114-6b-u2-energy-life",
+      "knsh-g6-natural-114-6b-u3-ecology"
+    ],
+    "questionIds": [
+      "b15-022",
+      "b16-023",
+      "b18-025",
+      "b19-025"
+    ],
+    "updatedQuestionRecords": 4,
+    "note": "康軒114六下自然映射改以學校課程計畫及出版社官方數位資源交叉核對；學期及段考值不變。"
   }
 }

@@ -14,39 +14,42 @@
       "path": "data/question-classification-batch-08-13.json",
       "batchRange": "08-13",
       "questionCount": 182,
-      "sha": "387add66afdcbbaedf8e4523b4dad42cc17253fe"
+      "sha": "f110ec4bce9e5322e65ed327f8db235030b67d52",
+      "updatedAt": "2026-11-17"
     },
     {
       "path": "data/question-classification-batch-14-19.json",
       "batchRange": "14-19",
       "questionCount": 517,
-      "sha": "28c87664ff872502a5dd21bb758f8573af8b7767"
+      "sha": "1156f2c5d327524c5890846e6291caff9ff2c908",
+      "updatedAt": "2026-11-17"
     },
     {
       "path": "data/question-classification-batch-20-25.json",
       "batchRange": "20-25",
       "questionCount": 601,
-      "sha": "0ab35dd76181a9baac38560ad9cc3e2d31e1bfa6"
+      "sha": "5e06f5ff42f2bc15de92462c5627cb7e16519286",
+      "updatedAt": "2026-11-17"
     },
     {
       "path": "data/question-classification-batch-26-31.json",
       "batchRange": "26-31",
       "questionCount": 600,
-      "sha": "c30b7ab5c8e4b22d146cc517150f4ae86726ca72",
+      "sha": "10fe7f6326ce72fe5496d4b60717929052a90374",
       "updatedAt": "2026-11-17"
     },
     {
       "path": "data/question-classification-batch-32-37.json",
       "batchRange": "32-37",
       "questionCount": 600,
-      "sha": "c7a9cf36ca9a0318ec03141a0d12c9c5f6ee5c20",
+      "sha": "5d3c53063e82f2af3c0f23c5ff79cfac7048bc22",
       "updatedAt": "2026-11-17"
     },
     {
       "path": "data/question-classification-batch-38-41.json",
       "batchRange": "38-41",
       "questionCount": 400,
-      "sha": "4ac297b308979466bd9749cb6cfd7a8dd8032ba1",
+      "sha": "59255fcaafc2a8f75bcf9c5db6a69826a018400b",
       "updatedAt": "2026-11-17"
     }
   ],
@@ -535,10 +538,17 @@
     "fullFilterMatrixTested": true,
     "targetedFilterMatrixTested": true,
     "targetedFilterCasesTested": 2119500,
-    "activeScopeAllModeQuestionCount": 1864
+    "activeScopeAllModeQuestionCount": 1864,
+    "sourceRegistryCount": 66,
+    "sourceRegistryVerificationStatusCounts": {
+      "source-checked": 63,
+      "source-unavailable": 2,
+      "pending": 1,
+      "_total": 66
+    }
   },
-  "sourceHeadVerified": "5a8cee716693a1d43739ec328a1512b962eb7c04",
-  "mainHeadVerifiedAt": "2026-11-17",
+  "sourceHeadVerified": true,
+  "mainHeadVerifiedAt": "2026-11-17T19:39:47+08:00",
   "latestVerificationAudit": {
     "runId": "2026-11-17-hanlin-h2-geography-volume-backfill-01",
     "date": "2026-11-17",
@@ -1689,7 +1699,7 @@
     "volumeLevelOnly": true,
     "validationMethod": "index.html getPool() semantics; targeted data-layer simulation, not browser runtime"
   },
-  "sourceHeadBeforeRun": "0749851b37306933769bde344f757a2d92ece3b1",
+  "sourceHeadBeforeRun": "9ab0004419e211b23801206d79c6cc6b33dc0319",
   "lastPersistenceRunId": "2026-11-17-hanlin-h2-history-decolonization-nonaligned-backfill-01",
   "latestRunAudit": {
     "runId": "2026-11-17-hanlin-h2-history-decolonization-nonaligned-backfill-01",
@@ -2165,5 +2175,93 @@
     "allModeReachable": true,
     "allModeQuestionCount": 2900,
     "validationMethod": "依 index.html 持久分類索引與 publisherMappings 篩選條件進行定向資料層模擬；非瀏覽器／手機實機測試。"
+  },
+  "sourceRegistryCount": 66,
+  "latestPublisherSourceVerificationAudit": {
+    "runId": "2026-11-17-knsh-g6-natural-114-source-replacement-01",
+    "verifiedAt": "2026-11-17",
+    "sourceHeadBeforeRun": "9ab0004419e211b23801206d79c6cc6b33dc0319",
+    "mappingIds": [
+      "knsh-g6-natural-114-6b-u1-simple-machines",
+      "knsh-g6-natural-114-6b-u2-energy-life",
+      "knsh-g6-natural-114-6b-u3-ecology"
+    ],
+    "questionIds": [
+      "b21-030",
+      "b27-039",
+      "b30-030",
+      "b32-028",
+      "b33-038",
+      "b8-009",
+      "b16-023",
+      "b27-035",
+      "b34-035",
+      "b39-036",
+      "b10-006",
+      "b15-022",
+      "b18-025",
+      "b19-025",
+      "b23-030",
+      "b24-032",
+      "b25-030",
+      "b27-027",
+      "b29-032",
+      "b30-025",
+      "b31-036",
+      "b32-027",
+      "b33-033",
+      "b35-033",
+      "b36-040",
+      "b38-039",
+      "b39-038",
+      "b40-037",
+      "b41-035",
+      "b41-040"
+    ],
+    "affectedShards": [
+      "data/question-classification-batch-08-13.json",
+      "data/question-classification-batch-14-19.json",
+      "data/question-classification-batch-20-25.json",
+      "data/question-classification-batch-26-31.json",
+      "data/question-classification-batch-32-37.json",
+      "data/question-classification-batch-38-41.json"
+    ],
+    "questionRecordsUpdated": 30,
+    "publisherMappingReferencesUpdated": 30,
+    "newQuestionsAdded": 0,
+    "semesterChanges": 0,
+    "examPeriodChanges": 0,
+    "oldSource": {
+      "sourceUrl": "https://945cloud.knsh.com.tw/E/promo/Show/upload/material/4/114%281%29%E8%87%AA%E7%84%B6%E9%A0%98%E5%9F%9F%E6%96%87%E5%AE%A3.pdf",
+      "httpStatus": 404,
+      "verificationStatus": "source-unavailable"
+    },
+    "replacementSources": [
+      {
+        "sourceUrl": "https://course.cyc.edu.tw/upfile/course114/sub1/15937166927547299.pdf",
+        "sourceTitle": "嘉義縣鹿草鄉後塘國民小學－114學年度第二學期六年級普通班自然科學領域課程計畫（康軒版第十二冊）",
+        "verificationStatus": "source-checked"
+      },
+      {
+        "sourceUrl": "https://digitalmaster.knsh.com.tw/el/nature/digital2-midterm/",
+        "sourceTitle": "康軒文教事業－114學年度下學期國小自然數位服務（期中）",
+        "verificationStatus": "source-checked"
+      },
+      {
+        "sourceUrl": "https://digitalmaster.knsh.com.tw/el/nature/digital2-final/",
+        "sourceTitle": "康軒文教事業－114學年度下學期國小自然數位服務（期末）",
+        "verificationStatus": "source-checked"
+      }
+    ],
+    "validation": {
+      "allSixShardJsonParse": true,
+      "updatedQuestionIdsFound": 30,
+      "scopeErrors": 0,
+      "missingSourceFields": 0,
+      "staleSourceRefs": 0,
+      "sourceRegistryRefsResolved": 30,
+      "filterMappingIdsPreserved": true,
+      "browserOrMobileTest": false
+    }
   }
 }
