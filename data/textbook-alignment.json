@@ -7916,6 +7916,68 @@
         "b41-038"
       ],
       "notes": "六題月相題目前標示國小六年級，但108自然科學領域課綱將Fb-IV-4月相變化列於第四學習階段。保留原始年級與題目內容，暫列unassigned/pending，不推定學期、段考或出版社；待教師／題目來源確認。未重跑全庫篩選矩陣，未做瀏覽器或手機實機測試。"
+    },
+    {
+      "runId": "2026-11-17-official-source-recheck-01",
+      "verifiedAt": "2026-11-17",
+      "sourceChecks": [
+        {
+          "mappingId": "nani-g6-math-6b-base-comparison",
+          "publisher": "nani",
+          "sourceUrl": "https://tpack.nani.com.tw/nani_content?a=341&b=1",
+          "sourceTitle": "南一資源_內文－數學6下｜基準量和比較量",
+          "verifiedAt": "2026-11-17",
+          "verificationStatus": "source-checked",
+          "mappingLevel": "unit",
+          "verifiedScope": "官方頁標題明示「數學6下｜基準量和比較量」，頁面標示學校／單位為南一書局，並列國小數學6年級。此頁可支持六下單元層級對照。",
+          "notes": "再次開啟南一官方TPACK頁確認標題、年級、科目與單位；不代表使用者學校採用南一，也不提供正式段考範圍。"
+        },
+        {
+          "mappingId": "hanlin-h2-physics-ii",
+          "publisher": "hanlin",
+          "sourceUrl": "https://books.hanlin.com.tw/product/004022",
+          "sourceTitle": "翰林書城－高中課本選修物理(II)力學二與熱學",
+          "verifiedAt": "2026-11-17",
+          "verificationStatus": "source-checked",
+          "mappingLevel": "volume",
+          "verifiedScope": "官方商品頁明示物理、高中二年級、上學期，商品名稱為選修物理(II)力學二與熱學；頁面未提供可核對的完整細分目次。",
+          "notes": "僅確認高二上冊別層級；不把動量、比熱等子題冒稱已逐項對應課本單元，不代表學校採用版本或正式段考範圍。"
+        },
+        {
+          "mappingId": "hanlin-h2-chemistry-ii-structure-rate",
+          "publisher": "hanlin",
+          "sourceUrl": "https://books.hanlin.com.tw/product/005022",
+          "sourceTitle": "翰林書城－高中課本選修化學(II)物質構造與反應速率",
+          "verifiedAt": "2026-11-17",
+          "verificationStatus": "source-checked",
+          "mappingLevel": "volume",
+          "verifiedScope": "官方商品頁明示化學、高中二年級、上學期，商品名稱為選修化學(II)物質構造與反應速率；頁面未提供可核對的完整細分目次。",
+          "notes": "僅確認高二上冊別層級；不把反應速率題宣稱已核對到主課本細分單元，不代表學校採用版本或正式段考範圍。"
+        },
+        {
+          "mappingId": "hanlin-h2-chemistry-iii-u2",
+          "publisher": "hanlin",
+          "sourceUrl": "https://books.hanlin.com.tw/product/435023",
+          "sourceTitle": "翰林書城－高中互動式教學講義選修化學(III)",
+          "verifiedAt": "2026-11-17",
+          "verificationStatus": "source-checked",
+          "mappingLevel": "unit",
+          "verifiedScope": "官方頁明示高中二、三年級化學全學年，目次第二章為沉澱反應與溶解平衡；可支持共同離子效應對應此單元。",
+          "notes": "單元層級對照依官方講義目次；此為全學年教學講義，不代表學校採用版本或正式段考範圍。"
+        }
+      ],
+      "mappingIdsReviewed": [
+        "nani-g6-math-6b-base-comparison",
+        "hanlin-h2-physics-ii",
+        "hanlin-h2-chemistry-ii-structure-rate",
+        "hanlin-h2-chemistry-iii-u2"
+      ],
+      "classificationChanges": 0,
+      "semesterAssignments": 0,
+      "examPeriodAssignments": 0,
+      "publisherMappingsAdded": 0,
+      "newQuestionsAdded": 0,
+      "notes": "本輪重新開啟4個官方來源並核對年級、科目、學期／冊別及可見單元範圍。既有分類與來源範圍一致；未找到學校正式段考進度，因此不新增examPeriod、不將冊別層級擴大成單元層級，也不宣稱任何學校採用版本。"
     }
   ],
   "high2MathCourseTrackAudit": {
@@ -8087,100 +8149,66 @@
     "mappingScopeErrors": 0
   },
   "lastSourceVerificationAudit": {
-    "runId": "2026-11-17-knsh-g6-natural-114-source-replacement-01",
+    "runId": "2026-11-17-official-source-recheck-01",
     "verifiedAt": "2026-11-17",
     "sourceChecks": [
       {
-        "mappingId": "knsh-g6-natural-114-6b-u1-simple-machines",
-        "publisher": "knsh",
-        "sourceUrl": "https://course.cyc.edu.tw/upfile/course114/sub1/15937166927547299.pdf",
-        "sourceTitle": "嘉義縣鹿草鄉後塘國民小學－114學年度第二學期六年級普通班自然科學領域課程計畫（康軒版第十二冊）",
+        "mappingId": "nani-g6-math-6b-base-comparison",
+        "publisher": "nani",
+        "sourceUrl": "https://tpack.nani.com.tw/nani_content?a=341&b=1",
+        "sourceTitle": "南一資源_內文－數學6下｜基準量和比較量",
         "verifiedAt": "2026-11-17",
         "verificationStatus": "source-checked",
         "mappingLevel": "unit",
-        "questionIds": [
-          "b21-030",
-          "b27-039",
-          "b30-030",
-          "b32-028",
-          "b33-038"
-        ],
-        "supportingSources": [
-          {
-            "sourceUrl": "https://digitalmaster.knsh.com.tw/el/nature/digital2-midterm/",
-            "sourceTitle": "康軒文教事業－114學年度下學期國小自然數位服務（期中）",
-            "verificationStatus": "source-checked"
-          }
-        ],
-        "verifiedScope": "嘉義縣鹿草鄉後塘國小114學年度第二學期六年級普通班自然科學領域課程計畫明列教材版本「康軒版第十二冊」，並列第一單元「簡單機械」，內容涵蓋槓桿、輪軸、滑輪及齒輪；康軒官方114學年度下學期高年級數位服務（期中）頁亦列單元一「簡單機械」及相關槓桿、輪軸、滑輪資源。課程計畫是該校採用案例，不代表使用者學校採用康軒；映射只支持114版康軒國小六年級自然下學期單元一，不代表正式段考範圍。"
+        "verifiedScope": "官方頁標題明示「數學6下｜基準量和比較量」，頁面標示學校／單位為南一書局，並列國小數學6年級。此頁可支持六下單元層級對照。",
+        "notes": "再次開啟南一官方TPACK頁確認標題、年級、科目與單位；不代表使用者學校採用南一，也不提供正式段考範圍。"
       },
       {
-        "mappingId": "knsh-g6-natural-114-6b-u2-energy-life",
-        "publisher": "knsh",
-        "sourceUrl": "https://course.cyc.edu.tw/upfile/course114/sub1/15937166927547299.pdf",
-        "sourceTitle": "嘉義縣鹿草鄉後塘國民小學－114學年度第二學期六年級普通班自然科學領域課程計畫（康軒版第十二冊）",
+        "mappingId": "hanlin-h2-physics-ii",
+        "publisher": "hanlin",
+        "sourceUrl": "https://books.hanlin.com.tw/product/004022",
+        "sourceTitle": "翰林書城－高中課本選修物理(II)力學二與熱學",
         "verifiedAt": "2026-11-17",
         "verificationStatus": "source-checked",
-        "mappingLevel": "unit",
-        "questionIds": [
-          "b8-009",
-          "b16-023",
-          "b27-035",
-          "b34-035",
-          "b39-036"
-        ],
-        "supportingSources": [
-          {
-            "sourceUrl": "https://digitalmaster.knsh.com.tw/el/nature/digital2-midterm/",
-            "sourceTitle": "康軒文教事業－114學年度下學期國小自然數位服務（期中）",
-            "verificationStatus": "source-checked"
-          }
-        ],
-        "verifiedScope": "嘉義縣鹿草鄉後塘國小114學年度第二學期六年級普通班自然科學領域課程計畫明列教材版本「康軒版第十二冊」，第七至第十週列第二單元「能量與生活」，涵蓋動能、能量轉換及能源利用；康軒官方114學年度下學期高年級數位服務（期中）頁亦列「能量與生活」單元資源。課程計畫是該校採用案例，不代表使用者學校採用康軒；映射只支持114版康軒國小六年級自然下學期單元二，不代表正式段考範圍。"
+        "mappingLevel": "volume",
+        "verifiedScope": "官方商品頁明示物理、高中二年級、上學期，商品名稱為選修物理(II)力學二與熱學；頁面未提供可核對的完整細分目次。",
+        "notes": "僅確認高二上冊別層級；不把動量、比熱等子題冒稱已逐項對應課本單元，不代表學校採用版本或正式段考範圍。"
       },
       {
-        "mappingId": "knsh-g6-natural-114-6b-u3-ecology",
-        "publisher": "knsh",
-        "sourceUrl": "https://course.cyc.edu.tw/upfile/course114/sub1/15937166927547299.pdf",
-        "sourceTitle": "嘉義縣鹿草鄉後塘國民小學－114學年度第二學期六年級普通班自然科學領域課程計畫（康軒版第十二冊）",
+        "mappingId": "hanlin-h2-chemistry-ii-structure-rate",
+        "publisher": "hanlin",
+        "sourceUrl": "https://books.hanlin.com.tw/product/005022",
+        "sourceTitle": "翰林書城－高中課本選修化學(II)物質構造與反應速率",
+        "verifiedAt": "2026-11-17",
+        "verificationStatus": "source-checked",
+        "mappingLevel": "volume",
+        "verifiedScope": "官方商品頁明示化學、高中二年級、上學期，商品名稱為選修化學(II)物質構造與反應速率；頁面未提供可核對的完整細分目次。",
+        "notes": "僅確認高二上冊別層級；不把反應速率題宣稱已核對到主課本細分單元，不代表學校採用版本或正式段考範圍。"
+      },
+      {
+        "mappingId": "hanlin-h2-chemistry-iii-u2",
+        "publisher": "hanlin",
+        "sourceUrl": "https://books.hanlin.com.tw/product/435023",
+        "sourceTitle": "翰林書城－高中互動式教學講義選修化學(III)",
         "verifiedAt": "2026-11-17",
         "verificationStatus": "source-checked",
         "mappingLevel": "unit",
-        "questionIds": [
-          "b10-006",
-          "b15-022",
-          "b18-025",
-          "b19-025",
-          "b23-030",
-          "b24-032",
-          "b25-030",
-          "b27-027",
-          "b29-032",
-          "b30-025",
-          "b31-036",
-          "b32-027",
-          "b33-033",
-          "b35-033",
-          "b36-040",
-          "b38-039",
-          "b39-038",
-          "b40-037",
-          "b41-035",
-          "b41-040"
-        ],
-        "supportingSources": [
-          {
-            "sourceUrl": "https://digitalmaster.knsh.com.tw/el/nature/digital2-final/",
-            "sourceTitle": "康軒文教事業－114學年度下學期國小自然數位服務（期末）",
-            "verificationStatus": "source-checked"
-          }
-        ],
-        "verifiedScope": "嘉義縣鹿草鄉後塘國小114學年度第二學期六年級普通班自然科學領域課程計畫明列教材版本「康軒版第十二冊」，第十二至第十八週列第三單元「地球的生態」，內容涵蓋食物鏈、族群與群集、生態系、生物多樣性及外來入侵種；康軒官方114學年度下學期高年級數位服務（期末）頁亦列單元三生態資源，包括食物鏈、能量傳遞、生物多樣性及外來種。課程計畫是該校採用案例，不代表使用者學校採用康軒；映射只支持114版康軒國小六年級自然下學期單元三，不代表正式段考範圍。"
+        "verifiedScope": "官方頁明示高中二、三年級化學全學年，目次第二章為沉澱反應與溶解平衡；可支持共同離子效應對應此單元。",
+        "notes": "單元層級對照依官方講義目次；此為全學年教學講義，不代表學校採用版本或正式段考範圍。"
       }
     ],
-    "questionRecordsUpdated": 30,
-    "publisherMappingReferencesUpdated": 30,
-    "newQuestionsAdded": 0
+    "mappingIdsReviewed": [
+      "nani-g6-math-6b-base-comparison",
+      "hanlin-h2-physics-ii",
+      "hanlin-h2-chemistry-ii-structure-rate",
+      "hanlin-h2-chemistry-iii-u2"
+    ],
+    "classificationChanges": 0,
+    "semesterAssignments": 0,
+    "examPeriodAssignments": 0,
+    "publisherMappingsAdded": 0,
+    "newQuestionsAdded": 0,
+    "notes": "本輪重新開啟4個官方來源並核對年級、科目、學期／冊別及可見單元範圍。既有分類與來源範圍一致；未找到學校正式段考進度，因此不新增examPeriod、不將冊別層級擴大成單元層級，也不宣稱任何學校採用版本。"
   },
   "lastRunAudit": {
     "runId": "2026-11-17-main-classification-reconciliation-02",
