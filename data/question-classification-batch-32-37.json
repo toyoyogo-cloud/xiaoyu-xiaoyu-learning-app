@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.1.0",
   "updatedAt": "2026-11-17",
-  "classificationRuleVersion": "2026-11-17.102",
+  "classificationRuleVersion": "2026-11-17.104",
   "batchRange": "32-37",
   "sourceBatchShas": {
     "32": "39bf8d31ef7a019d3fca6e78669afdcfb68a7aa4",
@@ -12983,17 +12983,45 @@
       "subject": "歷史",
       "courseTrack": null,
       "courseType": null,
-      "semester": "unassigned",
+      "semester": "上學期",
       "examPeriod": "unassigned",
-      "classificationBasis": "curriculum-core",
-      "confidence": "low",
-      "publisherStatus": "curriculum-core",
-      "publisherMappings": [],
-      "classificationNotes": "依108課綱共同核心原創編寫；未取得足以指定出版社細分單元或學校段考範圍的證據，故不掛出版社標籤並保留未分類。",
-      "sourceRef": "依108課綱共同核心概念原創編寫；非出版社或歷屆試題原文。",
+      "classificationBasis": "publisher-source-verified",
+      "confidence": "medium",
+      "publisherStatus": "publisher-mapped",
+      "publisherMappings": [
+        {
+          "publisher": "hanlin",
+          "mappingId": "hanlin-h2-history-3-u7-cold-war",
+          "sourceUrl": "https://fliphtml5.com/cojaq/nrjy/%E9%AB%98%E4%B8%AD%E8%A9%A6%E9%A1%8C%E6%8C%96%E6%8C%96%E5%93%87-%E6%AD%B7%E5%8F%B2(3)/3",
+          "sourceTitle": "翰林高中參考書－《試題挖挖哇：歷史(3)》第3頁目次",
+          "verifiedAt": "2026-11-17",
+          "verificationStatus": "source-checked",
+          "notes": "翰林書城官方商品頁明示高中二年級、歷史(3)、上學期；翰林高中參考書帳號公開《試題挖挖哇－歷史(3)》第3頁目次第7單元列冷戰期間的世界局勢、政治局勢及社會運動與反戰思潮。題目直接詢問冷戰時期新興獨立國家參與不結盟運動的訴求，與該單元政治局勢主題一致，故建立單元層級對照。此為出版社配套評量本目次，不是主課本完整目次；不代表學校採用版本、學年度或正式段考範圍。",
+          "mappingLevel": "unit",
+          "volume": "高中歷史(3)",
+          "unitCode": "7",
+          "unitName": "冷戰期間的世界局勢－冷戰期間的政治局勢",
+          "unitAliases": [
+            "冷戰圍堵政策",
+            "冷戰",
+            "圍堵政策",
+            "美國圍堵政策",
+            "冷戰期間的政治局勢",
+            "冷戰時期國際局勢"
+          ],
+          "semester": "上學期",
+          "grade": "高二",
+          "subject": "歷史",
+          "courseTrack": null,
+          "schoolYear": "未標示",
+          "courseType": "未確認"
+        }
+      ],
+      "classificationNotes": "題目直接詢問冷戰時期新興獨立國家參與不結盟運動、維持外交自主的訴求，對應翰林歷史(3)第7單元「冷戰期間的世界局勢」中的政治局勢主題。學期依翰林書城官方商品頁標示高二歷史(3)上學期；段考無官方或教師範圍，維持unassigned。配套評量本目次只作單元層級對照，不代表學校採用版本或題目取自教材。",
+      "sourceRef": "依108課綱共同核心概念原創編寫；非出版社或歷屆試題原文。 | https://fliphtml5.com/cojaq/nrjy/%E9%AB%98%E4%B8%AD%E8%A9%A6%E9%A1%8C%E6%8C%96%E6%8C%96%E5%93%87-%E6%AD%B7%E5%8F%B2(3)/3 | https://books.hanlin.com.tw/product/008021",
       "learningDomain": "世界史",
       "questionType": "概念辨識",
-      "learningUnit": "不結盟運動",
+      "learningUnit": "冷戰與不結盟運動",
       "difficultyLevel": "進階"
     },
     "b36-092": {
@@ -16366,27 +16394,31 @@
       "difficultyLevel": "進階"
     }
   },
-  "notes": " 2026-11-14.36：逐筆比對第32-37批原始題庫 semester 欄位，將原題庫已填且分類索引仍為 unassigned 的學期值同步為 question-bank-inference；不改動 publisher-source-verified、不推定段考、不新增出版社映射。 2026-11-14.46：南一官方「數學6下｜怎樣解題：雞兔問題」詳情頁已開啟核對；保留5題直接雞兔同籠映射，將3題汽車／機車及三腳椅／四腳桌類比題撤回出版社映射並改列共同核心。 2026-11-14.47：依國立臺北教育大學雙語教學研究中心官方目錄，將六年級自然串聯／並聯電路題目對應至上學期單元四「電磁作用」之課程主題層級；共2題，僅更新semester，examPeriod與出版社映射不變。 2026-11-15.51：回填5題六下簡單機械、2題六上地質的變化；依課程主題推定，出版社映射0、段考維持unassigned。 2026-11-15：新增3題高二歷史冷戰圍堵政策，對應翰林歷史(3)上學期單元7；段考維持unassigned。 2026-11-15.64：持久分類9題高二公民負外部性／外部成本題（b16-071、b19-071、b28-071、b31-095、b33-094、b37-093、b38-094、b39-096、b40-094）；依翰林高中課本公民與社會(3)乙版官方商品頁核對高二上學期，並以出版社配套評量本第3頁目次第4單元「外部成本與聯合行為」核對外部效果與政府對策。只建立翰林單元層級映射；confidence=medium，段考維持unassigned，不宣稱學校採用版本或教師審核；原始題庫未改、未新增題目。 2026-11-16.69：恢復20題高二選修課程出版社映射，原始 sourceRef 均直接指向翰林官方課本／教學講義頁；持久保存 courseType，物理(II)僅冊別層級、化學(III)依官方目次章節建立單元層級；examPeriod 保留 unassigned，不代表學校採用版本或正式段考範圍。 2026-11-16.70：同步分類解析器輸出 courseType/courseTrack 的版本標記；本分片題目資料未變更。 2026-11-16.72：修正3題共6處康軒六下數學兩量關係與比sourceUrl/sourceRef字串，與中央教材對照資料一致；未新增題目。 2026-11-17.96：將既有出版社映射參照同步至中央教材對照資料，修正來源日期、標題、URL與備註差異；保留題目分類與考期值。 2026-11-17.102：持久分類更新6題高二歷史（文藝復興1題、宗教改革與印刷術2題、戰後去殖民化3題）；新增2筆中央教材映射（第1、6單元），擴充第2單元印刷術別名。六題均標上學期、段考unassigned、publisher-source-verified、confidence=medium；原始題幹與答案不變。",
+  "notes": " 2026-11-14.36：逐筆比對第32-37批原始題庫 semester 欄位，將原題庫已填且分類索引仍為 unassigned 的學期值同步為 question-bank-inference；不改動 publisher-source-verified、不推定段考、不新增出版社映射。 2026-11-14.46：南一官方「數學6下｜怎樣解題：雞兔問題」詳情頁已開啟核對；保留5題直接雞兔同籠映射，將3題汽車／機車及三腳椅／四腳桌類比題撤回出版社映射並改列共同核心。 2026-11-14.47：依國立臺北教育大學雙語教學研究中心官方目錄，將六年級自然串聯／並聯電路題目對應至上學期單元四「電磁作用」之課程主題層級；共2題，僅更新semester，examPeriod與出版社映射不變。 2026-11-15.51：回填5題六下簡單機械、2題六上地質的變化；依課程主題推定，出版社映射0、段考維持unassigned。 2026-11-15：新增3題高二歷史冷戰圍堵政策，對應翰林歷史(3)上學期單元7；段考維持unassigned。 2026-11-15.64：持久分類9題高二公民負外部性／外部成本題（b16-071、b19-071、b28-071、b31-095、b33-094、b37-093、b38-094、b39-096、b40-094）；依翰林高中課本公民與社會(3)乙版官方商品頁核對高二上學期，並以出版社配套評量本第3頁目次第4單元「外部成本與聯合行為」核對外部效果與政府對策。只建立翰林單元層級映射；confidence=medium，段考維持unassigned，不宣稱學校採用版本或教師審核；原始題庫未改、未新增題目。 2026-11-16.69：恢復20題高二選修課程出版社映射，原始 sourceRef 均直接指向翰林官方課本／教學講義頁；持久保存 courseType，物理(II)僅冊別層級、化學(III)依官方目次章節建立單元層級；examPeriod 保留 unassigned，不代表學校採用版本或正式段考範圍。 2026-11-16.70：同步分類解析器輸出 courseType/courseTrack 的版本標記；本分片題目資料未變更。 2026-11-16.72：修正3題共6處康軒六下數學兩量關係與比sourceUrl/sourceRef字串，與中央教材對照資料一致；未新增題目。 2026-11-17.96：將既有出版社映射參照同步至中央教材對照資料，修正來源日期、標題、URL與備註差異；保留題目分類與考期值。 2026-11-17.102：持久分類更新6題高二歷史（文藝復興1題、宗教改革與印刷術2題、戰後去殖民化3題）；新增2筆中央教材映射（第1、6單元），擴充第2單元印刷術別名。六題均標上學期、段考unassigned、publisher-source-verified、confidence=medium；原始題幹與答案不變。\n2026-11-17.104：持久分類b36-091；依翰林歷史(3)第6／7單元目次新增單元層級映射，學期上學期、段考unassigned。",
   "lastUpdate": {
-    "date": "2026-11-17",
-    "ruleVersion": "2026-11-17.102",
+    "runId": "2026-11-17-hanlin-h2-history-decolonization-nonaligned-backfill-01",
+    "updatedAt": "2026-11-17T17:38:08+08:00",
     "updatedQuestionIds": [
-      "b32-089",
-      "b32-090",
-      "b33-091",
-      "b33-092",
-      "b34-092",
-      "b37-091"
+      "b36-091"
     ],
-    "semesterAssignments": 6,
+    "questionRecordsUpdated": 1,
+    "semesterAssignments": 1,
     "examPeriodAssignments": 0,
-    "publisherMappingsAdded": 2,
-    "publisherMappingReferencesAdded": 6,
+    "publisherMappingsAdded": 1,
+    "publisherMappingReferencesAdded": 1,
     "newQuestionsAdded": 0,
-    "notes": "同步兩筆題目映射的sourceUrl、verifiedAt與sourceRef，與中央教材對照資料一致；不變更分類、學期、段考或題目內容。",
-    "metadataCorrections": [
-      "b32-090",
-      "b33-092"
-    ]
-  }
+    "notes": "依翰林高中歷史(3)官方課本商品頁及出版社配套評量本第3頁目次，將戰後去殖民化／不結盟運動題目對應第6／7單元；段考維持unassigned，不代表學校採用版本。"
+  },
+  "history": [
+    {
+      "runId": "2026-11-17-hanlin-h2-history-decolonization-nonaligned-backfill-01",
+      "updatedAt": "2026-11-17T17:38:08+08:00",
+      "updatedQuestionIds": [
+        "b36-091"
+      ],
+      "questionRecordsUpdated": 1,
+      "publisherMappingsAdded": 1,
+      "newQuestionsAdded": 0
+    }
+  ]
 }
