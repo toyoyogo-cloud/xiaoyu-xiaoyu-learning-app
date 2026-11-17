@@ -1,6 +1,6 @@
 {
   "title": "題目分類持久索引",
-  "schemaVersion": "1.0.17",
+  "schemaVersion": "1.0.18",
   "updatedAt": "2026-11-17",
   "classificationRuleVersion": "2026-11-17.103",
   "sourceBranch": "main",
@@ -373,8 +373,8 @@
     "missingRequiredFields": 0,
     "invalidClassificationValues": 0,
     "semester": {
-      "unassigned": 2182,
-      "上學期": 480,
+      "unassigned": 2175,
+      "上學期": 487,
       "下學期": 164,
       "全學年": 74,
       "_total": 2900
@@ -387,66 +387,115 @@
       "_total": 2900
     },
     "classificationBasis": {
-      "curriculum-core": 2185,
-      "publisher-source-verified": 459,
+      "curriculum-core": 2178,
+      "publisher-source-verified": 466,
       "question-bank-inference": 256,
       "_total": 2900
     },
     "publisherStatus": {
-      "curriculum-core": 2321,
-      "publisher-mapped": 573,
+      "curriculum-core": 2314,
+      "publisher-mapped": 580,
       "pending": 6,
       "_total": 2900
     },
     "confidence": {
-      "low": 2070,
-      "medium": 792,
+      "low": 2064,
+      "medium": 798,
       "high": 38,
       "_total": 2900
     },
-    "publisherMappedQuestionCount": 573,
-    "publisherMappingReferenceCount": 677,
-    "validPublisherMappingReferenceCount": 677,
-    "centralMappingRegistryCount": 62,
+    "publisherMappedQuestionCount": 580,
+    "publisherMappingReferenceCount": 684,
+    "validPublisherMappingReferenceCount": 684,
+    "centralMappingRegistryCount": 64,
     "pendingQuestionCount": 6,
-    "curriculumCoreStatusCount": 2321,
+    "curriculumCoreStatusCount": 2314,
     "publisherReferenceCounts": {
       "knsh": 168,
-      "hanlin": 439,
+      "hanlin": 446,
       "nani": 70,
-      "_total": 677
+      "_total": 684
     },
     "validPublisherReferenceCounts": {
       "knsh": 168,
-      "hanlin": 439,
+      "hanlin": 446,
       "nani": 70,
-      "_total": 677
+      "_total": 684
     },
     "mappingLevelCounts": {
       "official-resource-title": 77,
-      "unit": 461,
+      "unit": 468,
       "volume": 139,
-      "_total": 677
+      "_total": 684
     },
     "validMappingLevelCounts": {
       "official-resource-title": 77,
-      "unit": 461,
+      "unit": 468,
       "volume": 139,
-      "_total": 677
+      "_total": 684
     },
     "mappingVerificationStatus": {
-      "source-checked": 677,
-      "_total": 677
+      "source-checked": 684,
+      "_total": 684
+    },
+    "centralMappingRegistryVerificationStatusCounts": {
+      "source-checked": 62,
+      "source-unavailable": 2,
+      "_total": 64
     },
     "mappingReferenceErrors": 0,
     "mappingSourceFieldErrors": 0,
     "mappingScopeErrors": 0,
-    "sourceBatchShasMatch": "34/34",
+    "sourceBatchShaMatches": 34,
+    "sourceBatchShaTotal": 34,
+    "sourceBatchShaMismatches": 0,
+    "duplicateQuestionIds": 0,
+    "missingClassificationCount": 0,
+    "semesterCounts": {
+      "unassigned": 2175,
+      "上學期": 487,
+      "下學期": 164,
+      "全學年": 74,
+      "_total": 2900
+    },
+    "semesterAssignedQuestionCount": 725,
+    "semesterUnassignedQuestionCount": 2175,
+    "examPeriodCounts": {
+      "unassigned": 2673,
+      "第一次段考": 65,
+      "第二次段考": 71,
+      "第三次段考": 91,
+      "_total": 2900
+    },
+    "examAssignedQuestionCount": 227,
+    "examUnassignedQuestionCount": 2673,
+    "classificationBasisCounts": {
+      "curriculum-core": 2178,
+      "publisher-source-verified": 466,
+      "question-bank-inference": 256,
+      "_total": 2900
+    },
+    "confidenceCounts": {
+      "low": 2064,
+      "medium": 798,
+      "high": 38,
+      "_total": 2900
+    },
+    "publisherStatusCounts": {
+      "curriculum-core": 2314,
+      "publisher-mapped": 580,
+      "pending": 6,
+      "_total": 2900
+    },
+    "curriculumCoreQuestionCount": 2314,
+    "sourceUnavailableMappingReferenceCount": 0,
+    "inferenceMappingRegistryCount": 64,
+    "activeScopeQuestionCount": 1864,
     "activeScope": {
       "questionCount": 1864,
       "semester": {
-        "unassigned": 1146,
-        "上學期": 480,
+        "unassigned": 1139,
+        "上學期": 487,
         "下學期": 164,
         "全學年": 74,
         "_total": 1864
@@ -459,83 +508,45 @@
         "_total": 1864
       },
       "publisherStatus": {
-        "curriculum-core": 1285,
-        "publisher-mapped": 573,
+        "curriculum-core": 1278,
+        "publisher-mapped": 580,
         "pending": 6,
         "_total": 1864
       }
     },
-    "duplicateQuestionIds": 0,
-    "missingClassificationCount": 0,
-    "semesterCounts": {
-      "unassigned": 2182,
-      "上學期": 480,
-      "下學期": 164,
-      "全學年": 74
-    },
-    "semesterAssignedQuestionCount": 718,
-    "semesterUnassignedQuestionCount": 2182,
-    "examPeriodCounts": {
-      "unassigned": 2673,
-      "第一次段考": 65,
-      "第二次段考": 71,
-      "第三次段考": 91
-    },
-    "examAssignedQuestionCount": 227,
-    "examUnassignedQuestionCount": 2673,
-    "classificationBasisCounts": {
-      "curriculum-core": 2185,
-      "publisher-source-verified": 459,
-      "question-bank-inference": 256
-    },
-    "confidenceCounts": {
-      "low": 2070,
-      "medium": 792,
-      "high": 38,
-      "_total": 2900
-    },
-    "publisherStatusCounts": {
-      "curriculum-core": 2321,
-      "publisher-mapped": 573,
-      "pending": 6
-    },
-    "curriculumCoreQuestionCount": 2321,
-    "sourceUnavailableMappingReferenceCount": 0,
-    "inferenceMappingRegistryCount": 62,
-    "activeScopeQuestionCount": 1864,
     "activeScopeSemesterCounts": {
-      "unassigned": 1146,
-      "上學期": 480,
+      "unassigned": 1139,
+      "上學期": 487,
       "下學期": 164,
-      "全學年": 74
+      "全學年": 74,
+      "_total": 1864
     },
     "activeScopeExamPeriodCounts": {
       "unassigned": 1637,
       "第一次段考": 65,
       "第二次段考": 71,
-      "第三次段考": 91
+      "第三次段考": 91,
+      "_total": 1864
     },
-    "sourceBatchFileCount": 34,
-    "sourceBatchShaMatches": 34,
-    "sourceBatchShaTotal": 34,
-    "sourceBatchShaMismatches": 0,
-    "filterCombinationsTested": 1200,
+    "filterCombinationsTested": 2119500,
     "filterErrors": 0,
     "publisherMappingLeaks": 0,
-    "nonZeroFilterCombinations": 64,
-    "zeroResultCombinations": 1136,
+    "nonZeroFilterCombinations": 37696,
+    "zeroResultCombinations": 2081804,
     "allModeReachable": true,
     "allModeQuestionCount": 2900,
-    "updatedQuestionRecords": 4,
-    "newPublisherMappingsPersisted": 4,
+    "updatedQuestionRecords": 0,
+    "newPublisherMappingsPersisted": 0,
     "stalePublisherMappingReferencesRemoved": 0,
     "classificationBasisCorrections": 0,
     "runtimePersistenceDifferencesReconciled": 0,
     "runtimePersistenceDifferencesRemaining": 0,
     "mappingReferenceMetadataCorrections": 0,
-    "fullFilterMatrixTested": false,
+    "indexShardShaCorrections": 1,
+    "fullFilterMatrixTested": true,
     "targetedFilterMatrixTested": true,
-    "targetedFilterCasesTested": 1200
+    "targetedFilterCasesTested": 2119500,
+    "activeScopeAllModeQuestionCount": 1864
   },
   "sourceHeadVerified": "76b31daa70f41591340c35f9e6a618245fea79d8",
   "mainHeadVerifiedAt": "2026-11-17",
@@ -671,25 +682,19 @@
   },
   "latestFilterValidation": {
     "date": "2026-11-17",
-    "runId": "2026-11-17-hanlin-h2-geography-volume-backfill-01",
-    "gradeSubjectCombinations": 1,
-    "filterCombinationsTested": 1200,
-    "nonZeroCombinations": 64,
-    "zeroResultCombinations": 1136,
+    "runId": "2026-11-17-full-corpus-filter-matrix-01",
+    "gradeSubjectCombinations": 48,
+    "filterCombinationsTested": 2119500,
+    "nonZeroCombinations": 37696,
+    "zeroResultCombinations": 2081804,
     "filterErrors": 0,
     "publisherMappingLeaks": 0,
     "allModeReachable": true,
     "allModeQuestionCount": 2900,
-    "updatedQuestionIds": [
-      "b41-085",
-      "b41-086",
-      "b41-087",
-      "b41-088"
-    ],
-    "updatedQuestionsReachable": true,
-    "hanlinUpperSemesterExamUnassignedPass": true,
-    "volumeLevelOnly": true,
-    "validationMethod": "index.html getPool() semantics; targeted data-layer simulation, not browser runtime"
+    "activeScopeQuestionCount": 1864,
+    "activeScopeFilterCombinationsTested": 1430100,
+    "activeScopeAllModeQuestionCount": 1864,
+    "validationMethod": "依 index.html getPool() 條件語義進行全庫資料層組合模擬，涵蓋48組年級／科目、難度、學期、段考、出版社、單元與高二數學軌別；非瀏覽器／手機實機測試。"
   },
   "classificationPersistenceRuns": [
     {
@@ -1473,34 +1478,27 @@
   "auditNotes": " 2026-11-16.76：全庫2,900題完成分類分片重算；34/34批次SHA一致。持久更新b41-093至b41-096四題，新增翰林高二公民單元3、9、12三筆中央映射；學期上學期、段考unassigned。資料層篩選7,800組，錯誤0，未做瀏覽器／手機實機測試。 2026-11-16.76稽核更正：映射範圍驗證依中央映射的grade/subject/courseTrack/courseType與題目資料比對，重算後mappingScopeErrors=0；前一輪暫存數字74為使用題目引用物件中非必填的grade/subject欄位進行比對所致，已更正。34/34批次SHA、2,900唯一ID、556筆來源引用均通過。 2026-11-16-knsh-g6-math-speed-scale-backfill-01：新增b8-008、b8-012兩筆康軒114六上單元映射；移除無來源支持的第三次段考標籤，改為unassigned。題庫學年度未標示，不宣稱學校採用版本；未新增題目。 2026-11-16全庫篩選回歸：7,800組資料層條件測試通過，2,900題全部可由全部版本模式取得，出版社映射洩漏0、篩選錯誤0；未做瀏覽器／手機實機測試。\n2026-11-16.79：修正六年級數學康軒來源連結，原114高年級綜合文宣PDF回傳404，改用康軒署名帳號於FlipHTML5公開的114(1)補充教材頁；建立速率、比例尺、圓面積三筆official-resource-title中央映射，更新b8-008、b8-012、b12-012、b13-008。b12-012學期校正為上學期；b12-012及b13-008段考改unassigned。全庫2,900題／唯一ID不變，分類紀錄2,900筆，出版社映射459題／563筆引用；7,800組資料層篩選測試非零575、零題7,225、映射洩漏0、篩選錯誤0。未新增題目；未執行瀏覽器／手機實機測試。 2026-11-16-classification-index-sync-after-source-audit-01：同步main最新來源頭 214a9223898a7f7efaeb1927c10c085941beb1f5 與完整分類稽核。2,900題／2,900唯一ID、34批SHA 34/34、分類欄位缺漏0、非法值0、出版社映射參照563筆／中央映射55組、未解析引用0；7,800組篩選回歸非零575、合理零題7,225、映射洩漏0、篩選錯誤0。未新增題目，未改寫既有題目分類。 2026-11-17.87：依康軒官方114學年度自然教材PDF，持久回填b38-039、b39-038、b40-037、b41-035、b41-040五題至六下單元三「地球的生態」；四題補回下學期，一題維持既有下學期；段考均unassigned。全庫2,900筆、唯一ID 2,900、必要欄位缺漏0、來源映射錯誤0；資料層篩選7200組，出版社映射洩漏0，全部版本可達2,900題。未新增題目，未做瀏覽器／手機實機測試。 2026-11-17：新增康軒六下梯形面積官方補充資源標題層級對照，持久分類4題；不新增題目，段考維持unassigned。 2026-11-17來源標題更正：康軒官方PDF的梯形題位於6下單元學後檢測卷第7題，已修正sourceTitle與單元描述，分類數值不變。\n2026-11-17: persisted 25 classification record updates; 8 verified mappings added; 4 stale 113-version mapping refs removed; 36 runtime/persistence diffs reconciled; 7,800 filter combinations passed. 2026-11-17.97：六年級數學速率／平均速率5題、比例尺9題、圓面積2題，依康軒114(1)《數學計算高手6年級》出版社帳號公開補充教材頁，新增16筆official-resource-title映射；補充教材不冒稱完整教科書目次或學校採用版本。兩題圓面積保留題庫推定全域下學期，康軒補充教材映射為上學期；指定出版社依映射學期篩選。段考欄位不變，仍僅作複習建議。新增平均速率別名；未新增題目。 2026-11-17.99：7題高二地理全球化／跨國分工題目新增翰林地理(3)第7回單元映射；分類分片已同步，原始34批題庫未改，無新增題目。 2026-11-17.99：依index.html getPool()條件語義執行48組年級／科目、6種出版社、5種學期、5種段考及高二數學軌別，共7,800組資料層篩選；錯誤0、出版社映射外洩0、全部版本可達2,900題。此為資料層模擬，非瀏覽器／手機實機測試。 2026-11-17.100: four existing H2 Geography questions mapped only to Hanlin Geography(3) volume level; unit unverified, exam unassigned. 2026-11-17.100驗收註記：本輪完成1,200組定向篩選資料層測試；未重跑全庫7,800組矩陣。推定器新映射已登錄，但未執行JavaScript runtime／瀏覽器實機語法測試。",
   "shardCount": 6,
   "latestAudit": {
-    "runId": "2026-11-17-hanlin-h2-geography-volume-backfill-01",
+    "runId": "2026-11-17-full-corpus-filter-matrix-01",
     "date": "2026-11-17",
-    "sourceHeadBeforeRun": "76b31daa70f41591340c35f9e6a618245fea79d8",
+    "sourceHeadBeforeRun": "12a9522dc0c5cbd93adcac21e550ff46dd820dd7",
     "batches": "08-41",
     "batchFileCount": 34,
     "fullCorpusQuestionCount": 2900,
     "activeScopeQuestionCount": 1864,
-    "questionRecordsUpdated": 4,
-    "updatedQuestionIds": [
-      "b41-085",
-      "b41-086",
-      "b41-087",
-      "b41-088"
-    ],
-    "semesterAssignments": 4,
-    "semesterCorrections": 0,
+    "questionRecordsUpdated": 0,
+    "updatedQuestionIds": [],
+    "semesterAssignments": 0,
     "examPeriodAssignments": 0,
-    "examPeriodCorrections": 0,
-    "publisherMappingsAdded": 1,
-    "publisherMappingReferencesAdded": 4,
-    "publisherMappingReferencesCorrected": 0,
-    "publisherMappingReferencesRemoved": 0,
+    "publisherMappingsAdded": 0,
+    "publisherMappingReferencesAdded": 0,
+    "inferenceMappingsAdded": 0,
+    "indexShardShaCorrections": 0,
     "newQuestionsAdded": 0,
     "sourceBatchShasMatch": "34/34",
-    "classificationRuleVersion": "2026-11-17.100",
+    "classificationRuleVersion": "2026-11-17.103",
     "fullCorpusSemesterDistribution": {
-      "unassigned": 2182,
-      "上學期": 480,
+      "unassigned": 2175,
+      "上學期": 487,
       "下學期": 164,
       "全學年": 74,
       "_total": 2900
@@ -1513,76 +1511,69 @@
       "_total": 2900
     },
     "fullCorpusClassificationBasisDistribution": {
-      "curriculum-core": 2185,
-      "publisher-source-verified": 459,
+      "curriculum-core": 2178,
+      "publisher-source-verified": 466,
       "question-bank-inference": 256,
       "_total": 2900
     },
     "fullCorpusPublisherStatusDistribution": {
-      "curriculum-core": 2321,
-      "publisher-mapped": 573,
+      "curriculum-core": 2314,
+      "publisher-mapped": 580,
       "pending": 6,
       "_total": 2900
     },
     "fullCorpusConfidenceDistribution": {
-      "low": 2070,
-      "medium": 792,
+      "low": 2064,
+      "medium": 798,
       "high": 38,
       "_total": 2900
     },
     "publisherReferenceCounts": {
       "knsh": 168,
-      "hanlin": 439,
+      "hanlin": 446,
       "nani": 70,
-      "_total": 677
+      "_total": 684
     },
     "mappingLevelCounts": {
       "official-resource-title": 77,
-      "unit": 461,
+      "unit": 468,
       "volume": 139,
-      "_total": 677
+      "_total": 684
     },
     "mappingVerificationStatusCounts": {
-      "source-checked": 677,
-      "_total": 677
+      "source-checked": 684,
+      "_total": 684
     },
     "validation": {
-      "jsonParse": true,
       "classificationRecords": 2900,
       "uniqueIds": 2900,
       "duplicateIds": 0,
       "missingFromClassification": 0,
-      "extraClassificationIds": 0,
       "missingRequiredFields": 0,
-      "invalidClassificationValues": 0,
       "mappingReferenceErrors": 0,
       "sourceFieldErrors": 0,
       "mappingScopeErrors": 0,
       "sourceBatchShasMatch": "34/34",
-      "updatedQuestionsChecked": 4,
-      "updatedQuestionIdsReachable": true,
-      "targetedFilterCombinationsTested": 1200,
-      "targetedFilterErrors": 0,
+      "indexShardShaMismatchesAfter": 0,
+      "centralMappingRegistryCount": 64,
+      "inferenceMappingRegistryCount": 64,
+      "filterCombinationsTested": 2119500,
+      "nonZeroFilterCombinations": 37696,
+      "zeroResultCombinations": 2081804,
+      "filterErrors": 0,
       "publisherMappingLeaks": 0,
       "allModeReachable": true,
       "allModeQuestionCount": 2900,
+      "activeScopeQuestionCount": 1864,
+      "activeScopeAllModeQuestionCount": 1864,
       "appReadsPersistedClassificationIndex": true,
       "zeroResultHintPresent": true,
       "serviceWorkerAssetManifestComplete": true,
-      "inferenceSyntaxStructureChecked": false,
-      "browserOrMobileRuntimeTested": false,
-      "fullFilterMatrixTested": false,
-      "filterCombinationsTested": 1200,
-      "nonZeroFilterCombinations": 64,
-      "zeroResultCombinations": 1136,
-      "filterErrors": 0,
-      "targetedFilterMatrixTested": true,
-      "targetedFilterCasesTested": 1200,
-      "inferenceMappingDefinitionPresent": true,
-      "inferenceSyntaxRuntimeTested": false,
-      "inferenceSyntaxCheckNote": "Only checked that the new mapping identifier and definition are present; no JavaScript parser, browser runtime, or CI syntax test was run."
+      "inferenceSyntaxValid": true,
+      "fullFilterMatrixTested": true,
+      "browserOrMobileRuntimeTested": false
     },
-    "notes": "依翰林書城官方高中學習寶典－地理(3)商品頁確認高二、地理、上學期；未公開細分目次，故僅建立冊別層級映射。四題單元不冒稱已核對，段考維持unassigned。只更新既有分類，原始題庫與題目內容未修改，未新增題目。"
+    "notes": "本輪在前一輪 active scope 1,430,100 組資料層測試之外，擴大到第08–41批全庫48組年級／科目條件，完成2,119,500組完整資料層篩選模擬；全部版本可達2,900題，零錯誤與零出版社映射洩漏。沒有修改題目分類或新增題目。"
   },
   "coverageNote": "coverageStatus=complete 表示第08–41批全部題目均有持久分類紀錄；學期／段考欄位仍依證據保留 unassigned，不代表每題均已確定考期。",
   "latestMainClassificationAudit": {
@@ -2112,6 +2103,7 @@
     "newQuestionsAdded": 0,
     "browserOrMobileRuntimeTested": false,
     "filterMatrixTestedThisRun": false,
-    "notes": "Fresh main reconciliation: all 34 batch blob SHAs match the six classification shard sourceBatchShas maps; all six shard blob SHAs match the classification index. Removed a null placeholder from textbook-alignment.mappings; no question record or publisher mapping was changed. The existing 2,119,500-case data-layer filter audit remains the latest filter-matrix evidence; this registry cleanup did not rerun it."
+    "notes": "Fresh main reconciliation: all 34 batch blob SHAs match the six classification shard sourceBatchShas maps; all six shard blob SHAs match the classification index. Removed a null placeholder from textbook-alignment.mappings; no question record or publisher mapping was changed. The existing 2,119,500-case data-layer filter audit remains the latest filter-matrix evidence; this registry cleanup did not rerun it. Classification index summary statistics were also reconciled to the same persisted shard totals.",
+    "indexStatisticsReconciled": true
   }
 }
