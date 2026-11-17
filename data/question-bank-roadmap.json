@@ -340,7 +340,7 @@
     "indexShardShaCorrections": 0,
     "newQuestionsAdded": 0,
     "sourceBatchShasMatch": "34/34",
-    "classificationRuleVersion": "2026-11-17.104",
+    "classificationRuleVersion": "2026-11-17.103",
     "fullCorpusSemesterDistribution": {
       "unassigned": 2175,
       "上學期": 487,
@@ -2156,7 +2156,8 @@
     "sourceBatchShasMatch": "34/34",
     "centralMappingRegistryCount": 64,
     "inferenceMappingRegistryCount": 64,
-    "missingInferenceDefinitions": 0
+    "missingInferenceDefinitions": 0,
+    "classificationRuleVersion": "2026-11-17.103"
   },
   "batch14ClassificationAudit": {
     "auditedAt": "2026-11-14",
@@ -2664,7 +2665,7 @@
     "indexShardShaCorrections": 0,
     "newQuestionsAdded": 0,
     "sourceBatchShasMatch": "34/34",
-    "classificationRuleVersion": "2026-11-17.104",
+    "classificationRuleVersion": "2026-11-17.103",
     "fullCorpusSemesterDistribution": {
       "unassigned": 2175,
       "上學期": 487,

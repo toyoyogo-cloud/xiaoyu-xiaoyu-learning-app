@@ -5357,7 +5357,7 @@
       "indexShardShaCorrections": 0,
       "newQuestionsAdded": 0,
       "sourceBatchShasMatch": "34/34",
-      "classificationRuleVersion": "2026-11-17.104",
+      "classificationRuleVersion": "2026-11-17.103",
       "fullCorpusSemesterDistribution": {
         "unassigned": 2175,
         "上學期": 487,
@@ -7700,7 +7700,7 @@
     "indexShardShaCorrections": 0,
     "newQuestionsAdded": 0,
     "sourceBatchShasMatch": "34/34",
-    "classificationRuleVersion": "2026-11-17.104",
+    "classificationRuleVersion": "2026-11-17.103",
     "fullCorpusSemesterDistribution": {
       "unassigned": 2175,
       "上學期": 487,
@@ -8116,7 +8116,7 @@
     "indexShardShaCorrections": 0,
     "newQuestionsAdded": 0,
     "sourceBatchShasMatch": "34/34",
-    "classificationRuleVersion": "2026-11-17.104",
+    "classificationRuleVersion": "2026-11-17.103",
     "fullCorpusSemesterDistribution": {
       "unassigned": 2175,
       "上學期": 487,
@@ -9828,7 +9828,7 @@
       "indexShardShaCorrections": 0,
       "newQuestionsAdded": 0,
       "sourceBatchShasMatch": "34/34",
-      "classificationRuleVersion": "2026-11-17.104",
+      "classificationRuleVersion": "2026-11-17.103",
       "fullCorpusSemesterDistribution": {
         "unassigned": 2175,
         "上學期": 487,
@@ -9939,7 +9939,7 @@
       "centralMappingCount": 39
     }
   },
-  "classificationRuleVersion": "2026-11-17.104",
+  "classificationRuleVersion": "2026-11-17.103",
   "classificationPersistenceRunsRecovery": {
     "repairedAt": "2026-11-16",
     "previousLength": 337,
@@ -10167,7 +10167,7 @@
     "indexShardShaCorrections": 0,
     "newQuestionsAdded": 0,
     "sourceBatchShasMatch": "34/34",
-    "classificationRuleVersion": "2026-11-17.104",
+    "classificationRuleVersion": "2026-11-17.103",
     "fullCorpusSemesterDistribution": {
       "unassigned": 2175,
       "上學期": 487,
@@ -10374,7 +10374,7 @@
     "indexShardShaCorrections": 0,
     "newQuestionsAdded": 0,
     "sourceBatchShasMatch": "34/34",
-    "classificationRuleVersion": "2026-11-17.104",
+    "classificationRuleVersion": "2026-11-17.103",
     "fullCorpusSemesterDistribution": {
       "unassigned": 2175,
       "上學期": 487,
