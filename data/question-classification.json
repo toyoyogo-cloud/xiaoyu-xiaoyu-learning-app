@@ -1,6 +1,6 @@
 {
   "title": "題目分類持久索引",
-  "schemaVersion": "1.0.16",
+  "schemaVersion": "1.0.17",
   "updatedAt": "2026-11-17",
   "classificationRuleVersion": "2026-11-17.103",
   "sourceBranch": "main",
@@ -2050,5 +2050,68 @@
       "inferenceSyntaxCheckNote": "Only checked that the new mapping identifier and definition are present; no JavaScript parser, browser runtime, or CI syntax test was run."
     },
     "notes": "依翰林書城官方高中學習寶典－地理(3)商品頁確認高二、地理、上學期；未公開細分目次，故僅建立冊別層級映射。四題單元不冒稱已核對，段考維持unassigned。只更新既有分類，原始題庫與題目內容未修改，未新增題目。"
+  },
+  "latestRegistryIntegrityAudit": {
+    "runId": "2026-11-17-textbook-registry-null-entry-cleanup-01",
+    "date": "2026-11-17",
+    "sourceHeadBeforeRun": "8a5f3b2cdb90bc756d8d85c36a297d2680d2ba32",
+    "batchRange": "08-41",
+    "batchFileCount": 34,
+    "rawQuestionCount": 2900,
+    "rawQuestionRequiredFieldErrors": 0,
+    "classificationRecordCount": 2900,
+    "uniqueClassificationIds": 2900,
+    "duplicateQuestionIds": 0,
+    "missingClassificationCount": 0,
+    "sourceBatchShaMatches": "34/34",
+    "classificationShardShaMatches": "6/6",
+    "semesterDistribution": {
+      "unassigned": 2175,
+      "上學期": 487,
+      "下學期": 164,
+      "全學年": 74
+    },
+    "examPeriodDistribution": {
+      "unassigned": 2673,
+      "第一次段考": 65,
+      "第二次段考": 71,
+      "第三次段考": 91
+    },
+    "classificationBasisDistribution": {
+      "curriculum-core": 2178,
+      "publisher-source-verified": 466,
+      "question-bank-inference": 256
+    },
+    "publisherStatusDistribution": {
+      "curriculum-core": 2314,
+      "publisher-mapped": 580,
+      "pending": 6
+    },
+    "confidenceDistribution": {
+      "low": 2064,
+      "medium": 798,
+      "high": 38
+    },
+    "publisherMappedQuestionCount": 580,
+    "publisherMappingReferenceCount": 684,
+    "publisherReferenceCounts": {
+      "knsh": 168,
+      "hanlin": 446,
+      "nani": 70
+    },
+    "centralMappingRegistryCount": 64,
+    "inferenceMappingRegistryCount": 64,
+    "distinctReferencedMappingIds": 59,
+    "missingCentralMappingReferences": 0,
+    "centralMappingSourceFieldErrors": 0,
+    "nullRegistryEntriesFound": 1,
+    "nullRegistryEntryIndexes": [
+      62
+    ],
+    "nullRegistryEntriesRemoved": 1,
+    "newQuestionsAdded": 0,
+    "browserOrMobileRuntimeTested": false,
+    "filterMatrixTestedThisRun": false,
+    "notes": "Fresh main reconciliation: all 34 batch blob SHAs match the six classification shard sourceBatchShas maps; all six shard blob SHAs match the classification index. Removed a null placeholder from textbook-alignment.mappings; no question record or publisher mapping was changed. The existing 2,119,500-case data-layer filter audit remains the latest filter-matrix evidence; this registry cleanup did not rerun it."
   }
 }

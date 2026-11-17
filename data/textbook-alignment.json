@@ -1,6 +1,6 @@
 {
   "title": "南一／翰林／康軒教材版本對照資料庫",
-  "schemaVersion": "1.0.12",
+  "schemaVersion": "1.0.13",
   "updatedAt": "2026-11-17",
   "purpose": "同時支援跨版本共同核心整合與指定出版社版本練習。此檔先建立資料規格；未經官方或學校教材核對的單元不得標示為已對應。",
   "modes": [
@@ -2147,7 +2147,6 @@
       "unitAliases": [],
       "scopeKeywords": []
     },
-    null,
     {
       "id": "hanlin-h2-history-3-u1-renaissance",
       "mappingId": "hanlin-h2-history-3-u1-renaissance",
@@ -10482,5 +10481,68 @@
     "activeScopeFilterCombinationsTested": 1430100,
     "activeScopeAllModeQuestionCount": 1864,
     "validationMethod": "依 index.html getPool() 條件語義進行全庫資料層組合模擬，涵蓋48組年級／科目、難度、學期、段考、出版社、單元與高二數學軌別；非瀏覽器／手機實機測試。"
+  },
+  "latestRegistryIntegrityAudit": {
+    "runId": "2026-11-17-textbook-registry-null-entry-cleanup-01",
+    "date": "2026-11-17",
+    "sourceHeadBeforeRun": "8a5f3b2cdb90bc756d8d85c36a297d2680d2ba32",
+    "batchRange": "08-41",
+    "batchFileCount": 34,
+    "rawQuestionCount": 2900,
+    "rawQuestionRequiredFieldErrors": 0,
+    "classificationRecordCount": 2900,
+    "uniqueClassificationIds": 2900,
+    "duplicateQuestionIds": 0,
+    "missingClassificationCount": 0,
+    "sourceBatchShaMatches": "34/34",
+    "classificationShardShaMatches": "6/6",
+    "semesterDistribution": {
+      "unassigned": 2175,
+      "上學期": 487,
+      "下學期": 164,
+      "全學年": 74
+    },
+    "examPeriodDistribution": {
+      "unassigned": 2673,
+      "第一次段考": 65,
+      "第二次段考": 71,
+      "第三次段考": 91
+    },
+    "classificationBasisDistribution": {
+      "curriculum-core": 2178,
+      "publisher-source-verified": 466,
+      "question-bank-inference": 256
+    },
+    "publisherStatusDistribution": {
+      "curriculum-core": 2314,
+      "publisher-mapped": 580,
+      "pending": 6
+    },
+    "confidenceDistribution": {
+      "low": 2064,
+      "medium": 798,
+      "high": 38
+    },
+    "publisherMappedQuestionCount": 580,
+    "publisherMappingReferenceCount": 684,
+    "publisherReferenceCounts": {
+      "knsh": 168,
+      "hanlin": 446,
+      "nani": 70
+    },
+    "centralMappingRegistryCount": 64,
+    "inferenceMappingRegistryCount": 64,
+    "distinctReferencedMappingIds": 59,
+    "missingCentralMappingReferences": 0,
+    "centralMappingSourceFieldErrors": 0,
+    "nullRegistryEntriesFound": 1,
+    "nullRegistryEntryIndexes": [
+      62
+    ],
+    "nullRegistryEntriesRemoved": 1,
+    "newQuestionsAdded": 0,
+    "browserOrMobileRuntimeTested": false,
+    "filterMatrixTestedThisRun": false,
+    "notes": "Fresh main reconciliation: all 34 batch blob SHAs match the six classification shard sourceBatchShas maps; all six shard blob SHAs match the classification index. Removed a null placeholder from textbook-alignment.mappings; no question record or publisher mapping was changed. The existing 2,119,500-case data-layer filter audit remains the latest filter-matrix evidence; this registry cleanup did not rerun it."
   }
 }
