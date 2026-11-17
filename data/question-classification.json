@@ -49,7 +49,7 @@
       "path": "data/question-classification-batch-38-41.json",
       "batchRange": "38-41",
       "questionCount": 400,
-      "sha": "60e0e6a8e65e76d62edc7611ad060dbb25d79d38",
+      "sha": "5baf1b9c425127aa74ba92f947a7d15bf1cd6146",
       "updatedAt": "2026-11-18"
     }
   ],
@@ -2920,7 +2920,7 @@
     "shardsVerified": 6,
     "shardShaMismatches": 0,
     "updatedShardPath": "data/question-classification-batch-38-41.json",
-    "updatedShardSha": "60e0e6a8e65e76d62edc7611ad060dbb25d79d38"
+    "updatedShardSha": "5baf1b9c425127aa74ba92f947a7d15bf1cd6146"
   },
   "activeScopeQuestionCount": 1864,
   "latestActiveScopeAudit": {
@@ -2990,6 +2990,17 @@
       "pending": 1,
       "source-unavailable": 1
     },
-    "notes": "年級範圍證據不足或來源訊號不一致的題目保留待核對；原始題目年級與內容未修改。"
+    "notes": "年級範圍證據不足或來源訊號不一致的題目保留待核對；原始題目年級與內容未修改。",
+    "reviewedPendingCount": 5,
+    "fullCorpusPendingCount": 21,
+    "sourceIds": [
+      "naer-natural-108-curriculum-pdf",
+      "naer-natural-science-course-handbook-108",
+      "educloud-density-grade78",
+      "educloud-sound-reflection-grade79",
+      "educloud-moon-phase-grade79",
+      "educloud-solar-altitude-grade56",
+      "educloud-sun-heat-grade56"
+    ]
   }
 }
