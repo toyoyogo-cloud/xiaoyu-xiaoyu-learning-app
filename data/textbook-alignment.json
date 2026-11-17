@@ -8144,7 +8144,13 @@
       "filterMatrixTestedThisRun": false,
       "browserOrMobileRuntimeTested": false
     },
-    "notes": "7題原始年級欄位與課綱概念學習階段不一致，保留原題與原年級，暫改為unassigned/pending；待教師或題目來源確認，不宣稱教師審核。未重跑全庫篩選矩陣或瀏覽器實機測試。"
+    "notes": "7題原始年級欄位與課綱概念學習階段不一致，保留原題與原年級，暫改為unassigned/pending；待教師或題目來源確認，不宣稱教師審核。未重跑全庫篩選矩陣或瀏覽器實機測試。",
+    "fullCorpusConfidenceDistribution": {
+      "low": 2064,
+      "medium": 798,
+      "high": 38,
+      "_total": 2900
+    }
   },
   "latestMappingScopeCorrection": {
     "date": "2026-11-14",
@@ -8539,7 +8545,13 @@
       "filterMatrixTestedThisRun": false,
       "browserOrMobileRuntimeTested": false
     },
-    "notes": "7題原始年級欄位與課綱概念學習階段不一致，保留原題與原年級，暫改為unassigned/pending；待教師或題目來源確認，不宣稱教師審核。未重跑全庫篩選矩陣或瀏覽器實機測試。"
+    "notes": "7題原始年級欄位與課綱概念學習階段不一致，保留原題與原年級，暫改為unassigned/pending；待教師或題目來源確認，不宣稱教師審核。未重跑全庫篩選矩陣或瀏覽器實機測試。",
+    "fullCorpusConfidenceDistribution": {
+      "low": 2064,
+      "medium": 798,
+      "high": 38,
+      "_total": 2900
+    }
   },
   "statistics": {
     "questionCount": 2900,
@@ -8576,7 +8588,7 @@
       "_total": 2900
     },
     "confidence": {
-      "low": 2067,
+      "low": 2064,
       "medium": 798,
       "high": 38,
       "_total": 2900
@@ -8586,7 +8598,7 @@
     "validPublisherMappingReferenceCount": 687,
     "centralMappingRegistryCount": 64,
     "pendingQuestionCount": 13,
-    "curriculumCoreStatusCount": 2314,
+    "curriculumCoreStatusCount": 2304,
     "publisherReferenceCounts": {
       "knsh": 168,
       "hanlin": 449,
@@ -8629,8 +8641,8 @@
     "duplicateQuestionIds": 0,
     "missingClassificationCount": 0,
     "semesterCounts": {
-      "unassigned": 2175,
-      "上學期": 487,
+      "unassigned": 2172,
+      "上學期": 490,
       "下學期": 164,
       "全學年": 74,
       "_total": 2900
@@ -8647,8 +8659,9 @@
     "examAssignedQuestionCount": 227,
     "examUnassignedQuestionCount": 2673,
     "classificationBasisCounts": {
-      "curriculum-core": 2178,
-      "publisher-source-verified": 466,
+      "unassigned": 7,
+      "curriculum-core": 2168,
+      "publisher-source-verified": 469,
       "question-bank-inference": 256,
       "_total": 2900
     },
@@ -8659,9 +8672,9 @@
       "_total": 2900
     },
     "publisherStatusCounts": {
-      "curriculum-core": 2314,
-      "publisher-mapped": 580,
-      "pending": 6,
+      "pending": 13,
+      "publisher-mapped": 583,
+      "curriculum-core": 2304,
       "_total": 2900
     },
     "curriculumCoreQuestionCount": 2304,
@@ -8712,7 +8725,7 @@
     "zeroResultCombinations": 2081804,
     "allModeReachable": true,
     "allModeQuestionCount": 2900,
-    "updatedQuestionRecords": 0,
+    "updatedQuestionRecords": 7,
     "newPublisherMappingsPersisted": 0,
     "stalePublisherMappingReferencesRemoved": 0,
     "classificationBasisCorrections": 0,
