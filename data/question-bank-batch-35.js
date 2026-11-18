@@ -1,4 +1,5 @@
-window.EXTRA35_GRADE_BANK = [
+window.EXTRA35_GRADE_BANK =
+[
   {
     "id": "b35-001",
     "stage": "國小",
@@ -1684,16 +1685,51 @@ window.EXTRA35_GRADE_BANK = [
     "e": "2sinx−3cosx的最大值為√(2²＋(−3)²)=√13，因此f(x)最大值為1＋√13。",
     "frameworkId": "curriculum-108",
     "sourceType": "original-curriculum-aligned",
-    "sourceRef": "原創題；單元對照依翰林官方教材資料 https://books.hanlin.com.tw/product/433021；非教材或歷屆試題原文。",
+    "sourceRef": "原創題；課程軌別依國教院113年3月數學領域課程手冊附錄四核對：https://www.naer.edu.tw/upload/1/16/doc/2021/%E6%95%B8%E5%AD%B8%E9%A0%98%E5%9F%9F%E8%AA%B2%E7%A8%8B%E6%89%8B%E5%86%8A%EF%BC%88113%E5%B9%B43%E6%9C%88%E6%9B%B4%E6%96%B0%E7%89%88%EF%BC%89.pdf；教材單元對照依翰林官方商品頁：https://books.hanlin.com.tw/product/433021；非教材或歷屆試題原文。",
     "reviewStatus": "rule-checked",
     "learningContent": "三角函數線性組合的最大值",
-    "semester": "unassigned",
+    "semester": "上學期",
     "examPeriod": "unassigned",
-    "classificationBasis": "curriculum-core",
-    "confidence": "low",
-    "publisherStatus": "curriculum-core",
-    "publisherMappings": [],
-    "classificationNotes": "原先依翰林數學3A單元次序標記，但題目未記錄數學A/B軌別；依版本隔離原則移除出版社映射並恢復未分類，待確認課程軌別後再映射。"
+    "classificationBasis": "publisher-source-verified",
+    "confidence": "medium",
+    "publisherStatus": "publisher-mapped",
+    "publisherMappings": [
+      {
+        "publisher": "hanlin",
+        "mappingId": "hanlin-h2-math-3a-u1",
+        "sourceUrl": "https://books.hanlin.com.tw/product/433021",
+        "sourceTitle": "翰林書城－高中互動式教學講義數學(3A)",
+        "verifiedAt": "2026-11-18",
+        "verificationStatus": "source-checked",
+        "notes": "翰林官方商品頁明示高中二年級、上學期、108課綱高二數學A版，核心內容含正弦、餘弦與正切函數圖形及週期現象，目次第1單元為三角函數。國教院113年3月更新數學領域課程手冊附錄四確認同頻率正餘弦波疊合屬高二數學A類、B類未列；此映射僅表示翰林數學(3A)第1單元對應，不代表學校採用版本或題目取自教材。",
+        "mappingLevel": "unit",
+        "volume": "數學(3A)（官方互動式教學講義，搭配翰林教材）",
+        "unitCode": "1",
+        "unitName": "三角函數",
+        "unitAliases": [
+          "三角函數",
+          "三角比",
+          "特殊角",
+          "三角測量",
+          "弧度",
+          "正弦",
+          "餘弦",
+          "正切",
+          "週期",
+          "象限",
+          "三角方程式"
+        ],
+        "scopeKeywords": [],
+        "semester": "上學期",
+        "grade": "高二",
+        "subject": "數學",
+        "courseTrack": "數學A",
+        "schoolYear": "未標示",
+        "courseType": "未確認"
+      }
+    ],
+    "classificationNotes": "課程軌別依國教院113年3月更新數學領域課程手冊附錄四：高二A類包含同頻率正餘弦波疊合，B類未列；本題為2sinx−3cosx同頻率疊合求最大值，故標示數學A。出版社對照依翰林官方商品頁：高中二年級上學期、108課綱數學A版，目次第1單元三角函數，核心內容含sin/cos/tan圖形與週期現象。僅作單元對照，不代表學校採用版本或題目取自教材。段考範圍無證據，維持unassigned。",
+    "courseTrack": "數學A"
   },
   {
     "id": "b35-054",
