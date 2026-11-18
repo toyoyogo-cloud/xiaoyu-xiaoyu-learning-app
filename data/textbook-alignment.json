@@ -10000,20 +10000,20 @@
     "examAssignedQuestionCount": 227,
     "examUnassignedQuestionCount": 2673,
     "classificationBasisCounts": {
-      "curriculum-core": 2158,
+      "curriculum-core": 2157,
       "publisher-source-verified": 478,
       "question-bank-inference": 250,
-      "unassigned": 14
+      "unassigned": 15
     },
     "confidenceCounts": {
-      "low": 2058,
-      "medium": 804,
+      "low": 2053,
+      "medium": 809,
       "high": 38
     },
     "publisherStatusCounts": {
-      "curriculum-core": 2288,
+      "curriculum-core": 2287,
       "publisher-mapped": 592,
-      "pending": 20
+      "pending": 21
     },
     "curriculumCoreQuestionCount": 2287,
     "sourceUnavailableMappingReferenceCount": 0,
