@@ -14241,5 +14241,90 @@
     "low": 1002,
     "medium": 824,
     "high": 38
+  },
+  "latestScheduledReconciliationAudit": {
+    "runId": "2026-11-18-main-batches-08-41-full-reconciliation-01",
+    "verifiedAt": "2026-11-18",
+    "sourceHead": "9e3c47f172cacea4382ebee8aba19708b4d23b63",
+    "batchRange": "08-41",
+    "sourceBatchFilesVerified": 34,
+    "classificationShardsVerified": 6,
+    "questionCount": 2900,
+    "uniqueQuestionIds": 2900,
+    "missingClassificationIds": 0,
+    "extraClassificationIds": 0,
+    "duplicateQuestionIds": 0,
+    "stageGradeSubjectMismatches": 0,
+    "questionStructureValidation": {
+      "fourOptions": 2900,
+      "validAnswerIndex0to3": 2900,
+      "explanationPresent": 2900,
+      "missingRequiredQuestionFields": 0
+    },
+    "persistedClassification": {
+      "entries": 2900,
+      "semester": {
+        "上學期": 495,
+        "下學期": 164,
+        "全學年": 76,
+        "unassigned": 2165
+      },
+      "examPeriod": {
+        "第一次段考": 65,
+        "第二次段考": 71,
+        "第三次段考": 91,
+        "unassigned": 2673
+      },
+      "classificationBasis": {
+        "publisher-source-verified": 484,
+        "question-bank-inference": 250,
+        "curriculum-core": 2150,
+        "unassigned": 16
+      },
+      "publisherStatus": {
+        "publisher-mapped": 598,
+        "curriculum-core": 2280,
+        "pending": 22
+      },
+      "confidence": {
+        "high": 38,
+        "medium": 824,
+        "low": 2038
+      },
+      "publisherMappedQuestions": 598,
+      "publisherMappingReferences": 706
+    },
+    "mappingRegistryValidation": {
+      "centralMappingCount": 67,
+      "missingMappingReferences": 0,
+      "mappingSourceFieldErrors": 0,
+      "mappingScopeFieldErrors": 0,
+      "broadGradeRangeReferences": 76,
+      "broadGradeRangeNote": "76筆為題目年級高二、中央映射適用年級明列「高二、高三」的包含關係，不是年級衝突；其他年級、科目、學段及課程軌別欄位相符。"
+    },
+    "sourceRegistry": {
+      "total": 83,
+      "sourceChecked": 81,
+      "pending": 1,
+      "sourceUnavailable": 1,
+      "note": "source-unavailable為已標示404的歷史來源；其現行題目映射已改用其他可核對來源，不將失效網址當成有效證據。"
+    },
+    "appIntegration": {
+      "indexReadsPersistedManifest": true,
+      "manifestLoadsSixShards": true,
+      "classifierResolvesCentralPublisherMappings": true,
+      "publisherFilterRequiresSourceChecked": true,
+      "zeroResultHintPresent": true,
+      "serviceWorkerAssetListContainsAll34BatchesAndSixShards": true,
+      "browserOrMobileRuntimeTested": false,
+      "fullFilterMatrixRetested": false
+    },
+    "changesThisRun": {
+      "classificationRecordsChanged": 0,
+      "publisherMappingsAdded": 0,
+      "newQuestionsAdded": 0,
+      "reason": "本輪先完成第08至41批逐分片ID與身分核對。剩餘未分類學期／段考欄位缺乏足以支持一致推定的冊別、單元或學校進度證據；待核對項目保留，不以猜測補值。"
+    },
+    "notes": "六個持久分類分片與34個來源題庫批次逐分片比對，題目ID完全一對一；全數題目均有四個選項、合法答案索引及解析。所有706筆publisherMappings引用均可解析至67筆中央映射，且來源欄位完整。未宣稱教師審核、學校採用版本或瀏覽器／手機實測。"
   }
 }
