@@ -486,7 +486,7 @@
     "centralMappingRegistryCount": 67,
     "inferenceMappingRegistryCount": 67,
     "pendingQuestionCount": 22,
-    "curriculumCoreQuestionCount": 2280,
+    "curriculumCoreQuestionCount": 2277,
     "publisherReferenceCounts": {
       "nani": 72,
       "hanlin": 461,
@@ -3563,7 +3563,9 @@
         "unit": 485,
         "volume": 147,
         "_total": 709
-      }
+      },
+      "curriculumCoreQuestionCount": 2277,
+      "pendingQuestionCount": 22
     },
     "activeScope": {
       "questionCount": 1864,

@@ -10822,7 +10822,9 @@
     "targetedFilterErrors": 0,
     "publisherMappingLeaks": 0,
     "browserOrMobileRuntimeTested": false,
-    "fullFilterMatrixTested": false
+    "fullFilterMatrixTested": false,
+    "curriculumCoreQuestionCount": 2277,
+    "pendingQuestionCount": 22
   },
   "mappingLevelCountsBatches08to41": {
     "official-resource-title": 77,
@@ -14633,7 +14635,9 @@
         "unit": 485,
         "volume": 147,
         "_total": 709
-      }
+      },
+      "curriculumCoreQuestionCount": 2277,
+      "pendingQuestionCount": 22
     },
     "activeScope": {
       "questionCount": 1864,
