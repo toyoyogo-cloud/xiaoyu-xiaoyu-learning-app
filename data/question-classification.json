@@ -1,8 +1,8 @@
 {
   "title": "題目分類持久索引",
-  "schemaVersion": "1.0.33",
+  "schemaVersion": "1.0.34",
   "updatedAt": "2026-11-18",
-  "classificationRuleVersion": "2026-11-18.118",
+  "classificationRuleVersion": "2026-11-18.119",
   "sourceBranch": "main",
   "batchRange": "08-41",
   "batchFileCount": 34,
@@ -14,7 +14,7 @@
       "path": "data/question-classification-batch-08-13.json",
       "batchRange": "08-13",
       "questionCount": 182,
-      "sha": "bf0dcdebab3fb94564bfcff33bdd78b226e554d3",
+      "sha": "22fcb28589a42c63675c530bad5e939cdea4899b",
       "updatedAt": "2026-11-18"
     },
     {
@@ -28,7 +28,7 @@
       "path": "data/question-classification-batch-20-25.json",
       "batchRange": "20-25",
       "questionCount": 601,
-      "sha": "cf20ea98cb328e93bc640462374a86679151fa2e",
+      "sha": "ecc492934a0cc72e9903a83fe4c446c2421d1b5f",
       "updatedAt": "2026-11-18"
     },
     {
@@ -42,14 +42,14 @@
       "path": "data/question-classification-batch-32-37.json",
       "batchRange": "32-37",
       "questionCount": 600,
-      "sha": "e6fb0397d87b1f10ec7f3284edf899a4754b8718",
+      "sha": "8300deac492f98f204cce5b02c05c68a0b38488c",
       "updatedAt": "2026-11-18"
     },
     {
       "path": "data/question-classification-batch-38-41.json",
       "batchRange": "38-41",
       "questionCount": 400,
-      "sha": "f1bf1bc37723096a56fea28eaf92ea3d2c875076",
+      "sha": "1017d3558b09300d22baf5d613ec36744acdcda6",
       "updatedAt": "2026-11-18"
     }
   ],
@@ -4287,5 +4287,20 @@
       }
     },
     "validationMethod": "依index.html bankFor/getPool與question-classification-inference.js resolveMappings/validMappingForQuestion現行語義，以main六個持久分類分片及中央教材映射重跑21組啟用題池篩選；另對高二數學執行4軌別×5難度×5學期×5段考×6出版社狀態，共3,000組資料層組合測試。全庫2,900筆是持久分類索引範圍；APP目前bankFor實際啟用題池僅國小六年級＋高中高二1,864題。非瀏覽器／手機實機測試，亦非所有年級科目的完整笛卡兒矩陣。"
+  },
+  "lastPersistenceRun": {
+    "runId": "2026-11-18-persisted-mapping-metadata-backfill-01",
+    "verifiedAt": "2026-11-18",
+    "sourceHeadBeforeRun": "c3d299f55eca7b8ccb2002d96939deed3ffd5c3e",
+    "updatedQuestionIds": [
+      "b11-006",
+      "b21-032",
+      "b34-052",
+      "b38-040"
+    ],
+    "publisherMappingReferencesHydrated": 8,
+    "publisherMappingReferencesRemainingIncomplete": 0,
+    "newQuestionsAdded": 0,
+    "note": "補齊既有已核對映射在題目分類分片中的完整來源欄位；不改動原題內容、學期或段考。"
   }
 }
