@@ -6936,6 +6936,21 @@
       },
       "validationMethod": "重新讀取main第08–41批34個原始題庫檔、六個持久分類分片、教材對照中央映射、推定器與index.html；依getPool現行語義執行16組定向資料層測試。不是瀏覽器／手機實機測試，也不是全庫所有年級／科目／單元的完整矩陣。",
       "notes": "b38-040直接對應康軒113六上單元二「水溶液」之混合物／物質分離，僅新增康軒單元層級映射；段考維持unassigned。b38-041涉及大氣壓力，國家教育研究院愛學網資源列Ec-IV-1第四學習階段，故將出版社狀態改為pending、分類依據改為unassigned，保留原始年級與題目，待教師或原始來源確認。沒有新增題目、沒有改原始題幹／選項／答案／解析，不宣稱教師審核或學校採用版本。"
+    },
+    {
+      "runId": "2026-11-18-persisted-mapping-metadata-backfill-01",
+      "date": "2026-11-18",
+      "questionCount": 2900,
+      "updatedQuestionIds": [
+        "b11-006",
+        "b21-032",
+        "b34-052",
+        "b38-040"
+      ],
+      "publisherMappingReferencesHydrated": 8,
+      "newQuestionsAdded": 0,
+      "classificationRuleVersion": "2026-11-18.119",
+      "note": "補齊持久分類分片中的8筆出版社映射來源欄位。"
     }
   ],
   "batch30ExtendedMetadataAudit": {
@@ -12948,6 +12963,95 @@
       },
       "validationMethod": "重新讀取main第08–41批34個原始題庫檔、六個持久分類分片、教材對照中央映射、推定器與index.html；依getPool現行語義執行16組定向資料層測試。不是瀏覽器／手機實機測試，也不是全庫所有年級／科目／單元的完整矩陣。",
       "notes": "b38-040直接對應康軒113六上單元二「水溶液」之混合物／物質分離，僅新增康軒單元層級映射；段考維持unassigned。b38-041涉及大氣壓力，國家教育研究院愛學網資源列Ec-IV-1第四學習階段，故將出版社狀態改為pending、分類依據改為unassigned，保留原始年級與題目，待教師或原始來源確認。沒有新增題目、沒有改原始題幹／選項／答案／解析，不宣稱教師審核或學校採用版本。"
+    },
+    {
+      "runId": "2026-11-18-persisted-mapping-metadata-backfill-01",
+      "verifiedAt": "2026-11-18",
+      "sourceHeadBeforeRun": "c3d299f55eca7b8ccb2002d96939deed3ffd5c3e",
+      "batchRange": "08-41",
+      "sourceBatchFilesVerified": 34,
+      "sourceBatchShasMatch": "34/34",
+      "classificationShardsVerified": 6,
+      "questionCount": 2900,
+      "uniqueQuestionIds": 2900,
+      "missingClassificationIds": 0,
+      "extraClassificationIds": 0,
+      "duplicateQuestionIds": 0,
+      "persistedClassification": {
+        "entries": 2900,
+        "semester": {
+          "上學期": 495,
+          "下學期": 164,
+          "全學年": 76,
+          "unassigned": 2165
+        },
+        "examPeriod": {
+          "第一次段考": 65,
+          "第二次段考": 71,
+          "第三次段考": 91,
+          "unassigned": 2673
+        },
+        "classificationBasis": {
+          "publisher-source-verified": 484,
+          "question-bank-inference": 250,
+          "curriculum-core": 2150,
+          "unassigned": 16
+        },
+        "publisherStatus": {
+          "publisher-mapped": 598,
+          "curriculum-core": 2280,
+          "pending": 22
+        },
+        "confidence": {
+          "high": 38,
+          "medium": 824,
+          "low": 2038
+        },
+        "publisherMappedQuestions": 598,
+        "publisherMappingReferences": 706
+      },
+      "publisherMappingPersistenceValidation": {
+        "referencesBeforeBackfill": 706,
+        "incompleteReferencesBeforeBackfill": 8,
+        "referencesHydratedThisRun": 8,
+        "incompleteReferencesAfterBackfill": 0,
+        "missingCentralMappingReferences": 0,
+        "missingRequiredSourceFields": 0,
+        "mappingScopeMismatches": 0
+      },
+      "appIntegration": {
+        "indexReadsPersistedManifest": true,
+        "manifestLoadsSixShards": true,
+        "classifierResolvesCentralPublisherMappings": true,
+        "publisherFilterRequiresSourceChecked": true,
+        "zeroResultHintPresent": true,
+        "serviceWorkerAssetListContainsAll34BatchesAndSixShards": true,
+        "browserOrMobileRuntimeTested": false,
+        "fullFilterMatrixRetested": false
+      },
+      "changesThisRun": {
+        "classificationRecordsChanged": 4,
+        "publisherMappingMetadataHydrated": 8,
+        "semesterAssignments": 0,
+        "examPeriodAssignments": 0,
+        "newQuestionsAdded": 0,
+        "note": "四筆既有題目分類紀錄的出版社映射參照補齊完整欄位；不新增出版社映射、不新增題目。"
+      },
+      "validation": {
+        "jsonParse": true,
+        "classificationRecords": 2900,
+        "uniqueIds": 2900,
+        "duplicateIds": 0,
+        "missingClassification": 0,
+        "requiredClassificationFieldsMissing": 0,
+        "invalidClassificationValues": 0,
+        "publisherMappingRequiredFieldErrorsAfterBackfill": 0,
+        "publisherMappingScopeErrorsAfterBackfill": 0,
+        "sourceBatchShaMatches": "34/34",
+        "shardCount": 6,
+        "browserOrMobileRuntimeTested": false
+      },
+      "notes": "本輪先重新讀取main第08–41批34個原始題庫檔、六個持久分類分片及中央教材映射。發現8筆publisherMappings只存mappingId縮寫，中央MAPS雖可在執行時補足，但持久資料未完整保存來源欄位；本輪將b11-006、b21-032、b34-052、b38-040共8筆映射參照補齊。電磁鐵映射依教育部教育雲EP49跨版本單元對照；b34-052保留已核對的數學A／翰林數學(3A)第1單元；b38-040保留康軒113六上水溶液單元。段考範圍仍未有官方或教師依據，維持unassigned。未修改原題、未新增題目、未宣稱教師審核或學校採用版本。"
     }
   ],
   "latestMetadataAudit": {
@@ -12967,7 +13071,7 @@
       "unitLevelClaimed": false
     }
   },
-  "classificationRuleVersion": "2026-11-18.118",
+  "classificationRuleVersion": "2026-11-18.119",
   "classificationPersistenceRunsRecovery": {
     "repairedAt": "2026-11-16",
     "previousLength": 337,
@@ -14403,24 +14507,18 @@
     "high": 38
   },
   "latestScheduledReconciliationAudit": {
-    "runId": "2026-11-18-main-batches-08-41-source-metadata-reconciliation-02",
+    "runId": "2026-11-18-persisted-mapping-metadata-backfill-01",
     "verifiedAt": "2026-11-18",
-    "sourceHead": "9fd9d96b78a1b7d852ef66f3fd76a7dd3b1bb24c",
+    "sourceHeadBeforeRun": "c3d299f55eca7b8ccb2002d96939deed3ffd5c3e",
     "batchRange": "08-41",
     "sourceBatchFilesVerified": 34,
+    "sourceBatchShasMatch": "34/34",
     "classificationShardsVerified": 6,
     "questionCount": 2900,
     "uniqueQuestionIds": 2900,
     "missingClassificationIds": 0,
     "extraClassificationIds": 0,
     "duplicateQuestionIds": 0,
-    "stageGradeSubjectMismatches": 0,
-    "questionStructureValidation": {
-      "fourOptions": 2900,
-      "validAnswerIndex0to3": 2900,
-      "explanationPresent": 2900,
-      "missingRequiredQuestionFields": 0
-    },
     "persistedClassification": {
       "entries": 2900,
       "semester": {
@@ -14454,20 +14552,14 @@
       "publisherMappedQuestions": 598,
       "publisherMappingReferences": 706
     },
-    "mappingRegistryValidation": {
-      "centralMappingCount": 67,
-      "missingMappingReferences": 0,
-      "mappingSourceFieldErrors": 0,
-      "mappingScopeFieldErrors": 0,
-      "broadGradeRangeReferences": 76,
-      "broadGradeRangeNote": "76筆為題目年級高二、中央映射適用年級明列「高二、高三」的包含關係，不是年級衝突；其他年級、科目、學段及課程軌別欄位相符。"
-    },
-    "sourceRegistry": {
-      "total": 85,
-      "sourceChecked": 83,
-      "pending": 1,
-      "sourceUnavailable": 1,
-      "note": "新增2筆已核對的南一官方平台資源登錄；其中雞兔問題頁為平台使用者上傳資源，已明確區分，不視為出版社編寫教材。歷史404來源仍保留source-unavailable，不作現行映射證據。"
+    "publisherMappingPersistenceValidation": {
+      "referencesBeforeBackfill": 706,
+      "incompleteReferencesBeforeBackfill": 8,
+      "referencesHydratedThisRun": 8,
+      "incompleteReferencesAfterBackfill": 0,
+      "missingCentralMappingReferences": 0,
+      "missingRequiredSourceFields": 0,
+      "mappingScopeMismatches": 0
     },
     "appIntegration": {
       "indexReadsPersistedManifest": true,
@@ -14480,14 +14572,27 @@
       "fullFilterMatrixRetested": false
     },
     "changesThisRun": {
-      "classificationRecordsChanged": 0,
-      "publisherMappingsAdded": 0,
-      "publisherMappingReferencesAdded": 0,
-      "sourceRegistryEntriesAdded": 2,
-      "sourceMetadataCorrections": 3,
+      "classificationRecordsChanged": 4,
+      "publisherMappingMetadataHydrated": 8,
+      "semesterAssignments": 0,
+      "examPeriodAssignments": 0,
       "newQuestionsAdded": 0,
-      "reason": "第08至41批與六個分類分片維持一對一完整。此輪不新增題目、不猜測未分類學期或段考；僅補齊三筆南一資源映射的sourceType／sourceRegistryRefs，並將使用者上傳資源明確標示，新增兩筆可追溯來源紀錄。"
+      "note": "四筆既有題目分類紀錄的出版社映射參照補齊完整欄位；不新增出版社映射、不新增題目。"
     },
-    "notes": "第08至41批34個題庫檔與六個持久分類分片逐分片核對，2,900題ID完全一對一；全數四選項、答案索引與解析有效。706筆出版社映射參照均可解析至67筆中央映射。南一基準量與比較量頁明示南一書局；雞兔問題頁雖位於南一官方平台，但分享者／單位為高師大，已標為平台使用者上傳資源，不冒稱出版社編寫教材。未分類項目仍缺乏足以支持學期／段考的證據，保留待核對。"
+    "validation": {
+      "jsonParse": true,
+      "classificationRecords": 2900,
+      "uniqueIds": 2900,
+      "duplicateIds": 0,
+      "missingClassification": 0,
+      "requiredClassificationFieldsMissing": 0,
+      "invalidClassificationValues": 0,
+      "publisherMappingRequiredFieldErrorsAfterBackfill": 0,
+      "publisherMappingScopeErrorsAfterBackfill": 0,
+      "sourceBatchShaMatches": "34/34",
+      "shardCount": 6,
+      "browserOrMobileRuntimeTested": false
+    },
+    "notes": "本輪先重新讀取main第08–41批34個原始題庫檔、六個持久分類分片及中央教材映射。發現8筆publisherMappings只存mappingId縮寫，中央MAPS雖可在執行時補足，但持久資料未完整保存來源欄位；本輪將b11-006、b21-032、b34-052、b38-040共8筆映射參照補齊。電磁鐵映射依教育部教育雲EP49跨版本單元對照；b34-052保留已核對的數學A／翰林數學(3A)第1單元；b38-040保留康軒113六上水溶液單元。段考範圍仍未有官方或教師依據，維持unassigned。未修改原題、未新增題目、未宣稱教師審核或學校採用版本。"
   }
 }
