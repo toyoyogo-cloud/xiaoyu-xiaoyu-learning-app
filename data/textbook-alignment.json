@@ -10508,7 +10508,13 @@
       "high": 38
     },
     "activeScopePublisherMappedQuestionCount": 597,
-    "activeScopePublisherMappingReferenceCount": 705
+    "activeScopePublisherMappingReferenceCount": 705,
+    "sourceRegistryCount": 79,
+    "sourceRegistryVerificationStatusCounts": {
+      "source-checked": 77,
+      "pending": 1,
+      "source-unavailable": 1
+    }
   },
   "mappingLevelCountsBatches08to41": {
     "official-resource-title": 77,
@@ -13087,9 +13093,9 @@
     "mappingSourceFieldErrors": 0,
     "mappingScopeErrors": 0
   },
-  "sourceRegistryCount": 78,
+  "sourceRegistryCount": 79,
   "sourceRegistryVerificationStatusCounts": {
-    "source-checked": 76,
+    "source-checked": 77,
     "pending": 1,
     "source-unavailable": 1
   },
@@ -13586,5 +13592,10 @@
     },
     "validationMethod": "依main index.html getPool()之課程軌別、難度、學期、段考及出版社篩選語義，執行4種可選軌別×5種難度×5種學期×5種段考×6種版本狀態；非瀏覽器／手機實機測試。"
   },
-  "sourceHeadBeforeRun": "4ca00258687a5659d88b6fb0eff82539250e41a7"
+  "sourceHeadBeforeRun": "4ca00258687a5659d88b6fb0eff82539250e41a7",
+  "sourceRegistryVerificationStatusCountsBatches08to41": {
+    "source-checked": 77,
+    "pending": 1,
+    "source-unavailable": 1
+  }
 }
