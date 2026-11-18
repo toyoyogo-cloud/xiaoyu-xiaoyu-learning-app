@@ -1,7 +1,7 @@
 {
-  "schemaVersion": "1.1.4",
-  "updatedAt": "2026-11-17",
-  "classificationRuleVersion": "2026-11-17.99",
+  "schemaVersion": "1.1.8",
+  "updatedAt": "2026-11-18",
+  "classificationRuleVersion": "2026-11-18.116",
   "batchRange": "20-25",
   "sourceBatchShas": {
     "20": "7b1e8f16ef058579ba1b3838ccaa9a62cadd775b",
@@ -2752,15 +2752,25 @@
       "grade": "六年級",
       "subject": "自然",
       "courseTrack": null,
-      "courseType": null,
+      "courseType": "國小",
       "semester": "上學期",
       "examPeriod": "unassigned",
-      "classificationBasis": "curriculum-core",
+      "classificationBasis": "publisher-source-verified",
       "confidence": "medium",
-      "publisherStatus": "curriculum-core",
-      "publisherMappings": [],
-      "classificationNotes": "依國立臺北教育大學雙語教學研究中心官方《國小自然科學筆記本、雙語教學資源手冊》單元目錄，六年級自然上學期單元四為「電磁作用」。題目直接涉及電磁鐵吸力或線圈匝數與磁力變化，僅回填課程主題層級學期；該來源未列南一、翰林、康軒版本對照，故不新增出版社映射。段考範圍無官方或教師資料，維持unassigned。 不代表出版社版本或學校實際採用版本。",
-      "sourceRef": "國立臺北教育大學雙語教學研究中心－國小自然科學筆記本、雙語教學資源手冊｜六年級上學期單元四「電磁作用」｜https://bilingual.ntue.edu.tw/p/404-1054-31326.php?Lang=zh-tw | 108課綱共同核心原創；非出版社教材原文。",
+      "publisherStatus": "publisher-mapped",
+      "publisherMappings": [
+        {
+          "mappingId": "knsh-g6-natural-6a-u4-electromagnetism"
+        },
+        {
+          "mappingId": "nani-g6-natural-6a-u4-electromagnetism"
+        },
+        {
+          "mappingId": "hanlin-g6-natural-6a-u4-electromagnetism"
+        }
+      ],
+      "classificationNotes": "依國立臺北教育大學雙語教學研究中心官方《國小自然科學筆記本、雙語教學資源手冊》單元目錄，六年級自然上學期單元四為「電磁作用」。題目直接涉及電磁鐵吸力或線圈匝數與磁力變化，僅回填課程主題層級學期；該來源未列南一、翰林、康軒版本對照，故不新增出版社映射。段考範圍無官方或教師資料，維持unassigned。 不代表出版社版本或學校實際採用版本。\n2026-11-18官方教學資源跨版本核對：教育部教育雲「看見自然EP49：電磁鐵的磁極特性」明列康軒六上第4單元「電磁作用」、南一六上第4單元「電與磁的奇妙世界」、翰林六上第4單元「電磁作用」，並列國小5–6年級自然科INe-Ⅲ-10。題目直接涉及電磁鐵吸力／線圈匝數與磁力，故新增三版本單元層級映射。來源為教育部平台教學資源，不是學校採用證明，也不表示原創題目取自教材；段考無官方或教師範圍資料，仍保留unassigned。",
+      "sourceRef": "國立臺北教育大學雙語教學研究中心－國小自然科學筆記本、雙語教學資源手冊｜六年級上學期單元四「電磁作用」｜https://bilingual.ntue.edu.tw/p/404-1054-31326.php?Lang=zh-tw | 108課綱共同核心原創；非出版社教材原文。 | 教育部教育雲－看見自然EP49：電磁鐵的磁極特性｜https://market.cloud.edu.tw/resources/video/1830750",
       "learningDomain": "物理能量",
       "questionType": "概念辨識",
       "learningUnit": "電磁鐵強度因素",
