@@ -1,6 +1,6 @@
 {
   "title": "南一／翰林／康軒教材版本對照資料庫",
-  "schemaVersion": "1.0.20",
+  "schemaVersion": "1.0.21",
   "updatedAt": "2026-11-18",
   "purpose": "同時支援跨版本共同核心整合與指定出版社版本練習。此檔先建立資料規格；未經官方或學校教材核對的單元不得標示為已對應。",
   "modes": [
@@ -3300,6 +3300,28 @@
       "verificationStatus": "source-checked",
       "verifiedScope": "資源標示第四、第五學習階段，列出Ec-IV-1大氣壓力由大氣層中空氣重量造成；本筆僅作六年級原始年級範圍待核對佐證，不作出版社映射。",
       "notes": "官方資源的學習階段與課程代碼指向國中／高中範圍；不據此擅自改題目原始年級，待教師或原始題目來源確認。"
+    },
+    {
+      "id": "naer-chinese-language-course-manual-108-third-stage",
+      "publisher": "curriculum-core",
+      "sourceType": "curriculum-reference",
+      "sourceUrl": "https://stv.naer.edu.tw/data/course_manual/A/%E8%AA%9E%E6%96%87%E9%A0%98%E5%9F%9F-%E5%9C%8B%E8%AA%9E%E6%96%87%E8%AA%B2%E7%A8%8B%E6%89%8B%E5%86%8A%28%E5%AE%9A%E7%A8%BF%E7%89%88%29.pdf",
+      "sourceTitle": "國家教育研究院《十二年國民基本教育課程綱要國民中小學暨普通型高級中等學校語文領域－國語文課程手冊》",
+      "verifiedAt": "2026-11-18",
+      "verificationStatus": "source-checked",
+      "verifiedScope": "國小第三學習階段（五、六年級）國語文學習表現：5-Ⅲ-4事實與主觀判斷、5-Ⅲ-5議論文本、5-Ⅲ-6摘要、5-Ⅲ-7觀點評述、5-Ⅲ-8推論、5-Ⅲ-12資料蒐集解讀與判斷。",
+      "notes": "依國教院官方課程手冊國小第三學習階段學習表現與附錄說明；僅作108課綱共同核心能力佐證，不是南一／翰林／康軒出版社教材目次、學期／冊別、學校採用版本或正式段考範圍。"
+    },
+    {
+      "id": "naer-english-curriculum-guidelines-108-third-stage",
+      "publisher": "curriculum-core",
+      "sourceType": "curriculum-reference",
+      "sourceUrl": "https://www.naer.edu.tw/upload/1/16/doc/812/%28%E7%99%BC%E5%B8%83%E7%89%88%29%E5%9C%8B%E6%B0%91%E4%B8%AD%E5%B0%8F%E5%AD%B8%E6%9A%A8%E6%99%AE%E9%80%9A%E5%9E%8B%E9%AB%98%E7%B4%9A%E4%B8%AD%E7%AD%89%E5%AD%B8%E6%A0%A1-%E8%AA%9E%E6%96%87%E9%A0%98%E5%9F%9F-%E8%8B%B1%E8%AA%9E%E6%96%87%E8%AA%B2%E7%A8%8B%E7%B6%B1%E8%A6%81.pdf",
+      "sourceTitle": "國家教育研究院《十二年國民基本教育課程綱要－語文領域英語文》",
+      "verifiedAt": "2026-11-18",
+      "verificationStatus": "source-checked",
+      "verifiedScope": "國小第三學習階段（五、六年級）英語文學習表現：5-Ⅲ-3讀懂基本字詞與句型、7-Ⅲ-1運用已學字詞聯想新字詞、9-Ⅲ-2事件排序、9-Ⅲ-3綜合資訊作簡易猜測；學習內容Ac-Ⅲ-4及Ad-Ⅲ-2。",
+      "notes": "依國教院官方108英語文課綱第三學習階段學習表現及學習內容；僅作108課綱共同核心能力佐證，不是出版社教材目次、學期／冊別、學校採用版本或正式段考範圍。"
     }
   ],
   "classificationAudit": {
@@ -10437,159 +10459,38 @@
     }
   ],
   "latestMainAudit": {
-    "runId": "2026-11-18-g6-natural-separation-pressure-review-01",
+    "runId": "2026-11-18-g6-language-core-evidence-review-01",
     "date": "2026-11-18",
-    "sourceHeadBeforeRun": "d66cf0a99eb2cc757874cfbb2bb169f0bcf25cc6",
-    "batches": "08-41",
-    "batchFileCount": 34,
-    "fullCorpusQuestionCount": 2900,
-    "uniqueQuestionIds": 2900,
-    "activeScopeDefinition": "國小六年級＋高中高二",
-    "activeScopeQuestionCount": 1864,
-    "questionRecordsUpdated": 2,
+    "questionRecordsUpdated": 13,
     "updatedQuestionIds": [
-      "b38-040",
-      "b38-041"
+      "b41-001",
+      "b41-002",
+      "b41-003",
+      "b41-004",
+      "b41-006",
+      "b41-007",
+      "b41-008",
+      "b41-009",
+      "b41-010",
+      "b41-013",
+      "b41-014",
+      "b41-015",
+      "b41-016"
     ],
-    "semesterAssignments": 1,
+    "confidenceCorrections": 13,
+    "semesterAssignments": 0,
     "examPeriodAssignments": 0,
-    "publisherMappingsAdded": 1,
-    "publisherMappingReferencesAdded": 1,
-    "inferenceMappingsAdded": 0,
+    "publisherMappingsAdded": 0,
+    "publisherMappingReferencesAdded": 0,
     "newQuestionsAdded": 0,
-    "unprocessedQuestionCount": 0,
-    "semesterAssignedQuestionCount": 735,
-    "examAssignedQuestionCount": 227,
-    "publisherMappedQuestionCount": 598,
-    "publisherMappingReferenceCount": 706,
-    "curriculumCoreQuestionCount": 2280,
-    "pendingQuestionCount": 22,
-    "unassignedBasisCount": 16,
-    "classificationRuleVersion": "2026-11-18.116",
-    "centralMappingRegistryCount": 67,
-    "inferenceMappingRegistryCount": 67,
-    "sourceRegistryCount": 80,
+    "classificationRuleVersion": "2026-11-18.117",
+    "sourceRegistryCount": 82,
     "sourceRegistryVerificationStatusCounts": {
-      "source-checked": 78,
+      "source-checked": 80,
       "pending": 1,
       "source-unavailable": 1
     },
-    "fullCorpusSemesterDistribution": {
-      "unassigned": 2165,
-      "上學期": 495,
-      "下學期": 164,
-      "全學年": 76
-    },
-    "fullCorpusExamPeriodDistribution": {
-      "unassigned": 2673,
-      "第一次段考": 65,
-      "第二次段考": 71,
-      "第三次段考": 91
-    },
-    "fullCorpusClassificationBasisDistribution": {
-      "curriculum-core": 2150,
-      "publisher-source-verified": 484,
-      "question-bank-inference": 250,
-      "unassigned": 16
-    },
-    "fullCorpusPublisherStatusDistribution": {
-      "curriculum-core": 2280,
-      "publisher-mapped": 598,
-      "pending": 22
-    },
-    "fullCorpusConfidenceDistribution": {
-      "low": 2052,
-      "medium": 810,
-      "high": 38
-    },
-    "publisherReferenceCounts": {
-      "nani": 72,
-      "hanlin": 460,
-      "knsh": 174,
-      "_total": 706
-    },
-    "mappingLevelCounts": {
-      "official-resource-title": 77,
-      "unit": 482,
-      "volume": 147,
-      "_total": 706
-    },
-    "mappingVerificationStatusCounts": {
-      "source-checked": 706,
-      "_total": 706
-    },
-    "activeScope": {
-      "questionCount": 1864,
-      "semester": {
-        "unassigned": 1129,
-        "上學期": 495,
-        "下學期": 164,
-        "全學年": 76
-      },
-      "examPeriod": {
-        "unassigned": 1637,
-        "第一次段考": 65,
-        "第二次段考": 71,
-        "第三次段考": 91
-      },
-      "publisherStatus": {
-        "curriculum-core": 1244,
-        "publisher-mapped": 598,
-        "pending": 22
-      },
-      "classificationBasis": {
-        "curriculum-core": 1114,
-        "publisher-source-verified": 484,
-        "question-bank-inference": 250,
-        "unassigned": 16
-      },
-      "confidence": {
-        "low": 1016,
-        "medium": 810,
-        "high": 38
-      },
-      "publisherMappedQuestionCount": 598,
-      "publisherMappingReferenceCount": 706
-    },
-    "validation": {
-      "jsonParse": true,
-      "classificationRecords": 2900,
-      "uniqueIds": 2900,
-      "duplicateIds": 0,
-      "missingClassification": 0,
-      "extraClassificationIds": 0,
-      "missingRequiredFields": 0,
-      "invalidClassificationValues": 0,
-      "mappingReferenceErrors": 0,
-      "mappingSourceFieldErrors": 0,
-      "mappingScopeErrors": 0,
-      "sourceBatchShaMatches": "34/34",
-      "shardCount": 6,
-      "shardShaMismatches": 0,
-      "centralMappingRegistryCount": 67,
-      "inferenceMappingRegistryCount": 67,
-      "missingInferenceMappingIds": [],
-      "updatedQuestionsChecked": 2,
-      "updatedQuestionIdsReachable": true,
-      "curriculumSourceRegistryEntryPresent": true,
-      "newMappingUnitAliasMatch": true,
-      "targetedFilterCombinationsTested": 16,
-      "targetedFilterErrors": 0,
-      "publisherMappingLeaks": 0,
-      "allModeReachable": true,
-      "allModeQuestionCount": 1864,
-      "fullCorpusPersistedQuestionCount": 2900,
-      "curriculumCoreModeReachable": true,
-      "curriculumCoreModeQuestionCount": 1244,
-      "pendingModeReachable": true,
-      "pendingModeQuestionCount": 22,
-      "appReadsPersistedClassificationIndex": true,
-      "zeroResultHintPresent": true,
-      "browserOrMobileRuntimeTested": false,
-      "fullFilterMatrixTested": false
-    },
-    "validationMethod": "重新讀取main第08–41批34個原始題庫檔、六個持久分類分片、教材對照中央映射、推定器與index.html；依getPool現行語義執行16組定向資料層測試。不是瀏覽器／手機實機測試，也不是全庫所有年級／科目／單元的完整矩陣。",
-    "notes": "b38-040直接對應康軒113六上單元二「水溶液」之混合物／物質分離，僅新增康軒單元層級映射；段考維持unassigned。b38-041涉及大氣壓力，國家教育研究院愛學網資源列Ec-IV-1第四學習階段，故將出版社狀態改為pending、分類依據改為unassigned，保留原始年級與題目，待教師或原始來源確認。沒有新增題目、沒有改原始題幹／選項／答案／解析，不宣稱教師審核或學校採用版本。"
+    "notes": "本輪僅補強國小六年級國語7題、英語6題的108課綱第三學習階段共同核心依據與confidence；學期、段考仍unassigned，出版社狀態仍curriculum-core且publisherMappings維持空陣列。未新增題目、未修改原始題幹／選項／答案／解析；官方課綱佐證不代表出版社版本、學校採用或教師審核。"
   },
   "statistics": {
     "questionCount": 2900,
@@ -12830,7 +12731,7 @@
       "unitLevelClaimed": false
     }
   },
-  "classificationRuleVersion": "2026-11-18.116",
+  "classificationRuleVersion": "2026-11-18.117",
   "classificationPersistenceRunsRecovery": {
     "repairedAt": "2026-11-16",
     "previousLength": 337,
@@ -13764,9 +13665,9 @@
     "mappingSourceFieldErrors": 0,
     "mappingScopeErrors": 0
   },
-  "sourceRegistryCount": 80,
+  "sourceRegistryCount": 82,
   "sourceRegistryVerificationStatusCounts": {
-    "source-checked": 78,
+    "source-checked": 80,
     "pending": 1,
     "source-unavailable": 1
   },
@@ -13899,36 +13800,60 @@
     ]
   },
   "latestCurriculumCoreSourceAudit": {
-    "runId": "2026-11-18-naer-g6-control-variable-core-review-01",
+    "runId": "2026-11-18-g6-language-core-evidence-review-01",
     "verifiedAt": "2026-11-18",
-    "sourceId": "naer-natural-science-course-handbook-108",
-    "questionIds": [
-      "b40-035"
+    "sourceIds": [
+      "naer-chinese-language-course-manual-108-third-stage",
+      "naer-english-curriculum-guidelines-108-third-stage"
     ],
-    "sourceUrl": "https://www.naer.edu.tw/upload/1/16/doc/2064/%E8%87%AA%E7%84%B6%E7%A7%91%E5%AD%B8%E9%A0%98%E5%9F%9F%E8%AA%B2%E7%A8%8B%E6%89%8B%E5%86%8A%28%E5%AE%9A%E7%A8%BF%E7%89%88%29.pdf",
+    "questionIds": [
+      "b41-001",
+      "b41-002",
+      "b41-003",
+      "b41-004",
+      "b41-006",
+      "b41-007",
+      "b41-008",
+      "b41-009",
+      "b41-010",
+      "b41-013",
+      "b41-014",
+      "b41-015",
+      "b41-016"
+    ],
     "verificationStatus": "source-checked",
     "publisherMappingsAdded": 0,
     "semesterAssignments": 0,
     "examPeriodAssignments": 0,
-    "notes": "國教院課程手冊PDF第358頁／印刷頁419之5–6年級教學示例，明示比較實驗一次只更改一項變因；僅支持共同核心學習階段，不作出版社、學期或段考映射。"
+    "notes": "本輪僅補強國小六年級國語7題、英語6題的108課綱第三學習階段共同核心依據與confidence；學期、段考仍unassigned，出版社狀態仍curriculum-core且publisherMappings維持空陣列。未新增題目、未修改原始題幹／選項／答案／解析；官方課綱佐證不代表出版社版本、學校採用或教師審核。"
   },
   "latestCurriculumScopeAudit": {
-    "runId": "2026-11-18-g6-natural-separation-pressure-review-01",
+    "runId": "2026-11-18-g6-language-core-evidence-review-01",
     "verifiedAt": "2026-11-18",
-    "questionIds": [
-      "b38-040",
-      "b38-041"
-    ],
     "sourceIds": [
-      "knsh-g6-natural-113-curriculum-brochure",
-      "naer-natural-atmospheric-pressure-grade-scope"
+      "naer-chinese-language-course-manual-108-third-stage",
+      "naer-english-curriculum-guidelines-108-third-stage"
     ],
-    "sourcesAdded": 1,
-    "questionRecordsReviewed": 2,
-    "publisherMappingsAdded": 1,
-    "semesterAssignments": 1,
+    "questionIds": [
+      "b41-001",
+      "b41-002",
+      "b41-003",
+      "b41-004",
+      "b41-006",
+      "b41-007",
+      "b41-008",
+      "b41-009",
+      "b41-010",
+      "b41-013",
+      "b41-014",
+      "b41-015",
+      "b41-016"
+    ],
+    "verificationStatus": "source-checked",
+    "publisherMappingsAdded": 0,
+    "semesterAssignments": 0,
     "examPeriodAssignments": 0,
-    "notes": "b38-040依康軒113官方六上單元二水溶液／物質分離目次建立單元映射；b38-041依國教院愛學網Ec-IV-1第四學習階段資料列為年級待核對，保留原始年級及未分類學期／段考。"
+    "notes": "本輪僅補強國小六年級國語7題、英語6題的108課綱第三學習階段共同核心依據與confidence；學期、段考仍unassigned，出版社狀態仍curriculum-core且publisherMappings維持空陣列。未新增題目、未修改原始題幹／選項／答案／解析；官方課綱佐證不代表出版社版本、學校採用或教師審核。"
   },
   "high2MathCourseTrackAuditHistory": [
     {
@@ -14218,7 +14143,7 @@
   },
   "sourceHeadBeforeRun": "d66cf0a99eb2cc757874cfbb2bb169f0bcf25cc6",
   "sourceRegistryVerificationStatusCountsBatches08to41": {
-    "source-checked": 78,
+    "source-checked": 80,
     "pending": 1,
     "source-unavailable": 1
   }
