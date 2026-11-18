@@ -3573,7 +3573,7 @@
       "updatedQuestionsChecked": 2,
       "updatedQuestionIdsReachable": true,
       "curriculumSourceRegistryEntryPresent": true,
-      "targetedFilterCombinationsTested": 9,
+      "targetedFilterCombinationsTested": 18,
       "targetedFilterErrors": 0,
       "publisherMappingLeaks": 0,
       "allModeReachable": true,
@@ -3588,7 +3588,7 @@
       "fullFilterMatrixTested": false
     },
     "validationMethod": "重新讀取main第08–41批34個原始題庫檔、六個持久分類分片、分類manifest、教材對照與推定器；比對sourceBatch SHA，並依index.html getPool的持久分類語義執行9組定向資料層篩選案例。非瀏覽器／手機實機測試。",
-    "notes": "康軒113官方教材簡介六上單元二水溶液的主題脈絡明列混合物與物質分離，故將b34-031及b36-034對應至康軒單元層級；段考維持unassigned。"
+    "notes": "康軒113官方教材簡介六上單元二水溶液的主題脈絡明列混合物與物質分離，故將b34-031及b36-034對應至康軒單元層級；段考維持unassigned。 依getPool現行語義執行18組定向資料層篩選案例，錯誤0、出版社映射洩漏0；未執行瀏覽器或手機實機測試。"
   },
   "auditSummary": "2026-11-18：b35-053依國教院課程手冊附錄四確認高二數學A類，並以翰林官方數學(3A)頁核對高二上學期第1單元三角函數；全庫2,900題、持久分類2,900筆，出版社映射599題／707筆參照。學期已分類736題，段考已分類227題；本輪新增題目0。",
   "batch39UsageAudit": {
@@ -6971,7 +6971,7 @@
         "updatedQuestionsChecked": 2,
         "updatedQuestionIdsReachable": true,
         "curriculumSourceRegistryEntryPresent": true,
-        "targetedFilterCombinationsTested": 9,
+        "targetedFilterCombinationsTested": 18,
         "targetedFilterErrors": 0,
         "publisherMappingLeaks": 0,
         "allModeReachable": true,
@@ -6986,7 +6986,7 @@
         "fullFilterMatrixTested": false
       },
       "validationMethod": "重新讀取main第08–41批34個原始題庫檔、六個持久分類分片、分類manifest、教材對照與推定器；比對sourceBatch SHA，並依index.html getPool的持久分類語義執行9組定向資料層篩選案例。非瀏覽器／手機實機測試。",
-      "notes": "康軒113官方教材簡介六上單元二水溶液的主題脈絡明列混合物與物質分離，故將b34-031及b36-034對應至康軒單元層級；段考維持unassigned。"
+      "notes": "康軒113官方教材簡介六上單元二水溶液的主題脈絡明列混合物與物質分離，故將b34-031及b36-034對應至康軒單元層級；段考維持unassigned。 依getPool現行語義執行18組定向資料層篩選案例，錯誤0、出版社映射洩漏0；未執行瀏覽器或手機實機測試。"
     }
   ],
   "batch30ExtendedMetadataAudit": {
@@ -10050,7 +10050,7 @@
       "updatedQuestionsChecked": 2,
       "updatedQuestionIdsReachable": true,
       "curriculumSourceRegistryEntryPresent": true,
-      "targetedFilterCombinationsTested": 9,
+      "targetedFilterCombinationsTested": 18,
       "targetedFilterErrors": 0,
       "publisherMappingLeaks": 0,
       "allModeReachable": true,
@@ -10065,7 +10065,7 @@
       "fullFilterMatrixTested": false
     },
     "validationMethod": "重新讀取main第08–41批34個原始題庫檔、六個持久分類分片、分類manifest、教材對照與推定器；比對sourceBatch SHA，並依index.html getPool的持久分類語義執行9組定向資料層篩選案例。非瀏覽器／手機實機測試。",
-    "notes": "康軒113官方教材簡介六上單元二水溶液的主題脈絡明列混合物與物質分離，故將b34-031及b36-034對應至康軒單元層級；段考維持unassigned。"
+    "notes": "康軒113官方教材簡介六上單元二水溶液的主題脈絡明列混合物與物質分離，故將b34-031及b36-034對應至康軒單元層級；段考維持unassigned。 依getPool現行語義執行18組定向資料層篩選案例，錯誤0、出版社映射洩漏0；未執行瀏覽器或手機實機測試。"
   },
   "latestMappingScopeCorrection": {
     "date": "2026-11-14",
@@ -14472,7 +14472,7 @@
       "updatedQuestionsChecked": 2,
       "updatedQuestionIdsReachable": true,
       "curriculumSourceRegistryEntryPresent": true,
-      "targetedFilterCombinationsTested": 9,
+      "targetedFilterCombinationsTested": 18,
       "targetedFilterErrors": 0,
       "publisherMappingLeaks": 0,
       "allModeReachable": true,
@@ -14487,6 +14487,6 @@
       "fullFilterMatrixTested": false
     },
     "validationMethod": "重新讀取main第08–41批34個原始題庫檔、六個持久分類分片、分類manifest、教材對照與推定器；比對sourceBatch SHA，並依index.html getPool的持久分類語義執行9組定向資料層篩選案例。非瀏覽器／手機實機測試。",
-    "notes": "康軒113官方教材簡介六上單元二水溶液的主題脈絡明列混合物與物質分離，故將b34-031及b36-034對應至康軒單元層級；段考維持unassigned。"
+    "notes": "康軒113官方教材簡介六上單元二水溶液的主題脈絡明列混合物與物質分離，故將b34-031及b36-034對應至康軒單元層級；段考維持unassigned。 依getPool現行語義執行18組定向資料層篩選案例，錯誤0、出版社映射洩漏0；未執行瀏覽器或手機實機測試。"
   }
 }
