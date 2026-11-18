@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.1.7",
   "updatedAt": "2026-11-18",
-  "classificationRuleVersion": "2026-11-18.117",
+  "classificationRuleVersion": "2026-11-18.118",
   "batchRange": "38-41",
   "sourceBatchShas": {
     "38": "d5f0aed52035624b1aa72f3052577b8e13f11c91",
@@ -12732,11 +12732,11 @@
       "semester": "unassigned",
       "examPeriod": "unassigned",
       "classificationBasis": "curriculum-core",
-      "confidence": "low",
+      "confidence": "medium",
       "publisherStatus": "curriculum-core",
       "publisherMappings": [],
-      "classificationNotes": "國家教育研究院108自然科學領域課程手冊頁337–338將「植物的葉子是光合作用主要場所，需要陽光」列於5–6年級，並以INa-Ⅲ-9說明植物生長養分經光合作用取得；這支持本題的光合作用基本概念屬國小共同核心。但該手冊未直接核對本題二氧化碳吸收／氧氣釋出的具體敘述，也沒有出版社單元、學期或段考證據，因此維持低信心curriculum-core，不掛出版社，semester與examPeriod仍為unassigned。",
-      "sourceRef": "108課綱共同核心原創編寫；國家教育研究院《自然科學領域課程手冊》頁337–338（5–6年級光合作用基本概念與INa-Ⅲ-9）：https://www.naer.edu.tw/upload/1/16/doc/2064/%E8%87%AA%E7%84%B6%E7%A7%91%E5%AD%B8%E9%A0%98%E5%9F%9F%E8%AA%B2%E7%A8%8B%E6%89%8B%E5%86%8A%28%E5%AE%9A%E7%A8%BF%E7%89%88%29.pdf",
+      "classificationNotes": "國家教育研究院108自然科學領域課程手冊的INa-Ⅲ-9說明國小第三學習階段植物生長養分經光合作用取得；教育部科學教育學習網「化學－空氣與燃燒－氧和二氧化碳的循環」資源明示國小5–6年級，並直接說明綠色植物光合作用吸收二氧化碳、放出氧氣，與本題題幹一致。兩項來源支持本題的年級與共同核心知識點，但未提供南一／翰林／康軒版本、學期冊別或段考範圍，因此不新增出版社映射，semester與examPeriod維持unassigned；信心調整為medium。",
+      "sourceRef": "108課綱共同核心原創編寫；國家教育研究院《自然科學領域課程手冊》INa-Ⅲ-9：https://www.naer.edu.tw/upload/1/16/doc/2064/%E8%87%AA%E7%84%B6%E7%A7%91%E5%AD%B8%E9%A0%98%E5%9F%9F%E8%AA%B2%E7%A8%8B%E6%89%8B%E5%86%8A%28%E5%AE%9A%E7%A8%BF%E7%89%88%29.pdf | 教育部科學教育學習網「化學－空氣與燃燒－氧和二氧化碳的循環」https://market.cloud.edu.tw/resources/web/1682505",
       "learningDomain": "生物生命",
       "questionType": "情境推理",
       "learningUnit": "光合作用與氣體交換",
@@ -15431,10 +15431,10 @@
     "note": "康軒114六下自然映射改以學校課程計畫及出版社官方數位資源交叉核對；學期及段考值不變。"
   },
   "latestClassificationUpdate": {
-    "runId": "2026-11-18-naer-g6-control-variable-core-review-01",
-    "updatedAt": "2026-11-18T06:46:36+08:00",
+    "runId": "2026-11-18-educloud-g6-photosynthesis-grade-scope-review-01",
+    "updatedAt": "2026-11-18T15:40:00+08:00",
     "updatedQuestionIds": [
-      "b40-035"
+      "b41-036"
     ],
     "questionRecordsUpdated": 1,
     "confidenceCorrections": 1,
@@ -15444,7 +15444,7 @@
     "publisherMappingReferencesAdded": 0,
     "newQuestionsAdded": 0,
     "sourceBatchShasUnchanged": true,
-    "notes": "依國教院108自然科學領域課程手冊PDF第358頁／印刷頁419核對國小5–6年級比較實驗一次只改變一項變因；只提高共同核心分類信心，不標出版社、學期或段考。"
+    "notes": "依教育部科學教育學習網國小5–6年級資源直接核對光合作用吸收二氧化碳並放出氧氣，與b41-036題幹相符；維持108課綱共同核心，confidence由low調整為medium，不標出版社、學期或段考。"
   },
   "latestCurriculumScopeAudit": {
     "runId": "2026-11-18-g6-natural-grade-scope-audit-01",
