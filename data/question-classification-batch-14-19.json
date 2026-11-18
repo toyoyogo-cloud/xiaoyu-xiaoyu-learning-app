@@ -1,7 +1,7 @@
 {
-  "schemaVersion": "1.1.0",
+  "schemaVersion": "1.1.9",
   "updatedAt": "2026-11-18",
-  "classificationRuleVersion": "2026-11-18.108",
+  "classificationRuleVersion": "2026-11-18.121",
   "batchRange": "14-19",
   "sourceBatchShas": {
     "14": "938f1b45a5dd17867e7f566566f9ee495469434f",
@@ -1141,37 +1141,50 @@
       "publisherStatus": "publisher-mapped",
       "publisherMappings": [
         {
-          "publisher": "knsh",
-          "mappingId": "knsh-g6-natural-113-6a-u2-solution-separation",
-          "sourceUrl": "https://945cloud.knsh.com.tw/e/promo/show/upload/material/4/113%281%29%E8%87%AA%E7%84%B6%E9%A0%98%E5%9F%9F%E6%96%87%E5%AE%A3-%E8%B7%A8%E9%A0%81.pdf",
-          "sourceTitle": "113康軒國小教材簡介－自然領域文宣",
-          "verifiedAt": "2026-11-18",
-          "verificationStatus": "source-checked",
-          "notes": "113康軒官方教材簡介目次明列六上單元二「水溶液」；主題脈絡列出混合物、物質分離、導電性與酸鹼性。本題直接要求分離沙與食鹽的水混合物，對應「物質分離」主題。僅支持113版康軒六上單元層級，不代表學校採用版本或正式段考範圍，也不表示題目取自教材原文。",
-          "mappingLevel": "unit",
-          "volume": "自然科學(6上)",
-          "unitCode": "2",
-          "unitName": "水溶液",
-          "unitAliases": [
-            "混合物分離",
-            "物質分離",
-            "沙子與食鹽分離"
-          ],
-          "scopeKeywords": [],
-          "semester": "上學期",
+          "id": "knsh-g6-natural-114-6a-u2-solution-schoolplan-gengliao",
+          "mappingId": "knsh-g6-natural-114-6a-u2-solution-schoolplan-gengliao",
+          "schoolYear": "114學年度",
+          "stage": "國小",
           "grade": "六年級",
           "subject": "自然",
+          "semester": "上學期",
+          "publisher": "knsh",
+          "volume": "康軒版第十一冊",
+          "unitCode": "2",
+          "unitName": "水溶液",
+          "learningContent": "水溶液是一種混合物；物質溶解後的分離（包含從食鹽水中分離食鹽）；物質混合前後重量不變；水溶液的導電性與酸鹼性。",
+          "sourceType": "official-school-adoption-curriculum-plan",
+          "sourceUrl": "https://course.cyc.edu.tw/upfile/course114/sub1/15925383328445396.pdf",
+          "sourceTitle": "嘉義縣六腳鄉更寮國民小學－114學年度第一／二學期六年級普通班自然領域課程計畫（康軒版第十一冊）",
+          "verifiedAt": "2026-11-18",
+          "verificationStatus": "source-checked",
+          "notes": "嘉義縣六腳鄉更寮國民小學114學年度課程計畫明列第一學期六年級普通班自然科採康軒版第十一冊；第二單元為「水溶液」，活動1-1「水溶液是一種混合物」、活動1-2「溶解後物質的分離」，並列從食鹽水中分離食鹽。這是該校採用案例，不代表使用者學校採用康軒；只支持六年級自然上學期單元層級對照，不代表題目取自教材或正式段考範圍。課程計畫未逐題列出濾紙操作，因此過濾題僅標記到單元層級，不宣稱官方活動明列濾紙過濾。",
+          "courseType": "國小",
           "courseTrack": null,
-          "schoolYear": "113",
-          "courseType": "國小"
+          "mappingLevel": "unit",
+          "unitAliases": [
+            "水溶液",
+            "溶解",
+            "溶解後物質的分離",
+            "物質分離",
+            "混合物分離",
+            "沙子與食鹽分離",
+            "過濾與溶解物分離",
+            "過濾與溶解物",
+            "淨水與分離方法",
+            "食鹽溶液過濾",
+            "混合物過濾分離"
+          ],
+          "scopeKeywords": []
         }
       ],
-      "classificationNotes": "113康軒官方教材簡介目次明列六上單元二「水溶液」；主題脈絡列出混合物、物質分離、導電性與酸鹼性。本題直接要求分離沙與食鹽的水混合物，對應「物質分離」主題。僅支持113版康軒六上單元層級，不代表學校採用版本或正式段考範圍，也不表示題目取自教材原文。 學期依113版康軒六上官方目次標記上學期；段考範圍未確認，維持unassigned。",
-      "sourceRef": "依108課綱核心概念原創編寫；非歷屆試題原文 | https://945cloud.knsh.com.tw/e/promo/show/upload/material/4/113%281%29%E8%87%AA%E7%84%B6%E9%A0%98%E5%9F%9F%E6%96%87%E5%AE%A3-%E8%B7%A8%E9%A0%81.pdf",
+      "classificationNotes": "依嘉義縣六腳鄉更寮國民小學－114學年度第一／二學期六年級普通班自然領域課程計畫（康軒版第十一冊）：第一學期採康軒版第十一冊，第二單元為「水溶液」，活動1-1為「水溶液是一種混合物」、活動1-2為「溶解後物質的分離」，並列從食鹽水中分離食鹽。本題處理砂粒與食鹽水混合物的分離，對應水溶液單元的混合物與溶解後物質分離主題。此課程計畫是該校採用案例，不代表使用者學校採用康軒；僅作114學年度六年級自然上學期單元層級對照，不表示題目取自教材，也不代表正式段考範圍。來源未提供學校段考範圍，examPeriod維持unassigned。",
+      "sourceRef": "108課綱共同核心原創編寫；非出版社教材原文或歷屆試題原文。 | 嘉義縣六腳鄉更寮國民小學－114學年度第一／二學期六年級普通班自然領域課程計畫（康軒版第十一冊） | https://course.cyc.edu.tw/upfile/course114/sub1/15925383328445396.pdf",
       "learningDomain": "化學物質",
       "questionType": "概念辨識",
       "learningUnit": "混合物分離",
-      "difficultyLevel": "挑戰"
+      "difficultyLevel": "挑戰",
+      "reason": "依嘉義縣六腳鄉更寮國民小學－114學年度第一／二學期六年級普通班自然領域課程計畫（康軒版第十一冊）：第一學期採康軒版第十一冊，第二單元為「水溶液」，活動1-1為「水溶液是一種混合物」、活動1-2為「溶解後物質的分離」，並列從食鹽水中分離食鹽。本題處理砂粒與食鹽水混合物的分離，對應水溶液單元的混合物與溶解後物質分離主題。此課程計畫是該校採用案例，不代表使用者學校採用康軒；僅作114學年度六年級自然上學期單元層級對照，不表示題目取自教材，也不代表正式段考範圍。來源未提供學校段考範圍，examPeriod維持unassigned。"
     },
     "b15-031": {
       "stage": "高中",
