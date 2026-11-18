@@ -13017,7 +13017,11 @@
         "incompleteReferencesAfterBackfill": 0,
         "missingCentralMappingReferences": 0,
         "missingRequiredSourceFields": 0,
-        "mappingScopeMismatches": 0
+        "mappingScopeMismatches": 0,
+        "references": 706,
+        "sourceIdentityMismatches": 0,
+        "verifiedAtFormatErrors": 0,
+        "note": "verifiedAt與notes可保留逐題核對日期及題目層級理由；publisher、sourceUrl、sourceTitle、verificationStatus均與中央映射一致。"
       },
       "appIntegration": {
         "indexReadsPersistedManifest": true,
@@ -13027,7 +13031,15 @@
         "zeroResultHintPresent": true,
         "serviceWorkerAssetListContainsAll34BatchesAndSixShards": true,
         "browserOrMobileRuntimeTested": false,
-        "fullFilterMatrixRetested": false
+        "fullFilterMatrixRetested": false,
+        "activeScopeFilterMatrixTested": true,
+        "activeScopeFilterMatrixCombinationsTested": 15750,
+        "activeScopeFilterMatrixErrors": 0,
+        "activeScopePublisherMappingLeaks": 0,
+        "activeScopeUnitFilterErrors": 0,
+        "high2MathTrackCombinationsTested": 3000,
+        "high2MathTrackErrors": 0,
+        "fullCorpusAllGradesFilterMatrixTested": false
       },
       "changesThisRun": {
         "classificationRecordsChanged": 4,
@@ -13049,9 +13061,21 @@
         "publisherMappingScopeErrorsAfterBackfill": 0,
         "sourceBatchShaMatches": "34/34",
         "shardCount": 6,
-        "browserOrMobileRuntimeTested": false
+        "browserOrMobileRuntimeTested": false,
+        "activeScopeFilterMatrixTested": true,
+        "activeScopeFilterMatrixCombinationsTested": 15750,
+        "activeScopeFilterMatrixErrors": 0,
+        "publisherMappingLeaks": 0,
+        "allModeMismatches": 0,
+        "curriculumCoreModeLeaks": 0,
+        "pendingModeLeaks": 0,
+        "unitFilterErrors": 0,
+        "high2MathTrackCombinationsTested": 3000,
+        "high2MathTrackErrors": 0,
+        "zeroResultHintPresent": true
       },
-      "notes": "本輪先重新讀取main第08–41批34個原始題庫檔、六個持久分類分片及中央教材映射。發現8筆publisherMappings只存mappingId縮寫，中央MAPS雖可在執行時補足，但持久資料未完整保存來源欄位；本輪將b11-006、b21-032、b34-052、b38-040共8筆映射參照補齊。電磁鐵映射依教育部教育雲EP49跨版本單元對照；b34-052保留已核對的數學A／翰林數學(3A)第1單元；b38-040保留康軒113六上水溶液單元。段考範圍仍未有官方或教師依據，維持unassigned。未修改原題、未新增題目、未宣稱教師審核或學校採用版本。"
+      "notes": "本輪先重新讀取main第08–41批34個原始題庫檔、六個持久分類分片及中央教材映射。發現8筆publisherMappings只存mappingId縮寫，中央MAPS雖可在執行時補足，但持久資料未完整保存來源欄位；本輪將b11-006、b21-032、b34-052、b38-040共8筆映射參照補齊。電磁鐵映射依教育部教育雲EP49跨版本單元對照；b34-052保留已核對的數學A／翰林數學(3A)第1單元；b38-040保留康軒113六上水溶液單元。段考範圍仍未有官方或教師依據，維持unassigned。未修改原題、未新增題目、未宣稱教師審核或學校採用版本。 本輪另依index.html getPool()實際篩選順序，對國小六年級及高中高二17個科目群執行學期×段考×出版社×難度及高二數學軌別共15,750組資料層篩選；0錯誤、0出版社映射洩漏、0單元篩選錯誤。另檢查高二數學軌別3,000組，0錯誤。此為資料層模擬，非瀏覽器／手機實機測試；全庫其他年級不在APP目前啟用題池。",
+      "resultingMainHeadBeforeAuditRefresh": "a23dbd269a2d832291af3116780030f3d74cbb0d"
     }
   ],
   "latestMetadataAudit": {
@@ -14559,7 +14583,11 @@
       "incompleteReferencesAfterBackfill": 0,
       "missingCentralMappingReferences": 0,
       "missingRequiredSourceFields": 0,
-      "mappingScopeMismatches": 0
+      "mappingScopeMismatches": 0,
+      "references": 706,
+      "sourceIdentityMismatches": 0,
+      "verifiedAtFormatErrors": 0,
+      "note": "verifiedAt與notes可保留逐題核對日期及題目層級理由；publisher、sourceUrl、sourceTitle、verificationStatus均與中央映射一致。"
     },
     "appIntegration": {
       "indexReadsPersistedManifest": true,
@@ -14569,7 +14597,15 @@
       "zeroResultHintPresent": true,
       "serviceWorkerAssetListContainsAll34BatchesAndSixShards": true,
       "browserOrMobileRuntimeTested": false,
-      "fullFilterMatrixRetested": false
+      "fullFilterMatrixRetested": false,
+      "activeScopeFilterMatrixTested": true,
+      "activeScopeFilterMatrixCombinationsTested": 15750,
+      "activeScopeFilterMatrixErrors": 0,
+      "activeScopePublisherMappingLeaks": 0,
+      "activeScopeUnitFilterErrors": 0,
+      "high2MathTrackCombinationsTested": 3000,
+      "high2MathTrackErrors": 0,
+      "fullCorpusAllGradesFilterMatrixTested": false
     },
     "changesThisRun": {
       "classificationRecordsChanged": 4,
@@ -14591,8 +14627,20 @@
       "publisherMappingScopeErrorsAfterBackfill": 0,
       "sourceBatchShaMatches": "34/34",
       "shardCount": 6,
-      "browserOrMobileRuntimeTested": false
+      "browserOrMobileRuntimeTested": false,
+      "activeScopeFilterMatrixTested": true,
+      "activeScopeFilterMatrixCombinationsTested": 15750,
+      "activeScopeFilterMatrixErrors": 0,
+      "publisherMappingLeaks": 0,
+      "allModeMismatches": 0,
+      "curriculumCoreModeLeaks": 0,
+      "pendingModeLeaks": 0,
+      "unitFilterErrors": 0,
+      "high2MathTrackCombinationsTested": 3000,
+      "high2MathTrackErrors": 0,
+      "zeroResultHintPresent": true
     },
-    "notes": "本輪先重新讀取main第08–41批34個原始題庫檔、六個持久分類分片及中央教材映射。發現8筆publisherMappings只存mappingId縮寫，中央MAPS雖可在執行時補足，但持久資料未完整保存來源欄位；本輪將b11-006、b21-032、b34-052、b38-040共8筆映射參照補齊。電磁鐵映射依教育部教育雲EP49跨版本單元對照；b34-052保留已核對的數學A／翰林數學(3A)第1單元；b38-040保留康軒113六上水溶液單元。段考範圍仍未有官方或教師依據，維持unassigned。未修改原題、未新增題目、未宣稱教師審核或學校採用版本。"
+    "notes": "本輪先重新讀取main第08–41批34個原始題庫檔、六個持久分類分片及中央教材映射。發現8筆publisherMappings只存mappingId縮寫，中央MAPS雖可在執行時補足，但持久資料未完整保存來源欄位；本輪將b11-006、b21-032、b34-052、b38-040共8筆映射參照補齊。電磁鐵映射依教育部教育雲EP49跨版本單元對照；b34-052保留已核對的數學A／翰林數學(3A)第1單元；b38-040保留康軒113六上水溶液單元。段考範圍仍未有官方或教師依據，維持unassigned。未修改原題、未新增題目、未宣稱教師審核或學校採用版本。 本輪另依index.html getPool()實際篩選順序，對國小六年級及高中高二17個科目群執行學期×段考×出版社×難度及高二數學軌別共15,750組資料層篩選；0錯誤、0出版社映射洩漏、0單元篩選錯誤。另檢查高二數學軌別3,000組，0錯誤。此為資料層模擬，非瀏覽器／手機實機測試；全庫其他年級不在APP目前啟用題池。",
+    "resultingMainHeadBeforeAuditRefresh": "a23dbd269a2d832291af3116780030f3d74cbb0d"
   }
 }
