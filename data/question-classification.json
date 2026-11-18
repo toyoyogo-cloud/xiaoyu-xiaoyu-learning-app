@@ -733,11 +733,22 @@
       "appReadsPersistedClassificationIndex": true,
       "zeroResultHintPresent": true,
       "browserOrMobileRuntimeTested": false,
-      "fullFilterMatrixTested": false
-    }
+      "fullFilterMatrixTested": false,
+      "filterCasesTested": 21,
+      "high2MathCourseTrackCombinationsTested": 3000,
+      "high2MathCourseTrackErrors": 0,
+      "high2MathCourseTrackPublisherLeaks": 0,
+      "high2MathTrackCounts": {
+        "數學A": 84,
+        "數學B": 0,
+        "未標示軌別": 128,
+        "全部軌別": 212
+      }
+    },
+    "validationMethod": "依index.html bankFor/getPool與question-classification-inference.js resolveMappings/validMappingForQuestion現行語義，以main六個持久分類分片及中央教材映射重跑21組啟用題池篩選；另對高二數學執行4軌別×5難度×5學期×5段考×6出版社狀態，共3,000組資料層組合測試。全庫2,900筆是持久分類索引範圍；APP目前bankFor實際啟用題池僅國小六年級＋高中高二1,864題。非瀏覽器／手機實機測試，亦非所有年級科目的完整笛卡兒矩陣。"
   },
   "latestFilterValidation": {
-    "runId": "2026-11-18-g6-language-core-evidence-review-01",
+    "runId": "2026-11-18-educloud-g6-photosynthesis-grade-scope-review-01",
     "verifiedAt": "2026-11-18",
     "filterCasesTested": 21,
     "passed": 21,
@@ -745,6 +756,8 @@
     "publisherMappingLeaks": 0,
     "allModeReachable": true,
     "allModeQuestionCount": 1864,
+    "fullCorpusPersistedQuestionCount": 2900,
+    "activeScopeQuestionCount": 1864,
     "curriculumCoreModeReachable": true,
     "curriculumCoreQuestionCount": 1244,
     "pendingModeReachable": true,
@@ -754,44 +767,48 @@
     "appReadsPersistedClassificationIndex": true,
     "browserOrMobileRuntimeTested": false,
     "fullFilterMatrixTested": false,
+    "high2MathCourseTrackCombinationsTested": 3000,
+    "high2MathCourseTrackErrors": 0,
+    "high2MathCourseTrackPublisherLeaks": 0,
+    "high2MathTrackCounts": {
+      "數學A": 84,
+      "數學B": 0,
+      "未標示軌別": 128,
+      "全部軌別": 212
+    },
     "cases": [
       {
-        "name": "全庫全部",
-        "count": 2900,
-        "expected": 2900
-      },
-      {
-        "name": "啟用範圍六年級＋高二",
+        "name": "啟用題池全部（國小六年級＋高中高二）",
         "count": 1864,
         "expected": 1864
       },
       {
-        "name": "108課綱共同核心",
-        "count": 2280,
-        "expected": 2280
+        "name": "啟用題池108課綱共同核心",
+        "count": 1244,
+        "expected": 1244
       },
       {
-        "name": "待核對",
+        "name": "啟用題池待核對",
         "count": 22,
         "expected": 22
       },
       {
-        "name": "南一",
+        "name": "南一（source-checked）",
         "count": 72,
         "expected": 72
       },
       {
-        "name": "翰林",
+        "name": "翰林（source-checked）",
         "count": 460,
         "expected": 460
       },
       {
-        "name": "康軒",
+        "name": "康軒（source-checked）",
         "count": 174,
         "expected": 174
       },
       {
-        "name": "上學期",
+        "name": "上學期（含版本學期）",
         "count": 516,
         "expected": 516
       },
@@ -806,42 +823,44 @@
         "expected": 76
       },
       {
-        "name": "學期未分類",
-        "count": 2165,
-        "expected": 2165
+        "name": "未分類學期",
+        "count": 1129,
+        "expected": 1129
       },
       {
-        "name": "第一次段考",
+        "name": "第一次段考建議",
         "count": 65,
         "expected": 65
       },
       {
-        "name": "第二次段考",
+        "name": "第二次段考建議",
         "count": 71,
         "expected": 71
       },
       {
-        "name": "第三次段考",
+        "name": "第三次段考建議",
         "count": 91,
         "expected": 91
       },
       {
-        "name": "段考未分類",
-        "count": 2673,
-        "expected": 2673
+        "name": "未分類段考",
+        "count": 1637,
+        "expected": 1637
       },
       {
-        "name": "六年級英語公告題",
+        "name": "六年級英語公告資訊判讀",
         "count": 2,
-        "expected": "contains b41-010"
+        "expected": 2,
+        "contains": "b41-010"
       },
       {
-        "name": "六年級國語論點題",
+        "name": "六年級國語論點與證據",
         "count": 9,
-        "expected": "contains b41-001"
+        "expected": 9,
+        "contains": "b41-001"
       },
       {
-        "name": "不存在單元零題",
+        "name": "不存在單元（零題提示）",
         "count": 0,
         "expected": 0
       },
@@ -859,8 +878,31 @@
         "name": "高二數學未標示軌別",
         "count": 128,
         "expected": 128
+      },
+      {
+        "name": "高二數學全部軌別",
+        "count": 212,
+        "expected": 212
       }
-    ]
+    ],
+    "matrix": {
+      "high2MathQuestionCount": 212,
+      "trackOptions": 4,
+      "difficultyOptions": [
+        "全部",
+        "基礎",
+        "挑戰",
+        "未標示",
+        "進階"
+      ],
+      "semesterOptions": 5,
+      "examOptions": 5,
+      "publisherOptions": 6,
+      "combinations": 3000,
+      "errors": 0,
+      "publisherMappingLeaks": 0
+    },
+    "validationMethod": "依index.html bankFor/getPool與question-classification-inference.js resolveMappings/validMappingForQuestion現行語義，以main六個持久分類分片及中央教材映射重跑21組啟用題池篩選；另對高二數學執行4軌別×5難度×5學期×5段考×6出版社狀態，共3,000組資料層組合測試。全庫2,900筆是持久分類索引範圍；APP目前bankFor實際啟用題池僅國小六年級＋高中高二1,864題。非瀏覽器／手機實機測試，亦非所有年級科目的完整笛卡兒矩陣。"
   },
   "classificationPersistenceRuns": [
     {
@@ -2432,8 +2474,19 @@
       "appReadsPersistedClassificationIndex": true,
       "zeroResultHintPresent": true,
       "browserOrMobileRuntimeTested": false,
-      "fullFilterMatrixTested": false
-    }
+      "fullFilterMatrixTested": false,
+      "filterCasesTested": 21,
+      "high2MathCourseTrackCombinationsTested": 3000,
+      "high2MathCourseTrackErrors": 0,
+      "high2MathCourseTrackPublisherLeaks": 0,
+      "high2MathTrackCounts": {
+        "數學A": 84,
+        "數學B": 0,
+        "未標示軌別": 128,
+        "全部軌別": 212
+      }
+    },
+    "validationMethod": "依index.html bankFor/getPool與question-classification-inference.js resolveMappings/validMappingForQuestion現行語義，以main六個持久分類分片及中央教材映射重跑21組啟用題池篩選；另對高二數學執行4軌別×5難度×5學期×5段考×6出版社狀態，共3,000組資料層組合測試。全庫2,900筆是持久分類索引範圍；APP目前bankFor實際啟用題池僅國小六年級＋高中高二1,864題。非瀏覽器／手機實機測試，亦非所有年級科目的完整笛卡兒矩陣。"
   },
   "coverageNote": "coverageStatus=complete 表示第08–41批全部題目均有持久分類紀錄；學期／段考欄位仍依證據保留 unassigned，不代表每題均已確定考期。",
   "latestMainClassificationAudit": {
@@ -3238,7 +3291,7 @@
     "notes": "本輪在前一輪 active scope 1,430,100 組資料層測試之外，擴大到第08–41批全庫48組年級／科目條件，完成2,119,500組完整資料層篩選模擬；全部版本可達2,900題，零錯誤與零出版社映射洩漏。沒有修改題目分類或新增題目。"
   },
   "latestTargetedFilterValidation": {
-    "runId": "2026-11-18-g6-language-core-evidence-review-01",
+    "runId": "2026-11-18-educloud-g6-photosynthesis-grade-scope-review-01",
     "verifiedAt": "2026-11-18",
     "filterCasesTested": 21,
     "passed": 21,
@@ -3246,6 +3299,8 @@
     "publisherMappingLeaks": 0,
     "allModeReachable": true,
     "allModeQuestionCount": 1864,
+    "fullCorpusPersistedQuestionCount": 2900,
+    "activeScopeQuestionCount": 1864,
     "curriculumCoreModeReachable": true,
     "curriculumCoreQuestionCount": 1244,
     "pendingModeReachable": true,
@@ -3255,44 +3310,48 @@
     "appReadsPersistedClassificationIndex": true,
     "browserOrMobileRuntimeTested": false,
     "fullFilterMatrixTested": false,
+    "high2MathCourseTrackCombinationsTested": 3000,
+    "high2MathCourseTrackErrors": 0,
+    "high2MathCourseTrackPublisherLeaks": 0,
+    "high2MathTrackCounts": {
+      "數學A": 84,
+      "數學B": 0,
+      "未標示軌別": 128,
+      "全部軌別": 212
+    },
     "cases": [
       {
-        "name": "全庫全部",
-        "count": 2900,
-        "expected": 2900
-      },
-      {
-        "name": "啟用範圍六年級＋高二",
+        "name": "啟用題池全部（國小六年級＋高中高二）",
         "count": 1864,
         "expected": 1864
       },
       {
-        "name": "108課綱共同核心",
-        "count": 2280,
-        "expected": 2280
+        "name": "啟用題池108課綱共同核心",
+        "count": 1244,
+        "expected": 1244
       },
       {
-        "name": "待核對",
+        "name": "啟用題池待核對",
         "count": 22,
         "expected": 22
       },
       {
-        "name": "南一",
+        "name": "南一（source-checked）",
         "count": 72,
         "expected": 72
       },
       {
-        "name": "翰林",
+        "name": "翰林（source-checked）",
         "count": 460,
         "expected": 460
       },
       {
-        "name": "康軒",
+        "name": "康軒（source-checked）",
         "count": 174,
         "expected": 174
       },
       {
-        "name": "上學期",
+        "name": "上學期（含版本學期）",
         "count": 516,
         "expected": 516
       },
@@ -3307,42 +3366,44 @@
         "expected": 76
       },
       {
-        "name": "學期未分類",
-        "count": 2165,
-        "expected": 2165
+        "name": "未分類學期",
+        "count": 1129,
+        "expected": 1129
       },
       {
-        "name": "第一次段考",
+        "name": "第一次段考建議",
         "count": 65,
         "expected": 65
       },
       {
-        "name": "第二次段考",
+        "name": "第二次段考建議",
         "count": 71,
         "expected": 71
       },
       {
-        "name": "第三次段考",
+        "name": "第三次段考建議",
         "count": 91,
         "expected": 91
       },
       {
-        "name": "段考未分類",
-        "count": 2673,
-        "expected": 2673
+        "name": "未分類段考",
+        "count": 1637,
+        "expected": 1637
       },
       {
-        "name": "六年級英語公告題",
+        "name": "六年級英語公告資訊判讀",
         "count": 2,
-        "expected": "contains b41-010"
+        "expected": 2,
+        "contains": "b41-010"
       },
       {
-        "name": "六年級國語論點題",
+        "name": "六年級國語論點與證據",
         "count": 9,
-        "expected": "contains b41-001"
+        "expected": 9,
+        "contains": "b41-001"
       },
       {
-        "name": "不存在單元零題",
+        "name": "不存在單元（零題提示）",
         "count": 0,
         "expected": 0
       },
@@ -3360,8 +3421,31 @@
         "name": "高二數學未標示軌別",
         "count": 128,
         "expected": 128
+      },
+      {
+        "name": "高二數學全部軌別",
+        "count": 212,
+        "expected": 212
       }
-    ]
+    ],
+    "matrix": {
+      "high2MathQuestionCount": 212,
+      "trackOptions": 4,
+      "difficultyOptions": [
+        "全部",
+        "基礎",
+        "挑戰",
+        "未標示",
+        "進階"
+      ],
+      "semesterOptions": 5,
+      "examOptions": 5,
+      "publisherOptions": 6,
+      "combinations": 3000,
+      "errors": 0,
+      "publisherMappingLeaks": 0
+    },
+    "validationMethod": "依index.html bankFor/getPool與question-classification-inference.js resolveMappings/validMappingForQuestion現行語義，以main六個持久分類分片及中央教材映射重跑21組啟用題池篩選；另對高二數學執行4軌別×5難度×5學期×5段考×6出版社狀態，共3,000組資料層組合測試。全庫2,900筆是持久分類索引範圍；APP目前bankFor實際啟用題池僅國小六年級＋高中高二1,864題。非瀏覽器／手機實機測試，亦非所有年級科目的完整笛卡兒矩陣。"
   },
   "sourceRegistryCount": 83,
   "latestPublisherSourceVerificationAudit": {
@@ -4190,7 +4274,18 @@
       "appReadsPersistedClassificationIndex": true,
       "zeroResultHintPresent": true,
       "browserOrMobileRuntimeTested": false,
-      "fullFilterMatrixTested": false
-    }
+      "fullFilterMatrixTested": false,
+      "filterCasesTested": 21,
+      "high2MathCourseTrackCombinationsTested": 3000,
+      "high2MathCourseTrackErrors": 0,
+      "high2MathCourseTrackPublisherLeaks": 0,
+      "high2MathTrackCounts": {
+        "數學A": 84,
+        "數學B": 0,
+        "未標示軌別": 128,
+        "全部軌別": 212
+      }
+    },
+    "validationMethod": "依index.html bankFor/getPool與question-classification-inference.js resolveMappings/validMappingForQuestion現行語義，以main六個持久分類分片及中央教材映射重跑21組啟用題池篩選；另對高二數學執行4軌別×5難度×5學期×5段考×6出版社狀態，共3,000組資料層組合測試。全庫2,900筆是持久分類索引範圍；APP目前bankFor實際啟用題池僅國小六年級＋高中高二1,864題。非瀏覽器／手機實機測試，亦非所有年級科目的完整笛卡兒矩陣。"
   }
 }
