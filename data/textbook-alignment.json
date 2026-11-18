@@ -10056,16 +10056,73 @@
       "allModeReachable": true,
       "allModeQuestionCount": 1864,
       "curriculumCoreModeReachable": true,
-      "curriculumCoreModeQuestionCount": 1242,
+      "curriculumCoreModeQuestionCount": 1241,
       "pendingModeReachable": true,
       "pendingModeQuestionCount": 22,
       "appReadsPersistedClassificationIndex": true,
       "zeroResultHintPresent": true,
       "browserOrMobileRuntimeTested": false,
-      "fullFilterMatrixTested": false
+      "fullFilterMatrixTested": false,
+      "mappingSourceFieldErrors": 0,
+      "mappingScopeErrors": 0,
+      "high2MathTrackCounts": {
+        "數學A": 84,
+        "數學B": 0,
+        "未標示軌別": 128,
+        "全部軌別": 212
+      }
     },
     "validationMethod": "重新讀取main第08–41批34個原始題庫檔、六個持久分類分片、分類manifest、教材對照與推定器；比對sourceBatch SHA，並依index.html getPool的持久分類語義執行9組定向資料層篩選案例。非瀏覽器／手機實機測試。",
-    "notes": "康軒113官方教材簡介六上單元二水溶液的主題脈絡明列混合物與物質分離，故將b34-031及b36-034對應至康軒單元層級；段考維持unassigned。 依getPool現行語義執行18組定向資料層篩選案例，錯誤0、出版社映射洩漏0；未執行瀏覽器或手機實機測試。"
+    "notes": "康軒113官方教材簡介六上單元二水溶液的主題脈絡明列混合物與物質分離，故將b34-031及b36-034對應至康軒單元層級；段考維持unassigned。 依getPool現行語義執行18組定向資料層篩選案例，錯誤0、出版社映射洩漏0；未執行瀏覽器或手機實機測試。",
+    "fullCorpusConfidenceDistribution": {
+      "low": 2036,
+      "medium": 826,
+      "high": 38
+    },
+    "activeScope": {
+      "questionCount": 1864,
+      "gradeCounts": {
+        "六年級": 890,
+        "高二": 974
+      },
+      "semester": {
+        "unassigned": 1126,
+        "上學期": 498,
+        "下學期": 164,
+        "全學年": 76
+      },
+      "examPeriod": {
+        "unassigned": 1637,
+        "第一次段考": 65,
+        "第二次段考": 71,
+        "第三次段考": 91
+      },
+      "publisherStatus": {
+        "curriculum-core": 1241,
+        "publisher-mapped": 601,
+        "pending": 22
+      },
+      "classificationBasis": {
+        "curriculum-core": 1111,
+        "publisher-source-verified": 487,
+        "question-bank-inference": 250,
+        "unassigned": 16
+      },
+      "confidence": {
+        "low": 1000,
+        "medium": 826,
+        "high": 38
+      },
+      "publisherMappedQuestionCount": 601,
+      "publisherMappingReferenceCount": 709,
+      "publisherReferenceCounts": {
+        "nani": 72,
+        "hanlin": 461,
+        "knsh": 176,
+        "_total": 709
+      }
+    },
+    "activeScopeQuestionCount": 1864
   },
   "latestMappingScopeCorrection": {
     "date": "2026-11-14",
@@ -10583,8 +10640,8 @@
     "missingRequiredFields": 0,
     "invalidClassificationValues": 0,
     "semester": {
-      "unassigned": 2164,
-      "上學期": 496,
+      "unassigned": 2162,
+      "上學期": 498,
       "下學期": 164,
       "全學年": 76
     },
@@ -10595,51 +10652,51 @@
       "第三次段考": 91
     },
     "classificationBasis": {
-      "curriculum-core": 2149,
-      "publisher-source-verified": 485,
+      "curriculum-core": 2147,
+      "publisher-source-verified": 487,
       "question-bank-inference": 250,
       "unassigned": 16
     },
     "confidence": {
-      "low": 2038,
-      "medium": 824,
+      "low": 2036,
+      "medium": 826,
       "high": 38
     },
     "publisherStatus": {
-      "curriculum-core": 2279,
-      "publisher-mapped": 599,
+      "curriculum-core": 2277,
+      "publisher-mapped": 601,
       "pending": 22
     },
-    "publisherMappedQuestionCount": 599,
-    "publisherMappingReferenceCount": 707,
-    "validPublisherMappingReferenceCount": 707,
+    "publisherMappedQuestionCount": 601,
+    "publisherMappingReferenceCount": 709,
+    "validPublisherMappingReferenceCount": 709,
     "publisherReferenceCounts": {
       "nani": 72,
       "hanlin": 461,
-      "knsh": 174,
-      "_total": 707
+      "knsh": 176,
+      "_total": 709
     },
     "validPublisherReferenceCounts": {
       "nani": 72,
       "hanlin": 461,
-      "knsh": 174,
-      "_total": 707
+      "knsh": 176,
+      "_total": 709
     },
     "mappingLevelCounts": {
       "official-resource-title": 77,
-      "unit": 483,
+      "unit": 485,
       "volume": 147,
-      "_total": 707
+      "_total": 709
     },
     "validMappingLevelCounts": {
       "official-resource-title": 77,
-      "unit": 483,
+      "unit": 485,
       "volume": 147,
-      "_total": 707
+      "_total": 709
     },
     "mappingVerificationStatus": {
-      "source-checked": 707,
-      "_total": 707
+      "source-checked": 709,
+      "_total": 709
     },
     "mappingReferenceErrors": 0,
     "mappingSourceFieldErrors": 0,
@@ -10648,33 +10705,37 @@
     "sourceBatchShaMismatches": 0,
     "duplicateQuestionIds": 0,
     "missingClassificationCount": 0,
-    "semesterAssignedQuestionCount": 736,
-    "semesterUnassignedQuestionCount": 2164,
+    "semesterAssignedQuestionCount": 738,
+    "semesterUnassignedQuestionCount": 2162,
     "examAssignedQuestionCount": 227,
     "examUnassignedQuestionCount": 2673,
     "classificationBasisCounts": {
-      "curriculum-core": 2149,
-      "publisher-source-verified": 485,
+      "curriculum-core": 2147,
+      "publisher-source-verified": 487,
       "question-bank-inference": 250,
       "unassigned": 16
     },
     "confidenceCounts": {
-      "low": 2038,
-      "medium": 824,
+      "low": 2036,
+      "medium": 826,
       "high": 38
     },
     "publisherStatusCounts": {
-      "curriculum-core": 2279,
-      "publisher-mapped": 599,
+      "curriculum-core": 2277,
+      "publisher-mapped": 601,
       "pending": 22
     },
     "sourceUnavailableMappingReferenceCount": 0,
     "activeScopeQuestionCount": 1864,
     "activeScope": {
       "questionCount": 1864,
+      "gradeCounts": {
+        "六年級": 890,
+        "高二": 974
+      },
       "semester": {
-        "unassigned": 1128,
-        "上學期": 496,
+        "unassigned": 1126,
+        "上學期": 498,
         "下學期": 164,
         "全學年": 76
       },
@@ -10685,27 +10746,33 @@
         "第三次段考": 91
       },
       "publisherStatus": {
-        "curriculum-core": 1243,
-        "publisher-mapped": 599,
+        "curriculum-core": 1241,
+        "publisher-mapped": 601,
         "pending": 22
       },
       "classificationBasis": {
-        "curriculum-core": 1113,
-        "publisher-source-verified": 485,
+        "curriculum-core": 1111,
+        "publisher-source-verified": 487,
         "question-bank-inference": 250,
         "unassigned": 16
       },
       "confidence": {
-        "low": 1002,
-        "medium": 824,
+        "low": 1000,
+        "medium": 826,
         "high": 38
       },
-      "publisherMappedQuestionCount": 599,
-      "publisherMappingReferenceCount": 707
+      "publisherMappedQuestionCount": 601,
+      "publisherMappingReferenceCount": 709,
+      "publisherReferenceCounts": {
+        "nani": 72,
+        "hanlin": 461,
+        "knsh": 176,
+        "_total": 709
+      }
     },
     "activeScopeSemesterCounts": {
-      "unassigned": 1128,
-      "上學期": 496,
+      "unassigned": 1126,
+      "上學期": 498,
       "下學期": 164,
       "全學年": 76
     },
@@ -10716,29 +10783,46 @@
       "第三次段考": 91
     },
     "activeScopePublisherStatusCounts": {
-      "curriculum-core": 1243,
-      "publisher-mapped": 599,
+      "curriculum-core": 1241,
+      "publisher-mapped": 601,
       "pending": 22
     },
     "activeScopeClassificationBasisCounts": {
-      "curriculum-core": 1113,
-      "publisher-source-verified": 485,
+      "curriculum-core": 1111,
+      "publisher-source-verified": 487,
       "question-bank-inference": 250,
       "unassigned": 16
     },
     "activeScopeConfidenceCounts": {
-      "low": 1002,
-      "medium": 824,
+      "low": 1000,
+      "medium": 826,
       "high": 38
     },
-    "activeScopePublisherMappedQuestionCount": 599,
-    "activeScopePublisherMappingReferenceCount": 707,
+    "activeScopePublisherMappedQuestionCount": 601,
+    "activeScopePublisherMappingReferenceCount": 709,
     "sourceRegistryCount": 85,
     "sourceRegistryVerificationStatusCounts": {
       "source-checked": 83,
       "pending": 1,
       "source-unavailable": 1
-    }
+    },
+    "mappingScopeErrors": 0,
+    "centralMappingRegistryCount": 67,
+    "inferenceMappingRegistryCount": 67,
+    "high2MathTrackCounts": {
+      "數學A": 84,
+      "數學B": 0,
+      "未標示軌別": 128,
+      "全部軌別": 212
+    },
+    "allModeQuestionCount": 1864,
+    "curriculumCoreModeQuestionCount": 1241,
+    "pendingModeQuestionCount": 22,
+    "targetedFilterCombinationsTested": 18,
+    "targetedFilterErrors": 0,
+    "publisherMappingLeaks": 0,
+    "browserOrMobileRuntimeTested": false,
+    "fullFilterMatrixTested": false
   },
   "mappingLevelCountsBatches08to41": {
     "official-resource-title": 77,
@@ -14488,5 +14572,148 @@
     },
     "validationMethod": "重新讀取main第08–41批34個原始題庫檔、六個持久分類分片、分類manifest、教材對照與推定器；比對sourceBatch SHA，並依index.html getPool的持久分類語義執行9組定向資料層篩選案例。非瀏覽器／手機實機測試。",
     "notes": "康軒113官方教材簡介六上單元二水溶液的主題脈絡明列混合物與物質分離，故將b34-031及b36-034對應至康軒單元層級；段考維持unassigned。 依getPool現行語義執行18組定向資料層篩選案例，錯誤0、出版社映射洩漏0；未執行瀏覽器或手機實機測試。"
+  },
+  "latestStatisticsReconciliationAudit": {
+    "runId": "2026-11-18-main-classification-statistics-reconciliation-01",
+    "verifiedAt": "2026-11-18",
+    "sourceHeadBeforeRun": "232afb91bbe53c03df812956d70d81e39e6bb8fa",
+    "questionCount": 2900,
+    "uniqueQuestionIds": 2900,
+    "classificationRecords": 2900,
+    "shardCount": 6,
+    "sourceBatchShaMatches": "34/34",
+    "shardShaMismatches": 0,
+    "centralMappingRegistryCount": 67,
+    "inferenceMappingRegistryCount": 67,
+    "sourceRegistryCount": 85,
+    "sourceRegistryVerificationStatusCounts": {
+      "source-checked": 83,
+      "pending": 1,
+      "source-unavailable": 1
+    },
+    "fullCorpusStatistics": {
+      "semester": {
+        "unassigned": 2162,
+        "上學期": 498,
+        "下學期": 164,
+        "全學年": 76
+      },
+      "examPeriod": {
+        "unassigned": 2673,
+        "第一次段考": 65,
+        "第二次段考": 71,
+        "第三次段考": 91
+      },
+      "classificationBasis": {
+        "curriculum-core": 2147,
+        "publisher-source-verified": 487,
+        "question-bank-inference": 250,
+        "unassigned": 16
+      },
+      "confidence": {
+        "low": 2036,
+        "medium": 826,
+        "high": 38
+      },
+      "publisherStatus": {
+        "curriculum-core": 2277,
+        "publisher-mapped": 601,
+        "pending": 22
+      },
+      "publisherMappedQuestionCount": 601,
+      "publisherMappingReferenceCount": 709,
+      "publisherReferenceCounts": {
+        "nani": 72,
+        "hanlin": 461,
+        "knsh": 176,
+        "_total": 709
+      },
+      "mappingLevelCounts": {
+        "official-resource-title": 77,
+        "unit": 485,
+        "volume": 147,
+        "_total": 709
+      }
+    },
+    "activeScope": {
+      "questionCount": 1864,
+      "gradeCounts": {
+        "六年級": 890,
+        "高二": 974
+      },
+      "semester": {
+        "unassigned": 1126,
+        "上學期": 498,
+        "下學期": 164,
+        "全學年": 76
+      },
+      "examPeriod": {
+        "unassigned": 1637,
+        "第一次段考": 65,
+        "第二次段考": 71,
+        "第三次段考": 91
+      },
+      "publisherStatus": {
+        "curriculum-core": 1241,
+        "publisher-mapped": 601,
+        "pending": 22
+      },
+      "classificationBasis": {
+        "curriculum-core": 1111,
+        "publisher-source-verified": 487,
+        "question-bank-inference": 250,
+        "unassigned": 16
+      },
+      "confidence": {
+        "low": 1000,
+        "medium": 826,
+        "high": 38
+      },
+      "publisherMappedQuestionCount": 601,
+      "publisherMappingReferenceCount": 709,
+      "publisherReferenceCounts": {
+        "nani": 72,
+        "hanlin": 461,
+        "knsh": 176,
+        "_total": 709
+      }
+    },
+    "validation": {
+      "jsonParse": true,
+      "uniqueIds": 2900,
+      "duplicateIds": 0,
+      "missingClassification": 0,
+      "missingRequiredFields": 0,
+      "invalidClassificationValues": 0,
+      "mappingReferenceErrors": 0,
+      "mappingSourceFieldErrors": 0,
+      "mappingScopeErrors": 0,
+      "unresolvedMappingIds": 0,
+      "sourceBatchShaMatches": "34/34",
+      "shardCount": 6,
+      "shardShaMismatches": 0,
+      "centralMappingRegistryCount": 67,
+      "inferenceMappingRegistryCount": 67,
+      "targetedFilterCombinationsTested": 18,
+      "targetedFilterErrors": 0,
+      "publisherMappingLeaks": 0,
+      "allModeReachable": true,
+      "allModeQuestionCount": 1864,
+      "curriculumCoreModeReachable": true,
+      "curriculumCoreModeQuestionCount": 1241,
+      "pendingModeReachable": true,
+      "pendingModeQuestionCount": 22,
+      "appReadsPersistedClassificationIndex": true,
+      "zeroResultHintPresent": true,
+      "high2MathTrackCounts": {
+        "數學A": 84,
+        "數學B": 0,
+        "未標示軌別": 128,
+        "全部軌別": 212
+      },
+      "browserOrMobileRuntimeTested": false,
+      "fullFilterMatrixTested": false
+    },
+    "notes": "依main六個分類分片重新計算全庫與啟用題池統計，修正question-classification.json與textbook-alignment.json彙總數落後於2026-11-18.120持久分類的問題。原始題庫與六個分類分片均未修改。高二化學選修(III)映射的grade欄為「高二、高三」，驗證時按多年級清單包含關係核對，非年級不一致。高二地理都市熱島題群僅有翰林地理(3)高二上冊別來源，沒有可核對單元目次，因此不新增出版社單元映射。"
   }
 }
