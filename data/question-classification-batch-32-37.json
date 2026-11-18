@@ -1,7 +1,7 @@
 {
-  "schemaVersion": "1.1.6",
+  "schemaVersion": "1.1.8",
   "updatedAt": "2026-11-18",
-  "classificationRuleVersion": "2026-11-18.113",
+  "classificationRuleVersion": "2026-11-18.116",
   "batchRange": "32-37",
   "sourceBatchShas": {
     "32": "39bf8d31ef7a019d3fca6e78669afdcfb68a7aa4",
@@ -6650,14 +6650,18 @@
       "subject": "數學",
       "courseTrack": "數學A",
       "courseType": null,
-      "semester": "unassigned",
+      "semester": "上學期",
       "examPeriod": "unassigned",
-      "classificationBasis": "curriculum-core",
+      "classificationBasis": "publisher-source-verified",
       "confidence": "medium",
-      "publisherStatus": "curriculum-core",
-      "publisherMappings": [],
-      "classificationNotes": "原先依翰林數學3A單元次序標記，但題目未記錄數學A/B軌別；依版本隔離原則移除出版社映射並恢復未分類，待確認課程軌別後再映射。 軌別回查（2026-11-14）：本題單元標籤「三角方程式」與翰林數學(3A)官方目次的「三角函數」相近；官方頁明示高二上、數學A，但原題未標數學A/B軌別，不能據此反推本題屬數學A。故保留108課綱共同核心，不新增出版社映射，semester與examPeriod維持unassigned。官方來源：https://books.hanlin.com.tw/product/433021\n2026-11-18課程軌別核對：依國家教育研究院《十二年國民基本教育課程綱要國民中小學暨普通型高中數學領域課程手冊》（113年3月更新版）附錄四「十一年級必修數學A類、B類課程差異對照表」：A類包含cos函數圖形／正餘弦疊合或面積與行列式；B類未列這些A類專屬內容。題目所需知識點落在A類專屬範圍，故標示courseTrack=數學A、confidence=medium。此為課綱軌別判定，不是出版社教材映射、學校採用版本或教師審核；publisherMappings維持空陣列，semester與examPeriod維持unassigned。 題目要求在區間內解cos(2x)=0，使用cos函數週期性與函數內容；B類只列sin函數圖形，故歸A類。",
-      "sourceRef": "依108課綱共同核心原創編寫；出版社對照依既有官方來源映射，非教材或歷屆試題原文。；課程軌別依國教院113年3月數學領域課程手冊附錄四核對：https://www.naer.edu.tw/upload/1/16/doc/2021/%E6%95%B8%E5%AD%B8%E9%A0%98%E5%9F%9F%E8%AA%B2%E7%A8%8B%E6%89%8B%E5%86%8A%EF%BC%88113%E5%B9%B43%E6%9C%88%E6%9B%B4%E6%96%B0%E7%89%88%EF%BC%89.pdf",
+      "publisherStatus": "publisher-mapped",
+      "publisherMappings": [
+        {
+          "mappingId": "hanlin-h2-math-3a-u1"
+        }
+      ],
+      "classificationNotes": "原先依翰林數學3A單元次序標記，但題目未記錄數學A/B軌別；依版本隔離原則移除出版社映射並恢復未分類，待確認課程軌別後再映射。 軌別回查（2026-11-14）：本題單元標籤「三角方程式」與翰林數學(3A)官方目次的「三角函數」相近；官方頁明示高二上、數學A，但原題未標數學A/B軌別，不能據此反推本題屬數學A。故保留108課綱共同核心，不新增出版社映射，semester與examPeriod維持unassigned。官方來源：https://books.hanlin.com.tw/product/433021\n2026-11-18課程軌別核對：依國家教育研究院《十二年國民基本教育課程綱要國民中小學暨普通型高中數學領域課程手冊》（113年3月更新版）附錄四「十一年級必修數學A類、B類課程差異對照表」：A類包含cos函數圖形／正餘弦疊合或面積與行列式；B類未列這些A類專屬內容。題目所需知識點落在A類專屬範圍，故標示courseTrack=數學A、confidence=medium。此為課綱軌別判定，不是出版社教材映射、學校採用版本或教師審核；publisherMappings維持空陣列，semester與examPeriod維持unassigned。 題目要求在區間內解cos(2x)=0，使用cos函數週期性與函數內容；B類只列sin函數圖形，故歸A類。\n2026-11-18官方出版社頁目次覆核：翰林書城商品頁明示高中二年級、上學期、108課綱高二數學A版，目次第1單元為三角函數，並列出餘弦函數圖形與週期現象。本題解cos(2x)=0，直接使用餘弦函數與週期性，故僅對應翰林數學(3A)第1單元（三角函數，單元層級）；國教院數學領域課程手冊附錄四已確認本題使用cos函數屬數學A範圍，維持courseTrack=數學A，不擴張至數學B或其他出版社。此為教材單元對照，不代表學校採用版本或題目取自教材；段考仍為unassigned。",
+      "sourceRef": "依108課綱共同核心原創編寫；出版社對照依既有官方來源映射，非教材或歷屆試題原文。；課程軌別依國教院113年3月數學領域課程手冊附錄四核對：https://www.naer.edu.tw/upload/1/16/doc/2021/%E6%95%B8%E5%AD%B8%E9%A0%98%E5%9F%9F%E8%AA%B2%E7%A8%8B%E6%89%8B%E5%86%8A%EF%BC%88113%E5%B9%B43%E6%9C%88%E6%9B%B4%E6%96%B0%E7%89%88%EF%BC%89.pdf | 翰林書城－高中互動式教學講義數學(3A)｜https://books.hanlin.com.tw/product/433021",
       "learningDomain": "代數與函數",
       "questionType": "概念辨識",
       "learningUnit": "三角方程式",
