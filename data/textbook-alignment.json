@@ -1,6 +1,6 @@
 {
   "title": "南一／翰林／康軒教材版本對照資料庫",
-  "schemaVersion": "1.0.21",
+  "schemaVersion": "1.0.22",
   "updatedAt": "2026-11-18",
   "purpose": "同時支援跨版本共同核心整合與指定出版社版本練習。此檔先建立資料規格；未經官方或學校教材核對的單元不得標示為已對應。",
   "modes": [
@@ -595,10 +595,14 @@
       "sourceTitle": "南一資源_內文－數學6下｜基準量和比較量",
       "verifiedAt": "2026-11-14",
       "verificationStatus": "source-checked",
-      "notes": "2026-11-14重新開啟南一官方資源頁，標題明示「數學6下｜基準量和比較量」，頁面並標示學校／單位為南一書局。此為單元層級對照；不代表學校採用版本，也不代表正式段考範圍。",
+      "notes": "南一官方 TPACK 資源頁標題明示「數學6下｜基準量和比較量」，頁面列國小、數學、6年級；分享者林美杏，學校／單位標示南一書局。僅作官方資源標題層級對照，不等同完整課本目次，不代表學校採用版本或正式段考範圍。",
       "unitAliases": [
         "基準量和比較量",
         "基準量與比較量"
+      ],
+      "sourceType": "official-publisher-resource",
+      "sourceRegistryRefs": [
+        "nani-g6-math-6b-base-comparison"
       ]
     },
     {
@@ -622,6 +626,10 @@
       "notes": "2026-11-14重新開啟南一官方詳情頁：標題明示「數學6下｜四則混合運算」，頁面列國小、數學、6年級，學校／單位為南一書局。此為官方教學資源標題層級對照，不等同完整課本目次，不代表學校採用版本或正式段考範圍。",
       "unitAliases": [
         "四則混合運算"
+      ],
+      "sourceType": "official-publisher-resource",
+      "sourceRegistryRefs": [
+        "nani-g6-math-6b-four-operations"
       ]
     },
     {
@@ -642,12 +650,16 @@
       "sourceTitle": "南一資源_內文－數學6下｜怎樣解題：雞兔問題",
       "verifiedAt": "2026-11-14",
       "verificationStatus": "source-checked",
-      "notes": "2026-11-14重新開啟南一官方詳情頁：https://tpack.nani.com.tw/nani_content?a=394&b=1。頁面標題明示「數學6下｜怎樣解題：雞兔問題」，內容介紹為「雞兔同籠」，並標示國小、數學、6年級。僅限直接雞兔題的官方資源標題層級對照；不等同完整課本目次、不代表學校採用版本或正式段考範圍。",
+      "notes": "南一官方 TPACK 平台頁標題明示「數學6下｜怎樣解題：雞兔問題」，頁面列國小、數學、6年級；但分享者為王玉珍、學校／單位為高師大，因此明確視為南一官方平台上的使用者上傳資源，不宣稱是南一官方編寫教材或完整課本目次。僅作官方平台資源標題層級與直接雞兔問題主題參考，不代表學校採用版本或正式段考範圍。",
       "learningContent": "南一官方詳情頁明示數學6下、國小數學6年級及雞兔同籠教學資源；僅作官方資源標題層級對照，不代表完整教科書目次或學校採用版本。",
       "targetUrl": "https://tpack.nani.com.tw/nani_content?a=394&b=1",
       "unitAliases": [
         "雞兔問題",
         "雞兔同籠"
+      ],
+      "sourceType": "publisher-platform-user-resource",
+      "sourceRegistryRefs": [
+        "nani-g6-math-6b-chicken-rabbit"
       ]
     },
     {
@@ -2587,7 +2599,7 @@
     {
       "id": "nani-g6-math-6b-four-operations",
       "publisher": "nani",
-      "sourceType": "official-publisher",
+      "sourceType": "official-publisher-resource",
       "sourceUrl": "https://tpack.nani.com.tw/nani_content?a=340&b=1",
       "sourceTitle": "南一資源_內文－數學6下｜四則混合運算",
       "verifiedAt": "2026-11-14",
@@ -3333,6 +3345,26 @@
       "verificationStatus": "source-checked",
       "verifiedScope": "資源明示國小5–6年級（第三學習階段），並說明綠色植物光合作用吸收二氧化碳、放出氧氣；支持b41-036的年級與知識點，不支持出版社、學期或段考。",
       "notes": "由教育部科學教育學習網提供，頁面明示國小5–6年級並直接說明光合作用吸收二氧化碳、放出氧氣。僅作108課綱共同核心參考；不作南一／翰林／康軒版本、冊別、學期、段考或學校採用證明。"
+    },
+    {
+      "id": "nani-g6-math-6b-base-comparison",
+      "publisher": "nani",
+      "sourceType": "official-publisher-resource",
+      "sourceUrl": "https://tpack.nani.com.tw/nani_content?a=341&b=1",
+      "sourceTitle": "南一資源_內文－數學6下｜基準量和比較量",
+      "verifiedAt": "2026-11-18",
+      "verificationStatus": "source-checked",
+      "notes": "南一官方 TPACK 資源頁標題明示「數學6下｜基準量和比較量」，頁面列國小、數學、6年級；分享者林美杏，學校／單位標示南一書局。僅作官方資源標題層級對照，不等同完整課本目次，不代表學校採用版本或正式段考範圍。"
+    },
+    {
+      "id": "nani-g6-math-6b-chicken-rabbit",
+      "publisher": "nani",
+      "sourceType": "publisher-platform-user-resource",
+      "sourceUrl": "https://tpack.nani.com.tw/nani_content?a=394&b=1",
+      "sourceTitle": "南一資源_內文－數學6下｜怎樣解題：雞兔問題",
+      "verifiedAt": "2026-11-18",
+      "verificationStatus": "source-checked",
+      "notes": "南一官方 TPACK 平台頁標題明示「數學6下｜怎樣解題：雞兔問題」，頁面列國小、數學、6年級；但分享者為王玉珍、學校／單位為高師大，因此明確視為南一官方平台上的使用者上傳資源，不宣稱是南一官方編寫教材或完整課本目次。僅作官方平台資源標題層級與直接雞兔問題主題參考，不代表學校採用版本或正式段考範圍。"
     }
   ],
   "classificationAudit": {
@@ -9645,6 +9677,88 @@
       ],
       "questionCount": 2,
       "notes": "官方來源核對僅用於教材對照與年級範圍待核對；不代表學校採用版本或教師審核。"
+    },
+    {
+      "runId": "2026-11-18-nani-g6-math-resource-source-review-01",
+      "verifiedAt": "2026-11-18",
+      "sourceChecks": [
+        {
+          "sourceId": "nani-g6-math-6b-base-comparison",
+          "sourceUrl": "https://tpack.nani.com.tw/nani_content?a=341&b=1",
+          "sourceTitle": "南一資源_內文－數學6下｜基準量和比較量",
+          "verifiedAt": "2026-11-18",
+          "verificationStatus": "source-checked",
+          "sourceType": "official-publisher-resource",
+          "mappingLevel": "official-resource-title",
+          "questionIds": [
+            "b36-019",
+            "b37-019",
+            "b37-020",
+            "b38-019",
+            "b38-020",
+            "b38-021",
+            "b38-022",
+            "b38-023",
+            "b39-019",
+            "b39-020",
+            "b39-021",
+            "b39-022",
+            "b40-019",
+            "b40-020",
+            "b40-021",
+            "b40-022",
+            "b41-017",
+            "b41-018",
+            "b41-019"
+          ],
+          "notes": "南一官方 TPACK 資源頁標題明示「數學6下｜基準量和比較量」，頁面列國小、數學、6年級；分享者林美杏，學校／單位標示南一書局。僅作官方資源標題層級對照，不等同完整課本目次，不代表學校採用版本或正式段考範圍。"
+        },
+        {
+          "sourceId": "nani-g6-math-6b-chicken-rabbit",
+          "sourceUrl": "https://tpack.nani.com.tw/nani_content?a=394&b=1",
+          "sourceTitle": "南一資源_內文－數學6下｜怎樣解題：雞兔問題",
+          "verifiedAt": "2026-11-18",
+          "verificationStatus": "source-checked",
+          "sourceType": "publisher-platform-user-resource",
+          "mappingLevel": "official-resource-title",
+          "questionIds": [
+            "b36-021",
+            "b37-023",
+            "b40-023",
+            "b40-024",
+            "b41-020"
+          ],
+          "notes": "南一官方 TPACK 平台頁標題明示「數學6下｜怎樣解題：雞兔問題」，頁面列國小、數學、6年級；但分享者為王玉珍、學校／單位為高師大，因此明確視為南一官方平台上的使用者上傳資源，不宣稱是南一官方編寫教材或完整課本目次。僅作官方平台資源標題層級與直接雞兔問題主題參考，不代表學校採用版本或正式段考範圍。"
+        }
+      ],
+      "questionIds": [
+        "b36-019",
+        "b37-019",
+        "b37-020",
+        "b38-019",
+        "b38-020",
+        "b38-021",
+        "b38-022",
+        "b38-023",
+        "b39-019",
+        "b39-020",
+        "b39-021",
+        "b39-022",
+        "b40-019",
+        "b40-020",
+        "b40-021",
+        "b40-022",
+        "b41-017",
+        "b41-018",
+        "b41-019",
+        "b36-021",
+        "b37-023",
+        "b40-023",
+        "b40-024",
+        "b41-020"
+      ],
+      "questionCount": 24,
+      "notes": "重新核對南一TPACK兩筆六下數學資源。基準量與比較量頁面標示分享者及單位為南一書局；雞兔問題頁面雖在南一官方平台，但分享者／單位為高師大，故明確改標平台使用者上傳資源，避免誤稱南一官方編寫教材。只保留資源標題層級對照，不推定正式課本目次或段考。"
     }
   ],
   "high2MathCourseTrackAudit": {
@@ -13739,9 +13853,9 @@
     "mappingSourceFieldErrors": 0,
     "mappingScopeErrors": 0
   },
-  "sourceRegistryCount": 83,
+  "sourceRegistryCount": 85,
   "sourceRegistryVerificationStatusCounts": {
-    "source-checked": 81,
+    "source-checked": 83,
     "pending": 1,
     "source-unavailable": 1
   },
@@ -13755,40 +13869,86 @@
     "notes": "大氣壓力的官方課程來源指向第四學習階段，保留原始國小六年級標籤並列待核對。"
   },
   "latestSourceVerificationAudit": {
-    "runId": "2026-11-18-g6-natural-separation-pressure-review-01",
+    "runId": "2026-11-18-nani-g6-math-resource-source-review-01",
     "verifiedAt": "2026-11-18",
     "sourceChecks": [
       {
-        "sourceId": "knsh-g6-natural-113-curriculum-brochure",
-        "sourceUrl": "https://945cloud.knsh.com.tw/e/promo/show/upload/material/4/113%281%29%E8%87%AA%E7%84%B6%E9%A0%98%E5%9F%9F%E6%96%87%E5%AE%A3-%E8%B7%A8%E9%A0%81.pdf",
-        "sourceTitle": "113康軒國小教材簡介－自然領域文宣",
+        "sourceId": "nani-g6-math-6b-base-comparison",
+        "sourceUrl": "https://tpack.nani.com.tw/nani_content?a=341&b=1",
+        "sourceTitle": "南一資源_內文－數學6下｜基準量和比較量",
         "verifiedAt": "2026-11-18",
         "verificationStatus": "source-checked",
-        "mappingLevel": "unit",
+        "sourceType": "official-publisher-resource",
+        "mappingLevel": "official-resource-title",
         "questionIds": [
-          "b38-040"
+          "b36-019",
+          "b37-019",
+          "b37-020",
+          "b38-019",
+          "b38-020",
+          "b38-021",
+          "b38-022",
+          "b38-023",
+          "b39-019",
+          "b39-020",
+          "b39-021",
+          "b39-022",
+          "b40-019",
+          "b40-020",
+          "b40-021",
+          "b40-022",
+          "b41-017",
+          "b41-018",
+          "b41-019"
         ],
-        "notes": "康軒113官方教材簡介六上單元二水溶液，主題脈絡明列混合物與物質分離；僅作單元層級對照。"
+        "notes": "南一官方 TPACK 資源頁標題明示「數學6下｜基準量和比較量」，頁面列國小、數學、6年級；分享者林美杏，學校／單位標示南一書局。僅作官方資源標題層級對照，不等同完整課本目次，不代表學校採用版本或正式段考範圍。"
       },
       {
-        "sourceId": "naer-natural-atmospheric-pressure-grade-scope",
-        "sourceUrl": "https://stv.naer.edu.tw/watch/343869",
-        "sourceTitle": "國家教育研究院愛學網－理想氣體基礎篇-1.大氣的相關概念",
+        "sourceId": "nani-g6-math-6b-chicken-rabbit",
+        "sourceUrl": "https://tpack.nani.com.tw/nani_content?a=394&b=1",
+        "sourceTitle": "南一資源_內文－數學6下｜怎樣解題：雞兔問題",
         "verifiedAt": "2026-11-18",
         "verificationStatus": "source-checked",
-        "mappingLevel": "curriculum-scope-only",
+        "sourceType": "publisher-platform-user-resource",
+        "mappingLevel": "official-resource-title",
         "questionIds": [
-          "b38-041"
+          "b36-021",
+          "b37-023",
+          "b40-023",
+          "b40-024",
+          "b41-020"
         ],
-        "notes": "Ec-IV-1大氣壓力列第四學習階段；只作年級範圍待核對佐證，不作出版社映射。"
+        "notes": "南一官方 TPACK 平台頁標題明示「數學6下｜怎樣解題：雞兔問題」，頁面列國小、數學、6年級；但分享者為王玉珍、學校／單位為高師大，因此明確視為南一官方平台上的使用者上傳資源，不宣稱是南一官方編寫教材或完整課本目次。僅作官方平台資源標題層級與直接雞兔問題主題參考，不代表學校採用版本或正式段考範圍。"
       }
     ],
     "questionIds": [
-      "b38-040",
-      "b38-041"
+      "b36-019",
+      "b37-019",
+      "b37-020",
+      "b38-019",
+      "b38-020",
+      "b38-021",
+      "b38-022",
+      "b38-023",
+      "b39-019",
+      "b39-020",
+      "b39-021",
+      "b39-022",
+      "b40-019",
+      "b40-020",
+      "b40-021",
+      "b40-022",
+      "b41-017",
+      "b41-018",
+      "b41-019",
+      "b36-021",
+      "b37-023",
+      "b40-023",
+      "b40-024",
+      "b41-020"
     ],
-    "questionCount": 2,
-    "notes": "官方來源核對僅用於教材對照與年級範圍待核對；不代表學校採用版本或教師審核。"
+    "questionCount": 24,
+    "notes": "重新核對南一TPACK兩筆六下數學資源。基準量與比較量頁面標示分享者及單位為南一書局；雞兔問題頁面雖在南一官方平台，但分享者／單位為高師大，故明確改標平台使用者上傳資源，避免誤稱南一官方編寫教材。只保留資源標題層級對照，不推定正式課本目次或段考。"
   },
   "centralMappingRegistryCount": 67,
   "inferenceMappingRegistryCount": 67,
@@ -14233,7 +14393,7 @@
   },
   "sourceHeadBeforeRun": "ee5fb98713867020e4fdd490b66c4d3eaabe0375",
   "sourceRegistryVerificationStatusCountsBatches08to41": {
-    "source-checked": 81,
+    "source-checked": 83,
     "pending": 1,
     "source-unavailable": 1
   },
@@ -14243,9 +14403,9 @@
     "high": 38
   },
   "latestScheduledReconciliationAudit": {
-    "runId": "2026-11-18-main-batches-08-41-full-reconciliation-01",
+    "runId": "2026-11-18-main-batches-08-41-source-metadata-reconciliation-02",
     "verifiedAt": "2026-11-18",
-    "sourceHead": "9e3c47f172cacea4382ebee8aba19708b4d23b63",
+    "sourceHead": "9fd9d96b78a1b7d852ef66f3fd76a7dd3b1bb24c",
     "batchRange": "08-41",
     "sourceBatchFilesVerified": 34,
     "classificationShardsVerified": 6,
@@ -14303,11 +14463,11 @@
       "broadGradeRangeNote": "76筆為題目年級高二、中央映射適用年級明列「高二、高三」的包含關係，不是年級衝突；其他年級、科目、學段及課程軌別欄位相符。"
     },
     "sourceRegistry": {
-      "total": 83,
-      "sourceChecked": 81,
+      "total": 85,
+      "sourceChecked": 83,
       "pending": 1,
       "sourceUnavailable": 1,
-      "note": "source-unavailable為已標示404的歷史來源；其現行題目映射已改用其他可核對來源，不將失效網址當成有效證據。"
+      "note": "新增2筆已核對的南一官方平台資源登錄；其中雞兔問題頁為平台使用者上傳資源，已明確區分，不視為出版社編寫教材。歷史404來源仍保留source-unavailable，不作現行映射證據。"
     },
     "appIntegration": {
       "indexReadsPersistedManifest": true,
@@ -14322,9 +14482,12 @@
     "changesThisRun": {
       "classificationRecordsChanged": 0,
       "publisherMappingsAdded": 0,
+      "publisherMappingReferencesAdded": 0,
+      "sourceRegistryEntriesAdded": 2,
+      "sourceMetadataCorrections": 3,
       "newQuestionsAdded": 0,
-      "reason": "本輪先完成第08至41批逐分片ID與身分核對。剩餘未分類學期／段考欄位缺乏足以支持一致推定的冊別、單元或學校進度證據；待核對項目保留，不以猜測補值。"
+      "reason": "第08至41批與六個分類分片維持一對一完整。此輪不新增題目、不猜測未分類學期或段考；僅補齊三筆南一資源映射的sourceType／sourceRegistryRefs，並將使用者上傳資源明確標示，新增兩筆可追溯來源紀錄。"
     },
-    "notes": "六個持久分類分片與34個來源題庫批次逐分片比對，題目ID完全一對一；全數題目均有四個選項、合法答案索引及解析。所有706筆publisherMappings引用均可解析至67筆中央映射，且來源欄位完整。未宣稱教師審核、學校採用版本或瀏覽器／手機實測。"
+    "notes": "第08至41批34個題庫檔與六個持久分類分片逐分片核對，2,900題ID完全一對一；全數四選項、答案索引與解析有效。706筆出版社映射參照均可解析至67筆中央映射。南一基準量與比較量頁明示南一書局；雞兔問題頁雖位於南一官方平台，但分享者／單位為高師大，已標為平台使用者上傳資源，不冒稱出版社編寫教材。未分類項目仍缺乏足以支持學期／段考的證據，保留待核對。"
   }
 }
