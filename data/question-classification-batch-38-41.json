@@ -1,7 +1,7 @@
 {
-  "schemaVersion": "1.1.7",
+  "schemaVersion": "1.1.8",
   "updatedAt": "2026-11-18",
-  "classificationRuleVersion": "2026-11-18.118",
+  "classificationRuleVersion": "2026-11-18.119",
   "batchRange": "38-41",
   "sourceBatchShas": {
     "38": "d5f0aed52035624b1aa72f3052577b8e13f11c91",
@@ -1405,10 +1405,34 @@
       "publisherStatus": "publisher-mapped",
       "publisherMappings": [
         {
-          "mappingId": "knsh-g6-natural-113-6a-u2-solution-separation"
+          "publisher": "knsh",
+          "mappingId": "knsh-g6-natural-113-6a-u2-solution-separation",
+          "sourceUrl": "https://945cloud.knsh.com.tw/e/promo/show/upload/material/4/113%281%29%E8%87%AA%E7%84%B6%E9%A0%98%E5%9F%9F%E6%96%87%E5%AE%A3-%E8%B7%A8%E9%A0%81.pdf",
+          "sourceTitle": "113康軒國小教材簡介－自然領域文宣",
+          "verifiedAt": "2026-11-18",
+          "verificationStatus": "source-checked",
+          "notes": "113康軒官方教材簡介目次明列六上單元二「水溶液」；主題脈絡列出混合物、物質分離、導電性與酸鹼性。本題直接要求分離沙與食鹽的水混合物，對應「物質分離」主題。僅支持113版康軒六上單元層級，不代表學校採用版本或正式段考範圍，也不表示題目取自教材原文。",
+          "mappingLevel": "unit",
+          "schoolYear": "113",
+          "stage": "國小",
+          "grade": "六年級",
+          "subject": "自然",
+          "semester": "上學期",
+          "volume": "自然科學(6上)",
+          "unitCode": "2",
+          "unitName": "水溶液",
+          "sourceType": "official-publisher-curriculum-brochure",
+          "learningContent": "混合物、物質分離、導電性與酸鹼性；本題直接對應沙與食鹽水混合物的分離。",
+          "courseType": "國小",
+          "courseTrack": null,
+          "unitAliases": [
+            "混合物分離",
+            "物質分離",
+            "沙子與食鹽分離"
+          ]
         }
       ],
-      "classificationNotes": "2026-11-18官方教材目次覆核：康軒113官方《國小教材簡介－自然領域文宣》課程架構明列六上單元二「水溶液」；主題脈絡明列「混合物、物質分離、導電性、酸鹼性」。本題直接要求由砂粒與食鹽水混合物中先除去砂粒，與「物質分離」主題直接相符，故只建立康軒113六上單元層級映射。來源不代表學校採用版本，也不表示題目取自教材原文；沒有正式段考範圍，examPeriod維持unassigned。",
+      "classificationNotes": "2026-11-18官方教材目次覆核：康軒113官方《國小教材簡介－自然領域文宣》課程架構明列六上單元二「水溶液」；主題脈絡明列「混合物、物質分離、導電性、酸鹼性」。本題直接要求由砂粒與食鹽水混合物中先除去砂粒，與「物質分離」主題直接相符，故只建立康軒113六上單元層級映射。來源不代表學校採用版本，也不表示題目取自教材原文；沒有正式段考範圍，examPeriod維持unassigned。\n2026-11-18持久化修正：將康軒113六上單元二映射參照補齊完整來源、學年度、冊別及單元層級欄位；段考仍維持unassigned。",
       "sourceRef": "108課綱共同核心原創編寫；康軒113官方《國小教材簡介－自然領域文宣》｜https://945cloud.knsh.com.tw/e/promo/show/upload/material/4/113%281%29%E8%87%AA%E7%84%B6%E9%A0%98%E5%9F%9F%E6%96%87%E5%AE%A3-%E8%B7%A8%E9%A0%81.pdf",
       "learningDomain": "化學物質",
       "questionType": "推理判斷",
