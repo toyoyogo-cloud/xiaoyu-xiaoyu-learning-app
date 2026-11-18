@@ -3322,6 +3322,17 @@
       "verificationStatus": "source-checked",
       "verifiedScope": "國小第三學習階段（五、六年級）英語文學習表現：5-Ⅲ-3讀懂基本字詞與句型、7-Ⅲ-1運用已學字詞聯想新字詞、9-Ⅲ-2事件排序、9-Ⅲ-3綜合資訊作簡易猜測；學習內容Ac-Ⅲ-4及Ad-Ⅲ-2。",
       "notes": "依國教院官方108英語文課綱第三學習階段學習表現及學習內容；僅作108課綱共同核心能力佐證，不是出版社教材目次、學期／冊別、學校採用版本或正式段考範圍。"
+    },
+    {
+      "id": "educloud-g6-photosynthesis-co2-o2-grade56",
+      "publisher": "curriculum-core",
+      "sourceType": "curriculum-reference",
+      "sourceUrl": "https://market.cloud.edu.tw/resources/web/1682505",
+      "sourceTitle": "教育部科學教育學習網－化學：空氣與燃燒－氧和二氧化碳的循環",
+      "verifiedAt": "2026-11-18",
+      "verificationStatus": "source-checked",
+      "verifiedScope": "資源明示國小5–6年級（第三學習階段），並說明綠色植物光合作用吸收二氧化碳、放出氧氣；支持b41-036的年級與知識點，不支持出版社、學期或段考。",
+      "notes": "由教育部科學教育學習網提供，頁面明示國小5–6年級並直接說明光合作用吸收二氧化碳、放出氧氣。僅作108課綱共同核心參考；不作南一／翰林／康軒版本、冊別、學期、段考或學校採用證明。"
     }
   ],
   "classificationAudit": {
@@ -10152,7 +10163,7 @@
     ],
     "validationMethod": "重新讀取main第08–41批原始題庫與六個分類分片，逐批比對34/34 sourceBatch SHA；依index.html getPool()現行資料層語義執行16組啟用範圍篩選案例，並核對新增映射可由中央教材登錄及推定器MAPS解析。非瀏覽器／手機實機測試。"
   },
-  "notes": " 2026-11-14：新增國立臺北教育大學六年級自然上學期單元四「電磁作用」課程參考，12題串聯／並聯電路僅回填上學期，不掛出版社、不填段考。 2026-11-15：依國立臺北教育大學雙語教學研究中心官方單元目錄，新增3題六年級自然電磁鐵／線圈題目的上學期課程核心分類；段考維持unassigned，不掛出版社。 2026-11-15：新增六年級自然「簡單機械」及「地質的變化」課程參考；7題依題庫知識點推定學期，沒有出版社官方單元來源，故不新增出版社映射。 分類器載入修復：補齊5筆既有MAPS物件鍵並移除重複CURRICULUM_REFERENCES宣告；JavaScript語法編譯通過，publisher filter仍僅依持久映射資料判斷。 推定器持久化保護：有分類索引紀錄的題目不再被執行時推定覆蓋；未分類值必須先寫回分類分片才會反映在篩選器。 最終逐題執行分類器驗證：第8至41批2,900題均讀取持久分類索引，187筆出版社映射參照全部通過，學期／段考與持久資料差異0。\n\n2026-11-15.55：重新核對國北教大六年級自然單元目錄與教育部教育雲「珍愛家園」「野生動物生態系」資源，持久更新7題（上學期3、下學期4）。均為題庫推定、中等信心、段考未分類、共同核心狀態；沒有出版社映射或新增題目。 2026-11-15.56：新增4題六年級自然來源核對分類，新增10筆題目級出版社映射；段考未指定，無新增題目。 2026-11-15.57：高二歷史工業革命單元3題已持久化為翰林歷史(3)單元層級、上學期；段考維持unassigned。 2026-11-15.58：持久分類b39-091、b41-092兩題高二歷史帝國主義／十九世紀西方霸權題，依翰林歷史(3)第5單元「西方與世界1」官方目次與課本頁標記上學期、翰林單元層級映射；段考unassigned。 2026-11-15.60：新增翰林歷史(3)第2單元啟蒙運動與第7單元冷戰期間政治局勢映射，並擴充既有第3單元工業革命別名；只回填題幹與單元直接相符的3題。 2026-11-15.64：高二公民與社會(3)第4單元「外部成本與聯合行為」新增9題持久出版社映射；學期上學期、段考unassigned、confidence=medium；未新增題目。\n本次2026-11-15.66新增六年級自然電磁作用三版本單元映射；詳細來源與題目ID見sourceVerificationLog及latestMainClassificationAudit。 2026-11-16.68：為19題六年級數學「基準量和比較量」補上康軒6下第4單元映射；依翰林國小輔教行銷處第50頁三版本對照表，保留既有南一6下與翰林6上映射。段考維持unassigned，未新增題目；來源不是康軒出版社自身課本詳情頁或學校採用證明。\n2026-11-16分類補強：12題持久更新（9題出版社映射、3題共同核心學期回填）；映射參照新增19筆，未新增題目。來源核對涵蓋六年級比與比值、水循環凝結、熱傳導／保溫，以及高二公民外部性、高二歷史啟蒙思想；另依國北教大官方目錄回填六年級電磁作用上學期。全庫出版社映射438題／542筆參照，中央映射46筆；學期上417／下135／全學年74／未分類2,274，段考未分類2,669。7,650組篩選資料層測試543組有題、7,107組合理零題、映射洩漏0。未宣稱學校採用版本或教師審核，未新增題目。 2026-11-16.75：高二公民價格上限兩題依翰林官方配套評量目次第3單元持久映射；學期上學期、段考維持unassigned。全庫2,900題，出版社映射448題／552筆參照，中央映射49筆。 2026-11-16.80：高二公民「依法行政與行政救濟」單元逐題回填29題；依翰林官方跨版本對照表第9單元對應翰林公民與社會(3)乙版第2-3章，官方商品頁009121確認高二上學期。29題持久分類為上學期、publisher-source-verified、medium，新增29筆翰林單元映射；段考全數unassigned。全庫2,900題／唯一ID不變，分類紀錄2,900筆，出版社映射488題／592筆引用；學期上444／下146／全學年74／未分類2,236，段考未分類2,673。7,800組資料層篩選非零575、合理零題7,225、映射洩漏0、篩選錯誤0。原始題庫未改寫，新增題目0；未執行瀏覽器／手機實機測試。\n2026-11-16：依六個持久分類分片同步全庫統計；出版社篩選只採用source-checked映射，13筆失效來源保留追溯但排除。 2026-11-17.88：依康軒官方114學年度自然領域文宣，持久更新9題六年級自然食物鏈／食物網／生物多樣性題目（b15-022、b24-032、b25-030、b30-025、b31-036、b32-027、b33-033、b35-033、b36-040），改接康軒114版六下單元三「地球的生態」；semester=下學期、examPeriod=unassigned、confidence=medium。推定器新增該映射至MAPS並更新規則；原113版來源失效不再用於篩選。 依康軒官方114學年度自然領域文宣，將六年級自然「簡單機械」5題對照六下單元一，及「能量轉換」3題對照六下單元二。簡單機械原有學期下學期推定保留但分類依據升級為出版社來源核對；3題能量轉換由unassigned推定為下學期。8題均只標康軒114版單元層級；學校採用版本未確認，段考維持unassigned。沒有新增題目或修改原始題幹、選項、答案、解析。 2026-11-17.90：依康軒114自然官方文宣，六年級自然8題分別映射六下單元一簡單機械5題、單元二能量與生活3題；段考未指定，新增題目0。\n2026-11-18分類補強：b41-091高二歷史「革命的多重原因」新增翰林高中歷史(3)冊別層級映射。官方113教材簡介列歷史3課本P.60–61法國大革命至拿破崙時代大事紀要，書城商品頁確認高二上學期；未核對具體單元，段考未分類。全庫2,900筆分類、出版社映射585題／689筆參照；未新增題目。\n2026-11-18後置runtime smoke test：實際載入推定器並以持久分類索引執行b41-091，分類結果與持久紀錄一致；非瀏覽器實機測試。\n2026-11-18-hanlin-h2-chemistry-i-volume-backfill-01：b32-077、b32-078、b33-078、b34-076、b36-078原始sourceRef均指向翰林官方選修化學(I)課本頁；明示高二、化學、上學期。持久分類新增5筆翰林volume映射，courseType明確為選修化學(I)，不推定細分單元或段考。\n2026-11-18：依國教院113年3月數學領域課程手冊附錄四補強高二數學A/B軌別核對；5題由未標示改為數學A，未新增出版社映射或段考／學期推定。 2026-11-18.117：康軒113官方教材簡介確認六上單元二「水溶液」主題含混合物與物質分離，為b38-040新增單元層級映射；b38-041大氣壓力依國教院愛學網Ec-IV-1第四學習階段資料列待核對，不更改原始年級、不掛出版社、不推定學期或段考。",
+  "notes": " 2026-11-14：新增國立臺北教育大學六年級自然上學期單元四「電磁作用」課程參考，12題串聯／並聯電路僅回填上學期，不掛出版社、不填段考。 2026-11-15：依國立臺北教育大學雙語教學研究中心官方單元目錄，新增3題六年級自然電磁鐵／線圈題目的上學期課程核心分類；段考維持unassigned，不掛出版社。 2026-11-15：新增六年級自然「簡單機械」及「地質的變化」課程參考；7題依題庫知識點推定學期，沒有出版社官方單元來源，故不新增出版社映射。 分類器載入修復：補齊5筆既有MAPS物件鍵並移除重複CURRICULUM_REFERENCES宣告；JavaScript語法編譯通過，publisher filter仍僅依持久映射資料判斷。 推定器持久化保護：有分類索引紀錄的題目不再被執行時推定覆蓋；未分類值必須先寫回分類分片才會反映在篩選器。 最終逐題執行分類器驗證：第8至41批2,900題均讀取持久分類索引，187筆出版社映射參照全部通過，學期／段考與持久資料差異0。\n\n2026-11-15.55：重新核對國北教大六年級自然單元目錄與教育部教育雲「珍愛家園」「野生動物生態系」資源，持久更新7題（上學期3、下學期4）。均為題庫推定、中等信心、段考未分類、共同核心狀態；沒有出版社映射或新增題目。 2026-11-15.56：新增4題六年級自然來源核對分類，新增10筆題目級出版社映射；段考未指定，無新增題目。 2026-11-15.57：高二歷史工業革命單元3題已持久化為翰林歷史(3)單元層級、上學期；段考維持unassigned。 2026-11-15.58：持久分類b39-091、b41-092兩題高二歷史帝國主義／十九世紀西方霸權題，依翰林歷史(3)第5單元「西方與世界1」官方目次與課本頁標記上學期、翰林單元層級映射；段考unassigned。 2026-11-15.60：新增翰林歷史(3)第2單元啟蒙運動與第7單元冷戰期間政治局勢映射，並擴充既有第3單元工業革命別名；只回填題幹與單元直接相符的3題。 2026-11-15.64：高二公民與社會(3)第4單元「外部成本與聯合行為」新增9題持久出版社映射；學期上學期、段考unassigned、confidence=medium；未新增題目。\n本次2026-11-15.66新增六年級自然電磁作用三版本單元映射；詳細來源與題目ID見sourceVerificationLog及latestMainClassificationAudit。 2026-11-16.68：為19題六年級數學「基準量和比較量」補上康軒6下第4單元映射；依翰林國小輔教行銷處第50頁三版本對照表，保留既有南一6下與翰林6上映射。段考維持unassigned，未新增題目；來源不是康軒出版社自身課本詳情頁或學校採用證明。\n2026-11-16分類補強：12題持久更新（9題出版社映射、3題共同核心學期回填）；映射參照新增19筆，未新增題目。來源核對涵蓋六年級比與比值、水循環凝結、熱傳導／保溫，以及高二公民外部性、高二歷史啟蒙思想；另依國北教大官方目錄回填六年級電磁作用上學期。全庫出版社映射438題／542筆參照，中央映射46筆；學期上417／下135／全學年74／未分類2,274，段考未分類2,669。7,650組篩選資料層測試543組有題、7,107組合理零題、映射洩漏0。未宣稱學校採用版本或教師審核，未新增題目。 2026-11-16.75：高二公民價格上限兩題依翰林官方配套評量目次第3單元持久映射；學期上學期、段考維持unassigned。全庫2,900題，出版社映射448題／552筆參照，中央映射49筆。 2026-11-16.80：高二公民「依法行政與行政救濟」單元逐題回填29題；依翰林官方跨版本對照表第9單元對應翰林公民與社會(3)乙版第2-3章，官方商品頁009121確認高二上學期。29題持久分類為上學期、publisher-source-verified、medium，新增29筆翰林單元映射；段考全數unassigned。全庫2,900題／唯一ID不變，分類紀錄2,900筆，出版社映射488題／592筆引用；學期上444／下146／全學年74／未分類2,236，段考未分類2,673。7,800組資料層篩選非零575、合理零題7,225、映射洩漏0、篩選錯誤0。原始題庫未改寫，新增題目0；未執行瀏覽器／手機實機測試。\n2026-11-16：依六個持久分類分片同步全庫統計；出版社篩選只採用source-checked映射，13筆失效來源保留追溯但排除。 2026-11-17.88：依康軒官方114學年度自然領域文宣，持久更新9題六年級自然食物鏈／食物網／生物多樣性題目（b15-022、b24-032、b25-030、b30-025、b31-036、b32-027、b33-033、b35-033、b36-040），改接康軒114版六下單元三「地球的生態」；semester=下學期、examPeriod=unassigned、confidence=medium。推定器新增該映射至MAPS並更新規則；原113版來源失效不再用於篩選。 依康軒官方114學年度自然領域文宣，將六年級自然「簡單機械」5題對照六下單元一，及「能量轉換」3題對照六下單元二。簡單機械原有學期下學期推定保留但分類依據升級為出版社來源核對；3題能量轉換由unassigned推定為下學期。8題均只標康軒114版單元層級；學校採用版本未確認，段考維持unassigned。沒有新增題目或修改原始題幹、選項、答案、解析。 2026-11-17.90：依康軒114自然官方文宣，六年級自然8題分別映射六下單元一簡單機械5題、單元二能量與生活3題；段考未指定，新增題目0。\n2026-11-18分類補強：b41-091高二歷史「革命的多重原因」新增翰林高中歷史(3)冊別層級映射。官方113教材簡介列歷史3課本P.60–61法國大革命至拿破崙時代大事紀要，書城商品頁確認高二上學期；未核對具體單元，段考未分類。全庫2,900筆分類、出版社映射585題／689筆參照；未新增題目。\n2026-11-18後置runtime smoke test：實際載入推定器並以持久分類索引執行b41-091，分類結果與持久紀錄一致；非瀏覽器實機測試。\n2026-11-18-hanlin-h2-chemistry-i-volume-backfill-01：b32-077、b32-078、b33-078、b34-076、b36-078原始sourceRef均指向翰林官方選修化學(I)課本頁；明示高二、化學、上學期。持久分類新增5筆翰林volume映射，courseType明確為選修化學(I)，不推定細分單元或段考。\n2026-11-18：依國教院113年3月數學領域課程手冊附錄四補強高二數學A/B軌別核對；5題由未標示改為數學A，未新增出版社映射或段考／學期推定。 2026-11-18.117：康軒113官方教材簡介確認六上單元二「水溶液」主題含混合物與物質分離，為b38-040新增單元層級映射；b38-041大氣壓力依國教院愛學網Ec-IV-1第四學習階段資料列待核對，不更改原始年級、不掛出版社、不推定學期或段考。\n2026-11-18.118：依教育部科學教育學習網「氧和二氧化碳的循環」資源核對b41-036光合作用氣體交換，confidence由low調整為medium；仍為共同核心，不掛出版社，semester／examPeriod維持unassigned。",
   "latestCurriculumUnitClassificationAudit": {
     "runId": "2026-11-17-knsh-g6-natural-ecology-backfill-01",
     "verifiedAt": "2026-11-17",
@@ -10459,38 +10470,100 @@
     }
   ],
   "latestMainAudit": {
-    "runId": "2026-11-18-g6-language-core-evidence-review-01",
+    "runId": "2026-11-18-educloud-g6-photosynthesis-grade-scope-review-01",
     "date": "2026-11-18",
-    "questionRecordsUpdated": 13,
+    "questionRecordsUpdated": 1,
     "updatedQuestionIds": [
-      "b41-001",
-      "b41-002",
-      "b41-003",
-      "b41-004",
-      "b41-006",
-      "b41-007",
-      "b41-008",
-      "b41-009",
-      "b41-010",
-      "b41-013",
-      "b41-014",
-      "b41-015",
-      "b41-016"
+      "b41-036"
     ],
-    "confidenceCorrections": 13,
+    "confidenceCorrections": 1,
     "semesterAssignments": 0,
     "examPeriodAssignments": 0,
     "publisherMappingsAdded": 0,
     "publisherMappingReferencesAdded": 0,
     "newQuestionsAdded": 0,
-    "classificationRuleVersion": "2026-11-18.117",
-    "sourceRegistryCount": 82,
+    "classificationRuleVersion": "2026-11-18.118",
+    "sourceRegistryCount": 83,
     "sourceRegistryVerificationStatusCounts": {
-      "source-checked": 80,
+      "source-checked": 81,
       "pending": 1,
       "source-unavailable": 1
     },
-    "notes": "本輪僅補強國小六年級國語7題、英語6題的108課綱第三學習階段共同核心依據與confidence；學期、段考仍unassigned，出版社狀態仍curriculum-core且publisherMappings維持空陣列。未新增題目、未修改原始題幹／選項／答案／解析；官方課綱佐證不代表出版社版本、學校採用或教師審核。"
+    "notes": "依教育部科學教育學習網「氧和二氧化碳的循環」資源補強b41-036六年級光合作用共同核心證據；confidence由low調整為medium，學期／段考及出版社映射維持未指定。無新增題目。",
+    "sourceHeadBeforeRun": "ee5fb98713867020e4fdd490b66c4d3eaabe0375",
+    "fullCorpusConfidenceDistribution": {
+      "low": 2038,
+      "medium": 824,
+      "high": 38
+    },
+    "activeScopeGradeCounts": {
+      "六年級": 890,
+      "高二": 974
+    },
+    "activeScope": {
+      "questionCount": 1864,
+      "semester": {
+        "unassigned": 1129,
+        "上學期": 495,
+        "下學期": 164,
+        "全學年": 76
+      },
+      "examPeriod": {
+        "unassigned": 1637,
+        "第一次段考": 65,
+        "第二次段考": 71,
+        "第三次段考": 91
+      },
+      "publisherStatus": {
+        "curriculum-core": 1244,
+        "publisher-mapped": 598,
+        "pending": 22
+      },
+      "classificationBasis": {
+        "curriculum-core": 1114,
+        "publisher-source-verified": 484,
+        "question-bank-inference": 250,
+        "unassigned": 16
+      },
+      "confidence": {
+        "low": 1002,
+        "medium": 824,
+        "high": 38
+      },
+      "publisherMappedQuestionCount": 598,
+      "publisherMappingReferenceCount": 706
+    },
+    "validation": {
+      "updatedQuestionsChecked": 1,
+      "updatedQuestionIdsReachable": true,
+      "curriculumSourceRegistryEntriesPresent": 3,
+      "classificationRecords": 2900,
+      "uniqueIds": 2900,
+      "duplicateIds": 0,
+      "missingClassification": 0,
+      "missingRequiredFields": 0,
+      "invalidClassificationValues": 0,
+      "mappingReferenceErrors": 0,
+      "mappingSourceFieldErrors": 0,
+      "mappingScopeErrors": 0,
+      "sourceBatchShaMatches": "34/34",
+      "shardCount": 6,
+      "shardShaMismatches": 0,
+      "targetedFilterCombinationsTested": 21,
+      "targetedFilterErrors": 0,
+      "publisherMappingLeaks": 0,
+      "allModeReachable": true,
+      "allModeQuestionCount": 1864,
+      "fullCorpusPersistedQuestionCount": 2900,
+      "curriculumCoreModeReachable": true,
+      "curriculumCoreModeQuestionCount": 1244,
+      "pendingModeReachable": true,
+      "pendingModeQuestionCount": 22,
+      "appReadsPersistedClassificationIndex": true,
+      "zeroResultHintPresent": true,
+      "browserOrMobileRuntimeTested": false,
+      "fullFilterMatrixTested": false
+    }
   },
   "statistics": {
     "questionCount": 2900,
@@ -10518,8 +10591,8 @@
       "unassigned": 16
     },
     "confidence": {
-      "low": 2052,
-      "medium": 810,
+      "low": 2038,
+      "medium": 824,
       "high": 38
     },
     "publisherStatus": {
@@ -10580,8 +10653,8 @@
       "unassigned": 16
     },
     "confidenceCounts": {
-      "low": 2052,
-      "medium": 810,
+      "low": 2038,
+      "medium": 824,
       "high": 38
     },
     "publisherStatusCounts": {
@@ -10617,8 +10690,8 @@
         "unassigned": 16
       },
       "confidence": {
-        "low": 1016,
-        "medium": 810,
+        "low": 1002,
+        "medium": 824,
         "high": 38
       },
       "publisherMappedQuestionCount": 598,
@@ -10648,15 +10721,15 @@
       "unassigned": 16
     },
     "activeScopeConfidenceCounts": {
-      "low": 1016,
-      "medium": 810,
+      "low": 1002,
+      "medium": 824,
       "high": 38
     },
     "activeScopePublisherMappedQuestionCount": 598,
     "activeScopePublisherMappingReferenceCount": 706,
-    "sourceRegistryCount": 80,
+    "sourceRegistryCount": 83,
     "sourceRegistryVerificationStatusCounts": {
-      "source-checked": 78,
+      "source-checked": 81,
       "pending": 1,
       "source-unavailable": 1
     }
@@ -12731,7 +12804,7 @@
       "unitLevelClaimed": false
     }
   },
-  "classificationRuleVersion": "2026-11-18.117",
+  "classificationRuleVersion": "2026-11-18.118",
   "classificationPersistenceRunsRecovery": {
     "repairedAt": "2026-11-16",
     "previousLength": 337,
@@ -13328,86 +13401,35 @@
     "validationMethod": "重新讀取main第08–41批原始題庫與六個分類分片，逐批比對34/34 sourceBatch SHA；依index.html getPool()現行資料層語義執行16組啟用範圍篩選案例，並核對新增映射可由中央教材登錄及推定器MAPS解析。非瀏覽器／手機實機測試。"
   },
   "latestAudit": {
-    "runId": "2026-11-18-g6-natural-separation-pressure-review-01",
+    "runId": "2026-11-18-educloud-g6-photosynthesis-grade-scope-review-01",
     "date": "2026-11-18",
-    "sourceHeadBeforeRun": "d66cf0a99eb2cc757874cfbb2bb169f0bcf25cc6",
-    "batches": "08-41",
-    "batchFileCount": 34,
-    "fullCorpusQuestionCount": 2900,
-    "uniqueQuestionIds": 2900,
-    "activeScopeDefinition": "國小六年級＋高中高二",
-    "activeScopeQuestionCount": 1864,
-    "questionRecordsUpdated": 2,
+    "questionRecordsUpdated": 1,
     "updatedQuestionIds": [
-      "b38-040",
-      "b38-041"
+      "b41-036"
     ],
-    "semesterAssignments": 1,
+    "confidenceCorrections": 1,
+    "semesterAssignments": 0,
     "examPeriodAssignments": 0,
-    "publisherMappingsAdded": 1,
-    "publisherMappingReferencesAdded": 1,
-    "inferenceMappingsAdded": 0,
+    "publisherMappingsAdded": 0,
+    "publisherMappingReferencesAdded": 0,
     "newQuestionsAdded": 0,
-    "unprocessedQuestionCount": 0,
-    "semesterAssignedQuestionCount": 735,
-    "examAssignedQuestionCount": 227,
-    "publisherMappedQuestionCount": 598,
-    "publisherMappingReferenceCount": 706,
-    "curriculumCoreQuestionCount": 2280,
-    "pendingQuestionCount": 22,
-    "unassignedBasisCount": 16,
-    "classificationRuleVersion": "2026-11-18.116",
-    "centralMappingRegistryCount": 67,
-    "inferenceMappingRegistryCount": 67,
-    "sourceRegistryCount": 80,
+    "classificationRuleVersion": "2026-11-18.118",
+    "sourceRegistryCount": 83,
     "sourceRegistryVerificationStatusCounts": {
-      "source-checked": 78,
+      "source-checked": 81,
       "pending": 1,
       "source-unavailable": 1
     },
-    "fullCorpusSemesterDistribution": {
-      "unassigned": 2165,
-      "上學期": 495,
-      "下學期": 164,
-      "全學年": 76
-    },
-    "fullCorpusExamPeriodDistribution": {
-      "unassigned": 2673,
-      "第一次段考": 65,
-      "第二次段考": 71,
-      "第三次段考": 91
-    },
-    "fullCorpusClassificationBasisDistribution": {
-      "curriculum-core": 2150,
-      "publisher-source-verified": 484,
-      "question-bank-inference": 250,
-      "unassigned": 16
-    },
-    "fullCorpusPublisherStatusDistribution": {
-      "curriculum-core": 2280,
-      "publisher-mapped": 598,
-      "pending": 22
-    },
+    "notes": "依教育部科學教育學習網「氧和二氧化碳的循環」資源補強b41-036六年級光合作用共同核心證據；confidence由low調整為medium，學期／段考及出版社映射維持未指定。無新增題目。",
+    "sourceHeadBeforeRun": "ee5fb98713867020e4fdd490b66c4d3eaabe0375",
     "fullCorpusConfidenceDistribution": {
-      "low": 2052,
-      "medium": 810,
+      "low": 2038,
+      "medium": 824,
       "high": 38
     },
-    "publisherReferenceCounts": {
-      "nani": 72,
-      "hanlin": 460,
-      "knsh": 174,
-      "_total": 706
-    },
-    "mappingLevelCounts": {
-      "official-resource-title": 77,
-      "unit": 482,
-      "volume": 147,
-      "_total": 706
-    },
-    "mappingVerificationStatusCounts": {
-      "source-checked": 706,
-      "_total": 706
+    "activeScopeGradeCounts": {
+      "六年級": 890,
+      "高二": 974
     },
     "activeScope": {
       "questionCount": 1864,
@@ -13435,20 +13457,21 @@
         "unassigned": 16
       },
       "confidence": {
-        "low": 1016,
-        "medium": 810,
+        "low": 1002,
+        "medium": 824,
         "high": 38
       },
       "publisherMappedQuestionCount": 598,
       "publisherMappingReferenceCount": 706
     },
     "validation": {
-      "jsonParse": true,
+      "updatedQuestionsChecked": 1,
+      "updatedQuestionIdsReachable": true,
+      "curriculumSourceRegistryEntriesPresent": 3,
       "classificationRecords": 2900,
       "uniqueIds": 2900,
       "duplicateIds": 0,
       "missingClassification": 0,
-      "extraClassificationIds": 0,
       "missingRequiredFields": 0,
       "invalidClassificationValues": 0,
       "mappingReferenceErrors": 0,
@@ -13457,14 +13480,7 @@
       "sourceBatchShaMatches": "34/34",
       "shardCount": 6,
       "shardShaMismatches": 0,
-      "centralMappingRegistryCount": 67,
-      "inferenceMappingRegistryCount": 67,
-      "missingInferenceMappingIds": [],
-      "updatedQuestionsChecked": 2,
-      "updatedQuestionIdsReachable": true,
-      "curriculumSourceRegistryEntryPresent": true,
-      "newMappingUnitAliasMatch": true,
-      "targetedFilterCombinationsTested": 16,
+      "targetedFilterCombinationsTested": 21,
       "targetedFilterErrors": 0,
       "publisherMappingLeaks": 0,
       "allModeReachable": true,
@@ -13478,9 +13494,7 @@
       "zeroResultHintPresent": true,
       "browserOrMobileRuntimeTested": false,
       "fullFilterMatrixTested": false
-    },
-    "validationMethod": "重新讀取main第08–41批34個原始題庫檔、六個持久分類分片、教材對照中央映射、推定器與index.html；依getPool現行語義執行16組定向資料層測試。不是瀏覽器／手機實機測試，也不是全庫所有年級／科目／單元的完整矩陣。",
-    "notes": "b38-040直接對應康軒113六上單元二「水溶液」之混合物／物質分離，僅新增康軒單元層級映射；段考維持unassigned。b38-041涉及大氣壓力，國家教育研究院愛學網資源列Ec-IV-1第四學習階段，故將出版社狀態改為pending、分類依據改為unassigned，保留原始年級與題目，待教師或原始來源確認。沒有新增題目、沒有改原始題幹／選項／答案／解析，不宣稱教師審核或學校採用版本。"
+    }
   },
   "latestIndexReconciliationAudit": {
     "runId": "2026-11-18-g6-natural-separation-pressure-review-01",
@@ -13665,9 +13679,9 @@
     "mappingSourceFieldErrors": 0,
     "mappingScopeErrors": 0
   },
-  "sourceRegistryCount": 82,
+  "sourceRegistryCount": 83,
   "sourceRegistryVerificationStatusCounts": {
-    "source-checked": 80,
+    "source-checked": 81,
     "pending": 1,
     "source-unavailable": 1
   },
@@ -13800,32 +13814,20 @@
     ]
   },
   "latestCurriculumCoreSourceAudit": {
-    "runId": "2026-11-18-g6-language-core-evidence-review-01",
+    "runId": "2026-11-18-educloud-g6-photosynthesis-grade-scope-review-01",
     "verifiedAt": "2026-11-18",
     "sourceIds": [
-      "naer-chinese-language-course-manual-108-third-stage",
-      "naer-english-curriculum-guidelines-108-third-stage"
+      "educloud-g6-photosynthesis-co2-o2-grade56"
     ],
     "questionIds": [
-      "b41-001",
-      "b41-002",
-      "b41-003",
-      "b41-004",
-      "b41-006",
-      "b41-007",
-      "b41-008",
-      "b41-009",
-      "b41-010",
-      "b41-013",
-      "b41-014",
-      "b41-015",
-      "b41-016"
+      "b41-036"
     ],
     "verificationStatus": "source-checked",
+    "confidenceCorrections": 1,
     "publisherMappingsAdded": 0,
     "semesterAssignments": 0,
     "examPeriodAssignments": 0,
-    "notes": "本輪僅補強國小六年級國語7題、英語6題的108課綱第三學習階段共同核心依據與confidence；學期、段考仍unassigned，出版社狀態仍curriculum-core且publisherMappings維持空陣列。未新增題目、未修改原始題幹／選項／答案／解析；官方課綱佐證不代表出版社版本、學校採用或教師審核。"
+    "notes": "教育部科學教育學習網資源明示國小5–6年級，並直接說明光合作用吸收二氧化碳、放出氧氣；與b41-036題幹一致。僅補強108課綱共同核心依據與confidence=medium，不標出版社、不推定學期或段考。"
   },
   "latestCurriculumScopeAudit": {
     "runId": "2026-11-18-g6-language-core-evidence-review-01",
@@ -13969,86 +13971,35 @@
     "validationMethod": "讀取六個持久分類分片與第08–41批34個原始題庫檔；34/34 SHA相符。依index.html現有courseTrackFilter及學期、段考、出版社篩選欄位執行高二數學4種軌別×5種學期×5種段考×6種版本狀態，共600組資料層組合，0錯誤、0出版社映射洩漏。另逐筆檢查696筆出版社映射的來源欄位與年級／科目／軌別範圍；21筆學期差異是同題不同出版社教材安排不同，依映射各自保存，並非範圍錯誤。未執行瀏覽器／手機實機或全庫完整篩選矩陣。"
   },
   "latestCurrentMainReconciliation": {
-    "runId": "2026-11-18-g6-natural-separation-pressure-review-01",
+    "runId": "2026-11-18-educloud-g6-photosynthesis-grade-scope-review-01",
     "date": "2026-11-18",
-    "sourceHeadBeforeRun": "d66cf0a99eb2cc757874cfbb2bb169f0bcf25cc6",
-    "batches": "08-41",
-    "batchFileCount": 34,
-    "fullCorpusQuestionCount": 2900,
-    "uniqueQuestionIds": 2900,
-    "activeScopeDefinition": "國小六年級＋高中高二",
-    "activeScopeQuestionCount": 1864,
-    "questionRecordsUpdated": 2,
+    "questionRecordsUpdated": 1,
     "updatedQuestionIds": [
-      "b38-040",
-      "b38-041"
+      "b41-036"
     ],
-    "semesterAssignments": 1,
+    "confidenceCorrections": 1,
+    "semesterAssignments": 0,
     "examPeriodAssignments": 0,
-    "publisherMappingsAdded": 1,
-    "publisherMappingReferencesAdded": 1,
-    "inferenceMappingsAdded": 0,
+    "publisherMappingsAdded": 0,
+    "publisherMappingReferencesAdded": 0,
     "newQuestionsAdded": 0,
-    "unprocessedQuestionCount": 0,
-    "semesterAssignedQuestionCount": 735,
-    "examAssignedQuestionCount": 227,
-    "publisherMappedQuestionCount": 598,
-    "publisherMappingReferenceCount": 706,
-    "curriculumCoreQuestionCount": 2280,
-    "pendingQuestionCount": 22,
-    "unassignedBasisCount": 16,
-    "classificationRuleVersion": "2026-11-18.116",
-    "centralMappingRegistryCount": 67,
-    "inferenceMappingRegistryCount": 67,
-    "sourceRegistryCount": 80,
+    "classificationRuleVersion": "2026-11-18.118",
+    "sourceRegistryCount": 83,
     "sourceRegistryVerificationStatusCounts": {
-      "source-checked": 78,
+      "source-checked": 81,
       "pending": 1,
       "source-unavailable": 1
     },
-    "fullCorpusSemesterDistribution": {
-      "unassigned": 2165,
-      "上學期": 495,
-      "下學期": 164,
-      "全學年": 76
-    },
-    "fullCorpusExamPeriodDistribution": {
-      "unassigned": 2673,
-      "第一次段考": 65,
-      "第二次段考": 71,
-      "第三次段考": 91
-    },
-    "fullCorpusClassificationBasisDistribution": {
-      "curriculum-core": 2150,
-      "publisher-source-verified": 484,
-      "question-bank-inference": 250,
-      "unassigned": 16
-    },
-    "fullCorpusPublisherStatusDistribution": {
-      "curriculum-core": 2280,
-      "publisher-mapped": 598,
-      "pending": 22
-    },
+    "notes": "依教育部科學教育學習網「氧和二氧化碳的循環」資源補強b41-036六年級光合作用共同核心證據；confidence由low調整為medium，學期／段考及出版社映射維持未指定。無新增題目。",
+    "sourceHeadBeforeRun": "ee5fb98713867020e4fdd490b66c4d3eaabe0375",
     "fullCorpusConfidenceDistribution": {
-      "low": 2052,
-      "medium": 810,
+      "low": 2038,
+      "medium": 824,
       "high": 38
     },
-    "publisherReferenceCounts": {
-      "nani": 72,
-      "hanlin": 460,
-      "knsh": 174,
-      "_total": 706
-    },
-    "mappingLevelCounts": {
-      "official-resource-title": 77,
-      "unit": 482,
-      "volume": 147,
-      "_total": 706
-    },
-    "mappingVerificationStatusCounts": {
-      "source-checked": 706,
-      "_total": 706
+    "activeScopeGradeCounts": {
+      "六年級": 890,
+      "高二": 974
     },
     "activeScope": {
       "questionCount": 1864,
@@ -14076,20 +14027,21 @@
         "unassigned": 16
       },
       "confidence": {
-        "low": 1016,
-        "medium": 810,
+        "low": 1002,
+        "medium": 824,
         "high": 38
       },
       "publisherMappedQuestionCount": 598,
       "publisherMappingReferenceCount": 706
     },
     "validation": {
-      "jsonParse": true,
+      "updatedQuestionsChecked": 1,
+      "updatedQuestionIdsReachable": true,
+      "curriculumSourceRegistryEntriesPresent": 3,
       "classificationRecords": 2900,
       "uniqueIds": 2900,
       "duplicateIds": 0,
       "missingClassification": 0,
-      "extraClassificationIds": 0,
       "missingRequiredFields": 0,
       "invalidClassificationValues": 0,
       "mappingReferenceErrors": 0,
@@ -14098,14 +14050,7 @@
       "sourceBatchShaMatches": "34/34",
       "shardCount": 6,
       "shardShaMismatches": 0,
-      "centralMappingRegistryCount": 67,
-      "inferenceMappingRegistryCount": 67,
-      "missingInferenceMappingIds": [],
-      "updatedQuestionsChecked": 2,
-      "updatedQuestionIdsReachable": true,
-      "curriculumSourceRegistryEntryPresent": true,
-      "newMappingUnitAliasMatch": true,
-      "targetedFilterCombinationsTested": 16,
+      "targetedFilterCombinationsTested": 21,
       "targetedFilterErrors": 0,
       "publisherMappingLeaks": 0,
       "allModeReachable": true,
@@ -14119,9 +14064,7 @@
       "zeroResultHintPresent": true,
       "browserOrMobileRuntimeTested": false,
       "fullFilterMatrixTested": false
-    },
-    "validationMethod": "重新讀取main第08–41批34個原始題庫檔、六個持久分類分片、教材對照中央映射、推定器與index.html；依getPool現行語義執行16組定向資料層測試。不是瀏覽器／手機實機測試，也不是全庫所有年級／科目／單元的完整矩陣。",
-    "notes": "b38-040直接對應康軒113六上單元二「水溶液」之混合物／物質分離，僅新增康軒單元層級映射；段考維持unassigned。b38-041涉及大氣壓力，國家教育研究院愛學網資源列Ec-IV-1第四學習階段，故將出版社狀態改為pending、分類依據改為unassigned，保留原始年級與題目，待教師或原始來源確認。沒有新增題目、沒有改原始題幹／選項／答案／解析，不宣稱教師審核或學校採用版本。"
+    }
   },
   "latestCourseTrackFilterRegression": {
     "runId": "2026-11-18-full-corpus-classification-reconciliation-01",
@@ -14141,10 +14084,15 @@
     },
     "validationMethod": "依main index.html getPool()之課程軌別、難度、學期、段考及出版社篩選語義，執行4種可選軌別×5種難度×5種學期×5種段考×6種版本狀態；非瀏覽器／手機實機測試。"
   },
-  "sourceHeadBeforeRun": "d66cf0a99eb2cc757874cfbb2bb169f0bcf25cc6",
+  "sourceHeadBeforeRun": "ee5fb98713867020e4fdd490b66c4d3eaabe0375",
   "sourceRegistryVerificationStatusCountsBatches08to41": {
-    "source-checked": 80,
+    "source-checked": 81,
     "pending": 1,
     "source-unavailable": 1
+  },
+  "activeScopeConfidenceCounts": {
+    "low": 1002,
+    "medium": 824,
+    "high": 38
   }
 }
