@@ -1,6 +1,6 @@
 {
   "title": "南一／翰林／康軒教材版本對照資料庫",
-  "schemaVersion": "1.0.23",
+  "schemaVersion": "1.0.24",
   "updatedAt": "2026-11-18",
   "purpose": "同時支援跨版本共同核心整合與指定出版社版本練習。此檔先建立資料規格；未經官方或學校教材核對的單元不得標示為已對應。",
   "modes": [
@@ -2291,37 +2291,41 @@
       "mappingLevel": "volume"
     },
     {
-      "id": "knsh-g6-natural-113-6a-u2-solution-separation",
-      "mappingId": "knsh-g6-natural-113-6a-u2-solution-separation",
-      "schoolYear": "113",
+      "id": "knsh-g6-natural-114-6a-u2-solution-schoolplan-gengliao",
+      "mappingId": "knsh-g6-natural-114-6a-u2-solution-schoolplan-gengliao",
+      "schoolYear": "114學年度",
       "stage": "國小",
       "grade": "六年級",
       "subject": "自然",
       "semester": "上學期",
       "publisher": "knsh",
-      "volume": "自然科學(6上)",
+      "volume": "康軒版第十一冊",
       "unitCode": "2",
       "unitName": "水溶液",
-      "learningContent": "混合物、物質分離、導電性與酸鹼性；對應沙與食鹽水混合物分離，以及食鹽溶解後過濾、泥沙與溶解食鹽分離等題目。",
-      "sourceType": "official-publisher-curriculum-brochure",
-      "sourceUrl": "https://945cloud.knsh.com.tw/e/promo/show/upload/material/4/113%281%29%E8%87%AA%E7%84%B6%E9%A0%98%E5%9F%9F%E6%96%87%E5%AE%A3-%E8%B7%A8%E9%A0%81.pdf",
-      "sourceTitle": "113康軒國小教材簡介－自然領域文宣",
+      "learningContent": "水溶液是一種混合物；物質溶解後的分離（包含從食鹽水中分離食鹽）；物質混合前後重量不變；水溶液的導電性與酸鹼性。",
+      "sourceType": "official-school-adoption-curriculum-plan",
+      "sourceUrl": "https://course.cyc.edu.tw/upfile/course114/sub1/15925383328445396.pdf",
+      "sourceTitle": "嘉義縣六腳鄉更寮國民小學－114學年度第一／二學期六年級普通班自然領域課程計畫（康軒版第十一冊）",
       "verifiedAt": "2026-11-18",
       "verificationStatus": "source-checked",
-      "notes": "113康軒官方教材簡介目次明列六上單元二「水溶液」；主題脈絡明列混合物、物質分離、導電性與酸鹼性。可對應b38-040沙與食鹽水混合物分離、b34-031食鹽溶解後過濾、b36-034泥沙與溶解食鹽過濾分離。僅支持113版康軒六上單元層級，不代表學校採用版本或正式段考範圍，也不表示題目取自教材原文。",
+      "notes": "嘉義縣六腳鄉更寮國民小學114學年度課程計畫明列第一學期六年級普通班自然科採康軒版第十一冊；第二單元為「水溶液」，活動1-1「水溶液是一種混合物」、活動1-2「溶解後物質的分離」，並列從食鹽水中分離食鹽。這是該校採用案例，不代表使用者學校採用康軒；只支持六年級自然上學期單元層級對照，不代表題目取自教材或正式段考範圍。課程計畫未逐題列出濾紙操作，因此過濾題僅標記到單元層級，不宣稱官方活動明列濾紙過濾。",
       "courseType": "國小",
       "courseTrack": null,
       "mappingLevel": "unit",
       "unitAliases": [
-        "混合物分離",
+        "水溶液",
+        "溶解",
+        "溶解後物質的分離",
         "物質分離",
+        "混合物分離",
         "沙子與食鹽分離",
         "過濾與溶解物分離",
         "過濾與溶解物",
-        "溶解物分離",
+        "淨水與分離方法",
         "食鹽溶液過濾",
         "混合物過濾分離"
-      ]
+      ],
+      "scopeKeywords": []
     },
     {
       "id": "hanlin-h2-english-grammar-772050-volume",
@@ -2965,9 +2969,9 @@
       "sourceUrl": "https://945cloud.knsh.com.tw/e/promo/show/upload/material/4/113%281%29%E8%87%AA%E7%84%B6%E9%A0%98%E5%9F%9F%E6%96%87%E5%AE%A3-%E8%B7%A8%E9%A0%81.pdf",
       "sourceTitle": "113康軒國小教材簡介－自然領域文宣",
       "verifiedAt": "2026-11-18",
-      "verificationStatus": "source-checked",
+      "verificationStatus": "source-unavailable",
       "verifiedScope": "113版康軒國小自然：六上單元一探索天氣的變化、單元二水溶液（混合物、物質分離、導電性、酸鹼性）、單元三動物大解密、單元四電磁作用；六下單元一簡單機械、單元二生物與環境、單元三地球與永續。",
-      "notes": "2026-11-18重新開啟同一康軒官方113國小教材簡介PDF，已成功讀取課程架構與主題脈絡；先前2026-11-16的HTTP 404為暫時不可用，現恢復source-checked。僅支持113版康軒教材對照，不代表學校採用版本。"
+      "notes": "2026-11-18本輪重新開啟該PDF，網頁讀取回應404；相關題目映射已改用114學年度更寮國小六年級自然課程計畫。保留歷史紀錄，不再作為有效單題映射來源。"
     },
     {
       "id": "hanlin-h2-civic-3-u3-market-regulation-toc",
@@ -3370,6 +3374,17 @@
       "verifiedAt": "2026-11-18",
       "verificationStatus": "source-checked",
       "notes": "南一官方 TPACK 平台頁標題明示「數學6下｜怎樣解題：雞兔問題」，頁面列國小、數學、6年級；但分享者為王玉珍、學校／單位為高師大，因此明確視為南一官方平台上的使用者上傳資源，不宣稱是南一官方編寫教材或完整課本目次。僅作官方平台資源標題層級與直接雞兔問題主題參考，不代表學校採用版本或正式段考範圍。"
+    },
+    {
+      "id": "knsh-g6-natural-114-6a-u2-schoolplan-gengliao",
+      "publisher": "knsh",
+      "sourceType": "official-school-adoption-curriculum-plan",
+      "sourceUrl": "https://course.cyc.edu.tw/upfile/course114/sub1/15925383328445396.pdf",
+      "sourceTitle": "嘉義縣六腳鄉更寮國民小學－114學年度第一／二學期六年級普通班自然領域課程計畫（康軒版第十一冊）",
+      "verifiedAt": "2026-11-18",
+      "verificationStatus": "source-checked",
+      "verifiedScope": "114學年度第一學期六年級普通班自然科、康軒版第十一冊；第二單元水溶液，活動1-1水溶液是一種混合物、活動1-2溶解後物質的分離（含從食鹽水中分離食鹽）。",
+      "notes": "嘉義縣六腳鄉更寮國民小學課程計畫案例，不代表使用者學校採用版本；只支持年級、科目、學期、冊別與單元層級對照。"
     }
   ],
   "classificationAudit": {
@@ -3953,6 +3968,33 @@
       "previousSourceStatus": "source-unavailable",
       "newSourceStatus": "source-checked",
       "result": "重新開啟113康軒官方自然教材簡介PDF成功；恢復六下既有單元二／三來源狀態，新增六上單元二水溶液／混合物分離映射。此前已改用114版官方來源的13題保持不變。"
+    },
+    {
+      "date": "2026-11-18",
+      "type": "official-source-replacement-after-404",
+      "mappingIds": [
+        "knsh-g6-natural-113-6a-u2-solution-separation",
+        "knsh-g6-natural-114-6a-u2-solution-schoolplan-gengliao"
+      ],
+      "affectedQuestionIds": [
+        "b15-030",
+        "b34-031",
+        "b36-034",
+        "b38-040",
+        "b39-041",
+        "b40-041"
+      ],
+      "oldSourceUrl": "https://945cloud.knsh.com.tw/e/promo/show/upload/material/4/113%281%29%E8%87%AA%E7%84%B6%E9%A0%98%E5%9F%9F%E6%96%87%E5%AE%A3-%E8%B7%A8%E9%A0%81.pdf",
+      "oldSourceStatus": "source-unavailable-404",
+      "replacementSources": [
+        {
+          "sourceUrl": "https://course.cyc.edu.tw/upfile/course114/sub1/15925383328445396.pdf",
+          "sourceTitle": "嘉義縣六腳鄉更寮國民小學－114學年度第一／二學期六年級普通班自然領域課程計畫（康軒版第十一冊）",
+          "sourceType": "official-school-adoption-curriculum-plan",
+          "verificationStatus": "source-checked"
+        }
+      ],
+      "result": "六題改用114學年度更寮國小六年級自然課程計畫的康軒第十一冊水溶液單元層級映射；該校採用案例不代表使用者學校。新增b39-041映射，未推定段考，未新增題目。"
     }
   ],
   "batch40UsageAudit": {
@@ -4169,14 +4211,14 @@
     "pullRequestUrl": "https://github.com/toyoyogo-cloud/xiaoyu-xiaoyu-learning-app/pull/6"
   },
   "mappingVerificationStatusCountsBatches08to41": {
-    "source-checked": 707,
-    "_total": 707
+    "source-checked": 710,
+    "_total": 710
   },
   "publisherReferenceCountsBatches08to41": {
     "nani": 72,
     "hanlin": 461,
-    "knsh": 174,
-    "_total": 707
+    "knsh": 177,
+    "_total": 710
   },
   "mappingVerificationStatusCountsBatches30to41": {
     "source-checked": 541,
@@ -9729,6 +9771,41 @@
       ],
       "questionCount": 24,
       "notes": "重新核對南一TPACK兩筆六下數學資源。基準量與比較量頁面標示分享者及單位為南一書局；雞兔問題頁面雖在南一官方平台，但分享者／單位為高師大，故明確改標平台使用者上傳資源，避免誤稱南一官方編寫教材。只保留資源標題層級對照，不推定正式課本目次或段考。"
+    },
+    {
+      "runId": "2026-11-18-g6-natural-water-solution-schoolplan-source-replacement-01",
+      "verifiedAt": "2026-11-18",
+      "sourceChecks": [
+        {
+          "publisher": "knsh",
+          "mappingIds": [
+            "knsh-g6-natural-113-6a-u2-solution-separation"
+          ],
+          "sourceUrl": "https://945cloud.knsh.com.tw/e/promo/show/upload/material/4/113%281%29%E8%87%AA%E7%84%B6%E9%A0%98%E5%9F%9F%E6%96%87%E5%AE%A3-%E8%B7%A8%E9%A0%81.pdf",
+          "sourceTitle": "113康軒國小教材簡介－自然領域文宣",
+          "httpStatus": 404,
+          "verificationStatus": "source-unavailable",
+          "verifiedScope": "本輪重新開啟回應404；不再用於現行單題映射。"
+        },
+        {
+          "publisher": "knsh",
+          "mappingIds": [
+            "knsh-g6-natural-114-6a-u2-solution-schoolplan-gengliao"
+          ],
+          "sourceUrl": "https://course.cyc.edu.tw/upfile/course114/sub1/15925383328445396.pdf",
+          "sourceTitle": "嘉義縣六腳鄉更寮國民小學－114學年度第一／二學期六年級普通班自然領域課程計畫（康軒版第十一冊）",
+          "sourceType": "official-school-adoption-curriculum-plan",
+          "httpStatus": 200,
+          "verificationStatus": "source-checked",
+          "verifiedScope": "114學年度第一學期六年級自然、康軒版第十一冊、第二單元水溶液；活動1-1及1-2含混合物與溶解後物質分離。此為更寮國小採用案例，不代表使用者學校。"
+        }
+      ],
+      "questionRecordsUpdated": 6,
+      "publisherMappingReferencesReplaced": 5,
+      "publisherMappingReferencesAdded": 1,
+      "semesterAssignments": 1,
+      "examPeriodAssignments": 0,
+      "notes": "舊113官方PDF本輪無法取得，相關六題統一改用可讀取的114學年度學校課程計畫案例；不將該校採用版本宣稱為使用者學校。"
     }
   ],
   "high2MathCourseTrackAudit": {
@@ -10640,8 +10717,8 @@
     "missingRequiredFields": 0,
     "invalidClassificationValues": 0,
     "semester": {
-      "unassigned": 2162,
-      "上學期": 498,
+      "unassigned": 2161,
+      "上學期": 499,
       "下學期": 164,
       "全學年": 76
     },
@@ -10652,77 +10729,75 @@
       "第三次段考": 91
     },
     "classificationBasis": {
-      "curriculum-core": 2147,
-      "publisher-source-verified": 487,
+      "curriculum-core": 2146,
+      "publisher-source-verified": 488,
       "question-bank-inference": 250,
       "unassigned": 16
     },
     "confidence": {
-      "low": 2036,
-      "medium": 826,
+      "low": 2035,
+      "medium": 827,
       "high": 38
     },
     "publisherStatus": {
-      "curriculum-core": 2277,
-      "publisher-mapped": 601,
+      "curriculum-core": 2276,
+      "publisher-mapped": 602,
       "pending": 22
     },
-    "publisherMappedQuestionCount": 601,
-    "publisherMappingReferenceCount": 709,
-    "validPublisherMappingReferenceCount": 709,
+    "publisherMappedQuestionCount": 602,
+    "publisherMappingReferenceCount": 710,
+    "validPublisherMappingReferenceCount": 710,
     "publisherReferenceCounts": {
       "nani": 72,
       "hanlin": 461,
-      "knsh": 176,
-      "_total": 709
+      "knsh": 177,
+      "_total": 710
     },
     "validPublisherReferenceCounts": {
       "nani": 72,
       "hanlin": 461,
-      "knsh": 176,
-      "_total": 709
+      "knsh": 177,
+      "_total": 710
     },
     "mappingLevelCounts": {
       "official-resource-title": 77,
-      "unit": 485,
+      "unit": 486,
       "volume": 147,
-      "_total": 709
+      "_total": 710
     },
     "validMappingLevelCounts": {
       "official-resource-title": 77,
-      "unit": 485,
+      "unit": 486,
       "volume": 147,
-      "_total": 709
+      "_total": 710
     },
     "mappingVerificationStatus": {
-      "source-checked": 709,
-      "_total": 709
+      "source-checked": 710,
+      "_total": 710
     },
     "mappingReferenceErrors": 0,
     "mappingSourceFieldErrors": 0,
-    "sourceBatchShaMatches": 34,
-    "sourceBatchShaTotal": 34,
-    "sourceBatchShaMismatches": 0,
+    "mappingScopeErrors": 0,
     "duplicateQuestionIds": 0,
     "missingClassificationCount": 0,
-    "semesterAssignedQuestionCount": 738,
-    "semesterUnassignedQuestionCount": 2162,
+    "semesterAssignedQuestionCount": 739,
+    "semesterUnassignedQuestionCount": 2161,
     "examAssignedQuestionCount": 227,
     "examUnassignedQuestionCount": 2673,
     "classificationBasisCounts": {
-      "curriculum-core": 2147,
-      "publisher-source-verified": 487,
+      "curriculum-core": 2146,
+      "publisher-source-verified": 488,
       "question-bank-inference": 250,
       "unassigned": 16
     },
     "confidenceCounts": {
-      "low": 2036,
-      "medium": 826,
+      "low": 2035,
+      "medium": 827,
       "high": 38
     },
     "publisherStatusCounts": {
-      "curriculum-core": 2277,
-      "publisher-mapped": 601,
+      "curriculum-core": 2276,
+      "publisher-mapped": 602,
       "pending": 22
     },
     "sourceUnavailableMappingReferenceCount": 0,
@@ -10734,8 +10809,8 @@
         "高二": 974
       },
       "semester": {
-        "unassigned": 1126,
-        "上學期": 498,
+        "unassigned": 1125,
+        "上學期": 499,
         "下學期": 164,
         "全學年": 76
       },
@@ -10746,33 +10821,32 @@
         "第三次段考": 91
       },
       "publisherStatus": {
-        "curriculum-core": 1241,
-        "publisher-mapped": 601,
+        "curriculum-core": 1240,
+        "publisher-mapped": 602,
         "pending": 22
       },
       "classificationBasis": {
-        "curriculum-core": 1111,
-        "publisher-source-verified": 487,
+        "curriculum-core": 1110,
+        "publisher-source-verified": 488,
         "question-bank-inference": 250,
         "unassigned": 16
       },
       "confidence": {
-        "low": 1000,
-        "medium": 826,
+        "low": 999,
+        "medium": 827,
         "high": 38
       },
-      "publisherMappedQuestionCount": 601,
-      "publisherMappingReferenceCount": 709,
+      "publisherMappedQuestionCount": 602,
+      "publisherMappingReferenceCount": 710,
       "publisherReferenceCounts": {
         "nani": 72,
         "hanlin": 461,
-        "knsh": 176,
-        "_total": 709
+        "knsh": 177
       }
     },
     "activeScopeSemesterCounts": {
-      "unassigned": 1126,
-      "上學期": 498,
+      "unassigned": 1125,
+      "上學期": 499,
       "下學期": 164,
       "全學年": 76
     },
@@ -10783,54 +10857,45 @@
       "第三次段考": 91
     },
     "activeScopePublisherStatusCounts": {
-      "curriculum-core": 1241,
-      "publisher-mapped": 601,
+      "curriculum-core": 1240,
+      "publisher-mapped": 602,
       "pending": 22
     },
     "activeScopeClassificationBasisCounts": {
-      "curriculum-core": 1111,
-      "publisher-source-verified": 487,
+      "curriculum-core": 1110,
+      "publisher-source-verified": 488,
       "question-bank-inference": 250,
       "unassigned": 16
     },
     "activeScopeConfidenceCounts": {
-      "low": 1000,
-      "medium": 826,
+      "low": 999,
+      "medium": 827,
       "high": 38
     },
-    "activeScopePublisherMappedQuestionCount": 601,
-    "activeScopePublisherMappingReferenceCount": 709,
-    "sourceRegistryCount": 85,
+    "activeScopePublisherMappedQuestionCount": 602,
+    "activeScopePublisherMappingReferenceCount": 710,
+    "sourceRegistryCount": 86,
     "sourceRegistryVerificationStatusCounts": {
       "source-checked": 83,
       "pending": 1,
-      "source-unavailable": 1
+      "source-unavailable": 2
     },
-    "mappingScopeErrors": 0,
     "centralMappingRegistryCount": 67,
     "inferenceMappingRegistryCount": 67,
-    "high2MathTrackCounts": {
-      "數學A": 84,
-      "數學B": 0,
-      "未標示軌別": 128,
-      "全部軌別": 212
-    },
     "allModeQuestionCount": 1864,
-    "curriculumCoreModeQuestionCount": 1241,
+    "curriculumCoreModeQuestionCount": 1240,
     "pendingModeQuestionCount": 22,
     "targetedFilterCombinationsTested": 18,
     "targetedFilterErrors": 0,
     "publisherMappingLeaks": 0,
     "browserOrMobileRuntimeTested": false,
-    "fullFilterMatrixTested": false,
-    "curriculumCoreQuestionCount": 2277,
-    "pendingQuestionCount": 22
+    "fullFilterMatrixTested": false
   },
   "mappingLevelCountsBatches08to41": {
     "official-resource-title": 77,
-    "unit": 483,
+    "unit": 486,
     "volume": 147,
-    "_total": 707
+    "_total": 710
   },
   "mainClassificationAuditHistory": [
     {
@@ -13119,7 +13184,7 @@
       "unitLevelClaimed": false
     }
   },
-  "classificationRuleVersion": "2026-11-18.120",
+  "classificationRuleVersion": "2026-11-18.121",
   "classificationPersistenceRunsRecovery": {
     "repairedAt": "2026-11-16",
     "previousLength": 337,
@@ -13186,62 +13251,39 @@
     "notes": "本輪新增b21-072行政聽證程序1題；翰林官方跨版本表對應第9單元及2-3章，官方參考內容明列聽證權，課本商品頁確認高二公民上學期。段考維持unassigned；不代表學校採用版本或教師審核。"
   },
   "latestSourceAvailabilityAudit": {
-    "runId": "2026-11-17-knsh-g6-natural-114-source-replacement-01",
-    "verifiedAt": "2026-11-17",
+    "runId": "2026-11-18-g6-natural-water-solution-schoolplan-source-replacement-01",
+    "verifiedAt": "2026-11-18",
     "sourceChecks": [
       {
         "publisher": "knsh",
         "mappingIds": [
-          "knsh-g6-natural-114-6b-u1-simple-machines",
-          "knsh-g6-natural-114-6b-u2-energy-life",
-          "knsh-g6-natural-114-6b-u3-ecology"
+          "knsh-g6-natural-113-6a-u2-solution-separation"
         ],
-        "sourceUrl": "https://945cloud.knsh.com.tw/E/promo/Show/upload/material/4/114%281%29%E8%87%AA%E7%84%B6%E9%A0%98%E5%9F%9F%E6%96%87%E5%AE%A3.pdf",
-        "sourceTitle": "114康軒國小教材特色－自然領域文宣",
+        "sourceUrl": "https://945cloud.knsh.com.tw/e/promo/show/upload/material/4/113%281%29%E8%87%AA%E7%84%B6%E9%A0%98%E5%9F%9F%E6%96%87%E5%AE%A3-%E8%B7%A8%E9%A0%81.pdf",
+        "sourceTitle": "113康軒國小教材簡介－自然領域文宣",
         "httpStatus": 404,
         "verificationStatus": "source-unavailable",
-        "verifiedScope": "原PDF連結重新開啟回應404，不再用於現行出版社映射。"
+        "verifiedScope": "本輪重新開啟回應404；不再用於現行單題映射。"
       },
       {
         "publisher": "knsh",
         "mappingIds": [
-          "knsh-g6-natural-114-6b-u1-simple-machines",
-          "knsh-g6-natural-114-6b-u2-energy-life"
+          "knsh-g6-natural-114-6a-u2-solution-schoolplan-gengliao"
         ],
-        "sourceUrl": "https://digitalmaster.knsh.com.tw/el/nature/digital2-midterm/",
-        "sourceTitle": "康軒文教事業－114學年度下學期國小自然數位服務（期中）",
+        "sourceUrl": "https://course.cyc.edu.tw/upfile/course114/sub1/15925383328445396.pdf",
+        "sourceTitle": "嘉義縣六腳鄉更寮國民小學－114學年度第一／二學期六年級普通班自然領域課程計畫（康軒版第十一冊）",
+        "sourceType": "official-school-adoption-curriculum-plan",
         "httpStatus": 200,
         "verificationStatus": "source-checked",
-        "verifiedScope": "康軒官方114學年度下學期高年級數位服務列單元一簡單機械及單元二能量與生活資源。"
-      },
-      {
-        "publisher": "knsh",
-        "mappingIds": [
-          "knsh-g6-natural-114-6b-u3-ecology"
-        ],
-        "sourceUrl": "https://digitalmaster.knsh.com.tw/el/nature/digital2-final/",
-        "sourceTitle": "康軒文教事業－114學年度下學期國小自然數位服務（期末）",
-        "httpStatus": 200,
-        "verificationStatus": "source-checked",
-        "verifiedScope": "康軒官方114學年度下學期高年級數位服務列單元三生態、食物鏈、能量傳遞、生物多樣性及外來種資源。"
-      },
-      {
-        "publisher": "knsh",
-        "mappingIds": [
-          "knsh-g6-natural-114-6b-u1-simple-machines",
-          "knsh-g6-natural-114-6b-u2-energy-life",
-          "knsh-g6-natural-114-6b-u3-ecology"
-        ],
-        "sourceUrl": "https://course.cyc.edu.tw/upfile/course114/sub1/15937166927547299.pdf",
-        "sourceTitle": "嘉義縣鹿草鄉後塘國民小學－114學年度第二學期六年級普通班自然科學領域課程計畫（康軒版第十二冊）",
-        "httpStatus": 200,
-        "verificationStatus": "source-checked",
-        "verifiedScope": "該校114學年度第二學期六年級自然課程計畫明列康軒版第十二冊及單元一、二、三。"
+        "verifiedScope": "114學年度第一學期六年級自然、康軒版第十一冊、第二單元水溶液；活動1-1及1-2含混合物與溶解後物質分離。此為更寮國小採用案例，不代表使用者學校。"
       }
     ],
-    "questionRecordsUpdated": 30,
-    "publisherMappingReferencesUpdated": 30,
-    "newQuestionsAdded": 0
+    "questionRecordsUpdated": 6,
+    "publisherMappingReferencesReplaced": 5,
+    "publisherMappingReferencesAdded": 1,
+    "semesterAssignments": 1,
+    "examPeriodAssignments": 0,
+    "notes": "舊113官方PDF本輪無法取得，相關六題統一改用可讀取的114學年度學校課程計畫案例；不將該校採用版本宣稱為使用者學校。"
   },
   "filterValidation": {
     "date": "2026-11-17",
@@ -14008,11 +14050,11 @@
     "mappingSourceFieldErrors": 0,
     "mappingScopeErrors": 0
   },
-  "sourceRegistryCount": 85,
+  "sourceRegistryCount": 86,
   "sourceRegistryVerificationStatusCounts": {
     "source-checked": 83,
     "pending": 1,
-    "source-unavailable": 1
+    "source-unavailable": 2
   },
   "latestGradeScopeAudit": {
     "runId": "2026-11-18-g6-natural-separation-pressure-review-01",
