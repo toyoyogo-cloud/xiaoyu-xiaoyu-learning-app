@@ -10392,6 +10392,48 @@
         "hanlin-h2-history-3-u7-cold-war"
       ],
       "notes": "重新開啟翰林高中課本歷史(3)官方商品頁與翰林高中參考書第3頁目次；將3題直接詢問冷戰初期美國圍堵政策的高二歷史題映射至單元7「冷戰期間的世界局勢」。官方課本頁確認高二歷史上學期，目次來源為出版社配套參考書，非主課本完整目次；信心medium，段考unassigned，學校採用版本及學年度未確認。"
+    },
+    {
+      "runId": "2026-11-18-g6-natural-grade-scope-audit-01",
+      "verifiedAt": "2026-11-18",
+      "questionIds": [
+        "b38-034",
+        "b38-035",
+        "b38-038",
+        "b40-038",
+        "b41-038"
+      ],
+      "sourceIds": [
+        "naer-natural-108-curriculum-pdf",
+        "naer-natural-science-course-handbook-108",
+        "educloud-density-grade78",
+        "educloud-sound-reflection-grade79",
+        "educloud-moon-phase-grade79",
+        "educloud-solar-altitude-grade56",
+        "educloud-sun-heat-grade56"
+      ],
+      "sourcesAdded": 4,
+      "questionRecordsReviewed": 5,
+      "publisherMappingsAdded": 0,
+      "notes": "新增四筆教育部教育雲課程階段來源。僅作年級／課綱範圍核對，不轉成出版社教材映射；密度、聲波反射及月相的正式學習內容編碼指向第四學習階段，月相另有課程手冊5–6年級教學案例，故保留待核對。"
+    },
+    {
+      "runId": "2026-11-18-g6-natural-separation-pressure-review-01",
+      "verifiedAt": "2026-11-18",
+      "questionIds": [
+        "b38-040",
+        "b38-041"
+      ],
+      "sourceIds": [
+        "knsh-g6-natural-113-curriculum-brochure",
+        "naer-natural-atmospheric-pressure-grade-scope"
+      ],
+      "sourcesAdded": 1,
+      "questionRecordsReviewed": 2,
+      "publisherMappingsAdded": 1,
+      "semesterAssignments": 1,
+      "examPeriodAssignments": 0,
+      "notes": "b38-040依康軒113官方六上單元二水溶液／物質分離目次建立單元映射；b38-041依國教院愛學網Ec-IV-1第四學習階段資料列為年級待核對，保留原始年級及未分類學期／段考。"
     }
   ],
   "latestMainAudit": {
@@ -13872,12 +13914,21 @@
   },
   "latestCurriculumScopeAudit": {
     "runId": "2026-11-18-g6-natural-separation-pressure-review-01",
+    "verifiedAt": "2026-11-18",
     "questionIds": [
+      "b38-040",
       "b38-041"
     ],
-    "sourceId": "naer-natural-atmospheric-pressure-grade-scope",
-    "updatedQuestionCount": 1,
-    "notes": "大氣壓力的官方課程來源指向第四學習階段，保留原始國小六年級標籤並列待核對。"
+    "sourceIds": [
+      "knsh-g6-natural-113-curriculum-brochure",
+      "naer-natural-atmospheric-pressure-grade-scope"
+    ],
+    "sourcesAdded": 1,
+    "questionRecordsReviewed": 2,
+    "publisherMappingsAdded": 1,
+    "semesterAssignments": 1,
+    "examPeriodAssignments": 0,
+    "notes": "b38-040依康軒113官方六上單元二水溶液／物質分離目次建立單元映射；b38-041依國教院愛學網Ec-IV-1第四學習階段資料列為年級待核對，保留原始年級及未分類學期／段考。"
   },
   "high2MathCourseTrackAuditHistory": [
     {

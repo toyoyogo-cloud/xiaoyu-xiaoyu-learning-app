@@ -3377,7 +3377,8 @@
   },
   "latestCurriculumScopeAudit": {
     "runId": "2026-11-18-g6-natural-separation-pressure-review-01",
-    "updatedQuestionIds": [
+    "verifiedAt": "2026-11-18",
+    "questionIds": [
       "b38-040",
       "b38-041"
     ],
@@ -3385,7 +3386,16 @@
       "knsh-g6-natural-113-curriculum-brochure",
       "naer-natural-atmospheric-pressure-grade-scope"
     ],
-    "notes": "六年級自然物質分離教材映射；大氣壓力年級範圍待核對。"
+    "sourcesAdded": 1,
+    "questionRecordsReviewed": 2,
+    "publisherMappingsAdded": 1,
+    "semesterAssignments": 1,
+    "examPeriodAssignments": 0,
+    "notes": "六年級自然物質分離教材映射；大氣壓力年級範圍待核對。",
+    "updatedQuestionIds": [
+      "b38-040",
+      "b38-041"
+    ]
   },
   "activeScopeConfidenceCounts": {
     "low": 1017,
@@ -3734,6 +3744,65 @@
       },
       "validationMethod": "重新讀取main第08–41批34個原始題庫檔、六個持久分類分片、教材對照中央映射、推定器與index.html；依getPool現行語義執行16組定向資料層測試。不是瀏覽器／手機實機測試，也不是全庫所有年級／科目／單元的完整矩陣。",
       "notes": "b38-040直接對應康軒113六上單元二「水溶液」之混合物／物質分離，僅新增康軒單元層級映射；段考維持unassigned。b38-041涉及大氣壓力，國家教育研究院愛學網資源列Ec-IV-1第四學習階段，故將出版社狀態改為pending、分類依據改為unassigned，保留原始年級與題目，待教師或原始來源確認。沒有新增題目、沒有改原始題幹／選項／答案／解析，不宣稱教師審核或學校採用版本。"
+    }
+  ],
+  "curriculumScopeAuditHistory": [
+    {
+      "runId": "2026-11-18-g6-natural-grade-scope-audit-01",
+      "verifiedAt": "2026-11-18",
+      "questionIds": [
+        "b38-034",
+        "b38-035",
+        "b38-038",
+        "b40-038",
+        "b41-038"
+      ],
+      "questionRecordsReviewed": 5,
+      "recordsMovedToPending": 1,
+      "publisherMappingsAdded": 0,
+      "semesterAssignments": 0,
+      "examPeriodAssignments": 0,
+      "newQuestionsAdded": 0,
+      "sourceRegistryCount": 76,
+      "sourceRegistryStatus": {
+        "source-checked": 74,
+        "pending": 1,
+        "source-unavailable": 1
+      },
+      "notes": "年級範圍證據不足或來源訊號不一致的題目保留待核對；原始題目年級與內容未修改。",
+      "reviewedPendingCount": 5,
+      "fullCorpusPendingCount": 21,
+      "sourceIds": [
+        "naer-natural-108-curriculum-pdf",
+        "naer-natural-science-course-handbook-108",
+        "educloud-density-grade78",
+        "educloud-sound-reflection-grade79",
+        "educloud-moon-phase-grade79",
+        "educloud-solar-altitude-grade56",
+        "educloud-sun-heat-grade56"
+      ]
+    },
+    {
+      "runId": "2026-11-18-g6-natural-separation-pressure-review-01",
+      "verifiedAt": "2026-11-18",
+      "questionIds": [
+        "b38-040",
+        "b38-041"
+      ],
+      "sourceIds": [
+        "knsh-g6-natural-113-curriculum-brochure",
+        "naer-natural-atmospheric-pressure-grade-scope"
+      ],
+      "sourcesAdded": 1,
+      "questionRecordsReviewed": 2,
+      "publisherMappingsAdded": 1,
+      "semesterAssignments": 1,
+      "examPeriodAssignments": 0,
+      "notes": "六年級自然物質分離教材映射；大氣壓力年級範圍待核對。",
+      "updatedQuestionIds": [
+        "b38-040",
+        "b38-041"
+      ]
     }
   ]
 }
